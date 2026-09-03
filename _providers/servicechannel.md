@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 368
   human_in_the_loop: 9
@@ -373,7 +373,7 @@ apis:
   description: The WorkRequests API from ServiceChannel — 13 operation(s) for workrequests.
   name: ServiceChannel WorkRequests API
   slug: servicechannel-workrequests-api
-artifact_total: 139
+artifact_total: 138
 asyncapis:
 - description: ''
   name: Servicechannel Webhooks
@@ -667,7 +667,7 @@ common:
   url: agentic-access/servicechannel-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/servicechannel-mcp.yml
 - group: agent
   title: ''
@@ -689,10 +689,6 @@ created: '2026-07-17'
 description: ServiceChannel is a facilities-management platform that lets multi-location brands automate work orders, dispatch and manage service providers, track physical assets, and process contractor invoices across restaurants, retail, grocery, healthcare, and hospitality. Its developer platform exposes a large REST API surface — the Service Automation API (v3) with 742 operations plus the Fixxbook provider-directory API — secured with OAuth2, with webhook notifications, a documented error-code registry, and a public developer portal. Added to the API Evangelist network from an accel portfolio lead and enriched from the live developer surface.
 image: https://www.servicechannel.com/wp-content/uploads/2022/09/ServiceChannel-logo-simple.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ServiceChannel MCP Server
-  slug: servicechannel-mcp-server
 modified: '2026-07-21'
 name: ServiceChannel
 nav: Providers
@@ -739,8 +735,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/screenshots/servicechannel-2026-08-17T081815.png
 security:

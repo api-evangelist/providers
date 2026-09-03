@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: 'The Yarn command-line interface — `yarn` — provides install, add, remove, up, run, exec, dlx, info, why, pack, rebuild, dedupe, node, bin, search, upgrade-interactive, and stage commands for managing '
@@ -288,8 +288,8 @@ score:
     governance: 25.0
     operational_transparency: 21.1
   previous_composite: 26.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn-pkg/refs/heads/main/screenshots/yarn-pkg-2026-06-20T201737.png
 security:

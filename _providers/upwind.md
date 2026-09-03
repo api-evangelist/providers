@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.upwind.io
@@ -97,7 +97,7 @@ apis:
   description: The workflows API from Upwind — 2 operation(s) for workflows.
   name: Upwind workflows API
   slug: upwind-workflows-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Upwind Webhooks
@@ -309,7 +309,7 @@ common:
   url: cli/upwind-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/upwind-mcp.yml
 - group: agent
   title: ''
@@ -323,10 +323,6 @@ created: '2026-07-17'
 description: Upwind is a cloud and AI security platform (CNAPP) that secures cloud infrastructure, workloads, and applications in real time — spanning cloud security posture management (CSPM), vulnerability management, container and Kubernetes security, API security, data security posture management (DSPM), identity and entitlements (CIEM), and incident response. Its Management REST API (v1 and v2) exposes threats, vulnerabilities, configurations, cloud accounts, inventory graph search, access management, and webhook integrations, secured with OAuth 2.0 client credentials and served from US, EU, and ME regional endpoints. Backed by Craft Ventures and Greylock.
 image: https://github.com/upwindsecurity.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Upwind MCP Server
-  slug: upwind-mcp-server
 modified: '2026-07-21'
 name: Upwind
 nav: Providers
@@ -376,8 +372,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/screenshots/upwind-2026-08-17T082651.png
 security:

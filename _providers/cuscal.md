@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Part of Cuscal's CMS REST API family for card issuers. Enables instant digital card issuance and provisioning of cards into mobile and digital wallets (the 'Pays') for online and in-store transactions
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuscal/refs/heads/main/screenshots/cuscal-2026-07-25T211000.png
 security:

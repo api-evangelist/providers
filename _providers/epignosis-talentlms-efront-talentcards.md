@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ apis:
   description: The User Type API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for user type.
   name: Epignosis (TalentLMS, eFront, TalentCards) User Type API
   slug: epignosis-talentlms-efront-talentcards-user-type-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -282,7 +282,7 @@ common:
   url: security/epignosis-talentlms-efront-talentcards-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/epignosis-talentlms-efront-talentcards-mcp.yml
 - group: agent
   title: ''
@@ -300,10 +300,6 @@ created: '2026-07-17'
 description: 'Epignosis is a learning-technology company serving more than 70,000 organizations worldwide with a family of cloud training products: TalentLMS (an all-in-one LMS for growing businesses), eFront (a flexible enterprise LMS), TalentCards (mobile-first microlearning for deskless workers) and TalentHR. Each product exposes a REST API for managing users, courses, groups, branches, enrollments, and reporting. The TalentLMS API is a JSON REST API scoped to a per-tenant subdomain with API-key HTTP Basic auth and per-plan hourly rate limits; eFront publishes an OpenAPI 3.0 definition on SwaggerHub; TalentCards ships a PHP API wrapper. Epignosis holds ISO/IEC 27001:2022, ISO 9001:2015, CSA STAR Level 1 and is GDPR compliant.'
 image: https://www.epignosishq.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Epignosis (TalentLMS, eFront, TalentCards) MCP Server
-  slug: epignosis-talentlms-efront-talentcards-mcp-server
 modified: '2026-07-19'
 name: Epignosis (TalentLMS, eFront, TalentCards)
 nav: Providers
@@ -352,8 +348,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/screenshots/epignosis-talentlms-efront-talentcards-2026-07-25T213519.png
 security:

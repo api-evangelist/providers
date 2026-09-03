@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
   description: The authenticated user record — the credential-verification endpoint. 1 operation(s).
   name: Nimble Users API
   slug: nimble-users-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -236,7 +236,7 @@ common:
   url: packages/nimble-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nimble-mcp.yml
 - group: agent
   title: ''
@@ -258,10 +258,6 @@ created: '2026-05-11'
 description: Nimble is a relationship-focused CRM that unifies contacts, communications, social profiles, calendar and email into a single shared record for small businesses and whole-company teams. Founded in 2010 by GoldMine co-founder Jon Ferrara and headquartered in Santa Monica, California, the platform combines contact management, sales pipelines, email marketing, sequences, web forms, web chat and workflow automation, and enriches contact profiles automatically from email, calendar, social and web data. Nimble publishes a full OpenAPI 3.0.0 contract for its REST API — 89 operations over contacts, user-definable contact fields, contact and deal pipelines, deals, leads, activities, tasks and messages — authenticated with an account API key or OAuth 2.0 authorization_code.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimble.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nimble MCP Server
-  slug: nimble-mcp-server
 modified: '2026-08-13'
 name: Nimble
 nav: Providers
@@ -313,8 +309,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/screenshots/nimble-2026-08-17T124228.png
 security:

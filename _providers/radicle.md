@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://seed.radicle.xyz/api/v1
@@ -71,7 +71,7 @@ apis:
   description: Aggregate node statistics
   name: Radicle Stats API
   slug: radicle-stats-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -200,7 +200,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/radicle-mcp.yml
 - group: commercial
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: 'Radicle is a sovereign, peer-to-peer code collaboration stack built on Git, developed by Radicle (radicle.dev) and backed by Electric Capital. Instead of relying on a central host, every user runs their own node, and repositories, issues and patches replicate across the network as cryptographically-signed Collaborative Objects (COBs). The stack ships the `rad` command-line tooling, the Heartwood protocol and node, a terminal UI, a desktop app, and a web explorer. Each node can run `radicle-httpd`, a lightweight HTTP daemon that exposes a read-oriented JSON API over the node''s storage — repositories, issues, patches, commits, source trees, node info and network statistics — which powers the Radicle web explorer and third-party tooling. Identity is key-based (DIDs / did:key), so there are no accounts, passwords or platform lock-in. This profile was enriched from Radicle''s public surface: the live seed node API, the security.txt, the Heartwood source, and the CLI manuals.'
 image: https://radicle.dev/assets/images/radicle.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Radicle MCP Server
-  slug: radicle-mcp-server
 modified: '2026-07-20'
 name: Radicle
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/screenshots/radicle-2026-08-17T081437.png
 security:

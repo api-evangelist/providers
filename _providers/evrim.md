@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-09-02'
+  score: 21.8
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.evrim.ai
@@ -333,8 +333,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/screenshots/evrim-2026-07-25T213819.png
 security:

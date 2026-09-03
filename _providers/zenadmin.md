@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://console.zenadmin.ai/api/external
@@ -66,7 +66,7 @@ apis:
   description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
   name: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Zenadmin Webhooks
@@ -100,7 +100,7 @@ common:
   url: skills/zenadmin-inventory-devices-employees.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zenadmin-mcp.yml
 - group: other
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 IT support across 150+ countries. ZenAdmin publishes an External API v1 (documented at docs.zenadmin.ai) for programmatic access to devices, hardware orders, a hardware catalog, employees, and outbound webhooks. Authentication is a per-key API key sent via the x-api-key header. This profile was originally surfaced as a 500 Global portfolio company and has been enriched from the live developer documentation.'
 image: https://www.zenadmin.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: 'Candidate Model Context Protocol tool surface DERIVED from the ZenAdmin External API v1 operations. ZenAdmin does not publish an official hosted/remote MCP server as of the enrichment date; this is a '
-  name: ZenAdmin MCP Server
-  slug: zenadmin-mcp-server
 modified: '2026-07-21'
 name: ZenAdmin
 nav: Providers
@@ -198,8 +194,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/screenshots/zenadmin-2026-09-02T171553.png
 security:

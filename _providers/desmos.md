@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Client-side JavaScript API for embedding interactive Desmos calculators (Graphing, 3D, Geometry, Scientific, Four-Function) into web pages and apps, controlled through a browser object model.
@@ -159,8 +159,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desmos/refs/heads/main/screenshots/desmos-2026-07-25T211755.png
 security:

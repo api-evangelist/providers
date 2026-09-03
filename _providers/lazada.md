@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - description: 'Seller authorization flow: a Lazada seller grants a registered Lazada Open Platform app permission to call Lazada APIs on their shop''s behalf, issuing access and refresh tokens scoped per region.'
@@ -162,8 +162,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/screenshots/lazada-2026-06-20T184341.png
 security:

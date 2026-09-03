@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.movebank.com.au/'', ''status'': 301, ''note'': ''declared website redirects to https://move.bank/ — a different registrable domain (movebank.com.au -> move.bank), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,7 +83,7 @@ arazzos:
 - description: List MOVE Bank's public CDR banking products then fetch full detail for the first one — an unauthenticated, forkable Product Reference Data walkthrough.
   name: Discover MOVE Bank banking products
   slug: move-bank-discover-products
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +156,7 @@ common:
   url: lifecycle/move-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/move-bank-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +218,6 @@ created: '2026-07-20'
 description: MOVE Bank is a 100% customer-owned Australian mutual bank operated by MoveBank Ltd (ABN 91 087 651 090, AFSL/Australian credit licence 234 536), headquartered in Brisbane, Queensland. Founded in 1968 as Railways Credit Union to serve railway workers and their families, it rebranded to MOVE Bank in 2018 to serve the broader transport and logistics community nationally, and today manages more than $750 million in assets across transaction and savings accounts, term deposits, home and personal loans, and insurance. As an authorised deposit-taking institution, MOVE Bank participates in Australia's Consumer Data Right (CDR / Open Banking) as a data holder, exposing a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body's Consumer Data Standards, alongside the accredited, consent-based consumer data sharing surface governed by the CDR security profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/move-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MOVE Bank MCP Server
-  slug: move-bank-mcp-server
 modified: '2026-07-21'
 name: MOVE Bank
 nav: Providers
@@ -270,8 +267,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:

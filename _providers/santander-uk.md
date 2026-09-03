@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ apis:
   description: The Transactions API from Santander UK — 2 operation(s) for transactions.
   name: Santander UK Transactions API
   slug: santander-uk-transactions-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
@@ -243,7 +243,7 @@ common:
   url: overlays/santander-uk-confirmation-funds-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/santander-uk-mcp.yml
 - group: agent
   title: ''
@@ -330,10 +330,6 @@ description: Santander UK plc is a major British retail and commercial bank and 
   with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Santander UK MCP Server
-  slug: santander-uk-mcp-server
 modified: '2026-07-23'
 name: Santander UK
 nav: Providers
@@ -387,8 +383,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/santander-uk/refs/heads/main/screenshots/santander-uk-2026-09-02T154404.png
 security:

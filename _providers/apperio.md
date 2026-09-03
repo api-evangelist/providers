@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.apperio.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.persuit.com/apperio-transfer — a different registrable domain (apperio.com -> persuit.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -68,7 +69,7 @@ apis:
   description: The users endpoints allow you to manage your API tokens. Tokens are used to authenticate requests to the Apperio API. You can list your existing tokens, delete tokens that are no longer needed, and ac
   name: Apperio Users API
   slug: apperio-users-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +164,7 @@ common:
   url: security/apperio-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apperio-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +206,6 @@ created: '2026-07-17'
 description: Apperio is a legal spend management and matter management platform for in-house legal teams and the law firms they work with. It connects directly to law-firm time-and-billing systems to give continuous, real-time visibility into billed and unbilled ("work in progress") legal spend, benchmarking to negotiate rates, and AI-assisted e-billing review against Outside Counsel Guidelines. The Apperio REST API exposes the same secure data that powers the platform's analytics — legal-spend analytics, matter (engagement) and invoice discovery, matter tagging, and e-billing invoice approval workflows — across its two-sided business/law-firm model. Apperio is a Seedcamp portfolio company and is now part of Persuit.
 image: https://developer.apperio.com/static/favicon-32x32.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the Apperio OpenAPI operations. Apperio publishes no official hosted/remote MCP server; this is a governance starting point mapping each REST operation to a pro
-  name: Apperio MCP Server
-  slug: apperio-mcp-server
 modified: '2026-07-17'
 name: Apperio
 nav: Providers
@@ -251,8 +248,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/screenshots/apperio-2026-07-25T200728.png
 security:

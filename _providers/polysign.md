@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -89,7 +89,7 @@ apis:
 - description: The utility API from PolySign — 5 operation(s) for utility.
   name: PolySign Utility API
   slug: polysign-utility-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: https://apis.io/providers/ripple/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/polysign-mcp.yml
 - group: other
   title: ''
@@ -246,10 +246,6 @@ created: '2026-08-02'
 description: PolySign, Inc. is an Oakland / San Francisco / New York financial technology company building blockchain-enabled infrastructure for institutional digital asset capital markets and payments. Founded by Arthur Britto, David Schwartz and Jack McDonald, PolySign operates a third-generation permissioned blockchain and the AtomicNet settlement network, and was the parent of Standard Custody & Trust Company, the NYDFS-regulated digital asset custody, trading and settlement platform acquired by Ripple in 2024. PolySign publishes three OpenAPI 3.0.3 contracts for AtomicNet — the AtomicNet API Server (node interface for assets, orders, escrow and beneficiary authorizations, settlements, settlement confirmations, book transfers, partners and investors), the AtomicNet Merchant Gate Node, and the AtomicNet ABC Proxy Service (account registration, digest memorialization, signing and testnet faucet) — all authenticated with OAuth 2.0 client credentials issued by a PolySign-hosted token endpoint.
 image: https://www.polysign.io/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PolySign MCP Server
-  slug: polysign-mcp-server
 modified: '2026-08-02'
 name: PolySign
 nav: Providers
@@ -298,8 +294,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/screenshots/polysign-2026-09-02T151711.png
 security:

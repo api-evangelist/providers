@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public GraphQL API over DSCVR's SocialFi graph. Query users (by id or username), portals (by id or slug), content (posts and comments), on-chain wallets, reactions, and unpack Frame messages. Currentl
   name: DSCVR API
   slug: dscvr-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -107,7 +107,7 @@ common:
   url: sandbox/dscvr-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dscvr-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: DSCVR (pronounced "discover") is a Web3 social platform that blends a Web2-style social experience with crypto-native ownership, monetization, and distribution. Users post and interact inside token-gated communities called Portals, earn DSCVR Points and daily streaks, and connect on-chain wallets across Solana and the Internet Computer. For developers, DSCVR exposes a public GraphQL API over its SocialFi graph — users, portals, content, wallets, reactions, and frame messages — alongside the DSCVR Canvas / Frames framework for embedding interactive mini-apps directly into the social feed, all backed by first-party TypeScript SDKs.
 image: https://dscvr.one/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: DSCVR MCP Server
-  slug: dscvr-mcp-server
 modified: '2026-07-18'
 name: DSCVR
 nav: Providers
@@ -181,8 +177,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dscvr/refs/heads/main/screenshots/dscvr-2026-07-25T212432.png
 security:

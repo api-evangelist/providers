@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Pre-qualified sales prospects.
   name: Zendesk Sell Leads API
   slug: zendesk-sell-leads-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: well-known/zendesk-sell-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zendesk-sell-mcp.yml
 - group: agent
   title: ''
@@ -249,10 +249,6 @@ graphqls:
   slug: zendesk-sell-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zendesk-sell.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zendesk Sell MCP Server
-  slug: zendesk-sell-mcp-server
 modified: '2026-08-13'
 name: Zendesk Sell
 nav: Providers
@@ -304,8 +300,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/screenshots/zendesk-sell-2026-06-20T201812.png
 security:

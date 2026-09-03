@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -640,13 +640,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.2
+  composite: 48.0
   coverage:
     artifact_dirs: 19
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.2
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -656,9 +656,6 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -667,9 +664,9 @@ score:
       derived: 25
       marker_coverage: 100.0
       total: 25
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
 security:
 - kind: authentication

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JSON-over-REST API for managing Range Teams, Users, and Check-ins (Updates). API-key (HTTP Basic) or OAuth 2.0 bearer authentication; HTTPS/TLS 1.2+ required.
   name: Range API
   slug: range-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -131,7 +131,7 @@ common:
   url: data-model/range-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/range-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Range is team-communication and collaboration software from Range Labs that centralizes how teams stay in sync. It replaces status meetings with asynchronous daily check-ins, runs meetings with shared agendas and notes, tracks OKRs and goals against daily work, and provides a team directory, connecting to 75+ workplace tools including Slack, Microsoft Teams, Zoom, GitHub, Jira, Asana, and Google Workspace. Range publishes a JSON-over-REST API (base https://api.range.co/v1) for managing Teams, Users, and Check-ins (Updates), authenticated with API keys over HTTP Basic or OAuth 2.0 bearer tokens, plus an official Node.js SDK (range-sdk). It is backed by Bloomberg Beta and Scale Venture Partners.
 image: https://www.range.co/img/apple-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Range MCP Server
-  slug: range-mcp-server
 modified: '2026-07-20'
 name: Range
 nav: Providers
@@ -192,8 +188,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/screenshots/range-2026-09-02T152838.png
 security:

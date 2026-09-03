@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful backend API for the Sigfox 0G network — manage devices, device types, contracts, groups, users and base stations; retrieve device messages; predict coverage; and configure callbacks that deliv
@@ -165,8 +165,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigfox/refs/heads/main/screenshots/sigfox-2026-09-02T155418.png
 security:

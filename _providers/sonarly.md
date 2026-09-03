@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://sonarly.com/api/v1/public
@@ -52,7 +52,7 @@ apis:
   description: Device-code style setup-session API to onboard a tenant.
   name: Sonarly Setup API
   slug: sonarly-setup-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: Sonarly delivers signed outbound webhooks on bug and incident lifecycle events. Register a receiver via POST /api/setup/webhook-endpoint (the URL is SSRF-checked; a whsec_ signing secret is returned o
   name: Sonarly Webhooks
@@ -117,7 +117,7 @@ common:
   url: conformance/sonarly-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sonarly-mcp.yml
 - group: docs
   title: ''
@@ -155,10 +155,6 @@ created: '2026-07-17'
 description: Sonarly is an AI production-reliability platform (Y Combinator W2026, Paris) that turns noisy production alerts into clear, deduplicated bug reports and ships ready-to-merge fix pull requests. It connects to a team's code (GitHub/GitLab) and their error and observability stack — Sentry, Datadog, Grafana, New Relic, SigNoz, CloudWatch, GCP, and many more — then triages every alert to remove noise and duplicates, investigates logs, traces and metrics to find the root cause, and generates a fix PR or alerting-rule recommendation. Sonarly exposes a read-only public REST API (v1) for pulling bugs, incidents and analysis runs into custom dashboards, signed outbound webhooks for live events, and a device-code style setup-session API that lets a coding agent (Claude Code, Cursor) onboard a tenant end-to-end. Onboarding is fully agent-native and documented at sonarly.com/llms.txt.
 image: https://sonarly.com/logo_sonarly.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list derived from Sonarly's read-only public REST API operations. Sonarly publishes no hosted/remote MCP server (its agent-native surface is the llms.txt onboarding guide, not MCP),
-  name: Sonarly MCP Server
-  slug: sonarly-mcp-server
 modified: '2026-07-21'
 name: Sonarly
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/screenshots/sonarly-2026-08-17T081959.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Avail platform API providing programmatic access to rental property management capabilities including listings, applications, leases, payments, and maintenance requests. Avail does not publish an offi
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

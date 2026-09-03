@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Presigned file-upload lifecycle for local-file ingestion.
   name: Adaption Labs Upload API
   slug: adaption-labs-upload-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ common:
   url: openapi/_original/adaption-labs-datasets-openapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adaption-labs-mcp.yml
 - group: design
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: Adaption Labs is a San Francisco AI research company, founded in 2025 by Sara Hooker and Sudip Roy (both formerly of Cohere), building adaptive AI systems that continuously learn from real-world interaction instead of scaling through ever-larger pretraining runs. Its Adaptive Data platform and the REST Adaption API let teams ingest, adapt, evaluate, and export model-ready training data, while AutoScientist automates the research loop behind model training and alignment. The Adaption API is available through a web app and an official Python SDK (pip install adaption). Backed by a $50M seed round led by Emergence Capital, with Threshold Ventures, Mozilla Ventures, Fifty Years, and others.
 image: https://adaptionlabs.ai/opengraph-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adaption Labs MCP Server
-  slug: adaption-labs-mcp-server
 modified: '2026-07-17'
 name: Adaption Labs
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:

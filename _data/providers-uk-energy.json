@@ -4,21 +4,21 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "66.5+",
-   "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "UK Power Networks",
      "slug": "uk-power-networks",
      "description": "UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern Power Networks (EPN) — and the Distribution System Operator function that sits on top of them. It is a poles-and-wires business: it owns the substations, cables and overhead lines, holds the network capacity and connection queue, and handles more than 70,000 connection enquiries a year, but it does not sell electricity and has no retail customer relationship to expose. Its API posture is the exact inverse of the usual utility story. Britain never legislated a consumer energy data right — there is no CDR equivalent, no Green Button obligation, and the one thing the UK did mandate was infrastructure (the Smart DCC carrying smart-meter traffic under the Smart Energy Code), which produces no public API. What did produce an API was Ofgem's Data Best Practice and digitalisation obligation on network licensees, and UK Power Networks has actually implemented it: a live Opendatasoft-hosted Open Data Portal serving 136 datasets over a documented, versioned REST API with a real OpenAPI 3.0.3 contract published at its own domain, a DCAT-AP catalogue export, and an official open-source Python client (ukpyn) on PyPI. So the split is unusually sharp and unusually positive on one side: market and network data is genuinely open and genuinely queryable — live faults, carbon intensity, embedded capacity register, substation and feeder-level smart meter aggregates, LTDS tables, flexibility dispatches, curtailment events — while consumer data is not merely closed but absent, because as a DNO it holds no billable customer account to hand over. The gate is free and self-serve rather than open: the catalogue and 36 of 136 datasets answer anonymously, but the other 99 return HTTP 403 until you register a free account and mint an API key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png",
-     "score": 67.5,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 66.0,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 59.9,
@@ -29,8 +29,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -63,18 +63,7 @@
      },
      "tier": "Network Distributors",
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
+    },
     {
      "name": "Xoserve",
      "slug": "xoserve",
@@ -93,8 +82,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -146,8 +135,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -199,8 +188,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -259,8 +248,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -312,8 +301,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -365,8 +354,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -429,8 +418,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -482,8 +471,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -535,8 +524,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -588,8 +577,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -648,8 +637,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -712,8 +701,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -765,8 +754,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -818,8 +807,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -853,7 +842,8 @@
      "tier": "Storage & Flexibility",
      "rank": 15
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "thin",
@@ -881,8 +871,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -934,8 +924,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -987,8 +977,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1040,8 +1030,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1100,8 +1090,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1153,8 +1143,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1206,8 +1196,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1259,8 +1249,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1322,8 +1312,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1375,8 +1365,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1428,8 +1418,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

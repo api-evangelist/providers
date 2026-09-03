@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST + WebSocket API for driving real-time photorealistic AI avatars. Create meeting bots that join Google Meet or LiveKit rooms and stream a talking avatar rendered from an avatar_id, wiring audio in
   name: DigiSelf Realtime API
   slug: digiself-realtime-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -91,7 +91,7 @@ common:
   url: data-model/embodyme-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/embodyme-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +109,6 @@ created: '2026-07-17'
 description: EmbodyMe, Inc. is a Tokyo-based AI company building real-time neural rendering and 3D dense face-tracking technology for photorealistic digital humans. Its flagship developer product, DigiSelf, turns a single photo into a lifelike AI avatar that speaks from text or audio in dozens of languages, in both pre-recorded video and sub-second real-time interactive modes. The DigiSelf Realtime API (api.digiself.tech) and Stream API (WebSocket) let developers drive avatars into LiveKit rooms, Google Meet meeting bots, chatbots, live streaming, gaming, and advertising via an x-api-key protected REST + WebSocket surface. EmbodyMe also ships the xpression camera, xpression chat, and xpression avatar consumer apps and a cross-platform Real-time AI Video Generation SDK for iOS, Android, Windows, and Mac. Backed by Techstars, with recognition from NVIDIA, Microsoft, Product Hunt, and SIGGRAPH ASIA.
 image: https://digiself.tech/assets/images/logo/logo_text.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: EmbodyMe MCP Server
-  slug: embodyme-mcp-server
 modified: '2026-07-19'
 name: EmbodyMe
 nav: Providers
@@ -143,8 +139,8 @@ score:
   previous_composite: 22.0
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embodyme/refs/heads/main/screenshots/embodyme-2026-07-25T213233.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
@@ -203,7 +203,7 @@ apis:
   description: The Vendor API from AlgoSeek — 4 operation(s) for vendor.
   name: AlgoSeek Vendor API
   slug: algoseek-vendor-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -366,7 +366,7 @@ common:
   url: packages/algoseek-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/algoseek-mcp.yml
 - group: agent
   title: ''
@@ -428,10 +428,6 @@ created: '2026-07-21'
 description: AlgoSeek, LLC is a New York-based financial market data vendor (spun off from a trading fund) selling historical intraday US market data - equities, ETFs, equity options with Greeks and IV, futures, futures options, and reference data (security masters, adjustment factors, IPOs, index components) - plus real-time feeds. Delivery is data-platform-first rather than API-first, through S3 flat-file buckets, the ArdaDB managed ClickHouse cloud database queried via the open-source algoseek-connector Python library, ultra-low-latency real-time feeds via colocated MultiCast/TCP, and a REST Metadata Services API with a public OpenAPI/Swagger surface. Sales-led commercially, with a customer console at console.algoseek.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/algoseek.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AlgoSeek MCP Server
-  slug: algoseek-mcp-server
 modified: '2026-07-22'
 name: AlgoSeek
 nav: Providers
@@ -475,8 +471,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/screenshots/algoseek-2026-07-22T202132.png
 security:

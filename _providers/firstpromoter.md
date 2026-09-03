@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -774,8 +774,8 @@ score:
       total: 43
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
 security:

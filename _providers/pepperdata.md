@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://dashboard.pepperdata.com/pepperdata-demonstration/api
@@ -51,7 +51,7 @@ apis:
   description: Retrieve time-series metrics, series, and filters.
   name: Pepperdata Metrics API
   slug: pepperdata-metrics-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -96,7 +96,7 @@ common:
   url: packages/pepperdata-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pepperdata-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +162,6 @@ created: '2026-07-17'
 description: 'Pepperdata provides dynamic Kubernetes resource optimization and observability for data-intensive workloads, increasing cluster utilization, improving performance, and reducing cost in real time across Spark, MapReduce, Tez, and Kubernetes environments. Its REST API gives programmatic access to the same observability data available in the Pepperdata dashboard: time-series metrics with series breakdowns and filters (/m), application and job details including counters and cost/performance tuning recommendations (/jobdetails), and full CRUD over metric alarms (/alarms). Authentication uses a custom API-key header. Pepperdata is a portfolio company of Wing Venture Capital.'
 image: https://www.pepperdata.com/wp-content/uploads/2025/03/normal-logo-1200px.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pepperdata MCP Server
-  slug: pepperdata-mcp-server
 modified: '2026-07-20'
 name: Pepperdata
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/screenshots/pepperdata-2026-08-17T081155.png
 security:

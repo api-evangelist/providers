@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
   description: The service API from Isovalent — 2 operation(s) for service.
   name: Isovalent service API
   slug: isovalent-service-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -194,7 +194,7 @@ common:
   url: sandbox/isovalent-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/isovalent-mcp.yml
 - group: agent
   title: ''
@@ -277,10 +277,6 @@ description: Isovalent is the company founded in 2017 by the creators of Cilium,
   now underpins Cisco's cloud-native security portfolio.
 image: https://isovalent.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Isovalent MCP Server
-  slug: isovalent-mcp-server
 modified: '2026-08-19'
 name: Isovalent
 nav: Providers
@@ -319,8 +315,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/screenshots/isovalent-2026-07-25T222948.png
 security:

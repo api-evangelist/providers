@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.3
-  scored_at: '2026-09-02'
+  score: 31.5
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
@@ -51,7 +51,7 @@ apis:
   description: The OpenAPI document served by vitagroup's public EHRbase sandbox instance at sandkiste.ehrbase.org, harvested from /ehrbase/v3/api-docs. Combines the openEHR, EHR-Scape (ECIS), Admin and Status surfa
   name: EHRbase Sandbox (live springdoc api-docs)
   slug: ehrbase-sandbox-live
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Vitagroup Event Trigger Webhooks
@@ -175,7 +175,7 @@ common:
   url: llms/vitagroup-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vitagroup-mcp.yml
 - group: commercial
   title: ''
@@ -205,10 +205,6 @@ created: '2026-09-02'
 description: vitagroup AG is a German health-technology company (Mannheim, HRB 727147) that builds the Health Intelligence Platform (HIP) — an open, vendor-neutral clinical data platform for hospitals, health regions and research institutions. HIP is built on the openEHR standard and its Clinical Data Repository is HIP EHRbase, the commercially supported distribution of EHRbase, the leading open-source openEHR server. vitagroup operates the EHRbase project (ehrbase.org names vitagroup AG as the responsible entity), publishes the openEHR REST, Admin, Item Tag and HIP Enterprise OpenAPI definitions at docs.ehrbase.org, and runs a public unauthenticated sandbox instance at sandkiste.ehrbase.org. FHIR and HL7v2 interoperability is provided through the CDR Bridge / FHIR Bridge and the openFHIR and FHIRconnect projects.
 image: https://www.vitagroup.ag/wp-content/uploads/2023/09/vitagroup_Vorschau_berry_4zu3-1024x819.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: vitagroup MCP Server
-  slug: vitagroup-mcp-server
 modified: '2026-09-02'
 name: vitagroup
 nav: Providers
@@ -242,6 +238,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -251,6 +248,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 47.4
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -266,8 +264,9 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Vitagroup Authentication

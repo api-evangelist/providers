@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://ironcorelabs.com
@@ -61,7 +61,7 @@ apis:
   description: Tenant secrets created by the TSP and stored in the Config Broker
   name: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +184,7 @@ common:
   url: cli/ironcore-labs-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ironcore-labs-mcp.yml
 - group: agent
   title: ''
@@ -226,10 +226,6 @@ created: '2026-07-17'
 description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasticsearch and OpenSearch), Cloaked AI (encryption of vector embeddings for AI/RAG workloads while preserving similarity search), the Data Control Platform (end-to-end encryption SDKs where the end user holds the key), and an S3 Proxy for per-tenant object encryption. Developers integrate through the unified IronCore Alloy SDK (Rust, Python, Java, Kotlin), the legacy Tenant Security Client (Node.js, Go, PHP), and the self-hosted Vendor API Bridge REST API for programmatic tenant and KMS configuration management.
 image: https://ironcorelabs.com/images/blog/generic-ironcore-graphic-hero.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: IronCore Labs MCP Server
-  slug: ironcore-labs-mcp-server
 modified: '2026-07-19'
 name: IronCore Labs
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:

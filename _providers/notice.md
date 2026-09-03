@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: RESTful enterprise API for real-time private market data across 6,000+ companies - Notice Price, verified trades and indications of interest - retrievable up to once per minute. Sold as a 12-month ent
@@ -173,8 +173,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/screenshots/notice-2026-09-02T150805.png
 security:

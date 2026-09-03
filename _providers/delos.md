@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -100,7 +100,7 @@ apis:
   description: The users API from Delos — 6 operation(s) for users.
   name: Delos Users API
   slug: delos-users-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Delos Events
@@ -200,7 +200,7 @@ common:
   url: overlays/delos-wellcube-cloud-be-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/delos-mcp.yml
 - group: build
   title: ''
@@ -222,10 +222,6 @@ created: '2026-08-12'
 description: Delos Living LLC is a New York-based wellness real estate and technology company that applies building science and evidence-based research to indoor environments across commercial, residential, hospitality, education, senior living and transportation. Delos is the founder of the WELL Building Standard (now administered by the International WELL Building Institute) and co-founder of the Well Living Lab with Mayo Clinic. Its product line spans Intellipure advanced air purification, indoor environmental quality (IEQ) sensing, the Stay Well hospitality program, and WellCube — a connected system of localized air purifiers and multi-sensor devices for the modern office, backed by the "Cloud BE" / Darwin Cloud platform that handles installations, products, device actions and account federation.
 image: https://a-us.storyblok.com/f/1016757/200x62/8b73c5475d/logo_delos_layer_1.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Delos MCP Server
-  slug: delos-mcp-server
 modified: '2026-08-12'
 name: Delos
 nav: Providers
@@ -275,8 +271,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
 security:

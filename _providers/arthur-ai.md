@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://platform.arthur.ai/api
@@ -186,7 +186,7 @@ apis:
   description: The Workspaces V1 API from Arthur AI — 3 operation(s) for workspaces v1.
   name: Arthur AI Workspaces V1 API
   slug: arthur-ai-workspaces-v1-api
-artifact_total: 66
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Arthur Ai Webhooks
@@ -286,6 +286,10 @@ collections:
   name: Arthur Scope Agents V1 Workspaces V1 API
   slug: open-arthur-ai-workspaces-v1-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arthur-ai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -356,7 +360,7 @@ common:
   url: well-known/arthur-ai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arthur-ai-mcp.yml
 - group: agent
   title: ''
@@ -406,10 +410,6 @@ created: '2026-07-17'
 description: Arthur is an enterprise AI governance and observability platform for discovering, monitoring, evaluating, and governing AI and ML systems in production. The Arthur Platform API (internally "Arthur Scope", OpenAPI 3.1) exposes 213 operations across models, tasks, datasets, connectors, metrics, alerts, alert rules, policies, workspaces, projects, agents, and webhooks, secured with OAuth2 via Keycloak. Arthur also ships the open-source Arthur Engine (LLM guardrails plus ML evaluation), the arthur-bench LLM evaluation library, Python client SDKs, and an Agent Toolkit with a Claude Code integration for end-to-end tracing.
 image: https://platform.arthur.ai/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Arthur AI MCP Server
-  slug: arthur-ai-mcp-server
 modified: '2026-07-18'
 name: Arthur AI
 nav: Providers
@@ -420,7 +420,7 @@ overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) networ
   The Arthur AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Arthur AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, changelog, and 22 more developer resources.'
+  Arthur AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, changelog, and 23 more developer resources.'
 random_paper: 6
 scopes:
 - name: Arthur Ai Scopes
@@ -431,7 +431,7 @@ score:
   band: developing
   composite: 45.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -455,8 +455,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png
 security:

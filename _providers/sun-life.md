@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
@@ -118,7 +118,7 @@ apis:
   description: The .well Known API from Sun Life — 1 operation(s) for .well known.
   name: Sun Life .well Known API
   slug: sun-life-well-known-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: FHIR Metadata
@@ -292,7 +292,7 @@ common:
   url: data-model/sun-life-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sun-life-mcp.yml
 - group: agent
   title: ''
@@ -307,10 +307,6 @@ description: 'Sun Life Financial Inc. is a Canadian multinational life and healt
   platforms including Workday, ADP, UKG, PlanSource, Employee Navigator and bswift, negotiated per client rather than signed up for. The public, machine-readable APIs in the Sun Life group belong to DentaQuest, its U.S. dental subsidiary, which runs an Azure API Management developer portal at developers.dentaquest.com publishing three OpenAPI 3.0.1 definitions: a SMART-on-FHIR Patient Access API, a Da Vinci PDex Plan-Net Provider Directory API and an anonymous FHIR CapabilityStatement endpoint, all released under the CMS Interoperability and Patient Access Final Rule (CMS-9115-F) and served for both the DentaQuest and Delta Dental of Massachusetts brands. Canada''s supervisory split between OSFI and the provincial conduct regulators, and the exclusion of insurance from Consumer-Driven Banking, means no open-insurance mandate creates a forcing function for a public Sun Life API in its home market; the U.S. CMS mandate is what produced the only public one.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool list (derived, not provider-published)
-  slug: candidate-mcp-tool-list-derived-not-provider-published
 modified: '2026-07-25'
 name: Sun Life
 nav: Providers
@@ -363,8 +359,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/screenshots/sun-life-2026-08-17T082154.png
 security:

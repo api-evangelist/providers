@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -128,7 +128,7 @@ apis:
   description: The workflow-table API from Conxai — 3 operation(s) for workflow-table.
   name: Conxai workflow-table API
   slug: conxai-workflow-table-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -275,7 +275,7 @@ common:
   url: data-model/conxai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/conxai-mcp.yml
 - group: design
   title: ''
@@ -294,10 +294,6 @@ description: 'Conxai (CONXAI Technologies GmbH) is a Munich, Germany-based start
   and BayBG Venture Capital.'
 image: https://cdn.prod.website-files.com/6768048a3496e563be715576/676ffd7357fd1eda32f52ca3_OG.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Conxai MCP Server
-  slug: conxai-mcp-server
 modified: '2026-07-18'
 name: Conxai
 nav: Providers
@@ -336,8 +332,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/screenshots/conxai-2026-07-25T210354.png
 security:

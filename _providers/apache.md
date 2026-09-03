@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Apache Software Foundation hosts 300+ open source projects spanning big data, cloud, messaging, databases, build tools, and more. The ASF provides infrastructure, governance, and community support
@@ -161,8 +161,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/screenshots/apache-2026-06-20T172036.png
 security:

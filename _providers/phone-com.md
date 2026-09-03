@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Phone.com v4 ("Phoenix") JSON REST API for managing accounts, extensions, devices, phone numbers, call routing, media, messaging (SMS/fax), and event webhooks. OAuth 2.0 secured.
   name: phone-com-api
   slug: phone-com-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Phone Com Events Webhooks
@@ -147,7 +147,7 @@ common:
   url: conformance/phone-com-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/phone-com-mcp.yml
 - group: design
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Phone.com is a cloud business phone and unified communications provider for small and mid-sized businesses, offering VoIP calling, SMS/MMS, video conferencing, fax, and virtual phone numbers. Its developer platform is the JSON REST v4 API (codenamed "Phoenix") at api.phone.com, which gives programmatic control over accounts, extensions, devices, phone numbers, call routing (routes, menus, queues, schedules), media, messaging, and an event callback/listener webhook system. Authentication is OAuth 2.0. First-party SDKs are published for Go, Python, PHP, Android, and JavaScript. Surfaced as a portfolio company of Lightspeed Venture Partners and enriched into the API Evangelist network.
 image: https://github.com/phonedotcom.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote Phone.com MCP server was found. This is a CANDIDATE tool surface derived from the published Phone.com v4 operation catalog (llms.txt), grouped by resource. It is a design pro
-  name: Phone Com MCP Server
-  slug: phone-com-mcp-server
 modified: '2026-07-20'
 name: Phone Com
 nav: Providers
@@ -215,8 +211,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phone-com/refs/heads/main/screenshots/phone-com-2026-08-17T081209.png
 security:

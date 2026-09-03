@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ apis:
   description: The Verify API from Mode — 1 operation(s) for verify.
   name: Mode Verify API
   slug: mode-verify-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -223,7 +223,7 @@ common:
   url: data-model/mode-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mode-mcp.yml
 - group: agent
   title: ''
@@ -245,10 +245,6 @@ created: '2026-07-17'
 description: Mode is a collaborative business intelligence and analytics platform that unites data and business teams around a single analytical workflow. Built by analysts for analysts, Mode combines ad hoc SQL exploration, Python and R notebooks, interactive dashboards, self-serve reporting, and custom data applications on top of connected data warehouses. Mode was acquired by ThoughtSpot in 2023 and positions itself as the intelligence layer for the modern data stack. Mode exposes a REST API (documented at its Developer Hub) for programmatic management of workspaces, users, collections, data sources, reports, queries, charts, datasets, definitions, exports, report schedules, and subscriptions. The API uses HTTP Basic authentication with workspace or personal API tokens and returns HAL+JSON, and is available to workspaces on a paid Mode Business plan.
 image: https://avatars.githubusercontent.com/u/5306870?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mode MCP Server
-  slug: mode-mcp-server
 modified: '2026-07-20'
 name: Mode
 nav: Providers
@@ -287,8 +283,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

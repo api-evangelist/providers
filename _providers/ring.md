@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Ring Partner API (Amazon Vision API / AVA) lets certified Ring Appstore partners access Ring device data and media on behalf of consenting users: list and inspect devices, read status/capabilities'
@@ -203,8 +203,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/screenshots/ring-2026-08-17T081710.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.linqalpha.com
@@ -295,8 +295,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
   name: Column Tax API
   slug: column-tax-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Column Tax Webhooks
@@ -139,7 +139,7 @@ common:
   url: conformance/column-tax-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/column-tax-mcp.yml
 - group: start
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Column Tax is an IRS-authorized, API-first tax filing platform that lets banks, brokerages, neobanks, and SMB/freelancer fintech apps embed a full white-label income-tax preparation and e-file experience directly inside their own product. Partners create a Column Tax user via a server-side REST call, receive a short-lived authenticated URL, and launch the Column Tax UI (web loader or native iOS, Android, and React Native SDKs) embedded in their app, while webhooks report each user through the filing lifecycle. Column Tax offers DIY Filing and Expert Review products, is a SOC 2-certified and IRS-authorized e-file provider, and reports outcomes such as higher retention and direct-deposit switching for embedded partners.
 image: https://cdn.prod.website-files.com/6262ffa3aeadc15ee876298b/627bf917c708fc0ec6460fcb_Text_Image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Column Tax MCP Server
-  slug: column-tax-mcp-server
 modified: '2026-07-18'
 name: Column Tax
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png
 security:

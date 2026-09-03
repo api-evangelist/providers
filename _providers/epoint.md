@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST payment gateway for accepting online card payments in Azerbaijan. Covers payment creation and hosted checkout, card registration/tokenization and saved-card charges, refunds and reversals, pre-au
   name: Epoint Payment API
   slug: epoint-payment-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Epoint Callbacks Webhooks
@@ -127,7 +127,7 @@ common:
   url: conformance/epoint-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/epoint-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Epoint (epoint.az) is an Azerbaijani digital payment aggregator and e-commerce platform for small and medium enterprises, backed by 500 Global. It lets merchants accept online card payments on their website, mobile app, or social page and layers on card tokenization (saved cards), split payments, pre-authorization, installment payments, payouts to any Azerbaijani business card 24/7, wallets, invoicing, QR/link payments, recurring payments, and Apple Pay / Google Pay. Its REST payment API (base https://epoint.az/api/1) authenticates every request with a merchant public_key plus a SHA1 data+signature scheme and returns results both synchronously and via signed callbacks to the merchant's result_url.
 image: https://epoint.az/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Epoint MCP Server
-  slug: epoint-mcp-server
 modified: '2026-07-19'
 name: Epoint
 nav: Providers
@@ -189,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epoint/refs/heads/main/screenshots/epoint-2026-07-25T213527.png
 security:

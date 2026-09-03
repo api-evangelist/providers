@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.truvideo.com
@@ -91,7 +91,7 @@ apis:
   description: The Videos API from TruVideo — 3 operation(s) for videos.
   name: TruVideo Videos API
   slug: truvideo-videos-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: well-known/truvideo-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/truvideo-mcp.yml
 - group: agent
   title: ''
@@ -226,10 +226,6 @@ created: '2026-07-17'
 description: TruVideo is a video-intelligence and omnichannel communication platform for service businesses, built for the automotive service market and expanding into aviation, insurance, and commercial trucking. It lets dealers, service advisors, and technicians capture and share videos, run AI features (noise cancellation, real-time sentiment analysis, and a multilingual virtual assistant), and drive SMS/messaging conversations tied to repair orders. TruVideo's developer surface is SDK-first — modular on-device capture SDKs for iOS, Android, .NET, React Native, and Capacitor — plus a REST Platform API (v2) covering authentication, repair orders, videos, messaging, customers, files, and reporting.
 image: https://truvideo.com/wp-content/uploads/2026/04/Line-6.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TruVideo MCP Server
-  slug: truvideo-mcp-server
 modified: '2026-07-21'
 name: TruVideo
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/screenshots/truvideo-2026-09-02T164435.png
 security:

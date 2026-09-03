@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-09-02'
+  score: 35.6
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
@@ -266,8 +266,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
 security:

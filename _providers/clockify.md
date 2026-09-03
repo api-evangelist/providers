@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 2
@@ -271,6 +271,10 @@ collections:
   name: Clockify API
   slug: open-clockify
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clockify-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -338,13 +342,13 @@ network: true
 overview: 'Clockify publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Approval API, Audit Log Report API, Balance API, and 24 more. Tagged areas include Time Tracking, Timesheets, Productivity, Project Management, and Reporting.
 
 
-  Clockify''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
+  Clockify''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
 random_paper: 12
 score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -366,8 +370,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/screenshots/clockify-2026-06-20T174530.png
 security:

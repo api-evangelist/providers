@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -94,7 +94,7 @@ apis:
   description: The tickets API from Tweed — 1 operation(s) for tickets.
   name: Tweed tickets API
   slug: tweed-tickets-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Tweed Webhooks
@@ -183,7 +183,7 @@ common:
   url: packages/tweed-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tweed-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Tweed is an Accel-backed embedded-crypto platform offering Wallet-as-a-Service and NFT/token checkout APIs. Platforms embed self-custodial wallets (social login recovery, EIP-1193 EVM provider) and sell fungible and non-fungible tokens to buyers paying by card, Apple Pay, or Google Pay, with fiat, native, or stablecoin settlement across 12+ chains including Ethereum, Polygon, Base, Solana, and Tezos. A REST API (V2) manages contracts, items, payouts, checkouts, and HMAC-signed webhooks; note the marketing site and dashboard host were unreachable as of July 2026 while the docs, API, and npm SDKs remain live.
 image: https://2034179314-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgQyCg5IN7Cv6AnUUpGl2%2Ficon%2F7r4C3KWx4NfmxABWz0oa%2FIcon-Square_Black-4x.jpeg?alt=media&token=55a8df5f-9429-454e-b864-52cb0bea5e25
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tweed MCP Server
-  slug: tweed-mcp-server
 modified: '2026-07-21'
 name: Tweed
 nav: Providers
@@ -279,8 +275,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/screenshots/tweed-2026-09-02T164612.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.librato.com'', ''status'': 301, ''note'': ''declared website redirects to https://documentation.solarwinds.com/en/success_center/observability/content/migrate-ao/ao-eol.htm — a different registrable domain (librato.com -> solarwinds.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RETIRED. JSON REST API for submitting and retrieving time-series measurements and for managing metrics, metric attributes, spaces, charts, dashboards, instruments, annotations, alerts, notification se
@@ -142,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/screenshots/librato-2026-07-25T225027.png
 security:

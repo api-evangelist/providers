@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST/JSON API for text-to-speech synthesis, audio and SRT subtitle download, and voice listing. Uses x-api-key header auth. Endpoints: POST /api/v1/tts, GET /api/audio/{file_id}, GET /api/srt/{file_id'
@@ -147,8 +147,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/screenshots/freetts-2026-09-02T145541.png
 security:

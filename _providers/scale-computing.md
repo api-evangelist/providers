@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-09-02'
+  score: 35.4
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: On-appliance REST API exposed by every SC//HyperCore (HC3) clustered node for automating virtual machines, virtual disks, networks, snapshots, snapshot schedules, replication, node and cluster operati
@@ -126,7 +126,7 @@ apis:
   description: Virtual Machines on SC//HyperCore clusters
   name: Scale Computing Vms API
   slug: scale-computing-vms-api
-artifact_total: 26
+artifact_total: 25
 common:
 - group: other
   title: ''
@@ -242,7 +242,7 @@ common:
   url: llms/scale-computing-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scale-computing-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ json_schemas:
   property_count: 4
   slug: scale-computing-fleet-manager-application-manifest
 layout: provider
-mcp_servers:
-- description: ''
-  name: Scale Computing MCP Server
-  slug: scale-computing-mcp-server
 modified: '2026-08-26'
 name: Scale Computing
 nav: Providers
@@ -290,7 +286,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -300,7 +296,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 37.0
+  previous_composite: 37.1
   provenance:
     conformance: derived
     contracts:
@@ -310,8 +306,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/screenshots/scale-computing-2026-09-02T154508.png
 security:

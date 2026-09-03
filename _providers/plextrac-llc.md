@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: PlexTrac's JWT-authenticated REST API (v1 and v2) for managing clients, reports, findings, assets, and content-library writeups, along with tenant/RBAC administration and outbound webhooks. The base U
   name: PlexTrac API
   slug: plextrac-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Plextrac Llc Webhooks
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: PlexTrac is a penetration test reporting and proactive exposure management platform that unifies offensive security data from pentests, vulnerability scanners, and bug bounty programs into a single system of record. It automates pentest report authoring (including AI-assisted findings), centralizes and prioritizes vulnerability data by business impact, and drives remediation through workflows integrated with tools such as Jira and ServiceNow. PlexTrac exposes a JWT-authenticated REST API (v1 and v2) for managing clients, reports, findings, assets, and content-library writeups, plus RBAC/tenant administration and outbound webhooks, letting security teams and MSSPs integrate reporting and remediation into their own pipelines.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plextrac-llc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PlexTrac, LLC MCP Server
-  slug: plextrac-llc-mcp-server
 modified: '2026-07-20'
 name: PlexTrac, LLC
 nav: Providers
@@ -143,8 +139,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plextrac-llc/refs/heads/main/screenshots/plextrac-llc-2026-09-02T151518.png
 security:

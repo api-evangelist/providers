@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "DNV",
@@ -29,8 +29,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -81,8 +81,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -126,8 +126,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -171,8 +171,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -216,8 +216,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -261,8 +261,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -306,8 +306,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -334,211 +334,13 @@
      "rank": 7
     },
     {
-     "name": "MarineTraffic",
-     "slug": "marine-traffic",
-     "description": "MarineTraffic is the leading maritime intelligence and AIS ship-tracking platform — now part of Kpler. The MarineTraffic AIS Data API exposes the same live + historical vessel positions, port calls, berth calls, vessel master data, voyage forecasts, predictive arrivals, port-congestion analytics, sea-lane routing, reverse geocoding, and fleet management endpoints that power the public marinetraffic.com map and the Kpler maritime data services. Data is sourced from 13,000+ terrestrial AIS receivers plus satellite AIS, served as REST/JSON (with CSV / XML / JSONO alternatives), authenticated via a per-key prepaid credit balance, and metered in credits per response row with per-service refresh-interval caching.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png",
-     "score": 41.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 67.9,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 38.1,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
-    },
-    {
-     "name": "Tomorrow.io",
-     "slug": "tomorrow",
-     "description": "Tomorrow.io is a weather and climate intelligence platform exposing a unified v4 HTTP API. The API combines real-time observations, hyperlocal forecast timelines (minutely / hourly / daily), 20+ years of historical data, climate normals, weather-on-routes, configurable insights and event detection, per-location alerts with webhook delivery, and raster map tiles. 60+ data layers cover core weather, air quality, pollen, fire, flood, soil, solar, aviation, maritime, and lightning.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png",
-     "score": 40.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 28.0,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 63.2,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Sinay",
-     "slug": "sinay",
-     "description": "Sinay is a maritime data and analytics company whose Developers Platform exposes a marketplace of REST APIs for the shipping and ocean-tech industry - vessel and port lookup from combined satellite and terrestrial AIS, metocean (weather and ocean) conditions, per-voyage CO2 emissions modeled on the GLEC Framework, ETA prediction, live port congestion, sailing schedules, and underwater noise. Every API is called over HTTPS at api.sinay.ai, authenticated with a single API_KEY header, and metered as monthly API units / credits with a free developer key to start.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/screenshots/sinay-2026-09-02T155607.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.9,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Kpler",
-     "slug": "kpler",
-     "description": "Kpler is a commodities intelligence and maritime data platform that tracks cargoes, vessels, and trade flows across oil, refined products, LNG, LPG, and dry bulk markets. Kpler owns MarineTraffic and FleetMon (acquired 2023) and acquired Spire's maritime AIS business (2025), giving it one of the largest terrestrial and satellite AIS vessel tracking networks in the world. Its Direct Access REST APIs deliver trades, flows, vessels, port calls, freight metrics, and inventories per commodity platform, while MarineTraffic APIs deliver live vessel positions, port calls, voyages, and vessel particulars. API access is customer-gated behind an enterprise subscription, but the documentation, Python SDK, and endpoint surface are publicly published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png",
-     "score": 39.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 38.1,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 16.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 14,
-   "shown": 14,
-   "providers": [
-    {
      "name": "Starlink",
      "slug": "starlink",
      "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/screenshots/starlink-2026-08-17T082120.png",
-     "score": 39.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 43.0,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 54.0,
@@ -549,8 +351,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -581,8 +383,206 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 8
     },
+    {
+     "name": "MarineTraffic",
+     "slug": "marine-traffic",
+     "description": "MarineTraffic is the leading maritime intelligence and AIS ship-tracking platform — now part of Kpler. The MarineTraffic AIS Data API exposes the same live + historical vessel positions, port calls, berth calls, vessel master data, voyage forecasts, predictive arrivals, port-congestion analytics, sea-lane routing, reverse geocoding, and fleet management endpoints that power the public marinetraffic.com map and the Kpler maritime data services. Data is sourced from 13,000+ terrestrial AIS receivers plus satellite AIS, served as REST/JSON (with CSV / XML / JSONO alternatives), authenticated via a per-key prepaid credit balance, and metered in credits per response row with per-service refresh-interval caching.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png",
+     "score": 41.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 67.9,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Tomorrow.io",
+     "slug": "tomorrow",
+     "description": "Tomorrow.io is a weather and climate intelligence platform exposing a unified v4 HTTP API. The API combines real-time observations, hyperlocal forecast timelines (minutely / hourly / daily), 20+ years of historical data, climate normals, weather-on-routes, configurable insights and event detection, per-location alerts with webhook delivery, and raster map tiles. 60+ data layers cover core weather, air quality, pollen, fire, flood, soil, solar, aviation, maritime, and lightning.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png",
+     "score": 40.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 28.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 14.3,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Sinay",
+     "slug": "sinay",
+     "description": "Sinay is a maritime data and analytics company whose Developers Platform exposes a marketplace of REST APIs for the shipping and ocean-tech industry - vessel and port lookup from combined satellite and terrestrial AIS, metocean (weather and ocean) conditions, per-voyage CO2 emissions modeled on the GLEC Framework, ETA prediction, live port congestion, sailing schedules, and underwater noise. Every API is called over HTTPS at api.sinay.ai, authenticated with a single API_KEY header, and metered as monthly API units / credits with a free developer key to start.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/screenshots/sinay-2026-09-02T155607.png",
+     "score": 40.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.9,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Kpler",
+     "slug": "kpler",
+     "description": "Kpler is a commodities intelligence and maritime data platform that tracks cargoes, vessels, and trade flows across oil, refined products, LNG, LPG, and dry bulk markets. Kpler owns MarineTraffic and FleetMon (acquired 2023) and acquired Spire's maritime AIS business (2025), giving it one of the largest terrestrial and satellite AIS vessel tracking networks in the world. Its Direct Access REST APIs deliver trades, flows, vessels, port calls, freight metrics, and inventories per commodity platform, while MarineTraffic APIs deliver live vessel positions, port calls, voyages, and vessel particulars. API access is customer-gated behind an enterprise subscription, but the documentation, Python SDK, and endpoint surface are publicly published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png",
+     "score": 39.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 16.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 12
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 13,
+   "shown": 13,
+   "providers": [
     {
      "name": "SERTICA",
      "slug": "sertica",
@@ -601,8 +601,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -646,8 +646,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -691,8 +691,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -736,8 +736,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -781,8 +781,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -826,8 +826,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -871,8 +871,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -916,8 +916,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -961,8 +961,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1006,8 +1006,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1051,8 +1051,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1096,8 +1096,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1141,8 +1141,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1197,8 +1197,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1249,8 +1249,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1294,8 +1294,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1346,8 +1346,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1391,8 +1391,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1436,8 +1436,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1481,8 +1481,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1533,8 +1533,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1578,8 +1578,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1630,8 +1630,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1675,8 +1675,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1727,8 +1727,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1771,8 +1771,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1816,8 +1816,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1871,8 +1871,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1923,8 +1923,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1968,8 +1968,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2013,8 +2013,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2058,8 +2058,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2103,8 +2103,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2147,8 +2147,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2192,8 +2192,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2237,8 +2237,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2282,8 +2282,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2327,8 +2327,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2372,8 +2372,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2417,8 +2417,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2462,8 +2462,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2507,8 +2507,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2552,8 +2552,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2597,8 +2597,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2641,8 +2641,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2686,8 +2686,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2731,8 +2731,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2776,8 +2776,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2820,8 +2820,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2865,8 +2865,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2910,8 +2910,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2955,8 +2955,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3000,8 +3000,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3052,8 +3052,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3104,8 +3104,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3156,10 +3156,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },

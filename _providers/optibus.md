@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ apis:
   description: The Work Entities API from Optibus — 2 operation(s) for work entities.
   name: Optibus Work Entities API
   slug: optibus-work-entities-api
-artifact_total: 59
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Optibus Operational Webhooks
@@ -267,7 +267,7 @@ common:
   url: capabilities/optibus-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/optibus-mcp.yml
 - group: other
   title: ''
@@ -369,10 +369,6 @@ created: '2026-07-17'
 description: Optibus is a cloud-native, end-to-end operating system for public transportation planning, scheduling, rostering and operations, used by transit agencies and operators in more than 3,000 cities. Its proprietary AI and optimization algorithms modernize network planning, vehicle and crew scheduling, driver rostering, fleet monitoring, payroll and depot management. The Optibus Operations API (OpenAPI 3.0.0, 58 operations) provides programmatic access to drivers, vehicles, absences, employment periods, operational plans, rosters, payroll and statistics, plus outbound HMAC-signed operational event webhooks, for integrating Optibus with external HR, payroll and fleet-management systems. Backed by Bessemer Venture Partners and Insight Partners.
 image: https://optibus.com/file/2026/01/Thumbnail-HP.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Optibus MCP Server
-  slug: optibus-mcp-server
 modified: '2026-07-20'
 name: Optibus
 nav: Providers
@@ -414,8 +410,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optibus/refs/heads/main/screenshots/optibus-2026-08-07T190805.png
 security:

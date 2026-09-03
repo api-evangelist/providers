@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: API for accessing openIDL resources and frameworks for standardized, blockchain-based insurance data sharing between carriers and regulators.
@@ -111,8 +111,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openidl/refs/heads/main/screenshots/openidl-2026-06-20T191005.png
 security:

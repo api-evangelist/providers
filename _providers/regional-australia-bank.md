@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: Regional Australia Bank Banking Products API
   slug: regional-australia-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: data-model/regional-australia-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/regional-australia-bank-mcp.yml
 - group: agent
   title: ''
@@ -202,10 +202,6 @@ created: '2026-07-20'
 description: Regional Australia Bank is a customer-owned (mutual) authorised deposit-taking institution (ADI) headquartered in Armidale and Port Macquarie, New South Wales. Founded in 1969 as New England Staff Credit Union at the University of New England, it grew through successive credit-union mergers into Community Mutual Group and rebranded as Regional Australia Bank in 2016; it is currently completing a merger with Summerland Bank. As a mutual, its customers are its owners, and it serves more than 100,000 members across regional NSW from roughly 39 locations. As an active ADI it is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), exposing a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside the accredited-data-recipient consumer data sharing surface secured under the CDR OAuth2/OIDC model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regional-australia-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Regional Australia Bank MCP Server
-  slug: regional-australia-bank-mcp-server
 modified: '2026-07-21'
 name: Regional Australia Bank
 nav: Providers
@@ -254,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png
 security:

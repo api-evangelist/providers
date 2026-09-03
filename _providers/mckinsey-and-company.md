@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 21
 common:
@@ -197,6 +197,10 @@ common:
   title: ''
   type: Compliance
   url: ''
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/quantumblacklabs
 created: '2026-05-23'
 description: 'McKinsey & Company is the senior partner of the MBB triumvirate of global strategy and management consulting firms, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from 130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments, and not-for-profit organizations. McKinsey delivers through industry practices and cross-cutting capability practices: Strategy & Corporate Finance, Operations, Marketing & Sales, Risk & Resilience, Sustainability, Transformation, Implementation, Organization (formerly OrgSolutions), Growth / Marketing / Sales, McKinsey Digital, and McKinsey Technology. McKinsey Digital houses QuantumBlack (the AI division acquired in 2015), Leap (venture / business building), and the Technology practice. Internal generative-AI tooling is consolidated in Lilli, a McKinsey-built consultant assistant launched in August 2023 that indexes 100,000+ internal documents and is
   used by tens of thousands of firm employees. Research and thought leadership are published through McKinsey Insights, McKinsey Quarterly (the firm''s flagship business journal since 1964), McKinsey Global Institute (MGI, the firm''s business and economics research arm), the QuantumBlack AI report and State of AI survey, industry-specific reports, podcasts (The McKinsey Podcast, McKinsey Talks Operations, etc.), and the McKinsey on Books series. McKinsey does not publish a public commercial developer API or developer portal; all software the firm releases publicly flows through GitHub. The official `github.com/mckinsey` organization hosts a focused open-source portfolio centered on data, AI, and agentic systems — Vizro (low-code Plotly/Dash data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native framework for portable agentic applications), Agents-at-Scale Marketplace (curated Helm-chart catalog of ARK executors, MCP servers, and tools), CausalNex (Bayesian-network causal-reasoning
@@ -239,7 +243,7 @@ overview: 'McKinsey & Company is profiled on the [APIs.io](https://apis.io/) net
   The McKinsey & Company catalog on APIs.io includes 1 JSON-LD context.
 
 
-  McKinsey & Company''s developer surface includes engineering blog, tooling, YouTube channel, and 36 more developer resources.'
+  McKinsey & Company''s developer surface includes engineering blog, tooling, YouTube channel, and 37 more developer resources.'
 plans:
 - name: Mckinsey And Company Plans Pricing
   plan_count: 3
@@ -271,8 +275,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 33.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

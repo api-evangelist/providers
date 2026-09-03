@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://{shop}.onshopbase.com/admin
@@ -177,6 +177,10 @@ asyncapis:
   name: Beeketing Webhooks
   slug: beeketing-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/beeketing-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -335,7 +339,7 @@ overview: 'Beeketing publishes 27 APIs on the [APIs.io](https://apis.io/) networ
   The Beeketing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beeketing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Beeketing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Beeketing Plans Pricing
   plan_count: 3
@@ -354,7 +358,7 @@ score:
   band: strong
   composite: 61.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -384,8 +388,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:

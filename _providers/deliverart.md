@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -123,7 +123,7 @@ apis:
   description: The Workshifts API from Deliverart — 5 operation(s) for workshifts.
   name: Deliverart Workshifts API
   slug: deliverart-workshifts-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -183,7 +183,7 @@ common:
   url: capabilities/deliverart-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/deliverart-mcp.yml
 - group: auth
   title: ''
@@ -289,10 +289,6 @@ created: '2026-07-17'
 description: Deliverart is food-delivery management software for restaurants and delivery businesses, founded in Italy and backed by Techstars. It centralizes orders from Just Eat, Glovo, Deliveroo, a restaurant's own website and phone into a single interface; synchronizes menus across sales channels; and manages riders, delivery routing, take-away, the Delivery Order Display System (DODS) and live tracking. The public Deliverart API is an RPC-style HTTPS API (GET for reads, POST for writes) covering orders, menu, customers, points of sale, workshifts, deliveries and reservations, with API key and OAuth2 authentication. Deliverart also ships a modular first-party JavaScript SDK suite on npm.
 image: https://www.deliverart.it/wp-content/uploads/2023/02/LinkedIn-Cover.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Deliverart MCP Server
-  slug: deliverart-mcp-server
 modified: '2026-07-18'
 name: Deliverart
 nav: Providers
@@ -336,8 +332,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:

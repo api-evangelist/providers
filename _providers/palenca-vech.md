@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.palenca.com
@@ -71,7 +71,7 @@ apis:
   description: The Version API from Palenca (Vech) — 1 operation(s) for version.
   name: Palenca (Vech) Version API
   slug: palenca-vech-version-api
-artifact_total: 60
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Palenca Vech Webhooks
@@ -242,7 +242,7 @@ common:
   url: sandbox/palenca-vech-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/palenca-vech-mcp.yml
 - group: start
   title: ''
@@ -348,10 +348,6 @@ created: '2026-07-17'
 description: Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.
 image: https://www.palenca.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Palenca (Vech) MCP Server
-  slug: palenca-vech-mcp-server
 modified: '2026-07-20'
 name: Palenca (Vech)
 nav: Providers
@@ -396,8 +392,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:

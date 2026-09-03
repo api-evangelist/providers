@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: HL7 Da Vinci Coverage Requirements Discovery (CRD) FHIR API that lets a provider system instantly verify whether prior authorization is required and confirm service coverage at the point of care. Docu
@@ -218,8 +219,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/screenshots/cohere-health-2026-07-25T210019.png
 security:

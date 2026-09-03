@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API to copy, move, pull, share, and list files across connected storage providers (Amazon S3, Google Drive, Dropbox, Box and more) using the DART acceleration protocol. Bearer API-key auth over h
   name: Byteport API
   slug: byteport-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -111,7 +111,7 @@ common:
   url: conformance/byteport-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/byteport-mcp.yml
 - group: agent
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Byteport is a San Francisco-based file transfer acceleration company (Y Combinator W2026) that moves large datasets across the internet using DART (Dynamic Accelerated Record Transfer), a proprietary protocol the company reports as typically 10x faster than TCP and up to 1000-1500x faster over unreliable cellular or satellite links. The Byteport API lets developers copy, move, pull, share, and list files across connected storage providers such as Amazon S3, Google Drive, Dropbox, and Box at scales from 1GB to 100TB with zero network configuration, targeting robotics, satellite, AI/ML, SaaS data-distribution, and defense workloads.
 image: https://github.com/getbyteport.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Byteport MCP Server
-  slug: byteport-mcp-server
 modified: '2026-07-18'
 name: Byteport
 nav: Providers
@@ -156,8 +152,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byteport/refs/heads/main/screenshots/byteport-2026-07-25T204142.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -103,7 +103,7 @@ apis:
   description: The Transaction API from Sibill — 2 operation(s) for transaction.
   name: Sibill Transaction API
   slug: sibill-transaction-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Sibill Webhooks
@@ -239,7 +239,7 @@ common:
   url: asyncapi/sibill-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sibill-mcp.yml
 - group: agent
   title: ''
@@ -277,10 +277,6 @@ created: '2026-07-17'
 description: Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.
 image: https://sibill.com/wp-content/uploads/2025/10/monogramma_purple.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sibill MCP Server
-  slug: sibill-mcp-server
 modified: '2026-07-21'
 name: Sibill
 nav: Providers
@@ -332,8 +328,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/screenshots/sibill-2026-08-17T081842.png
 security:

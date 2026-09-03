@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -629,8 +629,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-gov/refs/heads/main/screenshots/nasa-gov-2026-06-20T185951.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://calendar-api.ma
@@ -220,8 +220,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/screenshots/calendar-api-ma-2026-09-02T145004.png
 security:

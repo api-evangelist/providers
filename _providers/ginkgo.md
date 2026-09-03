@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.ginkgobioworks.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.ginkgo.bio/ — a different registrable domain (ginkgobioworks.com -> ginkgo.bio), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Async, job-polling REST API for running inference on public and Ginkgo-proprietary biological foundation models — protein/DNA masked language modeling and mean-embedding generation. Authenticated with
   name: Ginkgo AI Model API
   slug: ginkgo-ai-model-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -95,7 +96,7 @@ common:
   url: lifecycle/ginkgo-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ginkgo-mcp.yml
 - group: auth
   title: ''
@@ -109,10 +110,6 @@ created: '2026-07-17'
 description: 'Ginkgo Bioworks is a synthetic biology company operating autonomous labs and a horizontal platform for engineering biology. Its public developer surface is the Ginkgo AI Model API (api.ginkgobioworks.ai), which runs inference on public and Ginkgo-proprietary biological foundation models — protein and DNA masked language models and embedding models such as ESM2 (650M/3B), ginkgo-aa0-650M, and ginkgo-maskedlm-3utr-v1. The API is an async, job-polling REST service: callers POST a transform request, receive a job result URL, and poll until the job completes. Authentication is via an x-api-key header, credits and keys are issued from the models portal, and an official Python client (ginkgo-ai-client) is published to PyPI. Ginkgo was surfaced as a Felicis portfolio company and enriched into the API Evangelist network.'
 image: https://www.ginkgobioworks.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ginkgo Bioworks MCP Server
-  slug: ginkgo-bioworks-mcp-server
 modified: '2026-07-19'
 name: Ginkgo Bioworks
 nav: Providers
@@ -143,8 +140,8 @@ score:
   previous_composite: 19.2
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ginkgo/refs/heads/main/screenshots/ginkgo-2026-07-25T215827.png
 security:

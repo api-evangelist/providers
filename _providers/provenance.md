@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public Cosmos SDK REST (LCD / gRPC-gateway), gRPC, and Tendermint RPC interface to the Provenance Blockchain. Query and broadcast transactions against the marker, metadata, exchange, ledger, name, att
   name: Provenance Blockchain API
   slug: provenance-blockchain-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -83,7 +83,7 @@ common:
   url: packages/provenance-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/provenance-mcp.yml
 - group: agent
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Provenance Blockchain is a public, proof-of-stake blockchain purpose-built for financial services and the tokenization of real-world assets. Built on the Cosmos SDK with CometBFT consensus, it exposes its functionality through first-party modules including marker (token/marker issuance), metadata (asset registry and the p8e contract execution environment), exchange (on-chain order book), ledger, name, attribute, hold, trigger, and msgfees/flatfees. Applications integrate over the public Cosmos REST (LCD / gRPC-gateway) API at api.provenance.io, gRPC, and Tendermint RPC at rpc.provenance.io, and via first-party SDKs (Go, Kotlin gRPC client, Rust/CosmWasm provwasm bindings, and JavaScript wallet libraries). HASH is the native staking and gas token. The chain, protobuf data model, and SDKs are open source under the provenance-io GitHub organization.
 image: https://avatars.githubusercontent.com/provenance-io
 layout: provider
-mcp_servers:
-- description: ''
-  name: Provenance MCP Server
-  slug: provenance-mcp-server
 modified: '2026-07-20'
 name: Provenance
 nav: Providers
@@ -156,8 +152,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/provenance/refs/heads/main/screenshots/provenance-2026-09-02T152236.png
 security:

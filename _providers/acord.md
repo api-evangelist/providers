@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.2
-  scored_at: '2026-09-02'
+  score: 27.7
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -508,8 +508,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/screenshots/acord-2026-08-17T121359.png
 security:

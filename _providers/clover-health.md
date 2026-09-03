@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://public-api.cloverhealth.com
@@ -46,7 +46,7 @@ apis:
   description: The FHIR R4 ProviderDirectory API API from Clover Health — 17 operation(s) for fhir r4 providerdirectory api.
   name: Clover Health FHIR R4 ProviderDirectory API API
   slug: clover-health-fhir-r4-providerdirectory-api-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: lifecycle/clover-health-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clover-health-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: Clover Health is a Medicare Advantage health insurer that runs a public developer program built on healthcare interoperability standards. Its public FHIR R4 API exposes a Formulary service (covered drugs, tiers, and utilization management) and a Provider Directory service (practitioners, organizations, locations, healthcare services, and insurance plans), and a separate consent-based Patient Access API delivers a member's clinical and claims data in FHIR-native format via CareEvolution. The APIs implement the CMS Interoperability and Patient Access final rule (CMS-9115-F); Clover was the first payer to go live on a CMS-aligned/TEFCA network. Developers register for approved credentials and authenticate with HTTP Basic or a session cookie.
 image: https://cdn.cloverhealth.com/filer_cloudrun_public/img/live-tile-large-310x310.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Clover Health MCP Server
-  slug: clover-health-mcp-server
 modified: '2026-07-18'
 name: Clover Health
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/screenshots/clover-health-2026-07-25T205721.png
 security:

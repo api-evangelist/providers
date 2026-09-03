@@ -29,8 +29,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -85,8 +85,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -137,8 +137,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -189,8 +189,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -241,10 +241,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },

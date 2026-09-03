@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: Python tool that ingests infrastructure data from 30+ providers into a Neo4j graph for cross-provider security analysis.
@@ -158,13 +158,13 @@ rate_limits:
   slug: cartography-rate-limits
 score:
   band: emerging
-  composite: 25.7
+  composite: 17.4
   coverage:
     artifact_dirs: 7
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -174,13 +174,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 25.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartography/refs/heads/main/screenshots/cartography-2026-07-25T204658.png
 slug: cartography
 tags:

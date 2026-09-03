@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -138,14 +138,14 @@ overview: 'Bearer is profiled on the [APIs.io](https://apis.io/) network. Tagged
   Bearer''s developer surface includes documentation, quickstart, API reference, engineering blog, CLI, changelog, and 16 more developer resources.'
 random_paper: 16
 score:
-  band: thin
-  composite: 29.2
+  band: emerging
+  composite: 21.3
   coverage:
     artifact_dirs: 9
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -155,15 +155,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 29.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bearer/refs/heads/main/screenshots/bearer-2026-07-25T202543.png
 security:
 - kind: domain-security

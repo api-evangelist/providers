@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'Live OAI-PMH 2.0 harvesting interface for the TU/e Research Portal, served by Elsevier Pure at TU/e''s own pure.tue.nl. Verified with a real harvest, not link presence: verb=Identify returns repository'
@@ -231,8 +231,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png
 security:

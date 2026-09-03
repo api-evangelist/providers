@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -273,7 +273,7 @@ apis:
   description: :::note This is the latest version of the Webhooks API, v2. For the previous version of the API, see [Webhooks (v1) (deprecated)](https://developer.revolut.com/docs/api/business#tag-webhooks-v1-deprec
   name: Revolut Webhooks (v2) API
   slug: revolut-webhooks-v2-api
-artifact_total: 99
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Revolut Webhooks
@@ -519,7 +519,7 @@ common:
   url: packages/revolut-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/revolut-mcp.yml
 - group: agent
   title: ''
@@ -557,10 +557,6 @@ created: '2026-07-17'
 description: 'Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.'
 image: https://assets.revolut.com/assets/revolut-app-icons/Developer.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Revolut MCP Server
-  slug: revolut-mcp-server
 modified: '2026-07-21'
 name: Revolut
 nav: Providers
@@ -575,13 +571,13 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 8
 score:
   band: developing
-  composite: 45.4
+  composite: 49.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -591,9 +587,6 @@ score:
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -615,8 +608,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ apis:
   description: The Wholesalers API from Ascend — 1 operation(s) for wholesalers.
   name: Ascend Wholesalers API
   slug: ascend-wholesalers-api
-artifact_total: 53
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Ascend Webhooks
@@ -339,7 +339,7 @@ common:
   url: conformance/ascend-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ascend-mcp.yml
 - group: agent
   title: ''
@@ -353,10 +353,6 @@ created: '2026-07-17'
 description: Ascend is a financial operations platform built for the insurance industry, offering AI-powered accounting automation, payments, and premium financing in a single vertically integrated solution. Its REST API (v1) lets insurance agencies, wholesalers, MGAs, and carriers automate billing and invoicing, premium financing and installment plans, cash application, carrier payables, and direct bill workflows — managing insureds, programs, billables, invoices, loans, payouts, refunds, and one-time payments programmatically, secured with bearer tokens and HMAC-signed webhooks for invoice, payout, and refund events. Trusted by over 4,000 insurance businesses, including over half of the 50 largest brokers.
 image: https://www.useascend.com/favicons/icon-512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ascend MCP Server
-  slug: ascend-mcp-server
 modified: '2026-07-18'
 name: Ascend
 nav: Providers
@@ -404,8 +400,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:

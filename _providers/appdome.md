@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Appdome Build2Secure (DEV-API) REST API automates Appdome's no-code mobile app defense pipeline — upload, build/fuse, add context, sign (standard, private, and Auto-DEV signing), download, publish
   name: Appdome Build2Secure API
   slug: appdome-build2secure-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -139,7 +139,7 @@ common:
   url: data-model/appdome-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/appdome-mcp.yml
 - group: design
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Appdome is a mobile app defense and DevSecOps platform that lets development and security teams add cyber-defense, anti-fraud, anti-malware, anti-cheat, and runtime protections to Android and iOS apps with no code and no SDK. Its Build2Secure ("DEV-API") REST API connects the no-code build, fuse, context, sign, and publish steps to CI/CD systems such as GitHub, GitLab, Jenkins, Azure DevOps, Bitrise, CircleCI, and TeamCity, enabling teams to protect, sign, certify, and release mobile apps automatically at scale. The platform also covers app validation, Certified Secure certificates, team and user management, DEV-Logs audit events, and device-matching services. Appdome is backed by Menlo Ventures.
 image: https://www.appdome.com/wp-content/uploads/2025/10/cropped-AppdomeShield-270x270.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Appdome MCP Server
-  slug: appdome-mcp-server
 modified: '2026-07-17'
 name: Appdome
 nav: Providers
@@ -189,8 +185,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/screenshots/appdome-2026-07-25T200727.png
 security:

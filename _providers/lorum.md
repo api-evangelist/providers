@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.fuse.me
@@ -86,7 +86,7 @@ apis:
   description: The Transactions API from Lorum — 8 operation(s) for transactions.
   name: Lorum Transactions API
   slug: lorum-transactions-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: Real-time webhook events emitted by Lorum for payments, transfers, currency exchanges, account changes, and customer onboarding. Generated from the provider's published webhook catalogue (docs.lorum.c
   name: Lorum (Fuse) Webhooks
@@ -188,7 +188,7 @@ common:
   url: data-model/lorum-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lorum-mcp.yml
 - group: agent
   title: ''
@@ -238,10 +238,6 @@ created: '2026-07-17'
 description: Lorum (developer brand "Fuse") is a fintech providing banking-grade clearing, settlement, and treasury infrastructure - "built for clearing, not lending." Through one API it offers multi-currency clearing across 30+ markets, programmable segregated account infrastructure (including virtual IBANs), and cash management with FX and liquidity sweeps. It targets payroll/EOR platforms, fintechs and PSPs, trading and investment platforms, and marketplaces that need to move and settle funds across global payment rails without standing up local banking entities. The API (OAuth2 client-credentials auth, idempotency-keyed money movement, and webhook event notifications) covers customers/KYC, accounts, payments, internal transfers, currency exchange, documents, batch payments, and full sandbox scheme simulation. Lorum is backed by Northzone.
 image: https://cdn.prod.website-files.com/691dc048eb27bd1d29e459b1/692b0683e9466303595474d6_1ddad7f49147abb7075cab3048b9487b_Opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lorum MCP Server
-  slug: lorum-mcp-server
 modified: '2026-07-20'
 name: Lorum
 nav: Providers
@@ -288,8 +284,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://vanillaforums.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.higherlogic.com/vanilla/ — a different registrable domain (vanillaforums.com -> higherlogic.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://open.vanillaforums.com/api/v2
@@ -686,8 +687,8 @@ score:
       total: 58
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/screenshots/vanilla-forums-2026-08-17T082714.png
 security:

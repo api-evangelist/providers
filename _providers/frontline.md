@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -508,7 +508,7 @@ score:
   band: developing
   composite: 48.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -533,8 +533,8 @@ score:
       total: 44
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png
 security:

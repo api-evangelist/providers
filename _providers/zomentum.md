@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Zomentum revenue platform, documented as public Postman documentation. Uses Bearer token authentication (Auth0-issued access and refresh tokens) via an API User provisioned in the das
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zomentum/refs/heads/main/screenshots/zomentum-2026-09-02T171827.png
 security:

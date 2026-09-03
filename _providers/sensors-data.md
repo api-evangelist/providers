@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 58
 apis:
 - baseURL: https://{sensors_data_url}/api/v3/analytics/v1
@@ -175,7 +179,7 @@ apis:
   description: The Web Sections API from Sensors Data — 4 operation(s) for web sections.
   name: Sensors Data Web Sections API
   slug: sensors-data-web-sections-api
-artifact_total: 64
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Sensors Data Webhooks
@@ -269,6 +273,10 @@ collections:
   name: 神策业务门户
   slug: open-sensors-data-portal-resource-management-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sensors-data-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -399,7 +407,7 @@ common:
   url: asyncapi/sensors-data-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sensors-data-mcp.yml
 - group: design
   title: ''
@@ -425,10 +433,6 @@ created: '2026-07-17'
 description: Sensors Data (神策数据) is a customer data analytics and CDP (Customer Data Platform) company. Its platform unifies customer data across channels into real-time customer profiles and provides product analytics, user profiling, marketing and ad attribution, A/B testing, and smart-operations tooling. Sensors Data processes 250+ billion data points daily, ships 50+ data-collection SDKs across web, mobile, mini-program and server-side languages, and serves 2,000+ enterprise customers with both cloud and on-premise deployment. An OpenAPI is exposed for ecosystem integration.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensors-data.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sensors Data MCP Server
-  slug: sensors-data-mcp-server
 modified: '2026-08-13'
 name: Sensors Data
 nav: Providers
@@ -439,7 +443,7 @@ overview: 'Sensors Data publishes 28 APIs on the [APIs.io](https://apis.io/) net
   The Sensors Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sensors Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 32 more developer resources.'
+  Sensors Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 33 more developer resources.'
 plans:
 - name: Sensors Data Plans Pricing
   plan_count: 0
@@ -453,7 +457,7 @@ score:
   band: developing
   composite: 42.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -477,8 +481,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/screenshots/sensors-data-2026-08-17T081809.png
 security:

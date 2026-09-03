@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - baseURL: https://api.leap.energy
@@ -328,8 +328,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:

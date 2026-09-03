@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: Energy Plan endpoints
   name: Powershop Energy Plans API
   slug: powershop-energy-plans-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: CDR Common API
@@ -161,7 +161,7 @@ common:
   url: data-model/powershop-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/powershop-mcp.yml
 - group: agent
   title: ''
@@ -248,10 +248,6 @@ description: 'Powershop is an Australian retail energy brand selling electricity
   Register with a public base URI of https://public.cdr.powershop.com.au, which returns standards-conformant Consumer Data Standards responses for /cds-au/v1/discovery/status and /cds-au/v1/discovery/outages without authentication. Its Generic Tariff (plan) data is served openly and anonymously from the Australian Energy Regulator''s Energy Made Easy CDR host, where 482 Powershop electricity and gas plans are retrievable with no credentials at all. The customer-level data the mandate actually exists to unlock — accounts, billing, invoices, payment schedules, concessions, plus AEMO-sourced metering, NMI standing and DER register data — is real, documented, and reachable only by an accredited data recipient acting on an authenticated consumer consent. Open tariff data, closed consumer data: a mandate that was implemented, not merely claimed.'
 image: https://www.powershop.com.au/powershop-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Powershop MCP Server
-  slug: powershop-mcp-server
 modified: '2026-07-27'
 name: Powershop
 nav: Providers
@@ -301,8 +297,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/screenshots/powershop-2026-08-17T124837.png
 security:

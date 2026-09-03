@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.datastax.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.ibm.com/products/datastax — a different registrable domain (datastax.com -> ibm.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -372,8 +373,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth2-secured GraphQL API for PlayerData sports performance data — clubs, athletes, sessions, devices, metrics, reports and real-time subscription events.
   name: PlayerData GraphQL API
   slug: playerdata-graphql-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: 'Server-emitted real-time events exposed by the PlayerData GraphQL API via RootSubscription. Derived from the published GraphQL schema; each channel maps to a GraphQL subscription field delivered over '
   name: PlayerData Real-Time Events (GraphQL Subscriptions)
@@ -79,7 +79,7 @@ common:
   url: asyncapi/playerdata-events-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/playerdata-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: PlayerData provides GPS sports performance tracking technology for athletes and teams — FIFA Quality Certified EDGE wearable trackers, a GPS-enabled Connected Ball, and indoor IMU / local-positioning systems. Its platform captures distance, speed, sprints, acceleration/deceleration and workload, and exposes a GraphQL API secured with OAuth 2.0 covering clubs, athletes, sessions, devices, metrics and reports, plus real-time GraphQL subscription events. Official Python (playerdatapy) and R (playerdatar) client libraries wrap the API. PlayerData is a Techstars portfolio company.
 image: https://www.playerdata.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: PlayerData MCP Server
-  slug: playerdata-mcp-server
 modified: '2026-07-20'
 name: PlayerData
 nav: Providers
@@ -172,8 +168,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/screenshots/playerdata-2026-09-02T151456.png
 security:

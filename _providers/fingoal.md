@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://findmoney.fingoal.com/v3
@@ -71,7 +75,7 @@ apis:
   description: 'Webhook payload schemas for all webhook types. Configure which webhooks you receive using the Webhook Configurations endpoints. **Available Webhook Types:** - `ENRICHMENT_DATA`: Data-rich Transaction '
   name: FinGoal Webhooks API
   slug: fingoal-webhooks-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Fingoal Link Money Webhooks
@@ -187,7 +191,7 @@ common:
   url: data-model/fingoal-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fingoal-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +225,6 @@ created: '2026-07-17'
 description: 'FinGoal provides financial data insights for banks, credit unions, and fintechs. Its Insights API enriches raw bank and card transaction data with clean merchant names, categorization, and behavioral "Persona Tags" that power personalized recommendations, targeted offers, and better banking features. The API is batch-oriented: developers submit transactions, receive a batch_request_id, and collect enriched results by polling or via ENRICHMENT_DATA and USER_TAGS_DATA webhooks. FinGoal also offers Link Money for account aggregation and verification across 17,000+ financial institutions. Authentication uses a JWT minted from client_id/client_secret; developer credentials are issued on request. FinGoal is SOC 2 Type II and GDPR compliant.'
 image: https://cdn.prod.website-files.com/61d89a2cbc85dcbc83bb0f7c/637402586ca49d150ef97dc2_Website%20Open%20Graph%20%20Thumbnail.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: FinGoal MCP Server
-  slug: fingoal-mcp-server
 modified: '2026-08-14'
 name: FinGoal
 nav: Providers
@@ -288,8 +288,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 69.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:

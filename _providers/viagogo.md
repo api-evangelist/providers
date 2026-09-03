@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://api.viagogo.net
@@ -144,7 +144,7 @@ apis:
   description: When configuring a webhook, you can choose the topics you would like to receive payloads for. You should only subscribe to the specific topics that you plan on handling so that you can limit the numbe
   name: viagogo Topics API
   slug: viagogo-topics-api
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Viagogo Webhooks
@@ -220,7 +220,7 @@ common:
   url: capabilities/viagogo-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/viagogo-mcp.yml
 - group: other
   title: ''
@@ -342,10 +342,6 @@ created: '2026-08-05'
 description: viagogo is a global online ticket marketplace for live events — concerts, sport and theatre — operating in more than 90 countries and, since the 2020 acquisition of StubHub, part of StubHub Holdings. viagogo publishes a public developer program at developer.viagogo.net covering five OAuth2-secured HTTP APIs — Catalog (events, venues, categories and instant-liquidity listing offers), Account (users, addresses, payment methods), Inventory (seller listings, listing constraints, e-tickets and shipments), Sales (sales, payments, ticket holders, transfer proof) and Webhooks (topic subscriptions) — all served from api.viagogo.net over application/hal+json with a matching sandbox.api.viagogo.net environment, official GogoKit client libraries for .NET, Python, Ruby and PHP, and machine-readable OpenAPI 3.0 definitions synced nightly from the API host into the public docs repository.
 image: https://img.vggcdn.net/img/assets/logo/viagogo_logo_apidocs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: viagogo MCP Server
-  slug: viagogo-mcp-server
 modified: '2026-08-05'
 name: viagogo
 nav: Providers
@@ -391,8 +387,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/screenshots/viagogo-2026-08-17T082740.png
 security:

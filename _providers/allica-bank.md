@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ apis:
   description: The Transactions API from Allica Bank — 1 operation(s) for transactions.
   name: Allica Bank Transactions API
   slug: allica-bank-transactions-api
-artifact_total: 24
+artifact_total: 23
 common:
 - group: other
   title: ''
@@ -196,7 +196,7 @@ common:
   url: data-model/allica-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/allica-bank-mcp.yml
 - group: agent
   title: ''
@@ -263,10 +263,6 @@ description: Allica Bank Limited is a UK financial-technology bank built specifi
   client authentication, and dynamic client registration using Open Banking Directory / eIDAS certificates and Software Statement Assertions.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Allica Bank MCP Server
-  slug: allica-bank-mcp-server
 modified: '2026-07-24'
 name: Allica Bank
 nav: Providers
@@ -320,8 +316,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -133,7 +133,7 @@ apis:
   description: Operations about vm_stacks
   name: Rainforest QA vm_stack API
   slug: rainforest-qa-vm-stack-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Rainforest Qa Webhooks
@@ -267,7 +267,7 @@ common:
   url: packages/rainforest-qa-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rainforest-qa-mcp.yml
 - group: agent
   title: ''
@@ -325,10 +325,6 @@ created: '2026-07-17'
 description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, environments, sites and folders, trigger and rerun test runs, and pull JUnit results directly from CI/CD pipelines. Run-lifecycle webhooks (initializing_run, before_run, after_run) with HMAC-signed callbacks support advanced deploy-gated integrations. Authentication is via a CLIENT_TOKEN API key header.
 image: https://files.readme.io/b4c4a73843894a94128b97dfacf7cd0936025ad438ac2bcff381bdfcae2125ec-VariationPrimary_AspectFull_ColorWhite2x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rainforest QA MCP Server
-  slug: rainforest-qa-mcp-server
 modified: '2026-07-20'
 name: Rainforest QA
 nav: Providers
@@ -370,8 +366,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/screenshots/rainforest-qa-2026-08-17T124920.png
 security:

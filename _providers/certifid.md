@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.certifid.com
@@ -112,7 +112,7 @@ apis:
   description: The WiringInstructions API from CertifID — 1 operation(s) for wiringinstructions.
   name: CertifID Wiring Instructions API
   slug: certifid-wiringinstructions-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: capabilities/certifid-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/certifid-mcp.yml
 - group: company
   title: ''
@@ -286,10 +286,6 @@ created: '2026-08-09'
 description: CertifID is a wire fraud prevention, identity verification and funds protection platform for the real estate closing process, serving title agents, law firms, real estate agents, lenders and home buyers and sellers. Its products verify the identities of transaction participants, verify business and bank account ownership, securely share and confirm wiring instructions, order and verify mortgage payoffs, collect earnest money and cash-to-close payments, provide secure eSigning, and insure wires against fraud loss. CertifID exposes a public "CertifID V2 APIs" REST surface at api.certifid.com for third-party integrations, documented with a live OpenAPI 3.0.1 definition served from Swagger UI and secured with Auth0-backed OAuth 2.0.
 image: https://cdn.prod.website-files.com/60a41ae959fbb36bd6808d6e/688ce259fd22b6b6905c812d_thumbnail-homepage.png
 layout: provider
-mcp_servers:
-- description: CertifID operates NO Model Context Protocol server. This artifact is a CANDIDATE tool list that API Evangelist derived from the 57 operations in the live CertifID V2 APIs OpenAPI definition. It is a d
-  name: CertifID MCP Server
-  slug: certifid-mcp-server
 modified: '2026-08-09'
 name: CertifID
 nav: Providers
@@ -338,8 +334,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/screenshots/certifid-2026-08-17T080816.png
 security:

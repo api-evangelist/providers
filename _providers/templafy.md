@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.templafy.com/v3
@@ -121,7 +121,7 @@ apis:
   description: The TextElements API from Templafy — 3 operation(s) for textelements.
   name: Templafy TextElements API
   slug: templafy-textelements-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -272,7 +272,7 @@ common:
   url: data-model/templafy-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/templafy-mcp.yml
 - group: build
   title: ''
@@ -290,10 +290,6 @@ created: '2026-07-17'
 description: Templafy is an enterprise document-generation and content-enablement platform that helps large organizations keep every document, presentation, email, and spreadsheet on-brand and compliant. Its REST Public API automates template and digital-asset management across spaces, libraries, and folders, maintains structured data sources, and generates documents, presentations, spreadsheets, and text elements from templates. Authentication uses a scoped API key sent as an HTTP bearer token created in the Templafy Admin Center; the API is versioned in the URI path (v1-v4 plus an unstable channel) with per-version stability levels, returns RFC 7807/9457 Problem Details errors, and paginates lists with pageNumber/pageSize.
 image: https://www.templafy.com/wp-content/uploads/2024/06/Logo_black.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Templafy MCP Server
-  slug: templafy-mcp-server
 modified: '2026-07-21'
 name: Templafy
 nav: Providers
@@ -330,8 +326,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/screenshots/templafy-2026-08-17T082310.png
 security:

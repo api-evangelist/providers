@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'La Trobe''s own API gateway, an Azure API Management instance published at api.latrobe.edu.au (CNAME ltu-api-prod-apim.developer.azure-api.net). It is not a public developer product: every path returns'
@@ -190,8 +190,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://dev.imprint.co
@@ -111,7 +111,7 @@ apis:
   description: The Webhooks API from Imprint — 0 operation(s) for webhooks.
   name: Imprint Webhooks API
   slug: imprint-webhooks-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Imprint Webhooks
@@ -237,7 +237,7 @@ common:
   url: components/imprint-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/imprint-mcp.yml
 - group: agent
   title: ''
@@ -291,10 +291,6 @@ created: '2026-07-17'
 description: Imprint is a financial technology company that builds bespoke co-branded credit cards, deposit accounts, and installment loans for consumer brands such as Shell, Rakuten, and Booking.com. Its Imprint Core platform powers the full lifecycle of a co-branded program - application, card issuance, transactions, rewards, and account management. The public Imprint API (v2) lets partners create customer sessions that hand a client_secret to embeddable Web/iOS/Android SDKs, manage customers and payment methods, track transaction intents and transactions, run reward programs, manage orders, and receive HMAC-signed webhook event notifications. Authentication is via environment-specific API keys (HTTP Basic or Bearer), with separate sandbox and production environments.
 image: https://framerusercontent.com/assets/CVGaxWn2JW3mV5KWWXmkzXVM.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Imprint MCP Server
-  slug: imprint-mcp-server
 modified: '2026-07-19'
 name: Imprint
 nav: Providers
@@ -341,8 +337,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:

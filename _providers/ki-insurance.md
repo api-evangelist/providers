@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -322,8 +322,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -158,7 +158,7 @@ apis:
   description: The Xapi API from 360Learning — 0 operation(s) for xapi.
   name: 360Learning Xapi API
   slug: 360learning-xapi-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: 360Learning Webhooks
@@ -317,7 +317,7 @@ common:
   url: asyncapi/360learning-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/360learning-mcp.yml
 - group: agent
   title: ''
@@ -359,10 +359,6 @@ created: '2026-07-17'
 description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them into groups, build and assign courses and learning paths, schedule instructor-led classrooms with slots and attendance, manage a skills taxonomy and certificates, run bulk operations, and subscribe to near-real-time webhook events. API v2 uses OAuth 2.0 client-credentials auth with a two-tier (company/credential) scope system, cursor pagination via the Link header, and is hosted in EU and US regions.'
 image: https://files.readme.io/d2f83e1cf705d24a2d47d5d49cca3ae5b2a36f208b27a4ce4906eeafe46551ec-small-LogoMain.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: 360Learning MCP Server
-  slug: 360learning-mcp-server
 modified: '2026-07-17'
 name: 360Learning
 nav: Providers
@@ -419,8 +415,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:

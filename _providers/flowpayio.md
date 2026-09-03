@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Flowpay's REST partner API for the Fully Embedded (Native) lending flow - customer onboarding and service activation, open-banking account and transaction ingestion, offer request/recalculation/retrie
@@ -42,7 +42,7 @@ apis:
 - description: Partner-implemented endpoint (GET /v1/sales) that supplies Flowpay with a merchant's paginated sales/order history (status, delivery, payment, currency, totals, line items) so Flowpay can score and pe
   name: Flowpay Sales Transactions API
   slug: flowpay-sales-transactions-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: 'Flowpay notifies partner applications of asynchronous events via HTTPS POST webhooks. Each delivery is signed with an HMAC-SHA256 signature in the `x-flowpay-sig` header and carries an `x-flowpay-ts` '
   name: Flowpay Webhooks
@@ -150,7 +150,7 @@ common:
   url: components/flowpayio-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/flowpayio-mcp.yml
 - group: agent
   title: ''
@@ -160,10 +160,6 @@ created: '2026-07-17'
 description: Flowpay is an embedded-lending fintech that provides fast, flexible, non-purpose financing of up to EUR 100,000 to small and medium-sized businesses across the Czech Republic, Slovakia, and the Netherlands. Its AI-driven platform lets e-commerce, point-of-sale, accounting, and banking partners embed an end-to-end lending journey - customer onboarding and identity verification, open-banking and sales-transaction data ingestion, personalized offer generation, and financing origination, document signing, and repayment - directly into their own products via a REST partner API, hosted iframe/linkout surfaces, and a modular JavaScript/React embed SDK. Authentication is OAuth 2.0 client-credentials (Auth0), with HMAC-SHA256 signed webhooks for customer-scoring and financing-state events. Flowpay is a Techstars-backed company.
 image: https://cdn.prod.website-files.com/67f67c483b46bf33a3c28b20/688a66eddaf45373ea01c930_OG%20(2).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: flowpay.io MCP Server
-  slug: flowpayio-mcp-server
 modified: '2026-07-19'
 name: flowpay.io
 nav: Providers
@@ -204,8 +200,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/screenshots/flowpayio-2026-07-25T214838.png
 security:

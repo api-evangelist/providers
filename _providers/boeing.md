@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - description: 'The Boeing Aircraft Models API provides model characteristics of commercial and business aviation aircraft including ICAO/IATA codes, engine specifications, wingspan, weight, and height. Data sourced '
@@ -153,8 +153,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 13.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/screenshots/boeing-2026-06-20T173551.png
 security:

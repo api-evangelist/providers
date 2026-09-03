@@ -33,9 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -99,7 +99,7 @@ common:
   url: conformance/cinchy-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cinchy-mcp.yml
 - group: agent
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Cinchy is a data collaboration ("dataware") platform whose network-based data architecture lets enterprise applications share live, governed data without making copies or building point-to-point integrations. Its current focus, PeriMind, is an enterprise control plane for AI that secures, governs, and audits every interaction between AI agents and enterprise systems, data, and applications. Cinchy exposes a REST API for executing Cinchy Query Language (CQL), calling versioned saved queries, triggering data-sync jobs, and managing secrets, with authentication via bearer tokens, personal access tokens, HTTP Basic, and an embedded OAuth2/OIDC IdentityServer. Official Angular and JavaScript SDKs and embeddable app experiences are published on GitHub. Cinchy was surfaced as a Techstars portfolio company.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cinchy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cinchy MCP Server
-  slug: cinchy-mcp-server
 modified: '2026-07-18'
 name: Cinchy
 nav: Providers
@@ -156,8 +152,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cinchy/refs/heads/main/screenshots/cinchy-2026-07-25T205348.png
 security:

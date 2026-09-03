@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Model discovery and catalog.
   name: Nous Research Models API
   slug: nous-research-models-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -71,7 +71,7 @@ common:
   url: agentic-access/nous-research-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nous-research-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Nous Research is an AI research and infrastructure company ("The AI Accelerator Company") known for the open-weight Hermes family of language models (including Hermes 4) and for Nous Portal, an OpenAI-compatible inference API served at inference-api.nousresearch.com. The Portal aggregates Nous's own Hermes models alongside a broad catalog of open and frontier third-party models (OpenRouter- style routing, 280+ models) behind a single chat-completions endpoint. Distinctively, the inference API supports the x402 HTTP payment protocol, returning HTTP 402 with a Solana USDC micropayment envelope so agents can pay per request without a pre-provisioned account. Beyond inference, Nous ships the Hermes Agent framework, Atropos RL environments, and Psyche/DisTrO for distributed model training over the internet. Backed by Paradigm.
 image: https://nousresearch.com/wp-content/uploads/2024/03/android-chrome-512x512-1-300x300.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nous Research MCP Server
-  slug: nous-research-mcp-server
 modified: '2026-07-20'
 name: Nous Research
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/screenshots/nous-research-2026-08-07T185555.png
 security:

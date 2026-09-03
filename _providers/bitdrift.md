@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The bitdrift Capture public API — schema-first protobuf service definitions exposed over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. Services under the bitdrift.public.unary.* package
   name: bitdrift Public API
   slug: bitdrift-public-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Bitdrift Webhooks
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: bitdrift builds Capture, a cost-effective dynamic mobile observability platform for iOS, Android, and React Native. A lightweight on-device SDK stores high-volume telemetry locally and uploads only what is needed under real-time control from the bitdrift control plane, avoiding lengthy mobile release cycles to change what is collected. The platform surfaces Instant Insights dashboards, Workflows for custom metrics, funnels and session-capture rules, a Session Timeline for debugging, Issues & Crashes tracking, and Alerts. It is operated through a web portal and the `bd` CLI, and exposes a public, schema-first protobuf API over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. bitdrift is a developer-tools company backed by Amplify Partners.
 image: https://bitdrift.io/v/7280840156499158247/images/hero-block-poster-preview.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: bitdrift MCP Server
-  slug: bitdrift-mcp-server
 modified: '2026-07-18'
 name: bitdrift
 nav: Providers
@@ -200,8 +196,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/screenshots/bitdrift-2026-07-25T203143.png
 security:

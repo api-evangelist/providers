@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Klaus platform API at api.klausai.com is a tRPC RPC surface used by the first-party @klausai/cli command-line client to manage OpenClaw instances, agents, integrations, models, and chat sessions, '
   name: Klaus Platform API
   slug: klaus-ai-platform-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Klaus Ai Webhooks
@@ -47,7 +47,7 @@ asyncapis:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/klaus-ai-mcp.yml
 - group: company
   title: ''
@@ -146,10 +146,6 @@ description: Klaus is a managed cloud hosting platform for OpenClaw AI agents, b
   Authentication is by API key or an OAuth 2.0 Device Authorization Grant (RFC 8628).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/klaus-ai.png
 layout: provider
-mcp_servers:
-- description: Klaus operates no official hosted or remote MCP server. No MCP server was found in the MCP registry, on npm under @modelcontextprotocol or @klausai, or in Klaus's own material — Klaus's MCP content is
-  name: Klaus AI MCP Server
-  slug: klaus-ai-mcp-server
 modified: '2026-07-19'
 name: Klaus AI
 nav: Providers
@@ -184,8 +180,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/screenshots/klaus-ai-2026-07-25T223940.png
 security:

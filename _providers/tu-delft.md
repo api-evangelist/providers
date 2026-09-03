@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -284,14 +284,14 @@ scopes:
   slug: tu-delft-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 69.6
+  band: strong
+  composite: 65.2
   coverage:
     artifact_dirs: 18
     catalog_gap: 28.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -301,9 +301,6 @@ score:
     discoverability: 79.6
     governance: 67.4
     operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 69.6
   provenance:
     conformance: first-party
@@ -318,8 +315,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 90.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

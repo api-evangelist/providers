@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -153,8 +153,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The PractitionerRole API from Clever Care — 2 operation(s) for practitionerrole.
   name: Clever Care PractitionerRole API
   slug: clever-care-practitionerrole-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -223,7 +223,7 @@ common:
   url: data-model/clever-care-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clever-care-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: 'Clever Care Health Plan is a California Medicare Advantage (HMO and HMO C-SNP) plan headquartered in Huntington Beach, CA, that blends the healing therapies of Eastern medicine with the innovative practices of Western medicine to serve Los Angeles, Orange, San Diego, Riverside, and San Bernardino counties. In compliance with the CMS Interoperability and Patient Access rule (CMS-9115-F), Clever Care operates a secure, standards-based HL7 FHIR R4 API surface (WSO2 gateway) spanning 13 published resource APIs across three domains: Patient Access (CARIN Blue Button), Provider Directory (Da Vinci PDex Plan-Net), and Drug Formulary (Da Vinci US Drug Formulary). Patient Access resources are secured with SMART on FHIR OAuth 2.0 / OpenID Connect; directory and formulary resources are public and rate-limited. Provider Access, Payer-to-Payer, and Prior Authorization APIs are planned for January 1, 2027.'
 image: https://fhir-portal.clevercarehealthplan.com/api-docs/images/cc_logo_H.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Clever Care MCP Server
-  slug: clever-care-mcp-server
 modified: '2026-07-18'
 name: Clever Care
 nav: Providers
@@ -310,8 +306,8 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/screenshots/clever-care-2026-07-25T205602.png
 security:

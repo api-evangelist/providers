@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-02'
+  score: 26.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -252,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/withpersona/refs/heads/main/screenshots/withpersona-2026-09-02T170853.png
 security:

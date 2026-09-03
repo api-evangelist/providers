@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ apis:
   description: The wp/v2 API from LifeMine — 1 operation(s) for wp/v2.
   name: LifeMine Wp/v2 API
   slug: lifemine-wp-v2-api
-artifact_total: 131
+artifact_total: 130
 collections:
 - collection_type: open
   name: API Collection
@@ -604,7 +604,7 @@ common:
   url: agentic-access/lifemine-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lifemine-mcp.yml
 - group: build
   title: ''
@@ -655,10 +655,6 @@ json_schemas:
   property_count: 0
   slug: lifemine-team_categories
 layout: provider
-mcp_servers:
-- description: LifeMine publishes NO MCP server. A search of the company's site, the WordPress host, the Greenhouse board and the public MCP registries found none, and no MCP endpoint is advertised in robots.txt, th
-  name: LifeMine MCP Server
-  slug: lifemine-mcp-server
 modified: '2026-08-04'
 name: LifeMine
 nav: Providers
@@ -676,7 +672,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -686,7 +682,7 @@ score:
     discoverability: 53.7
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 21.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -703,8 +699,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/screenshots/lifemine-2026-08-07T171642.png
 security:

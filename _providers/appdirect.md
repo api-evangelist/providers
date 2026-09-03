@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.3
-  scored_at: '2026-09-02'
+  score: 42.6
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://marketplace.appdirect.com/api
@@ -411,7 +411,7 @@ apis:
   description: The UserAccounts API from AppDirect — 1 operation(s) for useraccounts.
   name: AppDirect UserAccounts API
   slug: appdirect-useraccounts-api
-artifact_total: 156
+artifact_total: 155
 asyncapis:
 - description: ''
   name: Appdirect Webhooks
@@ -729,7 +729,7 @@ common:
   url: components/appdirect-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/appdirect-mcp.yml
 - group: agent
   title: ''
@@ -799,10 +799,6 @@ created: '2026-07-17'
 description: AppDirect is a subscription commerce platform that powers B2B digital marketplaces, billing, provisioning, and reseller/distribution channels for millions of cloud subscriptions worldwide. Its developer platform exposes OAuth 2.0-authenticated REST and GraphQL APIs to manage companies, users and memberships, products and editions, subscriptions and assignments, invoices and metered usage billing, and to receive real-time webhooks. AppDirect also ships Devs.ai, an API for building LLM/agent experiences, plus a Storefront Toolkit CLI and embeddable UI components. Enriched from the public developer portal, OpenAPI specs, and live probes by the API Evangelist pipeline.
 image: https://www.appdirect.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: AppDirect MCP Server
-  slug: appdirect-mcp-server
 modified: '2026-07-17'
 name: AppDirect
 nav: Providers
@@ -848,8 +844,8 @@ score:
       total: 75
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

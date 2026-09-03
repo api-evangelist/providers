@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.8
-  scored_at: '2026-09-02'
+  score: 36.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -360,8 +360,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
 security:

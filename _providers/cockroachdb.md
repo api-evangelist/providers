@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -346,6 +346,10 @@ collections:
   name: CockroachDB Cloud APIKeys VersionDeferral API
   slug: open-cockroachdb-versiondeferral-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cockroachdb-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -747,7 +751,7 @@ overview: 'CockroachDB publishes 26 APIs on the [APIs.io](https://apis.io/) netw
   The CockroachDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  CockroachDB''s developer surface includes authentication, documentation, pricing, developer console, GitHub presence, engineering blog, and 11 more developer resources.'
+  CockroachDB''s developer surface includes authentication, documentation, pricing, developer console, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Cockroachdb Plans Pricing
   plan_count: 3
@@ -794,7 +798,7 @@ score:
   band: developing
   composite: 44.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -816,8 +820,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/screenshots/cockroachdb-2026-06-20T174648.png
 security:

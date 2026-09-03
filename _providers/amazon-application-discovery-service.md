@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -73,7 +73,7 @@ apis:
   description: Operations for managing configuration item tags
   name: Amazon Application Discovery Service Tags API
   slug: amazon-application-discovery-service-tags-api
-artifact_total: 245
+artifact_total: 244
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-application-discovery-service-mcp.yml
 - group: other
   title: ''
@@ -765,10 +765,6 @@ jsonld:
   property_count: 113
   slug: amazon-application-discovery-service-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Application Discovery Service MCP Server
-  slug: amazon-application-discovery-service-mcp-server
 modified: '2026-06-20'
 name: Amazon Application Discovery Service
 nav: Providers
@@ -831,8 +827,8 @@ score:
       marker_coverage: 100.0
       total: 7
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.goodays.co/v2
@@ -71,7 +71,7 @@ apis:
   description: The stats API from Goodays — 8 operation(s) for stats.
   name: Goodays stats API
   slug: goodays-stats-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +140,7 @@ common:
   url: lifecycle/goodays-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/goodays-mcp.yml
 - group: agent
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: Goodays (formerly Critizr) is Europe's leading customer experience management platform, founded in 2012 and headquartered in Lille, France, helping retailers and multi-location brands understand and act on customer feedback across every point of sale. Its REST API v2 (api.goodays.co/v2) exposes a Core API for the place/level/survey/user hierarchy, a Response API to read and reply to customer reviews, a Solicitation API to request feedback by email/SMS, a Collect API for first-party collection sources, and a Metrics API for NPS, satisfaction, relationship, Google-score, dissatisfaction and retained-customer statistics. Goodays also ships Web, iOS and Android SDKs and embeddable feedback widgets. Added to the API Evangelist network as a point-nine portfolio lead and enriched by the pipeline from Goodays' public developer documentation.
 image: https://assets.goodays.prod.verveagency.com/assets/illu-social-en.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Goodays MCP Server
-  slug: goodays-mcp-server
 modified: '2026-07-19'
 name: Goodays
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
 security:

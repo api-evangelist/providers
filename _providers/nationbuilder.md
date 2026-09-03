@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ apis:
   description: Voter records store the ballot history of a single signup.
   name: NationBuilder Voters API
   slug: nationbuilder-voters-api
-artifact_total: 88
+artifact_total: 87
 collections:
 - collection_type: open
   name: API Collection
@@ -443,7 +443,7 @@ common:
   url: changelog/nationbuilder-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nationbuilder-mcp.yml
 - group: agent
   title: ''
@@ -501,10 +501,6 @@ created: '2026-07-17'
 description: 'NationBuilder is a community-engagement and organizing platform for political campaigns, advocacy groups, nonprofits, and membership organizations, pairing a supporter CRM with a website/page builder, email and text messaging, event and petition tools, and integrated fundraising. Its developer surface is a REST API offered in two flavors: the current v2 API, which follows the JSON:API specification and authenticates with OAuth 2.0 (authorization-code with optional PKCE and refresh tokens), and a legacy v1 API that uses per-nation API tokens. The API exposes people/signups, donations, events, petitions, memberships, lists, tags, and related resources so integrators can sync supporter data and automate outreach. NationBuilder is multi-tenant: each nation is reached at its own {nation-slug}.nationbuilder.com host.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nationbuilder.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NationBuilder MCP Server
-  slug: nationbuilder-mcp-server
 modified: '2026-07-20'
 name: NationBuilder
 nav: Providers
@@ -547,8 +543,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationbuilder/refs/heads/main/screenshots/nationbuilder-2026-08-17T124218.png
 security:

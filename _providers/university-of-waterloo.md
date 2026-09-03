@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -429,14 +429,14 @@ scopes:
   slug: university-of-waterloo-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.7
+  band: exemplar
+  composite: 67.5
   coverage:
     artifact_dirs: 21
     catalog_gap: 40.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.8
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -446,9 +446,6 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 73.7
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 61.7
   provenance:
     agentic_access: derived
@@ -464,9 +461,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
 security:
 - kind: authentication

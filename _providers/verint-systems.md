@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Verint Systems API provides access to platform services and data for enterprise integration and automation.
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 12.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verint-systems/refs/heads/main/screenshots/verint-systems-2026-06-20T200928.png
 security:

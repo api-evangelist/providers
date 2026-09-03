@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Defence Bank Banking Products API
   slug: defence-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -183,7 +183,7 @@ common:
   url: data-model/defence-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/defence-bank-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: Defence Bank Limited is an Australian customer-owned (mutual) bank established in 1975 and headquartered in Melbourne, serving current and former Australian Defence Force personnel, Department of Defence employees, and their families as well as the broader community. As an APRA-regulated Authorised Deposit-taking Institution (ADI), it exists to return value to members rather than external shareholders. Under Australia's Consumer Data Right (CDR / Open Banking), Defence Bank operates as a data holder and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards; deeper consumer-data sharing requires an accredited data recipient and the OAuth2/OIDC FAPI CDR authorization model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defence-bank.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server surface derived from the publicly reachable Consumer Data Standards Product Reference Data operations. Defence Bank publishes no official hosted MCP server; these tools map one-to
-  name: Defence Bank MCP Server
-  slug: defence-bank-mcp-server
 modified: '2026-07-21'
 name: Defence Bank
 nav: Providers
@@ -254,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png
 security:

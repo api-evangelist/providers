@@ -26,7 +26,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.6
-  scored_at: '2026-09-02'
+  score: 35.8
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
@@ -209,7 +209,7 @@ apis:
   description: The Transactions API from Bank of Scotland — 2 operation(s) for transactions.
   name: Bank of Scotland Transactions API
   slug: bank-of-scotland-transactions-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: Open Data API
@@ -225,7 +225,7 @@ common:
   url: overlays/bank-of-scotland-opendata-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-of-scotland-mcp.yml
 - group: agent
   title: ''
@@ -328,10 +328,6 @@ description: Bank of Scotland is a UK high-street retail and commercial bank, fo
   accessed through the Lloyds Banking Group developer platform after eIDAS/OBIE certificate onboarding.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank of Scotland MCP Server
-  slug: bank-of-scotland-mcp-server
 modified: '2026-07-23'
 name: Bank of Scotland
 nav: Providers
@@ -384,8 +380,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:

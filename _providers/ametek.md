@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.6
-  scored_at: '2026-09-02'
+  score: 21.8
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'AMETEK provides advanced electronic instruments and electromechanical devices for energy, aerospace, power, research, medical, and industrial markets. The corporate site is not a developer surface: th'
@@ -47,7 +47,7 @@ apis:
 - description: The public API reference for Crank Storyboard, the embedded graphical-interface development platform AMETEK acquired with Crank Software. Nine documented API families across 313 server-rendered, versi
   name: Crank Storyboard APIs
   slug: crank-storyboard
-artifact_total: 25
+artifact_total: 24
 common:
 - group: company
   title: ''
@@ -99,7 +99,7 @@ common:
   url: data-model/ametek-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ametek-mcp.yml
 - group: build
   title: ''
@@ -214,10 +214,6 @@ jsonld:
   property_count: 21
   slug: ametek-context
 layout: provider
-mcp_servers:
-- description: AMETEK publishes no MCP server. This is a DERIVED candidate tool list — one tool per published operation of the AMETEK Powervar iSite PRO REST API — recorded so the agent surface AMETEK could offer is
-  name: AMETEK MCP Server
-  slug: ametek-mcp-server
 modified: '2026-09-02'
 name: AMETEK
 nav: Providers
@@ -262,7 +258,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 14.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -272,7 +268,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 18.0
+  previous_composite: 32.5
   provenance:
     conformance: first-party
     contracts:
@@ -288,9 +284,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/screenshots/ametek-2026-06-20T171929.png
 security:
 - kind: authentication

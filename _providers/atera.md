@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Atera's REST API. Twelve data domains — Agents, Alerts, Billing, Contacts, Contracts, Customers, CustomValues, Departments, Devices, KnowledgeBase, Rates and Tickets — reachable over HTTPS only at htt
@@ -192,8 +192,8 @@ score:
   previous_composite: 44.0
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/screenshots/atera-2026-08-07T161850.png
 security:

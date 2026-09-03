@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: Bundled by Xoserve as the Supply Point Enquiry service, part of the Gas Enquiry Service (GES). Exposes detailed supply meter point information, filtered by MPRN, address_id or postcode combined with o
   name: Xoserve Supplier API
   slug: xoserve-supplier-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: Meter Asset
@@ -182,7 +182,7 @@ common:
   url: rate-limits/xoserve-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/xoserve-mcp.yml
 - group: build
   title: ''
@@ -240,10 +240,6 @@ json_schemas:
   property_count: 0
   slug: xoserve-supplier-api-components
 layout: provider
-mcp_servers:
-- description: CANDIDATE, not published. Xoserve operates no MCP server. This manifest is a derived proposal that maps each of the four real, provider-published REST operations onto one MCP tool, so an agent builder
-  name: Xoserve MCP server (derived candidate — no official server exists)
-  slug: xoserve-mcp-server-derived-candidate-no-official-server-exists
 modified: '2026-07-27'
 name: Xoserve
 nav: Providers
@@ -296,8 +292,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 67.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/screenshots/xoserve-2026-08-17T083012.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Unified API to manage storage, endpoints, users, and roles across multiple Signiant products. Authenticates via OAuth 2.0 client_credentials, returning a one-hour JWT bearer token.
@@ -48,7 +48,7 @@ apis:
 - description: Schedules and runs jobs, manages users, and controls Signiant Manager software (Flight Deck) via a REST API.
   name: Signiant Flight Deck Manager REST API
   slug: signiant-flight-deck-manager-rest-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Signiant Webhooks
@@ -152,7 +152,7 @@ common:
   url: well-known/signiant-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/signiant-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ created: '2026-07-17'
 description: 'Signiant provides intelligent file-movement software that helps the world''s top content creators and distributors move large files fast and securely over public and private networks. The SaaS Signiant Platform unifies four products behind a common OAuth-secured REST API: the Signiant Platform API (storage, endpoints, users, and roles across products), Jet (automated system-to-system transfers with event webhooks), Media Shuttle (person-initiated transfers with Platform, Management, and System-to-Person APIs plus a browser SDK), and Flight Deck (the Manager REST API for scheduling and running jobs). All APIs authenticate with a client_id/client_secret pair exchanged for a one-hour OAuth 2.0 JWT bearer token at platform-api-service.services.cloud.signiant.com, and access is governed by product-scoped account roles.'
 image: https://www.signiant.com/wp-content/uploads/signiant-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Signiant MCP Server
-  slug: signiant-mcp-server
 modified: '2026-07-21'
 name: Signiant
 nav: Providers
@@ -204,8 +200,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/screenshots/signiant-2026-08-17T081855.png
 security:

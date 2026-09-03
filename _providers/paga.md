@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.paga.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.mypaga.com/pagagroup/ — a different registrable domain (paga.com -> mypaga.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -67,7 +68,7 @@ apis:
   description: Look-up operations - banks, mobile operators, status.
   name: Paga Reference API
   slug: paga-reference-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Paga Webhooks
@@ -163,7 +164,7 @@ common:
   url: packages/paga-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paga-mcp.yml
 - group: agent
   title: ''
@@ -249,10 +250,6 @@ finops:
   slug: paga-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paga.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool list derived one-to-one from the modeled Paga OpenAPI operations. Paga does not publish an official hosted/remote MCP server at review time; this is a governance starting poi
-  name: Paga MCP Server
-  slug: paga-mcp-server
 modified: '2026-07-17'
 name: Paga
 nav: Providers
@@ -308,8 +305,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:

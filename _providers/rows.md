@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Discover the workspaces available to the authenticated key.
   name: Rows Workspaces API
   slug: rows-workspaces-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -91,7 +91,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rows-mcp.yml
 - group: other
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: 'Rows is an AI-powered spreadsheet that connects to live data from dozens of business tools and lets teams build reports, dashboards and lightweight data apps without leaving a familiar grid. Beyond the app, Rows ships a public REST API (base https://api.rows.com/v1) authenticated with a Bearer API key: it exposes workspaces, folders and spreadsheets for discovery, table cell and value read-write operations for moving data in and out of a sheet, and a Vision endpoint that uses AI to extract structured tabular data from image and document files. API access is included on every plan with monthly call quotas scaling from the Free tier (500 calls/month) to Enterprise. Rows is SOC 2 Type II certified and GDPR compliant with European data residency, and joined Superhuman in 2025. It was backed by Accel.'
 image: https://rows.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rows MCP Server
-  slug: rows-mcp-server
 modified: '2026-07-21'
 name: Rows
 nav: Providers
@@ -247,8 +243,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/screenshots/rows-2026-08-17T081656.png
 security:

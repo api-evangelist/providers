@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -274,8 +274,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/screenshots/lili-2026-09-02T150252.png
 security:

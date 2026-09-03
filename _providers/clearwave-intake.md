@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Self-service patient check-in and registration - kiosk, tablet, and mobile intake that captures demographics, consent forms, and identity, then writes the completed registration back to the practice's
@@ -106,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearwave-intake/refs/heads/main/screenshots/clearwave-intake-2026-07-25T205556.png
 security:

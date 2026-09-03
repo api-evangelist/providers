@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://platform.clearslide.com
@@ -69,7 +69,7 @@ apis:
 - description: ClearSlide's SCIM 2.0 (RFC 7644) user and group provisioning API, for automating directory sync from an identity provider. Serves /scim/ServiceProviderConfigs, /scim/Schemas (core User and Group), ful
   name: ClearSlide SCIM API
   slug: clearslide-scim-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -183,7 +183,7 @@ common:
   url: well-known/clearslide-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clearslide-mcp.yml
 - group: design
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: ClearSlide is a sales engagement platform, now part of Bigtincan, that unifies content management, communications (email, web conferencing, screen share), and real-time engagement analytics so sales teams can make every buyer interaction count. Its public Platform API lets customers and partners programmatically list presentations, create trackable links, retrieve engagement insights, manage users (including SCIM provisioning), upload content to Amazon S3, and reserve and manage scheduled meetings. The API uses OAuth 2.0 and is documented on a public ReadMe developer portal at developer.clearslide.com. ClearSlide was originally an a16z-backed company and is profiled here in the API Evangelist network.
 image: https://www.clearslide.com/wp-content/themes/clearslide/images/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ClearSlide MCP Server
-  slug: clearslide-mcp-server
 modified: '2026-08-13'
 name: ClearSlide
 nav: Providers
@@ -295,8 +291,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:

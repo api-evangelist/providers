@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Bank of us Banking Products API
   slug: bank-of-us-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: llms/bank-of-us-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-of-us-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-20'
 description: Bank of us is Tasmania's only customer-owned bank, a mutual authorised deposit-taking institution (ADI) trading as B&E Ltd (brand "BNE LTD") and headquartered in Launceston, Tasmania. Formed from the former Bass & Equitable Building Society and rebranded to Bank of us in 2016, it is owned by its members rather than shareholders and offers home loans, personal and business banking, savings, and term deposits. As a regulated ADI it participates in Australia's Consumer Data Right (CDR / Open Banking) as a data holder, exposing a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, and enabling customers to share account and transaction data with accredited data recipients under ACCC oversight.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-us.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank of us MCP Server
-  slug: bank-of-us-mcp-server
 modified: '2026-07-21'
 name: Bank of us
 nav: Providers
@@ -274,8 +270,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/screenshots/bank-of-us-2026-07-21T114712.png
 security:

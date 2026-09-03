@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -802,8 +802,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:

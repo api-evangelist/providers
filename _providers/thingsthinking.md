@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.semantha.de/'', ''status'': 301, ''note'': ''declared website redirects to https://aleph-alpha.com/ — a different registrable domain (semantha.de -> aleph-alpha.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: semantha's standardized RESTful web service for semantic processing of text documents and structured data extraction. Resources are organized under /api (info, domains/{domain}/referencedocuments, set
@@ -155,8 +156,8 @@ score:
   previous_composite: 29.3
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsthinking/refs/heads/main/screenshots/thingsthinking-2026-09-02T163526.png
 security:

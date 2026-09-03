@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://electricitynorthwest.opendatasoft.com/api/explore/v2.1
@@ -50,7 +50,7 @@ apis:
   description: API to work on records
   name: Electricity North West Dataset API
   slug: electricity-north-west-dataset-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: Explore API
@@ -201,7 +201,7 @@ common:
   url: components/electricity-north-west-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/electricity-north-west-mcp.yml
 - group: build
   title: ''
@@ -268,10 +268,6 @@ examples:
   slug: electricity-north-west-odsql-error-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: Neither Electricity North West nor Opendatasoft (Huwise) publishes an MCP server for this API. The tool list below is a CANDIDATE derived mechanically from the 16 Explore v2.1 operations — it is a des
-  name: Electricity North West MCP Server
-  slug: electricity-north-west-mcp-server
 modified: '2026-07-27'
 name: Electricity North West
 nav: Providers
@@ -324,8 +320,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 75.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/screenshots/electricity-north-west-2026-08-07T164817.png
 security:

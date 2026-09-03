@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-09-02'
+  score: 35.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Read a library, update its name, then read it back to confirm the change.
   name: Adobe Premiere Rename and Verify Creative Cloud Library
   slug: adobe-premiere-rename-and-verify-library-workflow
-artifact_total: 74
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Adobe Premiere Libraries Webhooks
@@ -248,7 +248,7 @@ common:
   url: security/adobe-premiere-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adobe-premiere-mcp.yml
 - group: agent
   title: ''
@@ -446,10 +446,6 @@ jsonld:
   property_count: 12
   slug: adobe-premiere-creative-cloud-libraries-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adobe Premiere Pro MCP Server
-  slug: adobe-premiere-pro-mcp-server
 modified: '2026-04-19'
 name: Adobe Premiere Pro
 nav: Providers
@@ -526,8 +522,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png
 security:

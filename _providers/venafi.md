@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - '{''url'': ''https://venafi.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.paloaltonetworks.com/network-security/next-gen-trust-security/certificate-manager — a different registrable domain (venafi.com -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -14,7 +28,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.3
-  scored_at: '2026-09-02'
+  score: 31.5
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.venafi.cloud
@@ -36,7 +50,7 @@ apis:
   description: The self-hosted Venafi / CyberArk Trust Protection Foundation Web SDK, version 26.1.1. 388 operations across 364 paths covering certificate management, discovery, identity and permissions, OAuth appli
   name: Trust Protection Foundation WebSDK (Venafi Trust Protection Platform)
   slug: trust-protection-foundation-websdk
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Venafi Certificate Manager Saas Webhooks
@@ -104,7 +118,7 @@ common:
   url: cli/venafi-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/venafi-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +180,6 @@ created: '2026-09-02'
 description: 'Venafi is the machine identity security platform for discovering, issuing, provisioning and retiring TLS/SSL certificates, SSH keys, code-signing keys and workload identities across data centers, clouds and Kubernetes. Its Control Plane ships two public REST contracts: the SaaS "Certificate Manager - SaaS" API on api.venafi.cloud (six data-residency regions) and the self-hosted Trust Protection Foundation WebSDK. Venafi was acquired by CyberArk in 2024 and the products now carry CyberArk Certificate Manager branding; venafi.com itself 301s to Palo Alto Networks following its acquisition of CyberArk, while developer.venafi.com, docs.venafi.com, docs.venafi.cloud, api.venafi.cloud and github.com/Venafi remain live and are where every artifact in this profile came from.'
 image: https://avatars.githubusercontent.com/u/7817722?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Venafi MCP Server
-  slug: venafi-mcp-server
 modified: '2026-09-02'
 name: Venafi
 nav: Providers
@@ -203,6 +213,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -212,6 +223,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 44.7
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     contracts:
@@ -221,8 +233,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Venafi Authentication

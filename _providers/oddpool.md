@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -44,7 +44,7 @@ apis:
   description: Single-connection WebSocket streaming real-time, normalized cross-venue prediction market data (dist, book, trade, and snapshot channels) for macro economic events and crypto (BTC/ETH) markets enriche
   name: Oddpool WebSocket Feeds
   slug: oddpool-websocket-feeds
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: Single-connection WebSocket streaming real-time, normalized cross-venue prediction market data from Kalshi and Polymarket. Data is addressed by what (event_key / outcome) not where (venue). Four chann
   name: Oddpool WebSocket Feeds
@@ -120,7 +120,7 @@ common:
   url: lifecycle/oddpool-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oddpool-mcp.yml
 - group: docs
   title: ''
@@ -138,10 +138,6 @@ created: '2026-07-17'
 description: Oddpool is an institutional-grade data platform for prediction markets, offering unified access to market data across Kalshi and Polymarket through a single REST API and WebSocket feed. It describes itself as "the search engine for prediction markets," normalizing hundreds of thousands of markets into a common model so quant funds, trading desks, and prosumer traders can search markets and events, pull tick-level historical orderbooks and OHLCV bars, track whale trades, detect cross-venue arbitrage, and stream real-time cross-venue probability distributions, orderbooks, and trades. Data is addressed by what (event and outcome keys) rather than by venue-specific tickers. A separate enterprise Reference Data API provides canonical cross-venue identifiers, fungibility classification, and a Wikidata cross-walk for institutional clients.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oddpool.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oddpool MCP Server
-  slug: oddpool-mcp-server
 modified: '2026-07-20'
 name: Oddpool
 nav: Providers
@@ -182,8 +178,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/screenshots/oddpool-2026-08-07T185952.png
 security:

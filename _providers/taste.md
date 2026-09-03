@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.tastelabs.com
@@ -51,7 +51,7 @@ apis:
   description: The Taste Engine API API from Taste — 1 operation(s) for taste engine api.
   name: Taste Taste Engine API API
   slug: taste-taste-engine-api-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -100,7 +100,7 @@ common:
   url: data-model/taste-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/taste-mcp.yml
 - group: agent
   title: ''
@@ -126,10 +126,6 @@ created: '2026-07-17'
 description: Taste Labs is a San Francisco research lab and infrastructure company building "the taste layer for AI" — decoding subjective design domains to end AI slop. Its Taste Engine API extracts brand and design guidelines from a reference site or a prior submission and enhances website and slide-deck prompts so AI generation stays on-brand, returning an enhanced prompt plus structured brand context and reasoning. The company is backed by CRV and Amplify Partners and runs the TasteMakers community program. This profile was enriched from the provider's live public surface, including the Taste Engine API OpenAPI.
 image: https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a306ae79b1ce1b28e27e16b_taste_Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Taste MCP Server
-  slug: taste-mcp-server
 modified: '2026-07-21'
 name: Taste
 nav: Providers
@@ -167,8 +163,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/screenshots/taste-2026-09-02T162559.png
 security:

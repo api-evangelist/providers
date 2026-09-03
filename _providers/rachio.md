@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for Rachio smart irrigation controllers, Smart Hose Timers and lighting controllers: read people, devices and zones; start/stop watering; manage schedules and rain delays; subscribe to webhoo'
   name: Rachio Public API
   slug: rachio-public-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Rachio Webhooks
@@ -123,7 +123,7 @@ common:
   url: conformance/rachio-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rachio-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Rachio makes smart, WiFi-connected irrigation controllers, Smart Hose Timers and lighting controllers for homes and landscapes. The Rachio Public API lets developers read a person's account, controllers (devices) and irrigation zones, start and stop watering, manage fixed and Flex (weather-adjusted) schedules, set rain delays, and subscribe to real-time webhook events for schedule and zone activity. Requests authenticate with an OAuth2 bearer token retrieved from the Rachio mobile app; the Controller and User API is served at https://api.rach.io/1 and newer product surfaces at https://cloud-rest.rach.io, with a quota of 3,500 requests per day per token.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rachio.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool surface derived from the documented Rachio Public API operations. Rachio does not publish an official hosted/remote MCP server; this is a governance starting point, not a shi
-  name: Rachio MCP Server
-  slug: rachio-mcp-server
 modified: '2026-07-20'
 name: Rachio
 nav: Providers
@@ -184,8 +180,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/screenshots/rachio-2026-08-17T081438.png
 security:

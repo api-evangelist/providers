@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The users API from MileIQ — 3 operation(s) for users.
   name: MileIQ users API
   slug: mileiq-users-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: well-known/mileiq-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mileiq-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: MileIQ is an automatic mileage-tracking service for individuals and teams that logs every drive in the background, classifies each trip as business or personal, and calculates the deductible mileage value for tax and expense reporting. Its read-only OAuth 2.1 External API (external-api.mileiq.com) exposes authenticated user profiles, drive/trip records with start and end geolocation, distance, and monetary value, plus administrator access to group (team) rosters and member-reported drives — letting accounting, expense, and reimbursement platforms sync MileIQ mileage data. Originally built by Mobile Data Labs and later part of Microsoft, MileIQ now operates as an independent product. The API is currently available on a request basis.
 image: https://www.mileiq.com/images/mileiq.7b54ead1.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: MileIQ MCP Server
-  slug: mileiq-mcp-server
 modified: '2026-07-20'
 name: MileIQ
 nav: Providers
@@ -232,8 +228,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/screenshots/mileiq-2026-08-07T172909.png
 security:

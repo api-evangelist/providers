@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Labels for organizing items.
   name: Matter Tags API
   slug: matter-tags-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: cli/matter-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/matter-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Matter is a modern read-later application for people who take reading seriously — save articles, newsletters, podcasts, PDFs, and tweets from anywhere and read them in a clean, focused interface on iOS and the web, with highlighting, notes, tags, offline search, text-to-speech, and audio transcription of podcasts and videos. For Matter Pro subscribers, Matter ships a public REST API (api.getmatter.com/public/v1) to save, organize, search, and incrementally sync a reading library, secured with a personal Bearer token. It is complemented by a first-party CLI/TUI and official Obsidian, Roam, and Logseq highlight-export integrations. Matter is backed by GV (Google Ventures).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matter.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Matter MCP Server
-  slug: matter-mcp-server
 modified: '2026-07-20'
 name: Matter
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/screenshots/matter-2026-07-25T230422.png
 security:

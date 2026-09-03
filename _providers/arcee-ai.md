@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -188,7 +188,7 @@ apis:
   description: The Webhooks API from Arcee AI — 1 operation(s) for webhooks.
   name: Arcee AI Webhooks API
   slug: arcee-ai-webhooks-api
-artifact_total: 63
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -283,6 +283,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/arcee-ai-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/arcee-ai-afm-overlay.yaml
 - group: company
@@ -355,7 +359,7 @@ common:
   url: packages/arcee-ai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arcee-ai-mcp.yml
 - group: design
   title: ''
@@ -373,10 +377,6 @@ created: '2026-07-17'
 description: Arcee AI is an American open-intelligence research lab that builds and releases small, efficient open-weight language models (the Trinity family, AFM-4.5B, and Virtuoso/Maestro derivatives) along with a developer platform for running them. The Arcee Platform exposes an OpenAI-compatible inference API at api.arcee.ai (chat completions, model listing, and usage/credits endpoints) secured with bearer API keys, plus Arcee Conductor (model routing), Arcee Orchestra (agentic workflows with their own invocation API), and AnyMCP for hosting Model Context Protocol servers. Arcee also maintains widely used open-source model tooling including mergekit, DistillKit, and DALM. Models can be consumed through the hosted API or self-deployed on vLLM, SGLang, llama.cpp, and Ollama.
 image: https://avatars.githubusercontent.com/u/126496414?v=4
 layout: provider
-mcp_servers:
-- description: Arcee AnyMCP is Arcee AI's hosted Model Context Protocol platform. It lets you remotely deploy and manage MCP servers (one-click deployment, thousands of servers) that any MCP-compatible client (Claud
-  name: Arcee AnyMCP
-  slug: arcee-anymcp
 modified: '2026-07-18'
 name: Arcee AI
 nav: Providers
@@ -384,13 +384,13 @@ network: true
 overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Small Language Models.
 
 
-  Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
+  Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
 random_paper: 3
 score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -415,8 +415,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:

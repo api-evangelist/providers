@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration for broadband, cable TV, and phone services.
@@ -149,8 +149,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 5
 common:
@@ -191,8 +192,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/darrow/refs/heads/main/screenshots/darrow-2026-09-02T145214.png
 security:

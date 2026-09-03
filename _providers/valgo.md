@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The v1 API from Valgo — 7 operation(s) for v1.
   name: Valgo v1 API
   slug: valgo-v1-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: changelog/valgo-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/valgo-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Valgo is a public benefit corporation building the risk quantification layer for physical AI - the insurance risk layer autonomous systems need. Insurers struggle to price autonomous trucks, robotaxis, and robots because the historical claims data does not exist, so Valgo builds probabilistic models of routes, tasks, and environments from the bottom up and outputs the simulated loss estimates insurers need to price coverage across validation, deployment, and insurance. Founded by Stanford safety-validation researchers and an actuary with over a decade of insurance leadership, Valgo is a Y Combinator W26 company backed by Floodgate and Menlo Ventures, and publishes research including human crash baselines for robotaxis and robotrucks.
 image: https://valgo.ai/media/valgo-social-media.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Valgo MCP Server
-  slug: valgo-mcp-server
 modified: '2026-07-21'
 name: Valgo
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/screenshots/valgo-2026-09-02T165318.png
 security:

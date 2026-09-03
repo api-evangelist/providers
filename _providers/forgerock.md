@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.forgerock.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.pingidentity.com/en.html?utm_source=forgerock.com&utm_medium=referral&utm_campaign=fr-blanket-redirect — a different registrable domain (forgerock.com -> pingidentity.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -903,20 +904,20 @@ rules:
   slug: forgerock-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.1
+  composite: 49.9
   coverage:
     artifact_dirs: 18
-    catalog_gap: 73.8
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 9.8
     contract_quality: 62.0
     developer_ergonomics: 69.0
-    discoverability: 48.1
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 31.6
   previous_composite: 48.1
@@ -927,8 +928,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png
 security:

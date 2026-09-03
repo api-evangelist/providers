@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Vault API from Superform — 3 operation(s) for vault.
   name: Superform Vault API
   slug: superform-vault-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +211,7 @@ common:
   url: llms/superform-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/superform-mcp.yml
 - group: auth
   title: ''
@@ -249,10 +249,6 @@ created: '2026-07-17'
 description: Superform is a user-owned onchain neobank and the operating system for programmable DeFi vaults. The protocol enables single-signature execution of arbitrary actions across chains and optimized yield vaults, built on ERC-4626 / ERC-7540 tokenized vaults and ERC-7579 smart accounts. Its public API (api.superform.xyz) exposes vault and protocol data, cross-chain deposit/withdraw/rebalance transaction routing, user portfolios and balances, superpositions, and protocol rewards. A separate SuperformOS "operate" API (Erebor, Strategy Engine, and OMS) lets vault managers create, configure, and automate SuperVaults. Originally added as a Polychain portfolio lead, this profile has been enriched from Superform's real developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superform.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Superform MCP Server
-  slug: superform-mcp-server
 modified: '2026-07-21'
 name: Superform
 nav: Providers
@@ -291,8 +287,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/screenshots/superform-2026-09-02T161235.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: All-in-one NFT data and trading API enabling developers to get NFT data, create orders, and execute trades across 30+ EVM-compatible blockchains. Aggregates liquidity from major NFT marketplaces inclu
@@ -147,8 +147,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/screenshots/reservoir-2026-06-20T193029.png
 security:

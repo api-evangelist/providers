@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - baseURL: https://strataoncology.com/wp-json
@@ -87,7 +87,7 @@ apis:
   description: Published testimonials.
   name: Strata Oncology Testimonials API
   slug: strata-oncology-testimonials-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -125,7 +125,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/strata-oncology-mcp.yml
 - group: other
   title: ''
@@ -227,10 +227,6 @@ created: '2026-08-02'
 description: Strata Oncology is a precision oncology company founded in 2015 by Dan Rhodes and Scott Tomlins and headquartered in Ann Arbor, Michigan. It develops and runs predictive biomarker tests out of its own high-throughput CLIA laboratory, including StrataNGS tumor genomic profiling, the Immunotherapy Response Score for anti-PD-1/PD-L1 monotherapy benefit, PD-L1 IHC testing, and Antibody-Drug Conjugate Treatment Response Scores. Testing is delivered to health systems through the Strata Precision Oncology Network, with ordering and results handled through the login-gated Strata Request Portal and the Strata Assistant app distributed in the Epic App Orchard. Strata Oncology publishes no public developer program or API documentation; the only anonymous machine-readable surface API Evangelist could verify is the WordPress REST content API behind strataoncology.com.
 image: https://strataoncology.com/wp-content/uploads/2022/09/Strata-Oncology-Logo_Symbol-Dark-Theme.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Strata Oncology MCP Server
-  slug: strata-oncology-mcp-server
 modified: '2026-08-02'
 name: Strata Oncology
 nav: Providers
@@ -278,8 +274,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strata-oncology/refs/heads/main/screenshots/strata-oncology-2026-09-02T160950.png
 security:

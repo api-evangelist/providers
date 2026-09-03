@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: apps.health is WELL Health's digital health marketplace through which third-party apps and services integrate with WELL's network of EMRs (OSCAR Pro, Profile), which support HL7 FHIR and other interop
@@ -126,8 +126,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/screenshots/well-health-2026-09-02T170603.png
 security:

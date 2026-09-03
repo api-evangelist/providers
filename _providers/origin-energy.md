@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ apis:
   description: The v2 API from Origin Energy — 1 operation(s) for v2.
   name: Origin Energy V2 API
   slug: origin-energy-v2-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Origin Energy Kraken External Events
@@ -218,7 +218,7 @@ common:
   url: skills/origin-energy-kraken-order-scheduling.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/origin-energy-mcp.yml
 - group: agent
   title: ''
@@ -407,10 +407,6 @@ integrations:
 - description: The Australian Energy Regulator hosts Origin's Consumer Data Standards plan reference data endpoints at cdr.energymadeeasy.gov.au/origin.
   name: AER Energy Made Easy
 layout: provider
-mcp_servers:
-- description: ''
-  name: Origin Energy MCP Server
-  slug: origin-energy-mcp-server
 modified: '2026-07-27'
 name: Origin Energy
 nav: Providers
@@ -467,8 +463,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:

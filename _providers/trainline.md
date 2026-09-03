@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Trainline Partner Solutions'' wholesale rail and coach distribution API, sold to travel sellers, OTAs, TMCs and corporate booking tools. Trainline publicly describes it as "a modern, intuitive RESTful '
@@ -193,13 +193,13 @@ overview: 'Trainline publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 0
 score:
   band: emerging
-  composite: 22.9
+  composite: 22.7
   coverage:
     artifact_dirs: 10
     catalog_gap: 86.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -209,14 +209,11 @@ score:
     discoverability: 57.4
     governance: 22.0
     operational_transparency: 13.2
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 22.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trainline/refs/heads/main/screenshots/trainline-2026-09-02T164109.png
 security:

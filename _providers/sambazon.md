@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface of the SAMBAZON online store. The merchant profile at /.well-known/ucp advertises the Universal Commerce Protocol (versions 2026-04-08 and 2026-01-23) over an MCP/JSO
@@ -167,8 +167,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambazon/refs/heads/main/screenshots/sambazon-2026-09-02T154343.png
 security:

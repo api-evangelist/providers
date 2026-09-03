@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The comma connect API is a JWT-authenticated REST API for comma / openpilot users and devices. It exposes the authenticated user profile and device list, per-device operations (info, location, stats, '
   name: comma connect API
   slug: comma-connect-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -119,7 +119,7 @@ common:
   url: changelog/commaai-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/commaai-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Comma.ai builds openpilot, an open-source driver-assistance / robotics operating system that runs on comma hardware (comma 3X, comma four) and upgrades adaptive cruise control and lane centering on 300+ supported cars. Alongside the open-source stack, comma operates the comma connect cloud platform and a documented JWT-authenticated REST API (api.commadotai.com) that exposes device management, driving routes and segments, video and log access, real-time device communication via athena, comma prime billing, and turn-by-turn navigation. Backed by a16z, comma also publishes large open driving datasets (comma2k19, commaVQ) and the opendbc "Python API for your car." This profile catalogs comma's public developer surface for the API Evangelist network.
 image: https://github.com/commaai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: comma connect (candidate)
-  slug: comma-connect-candidate
 modified: '2026-07-18'
 name: Comma.ai
 nav: Providers
@@ -172,8 +168,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/screenshots/commaai-2026-07-25T210118.png
 security:

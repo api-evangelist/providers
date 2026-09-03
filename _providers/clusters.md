@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ arazzos:
 - description: Bulk-resolve a cluster name to its address, then read the full cluster profile.
   name: Resolve a Clusters name to a wallet and profile
   slug: clusters-resolve-name
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -182,7 +182,7 @@ common:
   url: well-known/clusters-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clusters-mcp.yml
 - group: other
   title: ''
@@ -232,10 +232,6 @@ created: '2026-07-17'
 description: Clusters is a multichain namespace and identity service that gives users a single universal name across blockchain ecosystems instead of a separate domain per chain. A Clusters name uses the format username/wallet (for example username/eth or username/sol) to bundle many wallets — EVM chains, Solana, and more — under one hierarchical, human-readable profile. The Clusters v1 REST API resolves an address to its cluster and wallet name and back, reads full cluster profiles, checks name availability, produces on-chain registration transaction data for EVM and Solana, registers community cluster names, and exposes a replayable historical event feed for permissionless indexing. Reads are public; wallet management and registration require a wallet-signature bearer token, and an optional API key raises rate limits. The protocol uses a hub-and-spoke model bridged with LayerZero v2 and replicates metadata to Arweave for data availability. Backed by Electric Capital.
 image: https://clusters.xyz/assets/images/apple/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Clusters MCP Server
-  slug: clusters-mcp-server
 modified: '2026-07-18'
 name: Clusters
 nav: Providers
@@ -280,8 +276,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:

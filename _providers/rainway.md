@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Access active Rainway peers connected to the Rainway Network.
   name: Rainway Peers API
   slug: rainway-peers-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: conformance/rainway-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rainway-mcp.yml
 - group: other
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Rainway is a developer platform for interactive application streaming, letting you embed and run native apps anywhere in a few lines of code. Its Stream SDK is built on WebRTC and ships runtimes for the Web, React, Node.js (native), .NET and C++, handling secure peer connections, low-latency media streaming, network adaptation and input. A small RESTful Hub API exposes the active peers connected to the Rainway Network, authenticated with an API key pair, for building multi-peer architectures. Rainway originated as a consumer game-streaming app (2017; consumer app wound down in 2022) and pivoted to the Stream SDK; the docs, Hub, and published packages remain live.
 image: https://avatars.githubusercontent.com/u/25223986?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rainway MCP Server
-  slug: rainway-mcp-server
 modified: '2026-07-20'
 name: Rainway
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/screenshots/rainway-2026-09-02T152822.png
 security:

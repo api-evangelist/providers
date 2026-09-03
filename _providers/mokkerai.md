@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Early-access v2 REST API that replaces product-photo backgrounds with AI-generated scenes and upscales images — the same functionality as the Mokker web app. Documented with a POST /v2/replace-backgro
   name: Mokker API
   slug: mokker-api
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -80,10 +80,6 @@ created: '2026-07-17'
 description: Mokker AI is an AI product-photography tool that replaces the background of a product photo with a realistic, AI-generated scene and upscales images, turning a plain product shot into studio-quality marketing imagery without Photoshop. It serves e-commerce sellers and marketers across categories like cosmetics, electronics, furniture, and jewellery. Mokker is now part of soona (soona.co/mokker) and exposes a v2 REST API in early access that offers the same background-replacement and upscale capabilities as its web app, with free API credits for developers building integrations. Mokker is backed by Point Nine and was added to the API Evangelist network as a portfolio lead.
 image: https://framerusercontent.com/assets/xdLOSfokuQlszbASX5TOpMKlZw.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mokker.ai MCP Server
-  slug: mokkerai-mcp-server
 modified: '2026-07-20'
 name: Mokker.ai
 nav: Providers
@@ -114,8 +110,8 @@ score:
   previous_composite: 19.9
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mokkerai/refs/heads/main/screenshots/mokkerai-2026-08-07T184055.png
 security:

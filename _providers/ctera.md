@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful management API for the CTERA Portal. Exposes a uniform object namespace (users, devices, folders, and more) where each object is addressed by a unique URI, using GET/PUT/POST/DELETE verbs. Aut
@@ -177,8 +177,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/screenshots/ctera-2026-07-25T210844.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - baseURL: https://api.utilities.digitalasset.com
@@ -58,7 +58,7 @@ apis:
   description: The registry API from Digital Asset — 18 operation(s) for registry.
   name: Digital Asset Registry API
   slug: digital-asset-registry-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -78,7 +78,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/digital-asset-mcp.yml
 - group: company
   title: ''
@@ -212,10 +212,6 @@ created: '2026-08-04'
 description: 'Digital Asset is the company behind Canton, a privacy-enabled public blockchain built for regulated institutional finance, and Daml, the smart-contract language that runs on it. Its commercial products sit on top of the Canton Network: the DA Registry, a production platform for issuing, minting, burning, transferring and redeeming institutional-grade tokenized assets with credential-based allowlists, blocklists and proof-of-transfer; xReserve, which brings Circle''s USDC onto Canton; and a Covalidation Service for operating validator infrastructure. Its public developer surface is the Utilities (Operator Backend) API plus four Canton Token Standard (CIP-56) off-ledger APIs — token metadata, transfer instruction, allocation and allocation instruction — all published as OpenAPI 3.0 and served across MainNet, TestNet and DevNet environments. Digital Asset also publishes an A2A agent card and a packaged Agent Skill for its Registry workflows.'
 image: https://www.digitalasset.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Digital Asset MCP Server
-  slug: digital-asset-mcp-server
 modified: '2026-08-04'
 name: Digital Asset
 nav: Providers
@@ -253,8 +249,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:

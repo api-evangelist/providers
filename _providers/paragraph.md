@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-09-02'
+  score: 47.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -331,8 +331,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/screenshots/paragraph-2026-08-07T191412.png
 security:

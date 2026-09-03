@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -78,7 +78,7 @@ apis:
   description: Workspace Management
   name: Cosmo Tech workspace API
   slug: cosmo-tech-workspace-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: cli/cosmo-tech-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cosmo-tech-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then configure and execute large-scale what-if simulations across supply chains, asset investment planning and enterprise operations. The API is modular across seven service specs (organization, workspace, solution, dataset, runner, run, meta), authenticates via OAuth2 / OpenID Connect (Keycloak), and ships auto-generated TypeScript and Python clients plus the Babylon CLI.
 image: https://avatars.githubusercontent.com/u/9283409?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cosmo Tech MCP Server
-  slug: cosmo-tech-mcp-server
 modified: '2026-07-18'
 name: Cosmo Tech
 nav: Providers
@@ -264,8 +260,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

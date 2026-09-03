@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,37 @@ apis:
 - description: Privacy-preserving news feed integrated into the browser's new tab page, sourced from a curated set of publisher feeds.
   name: Brave News
   slug: news
-artifact_total: 43
+- description: API for managing and reporting on Brave Ads campaigns. Enables advertisers to retrieve campaign details and performance data for privacy-preserving native browser ads and search ads. Supports customiz
+  name: Brave Ads API
+  slug: brave-ads-api
+- description: Campaign management and hierarchy endpoints
+  name: Brave campaigns API
+  slug: brave-campaigns-api
+- description: Image search endpoints
+  name: Brave images API
+  slug: brave-images-api
+- description: Local place of interest endpoints
+  name: Brave local API
+  slug: brave-local-api
+- description: News search endpoints
+  name: Brave news API
+  slug: brave-news-api
+- description: Campaign performance reporting endpoints
+  name: Brave reporting API
+  slug: brave-reporting-api
+- description: Spellcheck endpoints
+  name: Brave spellcheck API
+  slug: brave-spellcheck-api
+- description: Autosuggest endpoints
+  name: Brave suggest API
+  slug: brave-suggest-api
+- description: Video search endpoints
+  name: Brave videos API
+  slug: brave-videos-api
+- description: Web search endpoints
+  name: Brave web API
+  slug: brave-web-api
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -227,6 +257,14 @@ common:
   title: ''
   type: Blog
   url: https://brave.com/blog/index.xml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api-dashboard.search.brave.com/app/documentation/web-search/get-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://brave.com/blog/
 created: '2026-05-23'
 description: Brave Software builds a privacy-first Chromium-based browser, an independent search engine (Brave Search), an in-browser AI assistant (Leo), a video conferencing product (Brave Talk), an opt-in attention economy (Brave Rewards / Basic Attention Token), a wallet (Brave Wallet), and a privacy advertising platform (Brave Ads). Developer-facing APIs are concentrated in the Brave Search API (api.search.brave.com), which exposes web, news, image, video, suggest, spellcheck, summarizer, and local POI endpoints authenticated via X-Subscription-Token. Browser code is open source under MPL-2.0 on GitHub.
 finops:
@@ -239,10 +277,10 @@ modified: '2026-07-25'
 name: Brave
 nav: Providers
 network: true
-overview: 'Brave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Images API, Local API, News API, and 5 more. Tagged areas include Browser, Search, Privacy, Chromium, and Web3.
+overview: 'Brave publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Images API, Local API, News API, and 14 more. Tagged areas include Browser, Search, Privacy, Chromium, and Web3.
 
 
-  Brave''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
+  Brave''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Brave Browser Plans Pricing
   plan_count: 1
@@ -254,16 +292,16 @@ rate_limits:
   slug: brave-browser-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 36.7
   coverage:
     artifact_dirs: 10
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.9
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 23.8
@@ -281,8 +319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/screenshots/brave-browser-2026-06-20T173637.png
 security:

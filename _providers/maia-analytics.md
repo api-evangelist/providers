@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -208,7 +208,7 @@ apis:
   description: The workspaces API from Maia-analytics — 18 operation(s) for workspaces.
   name: Maia-analytics workspaces API
   slug: maia-analytics-workspaces-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -355,7 +355,7 @@ common:
   url: authentication/maia-analytics-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/maia-analytics-mcp.yml
 - group: design
   title: ''
@@ -401,10 +401,6 @@ created: '2026-07-17'
 description: MAIA Analytics is an AI-powered geospatial analysis platform that lets anyone turn complex location data into actionable insights through natural-language queries, with no GIS degree required. It unifies open and proprietary data to reveal the built environment and supports use cases such as solar-site prospecting, building and parcel analysis, redevelopment and risk screening (flood zones, aging infrastructure), and location intelligence. Every answer is source-linked and verifiable. Founded in 2023 and backed by Homebrew. This profile was enriched from MAIA's public site and its publicly-served backend OpenAPI (the application's own FastAPI backend; MAIA does not publish an external developer program).
 image: https://maia-analytics.com/MAIA-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Maia-analytics MCP Server
-  slug: maia-analytics-mcp-server
 modified: '2026-07-20'
 name: Maia-analytics
 nav: Providers
@@ -443,8 +439,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png
 security:

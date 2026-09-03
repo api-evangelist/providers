@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://platform.vectra.ai/api/v3.3
@@ -121,7 +121,7 @@ apis:
   description: Dedicated endpoint to Users.
   name: Vectra AI Users API
   slug: vectranetworks-users-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -252,7 +252,7 @@ common:
   url: well-known/vectranetworks-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vectranetworks-mcp.yml
 - group: design
   title: ''
@@ -286,10 +286,6 @@ created: '2026-07-17'
 description: Vectra AI (founded as Vectra Networks, a Khosla Ventures portfolio company) is an AI-native network detection and response (NDR) platform that correlates attacker behavior across network, identity, cloud, and SaaS domains. Its Attack Signal Intelligence prioritizes real threats for SOC teams, and the platform exposes REST APIs — the OAuth2-secured Vectra Platform API (RUX) and the token-based Vectra Detect API — for pulling detections, entities, and health data into SIEM, SOAR, EDR, and ITSM workflows.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vectranetworks.png
 layout: provider
-mcp_servers:
-- description: No official hosted or remote MCP server was found for Vectra AI — the vectranetworks GitHub organization (57 public repos) ships SIEM/SOAR integrations (Microsoft Sentinel, Splunk SOAR, Google SecOps,
-  name: Vectra AI MCP Server
-  slug: vectra-ai-mcp-server
 modified: '2026-07-21'
 name: Vectra AI
 nav: Providers
@@ -332,8 +328,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/screenshots/vectranetworks-2026-09-02T165546.png
 security:

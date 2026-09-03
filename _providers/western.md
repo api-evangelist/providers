@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Western's institutional identity provider, publishing machine-readable SAML 2.0 metadata through the Canadian Access Federation. entityID https://shibidp.uwo.ca/idp/shibboleth, mdui:DisplayName "Unive
@@ -210,8 +210,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/screenshots/western-2026-06-20T201359.png
 security:

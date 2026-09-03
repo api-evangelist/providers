@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for running automation jobs on the Automation Cloud. Clients create jobs against a service, supply initial and deferred inputs, poll job events, retrieve outputs, handle 3-D Secure challenges
@@ -42,7 +42,7 @@ apis:
 - description: Automation Cloud Vault API for exchanging sensitive payment card data for opaque tokens before passing it to automation jobs. Clients obtain a one-time password, then vault a PAN or arbitrary data obj
   name: UBIO Vault API
   slug: ubio-vault-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -98,7 +98,7 @@ common:
   url: errors/ubio-automation-cloud-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ubio-automation-cloud-mcp.yml
 - group: agent
   title: ''
@@ -128,10 +128,6 @@ json_schemas:
   property_count: 0
   slug: ubio-automation-cloud-protocol
 layout: provider
-mcp_servers:
-- description: ''
-  name: UBIO Automation Cloud MCP Server
-  slug: ubio-automation-cloud-mcp-server
 modified: '2026-07-21'
 name: UBIO Automation Cloud
 nav: Providers
@@ -163,8 +159,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/screenshots/ubio-automation-cloud-2026-09-02T164916.png
 security:

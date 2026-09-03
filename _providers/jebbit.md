@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://jebbit.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.blueconic.com/experiences-by-jebbit — a different registrable domain (jebbit.com -> blueconic.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -93,7 +94,7 @@ apis:
   description: The Launch Links API from Jebbit — 1 operation(s) for launch links.
   name: Jebbit Launch Links API
   slug: jebbit-launch-links-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Jebbit Webhooks
@@ -207,7 +208,7 @@ common:
   url: asyncapi/jebbit-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jebbit-mcp.yml
 - group: agent
   title: ''
@@ -285,10 +286,6 @@ created: '2026-07-17'
 description: Jebbit — now BlueConic Experiences — is an interactive experience platform that captures zero- and first-party declared data from consumers through quizzes, product finders, personality tests, and preference flows that shoppers complete because the experience gives them value in return. Responses sync into customer profiles and activate across the marketing stack in real time. Jebbit exposes a public JSON:API REST API (https://api2.jebbit.com) for managing businesses, campaigns, launch links, dynamic product feeds, and webhook integrations that stream user session data, secured with OAuth 2.0 client-credentials JWTs and HMAC-signed webhooks.
 image: https://jebbit-public-api-docs.s3.amazonaws.com/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Jebbit MCP Server
-  slug: jebbit-mcp-server
 modified: '2026-08-13'
 name: Jebbit
 nav: Providers
@@ -343,8 +340,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/screenshots/jebbit-2026-07-25T223113.png
 security:

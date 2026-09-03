@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: The categories and tags used to classify MindMaze posts, including the EQS, ad-hoc-news and other-ir-news disclosure categories.
   name: MindMaze Taxonomy API
   slug: mindmaze-taxonomy-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -94,7 +94,7 @@ common:
   url: overlays/mindmaze-content-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mindmaze-mcp.yml
 - group: agent
   title: ''
@@ -244,10 +244,6 @@ examples:
   slug: mindmaze-taxonomies
 image: https://mindmazetherapeutics.com/wp-content/themes/mindmaze/images/mindmazetheraputics.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MindMaze MCP Server
-  slug: mindmaze-mcp-server
 modified: '2026-08-01'
 name: MindMaze
 nav: Providers
@@ -296,8 +292,8 @@ score:
     regime: Health
     regime_id: health
     score: 57.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
   description: The statuses API from Brightseed — 2 operation(s) for statuses, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed statuses API
   slug: brightseed-statuses-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: Brightseed Site Content API (WordPress REST API) categories API
@@ -169,7 +169,7 @@ common:
   url: well-known/brightseed-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brightseed-mcp.yml
 - group: agent
   title: ''
@@ -252,10 +252,6 @@ description: Brightseed is a bioactives and AI company founded in 2017 (San Fran
   Hummingbird — those are sold as enterprise engagements through a contact form. The single machine-readable surface the company operates is the WordPress REST API (wp/v2) behind its corporate site at www.brightseedbio.com, which exposes anonymous read access to posts, pages, categories, tags, users, media, comments, search, taxonomies, types and statuses, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.
 image: https://www.brightseedbio.com/wp-content/uploads/2025/07/cropped-Logo-1-270x270.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brightseed MCP Server
-  slug: brightseed-mcp-server
 modified: '2026-07-31'
 name: Brightseed
 nav: Providers
@@ -300,8 +296,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png
 security:

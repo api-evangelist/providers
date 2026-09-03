@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
   description: The SecondaryReferenceData API from ClearBank — 1 operation(s) for secondaryreferencedata.
   name: ClearBank Secondary Reference Data API
   slug: clearbank-secondaryreferencedata-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Clearbank Webhooks
@@ -166,7 +166,7 @@ common:
   url: capabilities/clearbank-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clearbank-mcp.yml
 - group: auth
   title: ''
@@ -341,10 +341,6 @@ description: ClearBank is a UK clearing and Banking-as-a-Service bank, founded i
   Read/Write (AISP/PISP/CBPII) APIs; its public developer surface is the token-authenticated, RSA-signed ClearBank Financial Institutions API covering GBP accounts and payments, multi-currency accounts, FX, SEPA, cross-border payments, Confirmation of Payee, customer due diligence (KYC), and embedded/retail banking, with a full simulation environment for onboarding.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ClearBank MCP Server
-  slug: clearbank-mcp-server
 modified: '2026-07-23'
 name: ClearBank
 nav: Providers
@@ -392,8 +388,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

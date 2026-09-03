@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - baseURL: https://api.toq.io/wallet/api
@@ -281,7 +281,7 @@ apis:
   description: The Webhook API from Toqio — 2 operation(s) for webhook.
   name: Toqio Webhook API
   slug: toqio-webhook-api
-artifact_total: 104
+artifact_total: 103
 asyncapis:
 - description: ''
   name: Toqio Webhooks
@@ -516,7 +516,7 @@ common:
   url: packages/toqio-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/toqio-mcp.yml
 - group: agent
   title: ''
@@ -562,10 +562,6 @@ created: '2026-07-17'
 description: Toqio is an embedded finance platform that lets corporates and financial institutions design, launch, and scale financial products — accounts, payments, cards, lending, and expense management — for their SME customers without building infrastructure. The platform pairs a no-code/low-code Design Studio with a REST API (OAuth 2.0 client credentials) covering accounts, transactions, beneficiaries, cards, fees, compliance/KYB, revenue collection, and notifications, plus an Integration Hub through which banks and BaaS providers plug their services into the Toqio marketplace.
 image: https://toqio.co/hubfs/Home-featured.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Toqio MCP Server
-  slug: toqio-mcp-server
 modified: '2026-07-21'
 name: Toqio
 nav: Providers
@@ -621,8 +617,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/screenshots/toqio-2026-08-17T082408.png
 security:

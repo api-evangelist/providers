@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.6
-  scored_at: '2026-09-02'
+  score: 52.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -265,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:

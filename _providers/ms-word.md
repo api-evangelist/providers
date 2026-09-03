@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: JavaScript API for building Word add-ins and interacting with Word document content.
@@ -142,8 +142,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 35.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-word/refs/heads/main/screenshots/ms-word-2026-06-20T185847.png
 security:

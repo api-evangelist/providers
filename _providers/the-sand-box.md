@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes core ecosystem data behind an OAuth-based identity system - Sandbox user identity, avatars, assets, collections
@@ -182,8 +182,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/screenshots/the-sand-box-2026-09-02T163412.png
 security:

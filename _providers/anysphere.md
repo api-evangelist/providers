@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Sub Tokens API from Anysphere — 1 operation(s) for sub tokens.
   name: Anysphere Sub Tokens API
   slug: anysphere-sub-tokens-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Cursor Cloud Agents API
@@ -186,7 +186,7 @@ common:
   url: cli/anysphere-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anysphere-mcp.yml
 - group: agent
   title: ''
@@ -252,10 +252,6 @@ created: '2026-07-17'
 description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run events over SSE, and retrieve produced artifacts, plus an Admin API for team member/usage/spend management and a first-party terminal CLI (the `agent` binary). Authentication is a dashboard-issued API key over HTTP Basic/Bearer. This profile was surfaced as a Thrive Capital portfolio company and enriched from Cursor's public developer surface.
 image: https://cursor.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Anysphere MCP Server
-  slug: anysphere-mcp-server
 modified: '2026-07-17'
 name: Anysphere
 nav: Providers
@@ -298,8 +294,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/screenshots/anysphere-2026-07-25T200524.png
 security:

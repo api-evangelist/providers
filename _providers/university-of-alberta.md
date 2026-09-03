@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The university's own SAML 2.0 identity provider metadata document, served from its own domain. It declares entityID https://login.ualberta.ca/saml2/idp/metadata.php, an IDPSSODescriptor with SingleSig
@@ -231,8 +231,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

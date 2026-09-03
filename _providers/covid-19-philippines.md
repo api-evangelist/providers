@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Unofficial Covid-19 Web API for Philippines from data collected by DOH
@@ -89,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-philippines/refs/heads/main/screenshots/covid-19-philippines-2026-06-20T175138.png
 slug: covid-19-philippines

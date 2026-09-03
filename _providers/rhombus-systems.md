@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: wss://ws.rhombussystems.com:8443/websocket
@@ -584,7 +584,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -594,7 +594,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 57.8
+  previous_composite: 58.7
   provenance:
     conformance: first-party
     contracts:
@@ -604,8 +604,8 @@ score:
       total: 64
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/screenshots/rhombus-systems-2026-09-02T153758.png
 security:

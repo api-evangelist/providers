@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -106,7 +106,7 @@ arazzos:
 - description: 'List open chargebacks, enrich one with additional merchant data, and override whether Justt should represent it. Acceptance is deliberately NOT part of this workflow — it is irreversible and requires '
   name: Triage Justt chargebacks and set the representment decision
   slug: justt-triage-and-decide
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Justt Webhook Events
@@ -190,7 +190,7 @@ common:
   url: well-known/justt-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/justt-mcp.yml
 - group: build
   title: ''
@@ -260,10 +260,6 @@ created: '2026-08-23'
 description: Justt is an AI-native chargeback management and dispute-representment platform for high-volume merchants. Its Dynamic Arguments engine assembles evidence-backed representment packages for card disputes across 30+ payment service providers (Stripe, Adyen, PayPal, Braintree, Checkout.com, Worldpay, Chase Paymentech, Nuvei and others), and it also handles pre-chargeback alerts from Ethoca, Verifi CDRN and RDR. Justt publishes a public developer portal at developers.justt.ai with three OpenAPI definitions — a REST API for chargebacks, transactions, evidence, files, merchants and integrations; a Pre-Chargeback Alerts API; and an OpenAPI 3.1 webhook-events specification covering eleven signed event types — plus an RFC 9727 /.well-known/api-catalog, an llms.txt documentation index, a sandbox environment, and a Vanta-hosted trust center.
 image: https://justt.ai/wp-content/uploads/2025/03/blog-7-1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Justt MCP Server
-  slug: justt-mcp-server
 modified: '2026-08-23'
 name: Justt
 nav: Providers
@@ -324,8 +320,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/screenshots/justt-2026-09-02T150010.png
 security:

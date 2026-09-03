@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Suunto Cloud API (also called the Integration API) gives approved partners OAuth2-authorized access to a Suunto App user's workout and daily-activity data. Workouts are delivered as FIT files carr
@@ -205,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/screenshots/liesheng-2026-07-25T225031.png
 security:

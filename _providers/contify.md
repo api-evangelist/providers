@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Contify News API is a developer-friendly REST/JSON API that aggregates, deduplicates, and enriches business news from over a million curated sources, covering 700,000+ companies and 117+ languages
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 17.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/screenshots/contify-2026-06-20T174939.png
 security:

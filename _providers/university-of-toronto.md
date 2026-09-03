@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
@@ -305,8 +305,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png
 security:

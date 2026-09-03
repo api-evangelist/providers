@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.7
-  scored_at: '2026-09-02'
+  score: 21.2
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Klue Content API returns an organization's published Klue cards and battlecards to external tools and agents, filterable by competitor, battlecard, tag and date range. Access is authenticated with
@@ -217,8 +217,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klue/refs/heads/main/screenshots/klue-2026-07-25T223952.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Google Sites API allows developers to programmatically access and manage Google Sites content, including pages, lists, and attachments.
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 27.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sites/refs/heads/main/screenshots/google-sites-2026-06-20T182235.png
 security:

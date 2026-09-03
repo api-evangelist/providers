@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ arazzos:
 - description: Create an account, initiate KYC/KYB, and confirm the account reaches a verified state.
   name: Due — Onboard a customer account with KYC/KYB
   slug: due-onboard-account
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Due Webhooks
@@ -250,7 +250,7 @@ common:
   url: conformance/due-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/due-mcp.yml
 - group: agent
   title: ''
@@ -328,10 +328,6 @@ created: '2026-07-17'
 description: 'Due (Due Network, opendue.com) is a London-founded payments infrastructure company (backed by Speedinvest) that provides a single API for borderless money movement. Its platform bridges traditional banking rails with blockchain networks: cross-border transfers and fiat<->stablecoin on/off-ramps (USDC, EURC, USDT) across 80+ countries plus SWIFT in 150+, programmable virtual accounts for fund collection, a public FX rate engine, automated KYC/KYB onboarding, non-custodial MPC wallets (Vault), and signed webhooks. The REST API is documented on due.readme.io and served from api.due.network.'
 image: https://cdn.prod.website-files.com/65035c417fe69396bd8c0d5c/6551dcd7729040d7cd0b9c38_Open%20Graph%20Image%20(1).jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Due MCP Server
-  slug: due-mcp-server
 modified: '2026-07-18'
 name: Due
 nav: Providers
@@ -379,8 +375,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:

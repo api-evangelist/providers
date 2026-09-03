@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.replicated.com/vendor/v3
@@ -146,7 +146,7 @@ apis:
   description: The vms API from Replicated — 8 operation(s) for vms.
   name: Replicated vms API
   slug: replicated-vms-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Replicated Notifications Webhooks
@@ -370,7 +370,7 @@ common:
   url: cli/replicated-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/replicated-mcp.yml
 - group: agent
   title: ''
@@ -440,10 +440,6 @@ created: '2026-07-17'
 description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The platform spans the Vendor Portal, the Replicated CLI, Embedded Cluster and KOTS installers, the Enterprise Portal for end customers, a proxy registry, the Compatibility Matrix (CMX) for ephemeral test clusters/VMs, preflight checks, support bundles, and instance telemetry. Its Vendor API v3 (api.replicated.com/vendor/v3) exposes 217 operations across apps, channels, releases, customers, licenses, clusters, VMs, registries, and event notifications, secured with token auth. Replicated is backed by Amplify Partners and is SOC 2 / CSA STAR attested.
 image: https://www.replicated.com/images/replicated-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Replicated MCP Server
-  slug: replicated-mcp-server
 modified: '2026-07-20'
 name: Replicated
 nav: Providers
@@ -484,8 +480,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/screenshots/replicated-2026-08-17T081526.png
 security:

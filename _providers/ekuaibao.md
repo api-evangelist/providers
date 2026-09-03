@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The 合思开放平台 (Ekuaibao / HOSE Open Platform) REST API. 200+ documented operations across contacts, corporation, budgets, expense flows, forms, fee types, pay, payer info, checking bills, city and curren
   name: Ekuaibao Open API
   slug: ekuaibao-open-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Ekuaibao Outbound Webhooks
@@ -127,7 +127,7 @@ common:
   url: asyncapi/ekuaibao-outbound-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ekuaibao-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: 'Ekuaibao (合思 / HOSE, formerly 易快报) is a Chinese AI-powered spend-management and expense-control SaaS platform used by more than 7,000 enterprises. It unifies expense reimbursement, business-travel booking and management, corporate payment and settlement, invoice OCR and validation, budget control, BI analytics and electronic accounting archiving. The company operates the 合思开放平台 (Ekuaibao Open Platform), a substantial REST API of 200+ documented operations across two dozen modules — contacts, corporation, budgets, expense flows, forms, fee types, pay and payer info, city and currency master data, data links, matrices, delegates and outbound-message webhooks — letting external systems (OA, ERP, HR, travel) synchronize staff, departments, budgets, documents, invoices and approvals. Access is token-based: an appKey/appSecurity pair is exchanged for a short-lived accessToken (v1) or a JWT-based tenant/platform token (v3).'
 image: https://www.ekuaibao.com/uploads/20260421/35efafc6cff1340314ddb0f441d3ecf1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ekuaibao MCP Server
-  slug: ekuaibao-mcp-server
 modified: '2026-07-19'
 name: Ekuaibao
 nav: Providers
@@ -182,8 +178,8 @@ score:
   previous_composite: 31.0
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ekuaibao/refs/heads/main/screenshots/ekuaibao-2026-07-25T213044.png
 security:

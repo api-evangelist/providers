@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
   description: Webpage content extraction
   name: Serper Scrape API
   slug: serper-scrape-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -208,7 +208,7 @@ common:
   url: well-known/serper-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/serper-mcp.yml
 - group: agent
   title: ''
@@ -325,10 +325,6 @@ jsonld:
   property_count: 30
   slug: serper-context
 layout: provider
-mcp_servers:
-- description: Serper ships NO MCP server of its own — no hosted endpoint, no published package, no mention of MCP anywhere on serper.dev. The tool list below is a CANDIDATE derived from the OpenAPI definitions in t
-  name: Serper MCP
-  slug: serper-mcp
 modified: '2026-08-13'
 name: Serper
 nav: Providers
@@ -389,8 +385,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png
 security:

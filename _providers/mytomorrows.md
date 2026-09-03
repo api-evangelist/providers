@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: The V1 API from myTomorrows — 38 operation(s) for v1.
   name: myTomorrows V1 API
   slug: mytomorrows-v1-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -118,7 +118,7 @@ common:
   url: security/mytomorrows-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mytomorrows-mcp.yml
 - group: agent
   title: ''
@@ -172,10 +172,6 @@ created: '2026-07-17'
 description: myTomorrows is a healthcare technology platform that helps patients and healthcare professionals discover and access clinical trials and expanded-access (pre-approval) treatment options, and helps biopharma companies run and manage expanded-access programs (EAPs), collect real-world data, and recruit trial patients. Founded in 2012 by Dr. Ronald Brus, the company operates in roughly 50 countries. Its Trial Search AI product is backed by a FastAPI "Enterprise Search API" that generates Trial Search Reports (TSR), resolves conditions, and searches studies. This profile was surfaced as a portfolio company of Balderton Capital and enriched by the API Evangelist pipeline from a harvested OpenAPI and public trust surface.
 image: https://mytomorrows.com/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: myTomorrows MCP Server
-  slug: mytomorrows-mcp-server
 modified: '2026-07-20'
 name: myTomorrows
 nav: Providers
@@ -226,8 +222,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/screenshots/mytomorrows-2026-08-07T184546.png
 security:

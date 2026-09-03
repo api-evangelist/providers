@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ apis:
   description: Convert, Deposit, Withdraw, Transfers, and Sub Account Transfer operations.
   name: Coins.ph Wallet API
   slug: coinsph-wallet-api
-artifact_total: 59
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Coinsph Webhooks
@@ -367,7 +367,7 @@ common:
   url: data-model/coinsph-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coinsph-mcp.yml
 - group: auth
   title: ''
@@ -397,10 +397,6 @@ created: '2026-07-17'
 description: Coins.ph is a BSP-regulated Philippine fintech super app combining a licensed crypto exchange (Coins Pro), an e-wallet for pesos and 170+ cryptocurrencies, and a merchant/partner payments platform. Its public developer platform exposes a Partner Integration / Payment API (QRPH collections, checkout, disbursements, refunds, virtual accounts, reconciliation) and the Coins Pro exchange API (spot trading, wallets, market data, convert, sub-accounts, and a WebSocket user-data stream), plus an on/off ramp API. All requests are authenticated with an API key and HMAC-SHA256 request signing (X-COINS-APIKEY, Timestamp, Signature). Backed by Pantera Capital and Ribbit Capital.
 image: https://coins.ph/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coins.ph MCP Server
-  slug: coinsph-mcp-server
 modified: '2026-07-18'
 name: Coins.ph
 nav: Providers
@@ -448,8 +444,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/screenshots/coinsph-2026-07-25T210033.png
 security:

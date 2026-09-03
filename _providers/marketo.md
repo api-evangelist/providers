@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://developers.marketo.com/'', ''status'': 301, ''note'': ''declared website redirects to https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home — a different registrable domain (marketo.com -> adobe.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -268,7 +269,7 @@ apis:
   description: Marketo Engage provides a set of User Management endpoints allow you to perform CRUD operations on user records in Marketo.
   name: Marketo User Management API
   slug: marketo-user-management-api
-artifact_total: 123
+artifact_total: 122
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the two event-shaped surfaces Marketo Engage (Adobe) exposes to integrators: 1. Outbound Webhooks fired from Smart Campaign "Call Webhook" flow steps. Marketo issues an HTT'
   name: Marketo Engage Events
@@ -611,7 +612,7 @@ common:
   url: components/marketo-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/marketo-mcp.yml
 - group: build
   title: ''
@@ -673,10 +674,6 @@ graphqls:
   slug: marketo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Marketo MCP Server
-  slug: marketo-mcp-server
 modified: '2026-08-13'
 name: Marketo
 nav: Providers
@@ -716,20 +713,20 @@ scopes:
   summary_line: 24 scopes
 score:
   band: developing
-  composite: 50.5
+  composite: 51.4
   coverage:
     artifact_dirs: 29
-    catalog_gap: 63.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 55.9
     developer_ergonomics: 63.7
-    discoverability: 59.3
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 76.3
   previous_composite: 50.5
@@ -743,8 +740,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:

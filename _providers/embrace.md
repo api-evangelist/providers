@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: A Prometheus-compatible read API for querying Embrace metrics with PromQL. Standard Embrace metrics and any Custom Metrics an organization has created are queryable across one app, several apps, or ev
@@ -252,8 +252,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/screenshots/embrace-2026-08-17T080406.png
 security:

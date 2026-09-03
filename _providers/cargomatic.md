@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.cargomatic.com
@@ -61,7 +61,7 @@ apis:
   description: Endpoints for managing shipment stops
   name: Cargomatic Stops API
   slug: cargomatic-stops-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +184,7 @@ common:
   url: sandbox/cargomatic-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cargomatic-mcp.yml
 - group: agent
   title: ''
@@ -202,10 +202,6 @@ created: '2026-07-17'
 description: Cargomatic is a technology-enabled marketplace for local freight and drayage that connects shippers with a network of more than 35,000 professional truck drivers across the top 20 ports in the continental United States. Its platform automates quoting, booking, dispatch, tracking, and document exchange for drayage, intermodal, less-than-truckload (LTL), full-truckload (FTL), and white-glove final-mile delivery. Cargomatic exposes a public REST API (the Cargomatic Public API) so shippers and carriers can automate the same quoting, order-creation, shipment-status, stop-management, driver-assignment, and document workflows available in the Cargomatic portal, authenticating with JWT bearer tokens issued from an authentication endpoint. The company is headquartered in Long Beach, California and is backed by Canaan Partners and the SoftBank Vision Fund.
 image: https://cargomatic.com/wp-content/uploads/2021/01/cargomatic-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cargomatic MCP Server manifest (candidate)
-  slug: cargomatic-mcp-server-manifest-candidate
 modified: '2026-07-18'
 name: Cargomatic
 nav: Providers
@@ -243,8 +239,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
 security:

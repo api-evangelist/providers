@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -536,7 +536,7 @@ apis:
   description: On demand Zulu (Icing) AIRMETs via API
   name: DTN Zulu (Icing) AIRMET API
   slug: dtn-zulu-icing-airmet-api
-artifact_total: 149
+artifact_total: 148
 asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Agency Bulletin WebSocket API, which streams global weather agency bulletins in real time over a WebSocket upgrade (HTTP 101). Derived from the provider's publishe
   name: DTN Agency Bulletin WebSocket API (event surface)
@@ -759,7 +759,7 @@ common:
   url: data-model/dtn-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dtn-mcp.yml
 - group: agent
   title: ''
@@ -818,10 +818,6 @@ jsonld:
   property_count: 20
   slug: dtn-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: DTN MCP Server
-  slug: dtn-mcp-server
 modified: '2026-07-22'
 name: DTN
 nav: Providers
@@ -893,8 +889,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: Emeritus program catalog resources.
   name: Eruditus Programs API
   slug: eruditus-executive-education-programs-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -169,7 +169,7 @@ common:
   url: packages/eruditus-executive-education-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eruditus-executive-education-mcp.yml
 - group: build
   title: ''
@@ -187,10 +187,6 @@ created: '2026-08-04'
 description: 'Eruditus (Eruditus Group) is an online executive-education company founded in 2010 by Ashwin Damera and Chaitanya Kalipatnapu and headquartered in Singapore, operating consumer and enterprise learning under the Eruditus and Emeritus brands. It partners with more than 80 top-tier universities — including MIT, Harvard, Columbia, Wharton, Cambridge, INSEAD, IIM, NUS and HKUST — to deliver senior executive programs, professional certificates, short courses and degree programs to more than 350,000 learners across 80+ countries. Its public API surface is a small partner-facing REST estate documented at emeritus-tech.github.io/emeritus-api-docs: a Leads API for submitting B2C and B2B enrollment inquiries, and a Programs API exposing programs, partner schools and landing page templates. Both are token-authenticated with Emeritus-issued keys and offer separate staging and production environments.'
 image: https://s44783.pcdn.co/wp-content/uploads/2020/12/emeritus-logo-1200-675.jpg.optimal.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eruditus MCP Server
-  slug: eruditus-mcp-server
 modified: '2026-08-04'
 name: Eruditus
 nav: Providers
@@ -235,8 +231,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:

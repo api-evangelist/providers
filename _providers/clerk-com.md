@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-09-02'
+  score: 29.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -424,7 +424,79 @@ apis:
   description: Well-known endpoints like JWKS, deep linking, and openid-configuration.
   name: Clerk Well Known API
   slug: clerk-com-well-known-api
-artifact_total: 297
+- description: 'Browser-facing API consumed by Clerk''s frontend SDKs and ClerkJS for sign-up, sign-in, session refresh, and user profile mutations. Endpoint is instance-specific (subdomain on clerk.accounts.dev or a '
+  name: Clerk Frontend API
+  slug: frontend-api
+- description: Webhook events delivered via Svix for user, session, organization, email, SMS, and role lifecycle changes. Customers configure endpoints in the dashboard and verify signatures with the Svix libraries.
+  name: Clerk Webhooks (Svix)
+  slug: webhooks
+- description: Official ClerkJS browser library and monorepo of framework adapters (Next.js, React, Expo, React Router, Astro, Chrome Extension, TanStack). Powers Clerk's prebuilt UI components and headless hooks.
+  name: Clerk JavaScript SDK
+  slug: javascript
+- description: Next.js integration covering App Router and Pages Router, middleware, route handlers, server components, and server actions. Distributed from the @clerk/nextjs package inside the JavaScript monorepo.
+  name: Clerk Next.js SDK
+  slug: sdk-nextjs
+- description: React components, hooks, and providers from the @clerk/clerk-react package for plain React SPAs.
+  name: Clerk React SDK
+  slug: sdk-react
+- description: Expo / React Native bindings for Clerk supporting OAuth via deep links, secure session storage, and biometrics.
+  name: Clerk Expo SDK
+  slug: sdk-expo
+- description: Adapter for React Router v7 (Remix successor) covering loaders, actions, and server-rendered authentication.
+  name: Clerk React Router SDK
+  slug: sdk-react-router
+- description: Adapter for the Astro framework with components and middleware.
+  name: Clerk Astro SDK
+  slug: sdk-astro
+- description: Adapter for TanStack Start (React full-stack framework) with route-level authentication helpers.
+  name: Clerk TanStack Start SDK
+  slug: sdk-tanstack-start
+- description: Backend SDK for Node.js (@clerk/backend / @clerk/express / @clerk/fastify) that wraps the Backend API and verifies session JWTs.
+  name: Clerk Node.js SDK
+  slug: sdk-node
+- description: Official Go SDK for the Clerk Backend API.
+  name: Clerk Go SDK
+  slug: sdk-go
+- description: Official Python SDK for the Clerk Backend API.
+  name: Clerk Python SDK
+  slug: sdk-python
+- description: Official Ruby SDK for the Clerk Backend API, with a Rails integration.
+  name: Clerk Ruby SDK
+  slug: sdk-ruby
+- description: Official Java SDK for the Clerk Backend API.
+  name: Clerk Java SDK
+  slug: sdk-java
+- description: Official PHP SDK for the Clerk Backend API.
+  name: Clerk PHP SDK
+  slug: sdk-php
+- description: Official C# / .NET SDK for the Clerk Backend API.
+  name: Clerk C# / .NET SDK
+  slug: sdk-csharp
+- description: Public repository of OpenAPI specifications for Clerk's APIs, used as the source for generated SDKs and documentation.
+  name: Clerk OpenAPI Specifications
+  slug: openapi-specs
+- description: The Invitations API from Clerk — 2 operation(s) for invitations.
+  name: Clerk Invitations API
+  slug: clerk-invitations-api
+- description: The JwtTemplates API from Clerk — 1 operation(s) for jwttemplates.
+  name: Clerk JwtTemplates API
+  slug: clerk-jwttemplates-api
+- description: The Organizations API from Clerk — 4 operation(s) for organizations.
+  name: Clerk Organizations API
+  slug: clerk-organizations-api
+- description: The Sessions API from Clerk — 4 operation(s) for sessions.
+  name: Clerk Sessions API
+  slug: clerk-sessions-api
+- description: The SignInTokens API from Clerk — 2 operation(s) for signintokens.
+  name: Clerk SignInTokens API
+  slug: clerk-signintokens-api
+- description: The Users API from Clerk — 4 operation(s) for users.
+  name: Clerk Users API
+  slug: clerk-users-api
+- description: The Webhooks API from Clerk — 1 operation(s) for webhooks.
+  name: Clerk Webhooks API
+  slug: clerk-webhooks-api
+artifact_total: 321
 collections:
 - collection_type: postman
   name: Clerk Backend Account Portal API
@@ -1368,7 +1440,7 @@ modified: '2026-05-22'
 name: Clerk
 nav: Providers
 network: true
-overview: 'Clerk publishes 76 APIs on the [APIs.io](https://apis.io/) network, including Account Portal API, Active Sessions API, Actor Tokens API, and 73 more. Tagged areas include Authentication, Authorization, B2B SaaS, CIAM, and Identity Management.
+overview: 'Clerk publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Account Portal API, Active Sessions API, Actor Tokens API, and 81 more. Tagged areas include Authentication, Authorization, B2B SaaS, CIAM, and Identity Management.
 
 
   The Clerk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1408,18 +1480,18 @@ rules:
   slug: clerk-rules
 score:
   band: strong
-  composite: 62.5
+  composite: 64.5
   coverage:
     artifact_dirs: 19
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 28.8
-    contract_quality: 63.7
+    contract_quality: 71.8
     developer_ergonomics: 76.2
     discoverability: 75.9
     governance: 28.8
@@ -1432,8 +1504,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 77
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/screenshots/clerk-com-2026-06-20T174512.png
 security:

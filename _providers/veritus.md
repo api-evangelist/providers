@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.veritus.com/api/v1
@@ -61,7 +61,7 @@ apis:
   description: The Veritus API API from Veritus — 0 operation(s) for veritus api.
   name: Veritus Veritus API
   slug: veritus-veritus-api-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: Outbound webhooks Veritus Agent POSTs to a subscriber-supplied URL when calls complete or drip-campaign events occur. Payloads are signed with HMAC SHA-256. Register a webhook by supplying `webhook.ur
   name: Veritus Agent Webhooks
@@ -85,7 +85,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/veritus-mcp.yml
 - group: other
   title: ''
@@ -163,10 +163,6 @@ created: '2026-07-17'
 description: Veritus (Veritus Agent) is a San Francisco fintech (Y Combinator S2025) building compliant, voice-first AI agents for the consumer-lending lifecycle - origination, servicing, and collections. Its omnichannel platform places AI voice calls, SMS, and email to borrowers, running every contact through a built-in compliance engine (respectful hours, frequency limits, cease-and-desist, model-validation notices) before outreach. The REST API (OpenAPI 3.1, bearer auth, isolated sandbox and production environments, HMAC-signed webhooks) lets lenders, servicers, and collections agencies create customers, place compliance-checked calls, run omnichannel drip campaigns, import and analyze SMS/email interactions, and retrieve call recordings.
 image: https://veritus.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Veritus MCP Server
-  slug: veritus-mcp-server
 modified: '2026-07-21'
 name: Veritus
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/screenshots/veritus-2026-08-17T082732.png
 security:

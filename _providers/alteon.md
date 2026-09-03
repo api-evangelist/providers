@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://radware.com'', ''status'': 302, ''note'': ''declared website redirects to http://validate.perfdrive.com/?ssa=14bcad6a-611c-4aff-890e-bb09be20aebf&ssb=92855256834&ssc=https%3A%2F%2Fradware.com%2F&ssi=42bb11f7-bsff-434b-a2db-d9b4c5c4ea5f&ssk=support@shieldsquare.com&ssm=42520982706815351101331761234705&ssn=cd6b9f54cec0a097c0b13329e1bbc3e1198b7b5e1f49-47c6-4871-b3f045&sso=fc8d5660-ca1f0c1138b93d376e58b2388b2a06efef9cf348b5d59689&ssp=50753109921788461115178846461273459&ssq=00403795388654169488153886061280010973671&ssr=MTQxLjE1Ny4yMTEuMTk=&sst=APIs.io-website-probe/1.0%20(+https://apis.io)&ssu=&ssv=&ssw=&ssx=eyJyZCI6InJhZHdhcmUuY29tIiwidXpteCI6IjdmYzAwMGZjNjZkYWNlLTc0MDgtNGU1YS05MDM3LTg2NWRjOTM2ZjJlZTEtMTc4ODQ1Mzg4Njg2NzAtMDAzOTlhNGM2YjVmNTAwOWQ3ODEwIiwiX191em1mIjoiN2Y5MDAwN2I1ZTFmNDktNDdjNi00ODcxLWI2NjAtY2ExZjBjMTEzOGI5MS0xNzg4NDUzODg2ODY3MC0wMDQ0YzI3OGRkMDliNGJiYzg0MTAifQ== — a different registrable domain (radware.com -> perfdrive.com), possible rename or acquisition
+    (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,8 +127,8 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 18.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/screenshots/alteon-2026-07-25T195817.png
 security:

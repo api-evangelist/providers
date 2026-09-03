@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://icanhazepoch.com'', ''status'': 301, ''note'': ''declared website redirects to https://major.io/2022/07/28/extra-icanhazip-services-going-offline/ — a different registrable domain (icanhazepoch.com -> major.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Get Epoch time
@@ -81,8 +82,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icanhazepoch/refs/heads/main/screenshots/icanhazepoch-2026-06-20T183143.png
 security:

@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ apis:
   description: The Transactions API from Secure Trust Bank — 2 operation(s) for transactions.
   name: Secure Trust Bank Transactions API
   slug: secure-trust-bank-transactions-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
@@ -286,7 +286,7 @@ common:
   url: data-model/secure-trust-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/secure-trust-bank-mcp.yml
 - group: build
   title: ''
@@ -341,10 +341,6 @@ description: 'Secure Trust Bank PLC is an award-winning UK specialist bank, foun
   one of the nine CMA9-mandated banks; as of this review it publishes no public developer portal or bank-branded Open Banking developer host, so the API surfaces below reference the shared OBIE standard specifications the bank''s regulated products conform to, not proprietary Secure Trust Bank API contracts.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Secure Trust Bank MCP Server
-  slug: secure-trust-bank-mcp-server
 modified: '2026-07-23'
 name: Secure Trust Bank
 nav: Providers
@@ -398,8 +394,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secure-trust-bank/refs/heads/main/screenshots/secure-trust-bank-2026-09-02T154718.png
 security:

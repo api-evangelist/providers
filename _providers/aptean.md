@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The PublicKeys API from Aptean — 1 operation(s) for publickeys.
   name: Aptean PublicKeys API
   slug: aptean-publickeys-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Aptean Events Webhooks
@@ -135,7 +135,7 @@ common:
   url: asyncapi/aptean-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aptean-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Aptean is a global provider of industry-specific, AI-powered enterprise software — ERP, CRM, supply chain and compliance solutions — for manufacturing, distribution, food & beverage, transportation and other complex industries. Headquartered in Alpharetta, Georgia and backed by Insight Partners, Aptean serves roughly 5,000 customers worldwide. Its developer-facing surface is the Aptean Integration Platform (AIP), an event/webhook integration API where products publish events against event definitions and consumer tenants subscribe to receive them, secured with Bearer JWT and APIM subscription headers.
 image: https://images.ctfassets.net/grb5fvwhwnyo/6dl4ftg2p3o3438k9XcowL/feecf05daaad11081daa4b57173423a8/Default-og-image.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aptean MCP Server
-  slug: aptean-mcp-server
 modified: '2026-07-18'
 name: Aptean
 nav: Providers
@@ -230,8 +226,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/screenshots/aptean-2026-07-25T200918.png
 security:

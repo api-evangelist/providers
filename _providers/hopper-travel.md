@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: Consumer mobile and web app for booking flights, hotels, homes, and cars. Pioneered price prediction, Price Freeze, and flexible cancellation for end travelers. No public API.
@@ -161,8 +161,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopper-travel/refs/heads/main/screenshots/hopper-travel-2026-06-20T182834.png
 security:

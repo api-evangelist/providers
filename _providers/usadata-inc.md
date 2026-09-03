@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -185,8 +185,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png
 security:

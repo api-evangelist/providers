@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -134,7 +134,7 @@ apis:
   description: The VDIHyperV API from ThreatLocker — 1 operation(s) for vdihyperv.
   name: ThreatLocker VDI Hyper V API
   slug: threatlocker-vdihyperv-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Threatlocker Webhooks
@@ -295,7 +295,7 @@ common:
   url: conformance/threatlocker-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/threatlocker-mcp.yml
 - group: agent
   title: ''
@@ -333,10 +333,6 @@ created: '2026-08-02'
 description: ThreatLocker is a Zero Trust endpoint and cloud security platform used by enterprises and managed service providers to enforce least privilege across endpoints, networks, and cloud workloads. Its capabilities include Application Control (allowlisting), Ringfencing, Elevation Control, Storage Control, Network Control / ZTNA, Web Content Control, Patch Management, and ThreatLocker Detect (managed detection and response). The multi-tenant ThreatLocker Portal is exposed programmatically through the PortalAPI — a public OpenAPI 3.0 REST contract covering action logs, applications, approval requests, computers and computer groups, maintenance mode, organizations, policies, reports, saved searches, scheduled agent actions, system audit, tags, upload requests, and agent versions. The platform is deployed as regionally isolated instances (A–H plus AE1, AU1, CA1, EU1, SA1 and a FedRAMP instance), so both the portal and the API are addressed per instance.
 image: https://cdn.prod.website-files.com/6356c441ce34029b327802bf/6972a0af939532eaa67988e1_ThreatLocker_Generic%20OpenGraph-Meta%20image.png
 layout: provider
-mcp_servers:
-- description: ThreatLocker publishes NO official or hosted MCP server. This is a DERIVED candidate tool surface — one tool per PortalAPI operation group — offered as a design starting point, not a claim that Threat
-  name: ThreatLocker MCP Server
-  slug: threatlocker-mcp-server
 modified: '2026-08-02'
 name: ThreatLocker
 nav: Providers
@@ -378,8 +374,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/screenshots/threatlocker-2026-08-17T082347.png
 security:

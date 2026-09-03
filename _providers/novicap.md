@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.novicap.com/v1
@@ -46,7 +46,7 @@ apis:
   description: Dynamic discounting suppliers, invoices, payment instructions and adjustments.
   name: Novicap Dynamic Discounting API
   slug: novicap-dynamic-discounting-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -112,7 +112,7 @@ common:
   url: conformance/novicap-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/novicap-mcp.yml
 - group: agent
   title: ''
@@ -142,10 +142,6 @@ created: '2026-07-17'
 description: 'Novicap is a Spanish working-capital and supply-chain-finance fintech that helps companies optimize their circulating capital. Its REST API (base URL https://api.novicap.com/v1) lets partners programmatically register suppliers, submit and manage invoices, and create payment instructions and adjustments across two products: Dynamic Discounting and Confirming Standard (reverse factoring). The API uses Bearer API-key authentication with a required product_id scope, JSON payloads, and URI-path versioning, and is documented in a public developer reference. Novicap is backed by Partech and Techstars.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novicap.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Novicap MCP Server
-  slug: novicap-mcp-server
 modified: '2026-07-20'
 name: Novicap
 nav: Providers
@@ -183,8 +179,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -60,7 +60,7 @@ apis:
   description: The Rpc API from Heroic Labs — 131 operation(s) for rpc.
   name: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Heroiclabs Nakama Realtime Events
@@ -209,7 +209,7 @@ common:
   url: packages/heroiclabs-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/heroiclabs-mcp.yml
 - group: agent
   title: ''
@@ -327,10 +327,6 @@ jsonld:
   property_count: 54
   slug: heroiclabs-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Heroic Labs MCP Server
-  slug: heroic-labs-mcp-server
 modified: '2026-08-08'
 name: Heroic Labs
 nav: Providers
@@ -394,8 +390,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-07-25T221028.png
 security:

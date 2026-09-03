@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.9
-  scored_at: '2026-09-02'
+  score: 51.2
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Webhooks related to onboarding and accounts events.
   name: GetPaid Onboard sellers webhooks API
   slug: getpaid-onboard-sellers-webhooks-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Getpaid Webhooks
@@ -201,7 +201,7 @@ common:
   url: asyncapi/getpaid-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/getpaid-mcp.yml
 - group: agent
   title: ''
@@ -223,10 +223,6 @@ created: '2026-07-17'
 description: Getpaid is a licensed European (EEA) embedded-payments platform that lets software platforms and marketplaces process payments while keeping the merchant relationship and capturing the transaction margin. It provides white-labeled hosted checkout across 30+ payment methods, atomic real-time split settlement that distributes a single transaction across sellers, the platform and agents, seller onboarding with KYC/KYB, subscriptions and invoicing with SEPA Direct Debit, and an AI-native agent-payments API with scoped authority tokens and spending limits. The v2 REST API uses OAuth 2.0 client-credentials auth, cursor pagination, RFC 7807 problem-details errors, an idempotency-key header, and 10 webhook events. Getpaid is a PCI-DSS Level 1, GDPR- and PSD2/SCA-aligned licensed payment institution with hubs in Germany, Spain and Finland.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getpaid.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GetPaid MCP Server
-  slug: getpaid-mcp-server
 modified: '2026-07-19'
 name: GetPaid
 nav: Providers
@@ -285,8 +281,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:

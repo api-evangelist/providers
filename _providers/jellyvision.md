@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The ALEX Partner Integration API lets a Jellyvision partner — typically a benefits administration or enrollment platform — streamline and personalize the ALEX experience for its end users. Partners PO
@@ -175,8 +175,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/screenshots/jellyvision-2026-09-02T145934.png
 security:

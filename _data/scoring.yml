@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.18.0
-last_updated: '2026-09-01'
+schema_version: 0.18.2
+last_updated: '2026-09-03'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,37 +22,45 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.18.0
+  version: 0.18.1
   body: |
-    TWO NEW CHECKS, AND BOTH ARE ABOUT NOT CREDITING THE WRONG PARTY.
+    A TRACKED SIGNAL, NOT A SCORED ONE — the 0.15.1 shape. No new dimensions, no
+    weight changes, no change to the agent-readiness denominator, and no band
+    re-cut: nothing about any provider's score moves, and scores stamped 0.18.0
+    remain correct under 0.18.1.
 
-    `inbound_contract_published` credits a provider for publishing a standalone
-    machine-readable contract for the events it SENDS — the webhook envelope, not the API
-    you call. Until roadmap#175 those documents were scored as broken APIs: `callable`
-    grades a spec on whether its servers[] host resolves, and for a webhook envelope that
-    question has no answer, because the consumer is the one who stands up the endpoint.
+    `webmcp` joins `observed_signals`: does a script served by the provider's
+    own pages register tools with the browser's modelContext (the W3C WebMCP
+    draft — document.modelContext.registerTool(), Chrome origin trial 149-156)?
+    It is the browser-side counterpart of the MCP server the layer already
+    scores: not "is the API agent-drivable out-of-band" but "is the SITE
+    agent-drivable in the session the user is already in". A new prober
+    (signals/probe_webmcp.py) writes a frozen snapshot with the
+    mcp-deployment.json contract — every probed slug carries a verdict, so
+    absent means unprobed — and the scorer reads it through a new `probe:` key
+    on observed signals, the first non-spec-check signal in the list.
 
-    `contract_self_operated` settles who OPERATES the thing each registered contract
-    describes before awarding contract credit. The failure it fixes was measured, not
-    theorised: twenty-five universities were credited for one Figshare contract saved under
-    their own slugs and titled "<University> articles API". The eight highest-scoring
-    universities in the whole catalog were scoring that same document, and all eight
-    returned an identical agent readiness of 38.9 because it was the same document. The
-    shape recurs wherever a platform is popular — 193 Shopify merchants, 11 Elsevier Pure
-    deployments, 23 Instructure tenancies.
+    The baseline is the finding, and it is not the zero we expected. 81 of 730
+    providers probed across the hosted-MCP cohort ship WebMCP registration —
+    but 72 of the 81 are ONE SCRIPT: ReadMe.io's docs-hub bundle registers a
+    search_docs tool on every docs site it hosts. A documentation platform
+    quietly made seventy-two providers' docs agent-drivable, none of whom
+    necessarily know. Distinct, provider-engineered deployments number 9
+    (Cloudflare, Zapier, Nylas, Render, and self-hosted bridges), and 6 of the
+    81 ship only the deprecated navigator surface — dead in Chrome 150+.
 
-    It generalises the rule 0.13 already applied to a single `.well-known` file. Attribution
-    is settled from evidence the pipeline gathers anyway — IP ownership, DNS CNAME chains,
-    and the contract's own info.title and info.contact — recorded as `x-operator` per apis[]
-    entry. A vendor tenancy is graded DOWN, not zeroed: a university running Figshare really
-    does give its community a repository with an API; it just did not engineer the contract.
+    The raw count already clears the 25-provider promotion line and promotion
+    is deferred anyway: the number that has to clear it is providers whose own
+    engineering shipped the tools — 9 — or promotion would hand out credit for
+    ReadMe's work, re-creating exactly the false credit contract_self_operated
+    removed in 0.18.0. When it promotes, it promotes graded (runtime-verified
+    1.0 / statically-detected 0.4 / platform-shipped graded down the way
+    tenant contracts are), with points and the band re-cut a denominator
+    change requires. Until then, zero rescale: the agent_card lesson stands.
 
-    IT IS A NO-OP UNLESS THE AXIS IS DECLARED. A provider whose apis.yml carries no
-    x-operator scores it :skipped and its composite does not move. The field is populated
-    today on the 254-institution university cohort and nowhere else, so nothing outside that
-    cohort shifts, and the check sharpens as the annotation spreads. It must never dock a
-    provider for catalog work we have not done.
-
+    Also recorded: the name is already colliding — at least one provider
+    markets a server-side MCP endpoint as its "WebMCP Server" — so the probe
+    keys on the registration API, never the word.
 
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
@@ -606,6 +614,15 @@ facets:
   open_source:
     weight: 0.10
     conditional: true          # only applies where we hold a LIVE repository read
+    # 0.18.2 (roadmap#219) — AND only where the published delivery model says the product
+    # itself is open source (delivery_model.open_source true, the roadmap#41 deriver's
+    # stricter answer). A live read of SOME repository was the whole gate before, so
+    # Apigee scored 85.0 on a CLI for a closed platform and Azure APIM 100.0 on a gateway
+    # component of a closed SaaS — four adjacent-repo providers moved the API Management
+    # cohort's facet average 44.7 -> 47.0 and reversed roadmap#39's sign. The description
+    # below always said "open source ONLY"; the gate now enforces it. ~698 providers keep
+    # the facet, ~446 go N/A (excluded from their denominator, never zeroed).
+    requires_open_source_delivery: true
     label: Open Source Surface
     description: >
       For providers whose product is itself open source ONLY: does the
@@ -3134,6 +3151,17 @@ agent_readiness:
     agent-native:
       requires_all: [idempotency, error_semantics]
       demote_to: agent-ready
+      # 0.18.2 (roadmap#243) — the gate reads COVERAGE, not presence. A documented
+      # idempotency credit still earns its points, but the gate also consults the
+      # provider's own conventions artifact, structurally and never by prose:
+      # idempotency.coverage: partial|none fails the gate, and an enumerated scope:
+      # list of <=5 operations reads as partial where no coverage field exists yet
+      # (leadping: 2 of 99 mutating operations held agent-native; its artifact said
+      # so in its own scope list). coverage: full and prose-only artifacts pass
+      # unchanged — Stripe states a header across all writes and enumerates nothing.
+      # 1-2 demotions today; the conventions recipe now emits the field, so the gate
+      # tightens as artifacts are re-touched.
+      idempotency_scope_check: true
       rationale: >
         An agent driving a surface with no idempotency and no stable error envelope
         is not being driven safely, however much else the provider publishes.
@@ -3144,6 +3172,19 @@ agent_readiness:
         step below their number with nothing saying why, which handed a reader a band
         and a published range that contradict each other. The field is absent when no
         gate fired, so its presence is the disclosure.
+
+  # 0.18.2 (roadmap#245) — REACHABILITY CAP, a gate one band down. gutendex serves
+  # no request to any programmatic client (host-wide 403 including an invented control
+  # path) and robots.txt disallows its only API endpoint to every user-agent with named
+  # agent bans and Content-Signal ai-train=no — and stayed band agent-ready, because
+  # nothing read reachability or operator consent. The enrichment probe's own verdict
+  # (x_coverage.state, lifted to the provider record by build.py) now caps the agent
+  # band: probed-unreachable and parked surfaces cannot band above agent-aware,
+  # disclosed via band_gated_from like every demotion. blocked/unreadable do NOT cap —
+  # they are statements about the probe run, not the operator (roadmap#207's line).
+  reachability_cap:
+    demote_to: agent-aware
+    states: [probed-unreachable, parked]
 
   # BAND RE-CUT AT 0.13.0. Four new dimensions took `max` from 117 to 139, so every
   # agent score is multiplied by 0.8417 before any provider earns a single new point.
@@ -3346,6 +3387,77 @@ agent_readiness:
         directly above the method for a filter grammar a machine can validate,
         and which grammar fills it is a question this catalog is positioned to
         answer rather than guess at.
+
+    - id: webmcp
+      label: WebMCP In-Browser Tools
+      signal: >-
+        a script served by the provider's own pages registers tools with the
+        browser's modelContext (W3C Web ML CG WebMCP draft)
+      probe: webmcp
+      observed: 81
+      observed_at: '2026-09-03'
+      observed_basis: >
+        81 of 730 providers probed by signals/probe_webmcp.py across the
+        hosted-MCP cohort (the providers whose MCP pages resolved a live
+        endpoint — the population most likely to have gone browser-native too).
+        BUT 72 OF THE 81 ARE ONE SCRIPT: cdn.readme.io's docs-hub bundle
+        registers a search_docs tool on every ReadMe-hosted docs site
+        (verified in the bundle: document.modelContext ?? navigator.modelContext,
+        then registerTool). Platform-authored, exactly the shape
+        contract_self_operated (0.18.0) and the live-MCP finding exist to keep
+        from being credited as provider work. The DISTINCT deployments number
+        9: Cloudflare (x2 properties), Zapier, Nylas, Render, and four
+        self-hosted (two of them a shared /.webmcp/bridge.js pattern). 6 of 81
+        ship only the deprecated navigator surface, dead in Chrome 150+ — the
+        adoption curve and the decay curve, both from t=0. Detection is
+        script-scoped (inline script bodies and fetched script files, never
+        page prose) and requires the modelContext object AND a registration
+        call in the SAME script, so a docs article ABOUT WebMCP cannot score
+        as shipping it. Frozen snapshot at all/0-working/webmcp-deployment.json,
+        same contract as mcp-deployment.json: every probed slug gets a verdict,
+        so absent means unprobed, never "has nothing" (roadmap#125's lesson,
+        inherited on day one).
+      promote_at: 25
+      promote_at_basis: >
+        The same line accept_query reuses from the headers catalog — 25
+        distinct providers is one definition of "in use" across the network's
+        catalogs. THE RAW COUNT (81) ALREADY CLEARS IT AND PROMOTION IS STILL
+        DEFERRED, deliberately: 72 of the 81 are one documentation platform's
+        bundle, and the count that has to clear the line is providers whose own
+        engineering shipped it — 9 today. Promoting on the raw count would
+        re-create the false credit 0.18.0 just removed. On promotion this
+        becomes a graded dimension (the mcp_server/reversibility shape: a
+        runtime-verified tool list at 1.0, static detection at 0.4, with
+        platform-shipped graded down the way tenant contracts are), with
+        points, a band re-cut, and the usual release.
+      description: >
+        WebMCP (a W3C Web Machine Learning CG draft; Chrome ships it as an
+        origin trial, Chrome 149-156) lets a WEB PAGE register typed, callable
+        tools with the browser via document.modelContext.registerTool(), so an
+        in-browser agent can drive the page's actual functionality instead of
+        scraping its DOM. It is the browser-side counterpart of the MCP server
+        this layer already scores: mcp_server measures whether the API is
+        agent-drivable out-of-band; this measures whether the provider's SITE
+        is agent-drivable in the session the user is already in — auth, state
+        and all.
+
+        Two reasons it is worth a tracked baseline now, and one reason it is
+        NOT a scored dimension. Worth tracking: it is the first standards-track
+        mechanism that makes the interactive web surface, not the API behind
+        it, a first-class agent target — precisely the layer this rubric can
+        see nowhere else — and the spec is young enough that the adoption curve
+        from t=0 is itself a finding (the API surface moved from navigator to
+        document mid-2026, and WHICH surface a provider ships is recorded in
+        the snapshot as `flavor`). Not scored: nobody calls these tools yet —
+        no mainstream agent invokes WebMCP tools as of 2026-09 — and a
+        dimension with a near-empty earner set is a rescale, not a measurement
+        (the agent_card lesson, restated at the top of this block).
+
+        Measurement note: the name is already colliding. At least one provider
+        (Pixeltable) markets a server-side MCP endpoint as its "WebMCP Server";
+        a detector keyed on the word would false-positive, which is why the
+        probe keys on the registration API and not the name — and why
+        Pixeltable correctly reads `none` in the snapshot.
 
   # What is queued next, and why each is waiting:
   planned_dimensions:

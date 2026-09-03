@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: HeadSpin's v0 REST API for authentication, real-device management, capture sessions, app (APK/IPA) instrumentation, biometrics, and audio/video capture. Authenticates with a HeadSpin API token as an H
   name: HeadSpin REST API (v0)
   slug: headspin-rest-api-v0
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: cli/headspin-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/headspin-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: HeadSpin is a real-device digital-experience, functional, and performance testing platform for mobile, web, and OTT applications. Teams test, monitor, and optimize app behavior on real devices and real SIMs across 60+ locations in 50+ countries, running manual and automated tests through frameworks such as Appium and Selenium while capturing 130+ performance KPIs across app, device, browser, audio-video, and network layers. HeadSpin exposes a v0 REST API (Bearer API-token auth) for authentication, device management, capture sessions, app instrumentation, biometrics, and audio/video capture, plus an official `hs` command-line interface and a family of open-source Appium drivers for Roku, LG WebOS, and Samsung Tizen TV.
 image: https://cdn.prod.website-files.com/619e15d781b212391a206fb2/67c6baa984aae71625255247_home-headspin.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: HeadSpin MCP Server
-  slug: headspin-mcp-server
 modified: '2026-07-19'
 name: HeadSpin
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/screenshots/headspin-2026-07-25T220825.png
 security:

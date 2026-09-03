@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -92,7 +92,7 @@ arazzos:
 - description: Receive a Purchase Order from an inbox, approve delivery, acknowledge it, and send back the acknowledgment.
   name: Orderful Order-to-Cash
   slug: orderful-order-to-cash
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Orderful Webhooks
@@ -207,7 +207,7 @@ common:
   url: changelog/orderful-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/orderful-mcp.yml
 - group: design
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: Orderful is a modern B2B trading and EDI platform that lets companies connect once to transact with any partner in their supply chain without building custom integrations. Its Mosaic API turns X12 and EDIFACT electronic data interchange into simple JSON, handling mapping, validation, testing, and compliance so suppliers, retailers, 3PLs, and carriers can exchange purchase orders (850), acknowledgments (855), ship notices (856), invoices (810), inventory advices (846), warehouse (940-series) and other transaction sets over a REST API, HTTP webhooks, AS2, SFTP, and VAN. The platform advertises 10,000+ trading partners, 50M+ transactions, and 99.99% network uptime, with US and EU regional data residency, Web EDI (Pixel), and GS1 UCC-128 shipping labels.
 image: https://www.orderful.com/cms/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Orderful MCP Server
-  slug: orderful-mcp-server
 modified: '2026-07-20'
 name: Orderful
 nav: Providers
@@ -318,8 +314,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
 security:

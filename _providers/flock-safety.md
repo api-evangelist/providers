@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
   description: The Vehicle Images API from Flock Safety — 1 operation(s) for vehicle images.
   name: Flock Safety Vehicle Images API
   slug: flock-safety-vehicle-images-api
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: Real-time webhook that delivers Flock Safety LPR (license plate recognition) hotlist alert events. An alert fires when a plate captured by a Flock LPR camera (owned by, or shared within the First Resp
   name: Flock Safety LPR Hotlist Alerts Webhook
@@ -247,7 +247,7 @@ common:
   url: packages/flock-safety-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/flock-safety-mcp.yml
 - group: agent
   title: ''
@@ -281,10 +281,6 @@ created: '2026-07-17'
 description: Flock Safety is a public safety technology company whose platform connects communities, businesses, and law enforcement through crime detection, investigation, and response tools built around license plate recognition (LPR) cameras, audio detection, video, and the FlockOS situational-awareness platform. Its v3 API Platform (api.flocksafety.com) lets approved customer organizations and third-party developers build "Flock Apps" that bring data in (register hardware as devices, ingest vehicle images for detection, push CAD events, alerts, and geolocation telemetry, manage custom hotlists) and connect Flock data out (retrieve devices, look up license plate reads, and subscribe to real-time LPR hotlist alert webhooks). The APIs use OAuth 2.0 with machine-level (client_credentials) and recommended user-level (authorization_code) flows, role-based access control, audit logging, and data-stewardship requirements.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flock-safety.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Flock Safety MCP Server
-  slug: flock-safety-mcp-server
 modified: '2026-07-19'
 name: Flock Safety
 nav: Providers
@@ -335,8 +331,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
 security:

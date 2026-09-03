@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Capterra Click Report API allows software vendors to programmatically retrieve historical click data from their Capterra pay-per-click (PPC) advertising campaigns. Vendors can access click metrics
@@ -203,8 +203,8 @@ score:
   previous_composite: 26.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

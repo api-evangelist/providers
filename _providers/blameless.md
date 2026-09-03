@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - lifecycle
+  - '{''url'': ''https://www.blameless.com'', ''status'': 302, ''note'': ''declared website redirects to https://firehydrant.com/ — a different registrable domain (blameless.com -> firehydrant.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Blameless platform API — incidents, incident types, severities, roles, SLOs, SLIs and error budgets — served per tenant at https://{instance}.blameless.io/api/v1 with Auth0 client-credentials bear
@@ -165,8 +166,8 @@ score:
   previous_composite: 23.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blameless/refs/heads/main/screenshots/blameless-2026-06-20T173342.png
 security:

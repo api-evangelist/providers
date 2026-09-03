@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - description: The shop authorization flow lets a Shopee seller grant a registered partner application access to their shop. The partner receives a per-shop access token (and refresh token) used for all subsequent v
@@ -177,8 +177,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/screenshots/shopee-2026-06-20T193833.png
 security:

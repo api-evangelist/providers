@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ arazzos:
 - description: Confirm a FIM model then generate an inline code completion with Mercury Edit 2.
   name: Inception — fill-in-the-middle code autocomplete
   slug: inception-labs-code-autocomplete.arazzo
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -174,7 +174,7 @@ common:
   url: conformance/inception-labs-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inception-labs-mcp.yml
 - group: agent
   title: ''
@@ -204,10 +204,6 @@ created: '2026-07-17'
 description: Inception Labs builds Mercury, the first family of commercial-scale diffusion large language models (dLLMs) that generate tokens in parallel for 5-10x faster inference than comparable speed-optimized models. The Inception API is an OpenAI-compatible REST interface exposing Mercury 2 (a 128K-context reasoning dLLM) and Mercury Edit 2 (a coding-focused model) through chat, fill-in-the-middle, and code-edit completion endpoints, with server-sent-event streaming, tool calling, structured JSON-schema outputs, and an "instant" low-latency reasoning mode for realtime voice. Founded in 2024 by Stanford professor Stefano Ermon, the company is backed by Mayfield and ships official Python and TypeScript client libraries plus AWS Bedrock and Azure Foundry enterprise deployment.
 image: https://docs.inceptionlabs.ai/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Inception Labs MCP Server
-  slug: inception-labs-mcp-server
 modified: '2026-07-19'
 name: Inception Labs
 nav: Providers
@@ -246,8 +242,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/screenshots/inception-labs-2026-07-25T222329.png
 security:

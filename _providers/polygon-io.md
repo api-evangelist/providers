@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://polygon.io/'', ''status'': 301, ''note'': ''declared website redirects to https://massive.com/ — a different registrable domain (polygon.io -> massive.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -223,8 +224,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/screenshots/polygon-io-2026-06-20T191906.png
 security:

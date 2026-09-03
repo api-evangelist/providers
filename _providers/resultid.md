@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +52,7 @@ apis:
 - description: The Insight endpoints API from Resultid — 1 operation(s) for insight endpoints.
   name: Resultid Insight endpoints API
   slug: resultid-insight-endpoints-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -128,7 +132,7 @@ common:
   url: llms/resultid-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/resultid-mcp.yml
 - group: agent
   title: ''
@@ -151,10 +155,6 @@ description: 'Resultid is an enterprise Operational Intelligence platform that c
   header. The raw JSON schema is not served and no API base URL is published anywhere, so the contract is readable but not yet callable from the documentation alone.'
 image: https://www.resultid.ai/images/logo-white.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Resultid MCP Server
-  slug: resultid-mcp-server
 modified: '2026-08-14'
 name: Resultid
 nav: Providers
@@ -201,8 +201,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/screenshots/resultid-2026-09-02T153609.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.curatedforyou.io
@@ -66,7 +66,7 @@ apis:
   description: The Users API from Curated for You — 1 operation(s) for users.
   name: Curated for You Users API
   slug: curated-for-you-users-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: lifecycle/curated-for-you-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/curated-for-you-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: Curated for You is an Austin, Texas lifestyle-commerce platform (Techstars-backed) that matches retail products to shoppers' lifestyles — places, affinities, and trends — using a taxonomy of 1,000+ lifestyle concepts and AI to power product discovery across storefronts, Shopify, web, social, email, and organic search. The company works with retailers such as REVOLVE, Steve Madden, and Saks Off 5th, and has partnered with Microsoft to bring AI-powered curations into Copilot. The Curated for You API (v2, OpenAPI 3.1) lets integrators authenticate, discover the companies they can access, retrieve curations and exported curation snapshots, submit product feedback, and manage Shopify store installs, collections, and analysis/resync jobs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curated-for-you.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Curated for You MCP Server
-  slug: curated-for-you-mcp-server
 modified: '2026-07-18'
 name: Curated for You
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/screenshots/curated-for-you-2026-07-25T210930.png
 security:

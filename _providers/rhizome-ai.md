@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://rhizomeai.com/api
@@ -42,7 +42,7 @@ apis:
   description: Search and retrieve regulatory and clinical documents.
   name: Rhizome Ai Documents API
   slug: rhizome-ai-documents-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -61,7 +61,7 @@ common:
   url: well-known/rhizome-ai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rhizome-ai-mcp.yml
 - group: agent
   title: ''
@@ -151,10 +151,6 @@ created: '2026-07-17'
 description: Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities worldwide (FDA, EMA, Health Canada, Swissmedic, MHRA, TGA and others across 10+ agencies), retrieving from up to a thousand documents without hallucinating. Beyond the web application, Rhizome AI publishes an enterprise HTTP API that exposes BM25 keyword search across the regulatory document corpus and full-text, page-by-page document retrieval, authenticated with an x-api-key header. A YC-backed company, Rhizome AI was surfaced as a portfolio-company lead and enriched from its public developer documentation.
 image: https://rhizomeai.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rhizome Ai MCP Server
-  slug: rhizome-ai-mcp-server
 modified: '2026-07-21'
 name: Rhizome Ai
 nav: Providers
@@ -202,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/screenshots/rhizome-ai-2026-08-17T081552.png
 security:

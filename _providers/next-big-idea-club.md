@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://nextbigideaclub.com/wp-json/members/v1
@@ -164,8 +164,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png
 security:

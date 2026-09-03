@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: NAB's first-party merchant payments REST API platform (the NAB Gateway / NAB Transact developer portal at nabgateway-developer.nab.com.au), distinct from the CDR Open Banking surface. Documents a full
@@ -74,7 +74,7 @@ apis:
   description: Banking Product endpoints
   name: National Australia Bank Banking Products API
   slug: national-australia-bank-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: data-model/national-australia-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/national-australia-bank-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-20'
 description: National Australia Bank (NAB) is one of Australia's "Big Four" banks and a major Authorised Deposit-taking Institution (ADI), headquartered in Melbourne and publicly listed on the Australian Securities Exchange (ASX:NAB) - a shareholder-owned institution rather than a customer-owned mutual. NAB serves retail, business, corporate, and institutional customers across Australia and New Zealand. As a regulated ADI, NAB is a mandated data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards (CDS), alongside its accredited-only consumer data sharing surface and a public developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-australia-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: National Australia Bank MCP Server
-  slug: national-australia-bank-mcp-server
 modified: '2026-07-21'
 name: National Australia Bank
 nav: Providers
@@ -273,8 +269,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png
 security:

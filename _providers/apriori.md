@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: http://localhost/api
@@ -47,7 +47,7 @@ apis:
   description: Workflows Controller
   name: aPriori Workflow API
   slug: apriori-workflow-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -149,7 +149,7 @@ common:
   url: data-model/apriori-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apriori-mcp.yml
 - group: build
   title: ''
@@ -171,10 +171,6 @@ created: '2026-08-06'
 description: aPriori Technologies is a manufacturing insights software company founded in 2003 that simulates how a product will actually be made. Its platform ingests CAD geometry and returns should-cost estimates, design-for-manufacturability (DFM) guidance, routing and cycle-time analysis, and manufacturing carbon figures, so design, cost, sourcing and sustainability teams can act on production economics before tooling is cut. The product family covers aP Pro, aP Design, aP Generate, aP Analytics, aP Workspace and aiSource, delivered as aPriori Cloud or on-premise. Its public integration surface is aP Connect — a PLM/file-system connector plus a customer-installed Agent that carries a documented REST API for listing workflows, invoking REST-driven costing jobs, polling job state and retrieving per-part costing results, used to wire aPriori into Windchill, Teamcenter and file-system pipelines.
 image: https://www.apriori.com/wp-content/uploads/2021/08/manufacturing-simulation-software-expert-partnership.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: aPriori MCP Server
-  slug: apriori-mcp-server
 modified: '2026-08-06'
 name: aPriori
 nav: Providers
@@ -212,8 +208,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:

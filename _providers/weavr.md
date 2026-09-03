@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -325,7 +325,7 @@ arazzos:
 - description: Create a corporate identity, authenticate, open a managed account and issue a virtual card on the Weavr Multi API. Fork and run against the sandbox (https://sandbox.weavr.io).
   name: Onboard a corporate and issue a virtual card
   slug: weavr-onboard-corporate-and-issue-card
-artifact_total: 106
+artifact_total: 105
 collections:
 - collection_type: open
   name: API Collection
@@ -574,7 +574,7 @@ common:
   url: well-known/weavr-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/weavr-mcp.yml
 - group: agent
   title: ''
@@ -616,10 +616,6 @@ created: '2026-07-17'
 description: Weavr is an embedded-finance ("banking-as-a-service") platform that lets software companies embed regulated financial products — managed accounts, IBANs, virtual and physical cards, transfers, sends and wire payments — directly inside their applications. Its Multi API issues accounts and cards to corporate and consumer end-users with full KYB/KYC onboarding, Strong Customer Authentication (SCA) step-up challenges, and client-side "Secure Components" that tokenize sensitive data so the embedder stays out of PCI scope. Weavr operates through regulated EMI partners (Paynetics AD in the EU, Paynetics UK in the UK) and exposes a Multi API, a BackOffice programme-operations API, an Embedded Payment Run API, a Webhooks event surface and a sandbox Simulator API, backed by SDKs for Web, iOS, Android and React Native and an official agent-skills pack.
 image: https://www.weavr.io/wp-content/uploads/2025/12/Image-8-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Weavr MCP Server
-  slug: weavr-mcp-server
 modified: '2026-07-21'
 name: Weavr
 nav: Providers
@@ -670,8 +666,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/screenshots/weavr-2026-08-17T082854.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 9
@@ -243,7 +243,7 @@ apis:
   description: The Working Timekeepers API from Laurel — 3 operation(s) for working timekeepers.
   name: Laurel Working Timekeepers API
   slug: laurel-working-timekeepers-api
-artifact_total: 87
+artifact_total: 86
 collections:
 - collection_type: open
   name: API Collection
@@ -471,7 +471,7 @@ common:
   url: data-model/laurel-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/laurel-mcp.yml
 - group: agent
   title: ''
@@ -493,10 +493,6 @@ created: '2026-07-17'
 description: Laurel is an AI timekeeping and work-intelligence platform for professional services firms — law, accounting and advisory. Rather than asking timekeepers to record their own time, Laurel passively captures work activity across the applications people already work in, then uses machine learning to enrich each activity with the who, what, when, where and how needed to build a review-ready timesheet. Reviewed time is released into the firm's existing billing or practice-management system, and Laurel's Signal product layers operational and profitability analytics on top of the resulting time data. Laurel exposes three public APIs — Identity, Time and Ingestion — authenticated with OAuth 2.0 machine-to-machine client credentials, and documents them at developer.laurel.ai for firms and partners building connectors.
 image: https://cdn.prod.website-files.com/63643fff1bf707ba2678d088/63643fff1bf707cf9178d0f3_Touch%20Icon.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Laurel MCP Server
-  slug: laurel-mcp-server
 modified: '2026-07-19'
 name: Laurel
 nav: Providers
@@ -535,8 +531,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png
 security:

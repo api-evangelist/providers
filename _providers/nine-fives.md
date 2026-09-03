@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: http://192.168.0.95
@@ -62,7 +62,7 @@ apis:
   description: Device status and reboot
   name: Nine Fives System API
   slug: nine-fives-system-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -161,7 +161,7 @@ common:
   url: llms/nine-fives-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nine-fives-mcp.yml
 - group: agent
   title: ''
@@ -171,10 +171,6 @@ created: '2026-07-17'
 description: 'Nine Fives builds modern, simple-to-use RF (radio frequency) test equipment for next-generation spacecraft, drones, and cellphones. Founded in 2025 by Andrew Kurtz and Noah Levy — RF hardware engineers who spent a decade at SpaceX designing radios and test systems for Falcon 9, Dragon, and Starship — the Y Combinator-backed company sells programmable, network-connected instruments: the POE-ATTEN-6G programmable attenuator and the POE-SWITCH-6G programmable SPDT switch, powered over USB-C or Power over Ethernet. Each instrument is automation-first: it serves a JSON REST API and a SCPI command interface (raw TCP and HiSLIP/IVI-6.1) directly on the device, plus a browser Web UI and touchscreen, with no drivers to install — control it with a plain curl command. The NineVue platform adds version-controlled test-rack configuration and an LLM skill that turns a rack drawing into functional test-automation code.'
 image: https://ninefives.com/cdn/shop/files/NineFivesLogo.svg?v=1775235707
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nine Fives MCP Server
-  slug: nine-fives-mcp-server
 modified: '2026-07-20'
 name: Nine Fives
 nav: Providers
@@ -212,8 +208,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
 security:

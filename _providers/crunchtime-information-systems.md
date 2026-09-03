@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST data-integration API for Crunchtime's Inventory Management, Labor & Scheduling, and Cruise products. GET and POST operations move employees, locations, budgets, categories, products, recipes, sal
   name: Crunchtime Inventory & Labor APIs
   slug: crunchtime-inventory-labor-apis
-artifact_total: 6
+artifact_total: 5
 common:
 - group: start
   title: ''
@@ -103,7 +103,7 @@ common:
   url: sandbox/crunchtime-information-systems-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/crunchtime-information-systems-mcp.yml
 - group: agent
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Crunchtime (Crunchtime Information Systems) is a Boston-based provider of AI-powered operations-management software for multi-unit restaurants, founded in 1995 and serving 850+ restaurant brands across 150,000+ locations. Its platform unifies inventory management, labor scheduling, kitchen/operations execution, and analytics. Crunchtime publishes a public developer hub for its Inventory & Labor and Cruise data-integration REST APIs, letting partners and customers push and pull employees, locations, budgets, products, recipes, sales/menu mix, purchase orders, inventory counts, time clock, and forecasting data. Backed by Battery Ventures.
 image: https://logo.clearbit.com/crunchtime.com
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP server mapping representative Crunchtime Inventory & Labor API operations to tools. Not published by Crunchtime; a proposed surface an integrator could stand up over the documented REST '
-  name: Crunchtime Information Systems MCP Server
-  slug: crunchtime-information-systems-mcp-server
 modified: '2026-07-18'
 name: Crunchtime Information Systems
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png
 security:

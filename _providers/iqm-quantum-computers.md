@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,14 +36,14 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.7
-  scored_at: '2026-09-02'
+  score: 20.9
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The REST API behind IQM Resonance, IQM's quantum cloud service. It lists the quantum computers available on a server, reports their health and calibration state, accepts circuit and sweep jobs for exe
   name: IQM Resonance API
   slug: iqm-quantum-computers-resonance
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -139,7 +139,7 @@ common:
   url: data-model/iqm-quantum-computers-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/iqm-quantum-computers-mcp.yml
 - group: start
   title: ''
@@ -161,10 +161,6 @@ created: '2026-08-23'
 description: IQM Quantum Computers (IQM Finland Oy) builds superconducting quantum computers and sells access to them, both as on-premises systems and as a cloud service. Its developer surface is IQM Resonance, a quantum cloud platform at resonance.iqm.tech whose REST API accepts circuits, queues them against a named QPU, and returns measurement results — billed in QPU seconds rather than API calls. Access is through a bearer API token generated from the Resonance dashboard, and the practical client contract is IQM's Apache-2.0 Python stack (iqm-client, with Qiskit, Cirq and Qrisp adapters) rather than a published OpenAPI, which IQM does not ship. IQM does publish 14 first-party Protobuf message contracts defining the Station Control wire format, a dated changelog with explicit breaking-change notices, and a free Starter tier with a monthly credit allowance.
 image: https://iqm.tech/wp-content/uploads/2025/02/IQM-Logo-black-transparent.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: IQM Quantum Computers MCP Server
-  slug: iqm-quantum-computers-mcp-server
 modified: '2026-08-23'
 name: IQM Quantum Computers
 nav: Providers
@@ -204,8 +200,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iqm-quantum-computers/refs/heads/main/screenshots/iqm-quantum-computers-2026-09-02T145920.png
 security:

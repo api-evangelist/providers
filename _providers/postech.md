@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://oasis.postech.ac.kr/oai/request
@@ -201,8 +201,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/screenshots/postech-2026-06-20T192013.png
 security:

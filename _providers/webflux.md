@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Reactive web framework providing annotated controllers, functional endpoints, dispatcher handler, and the full reactive request/response processing pipeline. Supports non-blocking I/O with Reactor Mon
@@ -232,8 +232,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 45.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflux/refs/heads/main/screenshots/webflux-2026-06-20T201330.png
 slug: webflux

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ apis:
   description: Transfers allow users to access deposit and withdrawal functionality both within the Bakkt network and across the blockchain.
   name: Bakkt Transfers API
   slug: bakkt-transfers-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Bakkt Webhooks
@@ -271,7 +271,7 @@ common:
   url: asyncapi/bakkt-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bakkt-mcp.yml
 - group: design
   title: ''
@@ -309,10 +309,6 @@ created: '2026-07-17'
 description: Bakkt is a digital asset platform that provides crypto trading, custody, and fiat funding infrastructure to financial institutions and fintech apps. Its Crypto Solutions API is a REST/FIX platform (with WebSocket market data and webhook/SQS events) that lets a client's investors buy, sell, hold, and transfer bitcoin, ether, and other digital assets in a branded environment, plus a Fiat/Partner API for account opening, KYC/KYB, Plaid bank linking, and ACH/Wire on-ramping. Surfaced as a portfolio company of Multicoin Capital and Pantera Capital and enriched from Bakkt's public developer hub (bakkt.readme.io / developer.bakkt.com).
 image: https://bakkt.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bakkt MCP Server
-  slug: bakkt-mcp-server
 modified: '2026-07-18'
 name: Bakkt
 nav: Providers
@@ -360,8 +356,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/screenshots/bakkt-2026-07-25T202255.png
 security:

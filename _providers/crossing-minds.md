@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Universal B2B recommendation API — ingest users, items, ratings and interactions, then query profile-to-items, session-to-items and item-to-items recommendations. JWT authenticated, multi-database.
@@ -160,8 +160,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossing-minds/refs/heads/main/screenshots/crossing-minds-2026-07-25T210759.png
 security:

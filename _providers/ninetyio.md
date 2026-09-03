@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -85,7 +85,7 @@ arazzos:
 - description: Resolve a team, create an Issue on its list, then mark it solved.
   name: Log and Solve a Ninety Issue
   slug: ninetyio-log-and-solve-issue
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -206,7 +206,7 @@ common:
   url: changelog/ninetyio-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ninetyio-mcp.yml
 - group: agent
   title: ''
@@ -240,10 +240,6 @@ created: '2026-07-17'
 description: Ninety.io (Ninety) is a software platform for implementing the Entrepreneurial Operating System (EOS). It gives founders and leadership teams purpose-built tools for the Accountability Chart, the Vision/Traction Organizer (V/TO), quarterly Rocks, the weekly Scorecard, To-Dos, the Issues List, and EOS meeting rhythms such as the Level 10 meeting. Ninety exposes a REST Public API (v1) at api.public.ninety.io authenticated with per-user Personal Access Tokens, giving programmatic create/read/update/delete access to To-Dos, Issues, Rocks, Milestones, Scorecard measurables (KPIs, scores, notes), Teams, and Users.
 image: https://www.ninety.io/hubfs/LI_Thumb_Home.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ninety.io MCP Server
-  slug: ninetyio-mcp-server
 modified: '2026-07-20'
 name: Ninety.io
 nav: Providers
@@ -282,8 +278,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/screenshots/ninetyio-2026-08-07T185322.png
 security:

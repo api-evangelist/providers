@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.resolutefp.com'', ''status'': 302, ''note'': ''declared website redirects to https://www.domtar.com/ — a different registrable domain (resolutefp.com -> domtar.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,8 +114,8 @@ score:
     governance: 15.2
     operational_transparency: 0.0
   previous_composite: 9.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resolute-forest-products/refs/heads/main/screenshots/resolute-forest-products-2026-06-20T192958.png
 security:

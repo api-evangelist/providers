@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.legendary.com/wp-json/wp/v2
@@ -251,7 +251,7 @@ apis:
   description: The wp_pattern_category API from Legendary Entertainment — 2 operation(s) for wp_pattern_category.
   name: Legendary Entertainment wp_pattern_category API
   slug: legendary-wp-pattern-category-api
-artifact_total: 90
+artifact_total: 89
 collections:
 - collection_type: open
   name: API Collection
@@ -440,7 +440,7 @@ common:
   url: conformance/legendary-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/legendary-mcp.yml
 - group: agent
   title: ''
@@ -458,10 +458,6 @@ created: '2026-07-17'
 description: 'Legendary Entertainment is a Burbank, California media company that owns, produces and distributes content to worldwide audiences across three divisions: Legendary Pictures (film), Legendary Television and Digital Media, and Legendary Comics. Its productions have grossed more than $20 billion worldwide at the box office, spanning franchises such as Dune, Godzilla and Kong, A Minecraft Movie, Street Fighter, Enola Holmes and Monarch: Legacy of Monsters, with an explicit focus on the fandom demographic. Legendary runs no public developer program and publishes no documented API. It does, however, expose a live, publicly readable WordPress REST API on legendary.com that serves its news posts and its film, television, comics, trailer and digital catalogs as JSON — captured here as a platform-exposed content API rather than a supported product.'
 image: https://www.legendary.com/wp-content/uploads/2015/06/home-social1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Legendary Entertainment MCP Server
-  slug: legendary-entertainment-mcp-server
 modified: '2026-07-19'
 name: Legendary Entertainment
 nav: Providers
@@ -499,8 +495,8 @@ score:
       total: 43
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png
 security:

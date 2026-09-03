@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Read-only GraphQL API serving a venue's activity schedules — classes, trainings, workshops, courses, events, retreats, camps, and educations — with venue, teacher, room, sport, and availability detail
@@ -42,7 +42,7 @@ apis:
 - description: GraphQL API for aggregator partners exposing venues, classes, sessions, and reservations, plus mutations to make, cancel, and check in reservations. Separate test and production hosts. Bearer auth, Re
   name: Eversports Aggregator API
   slug: eversports-aggregator-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -114,7 +114,7 @@ common:
   url: data-model/eversports-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eversports-mcp.yml
 - group: agent
   title: ''
@@ -132,10 +132,6 @@ created: '2026-07-17'
 description: 'Eversports is a European sports and fitness platform that lets consumers discover and book classes, courts, and memberships across studios, gyms, and clubs, and gives those businesses a back-office management suite (Eversports Manager) for scheduling, bookings, payments, and customer management. Eversports Manager exposes two public GraphQL APIs: a read-only Provider API that serves a venue''s activity schedules (classes, trainings, workshops, courses, events, retreats, camps, educations) with venue, teacher, room, sport, and availability detail; and an Aggregator API that exposes venues, classes, sessions, and reservations plus mutations to make, cancel, and check in reservations for aggregator partners. Both APIs authenticate with a Bearer token issued by Eversports and use Relay-style cursor pagination.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eversports.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eversports MCP Server
-  slug: eversports-mcp-server
 modified: '2026-07-19'
 name: Eversports
 nav: Providers
@@ -168,8 +164,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/screenshots/eversports-2026-07-25T213739.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Survey lifecycle management operations
   name: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
-artifact_total: 77
+artifact_total: 76
 collections:
 - collection_type: open
   name: API Collection
@@ -91,7 +91,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/allianz-engagement-survey-mcp.yml
 - group: other
   title: ''
@@ -312,10 +312,6 @@ jsonld:
   property_count: 38
   slug: allianz-engagement-survey-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Allianz Engagement Survey MCP Server
-  slug: allianz-engagement-survey-mcp-server
 modified: '2026-06-20'
 name: Allianz Engagement Survey
 nav: Providers
@@ -389,8 +385,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:

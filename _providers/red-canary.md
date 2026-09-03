@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API over the Red Canary portal. Documented resources include detections, threats, events, endpoints, endpoint_users, identities, investigations and audit_logs. Requests carry a per-
@@ -208,8 +208,8 @@ score:
   previous_composite: 38.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/screenshots/red-canary-2026-09-02T153122.png
 security:

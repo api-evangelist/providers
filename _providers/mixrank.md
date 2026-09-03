@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ apis:
   description: The Websites API from MixRank — 3 operation(s) for websites.
   name: MixRank Websites API
   slug: mixrank-websites-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Mixrank Webhooks
@@ -264,7 +264,7 @@ common:
   url: agentic-access/mixrank-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mixrank-mcp.yml
 - group: operate
   title: ''
@@ -302,10 +302,6 @@ created: '2026-07-17'
 description: MixRank curates ultra-high-frequency technographic, firmographic, and people data for enterprise data teams, refreshed as often as hourly. Its datasets cover 45M+ company profiles, 800M+ employee/people profiles, 20M+ iOS and Android mobile apps with granular SDK-install intelligence, in-app purchases, app rankings and privacy labels, and web technographics across 80M+ websites. MixRank exposes these datasets through a JSON REST Data API (Enrich, Match, segment queries, email verification, mobile app & SDK intelligence, and web tags) as well as flat-file feeds and native cloud deliveries (PostgreSQL, Snowflake, Amazon Redshift, BigQuery). Customers use it for B2B data enrichment, investment intelligence, fraud prevention and identity resolution, mobile/SDK competitive intelligence, and candidate enrichment.
 image: https://mixrank.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: MixRank MCP Server
-  slug: mixrank-mcp-server
 modified: '2026-08-14'
 name: MixRank
 nav: Providers
@@ -355,8 +351,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/screenshots/mixrank-2026-08-07T183827.png
 security:

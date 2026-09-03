@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: REST API for Pabbly Subscription Billing — 95 documented operations across customers, subscriptions, products, plans, multiplans, coupons, invoices, payment methods, transactions and refunds, add-ons,
@@ -289,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png
 security:

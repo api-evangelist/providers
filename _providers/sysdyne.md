@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: SOAP web service for the ConcreteGO cloud dispatch platform. Uses an RSA public-key credential exchange (GetPublicKey) and a session login (Login/Login2) with a Sysdyne-issued AppID/AppKey, then submi
   name: Webcrete API (ConcreteGO)
   slug: webcrete-api-concretego
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,7 +87,7 @@ common:
   url: conformance/sysdyne-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sysdyne-mcp.yml
 - group: agent
   title: ''
@@ -97,10 +97,6 @@ created: '2026-07-17'
 description: Sysdyne Technologies is a Stamford, Connecticut software company that has served ready-mix concrete producers worldwide since 1976. Its cloud-native platform spans the full production lifecycle — Slabstack quoting and CRM, Concrete-Go central dispatch, Batch-Go batch automation, Delivery-Go / iStrada delivery management and paperless e-ticketing, QuickLink ERP/accounting sync, and Insight-Go operational analytics. Sysdyne exposes the ConcreteGO "Webcrete" SOAP web-service API plus full-suite interoperability, letting producers integrate dispatch, batch, and delivery data bi-directionally with ERP, accounting, and telematics systems such as QuickBooks, SAP, Microsoft Dynamics, Acumatica, Samsara, and Geotab.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sysdyne.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sysdyne Technologies MCP Server
-  slug: sysdyne-technologies-mcp-server
 modified: '2026-07-21'
 name: Sysdyne Technologies
 nav: Providers
@@ -132,8 +128,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysdyne/refs/heads/main/screenshots/sysdyne-2026-09-02T161652.png
 security:

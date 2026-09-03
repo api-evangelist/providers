@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Consumer-side roster synchronization. GoGuardian ingests organizations (OUs), students, teachers, guardians, classes, and enrollments from a district's Student Information System via the OneRoster 1.1
@@ -117,8 +117,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goguardian/refs/heads/main/screenshots/goguardian-2026-07-25T220010.png
 security:

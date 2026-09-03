@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for the PlanGrid construction productivity platform. Manage projects, annotations, comments, documents, photos, sheets and versions, snapshots, RFIs, submittal packages, field reports, tasks '
   name: PlanGrid API
   slug: plangrid-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -91,7 +91,7 @@ common:
   url: llms/plangrid-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/plangrid-mcp.yml
 - group: design
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: PlanGrid is a construction productivity platform (now part of Autodesk Construction Cloud) that gives field and office teams access to construction drawings, sheets, documents, photos, RFIs, submittals, field reports, tasks, and punch lists on web and mobile. The PlanGrid API is a REST API served from io.plangrid.com that lets developers programmatically manage projects, annotations, comments, documents, photos, sheets and versions, snapshots, RFIs, submittal packages, field reports, tasks and task lists, roles, and project team users. It supports OAuth 2.0 (authorization code and implicit grants) as well as HTTP Basic API-key authentication, media-type versioning via the Accept header, cursor-based pagination, batch requests, and multi-step file upload workflows for PDFs, photos, and documents.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plangrid.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PlanGrid MCP Server
-  slug: plangrid-mcp-server
 modified: '2026-07-20'
 name: PlanGrid
 nav: Providers
@@ -169,8 +165,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/screenshots/plangrid-2026-09-02T151414.png
 security:

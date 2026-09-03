@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: api.ui.ac.id is a Kong Enterprise 3.3.1.0 API gateway operated by the university on its own network. Every probed path — /, /v1, /status, /docs, /openapi.json, /oauth2/token, /.well-known/openid-confi
@@ -218,8 +218,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

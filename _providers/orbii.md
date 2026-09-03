@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Transactions API from Orbii — 16 operation(s) for transactions.
   name: Orbii Transactions API
   slug: orbii-transactions-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -227,7 +227,7 @@ common:
   url: lifecycle/orbii-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/orbii-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: Orbii is a Riyadh-based credit infrastructure company providing AI-powered underwriting and lending infrastructure for banks, fintechs, neobanks, and B2B platforms across the MENA region. Its APIs ingest and enrich transaction and invoice data to produce borrower intelligence — client and predictive KPIs, risk assessments, band classifications, and suggested loan allocations — so lenders can launch SME lending products (salary advance, merchant financing, working capital, BNPL, embedded lending) without building an internal credit function. Orbii exposes region-specific REST APIs for Saudi Arabia (KSA), the United Arab Emirates (UAE), and Oman (OMN), documented on a SwaggerHub portal. Backed by a $3.6M seed round led by Prosus Ventures.
 image: https://cdn.prod.website-files.com/6894ac031d066c1f144fb082/68bdc4495f740a290c12b9c4_dark.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Orbii MCP Server
-  slug: orbii-mcp-server
 modified: '2026-07-20'
 name: Orbii
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/screenshots/orbii-2026-08-07T190850.png
 security:

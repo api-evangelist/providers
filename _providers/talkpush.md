@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: 'Endpoint for discovering the message tokens available for use inside Message Templates. Returns both system-level reserved tokens (e.g. `candidate_name`, `job_title`) and any custom tokens configured '
   name: TalkPush Tokens API API
   slug: talkpush-tokens-api-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -235,7 +235,7 @@ common:
   url: authentication/talkpush-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/talkpush-mcp.yml
 - group: design
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: 'TalkPush is a conversational recruiting and recruitment-automation CRM that helps high-volume employers source, screen, and engage job candidates across messaging channels (WhatsApp, SMS, Messenger, email) and AI voice agents. Its public REST API — the Talkpush API v2.0 — lets you plug external lead sources and HR/ATS technology into the platform: create and search leads (campaign invitations), manage recruiting campaigns and folders, run and complete interviews, send quick-reply and message templates, configure AI calling agents, and manage company labels, candidate attributes, movement reasons, and managers. Authentication is via an api_key query parameter, and the docs are published on a ReadMe developer hub with an llms.txt index for AI agents. Surfaced as a Seedcamp portfolio company and enriched by the API Evangelist pipeline from TalkPush''s own published developer documentation.'
 image: https://files.readme.io/2a5f3f7-small-logov1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TalkPush MCP Server
-  slug: talkpush-mcp-server
 modified: '2026-07-21'
 name: TalkPush
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/screenshots/talkpush-2026-09-02T162500.png
 security:

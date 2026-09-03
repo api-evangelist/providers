@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.amerco.com/'', ''status'': 301, ''note'': ''declared website redirects to https://investors.uhaul.com/overview/default.aspx — a different registrable domain (amerco.com -> uhaul.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'U-Haul provides do-it-yourself moving and storage services including truck and trailer rentals, self-storage, moving supplies, and U-Box portable storage containers. Partners access dealer management '
@@ -223,7 +224,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 34.3
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -233,7 +234,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 15.3
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     contracts:
@@ -243,9 +244,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/screenshots/amerco-2026-06-20T171904.png
 security:
 - kind: authentication

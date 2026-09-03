@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://uplimit.com/api/organization
@@ -61,7 +61,7 @@ apis:
   description: The User API from Uplimit — 10 operation(s) for user.
   name: Uplimit User API
   slug: uplimit-user-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: well-known/uplimit-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uplimit-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Uplimit (formerly CoRise, operated by Veda Education, Inc.) is an AI-native corporate learning platform backed by Greylock and Cowboy Ventures. It generates personalized, adaptive training programs with AI instructors, voice and visual practice simulations, real-time feedback, and per-learner mastery measurement for use cases like leadership training, onboarding, customer education, and sales readiness. Its Organization API lets enterprise customers manage users, course and session enrollments, SSO identity bindings, and learner-activity exports, with first-party generated Go, Python, and TypeScript clients published on GitHub.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uplimit.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Uplimit MCP Server
-  slug: uplimit-mcp-server
 modified: '2026-07-21'
 name: Uplimit
 nav: Providers
@@ -232,8 +228,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/screenshots/uplimit-2026-09-02T165038.png
 security:

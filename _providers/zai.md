@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ apis:
   description: The Wallet Accounts API from Zai — 6 operation(s) for wallet accounts.
   name: Zai Wallet Accounts API
   slug: zai-wallet-accounts-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Zai Webhooks
@@ -324,7 +324,7 @@ common:
   url: well-known/zai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zai-mcp.yml
 - group: build
   title: ''
@@ -375,10 +375,6 @@ description: 'Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Au
   for the Australian market and platforms operating there.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zai MCP Server
-  slug: zai-mcp-server
 modified: '2026-07-24'
 name: Zai
 nav: Providers
@@ -397,21 +393,21 @@ scopes:
   slug: zai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 55.8
+  band: developing
+  composite: 54.0
   coverage:
     artifact_dirs: 24
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 64.6
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 22.4
   previous_composite: 55.8
@@ -431,8 +427,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 81.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: People First Bank Banking Products API
   slug: people-first-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: lifecycle/people-first-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/people-first-bank-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: People First Bank is an Australian customer-owned mutual bank, trading name of Heritage and People's Choice Ltd (ABN 11 087 651 125), formed from the 2023 merger of Heritage Bank and People's Choice Credit Union and carrying more than 150 years of combined mutual heritage. As a B Corp certified, member-owned authorised deposit-taking institution (ADI), it offers everyday transaction and savings accounts, home, personal and car loans, and insurance across digital channels and a national branch network. Under Australia's Consumer Data Right (CDR / open banking), the bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards; consumer data sharing beyond PRD runs through the accredited data recipient model secured with OAuth2/OIDC (FAPI) rather than a general-purpose public developer platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/people-first-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: People First Bank MCP Server
-  slug: people-first-bank-mcp-server
 modified: '2026-07-21'
 name: People First Bank
 nav: Providers
@@ -253,8 +249,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png
 security:

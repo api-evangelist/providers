@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -168,7 +168,7 @@ apis:
   description: The users API from Forithmus — 8 operation(s) for users.
   name: Forithmus users API
   slug: forithmus-users-api
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: open
   name: API Collection
@@ -303,7 +303,7 @@ common:
   url: authentication/forithmus-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/forithmus-mcp.yml
 - group: agent
   title: ''
@@ -341,10 +341,6 @@ created: '2026-07-17'
 description: 'Forithmus builds foundation models for medical imaging (Zurich, Switzerland; pre-seed backed by Point Nine and e2vc). Its developer-facing product is the Forithmus Research Hub, a Challenge Platform where research teams host and enter medical-imaging benchmarks by submitting Docker containers or prediction files, with leaderboards, credits and compute tiers, collections, forums, and groups. The public REST API is served at https://research.forithmus.com/api and described by an OpenAPI 3.1.0 specification (172 paths, 213 operations across 24 tags: auth/2FA, challenges, phases, collections, submissions, leaderboard, credits, payments, forum, groups, and more). Authentication is Bearer JWT via email/password or Google OAuth, with a browser device flow used by the first-party `forithmus` CLI. Forithmus also publishes open model/dataset repositories (MR-RATE, VLM3D, FORA) on GitHub.'
 image: https://forithmus.com/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Forithmus MCP Server
-  slug: forithmus-mcp-server
 modified: '2026-07-19'
 name: Forithmus
 nav: Providers
@@ -389,8 +385,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:

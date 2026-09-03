@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ apis:
   description: The Transactions API from first direct — 2 operation(s) for transactions.
   name: first direct Transactions API
   slug: first-direct-transactions-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: Open Data API
@@ -226,7 +226,7 @@ common:
   url: capabilities/first-direct-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/first-direct-mcp.yml
 - group: agent
   title: ''
@@ -373,10 +373,6 @@ description: first direct is a telephone- and internet-based retail bank and a d
   Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - onboarded and documented through HSBC's developer portal at develop.hsbc.com, which serves the HSBC UK, first direct and M&S Bank brands.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: first direct MCP Server
-  slug: first-direct-mcp-server
 modified: '2026-07-23'
 name: first direct
 nav: Providers
@@ -430,8 +426,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png
 security:

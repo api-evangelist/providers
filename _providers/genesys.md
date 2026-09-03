@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1702
   human_in_the_loop: 67
@@ -949,8 +949,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png
 security:

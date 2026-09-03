@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OpenID Connect / OAuth 2.0 identity provider for proof-of-humanity sign-in. Authorization code + PKCE (S256), refresh tokens, optional DPoP (RFC 9449) sender-constrained tokens, and Agent ID (Ed25519)
   name: Alien SSO
   slug: alien-sso
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -139,7 +139,7 @@ common:
   url: errors/alien-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alien-mcp.yml
 - group: design
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: 'Alien is a proof-of-humanity protocol with its own Layer 1 blockchain that verifies users are real, unique humans without storing biometrics, documents, or personal data — retaining only cryptographic proofs, hashes, and Merkle roots via its Continuous Human Verification Protocol (CHVP). For developers, Alien ships Alien SSO: a standard OpenID Connect / OAuth 2.0 identity provider (authorization code + PKCE, DPoP-bound tokens) that lets apps offer "Sign in with Alien ID" so users prove personhood without sharing name or email. It also provides Alien Agent ID (Ed25519 cryptographic identity linking AI agents to a verified human owner), a Mini Apps SDK, Solana wallet-linking attestations, and first-party JavaScript/React/Python SDKs plus a CLI. Backed by Initialized Capital.'
 image: https://alien.org/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alien MCP Server
-  slug: alien-mcp-server
 modified: '2026-07-17'
 name: Alien
 nav: Providers
@@ -194,8 +190,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alien/refs/heads/main/screenshots/alien-2026-07-25T195612.png
 security:

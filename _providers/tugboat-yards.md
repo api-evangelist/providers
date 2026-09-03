@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Publisher-scoped REST API for the Tugboat audience-funding platform, covering API-key verification, pages, offers and offer issues, subscribers, orders, the deprecated WePay checkouts interface, per-k
@@ -99,8 +99,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

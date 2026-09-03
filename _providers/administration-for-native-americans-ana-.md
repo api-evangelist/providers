@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The ANA Projects Report dataset provides results and impact analysis for ANA-funded projects in Native American communities. Available through the data.gov and healthdata.gov catalogs, the dataset inc
@@ -177,8 +177,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administration-for-native-americans-ana-/refs/heads/main/screenshots/administration-for-native-americans-ana--2026-06-20T164731.png
 security:

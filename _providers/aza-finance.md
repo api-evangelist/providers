@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ arazzos:
 - description: Quote FX, create a sender, create a transaction, fund it, and confirm settlement.
   name: AZA Finance — send a cross-border payout
   slug: aza-finance-send-payout
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Aza Finance Webhooks
@@ -247,7 +247,7 @@ common:
   url: asyncapi/aza-finance-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aza-finance-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ created: '2026-07-17'
 description: AZA Finance is a regulated financial-infrastructure provider delivering foreign exchange (FX), collections, treasury and cross-border payout services across Africa and between Africa and the rest of the world. Its developer platform is the TransferZero API V1 — a REST API that lets businesses create senders, quote FX, send bulk and individual payouts to bank accounts and mobile-money wallets, validate accounts, attach KYC documents, and receive real-time webhook notifications. Authentication is HMAC request-signing; official SDKs are published for Ruby, JavaScript, PHP, .NET and Java. AZA Finance is licensed by the UK FCA (#673100), the Bank of Uganda (#MR 125/23) and the Central Bank of Nigeria.
 image: https://www.azafinance.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: AZA Finance MCP Server
-  slug: aza-finance-mcp-server
 modified: '2026-07-18'
 name: AZA Finance
 nav: Providers
@@ -352,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:

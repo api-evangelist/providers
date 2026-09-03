@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Horizon Robotics'' hosted Model Context Protocol server for the OpenExplorer toolchain. Probed anonymously on 2026-08-22: MCP protocol version 2025-06-18, serverInfo "Open Explorer MCP Server" v3.9.0, '
@@ -200,8 +200,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/screenshots/horizon-robotics-2026-09-02T145749.png
 security:

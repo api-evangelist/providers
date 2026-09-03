@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-09-02'
+  score: 41.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -409,8 +409,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

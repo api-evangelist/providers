@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for Qiniu Kodo object storage — bucket administration, object upload/download, stat/copy/move/delete, lifecycle and CORS rules, async fetch, and CDN prefetch/refresh. S3-compatible surface av
@@ -180,8 +180,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qiniu/refs/heads/main/screenshots/qiniu-2026-09-02T152528.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The shipments API from PackageX — 2 operation(s) for shipments.
   name: PackageX shipments API
   slug: packagex-shipments-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Packagex Webhooks
@@ -115,7 +115,7 @@ common:
   url: packages/packagex-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/packagex-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: PackageX provides vision-AI powered logistics execution — software that turns any camera or device into an intelligent scanning agent to automate receiving, inventory management, fulfillment and dispatch across warehouses, retail and building logistics. Its REST API and mobile Vision SDKs expose shipments, deliveries, tracking, addresses, containers, manifests, documents and vision inferences (shipping-label OCR, bill-of-lading parsing, item segmentation). Authentication is API-key based via the PX-API-KEY header, with separate sandbox and production environments. Customers include WeWork, Subaru, Ricoh, Medtronic, Toyota and On Running.
 image: https://cdn.prod.website-files.com/68d230940fd846bdd01f1867/6989c29e1ae181a811f47ac1_OG.webp
 layout: provider
-mcp_servers:
-- description: No official hosted/remote PackageX MCP server was found. The tools below are a candidate surface derived one-to-one from the published Shipments OpenAPI operations, for use if an MCP server is stood u
-  name: PackageX MCP Server
-  slug: packagex-mcp-server
 modified: '2026-07-20'
 name: PackageX
 nav: Providers
@@ -226,8 +222,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/screenshots/packagex-2026-08-07T191238.png
 security:

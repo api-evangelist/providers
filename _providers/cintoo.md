@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ apis:
   description: The Workzone API from Cintoo — 3 operation(s) for workzone.
   name: Cintoo Workzone API
   slug: cintoo-workzone-api
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -291,7 +291,7 @@ common:
   url: cli/cintoo-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cintoo-mcp.yml
 - group: agent
   title: ''
@@ -313,10 +313,6 @@ created: '2026-07-17'
 description: Cintoo is a cloud-based reality-capture and digital-twin platform that transforms 3D laser-scan point-cloud data into high-fidelity, streamable 3D meshes hosted in the cloud. Teams across AEC (architecture, engineering, construction), BIM, GIS, and asset management use Cintoo Cloud to store, visualize, classify, annotate, measure, and share reality-capture data, and to run scan-to-BIM and digital-twin workflows. The Cintoo Open API 2.0.0 (OpenAPI 3.0.3, currently beta) exposes 100 operations across accounts, subscriptions, users, groups, roles, projects, work zones, files, annotations, crops, measurements, tags, share links, and integrations (Autodesk, Konekt), secured with OAuth2 authorization-code and JWT Bearer tokens. Cintoo was surfaced as a portfolio company of Partech and enriched from its public developer surface by the API Evangelist pipeline.
 image: https://cintoo.com/hubfs/Cintoo/images/cintoo-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cintoo MCP Server
-  slug: cintoo-mcp-server
 modified: '2026-07-18'
 name: Cintoo
 nav: Providers
@@ -360,8 +356,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/heads/main/screenshots/cintoo-2026-07-25T205406.png
 security:

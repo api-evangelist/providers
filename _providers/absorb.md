@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST-based interface for integrating external systems with Absorb LMS. Supports user management, course management, enrollment processing, certificate tracking, department administration, and e-learni
@@ -145,8 +145,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absorb/refs/heads/main/screenshots/absorb-2026-06-20T163412.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://agriculture.trimble.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.ptxag.com/us/en.html — a different registrable domain (trimble.com -> ptxag.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -286,8 +287,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/screenshots/trimble-agriculture-2026-06-20T195713.png
 security:

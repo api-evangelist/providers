@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -2743,8 +2743,8 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

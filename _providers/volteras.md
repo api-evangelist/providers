@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -138,7 +138,7 @@ apis:
   description: The Vehicles API from Volteras — 5 operation(s) for vehicles.
   name: Volteras Vehicles API
   slug: volteras-vehicles-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Volteras Webhooks
@@ -319,7 +319,7 @@ common:
   url: overlays/volteras-connect-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/volteras-mcp.yml
 - group: agent
   title: ''
@@ -329,10 +329,6 @@ created: '2026-07-17'
 description: Volteras is the intelligence layer for OEM-grade connected vehicle data, providing a single Connect API that streams real-time telemetry, charging sessions, journeys, battery state of health, alerts, and asynchronous remote commands (charging, climate, locks) from 35+ global automakers across 340+ vehicle models, sourced directly from manufacturers rather than scrapers or hardware. Vehicles onboard via consent flow or bulk VIN upload, with a full-fidelity sandbox, Svix-powered webhooks, and OAuth 2.0 client-credentials security, serving fleet telematics, insurance, leasing, ride-hailing, and EV charging use cases across North America, Europe, and Australia. Backed by Union Square Ventures, Edenred, WEX, and Long Journey Ventures.
 image: https://avatars.githubusercontent.com/u/89023482
 layout: provider
-mcp_servers:
-- description: 'No official Volteras-hosted MCP server was found (web search + docs + GitHub org volteras have no public MCP surface as of 2026-07-21). This is a candidate tool list derived from the Volteras Connect '
-  name: Volteras MCP Server
-  slug: volteras-mcp-server
 modified: '2026-07-21'
 name: Volteras
 nav: Providers
@@ -389,8 +385,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
 security:

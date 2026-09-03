@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
+  label: Freemium · Requires approval
+  onboarding: approval
   pricing: freemium
   public: false
   source:
@@ -12,7 +12,7 @@ access_model:
   - rate-limits
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -182,7 +182,7 @@ apis:
   description: The Users API from Enphase Energy — 4 operation(s) for users.
   name: Enphase Energy Users API
   slug: enphase-users-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: Server-sent event stream of a single Enphase system's real-time power state. Derived by API Evangelist from the published Monitoring API operation getLiveData, which produces text/event-stream and car
   name: Enphase Enlighten Live Status Stream
@@ -280,7 +280,7 @@ common:
   url: rate-limits/enphase-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/enphase-mcp.yml
 - group: build
   title: ''
@@ -394,15 +394,15 @@ common:
   title: ''
   type: SecurityAdvisories
   url: https://enphase.com/cybersecurity/advisories
+- group: company
+  title: ''
+  type: Blog
+  url: https://enphase.com/blog
 created: '2026-07-27'
 description: 'Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering
   124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner''s site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner''s explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Enphase Energy MCP Server
-  slug: enphase-energy-mcp-server
 modified: '2026-07-27'
 name: Enphase Energy
 nav: Providers
@@ -413,7 +413,7 @@ overview: 'Enphase Energy publishes 27 APIs on the [APIs.io](https://apis.io/) n
   The Enphase Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Enphase Energy''s developer surface includes authentication, changelog, signup flow, documentation, getting-started guide, pricing, support, and 42 more developer resources.'
+  Enphase Energy''s developer surface includes authentication, changelog, signup flow, documentation, getting-started guide, pricing, support, and 43 more developer resources.'
 plans:
 - name: Enphase Plans
   plan_count: 5
@@ -463,8 +463,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 75.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:

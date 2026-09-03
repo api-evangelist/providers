@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: List and filter vehicles (getVehicles with VehicleFilter), fetch a vehicle by ID or VIN (getVehicleById, getVehiclesByVin), list active vehicles, read vehicle types and custom fields, inspect mapped s
@@ -143,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 23.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetcomplete/refs/heads/main/screenshots/fleetcomplete-2026-07-25T214736.png
 security:

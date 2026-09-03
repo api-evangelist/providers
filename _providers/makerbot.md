@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Bearer-token / OAuth 2.0 authenticated JSON REST API for browsing and managing Thingiverse things (3D models), their files and images, users, collections, categories, tags, and search. Operated by Mak
   name: Thingiverse REST API
   slug: thingiverse-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -75,7 +75,7 @@ common:
   url: conformance/makerbot-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/makerbot-mcp.yml
 - group: auth
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: MakerBot is a desktop 3D printer manufacturer, now part of UltiMaker, and the operator of Thingiverse, the largest online community for discovering, sharing, and downloading 3D-printable designs. MakerBot's public developer surface is the Thingiverse REST API (https://api.thingiverse.com), a Bearer-token / OAuth 2.0 authenticated JSON API that exposes things (models), their files and images, users, collections, categories, tags, and full-text search. Developers register an application on the Thingiverse developers site to receive an App Token or run the OAuth 2.0 authorization flow to act on behalf of a Thingiverse user. This profile was surfaced as a venture-backed company and enriched from its live API.
 image: https://www.makerbot.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Makerbot MCP Server
-  slug: makerbot-mcp-server
 modified: '2026-07-20'
 name: Makerbot
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/screenshots/makerbot-2026-07-25T225942.png
 security:

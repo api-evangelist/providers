@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The hila REST APIs provide CRUD operations to deploy, manage, and monitor machine-learning models — drift detection, explainability, model performance, alerts, data profiling, inference tracking, pipe
   name: hila REST API
   slug: hila-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: conformance/vianai-systems-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vianai-systems-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Vianai Systems is an enterprise AI company whose hila platform delivers GenAI-based conversational analytics ("talk to your data") alongside a machine-learning model monitoring, deployment, and observability platform. The hila REST APIs and Python client SDK (vianops-client) let teams deploy, manage, and monitor models — covering drift detection, explainability, model performance, alerts, data profiling, inference tracking, pipelines, and segments — driven from a vianctl command-line interface. hila is delivered as a customer-deployed platform (per-tenant *.vianai.site) and is available in Google Cloud Gemini Enterprise. The company is ISO 27001 and SOC 2 compliant.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vianai-systems.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vianai Systems MCP Server
-  slug: vianai-systems-mcp-server
 modified: '2026-07-21'
 name: Vianai Systems
 nav: Providers
@@ -161,8 +157,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/screenshots/vianai-systems-2026-09-02T165839.png
 security:

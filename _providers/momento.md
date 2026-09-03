@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
   name: Momento Cache HTTP API
   slug: momento-cache-http-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Momento Webhooks
@@ -111,7 +111,7 @@ common:
   url: conformance/momento-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/momento-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Momento is a serverless data platform that provides low-latency, pay-as-you-go infrastructure without servers to provision, tune, or scale. Its core services are Momento Cache (an ephemeral serverless cache and drop-in Redis replacement), Momento Topics (a serverless publish/subscribe event bus), and Momento Leaderboards (massive, durable sorted sets). The platform is accessed over gRPC and a region-scoped HTTP API, with official SDKs for 15+ languages spanning browsers, mobile (iOS/Android/Flutter/Unity/Unreal), and 10+ server-side runtimes, plus a CLI and a Terraform provider. Authentication uses Momento API keys and short-lived disposable tokens with fine-grained permissions. Momento is backed by Bain Capital Ventures.
 image: https://github.com/momentohq.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Momento MCP Server
-  slug: momento-mcp-server
 modified: '2026-07-20'
 name: Momento
 nav: Providers
@@ -196,8 +192,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/screenshots/momento-2026-08-07T184119.png
 security:

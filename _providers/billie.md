@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'OAuth2 client-credentials REST API for B2B BNPL: checkout sessions, hosted payment page, backend order creation, order management, captures (invoices), payment confirmation, refunds/credit notes, and '
   name: Billie Payment API
   slug: billie-payment-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Billie Webhooks
@@ -99,7 +99,7 @@ common:
   url: asyncapi/billie-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/billie-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Billie is a Berlin-based B2B "buy now, pay later" (BNPL) payment provider that lets merchants offer business buyers invoice purchase, pay-after-delivery, and installment terms at checkout while Billie assumes the credit and fraud risk and pays the merchant out. Its Payment API v2 (paella.billie.io) uses OAuth 2.0 client-credentials and covers checkout sessions, a hosted payment page, direct backend order creation, order management, captures (invoicing), payment confirmation, refunds/credit notes, and a webhook event surface. Billie also ships an embeddable checkout widget, a PHP SDK, e-commerce plugins (Shopware, Magento, WooCommerce, JTL), and partner routes via Klarna, Mollie, Adyen, Stripe, and Kustom. Backed by Creandum and Speedinvest.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/billie.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Billie MCP Server
-  slug: billie-mcp-server
 modified: '2026-07-18'
 name: Billie
 nav: Providers
@@ -230,8 +226,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/screenshots/billie-2026-07-25T202942.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: One REST API to detect AI-generated and manipulated images, audio, and documents — and fact-check media against the public record. Bearer API-token auth with per-key detection scopes (image, audio, fa
   name: Raid AI Detection & Fact-Checking API
   slug: raid-ai-detection-fact-checking-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -131,7 +131,7 @@ common:
   url: conformance/raid-ai-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/raid-ai-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Raid AI (RAID AI, Inc.) is an enterprise-grade deepfake and AI-content forensics platform covering audio, image, document, and video. Its REST API detects AI-generated, cloned, deepfaked, and digitally edited media — returning a verdict, a confidence score, and (on detailed plans) generator attribution — across image forensics, voice analysis, document tampering detection, and asynchronous fact-checking against the public record. Audio detection claims 98% accuracy and sub-50ms latency across 100+ languages with specialized Arabic dialect coverage. Raid AI runs a zero-retention pipeline (media analyzed in memory and discarded), offers cloud API plus on-premise air-gapped deployment, and ships native integrations with Microsoft Teams, Zoom, Google Meet, Slack, Webex, and WhatsApp for financial services, call centers, enterprise meetings, and government use cases.
 image: https://raidxai.com/raid-ai-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Raid AI MCP Server
-  slug: raid-ai-mcp-server
 modified: '2026-07-20'
 name: Raid AI
 nav: Providers
@@ -190,8 +186,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/screenshots/raid-ai-2026-09-02T152809.png
 security:

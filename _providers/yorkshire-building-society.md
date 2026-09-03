@@ -26,7 +26,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-09-02'
+  score: 46.2
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ apis:
   description: The Transactions API from Yorkshire Building Society — 3 operation(s) for transactions.
   name: Yorkshire Building Society Transactions API
   slug: yorkshire-building-society-transactions-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Yorkshire Building Society Events Webhooks
@@ -226,7 +226,7 @@ common:
   url: asyncapi/yorkshire-building-society-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yorkshire-building-society-mcp.yml
 - group: build
   title: ''
@@ -293,10 +293,6 @@ description: Yorkshire Building Society (YBS) is a UK mutual building society fo
   Dynamic Client Registration, and token issuance - conformant to the Open Banking Implementation Entity (OBIE) Read/Write Data API Standard v3.1.2. Access to the production and sandbox surfaces (ob-ybs.api.ybs.co.uk / ob-che.api.ybs.co.uk and the matching sandbox hosts) is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS transport authentication and PS256-signed JWTs, and is available to FCA-authorised third-party providers holding eIDAS/OBIE certificates.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Yorkshire Building Society MCP Server
-  slug: yorkshire-building-society-mcp-server
 modified: '2026-07-23'
 name: Yorkshire Building Society
 nav: Providers
@@ -322,7 +318,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -332,7 +328,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 48.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,8 +349,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/screenshots/yorkshire-building-society-2026-08-17T083019.png
 security:

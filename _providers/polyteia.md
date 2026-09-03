@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Organization API from Polyteia — 1 operation(s) for organization.
   name: Polyteia Organization API
   slug: polyteia-organization-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -116,7 +116,7 @@ common:
   url: changelog/polyteia-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/polyteia-mcp.yml
 - group: agent
   title: ''
@@ -178,10 +178,6 @@ created: '2026-07-17'
 description: Polyteia is a Berlin-based govtech company offering a data platform for the German and European public sector. It lets public administrations connect existing systems, harmonize fragmented data, and use it in AI-supported workflows for forms, case processing, statistical evaluation, and reporting. The platform ships pre-built Solutions for common public-sector use cases (social-service planning, budget controlling, crisis response, kindergarten demand forecasting) plus a no-code/low-code Studio. It serves 80+ government entities in Germany, including the states of Schleswig-Holstein and Saarland. The platform is fully driveable through an RPC-style API (command/query over a single POST endpoint) authenticated with Personal Access Keys, backed by a Trust Center and GDPR/BSI/C5 compliance. Founded by Faruk Tuncer, Taisia Antonova, and Lukas Rambold; backed by HV Capital and DvH Ventures.
 image: https://cdn.prod.website-files.com/64f07393c02984e046baf5f8/6833060d76c3b033ca002dff_Social%20Sharing.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Polyteia MCP Server
-  slug: polyteia-mcp-server
 modified: '2026-07-20'
 name: Polyteia
 nav: Providers
@@ -230,8 +226,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/screenshots/polyteia-2026-08-17T081321.png
 security:

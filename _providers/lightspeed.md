@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for Lightspeed Retail R-Series (formerly Vend) providing access to sales, inventory, customers, products, and reporting data for retail point-of-sale systems.
@@ -570,7 +570,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -580,7 +580,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 80.4
+  previous_composite: 81.1
   provenance:
     conformance: derived
     contracts:
@@ -596,8 +596,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A live Model Context Protocol endpoint served from the Cardiosense corporate host. It is a WordPress MCP Adapter deployment over the website's content and abilities rather than a product API for the C
@@ -170,8 +170,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/screenshots/cardiosense-2026-09-02T145015.png
 security:

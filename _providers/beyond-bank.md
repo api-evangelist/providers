@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Beyond Bank Australia Banking Products API
   slug: beyond-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: overlays/beyond-bank-cds-banking-products-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/beyond-bank-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-20'
 description: Beyond Bank Australia Limited (ABN 15 087 651 143, AFSL/Australian Credit Licence 237856) is one of the country's largest customer-owned (mutual) banks, owned by its members rather than shareholders, and the first bank in Australia to become a certified B Corp. It serves roughly 280,000 members from around 56 branches across South Australia, Victoria, the ACT, Western Australia, and New South Wales, with more than nine billion dollars in funds under management, offering everyday accounts, savings, term deposits, loans, insurance, and financial planning. As an Authorised Deposit-taking Institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking), exposing a public, unauthenticated Product Reference Data (PRD) API built to the Data Standards Body (DSB) Consumer Data Standards; consumer data sharing beyond product reference data requires accredited data recipient status and the CDR OAuth2/OIDC FAPI authorization model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beyond-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Beyond Bank Australia MCP Server
-  slug: beyond-bank-australia-mcp-server
 modified: '2026-07-21'
 name: Beyond Bank Australia
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/screenshots/beyond-bank-2026-07-21T114718.png
 security:

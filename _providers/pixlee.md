@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Upload new content from a URL or a file
   name: Pixlee Media API
   slug: pixlee-media-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: well-known/pixlee-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pixlee-mcp.yml
 - group: design
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Pixlee (Pixlee TurnTo, now part of Emplifi) is a visual and social user-generated content (UGC) marketing platform that helps brands collect, curate, moderate, and display customer photos and videos across their website, mobile apps, and email. The Pixlee Content API (v2) gives brands programmatic access to their approved media in albums with rich filtering and sorting, lets them ingest new content from a URL or an uploaded file, and add or update commerce products that media can be tagged with. Authentication is via an account API key passed as a query parameter, with HMAC-SHA1 request signing required for all writes. Pixlee also ships embeddable JavaScript display widgets, email display blocks, and native iOS/Android UI SDKs. Originally an a16z-backed startup, Pixlee was acquired by Emplifi.
 image: https://files.readme.io/9160404-small-transparentLogo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pixlee MCP Server
-  slug: pixlee-mcp-server
 modified: '2026-07-20'
 name: Pixlee
 nav: Providers
@@ -239,8 +235,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/screenshots/pixlee-2026-08-17T081245.png
 security:

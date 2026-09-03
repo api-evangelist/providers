@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - '{''url'': ''https://www.gimbal.com'', ''status'': 301, ''note'': ''declared website redirects to https://infillion.com/ — a different registrable domain (gimbal.com -> infillion.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +30,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-09-02'
+  score: 42.3
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://manager.gimbal.com/api
@@ -62,7 +67,7 @@ apis:
   description: The Places API from Paedae — 5 operation(s) for places.
   name: Paedae Places API
   slug: paedae-places-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Paedae Webhooks
@@ -89,7 +94,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paedae-mcp.yml
 - group: auth
   title: ''
@@ -191,10 +196,6 @@ created: '2026-07-17'
 description: Paedae is the company behind the Gimbal proximity and location platform (a 500 Global portfolio company; paedae.com now redirects to gimbal.com, operated under Infillion). Gimbal provides beacons, geofencing, and a proximity SDK for iOS and Android, plus a Gimbal Manager REST API to manage applications, places, beacons, beacon configurations, and location-triggered communications. Beacon sighting events (Arrived/Departed/Sighted) are delivered via HTTP callbacks. This profile was enriched from the live Gimbal developer surface at docs.gimbal.com and manager.gimbal.com.
 image: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/apis.yml
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paedae MCP Server
-  slug: paedae-mcp-server
 modified: '2026-08-13'
 name: Paedae
 nav: Providers
@@ -248,8 +249,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.kriya.co/payments/
@@ -66,7 +66,7 @@ apis:
   description: The Scenario API from Kriya — 1 operation(s) for scenario.
   name: Kriya Scenario API
   slug: kriya-scenario-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Kriya Payments Webhooks
@@ -184,7 +184,7 @@ common:
   url: components/kriya-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kriya-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: Kriya (Kriya Finance Limited, London) is a UK B2B embedded-finance and working-capital provider that lets merchants offer trade credit to their business buyers. Its products span Embedded PayLater (B2B buy-now-pay-later terms at checkout), Invoice Finance, working capital loans, buyer authentication, offline payments and a Kriya-on-Stripe integration. Kriya publishes two partner-facing REST APIs — the Payments API for buyer registration, risk decisioning, order lifecycle and payment deductions, and the Onboarding API for automating company and KYC checks — alongside a hosted Payments Journey and Onboarding Journey web flow, HMAC-signed webhooks, a dedicated test environment with scenario simulators, and e-commerce plugins for BigCommerce, Magento, nopCommerce, PrestaShop and Salesforce. Kriya was acquired by Allica Bank in October 2025.
 image: https://cdn.kriya.co/images/KriyaPaymentsAPI-API-Integration-Sequence-Flow.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kriya MCP Server
-  slug: kriya-mcp-server
 modified: '2026-07-19'
 name: Kriya
 nav: Providers
@@ -256,8 +252,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png
 security:

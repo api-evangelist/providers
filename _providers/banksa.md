@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: BankSA Banking Products API
   slug: banksa-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: data-model/banksa-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/banksa-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-20'
 description: BankSA is a South Australian retail and business banking brand operating as a division of Westpac Banking Corporation (ABN 33 007 457 141, AFSL and Australian credit licence 233714). It is not a mutual or independent ADI - it shares the Westpac Group core banking platform alongside sibling brands St.George and Bank of Melbourne. Under Australia's Consumer Data Right (CDR / Open Banking) regime, BankSA exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, hosted at digital-api.banksa.com.au. Consumer and account data sharing beyond product reference data runs on the accredited-data-recipient (ADR) model with OAuth2 / OpenID Connect (FAPI) authorization; BankSA does not publish an open self-service developer portal for third-party integration outside the CDR channel.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/banksa.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BankSA MCP Server
-  slug: banksa-mcp-server
 modified: '2026-07-21'
 name: BankSA
 nav: Providers
@@ -270,8 +266,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 73.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png
 security:

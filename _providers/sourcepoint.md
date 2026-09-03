@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 14
 apis:
 - baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
@@ -80,7 +80,7 @@ apis:
   description: The U.S. Multi-State Privacy reporting API API from Sourcepoint — 2 operation(s) for u.s. multi-state privacy reporting api.
   name: Sourcepoint U.S. Multi-State Privacy reporting API
   slug: sourcepoint-u-s-multi-state-privacy-reporting-api-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: open
   name: Sourcepoint GDPR Standard API
@@ -310,7 +310,7 @@ common:
   url: well-known/sourcepoint-api-catalog.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sourcepoint-mcp.yml
 - group: build
   title: ''
@@ -433,10 +433,6 @@ features:
 - Approximately 30 billion consumer touchpoints powered per month
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sourcepoint.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sourcepoint MCP Server
-  slug: sourcepoint-mcp-server
 modified: '2026-08-12'
 name: Sourcepoint
 nav: Providers
@@ -482,8 +478,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:

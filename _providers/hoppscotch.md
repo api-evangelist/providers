@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT. It provides a minimalist, web-based API development suite with real-time collabora
@@ -197,8 +197,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hoppscotch/refs/heads/main/screenshots/hoppscotch-2026-06-20T182832.png
 security:

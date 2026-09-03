@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -61,7 +65,7 @@ apis:
   description: The tags API from Community — 4 operation(s) for tags.
   name: Community tags API
   slug: community-tags-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Community Webhooks
@@ -106,7 +110,7 @@ common:
   url: llms/community-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/community-mcp.yml
 - group: other
   title: ''
@@ -212,10 +216,6 @@ created: '2026-07-17'
 description: 'Community is a conversational messaging platform that lets brands, creators, artists, sports teams, media companies, and political organizations reach their audiences directly over SMS, MMS, WhatsApp, Apple Messages for Business, and RCS. Founded in 2019 and remote-first, Community pairs a campaign-and-flows product with a developer surface: an Async REST API to send Direct Messages, create and update members, set custom member data, manage subcommunities (tags), and opt members out; a Data Export API for member, campaign, and link analytics snapshots; and outbound webhooks for inbound/outbound messages and member lifecycle events. API access is provisioned per account by the Community team rather than self-serve.'
 image: https://community.com/og-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Community MCP Server
-  slug: community-mcp-server
 modified: '2026-08-13'
 name: Community
 nav: Providers
@@ -276,8 +276,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
 security:

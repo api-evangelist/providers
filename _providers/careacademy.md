@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://go.careacademy.com/api/v1
@@ -61,7 +61,7 @@ apis:
   description: The Sign In Url API from CareAcademy — 1 operation(s) for sign in url.
   name: CareAcademy Sign In Url API
   slug: careacademy-sign-in-url-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: sandbox/careacademy-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/careacademy-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: CareAcademy (part of Activated Insights) is an online training, compliance, and workforce-management platform for post-acute care — home care, home health, hospice, and senior living organizations. It automates regulatory training assignment, caregiver onboarding, and audit-ready compliance reporting for 2,500+ organizations and 800K+ caregivers. The CareAcademy API lets integration partners (home-care software platforms) create agency organizations and caregivers, provide Single Sign-On into CareAcademy from their own product, and query course-completion and compliance data in real time. The partner API is an OpenAPI 3.0 REST interface using HTTP Basic authentication, published on SwaggerHub, with named integrations for WellSky, AxisCare, AlayaCare, eRSP, Aaniie, and Spectrum TeleTrack Services.
 image: https://careacademy.com/wp-content/uploads/2022/09/CA-Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CareAcademy MCP Server
-  slug: careacademy-mcp-server
 modified: '2026-07-18'
 name: CareAcademy
 nav: Providers
@@ -237,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/screenshots/careacademy-2026-08-07T175428.png
 security:

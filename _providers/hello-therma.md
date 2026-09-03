@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server exposing read-only GlacierGrid facility monitoring data — HVAC, refrigeration, energy and savings, sensor readings, issues, notifications, device conne
@@ -203,8 +203,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/screenshots/hello-therma-2026-09-02T145719.png
 security:

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://protectai.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.paloaltonetworks.com/ai-security/prisma-airs — a different registrable domain (protectai.com -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -161,8 +162,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 5.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protect-ai/refs/heads/main/screenshots/protect-ai-2026-06-20T192212.png
 security:

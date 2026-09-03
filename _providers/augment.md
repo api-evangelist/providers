@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Public API endpoints for approved brokerages to list supported webhook event types, subscribe endpoints to event types, and send test deliveries. Subscriptions created through these public APIs delive
   name: Augment Webhook Event Subscriptions API
   slug: augment-webhook-event-subscriptions-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Augment Webhooks
@@ -163,7 +163,7 @@ common:
   url: overlays/augment-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/augment-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace, carrier support, and order-to-cash — while integrating with existing TMS, ERP, email, and messaging systems. Its public REST API (api.prod.goaugment.com) lets partner systems manage loads and route stops, upsert and archive carriers, post tracking events, report carrier issues, and configure webhook endpoints and event subscriptions across nine event types. Authentication is HTTP Basic with an API key; the company is SOC 2 Type II certified. Augment is backed by 8VC, Lightspeed Venture Partners, and Redpoint Ventures.
 image: https://framerusercontent.com/assets/hYTkXfUxYj558HcJLnhl8l2ogig.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Augment MCP Server
-  slug: augment-mcp-server
 modified: '2026-07-18'
 name: Augment
 nav: Providers
@@ -274,8 +270,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
 security:

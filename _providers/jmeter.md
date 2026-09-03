@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Apache JMeter is a load testing and performance measurement tool for web applications, databases, FTP servers, JMS, mail protocols, and more. Provides extensible samplers, listeners, and a CLI mode fo
@@ -136,8 +136,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmeter/refs/heads/main/screenshots/jmeter-2026-06-20T183738.png
 security:

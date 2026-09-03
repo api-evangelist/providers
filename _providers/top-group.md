@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://tonapi.io
@@ -151,7 +151,7 @@ apis:
   description: The Webhooks API from TOP Group (The Open Platform) — 15 operation(s) for webhooks.
   name: TOP Group (The Open Platform) Webhooks API
   slug: top-group-webhooks-api
-artifact_total: 53
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Top Group Tonapi Webhooks
@@ -304,7 +304,7 @@ common:
   url: well-known/top-group-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/top-group-mcp.yml
 - group: agent
   title: ''
@@ -366,10 +366,6 @@ graphqls:
   slug: top-group-tonapi-graphql
 image: https://top.co/icon.png
 layout: provider
-mcp_servers:
-- description: No official hosted MCP server was found for TOP Group / TON API (checked npm and the TON Console docs; the npm package ton-mcp is a community project by kunaldhongade, not first-party). This is a cand
-  name: TOP Group (The Open Platform) MCP Server
-  slug: top-group-the-open-platform-mcp-server
 modified: '2026-07-21'
 name: TOP Group (The Open Platform)
 nav: Providers
@@ -420,8 +416,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/screenshots/top-group-2026-08-17T082406.png
 security:

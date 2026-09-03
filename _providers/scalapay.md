@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.scalapay.com
@@ -53,7 +53,7 @@ apis:
   description: The Reporting API from Scalapay — 6 operation(s) for reporting.
   name: Scalapay Reporting API
   slug: scalapay-reporting-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Scalapay Webhooks
@@ -78,7 +78,7 @@ common:
   url: capabilities/scalapay-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scalapay-mcp.yml
 - group: other
   title: ''
@@ -212,10 +212,6 @@ created: '2026-08-02'
 description: 'Scalapay is an Italian buy-now-pay-later (BNPL) payment provider that lets shoppers split a purchase into instalments — pay in 3, pay in 4, or pay later — while the merchant is settled by Scalapay. Its REST API is a compact, order-centric surface: create an instalment order, redirect the shopper to Scalapay Checkout, then capture, delay, void or refund against the order token, with a parallel in-store and offline pay-by-link family authenticated by a device-scoped key, plus reporting endpoints for reconciling orders, refunds, payouts and disputes against Scalapay''s bank transfers. Merchants integrate through a CDN-loaded web component (the Scalapay Suite Widget) on the product, cart and checkout pages, or through prebuilt modules for Magento, WooCommerce, PrestaShop, Shopify, Shopware, BigCommerce, VTEX, Salesforce and others. Scalapay operates in EUR across 14 authorised European territories.'
 image: https://cdn.prod.website-files.com/614b9948e0cc06785c60efe7/67c9cc48ae95dd9c93be62c3_favicon-256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Scalapay MCP Server
-  slug: scalapay-mcp-server
 modified: '2026-08-02'
 name: Scalapay
 nav: Providers
@@ -266,8 +262,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/screenshots/scalapay-2026-08-17T081726.png
 security:

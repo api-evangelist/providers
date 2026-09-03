@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'HTTP+JSON REST API for the Parse Platform: object CRUD and queries, users and sessions, roles, files, analytics and push. Parse Server is self-hosted, so the base URL is the operator''s own Parse Serve'
   name: Parse REST API
   slug: parse-rest-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Parse Webhooks
@@ -127,7 +127,7 @@ common:
   url: data-model/parse-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parse-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Parse is an open-source Backend-as-a-Service (BaaS). Originally the mobile backend company founded in 2011, backed by GV and DCVC, and acquired by Facebook in 2013 before the hosted parse.com service was shut down in 2017, Parse now lives on as the community-maintained Parse Platform. It centers on Parse Server, a self-hostable Node.js/Express backend, paired with first-party client SDKs for JavaScript, Apple (iOS/macOS), Android, Flutter/Dart, PHP, .NET, Swift and Arduino. Parse exposes a documented REST API over HTTP+JSON providing a schemaless object store, user authentication and sessions, roles and ACL/class-level permissions, file storage, rich queries, Cloud Code, Cloud Code Webhooks, LiveQuery real-time subscriptions, analytics and push notifications.
 image: https://raw.githubusercontent.com/parse-community/parse-server/alpha/.github/parse-server-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parse MCP Server
-  slug: parse-mcp-server
 modified: '2026-07-20'
 name: Parse
 nav: Providers
@@ -195,8 +191,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parse/refs/heads/main/screenshots/parse-2026-08-07T191458.png
 security:

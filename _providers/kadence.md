@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ apis:
   description: The Visitor API from Kadence — 2 operation(s) for visitor.
   name: Kadence Visitor API
   slug: kadence-visitor-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -235,7 +235,7 @@ common:
   url: data-model/kadence-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kadence-mcp.yml
 - group: agent
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Kadence is a workplace management platform for hybrid work, helping organizations coordinate people, spaces, and workplace strategy through desk and room booking, visitor management, space management, and workplace analytics. Its Public API (OpenAPI 3.1, v1.2.0) lets applications read and manage buildings, floors, neighborhoods, spaces, bookings, check-ins and check-outs, users, visits, and visitors. The API is an API Platform (Hydra / JSON-LD) service secured with OAuth 2.0 client-credentials (scope "public"), with production hosts at api.onkadence.co and api.us.onkadence.co. Kadence was surfaced as a Techstars portfolio company and enriched into the API Evangelist network from its public developer surface.
 image: https://kadence.co/wp-content/uploads/2025/05/kadence-social-share-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kadence MCP Server
-  slug: kadence-mcp-server
 modified: '2026-07-19'
 name: Kadence
 nav: Providers
@@ -312,8 +308,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/screenshots/kadence-2026-07-25T223408.png
 security:

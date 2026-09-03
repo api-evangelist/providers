@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Programmatic access to Verbit''s transcription and captioning platform: live booking / real-time captioning, post-production transcription jobs, caption control, search, and AI insights.'
   name: Verbit Platform API
   slug: verbit-platform-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Verbit Webhooks
@@ -47,7 +47,7 @@ asyncapis:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verbit-mcp.yml
 - group: auth
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Verbit is an AI-based transcription and captioning company whose platform pairs a state-of-the-art automatic speech recognition (ASR) engine with professional human review to deliver accurate transcripts and captions for legal, courtroom, media & entertainment, higher education, corporate, and government use cases. Verbit exposes a developer platform (Verbit Platform API v3) covering live booking and real-time captioning over WebSocket, post-production transcription jobs, a Caption Control API for managing live sessions, a Search API for indexing caption/transcript assets, and an Insights (Gen V) API that generates AI summaries, keywords, quizzes, and chapters. Authentication uses a short-lived JWT bearer token minted from a customer API key. Backed by HV Capital and Sapphire Ventures.
 image: https://verbit.ai/wp-content/themes/verbit/images/logo-final2.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: VerbIT MCP Server
-  slug: verbit-mcp-server
 modified: '2026-07-21'
 name: VerbIT
 nav: Providers
@@ -215,8 +211,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/screenshots/verbit-2026-08-17T082729.png
 security:

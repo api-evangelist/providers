@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The Transactions API from Ansa — 3 operation(s) for transactions.
   name: Ansa Transactions API
   slug: ansa-transactions-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Ansa Webhooks
@@ -191,7 +191,7 @@ common:
   url: packages/ansa-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ansa-mcp.yml
 - group: agent
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: Ansa is a stored-value platform that lets businesses launch branded digital wallets — closed-loop balances, incentives, and loyalty — to turn payments into a revenue and retention driver. Its REST API and mobile SDKs (AnsaCore and AnsaUI for iOS, Android, and React Native) cover customers, payment methods, wallet funding, transactions, refunds, customer segments, incentive campaigns, promotional accounts, virtual cards, settlements, and webhooks. Authentication is via environment-scoped API keys with idempotency and cursor pagination. Ansa is backed by Bain Capital Ventures and targets marketplaces, platform businesses, and quick-service restaurants.
 image: https://cdn.prod.website-files.com/64de31babb6dd82d228e90ab/66281fc1b9e68f64aa95a0e3_meta_image_ansa_home.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ansa MCP Server
-  slug: ansa-mcp-server
 modified: '2026-07-17'
 name: Ansa
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
 security:

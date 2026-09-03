@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.finage.co.uk
@@ -97,7 +97,7 @@ apis:
   description: The US Stocks API from Finage — 5 operation(s) for us stocks.
   name: Finage US Stocks API
   slug: finage-us-stocks-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: 'Finage streams real-time market prices (US stocks, global stocks, forex, crypto, CFD indices, and ETFs) over WebSocket. Each customer is assigned a dedicated WebSocket URL (subdomain + port) shown in '
   name: Finage WebSocket Market Data Stream
@@ -113,7 +113,7 @@ common:
   url: overlays/finage-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finage-mcp.yml
 - group: auth
   title: ''
@@ -239,10 +239,6 @@ created: '2026-05-28'
 description: Finage is a London-based real-time and historical market data provider covering US and global stocks, forex, cryptocurrencies, CFD indices, ETFs, bonds, and company fundamentals. Data is delivered through a read-only REST API (api.finage.co.uk, API-key auth, 72 documented endpoints spanning quotes, trades, OHLCV aggregates, snapshots, financial statements, calendars, news, and technical indicators), dedicated per-customer WebSocket streams on finage.ws for real-time trades and quotes, and embeddable website widgets served from cdn.finage.co.uk. Plans range from a free 1,000 request/month tier through Basic API packages to Professional unlimited WebSocket feeds, with a 3-day free trial across all markets.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finage.png
 layout: provider
-mcp_servers:
-- description: Finage publishes no official MCP server (searched the official MCP registry, npm, and the Finage docs/GitHub org on 2026-07-22 — no hits). This is an API Evangelist candidate tool list derived one-too
-  name: Finage MCP Server
-  slug: finage-mcp-server
 modified: '2026-07-22'
 name: Finage
 nav: Providers
@@ -297,8 +293,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
 security:

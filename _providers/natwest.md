@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-09-02'
+  score: 45.1
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ apis:
   description: The Transactions API from NatWest Group — 3 operation(s) for transactions.
   name: NatWest Group Transactions API
   slug: natwest-transactions-api
-artifact_total: 49
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -275,7 +275,7 @@ common:
   url: sandbox/natwest-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/natwest-mcp.yml
 - group: agent
   title: ''
@@ -373,10 +373,6 @@ created: '2026-07-20'
 description: NatWest Group is a major UK retail and commercial bank (formerly Royal Bank of Scotland Group) serving personal, business, and corporate customers across the NatWest, Royal Bank of Scotland, Ulster Bank, Coutts, and NatWest International brands. It operates a public developer platform branded the "Bank of APIs" that publishes UK Open Banking (CMA9 / PSD2) APIs - Account and Transaction Information, Payment Initiation, and Confirmation of Funds - conformant to the Open Banking Implementation Entity (OBIE) Read/Write API Standard, alongside premium and commercial APIs. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using OBIE/eIDAS certificates, with a full sandbox for onboarding and testing before production.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/natwest.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NatWest Group MCP Server
-  slug: natwest-group-mcp-server
 modified: '2026-07-20'
 name: NatWest Group
 nav: Providers
@@ -426,8 +422,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
 security:

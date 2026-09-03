@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -215,7 +215,7 @@ arazzos:
 - description: Create a Dedicated Endpoint, wait for it to be ready, then run a chat completion.
   name: FriendliAI deploy a Dedicated Endpoint and infer
   slug: friendliai-deploy-and-infer
-artifact_total: 75
+artifact_total: 74
 collections:
 - collection_type: open
   name: API Collection
@@ -354,7 +354,7 @@ common:
   url: cli/friendliai-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/friendliai-mcp.yml
 - group: agent
   title: ''
@@ -472,10 +472,6 @@ created: '2026-07-17'
 description: 'FriendliAI is an AI inference cloud that runs generative AI models fast, affordably, and reliably at scale. Its Friendli Suite spans three products: Model APIs (serverless, pay-per-token access to popular open-weight LLMs and multimodal models), Dedicated Endpoints (any open-source or custom model on dedicated GPUs with autoscaling, versioning, multi-LoRA and speculative decoding), and Friendli Container (self-hosted inference with gRPC, quantization and policy search). The API is OpenAI-compatible, so existing OpenAI applications migrate by changing the base URL and API key, with support for chat completions, tool calling, structured outputs, reasoning, audio transcription, embeddings and image generation. FriendliAI is a portfolio company of Sierra Ventures.'
 image: https://friendli.ai/opengraph-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: FriendliAI MCP Server
-  slug: friendliai-mcp-server
 modified: '2026-07-19'
 name: FriendliAI
 nav: Providers
@@ -518,8 +514,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
 security:

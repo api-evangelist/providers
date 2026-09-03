@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Quantexa Decision Intelligence Platform combines data ingestion, entity resolution, graph analytics, and Quantexa AI (Q Assist and Agent Gateway) to surface connected, contextual decisions. Progra
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 14.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantexa/refs/heads/main/screenshots/quantexa-2026-06-20T192412.png
 security:

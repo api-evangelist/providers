@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Falcon's RESTful embedded-finance API for card issuance, lending, and program management. All responses are JSON; authentication is a JWT bearer token obtained from a client-id/client-secret login, wi
@@ -157,8 +157,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.koi.ai/'', ''status'': 301, ''note'': ''declared website redirects to https://www.paloaltonetworks.com/cortex/agentic-endpoint-security — a different registrable domain (koi.ai -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.extensiontotal.com/api
@@ -41,7 +42,7 @@ apis:
   description: Extension risk assessment.
   name: Koi Security Risk API
   slug: koi-security-risk-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +153,7 @@ common:
   url: security/koi-security-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/koi-security-mcp.yml
 - group: agent
   title: ''
@@ -167,10 +168,6 @@ description: 'Koi (formerly Koi Security, now operating as koi.ai) is an endpoin
   that exposes a public HTTP API and a first-party VS Code extension. Koi raised $48M and has been acquired by Palo Alto Networks.'
 image: https://cdn.prod.website-files.com/67bf17e426d92bdda54af956/689d7637775a71fd67d69618_link%20image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Koi Security MCP Server
-  slug: koi-security-mcp-server
 modified: '2026-07-19'
 name: Koi Security
 nav: Providers
@@ -211,8 +208,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koi-security/refs/heads/main/screenshots/koi-security-2026-07-25T224118.png
 security:

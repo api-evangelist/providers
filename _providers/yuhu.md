@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API (v1) for integration partners to synchronize property-management data with Yuhu: companies, sites/projects, buildings, unit types, units, site staff, roles and permissions, leases, tenants, s'
   name: Yuhu Partners API
   slug: yuhu-partners-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -119,7 +119,7 @@ common:
   url: well-known/yuhu-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yuhu-mcp.yml
 - group: design
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Yuhu is a cloud-based rental lifecycle management platform for multifamily and single-family property managers, covering leasing, prospects and applications, tenants and leases, buildings and units, service requests, notices, amenities, showings, rentable items, and rent payments (EFT/ACH pre-authorized debit). Founded in Toronto in 2015 and acquired by HappyCo in November 2022, Yuhu is now part of HappyCo's Happy Property suite. Yuhu exposes a REST Partners API (v1) at api.yuhu.io that lets integration partners and PMS systems synchronize companies, sites, buildings, unit types, units, leases, tenants, service requests, notices, and payments using OAuth 2.0 client-credentials bearer tokens, upsert-style writes, synchronous and asynchronous batch endpoints, and per-resource hourly rate limits.
 image: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/64784cb7f5cd8d6fe9023736_HappCo-logo-Navy.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Yuhu MCP Server
-  slug: yuhu-mcp-server
 modified: '2026-07-21'
 name: Yuhu
 nav: Providers
@@ -178,8 +174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/screenshots/yuhu-2026-09-02T171359.png
 security:

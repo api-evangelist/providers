@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The TestCases API from Gentrace — 2 operation(s) for testcases.
   name: Gentrace TestCases API
   slug: gentrace-testcases-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: conformance/gentrace-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gentrace-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Gentrace was a developer platform for evaluating and testing LLM and AI applications ("evals as infrastructure"). It provided pipelines, datasets, experiments, and test cases so teams could run offline and online evaluations, grade model outputs, track regressions, and observe AI features in production via OpenTelemetry-based instrumentation. The platform shipped a REST API (v4) secured with bearer API keys, first-party Python and TypeScript/Node SDKs, and a documented object model of pipelines, datasets, experiments, and test cases. Gentrace was based in San Francisco and backed by Matrix Partners. The company has since shut down its hosted product, but its OpenAPI specification, SDK packages, and documentation mirror remain publicly available.
 image: https://mintcdn.com/gentrace/9dIPysEl4JbHm2X9/logo/dark.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gentrace MCP Server
-  slug: gentrace-mcp-server
 modified: '2026-07-19'
 name: Gentrace
 nav: Providers
@@ -199,8 +195,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/screenshots/gentrace-2026-07-25T215644.png
 security:

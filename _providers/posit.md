@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -208,7 +208,7 @@ apis:
   description: The Vanity URLs API from Posit — 2 operation(s) for vanity urls.
   name: Posit Vanity URLs API
   slug: posit-vanity-urls-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -423,7 +423,7 @@ common:
   url: well-known/posit-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/posit-mcp.yml
 - group: agent
   title: ''
@@ -441,10 +441,6 @@ created: '2026-07-17'
 description: Posit, PBC (formerly RStudio) builds open-source and enterprise software for data science teams working in R and Python. Its professional products — Posit Workbench, Posit Connect, and Posit Package Manager (bundled as Posit Team), plus Posit Cloud and the Positron IDE — help organizations develop, publish, and govern data science work. Posit Connect exposes a full REST Server API (the Connect API) for automating content publishing, deployment bundles, users and groups, permissions, jobs, environments, tags, audit logs, and API keys, authenticated with per-user API keys. Posit also stewards widely used open-source projects including the Tidyverse, Shiny, Quarto, and tidymodels.
 image: https://posit.co/wp-content/uploads/2022/10/Posit-Logo-Black-TransparentBackground.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Posit MCP Server
-  slug: posit-mcp-server
 modified: '2026-07-20'
 name: Posit
 nav: Providers
@@ -483,8 +479,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/screenshots/posit-2026-08-17T081325.png
 security:

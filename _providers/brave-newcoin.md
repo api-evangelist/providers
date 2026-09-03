@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Real-time and historic crypto data from more than 200+ exchanges
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave-newcoin/refs/heads/main/screenshots/brave-newcoin-2026-06-20T173642.png
 security:

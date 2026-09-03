@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -211,8 +211,8 @@ score:
   previous_composite: 49.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/screenshots/reform-2026-06-20T192748.png
 security:

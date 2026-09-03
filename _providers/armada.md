@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -208,7 +208,7 @@ apis:
   description: The VPC API from Armada — 4 operation(s) for vpc.
   name: Armada VPC API
   slug: armada-vpc-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -379,7 +379,7 @@ common:
   url: overlays/armada-orchestrator-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/armada-mcp.yml
 - group: agent
   title: ''
@@ -401,10 +401,6 @@ created: '2026-07-17'
 description: Armada is an edge computing company that deploys full-stack compute, connectivity, and AI infrastructure into remote and disconnected environments. Its platform spans Atlas (an enterprise console for monitoring and managing distributed IoT and edge assets), Galleon (ruggedized, rapidly deployable modular data centers), and Bridge (a GPU cloud management platform / PaaS that provisions and orchestrates bare-metal, virtual-machine, and Kubernetes GPU workloads across NVIDIA and AMD hardware). The Bridge Orchestrator API exposes tenants, clusters, VMs, storage, networking, catalogs, and quota operations for building sovereign and edge AI clouds, and an OpenAI-compatible Model-as-a-Service inference API is available through Bridge AI Studio.
 image: https://docs.armada.ai/img/logo-black.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Armada MCP Server
-  slug: armada-mcp-server
 modified: '2026-07-18'
 name: Armada
 nav: Providers
@@ -443,8 +439,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/screenshots/armada-2026-07-25T201219.png
 security:

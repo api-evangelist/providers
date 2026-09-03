@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: OGC Web Map Service 1.3.0
   name: Landgate WMS API
   slug: landgate-wms-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: Data WA CKAN Action API (operated by Landgate)
@@ -128,7 +128,7 @@ common:
   url: overlays/landgate-data-wa-ckan-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/landgate-mcp.yml
 - group: agent
   title: ''
@@ -251,10 +251,6 @@ description: Landgate is the Western Australian Land Information Authority — t
   and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Landgate MCP Server
-  slug: landgate-mcp-server
 modified: '2026-07-26'
 name: Landgate
 nav: Providers
@@ -304,8 +300,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 79.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:

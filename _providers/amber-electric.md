@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: The State API from Amber Electric — 1 operation(s) for state.
   name: Amber Electric State API
   slug: amber-electric-state-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: Amber Electric Public API
@@ -103,7 +103,7 @@ common:
   url: llms/amber-electric-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amber-electric-mcp.yml
 - group: other
   title: ''
@@ -210,10 +210,6 @@ description: 'Amber Electric is an Australian electricity retailer (ABN 98623603
   and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amber-electric.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amber Electric MCP Server
-  slug: amber-electric-mcp-server
 modified: '2026-07-27'
 name: Amber Electric
 nav: Providers
@@ -267,8 +263,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 74.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
 security:

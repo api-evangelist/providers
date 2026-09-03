@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: User (memory namespace) lifecycle
   name: Eder Labs Users API
   slug: eder-labs-users-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -82,7 +82,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eder-labs-mcp.yml
 - group: other
   title: ''
@@ -132,10 +132,6 @@ created: '2026-07-17'
 description: Eder Labs builds infrastructure for using personal data in safer, more human ways. Its current focus is Persona, an open-source (MIT) user-memory system for AI agents that turns a person's digital footprint into a Graph-Vector hybrid personal knowledge graph (Neo4j graph plus vector embeddings) and answers natural-language RAG queries or returns structured insights over that memory. Eder Labs also develops Fluid, a platform for exchanging sensitive intelligence and running data science inside secure enclaves without compromising trust. Persona ships as a self-hosted FastAPI service with a small REST API for creating users, ingesting content, and querying memory. Eder Labs is backed by Accel.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eder-labs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eder Labs MCP Server
-  slug: eder-labs-mcp-server
 modified: '2026-07-19'
 name: Eder Labs
 nav: Providers
@@ -174,8 +170,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/screenshots/eder-labs-2026-07-25T212819.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.proton.ai
@@ -96,7 +96,7 @@ apis:
   description: The Tracking API from Proton.ai — 2 operation(s) for tracking.
   name: Proton.ai Tracking API
   slug: protonai-tracking-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: skills/protonai-lead-to-opportunity.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/protonai-mcp.yml
 - group: auth
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: Proton.ai is an AI industry cloud platform built for B2B distributors, combining an AI-guided CRM, product information management, e-commerce recommendation engine, and order-capture automation on top of a distributor's existing ERP and e-commerce systems. Proton exposes a public REST API (documented via Postman at api.proton.ai) offering an AI-powered suite of endpoints for product recommendations (cart, reorder, similar items, bought-also-bought, recently viewed), behavioral tracking, and CRM operations across customers, contacts, opportunities and pipelines, quotes, leads, call notes, tasks, and tenant-defined custom fields. Authentication is a static API key supplied at onboarding and sent in the X-Api-Key header, with an X-Company tenant header scoping every request. Proton is backed by Battery Ventures and headquartered around a distribution-industry focus.
 image: https://content.pstmn.io/9e57cb73-9d7b-4c3a-8915-f860c9e82380/bG9nby0yMDIzLnBuZw==
 layout: provider
-mcp_servers:
-- description: ''
-  name: Proton.ai MCP Server
-  slug: protonai-mcp-server
 modified: '2026-07-20'
 name: Proton.ai
 nav: Providers
@@ -247,8 +243,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/screenshots/protonai-2026-09-02T152230.png
 security:

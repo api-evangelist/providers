@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/screenshots/airbrake-2026-06-20T171417.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: The Webhook Plugin API from PersistIQ — 1 operation(s) for webhook plugin.
   name: PersistIQ Webhook Plugin API
   slug: persistiq-webhook-plugin-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Persistiq Webhooks
@@ -204,7 +204,7 @@ common:
   url: data-model/persistiq-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/persistiq-mcp.yml
 - group: build
   title: ''
@@ -270,10 +270,6 @@ created: '2026-07-17'
 description: PersistIQ is a sales engagement platform for small teams to find new customers, start conversations, and personalize sales outreach at scale from one place. It combines prospect research (Chrome extension), multi-channel outreach (email, calls, tasks), campaign management with A/B testing, performance analytics, and CRM integrations. PersistIQ exposes a REST API (v1) for users, leads (prospects), lead statuses and fields, tags, campaigns (including duplication and inbox replies), activity events, Do Not Contact domains, and a webhook plugin carrying five events. It is specified by PersistIQ's own OpenAPI 3.0.1 document, served from the API host at /api-docs/v1/swagger.json. Authentication is a single company-wide API key sent in the x-api-key header, with page-number pagination and a documented 100 request/minute per-key rate limit.
 image: https://persistiq.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: PersistIQ MCP Server
-  slug: persistiq-mcp-server
 modified: '2026-08-13'
 name: PersistIQ
 nav: Providers
@@ -323,8 +319,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/screenshots/persistiq-2026-08-17T081210.png
 security:

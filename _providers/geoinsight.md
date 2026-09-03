@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Open access
-  onboarding: open
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -249,8 +250,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/screenshots/geoinsight-2026-09-02T145559.png
 security:

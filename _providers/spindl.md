@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.spindl.xyz/v1
@@ -51,7 +51,7 @@ apis:
   description: Publisher-facing onchain advertising API. Fetch targeted ad recommendations for a wallet address at a named placement, render the returned unit, and post impressions and clicks back to Spindl. Also se
   name: Spindl Ads API
   slug: spindl-ads-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -85,7 +85,7 @@ common:
   url: packages/spindl-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spindl-mcp.yml
 - group: agent
   title: ''
@@ -168,10 +168,6 @@ description: Spindl is a Web3 growth platform providing onchain attribution, web
   from its published developer documentation and live host probes.
 image: https://spindl.xyz/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spindl MCP Server
-  slug: spindl-mcp-server
 modified: '2026-08-13'
 name: Spindl
 nav: Providers
@@ -217,8 +213,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/screenshots/spindl-2026-08-17T082027.png
 security:

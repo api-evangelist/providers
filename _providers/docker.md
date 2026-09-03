@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -440,8 +440,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:

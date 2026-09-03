@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://data.artmuseum.princeton.edu
@@ -338,18 +338,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
+  composite: 42.1
   coverage:
     artifact_dirs: 17
-    catalog_gap: 50.3
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 29.5
-    contract_quality: 58.4
+    contract_quality: 51.9
     developer_ergonomics: 28.6
     discoverability: 44.4
     governance: 29.5
@@ -368,8 +368,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/screenshots/princeton-2026-06-20T192107.png
 security:

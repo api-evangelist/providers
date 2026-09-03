@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
   description: Per-segment waterfall management
   name: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
-artifact_total: 60
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Applovin Webhooks
@@ -329,7 +329,7 @@ common:
   url: packages/applovin-packages.yml
 - group: agent
   title: Candidate MCP tool surface (no server published)
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/applovin-mcp.yml
 - group: agent
   title: AppLovin llms.txt (generated)
@@ -464,10 +464,6 @@ jsonld:
   property_count: 10
   slug: applovin-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface (no server published)
-  slug: candidate-mcp-tool-surface-no-server-published
 modified: '2026-08-13'
 name: AppLovin
 nav: Providers
@@ -539,8 +535,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:

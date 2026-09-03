@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The REST API behind the tvScientific Campaign Management UI, named by tvScientific's own status page as the "Campaign Management API" component running at api.tvscientific.app. Two major versions serv
@@ -157,8 +157,8 @@ score:
   previous_composite: 22.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/screenshots/tvscientific-2026-09-02T164602.png
 security:

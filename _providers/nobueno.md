@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.nobueno.com/api
@@ -196,7 +196,7 @@ apis:
   description: The work-experience API from NoBueno — 2 operation(s) for work-experience.
   name: NoBueno work-experience API
   slug: nobueno-work-experience-api
-artifact_total: 67
+artifact_total: 66
 collections:
 - collection_type: open
   name: API Collection
@@ -321,7 +321,7 @@ common:
   url: data-model/nobueno-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nobueno-mcp.yml
 - group: agent
   title: ''
@@ -347,10 +347,6 @@ created: '2026-07-17'
 description: NoBueno is a job-and-candidate matching platform (a 500 Global portfolio company) built around its Django REST Framework "Jungle API". The API powers job postings, candidate profiles and work experience, hiring-company and employer records, scored job-to-candidate matching, a skills / roles / disciplines taxonomy, recruiter-candidate messaging, and notifications. Authentication is a bearer token obtained via login / register, and list endpoints use page-number pagination with free-text search, ordering, and field-level filtering.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nobueno.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NoBueno MCP Server
-  slug: nobueno-mcp-server
 modified: '2026-07-20'
 name: NoBueno
 nav: Providers
@@ -388,8 +384,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The RAGFlow RESTful HTTP API — 95 documented operations under /api/v1, authenticated with a tenant API key carried as a bearer token. Covers dataset management, document upload / parse / ingest, chunk
@@ -245,8 +245,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/screenshots/ragflow-2026-09-02T152804.png
 security:

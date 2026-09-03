@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Webhooks API from Upsie — 2 operation(s) for webhooks.
   name: Upsie Webhooks API
   slug: upsie-webhooks-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Upsie Webhooks
@@ -202,7 +202,7 @@ common:
   url: well-known/upsie-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/upsie-mcp.yml
 - group: agent
   title: ''
@@ -216,10 +216,6 @@ created: '2026-07-17'
 description: Upsie is a direct-to-consumer warranty company offering affordable, transparent extended-warranty and protection plans for smartphones, laptops, TVs, appliances, and other consumer electronics, positioning itself as "the new way to warranty" against overpriced retailer protection plans. Alongside its consumer products, Upsie operates an independent repair network and publishes the Upsie Partner Network API — a JWT-authenticated REST API (api.upsie.com, documented via a public Postman collection) that lets repair-network partners create and manage repairs, repair items, notes, assignments, and categories, and subscribe to webhook events such as repair status updates.
 image: https://res.cloudinary.com/upsie/image/upload/f_auto,fl_lossy,q_auto/v1635433345/Upsie_Badge.png
 layout: provider
-mcp_servers:
-- description: Upsie publishes no official MCP server (none found in docs, the npm registry, or MCP registries as of 2026-07-21). This is a candidate tool list derived from the operations of the Upsie Partner Networ
-  name: Upsie MCP Server
-  slug: upsie-mcp-server
 modified: '2026-07-21'
 name: Upsie
 nav: Providers
@@ -267,8 +263,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
 security:

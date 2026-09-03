@@ -8,6 +8,7 @@ access_model:
   source:
   - https://developers.madkudu.com/getting-started/usage-and-credits
   - https://developers.madkudu.com/readme.md
+  - '{''url'': ''https://madkudu.com/'', ''status'': 301, ''note'': ''declared website redirects to https://hginsights.com/ — a different registrable domain (madkudu.com -> hginsights.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 31.0
-  scored_at: '2026-09-02'
+  score: 36.2
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://madapi.madkudu.com
@@ -288,8 +289,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.openapi-generator.tech
@@ -48,7 +48,7 @@ apis:
   description: The servers API from OpenAPI Generator — 3 operation(s) for servers.
   name: OpenAPI Generator Servers API
   slug: openapi-generator-servers-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -102,7 +102,7 @@ common:
   url: conformance/openapi-generator-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openapi-generator-mcp.yml
 - group: agent
   title: ''
@@ -192,10 +192,6 @@ finops:
   slug: openapi-generator-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openapi-generator.png
 layout: provider
-mcp_servers:
-- description: 'OpenAPI Generator publishes NO official hosted or remote MCP server. Searched on 2026-08-06: no /.well-known/* MCP or OAuth discovery document on either openapi-generator.tech or api.openapi-generator'
-  name: OpenAPI Generator MCP Server
-  slug: openapi-generator-mcp-server
 modified: '2026-08-06'
 name: OpenAPI Generator
 nav: Providers
@@ -215,13 +211,13 @@ rate_limits:
   slug: openapi-generator-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 41.3
   coverage:
     artifact_dirs: 21
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -231,9 +227,6 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 43.6
   provenance:
     conformance: derived
@@ -244,8 +237,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for managing Estimote devices (beacons): list and configure devices, associate cloud Attachments (custom key/value data) with a device, and read events reported by LTE beacons. Authenticated '
   name: Estimote Cloud API
   slug: estimote-cloud-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Estimote Lte Events Webhooks
@@ -103,7 +103,7 @@ common:
   url: well-known/estimote-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/estimote-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Estimote is a proximity and indoor-location company founded in 2012 that designs Bluetooth Low Energy, Ultra-Wideband (UWB) and LTE-M/NB-IoT beacons together with the Estimote Cloud platform for managing them at fleet scale. The Estimote Cloud REST API lets developers list and configure registered devices, attach contextual key/value data (Attachments) to individual beacons, and consume events reported by LTE beacons, authenticated with an App ID and App Token over HTTP Basic or, in private beta, OAuth 2.0. Native SDKs for iOS, Android, React Native and UWB deliver on-device proximity, indoor positioning, secure iBeacon/Eddystone broadcasting and beacon fleet management. Estimote is backed by a16z and Homebrew.
 image: https://estimote.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Estimote MCP Server
-  slug: estimote-mcp-server
 modified: '2026-08-08'
 name: Estimote
 nav: Providers
@@ -191,8 +187,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estimote/refs/heads/main/screenshots/estimote-2026-07-25T213641.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hypercore's production GraphQL API for private-credit loan management — a single GraphQL endpoint covering loans, equities, clients, funding sources, documents, statements, data tables, deal onboardin
   name: Hypercore GraphQL API
   slug: hypercore-graphql-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -119,7 +119,7 @@ common:
   url: security/hypercore-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hypercore-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Hypercore is a loan management and servicing platform built for private credit lenders, venture debt funds, and commercial real estate financiers. It manages loans end to end — from pipeline and deal onboarding through origination, funding-source allocation, servicing, and maturity — with automation, portfolio business intelligence, and an AI admin agent for loan workflows. The platform exposes a production GraphQL API (single endpoint at api.hypercore.ai/graphql, Docusaurus-documented at docs.hypercore.ai) covering loans, equities, clients, funding sources, documents, statements, data tables, notifications, imports, and a maker/checker change-request approval workflow. Hypercore is a Y Combinator and Insight Partners backed company headquartered in Tel Aviv, Israel, and is SOC 2 Type II certified.
 image: https://cdn.prod.website-files.com/657c16376a943cd358275fbf/65b8e695eeb2a467898bbd02_Open%20graph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hypercore MCP Server
-  slug: hypercore-mcp-server
 modified: '2026-07-19'
 name: Hypercore
 nav: Providers
@@ -169,8 +165,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/screenshots/hypercore-2026-07-25T221846.png
 security:

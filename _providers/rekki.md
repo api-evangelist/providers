@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The orders API from REKKI — 11 operation(s) for orders.
   name: REKKI orders API
   slug: rekki-orders-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: packages/rekki-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rekki-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: REKKI is a food wholesale ordering platform that connects restaurants and chefs (buyers) with their suppliers. Restaurants place orders through the REKKI app, and suppliers receive, confirm, and fulfil them. REKKI publishes a public Supplier API that lets suppliers programmatically manage their product catalog (items, inventory, price lists), receive and confirm orders, report integration status back to REKKI, and manage REKKI Connect customers and their order guides. Authentication uses a supplier bearer token plus an X-REKKI-Authorization-Type header. REKKI's current product suite also includes AI agents for wholesale distributors (OrderAI, InboxAI, MenuAI) and a Marketplace. REKKI was surfaced as a portfolio company of Creandum and Point Nine.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rekki.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: REKKI MCP Server
-  slug: rekki-mcp-server
 modified: '2026-07-21'
 name: REKKI
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/screenshots/rekki-2026-09-02T153301.png
 security:

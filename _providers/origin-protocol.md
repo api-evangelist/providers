@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.originprotocol.com
@@ -121,7 +121,7 @@ apis:
   description: The token API from Origin Protocol — 12 operation(s) for token.
   name: Origin Protocol token API
   slug: origin-protocol-token-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/origin-protocol-mcp.yml
 - group: other
   title: ''
@@ -238,10 +238,6 @@ created: '2026-07-17'
 description: Origin Protocol builds permissionless DeFi infrastructure for yield-bearing tokens on Ethereum and L2s. Its products include Origin Ether (OETH) and Super OETH liquid-staking tokens, the Origin Dollar (OUSD) yield-bearing stablecoin, Origin Sonic (OS), the Automated Redemption Manager (ARM) arbitrage vaults, and the OGN governance/value-accrual token backed by protocol-revenue buybacks. Origin publishes a public read-only Analytics REST API (api.originprotocol.com) that wraps its origin-squid indexer, exposing yield, supply, collateral, revenue, and buyback data. Backed by Pantera Capital; surfaced into the API Evangelist network and enriched from Origin's own developer surfaces.
 image: https://docs.originprotocol.com/~gitbook/image
 layout: provider
-mcp_servers:
-- description: ''
-  name: Origin Protocol MCP Server
-  slug: origin-protocol-mcp-server
 modified: '2026-07-20'
 name: Origin Protocol
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -658,9 +658,6 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -669,8 +666,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:

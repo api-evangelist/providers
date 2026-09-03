@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.dmarket.com
@@ -66,7 +66,7 @@ apis:
   description: History of your completed sales.
   name: DMarket Sold user items API
   slug: dmarket-sold-user-items-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -112,7 +112,7 @@ common:
   url: packages/dmarket-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dmarket-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: 'DMarket is a marketplace for trading in-game items and skins across titles like CS2 (CS:GO), Dota 2, Team Fortress 2, and Rust. It offers a public JSON-based Trading API that lets developers programmatically manage their DMarket inventory: read account balance, sync and deposit items from linked game inventories, create and manage sell offers, place standing buy orders (targets), buy and withdraw assets, read aggregated market prices, and pull sales history. Requests authenticate with a public API key plus a per-request Ed25519 signature. DMarket was surfaced as a portfolio company of Pantera Capital. Sector: crypto / gaming.'
 image: https://dmarket.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: DMarket MCP Server
-  slug: dmarket-mcp-server
 modified: '2026-07-18'
 name: DMarket
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/screenshots/dmarket-2026-07-25T212204.png
 security:

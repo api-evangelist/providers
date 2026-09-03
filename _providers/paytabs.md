@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -54,7 +54,7 @@ apis:
   description: Query and manage existing transactions.
   name: PayTabs Transactions API
   slug: paytabs-transactions-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: 'PayTabs delivers transaction outcomes to merchants via server-to-server HTTP POST notifications. There are two flavors of the same payload: the Callback (a one-time notification whose URL is passed pe'
   name: PayTabs IPN / Callback Notifications
@@ -190,7 +190,7 @@ common:
   url: packages/paytabs-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paytabs-mcp.yml
 - group: agent
   title: ''
@@ -252,10 +252,6 @@ finops:
   slug: paytabs-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paytabs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PayTabs MCP Server
-  slug: paytabs-mcp-server
 modified: '2026-07-17'
 name: PayTabs
 nav: Providers
@@ -311,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/screenshots/paytabs-2026-08-07T191705.png
 security:

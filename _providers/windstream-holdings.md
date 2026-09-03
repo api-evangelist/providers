@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.windstreamenterprise.com/'', ''status'': 301, ''note'': ''declared website redirects to https://solutions.uniti.com/ — a different registrable domain (windstreamenterprise.com -> uniti.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -297,8 +298,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Authenticated REST API surface behind the SidelineSwap developer portal — identity (IAM), commerce and secure payments on api.sidelineswap.com, plus a partner Inventory API (developer.sidelineswap.com
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 21.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sidelineswap/refs/heads/main/screenshots/sidelineswap-2026-09-02T155356.png
 security:

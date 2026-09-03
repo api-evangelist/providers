@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.screenleap.com/v2
@@ -41,7 +41,7 @@ apis:
   description: Create, retrieve, list and stop screen sharing sessions.
   name: Screenleap Inc Screen Shares API
   slug: screenleap-inc-screen-shares-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Screenleap Inc Webhooks
@@ -152,7 +152,7 @@ common:
   url: well-known/screenleap-inc-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/screenleap-inc-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ created: '2026-07-17'
 description: Screenleap is a Y Combinator-backed company whose API lets developers add live screen sharing, video conferencing, audio conferencing and chat to their own websites and online products. Integrations create a session server-to-server over a REST/JSON HTTP interface (base https://api.screenleap.com/v2), load a hosted screenleap.js library on the presenter's page, and render the share to viewers through a returned viewer URL or embedded iframe. Authentication uses an account id plus an auth token; billing is per participant-minute (Basic $0.003/min, White-Label $0.010/min) with no Screenleap subscription required.
 image: https://www.screenleap.com/img/screenleap-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Screenleap Inc MCP Server
-  slug: screenleap-inc-mcp-server
 modified: '2026-07-21'
 name: Screenleap Inc
 nav: Providers
@@ -210,8 +206,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenleap-inc/refs/heads/main/screenshots/screenleap-inc-2026-09-02T154612.png
 security:

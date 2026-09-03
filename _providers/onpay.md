@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   description: The User API from OnPay — 1 operation(s) for user.
   name: OnPay User API
   slug: onpay-user-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -102,7 +102,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/onpay-mcp.yml
 - group: other
   title: ''
@@ -216,10 +216,6 @@ created: '2026-08-04'
 description: OnPay is an Atlanta, Georgia based provider of full-service online payroll, HR, and employee benefits software for small and mid-size US businesses, founded in 2011 and funded by Carrick Capital Partners. The platform runs payroll and direct deposit, files federal, state, and local payroll taxes, and handles onboarding, PTO, org charts, health insurance, 401(k), and workers' compensation. For developers, OnPay publishes a partner-only REST API (v2) documented on a public ReadMe hub, covering employees, employee deductions, wages, leave, tax fields, bank accounts, terminations and rehires, company worksites, locations, departments and positions, pay schedules, and payroll reporting. Access is limited to approved partners, authorized with OAuth 2.0 authorization-code grants against app.onpay.com and role-scoped bearer tokens.
 image: https://onpay.com/wp-content/uploads/2017/08/d9fo84j1zi.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: OnPay MCP Server
-  slug: onpay-mcp-server
 modified: '2026-08-04'
 name: OnPay
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:

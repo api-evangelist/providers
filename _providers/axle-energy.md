@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -83,7 +83,7 @@ apis:
   description: Get example data for testing
   name: Axle Energy 8. Examples API
   slug: axle-energy-8-examples-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Axle Energy Dispatch Webhooks
@@ -175,7 +175,7 @@ common:
   url: components/axle-energy-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/axle-energy-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Axle Energy operates a virtual power plant (VPP) platform that connects distributed energy assets — electric vehicles, EV chargers, home batteries, and heat pumps — to electricity flexibility markets through a single unified API. Partners (carmakers, charger and battery OEMs, HVAC suppliers, and utilities) register sites and assets, prequalify and enrol them in flex propositions, stream telemetry and plug/charge events, and let end users monetise shiftable demand. The API covers authentication, meter lookup (MPAN), sites, assets, telemetry/readings, rewards/payouts, validation, and half-hourly price curves, with markets live across Great Britain, France, Germany, the Netherlands, Denmark and Sweden. React/hosted UI components and a documented outbound dispatch webhook round out the developer surface.
 image: https://cdn.prod.website-files.com/6706a319ca966248529c44be/6a4dc6c17d68be5261e80f8d_OG.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Axle Energy MCP Server
-  slug: axle-energy-mcp-server
 modified: '2026-07-18'
 name: Axle Energy
 nav: Providers
@@ -260,8 +256,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png
 security:

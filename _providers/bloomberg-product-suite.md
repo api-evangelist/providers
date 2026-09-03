@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The core API providing programmatic access to the Bloomberg data ecosystem including real-time prices, reference data, news, analytics, and Terminal functions.
@@ -142,8 +142,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-product-suite/refs/heads/main/screenshots/bloomberg-product-suite-2026-06-20T173456.png
 security:

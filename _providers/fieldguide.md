@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: Endpoints used to interact with Fieldguide Webhooks
   name: Fieldguide webhooks API
   slug: fieldguide-webhooks-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Fieldguide Webhooks
@@ -263,7 +263,7 @@ common:
   url: lifecycle/fieldguide-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fieldguide-mcp.yml
 - group: agent
   title: ''
@@ -293,10 +293,6 @@ created: '2026-07-17'
 description: Fieldguide is an AI-native platform for audit and advisory firms, providing professional-grade "Field Agents" that plan, execute, and document engagement work end-to-end across financial audit, SOC audits, IT audit, risk advisory, tax, cybersecurity, and regulatory compliance engagements. The platform pairs engagement management, document management, insights and analytics, and a client hub with an open REST API (api.fieldguide.io) that exposes companies, engagements, requests, sheets, files, comments, milestones, users, insights, and webhook subscriptions. Fieldguide is used by half of the top 100 firms, is SOC 2 Type 2 and ISO/IEC 42001 certified, and is backed by 8VC and Bessemer Venture Partners.
 image: https://app.fieldguide.io/img/logo192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fieldguide MCP Server
-  slug: fieldguide-mcp-server
 modified: '2026-07-19'
 name: Fieldguide
 nav: Providers
@@ -343,8 +339,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/screenshots/fieldguide-2026-07-25T214434.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: AI application firewall classify API. A Firewall client sends each sanitized classification input (user input, tool response, model output, or system prompt) with a hook label and optional tool name t
@@ -172,8 +172,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/screenshots/silmaril-2026-09-02T155504.png
 security:

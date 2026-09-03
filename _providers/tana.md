@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The AddToNodeV2 API from Tana — 1 operation(s) for addtonodev2.
   name: Tana AddToNodeV2 API
   slug: tana-addtonodev2-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -154,7 +154,7 @@ common:
   url: conformance/tana-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tana-mcp.yml
 - group: agent
   title: ''
@@ -184,10 +184,6 @@ created: '2026-07-17'
 description: 'Tana Inc. builds two products that share the Tana brand: Tana, an agentic meeting platform where AI agents do real work during native video calls and land decisions, tasks, and drafts in a persistent context graph; and Tana Outliner, a knowledge-management tool built on an infinite outliner with supertags and nodes. Tana exposes two public HTTP APIs — the Tana Input API for programmatically adding nodes, fields, and supertags to an Outliner workspace graph (workspace-scoped bearer-token auth), and a public agent-native Documentation API for searching and reading Tana docs as clean markdown. Backed by Lightspeed Venture Partners and Northzone.'
 image: https://tana.inc/opengraph-image/default
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tana MCP Server
-  slug: tana-mcp-server
 modified: '2026-07-21'
 name: Tana
 nav: Providers
@@ -230,8 +226,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/screenshots/tana-2026-08-17T082245.png
 security:

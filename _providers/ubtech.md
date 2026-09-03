@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: http://<robot-ip>:9090/v1
@@ -41,7 +41,7 @@ apis:
   description: Receive data from remote device.
   name: UBTech subscriptions API
   slug: ubtech-subscriptions-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Ubtech Yanshee Subscriptions Webhooks
@@ -108,7 +108,7 @@ common:
   url: packages/ubtech-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ubtech-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: UBTech Robotics is a Shenzhen-based robotics company building humanoid robots (the Walker series), commercial service robots (Cruzr, CADEBOT), AI education robots and kits (Yanshee, uKit, UGOT, Jimu), and consumer smart hardware (Alpha robots, AIRROBO). Its developer surface centers on the Yanshee educational humanoid, an open Raspberry Pi-based robot that exposes a device-local REST API (Yanshee Open ADK, Swagger 2.0) with an on-robot Swagger UI, a push-based subscription event surface, and Python, C, and Arduino SDKs published through the UBTEDU GitHub organization.
 image: https://avatars.githubusercontent.com/u/32864785?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: UBTech MCP Server
-  slug: ubtech-mcp-server
 modified: '2026-07-21'
 name: UBTech
 nav: Providers
@@ -200,8 +196,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/screenshots/ubtech-2026-09-02T164832.png
 security:

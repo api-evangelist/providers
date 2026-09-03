@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - baseURL: https://mainnet-indexer.sequence.app
@@ -61,7 +61,7 @@ apis:
   description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
   name: Sequence secret API
   slug: sequence-secret-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Sequence Indexer Webhooks
@@ -160,7 +160,7 @@ common:
   url: llms/sequence-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sequence-mcp.yml
 - group: agent
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: 'Sequence is a web3 developer platform (0xsequence, now part of Polygon Labs) for building blockchain applications: smart-contract wallets, a universal crypto payments and swap layer, a real-time multi-chain Indexer with balances, token prices, contract events and webhooks, plus Metadata, Marketplace, Transactions (Relayer) and Analytics APIs. Its backend APIs are webrpc-generated (POST /rpc/{Service}/{Method}) authenticated with a project access key and secret JWT, and it ships first-party SDKs for TypeScript, Go, Unity, Unreal, Kotlin and Swift plus a CLI. Backed by a16z and Polychain.'
 image: https://sequence.xyz/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sequence MCP Server
-  slug: sequence-mcp-server
 modified: '2026-07-21'
 name: Sequence
 nav: Providers
@@ -260,8 +256,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/screenshots/sequence-2026-08-17T081813.png
 security:

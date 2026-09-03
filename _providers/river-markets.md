@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The watchlists API from River Markets — 4 operation(s) for watchlists.
   name: River Markets watchlists API
   slug: river-markets-watchlists-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: 'Real-time WebSocket streams over wss://api.rivermarkets.com. Client frames are JSON text; server frames are orjson-serialized UTF-8 bytes. Handshake auth uses the Ed25519 signed-request flow moved to '
   name: River Markets Streaming API
@@ -231,7 +231,7 @@ common:
   url: data-model/river-markets-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/river-markets-mcp.yml
 - group: other
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: River Markets is a unified prime brokerage for prediction markets, consolidating multiple exchanges — Kalshi, Polymarket, and Polymarket US (with Novig and Rothera planned) — behind a single account, order-management system, and REST + WebSocket API. Every contract across all venues is assigned a unified River ID, so professional and institutional traders can search markets, place and route orders (including icebergs, pegs, stop-losses, and take-profits with smart order routing), track positions and P&L across isolated subaccounts, and stream live fills, orderbooks, orders, and trade prints from one integration. Requests are Ed25519-signed so the private key never leaves the client process. Founded by ex-BlackRock and high-frequency trading quants and backed by Y Combinator (Spring 2026).
 image: https://rivermarkets.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: River Markets MCP Server
-  slug: river-markets-mcp-server
 modified: '2026-07-21'
 name: River Markets
 nav: Providers
@@ -304,8 +300,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/screenshots/river-markets-2026-09-02T153922.png
 security:

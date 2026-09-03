@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful v1 API for the August Health EHR platform covering organizations, facilities, rooms, census, residents, contacts, assessments, incidents & notes, medications (orders and administrations), vita
   name: August Health API
   slug: august-health-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: Event surface for the August Health EHR platform. Consumers subscribe via the webhooks application portal and receive HTTP POST callbacks. Each delivery carries the envelope { eventType, eventId, even
   name: August Health Webhooks
@@ -139,7 +139,7 @@ common:
   url: asyncapi/august-health-events-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/august-health-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: August Health is an AI-enabled electronic health record (EHR) platform purpose-built for senior living and eldercare communities, spanning Move-Ins, EHR, eMAR, Care Track, Billing & Payments, and Insights. It publishes a RESTful v1 API and a developer portal (developer.augusthealth.com) that lets integration partners read and write resident, clinical, medication, billing, and census data, plus a webhook event surface for resident-lifecycle and billing events. Auth is bearer-JWT with named permissions; the platform is SOC 2 (AICPA) and HIPAA certified. August Health is backed by General Catalyst and Matrix Partners.
 image: https://files.readme.io/1aa624066285820f9957c79e0fe44d8330186bc54681b372c14ed43fc2b25b60-small-AugustHealth_-_PrimaryLogoMark_-_RGB_-_FullColorAlt.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: August Health MCP Server
-  slug: august-health-mcp-server
 modified: '2026-07-18'
 name: August Health
 nav: Providers
@@ -214,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png
 security:

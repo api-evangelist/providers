@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://prod-public-api.getrentcheck.com
@@ -191,7 +191,7 @@ apis:
   description: The Work Orders V2 API from RentCheck — 1 operation(s) for work orders v2.
   name: RentCheck Work Orders V2 API
   slug: rentcheck-work-orders-v2-api
-artifact_total: 66
+artifact_total: 65
 collections:
 - collection_type: open
   name: API Collection
@@ -332,7 +332,7 @@ common:
   url: data-model/rentcheck-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rentcheck-mcp.yml
 - group: agent
   title: ''
@@ -406,10 +406,6 @@ created: '2026-07-17'
 description: RentCheck is a resident-led property inspection platform used by 1,000+ property management companies to run guided move-in, move-out, routine, and maintenance inspections that residents complete from their smartphone, producing standardized, time-stamped photo reports. Its REST API (OpenAPI 3.1, 160 paths / 217 operations) lets developers pull property, unit, building, community, and resident data, schedule and create inspections from customizable templates, review inspection features and photos, flag maintenance issues, and wire results into property-management systems such as AppFolio, Rent Manager, Rentvine, Buildium, Latchel, and Zapier.
 image: https://cdn.prod.website-files.com/64c252917dda086383e12e96/6945920e3577a32b09f7b34d_RentCheck_Open_Graph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: RentCheck MCP Server
-  slug: rentcheck-mcp-server
 modified: '2026-07-20'
 name: RentCheck
 nav: Providers
@@ -447,8 +443,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/screenshots/rentcheck-2026-08-17T081520.png
 security:

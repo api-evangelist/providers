@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The current ReadMe API for managing your project programmatically — API keys, API definitions, reference/guides/custom pages, categories, branches, changelog entries, recipes, images, fonts, Owlbot AI
@@ -45,7 +45,7 @@ apis:
 - description: The legacy ReadMe API (HTTP Basic auth with an API key) for docs, categories, versions, custom pages, changelog, API specification upload, the API registry, and search. Not available to projects using
   name: ReadMe API (v1, Legacy)
   slug: readme-api-v1-legacy
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -149,7 +149,7 @@ common:
   url: lifecycle/readmeio-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/readmeio-mcp.yml
 - group: agent
   title: ''
@@ -167,10 +167,6 @@ created: '2026-07-17'
 description: 'ReadMe is a developer-experience platform that turns an OpenAPI definition into interactive, personalized API documentation and developer hubs — complete with a live API Explorer ("Try It!"), guides, recipes, a changelog, discussions, and Developer Metrics that show how real users call your API. Teams manage their docs as code (Git-synced, branch-based via ReadMe Refactored) and programmatically through the ReadMe API. This profile catalogs ReadMe''s own public APIs: the ReadMe API v2 (Bearer-token, RFC 9457 errors), the Developer Metrics API, and the Legacy API v1.'
 image: https://readme.com/public/img/readme-og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ReadMe.io MCP Server
-  slug: readmeio-mcp-server
 modified: '2026-07-20'
 name: ReadMe.io
 nav: Providers
@@ -203,8 +199,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readmeio/refs/heads/main/screenshots/readmeio-2026-09-02T152949.png
 security:

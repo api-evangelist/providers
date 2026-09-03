@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 30
@@ -454,7 +454,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -464,7 +464,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 57.9
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -475,8 +475,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/screenshots/onetrust-2026-06-20T190718.png
 security:

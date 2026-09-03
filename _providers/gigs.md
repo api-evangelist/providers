@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for embedded mobile connectivity: manage projects, plans, users, subscriptions, SIMs (eSIM/pSIM), devices, number portings, add-ons, usage and vouchers. Bearer API-key auth, cursor pagination'
   name: Gigs Core API
   slug: gigs-core-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Gigs Events Webhooks
@@ -135,7 +135,7 @@ common:
   url: asyncapi/gigs-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gigs-mcp.yml
 - group: design
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Gigs is the operating system for embedded telecom, giving any technology brand the ability to launch and operate mobile phone and data plans without becoming a mobile network operator. The Gigs Core API (base https://api.gigs.com) exposes REST resources for projects, plans, users, addresses, subscriptions, SIMs (eSIM and physical), devices, number portings and port-outs, add-ons, subscription changes, usage and usage balances, and vouchers, secured with per-project Bearer API keys. Gigs also ships Connect (a prebuilt embeddable checkout), integrated Payments, an Operator automation layer, a Dashboard, and a Svix-backed webhook/event stream. Backed by Ribbit Capital and Speedinvest.
 image: https://i.gigscdn.net/docs/v1/embedded-connectivity.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gigs MCP Server
-  slug: gigs-mcp-server
 modified: '2026-07-19'
 name: Gigs
 nav: Providers
@@ -222,8 +218,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigs/refs/heads/main/screenshots/gigs-2026-07-25T215810.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -289,14 +289,14 @@ rate_limits:
   name: Marqo Rate Limits
   slug: marqo-rate-limits
 score:
-  band: developing
-  composite: 43.4
+  band: thin
+  composite: 37.1
   coverage:
     artifact_dirs: 10
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -6.3
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -306,9 +306,6 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -317,9 +314,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/screenshots/marqo-2026-06-20T185006.png
 security:
 - kind: authentication

@@ -1,11 +1,13 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
-  source: []
+  source:
+  - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -152,8 +154,8 @@ score:
   previous_composite: 23.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebrandvalue/refs/heads/main/screenshots/ebrandvalue-2026-07-25T212728.png
 security:

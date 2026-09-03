@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The StopGroups API from TicTacTrip — 2 operation(s) for stopgroups.
   name: TicTacTrip StopGroups API
   slug: tictactrip-stopgroups-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -131,7 +131,7 @@ common:
   url: overlays/tictactrip-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tictactrip-mcp.yml
 - group: design
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: TicTacTrip is a European multimodal travel search and booking platform (Techstars-backed) that aggregates train and bus inventory from 250+ carriers across 20+ European countries into single, combined itineraries. Its REST API exposes stop and city discovery, multimodal itinerary search with CO2 emissions per journey, and a full booking workflow — cart, order, book, e-ticket and cancellation — authenticated with partner bearer JWTs (API_SEARCH_PARTNER / API_BOOK_PARTNER roles). API access is provisioned via sales@tictactrip.eu.
 image: https://developers.tictactrip.eu/img/logoTextBlack.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: TicTacTrip MCP Server
-  slug: tictactrip-mcp-server
 modified: '2026-07-21'
 name: TicTacTrip
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/screenshots/tictactrip-2026-09-02T163709.png
 security:

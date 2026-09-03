@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -259,8 +259,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:

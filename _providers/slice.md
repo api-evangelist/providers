@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -132,6 +132,10 @@ common:
   title: ''
   type: Blog
   url: https://blog.slicelife.com/feed/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.slicelife.com/
 created: '2026-06-02'
 description: Slice is an online ordering and management platform built specifically for independent local pizzerias, giving small shops digital ordering, marketing, loyalty, and back-office tools that compete with large delivery marketplaces at a low flat per-order fee. For technology partners, Slice publishes a Slice Public API documented on a Stoplight developer portal, exposing pizzeria-oriented resources such as shops and orders over a RESTful HTTP interface in two versions (v1 and v2). The platform serves pizzeria owners and the partners that integrate ordering, POS, and operations into the Slice network across thousands of locations.
 finops:
@@ -155,7 +159,7 @@ overview: 'Slice publishes 2 APIs on the [APIs.io](https://apis.io/) network: Or
   The Slice catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Slice''s developer surface includes authentication, documentation, getting-started guide, pricing, support, engineering blog, and 10 more developer resources.'
+  Slice''s developer surface includes authentication, documentation, getting-started guide, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Slice Plans Pricing
   plan_count: 3
@@ -203,8 +207,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/screenshots/slice-2026-06-20T194029.png
 security:

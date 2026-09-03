@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Parcel is Oasis Labs' data-governance API for uploading and tokenizing sensitive data, defining programmable access grants and permissions, running confidential compute jobs over that data, and managi
   name: Oasis Labs Parcel API
   slug: oasis-labs-parcel-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oasis-labs-mcp.yml
 - group: company
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Oasis Labs builds privacy-preserving data and compute technologies. Its developer platform, Parcel, is a data-governance API for uploading, tokenizing, and computing over sensitive datasets under programmable access grants, with confidential compute jobs and identity/permission management. Oasis Labs also ships PrivateSQL (differential-privacy SQL analytics) and privacy-preserving AI tooling built on secure enclaves, MPC, homomorphic encryption, and zero-knowledge proofs. The company was founded out of UC Berkeley and is backed by a16z, DCVC, Pantera Capital, and Polychain. The Parcel REST API is documented at docs.oasislabs.com with an official TypeScript SDK and OAuth2 client-credentials (private_key_jwt) authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oasis-labs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oasis Labs MCP Server
-  slug: oasis-labs-mcp-server
 modified: '2026-07-20'
 name: Oasis Labs
 nav: Providers
@@ -165,8 +161,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oasis-labs/refs/heads/main/screenshots/oasis-labs-2026-08-07T185904.png
 security:

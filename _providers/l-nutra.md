@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The agent-facing commerce surface of L-Nutra's direct-to-consumer ProLon storefront. An anonymous MCP endpoint at https://prolonlife.com/api/ucp/mcp implements Universal Commerce Protocol 2026-04-08 a
@@ -202,8 +202,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/l-nutra/refs/heads/main/screenshots/l-nutra-2026-09-02T150213.png
 security:

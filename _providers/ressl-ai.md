@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://simulation.ressl.ai
@@ -46,7 +46,7 @@ apis:
   description: Provision short-lived hosted mock SaaS APIs
   name: Ressl Snapshots API
   slug: ressl-ai-snapshots-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -100,7 +100,7 @@ common:
   url: well-known/ressl-ai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ressl-ai-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +146,6 @@ created: '2026-07-17'
 description: Ressl (ressl.ai) is a Y Combinator-backed platform that provisions hosted mock SaaS APIs for AI agents and evaluations. Its control-plane API lets you list the mock providers your organization is granted (for example jira, salesforce, slack, plus UI clones of Gmail Business and LinkedIn) and create a short-lived snapshot of one provider that returns a public HTTPS base URL your agent can call - no real customer tenant required. Snapshots carry deterministic or seeded synthetic data and expire on a TTL (default one hour, up to seven days). Control traffic runs on simulation.ressl.ai; provisioned mock traffic is served from *.mock.ressl.cc. Ressl helps teams train, benchmark, and deploy autonomous agents by giving them realistic SaaS surfaces to act against safely.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ressl-ai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ressl MCP Server
-  slug: ressl-mcp-server
 modified: '2026-07-20'
 name: Ressl
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/screenshots/ressl-ai-2026-09-02T153606.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Cuvva''s fleet of public single-purpose service APIs — auth (OAuth 2.0), vehicle lookup, MOT status, motor-coverage quotes/policies, billing, promo, profile, upload, terms, notification and more. Most '
@@ -174,8 +174,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuvva/refs/heads/main/screenshots/cuvva-2026-07-25T211014.png
 security:

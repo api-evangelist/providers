@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -287,6 +287,10 @@ collections:
   name: LaunchDarkly Relay Proxy Access Tokens Workflows API
   slug: open-launchdarkly-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/launchdarkly-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -742,7 +746,7 @@ overview: 'LaunchDarkly publishes 29 APIs on the [APIs.io](https://apis.io/) net
   The LaunchDarkly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  LaunchDarkly''s developer surface includes authentication, engineering blog, CLI, changelog, sandbox, documentation, API reference, and 41 more developer resources.'
+  LaunchDarkly''s developer surface includes authentication, engineering blog, CLI, changelog, sandbox, documentation, API reference, and 42 more developer resources.'
 plans:
 - name: Launchdarkly Plans Pricing
   plan_count: 4
@@ -783,11 +787,11 @@ score:
   band: exemplar
   composite: 77.9
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -797,7 +801,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 92.1
-  previous_composite: 78.0
+  previous_composite: 77.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -808,8 +812,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/screenshots/launchdarkly-2026-06-20T184335.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ arazzos:
 - description: Submit a consumer lead to Engine by MoneyLion and read back the resulting rate table of offers.
   name: Submit a lead and retrieve its rate table
   slug: even-financial-submit-lead-rate-table
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Even Financial Webhooks
@@ -176,7 +176,7 @@ common:
   url: llms/even-financial-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/even-financial-mcp.yml
 - group: design
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: Engine by MoneyLion (formerly Even Financial) operates an embedded-finance search, comparison and recommendation engine for financial services. Its API matches consumers to personalized financial products — personal loans, credit cards, savings and deposit accounts, auto refinancing, HELOC and insurance — by submitting a lead (a user plus product search criteria) in exchange for a rate table of offers. The platform pairs the native API with embeddable marketplaces, calculators, widgets and mobile SDKs, plus approval-probability reports and channel-partner analytics. Even Financial was founded in 2015, backed by Canaan Partners, and rebranded to Engine by MoneyLion in 2023 following MoneyLion's acquisition.
 image: https://cdn.prod.website-files.com/65c76d4633ca994639a589c7/65e2220541631373794b6e17_opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Even Financial MCP Server
-  slug: even-financial-mcp-server
 modified: '2026-07-19'
 name: Even Financial
 nav: Providers
@@ -273,8 +269,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:

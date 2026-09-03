@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for the Class virtual classroom platform. Manage classes, enrollments, schedules, templates, and non-learner users; generate per-user launch URLs; and pull attendance and activity reporting. '
   name: Class API
   slug: class-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: start
   title: ''
@@ -111,7 +111,7 @@ common:
   url: lifecycle/class-technologies-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/class-technologies-mcp.yml
 - group: auth
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Class Technologies Inc. builds Class, a virtual instructor-led learning platform that layers a full classroom experience on top of Zoom and Microsoft Teams, plus the web-based Class Collaborate. It gives instructors breakout rooms, whiteboards, polling, chat, attendance, transcription, a gradebook, engagement scoring, and deep LMS integration for K-12, higher education, corporate training, government (FedRAMP), healthcare (HIPAA), and financial services. Class exposes a REST API (developer.class.com) for managing classes, enrollments, schedules, templates, users, launch URLs, and attendance/activity reporting, secured with scoped API-key bearer tokens.
 image: https://www.class.com/wp-content/uploads/2024/03/class-virtual-classroom-featured.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Class Technologies MCP Server
-  slug: class-technologies-mcp-server
 modified: '2026-07-18'
 name: Class Technologies
 nav: Providers
@@ -166,8 +162,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-technologies/refs/heads/main/screenshots/class-technologies-2026-07-25T205514.png
 security:

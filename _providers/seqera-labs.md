@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.cloud.seqera.io
@@ -176,7 +176,7 @@ apis:
   description: Workspaces in an organization context
   name: Seqera Labs workspaces API
   slug: seqera-labs-workspaces-api
-artifact_total: 62
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -372,7 +372,7 @@ common:
   url: data-model/seqera-labs-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/seqera-labs-mcp.yml
 - group: agent
   title: ''
@@ -406,10 +406,6 @@ created: '2026-07-17'
 description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines across cloud and HPC compute. Its product family also includes Wave (on-demand container provisioning), Fusion (a distributed file system for cloud pipelines), Data Studios (interactive analysis environments), and MultiQC. The Seqera Platform exposes a REST API (OpenAPI 3.0.1, 250 operations) plus a CLI (tw) and Python automation (seqerakit), and implements the GA4GH Workflow Execution Service (WES) standard.
 image: https://avatars.githubusercontent.com/u/32700669?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Seqera Labs MCP Server
-  slug: seqera-labs-mcp-server
 modified: '2026-07-21'
 name: Seqera Labs
 nav: Providers
@@ -453,8 +449,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
 security:

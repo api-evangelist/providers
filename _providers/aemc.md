@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Application settings exposed to the client.
   name: Australian Energy Market Commission Settings API
   slug: aemc-settings-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: AEMC Energy Rules API
@@ -166,7 +166,7 @@ common:
   url: conformance/aemc-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aemc-mcp.yml
 - group: agent
   title: ''
@@ -216,10 +216,6 @@ examples:
   slug: aemc-energy-rules-searchRuleVersion
 image: https://www.aemc.gov.au/sites/default/files/AEMC_RGB_Favicon_swirl_STRONG_512x512px.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Australian Energy Market Commission MCP Server
-  slug: australian-energy-market-commission-mcp-server
 modified: '2026-07-27'
 name: Australian Energy Market Commission
 nav: Providers
@@ -268,8 +264,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

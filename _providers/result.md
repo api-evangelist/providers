@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -219,8 +219,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/screenshots/result-2026-08-17T081542.png
 security:

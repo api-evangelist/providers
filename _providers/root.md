@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -132,7 +132,10 @@ apis:
   description: The Webhooks API from Root Insurance — 9 operation(s) for webhooks.
   name: Root Insurance Webhooks API
   slug: root-webhooks-api
-artifact_total: 329
+- description: iOS and Android app that measures driving behavior via smartphone telematics, generates a usage-based price, and handles enrollment, policy management, and claims (3-minute claim filing). Telematics i
+  name: Root Consumer Mobile App
+  slug: consumer-app
+artifact_total: 330
 collections:
 - collection_type: open
   name: API Collection
@@ -253,6 +256,10 @@ common:
   title: ''
   type: FinOps
   url: finops/root-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.joinroot.com/blog
 created: '2026-06-13'
 description: Root Insurance is a usage-based auto insurance company that prices policies primarily based on driving behavior captured via smartphone telematics. Root provides a REST API platform for insurers, MGAs, and distribution partners to build, embed, and operate insurance products — covering quoting, policy administration, claims processing, premium collections, and data management. The Root Bind API enables partners to embed auto insurance quoting and checkout directly into their applications.
 examples:
@@ -1130,7 +1137,7 @@ overview: 'Root Insurance publishes 17 APIs on the [APIs.io](https://apis.io/) n
   The Root Insurance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Root Insurance''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Root Insurance''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Root Plans Pricing
   plan_count: 4
@@ -1183,8 +1190,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 34.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/screenshots/root-2026-06-20T193217.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.rasgoml.com
@@ -41,7 +41,7 @@ apis:
   description: Table metadata operations
   name: Rasgo Metadata API
   slug: rasgo-metadata-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -116,7 +116,7 @@ common:
   url: changelog/rasgo-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rasgo-mcp.yml
 - group: agent
   title: ''
@@ -126,10 +126,6 @@ created: '2026-07-17'
 description: Rasgo is an AI-powered Copilot for your data warehouse, letting teams query and analyze their data through natural-language interfaces while the data stays inside their existing warehouse. The Rasgo AI agent translates data-warehouse metadata into an LLM-friendly form and can be trained on a specific business domain through natural-language notes. It supports Snowflake and BigQuery (with Redshift and Delta Lake via Databricks on the roadmap) and integrates with OpenAI, Anthropic, Gemini, and dbt Cloud. Rasgo also offers a beta HTTP API (Enterprise plans and above) and an official Python SDK, pyrasgo, that grew out of its earlier data feature-engineering product line. Rasgo is backed by Insight Partners.
 image: https://assets.website-files.com/6276a6c8de0316128b0a3844/6276a6c8de03160de50a38c5_rasgo-logo-inverted-rgb.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rasgo MCP Server
-  slug: rasgo-mcp-server
 modified: '2026-07-20'
 name: Rasgo
 nav: Providers
@@ -167,8 +163,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasgo/refs/heads/main/screenshots/rasgo-2026-09-02T152909.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.buildingconnected.com/'', ''status'': 301, ''note'': ''declared website redirects to https://construction.autodesk.com/products/buildingconnected/ — a different registrable domain (buildingconnected.com -> autodesk.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction data — opportunities, bid packages, and users — versioned under /v2 and secured with Autodesk OAuth 2.0.
@@ -156,8 +157,8 @@ score:
   previous_composite: 30.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildingconnected/refs/heads/main/screenshots/buildingconnected-2026-07-25T204053.png
 security:

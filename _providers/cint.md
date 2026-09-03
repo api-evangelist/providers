@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-09-02'
+  score: 44.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ arazzos:
 - description: Create a project and target group, check feasibility, then launch a fielding run.
   name: Launch a Cint Exchange Target Group
   slug: cint-launch-target-group
-artifact_total: 58
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Cint Webhooks
@@ -351,7 +351,7 @@ common:
   url: data-model/cint-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cint-mcp.yml
 - group: agent
   title: ''
@@ -373,10 +373,6 @@ created: '2026-07-17'
 description: 'Cint is the world''s largest global research marketplace, connecting researchers, brands, and agencies with millions of survey respondents across 130+ countries. The Cint Exchange Demand API is a REST API for buying market-research sample programmatically: create projects and target groups, run feasibility, launch and manage fielding runs, handle respondent exclusions and recontacts, reconcile completed interviews, and receive event notifications via webhooks. Cint also operates Lucid Measurement (ad-campaign brand lift) and Cint Engage (audience monetization). Surfaced as a Creandum portfolio company and enriched from Cint''s public developer portal.'
 image: https://www.cint.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cint MCP Server
-  slug: cint-mcp-server
 modified: '2026-07-18'
 name: Cint
 nav: Providers
@@ -418,8 +414,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
 security:

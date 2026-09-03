@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-09-02'
+  score: 30.8
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.partstech.com
@@ -205,7 +205,7 @@ apis:
   description: VIN Methods
   name: PartsTech Vin API
   slug: partstech-vin-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Partstech Webhooks
@@ -221,7 +221,7 @@ common:
   url: overlays/partstech-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/partstech-mcp.yml
 - group: agent
   title: ''
@@ -307,10 +307,6 @@ created: '2026-08-26'
 description: PartsTech is a web-based automotive parts and tire procurement platform for repair shops, tire shops and dealers, connecting more than 30,000 shops to 300+ aftermarket parts and tire suppliers across 30,000+ distribution locations through a single search, quote and ordering workflow. Founded by Greg Kirber and Erik St. Pierre and acquired by OEConnection (OEC) in 2025, PartsTech pairs its shop-facing web application with a partner-facing REST API — the PartsTech External API — used by 35+ shop management systems (SMS), point-of-sale and estimating vendors to embed parts search, VIN and license plate decoding, ACES/PCdb/VCdb taxonomy lookups, live wholesale pricing and availability, punchout carts, quoting, tire search, MOTOR and Mitchell 1 labor/maintenance content, order history and local inventory into their own software.
 image: https://partstech.com/wp-content/uploads/2024/04/partstech-fb-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: PartsTech MCP Server
-  slug: partstech-mcp-server
 modified: '2026-08-26'
 name: PartsTech
 nav: Providers
@@ -339,7 +335,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -349,7 +345,7 @@ score:
     discoverability: 50.0
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 53.4
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -359,8 +355,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partstech/refs/heads/main/screenshots/partstech-2026-09-02T150917.png
 security:

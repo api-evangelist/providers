@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.keyper.io/access
@@ -46,7 +46,7 @@ apis:
   description: Send access / entry transactions to keyper.
   name: Keyper Transactions API
   slug: keyper-transactions-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -60,7 +60,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/keyper-mcp.yml
 - group: other
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: keyper is an Austrian technology company providing connected ticketing and digital access solutions. Its developer platform lets ticketing systems, resellers and access control systems (ACS) deliver e-tickets and exchange access data through the keyper Access API, Connect Provider / Reseller APIs, Ticket Delivery API, native Android and iOS SDKs, and embeddable web components (seatmaps and checkout). The Access API sends entry transactions for keys (ticket barcodes) and their permissions (events), and returns the Grant / Block permission whitelist an access control system enforces at the gate. keyper serves sports, arts and culture organisations across Austria and Central Europe and is backed by Speedinvest.
 image: https://www.keyper.com/wp-content/uploads/keyper-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Keyper MCP Server
-  slug: keyper-mcp-server
 modified: '2026-07-19'
 name: Keyper
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/screenshots/keyper-2026-07-25T223658.png
 security:

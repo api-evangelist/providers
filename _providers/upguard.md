@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -133,7 +133,7 @@ apis:
   description: The webhooks API from UpGuard — 3 operation(s) for webhooks.
   name: UpGuard webhooks API
   slug: upguard-webhooks-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Upguard Webhooks
@@ -319,7 +319,7 @@ common:
   url: packages/upguard-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/upguard-mcp.yml
 - group: design
   title: ''
@@ -337,10 +337,6 @@ created: '2026-07-17'
 description: UpGuard is a cybersecurity platform that helps organizations manage and reduce their cyber risk. Its products cover third-party vendor risk management (Vendor Risk), attack surface management and external threat monitoring (Breach Risk), and AI-powered security questionnaire automation and trust center tooling (Trust Exchange). The UpGuard CyberRisk API exposes the platform programmatically — vendors and security ratings, risks and vulnerabilities, domains and IPs, data leak disclosures, identity breaches, typosquatting, questionnaires, subsidiaries, labels, notifications, and webhooks — authenticated with an API key from CyberRisk account settings.
 image: https://content.upguard.com/hubfs/open-graph/home.png
 layout: provider
-mcp_servers:
-- description: 'No official UpGuard MCP server was found (official MCP registry search returned zero results; no @upguard npm packages; no MCP mention in the API docs). This is a candidate tool list derived from the '
-  name: UpGuard MCP Server
-  slug: upguard-mcp-server
 modified: '2026-07-21'
 name: UpGuard
 nav: Providers
@@ -382,8 +378,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/screenshots/upguard-2026-08-17T082637.png
 security:

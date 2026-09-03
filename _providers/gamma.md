@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
@@ -156,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/screenshots/gamma-2026-07-25T215428.png
 security:

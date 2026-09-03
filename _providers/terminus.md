@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The account-based marketing platform API behind Terminus (now the DemandScience ABM Platform). The API host api.terminusplatform.com is live and answers every anonymous request with HTTP 401 "Authenti
@@ -201,8 +201,8 @@ score:
   previous_composite: 31.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/screenshots/terminus-2026-09-02T163148.png
 security:

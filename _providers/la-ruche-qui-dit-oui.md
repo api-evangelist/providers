@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.thefoodassembly.com
@@ -56,7 +56,7 @@ apis:
   description: Products and offers on sale for a distribution.
   name: La Ruche qui dit Oui! Sale API
   slug: la-ruche-qui-dit-oui-sale-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -76,7 +76,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/la-ruche-qui-dit-oui-mcp.yml
 - group: auth
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: La Ruche qui dit Oui! is a French direct-from-farmer food marketplace, founded in Paris in 2010 and known in English-speaking markets as The Food Assembly. It connects members with local and European producers through neighbourhood assemblies ("ruches" / hives) and, since a May 2025 merger with CrowdFarming, through direct home delivery of seasonal boxes, subscriptions and harvest "adoptions" in which a member reserves the output of a specific tree, hive or plot for a season. The company operated a public member-facing REST API documented as the Food Assembly API — OAuth 2 token issuance, assembly membership, distribution product and offer listings, and the basket/order payment flow — published as an API Blueprint in the lrqdo/developer repository. That developer documentation has not been updated since 2017, and there is no current developer portal, but the API host remains live behind bearer authentication.
 image: https://laruchequiditoui.fr/img/seo/og-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: La Ruche qui dit Oui! MCP Server
-  slug: la-ruche-qui-dit-oui-mcp-server
 modified: '2026-07-19'
 name: La Ruche qui dit Oui!
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

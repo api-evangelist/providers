@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -284,14 +284,14 @@ rules:
     warn: 2
   slug: aklivity-spectral-rules
 score:
-  band: strong
-  composite: 56.5
+  band: developing
+  composite: 51.7
   coverage:
     artifact_dirs: 24
     catalog_gap: 36.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.8
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -301,16 +301,13 @@ score:
     discoverability: 64.8
     governance: 72.7
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 56.5
   provenance:
     conformance: first-party
     mcp: derived
     skills: unknown
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
 security:

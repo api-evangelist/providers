@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.3
-  scored_at: '2026-09-02'
+  score: 46.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -1055,8 +1055,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/screenshots/ahasend-2026-06-20T170542.png
 security:

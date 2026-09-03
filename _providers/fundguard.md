@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A Model Context Protocol server served from FundGuard's own corporate web host via the WordPress MCP adapter, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-res
@@ -188,8 +188,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundguard/refs/heads/main/screenshots/fundguard-2026-08-07T165522.png
 security:

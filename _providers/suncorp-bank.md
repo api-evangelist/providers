@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: Banking Product endpoints
   name: Suncorp Bank Banking Products API
   slug: suncorp-bank-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -162,7 +162,7 @@ common:
   url: conventions/suncorp-bank-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/suncorp-bank-mcp.yml
 - group: agent
   title: ''
@@ -216,10 +216,6 @@ created: '2026-07-20'
 description: Suncorp Bank is an Australian retail and business bank headquartered in Brisbane, Queensland, offering transaction and savings accounts, home and personal lending, credit cards, and business banking. Formerly the banking arm of Suncorp Group, it was acquired by Australia and New Zealand Banking Group (ANZ) on 31 July 2024 and now operates as a division of ANZ while retaining the Suncorp Bank brand under a multi-year transition. As an authorised deposit-taking institution (ADI) it is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, powered by the Frollo PRD portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suncorp-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Suncorp Bank MCP Server
-  slug: suncorp-bank-mcp-server
 modified: '2026-07-21'
 name: Suncorp Bank
 nav: Providers
@@ -273,8 +269,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png
 security:

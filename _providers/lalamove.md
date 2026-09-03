@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Lalamove Delivery API (v3) is a REST API for on-demand and scheduled courier delivery. Partners request a quotation for a route of stops, place an order against that quotation, retrieve order and '
   name: Lalamove Delivery API
   slug: lalamove-delivery-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Lalamove Delivery Webhooks
@@ -47,7 +47,7 @@ asyncapis:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lalamove-mcp.yml
 - group: company
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Lalamove is a Hong Kong-founded on-demand logistics and same-day delivery platform operating across Asia and Latin America, matching businesses and consumers with a fleet of motorcycle, car, van and truck drivers. Its Delivery API (v3) lets partners programmatically request quotations, place and edit delivery orders, track assigned drivers in real time, add priority fees, and receive order lifecycle webhooks. The REST API is authenticated with HMAC SHA256 request signing, is segmented by market via a UN/LOCODE `Market` header, and is available in eleven markets including Hong Kong SAR, Singapore, Malaysia, Thailand, Philippines, Indonesia, Vietnam, Taiwan, Japan, Mexico and Brazil. Lalamove publishes a sandbox environment, a Node.js SDK, multi-language code examples, and a public status page.
 image: https://avatars.githubusercontent.com/u/20277126?v=4
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface for the Lalamove Delivery API v3, mapped one tool per documented operation. Every tool below corresponds to a real, documented method+path; none are invented. An implementer
-  name: Lalamove MCP Server
-  slug: lalamove-mcp-server
 modified: '2026-07-19'
 name: Lalamove
 nav: Providers
@@ -196,8 +192,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/screenshots/lalamove-2026-07-25T224438.png
 security:

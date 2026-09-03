@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OpenStack-compatible REST API for Platform9 Private Cloud Director, covering Keystone identity/authentication, Nova compute, Cinder block storage, Neutron networking, Glance images, and a Kubernetes s
@@ -167,8 +167,8 @@ score:
   previous_composite: 36.5
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/screenshots/platform9-2026-09-02T151434.png
 security:

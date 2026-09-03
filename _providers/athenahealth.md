@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ apis:
   description: The Subscription API from athenahealth — 3 operation(s) for subscription.
   name: athenahealth Subscription API
   slug: athena-health-subscription-api
-artifact_total: 72
+artifact_total: 71
 asyncapis:
 - description: Event-driven notifications from the athenahealth Event Subscription Platform. Delivered as FHIR Bundle notifications (R5 Backport) over rest-hook channel with id-only payloads. Subscriber webhooks mus
   name: athenahealth FHIR Subscriptions Events
@@ -473,7 +473,7 @@ common:
   url: well-known/athenahealth-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/athenahealth-mcp.yml
 - group: build
   title: ''
@@ -600,10 +600,6 @@ jsonld:
   property_count: 0
   slug: athenahealth-context
 layout: provider
-mcp_servers:
-- description: 'athenahealth ships NO callable MCP server. It has publicly announced one — athenahealth says it is piloting a Model Context Protocol server over the athenaOne platform APIs, and publishes a blog post '
-  name: athenahealth MCP Server
-  slug: athenahealth-mcp-server
 modified: '2026-08-14'
 name: athenahealth
 nav: Providers
@@ -697,8 +693,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:

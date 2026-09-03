@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-09-02'
+  score: 32.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ apis:
   description: Outbound event subscriptions.
   name: Lever Webhooks API
   slug: lever-co-webhooks-api
-artifact_total: 74
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Lever Data Applications API
@@ -387,7 +387,7 @@ common:
   url: packages/lever-co-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lever-co-mcp.yml
 - group: agent
   title: ''
@@ -486,10 +486,6 @@ jsonld:
   property_count: 9
   slug: lever-co-context
 layout: provider
-mcp_servers:
-- description: 'Lever does not ship an MCP server, hosted or local. Nothing in the Lever developer program addresses agents. The only MCP server that speaks Lever is a third-party npm package, mcp-lever, which wraps '
-  name: MCP Server Profile
-  slug: mcp-server-profile
 modified: '2026-08-26'
 name: Lever
 nav: Providers
@@ -555,8 +551,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:

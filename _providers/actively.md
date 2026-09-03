@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Actively's hosted (remote) Model Context Protocol server, which connects its Per-Account Agents — per-account research, strategy and persistent memory — into external AI clients such as ChatGPT, Claud
@@ -180,8 +180,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/screenshots/actively-2026-07-25T181529.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -42,7 +42,7 @@ apis:
 - description: GraphQL/HTTP API for vendors and affiliate technicians to manage assets (service and location assets), attachments, communications and messages, client lists, employees, locations, reactive and recurr
   name: One Open API v2 - Vendor
   slug: one-open-api-v2-vendor
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Sms Assist Webhooks
@@ -134,7 +134,7 @@ common:
   url: errors/sms-assist-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sms-assist-mcp.yml
 - group: agent
   title: ''
@@ -160,10 +160,6 @@ created: '2026-07-17'
 description: SMS Assist (rebranded as Lessen) is a facilities maintenance, repair, and work-order management company. Its "One" Platform coordinates reactive and recurrent maintenance, turn/renovation projects, invoices, proposals, assets, and a nationwide vendor network for residential and commercial properties. Lessen exposes the platform through the One Open API v2 — a GraphQL API split into a Client surface (property owners/managers create and track work orders, residents, locations, invoices, and Turn/Reno projects) and a Vendor surface (affiliate technicians manage assets, communications, and work orders) — plus a rich webhook event catalog, SSO/SCIM provisioning, and isolated sandbox and production environments. The legacy REST Open API v1 and Affiliate API v1 were sunset in favor of the v2 GraphQL platform.
 image: https://assets-global.website-files.com/650de1047e0c5de5860e054c/656a1bd286bfe157a42e4b53_brand-logo-global.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: SMS Assist MCP Server
-  slug: sms-assist-mcp-server
 modified: '2026-07-21'
 name: SMS Assist
 nav: Providers
@@ -199,8 +195,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/screenshots/sms-assist-2026-08-17T081935.png
 security:

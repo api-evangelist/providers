@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -464,11 +464,10 @@ score:
       total: 4
     mcp: derived
   regulatory:
-    applies: false
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:

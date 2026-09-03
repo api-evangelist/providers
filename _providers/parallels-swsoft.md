@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for automating Parallels Remote Application Server (RAS) — infrastructure, sites, secure gateways, RD session hosts, cloud providers, publishing, policies and licensing. Served by the self-ho
   name: Parallels RAS REST API
   slug: parallels-ras-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -123,7 +123,7 @@ common:
   url: conformance/parallels-swsoft-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parallels-swsoft-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Parallels is a virtualization and remote-access software company, originally founded as SWSoft in 1999 and renamed Parallels in 2008 (now part of Alludo/Corel). Its flagship enterprise product, Parallels Remote Application Server (RAS), delivers virtual apps and desktops and exposes a public REST API plus a PowerShell SDK (RASAdmin) for automating farm administration — sites, secure gateways, RD session hosts, cloud providers (Azure/AVD, AWS EC2, Hyper-V, VMware, Nutanix), publishing, policies and licensing. The RAS REST API is served by the customer's self-hosted RAS server (default TCP port 20443) and authenticated with a session token obtained via api/session/logon.
 image: https://www.parallels.com/fileadmin/images/logo/parallels-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parallels (SWSoft) MCP Server
-  slug: parallels-swsoft-mcp-server
 modified: '2026-07-20'
 name: Parallels (SWSoft)
 nav: Providers
@@ -172,8 +168,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/screenshots/parallels-swsoft-2026-08-07T191426.png
 security:

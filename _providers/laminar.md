@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -228,8 +228,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/screenshots/laminar-2026-07-25T224445.png
 security:

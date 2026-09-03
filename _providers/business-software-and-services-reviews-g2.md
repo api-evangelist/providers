@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The G2 MCP (Model Context Protocol) Server enables AI assistants like Claude to access G2 data. Uses OAuth for authentication via browser sign-in. Provides access to buyer intent intelligence, competi
@@ -186,6 +186,10 @@ asyncapis:
   name: Business Software And Services Reviews G2 Webhooks
   slug: business-software-and-services-reviews-g2-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/business-software-and-services-reviews-g2-capability-edges.yml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -368,7 +372,7 @@ overview: 'Business Software and Services Reviews | G2 publishes 28 APIs on the 
   The Business Software and Services Reviews | G2 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Business Software and Services Reviews | G2''s developer surface includes authentication, developer portal, documentation, changelog, sandbox, API reference, getting-started guide, and 33 more developer resources.'
+  Business Software and Services Reviews | G2''s developer surface includes authentication, developer portal, documentation, changelog, sandbox, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Business Software And Services Reviews G2 Plans Pricing
   plan_count: 0
@@ -387,7 +391,7 @@ score:
   band: developing
   composite: 50.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -411,8 +415,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/screenshots/business-software-and-services-reviews-g2-2026-06-20T173819.png
 security:

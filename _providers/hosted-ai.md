@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for the Hosted·ai neocloud platform, split into an Admin Panel API (GPUaaS infrastructure: GPU pools, nodes, GPU/NPU hardware discovery, high availability, floating IPs, regions) and a User P'
   name: Hosted·ai Platform API
   slug: hostedai-platform-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: conformance/hosted-ai-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hosted-ai-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: 'Hosted·ai is a San Jose, California software company (founded 2024, public launch early 2025) providing a turnkey neocloud / GPU-as-a-Service (GPUaaS) platform that lets service providers, telcos and hosts turn NVIDIA GPU fleets into high-margin, multi-tenant AI cloud infrastructure. The platform delivers software-defined GPU orchestration (multi-tenant pooling, adaptive scheduling, GPU overcommit 2x-10x), monetization and neocloud operations (billing, metering, user management, white-label self-service panels), and a GPU Mesh wholesale capacity network. It exposes a full REST API across an Admin Panel API (GPUaaS infrastructure: pools, nodes, GPU/NPU discovery, high availability, floating IPs) and a User Panel API, documented at docs.hosted.ai and Swagger-generated, with bearer API-token authentication, IP allowlisting, and prebuilt integrations for WHMCS, HubSpot and Stripe.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hosted-ai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hosted·ai MCP Server
-  slug: hostedai-mcp-server
 modified: '2026-07-19'
 name: Hosted·ai
 nav: Providers
@@ -165,8 +161,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hosted-ai/refs/heads/main/screenshots/hosted-ai-2026-07-25T221443.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
   description: The Verify IPs API from CyCognito — 1 operation(s) for verify ips.
   name: CyCognito Verify IPs API
   slug: cycognito-verify-ips-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -204,7 +204,7 @@ common:
   url: well-known/cycognito-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cycognito-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ created: '2026-07-17'
 description: CyCognito is a cybersecurity company providing an external attack surface management (EASM) and exposure management platform. Its cloud-native platform continuously discovers, maps, and tests an organization's internet-exposed assets—domains, IPs, web apps, APIs, and cloud environments—to surface and validate critical exposures before attackers exploit them. The CyCognito API V1 is a REST API (API-key authenticated) that lets you query assets and issues, manage attack-surface scope, attribute assets to organizations, manage users and cloud connectors, run exports and executive reports, and verify the identity of scanner IPs. CyCognito is backed by Accel and Lightspeed Venture Partners.
 image: https://www.cycognito.com/images/social/banner-homepage-2400x1256-email.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CyCognito MCP Server
-  slug: cycognito-mcp-server
 modified: '2026-07-18'
 name: CyCognito
 nav: Providers
@@ -312,8 +308,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/screenshots/cycognito-2026-07-25T211040.png
 security:

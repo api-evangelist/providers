@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ apis:
   description: Viewings endpoints for this API.
   name: Street.co.uk Viewings API
   slug: street-co-viewings-api
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Street Co Webhooks
@@ -343,7 +343,7 @@ common:
   url: well-known/street-co-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/street-co-mcp.yml
 - group: build
   title: ''
@@ -454,10 +454,6 @@ description: 'Street.co.uk (Street Systems Limited, Manchester, England) is a UK
   apis@street.co.uk to be issued a sandbox token on the staging environment. Nothing RESO, no OData $metadata, and no open government data is published by Street.co.uk itself; the open UK property data layer sits with HM Land Registry and Ordnance Survey, not with the CRM vendors.'
 image: https://street.co.uk/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the three OpenAPIs (Street publishes no MCP server)
-  slug: candidate-mcp-tool-surface-derived-from-the-three-openapis-street-publishes-no-mcp-server
 modified: '2026-07-26'
 name: Street.co.uk
 nav: Providers
@@ -503,8 +499,8 @@ score:
       total: 43
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/screenshots/street-co-2026-08-17T082136.png
 security:

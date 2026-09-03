@@ -29,8 +29,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 53.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -86,8 +86,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -130,7 +130,7 @@
      "slug": "apitoolkit",
      "description": "APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integrations. The platform exposes a REST API (api.monoscope.tech/api/v1) for programmatic access to metrics, telemetry schema, and monitors, plus a hosted MCP server with ~50 auto-derived tools and workflow tools (analyze_issue, find_error_patterns, search_events_nl) and four Claude Code skills (investigate, triage, kql-reference, instrument) so agents can drive observability from the terminal or any LLM client. The apitoolkit.io domain now redirects to monoscope.tech.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png",
-     "score": 46.3,
+     "score": 44.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -143,8 +143,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -189,8 +189,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -235,8 +235,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -281,8 +281,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -316,8 +316,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 18,
-   "shown": 18,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Beeceptor",
@@ -337,8 +337,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -383,8 +383,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -429,8 +429,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -475,8 +475,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -504,25 +504,25 @@
      "rank": 10
     },
     {
-     "name": "MockServer",
-     "slug": "mockserver",
-     "description": "MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS (e.g. services, web sites, etc) with clients in Java, JavaScript, and Ruby and a simple REST API. MockServer can be used to mock APIs that are not yet fully developed, isolate the system under test for reliable testing, simulate slow or faulty endpoints, and record/replay requests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png",
-     "score": 35.6,
+     "name": "Mockoon",
+     "slug": "mockoon",
+     "description": "Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png",
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 38.1,
+      "contract_quality": 46.3,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -550,52 +550,6 @@
      "rank": 11
     },
     {
-     "name": "Mockoon",
-     "slug": "mockoon",
-     "description": "Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 46.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mocking & Service Virtualization",
-     "rank": 12
-    },
-    {
      "name": "WireMock",
      "slug": "wiremock",
      "description": "WireMock is an open source tool for mocking HTTP services and APIs. It enables developers to build stable, predictable development environments by creating mock APIs that simulate the behavior of real services. WireMock provides a comprehensive admin API for managing stub mappings, recording real traffic, verifying requests, and modeling stateful behavior through scenarios. The project is governed by the WireMock community on GitHub and supports Java, Python, JavaScript, .NET, Go, PHP, and Kotlin clients.",
@@ -613,8 +567,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -639,7 +593,7 @@
       "agentic_commerce": false
      },
      "tier": "Mocking & Service Virtualization",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Pact",
@@ -659,8 +613,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -685,7 +639,7 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Speedscale",
@@ -705,8 +659,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -731,7 +685,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Testing & Quality Platforms",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Assertible",
@@ -751,8 +705,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -777,7 +731,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Testing & Quality Platforms",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Schemathesis",
@@ -797,8 +751,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -823,7 +777,7 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "K6",
@@ -843,8 +797,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -869,7 +823,7 @@
       "agentic_commerce": false
      },
      "tier": "Load & Performance Testing",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Artillery",
@@ -889,8 +843,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -915,7 +869,7 @@
       "agentic_commerce": false
      },
      "tier": "Load & Performance Testing",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Microcks",
@@ -935,8 +889,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -961,7 +915,7 @@
       "agentic_commerce": false
      },
      "tier": "Mocking & Service Virtualization",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "REST Assured",
@@ -981,8 +935,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1007,6 +961,52 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
+     "rank": 20
+    },
+    {
+     "name": "MockServer",
+     "slug": "mockserver",
+     "description": "MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS (e.g. services, web sites, etc) with clients in Java, JavaScript, and Ruby and a simple REST API. MockServer can be used to mock APIs that are not yet fully developed, isolate the system under test for reliable testing, simulate slow or faulty endpoints, and record/replay requests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png",
+     "score": 28.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 38.1,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mocking & Service Virtualization",
      "rank": 21
     },
     {
@@ -1027,8 +1027,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1054,28 +1054,38 @@
      },
      "tier": "Mocking & Service Virtualization",
      "rank": 22
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 15,
+   "shown": 15,
+   "providers": [
     {
-     "name": "Locust",
-     "slug": "locust",
-     "description": "Locust is an open source load testing tool written in Python that lets you define user behavior with code and swarm your system with millions of simultaneous users. Supports HTTP, WebSocket, MQTT, SocketIO, PostgreSQL, MongoDB, and other protocols via pluggable user classes, with a real-time web UI for orchestrating tests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/screenshots/locust-2026-06-20T184648.png",
-     "score": 26.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Vegeta",
+     "slug": "vegeta",
+     "description": "Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including latency histograms and success rates.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/screenshots/vegeta-2026-06-20T200856.png",
+     "score": 25.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 28.6,
+      "discoverability": 59.3,
+      "contract_quality": 20.0,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1085,7 +1095,7 @@
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1106,9 +1116,9 @@
      "slug": "supertest",
      "description": "SuperTest is a Node.js library for testing HTTP servers by providing a high-level abstraction for HTTP assertions with a fluent API built on SuperAgent. Maintained by the Forward Email / ladjs open source organization, SuperTest allows developers to pass any http.Server or Express/Koa application and test HTTP requests and responses with chained assertions. It is widely used with Mocha, Jest, and other JavaScript testing frameworks for integration and end-to-end API testing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/supertest/refs/heads/main/screenshots/supertest-2026-06-20T194726.png",
-     "score": 26.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 22.1,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 18.7,
@@ -1119,8 +1129,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1146,62 +1156,6 @@
      },
      "tier": "Contract Testing & Test Frameworks",
      "rank": 24
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 13,
-   "shown": 13,
-   "providers": [
-    {
-     "name": "Vegeta",
-     "slug": "vegeta",
-     "description": "Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including latency histograms and success rates.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/screenshots/vegeta-2026-06-20T200856.png",
-     "score": 25.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 20.0,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 3.8,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Load & Performance Testing",
-     "rank": 25
     },
     {
      "name": "Mock Service Worker",
@@ -1221,8 +1175,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1247,7 +1201,7 @@
       "agentic_commerce": false
      },
      "tier": "Mocking & Service Virtualization",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Optic",
@@ -1267,8 +1221,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1293,7 +1247,7 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "mockAPI",
@@ -1313,8 +1267,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1339,7 +1293,7 @@
       "agentic_commerce": false
      },
      "tier": "Mocking & Service Virtualization",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Karate",
@@ -1359,8 +1313,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1385,6 +1339,52 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
+     "rank": 28
+    },
+    {
+     "name": "Locust",
+     "slug": "locust",
+     "description": "Locust is an open source load testing tool written in Python that lets you define user behavior with code and swarm your system with millions of simultaneous users. Supports HTTP, WebSocket, MQTT, SocketIO, PostgreSQL, MongoDB, and other protocols via pluggable user classes, with a real-time web UI for orchestrating tests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/screenshots/locust-2026-06-20T184648.png",
+     "score": 20.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Load & Performance Testing",
      "rank": 29
     },
     {
@@ -1405,8 +1405,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1451,8 +1451,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1497,8 +1497,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1543,8 +1543,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1589,8 +1589,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1642,8 +1642,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1688,8 +1688,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1734,8 +1734,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {

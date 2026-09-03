@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Core REST API for creating and managing Assemblies (processing jobs), Templates, Template Credentials, Webhooks, Billing, and Queue monitoring. Uses bearer token authentication. Supports video encodin
@@ -161,8 +161,8 @@ score:
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 41.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transloadit/refs/heads/main/screenshots/transloadit-2026-06-20T195627.png
 security:

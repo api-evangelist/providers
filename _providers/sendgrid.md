@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -34,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-09-02'
+  score: 37.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -418,7 +417,7 @@ arazzos:
 - description: Upsert contacts asynchronously and branch on whether they can be confirmed yet.
   name: SendGrid Upsert Contacts and Confirm
   slug: sendgrid-upsert-contacts-confirm-workflow
-artifact_total: 221
+artifact_total: 220
 asyncapis:
 - description: The SendGrid Event Webhook delivers near real-time event data about your email activity via HTTP POST requests. SendGrid batches events into arrays and sends them to your configured webhook URL. Event
   name: SendGrid Event Webhook
@@ -770,7 +769,7 @@ common:
   url: packages/sendgrid-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sendgrid-mcp.yml
 - group: agent
   title: ''
@@ -1153,10 +1152,6 @@ graphqls:
   slug: sendgrid-graphql
 image: https://sendgrid.com/brand/sg-logo-300.png
 layout: provider
-mcp_servers:
-- description: SendGrid's Model Context Protocol coverage is served by Twilio, its parent company. On 2026-08-13 the API Evangelist pipeline PROBED https://mcp.twilio.com/docs and got a live, UNAUTHENTICATED MCP ser
-  name: SendGrid MCP Server
-  slug: sendgrid-mcp-server
 modified: '2026-08-13'
 name: SendGrid
 nav: Providers
@@ -1234,8 +1229,8 @@ score:
       total: 63
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:

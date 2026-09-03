@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 93
@@ -305,6 +305,10 @@ apis:
   slug: drata-workspaces-api
 artifact_total: 62
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/drata-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -488,7 +492,7 @@ network: true
 overview: 'Drata publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Account Members API, Accounts API, Assets API, and 48 more. Tagged areas include GRC, Compliance, SOC 2, ISO 27001, and Security.
 
 
-  Drata''s developer surface includes authentication, changelog, code examples, documentation, API reference, getting-started guide, support, and 34 more developer resources.'
+  Drata''s developer surface includes authentication, changelog, code examples, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Drata Plans Pricing
   plan_count: 1
@@ -507,7 +511,7 @@ score:
   band: strong
   composite: 60.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -532,8 +536,8 @@ score:
       total: 52
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/screenshots/drata-2026-06-20T180244.png
 security:

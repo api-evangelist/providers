@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Manage non-learner users (instructors, admins).
   name: Class (fka ClassEDU) Users API
   slug: class-fka-classedu-users-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: https://trust.class.com/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/class-fka-classedu-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: Class (fka ClassEDU) is a virtual classroom platform, founded in 2020 by education-technology leader Michael Chasen, that adds a full teaching and learning layer on top of Zoom and Microsoft Teams for K-12, higher education, government, and corporate training. The platform provides interactive course setup and templates, real-time engagement analytics and attendance tracking, enhanced breakout rooms, polls, whiteboards, auto transcription, an AI assistant, proctoring, and LMS integrations. Class also publishes a REST developer API (developer.class.com) that lets administrators and integrators provision classes, manage enrollments, generate learner launch links, schedule class dates, manage class templates, manage non-learner users, and pull attendance and engagement reporting, authenticated with a per-organization API key presented as a Bearer token and gated by permission scopes.
 image: https://www.class.com/wp-content/uploads/2022/12/class_logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Class (fka ClassEDU) MCP Server
-  slug: class-fka-classedu-mcp-server
 modified: '2026-07-18'
 name: Class (fka ClassEDU)
 nav: Providers
@@ -261,8 +257,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/screenshots/class-fka-classedu-2026-07-25T205514.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bng2latlong/refs/heads/main/screenshots/bng2latlong-2026-07-25T203515.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://open-api.teambridge.com
@@ -61,7 +61,7 @@ apis:
   description: The Teambridge External API API from Teambridge — 0 operation(s) for teambridge external api.
   name: Teambridge Teambridge External API
   slug: teambridge-teambridge-external-api-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Teambridge Webhooks
@@ -141,7 +141,7 @@ common:
   url: overlays/teambridge-external-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/teambridge-mcp.yml
 - group: agent
   title: ''
@@ -187,10 +187,6 @@ created: '2026-07-17'
 description: Teambridge is an AI-native workforce-management platform for frontline and hourly teams, unifying scheduling, time tracking, instant pay, team communication, onboarding, compliance, and payroll behind autonomous AI agents. For integrators it publishes the Teambridge External API, a unified Collections API (OpenAPI 3.1.0) that reads and writes shifts, users, placements, locations, and custom collections, authenticated with OAuth 2.0 client credentials and complemented by HMAC-signed outbound webhooks for real-time change notification. Teambridge is backed by General Catalyst and Mayfield and reports SOC 2 Type II, ISO 27001, HIPAA, and GDPR compliance.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teambridge.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Teambridge MCP Server
-  slug: teambridge-mcp-server
 modified: '2026-07-21'
 name: Teambridge
 nav: Providers
@@ -236,8 +232,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/screenshots/teambridge-2026-08-17T082257.png
 security:

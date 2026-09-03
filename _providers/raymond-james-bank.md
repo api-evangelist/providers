@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Raymond James Bank exposes no first-party public API. Consumer-permissioned account and transaction data is available only indirectly through third-party data aggregators (e.g., Plaid). This entry is '
@@ -111,8 +111,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raymond-james-bank/refs/heads/main/screenshots/raymond-james-bank-2026-09-02T152931.png
 security:

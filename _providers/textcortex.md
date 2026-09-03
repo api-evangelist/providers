@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Generate responses with TextCortex models.
   name: Textcortex Responses API
   slug: textcortex-responses-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: well-known/textcortex-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/textcortex-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: TextCortex is a Berlin-based AI writing and content-generation platform (ZenoChat assistant, knowledge bases, and a suite of writing tools) that also ships a public, OpenAI-compatible REST API. The API, served from https://api.textcortex.com/v1 with Bearer API-key authentication, exposes model discovery, chat completions, and an OpenAI Responses-compatible generation endpoint, plus an API-credit balance check. Streaming is supported over server-sent events and infrastructure is EU-hosted and GDPR-compliant. TextCortex is backed by Speedinvest and maintains first-party Python and JavaScript client libraries.
 image: https://docs.textcortex.com/logo192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Textcortex MCP Server
-  slug: textcortex-mcp-server
 modified: '2026-07-21'
 name: Textcortex
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/screenshots/textcortex-2026-08-17T082329.png
 security:

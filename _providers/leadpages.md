@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: RESTful API covering the full Leadpages platform across eight documented endpoint categories — Pages, Sites, Assets, Blogs, Analytics, Forms, Domains and Brand Kits — with JSON responses and bearer-to
@@ -227,8 +227,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png
 security:

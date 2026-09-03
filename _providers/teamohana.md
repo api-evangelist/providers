@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The SCIM API from TeamOhana — 3 operation(s) for scim.
   name: TeamOhana SCIM API
   slug: teamohana-scim-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +119,7 @@ common:
   url: https://status.teamohana.us/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/teamohana-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: TeamOhana is an HR-technology company that provides a headcount management and planning platform serving as a single source of truth for a company's people budget. It connects Finance, HR, and Talent Acquisition teams around real-time, approved headcount so organizations can plan, track, and control hiring against budget in one collaborative workflow rather than across disconnected spreadsheets. The platform integrates with HRIS, ATS, and financial planning systems (Workday, SAP SuccessFactors, Bamboo HR, HiBob, UKG, Personio, Namely, Greenhouse-class ATS, and Pigment). Its Public API exposes SCIM 2.0 user provisioning plus Headcount, Discovery, and Scenario endpoints for planning and reporting. TeamOhana is backed by Sierra Ventures and runs a security program that is SOC 2 and ISO 27001 certified (verified via its public trust center).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamohana.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TeamOhana MCP Server
-  slug: teamohana-mcp-server
 modified: '2026-07-21'
 name: TeamOhana
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/screenshots/teamohana-2026-08-17T082257.png
 security:

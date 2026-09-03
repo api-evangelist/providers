@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -280,8 +280,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:

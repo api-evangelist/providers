@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: LSE operates its own SAML2 Shibboleth identity provider for staff, students and library resource access, registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp with the
@@ -223,8 +223,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/screenshots/lse-2026-06-20T184742.png
 security:

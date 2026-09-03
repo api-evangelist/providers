@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ apis:
   description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
   name: 1Kosmos Workflow API API
   slug: 1kosmos-workflow-api-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: 1Kosmos Idverify Events
@@ -138,7 +138,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/1kosmos-mcp.yml
 - group: company
   title: ''
@@ -272,10 +272,6 @@ created: '2026-08-05'
 description: 1Kosmos is a digital identity company whose BlockID platform combines identity proofing, document and biometric verification, and passwordless / FIDO2 authentication into a single tenant-scoped platform used across workforce, customer and citizen identity. The platform is delivered as a REST API surface (identity verification sessions, identity assurance level lookup, one-time passcodes, user management, access codes, W3C Verifiable Credentials and Verifiable Presentations, IAL2 identity-proofing workflows and reporting/metrics) plus first-party helper SDKs for NodeJS, Java, PHP, .NET, .NET Core and Go, and native Android/iOS mobile SDKs. 1Kosmos is Kantara-approved as a full-service credential service provider conformant with NIST SP 800-63-3 at IAL2/AAL2, is FIDO2 certified, holds SOC 2 Type II and ISO 27001, and holds a FedRAMP High authorization.
 image: https://framerusercontent.com/images/CaZExN3h34OiuPCO41bzrgwhVc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: 1Kosmos MCP Server
-  slug: 1kosmos-mcp-server
 modified: '2026-08-05'
 name: 1Kosmos
 nav: Providers
@@ -322,8 +318,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -268,7 +268,7 @@ apis:
   description: The Weka home API from Weka — 6 operation(s) for weka home.
   name: Weka Weka home API
   slug: weka-weka-home-api
-artifact_total: 96
+artifact_total: 95
 collections:
 - collection_type: open
   name: API Collection
@@ -451,7 +451,7 @@ common:
   url: cli/weka-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/weka-mcp.yml
 - group: agent
   title: ''
@@ -521,10 +521,6 @@ created: '2026-07-17'
 description: WEKA (WekaIO, Inc.) builds NeuralMesh, a software-defined, high-performance data platform for AI, machine learning, and HPC workloads. Its container-native storage system delivers a unified namespace across NVMe SSD and object storage, running on bare metal and across AWS, Azure, GCP, and OCI. WEKA clusters expose a RESTful management API (served at /api/v2 on port 14000) that automates filesystems, quotas, snapshots, S3 buckets, multi-tenancy, users, KMS, alerts, and events, with a first-party CLI, Kubernetes CSI driver and operator, and Terraform modules. The company is backed by Norwest Venture Partners and others.
 image: https://cdn.sanity.io/images/ult5g8gw/production/3f976b57b4400a41163bc68d67ffb770d0a3b923-1200x675.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Weka MCP Server
-  slug: weka-mcp-server
 modified: '2026-07-21'
 name: Weka
 nav: Providers
@@ -563,8 +559,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/screenshots/weka-2026-08-17T082907.png
 security:

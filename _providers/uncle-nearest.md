@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
   description: The Venues API from Uncle Nearest — 3 operation(s) for venues.
   name: Uncle Nearest Venues API
   slug: uncle-nearest-venues-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +119,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uncle-nearest-mcp.yml
 - group: other
   title: ''
@@ -229,10 +229,6 @@ created: '2026-08-02'
 description: Uncle Nearest, Inc. is an American whiskey company headquartered in Shelbyville, Tennessee, founded in 2017 by Fawn Weaver and Keith Weaver and named for Nathan "Nearest" Green, the formerly enslaved master distiller who taught Jack Daniel the craft. The company produces the Uncle Nearest 1856 Premium Aged, 1884 Small Batch, Master Blend, Single Barrel, Straight Rye and Uncut/Unfiltered Rye expressions, and operates the Nearest Green Distillery visitor destination in Shelbyville with tours, tastings, private events and a retail shop. Uncle Nearest is a privately held, consumer-facing brand with no developer program and no product API; its only public machine-readable surfaces are the WordPress REST API and the two OpenAPI-documented Events Calendar REST APIs served from its own web host at unclenearest.com, which expose the brand's published events, venues and organizers as read-only JSON.
 image: https://unclenearest.com/wp-content/themes/unclenearest/lib/img/un-logo-2022.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Uncle Nearest MCP Server
-  slug: uncle-nearest-mcp-server
 modified: '2026-08-02'
 name: Uncle Nearest
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/screenshots/uncle-nearest-2026-09-02T164843.png
 security:

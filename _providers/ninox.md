@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 15
@@ -75,7 +75,7 @@ arazzos:
 - description: Create a module in a workspace, add a table, and define its fields.
   name: Ninox — Provision a module with tables and fields
   slug: ninox-provision-module
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -178,7 +178,7 @@ common:
   url: cli/ninox-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ninox-mcp.yml
 - group: design
   title: ''
@@ -224,10 +224,6 @@ created: '2026-07-17'
 description: Ninox is an AI-native low-code database and application platform that lets business teams build custom apps, databases, and workflows without traditional coding. Teams model data as modules, tables, fields, and records, automate processes with the Ninox scripting language, generate documents, and collaborate across organizations and workspaces. The Ninox Public REST API provides programmatic access to workspace resources — creating and managing modules, tables, fields, and records, plus CSV import — authenticated with per-workspace API keys sent as bearer tokens. Ninox is delivered as public cloud, private cloud, and on-premises deployments, and is backed by Techstars.
 image: https://ninox.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ninox MCP Server
-  slug: ninox-mcp-server
 modified: '2026-07-20'
 name: Ninox
 nav: Providers
@@ -266,8 +262,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/screenshots/ninox-2026-08-07T185329.png
 security:

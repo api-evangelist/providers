@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -215,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:

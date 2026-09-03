@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ apis:
   description: The Transactions API from Vanquis Banking Group — 3 operation(s) for transactions.
   name: Vanquis Banking Group Transactions API
   slug: vanquis-banking-group-transactions-api
-artifact_total: 27
+artifact_total: 26
 common:
 - group: other
   title: ''
@@ -240,7 +240,7 @@ common:
   url: conventions/vanquis-banking-group-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vanquis-banking-group-mcp.yml
 - group: agent
   title: ''
@@ -275,10 +275,6 @@ description: Vanquis Banking Group plc (formerly Provident Financial plc, rebran
   Registration, onboarded and secured through the Open Banking Directory under the PSD2 / FAPI security profile (OAuth2/OIDC, mutual-TLS and strong customer authentication). As a credit-card and savings specialist with no branch or current-account estate, Vanquis publishes no public Open Data (ATM/Branch/PCA/BCA) API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vanquis Banking Group MCP Server
-  slug: vanquis-banking-group-mcp-server
 modified: '2026-07-23'
 name: Vanquis Banking Group
 nav: Providers
@@ -332,8 +328,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/screenshots/vanquis-banking-group-2026-09-02T165416.png
 security:

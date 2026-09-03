@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: P&N Bank Banking Products API
   slug: pn-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: data-model/pn-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pn-bank-mcp.yml
 - group: other
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-20'
 description: P&N Bank is the retail banking brand of Police & Nurses Limited (ABN 69 087 651 876, AFSL/Australian Credit Licence 240701), a customer-owned (mutual) bank owned by its members rather than shareholders and one of Western Australia's largest locally based banks, headquartered in Perth. It grew out of the Police & Nurses Credit Society and today sits within the broader P&N Group, which also operates the bcu brand on the New South Wales / Queensland east coast, offering everyday transaction and savings accounts, term deposits, home and personal loans, credit cards, and insurance. As an Authorised Deposit-taking Institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking), exposing a public, unauthenticated Product Reference Data (PRD) API built to the Data Standards Body (DSB) Consumer Data Standards; consumer data sharing beyond product reference data requires accredited data recipient status and the CDR OAuth2/OIDC FAPI authorization model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pn-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: P&N Bank MCP Server
-  slug: pn-bank-mcp-server
 modified: '2026-07-21T17:00:00Z'
 name: P&N Bank
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pn-bank/refs/heads/main/screenshots/pn-bank-2026-07-21T114741.png
 security:

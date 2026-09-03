@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: A single HTTP GET endpoint (api.whoapi.com) exposing nine domain-intelligence tasks selected by the `r` query parameter — whois, taken (availability), cert (SSL), domainscore and domainscore-check, em
   name: WhoAPI Domain Intelligence API
   slug: whoapi-domain-intelligence-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Whoapi Webhooks
@@ -67,7 +67,7 @@ common:
   url: agentic-access/whoapi-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/whoapi-mcp.yml
 - group: other
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: WhoAPI (founded 2011, WhoAPI Inc.) is a domain-intelligence API company that exposes WHOIS records, real-time domain availability across hundreds of TLDs, domain age, domain reputation/score, SSL certificate inspection, email score, IP/domain blacklist checks, and website screenshots through a single key-authenticated REST endpoint (api.whoapi.com). Every request is an HTTP GET selecting a task with the `r` parameter and returning gzip-compressed JSON with a numeric `status` and human-readable `status_desc`. It serves cybersecurity teams, domain registrars, SEO agencies, and fraud-detection systems, with first-party and community SDKs for Ruby, Python, Go, and R.
 image: https://whoapi.com/wp-content/uploads/2024/04/API-company-illustration.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: WhoAPI MCP Server
-  slug: whoapi-mcp-server
 modified: '2026-08-14'
 name: WhoAPI
 nav: Providers
@@ -234,8 +230,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/screenshots/whoapi-2026-08-17T082916.png
 security:

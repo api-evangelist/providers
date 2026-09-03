@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for tax compliance and information reporting: account owners, accounts, transactions, inventory, realized gains, tax documentation (W-8/W-9), filers, form items, disposition methods, transfer'
@@ -196,8 +196,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/screenshots/taxbit-2026-08-17T082251.png
 security:

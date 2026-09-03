@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: BASIL — "The FuSa Spice" — is ELISA's own software quality management tool. It decomposes a software component specification into snippets, maps work items (software requirements, test specifications,
@@ -266,8 +266,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png
 security:

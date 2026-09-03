@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The OpenID Connect authorization server behind Troy Medicare's secure provider portal, which contracted providers use for member eligibility verification, claim status and payment history. Its discove
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/troy-medicare/refs/heads/main/screenshots/troy-medicare-2026-09-02T164317.png
 security:

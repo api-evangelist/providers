@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 14.2
-  scored_at: '2026-09-02'
+  score: 10.8
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Bakuraku (バクラク) back-office suite. Publicly documented capabilities are retrieval and list-search of applications/requests (申請), download of attached files, creation of applications f
@@ -216,8 +216,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/screenshots/layerx-2026-09-02T150224.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.marketaux.com/v1
@@ -52,7 +52,7 @@ apis:
   description: News source metadata usable in news feed filters.
   name: MarketAux Sources API
   slug: marketaux-sources-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: Marketaux API
@@ -64,7 +64,7 @@ common:
   url: overlays/marketaux-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/marketaux-mcp.yml
 - group: company
   title: ''
@@ -174,10 +174,6 @@ created: '2026-05-28'
 description: Marketaux is a global financial and stock market news API that pairs every article with entity recognition and sentiment analysis. It aggregates 5,000+ news sources in 30+ languages, tracking 200,000+ entities — equities, indices, ETFs, mutual funds, currencies, and cryptocurrencies — across 80+ markets. Beyond filtered news feeds, it provides entity statistics time series, aggregations, and trending-entity endpoints for identifying the best and worst performing entities in the news, with a free self-serve tier.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketaux.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MarketAux MCP Server
-  slug: marketaux-mcp-server
 modified: '2026-07-22'
 name: MarketAux
 nav: Providers
@@ -229,8 +225,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

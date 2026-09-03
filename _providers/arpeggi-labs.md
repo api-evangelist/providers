@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://arpeggi.io/api/kits/v1
@@ -61,7 +61,7 @@ apis:
   description: Browse and retrieve available voice models.
   name: Arpeggi Labs Voice Models API
   slug: arpeggi-labs-voice-models-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: conformance/arpeggi-labs-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arpeggi-labs-mcp.yml
 - group: build
   title: ''
@@ -186,10 +186,6 @@ created: '2026-07-17'
 description: 'Arpeggi Labs is the company behind Kits AI, a studio-quality AI music and audio platform for musicians, producers, and developers. Kits AI provides voice cloning and conversion, an AI singing generator with 100+ royalty-free artist voice models, vocal isolation, stem separation, AI mastering, and a voice-model blender, alongside an ethically sourced "Earn" program that pays vocalists to license digital clones of their voice. The Kits AI API exposes these capabilities as asynchronous inference jobs over a REST interface at arpeggi.io/api/kits/v1, authenticated with a bearer API key: create a voice conversion, vocal separation, stem split, or voice-blend job, then poll for the signed output file URLs. Arpeggi Labs is an a16z portfolio company; its earlier product was Arpeggi Studio, a web3 in-browser music creation platform.'
 image: https://kits.ai/opengraph-image
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Kits AI API. No official hosted/remote MCP server was found published by Arpeggi Labs at enrichment time; this is a derived candidate tool list, one tool per OpenAPI opera
-  name: Arpeggi Labs MCP Server
-  slug: arpeggi-labs-mcp-server
 modified: '2026-07-18'
 name: Arpeggi Labs
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
 security:

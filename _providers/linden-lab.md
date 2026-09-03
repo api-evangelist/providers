@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Anonymous, unauthenticated feeds publishing live Second Life grid statistics (grid status, total registered accounts, avatars currently inworld) and LindeX currency-market data (limit and market buy/s
@@ -239,8 +239,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linden-lab/refs/heads/main/screenshots/linden-lab-2026-09-02T150256.png
 security:

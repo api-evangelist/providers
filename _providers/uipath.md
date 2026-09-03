@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -401,6 +401,10 @@ collections:
   name: UiPath Automation Hub Alerts Webhooks API
   slug: open-uipath-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uipath-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1547,7 +1551,7 @@ overview: 'UiPath publishes 32 APIs on the [APIs.io](https://apis.io/) network, 
   The UiPath catalog on APIs.io includes 1 event-driven AsyncAPI specification, 8 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  UiPath''s developer surface includes authentication, documentation, developer portal, engineering blog, pricing, support, academy / training, and 46 more developer resources.'
+  UiPath''s developer surface includes authentication, documentation, developer portal, engineering blog, pricing, support, academy / training, and 47 more developer resources.'
 plans:
 - name: Uipath Plans Pricing
   plan_count: 5
@@ -1594,7 +1598,7 @@ score:
   band: strong
   composite: 61.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -1616,8 +1620,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:

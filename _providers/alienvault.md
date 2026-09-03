@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://otx.alienvault.com/api/v1
@@ -56,7 +56,7 @@ apis:
   description: OTX community users
   name: AlienVault Users API
   slug: alienvault-users-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -116,7 +116,7 @@ common:
   url: packages/alienvault-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alienvault-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: AlienVault is the security company behind the Open Threat Exchange (OTX), one of the largest open threat-intelligence communities in the world. OTX lets security practitioners and researchers create and share "pulses" — curated collections of indicators of compromise (IOCs) such as malicious IPs, domains, hostnames, URLs, file hashes, and CVEs — and consume that shared intelligence to automatically update their defensive infrastructure. The OTX DirectConnect API provides programmatic access to subscribed pulses, indicator detail lookups across multiple facets (general, geo, malware, passive DNS, reputation, URL lists), pulse and user search, and indicator submission for analysis. Authentication is via an X-OTX-API-KEY header. AlienVault was acquired by AT&T in 2018, becoming AT&T Cybersecurity, and OTX now operates under the LevelBlue brand. An official Python SDK (OTXv2) is published on PyPI and GitHub.
 image: https://otx.alienvault.com/static/otx/img/otx_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AlienVault MCP Server
-  slug: alienvault-mcp-server
 modified: '2026-07-17'
 name: AlienVault
 nav: Providers
@@ -195,8 +191,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/screenshots/alienvault-2026-07-25T195617.png
 security:

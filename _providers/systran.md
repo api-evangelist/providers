@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.systran.net'', ''status'': 301, ''note'': ''declared website redirects to https://www.systransoft.com/ — a different registrable domain (systran.net -> systransoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -208,8 +209,8 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/screenshots/systran-2026-09-02T161649.png
 security:

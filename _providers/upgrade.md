@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.6
-  scored_at: '2026-09-02'
+  score: 32.8
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://partner.upgrade.com/api/flexpay
@@ -51,7 +51,7 @@ apis:
   description: Transactions API (Direct Settle disbursement)
   name: Upgrade Transactions API
   slug: upgrade-transactions-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: data-model/upgrade-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/upgrade-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +194,6 @@ created: '2026-07-17'
 description: 'Upgrade is a San Francisco-based consumer fintech offering personal loans, the Upgrade Card, Rewards Checking, savings accounts, and Flex Pay — the buy now, pay later platform formerly known as Uplift, serving travel and retail merchants in the US and Canada. Upgrade is a financial technology company, not a bank; products are offered through bank partners. Its developer surface is the Flex Pay partner platform: OAuth 2.0-secured Marketing Offers, Checkout Orders, and Transactions REST APIs, an embeddable up.js checkout with the up-from-pricing web component, and iOS/Android SDKs, documented at docs.uplift.com.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upgrade.png
 layout: provider
-mcp_servers:
-- description: 'Upgrade publishes no official MCP server for the Flex Pay APIs (none found in the Flex Pay documentation, the MCP registry, or npm). This is a candidate tool list derived from the documented Flex Pay '
-  name: Upgrade MCP Server
-  slug: upgrade-mcp-server
 modified: '2026-07-21'
 name: Upgrade
 nav: Providers
@@ -241,8 +237,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/screenshots/upgrade-2026-08-17T082636.png
 security:

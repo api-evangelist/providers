@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - baseURL: https://cloudapi.exclaimer.com/exclaimerapi
@@ -271,8 +271,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/screenshots/exclaimer-2026-07-25T213850.png
 security:

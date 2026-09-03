@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The ShipmentService API from Einride — 6 operation(s) for shipmentservice.
   name: Einride ShipmentService API
   slug: einride-shipmentservice-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: components/einride-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/einride-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: Einride is a Swedish freight technology company delivering an end-to-end platform for electric and autonomous road freight, combining purpose-built autonomous trucks, electric vehicles, smart charging, and the Saga operating software. Its developer-facing product, Einride Extend, exposes open, resource-oriented APIs (designed with Google AIP) over both gRPC and HTTP for booking truck tours and creating, releasing, and tracking shipments. The Extend APIs are alpha (v1beta1) and offered to select developers during an early-access phase, with a saga CLI, Buf Schema Registry proto module, and React UI component library. Einride serves customers including PepsiCo, Heineken, and DP World across Europe, the US, and the Middle East.
 image: https://raw.githubusercontent.com/einride/extend/master/docs/img/header.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Einride MCP Server
-  slug: einride-mcp-server
 modified: '2026-07-19'
 name: Einride
 nav: Providers
@@ -266,8 +262,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:

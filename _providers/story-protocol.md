@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The Transactions API from Story Protocol — 3 operation(s) for transactions.
   name: Story Protocol Transactions API
   slug: story-protocol-transactions-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +195,7 @@ common:
   url: packages/story-protocol-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/story-protocol-mcp.yml
 - group: agent
   title: ''
@@ -245,10 +245,6 @@ created: '2026-07-17'
 description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms, license templates and tokens, minting fees, disputes, IP groups, royalties, protocol modules, permissions, and transactions across Story mainnet (chain 1514) and the Aeneid testnet (chain 1315). Authentication is an X-Api-Key header plus an X-Chain network selector; official TypeScript and Python SDKs wrap both the API and the onchain protocol.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/story-protocol.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Story Protocol MCP Server
-  slug: story-protocol-mcp-server
 modified: '2026-07-21'
 name: Story Protocol
 nav: Providers
@@ -287,8 +283,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/story-protocol/refs/heads/main/screenshots/story-protocol-2026-09-02T160943.png
 security:

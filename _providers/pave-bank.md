@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Partner API for programmable multi-asset banking: Accounts, Address, Balance, Crypto, Documents, FX, Return, RFI, Sandbox, Statement, Transactions, and Transfer resources, plus real-time signed webhoo'
@@ -172,8 +172,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pave-bank/refs/heads/main/screenshots/pave-bank-2026-08-07T191602.png
 security:

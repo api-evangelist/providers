@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the AMUSED Co store implemented with the Universal Commerce Protocol (UCP) over MCP: catalog search/lookup, cart, checkout, fulfillment, discount and order capabiliti'
@@ -138,8 +138,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thamarah-al-jill-co-llc/refs/heads/main/screenshots/thamarah-al-jill-co-llc-2026-09-02T163322.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The collections service of the CIONIC research platform. Path-versioned REST endpoints under /c/v{version}/{org}/ covering studies, protocols and protocol versions, collections and their files, stream
@@ -193,8 +193,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cionic/refs/heads/main/screenshots/cionic-2026-09-02T145037.png
 security:

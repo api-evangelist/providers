@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -165,7 +165,7 @@ arazzos:
 - description: Write a bucket tag set then read it back to confirm it was stored.
   name: Amazon S3 Set and Verify Bucket Tags
   slug: amazon-s3-set-bucket-tagging-workflow
-artifact_total: 250
+artifact_total: 249
 collections:
 - collection_type: postman
   name: Amazon S3 Control API
@@ -279,7 +279,7 @@ common:
   url: well-known/amazon-s3-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-s3-mcp.yml
 - group: agent
   title: ''
@@ -1000,10 +1000,6 @@ jsonld:
   property_count: 0
   slug: amazon-s3-tables-context
 layout: provider
-mcp_servers:
-- description: AWS Labs publishes an official Model Context Protocol server for the Amazon S3 Tables surface (awslabs.s3-tables-mcp-server), distributed on PyPI and run locally over stdio via uvx. It exposes S3 Tabl
-  name: Amazon S3 MCP Server
-  slug: amazon-s3-mcp-server
 modified: '2026-06-20'
 name: Amazon S3
 nav: Providers
@@ -1074,8 +1070,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:

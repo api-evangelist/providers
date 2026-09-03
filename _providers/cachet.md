@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ arazzos:
 - description: Register a gig-worker on the Cachet Platform (Verify) API, then report a completed task event for that worker. Requires x-api-key and x-api-username headers issued by the Cachet IT team.
   name: Cachet gig-worker onboarding and task reporting
   slug: cachet-gig-onboarding
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: authentication/cachet-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cachet-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: 'Cachet OÜ is an Estonian InsurTech that provides adaptive, usage-based insurance for digital platforms and their users across new mobility, gig work, and car-sharing. Digital platforms integrate Cachet through three inbound event APIs: the Parking API (car-sharing fleets stream vehicle events so Cachet manages parking), the Verify / Platform API (gig-work platforms register workers and push task events to drive worker protection), and the Partners API (embed a prefilled Cachet onboarding link into a partner app). All three are OpenAPI 3.1 and authenticated with issued x-api-key and x-api-username headers. Cachet is backed by Techstars; notable platform clients include Bolt, Bird, Ryde, and TaskRabbit.'
 image: https://cachet.me/assets/img/social_share.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cachet MCP Server
-  slug: cachet-mcp-server
 modified: '2026-07-18'
 name: Cachet
 nav: Providers
@@ -233,8 +229,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
 security:

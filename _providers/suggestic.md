@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL API for personalized nutrition — users, programs/diets, meal-plan generation, recipe and restaurant search, food logging (incl. AI food log), shopping lists, health trackers, lab tests/biomark
   name: Suggestic GraphQL API
   slug: suggestic-graphql-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Suggestic Webhooks
@@ -151,7 +151,7 @@ common:
   url: sandbox/suggestic-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/suggestic-mcp.yml
 - group: design
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Suggestic is a personalized-nutrition and health platform that exposes a GraphQL API for building meal-planning, food-logging, and coaching applications. Developers use the API to create users, assign nutrition programs and diets, generate personalized meal plans, search a large recipe and restaurant database, log food (including AI photo-based logging), build shopping lists, and track sleep, steps, water, weight, heart rate, symptoms, biomarkers, and supplements. The platform also powers an AI Assistant with journeys and guardrails, a Console for configuration and webhooks, and a Telehealth/Coaching Portal. Suggestic (a Techstars-backed company) markets an enterprise AI offering for regulated health verticals and is HIPAA and SOC 2 Type II certified. Authentication is via a server-side API token plus an sg-user header, or client-side JWT bearer tokens.
 image: https://suggestic.com/assets/images/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Suggestic MCP Server
-  slug: suggestic-mcp-server
 modified: '2026-07-21'
 name: Suggestic
 nav: Providers
@@ -218,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/screenshots/suggestic-2026-08-17T082152.png
 security:

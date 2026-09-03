@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -363,7 +363,7 @@ apis:
   description: The vtex API from Picker — 1 operation(s) for vtex.
   name: Picker vtex API
   slug: picker-vtex-api
-artifact_total: 133
+artifact_total: 132
 asyncapis:
 - description: ''
   name: Picker Webhooks
@@ -592,7 +592,7 @@ common:
   url: data-model/picker-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/picker-mcp.yml
 - group: design
   title: ''
@@ -654,10 +654,6 @@ created: '2026-07-17'
 description: Picker (Picker Express) is a Latin American last-mile delivery orchestration platform that connects e-commerce and retail businesses with a network of 200,000+ couriers across 10+ delivery companies. Its product suite includes an Orchestrator for routing across multiple fleets, automated delivery Flows, live shipment Tracking, Cash-on-delivery collection, private My Fleet management, Shield loss insurance, and Fast Deposits cash advances. Picker exposes a REST API plus e-commerce plugins (Shopify, WooCommerce, VTEX, Tienda Nube, Ordatic) so merchants can create bookings, calculate delivery costs, and track orders programmatically. The company operates across Mexico, Ecuador, Colombia, Peru, Chile, Uruguay, and Costa Rica and is backed by 500 Global.
 image: https://www.pickerexpress.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Picker delivery API. No official hosted/remote MCP server was found; this is a derived candidate tool list mapping the merchant delivery flow (quote, create, track, cancel
-  name: Picker MCP Server
-  slug: picker-mcp-server
 modified: '2026-07-20'
 name: Picker
 nav: Providers
@@ -699,8 +695,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/screenshots/picker-2026-09-02T151222.png
 security:

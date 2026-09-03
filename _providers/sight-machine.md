@@ -1,18 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-09-02'
+  score: 25.2
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -195,8 +196,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/screenshots/sight-machine-2026-09-02T155420.png
 security:

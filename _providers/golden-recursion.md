@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ arazzos:
 - description: Resolve a saved Golden query by its permalink and page through its entity results.
   name: Golden — run a saved query by permalink
   slug: golden-recursion-saved-query
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -162,7 +162,7 @@ common:
   url: packages/golden-recursion-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/golden-recursion-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ description: 'Golden Recursion Inc. builds Golden, a San Francisco company using
   remain live and were re-verified 2026-08-14.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Golden Recursion MCP Server
-  slug: golden-recursion-mcp-server
 modified: '2026-08-14'
 name: Golden Recursion
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:

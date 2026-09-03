@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Janio''s production REST API for cross-border logistics: order creation and batch order management, unified multi-carrier tracking, rate and transit-time quotes, shipping label and customs document gen'
@@ -183,8 +183,8 @@ score:
   previous_composite: 26.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/janio/refs/heads/main/screenshots/janio-2026-09-02T150157.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -93,7 +93,7 @@ apis:
   description: The Sponsor API from Yuzu Health — 1 operation(s) for sponsor.
   name: Yuzu Health Sponsor API
   slug: yuzu-health-sponsor-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -227,7 +227,7 @@ common:
   url: conformance/yuzu-health-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yuzu-health-mcp.yml
 - group: agent
   title: ''
@@ -249,10 +249,6 @@ created: '2026-07-17'
 description: Yuzu Health is a technology platform for building and operating custom, self-funded health plans end to end - plan design, member enrollment and eligibility, in-house medical and pharmacy claims adjudication, benefit accumulators, EOBs, ID cards, and payments - without legacy TPA systems. Its public REST API (bearer-JWT API keys, URL-prefix versioning v1/v2/v3, cursor pagination) exposes 76 operations across members, sponsors, groups/policies, coverages, claims, enrollment, benefits, care events, and accumulators, plus a white-label portal. Yuzu is backed by General Catalyst and Menlo Ventures.
 image: https://cdn.yuzu.health/image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Yuzu Health MCP Server
-  slug: yuzu-health-mcp-server
 modified: '2026-07-21'
 name: Yuzu Health
 nav: Providers
@@ -297,8 +293,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/screenshots/yuzu-health-2026-08-17T083029.png
 security:

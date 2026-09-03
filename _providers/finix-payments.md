@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.finixpayments.com/'', ''status'': 301, ''note'': ''declared website redirects to https://finix.com/ — a different registrable domain (finixpayments.com -> finix.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -145,7 +146,7 @@ arazzos:
 - description: Create a seller Identity, provision a Merchant, and run verification/underwriting.
   name: Finix — Onboard a seller/merchant
   slug: finix-payments-onboard-a-merchant
-artifact_total: 66
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Finix Payments Webhooks
@@ -399,7 +400,7 @@ common:
   url: asyncapi/finix-payments-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finix-payments-mcp.yml
 - group: agent
   title: ''
@@ -429,10 +430,6 @@ created: '2026-07-17'
 description: Finix is a full-stack payments technology provider that lets businesses, software platforms, and marketplaces accept and send payments online and in person. Its REST API (version 2022-02-01) covers the full payments lifecycle — Identities, Merchants, Payment Instruments, Authorizations, Transfers, Settlements, Disputes, Verifications, Fee/Payout Profiles, Devices/terminals, and Webhooks — enabling card, ACH, EFT, digital-wallet, and Buy-Now-Pay-Later acceptance, seller onboarding/underwriting, split transfers, payouts, and payment facilitation (PayFac-as-a-service). Finix is a Level 1 PCI DSS certified platform with browser (finix.js) and mobile tokenization SDKs, hosted checkout pages, and payment links. Authentication is HTTP Basic Auth with environment-scoped API keys; the API uses cursor pagination, idempotency_id request-level idempotency, HAL responses, and dated versioning via the Finix-Version header.
 image: https://images.ctfassets.net/kqru4vgwujx6/3dBfyfPS31FWqFPTwf4dRv/417cc8b5e94029726cffb9aa85230111/OG_Image.png?w=1200&q=90
 layout: provider
-mcp_servers:
-- description: ''
-  name: Finix Payments MCP Server
-  slug: finix-payments-mcp-server
 modified: '2026-07-19'
 name: Finix Payments
 nav: Providers
@@ -484,8 +481,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:

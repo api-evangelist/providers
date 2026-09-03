@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -223,7 +223,7 @@ apis:
   description: 'The #X Amz Target=AppRunner.UpdateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updatevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
-artifact_total: 632
+artifact_total: 631
 collections:
 - collection_type: open
   name: API Collection
@@ -343,7 +343,7 @@ common:
   url: capabilities/amazon-app-runner-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-app-runner-mcp.yml
 - group: other
   title: ''
@@ -2115,10 +2115,6 @@ jsonld:
   property_count: 4
   slug: amazon-app-runner-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon App Runner MCP Server
-  slug: amazon-app-runner-mcp-server
 modified: '2026-06-20'
 name: Amazon App Runner
 nav: Providers
@@ -2181,8 +2177,8 @@ score:
       marker_coverage: 0.0
       total: 36
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://bitbucket.org/product/features/pipelines'', ''status'': 301, ''note'': ''declared website redirects to https://www.atlassian.com/software/bitbucket/features/pipelines — a different registrable domain (bitbucket.org -> atlassian.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -345,8 +346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/screenshots/bitbucket-pipelines-2026-06-20T173303.png
 security:

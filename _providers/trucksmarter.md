@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ arazzos:
 - description: Post a batch of freight loads to the TruckSmarter load board via the partner Load Posting API, then remove them by loadId once they are covered or cancelled.
   name: Post loads to TruckSmarter and remove them once covered
   slug: trucksmarter-post-and-remove-loads
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +119,7 @@ common:
   url: llms/trucksmarter-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trucksmarter-mcp.yml
 - group: design
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: TruckSmarter is a free load board and AI dispatch platform for truck drivers and owner operators, surfacing 100K+ daily available loads with no subscription fees, alongside fuel savings and factoring services and a chat-based AI dispatcher (Dispatch). Brokers post loads and book carriers through a broker portal, CSV/Excel upload, or the partner Load Posting API, which lets partners programmatically create, update, and remove freight loads using a Bearer API key.
 image: https://framerusercontent.com/images/NWzlselGeh333d7PEqt7C8Ap9Mg.png
 layout: provider
-mcp_servers:
-- description: TruckSmarter publishes no official MCP server (none found in its docs, GitHub org, or the MCP registries). This is a candidate tool list derived from the operations of the partner Load Posting API, fo
-  name: TruckSmarter MCP server (candidate, derived — none published)
-  slug: trucksmarter-mcp-server-candidate-derived-none-published
 modified: '2026-07-21'
 name: TruckSmarter
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/screenshots/trucksmarter-2026-08-17T082446.png
 security:

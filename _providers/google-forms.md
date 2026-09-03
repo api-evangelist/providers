@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ arazzos:
 - description: List the watches registered on a form and delete one to stop its notification delivery.
   name: Google Forms Unsubscribe Form Watches
   slug: google-forms-unsubscribe-form-watches-workflow
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Google Forms API
@@ -130,7 +130,7 @@ common:
   url: well-known/google-forms-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-forms-mcp.yml
 - group: agent
   title: ''
@@ -334,10 +334,6 @@ jsonld:
   property_count: 17
   slug: google-forms-api-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Google Forms MCP Server
-  slug: google-forms-mcp-server
 modified: '2026-06-20'
 name: Google Forms
 nav: Providers
@@ -413,8 +409,8 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:

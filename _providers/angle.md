@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.angle.money
@@ -136,7 +136,7 @@ apis:
   description: The Volume API from Angle — 1 operation(s) for volume.
   name: Angle Volume API
   slug: angle-volume-api
-artifact_total: 44
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -204,7 +204,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/angle-mcp.yml
 - group: operate
   title: ''
@@ -310,10 +310,6 @@ created: '2026-07-17'
 description: Angle (Angle Labs, Inc.) is a decentralized, over-collateralized stablecoin protocol that issued the euro-pegged EURA and dollar-pegged USDA stablecoins, along with yield-bearing staked versions of each. Its on-chain modules included the Transmuter basket-and-dynamic-fee minting system, a borrowing module for depositing collateral against stablecoin debt, a native savings system, and cross-chain liquidity infrastructure. The protocol is open source under the AngleProtocol GitHub organization and ships a TypeScript SDK for building applications on top of it. Angle has announced the end of its operations — the protocol remains fully collateralized and every USDA and EURA is redeemable 1:1 until 1 March 2027 — and the team's ongoing work has moved to Merkl. Angle exposes smart contracts and a client SDK rather than a documented public REST API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angle.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Angle MCP Server
-  slug: angle-mcp-server
 modified: '2026-07-19'
 name: Angle
 nav: Providers
@@ -354,8 +350,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

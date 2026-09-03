@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Splunk SOAR REST API creates, updates, queries and selectively removes the objects the platform automates against — containers, artifacts, playbooks, action runs, apps, assets, CEF fields, indicat
@@ -226,8 +226,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/screenshots/splunk-soar-2026-09-02T160631.png
 security:

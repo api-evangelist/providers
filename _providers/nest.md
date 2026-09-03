@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://nest.com'', ''status'': 301, ''note'': ''declared website redirects to https://store.google.com/us/category/connected_home?hl=en-US&GoogleNest&utm_source=nest_redirect&utm_medium=google_oo&utm_campaign=homepage — a different registrable domain (nest.com -> google.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Google Nest Device Access REST API for accessing, controlling, and managing authorized Nest devices (thermostats, cameras, doorbells, Hub Max) via enterprises/structures/rooms/devices resources and a '
   name: Smart Device Management (SDM) API
   slug: smart-device-management-sdm-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Nest Events
@@ -131,7 +132,7 @@ common:
   url: conformance/nest-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nest-mcp.yml
 - group: build
   title: ''
@@ -157,10 +158,6 @@ created: '2026-07-17'
 description: Nest is Google's smart home brand — thermostats, cameras, doorbells, and the Nest Hub — originally founded as Nest Labs (a Lightspeed Venture Partners portfolio company) and acquired by Google. Developers integrate with authorized Nest devices through the Google Nest Device Access program and its Smart Device Management (SDM) API, a Google Cloud REST API authorized with Google OAuth 2.0. The API lets partner apps list structures, rooms, and devices, read device traits (temperature, humidity, camera, doorbell), and execute trait commands, with asynchronous device events delivered via Google Cloud Pub/Sub. The legacy "Works with Nest" API was retired and superseded by Device Access.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nest.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nest MCP Server
-  slug: nest-mcp-server
 modified: '2026-07-20'
 name: Nest
 nav: Providers
@@ -201,8 +198,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/screenshots/nest-2026-08-07T184913.png
 security:

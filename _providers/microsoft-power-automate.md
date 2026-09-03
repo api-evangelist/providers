@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -102,7 +102,7 @@ arazzos:
 - description: Find a failed run in a flow's history, inspect it, and resubmit its trigger.
   name: Microsoft Power Automate Triage and Resubmit a Failed Run
   slug: microsoft-power-automate-triage-failed-run-workflow
-artifact_total: 78
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Microsoft Power Automate Management Connections API
@@ -182,7 +182,7 @@ common:
   url: well-known/microsoft-power-automate-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/microsoft-power-automate-mcp.yml
 - group: agent
   title: ''
@@ -402,10 +402,6 @@ jsonld:
   property_count: 17
   slug: microsoft-power-automate-management-api-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Microsoft Power Automate MCP Server
-  slug: microsoft-power-automate-mcp-server
 modified: '2026-06-20'
 name: Microsoft Power Automate
 nav: Providers
@@ -487,8 +483,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 71.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-08-17T083607.png
 security:

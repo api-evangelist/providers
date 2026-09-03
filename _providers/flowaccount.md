@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ apis:
   description: The TaxInvoice API from FlowAccount — 9 operation(s) for taxinvoice.
   name: FlowAccount TaxInvoice API
   slug: flowaccount-taxinvoice-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Flowaccount Webhooks
@@ -279,7 +279,7 @@ common:
   url: packages/flowaccount-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/flowaccount-mcp.yml
 - group: agent
   title: ''
@@ -313,10 +313,6 @@ created: '2026-07-17'
 description: FlowAccount is a Thai cloud accounting platform serving 130,000+ SMEs, 17,000+ accountants and admins, and 5,900+ accounting firms. Its products cover online accounting (quotations, invoices, tax invoices, receipts, expenses), MobilePOS point-of-sale, Payroll with bank integration, and AutoKey document capture. The FlowAccount Open API is an OAuth 2.0 (client-credentials) REST API of 153 operations across sandbox and production environments, letting integrations create and manage sales/purchase documents, contacts, and products, receive webhook event callbacks, and sync POS transactions. First-party SDKs are published for JavaScript/TypeScript, Java, PHP, .NET, and Go.
 image: https://flowaccountcdn.com/favicon/landing/FlowAccount.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from FlowAccount Open API operations. No official hosted MCP server was found; this is a governance starting point, not a published server.
-  name: FlowAccount MCP Server
-  slug: flowaccount-mcp-server
 modified: '2026-07-19'
 name: FlowAccount
 nav: Providers
@@ -363,8 +359,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png
 security:

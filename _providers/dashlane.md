@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Time API from Dashlane — 1 operation(s) for time.
   name: Dashlane Time API
   slug: dashlane-time-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -111,7 +111,7 @@ common:
   url: cli/dashlane-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dashlane-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Dashlane is a password manager and credential-security platform for individuals, families, and enterprises, protecting against credential reuse, phishing, and account takeover with zero-knowledge encryption, passkey support, and AI-powered phishing detection. For developers, Dashlane publishes a read-only Public API (OpenAPI 3.0) that returns real-time team data — member roles/status/usage metrics, activated devices, and password-health analytics (weak, reused, compromised credentials) — authenticated with a bearer DLP token. Dashlane also ships an open-source CLI (dcli), a GitHub Action for injecting vault secrets into CI/CD, SCIM provisioning, and SSO federation.
 image: https://www.dashlane.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dashlane MCP Server
-  slug: dashlane-mcp-server
 modified: '2026-07-18'
 name: Dashlane
 nav: Providers
@@ -239,8 +235,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/screenshots/dashlane-2026-07-25T211226.png
 security:

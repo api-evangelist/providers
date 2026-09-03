@@ -8,6 +8,7 @@ access_model:
   source:
   - authentication
   - documentation
+  - '{''url'': ''https://bpsoftware.net/'', ''status'': 301, ''note'': ''declared website redirects to https://bestpracticesoftware.com/ — a different registrable domain (bpsoftware.net -> bestpracticesoftware.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,7 +70,7 @@ apis:
   description: Obtain authorization tokens for desktop applications to authenticate API requests.
   name: Best Practice Software Tokens API
   slug: best-practice-tokens-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Best Practice Webhooks
@@ -180,7 +181,7 @@ common:
   url: asyncapi/best-practice-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/best-practice-mcp.yml
 - group: agent
   title: ''
@@ -203,10 +204,6 @@ description: Best Practice Software is an Australian clinical and practice-manag
   pairing and PMS-managed database credentials, authenticated with an Azure API Management subscription key (desktop apps additionally use a bearer JWT and device id). This is not a self-serve public API; it is a partner-onboarded, standards-aligned interoperability layer for the Australian primary-care market.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Best Practice Software MCP Server
-  slug: best-practice-software-mcp-server
 modified: '2026-07-24'
 name: Best Practice Software
 nav: Providers
@@ -254,8 +251,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:

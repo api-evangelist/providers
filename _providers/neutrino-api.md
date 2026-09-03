@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://neutrinoapi.net/
@@ -72,7 +72,7 @@ apis:
   description: APIs for website and HTML processing
   name: Neutrino API WWW API
   slug: neutrino-api-www-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -165,7 +165,7 @@ common:
   url: changelog/neutrino-api-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/neutrino-api-mcp.yml
 - group: agent
   title: ''
@@ -287,10 +287,6 @@ json_schemas:
   property_count: 12
   slug: neutrino-api-phone-validate-response
 layout: provider
-mcp_servers:
-- description: ''
-  name: Neutrino API MCP Server
-  slug: neutrino-api-mcp-server
 modified: '2026-08-09'
 name: Neutrino API
 nav: Providers
@@ -340,8 +336,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 48.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/screenshots/neutrino-api-2026-08-17T081114.png
 security:

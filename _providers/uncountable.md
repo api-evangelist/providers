@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Uncountable External API is the authenticated REST surface of the Uncountable R&D platform. Its documented entry point is the list_entities endpoint, which returns rows from a Listing Configuratio
@@ -216,8 +217,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/screenshots/uncountable-2026-09-02T164847.png
 security:

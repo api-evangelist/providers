@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Single-endpoint healthcare interoperability API exposing proprietary LK* operations (appointments, patient bridge/search, documents, charges, patient balance, master lists) that bi-directionally conne
@@ -42,7 +42,7 @@ apis:
 - description: HL7 FHIR R4 RESTful API (read/search/create/update/delete across R4 resources) over the ELLKAY interoperability platform, with a published CapabilityStatement. OAuth 2.0 Bearer + SiteServiceKey; error
   name: LKCloud FHIR R4 API
   slug: lkcloud-fhir-r4-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -118,7 +118,7 @@ common:
   url: sandbox/ellkay-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ellkay-mcp.yml
 - group: auth
   title: ''
@@ -128,10 +128,6 @@ created: '2026-07-17'
 description: 'ELLKAY is a healthcare data interoperability and data-management company that connects disparate health IT systems so clinical and financial data can move where it is needed. Its LKOpera, LKOrbit, and LKOasis product lines provide interface-engine integration, orders and results, payer data retrieval, network/lab connectivity, and data archiving/migration across 750+ EMR/PM systems, 400+ hospitals, 58k+ practices, and 725+ laboratories. For developers, ELLKAY exposes the LKCloud platform: a single-endpoint Interop API (proprietary LK* operations) and a full HL7 FHIR R4 RESTful API, both authenticated with OAuth 2.0 against the LKIdentity authorization server and routed with a SiteServiceKey.'
 image: https://cdn.prod.website-files.com/68470d9028f4a074323fde70/689b3ac60177b4bae93d407b_Asset%2028.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ELLKAY MCP Server
-  slug: ellkay-mcp-server
 modified: '2026-07-19'
 name: ELLKAY
 nav: Providers
@@ -173,8 +169,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/screenshots/ellkay-2026-07-25T213153.png
 security:

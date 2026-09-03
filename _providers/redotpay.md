@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Production RedotPay HTTP API surface behind the redotpay CLI and the redotpay-payment MCP server. Provides OAuth2 device-flow authentication and the agentic Machine Payments Protocol (MPP) endpoint th
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/screenshots/redotpay-2026-09-02T153151.png
 security:

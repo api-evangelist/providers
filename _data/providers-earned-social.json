@@ -29,17 +29,17 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 82.9,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 91.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "verified",
@@ -74,8 +74,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -126,8 +126,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -171,8 +171,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -216,8 +216,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -261,8 +261,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -307,8 +307,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -353,8 +353,8 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -409,15 +409,15 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 36.7,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 41.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -455,8 +455,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -500,8 +500,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -542,59 +542,6 @@
      "rank": 11
     },
     {
-     "name": "Dow Jones",
-     "slug": "dow-jones",
-     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 64.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 65.9,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 66.1,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 80.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 12
-    },
-    {
      "name": "DataForSEO",
      "slug": "dataforseo",
      "description": "DataForSEO is an SEO data platform offering REST APIs for SERP results, keyword data, backlink analysis, on-page audits, domain analytics, and competitor research across 100+ search engines. It provides pay-as-you-go access to structured SEO and digital marketing data for software developers, agencies, and enterprise teams.",
@@ -612,8 +559,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -638,7 +585,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "CreatorIQ",
@@ -658,8 +605,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -701,7 +648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Postiz",
@@ -721,8 +668,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -746,7 +693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Buffer",
@@ -766,8 +713,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -792,6 +739,51 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
+     "rank": 15
+    },
+    {
+     "name": "Snapchat",
+     "slug": "snapchat",
+     "description": "Snap Inc. operates Snapchat, a visual messaging app and camera platform with developer tools including the Marketing API for programmatic advertising, Conversions API for server-side conversion tracking, Login Kit for OAuth-based user authentication, Creative Kit for content sharing to Snapchat, Camera Kit for embedding Snap AR technology into third-party apps, and Lens Studio for building augmented reality experiences.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png",
+     "score": 63.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 65.3,
+      "governance": 31.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 71.1,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 29.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 16
     },
     {
@@ -812,8 +804,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -841,6 +833,59 @@
      "rank": 17
     },
     {
+     "name": "Dow Jones",
+     "slug": "dow-jones",
+     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
+     "score": 62.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 65.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 80.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 18
+    },
+    {
      "name": "Reputation",
      "slug": "reputation",
      "description": "Reputation is an AI-powered reputation performance platform providing a REST API for managing online reviews, social listening, business listings, surveys, and competitive intelligence across multiple locations.",
@@ -858,8 +903,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -883,7 +928,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "World News API",
@@ -903,8 +948,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -929,7 +974,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Sprout Social",
@@ -949,8 +994,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -975,7 +1020,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Refersion",
@@ -995,8 +1040,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1020,7 +1065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Hootsuite",
@@ -1040,8 +1085,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 44.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1066,52 +1111,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 22
-    },
-    {
-     "name": "Bazaarvoice",
-     "slug": "bazaarvoice",
-     "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of brand and retailer sites. Its developer portal publishes twelve product sections and eleven distinct OpenAPI documents: the Conversations Display and Conversations Submission APIs for retrieving and posting UGC, the V2.0 Content Search API, the Response API for brand replies, the Transactions API for scheduling review requests, the Product Sentiment API for NLP-derived feature insight, the Notifications Subscriptions and Privacy APIs, the Social Commerce Display API for visual UGC, bulk Displayable Content and Product Sentiment exports, and the Authentic Discovery API, which returns Schema.org JSON-LD so AI crawlers that do not run JavaScript can read a product's reviews. Authentication varies by product - a Portal-managed passkey (Bv-Passkey header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png",
-     "score": 60.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 52.9,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 48.7,
-      "developer_ergonomics": 67.3,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
      "rank": 23
     },
     {
@@ -1132,8 +1131,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1177,8 +1176,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1223,8 +1222,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1259,6 +1258,52 @@
      "rank": 26
     },
     {
+     "name": "Bazaarvoice",
+     "slug": "bazaarvoice",
+     "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of brand and retailer sites. Its developer portal publishes twelve product sections and eleven distinct OpenAPI documents: the Conversations Display and Conversations Submission APIs for retrieving and posting UGC, the V2.0 Content Search API, the Response API for brand replies, the Transactions API for scheduling review requests, the Product Sentiment API for NLP-derived feature insight, the Notifications Subscriptions and Privacy APIs, the Social Commerce Display API for visual UGC, bulk Displayable Content and Product Sentiment exports, and the Authentic Discovery API, which returns Schema.org JSON-LD so AI crawlers that do not run JavaScript can read a product's reviews. Authentication varies by product - a Portal-managed passkey (Bv-Passkey header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png",
+     "score": 58.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 52.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 48.7,
+      "developer_ergonomics": 67.3,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
+     "rank": 27
+    },
+    {
      "name": "Lithium",
      "slug": "lithium",
      "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
@@ -1276,8 +1321,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1302,7 +1347,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "YouScan",
@@ -1322,8 +1367,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1337,51 +1382,6 @@
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "Snapchat",
-     "slug": "snapchat",
-     "description": "Snap Inc. operates Snapchat, a visual messaging app and camera platform with developer tools including the Marketing API for programmatic advertising, Conversions API for server-side conversion tracking, Login Kit for OAuth-based user authentication, Creative Kit for content sharing to Snapchat, Camera Kit for embedding Snap AR technology into third-party apps, and Lens Studio for building augmented reality experiences.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png",
-     "score": 56.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 65.3,
-      "governance": 31.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 73.2,
-      "commercial_clarity": 71.1,
-      "access_clarity": 71.1
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 29.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1412,8 +1412,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1458,8 +1458,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1504,8 +1504,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1549,8 +1549,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1606,8 +1606,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1651,15 +1651,15 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 41.4,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -1696,8 +1696,8 @@
       "commercial_clarity": 61.8,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1741,8 +1741,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1786,8 +1786,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1831,8 +1831,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1876,8 +1876,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1922,8 +1922,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1967,8 +1967,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2012,8 +2012,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2058,8 +2058,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2110,8 +2110,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2155,8 +2155,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2201,15 +2201,15 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 26.8,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2247,8 +2247,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2293,8 +2293,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2338,8 +2338,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2384,8 +2384,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2429,8 +2429,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2474,8 +2474,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2520,8 +2520,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2566,8 +2566,8 @@
       "commercial_clarity": 11.8,
       "access_clarity": 11.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2611,8 +2611,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2657,8 +2657,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2703,8 +2703,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2748,8 +2748,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2810,8 +2810,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2856,8 +2856,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2901,8 +2901,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2946,8 +2946,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2992,8 +2992,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3036,15 +3036,15 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 31.2,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -3064,6 +3064,51 @@
      "rank": 65
     },
     {
+     "name": "Kudobuzz",
+     "slug": "kudobuzz",
+     "description": "Kudobuzz is a reviews, user-generated content (UGC) and conversion-rate-optimization platform for ecommerce merchants. It collects, moderates and displays product and social reviews, imports reviews from Facebook, Google, Yelp, Amazon, Etsy and AliExpress, syncs shoppable UGC video from social channels, and runs After Purchase Mail campaigns that time review requests to a buyer's order. Merchants install it as an app on Shopify, Wix, BigCommerce, Shoplazza and Webflow and embed site, product, full-page and checkout widgets in their storefronts. The gated Developer API (api.kudobuzz.com/v1) exposes review creation plus customer and order sync for the APM product, is available to merchants on the Buffet plan and free to app developers building integrations, and is served by a first-party JavaScript client wrapper. Kudobuzz publishes its REST design standard, covering URLs, status codes, the error envelope, versioning, cursor pagination, rate-limit headers and idempotency, as a public repository.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png",
+     "score": 34.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 12.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 66
+    },
+    {
      "name": "Chatmeter",
      "slug": "chatmeter",
      "description": "Chatmeter is an AI-powered multi-location intelligence platform offering a REST API for managing business listings, monitoring and responding to reviews, tracking social mentions, running surveys, and benchmarking competitive performance across locations.",
@@ -3081,53 +3126,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 7.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 66
-    },
-    {
-     "name": "Markable",
-     "slug": "markable",
-     "description": "Markable (markable.ai) is an all-in-one monetization platform for affiliate creators and social-commerce influencers. It turns social posts into revenue with smart affiliate deeplinks across Amazon, Target, and Walmart, a shop-in-bio storefront, storefront sync for product collections, Instagram auto-DM replies, AI-generated collages and captions, viral-product discovery, and performance analytics. It is offered as an iOS app and a desktop web app, with a creator performance/boosting program. Markable is backed by Partech. Markable also published an earlier developer product, the Markable Lens API — a visual search platform for finding products and styles inside images and video against indexed catalogs — whose reference is still publicly served at docs-dev.markable.ai. Access to that API is gated on manual developer verification, no machine-readable contract (OpenAPI/AsyncAPI/GraphQL/MCP) is published, and the API hosts it documents were not reachable when last probed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/screenshots/markable-2026-07-25T230203.png",
-     "score": 33.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 39.3,
-      "commercial_clarity": 65.8,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3154,26 +3154,27 @@
      "rank": 67
     },
     {
-     "name": "Animoto",
-     "slug": "animoto",
-     "description": "Animoto is a cloud-based video creation platform, founded in 2006 and headquartered in New York City, that lets anyone turn photos, video clips, screen recordings and music into professional-looking videos through a drag-and-drop web editor and a large library of customizable templates. It is widely used for marketing and social-media videos, e-commerce and product promos, slideshows, real-estate tours, training and internal communications, and personal celebration videos, and is sold as subscription SaaS across free, Basic, Professional and Professional Plus tiers. Animoto is part of the Redbrick family of brands. It was surfaced as a portfolio company of kindred-ventures. Animoto formerly ran a partner-facing REST API for programmatic video directing and rendering: the API host api.animoto.com is still live and answers every request with an HTTP Basic challenge, but the developer program around it has been retired — animoto.com/developer now serves the marketing homepage, developer.animoto.com and the documented partner sandbox hosts no longer resolve, the help center Developer Resources section is empty, and the official Animoto API Ruby client has not been released since 2013.",
-     "score": 32.6,
+     "name": "Markable",
+     "slug": "markable",
+     "description": "Markable (markable.ai) is an all-in-one monetization platform for affiliate creators and social-commerce influencers. It turns social posts into revenue with smart affiliate deeplinks across Amazon, Target, and Walmart, a shop-in-bio storefront, storefront sync for product collections, Instagram auto-DM replies, AI-generated collages and captions, viral-product discovery, and performance analytics. It is offered as an iOS app and a desktop web app, with a creator performance/boosting program. Markable is backed by Partech. Markable also published an earlier developer product, the Markable Lens API — a visual search platform for finding products and styles inside images and video against indexed catalogs — whose reference is still publicly served at docs-dev.markable.ai. Access to that API is gated on manual developer verification, no machine-readable contract (OpenAPI/AsyncAPI/GraphQL/MCP) is published, and the API hosts it documents were not reachable when last probed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/screenshots/markable-2026-07-25T230203.png",
+     "score": 33.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 39.3,
+      "commercial_clarity": 65.8,
+      "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 5.0,
-     "agent_band": "human-only",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -3181,7 +3182,7 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -3198,39 +3199,38 @@
      "rank": 68
     },
     {
-     "name": "Kudobuzz",
-     "slug": "kudobuzz",
-     "description": "Kudobuzz is a reviews, user-generated content (UGC) and conversion-rate-optimization platform for ecommerce merchants. It collects, moderates and displays product and social reviews, imports reviews from Facebook, Google, Yelp, Amazon, Etsy and AliExpress, syncs shoppable UGC video from social channels, and runs After Purchase Mail campaigns that time review requests to a buyer's order. Merchants install it as an app on Shopify, Wix, BigCommerce, Shoplazza and Webflow and embed site, product, full-page and checkout widgets in their storefronts. The gated Developer API (api.kudobuzz.com/v1) exposes review creation plus customer and order sync for the APM product, is available to merchants on the Buffet plan and free to app developers building integrations, and is served by a first-party JavaScript client wrapper. Kudobuzz publishes its REST design standard, covering URLs, status codes, the error envelope, versioning, cursor pagination, rate-limit headers and idempotency, as a public repository.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png",
-     "score": 30.8,
+     "name": "Animoto",
+     "slug": "animoto",
+     "description": "Animoto is a cloud-based video creation platform, founded in 2006 and headquartered in New York City, that lets anyone turn photos, video clips, screen recordings and music into professional-looking videos through a drag-and-drop web editor and a large library of customizable templates. It is widely used for marketing and social-media videos, e-commerce and product promos, slideshows, real-estate tours, training and internal communications, and personal celebration videos, and is sold as subscription SaaS across free, Basic, Professional and Professional Plus tiers. Animoto is part of the Redbrick family of brands. It was surfaced as a portfolio company of kindred-ventures. Animoto formerly ran a partner-facing REST API for programmatic video directing and rendering: the API host api.animoto.com is still live and answers every request with an HTTP Basic challenge, but the developer program around it has been retired — animoto.com/developer now serves the marketing homepage, developer.animoto.com and the documented partner sandbox hosts no longer resolve, the help center Developer Resources section is empty, and the official Animoto API Ruby client has not been released since 2013.",
+     "score": 32.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 12.1,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "documented",
+      "idempotency": false,
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -3260,8 +3260,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3306,8 +3306,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 12.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3351,8 +3351,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3396,8 +3396,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3441,8 +3441,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3486,8 +3486,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3541,8 +3541,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3586,8 +3586,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3632,8 +3632,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3677,8 +3677,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3723,8 +3723,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3768,8 +3768,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3814,8 +3814,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3859,8 +3859,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3905,8 +3905,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3950,8 +3950,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3995,8 +3995,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4041,8 +4041,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4086,8 +4086,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4131,8 +4131,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4176,8 +4176,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4221,15 +4221,15 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 6.0,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 11.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -4267,8 +4267,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4313,8 +4313,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4359,8 +4359,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4405,8 +4405,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4450,8 +4450,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4495,8 +4495,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4540,8 +4540,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4585,8 +4585,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4631,8 +4631,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4675,8 +4675,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4721,8 +4721,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4766,8 +4766,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4811,8 +4811,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4856,8 +4856,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4901,8 +4901,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4956,8 +4956,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5001,8 +5001,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5046,8 +5046,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5092,8 +5092,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5137,8 +5137,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5182,8 +5182,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5227,8 +5227,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5272,8 +5272,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5316,8 +5316,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5362,8 +5362,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

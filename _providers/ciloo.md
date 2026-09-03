@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://{store_domain}/wp-json/ciloo/v1
@@ -56,7 +56,7 @@ apis:
   description: Customer lifecycle via the WooCommerce REST API v3 namespace, as documented by Ciloo.
   name: Ciloo Customers API
   slug: ciloo-customers-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Ciloo Printer Webhooks
@@ -148,7 +148,7 @@ common:
   url: asyncapi/ciloo-printer-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ciloo-mcp.yml
 - group: agent
   title: ''
@@ -175,10 +175,6 @@ description: 'Ciloo is a Rotterdam-headquartered global platform for branded pro
   status callbacks in return.'
 image: https://ciloo.com/wp-content/uploads/2022/01/Ciloo-Logo-2021.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ciloo MCP Server
-  slug: ciloo-mcp-server
 modified: '2026-08-12'
 name: Ciloo
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png
 security:

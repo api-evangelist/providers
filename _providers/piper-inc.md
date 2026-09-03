@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the Piper storefront over the Universal Commerce Protocol (UCP), exposed as an MCP endpoint on the store's Shopify platform (store id 9256256). Catalog search/lookup, cart, c
@@ -139,8 +139,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/screenshots/piper-inc-2026-09-02T151319.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Endpoints for obtaining access tokens using the OAuth 2.0 Client Credentials flow.
   name: Wellhub OAuth API
   slug: wellhub-oauth-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: https://security.wellhub.com/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wellhub-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: 'Wellhub (formerly Gympass) is a corporate wellbeing platform that gives employees access to a network of fitness, mindfulness, therapy, nutrition, and sleep partners through their employer''s benefits program. For system integrators it publishes a public Integrations API: an OAuth2 client-credentials REST API that lets a client''s HR or payroll system sync employee eligibility to Wellhub in real time, so employees gain access on hire and lose it on termination. The API models eligibility as batch jobs (create a job, add up to 500 items, submit, then poll status and read per-record errors) and is documented on a Stoplight-powered developer hub with a downloadable OpenAPI 3.0 contract and a synthetic-data Sandbox. Wellhub is backed by Atomico, HV Capital, and SoftBank Vision Fund.'
 image: https://wellhub.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wellhub MCP Server
-  slug: wellhub-mcp-server
 modified: '2026-07-21'
 name: Wellhub
 nav: Providers
@@ -241,8 +237,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/screenshots/wellhub-2026-08-17T082909.png
 security:

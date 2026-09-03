@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The TRITIUM platform API is Episode Six's real-time RESTful interface for card issuing, issuer processing and ledger management — card program setup, account and ledger operations, transaction process
@@ -219,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/screenshots/episode-six-2026-09-02T145414.png
 security:

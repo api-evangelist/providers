@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.screenleap.com/v2
@@ -41,7 +41,7 @@ apis:
   description: Create, retrieve, list and stop screen share sessions.
   name: Screenleap Screen Shares API
   slug: screenleap-screen-shares-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -128,7 +128,7 @@ common:
   url: data-model/screenleap-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/screenleap-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Screenleap is a screen sharing and online meeting service that lets anyone share their screen instantly from a browser with no software install required for viewers. Beyond the consumer product, Screenleap offers a REST-style developer API (api.screenleap.com/v2) that lets businesses embed live interaction — screen sharing, video conferencing, audio conferencing, chat and cloud recording — directly into their own websites and online services. The API creates and manages screen share sessions, returns a viewer URL and the screenShareData used by the screenleap.js JavaScript library to start sharing, and reports session usage and participant detail. Authentication uses an account id and auth token passed as request headers over SSL. Screenleap is backed by Andreessen Horowitz (a16z).
 image: https://www.screenleap.com/img/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Screenleap MCP Server
-  slug: screenleap-mcp-server
 modified: '2026-07-21'
 name: Screenleap
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/screenshots/screenleap-2026-08-17T081734.png
 security:

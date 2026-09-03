@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The User API from Loopay — 2 operation(s) for user.
   name: Loopay User API
   slug: loopay-user-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +211,7 @@ common:
   url: sandbox/loopay-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/loopay-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: Loopay is a Latin American B2B fintech infrastructure company headquartered in Bogotá, Colombia and backed by 500 Global. It provides cross-border and local business payments, international collections, mass payouts, multi-currency Banking-as-a-Service accounts, automated bank reconciliation, and treasury management for companies operating across Colombia, Peru, Mexico, and Ecuador. Loopay exposes a token-authenticated REST API (OpenAPI 3.0, 31 operations) that lets platforms create and track payouts, manage sources of payment and pay-ins, group affiliates, and read balances and ledger movements — settling supplier and beneficiary payments in under 24 hours.
 image: https://loopay.com/wp-content/uploads/2023/09/Loopay-web-imgs-24-150x139.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Loopay MCP Server
-  slug: loopay-mcp-server
 modified: '2026-07-20'
 name: Loopay
 nav: Providers
@@ -321,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:

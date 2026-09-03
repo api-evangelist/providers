@@ -7,10 +7,11 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.montecarlodata.com'', ''status'': 301, ''note'': ''declared website redirects to https://montecarlo.ai/ — a different registrable domain (montecarlodata.com -> montecarlo.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,10 +22,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-09-02'
+  score: 28.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,7 +52,13 @@ apis:
   description: The Graphql API from Monte Carlo — 1 operation(s) for graphql.
   name: Monte Carlo Graphql API
   slug: monte-carlo-graphql-api
-artifact_total: 10
+- description: A REST write API for pushing observability data into Monte Carlo from sources its pull-based collectors cannot reach. Three endpoints — POST /ingest/v1/metadata (table and view schema, columns, row an
+  name: Monte Carlo Push Ingest API
+  slug: push-ingest-api
+- description: A first-party, fully hosted Model Context Protocol server that gives AI agents direct access to Monte Carlo — investigating alerts, exploring assets and lineage, creating and tuning monitors, and eval
+  name: Monte Carlo MCP Server
+  slug: mcp-server
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -111,6 +118,10 @@ common:
   title: ''
   type: Blog
   url: https://montecarlodata.com/blog/feed/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.getmontecarlo.com/
 created: '2026-05-11'
 description: Monte Carlo is a data and AI observability platform that monitors data warehouses, lakes, and pipelines for freshness, volume, schema, and quality anomalies, helping data teams detect, resolve, and prevent data downtime across Snowflake, Databricks, BigQuery, Redshift, and other modern data stack tools. Monte Carlo exposes a GraphQL API at https://api.getmontecarlo.com/graphql used for programmatic access to monitors, incidents, lineage, assets, alerts, custom rules, and lake/metastore integrations, with a supporting Python SDK and CLI (pycarlo / montecarlo). Authentication uses an API Key ID and Token pair sent via headers.
 graphqls:
@@ -119,6 +130,10 @@ graphqls:
   slug: monte-carlo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monte-carlo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Monte Carlo MCP Server
+  slug: monte-carlo-mcp-server
 modified: '2026-05-11'
 name: Monte Carlo
 nav: Providers
@@ -126,23 +141,23 @@ network: true
 overview: 'Monte Carlo publishes 1 API on the [APIs.io](https://apis.io/) network: Graphql API. Tagged areas include Data Observability, Data Quality, Data Reliability, Data Lake, and Data Warehouse.
 
 
-  Monte Carlo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
+  Monte Carlo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, and 7 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 34.0
+  composite: 35.4
   coverage:
     artifact_dirs: 9
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 59.9
-    developer_ergonomics: 23.8
+    developer_ergonomics: 31.0
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
@@ -154,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/screenshots/monte-carlo-2026-06-20T185743.png
 security:

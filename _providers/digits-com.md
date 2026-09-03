@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ apis:
   description: The .well Known API from Digits — 2 operation(s) for .well known.
   name: Digits .well Known API
   slug: digits-com-well-known-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Digits Com Webhooks
@@ -259,7 +259,7 @@ common:
   url: overlays/digits-com-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/digits-com-mcp.yml
 - group: agent
   title: ''
@@ -321,10 +321,6 @@ finops:
   slug: digits-com-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digits-com.png
 layout: provider
-mcp_servers:
-- description: Digits provides a hosted MCP (Model Context Protocol) server that connects AI clients such as ChatGPT and Claude directly to a Digits account — no developer app required. Setup instructions are publis
-  name: Digits MCP
-  slug: digits-mcp
 modified: '2026-08-08'
 name: Digits
 nav: Providers
@@ -379,8 +375,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:

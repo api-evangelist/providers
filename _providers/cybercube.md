@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - rate-limits
   - security
   trial: false
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: CyberConnect is CyberCube's API layer for integrating its cyber risk models, analytics and signals into a customer's own systems. CyberCube advertises API capabilities across catastrophe risk manageme
@@ -149,8 +150,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybercube/refs/heads/main/screenshots/cybercube-2026-09-02T145213.png
 security:

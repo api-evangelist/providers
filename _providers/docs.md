@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OpenAI-compatible model-inference API over Infini-AI's catalog of open- and closed-source models. Bearer (API Key) authentication; chat/completions, models, embeddings and image/video generation endpo
@@ -131,8 +131,8 @@ score:
   previous_composite: 12.4
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docs/refs/heads/main/screenshots/docs-2026-07-25T212217.png
 security:

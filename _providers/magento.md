@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -416,11 +416,10 @@ score:
       marker_coverage: 0.0
       total: 11
   regulatory:
-    applies: false
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png
 security:

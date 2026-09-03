@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -120,7 +120,13 @@ apis:
   description: Retrieve current prices and markets
   name: Blockchain.com Unauthenticated API
   slug: blockchain.com-unauthenticated-api
-artifact_total: 37
+- description: Real-time WebSocket APIs covering two distinct surfaces — the Bitcoin / blockchain.info explorer socket (unconfirmed transactions, new blocks, per-address activity) and the Blockchain.com Exchange mer
+  name: Blockchain.com WebSocket APIs
+  slug: blockchaincom-websocket-apis
+- description: 'Partner API for embedding Blockchain.com crypto purchases. Covers authentication, eligibility (supported currencies / regions), quotes (pricing for crypto transactions), and order state. Rate-limited '
+  name: Blockchain.com Pay Partner API
+  slug: blockchaincom-pay-partner-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Blockchain.Com Event Surface
@@ -159,7 +165,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blockchain.com-mcp.yml
 - group: other
   title: ''
@@ -301,6 +307,10 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/blockchain.com-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blockchain.com/api
 created: '2026-08-02'
 description: Blockchain.com is a cryptocurrency financial services company that operates the Blockchain.com Explorer (one of the longest-running Bitcoin block explorers), a self-custody and custodial wallet, an institutional spot exchange, and Blockchain.com Pay, an embeddable fiat-to-crypto on-ramp and off-ramp for partners. Its public API surface spans the Exchange REST API (market data, trading, deposits and withdrawals, authenticated with an X-API-Token header), a FIX-named WebSocket trading and market-data gateway, the Pay Partner API (eligibility, quotes and orders, authenticated with public and private API key headers plus order webhooks), the free Blockchain Data, Simple Query, Exchange Rates and Charts & Statistics APIs on blockchain.info, a real-time blockchain WebSocket notification stream, an NFT Market API, and the open-source Wallet API service (service-my-wallet-v3) with first-party client libraries for Python, Node.js, Ruby, PHP and Java.
 image: https://www.blockchain.com/static/apple-touch-icon.png
@@ -309,21 +319,17 @@ json_schemas:
   property_count: 0
   slug: blockchain.com-pay-webhook-event
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blockchain.com MCP Server
-  slug: blockchaincom-mcp-server
 modified: '2026-08-02'
 name: Blockchain.com
 nav: Providers
 network: true
-overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 7 more. Tagged areas include Cryptocurrency, Bitcoin, Blockchain, Exchange, and Trading.
+overview: 'Blockchain.com publishes 11 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 8 more. Tagged areas include Cryptocurrency, Bitcoin, Blockchain, Exchange, and Trading.
 
 
   The Blockchain.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 17
 rate_limits:
 - limit_count: 2
@@ -369,8 +375,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:

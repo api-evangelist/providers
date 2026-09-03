@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The C.H. Robinson Carrier API enables carriers to find, offer, book, and auto-create loads directly from their own TMS, send visibility updates, upload documents for faster invoicing, and check paymen
@@ -212,8 +212,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 17.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png
 security:

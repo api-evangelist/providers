@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The EnOS platform open APIs cover the core platform services — model, device connection, asset, asset tree, alert engine, TSDB time-series data, and data subscription. Applications register in the EnO
@@ -173,8 +173,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/univers/refs/heads/main/screenshots/univers-2026-09-02T164929.png
 security:

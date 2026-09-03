@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://crowdrise.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.gofundme.com:443/c/crowdrise — a different registrable domain (crowdrise.com -> gofundme.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,8 +84,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

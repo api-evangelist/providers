@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://{subscription}.bonitacloud.com/bonita
@@ -420,7 +420,7 @@ apis:
   description: UserTask
   name: Bonitasoft User Task API
   slug: bonitasoft-usertask-api
-artifact_total: 82
+artifact_total: 81
 common:
 - group: commercial
   title: ''
@@ -500,7 +500,7 @@ common:
   url: packages/bonitasoft-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bonitasoft-mcp.yml
 - group: agent
   title: ''
@@ -579,10 +579,6 @@ description: Bonitasoft is the French open-source company behind Bonita, a busin
   Ofelia Agentic) alongside the Bonita BPM platform.
 image: https://cdn.prod.website-files.com/69babab287a7d4136d9c544a/69babbfcdec6f9319562e4b1_Opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bonitasoft MCP Server
-  slug: bonitasoft-mcp-server
 modified: '2026-08-17'
 name: Bonitasoft
 nav: Providers
@@ -628,8 +624,8 @@ score:
       total: 76
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/screenshots/bonitasoft-2026-09-02T144932.png
 security:

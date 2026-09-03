@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Direct REST access to Synthefy's foundation models for multivariate time-series forecasting (Migas-1.0), with automatic timestamp/value/metadata handling and exogenous covariate context. Called via th
@@ -42,7 +42,7 @@ apis:
 - description: Hosted in-context tabular regression and classification via the Nori foundation model. Predicts on any table in a single forward pass with no training; served over an OpenAI-style Bearer-authenticated
   name: Synthefy Nori API
   slug: synthefy-nori-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -106,7 +106,7 @@ common:
   url: packages/synthefy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/synthefy-mcp.yml
 - group: agent
   title: ''
@@ -140,10 +140,6 @@ created: '2026-07-17'
 description: Synthefy builds foundation models for structured data, replacing task-specific machine learning (XGBoost, LightGBM, ARIMA, Prophet) with a single API call. Its Nori tabular model performs in-context regression and classification on any table with no training, and its time-series Forecasting API (Migas-1.0) delivers multivariate probabilistic forecasts with exogenous context. The platform is delivered as a hosted REST API, Python SDKs, Docker containers, AWS SageMaker, and Snowflake, serving banking, retail, insurance, healthcare, infrastructure, and marketing use cases with SOC 2 Type II, HIPAA, GDPR, and zero-data-retention compliance.
 image: https://synthefy.com/opengraph-image
 layout: provider
-mcp_servers:
-- description: ''
-  name: Synthefy MCP Server
-  slug: synthefy-mcp-server
 modified: '2026-07-21'
 name: Synthefy
 nav: Providers
@@ -179,8 +175,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthefy/refs/heads/main/screenshots/synthefy-2026-09-02T161632.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User managemen'
   name: Adaptive Security Users API
   slug: adaptive-security-users-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +175,7 @@ common:
   url: rate-limits/adaptive-security-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adaptive-security-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: Adaptive Security is the human security platform for the AI era, defending organizations against AI-powered social engineering — deepfakes, voice cloning, phishing, smishing and vishing — through interactive security awareness training, hyperrealistic multi-channel attack simulations, cloud email security, and AI governance. Founded by Brian Long and Andrew Jones and backed by Andreessen Horowitz (a16z) and the OpenAI Startup Fund, Adaptive protects 1,000+ enterprise customers including PayPal, Figma, Ramp, Plaid and the NHL. The Adaptive API is a read-only REST reporting interface (v2) that gives programmatic access to users, groups, training campaigns, phishing campaigns and simulations, and audit logs for compliance reporting, progress monitoring, and BI/HRIS/SIEM data integration.
 image: https://www.adaptivesecurity.com/og-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adaptive Security MCP Server
-  slug: adaptive-security-mcp-server
 modified: '2026-07-17'
 name: Adaptive Security
 nav: Providers
@@ -259,8 +255,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
 security:

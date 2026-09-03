@@ -19,7 +19,7 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.6
-  scored_at: '2026-09-02'
+  score: 27.5
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.run.ai
@@ -346,7 +346,7 @@ apis:
   description: A Workspace is a simplified tool for researchers to conduct experiments, build AI models, access standard MLOps tools, and collaborate with their peers. Workspaces abstract complex concepts related to
   name: NVIDIA Run:ai Workspaces API
   slug: runai-workspaces-api
-artifact_total: 128
+artifact_total: 127
 collections:
 - collection_type: open
   name: API Collection
@@ -628,7 +628,7 @@ common:
   url: data-model/runai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/runai-mcp.yml
 - group: auth
   title: ''
@@ -654,10 +654,6 @@ created: '2026-07-17'
 description: NVIDIA Run:ai (formerly run.ai) is an AI operations and GPU orchestration platform for Kubernetes that pools, schedules, and governs GPU compute across clusters for training, fine-tuning, and inference workloads. It provides fractional GPU sharing, dynamic scheduling, quota and policy management, multi-tenant projects and departments, and workload lifecycle control across SaaS, self-hosted, and multi-tenant deployments. run.ai was founded in Israel, backed by Insight Partners and other investors, and acquired by NVIDIA in 2024; the product is now delivered as NVIDIA Run:ai. Its control-plane REST API exposes programmatic management of clusters, node pools, projects, departments, workloads (workspaces, trainings, inferences, distributed), assets, policies, permissions, service accounts, and audit logs, authenticated with bearer JWT access tokens obtained from client-credentials access keys.
 image: https://avatars.githubusercontent.com/u/37841801?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: NVIDIA Run:ai MCP Server
-  slug: nvidia-runai-mcp-server
 modified: '2026-08-21'
 name: NVIDIA Run:ai
 nav: Providers
@@ -695,8 +691,8 @@ score:
       total: 62
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/screenshots/runai-2026-08-17T081650.png
 security:

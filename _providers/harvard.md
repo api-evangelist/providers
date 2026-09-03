@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Harvard Dataverse. Identify returns repositoryName "Harvard Dataverse Dataverse OAI Archive" with adminEmail support@dataverse.harvard.edu, earliest datest
@@ -533,7 +533,7 @@ score:
     catalog_gap: 46.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -543,7 +543,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 47.3
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -557,8 +557,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 68.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/screenshots/harvard-2026-06-20T182525.png
 security:

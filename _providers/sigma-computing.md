@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Sigma's first-party remote Model Context Protocol server. AI assistants such as Claude, ChatGPT, Codex, Cursor and Snowflake Cortex Code connect over HTTP with OAuth and can then search a Sigma organi
@@ -463,11 +463,11 @@ score:
   band: exemplar
   composite: 67.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -477,7 +477,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 66.4
+  previous_composite: 67.3
   provenance:
     conformance: first-party
     contracts:
@@ -487,8 +487,8 @@ score:
       total: 38
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/screenshots/sigma-computing-2026-09-02T155428.png
 security:

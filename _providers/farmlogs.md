@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.farmlogs.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.bushelpowered.com/farmers — a different registrable domain (farmlogs.com -> bushelpowered.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Field boundary mapping and per-field record-keeping, the original core of FarmLogs. This capability now lives inside Bushel Farm (formerly Bushel Farm/FarmLogs); no self-serve public REST reference, b
@@ -137,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/screenshots/farmlogs-2026-07-25T214231.png
 security:

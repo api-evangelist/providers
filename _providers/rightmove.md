@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: Create, Updated, Remove and Retrieve properties
   name: Rightmove Property API
   slug: rightmove-property-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: Commercial Listings API
@@ -67,7 +67,7 @@ common:
   url: capabilities/rightmove-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rightmove-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ description: Rightmove is the United Kingdom's largest residential property port
   publishes the Real Time Data Feed specification, but working credentials for every environment are issued case by case by the Rightmove Data Feed Team and use is governed by a binding End User Licence Agreement. No RESO Web API or Data Dictionary certification, OData `$metadata` document or Universal Property Identifier appears anywhere in Rightmove's surface - RESO is a North American, NAR-driven standard with no UK counterpart, and Rightmove uses its own proprietary ADF/RTDF schema instead.
 image: https://media.rightmove.co.uk/assets/shared-assets/favicons/light/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rightmove MCP Server
-  slug: rightmove-mcp-server
 modified: '2026-07-26'
 name: Rightmove
 nav: Providers
@@ -257,8 +253,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/screenshots/rightmove-2026-08-17T081601.png
 security:

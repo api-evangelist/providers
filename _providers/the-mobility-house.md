@@ -1,18 +1,19 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.9
-  scored_at: '2026-09-02'
+  score: 28.4
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Two-way WebSocket-Secure interface between ChargePilot (acting as the Charging Management System, CMS) and an upstream Depot Management, Fleet Management or ITCS system, implemented against the VDV 46
@@ -214,8 +215,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/screenshots/the-mobility-house-2026-09-02T163358.png
 security:

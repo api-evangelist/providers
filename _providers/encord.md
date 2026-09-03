@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API and Python SDK for programmatically managing annotation projects, datasets, ontologies, labels, and workflows within the Encord Annotate platform. Supports creating and retrieving projects an
@@ -171,8 +171,8 @@ score:
     applies: true
     score: 25.0
   previous_composite: 30.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encord/refs/heads/main/screenshots/encord-2026-06-20T180648.png
 security:

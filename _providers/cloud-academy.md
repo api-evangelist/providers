@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://cloudacademy.com'', ''status'': 301, ''note'': ''declared website redirects to https://platform.qa.com/login/ — a different registrable domain (cloudacademy.com -> qa.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -58,7 +59,7 @@ apis:
   description: The Reports API from Cloud Academy — 32 operation(s) for reports.
   name: Cloud Academy Reports API
   slug: cloud-academy-reports-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +172,7 @@ common:
   url: data-model/cloud-academy-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cloud-academy-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +194,6 @@ created: '2026-07-17'
 description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines. Its public REST API lets enterprise administrators integrate the platform with internal business systems — browsing the content catalog, managing organization teams and members, and generating asynchronous reports on learner activity, progress, and skills. Authentication is OAuth2 client-credentials and the public API is rate-limited to 100 requests per minute. Cloud Academy was surfaced as a 500 Global portfolio company and enriched into the API Evangelist network from its live Swagger definition.
 image: https://assets.platform.qa.com/hanami/static/favicon-platform/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cloud Academy MCP Server
-  slug: cloud-academy-mcp-server
 modified: '2026-07-18'
 name: Cloud Academy
 nav: Providers
@@ -250,8 +247,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png
 security:

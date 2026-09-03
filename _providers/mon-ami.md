@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.monami.io/api
@@ -121,7 +121,7 @@ apis:
   description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
   name: Mon Ami Webhooks API
   slug: mon-ami-webhooks-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Mon Ami Webhooks
@@ -192,7 +192,7 @@ common:
   url: skills/mon-ami-intake-and-enroll-client.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mon-ami-mcp.yml
 - group: other
   title: ''
@@ -254,10 +254,6 @@ created: '2026-07-17'
 description: Mon Ami is a modern data-management platform for aging and disability services, unifying case management, billing, evidence-based assessments, reporting, and compliance in one system. It serves State Units on Aging (SUAs), Area Agencies on Aging (AAAs), Intellectual & Developmental Disabilities (I/DD) programs, Long-Term Care Ombudsman offices, Medicaid HCBS providers, and Community Care Hubs. Mon Ami exposes a REST API (clients, care plans, services, copays, documents, programs, people, volunteers, referrals, tasks, visits, and webhooks) and treats interoperability as a design standard with open REST, HL7 FHIR R4, and secure SFTP. The platform is HIPAA and SOC 2 Type II certified and FedRAMP Ready.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mon-ami.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mon Ami MCP Server
-  slug: mon-ami-mcp-server
 modified: '2026-07-20'
 name: Mon Ami
 nav: Providers
@@ -308,8 +304,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
 security:

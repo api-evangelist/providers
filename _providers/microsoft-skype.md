@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.skype.com/'', ''status'': 301, ''note'': ''declared website redirects to https://teams.live.com/free?source=skype — a different registrable domain (skype.com -> live.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Skype URIs provide a mechanism for launching Skype actions from web pages and applications. Developers can create links that initiate calls, video calls, and chat conversations with specified Skype us
@@ -128,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 24.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-skype/refs/heads/main/screenshots/microsoft-skype-2026-06-20T185532.png
 security:

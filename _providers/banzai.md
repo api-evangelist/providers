@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://my.demio.com/api/v1
@@ -54,7 +54,7 @@ apis:
   description: Participation and attendance reporting.
   name: Banzai Reports API
   slug: banzai-reports-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Banzai Demio Events
@@ -195,7 +195,7 @@ common:
   url: well-known/banzai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/banzai-mcp.yml
 - group: build
   title: ''
@@ -222,10 +222,6 @@ description: 'Banzai International, Inc. (NASDAQ: BNZI) is a Seattle-area market
   harvest backlog.'
 image: https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/61f1c591c10f6d34d7f8347c_favicon-large.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Banzai MCP Server
-  slug: banzai-mcp-server
 modified: '2026-08-06'
 name: Banzai
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png
 security:

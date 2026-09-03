@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -163,7 +163,7 @@ apis:
   description: Folder for loyalty
   name: StreamElements users API
   slug: streamelements-users-api
-artifact_total: 55
+artifact_total: 54
 asyncapis:
 - description: StreamElements' dedicated pubsub WebSocket gateway. Subscribe to per-channel topics to receive live stream events (tips, activities, session updates, overlay/chatbot events) the moment they happen. Ca
   name: StreamElements Astro Real-Time Gateway
@@ -335,7 +335,7 @@ common:
   url: data-model/streamelements-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/streamelements-mcp.yml
 - group: agent
   title: ''
@@ -369,10 +369,6 @@ created: '2026-07-17'
 description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and contests, song requests, a media/merch store, brand sponsorships, and analytics — all managed from the StreamElements dashboard. Developers integrate through a public REST API at api.streamelements.com (kappa v2/v3) authenticated with JWT, overlay API keys, or OAuth2, plus the Astro real-time WebSocket gateway (wss://astro.streamelements.com) for live event topics.
 image: https://streamelements.com/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: StreamElements MCP Server
-  slug: streamelements-mcp-server
 modified: '2026-07-21'
 name: StreamElements
 nav: Providers
@@ -419,8 +415,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/screenshots/streamelements-2026-08-17T082134.png
 security:

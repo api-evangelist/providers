@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.smartcustomer.com/v1
@@ -107,7 +107,7 @@ apis:
   description: The Reviews API from SiteJabber — 4 operation(s) for reviews.
   name: SiteJabber Reviews API
   slug: sitejabber-reviews-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: SmartCustomer (Sitejabber) Business API
@@ -119,7 +119,7 @@ common:
   url: overlays/sitejabber-business-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sitejabber-mcp.yml
 - group: auth
   title: ''
@@ -206,10 +206,6 @@ description: 'SiteJabber is a consumer review platform, rebranded as SmartCustom
   review requests by email and SMS, a full product-review and catalog surface, and two CCPA-shaped customer-privacy operations. A prior enrichment pass recorded no API; that was wrong — the reference is served from the pre-rebrand api.sitejabber.com host, which is not linked from the current consumer or business site navigation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sitejabber.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SiteJabber MCP Server
-  slug: sitejabber-mcp-server
 modified: '2026-08-13'
 name: SiteJabber
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/screenshots/sitejabber-2026-08-17T081908.png
 security:

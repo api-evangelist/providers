@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Quote-side policy lifecycle — create and patch proposals, add and remove policy lines, coverages, schedules and linked schedules, list insurance programs, carriers, policy lines and states, run or que
@@ -82,7 +82,7 @@ apis:
   description: The Requests API from Origami Risk — 3 operation(s) for requests.
   name: Origami Risk Requests API
   slug: origami-risk-requests-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Origami Risk Webhooks
@@ -195,7 +195,7 @@ common:
   url: packages/origami-risk-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/origami-risk-mcp.yml
 - group: agent
   title: ''
@@ -274,10 +274,6 @@ description: Origami Risk is a Chicago-headquartered risk, safety and insurance 
   billing and payments, claims-from-incident and first-report actions, files, reports, domain metadata and outbound webhooks. Four OpenAPI definitions are downloadable from the portal's spec registry, though three of the four are thin scaffolds and the bulk of the reference is hand-authored per-endpoint documentation rather than a complete machine-readable spec. Access to a live tenant is still commercial — the base URL is a per-customer https://{environment}.origamirisk.com host and authentication is token-based or HMAC against a provisioned account — and no ACORD, AL3, IVANS or NGDS conformance is claimed anywhere in the marketing site or the developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool list (no official server published)
-  slug: candidate-mcp-tool-list-no-official-server-published
 modified: '2026-07-25'
 name: Origami Risk
 nav: Providers
@@ -328,8 +324,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/screenshots/origami-risk-2026-08-07T190927.png
 security:

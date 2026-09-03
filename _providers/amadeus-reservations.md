@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
   description: The Booking API from Amadeus Reservations — 5 operation(s) for booking.
   name: Amadeus Reservations Booking API
   slug: amadeus-reservations-booking-api
-artifact_total: 755
+artifact_total: 754
 collections:
 - collection_type: open
   name: API Collection
@@ -150,7 +150,7 @@ common:
   url: well-known/amadeus-reservations-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amadeus-reservations-mcp.yml
 - group: agent
   title: ''
@@ -2444,10 +2444,6 @@ jsonld:
   property_count: 2
   slug: amadeus-transfer-management-transfer-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Amadeus reservation APIs, one tool per OpenAPI operation across the flight, hotel, and transfer booking/management APIs. Not published by Amadeus; provided as a design tar
-  name: Amadeus Reservations MCP Server
-  slug: amadeus-reservations-mcp-server
 modified: '2026-06-20'
 name: Amadeus Reservations
 nav: Providers
@@ -2510,8 +2506,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/screenshots/amadeus-reservations-2026-07-25T195905.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -1013,7 +1013,7 @@ apis:
   description: The VFL Training Subscriptions (Collection) API from 3GPP — 1 operation(s) for vfl training subscriptions (collection).
   name: 3GPP VFL Training Subscriptions (Collection) API
   slug: 3gpp-vfl-training-subscriptions-collection-api
-artifact_total: 317
+artifact_total: 316
 asyncapis:
 - description: ''
   name: 3Gpp Notifications Webhooks
@@ -1434,7 +1434,7 @@ common:
   url: packages/3gpp-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/3gpp-mcp.yml
 - group: build
   title: ''
@@ -1517,10 +1517,6 @@ description: '3GPP (the 3rd Generation Partnership Project) is the global standa
   programme — there is no portal, no key, no sandbox and no callable endpoint; the specifications describe interfaces that operators instantiate, and the developer-facing abstraction over them is CAMARA and GSMA Open Gateway, not 3GPP itself.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: 3GPP MCP Server
-  slug: 3gpp-mcp-server
 modified: '2026-07-25'
 name: 3GPP
 nav: Providers
@@ -1573,8 +1569,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 69.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/screenshots/3gpp-2026-08-07T160703.png
 security:

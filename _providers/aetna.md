@@ -29,7 +29,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -37,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-09-02'
+  score: 36.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: HIPAA X12 electronic data interchange for health care professionals - EDI 837 claims, 270/271 eligibility and benefits, 276/277 claim status and 835 remittance advice. This is not an Aetna-hosted REST
   name: Aetna Provider EDI Connectivity
   slug: aetna-provider-edi-api
-artifact_total: 129
+artifact_total: 128
 common:
 - group: docs
   title: ''
@@ -343,7 +343,7 @@ common:
   url: packages/aetna-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aetna-mcp.yml
 - group: agent
   title: ''
@@ -747,10 +747,6 @@ json_schemas:
   property_count: 0
   slug: aetna-procedure
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aetna MCP Server
-  slug: aetna-mcp-server
 modified: '2026-08-30'
 name: Aetna
 nav: Providers
@@ -824,8 +820,8 @@ score:
     regime: Health
     regime_id: health
     score: 68.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

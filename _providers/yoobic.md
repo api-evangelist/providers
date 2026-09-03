@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.yoobic.com/public/api
@@ -241,7 +241,7 @@ apis:
   description: '<a id="group-webhooks"></a> You can create webhooks with HTTP targets to build integrations with the services or with your back-end system. Examples: - Alert your team in Slack when a mission is creat'
   name: Yoobic Webhooks API
   slug: yoobic-webhooks-api
-artifact_total: 88
+artifact_total: 87
 asyncapis:
 - description: ''
   name: Yoobic Webhooks
@@ -384,7 +384,7 @@ common:
   url: skills/yoobic-manage-missions.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yoobic-mcp.yml
 - group: other
   title: ''
@@ -458,10 +458,6 @@ created: '2026-07-17'
 description: YOOBIC is an AI-powered frontline employee experience and retail operations platform that unifies task management, internal communications, and mobile microlearning, giving headquarters real-time visibility and frontline teams the tools to execute in-store. It serves retail, grocery, fashion and luxury, convenience, pharmacy, restaurant/QSR, and fitness brands. The YOOBIC Public API is a RESTful JSON API (OpenAPI 3.0, 230 paths / 265 operations across 41 resource groups) for programmatically managing users, stores, missions, campaigns, learning, communities, and webhooks, secured with JWT bearer tokens.
 image: https://yoobic.com/wp-content/uploads/2025/11/cropped-favicon-1-1-270x270.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Yoobic MCP Server
-  slug: yoobic-mcp-server
 modified: '2026-07-21'
 name: Yoobic
 nav: Providers
@@ -502,8 +498,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/screenshots/yoobic-2026-08-17T083024.png
 security:

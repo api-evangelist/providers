@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ arazzos:
 - description: List your Button billing accounts (one per currency), then page through all commission transactions across every account to reconcile affiliate earnings.
   name: Reconcile affiliate commission transactions
   slug: button-reconcile-transactions
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: Button delivers signed HTTP POST webhooks to a Publisher-configured URL when a transaction takes place based on traffic the Publisher drove to a Brand. Each delivery carries a Transaction in three pos
   name: Button Transaction Webhooks
@@ -190,7 +190,7 @@ common:
   url: agentic-access/button-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/button-mcp.yml
 - group: design
   title: ''
@@ -240,10 +240,6 @@ created: '2026-07-17'
 description: Button is a mobile commerce and affiliate attribution platform connecting publishers, retailers, advertisers, and creators. Its AI-driven intelligence platform identifies and routes users to the highest-converting destination, powering smart routing, in-app priority, privacy-safe first-party attribution and analytics, and the CuratedBy Button publisher tool that combines affiliate, retail media, and seller budgets. For developers, Button exposes REST APIs for brand details, real-time affiliate offers, attributable link and shortlink generation, and billing and commission transaction reporting, plus native iOS and Android SDKs, merchant libraries, and signed transaction webhooks that close the loop on the user's commerce journey.
 image: https://github.com/button.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Button MCP Server
-  slug: button-mcp-server
 modified: '2026-07-18'
 name: Button
 nav: Providers
@@ -285,8 +281,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/screenshots/button-2026-07-25T204122.png
 security:

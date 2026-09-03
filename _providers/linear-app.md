@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Single GraphQL endpoint exposing Linear''s full data model - issues, projects, initiatives, cycles, teams, users, comments, documents, customers, customer requests, and more. Auth via OAuth 2.0 Bearer '
@@ -240,8 +240,8 @@ score:
     governance: 0.0
     operational_transparency: 76.3
   previous_composite: 41.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/screenshots/linear-app-2026-06-20T184548.png
 security:

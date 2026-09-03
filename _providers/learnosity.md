@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - description: Server-side JSON API for the Learnosity platform. Endpoint families cover Item bank content (Items, Questions, Features, Activities, Tags, Pools, Templates, Workflows), learner sessions and responses,
@@ -72,7 +72,7 @@ apis:
 - description: Embeddable AI scoring and feedback surface for open-response work, exposed through feedbackSession and feedbackSessionUI configuration.
   name: Learnosity Feedback Aide
   slug: feedback-aide
-artifact_total: 18
+artifact_total: 17
 common:
 - group: start
   title: ''
@@ -236,17 +236,13 @@ common:
   url: llms/learnosity-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/learnosity-mcp.yml
 created: '2026-07-17'
 description: 'Learnosity is an Irish-founded assessment infrastructure company whose APIs are embedded into other companies'' learning products rather than sold as a finished platform. The surface is split in two: a family of versioned client-side JavaScript APIs - Items, Assess, Questions, Question Editor, Author, Author Aide, Annotations, Events, Reports, Grading, Rubric Editor and Feedback Aide - that render assessment, authoring, grading and reporting experiences inside a host application, and a server-side Data API for Item bank content, learner sessions, responses, scoring, jobs, reports and consumer administration. Learnosity is explicitly not a REST API: every Data API call is an HTTP POST whose operation is chosen by an `action` parameter, and every request across every API carries an HMAC-SHA256 signed `security` object generated server-side by one of six official SDKs. Versions ship on a dated Long Term Support train (vYYYY.X.LTS) pinned in the URL, with regional endpoints in
   Virginia, Dublin, Sydney, California and Oregon.'
 image: https://learnosity.com/images/learnosity_logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Learnosity MCP Server
-  slug: learnosity-mcp-server
 modified: '2026-07-19'
 name: Learnosity
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png
 security:

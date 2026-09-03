@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - baseURL: https://web.trailapp.com/api
@@ -76,7 +76,7 @@ apis:
   description: The Tasks API from Trail — 1 operation(s) for tasks.
   name: Trail Tasks API
   slug: trail-tasks-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +212,7 @@ common:
   url: rate-limits/trail-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trail-mcp.yml
 - group: design
   title: ''
@@ -230,10 +230,6 @@ created: '2026-07-17'
 description: Trail is a digital checklist and work management platform for hospitality and leisure teams, now part of The Access Group (originally Trailsuite Ltd, a Seedcamp portfolio company). Trail digitises daily operations — food safety checks, brand standards, compliance logs and task management — across sites, and publishes a set of API-key-secured public APIs (Task Reports, Task Instances, Task Templates, Sites, Areas, Tags, Scores) plus an OAuth2-secured Evo API, documented with OpenAPI at web.trailapp.com/api-docs.
 image: https://cdn.prod.website-files.com/66f405a237adee7cf0668f38/67257ad8aa5f301b38dcd1af_transparent.png
 layout: provider
-mcp_servers:
-- description: Trail publishes no official MCP server (none found on the docs, help centre, GitHub org trailsuite, or the MCP registry). This is a candidate tool list derived from the operations in the published Ope
-  name: Trail MCP Server
-  slug: trail-mcp-server
 modified: '2026-07-21'
 name: Trail
 nav: Providers
@@ -280,8 +276,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/screenshots/trail-2026-08-17T082424.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
@@ -220,7 +220,7 @@ apis:
   description: The Themes API from Lucidya Ltd — 1 operation(s) for themes.
   name: Lucidya Ltd Themes API
   slug: lucidya-ltd-themes-api
-artifact_total: 50
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Lucidya Ltd Webhooks
@@ -424,7 +424,7 @@ common:
   url: packages/lucidya-ltd-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lucidya-ltd-mcp.yml
 - group: agent
   title: ''
@@ -434,10 +434,6 @@ created: '2026-07-17'
 description: Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.
 image: https://lh3.googleusercontent.com/d/1rlLPfBLpzoGQ2qAS_b9JeAxSnoyaa6RQ
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lucidya MCP Server
-  slug: lucidya-mcp-server
 modified: '2026-08-13'
 name: Lucidya Ltd
 nav: Providers
@@ -486,8 +482,8 @@ score:
       total: 36
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:

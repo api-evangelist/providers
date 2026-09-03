@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 82
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -845,7 +845,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -855,7 +855,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 66.1
+  previous_composite: 66.8
   provenance:
     conformance: derived
     contracts:
@@ -865,8 +865,8 @@ score:
       total: 56
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:

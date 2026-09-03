@@ -35,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'A REST/JSON API hosted on Azure API Management for pairing and driving takepayments card machines (Move5000, PAX A920 Pro) from an integrated app or POS. Documented operations include Authentication, '
   name: takepayments Terminal API
   slug: takepayments-terminal-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -145,7 +145,7 @@ common:
   url: lifecycle/takepayments-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/takepayments-mcp.yml
 - group: agent
   title: ''
@@ -156,10 +156,6 @@ description: takepayments (a trading name of Payzone UK Limited) is a United Kin
   and merchant onboarding is sales-led rather than open self-serve.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: takepayments MCP Server
-  slug: takepayments-mcp-server
 modified: '2026-07-25'
 name: takepayments
 nav: Providers
@@ -197,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/screenshots/takepayments-2026-09-02T162434.png
 security:

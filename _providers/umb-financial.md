@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: UMB's partner-facing open-banking and Banking-as-a-Service REST API program, documented across five areas — Risk & Compliance (retrieve questions required for new customer applications), Customer (onb
@@ -124,8 +124,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umb-financial/refs/heads/main/screenshots/umb-financial-2026-09-02T164809.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Industrial edge data platform for device connectivity, industrial DataOps, edge intelligence, and analytics. Around 871 endpoints in the 4.0.x line; most endpoints are REST while newer areas (DeviceHu
@@ -194,8 +194,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/screenshots/litmus-automation-2026-07-25T225339.png
 security:

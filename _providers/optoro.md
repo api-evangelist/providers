@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-09-02'
+  score: 32.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ apis:
   description: The Vendor Updates API from Optoro — 1 operation(s) for vendor updates.
   name: Optoro Vendor Updates API
   slug: optoro-vendor-updates-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Optoro Webhooks
@@ -327,7 +327,7 @@ common:
   url: packages/optoro-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/optoro-mcp.yml
 - group: agent
   title: ''
@@ -346,10 +346,6 @@ description: 'Optoro is a returns management and reverse-logistics software comp
   with 25-hour bearer tokens, and a full sandbox estate is published on *.sandbox.optiturn.com.'
 image: https://www.optoro.com/wp-content/uploads/2024/03/optoro-home-hero-lg.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Optoro MCP Server
-  slug: optoro-mcp-server
 modified: '2026-08-26'
 name: Optoro
 nav: Providers
@@ -383,7 +379,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -393,7 +389,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 56.1
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -404,8 +400,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/screenshots/optoro-2026-09-02T150853.png
 security:

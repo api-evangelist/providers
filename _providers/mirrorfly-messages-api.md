@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for chat and messaging (User and Admin APIs) with JSON payloads. Production base URL is tenant-specific; a public preprod sandbox is available for testing. Auth via username/password to '
@@ -187,8 +187,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/screenshots/mirrorfly-messages-api-2026-09-02T150554.png
 security:

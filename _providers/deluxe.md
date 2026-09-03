@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.deluxe.com/dpp/v1
@@ -101,7 +101,7 @@ apis:
   description: The subscriptions API from Deluxe Corporation — 2 operation(s) for subscriptions.
   name: Deluxe Corporation Subscriptions API
   slug: deluxe-subscriptions-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Deluxe Webhooks
@@ -182,7 +182,7 @@ common:
   url: packages/deluxe-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/deluxe-mcp.yml
 - group: agent
   title: ''
@@ -269,10 +269,6 @@ finops:
   slug: deluxe-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deluxe.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Deluxe Corporation MCP Server
-  slug: deluxe-corporation-mcp-server
 modified: '2026-08-13'
 name: Deluxe Corporation
 nav: Providers
@@ -327,8 +323,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:

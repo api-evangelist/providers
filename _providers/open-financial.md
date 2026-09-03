@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: Programmatic creation and management of virtual accounts used as transfer wallets, collection wallets, and collection tools on top of partner-bank infrastructure. Virtual accounts give platforms a uni
@@ -178,8 +178,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/screenshots/open-financial-2026-06-20T190743.png
 security:

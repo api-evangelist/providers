@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ apis:
   description: Historical device warnings and backup (outage) events.
   name: Franklin Whole Home Warnings and Events API
   slug: franklin-whole-home-warnings-and-events-api
-artifact_total: 18
+artifact_total: 17
 common:
 - group: other
   title: ''
@@ -186,7 +186,7 @@ common:
   url: packages/franklin-whole-home-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/franklin-whole-home-mcp.yml
 - group: agent
   title: ''
@@ -216,10 +216,6 @@ created: '2026-08-16'
 description: 'Franklin Whole Home (FranklinWH Energy Storage Inc.) builds whole-home energy management and storage hardware for residential solar: the aPower lithium iron phosphate AC battery, the aGate energy management and controller unit, and the FranklinWH mobile app, together forming an ecosystem that coordinates solar, battery, grid, generator and EV power sources for backup, self-consumption, time-of-use arbitrage and off-grid operation. Founded in 2019 and headquartered in the San Francisco Bay Area, the company designs and manufactures nearly all of its own components and sells through a certified installer and distributor channel. FranklinWH publishes a partner API - a unified developer access platform for authorised third-party owners, financiers, installers and service providers to read device and site data, monitor system performance, receive operational alerts and perform approved remote device control.'
 image: https://www.franklinwh.com/icoLogo1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Franklin Whole Home MCP Server
-  slug: franklin-whole-home-mcp-server
 modified: '2026-08-16'
 name: Franklin Whole Home
 nav: Providers
@@ -272,8 +268,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/screenshots/franklin-whole-home-2026-08-17T080936.png
 security:

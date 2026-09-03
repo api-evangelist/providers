@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.music.ai/v1
@@ -56,7 +56,7 @@ apis:
   description: List the workflows configured in your account.
   name: Moises Workflows API
   slug: moises-workflows-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: cli/moises-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moises-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: Moises is the creative suite for musicians from Music AI, Inc., serving more than 70 million musicians worldwide with AI-powered tools for practice, performance, and creation — stem separation to isolate vocals and instruments, chord and key detection, AI-generated stems, and voice synthesis across web, desktop, iOS, and Android. The same models power the Music AI developer platform (music.ai, formerly reached at developer.moises.ai), a B2B REST API that exposes those capabilities as composable Modules assembled into Workflows and executed as asynchronous Jobs. Developers upload audio to temporary storage, submit a job against a workflow, and poll for results, with official Node.js and Python SDKs and a command-line client. Moises won iPad App of the Year (2024) and was an Apple Design Awards finalist (2025), and is backed by Norwest Venture Partners.
 image: https://music.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moises MCP Server
-  slug: moises-mcp-server
 modified: '2026-07-20'
 name: Moises
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/screenshots/moises-2026-08-07T184046.png
 security:

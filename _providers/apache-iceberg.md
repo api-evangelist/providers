@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-09-02'
+  score: 39.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -1709,8 +1709,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/screenshots/apache-iceberg-2026-06-20T172110.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.doppel.com/v1
@@ -91,7 +91,7 @@ apis:
   description: The urls API from Doppel — 0 operation(s) for urls.
   name: Doppel URLS API
   slug: doppel-urls-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI derived from the Doppel V1 OpenAPI webhooks[] surface — the events Doppel POSTs to a subscriber endpoint for Brand Protection, IOC, and Human Risk Management activity. Payload schemas are the
   name: Doppel Webhooks
@@ -220,7 +220,7 @@ common:
   url: overlays/doppel-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/doppel-mcp.yml
 - group: docs
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: Doppel is an AI-native social engineering defense platform that protects brands, executives, and employees from AI-powered impersonation, phishing, fraud, and account takeover across domains, social media, ads, messaging apps, app stores, crypto surfaces, and the dark web. Its real-time Threat Graph correlates signals to detect and dismantle attacker infrastructure, unifying Digital Risk Protection, Human Risk Management, and Email Security. Doppel exposes a REST API (https://api.doppel.com/v1) for Brand Protection alerts, URL scanning, reports, protected assets, and phishing-simulation campaigns, plus webhooks for real-time events. Backed by a16z and Bessemer Venture Partners.
 image: https://prod-cms.doppel.com/sites/default/files/2025-11/Open_Graph_Image_0.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Doppel MCP Server
-  slug: doppel-mcp-server
 modified: '2026-07-18'
 name: Doppel
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/screenshots/doppel-2026-07-25T212309.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Klump REST API lets a merchant verify transactions, sync commerce product catalogs, create Klump Access hosted payment pages, and resend webhooks. A single base URL serves both sandbox and product
   name: Klump API
   slug: klump-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Klump Webhooks
@@ -155,7 +155,7 @@ common:
   url: security/klump-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/klump-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ description: Klump Technology Company Ltd is a Lagos, Nigeria based fintech whos
   HMAC header and retried hourly for 72 hours. Klump is backed by Seedcamp and displays a PCI DSS Compliant badge.
 image: https://useklump.com/images/meta.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Klump MCP Server
-  slug: klump-mcp-server
 modified: '2026-07-19'
 name: Klump
 nav: Providers
@@ -210,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/screenshots/klump-2026-07-25T223950.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.opereit.com
@@ -50,7 +50,7 @@ arazzos:
 - description: Upload a contract, upload and audit an invoice against it, then read the findings.
   name: Opereit — audit a carrier invoice against a contract
   slug: opereit-audit-invoice
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -108,7 +108,7 @@ common:
   url: security/opereit-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/opereit-mcp.yml
 - group: agent
   title: ''
@@ -122,10 +122,6 @@ created: '2026-07-17'
 description: Opereit is a Barcelona-based logistics technology company building AI agents that audit, claim, and recover logistics costs autonomously. Its agents detect carrier invoice discrepancies, identify lost and damaged shipments, and file carrier claims end to end with no human in the loop. The public Opereit Invoice Auditing API lets developers upload carrier contracts (rate cards and surcharges are extracted asynchronously), audit incoming carrier invoices against those contracts, and retrieve the resulting line items and discrepancy findings — building automated cost-recovery workflows without the dashboard. Opereit raised a ~$2.5M pre-seed round led by Seedcamp and Yellow in 2026.
 image: https://www.opereit.ai/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Opereit MCP Server
-  slug: opereit-mcp-server
 modified: '2026-07-20'
 name: Opereit
 nav: Providers
@@ -163,8 +159,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/screenshots/opereit-2026-08-07T190714.png
 security:

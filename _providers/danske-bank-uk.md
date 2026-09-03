@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ apis:
   description: The Transactions API from Danske Bank (UK) — 1 operation(s) for transactions.
   name: Danske Bank (UK) Transactions API
   slug: danske-bank-uk-transactions-api
-artifact_total: 51
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Danske Bank Uk Events Webhooks
@@ -304,7 +304,7 @@ common:
   url: asyncapi/danske-bank-uk-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/danske-bank-uk-mcp.yml
 - group: agent
   title: ''
@@ -375,10 +375,6 @@ description: 'Danske Bank (UK) is the trading name of Northern Bank Limited, a r
   premium corporate APIs (account transaction and balance reporting, payment collection, corporate payment initiation, and FX trade reporting and execution) exposed through the Danske Bank developer portal.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Danske Bank (UK) MCP Server
-  slug: danske-bank-uk-mcp-server
 modified: '2026-07-23'
 name: Danske Bank (UK)
 nav: Providers
@@ -435,8 +431,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 82.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:

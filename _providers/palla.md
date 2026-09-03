@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: A Transfer is a record of funds sent to a Relationship.
   name: Palla Transfers API
   slug: palla-transfers-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Palla Webhooks
@@ -171,7 +171,7 @@ common:
   url: components/palla-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/palla-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: 'Palla Financial is a fintech infrastructure company that powers instant cross-border peer-to-peer (P2P) money transfers to 180+ countries. The Palla Platform Partner API lets trusted partners embed transfers into their own apps: exchange partner client credentials for a user-scoped Bearer token, then create and manage a user''s Account, encrypted Payment Methods, relationship Links, Relationships, and Transfers, with server-to-server transfer callbacks. Palla also ships embeddable UI (Embed, Checkout, Redirect) and a JavaScript Web SDK, with PCI-scoped card storage plus KYC, OFAC, card verification, fraud prevention, and transaction monitoring built in. Backed by Cowboy Ventures.'
 image: https://www.palla.com/page-preview.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Palla MCP Server
-  slug: palla-mcp-server
 modified: '2026-07-20'
 name: Palla
 nav: Providers
@@ -284,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png
 security:

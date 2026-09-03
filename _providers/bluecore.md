@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ arazzos:
 - description: Authenticate, upsert a Customer Profile, opt them into marketing, send a transactional message with an idempotency key, and read its delivery status.
   name: Onboard a Bluecore customer and send a transactional message
   slug: bluecore-onboard-and-message.arazzo
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Bluecore Events
@@ -229,7 +229,7 @@ common:
   url: changelog/bluecore-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bluecore-mcp.yml
 - group: agent
   title: ''
@@ -295,10 +295,6 @@ created: '2026-07-17'
 description: Bluecore is a retail marketing technology platform that unifies shopper identity, behavior, and product data into a customer data platform with 20+ predictive AI models, cross-channel experience orchestration (email, SMS, site, paid media), and AI shopping and marketing agents. Its public developer API (developers.bluecore.com) exposes OAuth 2.0 client-credentials authentication, Customer Profile management, eligibility (consent) management, and Communicate surfaces for transactional and direct-send messaging. Customers include Wayfair, Gap, J.Crew, Lenovo, CVS, and Fender. Backed by Norwest Venture Partners and Techstars.
 image: https://www.bluecore.com/wp-content/themes/bluecore/assets/img/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bluecore MCP Server
-  slug: bluecore-mcp-server
 modified: '2026-08-13'
 name: Bluecore
 nav: Providers
@@ -359,8 +355,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

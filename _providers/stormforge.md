@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.stormforge.io/'', ''status'': 301, ''note'': ''declared website redirects to https://www.cloudbolt.io/stormforge-by-cloudbolt/ — a different registrable domain (stormforge.io -> cloudbolt.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'StormForge Optimize Live is a Kubernetes resource rightsizing product that uses machine learning to automatically generate CPU and memory recommendations for container workloads. An agent deployed to '
@@ -171,8 +172,8 @@ score:
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 23.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormforge/refs/heads/main/screenshots/stormforge-2026-06-20T194605.png
 security:

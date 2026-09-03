@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 13
 apis:
 - baseURL: https://{sdwan-manager-host}:8443/dataservice
@@ -2236,7 +2236,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -2246,7 +2246,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 62.8
+  previous_composite: 63.3
   provenance:
     conformance: derived
     contracts:
@@ -2262,8 +2262,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/screenshots/cisco-catalyst-sdwan-2026-09-02T145118.png
 security:

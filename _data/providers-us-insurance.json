@@ -1,6 +1,6 @@
 {
- "total": 79,
- "shown": 79,
+ "total": 77,
+ "shown": 77,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -82,8 +82,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -91,13 +91,13 @@
       "score": 71.2,
       "matched_via": "tags"
      },
-     "agent_score": 31.2,
-     "agent_band": "agent-ready",
+     "agent_score": 27.7,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": false,
@@ -146,8 +146,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -199,8 +199,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -252,8 +252,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -305,8 +305,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -358,8 +358,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -411,10 +411,9 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -462,8 +461,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -515,8 +514,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -568,8 +567,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -621,8 +620,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -674,8 +673,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -727,8 +726,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -780,8 +779,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -844,10 +843,9 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -895,8 +893,8 @@
       "commercial_clarity": 21.4,
       "access_clarity": 21.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -948,8 +946,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1001,8 +999,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1054,8 +1052,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1107,8 +1105,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1153,8 +1151,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1206,8 +1204,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1259,8 +1257,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1312,8 +1310,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1365,8 +1363,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1418,8 +1416,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1471,8 +1469,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1524,10 +1522,9 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -1575,8 +1572,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1628,8 +1625,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1681,8 +1678,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1734,8 +1731,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1780,8 +1777,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1833,8 +1830,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1875,8 +1872,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 29,
-   "shown": 29,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "Branch",
@@ -1896,8 +1893,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1949,8 +1946,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2002,8 +1999,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2055,8 +2052,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2108,8 +2105,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2161,8 +2158,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2214,8 +2211,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2267,8 +2264,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2319,8 +2316,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2372,8 +2369,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2425,8 +2422,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2478,8 +2475,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2531,8 +2528,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2584,8 +2581,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2637,8 +2634,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2690,8 +2687,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2743,8 +2740,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2796,8 +2793,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2849,8 +2846,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2902,8 +2899,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2938,59 +2935,6 @@
      "rank": 55
     },
     {
-     "name": "Root Insurance",
-     "slug": "root-insurance",
-     "description": "Root is a U.S. app-first auto insurer that prices policies primarily on real driving behavior captured by smartphone telematics. The Root mobile app handles enrollment, telematics scoring, policy management, claims, and optional roadside assistance, with renters insurance as an add-on line. Root has reorganized its tech stack around APIs to power embedded auto insurance with partners such as Carvana and Hyundai Capital America; partner APIs are gated and not publicly documented. Note: Root Insurance (joinroot.com) is distinct from the unrelated Root Platform (rootplatform.com) insurtech in South Africa / UK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/root-insurance/refs/heads/main/screenshots/root-insurance-2026-06-20T193219.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 56
-    },
-    {
      "name": "Chubb",
      "slug": "chubb",
      "description": "Chubb Limited is the world's largest publicly traded property and casualty (P&C) insurance company, serving consumers, small businesses, and multinational corporations across 54 countries and territories. Chubb offers commercial and personal property and casualty insurance, personal accident and supplemental health insurance, reinsurance, and life insurance. The company manages more than $200B in global assets, paid $21B in claims (2023), and offers more than 200 insurance products and services. Key personal lines include homeowners, auto, valuables (jewelry, arts, wine), boat and yacht, pet (through a Healthy Paws partnership), and travel insurance. Commercial lines include small business, accident and health, commercial package, cyber, management liability, marine, professional liability, workers' compensation, and industry-specialty programs (construction, financial institutions, healthcare, life sciences, manufacturing, real estate, technology, climate). Chubb Studio is the company's embedded insurance technology platform offering APIs and SDKs for partners to integrate Chubb insurance products into their own digital experiences.",
@@ -3008,8 +2952,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3041,28 +2985,81 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 57
+     "rank": 56
     },
     {
-     "name": "Ethos",
-     "slug": "ethos-life",
-     "description": "Ethos is a US digital life insurance company headquartered in San Francisco, founded in 2016, offering term life, whole life, and indexed universal life policies through an online, mostly no-medical-exam application flow. Ethos operates as a technology-driven insurance agency, distributing policies underwritten by carriers such as Ameritas, Banner Life (Legal & General America), Protective, and TruStage. Coverage is available in 49 states and Washington, D.C., with term policies offered for 10, 15, 20, 30, and 40 year durations and face amounts ranging from $15,000 to $3 million. The company has raised over $400 million from investors including Goldman Sachs, SoftBank, GV, Sequoia, and Accel, and is widely cited as one of the leading insurtech companies modernizing the life insurance buying experience. Ethos exposes a Partnership API that lets approved business partners embed quoting, identity validation, instant underwriting, application capture, billing, and signed policy issuance directly into their own products. The Partnership API uses bearer-token authentication tied to a partner API key and per-applicant session, and consolidates steps such as identity validation and quoting into combined endpoints to enable instant decisioning. There is no public, self-serve OpenAPI specification, SDK, or developer signup; access requires a partnership agreement with Ethos. Ethos's only material open-source footprint is the ethos-design-system React component library on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ethos-life/refs/heads/main/screenshots/ethos-life-2026-06-20T180839.png",
+     "name": "Newfront",
+     "slug": "newfront",
+     "description": "Newfront is a modern business insurance brokerage and technology company headquartered in San Francisco. It combines a traditional insurance brokerage (commercial business insurance, employee benefits, retirement services, and risk management) with a software platform that gives clients transparent data and analytics to understand and lower their total cost of risk. Formed from the merger of Newfront and ABD Insurance, the company serves technology, venture-backed, and enterprise clients across property and casualty, health and benefits, and personal lines. Backed by Index Ventures, Susa Ventures, and SV Angel. As of this enrichment pass Newfront exposes a client-facing web application (app.newfront.com) but publishes no public developer API, developer portal, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newfront/refs/heads/main/screenshots/newfront-2026-08-07T185109.png",
      "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 41.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 35.5,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Agency & Brokerage Technology",
+     "rank": 57
+    },
+    {
+     "name": "ERGO NEXT Insurance",
+     "slug": "next-insurance",
+     "description": "ERGO NEXT Insurance (formerly NEXT Insurance) is a Palo Alto, California technology-first Property & Casualty insurer focused on the specific needs of U.S. small and medium-sized business owners. Founded in 2016, the company offers fully digital commercial coverage including General Liability, Workers' Compensation, Business Owner's Policy (BOP), Professional Liability / Errors & Omissions, Commercial Property, Commercial Auto, Tools & Equipment, Employment Practices Liability, Product Liability, and Liquor Liability — serving more than 750,000 customers across 1,300+ professions. In March 2025 Munich Re signed a definitive agreement to acquire 100% of NEXT Insurance at a valuation of $2.6 billion; ERGO Group AG (Munich Re's primary insurance arm) closed the full acquisition on July 1, 2025 and on January 15, 2026 the company rebranded as ERGO NEXT Insurance, becoming Munich Re/ERGO's foothold in the U.S. SMB market. ERGO NEXT's partner-facing surface is NEXT Connect, an embedded insurance platform that lets payroll, point-of-sale, accounting, e-commerce, payments, banking, and fintech platforms quote and bind small-business coverage from within their own product through low-code components and API calls. NEXT Connect aggregates 15+ carriers (including ERGO NEXT itself, Travelers, Liberty Mutual, Chubb, CNA, The Hartford) and is documented in the wild through embedded-payroll partners such as Check, Gusto Embedded, Intuit QuickBooks, Square, LegalZoom, and Amazon Business Prime, but ERGO NEXT does not publish a public developer portal, OpenAPI specification, or self-serve SDKs — partner onboarding is gated through a partnerships team. The company also offers a pay-as-you-go Workers' Comp product that integrates with partner payroll runs so premium is calculated against actual per-cycle W-2 wages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/next-insurance/refs/heads/main/screenshots/next-insurance-2026-08-07T185159.png",
+     "score": 13.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 37.2,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3097,112 +3094,6 @@
      "rank": 58
     },
     {
-     "name": "Newfront",
-     "slug": "newfront",
-     "description": "Newfront is a modern business insurance brokerage and technology company headquartered in San Francisco. It combines a traditional insurance brokerage (commercial business insurance, employee benefits, retirement services, and risk management) with a software platform that gives clients transparent data and analytics to understand and lower their total cost of risk. Formed from the merger of Newfront and ABD Insurance, the company serves technology, venture-backed, and enterprise clients across property and casualty, health and benefits, and personal lines. Backed by Index Ventures, Susa Ventures, and SV Angel. As of this enrichment pass Newfront exposes a client-facing web application (app.newfront.com) but publishes no public developer API, developer portal, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newfront/refs/heads/main/screenshots/newfront-2026-08-07T185109.png",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 35.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 28.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Agency & Brokerage Technology",
-     "rank": 59
-    },
-    {
-     "name": "ERGO NEXT Insurance",
-     "slug": "next-insurance",
-     "description": "ERGO NEXT Insurance (formerly NEXT Insurance) is a Palo Alto, California technology-first Property & Casualty insurer focused on the specific needs of U.S. small and medium-sized business owners. Founded in 2016, the company offers fully digital commercial coverage including General Liability, Workers' Compensation, Business Owner's Policy (BOP), Professional Liability / Errors & Omissions, Commercial Property, Commercial Auto, Tools & Equipment, Employment Practices Liability, Product Liability, and Liquor Liability — serving more than 750,000 customers across 1,300+ professions. In March 2025 Munich Re signed a definitive agreement to acquire 100% of NEXT Insurance at a valuation of $2.6 billion; ERGO Group AG (Munich Re's primary insurance arm) closed the full acquisition on July 1, 2025 and on January 15, 2026 the company rebranded as ERGO NEXT Insurance, becoming Munich Re/ERGO's foothold in the U.S. SMB market. ERGO NEXT's partner-facing surface is NEXT Connect, an embedded insurance platform that lets payroll, point-of-sale, accounting, e-commerce, payments, banking, and fintech platforms quote and bind small-business coverage from within their own product through low-code components and API calls. NEXT Connect aggregates 15+ carriers (including ERGO NEXT itself, Travelers, Liberty Mutual, Chubb, CNA, The Hartford) and is documented in the wild through embedded-payroll partners such as Check, Gusto Embedded, Intuit QuickBooks, Square, LegalZoom, and Amazon Business Prime, but ERGO NEXT does not publish a public developer portal, OpenAPI specification, or self-serve SDKs — partner onboarding is gated through a partnerships team. The company also offers a pay-as-you-go Workers' Comp product that integrates with partner payroll runs so premium is calculated against actual per-cycle W-2 wages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/next-insurance/refs/heads/main/screenshots/next-insurance-2026-08-07T185159.png",
-     "score": 13.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 37.2,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 9.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 60
-    },
-    {
      "name": "American Family Insurance",
      "slug": "american-family-insurance",
      "description": "American Family Insurance is a private mutual company that offers auto, homeowners, life, renters, umbrella, business, and farm/ranch insurance throughout the United States. The company serves customers through a network of exclusive agents, digital tools including the MyAmFam mobile app, and online self-service capabilities. American Family is headquartered in Madison, Wisconsin, and is one of the largest property-casualty insurers in the country.",
@@ -3220,8 +3111,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3253,7 +3144,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "Lockton",
@@ -3273,8 +3164,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3306,7 +3197,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -3326,8 +3217,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3359,7 +3250,7 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "Brown & Brown",
@@ -3379,8 +3270,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3412,7 +3303,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 64
+     "rank": 62
     }
    ]
   },
@@ -3442,8 +3333,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3475,7 +3366,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Policygenius",
@@ -3495,8 +3386,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3528,7 +3419,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "Cowbell Cyber",
@@ -3548,8 +3439,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3581,7 +3472,7 @@
       "agentic_commerce": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "Hi Marley",
@@ -3601,8 +3492,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3634,7 +3525,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Nava Benefits",
@@ -3654,8 +3545,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3687,7 +3578,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 69
+     "rank": 67
     },
     {
      "name": "Snapsheet",
@@ -3707,8 +3598,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3740,7 +3631,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "Hippo",
@@ -3760,8 +3651,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3793,7 +3684,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "Cincinnati Financial",
@@ -3813,8 +3704,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3846,7 +3737,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Principal Financial Group",
@@ -3866,8 +3757,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3892,7 +3783,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "Nationwide",
@@ -3912,8 +3803,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3945,7 +3836,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "Hartford Financial Services Group",
@@ -3965,8 +3856,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3998,7 +3889,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "Marsh & McLennan",
@@ -4017,8 +3908,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4050,7 +3941,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "MetLife",
@@ -4070,8 +3961,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4103,7 +3994,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 77
+     "rank": 75
     },
     {
      "name": "Erie Insurance",
@@ -4123,8 +4014,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4156,7 +4047,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 78
+     "rank": 76
     },
     {
      "name": "Farmers Insurance Exchange",
@@ -4176,8 +4067,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4209,7 +4100,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 79
+     "rank": 77
     }
    ]
   }

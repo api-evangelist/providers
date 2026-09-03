@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ apis:
   description: The Zipped Csv Upload API from Orbii Tech Ltd — 1 operation(s) for zipped csv upload.
   name: Orbii Tech Ltd Zipped Csv Upload API
   slug: orbii-tech-ltd-zipped-csv-upload-api
-artifact_total: 67
+artifact_total: 66
 collections:
 - collection_type: open
   name: API Collection
@@ -359,7 +359,7 @@ common:
   url: data-model/orbii-tech-ltd-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/orbii-tech-ltd-mcp.yml
 - group: agent
   title: ''
@@ -381,10 +381,6 @@ created: '2026-07-17'
 description: 'Orbii is a MENA-region credit and lending infrastructure company. Its API turns raw business financial data - bank transactions and invoices - into automated underwriting signals: derived KPIs, borrower risk assessment, credit band classification, and suggested loan amounts. Fintech lenders, neobanks, and merchant platforms (Foodics, Rewaa) integrate a single API to launch and scale SME lending products such as salary advance, merchant financing, working capital, embedded lending, and BNPL, with regional deployments for Saudi Arabia (KSA) and Oman (OMN). Orbii raised a $3.6M seed round backed by Prosus, VentureSouq, Dash Ventures, and Sanabil 500.'
 image: https://cdn.prod.website-files.com/6894ac031d066c1f144fb082/68bdc4495f740a290c12b9c4_dark.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Orbii Tech Ltd MCP Server
-  slug: orbii-tech-ltd-mcp-server
 modified: '2026-07-20'
 name: Orbii Tech Ltd
 nav: Providers
@@ -429,8 +425,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/screenshots/orbii-tech-ltd-2026-08-07T190907.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: ETHGas v1 REST + WebSocket API for market data, order placement/management, funding (collateral deposits/withdrawals), and validator/builder operations across whole-block commitments and inclusion pre
   name: ETHGas API
   slug: ethgas-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Ethgas Websocket Webhooks
@@ -119,7 +119,7 @@ common:
   url: asyncapi/ethgas-websocket-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ethgas-mcp.yml
 - group: design
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: ETHGas is an Ethereum blockspace exchange that turns Ethereum blockspace into a tradable commodity, enabling instant transactions through preconfirmations (execution and inclusion preconfs), whole-block commitments, and base-fee futures. Its public developer platform exposes a v1 REST API and a WebSocket streaming API for market data, order placement and management, funding (collateral deposits and withdrawals), and validator/builder registration. Authentication uses an EIP-712 wallet-signature login that issues a short-lived JWT bearer token; public market-data endpoints under /api/v1/p require none. ETHGas runs on Ethereum mainnet with a Hoodi testnet environment, and backs the exchange with a Commit-Boost validator module and a modified rbuilder block builder. ETHGas is backed by Polychain.
 image: https://ethgas.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: ETHGas MCP Server
-  slug: ethgas-mcp-server
 modified: '2026-07-19'
 name: ETHGas
 nav: Providers
@@ -189,8 +185,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/screenshots/ethgas-2026-07-25T213653.png
 security:

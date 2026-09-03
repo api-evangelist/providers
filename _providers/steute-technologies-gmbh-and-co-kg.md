@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -78,7 +78,7 @@ apis:
   description: The System Status API from steute Technologies GmbH & Co. KG — 1 operation(s) for system status.
   name: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: The Sensor Bridge sends JSON data via HTTP POST to configured target URLs whenever a switch is actuated, a switch or actor sends a wake-up message, or expected wake-up messages are not received (wake-
   name: steute nexy Sensor Bridge HTTP(S) Notifications
@@ -171,7 +171,7 @@ common:
   url: conformance/steute-technologies-gmbh-and-co-kg-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/steute-technologies-gmbh-and-co-kg-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical devices), Controltec (safe industrial automation with switches, sensors and wireless solutions) and Leantec (digital shop floor solutions). Its Leantec "nexy" IIoT wireless network, built on the sWave.NET radio protocol, connects hundreds of wireless switches and sensors to shop-floor IT through a Sensor Bridge gateway that exposes a JWT-secured REST API (OpenAPI 3.0), HTTP(S) push notifications, Modbus TCP and optional OPC UA and SAP modules for eKanban, AGV, Andon and material-flow integration. steute was surfaced as a portfolio company of Battery Ventures.'
 image: https://www.steute.com/_assets/0fec2969a2bae73d42576ee80ea2af42/Icons/icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: steute Technologies GmbH & Co. KG MCP Server
-  slug: steute-technologies-gmbh-co-kg-mcp-server
 modified: '2026-07-21'
 name: steute Technologies GmbH & Co. KG
 nav: Providers
@@ -256,8 +252,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/screenshots/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png
 security:

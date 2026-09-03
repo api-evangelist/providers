@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -70,7 +70,7 @@ apis:
   description: Tokenization of payment instruments for one-click and recurring.
   name: HyperPay Registrations API
   slug: hyperpay-registrations-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Hyperpay Webhooks
@@ -186,7 +186,7 @@ common:
   url: packages/hyperpay-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hyperpay-mcp.yml
 - group: agent
   title: ''
@@ -252,10 +252,6 @@ finops:
   slug: hyperpay-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperpay.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HyperPay MCP Server
-  slug: hyperpay-mcp-server
 modified: '2026-07-18'
 name: HyperPay
 nav: Providers
@@ -311,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png
 security:

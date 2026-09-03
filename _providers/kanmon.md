@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -113,7 +113,7 @@ apis:
   description: The Users API from Kanmon — 3 operation(s) for users.
   name: Kanmon Users API
   slug: kanmon-users-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Kanmon Webhooks
@@ -195,7 +195,7 @@ common:
   url: packages/kanmon-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kanmon-mcp.yml
 - group: agent
   title: ''
@@ -277,10 +277,6 @@ created: '2026-07-17'
 description: Kanmon is an embedded-lending platform that lets vertical SaaS and business-management software offer working capital to their customers without becoming a lender themselves. Through the Kanmon Public V2 REST API and the embeddable Kanmon Connect UI, platforms can originate term loans, lines of credit, invoice financing, Accounts Payable financing, and integrated merchant cash advances. Kanmon is the licensed lender and owns underwriting, compliance, and credit risk, while partners integrate financing directly into their existing product with API keys, official SDKs, prebuilt borrower UI components, and outbound webhooks.
 image: https://files.readme.io/c09d869-small-kanmon_logoicon_bw_black.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kanmon MCP Server
-  slug: kanmon-mcp-server
 modified: '2026-07-19'
 name: Kanmon
 nav: Providers
@@ -322,8 +318,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/screenshots/kanmon-2026-07-25T223455.png
 security:

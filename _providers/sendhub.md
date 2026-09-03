@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: View and manage inbox threads.
   name: SendHub Thread API
   slug: sendhub-thread-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Sendhub Webhooks
@@ -171,7 +171,7 @@ common:
   url: packages/sendhub-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sendhub-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing contacts, groups, messages, inbox threads, account settings, and enterprise users, authenticated with a line username and API key (query params) or HTTP Basic. Published plans run Lite $19/mo to Basic $100/mo plus a quoted Custom tier, and every tier lists API access, though the developer page still says API access is custom-plan only. SendHub also supports 100+ integrations via direct connectors and Zapier plus inbound-SMS webhooks, and is a New Era Technology company. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
 image: https://www.sendhub.com/wp-content/uploads/2019/01/faviconsendhub-150x150.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SendHub MCP Server
-  slug: sendhub-mcp-server
 modified: '2026-08-13'
 name: SendHub
 nav: Providers
@@ -284,8 +280,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/screenshots/sendhub-2026-08-17T081802.png
 security:

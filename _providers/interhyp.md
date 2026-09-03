@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.interhyp.de/submission/v2
@@ -76,7 +76,7 @@ apis:
   description: provides endpoints for submission resources associated with a specific financing partner
   name: Interhyp submissions API
   slug: interhyp-submissions-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -188,7 +188,7 @@ common:
   url: conformance/interhyp-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/interhyp-mcp.yml
 - group: agent
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: Interhyp AG is Germany's leading platform for residential mortgage financing (Baufinanzierung), connecting homebuyers and partners with the best financing options by comparing offers from more than 500 loan partners. Through its Developer Studio (developer.ehyphome.de) Interhyp publishes a partner-facing REST API surface — most notably the Submission API — that lets brokers, referrers and platforms integrate mortgage submission workflows, financing applications, documents, logbooks and pre-submission checks directly into their own applications. The API is designed "API First" and "Mobile First", secured with OAuth 2.0 JWT bearer tokens plus an Api-Key header, uses cursor-based pagination, RFC 7807 problem+json error responses and traceId request tracing. Interhyp is part of the ING Group and operates the broker brand Prohyp.
 image: https://developer.ehyphome.de/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Interhyp MCP Server
-  slug: interhyp-mcp-server
 modified: '2026-07-19'
 name: Interhyp
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:

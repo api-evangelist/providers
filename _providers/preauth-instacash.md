@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.preauth.io/v1
@@ -41,7 +41,7 @@ apis:
   description: Create and manage pre-authorization orders.
   name: PreAuth (Instacash) Orders API
   slug: preauth-instacash-orders-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: Preauth delivers order lifecycle notifications as HTTP POST requests to a URL the merchant configures in the developer panel (https://dashboard.preauth.io/panel/devs). Faithfully modeled from https://
   name: Preauth Webhooks
@@ -112,7 +112,7 @@ common:
   url: sandbox/preauth-instacash-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/preauth-instacash-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +162,6 @@ created: '2026-07-17'
 description: Preauth is a Latin American fintech (the payment-guarantee product associated with the Instacash / Reevalúa lineage, surfaced via 500 Global) that lets businesses take and manage payment guarantees through card pre-authorization. A merchant creates an order via the REST API, the buyer's card is pre-authorized (funds reserved) through the hosted Preauth widget, and the merchant can later capture all or part of the reserved amount, update it, cancel it to release the hold, or run a card liveness check. It operates across Chile, Colombia, Mexico, Peru, and Argentina and integrates with Izipay, Kushki, dLocal, Stripe, Mercadopago, and Conekta as payment processors. Authentication is a per-request x-auth-token API key, and order lifecycle events are delivered by webhooks.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/preauth-instacash.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PreAuth (Instacash) MCP Server
-  slug: preauth-instacash-mcp-server
 modified: '2026-07-20'
 name: PreAuth (Instacash)
 nav: Providers
@@ -212,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/screenshots/preauth-instacash-2026-08-17T124847.png
 security:

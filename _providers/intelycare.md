@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: Real-time updates on the status of submitted shifts. The API response includes valuable information about the assigned IntelyPro, giving you insights into the workforce handling each shift.
   name: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: Real-time updates on the status of submitted shifts. IntelyCare POSTs a signed JSON payload to a client-configured HTTPS endpoint when a shift is accepted by a healthcare professional (an "IntelyPro")
   name: IntelyCare Shift Events
@@ -85,7 +85,7 @@ common:
   url: overlays/intelycare-external-scheduling-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/intelycare-mcp.yml
 - group: company
   title: ''
@@ -183,10 +183,6 @@ created: '2026-08-01'
 description: IntelyCare is a healthcare workforce platform that connects post-acute and acute-care facilities with W2-employed per-diem nursing professionals ("IntelyPros") — RNs, LPNs and CNAs — through an app-based marketplace covering per-diem shifts, contract placements and travel assignments, plus credentialing, onboarding, continuing education (IntelyEdu) and 24/7 clinical support. For facilities it provides scheduling, shift-fill and timekeeping software. IntelyCare exposes a public External Scheduling REST API that lets a facility's own scheduling or EHR system programmatically create, update and cancel shift requests, exchange timecards for billing reconciliation, and post clock-in/clock-out events, with HMAC-signed webhooks pushing shift-accept and shift-release status back in real time. IntelyCare acquired CareRev in January 2026 and also operates the Credenza verified-nursing-identity job board.
 image: https://www.intelycare.com/wp-content/uploads/2023/08/ic-logo-2-1.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: IntelyCare MCP Server
-  slug: intelycare-mcp-server
 modified: '2026-08-01'
 name: IntelyCare
 nav: Providers
@@ -234,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/screenshots/intelycare-2026-08-07T170739.png
 security:

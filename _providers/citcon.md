@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Citcon''s UPI is a REST/JSON payments API for accepting 100+ global payment methods. It uses Bearer access-token authentication and exposes charge, charge-confirm, capture, refund, cancel, transaction '
   name: Citcon Universal Payment Interface (UPI) API
   slug: citcon-universal-payment-interface-upi-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Citcon Upi Webhooks
@@ -139,7 +139,7 @@ common:
   url: packages/citcon-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/citcon-mcp.yml
 - group: design
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Citcon is a global payment processing platform, founded in 2015 and headquartered in San Jose, California, that unifies 100+ local and global payment methods behind a single Universal Payment Interface (UPI) API. Merchants use Citcon to accept digital wallets (Alipay, WeChat Pay, PayPal, Venmo, CashApp, China UnionPay, Kakao Pay, NaverPay, Line Pay, PayPay and more), cards, and Buy Now Pay Later, plus global payouts, pay-by-link, surcharging, dual pricing, and in-store/POS acceptance across 50+ countries and 10+ settlement currencies. The UPI API is a REST/JSON payments API using Bearer access-token authentication with charge, capture, refund, cancel, vault (tokenization), inquiry, and consult operations, IPN webhooks, and a sandbox environment. Citcon is backed by Norwest Venture Partners and Sierra Ventures.
 image: https://cdn.prod.website-files.com/6828b564a444ee6676dd6111/6828b564a444ee6676dd611d_citcon-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Citcon MCP Server
-  slug: citcon-mcp-server
 modified: '2026-07-18'
 name: Citcon
 nav: Providers
@@ -202,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/screenshots/citcon-2026-07-25T205439.png
 security:

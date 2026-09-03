@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -88,7 +88,7 @@ apis:
   description: The Rigetti QCS API API from Rigetti Computing — 2 operation(s) for rigetti qcs api.
   name: Rigetti Computing Rigetti QCS API API
   slug: rigetti-computing-rigetti-qcs-api-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: packages/rigetti-computing-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rigetti-computing-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Rigetti Computing is a full-stack quantum computing company that builds superconducting quantum processors and delivers access to them through Quantum Cloud Services (QCS). Developers program Rigetti quantum processing units (QPUs) with the Quil quantum instruction language via the open-source pyQuil SDK, compile with quilc, and simulate locally with the Quantum Virtual Machine (QVM). The QCS HTTP API (api.qcs.rigetti.com) exposes REST-style operations for quantum processors, instruction set architectures, engagements, endpoints, reservations, groups, billing, and account management, secured with OAuth2 (Okta) JWT bearer tokens. This profile was seeded as a VC-portfolio lead and enriched by the API Evangelist pipeline from Rigetti's public QCS OpenAPI, SDKs, and developer documentation.
 image: https://qcs.rigetti.com/static/img/rigetti-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rigetti Computing MCP Server
-  slug: rigetti-computing-mcp-server
 modified: '2026-07-21'
 name: Rigetti Computing
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/screenshots/rigetti-computing-2026-08-17T081601.png
 security:

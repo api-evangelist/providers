@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The v2 REST API drives the Sema4.ai platform programmatically — list and talk to agents, stream responses, queue and manage Work Items, read data connections, manage MCP servers, and read audits. Each
@@ -196,8 +196,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sema4-ai/refs/heads/main/screenshots/sema4-ai-2026-09-02T154822.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Cross-cutting account API for the useapi.net subscription itself — retrieve account details and the configured service accounts, set the default replyUrl webhook applied to every API, and query per-bo
@@ -102,7 +102,7 @@ apis:
   description: TemPolor API v1 by useapi.net
   name: useapi.net Tempolor API
   slug: useapi-tempolor-api
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Useapi Jobs Webhooks
@@ -271,7 +271,7 @@ common:
   url: packages/useapi-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/useapi-mcp.yml
 - group: auth
   title: ''
@@ -342,10 +342,6 @@ description: useapi.net is an experimental, unified REST API platform that front
   as substantially cheaper than the official first-party APIs of the services it wraps.
 image: https://useapi.net/assets/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: useapi.net MCP Server
-  slug: useapinet-mcp-server
 modified: '2026-07-27'
 name: useapi.net
 nav: Providers
@@ -386,8 +382,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/screenshots/useapi-2026-08-17T082646.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.7
-  scored_at: '2026-09-02'
+  score: 8.8
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for TRON Energy and Bandwidth rental, energy subscriptions, and AML crypto checks. Endpoints include Get Services, Check Balance, Estimate Energy, Address Info, Calculate Resource Cost, Creat
@@ -45,7 +45,7 @@ apis:
 - description: Fully public, unauthenticated Orders API for non-custodial wallet integrations. Four operations — POST /v1/orders/calculate (a true dry run whose total is guaranteed to equal the order amount), POST /
   name: TronZap Wallet Orders API
   slug: tronzap-wallet-orders-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: postman
   name: Tron Energy API by TronZap.com
@@ -153,7 +153,7 @@ common:
   url: data-model/tronzap-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tronzap-mcp.yml
 - group: agent
   title: ''
@@ -163,10 +163,6 @@ created: '2026-08-30'
 description: API-first TRON-network infrastructure provider offering automated TRON Energy and Bandwidth rental, energy subscriptions, and AML crypto checks to reduce USDT (TRC-20) transfer costs via delegation to non-custodial wallets.
 image: https://tronzap.com/images/logo-1200x630.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate tool list only - TronZap publishes no MCP server
-  slug: candidate-tool-list-only-tronzap-publishes-no-mcp-server
 modified: '2026-08-30'
 name: TronZap
 nav: Providers
@@ -213,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/screenshots/tronzap-2026-09-02T164311.png
 security:

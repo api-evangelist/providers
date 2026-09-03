@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'OneScreen''s only API surface: a remote Model Context Protocol server over Streamable HTTP that exposes OOH audience personas, market and inventory rankings, geospatial points of interest, media-owner '
@@ -174,8 +174,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onescreen-ai/refs/heads/main/screenshots/onescreen-ai-2026-08-07T190340.png
 security:

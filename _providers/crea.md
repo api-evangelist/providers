@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: Get Properties
   name: CREA (REALTOR.ca) Property API
   slug: crea-property-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: packages/crea-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/crea-mcp.yml
 - group: build
   title: ''
@@ -284,10 +284,6 @@ description: 'The Canadian Real Estate Association (CREA) is the national indust
   portal, and a third-party developer must enter a data access agreement with CREA as a Technology Provider operating a National Pool Website or Member Website on behalf of that opted-in member. The OData $metadata document, the actual RESO contract, returns HTTP 401 to anonymous callers. No open, unlicensed Canadian listing dataset exists behind any of it.'
 image: https://www.crea.ca/dist/favicons/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: CREA publishes no official MCP server for any REALTOR.ca API. Searches of the DDF and Board API documentation, the MCP registries and npm turned up no CREA-operated hosted or stdio server, and there i
-  name: Candidate MCP tool surface derived from the OpenAPI, plus the third-party crea-ddf-mcp server
-  slug: candidate-mcp-tool-surface-derived-from-the-openapi-plus-the-third-party-crea-ddf-mcp-server
 modified: '2026-07-26'
 name: CREA (REALTOR.ca)
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
 security:

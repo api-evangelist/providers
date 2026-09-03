@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -113,7 +113,7 @@ apis:
   description: The Users API from Vector Solutions — 4 operation(s) for users.
   name: Vector Solutions Users API
   slug: vectorsolutions-users-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -223,7 +223,7 @@ common:
   url: https://www.vectorsolutions.com/resources/press-releases/vector-solutions-successfully-completes-annual-soc-2-type-1-examination/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vectorsolutions-mcp.yml
 - group: agent
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Vector Solutions is a training and workforce management software company serving education, public safety, government, manufacturing, construction, and gaming industries with products including Vector LMS, Vector EHS, Vector Scheduling, Vector Check It, Acadis, Guardian Tracking, and TargetSolutions. Its TargetSolutions platform for online training and records management exposes a REST API (v1) for managing sites, users, profile groups, supervisor and feature access, credentials, courses, and training assignments, documented at developers.targetsolutions.com.
 image: https://www.vectorsolutions.com/wp-content/uploads/2021/03/VectorSolutions_Logo_Icon_Color-copy-e1610391064416-1024x907.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vector Solutions MCP Server
-  slug: vector-solutions-mcp-server
 modified: '2026-07-21'
 name: Vector Solutions
 nav: Providers
@@ -313,8 +309,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/screenshots/vectorsolutions-2026-09-02T165542.png
 security:

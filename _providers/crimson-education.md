@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The backend API behind the Crimson App student and mentor platform. There is no provider-published OpenAPI or public developer portal; the surface is documented and exercised through the first-party T
@@ -163,8 +163,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

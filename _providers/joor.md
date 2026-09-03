@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JOOR's production identity service, a Keycloak realm exposing standard OpenID Connect / OAuth 2.0 endpoints (authorize, token, userinfo, introspection, JWKS) used to authenticate access to the JOOR pl
@@ -126,8 +126,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joor/refs/heads/main/screenshots/joor-2026-07-25T223239.png
 security:

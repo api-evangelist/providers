@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Manage EDI transformers for document conversion
   name: Amazon B2B Data Interchange Transformers API
   slug: amazon-b2b-data-interchange-transformers-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-b2b-data-interchange-mcp.yml
 - group: other
   title: ''
@@ -208,10 +208,6 @@ jsonld:
   property_count: 2
   slug: context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon B2B Data Interchange MCP Server
-  slug: amazon-b2b-data-interchange-mcp-server
 modified: '2026-06-20'
 name: Amazon B2B Data Interchange
 nav: Providers
@@ -273,8 +269,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -251,13 +251,13 @@ rules:
   slug: monero-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.7
+  composite: 33.3
   coverage:
     artifact_dirs: 12
     catalog_gap: 53.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -267,9 +267,6 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 34.7
   provenance:
     agentic_access: derived
@@ -284,8 +281,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/screenshots/monero-2026-06-20T185722.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The Utilities API from Tiingo — 2 operation(s) for utilities.
   name: Tiingo Utilities API
   slug: tiingo-utilities-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: Tiingo's WebSocket streaming interface for real-time market data. Clients subscribe and unsubscribe to data feeds by sending a JSON request containing eventName, an authorization API token, and eventD
   name: Tiingo WebSocket API
@@ -179,7 +179,7 @@ common:
   url: packages/tiingo-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tiingo-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ finops:
   slug: tiingo-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiingo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tiingo MCP Server
-  slug: tiingo-mcp-server
 modified: '2026-07-22'
 name: Tiingo
 nav: Providers
@@ -320,8 +316,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

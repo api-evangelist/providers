@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ arazzos:
 - description: Authorize as a partner, KYC-onboard an end user, create an executable buy quote, and execute it against the quote. Operation ids are verified against openapi/coinme-caas-openapi.json.
   name: Coinme — onboard a customer and buy crypto
   slug: coinme-onboard-and-buy
-artifact_total: 92
+artifact_total: 91
 asyncapis:
 - description: ''
   name: Coinme Webhooks
@@ -483,7 +483,7 @@ common:
   url: well-known/coinme-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coinme-mcp.yml
 - group: agent
   title: ''
@@ -505,10 +505,6 @@ created: '2026-07-17'
 description: 'Coinme is a Seattle-based regulated cryptocurrency company that offers Crypto-as-a-Service (CaaS): modular API infrastructure that lets platforms embed crypto without building it from scratch. Its Crypto-as-a-Service API covers KYC/AML customer and business onboarding, executable and informational buy/sell quotes, buy/sell and sell-all transactions, custodial and external-wallet sends, crypto asset balances, cash on/off-ramp via barcode order templates at physical locations, transaction history and limits, supported chains, and location licensing. It ships an embeddable Widget, a PCI-scope-reducing Vault SDK for secure card capture, and a Risk Engine SDK for real-time fraud signals, plus HMAC-signed webhook notifications. Coinme is backed by Pantera Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinme.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coinme MCP Server
-  slug: coinme-mcp-server
 modified: '2026-07-18'
 name: Coinme
 nav: Providers
@@ -561,8 +557,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

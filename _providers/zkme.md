@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Open banking / accredited-investor (proof of accreditation)
   name: zkMe zkOBS API
   slug: zkme-zkobs-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -91,7 +91,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zkme-mcp.yml
 - group: other
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever handling raw personal data. Its product suite spans zkKYC (customer identity with sanction, age, citizenship, location and uniqueness/anti-Sybil proofs), zkKYB (business entity and UBO verification), zkOBS (open-banking proof of accredited investor and proof of address), and KYT (on-chain wallet-address and transaction risk screening). Verification runs client-side through embeddable JavaScript and mobile widgets; integrators then query outcomes through the zkMe Open API on agw.zk.me using an AppID + API key pair. zkMe also publishes zkTLS verifier SDKs, DID registry/resolver tooling and smart contracts through its zkMeLabs GitHub org.
 image: https://zk.me/favicon.ico
 layout: provider
-mcp_servers:
-- description: No official hosted/remote zkMe MCP server was found (docs, npm @modelcontextprotocol, MCP registries). This is a candidate tool surface derived one-tool-per-operation from the documented zkMe Open API
-  name: zkMe MCP Server
-  slug: zkme-mcp-server
 modified: '2026-07-21'
 name: zkMe
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/screenshots/zkme-2026-09-02T171816.png
 security:

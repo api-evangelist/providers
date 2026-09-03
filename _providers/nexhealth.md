@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ apis:
   description: Configure working hours for providers
   name: NexHealth Working Hours API
   slug: nexhealth-working-hours-api
-artifact_total: 106
+artifact_total: 105
 asyncapis:
 - description: ''
   name: Nexhealth Webhooks
@@ -486,7 +486,7 @@ common:
   url: security/nexhealth-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nexhealth-mcp.yml
 - group: agent
   title: ''
@@ -564,10 +564,6 @@ created: '2026-07-17'
 description: NexHealth is a universal, real-time API for healthcare that lets developers read from and write to dozens of electronic health record (EHR) and practice management systems through a single standardized interface. The NexHealth Synchronizer API covers patients, providers, locations, scheduling and available slots, appointments, working hours, clinical notes, treatment plans, documents, insurance (plans, coverages, claims, balances), and practice financials (charges, payments, adjustments, fee schedules), with signed webhooks for real-time events. It is used across dental and medical practices and by health-tech companies building scheduling, billing, and patient-engagement products.
 image: https://files.readme.io/85735db-Full_Logo_White.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: NexHealth MCP Server
-  slug: nexhealth-mcp-server
 modified: '2026-07-20'
 name: NexHealth
 nav: Providers
@@ -619,8 +615,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
 security:

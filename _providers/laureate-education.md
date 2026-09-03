@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Laureate Education does not expose a public developer API, OpenAPI specification, SDK, CLI, webhook, GraphQL endpoint, status page or changelog. This entry documents the company's public corporate sur
@@ -126,8 +126,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laureate-education/refs/heads/main/screenshots/laureate-education-2026-06-20T184332.png
 security:

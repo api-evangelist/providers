@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://nonamesecurity.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.akamai.com/products/api-security — a different registrable domain (nonamesecurity.com -> akamai.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: The Noname API Security Platform provides comprehensive API security through discovery, posture management, runtime protection, and active testing. It discovers all APIs across the organization, detec
@@ -142,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 12.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/screenshots/noname-security-2026-06-20T190402.png
 security:

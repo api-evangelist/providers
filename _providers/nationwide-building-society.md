@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API providing consented access to Nationwide account, balance, and transaction data for authorised third-party providers. FAPI-secured (OAuth2
@@ -63,7 +63,7 @@ apis:
   description: Endpoint for getting Personal Current Account data
   name: Nationwide Building Society PCA API
   slug: nationwide-building-society-pca-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: Open Data API
@@ -177,7 +177,7 @@ common:
   url: data-model/nationwide-building-society-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nationwide-building-society-mcp.yml
 - group: build
   title: ''
@@ -208,10 +208,6 @@ description: Nationwide Building Society is the world's largest building society
   Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), and Variable Recurring Payments (VRP), secured with OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication using OBIE/eIDAS certificates.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nationwide Building Society MCP Server
-  slug: nationwide-building-society-mcp-server
 modified: '2026-07-23'
 name: Nationwide Building Society
 nav: Providers
@@ -260,8 +256,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:

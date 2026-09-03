@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://concord-api.centrastage.net/api
@@ -86,7 +86,7 @@ apis:
   description: Operations on users
   name: Datto /v2/user API
   slug: datto-v2-user-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -200,7 +200,7 @@ common:
   url: conformance/datto-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/datto-mcp.yml
 - group: agent
   title: ''
@@ -226,10 +226,6 @@ created: '2026-07-17'
 description: Datto is a data-protection and IT-management vendor for managed service providers (MSPs) and internal IT teams, now part of Kaseya. Its platform spans business continuity and disaster recovery (SIRIS, ALTO, Endpoint Backup), SaaS Protection for Microsoft 365 and Google Workspace, Remote Monitoring and Management (Datto RMM), Autotask professional services automation (PSA), networking (Wi-Fi, switches, firewalls, Secure Edge), and cybersecurity (Managed SOC, EDR, antivirus). Datto RMM publishes a versioned REST API (v2, OpenAPI 3.1) with platform-specific regional hosts on the CentraStage infrastructure, OAuth 2.0 access tokens, request-rate limiting, and paginated responses, letting partners programmatically manage sites, devices, alerts, jobs, audits, and account variables. Datto runs a formal Developer Program offering sandbox environments, technical enablement, and an integrations marketplace for vendors building on its solutions.
 image: https://www.datto.com/wp-content/uploads/datto-opengraph.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Datto MCP Server
-  slug: datto-mcp-server
 modified: '2026-07-18'
 name: Datto
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:

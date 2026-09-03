@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.happy-or-not.com/v2/
@@ -148,7 +148,7 @@ arazzos:
 - description: Read alert specifications, poll triggered alerts, then read their comments.
   name: Monitor HappyOrNot alerts
   slug: happyornot-monitor-alerts
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -267,7 +267,7 @@ common:
   url: conformance/happyornot-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/happyornot-mcp.yml
 - group: build
   title: ''
@@ -345,10 +345,6 @@ created: '2026-07-17'
 description: HappyOrNot is a Finnish customer-experience feedback company known for its Smiley Terminal, Smiley Touch and Smiley Digital feedback devices used across retail, airports, healthcare, public sector and workplaces. Its read-only Customer API v2 lets applications and BI tools pull raw feedback data — button (smiley/NPS) ratings, follow-up selections, freeform text, AI demographics, contact-request details and metadata — together with the experience points, groups, surveys, questions, smileys, users and alerts that produce it. Authentication is a package-scoped API token (X-HON-API-Token header or auth query parameter); responses are JSON or CSV, paged with offset/limit and an X-More-Available header. The API is documented with an OpenAPI 3.1 specification and integrates with Power BI, Tableau, Salesforce, Medallia, Qualtrics and Zapier.
 image: https://www.happy-or-not.com/wp-content/uploads/2021/03/HappyOrNot-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HappyOrNot MCP Server
-  slug: happyornot-mcp-server
 modified: '2026-07-19'
 name: HappyOrNot
 nav: Providers
@@ -386,8 +382,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
 security:

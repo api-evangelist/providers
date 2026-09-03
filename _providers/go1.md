@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -70,7 +70,7 @@ arazzos:
 - description: Create a customer portal and register a webhook subscription for Go1 events.
   name: Go1 — provision a portal and subscribe to events
   slug: go1-provision-portal-and-webhook
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Go1 Webhooks
@@ -134,7 +134,7 @@ common:
   url: well-known/go1-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/go1-mcp.yml
 - group: agent
   title: ''
@@ -240,10 +240,6 @@ created: '2026-07-17'
 description: Go1 is an AI-powered corporate learning and development (L&D) platform that consolidates employee training into a single subscription. Its content library aggregates courses from 250+ providers across 40+ languages, layered with curation, skill-based learning paths, reporting and the Morgan by Go1 learning agent, and connects to existing HR and business systems through 75+ integrations. The Go1 developer platform exposes a date-versioned REST API (gateway.go1.com, Api-Version header) for discovering learning objects, managing enrollments, provisioning customer portals and subscribing to events via webhooks, secured with OAuth 2.0, plus JavaScript/React embedding SDKs and a webhook-verifier library. Go1 is backed by SoftBank Vision Fund and Y Combinator.
 image: https://www.go1.com/opengraph-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Go1 MCP Server
-  slug: go1-mcp-server
 modified: '2026-07-19'
 name: Go1
 nav: Providers
@@ -296,8 +292,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 74.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/screenshots/go1-2026-07-25T220000.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ arazzos:
 - description: Onboard a contractor, create a contract, run payroll, and retrieve payslips.
   name: Cadana — pay a contractor end-to-end
   slug: cadana-pay-contractor
-artifact_total: 69
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Cadana Webhooks
@@ -302,6 +302,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/cadana-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/cadana-embedded-consumer-wallets-overlay.yaml
 - group: company
@@ -370,7 +374,7 @@ common:
   url: llms/cadana-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cadana-mcp.yml
 - group: agent
   title: ''
@@ -432,10 +436,6 @@ created: '2026-07-17'
 description: Cadana is a white-label global payment and payroll infrastructure provider for talent platforms, staffing companies, and HR providers. Its APIs let partners onboard and pay employees and contractors in 100+ countries, run multi-currency payroll, provision embedded wallets and virtual accounts, calculate gross-to-net tax across 150+ jurisdictions, and automate statutory filing and government remittance. The platform is delivered as five REST APIs (Workforce Management, Embedded Payments, Embedded Consumer Wallets, Global Tax Engine, and Statutory Compliance) with bearer-token auth, Svix-signed webhooks, a sandbox, and an embeddable white-label UI and salary-calculator widget. Backed by 500 Global.
 image: https://framerusercontent.com/images/ikikrpQNMIduf7aphtBIOOee650.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cadana MCP Server
-  slug: cadana-mcp-server
 modified: '2026-07-18'
 name: Cadana
 nav: Providers
@@ -446,13 +446,13 @@ overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Cadana catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+  Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 12
 score:
   band: developing
   composite: 48.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -483,8 +483,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:

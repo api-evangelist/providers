@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - security
+  - '{''url'': ''https://epicsciences.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.stylekitchennashville.com/ — a different registrable domain (epicsciences.com -> stylekitchennashville.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-sciences/refs/heads/main/screenshots/epic-sciences-2026-09-02T145413.png
 security:

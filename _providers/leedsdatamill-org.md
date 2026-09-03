@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://leedsdatamill.org'', ''status'': 302, ''note'': ''declared website redirects to https://datamillnorth.org/ — a different registrable domain (leedsdatamill.org -> datamillnorth.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: CKAN Action API for Leeds Data Mill, a consistent JSON-over-HTTP interface over a catalog of an open datasets. Standard actions include package_search, package_show, package_list, organization_list, g
@@ -119,8 +120,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leedsdatamill-org/refs/heads/main/screenshots/leedsdatamill-org-2026-06-20T184406.png
 security:

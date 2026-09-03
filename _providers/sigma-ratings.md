@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sigma360.com/external/v2
@@ -76,7 +76,7 @@ apis:
   description: Webhooks that notify you of important events
   name: Sigma360 Webhooks API
   slug: sigma-ratings-webhooks-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: Event surface for Sigma360; webhook callbacks are delivered to your registered HTTPS endpoint when monitored entities change. Derived from the OpenAPI 3.1 webhooks object published at docs.sigma360.co
   name: Sigma360 Webhooks
@@ -204,7 +204,7 @@ common:
   url: asyncapi/sigma-ratings-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sigma-ratings-mcp.yml
 - group: agent
   title: ''
@@ -226,10 +226,6 @@ created: '2026-07-17'
 description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk ratings, and counterparty credit-risk monitoring. Its REST API (OpenAPI 3.1, v2.0.1) lets you screen entities against risk data, enroll them for continuous monitoring, retrieve risk profiles and change history, and subscribe to webhook events — authenticated with an API key over https://api.sigma360.com/external/v2.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sigma-ratings.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sigma360 MCP Server
-  slug: sigma360-mcp-server
 modified: '2026-07-21'
 name: Sigma360
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/screenshots/sigma-ratings-2026-08-17T081849.png
 security:

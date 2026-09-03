@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-09-02'
+  score: 59.0
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -298,8 +298,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
   description: Wave-based migration orchestration
   name: Amazon Application Migration Service Waves API
   slug: amazon-application-migration-service-waves-api
-artifact_total: 355
+artifact_total: 354
 collections:
 - collection_type: open
   name: API Collection
@@ -131,7 +131,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-application-migration-service-mcp.yml
 - group: other
   title: ''
@@ -1099,10 +1099,6 @@ jsonld:
   property_count: 0
   slug: amazon-application-migration-service-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Application Migration Service MCP Server
-  slug: amazon-application-migration-service-mcp-server
 modified: '2026-06-20'
 name: Amazon Application Migration Service
 nav: Providers
@@ -1165,8 +1161,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:

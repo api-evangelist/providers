@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -106,8 +106,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 13.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haven-connect/refs/heads/main/screenshots/haven-connect-2026-07-25T220802.png
 slug: haven-connect

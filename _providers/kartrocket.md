@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public REST API for eCommerce shipping and order management — courier rate calculation and serviceability, order create/update/cancel, AWB and label generation, pickup scheduling, shipment tracking, r
@@ -169,8 +169,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartrocket/refs/heads/main/screenshots/kartrocket-2026-07-25T223516.png
 security:

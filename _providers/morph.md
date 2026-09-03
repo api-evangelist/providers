@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.morphl2.io/'', ''status'': 301, ''note'': ''declared website redirects to https://morph.network/ — a different registrable domain (morphl2.io -> morph.network), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API (eth_*, net_*, web3_*) plus Morph-specific methods such as morph_getBlockByNumber that return additional L2 fields. No API key required; chain id 2818.
@@ -155,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/screenshots/morph-2026-08-07T184307.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ apis:
   description: The Zoopla API from Hometrack — 1 operation(s) for zoopla.
   name: Hometrack Zoopla API
   slug: hometrack-zoopla-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: Hometrack API Public
@@ -231,7 +231,7 @@ common:
   url: packages/hometrack-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hometrack-mcp.yml
 - group: build
   title: ''
@@ -334,10 +334,6 @@ description: 'Hometrack is a United Kingdom property data, valuation and risk-de
   unusually revealing and must be stated in two halves. The developer surface is real and genuinely public: an Azure API Management developer portal at developer.hometrack.com is served anonymously, its data plane answers unauthenticated requests, and six APIs — a Valuation API, a Broker AVM API, a Property Risk Hub core client API, a Climate API, a Climate GraphQL API and an internal-facing public API — are listed there with full operation and schema metadata, from which six OpenAPI 3.0.1 documents were harvested. The access gate, however, is commercial: the portal states plainly that "to interact with any of our APIs you will need to have a valid API Key for that respective product. If you do not yet have an API Key, please contact us", and the gateway at api.hometrack.com answers anonymous calls with HTTP 401 "Unauthorized. Access token is missing or invalid." Authentication is OAuth 2.0 client credentials through Auth0 (hometrack-prod.eu.auth0.com) against the audience https://api.hometrack.com,
   with documented scopes read:valuations and write:valuations. So: contracts are readable by anyone, data is reachable by nobody without a Hometrack commercial agreement. There is no RESO Web API or Data Dictionary certification and no OData $metadata anywhere in Hometrack''s stack — RESO is a North American NAR/MLS construct and the UK has no MLS to certify against. Notably, Hometrack''s Climate API keys every property off the UPRN, the Unique Property Reference Number issued by GeoPlace and distributed by Ordnance Survey: the UK does have a universal property identifier, it just comes from government rather than from a real-estate standards body. Hometrack itself publishes no open data — the open UK property layer is HM Land Registry Price Paid and Ordnance Survey, not Hometrack.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hometrack MCP Server
-  slug: hometrack-mcp-server
 modified: '2026-07-26'
 name: Hometrack
 nav: Providers
@@ -381,8 +377,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:

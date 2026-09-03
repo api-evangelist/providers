@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -371,8 +371,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:

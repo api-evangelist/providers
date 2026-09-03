@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The myBots identity provider, running OpenIddict. This is the only surface in the estate that publishes a complete, anonymous, machine-readable contract: RFC 8414 authorization-server metadata and an '
@@ -191,8 +191,8 @@ score:
   previous_composite: 20.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mybotspro/refs/heads/main/screenshots/mybotspro-2026-08-07T184510.png
 security:

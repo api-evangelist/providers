@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: Two live Model Context Protocol servers registered under the `mcp` REST namespace on engrail.com, fronted by RFC 8414 and RFC 9728 OAuth discovery documents at the apex. Both are OAuth-protected — ano
@@ -246,8 +246,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:

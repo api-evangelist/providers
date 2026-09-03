@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Pod''s Open Charge Point Interface (OCPI) 2.2.1 service in the Charge Point Operator role, used for e-mobility roaming and as the technical vehicle named by the UK Public Charge Point Regulations 2023 '
@@ -192,8 +192,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/screenshots/pod-point-2026-09-02T151606.png
 security:

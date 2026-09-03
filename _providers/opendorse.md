@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -168,8 +168,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendorse/refs/heads/main/screenshots/opendorse-2026-09-02T150852.png
 security:

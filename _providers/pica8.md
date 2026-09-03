@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-09-02'
+  score: 26.8
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Standards-based on-device programmability in the PICOS network operating system. RESTCONF (RFC 8040) exposes OPTIONS/HEAD/GET/POST/PATCH/PUT/DELETE over YANG-modelled configuration and state at /restc
@@ -96,7 +96,7 @@ apis:
   description: JWT token minting.
   name: Pica8 Token API
   slug: pica8-token-api
-artifact_total: 17
+artifact_total: 16
 common:
 - group: auth
   title: ''
@@ -200,7 +200,7 @@ common:
   url: packages/pica8-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pica8-mcp.yml
 - group: agent
   title: ''
@@ -227,10 +227,6 @@ description: 'Pica8 is a Palo Alto, California open-networking software company,
   and jobs. Both are customer-deployed: there is no Pica8-hosted API endpoint, so every base URL is the operator''s own controller or switch address.'
 image: https://www.pica8.com/images/pica8-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pica8 MCP Server
-  slug: pica8-mcp-server
 modified: '2026-08-26'
 name: Pica8
 nav: Providers
@@ -276,8 +272,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/screenshots/pica8-2026-09-02T151220.png
 security:

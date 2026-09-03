@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 5
 common:
@@ -189,8 +189,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-finance/refs/heads/main/screenshots/leap-finance-2026-09-02T150245.png
 security:

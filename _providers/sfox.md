@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -47,7 +47,7 @@ apis:
 - description: 'White-label REST + WebSocket API for businesses: end-user management, KYC/KYB and Enhanced Due Diligence, bank-account linking (Plaid), ACH (Dwolla) and wire payments, withdrawals, transfers, monetiza'
   name: sFOX Connect API
   slug: sfox-connect-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: 'Real-time streaming API for sFOX. Clients connect over WSS, authenticate with their API key (for private feeds), then subscribe/unsubscribe to feeds via a JSON control message: { "type": "subscribe", '
   name: sFOX WebSocket API
@@ -103,7 +103,7 @@ common:
   url: llms/sfox-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sfox-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: sFOX is a unified crypto prime brokerage and infrastructure platform for professional and institutional investors — asset managers, hedge funds, family offices, and financial institutions. It aggregates liquidity from 30+ providers across 80+ markets for smart-routed best execution, and combines that with bankruptcy-remote custody (sFOX SAFE, via SAFE Trust Company), staking, credit, and post-trade settlement in one platform. sFOX exposes a REST API, a WebSocket streaming API, and a FIX API for trading, account management, RFQ, transfers, custody, staking, market data, and reporting; a separate white-label "Connect" API covers end-user onboarding, KYC/KYB, bank linking (Plaid/Dwolla), payments, withdrawals, and SSO for businesses building crypto products.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sfox.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sfox MCP Server
-  slug: sfox-mcp-server
 modified: '2026-07-21'
 name: Sfox
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/screenshots/sfox-2026-08-17T081823.png
 security:

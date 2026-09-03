@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -335,7 +336,7 @@ apis:
   description: Patients waiting for an appointment
   name: Luma Health Waitlists API
   slug: luma-health-waitlists-api
-artifact_total: 66
+artifact_total: 65
 common:
 - group: other
   title: ''
@@ -403,7 +404,7 @@ common:
   url: data-model/luma-health-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/luma-health-mcp.yml
 - group: agent
   title: ''
@@ -494,10 +495,6 @@ description: Luma Health is a United States patient-engagement (Patient Success)
   integration layer, not as a public FHIR endpoint.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Luma Health MCP Server
-  slug: luma-health-mcp-server
 modified: '2026-08-15'
 name: Luma Health
 nav: Providers
@@ -554,8 +551,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

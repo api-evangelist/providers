@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ apis:
   description: The Transactions API from Dapper Labs — 4 operation(s) for transactions.
   name: Dapper Labs Transactions API
   slug: dapper-labs-transactions-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Dapper Labs Flow Events Webhooks
@@ -142,7 +142,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dapper-labs-mcp.yml
 - group: other
   title: ''
@@ -232,10 +232,6 @@ created: '2026-07-17'
 description: Dapper Labs is the blockchain company behind the Flow network and a portfolio of consumer NFT experiences including NBA Top Shot, NFL All Day, Disney Pinnacle, and LaLiga Golazos. Its primary public developer surface is the Flow Access API — a public, unauthenticated blockchain node API available over REST (rest-mainnet.onflow.org), gRPC, and WebSocket event streaming — used to read on-chain data (blocks, transactions, accounts, collections, events), execute read-only Cadence scripts, and submit signed Cadence transactions. Flow and its client tooling (FCL, the Flow CLI, Go/JS SDKs) are maintained under the onflow GitHub organization. This profile began as a VC-portfolio stub and has been enriched by the API Evangelist pipeline from Dapper/Flow's real developer artifacts.
 image: https://developers.flow.com/img/flow-docs-logo-light.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dapper Labs MCP Server
-  slug: dapper-labs-mcp-server
 modified: '2026-07-18'
 name: Dapper Labs
 nav: Providers
@@ -277,8 +273,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/screenshots/dapper-labs-2026-07-25T211207.png
 security:

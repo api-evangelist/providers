@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: API to work on records
   name: Scottish and Southern Electricity Networks Dataset API
   slug: ssen-dataset-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: Explore API
@@ -128,7 +128,7 @@ common:
   url: https://ssentransmission.opendatasoft.com/.well-known/security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ssen-mcp.yml
 - group: agent
   title: ''
@@ -219,10 +219,6 @@ description: Scottish and Southern Electricity Networks (SSEN) is the SSE plc el
   There is no consumer data-portability mandate in Great Britain equivalent to the Australian Consumer Data Right or Ontario's Green Button regulation, and SSEN publishes no API through which a third party can obtain an individual customer's usage or billing data. What Britain mandated instead is infrastructure and disclosure — smart meter traffic runs through the licensed Smart DCC monopoly, and Ofgem's Data Best Practice licence condition under RIIO-ED2 obliges network licensees to treat data assets as Presumed Open subject to Open Data Triage. SSEN implements that obligation visibly — it became the first DNO to publish full smart meter half-hourly consumption data, aggregated to no fewer than five properties per LV feeder, and attaches published Open Data Triage records to its datasets.
 image: https://www.ssen.co.uk/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: SSEN publishes no MCP server. No hosted or remote MCP endpoint was found on any SSEN host, no @modelcontextprotocol package references SSEN, and neither the Opendatasoft nor the CKAN portal advertises
-  name: Scottish and Southern Electricity Networks MCP Server
-  slug: scottish-and-southern-electricity-networks-mcp-server
 modified: '2026-07-27'
 name: Scottish and Southern Electricity Networks
 nav: Providers
@@ -271,8 +267,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/screenshots/ssen-2026-08-17T082055.png
 security:

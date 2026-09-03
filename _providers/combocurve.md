@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.combocurve.com
@@ -126,7 +126,7 @@ apis:
   description: exports operations
   name: ComboCurve v2 exports API
   slug: combocurve-v2-exports-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -272,7 +272,7 @@ common:
   url: packages/combocurve-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/combocurve-mcp.yml
 - group: agent
   title: ''
@@ -294,10 +294,6 @@ created: '2026-07-17'
 description: ComboCurve is an oil & gas well forecasting, type-curve, reserves and economics platform used by petroleum engineers, operators, private equity firms, investment banks, and mineral/royalty companies for acquisition-and-divestiture (A&D), upstream asset management, and reserves analysis. Its public REST API at https://api.combocurve.com exposes well headers, daily and monthly production data, directional surveys, forecasts, forecast configurations, econ-models (capex, expenses, differentials, escalations, depreciation, ownership reversions), economics runs, and asynchronous export jobs. Backed by Bessemer Venture Partners.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/combocurve.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ComboCurve MCP Server
-  slug: combocurve-mcp-server
 modified: '2026-07-18'
 name: ComboCurve
 nav: Providers
@@ -341,8 +337,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/screenshots/combocurve-2026-07-25T210107.png
 security:

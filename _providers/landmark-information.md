@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -104,7 +104,7 @@ arazzos:
 - description: Register a callback endpoint for Secure Panel Network valuation milestones, update its configuration, then remove it.
   name: Subscribe to valuation milestone notifications
   slug: landmark-information-subscribe-valuation-milestones
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Landmark Information Webhooks
@@ -228,7 +228,7 @@ common:
   url: asyncapi/landmark-information-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/landmark-information-mcp.yml
 - group: agent
   title: ''
@@ -312,10 +312,6 @@ description: 'Landmark Information Group is a United Kingdom property and land d
   Dictionary posture, no OData $metadata document and no Universal Property Identifier anywhere in Landmark''s surface — RESO is a North American MLS construct and is simply absent from the UK market. Landmark publishes no open data of its own; the open UK property layer belongs to HM Land Registry and Ordnance Survey, both of which are Landmark suppliers rather than Landmark products.'
 image: https://www.landmarkcloudservices.com/assets/favicon.png
 layout: provider
-mcp_servers:
-- description: Landmark publishes no MCP server. No hosted or remote MCP endpoint appears in the documentation portal, the corporate site, the GitHub organisation or the public MCP registries, and no agent-facing su
-  name: Landmark Information Group MCP Server
-  slug: landmark-information-group-mcp-server
 modified: '2026-07-26'
 name: Landmark Information Group
 nav: Providers
@@ -366,8 +362,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:

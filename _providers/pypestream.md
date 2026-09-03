@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - baseURL: https://reporting.pypestream.com/api/v2/
@@ -367,7 +368,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -377,7 +378,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 42.5
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -387,8 +388,8 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/screenshots/pypestream-2026-09-02T152407.png
 security:

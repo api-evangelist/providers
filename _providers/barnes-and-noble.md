@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 12
 common:
@@ -131,8 +131,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barnes-and-noble/refs/heads/main/screenshots/barnes-and-noble-2026-06-20T173035.png
 security:

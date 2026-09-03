@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
   description: The Values API from Device Specs API — 4 operation(s) for values.
   name: Device Specs API Values API
   slug: device-specs-api-values-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -63,7 +63,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/device-specs-api-mcp.yml
 - group: other
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-27'
 description: A normalized mobile-device specifications REST API covering 12,000+ smartphones and 10,000+ models from 50+ manufacturers, delivering cleaned, strictly typed JSON for chipsets, display metrics (size, panel type, refresh rate, peak nits), CPU cores and clock speeds, RAM and storage options, battery capacity and charging, camera counts and resolutions, physical dimensions and IP rating, sound, connectivity, AnTuTu/Geekbench benchmarks, retail pricing in USD/EUR/GBP and EU energy-label data (energy class, battery endurance, repairability). Four read-only GET operations plus a documented deep query filter engine ({property}_{operator}={value}) supporting eq, contains, in, has, gt, gte, lt, lte and between across roughly 25 property aliases. Built and maintained by GranTurismo Engineering, distributed and metered through the RapidAPI marketplace with a free BASIC tier.
 image: https://ds.gtgroup.dev/favicon.png
 layout: provider
-mcp_servers:
-- description: Device Specs API publishes NO hosted or remote MCP server. This file is a DERIVED candidate tool list computed from the four published OpenAPI operations — a design proposal for the provider, not a se
-  name: Device Specs API MCP Server
-  slug: device-specs-api-mcp-server
 modified: '2026-08-09'
 name: Device Specs API
 nav: Providers
@@ -266,8 +262,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/screenshots/device-specs-api-2026-08-17T080857.png
 security:

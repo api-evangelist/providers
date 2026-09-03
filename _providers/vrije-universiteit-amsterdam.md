@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the Vrije Universiteit Amsterdam Repository, served from the institution's own domain and administered by the VU University Library (adminEmail pure.ub@vu
@@ -230,8 +230,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png
 security:

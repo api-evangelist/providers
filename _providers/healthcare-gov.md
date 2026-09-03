@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Educational content about the US Health Insurance Marketplace
@@ -87,8 +87,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthcare-gov/refs/heads/main/screenshots/healthcare-gov-2026-06-20T182558.png
 security:

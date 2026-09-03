@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://hubilo.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.virtualpro.com/ — a different registrable domain (hubilo.com -> virtualpro.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -78,7 +79,7 @@ apis:
   description: The User API from hubilo — 9 operation(s) for user.
   name: hubilo User API
   slug: hubilo-user-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Hubilo Webhooks
@@ -191,7 +192,7 @@ common:
   url: asyncapi/hubilo-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hubilo-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +218,6 @@ created: '2026-07-17'
 description: 'Hubilo (now branded Virtual PRO) is an enterprise virtual, hybrid, and in-person event platform used by conference producers and corporate event teams to create, promote, run, and analyze multi-session, multi-day events. Its Public API v1.2 lets organisers manage events, agenda sessions and tracks, speakers, attendees (users) and member groups, exhibitor booths, the organiser profile, and media uploads, plus a webhooks surface for activity notifications. Authentication is an organiser-level Access Token (Authorization: Bearer) and the API enforces a combined limit of 20 requests per second per organiser. Hubilo is a portfolio company of Balderton Capital.'
 image: https://framerusercontent.com/images/WwfBR1oRs750Jqr5sx6xqvIOc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: hubilo MCP Server
-  slug: hubilo-mcp-server
 modified: '2026-07-19'
 name: hubilo
 nav: Providers
@@ -266,8 +263,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/screenshots/hubilo-2026-07-25T221615.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -279,6 +279,10 @@ collections:
   name: Dropbox API Reference Account Users API
   slug: open-dropbox-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dropbox-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1370,7 +1374,7 @@ overview: 'Dropbox publishes 29 APIs on the [APIs.io](https://apis.io/) network,
   The Dropbox catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Dropbox''s developer surface includes authentication, developer portal, support, signup flow, changelog, engineering blog, and 8 more developer resources.'
+  Dropbox''s developer surface includes authentication, developer portal, support, signup flow, changelog, engineering blog, and 9 more developer resources.'
 plans:
 - name: Dropbox Plans Pricing
   plan_count: 2
@@ -1395,7 +1399,7 @@ score:
   band: developing
   composite: 43.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 71.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -1417,8 +1421,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:

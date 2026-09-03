@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
   name: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -109,7 +109,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spycloud-mcp.yml
 - group: other
   title: ''
@@ -255,10 +255,6 @@ created: '2026-08-05'
 description: 'SpyCloud is an Austin, Texas based identity threat protection company that operates one of the largest repositories of recaptured darknet data — breach records, infostealer malware logs, phishing captures and combolists — and exposes it programmatically through a family of high-volume REST APIs. Security, fraud, identity and investigations teams query recaptured credentials, session cookies, exposed PII and infected-device telemetry to prevent account takeover, ransomware, session hijacking and online fraud. The public API surface spans nine separately-licensed products: Enterprise (Employee) ATO Prevention, Consumer ATO Prevention, Cybercrime Investigations, Data Partnership, IDLink identity correlation, Compromised Credit Card, Prospecting, NIST Password check, and Session Identity Protection. All are REST/JSON, authenticated with an x-api-key header, IP allow-listed, cursor-paginated at 1,000 records per page, and backed by a 99.9% uptime SLA.'
 image: https://spycloud.com/wp-content/uploads/2025/04/bg-img-dotted-lines-1920x700-1-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SpyCloud MCP Server
-  slug: spycloud-mcp-server
 modified: '2026-08-05'
 name: SpyCloud
 nav: Providers
@@ -301,8 +297,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/screenshots/spycloud-2026-08-17T082052.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Bank of Queensland Banking Products API
   slug: bank-of-queensland-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: data-model/bank-of-queensland-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-of-queensland-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-20'
 description: Bank of Queensland Limited (ASX code BOQ) is one of Australia's oldest banks, founded in Brisbane in 1874, and today an APRA-regulated authorised deposit-taking institution (ADI) and ASX-listed regional retail and commercial bank - a publicly listed company, not a customer-owned mutual. Its banking group includes the ME Bank, Virgin Money Australia and BOQ Specialist brands. As an accredited Consumer Data Right (CDR) data holder, BOQ exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Australian Consumer Data Standards, while consumer data sharing runs through the regulated CDR / Accredited Data Recipient (ADR) model with OAuth2 / OIDC (FAPI) authorization.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-queensland.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank of Queensland MCP Server
-  slug: bank-of-queensland-mcp-server
 modified: '2026-07-21T18:00:00Z'
 name: Bank of Queensland
 nav: Providers
@@ -250,8 +246,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png
 security:

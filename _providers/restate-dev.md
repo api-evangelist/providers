@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The Restate Admin API is the HTTP control plane for a running Restate Server, exposed by default on port 9070. It manages service deployment registration, lists and introspects services and handlers, '
@@ -238,13 +238,13 @@ overview: 'Restate publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 11
 score:
   band: thin
-  composite: 26.8
+  composite: 27.0
   coverage:
     artifact_dirs: 5
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -254,12 +254,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 26.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate-dev/refs/heads/main/screenshots/restate-dev-2026-06-20T193029.png
 security:

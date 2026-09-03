@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Appwrite GraphQL API provides a unified GraphQL endpoint at /v1/graphql that exposes all Appwrite platform resources including databases, users, storage buckets, and cloud functions. It supports s
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite-graphql/refs/heads/main/screenshots/appwrite-graphql-2026-06-20T172339.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The REST API behind Sibel Health's ANNE cloud hubs. The base https://api.sibelhealth.com/jsn/alpha is referenced directly by the JavaScript bundle of the company's own datahub.sibelhealth.com single-p
@@ -177,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/screenshots/sibel-health-2026-09-02T155343.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.influitive.com
@@ -41,7 +41,7 @@ apis:
   description: The Events API from Influitive — 1 operation(s) for events.
   name: Influitive Events API
   slug: influitive-events-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Influitive Webhooks
@@ -72,7 +72,7 @@ common:
   url: asyncapi/influitive-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/influitive-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Influitive is a Toronto-based SaaS company that provides a customer advocacy, community, and engagement platform (historically branded AdvocateHub) that helps B2B companies discover, mobilize, and reward their customer advocates. The platform runs gamified challenges, guided customer journeys, referral and reference programs, reviews and social amplification, discussions, ideation, and loyalty rewards. Influitive exposes a small public HTTP API — the Events endpoint — that lets external systems log an event or act of advocacy and award points to an advocate, plus a catalog of outbound webhooks that notify integrations when advocacy, challenge, reward, referral, discussion, and profile events occur inside a hub. Developer documentation is published on a ReadMe-hosted portal at influitive.readme.io.
 image: https://influitive.com/wp-content/uploads/2021/05/influitive-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Influitive MCP Server
-  slug: influitive-mcp-server
 modified: '2026-07-19'
 name: Influitive
 nav: Providers
@@ -194,8 +190,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/screenshots/influitive-2026-07-25T222413.png
 security:

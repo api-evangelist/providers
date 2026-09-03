@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: Operations involving verifiable credentials
   name: Tradeverifyd Verifiable Credentials API
   slug: tradeverifyd-verifiable-credentials-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -251,7 +251,7 @@ common:
   url: data-model/tradeverifyd-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tradeverifyd-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: Tradeverifyd is a supply chain intelligence platform, formed by the combination of Transmute and mesur.io and backed by Techstars, that screens suppliers against 200+ global data sources, maps multi-tier supplier relationship graphs, monitors global risk events, and issues W3C Verifiable Credentials that can be presented to US Customs (CBP). Its coverage spans UFLPA, EU CSDDD, UK Modern Slavery Act, OFAC, EU/UN sanctions, NDAA, and EUDR. The v1 REST API exposes entity search and resolution, relationship graphs, flags, risk events, reports, shipments, supplier information requests, and verifiable-credential issuance, authenticated with an ocp-apim-subscription-key header.
 image: https://app.tradeverifyd.com/tradeverifyd_logo.svg
 layout: provider
-mcp_servers:
-- description: No official hosted MCP server was found for Tradeverifyd (no docs mention, no @modelcontextprotocol or registry entry, nothing in the tradeverifyd GitHub org). This is a candidate tool list derived fr
-  name: Tradeverifyd MCP Server
-  slug: tradeverifyd-mcp-server
 modified: '2026-07-21'
 name: Tradeverifyd
 nav: Providers
@@ -315,8 +311,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/screenshots/tradeverifyd-2026-08-17T082420.png
 security:

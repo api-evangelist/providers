@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Unity Bank Banking Products API
   slug: unity-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: data-model/unity-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unity-bank-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: Unity Bank Limited (ABN 72 087 650 637, AFSL & Australian Credit Licence 238311, BSB 659 000) is an Australian member-owned mutual bank that consolidated the Unity Bank and Reliance Bank brands under a single Unity Bank identity. As an authorised deposit-taking institution (ADI) it offers transaction and savings accounts, term deposits, home loans, personal loans, credit cards, business banking, and wealth services to its members across Australia. Under the Australian Consumer Data Right (CDR / open banking), Unity Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, served on a shared CDR platform (ibank.gcmutualbank.com.au) and documented on the bank's public APIs page. Broader consumer data sharing follows the CDR Accredited Data Recipient (ADR) model and is out of scope of the public PRD surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unity-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unity Bank MCP Server
-  slug: unity-bank-mcp-server
 modified: '2026-07-21'
 name: Unity Bank
 nav: Providers
@@ -254,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/screenshots/unity-bank-2026-07-21T114754.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Webhook Subscriptions API for external access
   name: Uncapped Webhook Subscriptions API
   slug: uncapped-webhook-subscriptions-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Uncapped Webhooks
@@ -171,7 +171,7 @@ common:
   url: data-model/uncapped-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uncapped-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Uncapped provides working capital to online businesses, offering revenue-based financing products including merchant cash advances (MCA), term loans, and lines of credit (LOC). Through the Uncapped Partners API, platforms and marketplaces can embed business funding directly into their product without taking on origination, compliance, or servicing - submitting anonymised applicant performance data, generating pre-offer estimations, displaying ready-to-use funding Signals in their UI, and reacting to application and estimation lifecycle events via webhooks.
 image: https://developers.weareuncapped.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: No official Uncapped MCP server was found (the Developer Hub's Scalar reference explicitly disables its MCP feature). This is a candidate tool list derived one-to-one from the published OpenAPI operat
-  name: Uncapped MCP Server
-  slug: uncapped-mcp-server
 modified: '2026-07-21'
 name: Uncapped
 nav: Providers
@@ -230,8 +226,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/screenshots/uncapped-2026-08-17T082550.png
 security:

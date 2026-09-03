@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.getambassador.io/products/api-gateway'', ''status'': 301, ''note'': ''declared website redirects to https://landing.gravitee.io/gravitee-edge-stack-unified-api-visibility-and-governance — a different registrable domain (getambassador.io -> gravitee.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -244,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/screenshots/emissary-ingress-2026-06-20T180636.png
 security:

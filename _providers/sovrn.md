@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 26
 apis:
 - description: Hosted, beta Model Context Protocol server exposing Sovrn Commerce affiliate data, campaigns and products to AI clients — twelve tools covering price search, link checking, product recommendations and
@@ -333,8 +333,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
 security:

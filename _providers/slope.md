@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Create a sandbox test customer, set eligibility, create an order, and approve it.
   name: Simulate an approved order in the sandbox
   slug: slope-sandbox-approve-order
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: Generated event surface for Slope webhooks. Payload schemas documented at https://developers.slopepay.com/docs/schema. Signed via the Slope-Signature header (HMAC-SHA256).
   name: Slope Webhook Events
@@ -207,7 +207,7 @@ common:
   url: llms/slope-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/slope-mcp.yml
 - group: other
   title: ''
@@ -297,10 +297,6 @@ created: '2026-07-17'
 description: Slope is a fintech company providing credit infrastructure for business lending - an embedded buy-now-pay-later (BNPL) and working-capital solution that lets merchants offer flexible net-terms financing to their business (B2B) buyers at checkout with no added risk. Its platform combines an embedded line-of-credit product, the SlopeScore business cash-flow score for underwriting, and a developer API (v4) for creating customers and orders, driving checkout via the Slope.js widget or a hosted redirect, finalizing orders for payout, issuing refunds/adjustments, handling repayments, and subscribing to webhook events. Slope is backed by GGV Capital and has announced a relationship with Amazon.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slope.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Slope MCP Server
-  slug: slope-mcp-server
 modified: '2026-07-21'
 name: Slope
 nav: Providers
@@ -352,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/screenshots/slope-2026-08-17T081924.png
 security:

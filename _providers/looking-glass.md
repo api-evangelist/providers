@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: http://localhost:33334/
@@ -67,7 +67,7 @@ apis:
   description: Bridge and API version information
   name: Looking Glass Version API
   slug: looking-glass-version-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -149,7 +149,7 @@ common:
   url: packages/looking-glass-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/looking-glass-mcp.yml
 - group: agent
   title: ''
@@ -191,10 +191,6 @@ created: '2026-07-17'
 description: 'Looking Glass Factory builds light field (holographic) displays — group-viewable 3D screens ranging from the pocket-sized Looking Glass Go to 16", 27", 32" and 65" panels — plus the software that drives them. For developers, the core surface is Looking Glass Bridge: a local runtime that exposes an HTTP REST API on http://localhost:33334/ for enumerating connected displays, opening the media player, building playlists of Quilt and RGBD holograms, and controlling playback. Around it Looking Glass ships official client libraries — the typesafe bridge.js (@lookingglass/bridge), a WebXR polyfill (@lookingglass/webxr) that targets the displays from any WebXR framework, a Python Bridge SDK, the legacy HoloPlay Core C/C++/C# SDK, and engine plugins for Unity, Unreal and Blender. Looking Glass Blocks (blocks.glass) hosts holograms on the internet. The company is backed by Uncork Capital and headquartered in Brooklyn, New York.'
 image: https://lookingglassfactory.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Looking Glass MCP Server
-  slug: looking-glass-mcp-server
 modified: '2026-07-20'
 name: Looking Glass
 nav: Providers
@@ -232,8 +228,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/screenshots/looking-glass-2026-07-25T225514.png
 security:

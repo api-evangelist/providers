@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.3
-  scored_at: '2026-09-02'
+  score: 33.5
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.id.unico.app
@@ -41,7 +41,7 @@ apis:
   description: 'The OAuth2 token service every IDCloud contract authenticates against. Implements the RFC 7523 JWT-bearer grant with an RS256-signed assertion exchanged for a one-hour access token, and serves a live '
   name: Unico Identity OAuth2
   slug: identity-oauth2
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Unico Webhooks
@@ -195,7 +195,7 @@ common:
   url: asyncapi/unico-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unico-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-09-02'
 description: 'Unico (unico IDtech) is a Brazilian identity-technology company whose IDCloud platform performs facial-biometric identity verification, liveness detection, document capture and OCR, and fraud-risk decisioning for customer onboarding, step-up authentication and card-not-present payment verification. Founded out of Acesso Digital and headquartered in Sao Paulo with offices in Mexico City, Londrina and Menlo Park, it has raised roughly $338M across four rounds and states it processes 150M+ transactions per month on Google Cloud. Its public developer surface is two REST contracts — an API contract where the integrator owns the camera and sends the selfie in the request, and a Web & SDK contract where Unico hosts the whole verification journey — plus an outbound webhook, four native capture SDKs, and three published Postman collections. It publishes no OpenAPI: the developer portal''s own OpenAPI page reads "Placeholder OpenAPI specification."'
 image: https://developer.unico.io/img/unico-favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unico MCP Server
-  slug: unico-mcp-server
 modified: '2026-09-02'
 name: Unico
 nav: Providers
@@ -250,6 +246,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -259,11 +256,13 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 76.3
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Unico Authentication

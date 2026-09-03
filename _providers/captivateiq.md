@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-09-02'
+  score: 32.6
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.captivateiq.com/ciq/v1/
@@ -116,7 +116,7 @@ apis:
   description: The Users API from CaptivateIQ — 2 operation(s) for users.
   name: CaptivateIQ Users API
   slug: captivateiq-users-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/captivateiq-mcp.yml
 - group: other
   title: ''
@@ -307,10 +307,6 @@ description: CaptivateIQ is a sales performance and commission management platfo
   host and an RFC 8414 OAuth authorization-server metadata document on its app host, and publicly announced a customer-facing CaptivateIQ MCP Server (limited beta, May 2026) for connecting live compensation and planning data to AI tools.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/captivateiq.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CaptivateIQ MCP Server
-  slug: captivateiq-mcp-server
 modified: '2026-08-13'
 name: CaptivateIQ
 nav: Providers
@@ -361,8 +357,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

@@ -1,6 +1,6 @@
 {
- "total": 40,
- "shown": 40,
+ "total": 39,
+ "shown": 39,
  "limit": 1000,
  "bands": [
   {
@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "PropelAuth",
@@ -29,8 +29,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -75,8 +75,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -104,57 +104,11 @@
      "rank": 2
     },
     {
-     "name": "Okta",
-     "slug": "okta",
-     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png",
-     "score": 60.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 77.4,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 73.8,
-      "commercial_clarity": 61.8,
-      "access_clarity": 61.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 25.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 3
-    },
-    {
      "name": "Frontegg",
      "slug": "frontegg",
      "description": "Frontegg is a customer identity and access management (CIAM) platform for B2B SaaS. It provides self-serve authentication, multi-tenancy, role-based access control, single sign-on, SCIM provisioning, entitlements, and an admin portal that ships with the product. Frontegg publishes OpenAPI specifications for its Authentication and Identity, Account Management, Single Sign-On, SCIM Provisioning, Applications, Audits, Entitlements, Entitlements Agent (PDP), and Environment Authentication APIs, all served from regional gateway endpoints (api.frontegg.com, api.us.frontegg.com, api.au.frontegg.com, api.ca.frontegg.com).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png",
-     "score": 58.4,
+     "score": 62.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -167,8 +121,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -193,41 +147,41 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 4
+     "rank": 3
     },
     {
-     "name": "Zitadel",
-     "slug": "zitadel",
-     "description": "Zitadel is an open source identity infrastructure platform providing secure authentication and user management with built-in support for OAuth 2.0, OpenID Connect, SAML 2.0, SCIM, FIDO2, and passkeys. It offers multi-tenancy, fine-grained authorization, and a comprehensive management API for building and operating identity-first applications. Available as cloud-hosted and self-hosted deployments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png",
-     "score": 56.5,
+     "name": "Okta",
+     "slug": "okta",
+     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png",
+     "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 74.4,
+      "discoverability": 53.7,
+      "contract_quality": 77.4,
       "governance": 28.8,
       "contract_governance": 28.8,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 73.8,
+      "commercial_clarity": 61.8,
+      "access_clarity": 61.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 21.0,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 25.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -238,8 +192,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Open Source Identity Servers",
-     "rank": 5
+     "tier": "Enterprise IAM & Workforce Identity",
+     "rank": 4
     },
     {
      "name": "Beyond Identity",
@@ -259,8 +213,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -285,7 +239,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Auth0",
@@ -305,8 +259,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -331,7 +285,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "SailPoint",
@@ -351,8 +305,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -377,7 +331,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 8
+     "rank": 7
     }
    ],
    "open": true
@@ -387,8 +341,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 18,
-   "shown": 18,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Amazon Cognito",
@@ -408,8 +362,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -434,6 +388,52 @@
       "agentic_commerce": false
      },
      "tier": "Cloud Platform Identity",
+     "rank": 8
+    },
+    {
+     "name": "Zitadel",
+     "slug": "zitadel",
+     "description": "Zitadel is an open source identity infrastructure platform providing secure authentication and user management with built-in support for OAuth 2.0, OpenID Connect, SAML 2.0, SCIM, FIDO2, and passkeys. It offers multi-tenancy, fine-grained authorization, and a comprehensive management API for building and operating identity-first applications. Available as cloud-hosted and self-hosted deployments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 74.4,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 21.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Open Source Identity Servers",
      "rank": 9
     },
     {
@@ -454,8 +454,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -500,8 +500,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -546,8 +546,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -592,8 +592,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -638,8 +638,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -671,11 +671,11 @@
      "slug": "forgerock",
      "description": "ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png",
-     "score": 48.1,
+     "score": 49.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 48.1,
+      "discoverability": 66.7,
       "contract_quality": 62.0,
       "governance": 9.8,
       "contract_governance": 9.8,
@@ -684,8 +684,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -730,8 +730,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -759,98 +759,6 @@
      "rank": 16
     },
     {
-     "name": "SuperTokens",
-     "slug": "supertokens",
-     "description": "SuperTokens is an open source authentication solution providing session management, social login, email/password auth, and passwordless flows for web and mobile apps. It is an open source alternative to Auth0, Firebase Auth, and AWS Cognito. SuperTokens exposes a Core Driver Interface (CDI) HTTP API for backend SDKs to communicate with the supertokens-core service, as well as a Frontend Driver Interface (FDI) for frontend SDK interaction. Available SDKs cover Node.js, Python, Go, Java, React, Flutter, iOS, and Android.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/screenshots/supertokens-2026-06-20T194732.png",
-     "score": 47.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 62.4,
-      "governance": 54.5,
-      "contract_governance": 54.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Source Identity Servers",
-     "rank": 17
-    },
-    {
-     "name": "Clerk",
-     "slug": "clerk",
-     "description": "Clerk is a drop-in authentication and user management platform for web and mobile applications. The product spans sign-up / sign-in flows, user profiles, multi-factor authentication, passkeys, social sign-on, magic links, bot and fraud detection, organizations (B2B / multi-tenant) with custom roles and invitations, and a Billing product for subscriptions. The Backend API at api.clerk.com is authenticated with a Bearer secret key and has an OpenAPI specification. Frontend SDKs cover Next.js, React, React Router, Expo, Astro, TanStack React Start, Chrome Extension, and vanilla JavaScript. Backend SDKs cover Node, Go, Python, Ruby, Java, PHP, and C#. Webhooks are delivered via Svix.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 63.6,
-      "governance": 11.4,
-      "contract_governance": 11.4,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Developer-First CIAM",
-     "rank": 18
-    },
-    {
      "name": "Oso Cloud",
      "slug": "oso",
      "description": "Oso Cloud is an authorization-as-a-service platform that provides a REST API for defining and enforcing relationship-based access control policies. It enables developers to model RBAC, ReBAC, and ABAC authorization patterns, manage authorization facts, and query permissions at runtime with sub-10ms latency and 99.99% availability.",
@@ -868,8 +776,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -901,53 +809,7 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 19
-    },
-    {
-     "name": "Authentik",
-     "slug": "authentik",
-     "description": "Authentik is an open source identity provider with a comprehensive REST API for managing users, groups, flows, providers, sources, policies, and outposts. It supports OAuth2, OIDC, SAML, LDAP, SCIM, and RADIUS protocols with official client SDKs in TypeScript, Python, Go, Rust, Kotlin, and Swift.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/screenshots/authentik-2026-06-20T172603.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 48.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 42.9,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Source Identity Servers",
-     "rank": 20
+     "rank": 17
     },
     {
      "name": "FusionAuth",
@@ -967,8 +829,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -993,36 +855,29 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 21
+     "rank": 18
     },
     {
-     "name": "Cerbos",
-     "slug": "cerbos",
-     "description": "Cerbos is an open-core, language-agnostic, scalable authorization platform that decouples access control from application code by externalizing fine-grained, context-aware permission decisions into policy-as-code. Authorization is expressed in YAML policies supporting RBAC, ABAC, PBAC, and ReBAC, evaluated by a stateless Policy Decision Point (PDP) that delivers sub-millisecond decisions at scale. The platform consists of the open-source Cerbos PDP (Apache 2.0), Cerbos Hub control plane (PAP), Cerbos Synapse enrichment layer, and PEP SDKs for Go, Java, JavaScript / TypeScript, .NET, PHP, Python, Ruby, and Rust. The PDP exposes both REST (port 3592) and gRPC (port 3593) interfaces, an Admin API, and standards- compliant OpenID AuthZEN endpoints, with query-plan adapters for Prisma and SQLAlchemy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/screenshots/cerbos-2026-06-20T174139.png",
-     "score": 43.2,
+     "name": "SuperTokens",
+     "slug": "supertokens",
+     "description": "SuperTokens is an open source authentication solution providing session management, social login, email/password auth, and passwordless flows for web and mobile apps. It is an open source alternative to Auth0, Firebase Auth, and AWS Cognito. SuperTokens exposes a Core Driver Interface (CDI) HTTP API for backend SDKs to communicate with the supertokens-core service, as well as a Frontend Driver Interface (FDI) for frontend SDK interaction. Available SDKs cover Node.js, Python, Go, Java, React, Flutter, iOS, and Android.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/screenshots/supertokens-2026-06-20T194732.png",
+     "score": 42.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 46.9,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
+      "discoverability": 75.9,
+      "contract_quality": 62.4,
+      "governance": 54.5,
+      "contract_governance": 54.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.4,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1031,11 +886,11 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1045,8 +900,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Authorization & Policy Engines",
-     "rank": 22
+     "tier": "Open Source Identity Servers",
+     "rank": 19
     },
     {
      "name": "Corbado",
@@ -1066,8 +921,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1092,7 +947,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 23
+     "rank": 20
     },
     {
      "name": "Ory",
@@ -1112,8 +967,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1138,7 +993,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 24
+     "rank": 21
     },
     {
      "name": "Permit.io",
@@ -1158,8 +1013,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1191,29 +1046,36 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 25
+     "rank": 22
     },
     {
-     "name": "CyberArk",
-     "slug": "cyberark",
-     "description": "CyberArk is the global leader in identity security, providing a unified Identity Security Platform that protects human, machine, and application identities across hybrid and multi-cloud environments. Core product lines include Privileged Access Manager (PAM Self-Hosted) and Privilege Cloud for credential vaulting and session management; Conjur Secrets Manager (Open Source, Enterprise, and Cloud) for machine-identity and DevOps secrets; CyberArk Identity for workforce SSO, MFA, and lifecycle; Endpoint Privilege Manager for least-privilege enforcement on Windows / macOS / Linux endpoints; Secure Cloud Access for just-in-time cloud entitlements; and Customer Identity for B2B / B2C identity. CyberArk publishes a canonical OpenAPI 3.1 specification for Conjur Secrets Manager at github.com/cyberark/conjur-openapi-spec, and REST APIs for PAM Self-Hosted, Privilege Cloud, and CyberArk Identity are documented on docs.cyberark.com and developer.cyberark.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png",
-     "score": 41.1,
+     "name": "Cerbos",
+     "slug": "cerbos",
+     "description": "Cerbos is an open-core, language-agnostic, scalable authorization platform that decouples access control from application code by externalizing fine-grained, context-aware permission decisions into policy-as-code. Authorization is expressed in YAML policies supporting RBAC, ABAC, PBAC, and ReBAC, evaluated by a stateless Policy Decision Point (PDP) that delivers sub-millisecond decisions at scale. The platform consists of the open-source Cerbos PDP (Apache 2.0), Cerbos Hub control plane (PAP), Cerbos Synapse enrichment layer, and PEP SDKs for Go, Java, JavaScript / TypeScript, .NET, PHP, Python, Ruby, and Rust. The PDP exposes both REST (port 3592) and gRPC (port 3593) interfaces, an Admin API, and standards- compliant OpenID AuthZEN endpoints, with query-plan adapters for Prisma and SQLAlchemy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/screenshots/cerbos-2026-06-20T174139.png",
+     "score": 40.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 55.8,
-      "governance": 69.7,
-      "contract_governance": 69.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "contract_quality": 46.9,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 18.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1226,7 +1088,7 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1236,8 +1098,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 26
+     "tier": "Authorization & Policy Engines",
+     "rank": 23
     }
    ],
    "open": true
@@ -1247,8 +1109,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Authelia",
@@ -1268,8 +1130,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1294,7 +1156,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 27
+     "rank": 24
     },
     {
      "name": "Aserto",
@@ -1314,8 +1176,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1347,7 +1209,99 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 28
+     "rank": 25
+    },
+    {
+     "name": "CyberArk",
+     "slug": "cyberark",
+     "description": "CyberArk is the global leader in identity security, providing a unified Identity Security Platform that protects human, machine, and application identities across hybrid and multi-cloud environments. Core product lines include Privileged Access Manager (PAM Self-Hosted) and Privilege Cloud for credential vaulting and session management; Conjur Secrets Manager (Open Source, Enterprise, and Cloud) for machine-identity and DevOps secrets; CyberArk Identity for workforce SSO, MFA, and lifecycle; Endpoint Privilege Manager for least-privilege enforcement on Windows / macOS / Linux endpoints; Secure Cloud Access for just-in-time cloud entitlements; and Customer Identity for B2B / B2C identity. CyberArk publishes a canonical OpenAPI 3.1 specification for Conjur Secrets Manager at github.com/cyberark/conjur-openapi-spec, and REST APIs for PAM Self-Hosted, Privilege Cloud, and CyberArk Identity are documented on docs.cyberark.com and developer.cyberark.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png",
+     "score": 38.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 55.8,
+      "governance": 69.7,
+      "contract_governance": 69.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 14.3,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Enterprise IAM & Workforce Identity",
+     "rank": 26
+    },
+    {
+     "name": "Authentik",
+     "slug": "authentik",
+     "description": "Authentik is an open source identity provider with a comprehensive REST API for managing users, groups, flows, providers, sources, policies, and outposts. It supports OAuth2, OIDC, SAML, LDAP, SCIM, and RADIUS protocols with official client SDKs in TypeScript, Python, Go, Rust, Kotlin, and Swift.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/screenshots/authentik-2026-06-20T172603.png",
+     "score": 37.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 48.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Open Source Identity Servers",
+     "rank": 27
     },
     {
      "name": "Keycloak",
@@ -1367,8 +1321,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1393,7 +1347,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Logto",
@@ -1413,8 +1367,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1426,6 +1380,52 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Open Source Identity Servers",
+     "rank": 29
+    },
+    {
+     "name": "Gluu",
+     "slug": "gluu",
+     "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png",
+     "score": 34.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 50.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 45.2,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1459,8 +1459,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1488,52 +1488,6 @@
      "rank": 31
     },
     {
-     "name": "Gluu",
-     "slug": "gluu",
-     "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png",
-     "score": 33.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 50.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 45.2,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Source Identity Servers",
-     "rank": 32
-    },
-    {
      "name": "OneLogin",
      "slug": "onelogin",
      "description": "OneLogin is an identity and access management platform providing single sign-on (SSO), multi-factor authentication, user provisioning, and a RESTful API for managing users, roles, applications, MFA, branding, connectors, reports, SAML assertions, smart hooks, and Vigilance AI.",
@@ -1551,8 +1505,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1577,7 +1531,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Nevis",
@@ -1597,8 +1551,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1623,7 +1577,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "JumpCloud",
@@ -1643,8 +1597,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1669,7 +1623,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Microsoft Entra ID",
@@ -1689,8 +1643,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1715,16 +1669,72 @@
       "agentic_commerce": false
      },
      "tier": "Cloud Platform Identity",
-     "rank": 36
+     "rank": 35
     },
+    {
+     "name": "OpenFGA",
+     "slug": "openfga",
+     "description": "OpenFGA is a CNCF incubating high-performance authorization system implementing fine-grained access control based on the Zanzibar model. It provides a flexible relationship-based authorization engine that evaluates access decisions using a type system defined in a modeling language. OpenFGA supports authorization checks, relationship queries, and list operations through its API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/screenshots/openfga-2026-06-20T191007.png",
+     "score": 26.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 46.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Authorization & Policy Engines",
+     "rank": 36
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 3,
+   "shown": 3,
+   "providers": [
     {
      "name": "Casdoor",
      "slug": "casdoor",
      "description": "Casdoor is an open-source, AI-first identity and access management (IAM) and MCP gateway authentication server with a web UI. Built in Go (Beego) with a React frontend, Casdoor supports OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP, Kerberos/SPNEGO, WebAuthn / Passkeys, TOTP / MFA, SCIM 2.0 provisioning, social login, multi-tenant organizations, role-based access control, and an MCP Gateway plus A2A Protocol for agent-to-agent communication. The platform exposes a RESTful API documented via Swagger and ships SDKs for Go, Java, Python, Node.js, C#, C++, PHP, Ruby, JavaScript, Lua, and Haskell. Released under the Apache License 2.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png",
-     "score": 28.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.6,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 12.6,
@@ -1735,8 +1745,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1764,62 +1774,6 @@
      "rank": 37
     },
     {
-     "name": "OpenFGA",
-     "slug": "openfga",
-     "description": "OpenFGA is a CNCF incubating high-performance authorization system implementing fine-grained access control based on the Zanzibar model. It provides a flexible relationship-based authorization engine that evaluates access decisions using a type system defined in a modeling language. OpenFGA supports authorization checks, relationship queries, and list operations through its API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/screenshots/openfga-2026-06-20T191007.png",
-     "score": 26.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 46.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 25.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Authorization & Policy Engines",
-     "rank": 38
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
-    {
      "name": "Duo Security",
      "slug": "duo-security",
      "description": "Duo Security is a multi-factor authentication and zero trust security platform from Cisco for securing access to applications and APIs.",
@@ -1837,8 +1791,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1863,7 +1817,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Magic",
@@ -1882,8 +1836,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1915,7 +1869,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 40
+     "rank": 39
     }
    ]
   }

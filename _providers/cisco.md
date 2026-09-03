@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -452,8 +452,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
@@ -190,8 +190,8 @@ score:
     applies: true
     score: 65.0
   previous_composite: 35.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/screenshots/microsoft-entity-framework-2026-06-20T185456.png
 security:

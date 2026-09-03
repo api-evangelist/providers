@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -70,7 +70,7 @@ apis:
   description: DigiKYC - identity verification via CKYC, KRA, DigiLocker, and offline Aadhaar.
   name: Digio KYC API
   slug: digio-kyc-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Digio Webhooks
@@ -202,7 +202,7 @@ common:
   url: packages/digio-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/digio-mcp.yml
 - group: other
   title: ''
@@ -252,10 +252,6 @@ finops:
   slug: digio-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digio.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Digio MCP Server
-  slug: digio-mcp-server
 modified: '2026-06-20'
 name: Digio
 nav: Providers
@@ -305,8 +301,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Transactions API from Datanomik — 2 operation(s) for transactions.
   name: Datanomik Transactions API
   slug: datanomik-transactions-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -251,7 +251,7 @@ common:
   url: https://datanomik.com/seguranca
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/datanomik-mcp.yml
 - group: agent
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Datanomik is a Brazilian open finance and treasury-management platform that gives mid-to-large enterprises real-time, consolidated visibility across their bank accounts, balances, investments and payments through a single API. Authorized by Banco Central do Brasil as a Payment Transaction Initiator (ITP) and a participant in Brazil's Open Finance ecosystem, Datanomik connects to 30+ Brazilian financial institutions (Banco do Brasil, Itau, Bradesco, Caixa, BTG, Nubank, Safra, Mercado Pago and others) to deliver bank connectivity, cash and liquidity management, investment-portfolio tracking, cash-flow forecasting, cash pooling and transfers, automated bank statements and financial reporting. The company exposes two REST APIs - an OpenBanking data API and a Treasury/Remuneration API - secured with HTTP Basic API keys, documented on a ReadMe developer portal with a public Postman workspace and a dedicated sandbox. Backed by a16z, its clients include iFood, Magalu, Flamengo and Unimed.
 image: https://datanomik.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Datanomik MCP Server
-  slug: datanomik-mcp-server
 modified: '2026-07-18'
 name: Datanomik
 nav: Providers
@@ -317,8 +313,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png
 security:

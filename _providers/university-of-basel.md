@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: Public DSpace REST API for "edoc", the open-access institutional repository of the University of Basel, running DSpace-CRIS 7.6.2 (cris-2023.02.06) on the university's own host. The API root reports d
@@ -193,7 +193,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 35.1
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     skills: derived
@@ -213,8 +213,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png
 security:

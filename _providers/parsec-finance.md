@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Pro GraphQL API for on-chain DeFi and NFT market data — DEX trades, candles, lending markets, liquidity pools and positions, NFT collections and trades, token holders, transfers, transactions, contrac
   name: Parsec Finance API
   slug: parsec-finance-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -95,7 +95,7 @@ common:
   url: well-known/parsec-finance-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parsec-finance-mcp.yml
 - group: agent
   title: ''
@@ -113,10 +113,6 @@ created: '2026-07-17'
 description: 'Parsec Finance is an institutional-grade on-chain analytics platform for DeFi and NFT markets. Its modular "Command Center" lets traders and analysts drag and drop dozens of real-time components — live trade firehoses, liquidity-depth charts, wallet trackers, lending dashboards and NFT floor monitors — across many EVM chains. Beyond the app, Parsec exposes a Pro GraphQL API at api.parsec.finance for programmatic access to on-chain market data: DEX trades, OHLCV candles, lending markets, liquidity pools (including concentrated-liquidity positions), NFT collections and trades, token holders and balance changes, transfers, transactions, contract logs, trending contracts, trade metrics and address label resolution. A first-party Python SDK (parsecfi) wraps the API. Parsec is used by firms such as Polychain and Galaxy Digital.'
 image: https://parsec.fi/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parsec Finance MCP Server
-  slug: parsec-finance-mcp-server
 modified: '2026-07-20'
 name: Parsec Finance
 nav: Providers
@@ -155,8 +151,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

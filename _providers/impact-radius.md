@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-09-02'
+  score: 41.8
+  scored_at: '2026-09-03'
 api_count: 134
 apis:
 - baseURL: https://api.impact.com/Advertisers/
@@ -794,8 +795,8 @@ score:
       total: 61
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:

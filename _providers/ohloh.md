@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The REST API for Black Duck Open Hub (formerly Ohloh). Returns XML wrapped in a <response> root element that always carries a <status> (success/failed) and an <error> on failure. Requests append .xml '
   name: Open Hub API (Ohloh)
   slug: open-hub-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -95,7 +95,7 @@ common:
   url: conformance/ohloh-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ohloh-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +109,6 @@ created: '2026-07-17'
 description: Ohloh is the open source directory and analytics service that was rebranded as Black Duck Open Hub (openhub.net) after Black Duck Software acquired it. It tracks hundreds of thousands of open source projects, their code, contributors, languages, licenses and activity, and exposes this data through a public REST API. The Open Hub / Ohloh API returns XML, authenticates with an api_key HTTP parameter (plus OAuth 2.0 for write access and private account data), is rate limited to 1,000 requests per key per day, and covers resources such as projects, accounts, organizations, analyses, languages, stacks, factoids and contributor facts. This profile was added to the API Evangelist network as a stub and enriched from the provider's public documentation.
 image: https://avatars.githubusercontent.com/blackducksoftware
 layout: provider
-mcp_servers:
-- description: Candidate Model Context Protocol tool surface for the Black Duck Open Hub (Ohloh) REST API. Tools map to documented read resources; all requests carry the api_key parameter and return XML.
-  name: Ohloh MCP Server
-  slug: ohloh-mcp-server
 modified: '2026-07-20'
 name: Ohloh
 nav: Providers
@@ -148,8 +144,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ohloh/refs/heads/main/screenshots/ohloh-2026-08-07T190035.png
 security:

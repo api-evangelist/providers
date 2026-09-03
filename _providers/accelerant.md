@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The member-facing Accelerant Risk Exchange platform and its supporting API surface. Accelerant states that its risk indices plug directly into Member underwriting and policy administration systems via
@@ -189,8 +189,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelerant/refs/heads/main/screenshots/accelerant-2026-08-07T160750.png
 security:

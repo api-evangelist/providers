@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -1054,6 +1054,10 @@ collections:
   name: Unified.to account webinar API
   slug: open-unified-to-webinar-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unified-to-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -4659,7 +4663,7 @@ overview: 'Unified.to publishes 29 APIs on the [APIs.io](https://apis.io/) netwo
   The Unified.to catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unified.to''s developer surface includes authentication, engineering blog, changelog, pricing, documentation, getting-started guide, signup flow, and 45 more developer resources.'
+  Unified.to''s developer surface includes authentication, engineering blog, changelog, pricing, documentation, getting-started guide, signup flow, and 46 more developer resources.'
 plans:
 - name: Unified To Plans Pricing
   plan_count: 4
@@ -4695,7 +4699,7 @@ score:
   band: strong
   composite: 61.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -4717,8 +4721,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

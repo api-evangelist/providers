@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.tessian.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.proofpoint.com/us/tessian-is-now-proofpoint — a different registrable domain (tessian.com -> proofpoint.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +54,7 @@ apis:
   description: The Endpoints API from Tessian — 9 operation(s) for endpoints.
   name: Tessian Endpoints API
   slug: tessian-endpoints-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +128,7 @@ common:
   url: lifecycle/tessian-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tessian-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +170,6 @@ created: '2026-07-17'
 description: Tessian, now part of Proofpoint, is an AI-powered email security platform that protects against inbound threats (phishing and impersonation), accidental data loss, and deliberate data exfiltration across its Defender, Guardian, Enforcer, Architect, and Constructor modules. The Tessian API is a RESTful, JSON, read-oriented interface that exports security-event, anomaly, company-risk, user-monitoring, audit-log, and trigger data into SIEMs and other data-management tools. It authenticates with a static API token, paginates by checkpoint, and returns ISO 8601 UTC timestamps.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tessian.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tessian MCP Server
-  slug: tessian-mcp-server
 modified: '2026-07-21'
 name: Tessian
 nav: Providers
@@ -211,8 +208,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/screenshots/tessian-2026-09-02T163217.png
 security:

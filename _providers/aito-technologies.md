@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The schema API from Aito Technologies — 5 operation(s) for schema.
   name: Aito Technologies schema API
   slug: aito-technologies-schema-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ common:
   url: https://aitostatus.statuspage.io
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aito-technologies-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a SQL-like JSON interface for prediction, recommendation, similarity search, classification, pattern matching, and statistical relation over your own tables, alongside schema and data-management endpoints. Aito powers predictive accounting (GL coding, invoice routing, fraud detection), predictive ERP, and predictive e-commerce, and is delivered as an EU-hosted cloud service (Ireland, eu-west-1) or a self-hosted Docker container. Authentication is an x-api-key header with read-only and read/write key types.
 image: https://console.aito.ai/aito-favicon-128.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aito Technologies MCP Server
-  slug: aito-technologies-mcp-server
 modified: '2026-07-17'
 name: Aito Technologies
 nav: Providers
@@ -247,8 +243,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/screenshots/aito-technologies-2026-07-25T195452.png
 security:

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -133,7 +133,7 @@ apis:
   description: The Workflow API from Unqork — 10 operation(s) for workflow.
   name: Unqork Workflow API
   slug: unqork-workflow-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Unqork Webhooks
@@ -153,7 +153,7 @@ common:
   url: overlays/unqork-customer-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unqork-mcp.yml
 - group: agent
   title: ''
@@ -279,10 +279,6 @@ created: '2026-07-31'
 description: Unqork is an enterprise application development platform — a no-code / "codeless" platform-as-a-service used by banks, insurers, healthcare organizations and government agencies to build and operate complex, regulated business applications without hand-written application code. Creators assemble applications from modules, workflows, components and data models in the Unqork Designer, and the platform exposes a REST Customer API (documented as OpenAPI 3.0.3 at developers.unqork.io) that lets external systems manage submissions, modules, applications, workflows, users, groups, promotions, transforms, global variables and API access credentials in an Unqork environment. The API is served per-tenant at https://{subdomain}.unqork.io/api/1.0, secured with OAuth 2.0 client-credentials and password grants issued through API Access Management, and the platform ships on a quarterly GA release cadence with weekly patch releases.
 image: https://developers.unqork.io/unqork-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unqork MCP Server
-  slug: unqork-mcp-server
 modified: '2026-07-31'
 name: Unqork
 nav: Providers
@@ -339,8 +335,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 68.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/screenshots/unqork-2026-08-17T082627.png
 security:

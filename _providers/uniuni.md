@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -67,7 +67,7 @@ apis:
   description: Receive real-time shipment status updates.
   name: UniUni Webhooks API
   slug: uniuni-webhooks-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Uniuni Webhooks
@@ -150,7 +150,7 @@ common:
   url: llms/uniuni-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uniuni-mcp.yml
 - group: auth
   title: ''
@@ -196,10 +196,6 @@ created: '2026-07-17'
 description: UniUni is a Canadian last-mile delivery carrier serving ecommerce businesses across Canada and the United States, delivering parcels through a crowdsourced driver network with hubs, stores, and partner drop-off locations. The UniUni Platform gives merchants shipment creation, label purchase, batching, wallet billing, tracking, and Shopify/ShipStation/WooCommerce integrations, alongside a REST Client API, a Partner API for vendor tracking updates, and a legacy Integration API for enterprise shippers.
 image: https://mintcdn.com/uniexpressinc/YvoYth8Wg7rezp7U/logo/light.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: UniUni MCP Server
-  slug: uniuni-mcp-server
 modified: '2026-07-21'
 name: UniUni
 nav: Providers
@@ -240,8 +236,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/screenshots/uniuni-2026-08-17T082619.png
 security:

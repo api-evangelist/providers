@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.9
-  scored_at: '2026-09-02'
+  score: 26.1
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Northmill Bank's PSD2 third-party-provider interface, covering Account Information Services (AIS) and Confirmation of Available Funds (CBPII/CAF), with request signing via ES256/RS256 key pairs regist
@@ -193,7 +193,7 @@ apis:
   description: The WebHooks API from Northmill — 4 operation(s) for webhooks.
   name: Northmill Web Hooks API
   slug: northmill-webhooks-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Northmill Flo Webhooks
@@ -317,7 +317,7 @@ common:
   url: sandbox/northmill-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/northmill-mcp.yml
 - group: agent
   title: ''
@@ -331,10 +331,6 @@ created: '2026-08-26'
 description: Northmill Bank AB is a Swedish technology-driven bank, founded in Stockholm in 2006 and licensed by Finansinspektionen in 2019, that serves roughly 600,000 private customers and 2,500 businesses across Sweden, Norway and Finland with savings accounts, cards, personal and business lending, business accounts, Swish and card acquiring. Through its Northmill Flo business unit (formerly MoreFlo, acquired and rebranded) it also ships point-of-sale, booking, checkout and e-commerce products for retail and hospitality merchants. Its public developer surface is the Flo API - a Swagger 2.0 REST contract published at api.moreflo.com with 199 operations over articles, stock, orders, receipts, customers, bookings, campaigns, vouchers, SMS and webhooks - alongside a PSD2 open-banking interface for third-party providers documented under the Northmill Bank brand and delivered on Token.io infrastructure.
 image: https://www.northmill.com/icon.png
 layout: provider
-mcp_servers:
-- description: Northmill ships NO Model Context Protocol server, hosted or local. The tool list below is a CANDIDATE derived one-to-one from the merchant-wide operations of the Flo API Swagger document; each tool in
-  name: Northmill MCP Server
-  slug: northmill-mcp-server
 modified: '2026-08-26'
 name: Northmill
 nav: Providers
@@ -363,7 +359,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -373,7 +369,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 55.7
+  previous_composite: 56.5
   provenance:
     conformance: derived
     contracts:
@@ -393,8 +389,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/screenshots/northmill-2026-09-02T150801.png
 security:

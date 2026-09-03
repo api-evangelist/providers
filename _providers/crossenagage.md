@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - baseURL: https://api.crossengage.io
@@ -80,7 +80,7 @@ apis:
   description: The User profile management API from CrossEngage — 5 operation(s) for user profile management.
   name: CrossEngage User profile management API
   slug: crossenagage-user-profile-management-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Crossenagage Webhooks
@@ -219,7 +219,7 @@ common:
   url: packages/crossenagage-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/crossenagage-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ description: CrossEngage is a Berlin-based customer data and cross-channel marke
   header; there is no OAuth surface. Product documentation is published at documentation.crossengage.io, which serves a first-party llms.txt index of all 219 pages.
 image: https://api.documentation.crossengage.io/wp-content/uploads/cropped-favicon-96x96-1-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CrossEngage MCP Server
-  slug: crossengage-mcp-server
 modified: '2026-08-13'
 name: CrossEngage
 nav: Providers
@@ -322,8 +318,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png
 security:

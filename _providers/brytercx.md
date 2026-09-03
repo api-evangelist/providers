@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - '{''url'': ''https://brytercx.com/'', ''status'': 302, ''note'': ''declared website redirects to https://ignitetech.ai:443/ — a different registrable domain (brytercx.com -> ignitetech.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -81,8 +91,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 4.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brytercx/refs/heads/main/screenshots/brytercx-2026-09-02T144950.png
 slug: brytercx

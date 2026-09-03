@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''http://apptimize.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.airship.com/?utm_source=apptimize — a different registrable domain (apptimize.com -> airship.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.apptimize.com
@@ -46,7 +47,7 @@ apis:
   description: Retrieve variant assignments and experiment data for a user.
   name: Apptimize Experiments API
   slug: apptimize-experiments-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -112,7 +113,7 @@ common:
   url: lifecycle/apptimize-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apptimize-mcp.yml
 - group: agent
   title: ''
@@ -138,10 +139,6 @@ created: '2026-07-17'
 description: Apptimize is a mobile-first A/B testing, multivariate testing, and feature management platform for optimizing user experiences across iOS, Android, web, and server-side channels. Product teams use Apptimize to run experiments, ship feature flags with controlled rollouts, deliver instant updates without app-store releases, and set dynamic variables that can be changed on the fly. Apptimize ships client and server SDKs for iOS/tvOS/watchOS, Android, Web, React Native, Python, Flutter, and Roku, plus a REST API for retrieving variant assignments and tracking events from any device or backend. Apptimize was acquired by Airship in 2019; its developer documentation and SDKs remain published at apptimize.com/docs, and the marketing site now redirects to airship.com.
 image: https://apptimize.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Apptimize MCP Server
-  slug: apptimize-mcp-server
 modified: '2026-07-18'
 name: Apptimize
 nav: Providers
@@ -179,8 +176,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/screenshots/apptimize-2026-07-25T200851.png
 security:

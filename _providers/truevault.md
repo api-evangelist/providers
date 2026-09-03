@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: TrueVault Safe is a REST API and secure datastore for sensitive personal data. Resources include Users, Groups (with policy-based Access Grid permissions), Vaults, BLOBs, Documents, Schemas, Search (f
   name: TrueVault Safe REST API
   slug: truevault-safe-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -127,7 +127,7 @@ common:
   url: conformance/truevault-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/truevault-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: TrueVault provides developer infrastructure for storing and managing sensitive personal data in a compliant way. Its original product, TrueVault Safe, is a HIPAA-oriented REST API and secure datastore that lets applications create Vaults and store encrypted Documents, BLOBs, Users, and Schemas, with group-based access control (the Access Grid), full-text and geospatial Search, transactional Email/SMS messaging, password-reset flows, and scoped access tokens. Authentication is via API keys or user access tokens passed in an HTTP Basic header. TrueVault's newer Polaris product is privacy-compliance software that helps ecommerce brands comply with US state privacy laws, the GDPR, and the CCPA. TrueVault is a Y Combinator-backed company.
 image: https://github.com/truevault.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TrueVault MCP Server manifest (candidate)
-  slug: truevault-mcp-server-manifest-candidate
 modified: '2026-07-21'
 name: TrueVault
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/screenshots/truevault-2026-09-02T164359.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Event Notification API pushes real-time campaign event data to a customer-owned callback URL. Register a callback, verify it, then subscribe it to any of the 26 supported event types across email,
@@ -367,8 +367,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/screenshots/responsys-2026-08-17T081535.png
 security:

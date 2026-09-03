@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -578,8 +578,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:

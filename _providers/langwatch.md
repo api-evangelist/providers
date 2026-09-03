@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -277,6 +277,10 @@ collections:
   name: LangWatch API
   slug: open-langwatch
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/langwatch-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -494,7 +498,7 @@ overview: 'LangWatch publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   The LangWatch catalog on APIs.io includes 1 JSON-LD context.
 
 
-  LangWatch''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 37 more developer resources.'
+  LangWatch''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 38 more developer resources.'
 plans:
 - name: Langwatch Plans Pricing
   plan_count: 4
@@ -506,13 +510,13 @@ rate_limits:
   slug: langwatch-rate-limits
 score:
   band: developing
-  composite: 50.5
+  composite: 46.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.8
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -522,9 +526,6 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 85.0
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -533,8 +534,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:

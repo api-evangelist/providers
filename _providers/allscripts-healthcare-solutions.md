@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.9
-  scored_at: '2026-09-02'
+  score: 30.0
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: HL7 FHIR R4 (4.0.1) REST API for Veradigm EHR, aligned to USCDI for 21st Century Cures Act patient and provider access. The live CapabilityStatement declares 31 resource types (Patient, Encounter, Obs
@@ -250,8 +250,8 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/screenshots/allscripts-healthcare-solutions-2026-06-20T171537.png
 security:

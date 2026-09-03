@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Real-Time Streaming Protocol (RTSP) is a stateful protocol defined in RFC 2326 (1.0) and RFC 7826 (2.0). It defines methods including OPTIONS, DESCRIBE, SETUP, PLAY, PAUSE, RECORD, ANNOUNCE, GET_P
@@ -128,8 +128,8 @@ score:
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 14.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtsp/refs/heads/main/screenshots/rtsp-2026-06-20T193241.png
 security:

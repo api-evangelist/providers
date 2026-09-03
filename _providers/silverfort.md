@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Silverfort REST API (internally the "Raven" service) exposes user and resource risk read and write, service-account inventory and insights, policy control, and enrollment. Access is controlled by '
@@ -156,8 +156,8 @@ score:
   previous_composite: 24.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/screenshots/silverfort-2026-09-02T155514.png
 security:

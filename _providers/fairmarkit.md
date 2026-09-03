@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ apis:
   description: The User Profiles API from Fairmarkit — 1 operation(s) for user profiles.
   name: Fairmarkit User Profiles API
   slug: fairmarkit-user-profiles-api
-artifact_total: 42
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Fairmarkit Webhooks
@@ -307,7 +307,7 @@ common:
   url: data-model/fairmarkit-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fairmarkit-mcp.yml
 - group: agent
   title: ''
@@ -317,10 +317,6 @@ created: '2026-07-17'
 description: Fairmarkit is an autonomous sourcing and strategic procurement platform that uses AI agents to automate the full sourcing lifecycle — from intake and request creation through RFQ/RFP/RFI events, supplier bidding, award, and purchase-order handoff to ERP and P2P systems. Fairmarkit publishes a public, OpenAPI 3.1-described Buyer Self-Service REST API (v3 and v4) and a Supplier Public API, secured with an X-FM-API-KEY header, covering RFQ/RFP events, requests and request items, suppliers, purchase orders, price books, datasets/data fields, business units, categories, identities, permission sets, data exports, and file attachments, plus a rich webhook notification catalog for procurement events. The company is backed by GGV Capital and Insight Partners.
 image: https://cdn.prod.website-files.com/6974c3dfc9de89aed672a42c/69df9b1468ca1d50addc7ada_aac4c2022c593d27762cac87054f89ec_Opengraph_Homepage.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fairmarkit MCP Server
-  slug: fairmarkit-mcp-server
 modified: '2026-07-19'
 name: Fairmarkit
 nav: Providers
@@ -362,8 +358,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
 security:

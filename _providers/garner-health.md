@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Providers API from Garner Health — 1 operation(s) for providers.
   name: Garner Health Providers API
   slug: garner-health-providers-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: https://garnerhealth.com/news/garner-completes-soc-2-type-ii-certification
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/garner-health-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Garner Health is a healthcare technology company that helps members find high-quality, in-network doctors and helps employers, benefits advisors, health plans, and providers improve care quality while lowering healthcare costs. Garner analyzes more than 60 billion de-identified medical records from 320M+ patients and scores providers on 550+ specialty-specific quality and efficiency metrics across 80+ specialties to identify Top Providers. Its provider-recommendation API returns rank-ordered providers, professional and facility detail, and a provider-annotation endpoint over the base host api.getgarner.com, authenticated with OAuth 2.0 client credentials. Garner is SOC 2 Type II certified.
 image: https://cdn.prod.website-files.com/6994c8f92ae6b0d756f5e541/69b15a86b59f244f1a4d372e_Open%20graph%20img.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Garner Health MCP Server
-  slug: garner-health-mcp-server
 modified: '2026-07-19'
 name: Garner Health
 nav: Providers
@@ -237,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/screenshots/garner-health-2026-07-25T215450.png
 security:

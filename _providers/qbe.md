@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ arazzos:
 - description: Create a commercial quote with QBE Australia, amend it, then convert it into a bound policy.
   name: QBE quote to bound policy
   slug: qbe-quote-to-bind
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: ANZO Digital Brokers Experience API
@@ -180,7 +180,7 @@ common:
   url: packages/qbe-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qbe-mcp.yml
 - group: build
   title: ''
@@ -211,10 +211,6 @@ description: 'QBE Insurance Group Limited is a Sydney-headquartered, ASX-listed 
   exposes genuine quote, bind, endorse, renew, cancel and refer operations for the commercial policy lifecycle — the four real insurance verbs, minus claims/FNOL, which QBE does not expose publicly. A separate QBE North America partner API hub at partnerportal-api.qbena.com serves an empty Azure APIM catalogue to anonymous callers but does publish seven named API products in its own content pages — Quote, Bind, Master Liability, Property Inquiry, Zip Code Validate and Reconciliation and Cancellation for Renters, plus Quote for Homeowners — behind a documented client-id/secret to JWT token exchange; no endpoints or specs are exposed. QBE Hong Kong documents a partner API behind qbe.com pages that are bot-blocked to anonymous fetchers. Australia is the home market; the Consumer Data Right was designated for general insurance and then deferred, so nothing here is compelled by regulation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP manifest (no hosted server published)
-  slug: candidate-mcp-manifest-no-hosted-server-published
 modified: '2026-07-25'
 name: QBE Insurance
 nav: Providers
@@ -259,8 +255,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/screenshots/qbe-2026-09-02T152422.png
 security:

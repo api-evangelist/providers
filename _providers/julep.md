@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: The Users API from Julep — 5 operation(s) for users.
   name: Julep Users API
   slug: julep-users-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/julep-mcp.yml
 - group: other
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Julep is an open-source platform for building stateful AI agents that remember past interactions and execute long-running, multi-step tasks. Its cloud API and self-hostable server expose agents, sessions, tasks, executions, documents (RAG), tools, users, projects, secrets, and files, along with a task-workflow engine that supports decisions, loops, parallel branches, and integrations to external tools and APIs. Official Python and TypeScript SDKs and a command-line interface wrap the REST API; authentication is via API key. Julep is Apache-2.0 licensed and backed by Version One Ventures.
 image: https://avatars.githubusercontent.com/u/112750682?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Julep MCP Server
-  slug: julep-mcp-server
 modified: '2026-07-19'
 name: Julep
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/screenshots/julep-2026-07-25T223304.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 32.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zencargo/refs/heads/main/screenshots/zencargo-2026-09-02T171600.png
 security:

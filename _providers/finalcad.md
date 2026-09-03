@@ -10,6 +10,7 @@ access_model:
   - rate-limits
   - security
   - sandbox
+  - '{''url'': ''https://www.finalcad.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.orisha.com/fr/construction/logiciel/finalcad — a different registrable domain (finalcad.com -> orisha.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - baseURL: https://developer.finalcad.cloud/api
@@ -371,8 +372,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/screenshots/finalcad-2026-09-02T145528.png
 security:

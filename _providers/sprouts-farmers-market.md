@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -140,8 +140,8 @@ score:
     governance: 15.2
     operational_transparency: 0.0
   previous_composite: 10.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprouts-farmers-market/refs/heads/main/screenshots/sprouts-farmers-market-2026-06-20T194420.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ apis:
   description: The WindSolar API from MISO — 7 operation(s) for windsolar.
   name: MISO Wind Solar API
   slug: miso-windsolar-api
-artifact_total: 140
+artifact_total: 139
 collections:
 - collection_type: open
   name: API Collection
@@ -391,7 +391,7 @@ common:
   url: sandbox/miso-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/miso-mcp.yml
 - group: agent
   title: ''
@@ -656,10 +656,6 @@ examples:
   slug: miso-public-api-operations-displays-getwindsolargetwindforecast
 image: https://www.misoenergy.org/siteassets/favicons/miso-icon-only---blue-green---whitebg_rgb_192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MISO MCP Server
-  slug: miso-mcp-server
 modified: '2026-08-04'
 name: MISO
 nav: Providers
@@ -712,8 +708,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:

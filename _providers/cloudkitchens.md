@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ apis:
   description: Webhooks from storefront domain.
   name: CloudKitchens Storefront Webhooks API
   slug: cloudkitchens-storefront-webhooks-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Cloudkitchens Webhooks
@@ -198,7 +198,7 @@ common:
   url: capabilities/cloudkitchens-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cloudkitchens-mcp.yml
 - group: company
   title: ''
@@ -321,10 +321,6 @@ description: 'CloudKitchens, operated by City Storage Systems, builds and runs d
   the partner-specific API base URL.'
 image: https://developer.cloudkitchens.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: CloudKitchens MCP Server
-  slug: cloudkitchens-mcp-server
 modified: '2026-08-01'
 name: CloudKitchens
 nav: Providers
@@ -354,7 +350,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -364,7 +360,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 37.8
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,8 +371,8 @@ score:
       total: 27
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/screenshots/cloudkitchens-2026-08-07T163508.png
 security:

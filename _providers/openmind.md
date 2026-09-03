@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Unified chat-completions endpoint that proxies multiple LLM providers (OpenAI, Anthropic via OpenRouter, Google Gemini, X.AI, DeepSeek, NEAR.AI) through a single OpenAI-compatible interface authentica
@@ -43,7 +43,7 @@ apis:
 - description: Account and API-key management API (create/delete/list keys, account OMCU balance) at api.openmind.com/api/core, authenticated with a Clerk-issued JWT bearer token.
   name: OpenMind Core API
   slug: openmind-core-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -99,7 +99,7 @@ common:
   url: cli/openmind-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openmind-mcp.yml
 - group: auth
   title: ''
@@ -154,10 +154,6 @@ description: OpenMind builds open-source software that makes robots useful. Its 
   and Asimov blockchain-based governance for robots.
 image: https://openmind.com/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OpenMind MCP Server
-  slug: openmind-mcp-server
 modified: '2026-07-20'
 name: OpenMind
 nav: Providers
@@ -198,8 +194,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/screenshots/openmind-2026-08-07T190620.png
 security:

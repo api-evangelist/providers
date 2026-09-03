@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - rate-limits
   - security
   trial: false
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Implicity markets a "comprehensive API and integration framework for seamless data exchange with core hospital systems" and bidirectional EHR integration to hospital IT teams. The API host api.implici
@@ -185,8 +186,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/implicity/refs/heads/main/screenshots/implicity-2026-09-02T145839.png
 security:

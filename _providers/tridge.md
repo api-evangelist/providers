@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Tridge advertises a commercial API for integrating its global agri-food price and trade data into a customer's own systems ("the most comprehensive and powerful API to allow you to integrate our globa
@@ -153,8 +153,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tridge/refs/heads/main/screenshots/tridge-2026-09-02T164227.png
 security:

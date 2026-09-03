@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://nomadhealth.com/api/v1
@@ -42,7 +42,7 @@ apis:
   description: Default namespace
   name: Nomad Health Default API
   slug: nomad-health-default-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -133,7 +133,7 @@ common:
   url: lifecycle/nomad-health-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nomad-health-mcp.yml
 - group: build
   title: ''
@@ -152,10 +152,6 @@ description: Nomad Health operates a digital marketplace for healthcare travel s
   UI from its production application host covering job search, applications, credentialing, placements, facilities and messaging.
 image: https://marketing.nomadhealth.com/favicon/apple-icon-114x114.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nomad Health MCP Server
-  slug: nomad-health-mcp-server
 modified: '2026-08-04'
 name: Nomad Health
 nav: Providers
@@ -199,8 +195,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:

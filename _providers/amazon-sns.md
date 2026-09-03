@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -555,13 +555,13 @@ rules:
   slug: amazon-sns-spectral-rules
 score:
   band: strong
-  composite: 63.2
+  composite: 62.7
   coverage:
     artifact_dirs: 18
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -571,9 +571,6 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 63.2
   provenance:
     agentic_access: derived
@@ -588,8 +585,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:

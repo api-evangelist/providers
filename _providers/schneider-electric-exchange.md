@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: The EcoStruxure IT Expert API provides programmatic access to data center infrastructure management data. It enables integrations to query locations, devices, alarms, sensors, and measurements from th
@@ -202,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/screenshots/schneider-electric-exchange-2026-06-20T193528.png
 security:

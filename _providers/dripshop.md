@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: First-party GraphQL API powering Drip Shop Live's livestream shopping clients — streams, auctions, box breaks, giveaways, catalog, carts, orders, payments and messaging. 268 queries, 283 mutations, 56
   name: Drip Shop Live GraphQL API
   slug: drip-shop-live-graphql-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: docs
   title: ''
@@ -63,7 +63,7 @@ common:
   url: conformance/dripshop-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dripshop-mcp.yml
 - group: agent
   title: ''
@@ -97,10 +97,6 @@ graphqls:
   slug: dripshop-graphql
 image: https://cdn.dripshop.live/images/mini_app_hero.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dripshop MCP Server
-  slug: dripshop-mcp-server
 modified: '2026-07-18'
 name: Dripshop
 nav: Providers
@@ -138,8 +134,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dripshop/refs/heads/main/screenshots/dripshop-2026-07-25T212415.png
 security:

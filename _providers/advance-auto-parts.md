@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-09-02'
+  score: 33.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -540,8 +540,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:

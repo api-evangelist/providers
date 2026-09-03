@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The machine0 control plane for creating, managing, snapshotting and connecting to persistent cloud VMs. Exposed as a CLI (npm @machine0/cli) and a remote MCP server (Streamable HTTP, OAuth 2.0 + API k
@@ -150,8 +150,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/machine0/refs/heads/main/screenshots/machine0-2026-07-25T225816.png
 security:

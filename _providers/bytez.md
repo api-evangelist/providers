@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ arazzos:
 - description: List models for a task, pick one, and run serverless inference.
   name: Discover and run a Bytez model
   slug: bytez-discover-and-run
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: packages/bytez-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bytez-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Bytez is a unified, serverless model-inference API that gives developers access to 100,000+ open-source and closed-source AI models (from OpenAI, Anthropic, Cohere, Google, Mistral, and the open-source community) through a single API key and one consistent endpoint shape. It covers 30+ task types across text, vision, audio, multimodal, and generation - including chat, embeddings, transcription, image and video generation, translation, and object detection - and offers OpenAI-compatible Chat Completions, Completions, and Responses endpoints plus a LangChain integration. Bytez manages GPU provisioning and scaling behind the scenes and bills on a unified credit system (per second for open models, provider pricing for closed models). It is backed by 500 Global.
 image: https://bytez.com/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bytez MCP Server
-  slug: bytez-mcp-server
 modified: '2026-07-18'
 name: Bytez
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
 security:

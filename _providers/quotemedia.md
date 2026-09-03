@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Cloud-based request/response REST API delivering real-time and delayed Level 1/Level 2 quotes, trades, historical OHLCV and tick data, full option chains with Greeks, fundamentals, earnings, news from
@@ -163,8 +163,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/screenshots/quotemedia-2026-07-22T202611.png
 security:

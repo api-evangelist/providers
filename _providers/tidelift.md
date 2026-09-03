@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -122,7 +122,7 @@ arazzos:
 - description: Validate the API key, look up a package and a release, and pull the release's vulnerabilities.
   name: Tidelift — package vulnerability check
   slug: tidelift-package-vulnerability-check.arazzo
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Tidelift Webhooks
@@ -259,7 +259,7 @@ common:
   url: cli/tidelift-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tidelift-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ created: '2026-07-17'
 description: Tidelift provides open-source software supply-chain management for enterprises. Its platform combines package intelligence (maintenance, quality, end-of-life, and vulnerability signals) with catalogs of approved dependencies, policy and license standards enforcement, SBOM import/export, and "alignment" of projects against an organization's standards. Tidelift is distinctive for paying the open-source maintainers ("lifters") behind the packages enterprises rely on. The Tidelift External API (OpenAPI 3.0, Bearer API-key auth) exposes catalogs, violations, projects, groups, packages, releases, vulnerabilities, licenses, and reporting. Tidelift was acquired by Sonar in 2025; the API and developer surface remain active.
 image: https://api.tidelift.com/docs/assets/tidelift_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tidelift MCP Server
-  slug: tidelift-mcp-server
 modified: '2026-07-21'
 name: Tidelift
 nav: Providers
@@ -346,8 +342,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/screenshots/tidelift-2026-08-17T082353.png
 security:

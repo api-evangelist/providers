@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'National Bank of Canada exposes no public, self-serve first-party developer API. Consumer financial-data access is consent-based and aggregator-mediated: when a customer links a fintech app, National '
@@ -121,8 +121,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/screenshots/national-bank-of-canada-2026-08-07T184639.png
 security:

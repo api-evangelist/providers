@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://business.mamopay.com/manage_api/v1
@@ -96,7 +96,7 @@ apis:
   description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: Webhook event surface for the Mamo Business API. Merchants register a webhook URL via POST /webhooks with a set of enabled_events; Mamo POSTs a JSON event payload to that URL when the corresponding ev
   name: Mamo Business Webhooks
@@ -180,7 +180,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mamo-mcp.yml
 - group: other
   title: ''
@@ -302,10 +302,6 @@ created: '2026-07-17'
 description: Mamo is a UAE-based fintech platform (Mamo Pay / Mamo Business) offering integrated payment solutions for businesses across the Gulf. Its products include hosted payment links and checkout, subscriptions and recurring billing, merchant-initiated charges with saved cards, refunds/captures/holds, invoicing, global payouts and disbursements to recipients, virtual and physical corporate cards with expense management, and partner cards for instant payouts. The Mamo Business API is a REST/JSON API hosted on readme.io that lets merchants automate payment link generation, charges, subscriptions, disbursements, recipients, card transactions, expenses, and webhooks. The platform serves 4,000+ businesses and has processed over AED 12 billion in total payment volume.
 image: https://cdn.prod.website-files.com/62662ec945767b19355b5c00/695f9da901d5bfde3a81193b_Website%20thumbnail2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mamo MCP Server
-  slug: mamo-mcp-server
 modified: '2026-07-20'
 name: Mamo
 nav: Providers
@@ -352,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:

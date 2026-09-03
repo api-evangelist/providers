@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ arazzos:
 - description: Create an AI media-generation job on Glio and poll until it completes, then read the result. Uses Glio's asynchronous job workflow.
   name: Glio - generate media and retrieve result
   slug: glio-generate-media
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +127,7 @@ common:
   url: llms/glio-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/glio-mcp.yml
 - group: design
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Glio is a unified API for AI media generation that provides a single interface to 90+ models across video, image, audio, and text from providers such as Kling, ByteDance Seedance, Google Veo and Imagen, OpenAI GPT Image, Suno, ElevenLabs, Runway, and Anthropic Claude. Developers create work via an asynchronous job-based workflow (create job, poll, get result), and also call OpenAI-compatible chat-completions and embeddings endpoints synchronously. Billing is pay-per-use in GL tokens (1 GL = $0.01 USD) with no subscriptions or minimums. Surfaced as an a16z portfolio company and enriched from Glio's public developer surface at glio.io / api.glio.io.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glio.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Glio MCP Server
-  slug: glio-mcp-server
 modified: '2026-07-19'
 name: Glio
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/screenshots/glio-2026-07-25T215909.png
 security:

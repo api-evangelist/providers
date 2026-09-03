@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.glintinc.com/'', ''status'': 302, ''note'': ''declared website redirects to https://techcommunity.microsoft.com/blog/viva_glint_blog/an-update-on-copilot-in-viva-glint/4400167 — a different registrable domain (glintinc.com -> microsoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glint/refs/heads/main/screenshots/glint-2026-07-25T215906.png
 security:

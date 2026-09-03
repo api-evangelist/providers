@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 56.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -86,15 +86,15 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 59.7,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -132,8 +132,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -178,8 +178,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -224,8 +224,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -270,15 +270,15 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 37.3,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 33.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "documented",
@@ -316,8 +316,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 57.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -362,8 +362,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -408,15 +408,15 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 41.4,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -454,8 +454,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -500,8 +500,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -546,8 +546,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -617,8 +617,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -663,8 +663,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -709,8 +709,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -755,8 +755,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -801,8 +801,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -847,8 +847,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -893,8 +893,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -939,8 +939,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -984,8 +984,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1030,8 +1030,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1076,8 +1076,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1122,8 +1122,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1168,8 +1168,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1221,8 +1221,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1267,8 +1267,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1313,8 +1313,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1359,8 +1359,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1405,8 +1405,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1451,8 +1451,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1497,8 +1497,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1543,8 +1543,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1589,8 +1589,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1652,8 +1652,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1698,8 +1698,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1744,8 +1744,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1790,8 +1790,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1836,8 +1836,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1882,8 +1882,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1928,8 +1928,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1974,8 +1974,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2020,8 +2020,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2066,8 +2066,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2112,8 +2112,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2158,8 +2158,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2204,8 +2204,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2250,8 +2250,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2296,8 +2296,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2341,8 +2341,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2387,8 +2387,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2433,8 +2433,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2479,8 +2479,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2525,8 +2525,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2561,194 +2561,11 @@
      "rank": 54
     },
     {
-     "name": "Sharethrough",
-     "slug": "sharethrough",
-     "description": "Sharethrough is an omnichannel programmatic advertising exchange (SSP) for native, display, video and CTV inventory, and one of the largest independent ad marketplaces. Publishers monetise through the Prebid.js header-bidding adapter and server-to-server OpenRTB; demand partners buy through the exchange. Two API surfaces exist: a bearer-token Publisher Reporting API at publisher-api.sharethrough.com/v2 whose public reference is now behind a support-site sign-in, and the unauthenticated OpenRTB bid endpoint at btlr.sharethrough.com/universal/v1 used by the Prebid adapter. The company's richest machine-readable artifact is its IAB sellers.json (5,189 sellers). Sharethrough merged with Equativ in 2024 and has operated under the Equativ brand since June 2025; the Sharethrough exchange and its endpoints continue to run.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png",
-     "score": 30.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 14.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 57.9,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 20.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 55
-    },
-    {
-     "name": "Albertsons",
-     "slug": "albertsons",
-     "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-     "score": 29.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 29.3,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 56
-    },
-    {
-     "name": "SocialSign.in",
-     "slug": "socialsignin",
-     "description": "SocialSign.in is a guest WiFi marketing platform that turns venue Wi-Fi login into a customer-acquisition and engagement channel. When guests connect to free Wi-Fi through branded splash pages, the platform captures opt-in contact data (email, phone, profile), measures visit frequency and dwell time, and syncs profiles to CRM and email/SMS marketing tools to trigger targeted campaigns across retail, hospitality, sports and entertainment, healthcare, and commercial real estate venues. It sells two products: the enterprise platform, sold through a contact-sales motion, and SocialSign.in Go, a self-serve packaged version with published per-location pricing. The company publishes no developer portal, no API reference, and no machine-readable specification of any kind; its product documentation lives in a public Zendesk help center covering portal setup and CRM/ESP connector configuration rather than any programmable interface. A JSON-emitting API root does exist at c.socialsign.in/api/ inside the authenticated customer console, and the Enterprise tier advertises \"Advanced integrations\" and a \"Data mart\", but neither is documented publicly.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialsignin/refs/heads/main/screenshots/socialsignin-2026-09-02T160036.png",
-     "score": 28.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 57
-    },
-    {
-     "name": "Swiftly",
-     "slug": "swiftly",
-     "description": "Swiftly (Swiftly Systems, Inc.) is a Seattle-based retail technology company that sells an AI platform purpose-built for grocery, convenience and wholesale retail. It powers white-labeled shopper mobile apps and websites for regional and independent retailers, and runs a multi-retailer closed-loop retail media network that lets brands buy targeted advertising against first-party shopper data. Products include the Marketing and Operations AI Stacks, Swiftly Connect (POS / loyalty / inventory / supplier data unification), Audience Optimizer, SmartCircular digital circulars, Alcohol Cashback (from the BYBE acquisition) and Retail Media. The company reports live transactions, 9 million products and closed-loop campaign outcomes across roughly 33,000 storefronts. Swiftly has raised more than $200M and trades on the Forge Global secondary market. Swiftly publishes no public developer program: the shopper-facing GraphQL API behind its retailer apps is anonymously introspectable at prod.swiftlyapi.net/graphql, but there is no developer portal, no reference documentation and no published SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftly/refs/heads/main/screenshots/swiftly-2026-09-02T161359.png",
-     "score": 27.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 37.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 20.8,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 58
-    },
-    {
      "name": "Yieldmo",
      "slug": "yieldmo",
      "description": "Yieldmo is a programmatic native advertising marketplace and smart exchange that differentiates and enhances the value of ad inventory for buyers and sellers. The platform provides REST APIs and JavaScript SDKs for managing ad placements, proprietary ad formats, contextual targeting, publisher inventory monetization, and campaign performance analytics powered by attention data and machine learning.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png",
-     "score": 27.6,
+     "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -2761,8 +2578,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2787,6 +2604,189 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 55
+    },
+    {
+     "name": "Sharethrough",
+     "slug": "sharethrough",
+     "description": "Sharethrough is an omnichannel programmatic advertising exchange (SSP) for native, display, video and CTV inventory, and one of the largest independent ad marketplaces. Publishers monetise through the Prebid.js header-bidding adapter and server-to-server OpenRTB; demand partners buy through the exchange. Two API surfaces exist: a bearer-token Publisher Reporting API at publisher-api.sharethrough.com/v2 whose public reference is now behind a support-site sign-in, and the unauthenticated OpenRTB bid endpoint at btlr.sharethrough.com/universal/v1 used by the Prebid adapter. The company's richest machine-readable artifact is its IAB sellers.json (5,189 sellers). Sharethrough merged with Equativ in 2024 and has operated under the Equativ brand since June 2025; the Sharethrough exchange and its endpoints continue to run.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png",
+     "score": 30.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 14.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 57.9,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 20.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
+     "rank": 56
+    },
+    {
+     "name": "Albertsons",
+     "slug": "albertsons",
+     "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
+     "score": 29.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 29.3,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.0,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 57
+    },
+    {
+     "name": "SocialSign.in",
+     "slug": "socialsignin",
+     "description": "SocialSign.in is a guest WiFi marketing platform that turns venue Wi-Fi login into a customer-acquisition and engagement channel. When guests connect to free Wi-Fi through branded splash pages, the platform captures opt-in contact data (email, phone, profile), measures visit frequency and dwell time, and syncs profiles to CRM and email/SMS marketing tools to trigger targeted campaigns across retail, hospitality, sports and entertainment, healthcare, and commercial real estate venues. It sells two products: the enterprise platform, sold through a contact-sales motion, and SocialSign.in Go, a self-serve packaged version with published per-location pricing. The company publishes no developer portal, no API reference, and no machine-readable specification of any kind; its product documentation lives in a public Zendesk help center covering portal setup and CRM/ESP connector configuration rather than any programmable interface. A JSON-emitting API root does exist at c.socialsign.in/api/ inside the authenticated customer console, and the Enterprise tier advertises \"Advanced integrations\" and a \"Data mart\", but neither is documented publicly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialsignin/refs/heads/main/screenshots/socialsignin-2026-09-02T160036.png",
+     "score": 28.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
+     "rank": 58
+    },
+    {
+     "name": "Swiftly",
+     "slug": "swiftly",
+     "description": "Swiftly (Swiftly Systems, Inc.) is a Seattle-based retail technology company that sells an AI platform purpose-built for grocery, convenience and wholesale retail. It powers white-labeled shopper mobile apps and websites for regional and independent retailers, and runs a multi-retailer closed-loop retail media network that lets brands buy targeted advertising against first-party shopper data. Products include the Marketing and Operations AI Stacks, Swiftly Connect (POS / loyalty / inventory / supplier data unification), Audience Optimizer, SmartCircular digital circulars, Alcohol Cashback (from the BYBE acquisition) and Retail Media. The company reports live transactions, 9 million products and closed-loop campaign outcomes across roughly 33,000 storefronts. Swiftly has raised more than $200M and trades on the Forge Global secondary market. Swiftly publishes no public developer program: the shopper-facing GraphQL API behind its retailer apps is anonymously introspectable at prod.swiftlyapi.net/graphql, but there is no developer portal, no reference documentation and no published SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftly/refs/heads/main/screenshots/swiftly-2026-09-02T161359.png",
+     "score": 27.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 37.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 20.8,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
      "rank": 59
     },
     {
@@ -2807,8 +2807,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2853,8 +2853,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2909,8 +2909,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2954,8 +2954,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3000,8 +3000,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3046,8 +3046,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3092,8 +3092,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3138,8 +3138,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3184,8 +3184,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3230,8 +3230,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3276,8 +3276,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3322,8 +3322,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3368,8 +3368,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3414,8 +3414,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3460,8 +3460,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3506,8 +3506,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3552,8 +3552,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3598,8 +3598,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3643,8 +3643,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3689,8 +3689,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3735,8 +3735,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3781,8 +3781,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3827,8 +3827,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3872,8 +3872,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3918,8 +3918,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3963,8 +3963,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4009,8 +4009,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4055,8 +4055,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4101,8 +4101,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4157,8 +4157,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4203,8 +4203,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4249,8 +4249,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4295,8 +4295,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4341,8 +4341,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4387,8 +4387,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4433,8 +4433,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4479,8 +4479,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4525,8 +4525,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4570,8 +4570,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4616,8 +4616,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4662,8 +4662,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4707,8 +4707,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4753,8 +4753,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4798,8 +4798,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4844,8 +4844,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

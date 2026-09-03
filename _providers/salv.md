@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ apis:
   description: Endpoints to check if given entity has anything unresolved
   name: Salv unresolved-alerts API
   slug: salv-unresolved-alerts-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Salv Webhooks
@@ -216,7 +216,7 @@ common:
   url: scopes/salv-scopes.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/salv-mcp.yml
 - group: agent
   title: ''
@@ -298,10 +298,6 @@ created: '2026-07-17'
 description: Salv is an Estonian financial-crime prevention (FinCrime) SaaS platform used by banks, fintechs, and payment service providers to detect money laundering and prevent fraud. Its products include Salv Screening (sanctions, PEP/RCA and adverse-media screening), Salv Monitoring (real-time and post-event transaction monitoring), Salv Risk Scoring, and Salv Bridge (collaborative intelligence sharing). The Salv AML API (OpenAPI 3.0.3, OAuth2 client-credentials, scope `aml`) exposes 36 operations across persons, transactions, monitoring, screening, risk, alerts, custom lists, and bulk data upload, with a webhook surface for alert and status events. Salv is ISO/IEC 27001:2022 certified and SOC 2 Type 2 compliant.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salv.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Salv MCP Server
-  slug: salv-mcp-server
 modified: '2026-07-21'
 name: Salv
 nav: Providers
@@ -352,8 +348,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/screenshots/salv-2026-08-17T081716.png
 security:

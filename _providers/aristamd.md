@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
   description: The Workup Checklists API from AristaMD — 3 operation(s) for workup checklists.
   name: AristaMD Workup Checklists API
   slug: aristamd-workup-checklists-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: capabilities/aristamd-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aristamd-mcp.yml
 - group: other
   title: ''
@@ -254,10 +254,6 @@ created: '2026-08-06'
 description: AristaMD is a San Diego based specialty care company whose eConsult platform connects primary care providers to a panel of board-certified specialists across more than 70 specialties and subspecialties, delivering asynchronous, documented specialist recommendations that reduce unnecessary face-to-face referrals, emergency department visits and hospitalizations. The platform is sold to health plans, Medicaid programs, federally qualified health centers and provider groups, and is delivered through EHR-embedded referral workflows, HL7 messaging and a REST API. AristaMD publishes a live Swagger 2.0 definition for its core business-logic API at api.aristamd.com/api-docs covering eConsults, patients, panelists, specialties, reviews and workup checklists, and operates an OAuth 2.0 authorization server plus a SAML 2.0 service-provider endpoint for federated single sign-on.
 image: https://www.aristamd.com/wp-content/uploads/AristaMD-SM.jpg
 layout: provider
-mcp_servers:
-- description: A CANDIDATE tool surface derived by API Evangelist from AristaMD's published Swagger 2.0 document. This is NOT an AristaMD product and no such server is running. It exists to show what an MCP server o
-  name: AristaMD MCP Server
-  slug: aristamd-mcp-server
 modified: '2026-08-06'
 name: AristaMD
 nav: Providers
@@ -302,8 +298,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:

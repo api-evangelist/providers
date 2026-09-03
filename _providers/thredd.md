@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: Create, retrieve, update, renew, replace, and convert physical and virtual cards; manage card status, cardholder details, card images, encrypted card data, and bulk card creation. The core issuing sur
@@ -69,7 +69,7 @@ apis:
 - description: Account-level endpoints supporting account records and money-movement flows (including ACH / micro-deposit verification) on the Thredd platform.
   name: Thredd Accounts API
   slug: thredd-accounts-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Thredd Webhooks
@@ -125,7 +125,7 @@ common:
   url: asyncapi/thredd-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thredd-mcp.yml
 - group: agent
   title: ''
@@ -172,10 +172,6 @@ description: 'Thredd (formerly Global Processing Services / GPS) is a London-hea
   (core cards, transactions, credit, custom PAN, card limits, card controls, digital wallets, 3DS, ACH, open banking, alias directory, and web services). Authentication is FAPI-grade OAuth2 client-credentials using private_key_jwt client assertions over mutual TLS, brokered by Cloudentity with Raidiam Connect acting as the certificate authority; webhooks and event subscriptions are supported. The underlying OpenAPI files render only through the hub and are not anonymously downloadable.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Thredd MCP Server
-  slug: thredd-mcp-server
 modified: '2026-07-24'
 name: Thredd
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/screenshots/thredd-2026-08-17T082352.png
 security:

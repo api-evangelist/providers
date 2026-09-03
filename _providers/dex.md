@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: gRPC management API for Dex covering OAuth2 client lifecycle (Create, Get, Update, Delete, List), password management (Create, Update, Delete, List, Verify), identity provider connector management (Cr
@@ -112,13 +112,13 @@ rate_limits:
   slug: dex-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 17.4
   coverage:
     artifact_dirs: 6
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -128,12 +128,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dex/refs/heads/main/screenshots/dex-2026-06-20T175953.png
 security:

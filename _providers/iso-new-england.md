@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -506,7 +506,7 @@ arazzos:
 - description: 'Explain a price event on a past operating day: pull the day-ahead hourly prices, the day''s transmission constraints, the fuel mix and the demand-response dispatch, then correlate the congestion compon'
   name: ISO New England price spike diagnosis
   slug: iso-new-england-price-spike-diagnosis
-artifact_total: 113
+artifact_total: 112
 collections:
 - collection_type: open
   name: ISO New England Web Services API v1.1
@@ -578,7 +578,7 @@ common:
   url: well-known/iso-new-england-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/iso-new-england-mcp.yml
 - group: design
   title: ''
@@ -739,10 +739,6 @@ json_schemas:
   property_count: 0
   slug: iso-new-england-web-services-schemas
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool set derived from the OpenAPI (no server is published by ISO New England)
-  slug: candidate-mcp-tool-set-derived-from-the-openapi-no-server-is-published-by-iso-new-england
 modified: '2026-07-27'
 name: ISO New England
 nav: Providers
@@ -787,8 +783,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: The SymbioticAPIService API from Symbiotic — 22 operation(s) for symbioticapiservice.
   name: Symbiotic SymbioticAPIService API
   slug: symbiotic-symbioticapiservice-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -61,7 +61,7 @@ common:
   url: skills/symbiotic-query-validator-set.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/symbiotic-mcp.yml
 - group: other
   title: ''
@@ -78,10 +78,6 @@ common:
 created: '2026-07-17'
 description: 'Symbiotic is a company surfaced as a portfolio company of paradigm and added to the API Evangelist network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting the enrichment pipeline.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: Symbiotic MCP Server
-  slug: symbiotic-mcp-server
 modified: '2026-07-17'
 name: Symbiotic
 nav: Providers
@@ -117,8 +113,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/screenshots/symbiotic-2026-09-02T161442.png
 security:

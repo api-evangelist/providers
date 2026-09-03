@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.foxfactory.com'', ''status'': 301, ''note'': ''declared website redirects to https://ridefox.com/ — a different registrable domain (foxfactory.com -> ridefox.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Fox Factory Holding API provides access to platform services and data for enterprise integration and automation.
@@ -100,8 +101,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/screenshots/fox-factory-holding-2026-06-20T181504.png
 security:

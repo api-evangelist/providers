@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Ambient Mesh provides a sidecar-less service mesh via the Kubernetes Gateway API and Istio ambient mode. It exposes configuration APIs for traffic management, security policies, resilience settings, a
@@ -210,7 +210,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -223,13 +223,13 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 27.4
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/screenshots/ambient-mesh-2026-06-20T171854.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -160,7 +160,7 @@ apis:
   description: The users API from LeanKit — 2 operation(s) for users.
   name: LeanKit users API
   slug: leankit-users-api
-artifact_total: 79
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Leankit Automation Webhooks
@@ -412,7 +412,7 @@ common:
   url: well-known/leankit-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leankit-mcp.yml
 - group: agent
   title: ''
@@ -466,10 +466,6 @@ created: '2026-07-17'
 description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at https://<yourhostname>.leankit.com/io/ covering boards, cards, lanes, comments, attachments, card types, custom fields, custom icons, tags, teams, users, board filters, connections, dependencies, planning series and increments, and board automations, plus a SCIM 1.1 User Provisioning API and an Advanced Reporting export API. Authentication is Basic or Bearer API token, responses are JSON, list endpoints page with limit/offset, and every response carries X-RateLimit-* headers. LeanKit was acquired by Planview in 2017 and the product was renamed Planview AgilePlace; the leankit.com host remains the per-account API and application domain.
 image: https://www.planview.com/wp-content/uploads/2023/06/planview-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: LeanKit / Planview AgilePlace MCP candidate
-  slug: leankit-planview-agileplace-mcp-candidate
 modified: '2026-07-19'
 name: LeanKit
 nav: Providers
@@ -510,8 +506,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:

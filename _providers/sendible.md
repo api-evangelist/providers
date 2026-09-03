@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks. The API is live at https://api.sendible.com/api/
@@ -167,8 +167,8 @@ score:
   previous_composite: 30.7
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendible/refs/heads/main/screenshots/sendible-2026-06-20T193657.png
 security:

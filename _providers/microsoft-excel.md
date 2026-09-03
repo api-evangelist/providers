@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ arazzos:
 - description: Create a temporary worksheet, read it, rename and reposition it, then delete it.
   name: Microsoft Excel Scratch Worksheet Lifecycle
   slug: microsoft-excel-worksheet-lifecycle-workflow
-artifact_total: 86
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts API
@@ -234,7 +234,7 @@ common:
   url: well-known/microsoft-excel-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/microsoft-excel-mcp.yml
 - group: agent
   title: ''
@@ -452,10 +452,6 @@ jsonld:
   property_count: 20
   slug: microsoft-excel-graph-api-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Microsoft Excel MCP Server
-  slug: microsoft-excel-mcp-server
 modified: '2026-06-20'
 name: Microsoft Excel
 nav: Providers
@@ -531,8 +527,8 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:

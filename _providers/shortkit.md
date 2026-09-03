@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.shortkit.dev/v1
@@ -61,7 +61,7 @@ apis:
   description: Short polls injected between content items in the feed.
   name: ShortKit Surveys API
   slug: shortkit-surveys-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Shortkit Webhooks
@@ -180,7 +180,7 @@ common:
   url: asyncapi/shortkit-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shortkit-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ created: '2026-07-17'
 description: ShortKit is a Y Combinator-backed short-form vertical video platform that gives product teams a drop-in, TikTok-quality video experience without the infrastructure complexity. It ships native SDKs for iOS, Android, Flutter, React Native, Expo and Web alongside a REST API for managing content, direct uploads, live streams, in-feed surveys, analytics events and ad configuration. The platform handles adaptive-bitrate HLS transcoding, global CDN delivery across 300+ points of presence, automatic caption generation with language detection, protected/signed playback, and native ad insertion (Google Ad Manager / VAST / IMA). Developer docs are partner-gated but the Mintlify API reference and the iOS SDK are published openly on GitHub.
 image: https://www.shortkit.dev/icon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ShortKit MCP Server
-  slug: shortkit-mcp-server
 modified: '2026-07-21'
 name: ShortKit
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shortkit/refs/heads/main/screenshots/shortkit-2026-08-17T081844.png
 security:

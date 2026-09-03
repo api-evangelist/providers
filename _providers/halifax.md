@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API for authorised AISPs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Develope
@@ -78,7 +78,7 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Halifax SME API
   slug: halifax-sme-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: Open Data API
@@ -166,7 +166,7 @@ common:
   url: sandbox/halifax-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/halifax-mcp.yml
 - group: other
   title: ''
@@ -185,10 +185,6 @@ description: 'Halifax is a major British high-street banking brand serving perso
   Developer Portal that also covers the Lloyds Bank and Bank of Scotland brands, secured with OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS, and OBIE/eIDAS certificates.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Halifax MCP Server
-  slug: halifax-mcp-server
 modified: '2026-07-24'
 name: Halifax
 nav: Providers
@@ -243,8 +239,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 57.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:

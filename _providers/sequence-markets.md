@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Bearer-auth REST API and multiplexed WebSocket streaming surface for the Sequence Markets trading OS — credentials & wallets, market data, orders & execution graphs, positions & balances, prediction m
   name: Sequence Markets Trading API
   slug: sequence-markets-trading-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: Multiplexed WebSocket streaming surface for the Sequence Markets trading OS, generated faithfully from the documented channel catalog at docs.sequencemkts.com/api/streaming. Not an official provider-p
   name: Sequence Markets Streaming API
@@ -123,7 +123,7 @@ common:
   url: errors/sequence-markets-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sequence-markets-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Sequence Markets is a Y Combinator (Winter 2026) trading operating system for institutional crypto that provides unified execution infrastructure across 12 fragmented digital-asset venues — centralized exchanges (Coinbase, Binance, Kraken, OKX, Bybit, Bitget, Crypto.com, Hyperliquid), DeFi, and prediction markets (Kalshi, Polymarket). It packages one market view into a single trade via a smart order router (SOR), execution graphs, and WASM-compiled algo strategies deployed to multi-region low-latency edges. Developers access it through a Bearer-auth REST API and multiplexed WebSocket streams, a Python SDK, a Rust SDK, an Algo SDK, a `sequence` CLI, and an MCP interface for human, algorithmic, and agent workflows, with a full paper-trading sandbox, smart order routing, and transaction-cost analytics (TCA).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sequence-markets.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sequence Markets MCP Server
-  slug: sequence-markets-mcp-server
 modified: '2026-07-21'
 name: Sequence Markets
 nav: Providers
@@ -206,8 +202,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/screenshots/sequence-markets-2026-08-17T081812.png
 security:

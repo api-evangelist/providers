@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: '@nori/sdk — robot-local teleoperation SDK. Connects to a Nori robot over WebRTC, receives video and telemetry, and drives it from the browser via the RemoteTeleop client. Signaling over the reference '
@@ -142,8 +142,8 @@ score:
   previous_composite: 17.5
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noril1/refs/heads/main/screenshots/noril1-2026-08-07T185516.png
 security:

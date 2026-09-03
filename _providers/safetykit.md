@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Ingest user actions and objects into per-workflow namespaces and asynchronously receive AI agent decisions (labels, risk scores, enforcement actions) via signed webhooks.
   name: SafetyKit Data API
   slug: safetykit-data-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Safetykit Webhooks
@@ -143,7 +143,7 @@ common:
   url: packages/safetykit-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/safetykit-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: SafetyKit is an AI trust, safety, and fraud-detection platform that lets marketplaces, fintechs, and social and creator platforms deploy AI agents to automate risk reviews, onboarding, and investigations. Its Data API ingests every user action and object through a lightweight SDK and API, organizes them into per-workflow namespaces, and asynchronously returns agent decisions — labels, risk scores, and enforcement actions such as account suspension — delivered back over signed webhooks. SafetyKit detects account takeover, multi-accounting, fake accounts, phishing, spam, harmful content, scams, and prohibited listings, and is used by companies including Upwork, Etsy, Eventbrite, Lyft, Discord, and Kickstarter.
 image: https://cdn.prod.website-files.com/67f043481889440b9d0ed13e/67f043481889440b9d0ed170_a5826400373f60a9d521bc5bca8ad3f3_OG%20Image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: SafetyKit MCP Server
-  slug: safetykit-mcp-server
 modified: '2026-07-21'
 name: SafetyKit
 nav: Providers
@@ -200,8 +196,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safetykit/refs/heads/main/screenshots/safetykit-2026-08-17T081707.png
 security:

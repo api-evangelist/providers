@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Runner API and Dashboard API for programmatically running procedures, managing runs, submitting human-review decisions, managing API keys, and subscribing to run events via webhooks.
@@ -182,8 +182,8 @@ score:
   previous_composite: 38.5
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/screenshots/rapidfolio-2026-08-17T124927.png
 security:

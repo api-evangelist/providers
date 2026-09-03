@@ -29,8 +29,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -82,8 +82,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -127,8 +127,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -172,8 +172,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -218,8 +218,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -263,8 +263,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -309,8 +309,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -369,8 +369,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -415,8 +415,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 65.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -460,8 +460,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -506,8 +506,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -551,8 +551,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -604,8 +604,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -650,8 +650,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -706,8 +706,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -734,6 +734,52 @@
      "rank": 15
     },
     {
+     "name": "Oracle Siebel",
+     "slug": "oracle-siebel",
+     "description": "Oracle Siebel CRM APIs provide programmatic access to customer relationship management functionality including sales, marketing, and service automation capabilities. Siebel CRM offers REST, SOAP, scripting, and event-driven integration interfaces for building integrations with enterprise systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png",
+     "score": 65.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 65.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 70.8,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 31.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 16
+    },
+    {
      "name": "WorkRamp",
      "slug": "workramp",
      "description": "WorkRamp is a revenue-enablement and learning platform now sold by Confirm as two products — Learn:Up (the employee LMS, formerly WorkRamp) and Academy (customer and partner training) — after Learning Pool rebranded as Confirm and consolidated WorkRamp, Confirm HR, AI Sims and Elucidat under one Workforce Enablement System. The API is still served from app.workramp.com and documented at developers.workramp.com as the \"Confirm Learn:Up & Academy API\". It is a private REST API — access is granted per enterprise on request — and covers users, groups, custom attributes, guides/courses, paths (training series), challenges, SCORM courses and assignments, resources, events and event sessions, item folders and libraries, the content catalog, Academy contacts, segments, trainings, certifications, registrations and email domains, plus webhook subscriptions and SCIM 2.0 provisioning. Authentication is a static admin-scoped API key sent as a bearer token; published rate limits are 3,000 calls/hour sustained with a 13,000 calls/hour burst, and EU tenants call app.eu.workramp.com.",
@@ -751,8 +797,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -783,7 +829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Unbounce",
@@ -803,8 +849,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 59.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -829,7 +875,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Act! CRM",
@@ -849,8 +895,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -875,7 +921,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Common Room",
@@ -895,8 +941,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 58.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -920,7 +966,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Unify",
@@ -940,8 +986,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -965,7 +1011,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Leadspace",
@@ -985,15 +1031,15 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 48.8,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -1011,7 +1057,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Walnut",
@@ -1031,8 +1077,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1056,7 +1102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Sendlane",
@@ -1076,8 +1122,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1102,7 +1148,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Benchmark Email",
@@ -1122,8 +1168,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1148,7 +1194,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Constant Contact",
@@ -1168,8 +1214,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1201,7 +1247,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Chili Piper",
@@ -1221,8 +1267,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1246,7 +1292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Erxes",
@@ -1266,8 +1312,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1292,7 +1338,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "ClickFunnels",
@@ -1312,8 +1358,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1344,7 +1390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Keap",
@@ -1364,8 +1410,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1397,7 +1443,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Total Expert",
@@ -1417,8 +1463,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1450,7 +1496,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "SugarCRM",
@@ -1470,8 +1516,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1495,52 +1541,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
-    },
-    {
-     "name": "Oracle Siebel",
-     "slug": "oracle-siebel",
-     "description": "Oracle Siebel CRM APIs provide programmatic access to customer relationship management functionality including sales, marketing, and service automation capabilities. Siebel CRM offers REST, SOAP, scripting, and event-driven integration interfaces for building integrations with enterprise systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png",
-     "score": 61.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 65.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 70.8,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 31.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
      "rank": 32
     },
     {
@@ -1561,8 +1561,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1607,8 +1607,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1667,8 +1667,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1713,8 +1713,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1758,8 +1758,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1803,8 +1803,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1848,8 +1848,8 @@
       "commercial_clarity": 72.4,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1908,15 +1908,15 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 52.7,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 49.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -1954,8 +1954,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1999,8 +1999,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2045,8 +2045,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 45.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2090,8 +2090,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2135,8 +2135,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2180,15 +2180,15 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 51.6,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 56.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -2225,8 +2225,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2270,8 +2270,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2315,8 +2315,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2360,8 +2360,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2406,8 +2406,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2452,8 +2452,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2497,8 +2497,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2543,8 +2543,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2588,15 +2588,15 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 29.5,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2633,8 +2633,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2679,8 +2679,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2725,8 +2725,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2770,8 +2770,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2816,15 +2816,15 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 56.3,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 61.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -2872,8 +2872,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2917,8 +2917,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2963,8 +2963,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3009,8 +3009,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3055,8 +3055,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3100,15 +3100,15 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 32.2,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -3146,8 +3146,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3191,8 +3191,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3237,8 +3237,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3283,8 +3283,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3328,8 +3328,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3374,8 +3374,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3420,8 +3420,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3465,8 +3465,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3511,8 +3511,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3564,8 +3564,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3609,8 +3609,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3655,8 +3655,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3701,8 +3701,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3746,8 +3746,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3792,8 +3792,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3837,8 +3837,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3883,8 +3883,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3929,8 +3929,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3975,8 +3975,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4021,8 +4021,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4066,8 +4066,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4112,8 +4112,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4157,8 +4157,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4202,8 +4202,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4247,8 +4247,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4300,8 +4300,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4345,15 +4345,15 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 37.8,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -4390,8 +4390,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4436,8 +4436,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4482,8 +4482,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4527,8 +4527,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4572,8 +4572,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4618,8 +4618,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4664,8 +4664,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4710,8 +4710,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4755,8 +4755,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4801,8 +4801,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -4846,8 +4846,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -4891,8 +4891,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4936,8 +4936,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4992,8 +4992,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5037,8 +5037,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5081,8 +5081,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5127,8 +5127,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5172,8 +5172,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5218,8 +5218,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5263,8 +5263,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5308,8 +5308,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5354,8 +5354,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -5399,8 +5399,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5444,8 +5444,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5497,8 +5497,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5542,8 +5542,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5595,8 +5595,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5641,8 +5641,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5686,8 +5686,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5731,8 +5731,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5776,8 +5776,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5835,8 +5835,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5880,8 +5880,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5926,8 +5926,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5986,8 +5986,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6032,8 +6032,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6077,8 +6077,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6129,8 +6129,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6174,8 +6174,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6220,8 +6220,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6275,8 +6275,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6320,8 +6320,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6365,8 +6365,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6411,8 +6411,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6457,8 +6457,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6502,8 +6502,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6548,8 +6548,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6593,8 +6593,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6639,8 +6639,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6684,8 +6684,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6729,8 +6729,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6782,8 +6782,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 1.3,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6828,8 +6828,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6880,8 +6880,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6925,8 +6925,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6981,8 +6981,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7026,8 +7026,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7070,8 +7070,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7114,8 +7114,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7159,8 +7159,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7204,8 +7204,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7248,8 +7248,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7293,8 +7293,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

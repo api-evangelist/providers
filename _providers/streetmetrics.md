@@ -1,13 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Public API, platform credentials required
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
+  - plans
   - authentication
-  - docs
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://dashboard.streetmetrics.io/v3/public/
@@ -279,8 +281,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/screenshots/streetmetrics-2026-08-17T082138.png
 security:

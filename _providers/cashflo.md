@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://developer.cashflo.io
@@ -41,7 +41,7 @@ apis:
   description: The Ingest API from CashFlo — 3 operation(s) for ingest.
   name: CashFlo Ingest API
   slug: cashflo-ingest-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -56,7 +56,7 @@ common:
   url: skills/cashflo-ingest-grns.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cashflo-mcp.yml
 - group: other
   title: ''
@@ -130,10 +130,6 @@ created: '2026-07-17'
 description: CashFlo is an India-based fintech platform that automates enterprise finance operations across accounts payable, payments, GST compliance, vendor management, and supply-chain financing. Its modules cover invoice OCR and n-way matching, approval workflows, multi-bank payments and reconciliation, GST filing / e-invoicing / e-way bills, vendor onboarding and KYC, and dynamic cash discounting for working-capital optimization. CashFlo connects to major ERPs (SAP ECC/S4 HANA/Business One, Oracle NetSuite/Fusion/EBS, Microsoft Dynamics 365/NAV/Business Central) and exposes a JWT-secured Data Ingestion API for pushing purchase orders and goods-receipt notes into the platform. Backed by General Catalyst.
 image: https://cdn.prod.website-files.com/649d312d8aeae2926e7af2fe/674acdb7d5b408c0e8e9cf34_Homepage.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: CashFlo MCP Server
-  slug: cashflo-mcp-server
 modified: '2026-07-18'
 name: CashFlo
 nav: Providers
@@ -177,8 +173,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png
 security:

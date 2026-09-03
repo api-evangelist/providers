@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -88,7 +88,7 @@ apis:
   description: Manage webhook subscriptions and receive event notifications. When creating an organization, you may provide an HTTPS webhook URL to receive events related to the organization's resources. We implemen
   name: Xbow Webhooks API
   slug: xbow-webhooks-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Xbow Webhooks
@@ -219,7 +219,7 @@ common:
   url: llms/xbow-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/xbow-mcp.yml
 - group: design
   title: ''
@@ -257,10 +257,6 @@ created: '2026-07-17'
 description: 'XBOW is an autonomous offensive security platform that uses AI to perform penetration testing with real exploit validation — it identifies vulnerabilities, chains them into attack paths, and proves exploitability before findings reach security teams. The XBOW API (public preview) exposes the full platform workflow: register assets, launch and manage assessments, fetch validated findings and reports, upload source-code resources for gray-box testing, and subscribe webhooks with Ed25519-signed deliveries. XBOW has ranked #1 on the HackerOne and Microsoft MSRC leaderboards and is used by 150+ security teams.'
 image: https://docs.xbow.com/xbow-logomark.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Xbow MCP Server
-  slug: xbow-mcp-server
 modified: '2026-07-21'
 name: Xbow
 nav: Providers
@@ -302,8 +298,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/screenshots/xbow-2026-08-17T083001.png
 security:

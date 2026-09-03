@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ apis:
   description: The Wishlists API from Cart.com — 2 operation(s) for wishlists.
   name: Cart.com Wishlists API
   slug: cart-com-wishlists-api
-artifact_total: 78
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Cart Com Online Store Webhooks
@@ -542,7 +542,7 @@ common:
   url: overlays/cart-com-online-store-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cart-com-mcp.yml
 - group: agent
   title: ''
@@ -556,10 +556,6 @@ created: '2026-07-31'
 description: Cart.com is a unified commerce and logistics provider for B2C and B2B brands, combining an ecommerce storefront platform (the former AmeriCommerce Online Store), marketplace and channel management, order management, warehouse management, and a nationwide fulfillment network into a single operating system for commerce. Its developer surface is the Online Store API — a JSON REST API published as OpenAPI 3.1 covering catalog, orders, carts, customers, content, marketing, shipping and store settings — plus a webhook subscription system with thirty event types, an OAuth 2 authorization flow with coarse read/write scopes, and a client-side JavaScript Client API for storefront themes.
 image: https://cart.com/hubfs/6316383d5bc18bb4fa6ae7a9_favicon-32x32.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cart.com MCP Server
-  slug: cartcom-mcp-server
 modified: '2026-07-31'
 name: Cart.com
 nav: Providers
@@ -610,8 +606,8 @@ score:
       total: 71
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/screenshots/cart-com-2026-08-07T163035.png
 security:

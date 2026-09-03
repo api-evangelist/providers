@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.ironfang.uk/renderwolf
@@ -177,6 +177,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -186,6 +187,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 60.5
+  previous_composite: 62.3
   provenance:
     conformance: first-party
     contracts:
@@ -195,8 +197,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Ironfang Authentication

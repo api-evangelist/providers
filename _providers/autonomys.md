@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://mainnet.auto-drive.autonomys.xyz
@@ -46,7 +46,7 @@ apis:
   description: The Auto Drive Download Gateway API from Autonomys — 6 operation(s) for auto drive download gateway.
   name: Autonomys Auto Drive Download Gateway API
   slug: autonomys-auto-drive-download-gateway-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -60,7 +60,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/autonomys-mcp.yml
 - group: docs
   title: ''
@@ -166,10 +166,6 @@ created: '2026-07-17'
 description: Autonomys is a decentralized infrastructure network providing permanent, verifiable, content-addressed data storage and AI-ready blockchain services, secured by a Proof-of-Archival-Storage consensus. Its developer surface centers on Auto Drive — permanent storage exposed through a REST API where objects are addressed by IPFS-style CIDs — and the Auto SDK, a TypeScript toolkit (@autonomys/* npm packages) for consensus, storage, cross-domain messaging, and DAG data. The broader stack adds Auto EVM (an Ethereum- compatible execution domain), Auto Agents (a framework for autonomous on-chain AI agents), and Auto ID (self-sovereign identity). Storage is paid in native AI3 via an on-chain Intents flow. Autonomys was surfaced as a portfolio company of Pantera Capital and has now been enriched from its public developer surface.
 image: https://www.autonomys.xyz/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Autonomys MCP Server
-  slug: autonomys-mcp-server
 modified: '2026-07-18'
 name: Autonomys
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
 security:

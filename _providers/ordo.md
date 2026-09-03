@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
   description: The Retrieve mandate details API from Ordo — 4 operation(s) for retrieve mandate details.
   name: Ordo Retrieve mandate details API
   slug: ordo-retrieve-mandate-details-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: ACCOUNT DATA - Client Hosted
@@ -204,7 +204,7 @@ common:
   url: data-model/ordo-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ordo-mcp.yml
 - group: agent
   title: ''
@@ -219,10 +219,6 @@ description: Ordo (operated by The Smart Request Company Ltd, ordohq.com / ordop
   offline. Its API posture is documented here honestly from six OpenAPI 3.0.1 definitions harvested verbatim from the archived developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ordo MCP Server
-  slug: ordo-mcp-server
 modified: '2026-07-24'
 name: Ordo
 nav: Providers
@@ -273,8 +269,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:

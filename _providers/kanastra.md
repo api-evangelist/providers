@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://banking.kanastra.com.br
@@ -136,7 +136,7 @@ apis:
   description: The Wallet API from Kanastra — 2 operation(s) for wallet.
   name: Kanastra Wallet API
   slug: kanastra-wallet-api
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: Webhook event surface for Kanastra Banking. Subscribing systems receive JSON payloads for bank slip (boleto) lifecycle and CNAB file-processing events. Captured from the provider-published webhook doc
   name: Kanastra Banking Webhooks
@@ -219,7 +219,7 @@ common:
   url: skills/kanastra-authenticate.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kanastra-mcp.yml
 - group: other
   title: ''
@@ -257,10 +257,6 @@ created: '2026-07-17'
 description: 'Kanastra is a Brazilian fintech building full-stack infrastructure for banking and the private credit market. Its Banking API offers banking-as-a-service capabilities to financial institutions, funds and securitization vehicles: financial (checking) accounts with balances and transactions, PIX (key registration, transfers, deposits, and static/dynamic QR Codes on the BR Code / EMV-QRCPS standard), boleto (bank slip) issuance with CNAB return-file processing settled via the Nuclea clearing house, TED transfers, wallets, commercial notes (CCB) with guarantees and documents, and issuers. Authentication uses a private_key_jwt (ES512 client-assertion) flow that returns a scoped Bearer JWT, and a webhook surface streams bank slip and CNAB lifecycle events. Kanastra is backed by QED Investors, Kaszek, Valor Capital, Quona Capital, Itau, IFC and F-Prime.'
 image: https://kanastra.com.br/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kanastra MCP Server
-  slug: kanastra-mcp-server
 modified: '2026-07-19'
 name: Kanastra
 nav: Providers
@@ -312,8 +308,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

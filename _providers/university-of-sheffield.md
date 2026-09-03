@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.solar.sheffield.ac.uk
@@ -254,7 +254,7 @@ score:
     catalog_gap: 32.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -264,7 +264,7 @@ score:
     discoverability: 68.5
     governance: 34.1
     operational_transparency: 23.7
-  previous_composite: 45.2
+  previous_composite: 44.7
   provenance:
     conformance: first-party
     contracts:
@@ -278,8 +278,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/screenshots/university-of-sheffield-2026-06-20T200244.png
 security:

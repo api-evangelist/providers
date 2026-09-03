@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST + on-chain API for the Delphi information (prediction) market platform. REST endpoints cover market discovery, single-market lookup, wallet positions, and a public health check; on-chain methods '
@@ -135,8 +135,8 @@ score:
   previous_composite: 22.1
   provenance:
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gensyn/refs/heads/main/screenshots/gensyn-2026-07-25T215631.png
 security:

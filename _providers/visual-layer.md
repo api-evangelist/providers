@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for dataset management, visual and semantic search, enrichment, export, saved views, snapshots, and task management. Cloud calls require a JWT bearer token; on-premises calls require no authe
   name: Visual Layer Cloud API
   slug: visual-layer-cloud-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -143,16 +143,12 @@ common:
   url: components/visual-layer-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/visual-layer-mcp.yml
 created: '2026-07-17'
 description: Visual Layer is an AI-powered platform for managing, curating, and enriching large-scale unstructured visual data (images and video) at scales from gigabytes to petabytes. Its cloud and self-hosted products let teams organize, explore, deduplicate, quality-check, and semantically search visual datasets, then enrich them with vision AI models that generate captions, detect objects, and build embeddings for search. Visual Layer exposes a REST API — JWT-authenticated for the cloud, unauthenticated for on-premises — covering dataset creation from S3 or local files, visual and semantic search, enrichment, export, saved views with monitoring and alerting, snapshots, and task management. The company also maintains the popular open-source fastdup tool, is backed by Insight Partners, and was acquired by Camtek in 2025.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visual-layer.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Visual Layer MCP Server
-  slug: visual-layer-mcp-server
 modified: '2026-07-21'
 name: Visual Layer
 nav: Providers
@@ -184,8 +180,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/screenshots/visual-layer-2026-09-02T170052.png
 security:

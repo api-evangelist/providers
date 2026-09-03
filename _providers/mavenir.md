@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ arazzos:
 - description: Originate a one-to-one voice/video session on a Mavenir BYON call handling deployment, read it back, drive it to Connected, then terminate it. Every operationId is verified against openapi/mavenir-byo
   name: Place and manage a 1-1 VVoIP call (Mavenir BYON)
   slug: mavenir-byon-place-and-manage-call
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Mavenir Byon Events
@@ -133,7 +133,7 @@ common:
   url: packages/mavenir-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mavenir-mcp.yml
 - group: build
   title: ''
@@ -224,10 +224,6 @@ description: 'Mavenir is a US-headquartered (Richardson, Texas) cloud-native tel
   login-bearing surface, support.mavenir.com, is an ADFS-protected customer support wall. What Mavenir does publish is standards work — it is an active CAMARA participant with eleven named individuals in CAMARA governance, is listed in the CAMARA landscape as a Network Capability Solution Provider, co-maintains the camaraproject/WebRTC sandbox API repository (two of the four CODEOWNERS are Mavenir engineers), contributed its own Bring Your Own Number (BYON) OpenAPI definitions to the CAMARA API Backlog, and holds TM Forum Open API Platinum conformance with 20+ certified Open APIs on the MDE BSS platform. Developers reach Mavenir-powered capability only through a carrier or through a channel partner such as Spry Fox Networks, never directly.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mavenir MCP Server
-  slug: mavenir-mcp-server
 modified: '2026-07-25'
 name: Mavenir
 nav: Providers
@@ -275,8 +271,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png
 security:

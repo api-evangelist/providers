@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 59
 apis:
 - description: Provides information of Sales activities related to Accounts, Contacts, and Blocks for the selected Property. Compatible with OPERA Cloud RnA release 26.1.0.0. Read-only GraphQL subject area in the OP
@@ -658,7 +658,7 @@ apis:
   description: The Upsell Offers API from Oracle Hospitality — 1 operation(s) for upsell offers.
   name: Oracle Hospitality Upsell Offers API
   slug: oracle-hospitality-upsell-offers-api
-artifact_total: 221
+artifact_total: 220
 asyncapis:
 - description: 'Oracle publishes no AsyncAPI document for Oracle Hospitality. This document is DERIVED, by the API Evangelist enrichment pipeline, from two real, published surfaces: (1) the six outbound Swagger 2.0 s'
   name: Oracle Hospitality event and outbound-callback surface
@@ -1108,7 +1108,7 @@ common:
   url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oracle-hospitality-mcp.yml
 - group: auth
   title: ''
@@ -1299,10 +1299,6 @@ description: 'Oracle Hospitality is Oracle Corporation''s hotel and food-and-bev
   the full Oracle Hospitality Integration Platform (OHIP) developer guide openly, but there is no self-serve signup: partners must purchase Oracle Hospitality Integration Cloud Service through the Oracle Store or a CPQ form, production access requires an Oracle Partner Network reference number, and distribution channel partners additionally need an Oracle-issued global Channel Code and an Oracle Cloud Marketplace listing.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oracle Hospitality MCP Server
-  slug: oracle-hospitality-mcp-server
 modified: '2026-08-21'
 name: Oracle Hospitality
 nav: Providers
@@ -1326,13 +1322,13 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 64.0
+  composite: 60.0
   coverage:
     artifact_dirs: 24
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: -4.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1342,10 +1338,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 81.6
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 64.8
+  previous_composite: 64.0
   provenance:
     conformance: first-party
     contracts:
@@ -1355,8 +1348,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:

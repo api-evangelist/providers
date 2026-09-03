@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://community.tracebit.com
@@ -46,7 +46,7 @@ apis:
   description: The Canary Credentials API from Tracebit — 2 operation(s) for canary credentials.
   name: Tracebit Canary Credentials API
   slug: tracebit-canary-credentials-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -164,7 +164,7 @@ common:
   url: overlays/tracebit-community-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tracebit-mcp.yml
 - group: agent
   title: ''
@@ -178,10 +178,6 @@ created: '2026-07-17'
 description: Tracebit is a security-canary (deception) platform backed by Accel. It deploys realistic decoy credentials, secrets, and identities — canaries — across AWS, Azure, Google Cloud, Okta, Kubernetes, CI/CD pipelines, and workstations, and raises high-fidelity alerts the moment an attacker touches one during lateral movement or credential access. The free Community Edition exposes a public REST API (OpenAPI 3.1) for issuing and confirming canary credentials and reading alerts and their logs, alongside an open-source CLI, a GitHub Action, and a provider-published Agent Skill.
 image: https://cdn.prod.website-files.com/663e4960fd682070c6a1bfdc/6a16ecb79f26e0be2459ffbd_tracebit-opengraph-home.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tracebit MCP Server
-  slug: tracebit-mcp-server
 modified: '2026-07-21'
 name: Tracebit
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/screenshots/tracebit-2026-08-17T082426.png
 security:

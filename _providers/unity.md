@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -1113,20 +1113,20 @@ rules:
   slug: unity-spectral-rules
 score:
   band: strong
-  composite: 57.2
+  composite: 58.1
   coverage:
     artifact_dirs: 22
-    catalog_gap: 60.5
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 61.9
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 42.1
   previous_composite: 57.2
@@ -1137,8 +1137,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png
 security:

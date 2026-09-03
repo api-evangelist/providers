@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
   name: 99 Minutos webhooks API
   slug: 99-minutos-webhooks-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: 99 Minutos Webhooks
@@ -207,7 +207,7 @@ common:
   url: asyncapi/99-minutos-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/99-minutos-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: 99minutos (99 Minutos) is a Latin American last-mile logistics and delivery platform serving ecommerce businesses across Mexico, Chile, Colombia and Peru. It offers express parcel delivery (envios99), full-truck-load and drayage freight (freight99), fulfillment and warehousing (fulfill99) and custom logistics operations (tailor99), backed by a network of pickup/delivery points (Punto99). Its public REST API v3 lets developers resolve addresses to reusable location ids, quote shipping rates and coverage, create/confirm orders (including multibox), print PDF and ZPL labels, track shipments and subscribe to real-time status webhooks. Authentication is OAuth2 client-credentials that returns a bearer JWT. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline from the provider's own developer portal.
 image: https://www.99minutos.com/_next/static/media/logo_99minutos.230a642b.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: 99 Minutos MCP Server
-  slug: 99-minutos-mcp-server
 modified: '2026-08-08'
 name: 99 Minutos
 nav: Providers
@@ -310,8 +306,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Teams API from Scribe — 1 operation(s) for teams.
   name: Scribe Teams API
   slug: scribe-teams-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: well-known/scribe-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scribe-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five million people across a large share of the Fortune 500. For developers, Scribe publishes a read-only Search & Retrieval API (OpenAPI 3.1) that searches, lists, and retrieves an organization's Scribe Documents and Knowledge Pages for integration into custom applications and AI agents. Public API access is an Enterprise-plan feature authenticated with a static API key sent in the X-API-Key header. The company is backed by Amplify Partners, Redpoint Ventures, Tiger Global, StepStone, Morado Ventures, and New York Life Ventures, and reached a $1.3B valuation with its 2025 Series C.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scribe.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Scribe MCP Server
-  slug: scribe-mcp-server
 modified: '2026-07-21'
 name: Scribe
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/screenshots/scribe-2026-08-17T081843.png
 security:

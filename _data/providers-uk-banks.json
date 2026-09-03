@@ -29,8 +29,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -100,8 +100,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -153,8 +153,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -169,7 +169,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -177,7 +177,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -194,6 +194,66 @@
      },
      "tier": "High-Street & Retail",
      "rank": 3
+    },
+    {
+     "name": "Revolut",
+     "slug": "revolut",
+     "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png",
+     "score": 49.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 70.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 67.9,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 51.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 4
     },
     {
      "name": "Weatherbys Bank",
@@ -213,8 +273,8 @@
       "commercial_clarity": 78.6,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -253,7 +313,7 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Starling Bank",
@@ -273,8 +333,8 @@
       "commercial_clarity": 78.6,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -313,7 +373,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Virgin Money UK",
@@ -333,8 +393,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -377,7 +437,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Triodos Bank UK",
@@ -397,8 +457,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -445,7 +505,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Danske Bank (UK)",
@@ -465,8 +525,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -505,7 +565,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Yorkshire Building Society",
@@ -525,8 +585,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -541,7 +601,7 @@
        }
       ]
      },
-     "agent_score": 43.0,
+     "agent_score": 46.2,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -549,7 +609,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "served",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -565,7 +625,7 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Allica Bank",
@@ -585,8 +645,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -625,7 +685,7 @@
       "agentic_commerce": false
      },
      "tier": "SME & Business",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "C. Hoare & Co.",
@@ -645,8 +705,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -654,7 +714,7 @@
       "score": 77.2,
       "matched_via": "tags"
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -662,7 +722,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -678,66 +738,6 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 11
-    },
-    {
-     "name": "Revolut",
-     "slug": "revolut",
-     "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 70.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 67.9,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 62.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 51.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Challenger & Neobank",
      "rank": 12
     },
     {
@@ -758,8 +758,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -811,8 +811,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -871,8 +871,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -887,7 +887,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -895,7 +895,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -931,8 +931,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -947,7 +947,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -955,7 +955,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -991,8 +991,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1007,7 +1007,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1015,7 +1015,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1051,8 +1051,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1071,7 +1071,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1079,7 +1079,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1115,8 +1115,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1168,8 +1168,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1184,7 +1184,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1192,7 +1192,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1228,8 +1228,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1244,7 +1244,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1252,7 +1252,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1288,8 +1288,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1341,8 +1341,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1357,7 +1357,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1365,7 +1365,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1401,8 +1401,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1461,8 +1461,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1477,7 +1477,7 @@
        }
       ]
      },
-     "agent_score": 33.5,
+     "agent_score": 36.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1485,7 +1485,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1521,8 +1521,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1537,15 +1537,15 @@
        }
       ]
      },
-     "agent_score": 37.6,
-     "agent_band": "agent-ready",
+     "agent_score": 40.8,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "served",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1581,8 +1581,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1597,7 +1597,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1605,7 +1605,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1641,8 +1641,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1657,7 +1657,7 @@
        }
       ]
      },
-     "agent_score": 41.9,
+     "agent_score": 45.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1665,7 +1665,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "served",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1701,8 +1701,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1717,7 +1717,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1725,7 +1725,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1761,8 +1761,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1777,7 +1777,7 @@
        }
       ]
      },
-     "agent_score": 31.7,
+     "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1785,7 +1785,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1821,8 +1821,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1837,7 +1837,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1845,7 +1845,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1881,8 +1881,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1941,8 +1941,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1950,7 +1950,7 @@
       "score": 68.4,
       "matched_via": "tags"
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1958,7 +1958,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -1994,8 +1994,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2069,8 +2069,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2085,7 +2085,7 @@
        }
       ]
      },
-     "agent_score": 38.7,
+     "agent_score": 41.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -2093,7 +2093,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -2129,8 +2129,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2145,7 +2145,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -2153,7 +2153,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -2189,8 +2189,8 @@
       "commercial_clarity": 21.4,
       "access_clarity": 21.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2253,8 +2253,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2321,8 +2321,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2337,7 +2337,7 @@
        }
       ]
      },
-     "agent_score": 33.5,
+     "agent_score": 36.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -2345,7 +2345,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -2381,8 +2381,8 @@
       "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2441,8 +2441,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2461,7 +2461,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -2469,7 +2469,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -2505,8 +2505,8 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2558,8 +2558,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2611,8 +2611,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2663,8 +2663,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2679,7 +2679,7 @@
        }
       ]
      },
-     "agent_score": 34.4,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -2687,7 +2687,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -2706,124 +2706,11 @@
      "rank": 45
     },
     {
-     "name": "Bank of Scotland",
-     "slug": "bank-of-scotland",
-     "description": "Bank of Scotland is a UK high-street retail and commercial bank, founded in 1695 and headquartered in Edinburgh, and is one of the oldest banks in the United Kingdom. It is a wholly owned subsidiary brand of Lloyds Banking Group (alongside Lloyds Bank and Halifax), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the nine mandated CMA9 account-providers, Bank of Scotland participates in the UK Open Banking regime under PSD2, publishing PUBLIC, unauthenticated Open Data reference APIs (ATMs, branches, personal and business current accounts, unsecured SME loans, and commercial credit cards) conformant to the Open Banking Implementation Entity (OBIE) Open Data Standard, plus the OBIE Read/Write API family - Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication, accessed through the Lloyds Banking Group developer platform after eIDAS/OBIE certificate onboarding.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png",
-     "score": 33.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 50.9,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 47.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 50.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 32.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "High-Street & Retail",
-     "rank": 46
-    },
-    {
-     "name": "NatWest Group",
-     "slug": "natwest",
-     "description": "NatWest Group is a major UK retail and commercial bank (formerly Royal Bank of Scotland Group) serving personal, business, and corporate customers across the NatWest, Royal Bank of Scotland, Ulster Bank, Coutts, and NatWest International brands. It operates a public developer platform branded the \"Bank of APIs\" that publishes UK Open Banking (CMA9 / PSD2) APIs - Account and Transaction Information, Payment Initiation, and Confirmation of Funds - conformant to the Open Banking Implementation Entity (OBIE) Read/Write API Standard, alongside premium and commercial APIs. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using OBIE/eIDAS certificates, with a full sandbox for onboarding and testing before production.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png",
-     "score": 32.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 50.3,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 8.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 58.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 47
-    },
-    {
      "name": "Shawbrook Bank",
      "slug": "shawbrook-bank",
      "description": "Shawbrook Bank Limited is a specialist UK savings and lending bank (trading as Shawbrook, part of Shawbrook Group plc, which listed on the London Stock Exchange in October 2025 after being owned by a consortium led by BC Partners and Pollen Street Capital since 2017). It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and its deposits are protected by the Financial Services Compensation Scheme. Shawbrook focuses on personal and business savings and specialist lending (property finance, SME and asset finance, and consumer lending) rather than personal current accounts, so it is not one of the nine CMA-mandated banks (CMA9). As an FCA-authorised deposit-taker it operates within the UK Open Banking / PSD2 framework: it consumes Open Banking (using account verification via Consents.Online to confirm customers' linked nominated accounts) more than it publishes ASPSP surfaces. As of this review Shawbrook does not operate a public developer portal, and no Shawbrook Open Data (ATM/branch/product) endpoint or bank-specific Read/Write API host could be confirmed live; the OBIE Open Data and Read/Write API families are represented here as the shared Open Banking standard that an FCA-authorised ASPSP conforms to, not as verified Shawbrook contracts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/screenshots/shawbrook-bank-2026-09-02T155119.png",
-     "score": 31.6,
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -2836,8 +2723,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2852,15 +2739,15 @@
        }
       ]
      },
-     "agent_score": 37.6,
-     "agent_band": "agent-ready",
+     "agent_score": 40.8,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "served",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
@@ -2876,14 +2763,14 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Principality Building Society",
      "slug": "principality-building-society",
      "description": "Principality Building Society is the largest building society in Wales and the sixth largest in the United Kingdom, founded in 1860 and headquartered in Cardiff. It is a mutual, owned by and run for the benefit of its members rather than shareholders, holding total assets of more than £11 billion and operating around 71 branches and agencies alongside internet and telephone channels. Its product range is deliberately narrow - savings, residential mortgages and investments, plus a commercial lending division - and it does NOT offer current or payment accounts. Principality is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and is a member of the Building Societies Association. It is NOT one of the nine CMA9 banks mandated to deliver UK Open Banking, and because it holds no payment accounts it falls outside the scope of the PSD2 / OBIE Read/Write (AIS, PIS, CBPII) standard. As of this profile Principality publishes no public developer portal and no confirmed OBIE Open Data API endpoint; the Open Banking API family below is represented as the shared Open Banking Implementation Entity (OBIE) standard for reference only, not as a Principality-operated contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/screenshots/principality-building-society-2026-09-02T152028.png",
-     "score": 30.8,
+     "score": 34.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -2896,8 +2783,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2929,6 +2816,119 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
+     "rank": 47
+    },
+    {
+     "name": "Bank of Scotland",
+     "slug": "bank-of-scotland",
+     "description": "Bank of Scotland is a UK high-street retail and commercial bank, founded in 1695 and headquartered in Edinburgh, and is one of the oldest banks in the United Kingdom. It is a wholly owned subsidiary brand of Lloyds Banking Group (alongside Lloyds Bank and Halifax), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the nine mandated CMA9 account-providers, Bank of Scotland participates in the UK Open Banking regime under PSD2, publishing PUBLIC, unauthenticated Open Data reference APIs (ATMs, branches, personal and business current accounts, unsecured SME loans, and commercial credit cards) conformant to the Open Banking Implementation Entity (OBIE) Open Data Standard, plus the OBIE Read/Write API family - Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication, accessed through the Lloyds Banking Group developer platform after eIDAS/OBIE certificate onboarding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png",
+     "score": 33.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 50.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 47.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 50.6,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "High-Street & Retail",
+     "rank": 48
+    },
+    {
+     "name": "NatWest Group",
+     "slug": "natwest",
+     "description": "NatWest Group is a major UK retail and commercial bank (formerly Royal Bank of Scotland Group) serving personal, business, and corporate customers across the NatWest, Royal Bank of Scotland, Ulster Bank, Coutts, and NatWest International brands. It operates a public developer platform branded the \"Bank of APIs\" that publishes UK Open Banking (CMA9 / PSD2) APIs - Account and Transaction Information, Payment Initiation, and Confirmation of Funds - conformant to the Open Banking Implementation Entity (OBIE) Read/Write API Standard, alongside premium and commercial APIs. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using OBIE/eIDAS certificates, with a full sandbox for onboarding and testing before production.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png",
+     "score": 32.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 50.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 8.9,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 58.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "CMA9 (Mandated Open Banking)",
      "rank": 49
     },
     {
@@ -2949,8 +2949,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3002,8 +3002,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3065,8 +3065,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3118,8 +3118,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3171,8 +3171,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3224,8 +3224,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3277,8 +3277,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3330,8 +3330,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3393,8 +3393,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3446,8 +3446,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3499,8 +3499,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

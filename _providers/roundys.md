@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: As a Kroger subsidiary, Roundy's stores (Pick 'n Save, Metro Market, Mariano's) are accessible through the Kroger Developer Platform product catalog API. The API enables searching and browsing product
@@ -178,8 +178,8 @@ score:
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roundys/refs/heads/main/screenshots/roundys-2026-06-20T193225.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Enterprise API management platform (formerly CA API Management / Layer 7) that provides API gateways, developer portals, policy enforcement, and identity integration for hybrid and multi-cloud deploym
@@ -204,8 +204,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/screenshots/ca-2026-06-20T173828.png
 security:

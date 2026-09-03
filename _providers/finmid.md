@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Embed B2B payment and financing into a platform: onboard buyers and sellers, create payment requests financed by a finmid loan, create payouts, upload documents, and track repayment. JSON over HTTPS, '
@@ -42,7 +42,7 @@ apis:
 - description: 'Offer pre-approved, customizable financing to businesses on a platform: real-time offer generation, an embeddable acceptance widget (iframe), business onboarding and KYB, fundings, and business paymen'
   name: finmid Capital API
   slug: finmid-capital-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Finmid Webhooks
@@ -142,7 +142,7 @@ common:
   url: conformance/finmid-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finmid-mcp.yml
 - group: design
   title: ''
@@ -152,10 +152,6 @@ created: '2026-07-17'
 description: 'finmid is a Berlin-based embedded lending and B2B payments infrastructure provider that lets software platforms and marketplaces offer financing — cash advances, term loans, and business loans — to their customers across 30+ European markets without becoming a lender or handling the regulatory complexity themselves. finmid exposes two REST APIs: the B2B Payments API (buyer/seller onboarding, payment requests, payouts, and repayment) and the Capital API (pre-approved offer generation, an embeddable acceptance widget, business onboarding/KYB, fundings, and payments). Both APIs are JSON over HTTPS, authenticated with an environment-scoped X-API-Key header, with a separate sandbox environment, HMAC-signed webhooks for asynchronous events, and HTTP Message Signatures (RFC 9421, Ed25519) for platform-provided capital payout execution.'
 image: https://finmid.com/icon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Finmid MCP Server
-  slug: finmid-mcp-server
 modified: '2026-07-19'
 name: Finmid
 nav: Providers
@@ -196,8 +192,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finmid/refs/heads/main/screenshots/finmid-2026-07-25T214532.png
 security:

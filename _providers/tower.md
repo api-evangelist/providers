@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.tower.dev/v1
@@ -264,6 +264,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/tower-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/tower-overlay.yaml
 - group: auth
@@ -404,7 +408,7 @@ overview: 'Tower publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
   The Tower catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 24 more developer resources.'
+  Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 25 more developer resources.'
 random_paper: 15
 scopes:
 - name: Tower Scopes
@@ -415,7 +419,7 @@ score:
   band: strong
   composite: 55.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -439,8 +443,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/screenshots/tower-2026-08-17T082413.png
 security:

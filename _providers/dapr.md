@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -388,8 +388,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing start.gg (smash.gg) tournaments, events, entrants, sets, standings, players, and users, with mutations for reporting results and managing brackets.
   name: start.gg GraphQL API
   slug: startgg-graphql-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -107,7 +107,7 @@ common:
   url: conformance/smashgg-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smashgg-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Smashgg (now start.gg, following its acquisition by Microsoft) is a competitive-gaming and esports platform for running tournaments, brackets, and leagues across fighting games and other titles. Its public developer API is a single GraphQL endpoint (https://api.start.gg/gql/alpha) exposing tournaments, events, entrants, sets, phases, standings, players, and users, plus mutations for reporting set results and managing seeding and brackets. Authentication is via personal access tokens (Bearer, 1-year expiry) or OAuth 2.0 authorization-code tokens scoped to a user. The original smash.gg domain now redirects to start.gg.
 image: https://www.start.gg/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Smashgg MCP Server
-  slug: smashgg-mcp-server
 modified: '2026-07-21'
 name: Smashgg
 nav: Providers
@@ -190,8 +186,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/screenshots/smashgg-2026-09-02T155940.png
 security:

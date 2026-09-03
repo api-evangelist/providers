@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
@@ -154,8 +154,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/screenshots/inscribe-2026-06-20T183404.png
 security:

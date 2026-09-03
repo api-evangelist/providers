@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -148,7 +148,7 @@ apis:
   description: API endpoints for implementing and running a Verifiable Credential Issuer (VCI).
   name: Authlete Verifiable Credential Issuer API
   slug: authlete-verifiable-credential-issuer-api
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -291,7 +291,7 @@ common:
   url: components/authlete-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/authlete-mcp.yml
 - group: agent
   title: ''
@@ -361,10 +361,6 @@ created: '2026-07-17'
 description: Authlete is an API-first OAuth 2.0 and OpenID Connect backend service that provides a headless authorization-server engine. It handles the OAuth/OIDC protocol logic and token management so organizations can stand up standards-compliant authorization servers and verifiable-credential issuers without building the protocol layer themselves. Authlete separates the Management APIs (configure services and clients) from the Runtime APIs (power authorization, token, introspection, CIBA, device-flow, federation, and OID4VCI endpoints), and offers managed shared cloud, dedicated cloud, and self-managed deployment across US, Japan, Europe, and Brazil regional clusters. It supports advanced profiles including FAPI / FAPI 2.0, CIBA, PAR, Grant Management, OpenID Federation, Native SSO, and OpenID for Verifiable Credential Issuance, plus regional open-banking standards (Brazil Open Banking, Australia CDR). Backed by 500 Global.
 image: https://avatars.githubusercontent.com/u/8684109?v=4
 layout: provider
-mcp_servers:
-- description: No official hosted/remote Authlete MCP server was found (no @authlete MCP package, no registry listing, no docs reference as of this pass). This is a DERIVED candidate tool list mapping the highest-va
-  name: Authlete MCP Server
-  slug: authlete-mcp-server
 modified: '2026-07-18'
 name: Authlete
 nav: Providers
@@ -403,8 +399,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
 security:

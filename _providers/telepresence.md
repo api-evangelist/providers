@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,14 +117,14 @@ overview: 'Telepresence is profiled on the [APIs.io](https://apis.io/) network. 
   Telepresence''s developer surface includes documentation, changelog, and 13 more developer resources.'
 random_paper: 19
 score:
-  band: emerging
-  composite: 19.3
+  band: minimal
+  composite: 10.4
   coverage:
     artifact_dirs: 4
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -134,13 +134,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 19.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/screenshots/telepresence-2026-06-20T195041.png
 security:
 - kind: domain-security

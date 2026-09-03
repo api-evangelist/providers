@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -333,8 +333,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/screenshots/tigera-2026-08-17T082354.png
 security:

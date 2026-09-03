@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.joinmesa.com/v1
@@ -46,7 +46,7 @@ apis:
   description: Retrieve invoices for the authenticated user.
   name: Mesa Invoices API
   slug: mesa-invoices-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: llms/mesa-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mesa-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: Mesa is a Boulder, Colorado fintech that provides embedded electronic-invoicing, payments, and invoice-financing (early-payment) infrastructure for B2B supplier networks. Suppliers get paid early via ACH while Mesa automates repayment once the buyer settles. Mesa ships as drop-in embedded UI — a JavaScript SDK (MesaClient) that renders Mesa's onboarding, dashboard, and instant-payout flows in an origin-pinned iframe inside a partner's web app — backed by a Partner REST API for user authentication and invoice retrieval. Auth is via API keys (clientId/clientSecret) exchanged for a short-lived JWT, with optional OIDC (Okta, Azure AD, Google). Backed by Matrix Partners; SOC 2.
 image: https://www.joinmesa.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mesa MCP Server
-  slug: mesa-mcp-server
 modified: '2026-07-20'
 name: Mesa
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:

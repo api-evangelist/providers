@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: CAIS operates a remote Model Context Protocol server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 as the first surface of the company's "Alts Engine" strategy and initially available to a se
@@ -192,8 +192,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/screenshots/cais-2026-08-07T162901.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://authservices.satispay.com/g_business/v1
@@ -65,7 +65,7 @@ apis:
   description: The Wally Services API from Satispay — 1 operation(s) for wally services.
   name: Satispay Wally Services API
   slug: satispay-wally-services-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Satispay Webhooks
@@ -157,7 +157,7 @@ common:
   url: security/satispay-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/satispay-mcp.yml
 - group: build
   title: ''
@@ -236,10 +236,6 @@ description: Satispay is an Italian mobile payment network and e-money instituti
   Java and Swift SDKs.
 image: https://www.satispay.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Satispay MCP Server
-  slug: satispay-mcp-server
 modified: '2026-08-26'
 name: Satispay
 nav: Providers
@@ -294,8 +290,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/screenshots/satispay-2026-09-02T154428.png
 security:

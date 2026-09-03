@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ arazzos:
 - description: Submit an eligibility request and poll until the task succeeds or fails.
   name: Element5 — Verify eligibility and await result
   slug: element5-verify-eligibility
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Element5 Webhooks
@@ -131,7 +131,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/element5-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: Element5 is a post-acute healthcare workflow automation platform that uses coordinated AI agents (Neos) to automate revenue cycle management (RCM) and back-office operations for home health, hospice, and palliative care providers. Its platform automates eligibility and benefit verification, prior authorization submission, claims processing, denials management, remittance and collections, and audit/compliance workflows, escalating only exceptions to human agents. Element5 exposes a public workflow API (Element5 API v2.2.0) protected by API keys that lets clients submit authorization and eligibility requests, process X12 270/271 eligibility transactions, upload and fetch file objects, and monitor long-running tasks via polling or webhook callbacks. The company is backed by Insight Partners and serves the post-acute care sector.
 image: https://cdn.prod.website-files.com/658c60c4ff902effa2174f77/668c43e2bfb9956a2995b419_e5-logo-gradient.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Element5 MCP Server
-  slug: element5-mcp-server
 modified: '2026-07-19'
 name: Element5
 nav: Providers
@@ -248,8 +244,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:

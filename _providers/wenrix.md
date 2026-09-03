@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Predictive price-assurance API that optimizes fares across EDIFACT, NDC, GDS, aggregators, and low-cost carriers, applying margin protection at both the search and post-booking stages.
@@ -125,8 +125,8 @@ score:
   previous_composite: 15.3
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wenrix/refs/heads/main/screenshots/wenrix-2026-09-02T170617.png
 security:

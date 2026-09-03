@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.linktoagi.com
@@ -62,7 +62,7 @@ apis:
   description: Unauthenticated service status and live pricing metadata.
   name: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -85,7 +85,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/linkagi-model-api-mcp.yml
 - group: other
   title: ''
@@ -191,10 +191,6 @@ created: '2026-08-04'
 description: 'LinkAGI is a Chinese third-party AI API relay (中转站) that fronts a pool of upstream model accounts behind a single host, api.linktoagi.com, and re-exposes them on three imitated vendor protocols: OpenAI-compatible Chat Completions and Responses, an Anthropic Messages-shaped route, and a Gemini generateContent-shaped route. It is sold to developers running Codex, Claude Code, Gemini CLI and desktop chat clients who want a CNY, prepaid, pay-as-you-go base-URL swap instead of a foreign card and a vendor account. A token belongs to a group (号池) that decides which models it can address and at what billing ratio; the live model and price table is published unauthenticated at /api/pricing. The service runs the open-source New API gateway and publishes a first-party OpenAPI 3.1, APIs.json, llms.txt and Postman collection, plus an unusually candid evidence boundary that marks its Anthropic and Gemini compatibility as advertised but unverified.'
 image: https://api.linktoagi.com/favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: LinkAGI Model API MCP Server
-  slug: linkagi-model-api-mcp-server
 modified: '2026-08-09'
 name: LinkAGI Model API
 nav: Providers
@@ -232,8 +228,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/screenshots/linkagi-model-api-2026-08-17T081030.png
 security:

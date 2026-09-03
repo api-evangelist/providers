@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://participants.evolv.ai
@@ -41,7 +45,7 @@ apis:
   description: The Evolv Participant API is the runtime edge API the client SDKs call to fetch a participant's experiment configuration and allocations for an environment, and to ingest context and behavioral events
   name: Evolv Participant API
   slug: evolv-participant-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: postman
   name: Evolv
@@ -97,7 +101,7 @@ common:
   url: changelog/evolv-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/evolv-mcp.yml
 - group: design
   title: ''
@@ -143,10 +147,6 @@ examples:
   slug: evolv-configuration-basic-response-example
 image: https://evolv.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Evolv MCP Server
-  slug: evolv-mcp-server
 modified: '2026-08-13'
 name: Evolv
 nav: Providers
@@ -187,8 +187,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/screenshots/evolv-2026-07-25T213820.png
 security:

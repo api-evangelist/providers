@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api-gcp.alice-bob.com/v1
@@ -54,7 +54,7 @@ apis:
   description: The Targets API from Alice Bob — 3 operation(s) for targets.
   name: Alice Bob Targets API
   slug: alice--bob-targets-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -71,7 +71,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alice--bob-mcp.yml
 - group: other
   title: ''
@@ -185,10 +185,6 @@ created: '2026-08-06'
 description: Alice & Bob is a quantum computing company headquartered in Paris with a presence in Boston, founded in 2020, building a universal fault-tolerant quantum computer on cat qubits — superconducting qubits that are intrinsically protected against bit-flip errors. Its commercial developer surface is Felis Cloud, a Quantum Computing as a Service (QCaaS) product that executes quantum circuits on Boson 4 cat-qubit QPUs hosted in Alice & Bob's own premises and on cloud-hosted physical and logical qubit emulators. Felis Cloud is reached through a public REST API (jobs, targets, availability and health) that accepts circuits in QIR format, and through the open-source qiskit-alice-bob-provider Qiskit provider that wraps it.
 image: https://avatars.githubusercontent.com/u/72556371?v=4
 layout: provider
-mcp_servers:
-- description: A CANDIDATE tool surface, not a real one. This file records what an MCP server over the Felis Cloud API would expose if Alice & Bob built one, derived one-to-one from the published OpenAPI operations.
-  name: Alice Bob MCP Server
-  slug: alice-bob-mcp-server
 modified: '2026-08-06'
 name: Alice Bob
 nav: Providers
@@ -230,8 +226,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/screenshots/alice--bob-2026-08-07T161203.png
 security:

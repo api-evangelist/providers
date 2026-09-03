@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: New South Wales Government Open Data
@@ -91,8 +91,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/screenshots/open-government-new-south-wales-2026-06-20T190811.png
 security:

@@ -1,15 +1,16 @@
 ---
 access_model:
-  confidence: high
-  generated: '2026-07-22'
-  label: Enterprise · Self-serve signup
+  confidence: medium
+  generated: '2026-09-03'
+  label: Enterprise
   method: derived
-  onboarding: self-serve
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 api_count: 7

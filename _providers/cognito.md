@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for identity verification, KYC, and AML watchlist/PEP screening. JSON:API media type (application/vnd.api+json), date-based versioning via the Cognito-Version header, and HTTP request-signatu
   name: Cognito Identity Verification API
   slug: cognito-identity-verification-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Cognito Flow Webhooks
@@ -143,7 +143,7 @@ common:
   url: security/cognito-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cognito-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: 'Cognito (cognitohq.com, operated by BlockScore, Inc.) is an identity verification, KYC, and AML compliance API provider that was backed by Y Combinator and Battery Ventures and acquired by Plaid in 2020. Its API turns a phone number, name, or ID document into a verified identity in under a minute, covering 209 countries and thousands of document types. Three developer products sit on one REST API: Identity (phone-first, frictionless verification), Flow (an all-in-one hosted / embeddable verification experience integrated in minutes with document and selfie checks), and Screening (watchlist, sanctions, and politically-exposed-person AML screening with daily re-scans across 20+ lists). The API is JSON:API (application/vnd.api+json), date-versioned via a Cognito-Version header, and authenticated with HTTP request signatures (HMAC-SHA256 over a digest of the body). It ships a sandbox host, signed webhooks, and client SDKs for seven languages.'
 image: https://cognitohq.com/wp-content/themes/cognito/images/cognito-share.jpg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface for the Cognito Identity Verification API, derived from documented operations. This is a governance starting point, not a published server.
-  name: Cognito MCP Server
-  slug: cognito-mcp-server
 modified: '2026-07-18'
 name: Cognito
 nav: Providers
@@ -199,8 +195,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognito/refs/heads/main/screenshots/cognito-2026-07-25T210011.png
 security:

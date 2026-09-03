@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1489
   human_in_the_loop: 37
@@ -1009,7 +1009,7 @@ apis:
   description: The zoho API from Zoca — 2 operation(s) for zoho.
   name: Zoca Zoho API
   slug: zoca-zoho-api
-artifact_total: 201
+artifact_total: 200
 asyncapis:
 - description: ''
   name: Zoca Webhooks
@@ -1117,7 +1117,7 @@ common:
   url: packages/zoca-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zoca-mcp.yml
 - group: agent
   title: ''
@@ -1140,10 +1140,6 @@ description: 'Zoca is an AI-powered marketing platform built for local beauty an
   together describing 2,624 operations across 2,267 paths. Those are the application''s own backend contracts rather than a product, and they ship with minified operationIds and untyped schemas.'
 image: https://cdn.prod.website-files.com/68137618ce08fc7361daa786/6824fbebce901ed009a1e222_3.avif
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zoca MCP Server
-  slug: zoca-mcp-server
 modified: '2026-08-13'
 name: Zoca
 nav: Providers
@@ -1193,8 +1189,8 @@ score:
       total: 193
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/screenshots/zoca-2026-08-17T083114.png
 security:

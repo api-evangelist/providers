@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://safetyculture.com'', ''status'': 301, ''note'': ''declared website redirects to https://mitti.com/ — a different registrable domain (safetyculture.com -> mitti.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the SafetyCulture platform — inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks. Bearer-token auth over HTTPS.
   name: SafetyCulture API
   slug: safetyculture-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Safetyculture Webhooks
@@ -151,7 +152,7 @@ common:
   url: cli/safetyculture-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/safetyculture-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +178,6 @@ created: '2026-07-17'
 description: SafetyCulture (formerly iAuditor) is a workplace operations and safety platform used by frontline teams to run inspections, capture and track issues, assign corrective actions, manage assets and sites, deliver training, and provision users. Its public REST API at https://api.safetyculture.io exposes more than 380 documented operations across inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks, secured with bearer API tokens (service-user and personal). Near real-time webhooks stream a rich catalog of inspection, action, incident, media, and training events, and SCIM 2.0 supports user provisioning via Microsoft Entra ID and Okta.
 image: https://safetyculture.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: SafetyCulture MCP Server
-  slug: safetyculture-mcp-server
 modified: '2026-07-21'
 name: SafetyCulture
 nav: Providers
@@ -220,8 +217,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/screenshots/safetyculture-2026-08-17T081708.png
 security:

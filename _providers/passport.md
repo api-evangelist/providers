@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.passportshipping.com/v3
@@ -78,7 +78,7 @@ apis:
   description: The Void API from Passport — 1 operation(s) for void.
   name: Passport Void API
   slug: passport-void-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -210,7 +210,7 @@ common:
   url: components/passport-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/passport-mcp.yml
 - group: agent
   title: ''
@@ -224,10 +224,6 @@ created: '2026-08-04'
 description: Passport (Passport Global, Inc.) is a cross-border ecommerce logistics and compliance platform founded in 2017 that helps direct-to-consumer brands sell and ship internationally to 190+ markets. The company combines its own international parcel network (Passport Shipping) with in-country enablement, marketplace management, trade and fiscal compliance, seller/merchant-of-record services, duty drawback, and returns. Its public REST API — the Passport Global API, currently version 3.15 — exposes landed-cost rating, shipping label generation and voiding, order submission and management, cart-level duty and tax quoting, currency-converted product pricing, and a tax-and-duty calculator, authenticated with an X-Access-Token API key issued by the Passport onboarding team.
 image: https://passportglobal.com/wp-content/uploads/2024/12/passport-international-shipping-compliance-localization.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Passport MCP Server
-  slug: passport-mcp-server
 modified: '2026-08-04'
 name: Passport
 nav: Providers
@@ -271,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:

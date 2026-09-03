@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-09-02'
+  score: 56.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -527,8 +527,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:

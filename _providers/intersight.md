@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - baseURL: https://intersight.com
@@ -857,7 +857,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -867,7 +867,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 57.6
+  previous_composite: 56.6
   provenance:
     conformance: derived
     contracts:
@@ -877,8 +877,8 @@ score:
       total: 117
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/screenshots/intersight-2026-09-02T145914.png
 security:

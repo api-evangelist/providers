@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Verify which partner or shop the calling API token resolves to.
   name: Postscript Identity API
   slug: postscript-identity-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Postscript Webhooks
@@ -147,7 +147,7 @@ common:
   url: components/postscript-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/postscript-mcp.yml
 - group: build
   title: ''
@@ -265,10 +265,6 @@ finops:
   slug: postscript-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postscript.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Postscript MCP Server
-  slug: postscript-mcp-server
 modified: '2026-08-13'
 name: Postscript
 nav: Providers
@@ -328,8 +324,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 46.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/screenshots/postscript-2026-06-20T192017.png
 security:

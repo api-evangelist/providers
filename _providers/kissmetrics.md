@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: Event ingest surface. Three query-string endpoints record an event (/e), set person properties (/s) and irreversibly alias two identities to one person (/a), accepting GET or POST with the product key
   name: Kissmetrics Tracking API (Beacon)
   slug: tracking-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Kissmetrics REST API — exports
@@ -118,7 +118,7 @@ common:
   url: packages/kissmetrics-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kissmetrics-mcp.yml
 - group: build
   title: ''
@@ -212,10 +212,6 @@ created: '2026-05-11'
 description: 'Kissmetrics is a product and behavioral analytics platform that tracks individual people across web and mobile rather than sessions, resolving every event to a persistent identity and surfacing funnels, cohorts, retention, paths, revenue and A/B test reports against that person-level history. Product, marketing and growth teams use it to understand user journeys and pinpoint conversion drop-off, and it now markets an LLM Acquisition report that measures human traffic arriving from AI assistants. Two programmable surfaces are published: a Basic-auth REST Query API at query.kissmetrics.io/v3 for getting data out — account metadata, asynchronous ad-hoc and saved queries, SQL, and CSV/S3 exports — and a query-string tracking beacon at trk.kissmetrics.io for getting events in, alongside first-party Ruby, PHP, Python, iOS and Android libraries and a hosted JavaScript snippet.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kissmetrics.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kissmetrics Documentation MCP
-  slug: kissmetrics-documentation-mcp
 modified: '2026-08-13'
 name: Kissmetrics
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:

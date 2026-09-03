@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -373,8 +373,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:

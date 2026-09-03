@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
   name: Insurely Open Finance API
   slug: insurely-open-finance-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Insurely Collection Webhooks
@@ -107,7 +107,7 @@ common:
   url: sandbox/insurely-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/insurely-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Insurely is a European open finance platform that provides real-time access to consented, structured financial data across investments, pensions, insurance, savings, and credit. Its Open Finance API lets financial institutions, fintechs, and AI companies create end users, capture user consent, run data collections (including PSD2 banking data), and retrieve normalized wealth data through a signal-and-fetch webhook model. The API pairs a static backend API key with short-lived per-user JWT session tokens, pins versions via a date-based Insurely-Version header, and runs on EU-only AWS infrastructure under ISO/IEC 27001 certification and GDPR compliance. Insurely is backed by Insight Partners.
 image: https://assets.insurely.com/images/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Insurely MCP Server
-  slug: insurely-mcp-server
 modified: '2026-07-19'
 name: Insurely
 nav: Providers
@@ -187,8 +183,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/screenshots/insurely-2026-07-25T222626.png
 security:

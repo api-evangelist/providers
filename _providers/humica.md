@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Employment Hero platform (behind humi.ca) — employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks. OAuth 2.0 authorization-code with PKCE; Bearer to
   name: Employment Hero API
   slug: employment-hero-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -103,7 +103,7 @@ common:
   url: data-model/humica-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/humica-mcp.yml
 - group: design
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: humi.ca is the Canadian HR, payroll, benefits, and hiring platform originally built as Humi and now operating as Employment Hero Canada (humi.ca redirects to employmenthero.com/en-ca). The platform is an all-in-one Employment Operating System covering HR management, payroll processing, applicant tracking (ATS), employee experience, learning, and Employer-of-Record hiring across 180+ countries. Employment Hero exposes a public REST API at api.employmenthero.com, secured with OAuth 2.0 authorization-code plus PKCE (mandatory from 2026-09-14), with documented resources spanning employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks, plus a partner integration marketplace (Xero, QuickBooks, Slack, Google Workspace, Microsoft 365, Square, Indeed, LinkedIn and more).
 image: https://employmenthero.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP server surface derived from the documented resource groups of the Employment Hero API (the platform behind humi.ca). No official hosted / remote MCP server was found. Tools below are a c
-  name: humi.ca MCP Server
-  slug: humica-mcp-server
 modified: '2026-07-19'
 name: humi.ca
 nav: Providers
@@ -185,8 +181,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/screenshots/humica-2026-07-25T221713.png
 security:

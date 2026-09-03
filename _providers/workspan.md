@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - baseURL: https://api-sandbox.workspan.com/oauth
@@ -166,7 +166,7 @@ apis:
   description: The View API from WorkSpan — 4 operation(s) for view.
   name: WorkSpan View API
   slug: workspan-view-api
-artifact_total: 58
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Workspan Webhooks
@@ -336,7 +336,7 @@ common:
   url: well-known/workspan-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/workspan-mcp.yml
 - group: agent
   title: ''
@@ -374,10 +374,6 @@ created: '2026-07-17'
 description: WorkSpan is an ecosystem business management platform that helps companies run co-sell, marketplace, and channel partnerships with cloud hyperscalers such as AWS, Microsoft, and Google Cloud. Its public APIs, published on an Azure API Management developer portal, cover OAuth 2.0 authentication, co-sell actions and CRM opportunity validation, bulk data loading, webhook event subscriptions, cloud marketplace offers and usage reporting, report data access, and SCIM 2.0 user provisioning.
 image: https://cdn.prod.website-files.com/6865a78843894cb2dbe5e6ad/69ce55e179374acfada1040a_workspan%20symbol.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: WorkSpan MCP Server
-  slug: workspan-mcp-server
 modified: '2026-07-21'
 name: WorkSpan
 nav: Providers
@@ -418,8 +414,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png
 security:

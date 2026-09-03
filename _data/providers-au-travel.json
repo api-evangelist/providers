@@ -16,7 +16,7 @@
      "slug": "webjet",
      "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png",
-     "score": 32.4,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -75,8 +75,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -128,8 +128,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -174,8 +174,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -231,8 +231,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -284,8 +284,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -330,8 +330,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 14.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -376,8 +376,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -422,8 +422,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -468,8 +468,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -514,8 +514,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Engagespot REST API enables sending multi-channel notifications to users, listing and deleting notification records, managing user accounts and preferences, triggering and canceling notification w
@@ -147,8 +147,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespot/refs/heads/main/screenshots/engagespot-2026-06-20T180716.png
 security:

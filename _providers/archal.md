@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-09-02'
+  score: 31.0
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -72,7 +72,7 @@ arazzos:
 - description: Provision a hosted clone session, POST a request into the cloned service through the runtime proxy, read the resulting trace, then stop the session.
   name: Create an Archal clone session, drive it, and read the trace
   slug: archal-create-and-evaluate
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: conformance/archal-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/archal-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Archal is a Y Combinator (S26) company building QA and an improvement loop for AI agents. It provisions hosted, service-shaped CLONES of real SaaS services — GitHub, Slack, Stripe, Jira, Linear, Supabase, Ramp, HubSpot, Datadog, Discord, Google Workspace and more — so an agent that can send emails, change code repositories, or call third-party APIs is tested and scored before it touches production. Clones hold state, enforce referential integrity, and return authentic error shapes, unlike traditional mocks. Its Autoloop turns real production agent traces into reproducible failures and can open a fix PR. Archal ships an npm CLI and Vitest SDK, a device-auth login, a runtime clone proxy, and per-session MCP endpoints.
 image: https://docs.archal.ai/logo/dark.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Archal MCP Server
-  slug: archal-mcp-server
 modified: '2026-07-18'
 name: Archal
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/screenshots/archal-2026-07-25T201020.png
 security:

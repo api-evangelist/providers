@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 35.6
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for national sex-offender screening; API-key authenticated, JSON responses, synchronous and asynchronous search across all 58 US registries.
@@ -86,6 +111,49 @@ rate_limits:
 - limit_count: 0
   name: Offendersearch Rate Limits
   slug: offendersearch-rate-limits
+score:
+  band: developing
+  composite: 48.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 37.2
+  facets:
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 56.5
+    discoverability: 59.3
+    governance: 4.5
+    operational_transparency: 7.9
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: never_enriched
+  previous_composite: 10.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/offendersearch/refs/heads/main/screenshots/offendersearch-2026-09-02T150825.png
 security:
 - kind: authentication

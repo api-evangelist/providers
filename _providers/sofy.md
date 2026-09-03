@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://public.sofy.ai
@@ -46,7 +46,7 @@ apis:
   description: Trigger, monitor, and abort scheduled test runs.
   name: SOFY Scheduled Runs API
   slug: sofy-scheduled-runs-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Sofy Webhooks
@@ -124,7 +124,7 @@ common:
   url: data-model/sofy-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sofy-mcp.yml
 - group: agent
   title: ''
@@ -170,10 +170,6 @@ created: '2026-07-17'
 description: 'SOFY is an AI-powered software testing platform that autonomously writes, executes, and maintains no-code tests across mobile, web, API, and enterprise applications. Testers describe intent in natural language and SOFY''s AI agents generate and self-heal the automation as the app changes, running against 2,000+ real devices in the cloud plus web and ERP surfaces (SAP, Dynamics 365). SOFY exposes a public REST API at https://public.sofy.ai for CI/CD automation (GitHub Actions, GitLab, Jenkins, Azure DevOps): upload application builds, trigger scheduled test runs, poll status, and abort runs, with outbound webhooks on run completion. SOFY is a portfolio company of 500 Global.'
 image: https://web.sofy.ai/assets/icons/sofy-icon.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the SOFY Public API, derived one-tool-per-operation from the captured OpenAPI. SOFY publishes no official hosted/remote MCP server as of this capture; this is a governance sta
-  name: SOFY MCP Server
-  slug: sofy-mcp-server
 modified: '2026-07-21'
 name: SOFY
 nav: Providers
@@ -214,8 +210,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/screenshots/sofy-2026-08-17T081948.png
 security:

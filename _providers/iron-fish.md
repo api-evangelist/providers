@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Hosted public REST API (the block-explorer and faucet backend) exposing blocks, transactions, and network data with a list/object JSON envelope and cursor-style pagination. No authentication required '
@@ -155,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/screenshots/iron-fish-2026-07-25T222911.png
 security:

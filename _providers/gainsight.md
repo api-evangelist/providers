@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -327,6 +327,10 @@ collections:
   name: Gainsight CS Bulk Accounts Users API
   slug: open-gainsight-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gainsight-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -635,7 +639,7 @@ overview: 'Gainsight publishes 29 APIs on the [APIs.io](https://apis.io/) networ
   The Gainsight catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gainsight''s developer surface includes authentication, developer portal, release notes, engineering blog, and 21 more developer resources.'
+  Gainsight''s developer surface includes authentication, developer portal, release notes, engineering blog, and 22 more developer resources.'
 plans:
 - name: Gainsight Plans Pricing
   plan_count: 2
@@ -660,7 +664,7 @@ score:
   band: developing
   composite: 46.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 69.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -683,11 +687,10 @@ score:
       marker_coverage: 0.0
       total: 29
   regulatory:
-    applies: false
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/screenshots/gainsight-2026-07-25T215357.png
 security:

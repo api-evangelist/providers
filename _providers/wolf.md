@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Multi-tenant REST API for building client- and job-seeker-facing staffing interfaces on the Wolf platform: authentication, jobs/shifts, tenders, availability, timesheets, notifications, job-seeker and'
   name: Wolf Staffing API
   slug: wolf-staffing-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -85,10 +85,6 @@ created: '2026-07-17'
 description: Wolf (fromwolf.com) is a white-label, multi-tenant staffing and gig-work platform that lets staffing companies run their own branded on-demand workforce. Its API coordinates job seekers, clients, campaigns (client orders), shifts, tenders (a seeker's request to work a shift), applications, timesheets, availability, notifications, and in-app chat — everything needed to build a client- or worker-facing staffing interface on top of the Wolf backend. Each tenant runs on its own database and authenticates with a tenant key plus a platform API key or per-user authentication token. Wolf was surfaced as a Techstars portfolio company and profiled by the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wolf.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP (Model Context Protocol) server tool surface for the Wolf staffing-platform API, derived from the documented operations. No official hosted/remote Wolf MCP server was found. This is a pr
-  name: Wolf MCP Server
-  slug: wolf-mcp-server
 modified: '2026-07-21'
 name: Wolf
 nav: Providers
@@ -120,8 +116,8 @@ score:
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/screenshots/wolf-2026-09-02T170903.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API described on the public Rentsync Partners portal (branded "LIFT System API") as giving partners "access to the underlying data structures of the LIFT System" with "detailed Canadian rental in
@@ -138,8 +138,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentals-ca/refs/heads/main/screenshots/rentals-ca-2026-09-02T153431.png
 security:

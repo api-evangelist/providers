@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST/JSON API for multi-source vehicle auction inventory, search, facets, auction detail and price history, VIN history, market intel, classifieds, and import cost calculation. API key required for li
@@ -196,7 +196,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 21.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -206,7 +206,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 63.2
-  previous_composite: 31.2
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -216,9 +216,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/screenshots/thecarapi-2026-09-02T163425.png
 security:
 - kind: authentication

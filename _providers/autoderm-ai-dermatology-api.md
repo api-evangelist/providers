@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
   description: The utils API from Autoderm – AI Dermatology API — 1 operation(s) for utils.
   name: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -86,7 +86,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/autoderm-ai-dermatology-api-mcp.yml
 - group: company
   title: ''
@@ -293,10 +293,6 @@ json_schemas:
   property_count: 2
   slug: autoderm-ai-dermatology-api-Version
 layout: provider
-mcp_servers:
-- description: Autoderm publishes NO hosted or remote MCP server. This manifest is a CANDIDATE tool surface derived one-to-one from the operations in Autoderm's own OpenAPI — it describes what an MCP server for this
-  name: Autoderm – AI Dermatology API MCP Server
-  slug: autoderm-ai-dermatology-api-mcp-server
 modified: '2026-08-09'
 name: Autoderm – AI Dermatology API
 nav: Providers
@@ -349,8 +345,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/screenshots/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:

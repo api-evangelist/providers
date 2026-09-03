@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.butterflymx.com
@@ -109,7 +109,7 @@ apis:
   description: The Virtual Keys API from ButterflyMX — 2 operation(s) for virtual keys.
   name: ButterflyMX Virtual Keys API
   slug: butterflymx-virtual-keys-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Butterflymx Webhooks
@@ -167,7 +167,7 @@ common:
   url: capabilities/butterflymx-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/butterflymx-mcp.yml
 - group: other
   title: ''
@@ -306,10 +306,6 @@ description: 'ButterflyMX is a property-access technology company whose smart vi
   sandbox replica for pre-production testing.'
 image: https://butterflymx.com/wp-content/uploads/2023/10/gated-community-intercom.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: ButterflyMX MCP Server
-  slug: butterflymx-mcp-server
 modified: '2026-08-08'
 name: ButterflyMX
 nav: Providers
@@ -355,8 +351,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/screenshots/butterflymx-2026-08-17T080748.png
 security:

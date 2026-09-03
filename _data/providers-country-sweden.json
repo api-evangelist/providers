@@ -28,8 +28,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -91,8 +91,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -107,13 +107,13 @@
        }
       ]
      },
-     "agent_score": 26.9,
+     "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "documented",
@@ -149,8 +149,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -158,13 +158,13 @@
       "score": 67.5,
       "matched_via": "tags"
      },
-     "agent_score": 43.1,
+     "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -195,58 +195,6 @@
    "shown": 8,
    "providers": [
     {
-     "name": "Telia Company",
-     "slug": "telia",
-     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png",
-     "score": 52.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 62.4,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 67.3,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 81.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Uppsala University",
      "slug": "uppsala",
      "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and a public research university ranked #103 in the QS World University Rankings 2025. It operates no central developer portal and no institution-wide open-data portal — data.uu.se, opendata.uu.se and api.uu.se do not resolve — so its programmable footprint is decentralized, sitting inside individual research infrastructures, the university library, and IT services. Four surfaces were verified live as institution-operated: the Uppsala Conflict Data Program (UCDP) REST API at ucdpapi.pcr.uu.se, which is the university's most substantial public API and requires a free token; the Norse World REST-API at norseworld.nordiska.uu.se, returning JSON, GeoJSON and JSON-LD; the DiVA OAI-PMH endpoint at uu.diva-portal.org, notable because Uppsala University Library builds and hosts the DiVA platform for the whole Swedish DiVA consortium rather than renting it from a vendor; and the university's SWAMID-registered Shibboleth SAML 2.0 identity provider at weblogin.uu.se, which publishes machine-readable federation metadata. No Figshare, Elsevier Pure, Ex Libris or Dataverse contract is attributed to Uppsala in this profile.",
@@ -264,8 +212,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -296,7 +244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "University of Gothenburg",
@@ -316,8 +264,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -348,7 +296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Safello",
@@ -368,8 +316,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -400,6 +348,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 6
+    },
+    {
+     "name": "Telia Company",
+     "slug": "telia",
+     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 62.4,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 67.3,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 81.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 7
     },
     {
@@ -420,8 +420,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -472,8 +472,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -524,8 +524,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -576,8 +576,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -631,8 +631,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -676,8 +676,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -711,63 +711,11 @@
      "rank": 13
     },
     {
-     "name": "46elks",
-     "slug": "46elks",
-     "description": "46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic authentication with an API username and password, and is billed pay-as-you-go.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png",
-     "score": 35.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 51.6,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 16.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "Aduna",
      "slug": "aduna",
      "description": "Aduna is the Ericsson-led network API joint venture — a 50:50 company owned half by Ericsson (Stockholm, Sweden) and half by twelve global communications service providers including AT&T, Bharti Airtel, Deutsche Telekom, KDDI, Orange, Reliance Jio, Singtel, Telefonica, Telstra, T-Mobile, Verizon and Vodafone, with e& added later as an equity partner. Announced from Stockholm and incorporated as Aduna Global, LLC, it exists to aggregate CAMARA-standardised mobile network APIs from many carriers into one commercial channel so that developers do not have to negotiate operator by operator. Aduna sits in the exposure layer of the telecom value chain: it does not own spectrum and it does not sell to developers directly at scale — it aggregates operator capability and reaches the market through partner platforms (Google Cloud, Infobip, Sinch, Vonage, Microsoft Azure and the Azure Marketplace, Comviva on AWS, Bridge Alliance). Its API posture is honestly partner-gated. The public website documents an API catalogue in prose but publishes no OpenAPI, no sandbox and no self-serve signup; the developer documentation at docs.adunaglobal.com redirects every path to an Auth0 login wall at portal.adunaglobal.com, and the SDK onboarding instruction is to contact Aduna Global. The one genuinely open surface is a small set of source-available first-party SDK repositories on GitHub for CAMARA Number Verification v2, which are the only place Aduna's real endpoints, OAuth scopes and CIBA flow are publicly visible.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/screenshots/aduna-2026-08-07T160929.png",
-     "score": 35.2,
+     "score": 35.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -780,8 +728,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -812,6 +760,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 14
+    },
+    {
+     "name": "46elks",
+     "slug": "46elks",
+     "description": "46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic authentication with an API username and password, and is billed pay-as-you-go.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 51.6,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 16.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 15
     },
     {
@@ -819,7 +819,7 @@
      "slug": "eyevinn-technology",
      "description": "Eyevinn Technology is a Stockholm, Sweden based video streaming consultancy and open source company specializing in cloud-native video infrastructure, HLS and MPEG-DASH packaging, FAST channels, WebRTC ingest (WHIP/WHEP), server-side ad insertion (SSAI), broadcast intercom, and player analytics. The company operates one of the largest video-focused open source portfolios on GitHub (300+ repositories across the Eyevinn and EyevinnOSC orgs) and runs Eyevinn Open Source Cloud (OSC), a managed multi-tenant SaaS platform that packages 180+ open source projects (databases, media tools, developer tools, AI runtimes, productivity apps) into one-click deployments with a token-based consumption model, a Personal Access Token (PAT) authenticated REST API, and client SDKs for TypeScript, Go, and Terraform. Eyevinn shares OSC revenue with the maintainers of the open source projects hosted on the platform, positioning OSC as a \"Builder Economy\" distribution channel for open source rather than a vendor-lock-in PaaS.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eyevinn-technology/refs/heads/main/screenshots/eyevinn-technology-2026-06-20T180953.png",
-     "score": 32.9,
+     "score": 31.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -832,8 +832,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -877,8 +877,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -922,8 +922,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -967,8 +967,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1012,8 +1012,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1067,8 +1067,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1126,8 +1126,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1178,8 +1178,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1229,8 +1229,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1281,8 +1281,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1332,8 +1332,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1395,8 +1395,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1440,8 +1440,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1492,8 +1492,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1543,8 +1543,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1588,8 +1588,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1633,8 +1633,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1685,8 +1685,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1737,8 +1737,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1782,8 +1782,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1837,8 +1837,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1882,8 +1882,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1934,8 +1934,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1986,8 +1986,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2031,8 +2031,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2083,8 +2083,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2128,8 +2128,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2173,8 +2173,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2218,8 +2218,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2270,8 +2270,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2322,8 +2322,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2374,8 +2374,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2426,8 +2426,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2478,8 +2478,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2530,8 +2530,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2575,8 +2575,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2620,8 +2620,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2672,8 +2672,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2716,8 +2716,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2761,8 +2761,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2806,8 +2806,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2851,8 +2851,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2903,8 +2903,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2947,8 +2947,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2991,8 +2991,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3036,8 +3036,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3081,8 +3081,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3126,8 +3126,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3178,8 +3178,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3229,8 +3229,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

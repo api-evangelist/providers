@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST APIs for embedded insurance distribution — lookups/master data, quotes, proposals and payments — built to OpenAPI 3.0 (Swagger), secured with Bearer access tokens, and testable in a sandbox "Deve
@@ -170,8 +170,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turtlemint/refs/heads/main/screenshots/turtlemint-2026-09-02T164549.png
 security:

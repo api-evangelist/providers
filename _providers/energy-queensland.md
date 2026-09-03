@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
   description: Energy Plan endpoints
   name: Energy Queensland Energy Plans API
   slug: energy-queensland-energy-plans-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: CDR Common API
@@ -114,7 +114,7 @@ common:
   url: skills/energy-queensland-consume-accredited-energy-data.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/energy-queensland-mcp.yml
 - group: agent
   title: ''
@@ -233,10 +233,6 @@ description: 'Energy Queensland Limited is the Queensland Government-owned corpo
   https://cdr.energymadeeasy.gov.au/ergon, both of which answered HTTP 200 to anonymous, standards-conformant calls on 2026-07-27, returning 36 REGULATED electricity plans and a CDS discovery status of OK. The DISTRIBUTION half - the poles and wires - is not a CDR data holder at all, publishes no developer portal, no open-data API and no machine-readable contract, and has no developer., developers., api., docs. or data. subdomain in DNS on energyq.com.au, ergon.com.au or energex.com.au. Its network data reaches the public as PDF and XLSX planning reports, registration-free but non-programmatic map viewers, and exactly one open-licensed spatial dataset deposited on the Queensland Government''s CKAN portal. The split is the finding: a mandate transplanted from banking produced a real, anonymous, standardised API on the regulated retail side and changed nothing whatsoever on the network side it never touched.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/energy-queensland.png
 layout: provider
-mcp_servers:
-- description: A candidate MCP tool surface for the Ergon Energy Retail CDR APIs. Four tools are anonymously callable today by anyone; the remaining twenty-three would require the MCP server itself to hold ACCC data
-  name: Energy Queensland MCP Server
-  slug: energy-queensland-mcp-server
 modified: '2026-07-27'
 name: Energy Queensland
 nav: Providers
@@ -290,8 +286,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:

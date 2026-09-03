@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.8
-  scored_at: '2026-09-02'
+  score: 7.9
+  scored_at: '2026-09-03'
 api_count: 18
 apis:
 - description: 'REST API for Inspur Cloud''s elastic compute service: create, start, stop, reboot, resize, rebuild and delete cloud servers, manage private images, security-group membership, attached volumes, SSH key '
@@ -92,7 +92,7 @@ apis:
 - description: Inspur Cloud's API Gateway product, which lets customers publish their own APIs with Swagger import/export, traffic control, circuit breaking, anti-replay, IAM AK/SK and token auth plugins, mock and f
   name: Inspur Cloud API Gateway (APIG)
   slug: inspur-cloud-api-gateway-apig
-artifact_total: 24
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -200,7 +200,7 @@ common:
   url: rate-limits/inspur-cloud-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inspur-cloud-mcp.yml
 - group: agent
   title: ''
@@ -214,10 +214,6 @@ created: '2026-08-23'
 description: 'Inspur Cloud (浪潮云) is the public-cloud arm of the Chinese IT conglomerate Inspur Group, operating from cloud.inspur.com across the cn-north-3 (华北三), cn-south-1 (华南一) and cn-east-1 (华东一) regions. It publishes a broad IaaS/PaaS catalog — 94 products documented in its GitBook help centre — of which at least 16 ship a public HTTP API reference covering elastic compute (ECS), bare metal (CPS), block storage (EBS), backup (CBS), VPC networking, elastic IP, load balancing, IAM, RDS for MySQL, time-series database, container engine, blockchain and an S3-compatible object storage service (OSS). APIs are authenticated with an AK/SK request signature (x-secret-id / x-sign / x-time / x-random headers) or an IAM-issued bearer token. No OpenAPI, AsyncAPI or other machine-readable contract is published: the entire surface is hand-written HTML reference documentation in Simplified Chinese.'
 image: https://cloud.inspur.com/cn/template/images/favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Inspur Cloud MCP Server
-  slug: inspur-cloud-mcp-server
 modified: '2026-08-23'
 name: Inspur Cloud
 nav: Providers
@@ -257,8 +253,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/screenshots/inspur-cloud-2026-09-02T150016.png
 security:

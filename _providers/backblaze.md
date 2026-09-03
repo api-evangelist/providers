@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ arazzos:
 - description: Authorize, request a bucket upload URL, then upload a single file to that bucket.
   name: Backblaze Upload a File
   slug: backblaze-upload-file-workflow
-artifact_total: 182
+artifact_total: 181
 collections:
 - collection_type: postman
   name: Backblaze B2 Native API
@@ -146,7 +146,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/backblaze-mcp.yml
 - group: other
   title: ''
@@ -769,10 +769,6 @@ jsonld:
   property_count: 68
   slug: backblaze-b2-context
 layout: provider
-mcp_servers:
-- description: 'Backblaze does not operate an official hosted/remote MCP server. Several community MCP servers wrap B2 (e.g. BraveRam/backblaze-mcp on Glama, a Pipedream connector), but none are first-party. This is '
-  name: Backblaze MCP Server
-  slug: backblaze-mcp-server
 modified: '2026-06-20'
 name: Backblaze
 nav: Providers
@@ -817,13 +813,13 @@ rules:
   slug: backblaze-spectral-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 47.4
   coverage:
     artifact_dirs: 30
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -833,9 +829,6 @@ score:
     discoverability: 55.6
     governance: 33.3
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -846,8 +839,8 @@ score:
       marker_coverage: 100.0
       total: 7
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -282,6 +282,10 @@ collections:
   name: Rillet Accounting API Key Vendors API
   slug: open-rillet-vendors-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rillet-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -428,7 +432,7 @@ overview: 'Rillet publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
   The Rillet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rillet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
+  Rillet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 26 more developer resources.'
 random_paper: 1
 scopes:
 - name: Rillet Scopes
@@ -439,7 +443,7 @@ score:
   band: developing
   composite: 46.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -464,8 +468,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/screenshots/rillet-2026-08-17T081608.png
 security:

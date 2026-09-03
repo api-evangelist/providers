@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -402,8 +402,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/screenshots/ntropy-2026-08-07T185714.png
 security:

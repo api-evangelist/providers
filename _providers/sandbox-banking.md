@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://sandboxbanking.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.ncino.com/solutions/integrations — a different registrable domain (sandboxbanking.com -> ncino.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -270,8 +271,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/screenshots/sandbox-banking-2026-06-20T193408.png
 security:

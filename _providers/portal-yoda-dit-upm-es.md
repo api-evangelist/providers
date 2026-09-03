@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: CKAN API for UPM YODA Open Data Portal, ~201 datasets.
@@ -118,8 +118,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/screenshots/portal-yoda-dit-upm-es-2026-06-20T191931.png
 security:

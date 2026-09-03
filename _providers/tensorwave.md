@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://gpt-oss.cray-lm.com
@@ -62,7 +62,7 @@ apis:
   description: Megatron-LM training jobs, chunked dataset upload, checkpoints and Hugging Face publishing.
   name: TensorWave Training API
   slug: tensorwave-training-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -101,7 +101,7 @@ common:
   url: skills/tensorwave-batch-inference.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tensorwave-mcp.yml
 - group: other
   title: ''
@@ -203,10 +203,6 @@ created: '2026-08-02'
 description: TensorWave is a Las Vegas-headquartered AI cloud provider that builds and operates bare-metal GPU infrastructure exclusively on AMD Instinct accelerators (MI300X, MI325X, MI355X and MI455X) with AMD's open ROCm software stack. The company sells dedicated GPU nodes, high-speed network storage, and managed Slurm and Kubernetes clusters for AI model training, fine-tuning and inference, with observability, job scheduling, alerting and expert support layered on top. Access to the compute platform itself is delivered over SSH, Slurm and Kubernetes rather than a public REST control-plane API. TensorWave's public API surface is ScalarLM, the CC0-licensed unified training-and-inference stack it maintains and sponsors alongside RelationalAI, which exposes an OpenAI-compatible inference endpoint backed by vLLM together with a Megatron-LM training surface from a single deployment.
 image: https://cdn.builder.io/api/v1/image/assets%2Ff941d509b8ea45f8972dd215996c7055%2Fdb1d4443bf134999962dbc3ab17eb3e6
 layout: provider
-mcp_servers:
-- description: ''
-  name: TensorWave MCP Server
-  slug: tensorwave-mcp-server
 modified: '2026-08-02'
 name: TensorWave
 nav: Providers
@@ -218,13 +214,13 @@ overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 10
 score:
   band: developing
-  composite: 45.3
+  composite: 47.6
   coverage:
     artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -234,9 +230,6 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 45.3
   provenance:
     conformance: first-party
@@ -247,8 +240,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/screenshots/tensorwave-2026-08-17T082314.png
 security:

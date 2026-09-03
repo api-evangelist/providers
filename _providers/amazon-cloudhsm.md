@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: API for creating and managing CloudHSM clusters and HSM instances for dedicated hardware-based cryptographic key management.
   name: Amazon CloudHSM API
   slug: amazon-cloudhsm-api
-artifact_total: 21
+artifact_total: 20
 common:
 - group: auth
   title: ''
@@ -134,7 +134,7 @@ common:
   url: well-known/amazon-cloudhsm-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-cloudhsm-mcp.yml
 - group: agent
   title: ''
@@ -178,10 +178,6 @@ integrations:
 - description: Audit HSM management API calls via CloudTrail.
   name: AWS CloudTrail
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CloudHSM MCP Server
-  slug: amazon-cloudhsm-mcp-server
 modified: '2026-06-20'
 name: Amazon CloudHSM
 nav: Providers
@@ -227,8 +223,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/screenshots/amazon-cloudhsm-2026-07-25T195946.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://paxcheck-app-dev.staging.zamna.com
@@ -56,7 +56,7 @@ apis:
   description: The Start2 API from Zamna — 1 operation(s) for start2.
   name: Zamna Start2 API
   slug: zamna-start2-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -104,7 +104,7 @@ common:
   url: https://dev.zamna.com/start/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zamna-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Zamna is a GDPR-compliant digital identity and passenger-data verification platform for the aviation and travel industry, used by airlines, airports, ground handlers and governments to verify passport, visa and health documents before a traveler reaches the airport. Its Ready To Fly (PaxCheck) API stitches passenger sessions, document recognition and consent capture into airline systems, while the Checklist API resolves live travel rules into localized, per-passenger requirements and a pluggable WebView drives the MMB/OLCI flows. Zamna has verified over 60 million travel identities across 179+ countries and integrates with airline PSS/DCS platforms such as Amadeus Altea, Navitaire and Sabre.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zamna.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zamna MCP Server
-  slug: zamna-mcp-server
 modified: '2026-07-21'
 name: Zamna
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/screenshots/zamna-2026-09-02T171446.png
 security:

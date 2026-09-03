@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.loudcrowd.com
@@ -227,7 +227,7 @@ common:
   url: well-known/loudcrowd-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer-Candidate
+  type: X-MCPServerCandidate
   url: mcp/loudcrowd-mcp.yml
 created: '2026-08-25'
 description: 'LoudCrowd is a creator-commerce platform for consumer brands, combining an influencer/ambassador and affiliate marketing platform, on-domain Creator Storefronts, a ShopWith AI shopping concierge for product detail pages, AI Influencer Agents for discovery, outreach and moderation, and Creator GEO for turning earned creator content into AI-recommendable assets. For developers it publishes a small, purpose-built OpenAPI 3.0 surface across three services: a read-only account-scoped Brand API for pulling program-attributed orders, an HMAC-SHA256-signed Attribution Events API for pushing order create/update/cancel and refund events plus product-catalog batches from custom and headless commerce stacks, and a Creator Storefronts data API used in place of the hosted storefront web components. A browser SDK loaded from pub.loudcrowd.com renders storefront and influencer-list app blocks and performs first-party affiliate attribution on Shopify, Salesforce Commerce Cloud and custom sites.'
@@ -281,8 +281,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/screenshots/loudcrowd-2026-09-02T150320.png
 security:

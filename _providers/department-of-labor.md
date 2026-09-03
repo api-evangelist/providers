@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: The DOL Open Data API v4 is the Department of Labor's modernized REST API replacing the retired developer.dol.gov APIv1 and APIv2. It is served from the DOL Data Portal at dataportal.dol.gov and expos
@@ -191,8 +191,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-labor/refs/heads/main/screenshots/department-of-labor-2026-06-20T175920.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
   description: Operations for requesting, describing, and managing SSL/TLS certificates
   name: Amazon Certificate Manager Certificates API
   slug: amazon-certificate-manager-certificates-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -58,7 +58,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-certificate-manager-mcp.yml
 - group: other
   title: ''
@@ -253,10 +253,6 @@ jsonld:
   property_count: 8
   slug: amazon-certificate-manager-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Certificate Manager MCP Server
-  slug: amazon-certificate-manager-mcp-server
 modified: '2026-06-20'
 name: Amazon Certificate Manager
 nav: Providers
@@ -319,8 +315,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/screenshots/amazon-certificate-manager-2026-07-25T195941.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Resources API from MollyBox — 4 operation(s) for resources.
   name: MollyBox Resources API
   slug: mollybox-resources-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ common:
   url: conformance/mollybox-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mollybox-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: MollyBox was added to the API Evangelist network as a consumer-sector portfolio lead of DCM Ventures. The domain mollybox.cn currently serves a live "Arcflow API" (v0.1.0) — a single-user, self-hosted resource-capture service built on FastAPI/uvicorn. It captures URL resources (auto-classified as github, x, wechat, or web), enriches their metadata, and tracks each item through a learning workflow (inbox, next, doing, done, archived), plus health and identity checks. All operations except the public health endpoint require an HTTP Bearer token. This profile reflects the real API discovered at the domain during enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mollybox.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MollyBox MCP Server
-  slug: mollybox-mcp-server
 modified: '2026-07-20'
 name: MollyBox
 nav: Providers
@@ -175,8 +171,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

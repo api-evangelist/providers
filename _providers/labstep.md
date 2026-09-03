@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Labstep REST API exposes the same generic entity surface the Labstep application uses — experiments, protocols, resources, resource items, locations, devices, device data, orders, metadata, files,
@@ -197,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/screenshots/labstep-2026-07-25T224425.png
 security:

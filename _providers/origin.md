@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Trades API from Origin — 3 operation(s) for trades.
   name: Origin Trades API
   slug: origin-trades-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -63,7 +63,7 @@ common:
   url: capabilities/origin-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/origin-mcp.yml
 - group: auth
   title: ''
@@ -167,10 +167,6 @@ examples:
   slug: origin-termsheet-zero_coupon
 image: https://originmarkets.com/universal/svg/social-accounts.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Origin MCP Server
-  slug: origin-mcp-server
 modified: '2026-07-20'
 name: Origin
 nav: Providers
@@ -209,8 +205,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/screenshots/origin-2026-08-07T190930.png
 security:

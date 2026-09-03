@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.splashthat.com
@@ -41,7 +41,7 @@ apis:
   description: REST API for the Splash event marketing platform. Enables programmatic management of events, guest (GroupContact) records, organization-level contacts, unsubscribes, event approval workflows, team man
   name: Splash API
   slug: splash-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Splashthat Webhooks
@@ -141,7 +141,7 @@ common:
   url: packages/splashthat-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/splashthat-mcp.yml
 - group: design
   title: ''
@@ -164,10 +164,6 @@ jsonld:
   property_count: 15
   slug: splashthat-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Splash MCP Server
-  slug: splash-mcp-server
 modified: '2026-08-13'
 name: Splash
 nav: Providers
@@ -215,8 +211,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/screenshots/splashthat-2026-06-20T194323.png
 security:

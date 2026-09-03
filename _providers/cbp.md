@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: A web service that allows certified third-party applications to query Electronic Export Information (EEI) filings previously submitted to AESDirect via HTTP POST. Returns shipment status and filing da
@@ -160,8 +160,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cbp/refs/heads/main/screenshots/cbp-2026-06-20T174055.png
 security:

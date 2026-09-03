@@ -6,6 +6,7 @@ access_model:
   pricing: unknown
   public: true
   source:
+  - '{''url'': ''https://www.florafauna.ai'', ''status'': 301, ''note'': ''declared website redirects to https://flora.ai/ — a different registrable domain (florafauna.ai -> flora.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   - https://developer.flora.ai/api
   - https://docs.flora.ai/plans-and-billing/pricing
   trial: true
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
@@ -359,8 +360,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
 security:

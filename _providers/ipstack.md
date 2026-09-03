@@ -32,13 +32,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
-api_count: 1
+  scored_at: '2026-09-03'
+api_count: 2
 apis:
 - description: Locate and identify website visitors by IP address
   name: IPstack
   slug: ipstack
-artifact_total: 2
+- description: Locate and identify website visitors by IP address
+  name: ipstack
+  slug: ipstack
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -56,6 +59,10 @@ common:
   title: ''
   type: Blog
   url: https://blog.apilayer.com/feed/
+- group: company
+  title: ''
+  type: Website
+  url: https://ipstack.com/
 created: '2026-05-28'
 description: Locate and identify website visitors by IP address
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ipstack.png
@@ -64,10 +71,10 @@ modified: '2026-05-28'
 name: IPstack
 nav: Providers
 network: true
-overview: 'IPstack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
+overview: 'IPstack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
 
 
-  IPstack''s developer surface includes engineering blog and 3 more developer resources.'
+  IPstack''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 16
 score:
   band: minimal
@@ -88,8 +95,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipstack/refs/heads/main/screenshots/ipstack-2026-06-20T183602.png
 security:

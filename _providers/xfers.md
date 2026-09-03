@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://www.xfers.io/api
@@ -136,7 +136,7 @@ apis:
   description: API for Withdrawal
   name: Xfers Withdraw API
   slug: xfers-withdraw-api
-artifact_total: 44
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -204,7 +204,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/xfers-mcp.yml
 - group: auth
   title: ''
@@ -250,10 +250,6 @@ created: '2026-07-17'
 description: Xfers is a Southeast Asian payments infrastructure company founded in Singapore in 2015 and backed by 500 Global, providing bank-transfer collection, payouts, escrow-style wallets, and lending disbursement APIs across Singapore and Indonesia. Xfers merged with Payfazz in 2022 to form the Fazz Financial Group, with its regulated Singapore dollar stablecoin and payments business continuing as StraitsX; the Xfers v3 API documentation for Singapore and Indonesia remains published at docs.xfers.io.
 image: https://docs.xfers.io/Xfers_X_Blue_Small.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Xfers MCP Server
-  slug: xfers-mcp-server
 modified: '2026-07-21'
 name: Xfers
 nav: Providers
@@ -295,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/screenshots/xfers-2026-09-02T171124.png
 security:

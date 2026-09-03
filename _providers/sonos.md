@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Cloud-based REST API for controlling Sonos players and groups: playback, volume, grouping, favorites, playlists, home theater, audio clips, and cloud-queue playback sessions, with OAuth 2.0 auth and e'
   name: Sonos Control API
   slug: sonos-control-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Sonos Events Webhooks
@@ -119,7 +119,7 @@ common:
   url: data-model/sonos-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sonos-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Sonos is a consumer audio company whose wireless home-sound systems are controlled programmatically through the Sonos Control API — a cloud-based REST API that lets third-party integrations discover a household's players and groups and drive playback, volume, grouping, favorites, playlists, home theater options, audio clips, and cloud-queue sessions. The API authenticates with OAuth 2.0 (authorization code grant) using the single playback-control-all scope, is organized into per-resource namespaces (households, groups, groupVolume, playback, playbackMetadata, playbackSession, playerVolume, favorites, playlists, audioClip, homeTheater), and delivers real-time state through an event-subscription (webhook callback) model.
 image: https://www.sonos.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: Sonos does not operate an official hosted MCP server (none found in the docs, the @modelcontextprotocol registry, or the sonos GitHub org). This is a CANDIDATE tool list derived from the confirmed Con
-  name: Sonos MCP Server
-  slug: sonos-mcp-server
 modified: '2026-07-21'
 name: Sonos
 nav: Providers
@@ -177,8 +173,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonos/refs/heads/main/screenshots/sonos-2026-09-02T160228.png
 security:

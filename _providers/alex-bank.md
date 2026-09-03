@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: List Alex Bank's public CDR banking products, then retrieve the full detail of the first product. Runs against the public unauthenticated PRD endpoint - no credentials.
   name: Browse Alex Bank products and fetch one product's detail
   slug: alex-bank-browse-products
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: data-model/alex-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alex-bank-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-20'
 description: Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alex-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alex Bank MCP Server
-  slug: alex-bank-mcp-server
 modified: '2026-07-21T12:00:00Z'
 name: Alex Bank
 nav: Providers
@@ -270,8 +266,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png
 security:

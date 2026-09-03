@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Retrieve videos for bookings.
   name: Snappr Videos API
   slug: snappr-videos-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Snappr Webhooks
@@ -179,7 +179,7 @@ common:
   url: conventions/snappr-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/snappr-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Snappr is an on-demand visual content marketplace that connects businesses with a global network of professional photographers and videographers, plus automated and human-augmented photo editing services. The Snappr API (the "API for visual content", available to Snappr for Enterprise customers) lets developers programmatically check coverage and availability, book photoshoots, submit photo editing jobs against presets, and retrieve the resulting images and videos. Authentication is a bearer API key; a sandbox environment mirrors production for testing, and custom webhooks notify on booking changes. Backed by Foundry Group and surfaced into the API Evangelist network for enrichment.
 image: https://cdn.prod.website-files.com/5ca95f7a3be192f65a7b4e4f/6993a952a20874ef53a0524e_snappr-og-photography-and-videography.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Snappr MCP Server
-  slug: snappr-mcp-server
 modified: '2026-07-21'
 name: Snappr
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/screenshots/snappr-2026-08-17T081939.png
 security:

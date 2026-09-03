@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.2
-  scored_at: '2026-09-02'
+  score: 41.7
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: The Workspace API from Exec — 3 operation(s) for workspace.
   name: Exec Workspace API
   slug: exec-workspace-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Exec Webhooks
@@ -197,7 +197,7 @@ common:
   url: asyncapi/exec-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/exec-mcp.yml
 - group: build
   title: ''
@@ -271,10 +271,6 @@ created: '2026-07-17'
 description: 'Exec is an AI-powered roleplay and sales-training platform (exec.com) for practicing high-stakes conversations. Teams run voice-based AI roleplays, automatically score real calls, build structured programs and certifications, coach one-on-one, and manage training content in a Knowledge Hub. The Exec REST API gives programmatic access to a workspace: members and groups, scenarios and collections, roleplay sessions and analytics, skills and proficiency, Scenario Studio job creation, and Knowledge Hub pages and sources. Backed by a16z.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exec.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Exec Docs
-  slug: exec-docs
 modified: '2026-08-14'
 name: Exec
 nav: Providers
@@ -330,8 +326,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/screenshots/exec-2026-07-25T213855.png
 security:

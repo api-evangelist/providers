@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The view API from SmartMind — 2 operation(s) for view.
   name: SmartMind view API
   slug: smartmind-view-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: packages/smartmind-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smartmind-mcp.yml
 - group: design
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: SmartMind AI Inc. is a South Korean AI company (Techstars 2020, Seoul) building ontology-based enterprise AI. Its current products are Qurify — a natural-language data analysis platform that answers questions without SQL by combining structured databases and unstructured documents through a TAG+RAG hybrid architecture and a 2-tier ontology — and AI-Minwon, a government/public-administration application built on Qurify. SmartMind's earlier product, ThanoSQL, is an analytical relational database with a built-in LLM/DL/ML query layer, exposed through a REST API (OpenAPI 3.0.2, 34 operations across query, table, schema, view, template, file-manager, health, and metric resources) and an official Python SDK (pypi:thanosql). This profile captures the still-published ThanoSQL developer surface; the hosted ThanoSQL documentation has been decommissioned.
 image: https://avatars.githubusercontent.com/u/103923556?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: SmartMind MCP Server
-  slug: smartmind-mcp-server
 modified: '2026-07-21'
 name: SmartMind
 nav: Providers
@@ -247,8 +243,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/screenshots/smartmind-2026-09-02T155926.png
 security:

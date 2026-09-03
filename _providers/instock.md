@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.instock.com/v1
@@ -66,7 +66,7 @@ apis:
   description: Each Instock site (or just site) represents a single instance of Instock ASRS. Such instance can represent either physical installation of ASRS or a simulation in sandbox environment. Organization may
   name: Instock Sites API
   slug: instock-sites-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: sandbox/instock-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/instock-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: 'Instock is a robotics company delivering a goods-to-person automated storage and retrieval system (ASRS) as a fulfillment robotics-as-a-service (RaaS) offering. The system pairs a static "Grid" racking framework, stackable "Bins", and autonomous three-dimensional "Robots" with "Incloud", a cloud software platform that orchestrates warehouse fulfillment operations. Instock publishes a REST-based HTTP API (Incloud) that lets a customer''s host systems (PIM/IMS/OMS) integrate with the ASRS: managing sites, uploading articles (SKUs), creating and advancing customer orders, tracking order tasks, and reading inventory and article moves. The API accepts and returns JSON, uses Bearer-token (JWT) authentication issued during onboarding, cursor-based pagination, snake_case properties, and RFC 3339 timestamps. Instock was surfaced as a portfolio company of Lux Capital. Sector: robotics / warehouse automation.'
 image: https://instock.com/en/images/logo.svg
 layout: provider
-mcp_servers:
-- description: No official hosted/remote MCP server was found for Instock. This is a candidate tool surface derived one-to-one from the 19 documented Instock API operations, for building an MCP server over the Inclo
-  name: Instock MCP Server
-  slug: instock-mcp-server
 modified: '2026-07-19'
 name: Instock
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
 security:

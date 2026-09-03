@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web services without programming. Using the Fabri
@@ -162,8 +162,8 @@ score:
   previous_composite: 25.5
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/screenshots/adaptigent-2026-06-20T164608.png
 security:

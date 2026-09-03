@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Webhooks API from Hustle — 3 operation(s) for webhooks.
   name: Hustle Webhooks API
   slug: hustle-webhooks-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Hustle Webhooks
@@ -136,7 +136,7 @@ common:
   url: skills/hustle-register-webhook.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hustle-mcp.yml
 - group: other
   title: ''
@@ -266,10 +266,6 @@ created: '2026-07-17'
 description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and an outbound dialer, and is used by nonprofits, educational institutions, commercial businesses, political campaigns, government agencies, and labor unions to reach people over the channels they already use. The Hustle Public API (v3) exposes a RESTful, OAuth2 client-credentials interface for managing agents, groups, leads, custom fields, tags, organizations, CRM integrations, message delivery status, and webhook registrations. Hustle was added to the API Evangelist network as a portfolio company of GV and Insight Partners and enriched from its public developer surface.
 image: https://hustle.com/wp-content/uploads/2026/05/cropped-ko-Hustle-10-logo-1200px-wide-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hustle MCP Server
-  slug: hustle-mcp-server
 modified: '2026-08-13'
 name: Hustle
 nav: Providers
@@ -330,8 +326,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:

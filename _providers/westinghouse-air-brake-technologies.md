@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: WabtecONE is Wabtec's digital intelligence platform enabling railroads and industrial operators to connect embedded devices and transmit operational data to the cloud for analysis. The platform provid
@@ -168,8 +168,8 @@ score:
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 19.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/screenshots/westinghouse-air-brake-technologies-2026-06-20T201407.png
 security:

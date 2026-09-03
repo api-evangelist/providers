@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -325,8 +325,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:

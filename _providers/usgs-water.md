@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -245,7 +245,10 @@ apis:
   description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
   name: USGS Water Services topographic-codes API
   slug: usgs-water-topographic-codes-api
-artifact_total: 125
+- description: Water quality and level info for rivers and lakes
+  name: USGS Water Services
+  slug: usgs-water-services
+artifact_total: 126
 collections:
 - collection_type: open
   name: API Collection
@@ -609,8 +612,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/screenshots/usgs-water-2026-06-20T200736.png
 security:

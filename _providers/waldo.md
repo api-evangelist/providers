@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.waldo.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.tricentis.com/ — a different registrable domain (waldo.com -> tricentis.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: W3C WebDriver + Appium-compatible endpoint for creating sessions on Waldo cloud devices and driving native, hybrid, and mobile-web apps programmatically.
@@ -143,8 +144,8 @@ score:
   previous_composite: 17.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waldo/refs/heads/main/screenshots/waldo-2026-09-02T170405.png
 security:

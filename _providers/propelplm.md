@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: The variants API from Propel Software (Propel PLM) — 4 operation(s) for variants.
   name: Propel Software (Propel PLM) variants API
   slug: propelplm-variants-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Propelplm Events
@@ -250,7 +250,7 @@ common:
   url: well-known/propelplm-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/propelplm-mcp.yml
 - group: agent
   title: ''
@@ -304,10 +304,6 @@ created: '2026-07-17'
 description: Propel Software is an AI-powered product data platform for manufacturers and product companies, unifying Product Lifecycle Management (PLM), Quality Management (QMS), and Product Information Management (PIM) on a single system of record built natively on the Salesforce Platform. Propel exposes a resource-based REST API (Salesforce Apex REST) for the core PLM objects — Items, Bills of Material, Changes/ECOs, and Attachments — plus a bulk Import API and a read-oriented PIM API for syndicating product, variant, category, channel, and digital-asset data to commerce and marketing channels. All API access is authenticated with Salesforce OAuth 2.0 bearer tokens and executes within the requesting user's permission scope. Propel is backed by Norwest Venture Partners.
 image: https://www.propelsoftware.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Propel Software (Propel PLM) MCP Server
-  slug: propel-software-propel-plm-mcp-server
 modified: '2026-07-20'
 name: Propel Software (Propel PLM)
 nav: Providers
@@ -354,8 +350,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/screenshots/propelplm-2026-08-17T081348.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Token-based REST API for managing first-party data, building and editing audience segments, activating audiences, and retrieving behavior and audience analytics on the Lotame Spherical platform. JSON '
@@ -42,7 +42,7 @@ apis:
 - description: 'Real-time server-side API that returns the assigned Panorama ID for an IP address and user-agent (web) or Mobile Advertiser ID / MAID (mobile app). JSON POST to sid.crwdcntrl.net/sid, identified by a '
   name: Panorama ID Server-Side API
   slug: panorama-id-server-side-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -110,7 +110,7 @@ common:
   url: security/lotame-solutions-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lotame-solutions-mcp.yml
 - group: agent
   title: ''
@@ -156,10 +156,6 @@ created: '2026-07-17'
 description: Lotame Solutions is a data collaboration and identity company for digital marketing and advertising. Its Spherical platform lets marketers, agencies, and publishers connect, enrich, and activate first- and third-party audience data, while Panorama ID delivers a privacy-first, cookieless identity for addressability across web, mobile app, and CTV. Lotame exposes a token-based Admin Services REST API (api.lotame.com/2/) for managing first-party data, building audiences, and pulling behavior and audience statistics, plus a server-side Panorama ID resolution API on sid.crwdcntrl.net for web and mobile (MAID) identity lookups. Lotame operates across 24 countries and was acquired by Publicis Groupe.
 image: https://cdn-ilbibgp.nitrocdn.com/eakWUVxgVLoymIJUurpQZcwTweYHDeju/assets/images/optimized/rev-6d2d189/www.lotame.com/wp-content/uploads/2025/05/lotame-website-favicon-300x300.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lotame Solutions MCP Server (candidate)
-  slug: lotame-solutions-mcp-server-candidate
 modified: '2026-08-13'
 name: Lotame Solutions
 nav: Providers
@@ -199,8 +195,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/screenshots/lotame-solutions-2026-07-25T225550.png
 security:

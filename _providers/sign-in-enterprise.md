@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-09-02'
+  score: 44.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: All endpoint related to the Watchlist model
   name: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Sign In Enterprise Webhooks
@@ -271,7 +271,7 @@ common:
   url: asyncapi/sign-in-enterprise-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sign-in-enterprise-mcp.yml
 - group: agent
   title: ''
@@ -293,10 +293,6 @@ created: '2026-07-17'
 description: 'Sign In Enterprise (formerly Traction Guest, now part of Sign In Solutions) is an enterprise visitor management system (VMS) used by security-conscious organizations in aerospace and defense, government, manufacturing, pharmaceuticals, and technology. Its REST API — branded "Guest Connect" and published as the Sign In Solutions VMS API — lets developers retrieve and modify visitor and employee sign-in data to extend workflows: managing hosts, invites, sign-ins, registrations, locations, capacities, parking, group visits, watchlists, email templates, and audit logs. The API is REST over JSON, secured with OAuth 2.0 / OpenID Connect scoped access, and supports idempotent writes via an Idempotency-Key header.'
 image: https://signinsolutions.com/hubfs/Creatives/Logos/Sign%20In%20Solutions%20Logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sign In Enterprise MCP Server
-  slug: sign-in-enterprise-mcp-server
 modified: '2026-07-21'
 name: Sign In Enterprise
 nav: Providers
@@ -343,8 +339,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/screenshots/sign-in-enterprise-2026-08-17T081851.png
 security:

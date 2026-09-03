@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -57,7 +57,7 @@ apis:
   description: Blink user profile exchange.
   name: Blink Ledger Systems Users API
   slug: blink-ledger-systems-users-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Blink Ledger Systems Notifications Webhooks
@@ -78,7 +78,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blink-ledger-systems-mcp.yml
 - group: company
   title: ''
@@ -188,10 +188,6 @@ created: '2026-07-17'
 description: Blink (Blink Ledger Systems Inc.) builds online identity and payment technologies for digital publishers. A single Blink account works across publishers, giving readers one universal login and frictionless payment so they can subscribe, donate, or buy an individual article or podcast with one click, or enable autopay for small frequent purchases. Publishers integrate three products — Blink Identity, Blink Pay and Blink Donate — through one hosted JavaScript SDK that places Blink-managed panels into the page, a dashboard-configured User Journeys rules engine, four server-side JSON endpoints for OAuth2 login, and a signed webhook notification stream covering subscription, payment and donation events. Founded 2017; incorporated in the US in 2018 and surfaced in the API Evangelist network as a Polychain portfolio company.
 image: https://blink.net/resources/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blink Ledger Systems MCP Server
-  slug: blink-ledger-systems-mcp-server
 modified: '2026-07-20'
 name: Blink Ledger Systems
 nav: Providers
@@ -238,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
 security:

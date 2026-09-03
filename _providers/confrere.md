@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ arazzos:
 - description: Mint a single-use room URL for a participant, then end the session by invalidating the room.
   name: Confrere — start and end a video session
   slug: confrere-video-session
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: data-model/confrere-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/confrere-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its server-side API mints single-use, one-minute room URLs that redirect a participant into a Confrere video room, and lets integrators invalidate a room or eject a specific user. Reliability is advertised at 99% across more than one million completed meetings. Backed by Point Nine.
 image: https://confrere.com/static/images/Thumbnail.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Confrere MCP Server
-  slug: confrere-mcp-server
 modified: '2026-07-18'
 name: Confrere
 nav: Providers
@@ -217,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/screenshots/confrere-2026-07-25T210253.png
 security:

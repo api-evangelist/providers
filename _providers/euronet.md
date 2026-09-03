@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ apis:
   description: The XETA API from Euronet Worldwide — 1 operation(s) for xeta.
   name: Euronet Worldwide XETA API
   slug: euronet-xeta-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: XE Currency Data API
@@ -241,7 +241,7 @@ common:
   url: conformance/euronet-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/euronet-mcp.yml
 - group: build
   title: ''
@@ -312,10 +312,6 @@ description: 'Euronet Worldwide (NASDAQ: EEFT) is a US-based (Leawood, Kansas) g
   (Payments, Dandelion) developer surfaces rather than one unified platform API.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Euronet Worldwide MCP Server
-  slug: euronet-worldwide-mcp-server
 modified: '2026-07-24'
 name: Euronet Worldwide
 nav: Providers
@@ -364,8 +360,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:

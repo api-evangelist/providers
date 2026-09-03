@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -99,7 +99,7 @@ apis:
   description: The Transaction Status API from M-Pesa (Safaricom Daraja) — 1 operation(s) for transaction status.
   name: M-Pesa (Safaricom Daraja) Transaction Status API
   slug: mpesa-transaction-status-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: The asynchronous callback (webhook) surface of the M-Pesa Daraja API. Daraja delivers the real outcome of collections and funds-movement operations by POSTing JSON to caller-hosted HTTPS endpoints. Th
   name: M-Pesa Daraja Callbacks
@@ -241,7 +241,7 @@ common:
   url: packages/mpesa-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mpesa-mcp.yml
 - group: agent
   title: ''
@@ -331,10 +331,6 @@ finops:
   slug: mpesa-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mpesa.png
 layout: provider
-mcp_servers:
-- description: 'Safaricom does not operate an official hosted/remote MCP server for Daraja. Community MCP servers exist (e.g. mboya/daraja-mcp on lobehub) but are not first-party. The tool list below is a CANDIDATE, '
-  name: M-Pesa (Safaricom Daraja) MCP Server
-  slug: m-pesa-safaricom-daraja-mcp-server
 modified: '2026-07-17'
 name: M-Pesa (Safaricom Daraja)
 nav: Providers
@@ -390,8 +386,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/screenshots/mpesa-2026-08-07T184414.png
 security:

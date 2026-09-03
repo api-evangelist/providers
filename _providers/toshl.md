@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST JSON API for the Toshl personal finance platform. Manage accounts, entries (expenses and incomes with repeats per RFC 5545, transactions, images, locations), budgets, categories, tags, currencies
@@ -194,8 +194,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toshl/refs/heads/main/screenshots/toshl-2026-09-02T163937.png
 security:

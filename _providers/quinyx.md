@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ arazzos:
 - description: Create an organizational group, create an employee, and assign a role using the Quinyx API v3.
   name: Onboard an employee in Quinyx
   slug: quinyx-onboard-employee
-artifact_total: 77
+artifact_total: 76
 collections:
 - collection_type: open
   name: API Collection
@@ -423,7 +423,7 @@ common:
   url: conformance/quinyx-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quinyx-mcp.yml
 - group: design
   title: ''
@@ -453,10 +453,6 @@ created: '2026-07-17'
 description: 'Quinyx is an AI-powered workforce management (WFM) platform for frontline organizations, covering scheduling, demand forecasting, time tracking, labor law compliance, task management, and employee engagement across retail, warehousing and logistics, hospitality, facility management, and healthcare. Quinyx exposes a public developer platform with three APIs: the current REST API v3 (OAuth 2.0 client-credentials, RFC 9457 problem details, cursor pagination, regional EU/NA hosts), the earlier REST API v2, and a bearer-token User API v2, plus a legacy SOAP v1. This profile was enriched from Quinyx''s own developer portal, OpenAPI descriptions, and public documentation.'
 image: https://developer.quinyx.com/static/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Quinyx MCP Server
-  slug: quinyx-mcp-server
 modified: '2026-07-20'
 name: Quinyx
 nav: Providers
@@ -500,8 +496,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quinyx/refs/heads/main/screenshots/quinyx-2026-08-17T081427.png
 security:

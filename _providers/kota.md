@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ apis:
   description: The Types of events V2 API from Kota — 0 operation(s) for types of events v2.
   name: Kota Types of events V2 API
   slug: kota-types-of-events-v2-api
-artifact_total: 110
+artifact_total: 109
 asyncapis:
 - description: ''
   name: Kota Webhooks
@@ -553,7 +553,7 @@ common:
   url: asyncapi/kota-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kota-mcp.yml
 - group: agent
   title: ''
@@ -596,10 +596,6 @@ description: Kota is a Dublin-headquartered employee benefits platform that give
   prefixes, POST requests accept an Idempotency-Key header, errors conform to RFC 9457 Problem Details, and a large webhook catalog (v1 and v2 event families) publishes employer, employee, group, policy, quote and contribution-report state changes.
 image: https://www.kota.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: Kota publishes a hosted, remote MCP server for its developer documentation, advertised at the top of every docs page and in llms.txt for AI client integration (Claude Code, Cursor and other MCP client
-  name: Kota MCP Server
-  slug: kota-mcp-server
 modified: '2026-07-19'
 name: Kota
 nav: Providers
@@ -651,8 +647,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

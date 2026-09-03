@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.slide.tech
@@ -106,7 +106,7 @@ apis:
   description: Everything about [users](#model/user)
   name: Slide Users API
   slug: slide-users-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -236,7 +236,7 @@ common:
   url: changelog/slide-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/slide-mcp.yml
 - group: other
   title: ''
@@ -262,10 +262,6 @@ created: '2026-07-17'
 description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level backup, snapshot management, file and image restores, and virtualization. Its open REST API (api.slide.tech) gives MSPs full programmatic control to integrate, extend, and automate agents, devices, backups, snapshots, restores, networks, clients, users, alerts, and audit logs within their existing tooling. The platform uses AES-256 and ZFS native encryption, offers month-to-month subscriptions, and is SOC 2 Type 1 certified.
 image: https://images.prismic.io/slide/aiG5lQeQX7-eWv32_image-3-.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Slide API. No official hosted MCP server was found; this tool list is derived one-to-one from the OpenAPI operations so it can seed an MCP wrapper. Not an official Slide p
-  name: Slide MCP Server
-  slug: slide-mcp-server
 modified: '2026-07-21'
 name: Slide
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slide/refs/heads/main/screenshots/slide-2026-08-17T081918.png
 security:

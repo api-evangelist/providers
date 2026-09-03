@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL API exposed by a running Mina daemon (node) for querying node, account, and chain state and submitting payments, delegations, and zkApp transactions. Bound to localhost:3085 by default. 41 que
   name: Mina Daemon GraphQL API
   slug: mina-daemon-graphql-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -95,7 +95,7 @@ common:
   url: well-known/mina-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mina-mcp.yml
 - group: build
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Mina Protocol is a lightweight, layer-1 blockchain powered by zero-knowledge proofs (zk-SNARKs) that keeps the entire chain a constant ~22KB in size so any device can sync and verify the network. Developers build privacy-preserving smart contracts called zkApps using o1js, a TypeScript zk framework, and the mina-signer library for offline transaction signing. Each Mina daemon (node) exposes a GraphQL API on localhost:3085 for querying node/account/chain state and submitting payments, delegations, and zkApp commands; a Rosetta interface and Archive Node support exchange integration and historical data. Mina uses the Ouroboros Samasika proof-of-stake consensus and is stewarded by the Mina Foundation and o1Labs. Surfaced as a portfolio company of pantera-capital.
 image: https://docs.minaprotocol.com/img/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mina MCP Server
-  slug: mina-mcp-server
 modified: '2026-07-20'
 name: Mina
 nav: Providers
@@ -185,8 +181,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/screenshots/mina-2026-08-07T172921.png
 security:

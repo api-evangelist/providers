@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The NodeZero API is a publicly accessible GraphQL API that exposes a subset of the Horizon3.ai Portal: schedule and control autonomous pentest operations, and read pentests, ops, weaknesses, attack pa'
@@ -234,8 +234,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png
 security:

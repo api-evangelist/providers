@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -358,7 +358,7 @@ apis:
   description: The Waiting rooms API from Macrometa — 2 operation(s) for waiting rooms.
   name: Macrometa Waiting rooms API
   slug: macrometa-waiting-rooms-api
-artifact_total: 131
+artifact_total: 130
 collections:
 - collection_type: open
   name: API Collection
@@ -635,7 +635,7 @@ common:
   url: llms/macrometa-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/macrometa-mcp.yml
 - group: design
   title: ''
@@ -665,10 +665,6 @@ created: '2026-07-17'
 description: Macrometa is a global data network and edge computing platform. Its Global Data Network (GDN) provides a geo-distributed, serverless NoSQL database, pub/sub streams, complex event processing, and edge functions through a unified REST API plus first-party Python (pyC8) and JavaScript (jsC8) SDKs. Macrometa has since expanded into PhotonIQ, an AI-powered edge delivery suite for web performance and digital operations — prerendering, edge-side tagging, function-as-a-service, digital fingerprinting, virtual waiting rooms, event delivery, and hypersearch. This profile catalogs Macrometa's published OpenAPI surface across the GDN core and the PhotonIQ product family, along with its SDKs, CLI, status page, and developer documentation.
 image: https://www.macrometa.com/images/opengraph-default-light.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Macrometa MCP Server
-  slug: macrometa-mcp-server
 modified: '2026-07-20'
 name: Macrometa
 nav: Providers
@@ -707,8 +703,8 @@ score:
       total: 63
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:

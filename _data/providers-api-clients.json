@@ -1,6 +1,6 @@
 {
- "total": 35,
- "shown": 35,
+ "total": 34,
+ "shown": 34,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -86,8 +86,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -132,8 +132,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -178,8 +178,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -224,8 +224,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -260,8 +260,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "HTTPie",
@@ -281,8 +281,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -310,98 +310,6 @@
      "rank": 6
     },
     {
-     "name": "Bruno",
-     "slug": "bruno",
-     "description": "Bruno is an open-source, Git-native, offline-first API client for exploring and testing APIs. It stores collections directly on the filesystem as plain text files using the Bru markup language, making collections version-controllable alongside code. Bruno supports REST, GraphQL, and gRPC APIs, scripting with JavaScript, environment variables, pre-request and post-response hooks, and CI/CD automation via Bruno CLI. Licensed under the MIT License and available on Mac, Windows, and Linux with 43,000+ GitHub stars.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bruno/refs/heads/main/screenshots/bruno-2026-06-20T173730.png",
-     "score": 33.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 55.3,
-      "access_clarity": 55.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Local-First & Offline-First Clients",
-     "rank": 7
-    },
-    {
-     "name": "Voiden",
-     "slug": "voiden",
-     "description": "Voiden is an offline-first, Git-native API workspace that unifies API design, testing, and documentation in plain Markdown .void files stored alongside your codebase. It uses composable, reusable blocks (endpoints, auth, headers, params, bodies) that behave like code — inheritable, versionable, and composable — eliminating copy-paste drift across API definitions. Supports REST, GraphQL, WebSocket, and gRPC. Built on Electron (TypeScript), Apache 2.0 licensed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png",
-     "score": 32.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 18.7,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Local-First & Offline-First Clients",
-     "rank": 8
-    },
-    {
      "name": "REST Client",
      "slug": "rest-client",
      "description": "REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication schemes (Basic, Digest, SSL Client Certificates, Azure AD, AWS Signature v4, AWS Cognito), environment and file variables, request chaining, cookie management, code generation to multiple languages, and response saving. The extension is installed via the VS Code Marketplace under the identifier humao.rest-client and is widely used as a lightweight alternative to dedicated API clients like Postman and Insomnia.",
@@ -419,8 +327,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -445,7 +353,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 9
+     "rank": 7
     },
     {
      "name": "Thunder Client",
@@ -465,8 +373,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -491,7 +399,7 @@
       "agentic_commerce": false
      },
      "tier": "Client Platforms",
-     "rank": 10
+     "rank": 8
     }
    ]
   },
@@ -500,8 +408,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "Axios",
@@ -521,8 +429,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -547,7 +455,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "Node-Fetch",
@@ -567,8 +475,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -593,7 +501,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 12
+     "rank": 10
     },
     {
      "name": "Requests",
@@ -613,8 +521,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -646,120 +554,28 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 13
+     "rank": 11
     },
     {
-     "name": "Wget",
-     "slug": "wget",
-     "description": "GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 is the next-generation successor, written from scratch with multi-threading, HTTP/2, and a plugin API via libwget.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wget/refs/heads/main/screenshots/wget-2026-06-20T201415.png",
-     "score": 24.5,
+     "name": "Voiden",
+     "slug": "voiden",
+     "description": "Voiden is an offline-first, Git-native API workspace that unifies API design, testing, and documentation in plain Markdown .void files stored alongside your codebase. It uses composable, reusable blocks (endpoints, auth, headers, params, bodies) that behave like code — inheritable, versionable, and composable — eliminating copy-paste drift across API definitions. Supports REST, GraphQL, WebSocket, and gRPC. Built on Electron (TypeScript), Apache 2.0 licensed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png",
+     "score": 25.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 24.0,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 15.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "CLI Clients & HTTP Libraries",
-     "rank": 14
-    },
-    {
-     "name": "Firecamp",
-     "slug": "firecamp",
-     "description": "Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png",
-     "score": 23.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Client Platforms",
-     "rank": 15
-    },
-    {
-     "name": "Restfox",
-     "slug": "restfox",
-     "description": "Restfox is an offline-first, minimalistic HTTP and socket testing client for the web and desktop. It is an open-source alternative to Postman, supporting HTTP/REST, WebSocket, and GraphQL testing with environment variables, response history, a plugin system, and cross-platform deployment as a web app, desktop client, or Docker container.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/screenshots/restfox-2026-06-20T193021.png",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
+      "discoverability": 66.7,
       "contract_quality": 18.7,
       "governance": 25.0,
       "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 11.9,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -784,28 +600,28 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 16
+     "rank": 12
     },
     {
-     "name": "RestSharp",
-     "slug": "restsharp",
-     "description": "RestSharp is a simple REST and HTTP API client library for .NET that wraps HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response bodies. Supports JSON, XML, and CSV formats, OAuth1/OAuth2 authentication, async operations, and multi-part form uploads. Available on NuGet as RestSharp (9,800+ GitHub stars, Apache-2.0 license, .NET Foundation project).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/restsharp/refs/heads/main/screenshots/restsharp-2026-06-20T193032.png",
-     "score": 21.6,
+     "name": "Wget",
+     "slug": "wget",
+     "description": "GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 is the next-generation successor, written from scratch with multi-threading, HTTP/2, and a plugin API via libwget.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wget/refs/heads/main/screenshots/wget-2026-06-20T201415.png",
+     "score": 24.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.2,
+      "discoverability": 68.5,
+      "contract_quality": 24.0,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 15.5,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -830,7 +646,145 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 17
+     "rank": 13
+    },
+    {
+     "name": "Firecamp",
+     "slug": "firecamp",
+     "description": "Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png",
+     "score": 23.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Client Platforms",
+     "rank": 14
+    },
+    {
+     "name": "Restfox",
+     "slug": "restfox",
+     "description": "Restfox is an offline-first, minimalistic HTTP and socket testing client for the web and desktop. It is an open-source alternative to Postman, supporting HTTP/REST, WebSocket, and GraphQL testing with environment variables, response history, a plugin system, and cross-platform deployment as a web app, desktop client, or Docker container.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/screenshots/restfox-2026-06-20T193021.png",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 18.7,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Local-First & Offline-First Clients",
+     "rank": 15
+    },
+    {
+     "name": "RestSharp",
+     "slug": "restsharp",
+     "description": "RestSharp is a simple REST and HTTP API client library for .NET that wraps HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response bodies. Supports JSON, XML, and CSV formats, OAuth1/OAuth2 authentication, async operations, and multi-part form uploads. Available on NuGet as RestSharp (9,800+ GitHub stars, Apache-2.0 license, .NET Foundation project).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/restsharp/refs/heads/main/screenshots/restsharp-2026-06-20T193032.png",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "CLI Clients & HTTP Libraries",
+     "rank": 16
     },
     {
      "name": "cURL",
@@ -850,8 +804,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -883,7 +837,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Charles Proxy",
@@ -903,8 +857,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -929,7 +883,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "HTTPX",
@@ -949,8 +903,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -982,7 +936,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Retrofit",
@@ -1002,8 +956,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1035,7 +989,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Mitmproxy",
@@ -1055,8 +1009,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1081,7 +1035,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Hurl",
@@ -1101,8 +1055,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1127,7 +1081,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Milkman",
@@ -1147,8 +1101,54 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Local-First & Offline-First Clients",
+     "rank": 23
+    },
+    {
+     "name": "Yaak",
+     "slug": "yaak",
+     "description": "Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast desktop client with no telemetry and no cloud lock-in.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/screenshots/yaak-2026-06-20T201717.png",
+     "score": 16.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1176,15 +1176,15 @@
      "rank": 24
     },
     {
-     "name": "Yaak",
-     "slug": "yaak",
-     "description": "Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast desktop client with no telemetry and no cloud lock-in.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/screenshots/yaak-2026-06-20T201717.png",
-     "score": 16.0,
+     "name": "HTTP Client",
+     "slug": "http-client",
+     "description": "HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates accelerating composition. The client supports HTTP/1.1 and HTTP/2 requests, gRPC unary and server-streaming calls, WebSocket connections, GraphQL operations, server-sent events, and imports from cURL and Postman collections. Environment files define reusable variables across global, request, and secured scopes; the cookie jar, request history, run/debug configurations, and Services tool window response viewer round out a workflow tightly integrated with the IntelliJ-based IDE family.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/screenshots/http-client-2026-06-20T182910.png",
+     "score": 15.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1193,8 +1193,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1226,7 +1226,7 @@
      "slug": "xh",
      "description": "xh is a friendly and fast command-line HTTP client written in Rust, designed as a modern, high-performance alternative to HTTPie. It reimplements HTTPie's request-item syntax and design with improved startup speed, HTTP/2 and HTTP/3 support, and availability as a single statically-linked binary. xh supports JSON and form data serialization, session management, authentication (basic, bearer, digest), SSL/TLS customization, multipart uploads, proxy configuration, and built-in curl command translation. Installable via Homebrew, Cargo, apt, pacman, and other package managers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xh/refs/heads/main/screenshots/xh-2026-06-20T201702.png",
-     "score": 15.8,
+     "score": 14.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1239,8 +1239,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1268,25 +1268,25 @@
      "rank": 26
     },
     {
-     "name": "HTTP Client",
-     "slug": "http-client",
-     "description": "HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates accelerating composition. The client supports HTTP/1.1 and HTTP/2 requests, gRPC unary and server-streaming calls, WebSocket connections, GraphQL operations, server-sent events, and imports from cURL and Postman collections. Environment files define reusable variables across global, request, and secured scopes; the cookie jar, request history, run/debug configurations, and Services tool window response viewer round out a workflow tightly integrated with the IntelliJ-based IDE family.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/screenshots/http-client-2026-06-20T182910.png",
-     "score": 15.2,
+     "name": "Got",
+     "slug": "got",
+     "description": "Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/screenshots/got-2026-06-20T182254.png",
+     "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 26.2,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1310,15 +1310,15 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Local-First & Offline-First Clients",
+     "tier": "CLI Clients & HTTP Libraries",
      "rank": 27
     },
     {
-     "name": "Got",
-     "slug": "got",
-     "description": "Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/screenshots/got-2026-06-20T182254.png",
-     "score": 14.2,
+     "name": "Grpcurl",
+     "slug": "grpcurl",
+     "description": "grpcurl is an open source command-line tool for interacting with gRPC servers, like curl for gRPC with support for service reflection and JSON encoding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grpcurl/refs/heads/main/screenshots/grpcurl-2026-06-20T182421.png",
+     "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1326,13 +1326,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 26.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1360,25 +1360,25 @@
      "rank": 28
     },
     {
-     "name": "Grpcurl",
-     "slug": "grpcurl",
-     "description": "grpcurl is an open source command-line tool for interacting with gRPC servers, like curl for gRPC with support for service reflection and JSON encoding.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grpcurl/refs/heads/main/screenshots/grpcurl-2026-06-20T182421.png",
-     "score": 13.8,
+     "name": "Kreya",
+     "slug": "kreya",
+     "description": "Kreya is a GUI client for gRPC, REST, GraphQL, WebSocket, and Server-Sent Events APIs. All data is stored in git-diffable files for easy reviews and versioning. Kreya provides automated snapshot and scripted tests, flexible environments, and support for all gRPC streaming modes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/screenshots/kreya-2026-06-20T184156.png",
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 14.3,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1402,29 +1402,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "CLI Clients & HTTP Libraries",
+     "tier": "Local-First & Offline-First Clients",
      "rank": 29
     },
     {
-     "name": "Kreya",
-     "slug": "kreya",
-     "description": "Kreya is a GUI client for gRPC, REST, GraphQL, WebSocket, and Server-Sent Events APIs. All data is stored in git-diffable files for easy reviews and versioning. Kreya provides automated snapshot and scripted tests, flexible environments, and support for all gRPC streaming modes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/screenshots/kreya-2026-06-20T184156.png",
-     "score": 13.1,
+     "name": "Nightingale",
+     "slug": "nightingale",
+     "description": "Nightingale REST Client is a modern, resource-friendly REST API client for Windows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nightingale/refs/heads/main/screenshots/nightingale-2026-06-20T190322.png",
+     "score": 11.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 14.3,
+      "developer_ergonomics": 11.9,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1450,52 +1450,6 @@
      },
      "tier": "Local-First & Offline-First Clients",
      "rank": 30
-    },
-    {
-     "name": "Nightingale",
-     "slug": "nightingale",
-     "description": "Nightingale REST Client is a modern, resource-friendly REST API client for Windows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nightingale/refs/heads/main/screenshots/nightingale-2026-06-20T190322.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Local-First & Offline-First Clients",
-     "rank": 31
     }
    ]
   },
@@ -1525,8 +1479,54 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Local-First & Offline-First Clients",
+     "rank": 31
+    },
+    {
+     "name": "Ezy",
+     "slug": "ezy",
+     "description": "ezy is a graphical gRPC and gRPC-Web client for testing and debugging gRPC services with an intuitive desktop interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezy/refs/heads/main/screenshots/ezy-2026-06-20T181005.png",
+     "score": 8.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1554,52 +1554,6 @@
      "rank": 32
     },
     {
-     "name": "Ezy",
-     "slug": "ezy",
-     "description": "ezy is a graphical gRPC and gRPC-Web client for testing and debugging gRPC services with an intuitive desktop interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezy/refs/heads/main/screenshots/ezy-2026-06-20T181005.png",
-     "score": 8.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Local-First & Offline-First Clients",
-     "rank": 33
-    },
-    {
      "name": "OkHttp",
      "slug": "okhttp",
      "description": "OkHttp is an efficient HTTP and HTTP/2 client for Android and Java applications with connection pooling and transparent GZIP.",
@@ -1617,8 +1571,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1643,7 +1597,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "ReqBin",
@@ -1663,8 +1617,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1689,7 +1643,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 35
+     "rank": 34
     }
    ]
   }

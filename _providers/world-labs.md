@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.worldlabs.ai
@@ -46,7 +46,7 @@ apis:
   description: The Marble API from World Labs — 8 operation(s) for marble.
   name: World Labs Marble API
   slug: world-labs-marble-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -64,7 +64,7 @@ common:
   url: skills/world-labs-marble-developer-api.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/world-labs-mcp.yml
 - group: other
   title: ''
@@ -90,10 +90,6 @@ created: '2026-07-17'
 description: 'World Labs is a company surfaced as a portfolio company of sv-angel and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/world-labs.png
 layout: provider
-mcp_servers:
-- description: World Labs publishes no official MCP server as of this pass (none referenced in docs.worldlabs.ai, the worldlabsai GitHub org, or the official marble-developer-api-skill — the skill targets coding age
-  name: World Labs MCP Server
-  slug: world-labs-mcp-server
 modified: '2026-07-17'
 name: World Labs
 nav: Providers
@@ -130,8 +126,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

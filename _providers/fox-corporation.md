@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 20
 common:
@@ -324,6 +324,10 @@ common:
   title: ''
   type: Segments
   url: ''
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/foxcorp
 created: '2026-05-23'
 description: 'Fox Corporation (NASDAQ: FOXA, FOX) is a US media company spun out of 21st Century Fox in 2019 when the rest of the business was sold to Disney. Per the company website, "Fox Corporation produces and distributes compelling news, sports, and entertainment content through its primary iconic domestic brands" — Fox News Media (Fox News Channel, Fox Business Network, Fox News Digital, Fox News Audio, Fox Weather), Fox Sports (FS1, FS2, Big Ten Network, Fox Deportes, Fox Bet partnerships), Fox Entertainment, Fox Television Stations, and the Tubi Media Group (Tubi free ad-supported streaming, Credible). In May 2024 Fox acquired Mexican sports-betting and casino operator Caliente.mx, expanding its sports-and-wagering footprint into Latin America. Fox does not publish a public developer portal or REST API surface for the parent corporation — programmatic distribution is delivered via per-brand RSS / Atom feeds (Fox News, Fox Business, Fox Sports, Fox Weather), the Tubi Media Group open
   source projects on GitHub (github.com/Tubitv, 53 public repositories), and direct B2B advertising and content-syndication relationships rather than self-serve API signup. This apis.yml therefore catalogs the public RSS surface, Tubi engineering OSS, and the corporate/brand web properties.'
@@ -382,8 +386,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 9.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fox-corporation/refs/heads/main/screenshots/fox-corporation-2026-06-20T181501.png
 security:

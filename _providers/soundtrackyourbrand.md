@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Soundtrack's public GraphQL API for building display, control and monitoring apps on top of the Soundtrack business music service. Query now-playing and schedule state, control playback on sound zones
   name: Soundtrack API
   slug: soundtrack-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: Real-time event surface of the Soundtrack GraphQL API, delivered via GraphQL subscriptions over WebSocket. Derived from live introspection of https://api.soundtrackyourbrand.com/v2 (13 subscription fi
   name: Soundtrack API — Real-time Subscriptions
@@ -147,16 +147,12 @@ common:
   url: data-model/soundtrackyourbrand-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/soundtrackyourbrand-mcp.yml
 created: '2026-07-17'
 description: Soundtrack Your Brand (now branded simply "Soundtrack", soundtrack.io) is a business music streaming service that provides licensed background music for physical spaces such as retail stores, restaurants, cafes, hotels and gyms. Originally spun out of Spotify, the company curates and schedules music across a customer's locations and sound zones, and exposes a public GraphQL API (api.soundtrackyourbrand.com/v2) that lets developers build display, control and monitoring apps on top of Soundtrack — reading now-playing state, controlling playback (play/pause/skip/volume) on sound zones, managing playlists, schedules and music libraries, and subscribing to real-time updates. The API is free for paying Soundtrack customers and authenticates with an API token. Surfaced originally as a portfolio company of Balderton Capital.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soundtrackyourbrand.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Soundtrack Your Brand MCP Server
-  slug: soundtrack-your-brand-mcp-server
 modified: '2026-07-21'
 name: Soundtrack Your Brand
 nav: Providers
@@ -191,8 +187,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrackyourbrand/refs/heads/main/screenshots/soundtrackyourbrand-2026-08-17T082007.png
 security:

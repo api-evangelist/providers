@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public request-for-quote (RFQ) minting and redemption API for USDe. Whitelisted participants check asset availability, request a firm 15-minute quote, fetch the fee schedule, sign the order with EIP-7
   name: Ethena Minting API
   slug: ethena-minting-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -139,16 +139,12 @@ common:
   url: security/ethena-labs-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ethena-labs-mcp.yml
 created: '2026-07-17'
 description: 'Ethena Labs is the crypto-native protocol behind USDe, a synthetic dollar backed by spot crypto assets, onchain custody, and delta-neutral hedging positions on centralized liquidity venues, alongside the staked savings instrument sUSDe (the "Internet Bond"), the governance token ENA, and USDtb. Ethena exposes a public Minting API for whitelisted institutional participants to mint and redeem USDe: a request-for-quote (RFQ) flow returns firm 15-minute quotes that are signed with EIP-712 (or EIP-1271 for smart-contract wallets) and submitted onchain. This profile was surfaced as a portfolio company of Ribbit Capital and enriched with the real developer surface documented at docs.ethena.fi.'
 image: https://ethena.fi/shared/ethena-logo.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the documented Ethena Minting API operations. Ethena does not publish an official hosted/remote MCP server; this is a starting point for one, one tool per docum
-  name: Ethena Labs MCP Server
-  slug: ethena-labs-mcp-server
 modified: '2026-07-19'
 name: Ethena Labs
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/screenshots/ethena-labs-2026-07-25T213648.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.refurbed.com
@@ -126,7 +126,7 @@ apis:
   description: The TicketService API from Refurbed — 10 operation(s) for ticketservice.
   name: Refurbed TicketService API
   slug: refurbed-ticketservice-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -252,7 +252,7 @@ common:
   url: data-model/refurbed-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/refurbed-mcp.yml
 - group: agent
   title: ''
@@ -282,10 +282,6 @@ created: '2026-07-17'
 description: Refurbed is a European online marketplace for professionally refurbished electronics and other sustainable goods, headquartered in Vienna, Austria and operating across Europe. Merchants sell refurbished phones, laptops, tablets, wearables and more to consumers through the refurbed platform, and refurbed exposes public partner APIs so merchants and affiliates can integrate programmatically. The Merchant API lets sellers manage offers, prices, stock, orders, returns, refunds, shipping profiles, tickets and buyback flows, while the Affiliate Partner API exposes the marketplace catalog (markets, products, instances and BuyBox data) for affiliates. Both APIs are offered as gRPC with an equivalent HTTP/JSON transport, defined by published Protobuf and OpenAPI (Swagger 2.0) specifications, and are authenticated with a secret token passed in the Authorization header.
 image: https://www.refurbed.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Refurbed MCP Server
-  slug: refurbed-mcp-server
 modified: '2026-07-21'
 name: Refurbed
 nav: Providers
@@ -333,8 +329,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/screenshots/refurbed-2026-09-02T153236.png
 security:

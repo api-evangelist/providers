@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: API to work on records
   name: Northern Powergrid Dataset API
   slug: northern-powergrid-dataset-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: Explore API
@@ -148,7 +148,7 @@ common:
   url: components/northern-powergrid-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/northern-powergrid-mcp.yml
 - group: build
   title: ''
@@ -259,10 +259,6 @@ description: 'Northern Powergrid is the electricity distribution network operato
   data right equivalent to the Australian Consumer Data Right and a DNO would not be the obligated party if it did. The open data programme exists because Ofgem''s Data Best Practice Guidance is a licence condition under the RIIO-ED2 price control, and unlike many mandates in this sector it is visibly implemented rather than merely claimed. Roughly 44 of the 102 datasets are metadata-visible but records-gated to anonymous callers and require a free self-serve portal registration to read.'
 image: https://s3-eu-central-1.amazonaws.com/aws-ec2-eu-central-1-opendatasoft-staticfileset/northernpowergrid/logo?tstamp=1668505636764573
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool set derived from the OpenAPI (no server published)
-  slug: candidate-mcp-tool-set-derived-from-the-openapi-no-server-published
 modified: '2026-07-27'
 name: Northern Powergrid
 nav: Providers
@@ -316,8 +312,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 75.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
 security:

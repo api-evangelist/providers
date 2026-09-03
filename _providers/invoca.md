@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://invoca.net
@@ -46,7 +46,7 @@ apis:
   description: Phone Numbers
   name: Invoca Phone Numbers API
   slug: invoca-phone-numbers-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: other
   title: ''
@@ -142,7 +142,7 @@ common:
   url: errors/invoca-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/invoca-mcp.yml
 - group: auth
   title: ''
@@ -192,10 +192,6 @@ created: '2026-07-17'
 description: Invoca is an AI-powered revenue execution platform that connects marketing and sales teams by tracking and analyzing inbound phone calls across the buying journey. Its call tracking, conversation intelligence, and signal analytics attribute phone conversations back to the paid media, campaigns, and digital touchpoints that drove them, so revenue teams can optimize ad spend and improve buyer experiences. For developers, Invoca publishes a REST developer platform (developers.invoca.net) with date-versioned APIs covering call transactions, signals, call ingestion, RingPool number allocation, network integration, and pre-call insight, authenticated with self-serve Invoca API tokens or HTTP Basic.
 image: https://www.invoca.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Invoca MCP Server
-  slug: invoca-mcp-server
 modified: '2026-08-13'
 name: Invoca
 nav: Providers
@@ -241,8 +237,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:

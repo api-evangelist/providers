@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -83,7 +83,7 @@ apis:
   description: Serviceable Zips
   name: Veho zips API
   slug: veho-zips-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Veho Webhooks
@@ -207,7 +207,7 @@ common:
   url: packages/veho-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/veho-mcp.yml
 - group: agent
   title: ''
@@ -278,10 +278,6 @@ json_schemas:
   property_count: 0
   slug: veho-webhook-event
 layout: provider
-mcp_servers:
-- description: No official Veho MCP server was found (npm, the MCP registry, and the Veho docs were searched 2026-07-21). This is a candidate tool list derived one tool per operationId from the published OpenAPI 3.1
-  name: Veho MCP Server
-  slug: veho-mcp-server
 modified: '2026-07-21'
 name: Veho
 nav: Providers
@@ -323,8 +319,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/screenshots/veho-2026-08-17T082724.png
 security:

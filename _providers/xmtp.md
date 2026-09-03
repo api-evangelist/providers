@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: Core gRPC-based API for the XMTP decentralized messaging network. Provides operations for sending and retrieving encrypted group messages, managing MLS key packages, publishing identity updates, and s
@@ -146,13 +146,13 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 36.0
   coverage:
     artifact_dirs: 7
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -162,9 +162,6 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 38.8
   regulatory:
     applies: true
@@ -172,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/screenshots/xmtp-2026-06-20T201710.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Documented product APIs across Token Hub tokenization, the Areion Payment Gateway (3-D Secure authentication and authorization), Prepaid card issuance/lifecycle/transaction management, Fraud Risk Mana
@@ -145,8 +145,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

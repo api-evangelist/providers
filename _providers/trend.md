@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.trend.io
@@ -137,7 +137,7 @@ apis:
   description: The Upload API from Trend — 2 operation(s) for upload.
   name: Trend Upload API
   slug: trend-upload-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: Trend API - 1.28.31
@@ -225,7 +225,7 @@ common:
   url: rate-limits/trend-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trend-mcp.yml
 - group: other
   title: ''
@@ -248,10 +248,6 @@ description: Trend (branded "Trend by soona") is a user-generated content (UGC) 
   credit purchases. The Swagger UI at /docs is password-protected; the specification behind it is not.
 image: https://cdn.prod.website-files.com/62c13e3f6b73683c91c0df7c/649ae4e9626c096bdb7ca6ca_trend-by-soona-black.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Trend MCP Server
-  slug: trend-mcp-server
 modified: '2026-08-13'
 name: Trend
 nav: Providers
@@ -303,8 +299,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png
 security:

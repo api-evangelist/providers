@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Read-only real-time cricket data API. 51 operations on the apiv5 tier (30 on apiv3), all reads, served from https://apicricketchampion.in/apiv{3|4|5}/ with an opaque API token as the final path segmen
@@ -127,8 +127,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latiyalinfotech/refs/heads/main/screenshots/latiyalinfotech-2026-09-02T150217.png
 security:

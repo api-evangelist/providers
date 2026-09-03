@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 15
 apis:
 - baseURL: https://api.isportsapi.com/
@@ -664,8 +664,8 @@ score:
       marker_coverage: 100.0
       total: 16
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
 security:

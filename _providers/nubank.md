@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Open Finance Brasil endpoints registered by Nubank in the Central Bank directory. Provides consent-driven access to account, credit-card, loan, and payment-initiation data for authorised TPPs under th
@@ -139,8 +139,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/screenshots/nubank-2026-06-20T190506.png
 security:

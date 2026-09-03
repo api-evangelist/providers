@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: 'All of the endpoints below allow the Device Partner to publish data to the Virtual Peaker platform, which avoids Virtual Peaker having to constantly poll the data when there haven''t been any changes. '
   name: Virtual Peaker Publishing API
   slug: virtual-peaker-publishing-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Virtual Peaker Gravity Connect Webhooks
@@ -114,7 +114,7 @@ common:
   url: overlays/virtual-peaker-gravity-connect-vpp-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/virtual-peaker-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ description: 'Virtual Peaker is a Louisville, Kentucky software company selling 
   authored and openly published as a vendor-agnostic alternative to OpenADR and IEEE 2030.5 for onboarding and controlling DER devices. Gravity Connect is two-sided — the device OEM implements one half, the VPP platform implements the other — and both halves are readable anonymously as full Redoc API references. The honest posture: a real, downloadable, standards-ambitious API contract that is effectively undiscoverable (it is linked from nowhere on the marketing site) and whose credentials are partner-only, issued per utility program by emailing the Gravity Connect team. The commercial Shift API is named and sold on the marketing site but has no public documentation at all.'
 image: https://assets.virtualpeaker.io/gravity-connect/assets/vp_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Virtual Peaker MCP Server
-  slug: virtual-peaker-mcp-server
 modified: '2026-07-27'
 name: Virtual Peaker
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 74.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/screenshots/virtual-peaker-2026-08-17T082758.png
 security:

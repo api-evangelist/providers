@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://usesmileid.com'', ''status'': 301, ''note'': ''declared website redirects to https://smile.id/ — a different registrable domain (usesmileid.com -> smile.id), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -103,7 +104,7 @@ apis:
   description: The Verification Status API from Smile Identity — 1 operation(s) for verification status.
   name: Smile Identity Verification Status API
   slug: smile-identity-verification-status-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Smile Identity Verification Webhooks
@@ -263,7 +264,7 @@ common:
   url: changelog/smile-identity-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smile-identity-mcp.yml
 - group: agent
   title: ''
@@ -277,10 +278,6 @@ created: '2026-07-17'
 description: Smile Identity (Smile ID) is Africa's leading digital identity verification, fraud detection, AML and KYC/KYB compliance platform. Its V3 REST API and v12 mobile/web SDKs let businesses onboard and authenticate users across all 54 African countries and beyond, covering thousands of ID types and documents. Products include Biometric KYC, Document Verification, Enhanced Document Verification, Basic and Enhanced KYC, Business Verification (KYB), SmartSelfie registration/authentication/compare, phone and address verification, and AML monitoring. Verifications run against government and institutional data sources, with passive/active liveness, and results delivered synchronously and via asynchronous callback webhooks.
 image: https://cdn.prod.website-files.com/69cecfcd51ce55fce000c092/6a198a55c9d40279f94b33a4_Smile-Favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Smile Identity MCP Server
-  slug: smile-identity-mcp-server
 modified: '2026-07-21'
 name: Smile Identity
 nav: Providers
@@ -322,8 +319,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/screenshots/smile-identity-2026-08-17T081942.png
 security:

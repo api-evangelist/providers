@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: First-party commercial and treasury-management API product from Columbia Bank, providing programmatic access to banking data and operations for integration with financial software and ERP platforms. D
@@ -112,8 +112,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia-banking/refs/heads/main/screenshots/columbia-banking-2026-07-25T210116.png
 security:

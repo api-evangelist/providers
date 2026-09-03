@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.abnormalplatform.com/v1
@@ -124,7 +124,7 @@ apis:
   description: API to manage Vendorbase and threats from Vendors
   name: Abnormal AI Vendors API
   slug: abnormal-vendors-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Abnormal Webhooks
@@ -187,7 +187,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/abnormal-mcp.yml
 - group: auth
   title: ''
@@ -329,10 +329,6 @@ created: '2026-08-02'
 description: 'Abnormal AI (formerly Abnormal Security) is a San Francisco based cloud email and human-behavior security company whose behavioral AI platform protects Microsoft 365 and Google Workspace against phishing, business email compromise, vendor fraud, account takeover and misdirected email. The platform is API-first: it integrates with Microsoft and Google over their APIs rather than by rewriting MX records, and every capability in the Abnormal Portal — threats, cases, AI Security Mailbox, employee and vendor insights, audit logs, RBAC roles and users, security posture management and dashboard aggregations — is also reachable through the Abnormal Security Client API, a bearer-token REST API published as OpenAPI 3.0.3 on SwaggerHub with separate US and EU production hosts. Abnormal also streams the same event data to SIEM and SOAR platforms over near-real-time webhooks.'
 image: https://www.abnormal.ai/og/home.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Abnormal AI MCP Server
-  slug: abnormal-ai-mcp-server
 modified: '2026-08-02'
 name: Abnormal AI
 nav: Providers
@@ -373,8 +369,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/screenshots/abnormal-2026-08-07T160818.png
 security:

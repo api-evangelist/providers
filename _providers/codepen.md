@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Standard oEmbed endpoint that returns a rich embed payload (iframe HTML, thumbnail URL, author metadata) for any public CodePen Pen URL. Supports JSON and JSONP response formats and an optional height
@@ -152,8 +152,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codepen/refs/heads/main/screenshots/codepen-2026-06-20T174703.png
 security:

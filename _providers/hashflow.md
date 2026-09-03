@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'REST API for takers/aggregators: discover market makers, query indicative price levels, request signed executable RFQ quotes, and check trader rate-limit restrictions. Quotes settle on-chain via Hashf'
@@ -42,7 +42,7 @@ apis:
 - description: 'REST API for market makers: publish price levels, receive RFQs, sign quotes, and manage restrictions on the Hashflow exchange.'
   name: Hashflow Market Maker API v3
   slug: hashflow-market-maker-api-v3
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -122,7 +122,7 @@ common:
   url: conformance/hashflow-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hashflow-mcp.yml
 - group: agent
   title: ''
@@ -144,10 +144,6 @@ created: '2026-07-17'
 description: Hashflow is a decentralized exchange (DEX) and the leading request-for-quote (RFQ) trading platform in crypto. Instead of an automated market maker (AMM) pricing curve, Hashflow brokers signed, off-chain-priced quotes from a network of professional market makers, giving traders zero-slippage, MEV-protected swaps across EVM chains and Solana, including cross-chain trades. Market makers publish price levels and respond to RFQs with EIP-712 signed quotes that settle on-chain via the HashflowRouter contract. Developers integrate through the Taker API v3 (market-makers, price-levels, rfq, and restrictions endpoints) and market-maker tooling, with first-party JavaScript and Python SDKs.
 image: https://www.hashflow.com/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hashflow MCP Server
-  slug: hashflow-mcp-server
 modified: '2026-07-19'
 name: Hashflow
 nav: Providers
@@ -186,8 +182,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/screenshots/hashflow-2026-07-25T220747.png
 security:

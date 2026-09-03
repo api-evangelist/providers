@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ arazzos:
 - description: Upload a start keyframe image, submit a video generation, and poll for the result.
   name: Hedra — Generate a video from a start image
   slug: hedra-generate-video
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Hedra Webhooks
@@ -156,7 +156,7 @@ common:
   url: cli/hedra-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hedra-mcp.yml
 - group: agent
   title: ''
@@ -214,10 +214,6 @@ created: '2026-07-17'
 description: Hedra is a generative-media AI lab and creative platform that lets you produce image, video, and audio content through a web studio and a developer API. Its proprietary Character-3 model powers expressive talking-head and character video, and the platform brokers access to leading partner models (Veo, Kling, Grok, Nano Banana Pro, Flux, Sana) behind one credit-based account. The Hedra Web API exposes a small, uniform surface — list models and voices, upload assets, submit generations (image, video, avatar, text-to-speech, voice clone, upscale, video-to-video), poll generation status, and check billing credits — authenticated with an X-API-Key header. Hedra ships first-party Python, Node/TypeScript, and Rust CLI clients. Backed by a16z.
 image: https://www.hedra.com/assets/logo/light.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hedra MCP Server
-  slug: hedra-mcp-server
 modified: '2026-07-19'
 name: Hedra
 nav: Providers
@@ -259,8 +255,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/screenshots/hedra-2026-07-25T220905.png
 security:

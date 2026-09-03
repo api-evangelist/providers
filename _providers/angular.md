@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - description: 'The Angular Core API provides the fundamental building blocks of the Angular framework including components, directives, pipes, dependency injection, Signals for reactive state management, standalone '
@@ -169,8 +169,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 17.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/screenshots/angular-2026-06-20T171952.png
 security:

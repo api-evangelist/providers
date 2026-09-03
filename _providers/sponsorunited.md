@@ -1,17 +1,18 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-09-02'
+  score: 28.2
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sponsorunited.com
@@ -42,7 +43,7 @@ apis:
   description: The production REST API behind the SponsorUnited platform. Its OpenAPI 3.0 description is publicly served at https://api.sponsorunited.com/docs and describes 547 operations across 422 paths and 561 sc
   name: SponsorUnited API
   slug: sponsorunited-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Sponsorunited Event Surface
@@ -133,10 +134,6 @@ description: SponsorUnited is a sports and entertainment sponsorship intelligenc
   and no self-serve sign-up.
 image: https://cdn.prod.website-files.com/69150d2cbcfa91eb0672f267/691cc16ce42d7f8320d6e4d0_SU-logotype-light.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: SponsorUnited MCP Server
-  slug: sponsorunited-mcp-server
 modified: '2026-08-29'
 name: SponsorUnited
 nav: Providers
@@ -165,7 +162,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -175,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 45.6
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     contracts:
@@ -185,8 +182,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/screenshots/sponsorunited-2026-09-02T160541.png
 security:

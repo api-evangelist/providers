@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Verkada Command platform - cameras and footage, access control, sensors, alarms, guest management, Helix video tagging, and audit logs. Scoped API key + short-lived token auth; region
@@ -232,8 +232,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/screenshots/verkada-2026-08-17T082733.png
 security:

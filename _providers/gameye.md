@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ arazzos:
 - description: Pull a session's logs, terminate it, then download a diagnostic artifact.
   name: Stream logs, stop a Gameye session, and download an artifact
   slug: gameye-session-teardown
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -197,7 +197,7 @@ common:
   url: well-known/gameye-api-catalog.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gameye-mcp.yml
 - group: agent
   title: ''
@@ -247,10 +247,6 @@ created: '2026-07-17'
 description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a region and a Docker image; Gameye selects the best available location, starts a container in about half a second, and returns the host IP and mapped ports players connect to. Capacity-based pricing carries no egress fees, and the platform is matchmaker-agnostic (Pragma Engine, Nakama, PlayFab, FlexMatch). Gameye has orchestrated 120M+ sessions with a 99.99% uptime SLA and serves studios including Torn Banner Studios (Chivalry 2) and Remedy Entertainment.
 image: https://static.gameye.com/images/android-chrome-512x512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gameye MCP Server
-  slug: gameye-mcp-server
 modified: '2026-07-19'
 name: Gameye
 nav: Providers
@@ -289,8 +285,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/screenshots/gameye-2026-07-25T215424.png
 security:

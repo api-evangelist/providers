@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Global Apex service classes for automating revenue recognition to ASC 606 and IFRS 15. RevenueContractService creates and updates revenue contracts, generates performance obligations, allocates revenu
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 22.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certinia/refs/heads/main/screenshots/certinia-2026-07-25T205017.png
 security:

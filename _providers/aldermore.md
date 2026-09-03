@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-09-02'
+  score: 40.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -398,8 +398,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/screenshots/aldermore-2026-07-25T195550.png
 security:

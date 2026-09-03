@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Rolled aluminum sheet, plate, and coil products serving aerospace, automotive, commercial transportation, packaging (can sheet, can end stock, tab stock), and industrial customers. Manufactured at int
@@ -141,8 +141,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/screenshots/arconic-2026-06-20T172414.png
 security:

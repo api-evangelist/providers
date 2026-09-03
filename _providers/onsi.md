@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The pay API from Onsi — 9 operation(s) for pay.
   name: Onsi pay API
   slug: onsi-pay-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: sandbox/onsi-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/onsi-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Onsi is a global technology provider and UK/EU insurance intermediary that delivers flexible, shift-linked worker benefits — on-demand ("Embedded") pay, insurance cover, and a rewards marketplace — to employers and their frontline workers. Its Partner (BMO) API lets benefit-program partners manage members (invite, read, update, replace, and offboard individually, in batches, or via full-list CSV jobs), read tiers and earned-wage balances, run on-demand pay withdrawals through a two-step intent/complete flow, and reconcile pay cycles and deductions with payroll. Authentication is an x-api-key header; requests support idempotency (x-idempotency-key, 7-day retention) and skip/take offset pagination, with a consistent code/message error envelope.
 image: https://framerusercontent.com/assets/Kgx16PhdTJfIAzqiv0XeASdgeZU.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Onsi MCP Server
-  slug: onsi-mcp-server
 modified: '2026-07-20'
 name: Onsi
 nav: Providers
@@ -229,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/screenshots/onsi-2026-08-07T190412.png
 security:

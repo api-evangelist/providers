@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-09-02'
+  score: 32.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ arazzos:
 - description: Authenticate, resolve the user's lab, then page recent orders (most recent first) with cursor pagination and an optional created-date filter. Every operationId is verified against openapi/speccheck-op
   name: SpecCheck — List recent orders for a lab
   slug: speccheck-list-recent-orders
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -150,7 +150,7 @@ common:
   url: conformance/speccheck-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/speccheck-mcp.yml
 - group: agent
   title: ''
@@ -192,10 +192,6 @@ created: '2026-07-17'
 description: SpecCheck (speccheckrx.com) is an optical lab ordering platform for eyecare practices and eyewear partners. Its REST API lets integrators authenticate with client credentials, list the labs a user is associated with, retrieve a lab's order settings, browse the lens catalog (styles, materials, and add-on coats, colors, and tints), and create prescription (rx), frame, redo, and multi-pair orders. The API uses 24-hour bearer tokens plus a User-Email actor header, an Idempotency-Key header for safe POST retries, cursor pagination on list endpoints, and a consistent error envelope. SpecCheck was surfaced as a portfolio company of Initialized Capital and enriched by the API Evangelist pipeline from its public documentation at docs.speccheckrx.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speccheck.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SpecCheck MCP Server
-  slug: speccheck-mcp-server
 modified: '2026-07-21'
 name: SpecCheck
 nav: Providers
@@ -240,8 +236,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/screenshots/speccheck-2026-09-02T160346.png
 security:

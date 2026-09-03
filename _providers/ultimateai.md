@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://ultimate.ai/'', ''status'': 301, ''note'': ''declared website redirects to https://www.zendesk.com/service/ai/ai-agents/ — a different registrable domain (ultimate.ai -> zendesk.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Successor API surface of the Ultimate.ai platform after the Zendesk acquisition - Chat, Ticket, and Widget Escalation APIs with matching webhooks, plus Data Export and Delete User Data. Requires the A
@@ -119,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 25.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/screenshots/ultimateai-2026-09-02T164806.png
 security:

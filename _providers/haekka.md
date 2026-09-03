@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ arazzos:
 - description: Read an employee-training record and update its completion state, then confirm.
   name: Sync a Haekka employee-training completion
   slug: haekka-sync-completion
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -82,7 +82,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/haekka-mcp.yml
 - group: other
   title: ''
@@ -208,10 +208,6 @@ created: '2026-07-17'
 description: Haekka is a Slack-native microlearning and security-awareness training platform that delivers short, timely training inside Slack to improve knowledge, compliance, and team performance. Core products include Training, Streams (auto-drip microlearning), Workflows (event-triggered training assignment), Pulse Engagements (surveys, quizzes, announcements), and a Phishing simulator with a Gmail Chrome extension. Haekka's catalog maps to SOC 2, HIPAA, GDPR, and PCI training requirements and integrates with Slack, Google Workspace, and HRIS/LMS/IAM systems. Its Public REST API exposes employees, trainings, and employee-training completion records plus training assignment, secured with a bearer API key generated in account settings.
 image: https://cdn.prod.website-files.com/63614de03f02a69460a3de25/63614e1362ff9e6729e56195_HKA--logo-color-white.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Haekka MCP Server
-  slug: haekka-mcp-server
 modified: '2026-07-19'
 name: Haekka
 nav: Providers
@@ -250,8 +246,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/screenshots/haekka-2026-07-25T220528.png
 security:

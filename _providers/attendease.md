@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -42,7 +42,7 @@ apis:
 - description: Event-scoped REST API bound to a single event subdomain covering event properties, sessions and session instances, presenters, surveys, sponsors, rooms, venues, filters, and content. Authenticated wit
   name: Attendease Event API
   slug: attendease-event-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -126,7 +126,7 @@ common:
   url: data-model/attendease-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/attendease-mcp.yml
 - group: agent
   title: ''
@@ -176,10 +176,6 @@ created: '2026-07-17'
 description: 'Attendease (now EventUp Planner, following its acquisition by Tripleseat) is an event and meeting management platform for planning, promoting, and running virtual, in-person, and hybrid events such as conferences, webinars, roadshows, and product launches. Attendease exposes a public developer API in two tiers: an Event API scoped to a single event subdomain (attendee tokens, sessions, presenters, surveys, sponsors, rooms, venues, and content) and an Organization API (`/api/v2/`) that spans business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. The Organization API is authenticated with HMAC-SHA1 request signing (`Authorization: APIAuth access_key:signature`) while the Event API uses attendee/event tokens and HTTP Basic auth. First-party JavaScript and Ruby SDKs plus a Jekyll plugin are published to npm and RubyGems.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/attendease.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Attendease MCP Server
-  slug: attendease-mcp-server
 modified: '2026-08-13'
 name: Attendease
 nav: Providers
@@ -220,8 +216,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/screenshots/attendease-2026-07-25T201628.png
 security:

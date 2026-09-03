@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Documented, versioned REST API (/api/v1/*) for checking IPs, retrieving blacklist feeds and report history, and submitting abuse reports. Uses X-Secret-Token header authentication with role-based rate
@@ -203,8 +203,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sniffcat/refs/heads/main/screenshots/sniffcat-2026-09-02T160014.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The Model Context Protocol (MCP) is an open JSON-RPC 2.0 standard for connecting AI applications to external systems — tools, resources and reusable prompt templates. Originally developed by Anthropic
@@ -347,14 +347,14 @@ rules:
     warn: 3
   slug: agentic-ai-foundation-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.2
+  band: developing
+  composite: 51.3
   coverage:
     artifact_dirs: 28
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -364,9 +364,6 @@ score:
     discoverability: 72.2
     governance: 29.5
     operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 56.2
   provenance:
     conformance: derived
@@ -377,8 +374,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png
 security:

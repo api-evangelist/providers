@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -503,7 +503,7 @@ apis:
   description: 'The #X Amz Target=StarlingDoveService.UntagResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.untagresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.UntagResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-untagresource-api
-artifact_total: 1436
+artifact_total: 1435
 collections:
 - collection_type: open
   name: API Collection
@@ -895,7 +895,7 @@ common:
   url: well-known/amazon-config-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-config-mcp.yml
 - group: agent
   title: ''
@@ -4616,10 +4616,6 @@ jsonld:
   property_count: 326
   slug: amazon-config-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Config MCP Server
-  slug: amazon-config-mcp-server
 modified: '2026-06-20'
 name: Amazon Config
 nav: Providers
@@ -4682,8 +4678,8 @@ score:
       marker_coverage: 0.0
       total: 92
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:

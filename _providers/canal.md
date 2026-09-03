@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.shopcanal.com/platform
@@ -121,7 +121,7 @@ apis:
   description: The webhooks API from Canal — 2 operation(s) for webhooks.
   name: Canal webhooks API
   slug: canal-webhooks-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Canal Webhooks
@@ -236,7 +236,7 @@ common:
   url: conformance/canal-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/canal-mcp.yml
 - group: design
   title: ''
@@ -294,10 +294,6 @@ created: '2026-07-17'
 description: Canal (now Rokt Catalog, following Rokt's acquisition of Canal) is a dropship and marketplace commerce platform that lets brands, retailers, and platforms sell curated third-party products without holding inventory. Suppliers (Brands) list products into Canal's vetted network; Storefronts (Partners) surface those products, and Canal forwards each order to the Supplier who ships directly to the customer. The Rokt Catalog Platform API (api.shopcanal.com/platform) exposes products, variants, orders, fulfillments, refunds, returns, shops, shipping/tax calculation, and webhooks so custom, headless, and marketplace backends can integrate alongside the native Shopify, WooCommerce, and BigCommerce apps. Canal was an a16z portfolio company.
 image: https://cdn.prod.website-files.com/633617b15a78ccbe02dcf627/657cdf8810129b1d520e01c1_Site%20Opengrap%20Image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Canal MCP Server
-  slug: canal-mcp-server
 modified: '2026-07-18'
 name: Canal
 nav: Providers
@@ -338,8 +334,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/screenshots/canal-2026-07-25T204329.png
 security:

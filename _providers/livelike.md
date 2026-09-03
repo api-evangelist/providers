@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing LiveLike applications, user profiles, programs, interactive widgets (polls, quizzes, predictions, alerts), chat rooms, gamification, and rewards. OAuth 2.0 Bearer authentication;
@@ -191,8 +191,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/screenshots/livelike-2026-07-25T225358.png
 security:

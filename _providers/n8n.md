@@ -11,30 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-09-02'
+  score: 35.1
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 73 operations · 50 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps tha
+- baseURL: /api/v1
+  baseurl_source: spec
+  description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps tha
   name: N8n
   slug: n8n
 - baseURL: https://app.n8n.cloud/api/v1
@@ -117,7 +119,7 @@ apis:
   description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
-artifact_total: 58
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -168,6 +170,10 @@ collections:
   name: n8n Public API
   slug: open-n8n
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://n8n.io
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,7 +229,7 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://docs.n8n.io/release-notes/
+  url: https://docs.n8n.io/changelog/release-notes
 - group: operate
   title: ''
   type: Community
@@ -247,7 +253,99 @@ common:
 - group: agent
   title: ''
   type: MCPServer
-  url: https://blog.n8n.io/n8n-mcp-server/
+  url: mcp/n8n-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/n8n-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/n8n-security.txt
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/n8n-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/n8n-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/n8n-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/n8n-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/n8n-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/n8n-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/n8n-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.n8n.cloud/
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/n8n-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/n8n-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/n8n-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/n8n-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/n8n-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/n8n-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/n8n-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/n8n-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/n8n-rate-limits.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/n8n-public-overlay.yaml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/n8n-trust-center.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.n8n.io/connect/n8n-api/api-reference
 created: '2025-06-06'
 description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
 features:
@@ -282,17 +380,17 @@ json_structures:
   slug: n8n-structure
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'n8n ships an official instance-level MCP server built into every n8n instance (Cloud and self-hosted, minimum n8n 2.2.0). MCP clients connect over streamable HTTP to build, edit, publish, and execute '
   name: MCP Server
   slug: mcp-server
-modified: '2026-08-21'
+modified: '2026-09-03'
 name: n8n
 nav: Providers
 network: true
-overview: 'n8n publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, CommunityPackage API, Credential API, and 11 more. Tagged areas include Agents, Artificial Intelligence, and Integration.
+overview: 'n8n publishes 15 APIs on the [APIs.io](https://apis.io/) network, including N8n, Audit API, CommunityPackage API, and 12 more. Tagged areas include Agents, Artificial Intelligence, Integration, Workflows, and Automation.
 
 
-  n8n''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 13 more developer resources.'
+  n8n''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: N8N Plans Pricing
   plan_count: 4
@@ -302,24 +400,29 @@ rate_limits:
 - limit_count: 3
   name: N8N Rate Limits
   slug: n8n-rate-limits
+scopes:
+- name: N8N Scopes
+  scope_count: 67
+  slug: n8n-scopes
+  summary_line: 67 scopes
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 62.3
   coverage:
-    artifact_dirs: 15
-    catalog_gap: 79.0
+    artifact_dirs: 31
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 12.5
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 0.0
-    contract_quality: 58.3
-    developer_ergonomics: 57.1
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 39.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 58.4
+    developer_ergonomics: 85.7
+    discoverability: 59.3
+    governance: 18.2
+    operational_transparency: 55.3
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -328,15 +431,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:
 - kind: authentication
   name: N8N Authentication
   slug: n8n-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: N8N Domain Security
   slug: n8n-domain-security
@@ -354,5 +457,8 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
-website: https://n8n.io/
+- Workflows
+- Automation
+- Low Code
+website: https://n8n.io
 ---

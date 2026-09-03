@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -360,8 +360,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 52.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png
 security:

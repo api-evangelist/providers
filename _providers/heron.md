@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-09-02'
+  score: 28.1
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.herondata.io/api
@@ -523,8 +523,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 62.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:

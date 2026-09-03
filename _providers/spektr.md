@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -88,7 +88,7 @@ apis:
   description: The Workspace Fields API API from Spektr — 2 operation(s) for workspace fields api.
   name: Spektr Workspace Fields API API
   slug: spektr-workspace-fields-api-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Spektr Webhooks
@@ -215,7 +215,7 @@ common:
   url: asyncapi/spektr-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spektr-mcp.yml
 - group: agent
   title: ''
@@ -257,10 +257,6 @@ created: '2026-07-17'
 description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring using configurable processes and a library of AI agents (KYB, document review, network/ownership discovery, address and license verification, source-of-funds, and false-positive reduction). The REST API (documented on ReadMe at spektr.readme.io, served from ingest.spektr.com) covers dataset and customer-record import, process execution and onboarding orchestration, event and transaction ingestion, workspace field definitions, and HMAC-signed webhooks. Authentication is via an x-api-key header, with idempotency-key support and Live/Sandbox/Test environments.
 image: https://cdn.prod.website-files.com/687e48ff717957204d88189a/69de85d328817d3ae0691be5_spektr-com.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spektr MCP Server
-  slug: spektr-mcp-server
 modified: '2026-07-21'
 name: Spektr
 nav: Providers
@@ -302,8 +298,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/screenshots/spektr-2026-08-17T082229.png
 security:

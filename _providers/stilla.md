@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic access to Stilla's capabilities. The REST API and the remote MCP server are protected by OAuth 2.0 / OIDC (WorkOS AuthKit). The OpenAPI document is served at api.stilla.ai/openapi.json bu
@@ -197,8 +197,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/screenshots/stilla-2026-09-02T160859.png
 security:

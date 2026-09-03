@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Rafay product documentation hub covering Kubernetes Operations Platform, MLOps, GPU PaaS, AI workloads, Token Factory, and ecosystem integrations.
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 17.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rafay-product-documentation/refs/heads/main/screenshots/rafay-product-documentation-2026-06-20T192528.png
 security:

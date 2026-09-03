@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Publisher ingest API for the Gist Content Network. Lets publisher partners push articles to ProRata in real time (`POST /ingest/article`) or in bulk for archival backfill (`POST /ingest/multiple_artic
@@ -78,7 +78,7 @@ apis:
   description: The Threads API from Gist — 2 operation(s) for threads.
   name: Gist Threads API
   slug: gist-threads-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: Prorata API Service
@@ -186,7 +186,7 @@ common:
   url: json-schema/gist-attribution-extension.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gist-mcp.yml
 - group: build
   title: ''
@@ -219,10 +219,6 @@ json_schemas:
   property_count: 0
   slug: gist-attribution-session-strict
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gist MCP Server
-  slug: gist-mcp-server
 modified: '2026-08-12'
 name: Gist
 nav: Providers
@@ -268,8 +264,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:

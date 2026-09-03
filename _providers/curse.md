@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The Subscriptions API from Curse — 5 operation(s) for subscriptions.
   name: Curse Subscriptions API
   slug: curse-subscriptions-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: overlays/curse-core-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/curse-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: Curse (Curse Inc.) built and operated CurseForge, Gamepedia, and the Curse gaming network; its platform assets are now operated under Fandom / Overwolf. The live developer surface is the CurseForge Core API — a REST API over the CurseForge catalog of game mods, modpacks, and add-ons, covering games, categories, mods, files, fingerprint matching, and Minecraft versions and mod loaders. It is authenticated with an x-api-key header issued from the CurseForge for Studios developer console, with third-party access granted via an approved application.
 image: https://www.curseforge.com/images/mods/logos/curseforge.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Curse MCP Server
-  slug: curse-mcp-server
 modified: '2026-07-18'
 name: Curse
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/screenshots/curse-2026-07-25T210958.png
 security:

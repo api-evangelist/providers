@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -384,8 +384,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png
 security:

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-09-02'
+  score: 5.0
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: HTTP surface exposed by the AgentSea NestJS module (@lov3kaizen/agentsea-nestjs) when enableRestApi/enableWebSocket are set. Documented operations are GET /agents, GET /agents/:name, POST /agents/:nam
@@ -181,8 +181,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/screenshots/agentsea-2026-09-02T144115.png
 security:

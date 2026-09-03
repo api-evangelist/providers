@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 48
 apis:
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
@@ -700,7 +700,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -710,7 +710,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 58.7
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     contracts:
@@ -720,8 +720,8 @@ score:
       total: 48
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/screenshots/splunk-observability-2026-09-02T160527.png
 security:

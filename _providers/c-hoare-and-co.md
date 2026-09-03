@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ apis:
   description: The Transactions API from C. Hoare & Co. — 3 operation(s) for transactions.
   name: C. Hoare & Co. Transactions API
   slug: c-hoare-and-co-transactions-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -269,7 +269,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/c-hoare-and-co-mcp.yml
 - group: build
   title: ''
@@ -280,10 +280,6 @@ description: C. Hoare & Co. (Hoares Bank) is the United Kingdom's oldest private
   and mutual-TLS client authentication using OBIE/eIDAS certificates after third-party provider onboarding.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: C. Hoare & Co. MCP Server
-  slug: c-hoare-co-mcp-server
 modified: '2026-07-23'
 name: C. Hoare & Co.
 nav: Providers
@@ -333,8 +329,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

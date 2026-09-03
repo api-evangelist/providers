@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Application Policy Infrastructure Controller REST API is the single programmatic interface into the ACI Management Information Tree. GET, POST and DELETE against /api/mo/<distinguished-name>.json '
@@ -267,8 +268,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-aci/refs/heads/main/screenshots/cisco-aci-2026-09-02T145040.png
 security:

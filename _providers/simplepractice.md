@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Partner-only integration announced by SimplePractice Enterprise (September 2022) that connects to overlapping SimplePractice provider accounts so that Employee Assistance Programs (EAPs), Managed Care
@@ -120,8 +120,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplepractice/refs/heads/main/screenshots/simplepractice-2026-09-02T155541.png
 security:

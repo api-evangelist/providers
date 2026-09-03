@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.request.finance/'', ''status'': 302, ''note'': ''declared website redirects to https://www.requestfinance.com/ — a different registrable domain (request.finance -> requestfinance.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
   name: Request Finance AP and AR API
   slug: request-finance-ap-and-ar-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Request Webhooks
@@ -47,7 +48,7 @@ asyncapis:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/request-mcp.yml
 - group: auth
   title: ''
@@ -157,10 +158,6 @@ created: '2026-07-17'
 description: Request Finance is a crypto and fiat invoicing, payments, and payroll platform that lets businesses issue invoices, accept payments in crypto and fiat, pay contractors and employees, and manage accounts payable and receivable. Its Accounts Payable and Receivable (AP/AR) REST API lets developers programmatically create and send invoices, run off-chain and on-chain payroll payments, track invoice status without polling blockchains or bank accounts, manage organizations and clients, and download invoice PDFs. Invoices are settled through the Request Network protocol across many EVM chains and stablecoins, with crypto-to-fiat settlement via banking partners. The API uses Bearer authentication (API keys for quick starts, OAuth 2.0 / OIDC via Auth0 for production), real-time webhooks with HMAC-signed payloads, and a Sepolia testnet sandbox. Request Finance is backed by Balderton Capital.
 image: https://www.request.finance/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Request Finance MCP Server
-  slug: request-finance-mcp-server
 modified: '2026-07-20'
 name: Request Finance
 nav: Providers
@@ -211,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/screenshots/request-2026-08-17T081526.png
 security:

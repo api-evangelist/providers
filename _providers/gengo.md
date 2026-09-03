@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.gengo.com/v2
@@ -66,7 +66,7 @@ apis:
   description: Language pairs, supported languages, quotes and unit counts.
   name: Gengo Service API
   slug: gengo-service-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Gengo Callbacks Webhooks
@@ -152,7 +152,7 @@ common:
   url: packages/gengo-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gengo-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: 'Gengo is a people-powered translation platform that delivers fast, affordable, high-quality human translation in every major language through a global network of thousands of certified translators. The Gengo API (v2) lets developers order translation programmatically: submit text or file jobs, group them into orders, run cost quotes, look up supported language pairs and tiers, manage glossaries, retrieve completed translations and revisions, exchange comments with translators, and receive job-status updates through per-job callback URLs. Authentication uses a public API key plus an HMAC-SHA1 request signature, with a full sandbox for testing. Gengo was surfaced as a portfolio company of 500 Global and Point Nine and enriched into the API Evangelist network.'
 image: https://gengo.com/wp-content/themes/gengo_theme/images/common/apple-touch-icon-precomposed.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gengo MCP Server
-  slug: gengo-mcp-server
 modified: '2026-07-19'
 name: Gengo
 nav: Providers
@@ -250,8 +246,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/screenshots/gengo-2026-07-25T215611.png
 security:

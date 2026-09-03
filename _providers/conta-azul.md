@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - baseURL: https://api-v2.contaazul.com
@@ -41,7 +41,7 @@ apis:
   description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
   name: Conta Azul v1 API
   slug: conta-azul-v1-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -116,7 +116,7 @@ common:
   url: data-model/conta-azul-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/conta-azul-mcp.yml
 - group: agent
   title: ''
@@ -170,10 +170,6 @@ created: '2026-07-17'
 description: 'Conta Azul is a Brazilian cloud accounting, financial-management and ERP platform for small and medium businesses, backed by Ribbit Capital. Its Nova API (v2, api-v2.contaazul.com) exposes the ERP over REST/JSON with OAuth 2.0 (AWS Cognito) authorization: financial events (accounts payable and receivable), installments, cost centers, categories and DRE, financial accounts and balances, sales, charges, products/inventory, proposals, contracts and settlements (baixas). The legacy API was sunset in November 2025 in favor of this versioned, OpenAPI-documented platform.'
 image: https://contaazul.com/wp-content/themes/contaazul/assets/images/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Conta Azul MCP Server
-  slug: conta-azul-mcp-server
 modified: '2026-07-18'
 name: Conta Azul
 nav: Providers
@@ -222,8 +218,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:

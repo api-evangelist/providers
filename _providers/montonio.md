@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: JWT-authenticated REST API for collecting payments (bank payment initiation, cards, MobilePay, BLIK, BNPL / Hire-Purchase), creating and validating Orders, issuing Refunds, generating Payment Links, o
@@ -42,7 +42,7 @@ apis:
 - description: 'JWT-authenticated REST API for multi-carrier shipping: list carriers and shipping methods, fetch pickup points and courier services, calculate rates, create and update Shipments, generate and fetch La'
   name: Montonio Shipping API (v2)
   slug: montonio-shipping-api-v2
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Montonio Webhooks
@@ -130,7 +130,7 @@ common:
   url: well-known/montonio-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/montonio-mcp.yml
 - group: agent
   title: ''
@@ -184,10 +184,6 @@ created: '2026-07-17'
 description: 'Montonio is an Estonian fintech providing a unified payments and shipping platform for e-commerce merchants across the Baltics, Poland, and Finland. Its developer platform exposes two JWT-authenticated REST APIs: the Payments API (Stargate) for bank payment initiation, card payments, MobilePay, BLIK, and Buy-Now-Pay-Later / Hire-Purchase financing, together with orders, refunds, payment links, checkout sessions and payout reporting; and the Shipping API (v2) for multi-carrier label printing, parcel tracking, pickup points, and shipment management. Montonio serves over 8,000 businesses, ships ready-made plugins for WooCommerce, Magento and PrestaShop, and publishes a first-party JavaScript SDK with embeddable checkout UI components.'
 image: https://cdn.prod.website-files.com/6745c818f143d246f266b299/68b9ab2dc787d1c75659148a_Frame%201%20(3).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Montonio MCP Server
-  slug: montonio-mcp-server
 modified: '2026-07-20'
 name: Montonio
 nav: Providers
@@ -229,8 +225,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/screenshots/montonio-2026-08-07T184221.png
 security:

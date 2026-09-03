@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ apis:
   description: The WiFi Acquisition API from Punchh — 2 operation(s) for wifi acquisition.
   name: Punchh WiFi Acquisition API
   slug: punchh-wifi-acquisition-api
-artifact_total: 133
+artifact_total: 132
 asyncapis:
 - description: ''
   name: Punchh Webhooks
@@ -545,7 +545,7 @@ common:
   url: llms/punchh-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/punchh-mcp.yml
 - group: agent
   title: ''
@@ -742,10 +742,6 @@ jsonld:
   property_count: 10
   slug: punchh-pos-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Punchh MCP Server
-  slug: punchh-mcp-server
 modified: '2026-08-13'
 name: Punchh
 nav: Providers
@@ -823,8 +819,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:

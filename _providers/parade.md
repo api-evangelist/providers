@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Search API from Parade — 1 operation(s) for search.
   name: Parade Search API
   slug: parade-search-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -183,7 +183,7 @@ common:
   url: openapi/_original/parade-partner-webhooks-openapi.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parade-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Parade is an AI-powered capacity-management and carrier-access platform for freight brokers. It layers on top of a broker's existing Transportation Management System (TMS) and load boards to surface truck availability, syndicate loads to third-party loadboards and carriers, and digitally transact quotes and bookings. Parade's syndication APIs let integration partners search available loads, submit carrier quotes, book loads (Book Now), post available trucks, check carrier onboarding status, and receive digital-conversion and carrier-sync webhooks. Its CoDriver AI agent handles inbound carrier calls and emails. Parade is backed by Menlo Ventures and serves freight brokerages that have collectively transacted tens of billions of dollars in freight.
 image: https://www.parade.ai/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parade MCP Server
-  slug: parade-mcp-server
 modified: '2026-07-20'
 name: Parade
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/screenshots/parade-2026-08-07T191355.png
 security:

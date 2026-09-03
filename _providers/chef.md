@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ arazzos:
 - description: Create a role, read it back, then place it in a node's run list.
   name: Chef Define a Role and Assign It to a Node
   slug: chef-role-assignment-workflow
-artifact_total: 66
+artifact_total: 65
 collections:
 - collection_type: postman
   name: Chef Automate Channels API
@@ -253,7 +253,7 @@ common:
   url: well-known/chef-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chef-mcp.yml
 - group: agent
   title: ''
@@ -422,10 +422,6 @@ jsonld:
   property_count: 7
   slug: chef-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chef MCP Server
-  slug: chef-mcp-server
 modified: '2026-06-20'
 name: Chef
 nav: Providers
@@ -485,8 +481,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/screenshots/chef-2026-06-20T174250.png
 security:

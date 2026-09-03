@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
   description: Site author accounts.
   name: Abcuro Users API
   slug: abcuro-users-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -236,7 +236,7 @@ common:
   url: security/abcuro-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/abcuro-mcp.yml
 - group: build
   title: ''
@@ -254,10 +254,6 @@ created: '2026-08-02'
 description: Abcuro is a clinical-stage biotechnology company headquartered in Newton, Massachusetts, developing first-in-class immunotherapies that precisely modulate highly cytotoxic T cells for autoimmune disease and cancer. Its lead candidate, ulviprubart (ABC008), is a monoclonal antibody targeting KLRG1 that selectively depletes highly cytotoxic T cells, evaluated in the registrational Phase 2/3 MUSCLE study in inclusion body myositis (IBM) and in T cell large granular lymphocytic leukemia (T-LGLL) and mature T and NK cell lymphomas. Abcuro publishes no commercial developer platform or product API; its only machine-readable surface is the public WordPress REST API behind abcuro.com, which anonymously serves the corporate content graph — press releases, pipeline and science pages, scientific publications, leadership and board people records, investor records, and media assets — and is catalogued here as a read-only content API rather than a product API.
 image: https://abcuro.com/wp-content/uploads/Abcuro_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Abcuro MCP Server
-  slug: abcuro-mcp-server
 modified: '2026-08-02'
 name: Abcuro
 nav: Providers
@@ -302,8 +298,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:

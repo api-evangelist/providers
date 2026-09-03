@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: 'The unified Bittensor v11 package — a lean Python SDK (import bittensor) plus the btcli command line — for every operation on the subtensor Substrate chain: reading chain state and submitting state-ch'
   name: Bittensor Chain SDK & CLI
   slug: bittensor-chain-sdk-cli
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -90,7 +90,7 @@ common:
   url: cli/bittensor-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bittensor-mcp.yml
 - group: agent
   title: ''
@@ -140,10 +140,6 @@ created: '2026-07-17'
 description: 'Bittensor is an open, decentralized machine-intelligence network built on a Substrate blockchain (subtensor). Contributors earn the TAO token by supplying useful work to specialized subnets — miners produce, validators score, and stakers back them — with emissions distributed by Yuma Consensus. Developers do not consume a hosted REST API; they interact with the chain through the official lean Python SDK (import bittensor) and the btcli command line, which together perform every user-facing operation: wallets and keys, staking and pools, subnet creation, mining, validating, weights, proxies, multisig, and an EVM layer. The developer surface is agent-native: machine-readable catalogs of write intents, chain reads, and errors are published for discovery, with a plan/execute model, Policy guardrails, and typed results.'
 image: https://github.com/opentensor.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bittensor MCP Server
-  slug: bittensor-mcp-server
 modified: '2026-07-18'
 name: Bittensor
 nav: Providers
@@ -177,8 +173,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bittensor/refs/heads/main/screenshots/bittensor-2026-07-25T203211.png
 security:

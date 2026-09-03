@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -576,7 +576,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -586,7 +586,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 70.7
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -603,8 +603,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png
 security:

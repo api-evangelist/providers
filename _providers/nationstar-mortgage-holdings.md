@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 4.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationstar-mortgage-holdings/refs/heads/main/screenshots/nationstar-mortgage-holdings-2026-06-20T190050.png
 security:

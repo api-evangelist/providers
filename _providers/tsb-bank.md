@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -99,7 +99,7 @@ apis:
   description: The Token Server APIs API from TSB Bank — 3 operation(s) for token server apis.
   name: TSB Bank Token Server APIs API
   slug: tsb-bank-token-server-apis-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: Open Data API
@@ -154,7 +154,7 @@ common:
   url: data-model/tsb-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tsb-bank-mcp.yml
 - group: build
   title: ''
@@ -225,10 +225,6 @@ description: 'TSB Bank plc is a British retail and commercial bank headquartered
   Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) services secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: TSB Bank MCP Server
-  slug: tsb-bank-mcp-server
 modified: '2026-07-23'
 name: TSB Bank
 nav: Providers
@@ -282,8 +278,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/screenshots/tsb-bank-2026-09-02T164446.png
 security:

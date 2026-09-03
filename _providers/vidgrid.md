@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The Webhook API allows you to trigger webhook events.
   name: VidGrid Webhooks API
   slug: vidgrid-webhooks-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Vidgrid Webhooks
@@ -171,7 +171,7 @@ common:
   url: llms/vidgrid-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vidgrid-mcp.yml
 - group: design
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: VidGrid is an enterprise video platform for recording, hosting, captioning, and sharing interactive video, acquired by Paylocity and now branded VidGrid by Paylocity. Its Content Management API v2 is a JSON REST API for managing videos, captions, folders, users, and search on an account, plus record/upload tokens that launch the embeddable screen recorder and uploader, with webhook events for video and caption processing. API keys are Enterprise-restricted after a 14-day trial.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidgrid.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: VidGrid MCP Server
-  slug: vidgrid-mcp-server
 modified: '2026-07-21'
 name: VidGrid
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/screenshots/vidgrid-2026-08-17T082745.png
 security:

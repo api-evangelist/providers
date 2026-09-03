@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Quiq's REST API and webhooks for building native chat and messaging applications on any platform, with event notifications delivered via webhooks. The API is tenant-scoped to each customer organizatio
@@ -154,8 +154,8 @@ score:
   previous_composite: 29.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiq/refs/heads/main/screenshots/quiq-2026-09-02T152706.png
 security:

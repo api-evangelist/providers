@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: Open dataset of global address points and ranges, released as cloud-native GeoParquet alongside the other Overture themes.
@@ -158,13 +158,13 @@ rate_limits:
   slug: overture-maps-rate-limits
 score:
   band: emerging
-  composite: 24.5
+  composite: 20.2
   coverage:
     artifact_dirs: 7
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -174,9 +174,6 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 24.5
   regulatory:
     applies: true
@@ -184,8 +181,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overture-maps/refs/heads/main/screenshots/overture-maps-2026-06-20T191239.png
 security:

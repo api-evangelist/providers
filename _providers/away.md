@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the Away storefront implementing the Universal Commerce Protocol (dev.ucp.shopping) over an MCP endpoint, with catalog search, cart, checkout, fulfillment, discount, '
@@ -138,8 +138,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/away/refs/heads/main/screenshots/away-2026-08-07T162033.png
 security:

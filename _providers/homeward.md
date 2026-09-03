@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ arazzos:
 - description: Screen a property, request a Homeward Offer Estimate, and fetch the full offer breakdown.
   name: Homeward cash offer — buybox to finalized estimate
   slug: homeward-cash-offer
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: well-known/homeward-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/homeward-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: 'Homeward is a modern home-finance company founded in 2018 and headquartered in Austin, Texas, that partners with real estate agents to turn any homebuyer into a cash buyer. Its cash-offer products let buyers make competitive, contingency-free offers and buy a new home before selling their current one, bundled with affiliates Homeward Mortgage and Homeward Title. For its cash-offer digital partners, Homeward exposes the Offer Estimate API: partners submit seller leads (property, customer, and agent details) and receive a Homeward Offer Estimate — an offer amount, an opinion-of-value range, an Offer Estimate PDF, and a finalization link — plus a public buybox eligibility check. Homeward is backed by Norwest Venture Partners, Blackstone, Breyer Capital, Live Oak Venture Partners, Javelin Venture Partners, Adams Street, and others.'
 image: https://www.homeward.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Homeward MCP Server
-  slug: homeward-mcp-server
 modified: '2026-07-19'
 name: Homeward
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/screenshots/homeward-2026-07-25T221350.png
 security:

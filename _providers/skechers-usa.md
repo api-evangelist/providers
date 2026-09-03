@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Skechers operates a direct-to-consumer digital commerce platform at skechers.com that enables online shopping for footwear, apparel, and accessories. The platform integrates with e-commerce infrastruc
@@ -170,8 +170,8 @@ score:
     governance: 25.0
     operational_transparency: 10.5
   previous_composite: 19.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png
 security:

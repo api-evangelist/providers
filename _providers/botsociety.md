@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.botsociety.io
@@ -56,7 +56,7 @@ apis:
   description: Manage variables within a conversation (legacy apisociety 2.0 API)
   name: BotSociety Variables API
   slug: botsociety-variables-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: data-model/botsociety-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/botsociety-mcp.yml
 - group: design
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Botsociety is a tool to design, preview, and prototype conversational interfaces — chatbots and voice assistants — before they are built. Its API lets applications retrieve the content of a design (messages, intents, variables, and integration data) at runtime, so bot content can be updated in the design tool without redeploying bot code. The API exposes design retrieval plus a legacy apisociety 2.0 surface for managing conversations, messages, and variables, authenticated with a user id and a public API key sent as request headers. Botsociety, backed by 500 Global, is winding down ("working on a new direction") and its API host is presently unreachable; the artifacts in this repo are reconstructed from the official first-party npm client and public API documentation. Surfaced originally as a 500 Global portfolio company and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/botsociety.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BotSociety MCP Server
-  slug: botsociety-mcp-server
 modified: '2026-07-18'
 name: BotSociety
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/screenshots/botsociety-2026-07-25T203642.png
 security:

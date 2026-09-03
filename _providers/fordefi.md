@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ apis:
   description: 'These endpoints allow you to manually trigger your pre-configured webhooks.<br><br><a href=''https://docs.fordefi.com/reference/webhooks''>Use Webhooks</a> describes how to configure webhooks, validate '
   name: Fordefi Webhooks API
   slug: fordefi-webhooks-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Fordefi Webhooks
@@ -283,7 +283,7 @@ common:
   url: packages/fordefi-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fordefi-mcp.yml
 - group: agent
   title: ''
@@ -317,10 +317,6 @@ created: '2026-07-17'
 description: Fordefi is an institutional MPC (multi-party computation) wallet and digital-asset security platform for DeFi, trading, and on-chain payments. Its developer API lets teams programmatically create vaults across 10+ blockchain families (EVM, Bitcoin, Solana, Cosmos and more), manage addresses and assets, and build, approve, sign, and broadcast transactions under a policy engine with built-in AML screening and audit logging. Authentication combines a Bearer JWT access token with ECDSA (NIST P-256) request signing by a registered API Signer; state-changing calls support idempotency and a signed webhook event surface for real-time monitoring. Fordefi is SOC 2 Type II certified. This profile was enriched by the API Evangelist pipeline from Fordefi's public OpenAPI and developer documentation.
 image: https://cdn.prod.website-files.com/634ff29071ccb50e6fb7f68e/6368e19b2728473fafde3adb_fordefi.jpeg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fordefi MCP Server
-  slug: fordefi-mcp-server
 modified: '2026-07-19'
 name: Fordefi
 nav: Providers
@@ -368,8 +364,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:

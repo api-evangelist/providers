@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The APIs API from Acko — 3 operation(s) for apis.
   name: Acko APIs API
   slug: acko-apis-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -95,7 +95,7 @@ common:
   url: lifecycle/acko-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/acko-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Acko (ACKO Technology & Services Private Limited) is an Indian digital-first general insurance company founded in 2016 and headquartered in Bengaluru, Karnataka. Acko sells car, bike, health, term life and travel insurance entirely online, along with group health and personal-accident cover and embedded insurance for partners. It is a portfolio company of Accel. Acko exposes insurance policy certificates to citizens through India's government API Setu / DigiLocker platform (car, health and two-wheeler certificate fetch), and operates a separate enterprise/partner issuance API covering token generation, Loan-Shield, Trip, GIG, Health, House, Credit Life, Fire, Cyber and Electronics products plus policy and claims management.
 image: https://www.acko.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Acko MCP Server
-  slug: acko-mcp-server
 modified: '2026-07-18'
 name: Acko
 nav: Providers
@@ -197,8 +193,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:

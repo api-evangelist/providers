@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Qantas Distribution Platform (QDP) is Qantas' NDC XML API for airline retailing — shopping, offer and order creation, ticketing, ancillaries and post-booking servicing of Qantas (QF) content for t
@@ -197,8 +197,8 @@ score:
   previous_composite: 29.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qantas/refs/heads/main/screenshots/qantas-2026-09-02T152513.png
 security:

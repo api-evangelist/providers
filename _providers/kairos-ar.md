@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Manage galleries and the subjects/face templates enrolled in them.
   name: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: https://documenter.getpostman.com/view/566316/SVYnSMHo
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kairos-ar-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Kairos AR, Inc. is a Miami-based human-analytics company providing face recognition, facial detection, and emotion analysis as a REST API. The platform lets developers enroll, verify, and recognize faces against galleries they create, detect faces and facial features (age, gender, ethnicity, glasses, landmarks) in photos, and analyze emotion, demographics and attention across images and video. Requests and responses are JSON and every call is authenticated with an app_id + app_key header pair. Kairos ships official SDKs for JavaScript, PHP, Android, and .NET, publishes an Apiary-hosted API reference with a live sandbox console, and offers a free tier plus usage-based pricing and an on-premise biometric offering. The company was surfaced as a 500 Global portfolio company and is enriched here into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kairos-ar.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kairos AR MCP Server
-  slug: kairos-ar-mcp-server
 modified: '2026-07-19'
 name: Kairos AR
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-08-17T123941.png
 security:

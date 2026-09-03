@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: First-party onboarding endpoints for prescriber, developer, clinic, enterprise, platform, and other paths.
   name: Photon Onboarding API
   slug: photon-onboarding-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Photon Order Events Webhooks
@@ -161,7 +161,7 @@ common:
   url: well-known/photon-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/photon-mcp.yml
 - group: agent
   title: ''
@@ -251,10 +251,6 @@ created: '2026-07-24'
 description: Photon Health is a United States prescription-infrastructure and e-prescribing (eRx) platform that lets digital-health companies embed prescribing, pharmacy selection, prescription routing, and fulfillment tracking into their clinical applications. Rather than an HL7 FHIR interface, Photon exposes a native GraphQL Clinical API - a single POST /graphql endpoint covering patients, prescriptions, orders, pharmacies, the medication/treatment catalog, drug-drug and drug-allergy screening, webhooks, and organization/user administration - plus a Patient Benefits API for pharmacy benefit checks and coverage. It also ships Photon Elements, prebuilt WebComponent UI for prescribing. The API is secured with OAuth2 client-credentials (Auth0) using machine-to-machine and user access tokens and prescription/order scopes; a sandbox runs on neutron.health. Photon serves prescribers and pharmacy-innovation partners including Amazon Pharmacy, Sesame, WeightWatchers, and Found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Photon MCP Server
-  slug: photon-mcp-server
 modified: '2026-07-24T18:00:00Z'
 name: Photon
 nav: Providers
@@ -319,8 +315,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/screenshots/photon-2026-08-17T081212.png
 security:

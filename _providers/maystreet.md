@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://maystreet.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.lseg.com/en/data-analytics/market-data/data-feeds — a different registrable domain (maystreet.com -> lseg.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Low-latency, near-time market data query API delivered as a streaming WebSockets service so clients can process arbitrarily-sized result sets frame-by-frame without pagination. Publicly documented onl
@@ -121,8 +122,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/screenshots/maystreet-2026-07-22T202504.png
 security:

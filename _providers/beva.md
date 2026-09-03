@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The 芝兰玉树版权内容开放平台 (ProKids / Beva Copyright Content Open Platform) exposes online-application content-access APIs (在线应用接入) that deliver beva's licensed children's audio and video catalog to partner mob
@@ -94,8 +94,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beva/refs/heads/main/screenshots/beva-2026-07-25T202819.png
 security:

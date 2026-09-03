@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The public Cerby REST API. Programmatic access to accounts, secrets, collections, users, teams, integrations, jobs, and vaults in a Cerby workspace. Requests are authenticated with a scoped API key se
@@ -203,8 +203,8 @@ score:
   previous_composite: 44.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/screenshots/cerby-2026-08-17T083439.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://vungle.com'', ''status'': 301, ''note'': ''declared website redirects to https://liftoff.ai/ — a different registrable domain (vungle.com -> liftoff.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Automated access to Vungle/Liftoff campaign performance reports — impressions, clicks, installs, and in-app events — with configurable groupings, metrics, and cohort (look-back window) analysis. HTTP '
@@ -48,7 +49,7 @@ apis:
 - description: Submit GDPR-compliant opt-out requests to remove user data by device ID, at https://analytics.liftoff.io/opt_out/v3.
   name: Liftoff GDPR Opt-Out API
   slug: liftoff-gdpr-opt-out-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Vungle S2S Webhooks
@@ -108,7 +109,7 @@ common:
   url: packages/vungle-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vungle-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +147,6 @@ created: '2026-07-17'
 description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while Liftoff's advertiser APIs let growth teams launch and manage user-acquisition campaigns, assemble creatives, ingest audiences, and pull automated performance reporting. The programmatic surface is documented at docs.liftoff.io and includes a Reporting API, a closed-beta Campaign Management API, an Audiences Integration API, a GDPR Opt-Out API, and a server-to-server (S2S) postback integration. All advertiser APIs authenticate with an HTTP Basic API key and secret issued by a Liftoff Account Manager.
 image: https://liftoff.ai/wp-content/uploads/2025/01/B-Meta-Image-20240912-122239.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vungle MCP Server
-  slug: vungle-mcp-server
 modified: '2026-07-21'
 name: Vungle
 nav: Providers
@@ -188,8 +185,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/screenshots/vungle-2026-09-02T170329.png
 security:

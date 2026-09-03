@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://outpostnow.com'', ''status'': 301, ''note'': ''declared website redirects to https://outpost.ai/ — a different registrable domain (outpostnow.com -> outpost.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -45,7 +46,7 @@ apis:
 - description: Partner REST API to onboard existing merchants onto Outpost services with a hosted onboarding UI and asynchronous review workflow. JWT bearer auth, /partner/api prefix, staging and production environm
   name: Outpost Hosted Onboarding (Partner) API
   slug: outpost-hosted-onboarding-partner-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Outpost Merchant Of Record Webhooks
@@ -121,7 +122,7 @@ common:
   url: conformance/outpost-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/outpost-mcp.yml
 - group: agent
   title: ''
@@ -135,10 +136,6 @@ created: '2026-07-17'
 description: Outpost is a Merchant of Record and Tax of Record platform for cross-border commerce, letting retailers sell into new markets while Outpost takes on the legal and tax liability — local payments, VAT/GST/sales-tax registration, calculation and filing, proforma invoicing for B2B bank transfers, and hosted merchant onboarding. Its server-to-server REST APIs (Tax of Record, Merchant of Record, and Hosted Onboarding) use OAuth2 client-credentials and JWT bearer authentication so merchants keep their own checkout and payment service providers (Stripe, Adyen) while Outpost handles compliance across jurisdictions. Founded by ex-Revolut operator Will Mahon-Heap and backed by Ribbit Capital and Better Tomorrow Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outpost.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Outpost MCP Server
-  slug: outpost-mcp-server
 modified: '2026-07-20'
 name: Outpost
 nav: Providers
@@ -179,8 +176,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/screenshots/outpost-2026-08-07T191059.png
 security:

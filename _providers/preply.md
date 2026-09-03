@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
   description: The Chatgpt Openapi API from Preply — 2 operation(s) for chatgpt openapi.
   name: Preply Chatgpt Openapi API
   slug: preply-chatgpt-openapi-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -90,7 +90,7 @@ common:
   url: https://termsofuse.preply.com/terms_of_use/en_PrivacyPolicy.pdf
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/preply-mcp.yml
 - group: agent
   title: ''
@@ -132,10 +132,6 @@ created: '2026-07-17'
 description: Preply is a global online language-learning marketplace that connects learners with private tutors across dozens of languages, offering one-on-one video lessons, flexible scheduling and a satisfaction-backed tutor-replacement guarantee. Alongside its consumer marketplace, Preply runs Preply Business, an enterprise language-training offering with SSO, automated user provisioning and LMS integrations. Preply exposes a small public, unauthenticated tutor-search API (originally published as an OpenAI/ChatGPT plugin) that lets applications and agents search tutors by subject, price, availability and language and fetch individual tutor profiles. This profile was enriched by the API Evangelist pipeline from Preply's public surface.
 image: https://static.preply.com/ds/icons/favicon-ua.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Preply MCP Server
-  slug: preply-mcp-server
 modified: '2026-07-20'
 name: Preply
 nav: Providers
@@ -180,8 +176,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

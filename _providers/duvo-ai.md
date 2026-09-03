@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -263,6 +263,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/duvo-ai-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/duvo-ai-openapi-overlay.yaml
 - group: agent
@@ -403,7 +407,7 @@ overview: 'Duvo Ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
   The Duvo Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Duvo Ai''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
+  Duvo Ai''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
 random_paper: 0
 scopes:
 - name: Duvo Ai Scopes
@@ -414,7 +418,7 @@ score:
   band: developing
   composite: 47.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -439,8 +443,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/screenshots/duvo-ai-2026-07-25T212653.png
 security:

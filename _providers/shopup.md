@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Merchant pickup store management
   name: ShopUp Pickup Stores API
   slug: shopup-pickup-stores-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: security/shopup-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shopup-mcp.yml
 - group: design
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: ShopUp is a Bangladesh technology company that digitizes the country's small-business supply chain, connecting mills and manufacturers to a network of hundreds of thousands of neighbourhood shops. It operates Mokam, a B2B commerce platform where small retailers source fast-moving consumer goods at fair prices, and REDX, a nationwide last-mile logistics and courier network reaching sub-districts across all 64 districts. REDX publishes a public merchant Open API that lets e-commerce sellers create and track parcels and manage pickup stores programmatically. ShopUp is backed by Prosus Ventures and in 2025 combined with Saudi Arabia's Sary to form the SILQ Group.
 image: https://cdn.prod.website-files.com/6538a2c4ccf1fed5a7d6e311/661e20ec03673cb2f41ff4c2_ShopUp-open-graph.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ShopUp MCP Server
-  slug: shopup-mcp-server
 modified: '2026-07-21'
 name: ShopUp
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/screenshots/shopup-2026-09-02T155307.png
 security:

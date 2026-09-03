@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -158,7 +158,7 @@ apis:
   description: The Surfaces API from Accept — 4 operation(s) for surfaces.
   name: Accept Surfaces API
   slug: accept-surfaces-api
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: External event contract for MIDAS decision governance. Events are written to a transactional outbox in the same Postgres transaction as domain state changes, then dispatched to Kafka by a background d
   name: MIDAS External Event Contract
@@ -300,7 +300,7 @@ common:
   url: well-known/accept-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/accept-mcp.yml
 - group: agent
   title: ''
@@ -382,10 +382,6 @@ created: '2026-07-17'
 description: Accept Labs is the company behind MIDAS, an open-source authority-governance engine for autonomous decisions. MIDAS evaluates every agent or AI-system action against explicit authority, operational boundaries, and execution context before the action occurs, then produces exactly one outcome (accept, escalate, reject, or request_clarification) and one tamper-evident audit envelope. The platform is Apache-2.0 Go software with a runtime evaluation API (POST /v1/evaluate), a YAML control-plane for surfaces/profiles/grants, an evidence and integrity API, drift detection, an Explorer UI, and OIDC/local IAM. It is positioned for enterprise teams governing what automated actors are authorised to decide.
 image: https://github.com/accept-io.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Accept MCP Server
-  slug: accept-mcp-server
 modified: '2026-07-18'
 name: Accept
 nav: Providers
@@ -400,13 +396,13 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 15
 score:
   band: developing
-  composite: 47.6
+  composite: 41.8
   coverage:
     artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -416,9 +412,6 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 47.6
   provenance:
     agentic_access: derived
@@ -430,9 +423,9 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:
 - kind: authentication

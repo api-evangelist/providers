@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Paystand v3 REST API for B2B payments: create and manage payments, refunds, disputes, payers, customer banks, accounts, balances, scheduled payments, transfers and withdrawals, plus the Assurety block'
   name: Paystand Developer API
   slug: paystand-developer-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Paystand is a blockchain-enabled B2B payments and receivables automation platform that lets businesses send, receive, and reconcile payments with zero-fee bank-to-bank (ACH/EFT) transfers, card acceptance, and a Bitcoin-anchored "Assurety" certified audit trail. The Paystand Developer API (v3) exposes payments, refunds, disputes, payers, customer banks, accounts and balances, scheduled payments, transfers, withdrawals (including auto-withdrawal settings), a Checkout / Billing Portal embed surface, an Events resource, and the Assurety blockchain notarization APIs (assurors, chains, contracts, records, schemas, wallets). It integrates with major ERPs and e-commerce platforms (Magento, WooCommerce, BigCommerce) and is used to automate accounts receivable and payable for mid-market and enterprise finance teams.
 image: https://www.paystand.com/hubfs/paystand-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PayStand MCP Server
-  slug: paystand-mcp-server
 modified: '2026-07-20'
 name: PayStand
 nav: Providers
@@ -171,8 +167,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 58.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/screenshots/paystand-2026-08-07T191655.png
 security:

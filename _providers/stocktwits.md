@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Watchlist management endpoints for creating and managing symbol watchlists.
   name: StockTwits Watchlists API
   slug: stocktwits-watchlists-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: well-known/stocktwits-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stocktwits-mcp.yml
 - group: agent
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: 'StockTwits is a social network for investors and traders, letting members share ideas (twits), follow tickers and people, build watchlists, and read real-time streams of market sentiment. The StockTwits API (v2) exposes this Social Finance graph over a REST/JSON interface at api.stocktwits.com/api/2: symbol/user/home/trending message streams, message create and like, symbol and user search, the social graph (followers/following), watchlist management, account verification, and deletion feeds. Authentication is OAuth 2.0 (authorization code) with app-level access tokens for public endpoints. StockTwits also publishes embeddable widgets, buttons, and message embeds for adding a Social Finance layer to any site. Sector: fintech; backed by Foundry Group.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stocktwits.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: StockTwits MCP Server
-  slug: stocktwits-mcp-server
 modified: '2026-07-21'
 name: StockTwits
 nav: Providers
@@ -294,8 +290,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/screenshots/stocktwits-2026-08-17T082118.png
 security:

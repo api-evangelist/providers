@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.0
-  scored_at: '2026-09-02'
+  score: 9.2
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'The SAFE REST API (v3) gives customers and partners programmatic access to the SAFE One platform: users, assets/technology, findings, risk scenarios, reports, audit-log export, and full lifecycle mana'
@@ -44,7 +44,7 @@ apis:
 - description: The Balbix REST API (v1) gives programmatic read access to the asset, vulnerability, misconfiguration, software-inventory and application inventory Balbix discovers - the Continuous Threat Exposure Ma
   name: Balbix REST API
   slug: balbix-rest-api
-artifact_total: 16
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -160,7 +160,7 @@ common:
   url: data-model/safe-security-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/safe-security-mcp.yml
 - group: auth
   title: ''
@@ -196,10 +196,6 @@ examples:
   slug: safe-security-signal-simple-va-signal
 image: https://safe.security/wp-content/uploads/safe-social.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: SAFE Security MCP server
-  slug: safe-security-mcp-server
 modified: '2026-08-26'
 name: SAFE Security
 nav: Providers
@@ -239,8 +235,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safe-security/refs/heads/main/screenshots/safe-security-2026-09-02T154302.png
 security:

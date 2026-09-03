@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://apis-us.highbond.com/v1
@@ -381,7 +381,7 @@ apis:
   description: Workflows contain a set of statuses that a certain item belonging to that workflow can be in. Any items in this workflow can move between certain statuses and the transition can trigger certain events
   name: Wegalvanize Workflows in Asset Inventory/Asset Manager API
   slug: wegalvanize-workflows-in-asset-inventory-asset-manager-api
-artifact_total: 144
+artifact_total: 143
 collections:
 - collection_type: open
   name: API Collection
@@ -672,7 +672,7 @@ common:
   url: data-model/wegalvanize-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wegalvanize-mcp.yml
 - group: agent
   title: ''
@@ -706,10 +706,6 @@ created: '2026-07-17'
 description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBond platform (audit, risk, controls, compliance, data analytics, and Robots automation) exposes a substantial public REST API built on the JSON:API v1.0 specification, documented at docs-apis.highbond.com and authenticated with OAuth 2.0 bearer tokens issued through Launchpad. This profile was seeded as a Norwest Venture Partners portfolio lead and has been enriched from the live HighBond OpenAPI (390 operations across 67 resource groups) and the provider's public identity/security surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wegalvanize.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wegalvanize MCP Server
-  slug: wegalvanize-mcp-server
 modified: '2026-07-21'
 name: Wegalvanize
 nav: Providers
@@ -752,8 +748,8 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/screenshots/wegalvanize-2026-08-17T082923.png
 security:

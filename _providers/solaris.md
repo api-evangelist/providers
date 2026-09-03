@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Solaris REST API for embedded banking, cards, payments (SEPA), KYC/KYB identity, and lending. OAuth2 client-credentials auth; HMAC-signed webhooks.
   name: Solaris Embedded Finance API
   slug: solaris-embedded-finance-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Solaris Webhooks
@@ -135,7 +135,7 @@ common:
   url: sandbox/solaris-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/solaris-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: 'Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local German IBANs and SEPA credit transfers, direct debit and instant payments; debit and credit cards with 3D Secure, tokenization and spending controls; KYC/KYB identity verification (Bankident, VideoIdent, AutoIdent, Fourthline); and lending products including overdrafts, Splitpay and consumer and business loans. The API uses OAuth2 client-credentials bearer tokens, HMAC-SHA256-signed webhooks for ~80 real-time events, page-number pagination, and a structured Money object, and is certified under ISO/IEC 27001, PCI DSS 4.0, DORA and GDPR.'
 image: https://docs.solarisgroup.com/static/solaris-signet-e6f33da6ebaffa690232d6cc1f63ee39.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Solaris MCP Server
-  slug: solaris-mcp-server
 modified: '2026-07-21'
 name: Solaris
 nav: Providers
@@ -206,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/screenshots/solaris-2026-08-17T081954.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api-qa.phenompro.com
@@ -81,7 +81,7 @@ apis:
   description: SCIM 2.0 user and group management.
   name: Phenom User Management API
   slug: phenom-user-management-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +212,7 @@ common:
   url: security/phenom-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/phenom-mcp.yml
 - group: agent
   title: ''
@@ -230,10 +230,6 @@ created: '2026-07-17'
 description: Phenom is an HR technology company whose Intelligent Talent Experience platform applies AI to every stage of the talent lifecycle — helping candidates find and apply to the right jobs, recruiters and hiring managers source and engage talent, employees grow, and HR teams operate more efficiently. The Phenom Developer Portal exposes REST APIs for job sync, candidate management, onboarding, applications and applicants, resume and job-description parsing, SCIM 2.0 user and group management, candidate tagging, and AI-driven skills prediction, letting partners and ATS/HRIS systems integrate with the Phenom platform. Phenom is headquartered in Ambler, Pennsylvania and backed by Sierra Ventures among others.
 image: https://images.ctfassets.net/0d3i1kfsuaq3/7DvjJdtfMfhzvhrPvEwY2r/792d04789d00e1b6418b33be5c18762b/Phenom-Meta-Image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Phenom MCP Server
-  slug: phenom-mcp-server
 modified: '2026-07-20'
 name: Phenom
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/screenshots/phenom-2026-08-17T081205.png
 security:

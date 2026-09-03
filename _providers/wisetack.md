@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Partner-gated REST API for embedding Wisetack pay-over-time financing into vertical SaaS and field service management platforms - create and monitor consumer financing applications with webhook report
@@ -155,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisetack/refs/heads/main/screenshots/wisetack-2026-09-02T170824.png
 security:

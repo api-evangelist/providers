@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Transco Nominations API enables natural gas shippers to submit, modify, and track pipeline transportation nominations on the Transco pipeline system via the 1Line electronic bulletin board portal.
@@ -104,6 +104,10 @@ common:
   title: ''
   type: Blog
   url: https://www.williams.com/feed/
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.williams.com/customers/
 created: '2026-05-03'
 description: Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States.
 finops:
@@ -127,7 +131,7 @@ overview: 'Williams Companies publishes 2 APIs on the [APIs.io](https://apis.io/
   The Williams Companies catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Williams Companies'' developer surface includes developer portal, documentation, engineering blog, and 12 more developer resources.'
+  Williams Companies'' developer surface includes developer portal, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Williams Plans Pricing
   plan_count: 1
@@ -178,8 +182,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/screenshots/williams-2026-06-20T201501.png
 security:

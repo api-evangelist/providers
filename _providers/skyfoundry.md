@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: SkySpark is a native Project Haystack server. External applications integrate through the Haystack HTTP REST API, exposing operations such as about, read, hisRead, hisWrite, pointWrite, watchSub, watc
@@ -120,8 +120,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyfoundry/refs/heads/main/screenshots/skyfoundry-2026-09-02T155802.png
 security:

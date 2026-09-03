@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API and Python SDK for the Kipu Quantum Hub — submit quantum-classical workflows, run pre-built quantum services against 20+ backends, and manage jobs. Authenticated with API keys and OAuth2/OIDC
@@ -145,8 +145,8 @@ score:
   previous_composite: 17.8
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/screenshots/kipu-quantum-2026-07-25T223849.png
 security:

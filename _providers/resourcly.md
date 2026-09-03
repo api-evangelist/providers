@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -153,7 +153,7 @@ apis:
   description: The upload API from Resourcly — 1 operation(s) for upload.
   name: Resourcly upload API
   slug: resourcly-upload-api
-artifact_total: 49
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -283,7 +283,7 @@ common:
   url: data-model/resourcly-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/resourcly-mcp.yml
 - group: agent
   title: ''
@@ -317,10 +317,6 @@ created: '2026-07-17'
 description: Resourcly is an AI-powered platform for deep inventory optimisation across manufacturing. It harmonises fragmented PLM and ERP parts data, finds duplicate and substitute parts through similarity and visual search, and turns that reconciled inventory core into working-capital and part-availability gains. The platform ingests documents, BOMs, ERP inventory files and supplier catalogs, runs AI-driven similarity clustering, price and should-cost analysis, HS-code classification and BOM comparison, and surfaces procurement recommendations. A public REST API (Swagger 2.0, Firebase-JWT authenticated) exposes documents, items, inventory, BOMs, suppliers, storage, search and analytics operations. Resourcly is a Techstars-backed company.
 image: https://resourcly.com/icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Resourcly MCP Server
-  slug: resourcly-mcp-server
 modified: '2026-07-20'
 name: Resourcly
 nav: Providers
@@ -359,8 +355,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/screenshots/resourcly-2026-09-02T153551.png
 security:

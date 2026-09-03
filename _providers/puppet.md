@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-02'
+  score: 22.7
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -81,7 +81,19 @@ apis:
   description: GET endpoints that return information about known orchestrator jobs.
   name: Puppet Jobs API
   slug: puppet-jobs-api
-artifact_total: 22
+- description: The Module Operations API from Puppet — 2 operation(s) for module operations.
+  name: Puppet Module Operations API
+  slug: puppet-labs-module-operations-api
+- description: The Release Operations API from Puppet — 5 operation(s) for release operations.
+  name: Puppet Release Operations API
+  slug: puppet-labs-release-operations-api
+- description: The Search Filter Operations API from Puppet — 2 operation(s) for search filter operations.
+  name: Puppet Search Filter Operations API
+  slug: puppet-labs-search-filter-operations-api
+- description: The User Operations API from Puppet — 2 operation(s) for user operations.
+  name: Puppet User Operations API
+  slug: puppet-labs-user-operations-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -148,6 +160,10 @@ common:
   title: ''
   type: Pricing
   url: https://www.puppet.com/pricing
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://forgeapi.puppet.com/
 created: '2025-02-24'
 description: Puppet provides infrastructure automation and configuration management for hybrid and cloud environments. Puppet Enterprise exposes a collection of service APIs (Orchestrator, RBAC, Node Classifier, Code Manager, Activity, Status, Inventory, Value) that enable programmatic management of nodes, users, classifications, code deployments, and operational events.
 finops:
@@ -160,10 +176,10 @@ modified: '2026-04-28'
 name: Puppet
 nav: Providers
 network: true
-overview: 'Puppet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Commands API and Jobs API. Tagged areas include Automation, Configuration Management, DevOps, Enterprise, and Infrastructure as Code.
+overview: 'Puppet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Commands API, Jobs API, Module Operations API, and 3 more. Tagged areas include Automation, Configuration Management, DevOps, Enterprise, and Infrastructure as Code.
 
 
-  Puppet''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 8 more developer resources.'
+  Puppet''s developer surface includes authentication, documentation, engineering blog, support, pricing, API reference, and 8 more developer resources.'
 plans:
 - name: Puppet Plans Pricing
   plan_count: 3
@@ -175,19 +191,19 @@ rate_limits:
   slug: puppet-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 33.2
   coverage:
     artifact_dirs: 10
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 53.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
@@ -199,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/screenshots/puppet-2026-06-20T192311.png
 security:

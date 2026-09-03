@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
   description: The Users API API from Thriva — 3 operation(s) for users api.
   name: Thriva Users API API
   slug: thriva-users-api-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Thriva Webhooks
@@ -220,7 +220,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thriva-mcp.yml
 - group: agent
   title: ''
@@ -258,10 +258,6 @@ json_schemas:
   property_count: 0
   slug: thriva-platform-api-schemas
 layout: provider
-mcp_servers:
-- description: ''
-  name: Thriva MCP Server
-  slug: thriva-mcp-server
 modified: '2026-07-21'
 name: Thriva
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
 security:

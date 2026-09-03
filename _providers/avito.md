@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -299,7 +299,7 @@ apis:
   description: The XDelivery API from Avito — 7 operation(s) for xdelivery.
   name: Avito XDelivery API
   slug: avito-xdelivery-api
-artifact_total: 109
+artifact_total: 108
 collections:
 - collection_type: open
   name: API Collection
@@ -556,7 +556,7 @@ common:
   url: data-model/avito-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/avito-mcp.yml
 - group: agent
   title: ''
@@ -690,10 +690,6 @@ created: '2026-07-17'
 description: Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.
 image: https://m.avito.ru/icons/open-graph-default.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Avito MCP Server
-  slug: avito-mcp-server
 modified: '2026-07-18'
 name: Avito
 nav: Providers
@@ -741,8 +737,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

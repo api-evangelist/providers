@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The LeadGenius Enrichment API API from LeadGenius — 0 operation(s) for leadgenius enrichment api.
   name: LeadGenius LeadGenius Enrichment API
   slug: leadgenius-leadgenius-enrichment-api-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Leadgenius Enrichment Webhooks
@@ -212,7 +212,7 @@ common:
   url: asyncapi/leadgenius-enrichment-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leadgenius-mcp.yml
 - group: agent
   title: ''
@@ -234,10 +234,6 @@ created: '2026-07-17'
 description: LeadGenius provides precision B2B contact and account intelligence for go-to-market teams, combining machine learning with a global team of human researchers so every contact and account is human-verified before delivery. The company reports 400+ customers, coverage across 42 countries and 3 billion+ data records served, with products spanning contact behavioral intelligence, advanced contact tags, contact monitoring, social tracking, buying-committee coverage and privacy compliance. Its developer surface is the LeadGenius Enrichment API — a RESTful, API-key authenticated service documented at docs.leadgenius.com that supports company enrichment, contact enrichment and contact append, offered both as asynchronous Campaigns (create a campaign, upload up to 200 records per request, receive a record-finalized webhook, retrieve the enriched results) and as real-time "rapid enrichment" requests submitted and collected by id.
 image: https://cdn.prod.website-files.com/688ff1b200d9d4cf5019d518/68906378722ec3a7e64df624_logo.svg
 layout: provider
-mcp_servers:
-- description: LeadGenius publishes no official hosted or remote MCP server — searches of the LeadGenius docs, site, GitHub organization and the public npm registry found no first-party Model Context Protocol server
-  name: LeadGenius MCP Server
-  slug: leadgenius-mcp-server
 modified: '2026-08-13'
 name: LeadGenius
 nav: Providers
@@ -287,8 +283,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png
 security:

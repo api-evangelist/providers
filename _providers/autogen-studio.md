@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 21
 common:
@@ -162,13 +162,13 @@ overview: 'AutoGen Studio is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 15
 score:
   band: emerging
-  composite: 21.5
+  composite: 12.8
   coverage:
     artifact_dirs: 2
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -184,13 +184,10 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 21.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogen-studio/refs/heads/main/screenshots/autogen-studio-2026-06-20T172642.png
 slug: autogen-studio
 tags:

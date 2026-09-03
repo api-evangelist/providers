@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 354
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ apis:
   description: The yoast/v1 API from Ascend Elements — 46 operation(s) for yoast/v1.
   name: Ascend Elements Yoast/v1 API
   slug: ascend-elements-yoast-v1-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -320,7 +320,7 @@ common:
   url: packages/ascend-elements-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ascend-elements-mcp.yml
 - group: build
   title: ''
@@ -339,10 +339,6 @@ description: Ascend Elements is a Westborough, Massachusetts battery materials c
   is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.
 image: https://ascendelements.com/wp-content/uploads/2022/01/cropped-AE_favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ascend Elements MCP Server
-  slug: ascend-elements-mcp-server
 modified: '2026-08-02'
 name: Ascend Elements
 nav: Providers
@@ -381,8 +377,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

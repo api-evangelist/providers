@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 50
@@ -108,7 +108,7 @@ apis:
   description: User profile management
   name: Earnipay Users API
   slug: earnipay-users-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: authentication/earnipay-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/earnipay-mcp.yml
 - group: agent
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: Earnipay is a Nigerian fintech that operates an NRS/FIRS-compliant e-invoicing platform for businesses. As an accredited Nigeria Revenue Service (NRS) and NITDA systems integrator, Earnipay lets developers programmatically create businesses, manage customers and products, generate FIRS-compliant invoices with IRN (Invoice Reference Number) and QR codes, and submit them to the tax authority through an Access Point Provider (APP) connection. The public Earnipay Invoicing API is an OpenAPI 3.0.0 REST service covering authentication, businesses, customers, products, payment details, invoices, IRN and QR generation, bank lookup/verification, and team management. It authenticates with JWT bearer tokens for user-facing flows and an X-API-Key header for third-party integrations. Added to the API Evangelist network as a portfolio company of Canaan Partners.
 image: https://earnipay-api-storage-prod.s3.eu-west-1.amazonaws.com/business-documents/business-img-others.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Earnipay MCP Server
-  slug: earnipay-mcp-server
 modified: '2026-07-18'
 name: Earnipay
 nav: Providers
@@ -281,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/screenshots/earnipay-2026-07-25T212700.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://segment.com'', ''status'': 302, ''note'': ''declared website redirects to https://www.twilio.com/en-us/segment — a different registrable domain (segment.com -> twilio.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -523,8 +524,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png
 security:

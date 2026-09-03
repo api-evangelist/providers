@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API served by SKALE Chains (per-chain RPC/WSS endpoints), plus SKALE Programmable Privacy methods (bite_getDecryptedTransactionData, bite_getCommitteesInfo).
@@ -171,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skale-labs/refs/heads/main/screenshots/skale-labs-2026-09-02T155705.png
 security:

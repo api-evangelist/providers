@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: OpenAI-compatible chat and text-completion endpoints serving open-source LLMs including Llama 2, Llama 3, Mixtral 8x7B, Mistral 7B, Code Llama, and customer fine-tunes. Supported streaming, function c
@@ -146,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 8.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octoai/refs/heads/main/screenshots/octoai-2026-06-20T190611.png
 security:

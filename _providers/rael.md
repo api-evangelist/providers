@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Rael's agent-facing commerce interface. The store implements the Universal Commerce Protocol (UCP) 2026-04-08 and exposes it over MCP at https://www.getrael.com/api/ucp/mcp. An anonymous tools/list re
@@ -211,8 +211,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/screenshots/rael-2026-09-02T152824.png
 security:

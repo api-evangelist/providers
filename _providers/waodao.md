@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Read agent-friendly metadata for a published WAODAO day.
   name: WAODAO Token Metadata API
   slug: waodao-token-metadata-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: WAODAO Agent API
@@ -163,7 +163,7 @@ common:
   url: data-model/waodao-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/waodao-mcp.yml
 - group: agent
   title: ''
@@ -244,10 +244,6 @@ json_schemas:
   property_count: 19
   slug: waodao-token
 layout: provider
-mcp_servers:
-- description: ''
-  name: WAODAO MCP Server
-  slug: waodao-mcp-server
 modified: '2026-08-09'
 name: WAODAO
 nav: Providers
@@ -286,8 +282,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/screenshots/waodao-2026-09-02T170429.png
 security:

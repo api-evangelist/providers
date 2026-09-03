@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://dtcloudapi.d-tools.cloud
@@ -189,6 +189,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/d-tools-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/d-tools-cloud-api-overlay.yaml
 - group: other
@@ -322,7 +326,7 @@ overview: 'D-Tools publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The D-Tools catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  D-Tools'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  D-Tools'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: D Tools Plans Pricing
   plan_count: 6
@@ -336,11 +340,11 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -350,7 +354,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 51.6
+  previous_composite: 53.4
   provenance:
     conformance: derived
     contracts:
@@ -360,8 +364,8 @@ score:
       total: 27
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/screenshots/d-tools-2026-08-17T080847.png
 security:

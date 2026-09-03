@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ apis:
   description: Operations on Work Requests
   name: MaintainX Work Requests API
   slug: maintainx-work-requests-api
-artifact_total: 66
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Maintainx Webhooks
@@ -285,6 +285,10 @@ collections:
   name: MaintainX Asset Criticalities Work Requests API
   slug: open-maintainx-work-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/maintainx-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -371,7 +375,7 @@ common:
   url: asyncapi/maintainx-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/maintainx-mcp.yml
 - group: design
   title: ''
@@ -417,10 +421,6 @@ created: '2026-07-17'
 description: MaintainX is a mobile-first computerized maintenance management system (CMMS) and enterprise asset management (EAM) platform for the industrial and frontline workforce. Teams use it to manage work orders, work requests, assets, parts inventory, purchase orders, meters, preventive maintenance plans, procedures, inspections, and vendors. The MaintainX REST API v1 (https://api.getmaintainx.com/v1) exposes all of these entities programmatically with Bearer (JWT) API-key authentication, cursor pagination, timestamp-based change polling, documented rate limits, and 46 webhook event types for real-time integration. Backed by Bain Capital Ventures and Bessemer Venture Partners.
 image: https://cdn.prod.website-files.com/65ae6673d2c6ecb99ee249d1/682cc13bc85b61fe2f91f274_Website%20Open%20Graph%20Image%20(1).webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: MaintainX MCP Server
-  slug: maintainx-mcp-server
 modified: '2026-07-20'
 name: MaintainX
 nav: Providers
@@ -431,7 +431,7 @@ overview: 'MaintainX publishes 29 APIs on the [APIs.io](https://apis.io/) networ
   The MaintainX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MaintainX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  MaintainX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 6
@@ -441,7 +441,7 @@ score:
   band: strong
   composite: 54.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -466,8 +466,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png
 security:

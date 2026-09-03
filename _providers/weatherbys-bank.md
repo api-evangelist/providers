@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: Endpoint for getting Personal Current Account data
   name: Weatherbys Bank PCA API
   slug: weatherbys-bank-pca-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: Open Data API
@@ -133,7 +133,7 @@ common:
   url: lifecycle/weatherbys-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/weatherbys-bank-mcp.yml
 - group: agent
   title: ''
@@ -196,10 +196,6 @@ description: Weatherbys Bank is a small, family-owned UK private bank, part of t
   gateway is hosted on Oracle Banking APIs (BaaS) at openbanking.weatherbysbank.com; there is no separately branded public developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Weatherbys Bank MCP Server
-  slug: weatherbys-bank-mcp-server
 modified: '2026-07-23'
 name: Weatherbys Bank
 nav: Providers
@@ -252,8 +248,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/screenshots/weatherbys-bank-2026-09-02T170521.png
 security:

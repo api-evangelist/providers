@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient batched execution to eliminate N+1 query pr
@@ -151,8 +151,8 @@ score:
     applies: true
     score: 65.0
   previous_composite: 30.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafast/refs/heads/main/screenshots/grafast-2026-06-20T182315.png
 security:

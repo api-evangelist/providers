@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ apis:
   description: Manage the store locations attached to a wallet campaign. Locations drive geofenced lock-screen notifications that remind pass holders about a nearby store.
   name: Vibes Platform Wallet Store Locations API
   slug: vibes-platform-wallet-store-locations-api-api
-artifact_total: 65
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Vibes Platform Webhooks
@@ -323,7 +323,7 @@ common:
   url: asyncapi/vibes-platform-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vibes-platform-mcp.yml
 - group: agent
   title: ''
@@ -436,10 +436,6 @@ jsonld:
   property_count: 4
   slug: vibes-platform-context
 layout: provider
-mcp_servers:
-- description: Vibes publishes NO Model Context Protocol server. This file is a DERIVED CANDIDATE tool surface, computed from the operations in Vibes' own published OpenAPI so the shape of an agent-facing Vibes is l
-  name: Vibes Platform MCP Server
-  slug: vibes-platform-mcp-server
 modified: '2026-08-13'
 name: Vibes Platform
 nav: Providers
@@ -522,8 +518,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:

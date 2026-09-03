@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: The Partner Offers API from SoFi — 1 operation(s) for partner offers.
   name: SoFi Partner Offers API
   slug: sofi-partner-offers-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: SoFi Home Loan Affiliate Lead API
@@ -162,7 +162,7 @@ common:
   url: conformance/sofi-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sofi-mcp.yml
 - group: start
   title: ''
@@ -209,10 +209,6 @@ finops:
   slug: sofi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sofi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SoFi MCP Server
-  slug: sofi-mcp-server
 modified: '2026-07-23'
 name: SoFi
 nav: Providers
@@ -265,8 +261,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/screenshots/sofi-2026-06-20T194126.png
 security:

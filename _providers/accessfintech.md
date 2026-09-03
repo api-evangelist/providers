@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The API surface behind Synergy, AccessFintech's post-trade collaboration network. The shipped web client calls a GraphQL endpoint at https://api.accessfintech.com/gql (operation name mirrored into the
@@ -154,8 +154,8 @@ score:
   previous_composite: 16.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessfintech/refs/heads/main/screenshots/accessfintech-2026-08-07T160758.png
 security:

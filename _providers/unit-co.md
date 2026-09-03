@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -129,7 +129,7 @@ apis:
   description: Subscriptions that deliver events as signed HTTP callbacks.
   name: Unit Webhooks API
   slug: unit-co-webhooks-api
-artifact_total: 80
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Unit Co Events Webhooks
@@ -446,7 +446,7 @@ common:
   url: data-model/unit-co-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unit-co-mcp.yml
 - group: agent
   title: ''
@@ -472,10 +472,6 @@ finops:
   slug: unit-co-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unit-co.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from the Unit OpenAPI operations. Unit does not publish a hosted/remote MCP server; this is a proposed mapping so the operations can be exposed as agent t
-  name: Unit MCP Server
-  slug: unit-mcp-server
 modified: '2026-08-08'
 name: Unit
 nav: Providers
@@ -536,8 +532,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:

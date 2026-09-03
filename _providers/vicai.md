@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ apis:
   description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
   name: Vic.ai Webhook Subscriptions API
   slug: vicai-webhook-subscriptions-api
-artifact_total: 74
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Vicai Webhooks
@@ -423,7 +423,7 @@ common:
   url: rate-limits/vicai-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vicai-mcp.yml
 - group: agent
   title: ''
@@ -441,10 +441,6 @@ created: '2026-07-17'
 description: 'Vic.ai builds AI-native software for enterprise Accounts Payable and finance teams, automating the end-to-end AP workflow: invoice capture from email/SFTP/API/mobile, AI extraction of header and line-level data, GL coding, purchase-order matching, approval routing, bill pay and vendor portals, corporate-card expense management, and analytics. It integrates with major ERPs (SAP, Oracle, Microsoft Dynamics, NetSuite, Workday, Coupa). The public Vic.ai API (docs.vic.ai) is an ERP-integration surface with 173 operations across invoices, purchase orders, payments, masterdata sync, and webhooks, authenticated with client-credentials Bearer JWTs. Vic.ai holds SOC 1/SOC 2 Type II and operates on an ISO 27001 framework. Backed by Cowboy Ventures, GGV Capital, and ICONIQ Capital.'
 image: https://cdn.prod.website-files.com/67284e81c67879feb155c7f7/67dc61e47defbf433781d696_Home%20Page.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vic.ai MCP Server
-  slug: vicai-mcp-server
 modified: '2026-07-21'
 name: Vic.ai
 nav: Providers
@@ -496,8 +492,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png
 security:

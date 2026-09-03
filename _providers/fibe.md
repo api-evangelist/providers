@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'OAuth-protected Model Context Protocol (JSON-RPC 2.0) server exposing Fibe''s consumer lending platform to AI agents. Advertised scopes: loan.read (read loan/eligibility information) and loan.apply (su'
   name: Fibe MCP Server
   slug: fibe-mcp-server
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fibe-mcp.yml
 - group: auth
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Fibe (formerly EarlySalary) is a digital consumer lending platform in India, founded in 2015 and headquartered in Pune. It offers instant personal loans up to Rs 10 lakh, loans against mutual funds, fixed deposits, a co-branded Fibe Axis Bank credit card, insurance, and purpose-driven (BNPL) financing across education, healthcare, travel, e-commerce, and solar. As of March 2026 Fibe reports over Rs 48,000 crore disbursed across 9.8 million loans to 3.3 million customers and 46 million app downloads. Fibe is ISO/IEC 27001, SOC 2, and PCI DSS certified. Notably, Fibe operates a live, OAuth-protected Model Context Protocol (MCP) server that lets AI agents read loan/eligibility information and initiate loan applications (scopes loan.read and loan.apply). Fibe publishes no public REST/OpenAPI developer surface; its machine-facing surface is the MCP server, secured with OAuth 2.0 authorization-code + PKCE and dynamic client registration.
 image: https://www.fibe.in/Fibe-og-img.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fibe MCP Server
-  slug: fibe-mcp-server
 modified: '2026-07-19'
 name: Fibe
 nav: Providers
@@ -145,8 +141,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/screenshots/fibe-2026-07-25T214400.png
 security:

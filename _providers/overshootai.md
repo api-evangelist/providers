@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The V1beta API from overshoot.ai — 1 operation(s) for v1beta.
   name: overshoot.ai V1beta API
   slug: overshootai-v1beta-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/overshootai-mcp.yml
 - group: other
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Overshoot is real-time AI vision infrastructure. It ingests live video streams over WebRTC (LiveKit) and lets developers query those frames with vision-language models through an OpenAI-compatible chat completions API, returning structured results such as bounding boxes, pixel coordinates, OCR text, and JSON in as little as 200ms. The REST API manages the full stream lifecycle (create, keepalive, inspect, delete), lists available VLMs from Overshoot, Anthropic, Google, and OpenAI, and handles prepaid credit billing. Overshoot is a Y Combinator and a16z portfolio company building the vision layer for accessibility, security monitoring, sports analysis, robotics, retail analytics, and structured data extraction from live video.
 image: https://overshoot.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: overshoot.ai MCP Server
-  slug: overshootai-mcp-server
 modified: '2026-07-20'
 name: overshoot.ai
 nav: Providers
@@ -223,8 +219,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/screenshots/overshootai-2026-08-07T191137.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 13
 apis:
 - description: The University's own API developer portal and gateway — a self-hosted Gravitee API Management deployment. The portal REST API answers anonymously and is, in practice, the University's API discovery su
@@ -394,7 +394,7 @@ score:
     catalog_gap: 44.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -404,7 +404,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 10.5
-  previous_composite: 54.4
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     contracts:
@@ -418,8 +418,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 83.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/screenshots/university-of-helsinki-2026-06-20T200155.png
 security:

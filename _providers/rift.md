@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://router-gateway-v3-production.up.railway.app
@@ -51,7 +51,7 @@ apis:
   description: Service and execution-provider health
   name: Rift Status API
   slug: rift-status-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -124,7 +124,7 @@ common:
   url: lifecycle/rift-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rift-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +146,6 @@ created: '2026-07-17'
 description: Rift is a decentralized exchange (DEX) aggregator that routes swap orders across 20+ trading venues and cross-chain bridges to guarantee best-price execution with zero added fees. Its Router API (v3, currently in beta) lets developers request a best-price market quote for an asset swap, create a market order against that quote with an idempotency key, and check the online status of both the Rift service and each downstream execution provider (Across, CCTP, Hyperliquid, KyberSwap, and more). Rift is backed by Paradigm, WTG Ventures, Edge Capital, and 20+ angel investors.
 image: https://www.rift.trade/images/logos/rift_logo_new_glow.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rift MCP Server
-  slug: rift-mcp-server
 modified: '2026-07-21'
 name: Rift
 nav: Providers
@@ -193,8 +189,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/screenshots/rift-2026-09-02T153815.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Per-tenant REST API for the Chariot AI operations platform, organized as versioned microservice paths under /api/{service}/{version}/ — identity, training, evaluation, notification, catalog, serve and
@@ -159,8 +159,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/striveworks/refs/heads/main/screenshots/striveworks-2026-09-02T161017.png
 security:

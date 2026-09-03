@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Program Reporting API from Stamped — 2 operation(s) for program reporting.
   name: Stamped Program Reporting API
   slug: stamped-program-reporting-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: data-model/stamped-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stamped-mcp.yml
 - group: design
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: 'Stamped is a reviews, ratings, and loyalty platform for e-commerce brands on Shopify, BigCommerce, and custom/headless platforms. Its V3 API is organized into three domains: Merchant Data (customers, products, orders), Loyalty Operations (points adjustments, VIP tiers, reward redemption, activities, and program reporting), and Reviews. Authentication is a shop-scoped Private API Key sent in the stamped-api-key header. Surfaced as a portfolio company of GV and enriched by the API Evangelist pipeline from Stamped''s public developer documentation at developers.stamped.io.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stamped.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stamped MCP Server
-  slug: stamped-mcp-server
 modified: '2026-07-21'
 name: Stamped
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/screenshots/stamped-2026-09-02T160728.png
 security:

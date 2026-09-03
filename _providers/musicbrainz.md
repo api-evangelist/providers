@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -493,13 +493,13 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.9
+  composite: 49.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -509,9 +509,6 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -526,8 +523,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:

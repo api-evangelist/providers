@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Manage creatives
   name: Microsoft LinkedIn AdCreatives API
   slug: microsoft-linkedin-adcreatives-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Microsoft Linkedin Webhooks
@@ -260,7 +260,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/microsoft-linkedin-mcp.yml
 - group: build
   title: ''
@@ -290,10 +290,6 @@ finops:
   slug: microsoft-linkedin-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-linkedin.png
 layout: provider
-mcp_servers:
-- description: LinkedIn publishes no MCP server. Every LinkedIn MCP server in circulation is community-built on top of either the public API or the unofficial Voyager endpoints. The tool list below is an API Evangel
-  name: Microsoft LinkedIn MCP Server
-  slug: microsoft-linkedin-mcp-server
 modified: '2026-08-13'
 name: Microsoft LinkedIn
 nav: Providers
@@ -348,8 +344,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png
 security:

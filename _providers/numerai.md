@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
   name: Numerai GraphQL API
   slug: numerai-graphql-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Numerai Webhooks
@@ -155,7 +155,7 @@ common:
   url: cli/numerai-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/numerai-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Numerai is a San Francisco hedge fund that crowdsources its stock-market trading models from a global community of data scientists. Participants download obfuscated, regularized financial datasets, train machine-learning models, and submit predictions each weekly round through a single GraphQL API at api-tournament.numer.ai. Models are staked with the Ethereum-based NMR token and earn performance-based payouts for accurate, original signals. The platform spans Numerai Classic, Numerai Signals (bring-your-own stock signals), and Crypto Signals, with official Python tooling (numerapi, numerai-cli, numerai-tools) and cloud Compute Prediction Nodes for fully automated round submissions.
 image: https://numer.ai/img/social-card.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Numerai MCP Server
-  slug: numerai-mcp-server
 modified: '2026-07-20'
 name: Numerai
 nav: Providers
@@ -225,8 +221,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numerai/refs/heads/main/screenshots/numerai-2026-08-07T185729.png
 security:

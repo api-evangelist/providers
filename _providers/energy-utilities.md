@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  generated: '2026-07-22'
-  label: Self-serve signup
+  confidence: low
+  generated: '2026-09-03'
+  label: Unknown
   method: derived
-  onboarding: self-serve
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 api_count: 17

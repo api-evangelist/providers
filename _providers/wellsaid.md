@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://wellsaidlabs.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.wellsaid.io/ — a different registrable domain (wellsaidlabs.com -> wellsaid.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -129,6 +130,10 @@ common:
   title: ''
   type: FinOps
   url: finops/wellsaid-finops.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.wellsaidlabs.com/docs/getting-started
 created: '2026-06-21'
 description: WellSaid Labs is an AI text-to-speech voice platform. Its REST API renders natural-sounding speech from text using studio-quality voice avatars, supporting synchronous clip creation, low-latency audio streaming, and word-level timing with subtitles, authenticated with an X-Api-Key header.
 finops:
@@ -144,7 +149,7 @@ network: true
 overview: 'WellSaid Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clips API, Pronunciation API, Text-to-Speech API, and 1 more. Tagged areas include Artificial Intelligence, Text-to-Speech, Voice, Audio, and TTS.
 
 
-  WellSaid Labs'' developer surface includes authentication, documentation, and 9 more developer resources.'
+  WellSaid Labs'' developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Wellsaid Plans Pricing
   plan_count: 3
@@ -180,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/screenshots/wellsaid-2026-09-02T170611.png
 security:

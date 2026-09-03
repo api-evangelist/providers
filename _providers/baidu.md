@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: OpenAI-compatible LLM / Model-as-a-Service API hosting the ERNIE family and select open models (DeepSeek, GLM, etc.) via chat completions and embeddings.
@@ -130,8 +130,8 @@ score:
   previous_composite: 19.6
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baidu/refs/heads/main/screenshots/baidu-2026-07-25T202358.png
 security:

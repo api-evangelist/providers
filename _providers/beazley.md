@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ apis:
   description: The Search API from Beazley — 1 operation(s) for search.
   name: Beazley Search API
   slug: beazley-search-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: About Beazley (Sandbox)
@@ -281,7 +281,7 @@ common:
   url: mailto:ITArchitecture@Beazley.com
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/beazley-mcp.yml
 - group: build
   title: ''
@@ -364,10 +364,6 @@ description: Beazley plc is a London-headquartered specialty insurer and one of 
   nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: Derived candidate tool set — Beazley publishes no MCP server.
-  name: Beazley candidate MCP tool manifest
-  slug: beazley-candidate-mcp-tool-manifest
 modified: '2026-07-25'
 name: Beazley
 nav: Providers
@@ -393,7 +389,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -403,7 +399,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 49.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,8 +416,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
 security:

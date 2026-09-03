@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Metro Bank SME API
   slug: metro-bank-sme-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: Open Data API
@@ -143,7 +143,7 @@ common:
   url: overlays/metro-bank-open-data-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/metro-bank-mcp.yml
 - group: agent
   title: ''
@@ -186,10 +186,6 @@ description: Metro Bank is a UK retail and commercial bank founded in 2010 as th
   TLS, dynamic client registration, and PSD2 strong customer authentication, alongside the OBIE Open Data reference-data APIs and FCA service-quality metrics reporting.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Metro Bank MCP Server
-  slug: metro-bank-mcp-server
 modified: '2026-07-23'
 name: Metro Bank
 nav: Providers
@@ -243,8 +239,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png
 security:

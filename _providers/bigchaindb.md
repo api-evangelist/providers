@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://test.ipdb.io:9984
@@ -71,7 +71,7 @@ apis:
   description: Read the node's validator set.
   name: Bigchaindb Validators API
   slug: bigchaindb-validators-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -100,7 +100,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bigchaindb-mcp.yml
 - group: operate
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: 'BigchainDB is an open-source blockchain database that combines the developer experience and query power of a database with blockchain properties: decentralized (Byzantine fault-tolerant) control, immutable append-only data storage, and built-in support for registering and transferring assets. Developed by BigchainDB GmbH (Berlin) with the IPDB Foundation overseeing the software and public networks, it exposes a simple versioned HTTP API on each node (default port 9984) for creating and reading transactions, assets, outputs, metadata, blocks and validators. Applications sign transactions with Ed25519 crypto-conditions, so authorization is enforced at the payload level rather than via transport authentication. Official Python, JavaScript and Java drivers are published, and the maintained continuation of the codebase is the Planetmint project.'
 image: https://github.com/bigchaindb.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bigchaindb MCP Server
-  slug: bigchaindb-mcp-server
 modified: '2026-07-18'
 name: Bigchaindb
 nav: Providers
@@ -217,8 +213,8 @@ score:
       marker_coverage: 100.0
       total: 7
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.superpayments.com/2026-04-01
@@ -81,7 +81,7 @@ apis:
   description: The Webhooks API from Super Payments — 0 operation(s) for webhooks.
   name: Super Payments Webhooks API
   slug: super-payments-webhooks-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: Super Payments delivers real-time event notifications to merchant-configured endpoints. Webhooks are configured per Integration in the Business Portal. Every request carries a super-signature header (
   name: Super Payments Webhooks
@@ -281,7 +281,7 @@ common:
   url: packages/super-payments-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/super-payments-mcp.yml
 - group: agent
   title: ''
@@ -295,10 +295,6 @@ created: '2026-07-17'
 description: Super Payments is a UK payments provider offering free card and open-banking (pay-by-bank) payment processing for businesses, funded by a customer-acquisition and cash-rewards model rather than per-transaction fees. Its REST API lets merchants create payments and checkout sessions, issue refunds, manage customers and reusable payment methods, run settlements and reconciliation, create no-code payment links, and configure cash rewards. The API uses date-based URL versioning, static API-key authentication, RFC 9457 problem+json errors, cursor pagination, HMAC-signed webhooks, an embedded super-card web component and hosted payment page, and a React Native SDK. Backed by Accel and Union Square Ventures.
 image: https://framerusercontent.com/images/eAdDRGD6sLo1NlXEu8bPS71k.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote MCP server was found for Super Payments (no mcp.superpayments.com, no @superpayments MCP package in npm, not in the MCP registry). This is a CANDIDATE tool surface derived on
-  name: Super Payments MCP Server
-  slug: super-payments-mcp-server
 modified: '2026-07-21'
 name: Super Payments
 nav: Providers
@@ -349,8 +345,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/screenshots/super-payments-2026-08-17T082158.png
 security:

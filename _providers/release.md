@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -88,7 +88,7 @@ apis:
   description: The Remote Development API from Release — 2 operation(s) for remote development.
   name: Release Remote Development API
   slug: release-remote-development-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -219,7 +219,7 @@ common:
   url: cli/release-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/release-mcp.yml
 - group: agent
   title: ''
@@ -257,10 +257,6 @@ created: '2026-07-17'
 description: Release is a developer-tools platform that provisions on-demand, full-stack ephemeral environments inside your own AWS or GCP cloud accounts. Positioned as a Heroku replacement and a Vercel alternative for full-stack apps, Release turns a repository plus a .release.yaml (or Docker Compose) file into reproducible environments spun up per pull request, per branch, or on demand, with managed Kubernetes clusters, datasets, remote development, and a Release.ai AI sandbox. Teams automate it through a REST Platform API (accounts, apps, environments, deploys, clusters, builds), a GraphQL API, an AI Sandbox API, and a first-party CLI, all authenticated with X-User-Email and X-User-Token headers and described by a canonical OpenAPI contract at https://api.release.com/openapi.json.
 image: https://release.com/og/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Release MCP Server
-  slug: release-mcp-server
 modified: '2026-07-21'
 name: Release
 nav: Providers
@@ -299,8 +295,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/screenshots/release-2026-08-17T081509.png
 security:

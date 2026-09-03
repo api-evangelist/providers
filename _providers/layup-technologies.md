@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -188,7 +188,7 @@ apis:
   description: The VerifyService API from LayUp Technologies — 1 operation(s) for verifyservice.
   name: LayUp Technologies VerifyService API
   slug: layup-technologies-verifyservice-api
-artifact_total: 64
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Layup Technologies Webhooks
@@ -285,6 +285,10 @@ collections:
   name: Layup endpoints AbsaDebiCheckService VerifyService API
   slug: open-layup-technologies-verifyservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/layup-technologies-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -363,7 +367,7 @@ common:
   url: components/layup-technologies-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/layup-technologies-mcp.yml
 - group: agent
   title: ''
@@ -409,10 +413,6 @@ created: '2026-07-17'
 description: LayUp Technologies is a South African fintech that operates a lay-by / "Save Now, Buy Later" payment platform. Merchants use LayUp to let customers reserve goods with a deposit and pay the balance off in scheduled instalments (weekly or monthly) before taking delivery, avoiding credit and interest. The platform schedules payments, holds inventory, and settles merchants once orders complete. LayUp exposes a REST API (apikey header auth) covering merchants, orders, order amendments, payment plans, payments, cards, DebiCheck and debit order mandates, EFT, PayAt, invoices, settlements, and integrations for platforms such as Shopify, plus order and payment webhooks. It ships a first-party PHP SDK and a WooCommerce payment gateway plugin, and is a Techstars-backed company.
 image: https://layup.co.za/assets/layup-banner-CQfDGx2y.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: LayUp Technologies MCP Server
-  slug: layup-technologies-mcp-server
 modified: '2026-07-20'
 name: LayUp Technologies
 nav: Providers
@@ -423,13 +423,13 @@ overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io
   The LayUp Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 24 more developer resources.'
 random_paper: 15
 score:
   band: thin
   composite: 32.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -460,8 +460,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/screenshots/layup-technologies-2026-07-25T224705.png
 security:

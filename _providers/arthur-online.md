@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ arazzos:
 - description: 'Bring a new building into Arthur Online: create the property, add a lettable unit, file the compliance certificate, publish the information shared with occupants and attach the document. Every operati'
   name: Arthur Online - onboard a property
   slug: arthur-online-onboard-property
-artifact_total: 75
+artifact_total: 74
 asyncapis:
 - description: The Arthur Online webhook event surface. A property manager subscribes a webhook URL to one or more of the 125 published triggers on the Arthur webhook page; Arthur then POSTs a form-encoded payload t
   name: Arthur Online Webhooks
@@ -516,7 +516,7 @@ common:
   url: llms/arthur-online-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arthur-online-mcp.yml
 - group: build
   title: ''
@@ -547,10 +547,6 @@ description: 'Arthur Online is a London-headquartered UK property management sof
   across 16 resource areas, yet every call is tenant-scoped OAuth 2.0 Authorization Code plus an X-EntityID header, credentials are issued only from inside a paying Arthur account after contacting Arthur support, and no data is readable anonymously. There is no RESO posture at all — the United Kingdom has no MLS, no NAR, and no RESO Data Dictionary or Web API certification regime, so listings interoperability here is portal-to-CRM feeds rather than a certified machine-readable standard.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arthur-online.png
 layout: provider
-mcp_servers:
-- description: Arthur Online publishes no MCP server. This is a CANDIDATE tool surface derived one-for-one from the Arthur API v2 operations, so an agent builder can stand up a local MCP server over the REST API. Ev
-  name: Arthur Online MCP Server
-  slug: arthur-online-mcp-server
 modified: '2026-07-26'
 name: Arthur Online
 nav: Providers
@@ -573,20 +569,20 @@ rate_limits:
   slug: arthur-online-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 48.6
   coverage:
     artifact_dirs: 25
-    catalog_gap: 56.8
+    catalog_gap: 66.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 8.3
     contract_quality: 27.8
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 8.3
     operational_transparency: 31.6
   previous_composite: 50.4
@@ -610,8 +606,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/screenshots/arthur-online-2026-08-07T161741.png
 security:

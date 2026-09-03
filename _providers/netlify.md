@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-09-02'
+  score: 62.2
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -1073,8 +1073,8 @@ score:
       total: 42
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:

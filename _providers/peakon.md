@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.peakon.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.workday.com/en-us/products/employee-voice/overview.html — a different registrable domain (peakon.com -> workday.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -83,7 +84,7 @@ apis:
   description: Retrieving segments
   name: Peakon Segments API
   slug: peakon-segments-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +164,7 @@ common:
   url: conformance/peakon-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/peakon-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +202,6 @@ created: '2026-07-17'
 description: Peakon (now Workday Peakon Employee Voice) is an employee engagement and experience platform for measuring and improving engagement through continuous surveys, driver analytics, and action-taking. Founded in Copenhagen and backed by Atomico and Balderton Capital, it was acquired by Workday in 2021. Peakon exposes a public REST API (v1.1.0, JSON:API) for reading engagement overviews, drivers, segment and category scores, survey answers, and audits, plus managing employees; it also offers a SCIM 2.0 provisioning API for continuous HRIS-driven user sync. Applications authenticate by exchanging a custom-app access token for a session bearer JWT scoped by per-app permissions.
 image: https://files.readme.io/2b612560a84c6544f0ffcaf0abeef8c1da4cd1ec5ac568f569f1b0d4058082db-small-wd-dub-reversed.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the public Peakon API (v1.1.0). No official Peakon-hosted MCP server was found as of 2026-07-20.
-  name: Peakon MCP Server
-  slug: peakon-mcp-server
 modified: '2026-07-20'
 name: Peakon
 nav: Providers
@@ -243,8 +240,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/screenshots/peakon-2026-08-07T191724.png
 security:

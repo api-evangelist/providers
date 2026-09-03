@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -108,7 +108,7 @@ apis:
   description: The Users API from GoSpotCheck — 4 operation(s) for users.
   name: GoSpotCheck Users API
   slug: gospotcheck-users-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -247,7 +247,7 @@ common:
   url: packages/gospotcheck-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gospotcheck-mcp.yml
 - group: agent
   title: ''
@@ -289,10 +289,6 @@ created: '2026-07-17'
 description: GoSpotCheck (by FORM) is a mobile field-execution and retail-execution platform used by field teams to collect store-level data, complete surveys and tasks ("missions") at places, and audit merchandising and compliance. Its External API lets developers sync people, places, place groups, teams, catalogs, and catalog items, and pull MissionResponse and TaskResponse data out of GoSpotCheck to build custom reports and integrations. The API is REST over HTTPS with OAuth2 bearer authentication, a standard response envelope (request/paging/data/errors), page-number pagination, field-operator filtering, related-resource includes, and asynchronous CSV export for large datasets.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gospotcheck.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GoSpotCheck MCP Server
-  slug: gospotcheck-mcp-server
 modified: '2026-07-19'
 name: GoSpotCheck
 nav: Providers
@@ -335,8 +331,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/screenshots/gospotcheck-2026-07-25T220116.png
 security:

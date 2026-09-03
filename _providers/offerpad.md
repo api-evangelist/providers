@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ apis:
   description: WordPress wp_pattern_category resource routes.
   name: Offerpad Wp Pattern Category API
   slug: offerpad-wp-pattern-category-api
-artifact_total: 50
+artifact_total: 49
 collections:
 - collection_type: open
   name: Offerpad WordPress REST API (wp/v2)
@@ -306,7 +306,7 @@ common:
   url: packages/offerpad-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/offerpad-mcp.yml
 - group: build
   title: ''
@@ -433,10 +433,6 @@ examples:
   slug: offerpad-wp-v2-types-response
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the public content API
-  slug: candidate-mcp-tool-surface-derived-from-the-public-content-api
 modified: '2026-07-26'
 name: Offerpad
 nav: Providers
@@ -486,8 +482,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png
 security:

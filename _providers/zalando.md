@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ apis:
   description: The Types API from Zalando — 1 operation(s) for types.
   name: Zalando Types API
   slug: zalando-types-api
-artifact_total: 46
+artifact_total: 45
 collections:
 - collection_type: open
   name: API Collection
@@ -283,7 +283,7 @@ common:
   url: https://opensource.zalando.com/restful-api-guidelines/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zalando-mcp.yml
 - group: agent
   title: ''
@@ -333,10 +333,6 @@ created: '2026-07-17'
 description: 'Zalando is Europe''s leading online platform for fashion and lifestyle, connecting customers, brands and partners across more than 20 markets. Its zDirect Platform (formerly the Zalando Partner / Merchant Platform) exposes a suite of REST APIs that let merchants and integration partners manage the full article lifecycle: onboarding and enriching products, submitting attributes, controlling prices and stock, blocking or unblocking offers, managing sales channels and logistic centers, retrieving orders, and operating Zalando Fulfillment Solutions (ZFS) stock movements and cross-border reporting. All APIs are OAuth 2.0 client-credentials protected, follow the widely referenced Zalando RESTful API and Event Guidelines, use JSON (with JSON:API media types on several services), and offer a full sandbox environment. Zalando was surfaced as an HV Capital portfolio company and enriched into the API Evangelist network from its public developer surface.'
 image: https://avatars.githubusercontent.com/u/1564818?s=200&v=4
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list derived from zDirect OpenAPI operations; no official server published.
-  name: zDirect candidate MCP (derived)
-  slug: zdirect-candidate-mcp-derived
 modified: '2026-07-21'
 name: Zalando
 nav: Providers
@@ -386,8 +382,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/screenshots/zalando-2026-09-02T171440.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ apis:
   description: The Transactions API from Kroo — 2 operation(s) for transactions.
   name: Kroo Transactions API
   slug: kroo-transactions-api
-artifact_total: 34
+artifact_total: 33
 common:
 - group: other
   title: ''
@@ -299,7 +299,7 @@ common:
   url: llms/kroo-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kroo-mcp.yml
 - group: agent
   title: ''
@@ -310,10 +310,6 @@ description: Kroo Bank Ltd is a UK app-based challenger bank, founded in 2016 an
   customer authentication implemented as a CIBA decoupled (poll-mode) flow, and mutual-TLS client authentication using OBIE/eIDAS certificates, validated with the OpenID Foundation conformance suite.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kroo MCP Server
-  slug: kroo-mcp-server
 modified: '2026-07-23'
 name: Kroo
 nav: Providers
@@ -367,8 +363,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:

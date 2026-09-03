@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.evervault.com
@@ -56,7 +56,7 @@ apis:
   description: The Evervault API API from Evervault — 0 operation(s) for evervault api.
   name: Evervault Evervault API
   slug: evervault-evervault-api-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Evervault Webhooks
@@ -220,7 +220,7 @@ common:
   url: sandbox/evervault-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/evervault-mcp.yml
 - group: agent
   title: ''
@@ -286,10 +286,6 @@ created: '2026-07-17'
 description: 'Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault''s side while customers hold the ciphertext, reducing breach scope. Core products include Relay (an encrypting/decrypting proxy), Functions (secure serverless runtimes), Enclaves (AWS Nitro Enclave workloads), UI Components for PCI-compliant card collection, plus payments tooling: network tokens, 3D Secure, BIN lookup, card account updater, and multi-PSP routing. Evervault is PCI DSS Level 1 and SOC 2 Type II, and supports HIPAA and GDPR.'
 image: https://evervault.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Evervault MCP Server
-  slug: evervault-mcp-server
 modified: '2026-07-19'
 name: Evervault
 nav: Providers
@@ -342,8 +338,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:

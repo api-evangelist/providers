@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.8
-  scored_at: '2026-09-02'
+  score: 32.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -638,8 +638,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

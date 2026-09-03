@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ apis:
   description: The Transparency API from DoseSpot — 1 operation(s) for transparency.
   name: DoseSpot Transparency API
   slug: dosespot-transparency-api
-artifact_total: 45
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Dosespot Webhooks
@@ -304,7 +304,7 @@ common:
   url: asyncapi/dosespot-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dosespot-mcp.yml
 - group: build
   title: ''
@@ -367,10 +367,6 @@ finops:
   slug: dosespot-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dosespot.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: DoseSpot MCP Server
-  slug: dosespot-mcp-server
 modified: '2026-08-15'
 name: DoseSpot
 nav: Providers
@@ -399,7 +395,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -409,7 +405,7 @@ score:
     discoverability: 74.1
     governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 63.0
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -430,8 +426,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png
 security:

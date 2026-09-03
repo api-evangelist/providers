@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Batch video rendering from a template and a set of variable objects
   name: Wideo Batch API
   slug: wideo-batch-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Wideo Events Asyncapi
@@ -83,7 +83,7 @@ common:
   url: asyncapi/wideo-events-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wideo-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: 'Wideo is an online video creation and automation platform that lets teams produce animated videos, presentations, and marketing content from drag-and-drop templates and AI tools. For developers, Wideo publishes a Video Automation API that renders finished MP4 videos at scale: a rendering batch is created from a reusable template plus a list of per-video variable objects, rendering runs asynchronously, and completion is delivered via a webhook callback and pollable batch status returning signed video and preview URLs. A legacy replace/encode flow supports single-video generation. Wideo also offers a white-label video API for embedding video creation into other products. Wideo was surfaced as a portfolio company of 500 Global.'
 image: https://wideo.co/wp-content/uploads/2017/12/logo.png
 layout: provider
-mcp_servers:
-- description: No official Wideo MCP server exists. Searched the Wideo documentation, the npm registry (including the first-party @wideo scope) and the public MCP server listings on 2026-08-13 and found nothing publ
-  name: Wideo MCP Server
-  slug: wideo-mcp-server
 modified: '2026-08-13'
 name: Wideo
 nav: Providers
@@ -250,8 +246,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/screenshots/wideo-2026-08-17T082920.png
 security:

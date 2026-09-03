@@ -14,6 +14,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.1
-  scored_at: '2026-09-02'
+  score: 42.3
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: 'Two Model Context Protocol endpoints advertised in the scimar.ca WordPress REST route index under the "mcp" namespace — /wp-json/mcp/mcp-oauth-server and /wp-json/mcp/mcp-adapter-default-server. Both '
@@ -256,7 +257,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -266,7 +267,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 25.4
+  previous_composite: 26.3
   provenance:
     conformance: derived
     contracts:
@@ -282,8 +283,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png
 security:

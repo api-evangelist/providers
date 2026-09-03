@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for loading schemas, querying business views, extracting data to external tables, scheduling dashboard reports, and administration. Authenticated with a bearer Personal Access T
   name: Incorta Public API v2
   slug: incorta-public-api-v2
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -135,7 +135,7 @@ common:
   url: components/incorta-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/incorta-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Incorta is a unified data and analytics platform that lets teams acquire, enrich, analyze, and act on operational data without a traditional data warehouse or heavy dimensional modeling, using its Direct Data Mapping engine to query source data directly at high speed. For developers, Incorta exposes a tenant-scoped Public API (v1 and v2) under /incorta/api/v2 for loading physical schemas, querying business views, extracting data to external tables, scheduling dashboard reports, and administration, authenticated with Personal Access Tokens or OAuth 2.0 JWTs. Incorta also ships a Python CLI for metadata import/export, Python Data APIs for external notebooks, and a TypeScript Component SDK for building custom dashboard visualizations. Incorta is backed by GV and Kleiner Perkins.
 image: https://cdn.prod.website-files.com/67b7abfbb037e687d0a415ec/67ec5981d1278178491febdf_Incorta-OG.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Incorta MCP Server
-  slug: incorta-mcp-server
 modified: '2026-07-19'
 name: Incorta
 nav: Providers
@@ -184,8 +180,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incorta/refs/heads/main/screenshots/incorta-2026-07-25T222238.png
 security:

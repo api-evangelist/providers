@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
@@ -329,7 +329,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -339,7 +339,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 51.0
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     contracts:
@@ -359,8 +359,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/screenshots/splio-2026-09-02T160514.png
 security:

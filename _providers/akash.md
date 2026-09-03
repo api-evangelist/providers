@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -241,7 +241,40 @@ apis:
   description: The WalletSetting API from Akash Network — 1 operation(s) for walletsetting.
   name: Akash Network WalletSetting API
   slug: akash-walletsetting-api
-artifact_total: 86
+- description: REST API for the managed Akash Console - deploy workloads with a managed wallet and credit-card billing, list and manage deployments, leases, and providers without needing to run a node or hold AKT di
+  name: Akash Console API
+  slug: console-api
+- description: Indexed network data over REST - blocks, transactions, deployments, leases, providers, GPU availability, and marketplace stats. Used for analytics, provider discovery, and dashboards (the API powering
+  name: Akash Network Data API
+  slug: network-data-api
+- description: Direct access to the Akash Cosmos-SDK chain over gRPC, REST (LCD), and Tendermint RPC. Used to query state, broadcast transactions, and stream events from a self-run or hosted Akash node.
+  name: Akash Chain Node (gRPC / REST / RPC)
+  slug: chain-grpc-rest-rpc
+- description: HTTP API exposed by each Akash provider for lease management, manifest submission, log and event streaming, shell access, and service status. Used by tenants and tooling once a lease is established.
+  name: Akash Provider API
+  slug: provider-api
+- description: Official Go SDK for the Akash chain - typed message types, client helpers for deployments, leases, and providers, AuthZ and fee-grant support, and the building blocks behind the akash CLI.
+  name: Akash Blockchain SDK (Go)
+  slug: sdk-go
+- description: Official JavaScript / TypeScript SDK for building Akash applications and tooling - SDL parsing, wallet signing, deployment lifecycle, and lease management.
+  name: Akashjs - Akash SDK (JavaScript / TypeScript)
+  slug: sdk-js
+- description: Reference command-line tool for the Akash network - keys, accounts, deployments, bids, leases, manifest send, and provider queries. Built on the Go SDK.
+  name: Akash CLI
+  slug: cli
+- description: Hosted web console for browsing the marketplace, deploying SDL manifests, and managing leases - with optional managed wallet and credit-card billing.
+  name: Akash Console (Web)
+  slug: console
+- description: Retrieve bids placed by Akash providers.
+  name: Akash Network Bids API
+  slug: akash-network-bids-api
+- description: Create and manage SDL-based deployments.
+  name: Akash Network Deployments API
+  slug: akash-network-deployments-api
+- description: Accept bids and manage leases with providers.
+  name: Akash Network Leases API
+  slug: akash-network-leases-api
+artifact_total: 97
 collections:
 - collection_type: open
   name: API Collection
@@ -443,7 +476,7 @@ modified: '2026-06-13'
 name: Akash Network
 nav: Providers
 network: true
-overview: 'Akash Network publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Alert API, Analytics API, and 34 more. Tagged areas include Cloud Computing, Decentralized, Blockchain, Kubernetes, and GPU.
+overview: 'Akash Network publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Alert API, Analytics API, and 37 more. Tagged areas include Cloud Computing, Decentralized, Blockchain, Kubernetes, and GPU.
 
 
   The Akash Network catalog on APIs.io includes 1 JSON-LD context.
@@ -485,8 +518,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/screenshots/akash-2026-06-20T171446.png
 security:

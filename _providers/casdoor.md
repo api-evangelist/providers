@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -291,14 +291,14 @@ rate_limits:
   name: Casdoor Rate Limits
   slug: casdoor-rate-limits
 score:
-  band: thin
-  composite: 28.2
+  band: emerging
+  composite: 24.6
   coverage:
     artifact_dirs: 10
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -308,9 +308,6 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 60.0
   previous_composite: 28.2
   provenance:
     agentic_access: derived
@@ -319,8 +316,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:

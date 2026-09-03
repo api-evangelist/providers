@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -313,8 +313,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:

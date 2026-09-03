@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The single GraphQL endpoint behind the Masterworks web and mobile apps, covering art offerings, artists, auction and repeat-sale data, contributions, agreements and e-signature, KYC and accreditation,
@@ -171,8 +171,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masterworks/refs/heads/main/screenshots/masterworks-2026-08-07T172123.png
 security:

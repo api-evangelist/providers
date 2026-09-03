@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ apis:
   description: The Written Statement of Unauthorized Debit (WSUD) API from Nacha — 1 operation(s) for written statement of unauthorized debit (wsud).
   name: Nacha Written Statement of Unauthorized Debit (WSUD) API
   slug: nacha-written-statement-of-unauthorized-debit-wsud-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: AV + Name + Return
@@ -388,7 +388,7 @@ common:
   url: lifecycle/nacha-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nacha-mcp.yml
 - group: build
   title: ''
@@ -415,10 +415,6 @@ description: 'Nacha (formerly the National Automated Clearing House Association)
   reporting, and directory services) as Swagger/OpenAPI documents on SwaggerHub, and through Phixius, its payment-information exchange platform. Its home market is the United States.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nacha MCP Server
-  slug: nacha-mcp-server
 modified: '2026-07-24'
 name: Nacha
 nav: Providers
@@ -463,8 +459,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:

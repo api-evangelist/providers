@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Definite REST API for programmatic access to the Definite data platform: stream JSON ingestion into DuckLake, signed-URL file uploads to Definite Drive, webhook-triggered Python pipelines, push-ba'
@@ -218,8 +218,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/screenshots/definite-2026-07-25T211622.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The Templates API from Worders — 1 operation(s) for templates.
   name: Worders Templates API
   slug: worders-templates-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: conformance/worders-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/worders-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: Worders is a culturalization and localization company (a Partech portfolio company) that crafts translated, culturally-adapted content for global brands with in-country linguists. Alongside the services business it runs a Ruby on Rails translation-management platform (admin.worders.net) and publishes the Worders API V1 at api.worders.net — an OpenAPI 3.0.1-documented surface for freelance invoice verification and Plunet TMS automation covering customers, freelancers, invoices, orders, purchase orders, quotes, and order templates.
 image: https://cdn.prod.website-files.com/67befd57da776c510ff3b66b/6830866136954deeba98bba4_worders_webclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Worders MCP Server
-  slug: worders-mcp-server
 modified: '2026-07-21'
 name: Worders
 nav: Providers
@@ -223,8 +219,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/screenshots/worders-2026-09-02T170926.png
 security:

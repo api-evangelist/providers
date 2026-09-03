@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.3
-  scored_at: '2026-09-02'
+  score: 31.5
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - baseURL: https://api.moogsoft.ai
@@ -123,7 +123,7 @@ apis:
   description: This API enables you to create and manage workflows
   name: Moogsoft Workflow Engine API
   slug: workflow-engine
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Moogsoft Webhooks
@@ -243,7 +243,7 @@ common:
   url: packages/moogsoft-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moogsoft-mcp.yml
 - group: agent
   title: ''
@@ -282,10 +282,6 @@ finops:
   slug: moogsoft-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moogsoft.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moogsoft MCP Server
-  slug: moogsoft-mcp-server
 modified: '2026-08-29'
 name: Moogsoft
 nav: Providers
@@ -314,7 +310,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -324,7 +320,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 58.2
+  previous_composite: 59.0
   provenance:
     conformance: first-party
     contracts:
@@ -334,8 +330,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/screenshots/moogsoft-2026-06-20T185754.png
 security:

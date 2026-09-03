@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://sight.inspectorio.com
@@ -161,7 +161,7 @@ apis:
   description: The Upload File API from Inspectorio — 1 operation(s) for upload file.
   name: Inspectorio Upload File API
   slug: inspectorio-upload-file-api
-artifact_total: 57
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Inspectorio Webhooks
@@ -348,7 +348,7 @@ common:
   url: asyncapi/inspectorio-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inspectorio-mcp.yml
 - group: agent
   title: ''
@@ -382,10 +382,6 @@ created: '2026-07-17'
 description: Inspectorio is a supply-chain management software platform that helps brands, retailers, suppliers, and laboratories digitize and optimize production across quality risk management, responsible sourcing & compliance, production management, traceability, and lab-test management. It serves 15,000+ organizations in apparel/footwear, food & beverage, home & furniture, retail, and outdoor/sports. For integrators it exposes REST integration APIs (organization API-key auth via the `apiKey` header) for its Quality Risk Management (Sight), Responsible Sourcing & Compliance (Rise), and File Management domains, plus HMAC-signed outbound webhooks following the Standard Webhooks specification.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inspectorio.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Inspectorio MCP Server
-  slug: inspectorio-mcp-server
 modified: '2026-07-19'
 name: Inspectorio
 nav: Providers
@@ -426,8 +422,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/screenshots/inspectorio-2026-07-25T222543.png
 security:

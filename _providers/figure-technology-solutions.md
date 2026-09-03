@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Payment History V2 API from Figure Technology Solutions — 1 operation(s) for payment history v2.
   name: Figure Technology Solutions Payment History V2 API
   slug: figure-technology-solutions-payment-history-v2-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Figure Technology Solutions Webhooks
@@ -203,7 +203,7 @@ common:
   url: conformance/figure-technology-solutions-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/figure-technology-solutions-mcp.yml
 - group: design
   title: ''
@@ -245,10 +245,6 @@ created: '2026-07-17'
 description: 'Figure Technology Solutions is a Reno, Nevada financial-technology company (founded 2018) that builds and operates blockchain-based platforms for lending, capital markets, and asset management. Its public Partner APIs let integrators originate and manage Home Equity Line of Credit (HELOC) loans end to end: non-licensed pre-qualification and offer retrieval, full HELOC inquiry lifecycle management (start inquiry, select property, add income/SSN, verify liens, select offer, documents), loan-originator directory management, and Portfolio Manager reporting over owned and pledged loan pools. Figure also runs Figure Connect, a blockchain-based loan marketplace connecting loan sellers and buyers. The REST/JSON APIs authenticate with an apikey header and protect PII in transit with JWE encryption (RSA-OAEP-256 + A256GCM).'
 image: https://docs.figure.com/img/docusaurus-social-card.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Figure Technology Solutions MCP Server
-  slug: figure-technology-solutions-mcp-server
 modified: '2026-07-19'
 name: Figure Technology Solutions
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/screenshots/figure-technology-solutions-2026-07-25T214442.png
 security:

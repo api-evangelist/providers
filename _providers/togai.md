@@ -20,7 +20,7 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.8
-  scored_at: '2026-09-02'
+  score: 32.7
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -495,8 +495,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/screenshots/togai-2026-06-20T195431.png
 security:

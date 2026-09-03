@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Hosted Model Context Protocol endpoint served from the Playable web property and advertised through RFC 9728 protected-resource metadata at playable.com/.well-known/oauth-protected-resource. Requires '
@@ -289,8 +289,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/screenshots/playable-2026-08-17T080409.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The REST API behind the Lifebit Platform (CloudOS): manage workspace projects, job queues, workflows/pipelines, Nextflow and Cromwell/WDL job submission and monitoring, interactive analysis sessions, '
   name: Lifebit CloudOS API
   slug: cloudos-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: operate
   title: ''
@@ -155,7 +155,7 @@ common:
   url: well-known/lifebit-biotech-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lifebit-biotech-mcp.yml
 - group: auth
   title: ''
@@ -190,10 +190,6 @@ description: 'Lifebit Biotech Ltd is a London-founded (2017) health-data infrast
   federated TRE, AI-automated OMOP CDM v5.4 harmonisation, federated learning, a trusted data lakehouse and a trusted data marketplace. Publicly disclosed deployments include Genomics England, the US NIH National Library of Medicine, CanPath, Singapore Synapxe, Boehringer Ingelheim, Flatiron Health and 23andMe.'
 image: https://lifebit.ai/wp-content/uploads/2025/04/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lifebit Biotech MCP Server
-  slug: lifebit-biotech-mcp-server
 modified: '2026-07-19'
 name: Lifebit Biotech
 nav: Providers
@@ -234,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifebit-biotech/refs/heads/main/screenshots/lifebit-biotech-2026-07-25T225038.png
 security:

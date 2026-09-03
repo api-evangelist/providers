@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ apis:
   description: The Webhooks API from LianLian Global — 2 operation(s) for webhooks.
   name: LianLian Global Webhooks API
   slug: lianlian-global-webhooks-api
-artifact_total: 101
+artifact_total: 100
 asyncapis:
 - description: ''
   name: Lianlian Global Webhooks
@@ -547,7 +547,7 @@ common:
   url: well-known/lianlian-global-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lianlian-global-mcp.yml
 - group: agent
   title: ''
@@ -658,10 +658,6 @@ description: LianLian Global (连连国际) is the cross-border payments arm of 
   from its LLGlobal GitHub organization.
 image: https://cb-img.lianlianpay.com/cb_static/images/logo/lianlianglobal@2x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LianLian Global MCP Server
-  slug: lianlian-global-mcp-server
 modified: '2026-07-19'
 name: LianLian Global
 nav: Providers
@@ -714,8 +710,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:

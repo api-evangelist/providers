@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Free public JSON-RPC 2.0 API for reading the Aleo zero-knowledge blockchain — latest blocks and heights, transactions and transitions, records, deployed programs, mapping values, public NFTs and token
   name: Aleo RPC API
   slug: aleo-rpc-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -115,7 +115,7 @@ common:
   url: lifecycle/demox-labs-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/demox-labs-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: 'Demox Labs is a San Francisco company building privacy infrastructure for zero-knowledge (ZK) blockchains, starting with the Aleo network. It is the maker of Leo Wallet, a privacy-focused, zero-knowledge cryptocurrency wallet that constructs transactions locally on the user''s device and lets holders conceal or disclose any component of a transaction before it is verified on chain. Demox ships developer tooling for the Aleo and Polygon Miden ecosystems: the Aleo SDK and Miden SDK (WebAssembly builds), the Aleo and Miden wallet adapters (modular TypeScript adapters and React components for connecting dApps to compatible wallets), and the public Aleo RPC API, a free JSON-RPC 2.0 endpoint for reading blocks, transactions, transitions, records, programs, mappings, NFTs, and staking data from the Aleo network. Leo Wallet is transitioning to Shield, a next-generation Aleo privacy wallet built by Provable.'
 image: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/main/apis.yml
 layout: provider
-mcp_servers:
-- description: ''
-  name: Demox Labs MCP Server
-  slug: demox-labs-mcp-server
 modified: '2026-07-18'
 name: Demox Labs
 nav: Providers
@@ -166,8 +162,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/main/screenshots/demox-labs-2026-07-25T211716.png
 security:

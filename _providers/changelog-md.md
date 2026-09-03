@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 25
 common:
@@ -127,13 +127,13 @@ overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://
 random_paper: 14
 score:
   band: emerging
-  composite: 17.1
+  composite: 11.7
   coverage:
     artifact_dirs: 2
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.4
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -143,13 +143,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 17.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/screenshots/changelog-md-2026-06-20T174213.png
 security:
 - kind: domain-security

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ apis:
   description: The Webhooks API from Jane — 2 operation(s) for webhooks.
   name: Jane Webhooks API
   slug: jane-app-webhooks-api
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Jane App Webhooks
@@ -154,7 +154,7 @@ common:
   url: capabilities/jane-app-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jane-app-mcp.yml
 - group: auth
   title: ''
@@ -289,10 +289,6 @@ description: 'Jane is a cloud-based practice management platform for health and 
   covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Jane MCP Server
-  slug: jane-mcp-server
 modified: '2026-07-24'
 name: Jane
 nav: Providers
@@ -345,8 +341,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:

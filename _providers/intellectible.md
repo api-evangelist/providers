@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
   name: Intellectible Public API
   slug: intellectible-public-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,7 +87,7 @@ common:
   url: conventions/intellectible-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/intellectible-mcp.yml
 - group: auth
   title: ''
@@ -97,10 +97,6 @@ created: '2026-07-17'
 description: Intellectible is an AI build platform for enterprise service providers - federal and state government contractors (GovCon), professional services firms, and economic development organizations - that turns portals, emails, CRM data, and market signals into structured opportunity, proposal, pricing, and knowledge workflows. Its horizontal build environment (project workspaces, visual workflows, document libraries, PostgreSQL databases, applications, pages, jobs, and queues) is exposed programmatically through the Intellectible Public API and a Code Execution SDK, letting teams run workflows synchronously, manage Library files, and query project databases directly from code.
 image: https://intellectible.com/
 layout: provider
-mcp_servers:
-- description: No official hosted or remote MCP server was found for Intellectible (no entry in the public MCP registries and none referenced in the provider's developer documentation as of 2026-07-19). The tool lis
-  name: Intellectible MCP Server
-  slug: intellectible-mcp-server
 modified: '2026-07-19'
 name: Intellectible
 nav: Providers
@@ -137,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intellectible/refs/heads/main/screenshots/intellectible-2026-07-25T222643.png
 security:

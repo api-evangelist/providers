@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ arazzos:
 - description: Creates a borrower, uploads a financial document for automated spreading, retrieves the normalized data view, then runs a DSCR analysis and downloads it.
   name: Spread a borrower financial statement and run DSCR analysis
   slug: fincura-spread-and-analyze
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Fincura Webhooks
@@ -247,7 +247,7 @@ common:
   url: packages/fincura-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fincura-mcp.yml
 - group: agent
   title: ''
@@ -305,10 +305,6 @@ created: '2026-07-17'
 description: Fincura (now part of Abrigo) provides automated financial statement spreading and credit analysis for banks, credit unions, and other lenders. Its Automated Spreading and Analysis API ingests borrower financial documents (PDF, Excel, and images), spreads them into normalized data views, and runs debt-service-coverage-ratio (DSCR) and global cashflow analyses. The REST API (v1) covers borrowers, loans, portfolios, document files, data views, spreading/DSCR/global-cashflow templates, financial requirements, custom attributes, embeddable workflow UIs, and HMAC-signed webhooks. Authentication is a bearer JWT API key issued per Fincura user account. Originally a Techstars-backed startup, Fincura was acquired by Abrigo.
 image: https://avatars.githubusercontent.com/u/71975225?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fincura MCP Server
-  slug: fincura-mcp-server
 modified: '2026-07-19'
 name: Fincura
 nav: Providers
@@ -356,8 +352,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/screenshots/fincura-2026-07-25T214509.png
 security:

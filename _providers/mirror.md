@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Read-only GraphQL data service (Mirror Graph) exposing Mirror Protocol state — synthetic assets (mAssets), prices, positions, and staking — from a single unauthenticated HTTP POST endpoint, with a Gra
   name: Mirror API
   slug: mirror-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: security/mirror-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mirror-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Mirror Protocol is a decentralized finance (DeFi) synthetic-assets protocol built on the Terra blockchain (with an Ethereum bridge) that mints mirrored assets (mAssets) tracking the prices of real-world equities, commodities, and other assets. Its public developer surface is the Mirror API — a read-only GraphQL data service exposing protocol state (assets, prices, positions, staking) — together with the mirror.js JavaScript/TypeScript SDK and the mirrorcli command-line interface for querying and executing against the on-chain CosmWasm contracts. The protocol is governed by the MIR token. It is now in a legacy/dormant state following the May 2022 Terra/LUNA collapse, though its documentation, GitHub org, SDKs, and GraphQL endpoint remain reachable.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirror.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mirror MCP Server
-  slug: mirror-mcp-server
 modified: '2026-07-20'
 name: Mirror
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/screenshots/mirror-2026-08-07T183830.png
 security:

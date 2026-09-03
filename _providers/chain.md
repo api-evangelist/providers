@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Chain's unified REST API for stablecoin payments (funding, payouts, payees), card issuing, wallets, and a double-entry ledger. Bearer API-key auth with sandbox and live key prefixes (sk_sandbox_ / sk_
@@ -171,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chain/refs/heads/main/screenshots/chain-2026-07-25T205022.png
 security:

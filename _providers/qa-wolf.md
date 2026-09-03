@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.qawolf.com
@@ -46,7 +46,7 @@ apis:
   description: Deployment and environment lifecycle notifications to QA Wolf
   name: QA Wolf Webhooks API
   slug: qa-wolf-webhooks-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Qa Wolf Webhooks
@@ -176,7 +176,7 @@ common:
   url: conformance/qa-wolf-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qa-wolf-mcp.yml
 - group: design
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: 'QA Wolf is a hybrid platform and service that takes QA off software teams'' plates: AI maps an application''s user journeys, converts plain-language prompts into Playwright and Appium tests, and runs those flows in massively parallel cloud infrastructure across web, iOS, and Android. Alongside the platform QA Wolf offers coverage-as-a-service staffed by dedicated QA engineers. For developers it ships a first-party TypeScript toolchain — the qawolf CLI, a CI SDK, and the @qawolf/flows, @qawolf/emails, @qawolf/testkit, and @qawolf/pom libraries — plus a small v0 REST API and CI webhooks for triggering runs and gating deployment pipelines. This profile was enriched by the API Evangelist pipeline from QA Wolf''s public developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qa-wolf.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: QA Wolf MCP Server
-  slug: qa-wolf-mcp-server
 modified: '2026-07-20'
 name: QA Wolf
 nav: Providers
@@ -234,8 +230,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/screenshots/qa-wolf-2026-08-17T081412.png
 security:

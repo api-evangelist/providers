@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -309,6 +309,10 @@ collections:
   name: Platform Server Accounts Wallets API
   slug: open-stellar-wallets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stellar-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -936,7 +940,7 @@ overview: 'Stellar publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Stellar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stellar''s developer surface includes authentication, documentation, engineering blog, and 17 more developer resources.'
+  Stellar''s developer surface includes authentication, documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Stellar Plans Pricing
   plan_count: 3
@@ -961,7 +965,7 @@ score:
   band: developing
   composite: 45.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 35.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -992,8 +996,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png
 security:

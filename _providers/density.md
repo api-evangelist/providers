@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Density v3 Public API for real-time occupancy and presence, historical space metrics (occupancy, utilization, time used, sessions), spaces / doorways / sensors / labels management, sensor and space he
   name: Density Public API v3
   slug: density-public-api-v3
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Density Websockets Events
@@ -143,7 +143,7 @@ common:
   url: well-known/density-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/density-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Density builds radar-based occupancy sensors and a workplace analytics platform that measures how people use physical space without cameras or personally identifiable information. Its v3 Public API (api.density.io) exposes real-time occupancy and presence, historical metrics (occupancy, utilization, time used, sessions, raw sessions), spaces / doorways / sensors / labels resources, sensor and space health, wayfinding display tokens, and WebSocket streams for live floor presence and space occupancy. Authentication is OAuth 2.0 client-credentials (Auth0-backed) or static Bearer API tokens. Originally surfaced as a portfolio company of kleiner-perkins and enriched from Density's public developer surface.
 image: https://cdn.prod.website-files.com/5f49c40736fbe713860f9203/681a28ab6cdef3f72543b7bd_density-favicon_256x256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Density MCP Server
-  slug: density-mcp-server
 modified: '2026-07-18'
 name: Density
 nav: Providers
@@ -191,8 +187,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/screenshots/density-2026-07-25T211718.png
 security:

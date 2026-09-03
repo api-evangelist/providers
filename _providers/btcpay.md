@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -298,6 +298,10 @@ collections:
   name: BTCPay Greenfield API Keys Webhooks API
   slug: open-btcpay-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/btcpay-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -389,7 +393,7 @@ network: true
 overview: 'BTCPay Server publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Authorization API, and 28 more. Tagged areas include Bitcoin, Cryptocurrency, Payments, Lightning Network, and Open-Source.
 
 
-  BTCPay Server''s developer surface includes authentication, documentation, engineering blog, YouTube channel, changelog, support, and 13 more developer resources.'
+  BTCPay Server''s developer surface includes authentication, documentation, engineering blog, YouTube channel, changelog, support, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -400,14 +404,14 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 37.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -417,9 +421,6 @@ score:
     discoverability: 63.0
     governance: 15.2
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 60.0
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -434,8 +435,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:

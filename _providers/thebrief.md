@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Brief's versioned REST API for creative automation — list and search designs, templates and brand templates, read a template's editable elements and size variants, submit exports with element chan
@@ -224,8 +224,8 @@ score:
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png
 security:

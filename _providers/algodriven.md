@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ arazzos:
 - description: Generate a GCC/UAE vehicle history report for a VIN, then poll until the PDF report URL is available.
   name: AlgoDriven — generate and retrieve a UAE vehicle history report
   slug: algodriven-vehicle-history-report
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -98,7 +98,7 @@ common:
   url: data-model/algodriven-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/algodriven-mcp.yml
 - group: agent
   title: ''
@@ -152,10 +152,6 @@ created: '2026-07-17'
 description: AlgoDriven is an automotive AI company that helps car dealerships, banks, insurers, fleet operators, marketplaces, and OEMs appraise, inspect, and price used vehicles using proprietary data-driven applications. Its products include EvalExpert (automated car valuation and price guide built on millions of data points), DriveExpert (test-drive, loan-car, and staff-car management with analytics), and InspectExpert (customised vehicle inspection software), backed by developer APIs for vehicle search and data, valuations, specifications, and vehicle history reports. Founded in 2017 and expanded across the MENA region, New Zealand, and beyond, AlgoDriven runs offices in Australia, the UAE, and Egypt, and is a portfolio company of 500 Global.
 image: https://algodriven.xyz/wp-content/uploads/2022/04/cropped-algodriven-favicon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AlgoDriven MCP Server
-  slug: algodriven-mcp-server
 modified: '2026-07-17'
 name: AlgoDriven
 nav: Providers
@@ -194,8 +190,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/screenshots/algodriven-2026-07-25T195602.png
 security:

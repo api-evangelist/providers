@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -304,6 +304,10 @@ collections:
   name: OSSInsight Public Trends API
   slug: open-pingcap-trends-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pingcap-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -515,7 +519,7 @@ network: true
 overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include Distributed SQL, Database, tidb, htap, and mysql-compatible.
 
 
-  PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+  PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 43 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 1
@@ -525,7 +529,7 @@ score:
   band: strong
   composite: 57.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -553,8 +557,8 @@ score:
       total: 31
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/screenshots/pingcap-2026-08-17T081238.png
 security:

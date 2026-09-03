@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The authenticated REST API behind the Ecorobotix cloud portal at portal.ecorobotix.cloud, which customers use to manage ARA sprayer fleets, treatment jobs and field data. The service is a Django REST '
@@ -152,8 +152,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecorobotix/refs/heads/main/screenshots/ecorobotix-2026-09-02T145326.png
 security:

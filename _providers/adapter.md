@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -173,7 +173,7 @@ apis:
   description: The Whatsapp API from Adapter — 2 operation(s) for whatsapp.
   name: Adapter Whatsapp API
   slug: adapter-whatsapp-api
-artifact_total: 58
+artifact_total: 57
 collections:
 - collection_type: open
   name: API Collection
@@ -257,13 +257,17 @@ collections:
   name: Adapter Adapter API Whatsapp API
   slug: open-adapter-whatsapp-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adapter-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
   url: openapi/_original/adapter-openapi.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adapter-mcp.yml
 - group: agent
   title: ''
@@ -345,10 +349,6 @@ created: '2026-07-17'
 description: 'Adapter is a cognition API — a persistent memory and knowledge-graph layer that sits alongside AI models so understanding is already available when agents need answers. Founded by Adam Ghetti and David Bader, Adapter continuously reads and connects a user''s data (calendar, contacts, messages, email, conversations) into a living knowledge graph, grounding every response in cited sources and surfacing hidden connections across sources rather than starting each query from scratch. The Adapter API exposes multi-model conversation/completion endpoints, knowledge-graph and memory queries, life-radar events, reminders, multi-channel messaging, reranking, and an OAuth 2.0 + hosted MCP surface (mcp:read) for agent access. Tagline: "Give your model a mind."'
 image: https://framerusercontent.com/images/jeqjDUjgYoFJr6KfWmg7Kvi2Rs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adapter MCP Server
-  slug: adapter-mcp-server
 modified: '2026-07-17'
 name: Adapter
 nav: Providers
@@ -356,7 +356,7 @@ network: true
 overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Adapter API API, assets API, auth API, and 23 more. Tagged areas include Company, Artificial Intelligence, Cognition, Knowledge Graph, and Memory.
 
 
-  Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 17 more developer resources.'
+  Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 18 more developer resources.'
 random_paper: 2
 scopes:
 - name: Adapter Scopes
@@ -367,7 +367,7 @@ score:
   band: thin
   composite: 33.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -392,8 +392,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:

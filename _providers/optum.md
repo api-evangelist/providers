@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 3
@@ -1107,8 +1110,8 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png
 security:

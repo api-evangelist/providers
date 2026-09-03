@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Public (rate limited) provider directory resources
   name: Clever Care Health Plan Provider Directory API
   slug: clevercarehealthplan-provider-directory-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ common:
   url: agentic-access/clevercarehealthplan-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clevercarehealthplan-mcp.yml
 - group: agent
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: 'Clever Care Health Plan is a California Medicare Advantage (HMO and HMO C-SNP) insurer that blends Eastern and Western medicine for seniors. For developers it publishes an HL7 FHIR R4 (4.0.1) API implementing the CMS Interoperability and Patient Access final rule (CMS-9115-F): a secured Patient Access API (Patient, Coverage, and CARIN Blue Button ExplanationOfBenefit) protected with SMART-on-FHIR OAuth 2.0 / OpenID Connect, plus public, rate-limited Provider Directory and Drug Formulary APIs. The FHIR server runs on WSO2 Open Healthcare with a developer portal for app registration and API subscription.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clevercarehealthplan.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Clever Care Health Plan MCP Server
-  slug: clever-care-health-plan-mcp-server
 modified: '2026-07-18'
 name: Clever Care Health Plan
 nav: Providers
@@ -232,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

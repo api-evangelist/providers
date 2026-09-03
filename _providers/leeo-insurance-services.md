@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Trip lists, trip detail, paths, and driving events.
   name: LEEO Insurance Services Trips API
   slug: leeo-insurance-services-trips-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: data-model/leeo-insurance-services-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leeo-insurance-services-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: LEEO Insurance Services is a San Francisco-based managing general agent (MGA) for commercial auto insurance, founded in 2017 and known as Fairmatic until its December 2025 rebrand. LEEO underwrites and prices fleet policies using telematics collected from drivers' phones through its mobile SDK, applying machine learning across underwriting, pricing, and claims, and rewarding safer driving with renewal credits and cashback. It writes fleet classes including non-emergency medical transport, light business auto, and last-mile delivery, selling through brokers. LEEO exposes a read-only REST Fleet Telematics API returning the driver roster, trip histories, trip paths and driving events, and daily and weekly driver safety scorecards, plus native SDKs for Android, iOS, React Native, and MAUI. The company has raised $91M and is backed by Battery Ventures, Foundation Capital, and Aquiline Technology Growth.
 image: https://framerusercontent.com/images/YggCBRfzpd8IYRlJTG6UlpdiYQ.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LEEO Insurance Services MCP Server
-  slug: leeo-insurance-services-mcp-server
 modified: '2026-07-19'
 name: LEEO Insurance Services
 nav: Providers
@@ -237,8 +233,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
 security:

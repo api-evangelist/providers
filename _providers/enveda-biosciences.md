@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -265,6 +265,10 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://forgeglobal.com/enveda-biosciences_stock/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.enveda.com/
 created: '2026-08-04'
 description: Enveda (Enveda Biosciences) is a Boulder, Colorado based clinical-stage biotechnology company founded in 2019 that discovers medicines by decoding the chemistry of the natural world. It combines high-throughput mass spectrometry, metabolomics, robotics and machine learning — including PRISM, a foundation model trained on more than a billion small- molecule mass spectra — to build a searchable library of plant-derived molecules and translate them into drug candidates. Enveda has raised over $360M across Series B, C and D rounds from Premji Invest, Kinnevik, Lux Capital, Dimension and Sanofi, reached unicorn status in 2026, and runs FDA-cleared clinical programs including ENV-294 (atopic dermatitis and asthma), ENV-308 (obesity) and ENV-6946 (inflammatory bowel disease). Enveda publishes no product or developer API; the machine-readable surface on enveda.com is a published llms.txt plus the WordPress REST API (wp/v2) that serves the company newsroom, In-Veda blog, leadership profiles,
   clinical-trial site directory and media library as JSON, alongside a WordPress MCP Adapter endpoint that is present but authentication-gated. Its open science is published as research code and data in the github.com/enveda organization.
@@ -281,7 +285,7 @@ network: true
 overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Issues API, and 10 more. Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Artificial Intelligence.
 
 
-  Enveda''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
+  Enveda''s developer surface includes engineering blog, product news, support, authentication, and 24 more developer resources.'
 random_paper: 4
 score:
   band: emerging
@@ -318,8 +322,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

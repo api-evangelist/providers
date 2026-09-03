@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.smartthings.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.samsung.com/us/smartthings/ — a different registrable domain (smartthings.com -> samsung.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -269,8 +270,8 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/screenshots/smartthings-2026-09-02T155939.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Artie API API from Artie — 0 operation(s) for artie api.
   name: Artie Artie API
   slug: artie-artie-api-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: Webhook event surface for Artie, derived from the webhook payload schemas published in the Artie OpenAPI. Artie POSTs an Event Payload (PayloadsWebhookEnvelope / discriminated by the `event` field) to
   name: Artie Webhooks
@@ -212,7 +212,7 @@ common:
   url: cli/artie-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/artie-mcp.yml
 - group: design
   title: ''
@@ -262,10 +262,6 @@ created: '2026-07-17'
 description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, MongoDB, Oracle, and DynamoDB and continuously merges them into destinations including Snowflake, BigQuery, Databricks, Redshift, and Apache Iceberg, eliminating the need to build and operate Kafka or Debezium infrastructure. Artie handles advanced backfills, schema evolution, column-level encryption and hashing, data catalog search, PrivateLink/SSH connectivity, and observability, and exposes a REST API plus a webhook event stream so teams can programmatically manage pipelines, connectors, and source readers. Artie is venture-backed by Canaan Partners and General Catalyst.
 image: https://avatars.githubusercontent.com/artie-labs
 layout: provider
-mcp_servers:
-- description: ''
-  name: Artie MCP Server
-  slug: artie-mcp-server
 modified: '2026-07-18'
 name: Artie
 nav: Providers
@@ -307,8 +303,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
 security:

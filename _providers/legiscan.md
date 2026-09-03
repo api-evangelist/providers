@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The LegiScan Pull API is an RPC-style JSON service that allows clients to query the national legislative database on demand. Operations include retrieving session lists, master bill lists, bill detail
@@ -141,8 +141,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

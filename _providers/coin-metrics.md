@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://coinmetrics.io/'', ''status'': 301, ''note'': ''declared website redirects to https://www.talos.com/our-solutions/data/overview — a different registrable domain (coinmetrics.io -> talos.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -137,7 +138,7 @@ apis:
   description: WebSocket endpoints for getting a real-time stream of metrics, market data, indexes and other time series data.
   name: Coin Metrics Timeseries stream API
   slug: coin-metrics-timeseries-stream-api
-artifact_total: 45
+artifact_total: 44
 asyncapis:
 - description: WebSocket streaming surface of the Coin Metrics API v4, derived from the published OpenAPI 3.0.2 definition (timeseries-stream tag). Real-time streams of metrics, market trades, quotes, order books, c
   name: Coin Metrics Timeseries Stream API
@@ -290,7 +291,7 @@ common:
   url: llms/coin-metrics-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coin-metrics-mcp.yml
 - group: design
   title: ''
@@ -336,10 +337,6 @@ created: '2026-07-21'
 description: 'Coin Metrics is a Boston-based crypto financial intelligence provider founded in 2017, selling institutional-grade cryptoasset network (on-chain) data, exchange market data (trades, quotes, order books, candles, derivatives), CMBI indexes, reference rates, and reference/security-master data. Everything is delivered through a single documented API v4 - REST at api.coinmetrics.io/v4 and WebSocket streaming at wss://api.coinmetrics.io/v4 as paid, API-key products - plus a free, keyless Community API at community-api.coinmetrics.io/v4 under a CC BY-NC 4.0 license, with flat files, Python and R clients, and Google Sheets as additional delivery channels. A complete OpenAPI 3.0.2 definition is published on the docs site. Coin Metrics is now part of Talos: coinmetrics.io 301-redirects to talos.com/our-solutions/data/overview, while docs.coinmetrics.io and the api/community-api hosts remain live under the Coin Metrics brand.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coin-metrics.png
 layout: provider
-mcp_servers:
-- description: No official Coin Metrics MCP server was found (official MCP registry, npm, and docs searched 2026-07-22). This is a candidate tool list derived one-per-operationId from the published OpenAPI 3.0.2 def
-  name: Coin Metrics MCP Server
-  slug: coin-metrics-mcp-server
 modified: '2026-07-22'
 name: Coin Metrics
 nav: Providers
@@ -391,8 +388,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:

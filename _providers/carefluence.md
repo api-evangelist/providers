@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-09-02'
+  score: 21.8
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The ONC-certified § 170.315(g)(10) Standardized API for Patient and Population Services. A HL7 FHIR R4 (4.0.1) RESTful server conforming to the US Core Implementation Guide v3.1.1, exposing 24 resourc
@@ -205,6 +205,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -214,6 +215,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -224,8 +226,9 @@ score:
     regime: Health
     regime_id: health
     score: 61.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Carefluence Authentication

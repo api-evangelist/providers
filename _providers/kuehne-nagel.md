@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
@@ -395,8 +395,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
   description: The JioMeetCpaasPlatform API from Reliance Jio — 14 operation(s) for jiomeetcpaasplatform.
   name: Reliance Jio Jio Meet Cpaas Platform API
   slug: reliance-jio-jiomeetcpaasplatform-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: JioEvents Platform APIs
@@ -148,7 +148,7 @@ common:
   url: components/reliance-jio-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reliance-jio-mcp.yml
 - group: agent
   title: ''
@@ -260,10 +260,6 @@ description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and
   covering 29 operations on two previously undocumented hosts, jiomeetpro.jio.com and jioevents.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: 'Reliance Jio publishes no hosted or remote MCP server - searches of the Jio developer surfaces, the JioMeet GitHub organization, npm and the public MCP registries found none. This is a CANDIDATE tool '
-  name: Reliance Jio MCP Server
-  slug: reliance-jio-mcp-server
 modified: '2026-07-25'
 name: Reliance Jio
 nav: Providers
@@ -313,8 +309,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 100.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/screenshots/reliance-jio-2026-08-17T081508.png
 security:

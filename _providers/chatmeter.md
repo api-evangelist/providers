@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for accessing and administrating all Chatmeter platform data including location listings, review management, social monitoring, surveys, and user administration. Uses JSON Web Token (JWT) aut
   name: Chatmeter API
   slug: chatmeter-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -115,7 +115,7 @@ common:
   url: packages/chatmeter-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chatmeter-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ jsonld:
   property_count: 0
   slug: chatmeter-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chatmeter MCP
-  slug: chatmeter-mcp
 modified: '2026-08-13'
 name: Chatmeter
 nav: Providers
@@ -204,8 +200,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/screenshots/chatmeter-2026-06-20T174238.png
 security:

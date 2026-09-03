@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
   name: String API
   slug: string-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: data-model/string-technology-inc-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/string-technology-inc-mcp.yml
 - group: auth
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: String (string.xyz) is a fiat interoperability platform for Web3 gaming, operated by String Technology Inc and backed by 500 Global. String lets game developers accept credit-card and bank payments natively inside their games, acting as the merchant of record and counterparty for fiat on/off ramps, NFT purchases, and cross-chain payments. A player pays fiat on traditional rails and String delivers the digital asset on-chain — either by interacting with the game's smart contract to mint/send an NFT or by sending a token from its treasury to the player's wallet. String ships three integration surfaces — String Checkout (drop-in payment app), a Unity SDK, and String Direct (custom web SDK) — all wrapping a REST API at string-api.xyz that covers API keys, contracts, platforms (games), members, organizations, users (players), saved cards, wallet-signature login, quotes, and transactions.
 image: https://avatars.githubusercontent.com/u/104804397?v=4
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool list DERIVED from String's documented API operations (the ReadMe reference / llms.txt endpoint surface). String does not publish an official hosted/remote MCP server; this is
-  name: String Technology Inc MCP Server
-  slug: string-technology-inc-mcp-server
 modified: '2026-07-21'
 name: String Technology Inc
 nav: Providers
@@ -171,8 +167,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/screenshots/string-technology-inc-2026-09-02T161015.png
 security:

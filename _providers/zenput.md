@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.zenput.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.crunchtime.com/operations-execution — a different registrable domain (zenput.com -> crunchtime.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'RESTful HTTP API for the Zenput operations-execution platform — retrieve activity/form submissions (including large-batch paged retrieval), manage locations, users, user roles, teams, tasks, sensors, '
   name: Zenput API
   slug: zenput-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: other
   title: ''
@@ -107,16 +108,12 @@ common:
   url: sandbox/zenput-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zenput-mcp.yml
 created: '2026-07-17'
 description: Zenput (now Crunchtime Ops Execution) is an operations-execution platform for multi-unit restaurant and convenience-store operators, used across 60,000+ locations in 100+ countries to run task management, audits and food-safety compliance, temperature monitoring, food-prep labeling, and store-level operational workflows. Zenput exposes a RESTful HTTP API (documented at developer.zenput.com) for submissions/form data, locations, users and roles, teams, tasks, sensors, calendar events / operating hours, general attributes, and field-business-consultant (FBC) assignments. The API authenticates with a per-user X-API-TOKEN header, is versioned in the URL path (v1 and v3), and provides a large-batch submissions retrieval flow with token-based paging plus a staging environment for testing. Zenput was acquired by Crunchtime in 2022 and continues to operate its developer platform under the Zenput brand.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenput.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zenput MCP Server
-  slug: zenput-mcp-server
 modified: '2026-07-21'
 name: Zenput
 nav: Providers
@@ -147,8 +144,8 @@ score:
   previous_composite: 18.6
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/screenshots/zenput-2026-09-02T171616.png
 security:

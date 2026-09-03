@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -137,7 +137,7 @@ arazzos:
 - description: List a terminal, start a card transaction on it, and poll to the outcome.
   name: Paymentsense Pay-At-Counter — take a card payment
   slug: paymentsense-pac-take-payment
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Paymentsense Connect Events
@@ -190,7 +190,7 @@ common:
   url: packages/paymentsense-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paymentsense-mcp.yml
 - group: build
   title: ''
@@ -301,10 +301,6 @@ description: Paymentsense is a United Kingdom payment processing company that pr
   at developers.paymentsense.com sits behind Google sign-in.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paymentsense MCP Server
-  slug: paymentsense-mcp-server
 modified: '2026-07-24'
 name: Paymentsense
 nav: Providers
@@ -352,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
 security:

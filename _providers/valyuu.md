@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Partner-facing trade-in API behind Valyuu's embedded recommerce platform. Version 1 exposes device catalog lookups (categories, brands, series, models, and model condition/attribute questions), FAQ co
   name: Valyuu Partner API
   slug: valyuu-partner-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -67,7 +67,7 @@ common:
   url: well-known/valyuu-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/valyuu-mcp.yml
 - group: agent
   title: ''
@@ -93,10 +93,6 @@ created: '2026-07-17'
 description: Valyuu is an Amsterdam-founded embedded recommerce service provider offering a plug-and-play trade-in platform that businesses integrate to buy back, resell, and recycle used consumer electronics such as smartphones, tablets, and smartwatches across Dutch, German, and English-language markets. Its partner-facing Trade-In API powers embedded trade-in flows covering device catalogs, condition questions, offers, payments, and shipping. Valyuu is a Techstars portfolio company; as of mid-2026 valyuu.com redirects to prioont.com, whose storefront is currently unreachable.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valyuu.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Valyuu MCP Server
-  slug: valyuu-mcp-server
 modified: '2026-07-21'
 name: Valyuu
 nav: Providers
@@ -127,8 +123,8 @@ score:
   previous_composite: 15.9
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Property Capsule''s Developer API, announced live on 2020-06-18 in the company''s public release notes: "Our robust API is now live! Now your developers can access PropertyCapsule data outside of our pl'
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 14.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/property-capsule/refs/heads/main/screenshots/property-capsule-2026-09-02T152153.png
 security:

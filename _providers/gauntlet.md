@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Vaults API from Gauntlet — 5 operation(s) for vaults.
   name: Gauntlet Vaults API
   slug: gauntlet-vaults-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: llms/gauntlet-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gauntlet-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: 'Gauntlet (Gauntlet Networks, Inc.) is a crypto risk-management and yield-curation firm that runs agent-based economic simulations to optimize risk, incentives, and capital efficiency for DeFi protocols, and curates 80+ institutional-grade yield vaults across Aera, Morpho, Kamino, Drift, and Symbiotic. For developers it ships the Gauntlet Developer Kit: a public read-only REST API at api.gauntlet.xyz (v1) exposing vault metrics, user positions with PnL, wallet activity, TVL, and token prices, plus an official TypeScript SDK (@gauntlet-xyz/sdk) for on-chain deposits, withdrawals, and ERC-8021 attribution. Authentication is a partner-provisioned Bearer API key. Backed by Paradigm, Polychain, and Ribbit Capital.'
 image: https://cdn.prod.website-files.com/648bdc0d4b8ce322f27da0af/68013f075b92cb9c2d2c6aef_gauntlet-thumbnail.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list derived one-to-one from the 14 Gauntlet REST API v1 operations. Gauntlet does not publish an official hosted or stdio MCP server as of the fetch date (checked docs.gauntlet.xyz
-  name: Gauntlet MCP Server
-  slug: gauntlet-mcp-server
 modified: '2026-07-19'
 name: Gauntlet
 nav: Providers
@@ -259,8 +255,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/screenshots/gauntlet-2026-07-25T215504.png
 security:

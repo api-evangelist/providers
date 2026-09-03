@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.getwhiplash.com/api/v2
@@ -142,7 +142,7 @@ apis:
   description: The wholesale_items API from Whiplash Merchandising — 2 operation(s) for wholesale_items.
   name: Whiplash Merchandising wholesale_items API
   slug: whiplash-merchandising-wholesale-items-api
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Whiplash Merchandising Notifications Webhooks
@@ -293,7 +293,7 @@ common:
   url: components/whiplash-merchandising-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/whiplash-merchandising-mcp.yml
 - group: agent
   title: ''
@@ -335,10 +335,6 @@ created: '2026-07-17'
 description: Whiplash (now Ryder E-commerce by Whiplash) is an order-fulfillment and third-party logistics (3PL) platform for direct-to-consumer and ecommerce brands. It runs a network of fulfillment centers offering pick-pack-ship, warehousing, inventory management, kitting, omnichannel order routing, and returns processing. The company exposes the Rydership V2 REST API (formerly the Whiplash API) so merchants and platforms can programmatically manage items, orders, order items, shipments (ship notices), consumer returns, customers, documents, and webhook notification subscriptions across the fulfillment lifecycle. Whiplash was founded in 2011, backed by 500 Global, and acquired by Ryder System in 2021.
 image: https://wl-s3-assets.s3.amazonaws.com/rydership/RyderShip-horizontal-safe-padding.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Whiplash Merchandising MCP Server
-  slug: whiplash-merchandising-mcp-server
 modified: '2026-07-21'
 name: Whiplash Merchandising
 nav: Providers
@@ -379,8 +375,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/screenshots/whiplash-merchandising-2026-08-17T082956.png
 security:

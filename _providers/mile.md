@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://lastmile.milenow.com/index.php
@@ -126,7 +126,7 @@ apis:
   description: The Webhooks API from Mile — 5 operation(s) for webhooks.
   name: Mile Webhooks API
   slug: mile-webhooks-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Mile Webhooks
@@ -248,7 +248,7 @@ common:
   url: asyncapi/mile-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mile-mcp.yml
 - group: agent
   title: ''
@@ -278,10 +278,6 @@ created: '2026-07-17'
 description: Mile is an AI-native supply chain execution platform for brands and distributors that own their inventory and fulfill orders directly to customers. It unifies Order Management (OMS), Warehouse Management (WMS), and Transportation / last-mile delivery (TMS) in a single system, with MAC, an AI agent that acts on exceptions rather than only flagging them. Mile exposes a partner REST API at lastmile.milenow.com covering orders, customers, products, categories and brands, promotion bundles, routes, drivers, vehicles, warehouse inbound orders, Aramex shipping, order optimization, and configurable webhooks for order-status, order-creation, settlement, and inventory-transfer events.
 image: https://www.milenow.com/wp-content/uploads/2025/09/Mile-Logo-high-res-1024x1024.avif
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mile MCP Server
-  slug: mile-mcp-server
 modified: '2026-07-20'
 name: Mile
 nav: Providers
@@ -322,8 +318,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/screenshots/mile-2026-08-07T172910.png
 security:

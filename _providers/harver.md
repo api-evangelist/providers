@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The webhook API from Harver — 1 operation(s) for webhook.
   name: Harver webhook API
   slug: harver-webhook-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Harver Webhooks
@@ -191,7 +191,7 @@ common:
   url: asyncapi/harver-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/harver-mcp.yml
 - group: agent
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: Harver is a Talent Intelligence platform for pre-employment assessment, automated interview scheduling and reference checking that helps organizations make data-driven, less-biased hiring decisions at scale. Harver's Public API (OpenAPI 3.0, v1.37.0) is available to Harver customers and lets ATS and HR systems submit candidates, create applications and magic-links, retrieve matching scores, module results and report links, manage vacancies, locations, regions and job functions, and subscribe to candidate-lifecycle webhooks. Authentication is OAuth2 client_credentials; resources use a JSON:API-style envelope, responses are rate-limited (Ratelimit-Limit/Reset, 429) and carry an X-Correlation-Id. Harver was surfaced as an Insight Partners portfolio company.
 image: https://harver.com/wp-content/uploads/2026/01/harver-lp-brand-V2-1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Harver MCP Server
-  slug: harver-mcp-server
 modified: '2026-07-19'
 name: Harver
 nav: Providers
@@ -278,8 +274,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/screenshots/harver-2026-07-25T220747.png
 security:

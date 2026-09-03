@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Airway bill tracking
   name: Komerce Tracking API
   slug: komerce-tracking-api
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Komerce Webhooks
@@ -265,7 +265,7 @@ common:
   url: examples/komerce-examples.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/komerce-mcp.yml
 - group: agent
   title: ''
@@ -279,10 +279,6 @@ created: '2026-07-17'
 description: 'Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.'
 image: https://komerce.id/img/komerce.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Komerce MCP Server
-  slug: komerce-mcp-server
 modified: '2026-07-19'
 name: Komerce
 nav: Providers
@@ -338,8 +334,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

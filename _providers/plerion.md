@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://au.api.plerion.com
@@ -101,7 +101,7 @@ apis:
   description: The AWS Well-Architected Framework helps customers design secure, high-performing, resilient, and efficient cloud infrastructure. Plerion continuously assesses your environment against the AWS Well-Ar
   name: Plerion Well-Architected frameworks API
   slug: plerion-well-architected-frameworks-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +184,7 @@ common:
   url: packages/plerion-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/plerion-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ created: '2026-07-17'
 description: Plerion is an AI-powered cloud security platform that gives teams unified visibility and automated remediation across cloud, code, and AI. It covers Cloud Security Posture Management (CSPM) for AWS, Azure, GCP, and Kubernetes; Cloud Workload Protection (CWPP) with vulnerability and SBOM scanning; Code Security (IaC and SCA scanning for GitHub, GitLab, and Bitbucket); AI Security Posture Management (AI-SPM) for Bedrock, OpenAI, and Anthropic deployments; attack-path analysis, entitlements analysis, resource access grants, and compliance tracking against frameworks like ISO 27001, SOC 2, CIS, and ISMS-P. Plerion exposes a tenant-scoped REST API (Bearer API key, regional hosts) plus a cross-platform CLI so teams can query findings, assets, risks, vulnerabilities, and compliance posture programmatically.
 image: https://www.plerion.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Plerion MCP Server
-  slug: plerion-mcp-server
 modified: '2026-07-20'
 name: Plerion
 nav: Providers
@@ -311,8 +307,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/screenshots/plerion-2026-08-17T081306.png
 security:

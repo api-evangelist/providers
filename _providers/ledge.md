@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.goledge.io
@@ -46,7 +46,7 @@ apis:
   description: Transactions, their matches, and their reconciliation status.
   name: Ledge Transactions API
   slug: ledge-transactions-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: data-model/ledge-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ledge-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: 'Ledge is an AI-powered close management, reconciliation and payment-operations platform for finance teams. It centralizes transaction and payment data from a company''s entire stack — banks, payment service providers, ERPs, billing systems, data warehouses and file feeds — and automates the work on top of it: multiway transaction matching, account and payment reconciliation, automated cash application, flux analysis, working papers, and journal entries posted back to the ERP with review and approval built in. Its Agent Studio lets teams build AI agents that execute close-checklist tasks, with human-in-the-loop review, rationale, and a queryable audit trail. Ledge exposes a REST API over its Sources and Transactions data, authorized with OAuth 2.0 client credentials. Founded in 2022, the company raised a $9M seed round led by NEA with participation from Vertex Ventures, FJ Labs and Picus Capital.'
 image: https://cdn.prod.website-files.com/63aadf1c20f6a6eb95024394/68df18eebbbc304be738307c_Ledge%20%7C%20put%20your%20close%20on%20ait-pilot%20with%20a%20team%20of%20AI%20agents.png
 layout: provider
-mcp_servers:
-- description: Ledge does not publish an MCP server. Searched the documentation corpus (docs.ledge.co/llms-full.txt — no occurrence of "MCP"), the ledge.co site and the github.com/goledge organisation (0 public repo
-  name: Ledge MCP Server
-  slug: ledge-mcp-server
 modified: '2026-07-19'
 name: Ledge
 nav: Providers
@@ -246,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
 security:

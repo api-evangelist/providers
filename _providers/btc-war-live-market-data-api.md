@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://btcwar.net
@@ -272,8 +272,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:

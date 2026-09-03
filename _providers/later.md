@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Later's social media scheduling and management platform providing visual content planning, scheduling, analytics, and influencer marketing capabilities across major social platforms.
@@ -914,7 +914,7 @@ apis:
   description: The YtbcBrandChannels API from Later — 2 operation(s) for ytbcbrandchannels.
   name: Later Ytbc Brand Channels API
   slug: later-ytbcbrandchannels-api
-artifact_total: 186
+artifact_total: 185
 asyncapis:
 - description: ''
   name: Later Influence Webhooks
@@ -1026,7 +1026,7 @@ common:
   url: overlays/later-influence-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/later-mcp.yml
 - group: agent
   title: ''
@@ -1080,10 +1080,6 @@ finops:
   slug: later-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/later.png
 layout: provider
-mcp_servers:
-- description: A CANDIDATE tool surface derived from Later's own published contract. Later ships no MCP server of any kind — no hosted endpoint and no installable package — so nothing here is callable by an agent to
-  name: Later Influence (candidate MCP server)
-  slug: later-influence-candidate-mcp-server
 modified: '2026-08-13'
 name: Later
 nav: Providers
@@ -1132,8 +1128,8 @@ score:
       total: 175
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/screenshots/later-2026-06-20T184327.png
 security:

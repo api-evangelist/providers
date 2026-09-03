@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Automate on-demand deliveries with GoGet — create, update, and cancel jobs, estimate fees, check coverage and availability, track GoGetters live, and receive job-status webhooks. Authenticated with an
   name: GoGet Delivery API
   slug: goget-delivery-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Goget Jobs Webhooks
@@ -111,7 +111,7 @@ common:
   url: asyncapi/goget-jobs-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/goget-mcp.yml
 - group: design
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: GoGet is a Malaysian on-demand workforce and delivery technology company whose network of verified workers, called GoGetters, powers same-day delivery, dispatch, and blended-workforce staffing for more than 10,000 businesses across Klang Valley, Penang, Negeri Sembilan and Johor Bahru. Beyond its consumer and business apps, GoGet exposes the GoGet Delivery API so merchants can automate on-demand deliveries end to end — create and manage jobs, estimate delivery fees, verify coverage and availability, track GoGetters live, and receive job lifecycle events via webhooks. Integration is free and typically completed in one to two weeks. GoGet is backed by 500 Global.
 image: https://web.goget.my/assets/images/og/logo_1200_630.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GoGet MCP Server
-  slug: goget-mcp-server
 modified: '2026-07-19'
 name: GoGet
 nav: Providers
@@ -170,8 +166,8 @@ score:
   previous_composite: 36.8
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goget/refs/heads/main/screenshots/goget-2026-07-25T220015.png
 security:

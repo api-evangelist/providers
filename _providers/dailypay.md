@@ -26,7 +26,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-09-02'
+  score: 50.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -313,8 +313,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/screenshots/dailypay-2026-08-07T164026.png
 security:

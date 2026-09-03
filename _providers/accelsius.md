@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
   description: Topic terms in the post_tag taxonomy.
   name: Accelsius Tags API
   slug: accelsius-tags-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/accelsius-mcp.yml
 - group: auth
   title: ''
@@ -251,10 +251,6 @@ description: 'Accelsius LLC is an Austin, Texas thermal-management company found
   on its public surface is the WordPress core REST API behind accelsius.com, which serves the company''s own blog, news, white-paper, case-study, podcast and video content anonymously and read-only.'
 image: https://accelsius.com/wp-content/uploads/Accelsius_Logo_Footer-1.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Accelsius MCP Server
-  slug: accelsius-mcp-server
 modified: '2026-08-06'
 name: Accelsius
 nav: Providers
@@ -293,8 +289,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png
 security:

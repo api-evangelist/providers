@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -280,7 +284,7 @@ apis:
   description: The Versions API from Dow Jones — 1 operation(s) for versions.
   name: Dow Jones Versions API
   slug: dow-jones-versions-api
-artifact_total: 75
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Dow Jones Riskcenter Third Party Webhooks
@@ -500,7 +504,7 @@ common:
   url: well-known/dow-jones-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dow-jones-mcp.yml
 - group: agent
   title: ''
@@ -570,10 +574,6 @@ created: '2026-05-05'
 description: Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dow-jones.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dow Jones MCP Server
-  slug: dow-jones-mcp-server
 modified: '2026-08-13'
 name: Dow Jones
 nav: Providers
@@ -601,20 +601,20 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
 score:
   band: strong
-  composite: 64.6
+  composite: 62.7
   coverage:
     artifact_dirs: 24
-    catalog_gap: 63.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 65.9
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 63.0
     governance: 18.2
     operational_transparency: 76.3
   previous_composite: 64.6
@@ -634,8 +634,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 80.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:

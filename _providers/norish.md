@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,14 +34,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.0
-  scored_at: '2026-09-02'
+  score: 9.2
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The HTTP API each Norish instance serves under /api/v1, covering a public health check plus authenticated recipe read/search/create/import, grocery list management, stores, and planned recipes for tod
   name: Norish Recipe API
   slug: norish-recipe-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -101,7 +101,7 @@ common:
   url: llms/norish-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/norish-mcp.yml
 - group: start
   title: ''
@@ -139,10 +139,6 @@ created: '2026-08-27'
 description: Norish is an open-source, self-hosted recipe and meal-planning application built for households — import a recipe from a URL, video or photo, plan the week on a shared calendar, and keep a grocery list that every member of the household sees update in real time. It is distributed as a Docker image (norishapp/norish) under AGPL-3.0 and runs entirely on the operator's own hardware, with PostgreSQL, Redis and a Python parser service behind it. Each instance exposes an HTTP API under /api/v1 — recipes, recipe imports, groceries, stores and planned recipes — secured with an instance-issued API key, plus a generated OpenAPI document and a Scalar API reference that are served from the running instance to signed-in users.
 image: https://raw.githubusercontent.com/norish-recipes/norish/main/.github/assets/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Norish MCP
-  slug: norish-mcp
 modified: '2026-08-27'
 name: Norish
 nav: Providers
@@ -183,8 +179,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/screenshots/norish-2026-09-02T150800.png
 security:

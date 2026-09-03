@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: A hosted Model Context Protocol server that wraps the CargoCONNECT endpoints as tools for AI assistants - track a shipment by AWB, search flight rates, look up airline contacts and ground handling age
@@ -187,8 +187,8 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png
 slug: cargoai

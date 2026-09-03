@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Apps API from Amazon App Studio — 2 operation(s) for apps.
   name: Amazon App Studio Apps API
   slug: amazon-app-studio-apps-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: well-known/amazon-app-studio-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-app-studio-mcp.yml
 - group: design
   title: ''
@@ -220,10 +220,6 @@ jsonld:
   property_count: 6
   slug: amazon-app-studio-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon App Studio MCP Server
-  slug: amazon-app-studio-mcp-server
 modified: '2026-06-20'
 name: Amazon App Studio
 nav: Providers
@@ -286,8 +282,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/screenshots/amazon-app-studio-2026-07-25T195916.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Node software updates and network intelligence feeds
   name: Scale3 Blockchain Intelligence API
   slug: scale3-blockchain-intelligence-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Scale3 Webhooks
@@ -63,7 +63,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scale3-mcp.yml
 - group: other
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: Scale3 Labs is a modern observability and infrastructure platform for Web3 and generative AI. Its Web3 products (Autopilot, Nodepilot and Blockchain Intelligence) let node operators and validators deploy, monitor, log and alert on blockchain nodes across 40+ chains including Ethereum, Sui, Solana, Cosmos and Polkadot, with a Blockchain Intelligence REST API that surfaces node software updates and network announcements. Scale3 also builds Langtrace, an open-source OpenTelemetry-based observability SDK for LLM applications. The company is SOC 2 Type 1 certified and is backed by Redpoint Ventures.
 image: https://www.scale3labs.com/assets/scale3-opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Scale3 MCP Server
-  slug: scale3-mcp-server
 modified: '2026-07-21'
 name: Scale3
 nav: Providers
@@ -226,8 +222,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/screenshots/scale3-2026-08-17T081729.png
 security:

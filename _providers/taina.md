@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Gated REST API that lets financial institutions with their own KYC/onboarding process programmatically submit W-series forms, CRS self-certifications, and supporting documents for validation; receive '
@@ -125,8 +125,8 @@ score:
   previous_composite: 29.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/screenshots/taina-2026-09-02T162458.png
 security:

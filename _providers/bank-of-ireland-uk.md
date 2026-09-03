@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-09-02'
+  score: 45.1
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ apis:
   description: The Transactions API from Bank of Ireland (UK) — 2 operation(s) for transactions.
   name: Bank of Ireland (UK) Transactions API
   slug: bank-of-ireland-uk-transactions-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: Open Data API
@@ -278,7 +278,7 @@ common:
   url: data-model/bank-of-ireland-uk-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-of-ireland-uk-mcp.yml
 - group: agent
   title: ''
@@ -353,10 +353,6 @@ description: Bank of Ireland (UK) plc is the UK banking arm of Bank of Ireland G
   OAuth2/OIDC, PSD2 strong customer authentication and mutual-TLS client authentication using OBIE/eIDAS certificates, onboarded through the Bank of Ireland Developer Hub with a sandbox for testing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank of Ireland (UK) MCP Server
-  slug: bank-of-ireland-uk-mcp-server
 modified: '2026-07-23'
 name: Bank of Ireland (UK)
 nav: Providers
@@ -410,8 +406,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

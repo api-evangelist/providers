@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -139,7 +139,7 @@ apis:
   description: Control workflow execution including starting, pausing, resuming, and stopping marketing workflows.
   name: Adobe Campaign Workflows API
   slug: adobe-campaign-workflows-api
-artifact_total: 166
+artifact_total: 165
 asyncapis:
 - description: Event-driven transactional messaging system for Adobe Campaign. Supports triggering personalized messages across email, SMS, and push notification channels in response to real-time customer events. Ev
   name: Adobe Campaign Transactional Messaging Events
@@ -226,7 +226,7 @@ common:
   url: llms/adobe-campaign-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adobe-campaign-mcp.yml
 - group: design
   title: ''
@@ -704,10 +704,6 @@ jsonld:
   property_count: 57
   slug: adobe-campaign-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adobe Campaign MCP Server
-  slug: adobe-campaign-mcp-server
 modified: '2026-08-13'
 name: Adobe Campaign
 nav: Providers
@@ -767,20 +763,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.4
+  composite: 70.8
   coverage:
     artifact_dirs: 32
-    catalog_gap: 43.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 31.8
     contract_quality: 74.0
     developer_ergonomics: 72.0
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 31.8
     operational_transparency: 57.9
   open_source:
@@ -803,8 +799,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Start, monitor, retry, review, and debug automation runs, including artifacts.
   name: Eigenpal Runs API
   slug: eigenpal-runs-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Eigenpal Webhooks
@@ -184,7 +184,7 @@ common:
   url: conformance/eigenpal-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eigenpal-mcp.yml
 - group: other
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: EigenPal is an AI document-automation platform that replaces manual document reading and data entry for enterprises. Teams build directed graphs of typed steps (workflows) or Git-backed agents that parse, extract, classify, transform, and route data from messy scans, handwritten forms, invoices, KYC documents, claims, shipping forms, contracts, and receipts. Workflows are authored as plain files, evaluated against datasets with automated scoring before going live, and deployed on-prem or in the cloud. A public REST API, TypeScript and Python SDKs, and a CLI let developers start and monitor runs, manage files and datasets, collect human reviews, run evaluation experiments, and receive signed run-lifecycle webhooks.
 image: https://www.eigenpal.com/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eigenpal MCP Server
-  slug: eigenpal-mcp-server
 modified: '2026-07-19'
 name: Eigenpal
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/screenshots/eigenpal-2026-07-25T213002.png
 security:

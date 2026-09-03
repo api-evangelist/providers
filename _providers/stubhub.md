@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Webhooks API from StubHub — 3 operation(s) for webhooks.
   name: StubHub Webhooks API
   slug: stubhub-webhooks-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Stubhub Webhooks
@@ -243,7 +243,7 @@ common:
   url: packages/stubhub-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stubhub-mcp.yml
 - group: agent
   title: ''
@@ -293,10 +293,6 @@ created: '2026-07-17'
 description: StubHub is the world's largest secondary-market ticket marketplace, connecting buyers and sellers of tickets to sports, concerts, theater, and live events. Its official developer platform (developer.stubhub.com, migrated to a v2 API in 2022 on api.stubhub.net) exposes five partner-gated REST APIs — Account, Catalog, Inventory, Sales, and Webhooks — that let approved affiliate and seller-integration partners search events, create and manage seller listings, upload e-tickets, fulfill sales and shipments, view payments, and subscribe to event webhooks. All resources use the application/hal+json (HAL) media type and OAuth2 (client-credentials and authorization-code flows). StubHub is a viagogo company and its official GogoKit SDKs (.NET, Ruby) target the shared HAL API.
 image: https://www.stubhub.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: StubHub MCP Server
-  slug: stubhub-mcp-server
 modified: '2026-07-21'
 name: StubHub
 nav: Providers
@@ -343,8 +339,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/screenshots/stubhub-2026-08-17T082143.png
 security:

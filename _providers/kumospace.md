@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.kumospace.com
@@ -151,7 +151,7 @@ apis:
   description: The Zones API from Kumospace — 5 operation(s) for zones.
   name: Kumospace Zones API
   slug: kumospace-zones-api
-artifact_total: 51
+artifact_total: 50
 collections:
 - collection_type: open
   name: API Collection
@@ -236,7 +236,7 @@ common:
   url: skills/kumospace-capture-meeting.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kumospace-mcp.yml
 - group: other
   title: ''
@@ -322,10 +322,6 @@ created: '2026-07-17'
 description: Kumospace is a virtual office platform for remote and distributed teams, providing a persistent spatial workspace where colleagues move between rooms and floors, with proximity-based spatial audio and video, team chat channels, scheduled and ad-hoc meetings, recordings, transcription and meeting summaries, and calendar integrations with Google Calendar and Microsoft Outlook. Spaces are visually customizable through rooms, zones, floors, walls, furniture and music tracks, and the platform integrates presence status with Zoom and Microsoft Teams. Kumospace operates a publicly reachable REST API at api.kumospace.com, documented with a Swagger UI and an OpenAPI 3.0 description covering spaces, rooms, zones, users, invitations, chat, calendar, recordings, transcription, analytics and payments. The company is headquartered in New York and is backed by Lightspeed Venture Partners.
 image: https://content.kumospace.com/hubfs/LinkPreviewImage@2x-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kumospace MCP Server
-  slug: kumospace-mcp-server
 modified: '2026-07-19'
 name: Kumospace
 nav: Providers
@@ -363,8 +359,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumospace/refs/heads/main/screenshots/kumospace-2026-07-25T224329.png
 security:

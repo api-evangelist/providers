@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Public gRPC-Web / REST gateway (sgn.gateway.v1.Web) for the cBridge cross-chain bridge: chain and token discovery, transfer fee estimation, transfer status, transfer history, and signed liquidity with'
   name: cBridge Gateway API
   slug: cbridge-gateway-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -79,7 +79,7 @@ common:
   url: packages/celer-network-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/celer-network-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: Celer Network is a blockchain interoperability protocol that enables seamless cross-chain experiences for dApps, assets, and users. Its flagship cBridge is a decentralized cross-chain asset bridge supporting 40+ blockchains with over $14B in cumulative transfer volume, and Celer IM (Inter-chain Messaging) is a framework for building multi-blockchain applications with efficient liquidity, coherent logic, and shared state. For developers, the cBridge gateway exposes a public gRPC-Web / REST API (sgn.gateway.v1.Web) for discovering supported chains and tokens, estimating cross-chain transfer fees, tracking transfer status, and withdrawing liquidity. Celer was surfaced as a portfolio company of Pantera Capital.
 image: https://www.celer.network/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Celer Network MCP Server
-  slug: celer-network-mcp-server
 modified: '2026-07-18'
 name: Celer Network
 nav: Providers
@@ -165,8 +161,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/screenshots/celer-network-2026-07-25T204846.png
 security:

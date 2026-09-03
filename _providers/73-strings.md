@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   description: The <b>Transaction APIs</b> enable external enterprise customers to <b>ingest and retrieve transaction ledger records</b> within the <b>73 Strings platform</b>.<br><br>These APIs are intended for <b>c
   name: 73 Strings Transaction API API
   slug: 73-strings-transaction-api-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -190,7 +190,7 @@ common:
   url: plans/73-strings-plans.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/73-strings-mcp.yml
 - group: build
   title: ''
@@ -233,10 +233,6 @@ description: 73 Strings is an AI-powered financial technology company serving al
   Lane, Golub Capital and Broadhaven.
 image: https://backend.73strings.com/wp-content/uploads/73-Intelligence_image-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: 73 Strings MCP Server
-  slug: 73-strings-mcp-server
 modified: '2026-08-05'
 name: 73 Strings
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:

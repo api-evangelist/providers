@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app2.logiless.com/api/v1
@@ -81,7 +81,7 @@ apis:
   description: 仕入先マスタ — supplier master
   name: Logiless Suppliers API
   slug: logiless-suppliers-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -160,7 +160,7 @@ common:
   url: conformance/logiless-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/logiless-mcp.yml
 - group: agent
   title: ''
@@ -230,10 +230,6 @@ created: '2026-07-17'
 description: LOGILESS (ロジレス) is a Japanese cloud EC logistics platform that unifies order management (OMS) and warehouse management (WMS) for e-commerce merchants — automating order intake from marketplaces and shopping carts (Rakuten, Shopify, ColorMe, futureshop, ec-force and more), inventory synchronization, allocation, shipping-label issuance and warehouse operations. LOGILESS exposes a RESTful, OAuth2-protected API (scoped per merchant) for reading and writing sales orders, outbound and inbound deliveries, sales returns, inter-warehouse transfers, articles (product master), multi-layer inventory summaries, warehouses, stores and suppliers. The company is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline from LOGILESS's public developer documentation; the OpenAPI here is derived and not an official LOGILESS artifact.
 image: https://support.logiless.com/wp-content/uploads/2021/06/ogp.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the LOGILESS API. No official LOGILESS MCP server was found (2026-07-20). Tools are derived one-per-operation from the derived OpenAPI and would require the merchant's OAuth a
-  name: Logiless MCP Server
-  slug: logiless-mcp-server
 modified: '2026-07-20'
 name: Logiless
 nav: Providers
@@ -280,8 +276,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png
 security:

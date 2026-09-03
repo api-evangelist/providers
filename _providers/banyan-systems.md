@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Banyan's OAuth2 REST API for submitting receipt and transaction data, retrieving enriched (item-level) transactions, managing card-linked-offer campaigns/offers/activations, receipt search, consumer c
   name: Banyan API
   slug: banyan-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Banyan Systems Webhooks
@@ -107,7 +107,7 @@ common:
   url: asyncapi/banyan-systems-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/banyan-systems-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Banyan is a privacy-first, item-level receipt data infrastructure platform that acts as middleware between merchants, banks, fintechs, and merchant service providers so they can securely share and enrich transaction data without bilateral contracts. Merchants send receipt and item detail to Banyan (via REST API or batch), and financial institutions submit card transactions to be matched and enriched with SKU-level line items, powering products like card-linked offers (CLO), expense management, and receipt display inside banking apps. Banyan has processed over 21 billion receipts across a network of 40,000+ merchant stores and 5,000+ financial institutions. Founded in 2013, backed by Battery Ventures, Fin Capital, M13, TTV Capital and others, and acquired by Bilt Rewards in March 2025. The public developer platform at developers.banyan.com exposes an OAuth2 REST API (api.banyan.com/rest/v1) plus a webhook egress surface for enriched transactions and offer redemptions.
 image: https://cdn.prod.website-files.com/64cf554e262e35556d264e52/66423c7fdfa3c29d470e52e2_Banyan%20Logo_OGI.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Banyan Systems MCP Server
-  slug: banyan-systems-mcp-server
 modified: '2026-07-18'
 name: Banyan Systems
 nav: Providers
@@ -169,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/screenshots/banyan-systems-2026-07-25T202351.png
 security:

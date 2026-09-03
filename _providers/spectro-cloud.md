@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -253,7 +253,7 @@ apis:
   description: The workspaces API from Spectro Cloud — 14 operation(s) for workspaces.
   name: Spectro Cloud workspaces API
   slug: spectro-cloud-workspaces-api
-artifact_total: 91
+artifact_total: 90
 collections:
 - collection_type: open
   name: API Collection
@@ -463,7 +463,7 @@ common:
   url: cli/spectro-cloud-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spectro-cloud-mcp.yml
 - group: agent
   title: ''
@@ -529,10 +529,6 @@ created: '2026-07-17'
 description: Spectro Cloud provides Palette, an enterprise platform for managing the full lifecycle of Kubernetes clusters and cloud-native and AI infrastructure across data centers, public clouds, bare metal, and the edge. Palette uses declarative cluster profiles (packs, Helm charts, manifests) for repeatable deployments, unified VM, container, and AI-workload management, and granular governance across distributed and air-gapped environments. Palette VerteX adds FIPS 140 and FedRAMP posture for regulated and public-sector organizations. The Palette API is a large REST surface (1,200+ operations) covering clusters, cluster profiles, cloud accounts, projects, tenants, registries, and edge hosts, with Go/TypeScript SDKs, a Terraform provider, a Crossplane provider, and the Palette CLI for automation.
 image: https://www.spectrocloud.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spectro Cloud MCP Server
-  slug: spectro-cloud-mcp-server
 modified: '2026-07-21'
 name: Spectro Cloud
 nav: Providers
@@ -575,8 +571,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/screenshots/spectro-cloud-2026-08-17T082021.png
 security:

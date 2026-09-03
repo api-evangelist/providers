@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Employee Navigator OpenID Connect / OAuth 2.0 authorization server that fronts every Employee Navigator API service. Its discovery document is served anonymously and advertises authorization code,
@@ -162,8 +162,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 65.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/employeenavigator/refs/heads/main/screenshots/employeenavigator-2026-08-07T164835.png
 security:

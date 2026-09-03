@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
   description: Operations for managing Cloud WAN core networks
   name: Amazon Cloud WAN Core Networks API
   slug: amazon-cloud-wan-core-networks-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -250,10 +250,6 @@ jsonld:
   property_count: 9
   slug: amazon-cloud-wan-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Cloud WAN MCP Server
-  slug: amazon-cloud-wan-mcp-server
 modified: '2026-06-20'
 name: Amazon Cloud WAN
 nav: Providers
@@ -316,8 +312,8 @@ score:
       marker_coverage: 100.0
       total: 2
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/screenshots/amazon-cloud-wan-2026-07-25T195941.png
 security:

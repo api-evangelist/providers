@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: FDX-aligned REST endpoints returning the list of a consumer's permissioned accounts and detailed account information (account identifiers, type, status, nickname, and product details) for the accounts
@@ -255,8 +255,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akoya/refs/heads/main/screenshots/akoya-2026-06-20T171457.png
 security:

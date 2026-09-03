@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.trustlayer.io/v2
@@ -141,7 +141,7 @@ apis:
   description: The Workspaces API from TrustLayer — 1 operation(s) for workspaces.
   name: TrustLayer Workspaces API
   slug: trustlayer-workspaces-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Trustlayer Webhooks
@@ -240,7 +240,7 @@ common:
   url: asyncapi/trustlayer-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trustlayer-mcp.yml
 - group: agent
   title: ''
@@ -322,10 +322,6 @@ created: '2026-07-17'
 description: 'TrustLayer is a vendor risk management and certificate of insurance (COI) tracking platform that automates the collection, verification, and ongoing monitoring of compliance documents. It uses AI-powered OCR field extraction, real-time carrier connections, and NIPR license verification to process COIs, W9s, and business licenses across a network of 500,000+ companies. The TrustLayer Platform API lets teams programmatically manage parties (vendors), contacts, projects, documents, and compliance profiles, request documents, and receive real-time webhook notifications as compliance status changes. Backed by Craft Ventures. Sector: insurtech / fintech.'
 image: https://developers.trustlayer.io/landing/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TrustLayer MCP Server
-  slug: trustlayer-mcp-server
 modified: '2026-07-21'
 name: TrustLayer
 nav: Providers
@@ -372,8 +368,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/screenshots/trustlayer-2026-08-17T082453.png
 security:

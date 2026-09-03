@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Authenticated royalty statement portal for UMG-distributed artists and labels. Provides login-gated access to royalty statements, statement history, and supporting documentation. The portal is deliver
@@ -198,13 +198,13 @@ overview: 'Universal Music Group publishes 5 APIs on the [APIs.io](https://apis.
 random_paper: 14
 score:
   band: emerging
-  composite: 16.4
+  composite: 14.4
   coverage:
     artifact_dirs: 3
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -214,12 +214,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  open_source:
-    applies: true
-    score: 35.0
   previous_composite: 16.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universal-music-group/refs/heads/main/screenshots/universal-music-group-2026-06-20T200122.png
 security:

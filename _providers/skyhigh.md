@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Tenant API from Skyhigh Security — 4 operation(s) for tenant.
   name: Skyhigh Security Tenant API
   slug: skyhigh-tenant-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: agentic-access/skyhigh-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/skyhigh-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Skyhigh Security is a cloud-native Security Service Edge (SSE) platform that protects enterprise data across web, cloud, and private applications. Its portfolio spans Cloud Access Security Broker (CASB), Secure Web Gateway (SWG), Data Loss Prevention (DLP and Advanced DLP), Zero Trust Network Access (ZTNA), and Data Security Posture Management (DSPM). Skyhigh exposes REST "SSE APIs" (served from regional myshn.net hosts) for user management, querying and modifying DLP/policy incidents, and forensics reporting, secured with IAM bearer tokens. Formerly the cloud business of McAfee Enterprise / MVISION Cloud, Skyhigh Security is a Greylock-backed cybersecurity company holding FedRAMP High, SOC 2 Type II, and ISO/IEC 27001 authorizations.
 image: https://www.skyhighsecurity.com/content/dam/skyhigh/global/logos/skyhigh-security-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Skyhigh Security MCP Server
-  slug: skyhigh-security-mcp-server
 modified: '2026-07-21'
 name: Skyhigh Security
 nav: Providers
@@ -204,8 +200,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/screenshots/skyhigh-2026-09-02T155807.png
 security:

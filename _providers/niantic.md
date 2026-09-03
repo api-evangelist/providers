@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://nianticlabs.com/'', ''status'': 301, ''note'': ''declared website redirects to https://explore.scopely.com/ — a different registrable domain (nianticlabs.com -> scopely.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: NSDK 4.x is Niantic Spatial's unified, SDK-first developer platform for Unity, Swift, Android, and ROS 2, exposing VPS 2.0 visual positioning (centimeter-level 6DoF localization), semantic understandi
@@ -149,8 +150,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niantic/refs/heads/main/screenshots/niantic-2026-08-07T185242.png
 security:

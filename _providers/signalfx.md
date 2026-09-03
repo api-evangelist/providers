@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The SignalFx REST API manages metadata and configuration objects in Splunk Observability Cloud / SignalFx: metrics and dimension metadata, detectors and alert muting rules, charts, dashboards and dash'
   name: SignalFx REST API
   slug: signalfx-rest-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: other
   title: ''
@@ -131,7 +131,7 @@ common:
   url: well-known/signalfx-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/signalfx-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: SignalFx is a cloud monitoring and observability platform for modern infrastructure and microservices, founded in 2013 and acquired by Splunk in October 2019. It ingests high-resolution time-series metrics, events, and traces and applies real-time streaming analytics (the SignalFlow computation engine) to power dashboards, charts, detectors, and alerts. The platform is now delivered as Splunk Observability Cloud. SignalFx exposes a realm-based REST API (metadata, detectors, charts, dashboards, integrations, tokens, SLOs) at api.{realm}.signalfx.com, a data-ingest API at ingest.{realm}.signalfx.com, and a SignalFlow streaming API at stream.{realm}.signalfx.com, all authenticated with an X-SF-Token header. First-party client libraries ship for Go, Python, Node.js, Java, and Ruby.
 image: https://avatars.githubusercontent.com/u/8532938?s=200&v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: SignalFx MCP Server
-  slug: signalfx-mcp-server
 modified: '2026-08-19'
 name: SignalFx
 nav: Providers
@@ -192,8 +188,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signalfx/refs/heads/main/screenshots/signalfx-2026-09-02T155429.png
 security:

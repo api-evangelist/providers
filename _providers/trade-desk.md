@@ -1,11 +1,17 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -432,8 +438,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png
 security:

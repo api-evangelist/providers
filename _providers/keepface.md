@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The public server-side affiliate tracking API for Keepface. Brands POST sale and refund events from their own backend (or from Shopify, or from the browser JS pixel) and Keepface attributes them to th
@@ -238,8 +238,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/screenshots/keepface-2026-07-25T223555.png
 security:

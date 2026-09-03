@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.overlay.market
@@ -51,7 +51,7 @@ apis:
   description: Market catalog and metadata.
   name: Overlay Markets API
   slug: overlay-markets-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ common:
   url: llms/overlay-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/overlay-mcp.yml
 - group: build
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: Overlay is a decentralized perpetual-futures protocol on BNB Smart Chain (chain id 56) that lets anyone trade and permissionlessly create markets for emerging, pre-CEX, and narrative-driven assets against any verifiable data feed. Positions are synthetic — traders trade against a protocol-managed price feed with USDT/stablecoin collateral rather than an order book — with a dynamic risk engine managing thin markets and zero liquidity requirements. Overlay exposes a public, unauthenticated market-data API (aggregator contracts, contract specs, market catalog, charts price overview), a TypeScript SDK, a GraphQL subgraph, and a provider-published Agent Skill for automated trading. Backed by Polychain.
 image: https://avatars.githubusercontent.com/u/70023182?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Overlay MCP Server
-  slug: overlay-mcp-server
 modified: '2026-07-20'
 name: Overlay
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/screenshots/overlay-2026-08-07T191129.png
 security:

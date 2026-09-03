@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Observed queries, query digests, and query samples.
   name: VividCortex Queries API
   slug: vividcortex-queries-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Vividcortex Alerts Webhooks
@@ -182,7 +182,7 @@ common:
   url: changelog/vividcortex-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vividcortex-mcp.yml
 - group: agent
   title: ''
@@ -252,10 +252,6 @@ created: '2026-07-17'
 description: VividCortex is a SaaS database performance monitoring platform, now part of SolarWinds and marketed as SolarWinds Database Performance Monitor (DPM). It uses lightweight per-host agents to capture and analyze every query executed against MySQL, PostgreSQL, MongoDB, Redis, Amazon Aurora, and SQL Server workloads with sub-second, always-on visibility and minimal overhead. DPM surfaces query analysis, profiling, fault detection, adaptive alerting, and time-series metrics through a web application and a public REST API (v2) that exposes hosts, metrics and series data, observed queries and samples, timeline events, and alert configuration. VividCortex was acquired by SolarWinds in December 2019; this profile was surfaced as a portfolio company of Battery Ventures and enriched by the API Evangelist pipeline from the provider's live public documentation at docs.vividcortex.com.
 image: https://avatars.githubusercontent.com/u/2809667?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: VividCortex MCP Server
-  slug: vividcortex-mcp-server
 modified: '2026-07-21'
 name: VividCortex
 nav: Providers
@@ -297,8 +293,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/screenshots/vividcortex-2026-08-17T082806.png
 security:

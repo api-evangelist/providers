@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: HTTP-based API (v3) for interacting with Shipper's location, pricing, and shipment features — search location by keyword and administrative area, retrieve domestic multi-courier pricing, create orders
   name: Shipper Logistics API
   slug: shipper-logistics-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Shipper Webhooks
@@ -87,7 +87,7 @@ common:
   url: lifecycle/shipper-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shipper-mcp.yml
 - group: agent
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Shipper is an Indonesian technology-driven logistics aggregator that connects merchants and e-commerce sellers to hundreds of third-party courier and last-mile delivery partners through a single platform. Its services span a logistics aggregator (multi-courier rate check, order creation, pickup and tracking), nationwide fulfillment and warehousing, contract logistics, international freight forwarding, and e-commerce enablement. Developers integrate via the HTTP-based Shipper Logistics API (v3), which exposes location search, domestic pricing, order creation (including COD), shipping label and receipt generation, pickup request, and shipment status tracking, with real-time delivery-status webhooks. Backed by Lightspeed Venture Partners, Partech, and Prosus Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shipper.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Shipper MCP Server
-  slug: shipper-mcp-server
 modified: '2026-07-21'
 name: Shipper
 nav: Providers
@@ -159,8 +155,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipper/refs/heads/main/screenshots/shipper-2026-09-02T155228.png
 security:

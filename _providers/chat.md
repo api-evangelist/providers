@@ -1,10 +1,10 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-08-26'
-  label: Freemium · Self-serve signup
+  generated: '2026-09-03'
+  label: Freemium
   method: derived
-  onboarding: self-serve
+  onboarding: unknown
   pricing: freemium
   public: false
   source:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://athenian.com'', ''status'': 301, ''note'': ''declared website redirects to https://github.com/athenianco — a different registrable domain (athenian.com -> github.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -118,7 +119,7 @@ apis:
   description: The version API from Athenian — 1 operation(s) for version.
   name: Athenian version API
   slug: athenian-version-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -198,7 +199,7 @@ common:
   url: authentication/athenian-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/athenian-mcp.yml
 - group: agent
   title: ''
@@ -228,10 +229,6 @@ created: '2026-07-17'
 description: 'Athenian was a full-cycle software-development analytics platform founded in 2019 by Eiso Kant, with a seed round led by Point Nine. It integrated GitHub, JIRA, and CI/CD tooling to give engineering leaders end-to-end visibility into their delivery pipeline — lead time, cycle time, deployment frequency, PR review dynamics, and goal alignment — deliberately measuring teams and events rather than ranking individuals. The company has since wound down: athenian.com and athenian.co now redirect to github.com/athenianco and the production API host api.athenian.co no longer resolves. However, the OpenAPI specification (athenianco/api-spec, 79 operations, 218 schemas) and the open-source API implementation (athenian-api-open, MIT) remain publicly published on GitHub, which is why this profile is enriched from the real, still-available API contract.'
 image: https://avatars.githubusercontent.com/u/58329504?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Athenian MCP Server
-  slug: athenian-mcp-server
 modified: '2026-07-18'
 name: Athenian
 nav: Providers
@@ -270,8 +267,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/screenshots/athenian-2026-07-25T201535.png
 security:

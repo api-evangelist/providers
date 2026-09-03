@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: na
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.5
-  scored_at: '2026-09-02'
+  score: 24.4
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,10 @@ apis:
   description: Geofencing rules and operational zones
   name: TIER Zones API
   slug: tier-mobility-zones-api
-artifact_total: 37
+- description: Partner-facing data API from Dott (formerly TIER), providing vehicle and availability data (GBFS-style) to authorized partners. Access requires a per-partner API Key issued through Dott's registration
+  name: Dott Partner API
+  slug: dott-partner-api
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -164,6 +167,10 @@ common:
   title: ''
   type: SystemsRegistry
   url: https://github.com/MobilityData/gbfs/blob/master/systems.csv
+- group: company
+  title: ''
+  type: Blog
+  url: https://ridedott.com/blog/
 created: '2026-05-25'
 description: TIER Mobility was a Berlin-headquartered shared electric micromobility operator founded in 2018 by Lawrence Leuschner, Julian Blessin, and Matthias Laug, providing e-scooter, e-bike, and e-moped sharing across European and Middle Eastern cities. In March 2024, TIER merged with Amsterdam-based Dott to form the combined European micromobility champion that now trades under the Dott brand on ridedott.com, operating in 400+ cities across roughly 22 countries including Germany, France, the United Kingdom, Italy, Spain, the Netherlands, Belgium, Sweden, Norway, Finland, Denmark, Austria, Switzerland, Poland, Greece, Hungary, Israel, Saudi Arabia, Qatar, and the UAE. All public real-time data — fleet positions, battery levels, vehicle types, pricing plans, stations, and geofencing zones — is published via GBFS 2.3 (General Bikeshare Feed Specification) endpoints at https://gbfs.api.ridedott.com/public/v2/{system_id}/, with one `system_id` per city. There is no consumer authentication
   or paid API tier; feeds are open data consumed by city regulators, MaaS aggregators, and trip-planning apps.
@@ -220,7 +227,7 @@ overview: 'TIER publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The TIER catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TIER''s developer surface includes support, engineering blog, and 16 more developer resources.'
+  TIER''s developer surface includes support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Tier Mobility Plans Pricing
   plan_count: 2
@@ -253,20 +260,20 @@ rules:
     warn: 5
   slug: tier-mobility-rules
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 41.9
   coverage:
     artifact_dirs: 15
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 63.9
-    developer_ergonomics: 2.4
+    developer_ergonomics: 14.3
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 0.0
@@ -283,9 +290,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 35.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+    score: 46.3
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

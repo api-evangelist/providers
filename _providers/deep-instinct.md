@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Versioned REST API exposed by the Deep Instinct DSX management console (D-Appliance) at https://<your-tenant-fqdn>/api/v1. Covers devices, device groups, policies, events (including the JSON event-sea
@@ -185,8 +185,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/screenshots/deep-instinct-2026-08-07T164228.png
 security:

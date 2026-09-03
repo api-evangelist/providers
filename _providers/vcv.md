@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://my.vcv.ai
@@ -121,7 +121,7 @@ apis:
   description: The webhook API from VCV — 2 operation(s) for webhook.
   name: VCV webhook API
   slug: vcv-webhook-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: VCV delivers outbound webhooks for recruitment events. Subscriptions are managed via the Open API v3 company-webhooks endpoints (create/list/get/ update/delete), each carrying a target url, an event t
   name: VCV Webhooks
@@ -272,7 +272,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vcv-mcp.yml
 - group: agent
   title: ''
@@ -290,10 +290,6 @@ created: '2026-07-17'
 description: VCV is a recruitment-automation platform offering video interviews, candidate screening, assessments, and chatbot pre-screening for high-volume, graduate, and professional hiring, used by enterprises like PwC, PepsiCo, and Danone. Its VCV Open API v3 is a bearer-token REST API covering vacancies, candidate responses, video interviews, tests, surveys, invites, tags, users, and company webhooks, documented via Swagger UI at developer.vcv.ru.
 image: https://static.tildacdn.net/tild3164-3465-4133-a335-363938393334/vcv_badge.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: VCV MCP Server
-  slug: vcv-mcp-server
 modified: '2026-07-21'
 name: VCV
 nav: Providers
@@ -334,8 +330,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/screenshots/vcv-2026-09-02T165534.png
 security:

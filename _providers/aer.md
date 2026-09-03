@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
@@ -83,7 +83,7 @@ apis:
   description: Energy Plan endpoints
   name: Australian Energy Regulator Energy Plans API
   slug: aer-energy-plans-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: CDR Energy API
@@ -234,7 +234,7 @@ common:
   url: data-model/aer-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aer-mcp.yml
 - group: build
   title: ''
@@ -265,10 +265,6 @@ description: 'The Australian Energy Regulator (AER) is the independent national 
   fee, discount and eligibility data for the six jurisdictions that adopted the National Energy Customer Framework. Verified on 2026-07-27, 79 of the 84 energy data-holder brands in the ACCC CDR Register point their productBaseUri at the AER''s own host, cdr.energymadeeasy.gov.au, which makes the regulator the actual operator of the product-data API layer for nearly the whole Australian retail energy industry. The split matters: the AER''s open surface is product and tariff data only. It holds and exposes no individual consumer usage or billing data — the CDR consumer endpoints 404 on its host — because those flow from retailers as primary data holders and AEMO as the secondary data holder gateway, behind ACCC accreditation, OAuth2/OIDC and mTLS. The AER''s own market statistics, wholesale performance reporting and public registers are published as web pages, charts and document downloads, not as an API, and no developer., developers., api., docs. or data. subdomain resolves.'
 image: https://www.aer.gov.au/sites/default/files/2023-08/logo-2x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Australian Energy Regulator MCP Server
-  slug: australian-energy-regulator-mcp-server
 modified: '2026-07-27'
 name: Australian Energy Regulator
 nav: Providers
@@ -316,8 +312,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/screenshots/aer-2026-08-17T121411.png
 security:

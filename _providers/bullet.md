@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ arazzos:
 - description: Discover markets then pull the order book, 24h ticker, and recent trades for a symbol.
   name: Bullet market-data snapshot
   slug: bullet-market-data-snapshot
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: data-model/bullet-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bullet-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: Bullet is Solana's high-performance trading layer — a decentralized exchange offering perpetual futures (derivatives), spot, and lending under one unified margin engine. The Bullet Trading API is a Binance USD-M Futures (FAPI) compatible REST and WebSocket interface for market data, account and position management, and order placement via ed25519-signed transactions, with official Rust and WASM/TypeScript SDKs. Bullet runs as a sovereign rollup settling to Solana mainnet-beta, with a testnet environment for building and testing against mock assets.
 image: https://tradingapi.bullet.xyz/docs/favicon-de23e50b.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bullet MCP Server
-  slug: bullet-mcp-server
 modified: '2026-07-18'
 name: Bullet
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/screenshots/bullet-2026-07-25T204059.png
 security:

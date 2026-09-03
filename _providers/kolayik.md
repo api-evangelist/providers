@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -105,7 +105,7 @@ arazzos:
 - description: Discover the tenant's custom person fields and org tree, create the person, verify the stored record, and assign onboarding training.
   name: Onboard an employee in Kolay İK
   slug: kolayik-onboard-employee
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -286,7 +286,7 @@ common:
   url: well-known/kolayik-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kolayik-mcp.yml
 - group: agent
   title: ''
@@ -312,10 +312,6 @@ created: '2026-07-17'
 description: Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources and human-capital-management SaaS platform serving more than 4,500 companies and 300,000+ employees, predominantly in Türkiye. The product covers employee/personnel records (özlük), payroll (bordro), performance evaluation, shift management (vardiya), compensation review, applicant tracking, HR analytics, time and attendance (PDKS), leave management, expense and asset tracking, and training. Kolay publishes an official public REST API — the "Kolay Public API" (v2, https://api.kolayik.com) — documented as a public Postman collection at apidocs.kolayik.com, covering person, unit, leave, timelog, transaction, approval, calendar, training, expense and payroll resources, authenticated with a bearer API token created from the in-product developer settings.
 image: https://cdn.prod.website-files.com/6113889e45c6e62ebf4ca212/616f325923c82836146d34aa_kolay-ik-logo-tr.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: KolayIK MCP Server
-  slug: kolayik-mcp-server
 modified: '2026-07-19'
 name: KolayIK
 nav: Providers
@@ -354,8 +350,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:

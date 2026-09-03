@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Adonis platform API for revenue cycle management, including real-time patient eligibility and benefits verification, patient and appointment data retrieval from partner EHR/PM systems, claims, and pay
@@ -147,8 +147,8 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adonis/refs/heads/main/screenshots/adonis-2026-07-25T181659.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://api.nextiva.com
@@ -87,7 +87,7 @@ apis:
   description: The Workitems API from Nextiva — 4 operation(s) for workitems.
   name: Nextiva Workitems API
   slug: nextiva-workitems-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Nextiva Events
@@ -239,7 +239,7 @@ common:
   url: data-model/nextiva-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nextiva-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-31'
 description: 'Nextiva is a Scottsdale, Arizona based cloud communications and customer experience company whose NextOS / NEXT platform combines UCaaS business phone service, contact center (NCX), SMS and team messaging, voice AI agents, and conversation analytics for small business through enterprise. Its developer surface is the Nextiva Contact Center platform: a ReadMe-hosted developer portal at developer.nextiva.com publishing five REST OpenAPI 3.0 contracts (Provider Authentication, Provider Token Service, Workitem Service, Conversation, SMS Messaging) served from api.nextiva.com, alongside four frontend SDKs (Core, Web, React, React Native) that wrap the same backend over HTTP plus two WebSocket channels — an events socket for real-time workitem, offer, phone-state and live-transcription notifications, and an analytics socket for supervisory data.'
 image: https://files.readme.io/c57cfd17e3ed303431732141b3a42eaff618f7682e4cd2c42e12470ba7ce8878-nextiva_logo_rgb_dark.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nextiva MCP Server
-  slug: nextiva-mcp-server
 modified: '2026-07-31'
 name: Nextiva
 nav: Providers
@@ -303,8 +299,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/screenshots/nextiva-2026-08-07T185215.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -317,8 +317,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png
 security:

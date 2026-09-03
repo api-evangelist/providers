@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: 语音通话 — voice notification and click-to-dial
   name: China Mobile Voice Call Service API
   slug: china-mobile-voice-call-service-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: 'OneNET pushes events to application servers over plain HTTP(S) POST. Two distinct outbound surfaces are documented anonymously: the platform-wide 数据推送 (HTTP data push) service, which delivers rule-eng'
   name: China Mobile OneNET event and callback surface
@@ -98,7 +98,7 @@ common:
   url: overlays/china-mobile-vcs-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/china-mobile-mcp.yml
 - group: company
   title: ''
@@ -229,10 +229,6 @@ description: China Mobile Limited is the world's largest mobile network operator
   Network-as-a-Service platform after its Quality on Demand API passed 63 conformance tests on ZTE NEF/SCEF exposure functions. None of that is callable from the open internet. Its API posture is partner-gated and domestic — the capability platforms at dev.10086.cn, ct.open.10086.cn and api.iot.10086.cn publish real product and interface documentation but issue credentials only to registered mainland enterprise customers under contract, and China Mobile is not a shareholder in Aduna, so it reaches developers through its own Chinese-language capability marketplaces rather than through the global CPaaS or aggregator channel. The one genuinely self-serve surface is OneNET, its IoT PaaS, which publishes open developer documentation and a live token-authenticated device API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: China Mobile MCP Server
-  slug: china-mobile-mcp-server
 modified: '2026-07-25'
 name: China Mobile
 nav: Providers
@@ -280,8 +276,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/screenshots/china-mobile-2026-08-07T163418.png
 security:

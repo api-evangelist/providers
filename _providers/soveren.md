@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The SQL DB API from Soveren — 5 operation(s) for sql db.
   name: Soveren SQL DB API
   slug: soveren-sql-db-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: Soveren delivers data-security events to a subscriber endpoint via outbound webhooks. Soveren POSTs an event object to a URL configured in the app under Integrations - Webhook. When a signing token is
   name: Soveren Events (Webhooks)
@@ -182,7 +182,7 @@ common:
   url: lifecycle/soveren-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/soveren-mcp.yml
 - group: agent
   title: ''
@@ -208,10 +208,6 @@ created: '2026-07-17'
 description: Soveren is a unified Data Security Posture Management (DSPM) and Data Detection and Response (DDR) platform that delivers real-time data observability for Kubernetes and cloud environments. It combines at-rest data detection with eBPF-based network traffic analysis to discover sensitive assets, map the data flows between services, detect misconfigurations (public or unencrypted S3 buckets, unencrypted RDS/network), and audit compliance posture against PCI DSS, GDPR, and CPRA. Soveren exposes a read-only Object API over the discovered inventory and an outbound webhook event surface for automation. A portfolio company of Northzone.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soveren.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Soveren MCP Server
-  slug: soveren-mcp-server
 modified: '2026-07-21'
 name: Soveren
 nav: Providers
@@ -253,8 +249,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/screenshots/soveren-2026-08-17T082012.png
 security:

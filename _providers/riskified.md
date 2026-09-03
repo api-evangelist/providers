@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
@@ -316,8 +316,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1137
   human_in_the_loop: 57
@@ -974,7 +974,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -984,7 +984,7 @@ score:
     discoverability: 83.3
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 67.0
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -995,8 +995,8 @@ score:
       total: 131
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/screenshots/elk-stack-2026-06-20T180610.png
 security:

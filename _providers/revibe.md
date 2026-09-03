@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for the Revibe Shopify store implemented via the Universal Commerce Protocol (UCP). A hosted MCP endpoint exposes catalog search, cart, checkout, and fulfillment tools; c
@@ -123,8 +123,8 @@ score:
   previous_composite: 18.2
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revibe/refs/heads/main/screenshots/revibe-2026-09-02T153722.png
 security:

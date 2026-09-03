@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://department.mark43.com/partnerships/api
@@ -111,7 +111,7 @@ apis:
   description: The Warrants API from Mark43 — 5 operation(s) for warrants.
   name: Mark43 Warrants API
   slug: mark43-warrants-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +212,7 @@ common:
   url: conformance/mark43-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mark43-mcp.yml
 - group: agent
   title: ''
@@ -234,10 +234,6 @@ created: '2026-07-17'
 description: Mark43 is a cloud-native public safety software company whose platform unifies computer-aided dispatch (CAD), records management (RMS), first-responder mobile applications, evidence and property management, and analytics for law enforcement and public safety agencies. Serving more than 300 federal, state, and local agencies, Mark43 exposes a Partnerships (External) API that lets approved location providers, community-engagement software, and other law-enforcement technologies integrate directly with an agency's Mark43 tenant. The REST API provides endpoints for reports, persons, evidence and chain-of-custody, attachments, CAD events and configuration, warrants, tasks, users, vehicles, and E911 data, secured with HTTP Basic authentication using agency-issued API tokens and returning a consistent JSON response envelope.
 image: https://mark43.com/wp-content/uploads/2021/04/cropped-Mark43_logo_horizontal_black-1-1-32x32.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mark43 MCP Server
-  slug: mark43-mcp-server
 modified: '2026-07-20'
 name: Mark43
 nav: Providers
@@ -281,8 +277,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 44.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/screenshots/mark43-2026-07-25T230313.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Zones API from Brandtrack — 3 operation(s) for zones.
   name: Brandtrack Zones API
   slug: brandtrack-zones-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: scopes/brandtrack-scopes.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brandtrack-mcp.yml
 - group: agent
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: Brandtrack is a licensed background-music and in-store audio platform for commercial spaces — retail, hospitality, and food & beverage. It centralizes multi-location music management with smart scheduling, real-time playlist adaptation to signals like foot traffic, weather, and time of day, brand guardrails, AI audio-ad creation, and audit-ready licensing documentation. The Brandtrack v2 REST API manages accounts, subscriptions, users, locations, zones, groups, and roles, authenticated with an x-customer-api-key header, with a partner flow for provisioning customers.
 image: https://cdn.prod.website-files.com/643faaa7da666b82bfd92bfd/6980cdfb5017b7621777a8eb_The%20right%20song%20at%20the%20right%20time%20(2).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brandtrack MCP Server
-  slug: brandtrack-mcp-server
 modified: '2026-07-18'
 name: Brandtrack
 nav: Providers
@@ -280,8 +276,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public gRPC control and acquisition interface for the HYPERLABS TDR11100 Time Domain Reflectometer. The proto3 service radium.v1.Radium exposes 22 unary RPCs covering readiness and board state, reset,
@@ -255,7 +255,7 @@ apis:
   description: The Wishlists API from HYPERLABS — 2 operation(s) for wishlists.
   name: HYPERLABS Wishlists API
   slug: hyperlabs-wishlists-api
-artifact_total: 49
+artifact_total: 48
 asyncapis:
 - description: 'Server-streaming surface of the radium.v1.Radium gRPC service running on a HYPERLABS TDR11100 Time Domain Reflectometer. A client opens a gRPC channel to the instrument on TCP 50052 and subscribes to '
   name: HYPERLABS Radium instrument event streams (TDR11100)
@@ -271,7 +271,7 @@ common:
   url: capabilities/hyperlabs-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hyperlabs-mcp.yml
 - group: operate
   title: ''
@@ -406,10 +406,6 @@ description: 'HYPERLABS, Inc. designs and manufactures signal-integrity products
   is also offered as first-party Windows DLL packages (ZTDR and XTDR) with C++ sample source and manuals.'
 image: https://www.hyperlabs.com/assets/logoFull.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: HYPERLABS MCP Server
-  slug: hyperlabs-mcp-server
 modified: '2026-08-01'
 name: HYPERLABS
 nav: Providers
@@ -450,8 +446,8 @@ score:
       total: 43
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.bey.dev
@@ -71,7 +71,7 @@ apis:
   description: The Sessions API from Beyond Presence — 2 operation(s) for sessions.
   name: Beyond Presence Sessions API
   slug: beyond-presence-sessions-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Beyond Presence Webhooks
@@ -209,7 +209,7 @@ common:
   url: packages/beyond-presence-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/beyond-presence-mcp.yml
 - group: auth
   title: ''
@@ -259,10 +259,6 @@ created: '2026-07-17'
 description: 'Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, support, and coaching use cases. Two products are exposed through one REST API at api.bey.dev: a Speech-to-Video API that turns audio streams into lifelike avatars over LiveKit, and a Managed Agents API that runs end-to-end conversational agents with knowledge files, external LLM/API configuration, and webhook events. Official Python and TypeScript SDKs, an OpenAPI spec, and GDPR / SOC 2 Type II compliance are published. Surfaced as an HV Capital portfolio company and enriched from its public developer surface.'
 image: https://beyondpresence.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Beyond Presence MCP Server
-  slug: beyond-presence-mcp-server
 modified: '2026-07-18'
 name: Beyond Presence
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:

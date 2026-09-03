@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: The shipment-jobs API from Loop — 2 operation(s) for shipment-jobs.
   name: Loop shipment-jobs API
   slug: loop-shipment-jobs-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Loop Webhooks
@@ -228,7 +228,7 @@ common:
   url: https://trust.loop.com
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/loop-mcp.yml
 - group: agent
   title: ''
@@ -275,10 +275,6 @@ description: Loop is a full-stack, AI-powered logistics data platform that unifi
   others.
 image: https://cdn.prod.website-files.com/668bb14a7a97da320e5022ed/66c70f294893e981b7a38704_OG%20Image.webp
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP tool surface derived one-to-one from Loop API operationIds. Loop publishes no official hosted MCP server as of this pass; this is a derivation to seed an agent-native surface. Auth: bear'
-  name: Loop MCP Server
-  slug: loop-mcp-server
 modified: '2026-07-20'
 name: Loop
 nav: Providers
@@ -326,8 +322,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
 security:

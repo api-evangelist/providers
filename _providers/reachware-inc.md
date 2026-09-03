@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.reachware.com
@@ -46,7 +46,7 @@ apis:
   description: Request payments, retrieve payment details, and refunds
   name: Reachware Inc. Payments API
   slug: reachware-inc-payments-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -76,7 +76,7 @@ common:
   url: security/reachware-inc-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reachware-inc-mcp.yml
 - group: design
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platform it ships Reach Pay (a payment API for Saudi Arabia payment gateways), Reachware Fatoora (ZATCA e-invoicing), and extension modules for banking, HR, inventory, loyalty and property management. Reach Pay exposes a hosted-redirect REST API for requesting payments, retrieving payment details, refunds and card tokenization. Reachware reports 3,500+ active subscriptions, 300+ customers, 100M+ transactions, and is CMMI Level 3 certified. It was surfaced as a portfolio company of 500 Global and profiled by the API Evangelist enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reachware-inc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Reachware Inc. MCP Server
-  slug: reachware-inc-mcp-server
 modified: '2026-07-20'
 name: Reachware Inc.
 nav: Providers
@@ -197,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/screenshots/reachware-inc-2026-08-17T081449.png
 security:

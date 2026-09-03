@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -256,7 +256,7 @@ arazzos:
 - description: Upload a file as proof of consent for an organization and read it back to verify storage.
   name: Didomi Upload and Verify a Consent Proof
   slug: didomi-upload-consent-proof-workflow
-artifact_total: 150
+artifact_total: 149
 asyncapis:
 - description: 'Outbound webhook events emitted by the Didomi platform when an end-user''s consent or preference state changes. PROVENANCE: Didomi publishes NO AsyncAPI document. This file is an API Evangelist generat'
   name: Didomi Consent Webhooks
@@ -389,7 +389,7 @@ common:
   url: llms/didomi-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/didomi-mcp.yml
 - group: other
   title: ''
@@ -780,10 +780,6 @@ jsonld:
   property_count: 10
   slug: didomi-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the Didomi OpenAPI (Didomi ships no MCP server)
-  slug: candidate-mcp-tool-surface-derived-from-the-didomi-openapi-didomi-ships-no-mcp-server
 modified: '2026-08-13'
 name: Didomi
 nav: Providers
@@ -855,8 +851,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:

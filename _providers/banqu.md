@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://banqu.app/api/v1
@@ -162,7 +162,7 @@ apis:
   description: Automation workflows for custom validations on any write API actions
   name: BanQu Validation Workflows API
   slug: banqu-validation-workflows-api
-artifact_total: 55
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Banqu Webhooks
@@ -253,7 +253,7 @@ common:
   url: capabilities/banqu-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/banqu-mcp.yml
 - group: company
   title: ''
@@ -344,10 +344,6 @@ description: BanQu is a Minnetonka, Minnesota supply-chain traceability and sust
   transformations, payment adjustments, forms and form data entries, attachments, notifications, and three automation surfaces — Smart Contracts, Data Processors, and Validation Workflows.
 image: https://cdn.prod.website-files.com/639a714d409fd7284b16da02/639e8cdd882c7f42845de0fa_BanQu_Opengraph.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: BanQu MCP Server
-  slug: banqu-mcp-server
 modified: '2026-08-06'
 name: BanQu
 nav: Providers
@@ -388,8 +384,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:

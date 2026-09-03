@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
   description: Lead create, get, and search
   name: LeadSquared Leads API
   slug: leadsquared-leads-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Leadsquared Webhooks
@@ -170,7 +170,7 @@ common:
   url: llms/leadsquared-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leadsquared-mcp.yml
 - group: agent
   title: ''
@@ -236,10 +236,6 @@ created: '2026-05-11'
 description: LeadSquared is a marketing automation and CRM platform that helps businesses capture, manage, nurture, and convert leads across sales, marketing, and service workflows. It offers Sales CRM, Service CRM, marketing automation, field force automation, and a no-code/low-code platform for building industry-specific customer experiences. The LeadSquared REST API provides access to core platform resources like leads, opportunities, activities, tasks, and users using API key authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadsquared.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LeadSquared MCP Server
-  slug: leadsquared-mcp-server
 modified: '2026-08-13'
 name: LeadSquared
 nav: Providers
@@ -289,8 +285,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/screenshots/leadsquared-2026-06-20T184350.png
 security:

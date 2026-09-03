@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
   name: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
-artifact_total: 345
+artifact_total: 344
 asyncapis:
 - description: ''
   name: Amazon Codeguru Profiler Notifications
@@ -147,7 +147,7 @@ common:
   url: json-ld/amazon-codeguru-profiler-context.jsonld
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codeguru-profiler-mcp.yml
 - group: other
   title: ''
@@ -1248,10 +1248,6 @@ jsonld:
   property_count: 71
   slug: amazon-codeguru-profiler-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP server derived from the Amazon CodeGuru Profiler OpenAPI operations (one tool per operationId). AWS does not publish a dedicated CodeGuru Profiler MCP server; the awslabs/mcp catalog shi
-  name: Amazon CodeGuru Profiler MCP Server
-  slug: amazon-codeguru-profiler-mcp-server
 modified: '2026-09-01'
 name: Amazon CodeGuru Profiler
 nav: Providers
@@ -1323,8 +1319,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:

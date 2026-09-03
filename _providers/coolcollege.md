@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: '* OA系统 人员/部门变动事件推送API * 访问该目录下接口时header中需要携带参数 `access-token` 和 `enterprise-id` * access-token 参数来自鉴权接口返回的token值'
   name: 酷学院 (Cool College) thirdoa API
   slug: coolcollege-thirdoa-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: lifecycle/coolcollege-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coolcollege-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: 酷学院 (Cool College) is an enterprise training and talent-development SaaS platform operated by 酷渲（北京）科技发展有限公司 (Cool Render (Beijing) Technology Co., Ltd.), founded in 2017 and acquired by Beisen in 2025. It provides AI-assisted corporate e-learning — course libraries, learning tasks, learning projects, exams, certificates, credits, and instructor management — with deep integration into DingTalk, Feishu, and WeChat Work. Its Open API (v2) lets integrators sync organization data (users, departments, positions) and read learning, exam, certificate, credit, and archive data for an enterprise tenant, authenticated via an HMAC-SHA256 signature exchange that issues an access_token.
 image: https://oss.coolcollege.cn/1553567081676c%402x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: 酷学院 (Cool College) MCP Server
-  slug: 酷学院-cool-college-mcp-server
 modified: '2026-07-18'
 name: 酷学院 (Cool College)
 nav: Providers
@@ -217,8 +213,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/screenshots/coolcollege-2026-07-25T210405.png
 security:

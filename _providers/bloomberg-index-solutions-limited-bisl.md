@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Access Bloomberg index constituent data, returns, analytics, and historical data for the Bloomberg Global Aggregate, US Aggregate, Euro Aggregate, and other benchmark indices via BLPAPI and Data Licen
@@ -127,8 +127,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 19.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/screenshots/bloomberg-index-solutions-limited-bisl-2026-07-25T203402.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -854,13 +854,13 @@ rules:
   slug: roku-spectral-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 45.6
   coverage:
     artifact_dirs: 17
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -870,9 +870,6 @@ score:
     discoverability: 53.7
     governance: 28.8
     operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 41.0
   provenance:
     agentic_access: derived
@@ -881,8 +878,8 @@ score:
       derived: 11
       marker_coverage: 47.8
       total: 23
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png
 security:

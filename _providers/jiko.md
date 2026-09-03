@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -42,7 +42,7 @@ apis:
 - description: The Partner API is for applications that embed Jiko's services and offer Jiko products to their own customers. It authenticates with a bearer token obtained via Login, and requires an x-jiko-idempoten
   name: Jiko Partner API
   slug: jiko-partner-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Jiko Webhooks
@@ -142,7 +142,7 @@ common:
   url: well-known/jiko-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jiko-mcp.yml
 - group: agent
   title: ''
@@ -172,10 +172,6 @@ created: '2026-07-17'
 description: Jiko is a fintech infrastructure company that turns idle cash into US Treasury bills held in the customer's own name, combining a nationally chartered bank, a registered broker-dealer, and a real-time settlement network (JikoNet) behind a single API. Its "Jiko as a Service" platform lets partners embed T-bill-backed accounts, virtual and physical debit cards, pockets (paired bank + brokerage accounts), and multi-rail money movement (ACH, wire, SWIFT, cards, and 24/7 on-us JikoNet transfers) into their own applications. Jiko exposes two OAuth 2.0 / HMAC-secured REST APIs — a Customer API for direct integrators and a Partner API for embedding Jiko products on behalf of end customers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jiko.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Jiko MCP Server (candidate)
-  slug: jiko-mcp-server-candidate
 modified: '2026-07-19'
 name: Jiko
 nav: Providers
@@ -226,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-08-17T123926.png
 security:

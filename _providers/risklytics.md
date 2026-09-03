@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Ember API returns per-structure property risk scores, modeled expected annual loss, and retrofit-impact evaluation for individual homes, driven by physics-based hazard simulation and a learned sur
@@ -129,8 +129,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risklytics/refs/heads/main/screenshots/risklytics-2026-09-02T153903.png
 security:

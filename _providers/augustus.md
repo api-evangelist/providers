@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -116,7 +116,7 @@ apis:
   description: The Webhook Events API from Augustus — 0 operation(s) for webhook events.
   name: Augustus Webhook Events API
   slug: augustus-webhook-events-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Augustus Webhooks
@@ -243,7 +243,7 @@ common:
   url: packages/augustus-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/augustus-mcp.yml
 - group: agent
   title: ''
@@ -305,10 +305,6 @@ created: '2026-07-17'
 description: Augustus (formerly Ivy, getivy.io) is a global payments and banking platform that lets developers move money between fiat and stablecoins, accept Open Banking bank payments, send payouts, run FX conversions, and hold balances through a single REST API. Building blocks include accounts and virtual accounts, account programs, checkout sessions and orders, deposits, payouts, refunds and returns, conversions and quotes, plus webhooks for real-time events. Augustus runs the Ivy Open Banking API (version 2023-01-01) alongside the newer Augustus Banking API (version 2026-05-01), authenticates with scoped bearer API keys, supports idempotent POSTs and cursor pagination, and is building an AI-native, stablecoin-based clearing bank. Backed by Creandum and Valar Ventures.
 image: https://a.storyblok.com/f/292219090989234/1920x1080/ea9e21e94c/website-header.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Augustus MCP Server
-  slug: augustus-mcp-server
 modified: '2026-07-18'
 name: Augustus
 nav: Providers
@@ -361,8 +357,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:

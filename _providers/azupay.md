@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -96,7 +96,7 @@ apis:
   description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
   name: Azupay Payment Request API
   slug: azupay-payment-request-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Azupay Webhooks
@@ -275,7 +275,7 @@ common:
   url: llms/azupay-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/azupay-mcp.yml
 - group: agent
   title: ''
@@ -286,10 +286,6 @@ description: 'Azupay is an Australian real-time payments company that moves mone
   as an additional server-to-server option, plus webhooks for asynchronous payment status. Home market is Australia; the surface is genuinely self-serve and documented, though production access and some capabilities (sub-clients, OAuth2) are enabled per client by Azupay.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Azupay MCP Server
-  slug: azupay-mcp-server
 modified: '2026-07-24'
 name: Azupay
 nav: Providers
@@ -342,8 +338,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
 security:

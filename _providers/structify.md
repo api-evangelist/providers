@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.9
-  scored_at: '2026-09-02'
+  score: 34.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -203,7 +203,7 @@ apis:
   description: The workflow_schedule API from Structify — 6 operation(s) for workflow_schedule.
   name: Structify workflow_schedule API
   slug: structify-workflow-schedule-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Structify Events Webhooks
@@ -311,6 +311,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/structify-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/structify-openapi-overlay.yaml
 - group: start
@@ -411,7 +415,7 @@ common:
   url: security/structify-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/structify-mcp.yml
 - group: design
   title: ''
@@ -453,10 +457,6 @@ created: '2026-07-17'
 description: Structify is an AI data platform that turns scattered, unstructured, and siloed sources into a living, structured knowledge graph. It connects to thousands of systems (HubSpot, Stripe, Snowflake, Postgres, and more), scrapes websites and PDFs, and organizes the results into datasets of typed entities and relationships that teams query in natural language and push back into their tools. The platform exposes a RESTful API (OpenAPI 3.0, 281 operations) plus official Python and JavaScript SDKs, covering datasets, entities, connectors, documents, jobs, chat/workflow sessions, and teams, with asynchronous jobs and real-time WebSocket updates. Backed by 8VC and Bain Capital Ventures.
 image: https://www.structify.ai/assets/site/structify-homepage-hero.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Structify MCP Server
-  slug: structify-mcp-server
 modified: '2026-08-14'
 name: Structify
 nav: Providers
@@ -467,7 +467,7 @@ overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) networ
   The Structify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Structify''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 28 more developer resources.'
+  Structify''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 29 more developer resources.'
 plans:
 - name: Structify Plans Pricing
   plan_count: 3
@@ -481,7 +481,7 @@ score:
   band: strong
   composite: 60.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -506,8 +506,8 @@ score:
       total: 32
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
 security:

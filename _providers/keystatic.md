@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Reader API is a server-side Node.js library exposing createReader and createGitHubReader functions that let applications read Keystatic content from a local directory or GitHub repository. The Rea
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 13.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keystatic/refs/heads/main/screenshots/keystatic-2026-06-20T184010.png
 security:

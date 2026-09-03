@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -224,13 +224,13 @@ rules:
   slug: vlex-rules
 score:
   band: thin
-  composite: 34.9
+  composite: 38.8
   coverage:
     artifact_dirs: 16
     catalog_gap: 60.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -240,9 +240,6 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 10.5
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 34.9
   provenance:
     agentic_access: derived
@@ -251,8 +248,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/screenshots/vlex-2026-06-20T201112.png
 security:

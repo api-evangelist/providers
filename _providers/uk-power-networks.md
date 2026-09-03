@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: API to work on records
   name: UK Power Networks Dataset API
   slug: uk-power-networks-dataset-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: Explore API
@@ -174,7 +174,7 @@ common:
   url: well-known/uk-power-networks-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uk-power-networks-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ examples:
   slug: uk-power-networks-getRecords-live-faults-response
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: UK Power Networks MCP Server
-  slug: uk-power-networks-mcp-server
 modified: '2026-07-27'
 name: UK Power Networks
 nav: Providers
@@ -319,14 +315,14 @@ rate_limits:
   name: Uk Power Networks Rate Limits
   slug: uk-power-networks-rate-limits
 score:
-  band: exemplar
-  composite: 67.5
+  band: strong
+  composite: 66.0
   coverage:
     artifact_dirs: 23
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -336,9 +332,6 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 57.9
-  open_source:
-    applies: true
-    score: 75.0
   previous_composite: 67.5
   provenance:
     agentic_access: derived
@@ -356,8 +349,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -143,7 +143,7 @@ apis:
   description: The Submit API from Amagi — 1 operation(s) for submit.
   name: Amagi Submit API
   slug: amagi-submit-api
-artifact_total: 45
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -267,7 +267,7 @@ common:
   url: security/amagi-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amagi-mcp.yml
 - group: agent
   title: ''
@@ -289,10 +289,6 @@ created: '2026-07-17'
 description: Amagi is a cloud-based technology company for the broadcast and streaming television industry. Its SaaS platform handles channel creation and playout, content distribution across linear, FAST (free ad-supported streaming TV) and connected-TV (CTV) destinations, server-side dynamic ad insertion and monetization, and viewership/ads analytics — letting content owners run live, linear and VOD channels from the cloud. Founded in 2008 and backed by Accel and Norwest Venture Partners, Amagi exposes internal operational REST APIs (Mapsor job/user orchestration and the services-amagi-tv key/customer service) documented via ReDoc, plus open-source tooling such as SLV. This profile was enriched by the API Evangelist pipeline from Amagi's published OpenAPI and public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amagi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amagi MCP Server
-  slug: amagi-mcp-server
 modified: '2026-07-17'
 name: Amagi
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amagi/refs/heads/main/screenshots/amagi-2026-07-25T195909.png
 security:

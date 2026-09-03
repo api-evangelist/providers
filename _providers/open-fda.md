@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
@@ -255,13 +255,13 @@ rules:
   slug: open-fda-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 28.1
   coverage:
     artifact_dirs: 11
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -271,9 +271,6 @@ score:
     discoverability: 74.1
     governance: 7.6
     operational_transparency: 31.6
-  open_source:
-    applies: true
-    score: 60.0
   previous_composite: 31.5
   regulatory:
     applies: true
@@ -281,8 +278,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:

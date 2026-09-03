@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://sinaitechnologies.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.sinai.com/ — a different registrable domain (sinaitechnologies.com -> sinai.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sinai.com/v1
@@ -51,7 +52,7 @@ apis:
   description: The Organization management API from Sinai Technologies — 20 operation(s) for organization management.
   name: Sinai Technologies Organization management API
   slug: sinai-technologies-organization-management-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -108,7 +109,7 @@ common:
   url: data-model/sinai-technologies-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sinai-technologies-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +167,6 @@ created: '2026-07-17'
 description: SINAI (Sinai Technologies, Inc.) is an AI-powered enterprise carbon management and sustainability platform for measuring, reducing, and reporting greenhouse-gas emissions. Its HTTP API uses OAuth 2.0 and exposes carbon accounting, the organization / business-entity hierarchy, emissions sources and models, industry taxonomy, activity periods, and baseline forecasts for decarbonization planning. SINAI supports audit-ready reporting for frameworks including CSRD, CBAM, California SB 253/261, and Brazil CVM/SBCE.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinai-technologies.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sinai Technologies MCP Server
-  slug: sinai-technologies-mcp-server
 modified: '2026-07-21'
 name: Sinai Technologies
 nav: Providers
@@ -212,8 +209,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/screenshots/sinai-technologies-2026-08-17T081904.png
 security:

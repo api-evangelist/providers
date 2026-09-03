@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The CSB does not currently offer a formal public API. However, it maintains public databases of investigations, recommendations, and incident reports accessible through its website. The CSB releases p
@@ -123,8 +123,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-chemical-safety-and-hazard-investigation-board/refs/heads/main/screenshots/us-chemical-safety-and-hazard-investigation-board-2026-06-20T200606.png
 security:

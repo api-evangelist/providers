@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Educative API is a platform that provides developers with access to a wide range of educational materials and resources through an easy-to-use interface. With Educative API, developers can access tuto
@@ -107,8 +107,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/screenshots/educative-2026-06-20T180500.png
 security:

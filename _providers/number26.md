@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://xs2a.tech26.de/v1/berlin-group/v1
@@ -41,7 +41,7 @@ apis:
   description: The default API from Number26 — 9 operation(s) for default.
   name: Number26 default API
   slug: number26-default-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: lifecycle/number26-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/number26-mcp.yml
 - group: other
   title: ''
@@ -134,10 +134,6 @@ created: '2026-07-17'
 description: Number26 — trading as N26 (legally N26 GmbH) — is a German licensed digital bank offering 100% mobile banking to more than 8 million customers across 24 European markets. Founded in Berlin in 2013 and holding a full banking licence from Germany's Federal Financial Supervisory Authority (BaFin), N26 provides current accounts with virtual and physical Mastercard debit cards, instant savings with variable interest, in-app stock/ETF and cryptocurrency investing, real-time spending insights, sub-accounts (Spaces), and travel features such as foreign-exchange and insurance, across a free tier and paid Smart, Go, and Metal plans plus matching business accounts. N26 is a consumer neobank and does not publish a public developer API, developer portal, or API documentation; this API Evangelist profile tracks the company's public web presence.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/number26.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Number26 MCP Server
-  slug: number26-mcp-server
 modified: '2026-07-20'
 name: Number26
 nav: Providers
@@ -184,8 +180,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/screenshots/number26-2026-08-07T185726.png
 security:

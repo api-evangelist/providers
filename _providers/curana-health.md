@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Standards-based FHIR R4 (4.0.1) Patient Access API published for CMS-9115-F / ONC 21st Century Cures Act compliance. Lets Medicare Advantage members authorize third-party applications via OAuth 2.0 to
   name: Curana Health Interoperability API
   slug: curana-health-interoperability-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: data-model/curana-health-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/curana-health-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Curana Health is a value-based senior-living healthcare company delivering on-site primary care, behavioral health, palliative care, integrated care management, and chronic-condition management to 250,000+ residents across 2,000+ senior living and skilled-nursing communities in more than 30 states, supported by 1,400+ providers, a national medical group, Accountable Care Organizations (ACOs), and Medicare Advantage Special Needs Plans. In support of the CMS Interoperability and Patient Access final rule (CMS-9115-F) and the ONC 21st Century Cures Act final rule (45 CFR 170.213 / 170.215), Curana Health publishes a standards-based FHIR R4 Interoperability (Patient Access) API at fhir.curanahealth.com that lets Medicare Advantage members authorize third-party apps to access their claims, encounter, and clinical data using OAuth 2.0, alongside a public provider-directory surface.
 image: https://curanahealth.com/wp-content/uploads/2025/04/Curana-Health-Logo-Full-Color-1000px-300x84.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Curana Health MCP Server
-  slug: curana-health-mcp-server
 modified: '2026-07-18'
 name: Curana Health
 nav: Providers
@@ -185,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 71.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/screenshots/curana-health-2026-07-25T210929.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -339,6 +339,10 @@ collections:
   name: AWS Step Functions
   slug: open-aws-step-functions
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aws-step-functions-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2011,7 +2015,7 @@ overview: 'AWS Step Functions publishes 26 APIs on the [APIs.io](https://apis.io
   The AWS Step Functions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS Step Functions'' developer surface includes authentication, documentation, support, pricing, engineering blog, changelog, and 11 more developer resources.'
+  AWS Step Functions'' developer surface includes authentication, documentation, support, pricing, engineering blog, changelog, and 12 more developer resources.'
 plans:
 - name: Aws Step Functions Plans Pricing
   plan_count: 3
@@ -2047,7 +2051,7 @@ score:
   band: developing
   composite: 49.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -2069,8 +2073,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/screenshots/aws-step-functions-2026-06-20T172818.png
 security:

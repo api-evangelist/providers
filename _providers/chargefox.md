@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Chargefox's Open Charge Point Interface implementation in the Charge Point Operator role, used for roaming so that another network's drivers can authorise, charge and be billed on Chargefox infrastruc
@@ -46,7 +46,7 @@ apis:
   description: The Fleets API from Chargefox — 4 operation(s) for fleets.
   name: Chargefox Fleets API
   slug: chargefox-fleets-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: Fleets API
@@ -58,7 +58,7 @@ common:
   url: capabilities/chargefox-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chargefox-mcp.yml
 - group: auth
   title: ''
@@ -207,10 +207,6 @@ examples:
   slug: chargefox-fleets-vehicles-200
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chargefox.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chargefox MCP Server
-  slug: chargefox-mcp-server
 modified: '2026-07-27'
 name: Chargefox
 nav: Providers
@@ -258,8 +254,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:

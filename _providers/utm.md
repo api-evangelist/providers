@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: UTM's institutional knowledge repository, running DSpace-CRIS on utmik.utm.my (161.139.22.165, inside UTM's own APNIC allocation 161.139.0.0/16, netname UTM-MY). The OAI-PMH 2.0 endpoint answers anony
@@ -265,8 +265,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/screenshots/utm-2026-06-20T200738.png
 security:

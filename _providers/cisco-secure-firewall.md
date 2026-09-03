@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -802,7 +802,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -812,7 +812,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 56.3
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -833,8 +833,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/screenshots/cisco-secure-firewall-2026-09-02T145045.png
 security:

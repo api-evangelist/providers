@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The users API from Rhythms — 1 operation(s) for users.
   name: Rhythms users API
   slug: rhythms-users-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -183,7 +183,7 @@ common:
   url: lifecycle/rhythms-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rhythms-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ created: '2026-07-17'
 description: Rhythms is an AI operating partner for teams, built by the team behind Ally.io and Microsoft Viva Goals. It automates business reviews, pre-briefs, reports, and OKR/goal tracking, surfaces execution risks early, and keeps organizational alignment visible across hundreds of connected business tools. Rhythms exposes a multi-tenant REST API (api.rhythms.ai) covering documents, teams, users, labels, OKR objectives and time periods, data sources, connector and access requests, and explorer views, with page-based pagination and a Ransack-based filtering DSL. It also supports custom Model Context Protocol (MCP) integrations so agents can connect to the platform. Backed by Accel.
 image: https://www.rhythms.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rhythms MCP Server
-  slug: rhythms-mcp-server
 modified: '2026-07-21'
 name: Rhythms
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/screenshots/rhythms-2026-09-02T153809.png
 security:

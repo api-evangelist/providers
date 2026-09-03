@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The Templates API from Rasayel — 2 operation(s) for templates.
   name: Rasayel Templates API
   slug: rasayel-templates-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: conformance/rasayel-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rasayel-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Rasayel is a WhatsApp platform for B2B sales teams. It combines a shared team inbox, workflow automation and lead qualification, chatbots and AI, WhatsApp message templates and Flows (forms), and campaign broadcasting, alongside CRM integrations (HubSpot, Pipedrive, Salesforce, Zoho) and Zapier. Its public REST API (api.rasayel.io/v1) and GraphQL API let developers manage contacts, message templates, conversations, tags, channels, and custom properties, and send WhatsApp messages programmatically using API-key authentication with Read and Read/Write scopes.
 image: https://github.com/rasayel.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rasayel MCP Server
-  slug: rasayel-mcp-server
 modified: '2026-07-20'
 name: Rasayel
 nav: Providers
@@ -275,8 +271,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/screenshots/rasayel-2026-08-17T081447.png
 security:

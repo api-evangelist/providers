@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Fountain's REST API for managing hiring and frontline workforce data — applicants, openings, positions, locations, interview slots and sessions, workers, secure documents, labels, notes, custom attrib
   name: Fountain Platform API
   slug: fountain-platform-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Fountain Webhooks
@@ -135,7 +135,7 @@ common:
   url: asyncapi/fountain-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fountain-mcp.yml
 - group: design
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Fountain is an AI-powered frontline workforce management platform used by 500+ enterprise employers across retail, logistics, hospitality, healthcare, and food service to source, hire, onboard, schedule, and retain high-volume hourly workers. Its developer platform exposes a REST API — the Hire v2 API plus newer Workforce, Attendance, Scheduling, Compliance, Referral, Pool, and Pulse microservices — for programmatically managing applicants, openings, positions, locations, interview slots, workers, documents, custom attributes, and data exports. Authentication is OAuth2 client-credentials (with a legacy X-ACCESS-TOKEN key model on tenant hosts), webhooks are HMAC-SHA-256 signed, requests are rate limited to 120/minute, and deprecations are signaled with RFC 8594 Sunset headers.
 image: https://logo.clearbit.com/fountain.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fountain MCP Server
-  slug: fountain-mcp-server
 modified: '2026-07-19'
 name: Fountain
 nav: Providers
@@ -204,8 +200,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png
 security:

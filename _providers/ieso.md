@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -66,7 +66,7 @@ apis:
 - description: A web service, specified in SPEC-113, for submitting and managing transmission and generation outage requests in IESO's Outage Coordination and Scheduling System. The design specification is public; t
   name: IESO Outage Coordination and Scheduling System (OCSS) Web Service
   slug: ieso-ocss-web-service
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Ieso Dispatch Notification Webhooks
@@ -190,7 +190,7 @@ common:
   url: well-known/ieso-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ieso-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ description: 'The Independent Electricity System Operator (IESO) is the Crown co
   a public interface specification. Its programmatic APIs are the opposite: the Axway SecureTransport REST API at reports.ieso.ca/api/v1.4, the SOAP Market Information Management web services, and the Appian-based Online IESO registration, retrofit, dispatch and outage web services are all reserved for registered Ontario market participants with IESO-issued machine accounts. IESO publishes no consumer energy-data API: Ontario''s Green Button mandate (O. Reg. 633/21) binds licensed electricity and gas distributors, not the system operator, so there is no retail usage or billing surface here at all.'
 image: https://www.ieso.ca/-/media/Images/IESO/Logo/ieso-logo-lrg.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: IESO MCP Server
-  slug: ieso-mcp-server
 modified: '2026-07-27'
 name: IESO
 nav: Providers
@@ -263,8 +259,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/screenshots/ieso-2026-08-07T170612.png
 security:

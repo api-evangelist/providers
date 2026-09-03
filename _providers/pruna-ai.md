@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Core prediction workflow operations
   name: Pruna AI Predictions API
   slug: pruna-ai-predictions-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: packages/pruna-ai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pruna-ai-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: 'Pruna AI builds Performance Models (P-Series) — optimized image and video generation models engineered to be faster, cheaper, and smaller than standard alternatives while keeping quality high. It ships three ways: a hosted HTTP API (P-API) that exposes ~20 models (text-to-image, image editing, upscaling, virtual try-on, text/image-to-video, avatar, animation and replacement, plus LoRA trainers) behind a single endpoint selected via a request header; an open-source Python optimization framework (pruna / pruna-pro) for caching, quantization, pruning, distillation and compilation of your own models; and hosted demos. The P-API uses apikey-header auth with an async submit/poll/download workflow and an optional synchronous mode. Pruna AI is a portfolio company of EQT Ventures.'
 image: https://framerusercontent.com/images/tM3dYw39zvWf45dsZXfTkZm0jNc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pruna AI MCP Server
-  slug: pruna-ai-mcp-server
 modified: '2026-07-20'
 name: Pruna AI
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/screenshots/pruna-ai-2026-08-17T081359.png
 security:

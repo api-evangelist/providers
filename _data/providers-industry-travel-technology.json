@@ -1,6 +1,6 @@
 {
- "total": 55,
- "shown": 55,
+ "total": 54,
+ "shown": 54,
  "limit": 1000,
  "bands": [
   {
@@ -16,7 +16,7 @@
      "slug": "oracle-hospitality",
      "description": "Oracle Hospitality is Oracle Corporation's hotel and food-and-beverage technology line, built on the 2014 acquisition of MICROS Systems and anchored by OPERA Cloud, the property management system that runs the front desk, reservations, housekeeping, cashiering and event sales for a large share of the world's branded hotel rooms, alongside OPERA Cloud Distribution, Simphony point of sale and Nor1 upsell. Home market is the United States. It sits in the middle of the hotel distribution chain rather than at either end: it is the system of record a property runs on, and the switch through which that property's availability, rates and inventory reach GDS, OTA and web channels and through which reservations come back. Its API posture is unusually open at the specification layer and firmly gated at the credential layer - Oracle publishes 59 Swagger 2.0 specifications covering roughly 3,500 operations to a public GitHub repository under the Universal Permissive License, and publishes the full Oracle Hospitality Integration Platform (OHIP) developer guide openly, but there is no self-serve signup: partners must purchase Oracle Hospitality Integration Cloud Service through the Oracle Store or a CPQ form, production access requires an Oracle Partner Network reference number, and distribution channel partners additionally need an Oracle-issued global Channel Code and an Oracle Cloud Marketplace listing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png",
-     "score": 64.0,
+     "score": 60.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -85,8 +85,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -130,8 +130,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -158,6 +158,51 @@
      "rank": 3
     },
     {
+     "name": "OpenTravel Alliance",
+     "slug": "opentravel-alliance",
+     "description": "The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001A through 2024A) and the model-driven OpenTravel 2.0 Object Model (OTM), which generates XML Schema, JSON Schema and Swagger 2.0 resource contracts — plus the OpenTravel Code Lists used across air, hospitality, car rental, cruise, rail, GDS, channel and technology-provider systems. OpenTravel does not operate a booking service or sit in the distribution chain itself; it supplies the message vocabulary that suppliers, GDSs, channel managers and OTAs implement between each other, which makes it a switching-cost reducer rather than a switching-cost holder. Its API posture is honest but thin: there is no OpenTravel-operated runtime API and no public certification registry, though it does run a free self-serve developer portal — the OpenTravel Developers Network at opentraveldevelopersnetwork.com — and, as of 2026, an OAuth 2.1 protected Model Context Protocol server on opentravel.org. Specifications are royalty-free and free of charge, but the canonical download is behind a name/company/email lead-capture form with terms acceptance, and the OTM repository and member review periods are membership-gated ($950–$11,250/yr by revenue band). A public, unlicensed GitHub mirror at github.com/OpenTravel/OpenTravel-Specifications carries the bulk of the corpus — including eight Swagger 2.0 resource contracts — and is the only ungated route to machine-readable artifacts. The organization has announced work with the Linux Foundation to form an Open Travel Foundation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png",
+     "score": 45.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 58.4,
+      "governance": 19.7,
+      "contract_governance": 19.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 32.9,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 46.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
      "name": "Airbnb",
      "slug": "airbnb",
      "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace, connecting hosts who offer accommodations and experiences with guests worldwide. The Airbnb developer platform provides connectivity partners — property management systems, channel managers, and experience operators — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event notifications. Access is restricted to approved partners.",
@@ -175,10 +220,9 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -205,7 +249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "WeTravel",
@@ -225,8 +269,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -257,51 +301,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
-    },
-    {
-     "name": "OpenTravel Alliance",
-     "slug": "opentravel-alliance",
-     "description": "The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001A through 2024A) and the model-driven OpenTravel 2.0 Object Model (OTM), which generates XML Schema, JSON Schema and Swagger 2.0 resource contracts — plus the OpenTravel Code Lists used across air, hospitality, car rental, cruise, rail, GDS, channel and technology-provider systems. OpenTravel does not operate a booking service or sit in the distribution chain itself; it supplies the message vocabulary that suppliers, GDSs, channel managers and OTAs implement between each other, which makes it a switching-cost reducer rather than a switching-cost holder. Its API posture is honest but thin: there is no OpenTravel-operated runtime API and no public certification registry, though it does run a free self-serve developer portal — the OpenTravel Developers Network at opentraveldevelopersnetwork.com — and, as of 2026, an OAuth 2.1 protected Model Context Protocol server on opentravel.org. Specifications are royalty-free and free of charge, but the canonical download is behind a name/company/email lead-capture form with terms acceptance, and the OTM repository and member review periods are membership-gated ($950–$11,250/yr by revenue band). A public, unlicensed GitHub mirror at github.com/OpenTravel/OpenTravel-Specifications carries the bulk of the corpus — including eight Swagger 2.0 resource contracts — and is the only ungated route to machine-readable artifacts. The organization has announced work with the Linux Foundation to form an Open Travel Foundation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png",
-     "score": 40.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 58.4,
-      "governance": 19.7,
-      "contract_governance": 19.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 54.2,
-      "commercial_clarity": 32.9,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 46.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 6
     },
     {
@@ -322,8 +321,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -367,8 +366,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -412,8 +411,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -447,8 +446,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Switchfly",
@@ -468,8 +467,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -513,8 +512,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -558,8 +557,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -603,8 +602,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -648,8 +647,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -693,8 +692,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -721,6 +720,51 @@
      "rank": 15
     },
     {
+     "name": "Webjet",
+     "slug": "webjet",
+     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png",
+     "score": 36.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 55.6,
+      "contract_quality": 49.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 32.7,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 30.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
      "name": "Nuitée (LiteAPI)",
      "slug": "nuitee",
      "description": "Nuitée is the travel technology company behind LiteAPI, a hotel-booking and distribution API platform. LiteAPI exposes a unified REST interface over 2M+ hotels for static content, real-time rates and availability, the prebook/book/cancel reservation flow, loyalty and vouchers, and booking webhooks, with a commission/markup revenue model and a free sandbox.",
@@ -738,8 +782,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -763,7 +807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Cloudbeds",
@@ -782,8 +826,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -814,7 +858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Marriott International",
@@ -834,8 +878,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -859,7 +903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "DerbySoft",
@@ -879,8 +923,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -895,51 +939,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Webjet",
-     "slug": "webjet",
-     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png",
-     "score": 32.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 49.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 32.7,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -968,8 +967,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1013,8 +1012,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1058,8 +1057,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1121,8 +1120,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1166,8 +1165,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1210,8 +1209,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1238,51 +1237,6 @@
      "rank": 26
     },
     {
-     "name": "Mews",
-     "slug": "mews",
-     "description": "Mews is a cloud property management system (PMS) for hotels, hostels, and apartments. Mews exposes a comprehensive Connector API, a Distributor API for booking, and a Channel Manager API. The Connector API publishes a full OpenAPI 3.0.4 spec covering operations, events, and webhooks for partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mews/refs/heads/main/screenshots/mews-2026-06-20T185313.png",
-     "score": 27.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 55.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 32.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
      "name": "Lighthouse",
      "slug": "lighthouse-travel",
      "description": "Lighthouse (formerly OTA Insight) is the commercial platform for the travel and hospitality industry, transforming data complexity into revenue growth for 80,000+ hotels across 185+ countries. Headquartered in London with offices across Europe, the Americas, and Asia-Pacific, Lighthouse combines market intelligence, business intelligence, and revenue management into a single SaaS suite. Core products include Rate Insight and Market Insight for competitive pricing and forward demand, Pricing Manager for automated revenue optimization, Benchmark Insight for Smart Compset competitive analysis, Business Intelligence for portfolio reporting, Parity Insight for distribution parity, Channel Manager for independent hotels, and newer AI products like KITT (AI receptionist) and Connect AI (ChatGPT direct-booking app). The platform processes 1.7 billion hotel rates per day across 300,000+ profiled competitor hotels. Lighthouse exposes a public, subscription-gated Integration API (api.mylighthouse.com, v3.1) for hotel customers and certified technology partners — covering Hotels, Markets, Rates, Demand, Ranking, Reviews, Parity, and Market Insight — and runs a partner program with 20+ named integrations including Mews, Infor, Duetto, Cendyn, Ideas, Atomize, SHR Group, and Cloudbeds. Revenue model is subscription SaaS sold by sales engagement; pricing is not published publicly.",
@@ -1300,8 +1254,8 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1325,7 +1279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Travelport",
@@ -1345,8 +1299,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1377,7 +1331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     }
    ]
   },
@@ -1407,8 +1361,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1432,7 +1386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Hyperguest",
@@ -1452,8 +1406,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1495,7 +1449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Delta Airlines",
@@ -1515,8 +1469,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1540,7 +1494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "TravelClick (Amadeus)",
@@ -1560,8 +1514,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1585,7 +1539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Atlys",
@@ -1605,8 +1559,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1630,7 +1584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "FLYR Labs",
@@ -1650,8 +1604,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1675,7 +1629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Duetto Research",
@@ -1695,8 +1649,53 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 35
+    },
+    {
+     "name": "HEDNA",
+     "slug": "hedna",
+     "description": "HEDNA (Hotel Electronic Distribution Network Association) is a not-for-profit trade association founded in 1991 and headquartered in Forest Hill, Maryland, United States, that convenes the hotel distribution industry — hotel chains, GDS operators, OTAs, switches, channel managers, payment providers and connectivity vendors — around shared best practice for hospitality electronic distribution. It sits alongside rather than inside the distribution chain: it moves no inventory and processes no bookings, but its Disciplines (Connectivity, Content Distribution, Payments, Data & Analytics, Revenue Optimization) produce recommendation documents, and it co-authored the Open Payments Alliance Standards Specification with HTNG and OpenTravel. HEDNA publishes no developer portal, no API, and no machine-readable specification on hedna.org; every probe of developer./developers./docs./api. subdomains and of /developers, /api, /docs, /openapi.json, /swagger.json, /api-docs and /.well-known/ failed (DNS failure or HTTP 404). Its publications library, research reports and HEDNA U courseware are gated behind paid membership at members.hedna.org (HTTP 403 Cloudflare challenge unauthenticated) and pathlms.com/hedna. Honest posture: member-gated documents, no public API, no exit path published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hedna/refs/heads/main/screenshots/hedna-2026-08-07T170042.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1723,25 +1722,25 @@
      "rank": 36
     },
     {
-     "name": "HEDNA",
-     "slug": "hedna",
-     "description": "HEDNA (Hotel Electronic Distribution Network Association) is a not-for-profit trade association founded in 1991 and headquartered in Forest Hill, Maryland, United States, that convenes the hotel distribution industry — hotel chains, GDS operators, OTAs, switches, channel managers, payment providers and connectivity vendors — around shared best practice for hospitality electronic distribution. It sits alongside rather than inside the distribution chain: it moves no inventory and processes no bookings, but its Disciplines (Connectivity, Content Distribution, Payments, Data & Analytics, Revenue Optimization) produce recommendation documents, and it co-authored the Open Payments Alliance Standards Specification with HTNG and OpenTravel. HEDNA publishes no developer portal, no API, and no machine-readable specification on hedna.org; every probe of developer./developers./docs./api. subdomains and of /developers, /api, /docs, /openapi.json, /swagger.json, /api-docs and /.well-known/ failed (DNS failure or HTTP 404). Its publications library, research reports and HEDNA U courseware are gated behind paid membership at members.hedna.org (HTTP 403 Cloudflare challenge unauthenticated) and pathlms.com/hedna. Honest posture: member-gated documents, no public API, no exit path published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hedna/refs/heads/main/screenshots/hedna-2026-08-07T170042.png",
-     "score": 13.1,
+     "name": "innRoad",
+     "slug": "innroad",
+     "description": "innRoad is a cloud-based hotel property management system (PMS) that bundles PMS, a direct booking engine, and a channel manager (OTA distribution to Expedia, Booking.com, Airbnb, and others) into one platform, built for independent hotels, boutique properties, and small hotel management companies. innRoad also offers 40+ pre-built partner connections - point-of-sale (Lightspeed, Oracle Hospitality, Squirrel, Positouch, Uniwell), door locks (RemoteLock, Saflok, ONITY), guest messaging (Akia), accounting (M3, Inn-Flow), and in-house payment processing (innRoad Payments) - that are toggled on inside the application. innRoad does NOT publish a public, self-service developer API. There is no developer portal, no public API reference, no OpenAPI definition, and no documented WebSocket or webhook API as of this cataloging; every listed integration is a pre-built, partner-gated connection rather than an open surface a third-party developer can register for and call.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/innroad/refs/heads/main/screenshots/innroad-2026-07-25T222515.png",
+     "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1766,51 +1765,6 @@
       "agentic_commerce": false
      },
      "rank": 37
-    },
-    {
-     "name": "innRoad",
-     "slug": "innroad",
-     "description": "innRoad is a cloud-based hotel property management system (PMS) that bundles PMS, a direct booking engine, and a channel manager (OTA distribution to Expedia, Booking.com, Airbnb, and others) into one platform, built for independent hotels, boutique properties, and small hotel management companies. innRoad also offers 40+ pre-built partner connections - point-of-sale (Lightspeed, Oracle Hospitality, Squirrel, Positouch, Uniwell), door locks (RemoteLock, Saflok, ONITY), guest messaging (Akia), accounting (M3, Inn-Flow), and in-house payment processing (innRoad Payments) - that are toggled on inside the application. innRoad does NOT publish a public, self-service developer API. There is no developer portal, no public API reference, no OpenAPI definition, and no documented WebSocket or webhook API as of this cataloging; every listed integration is a pre-built, partner-gated connection rather than an open surface a third-party developer can register for and call.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/innroad/refs/heads/main/screenshots/innroad-2026-07-25T222515.png",
-     "score": 11.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 38
     }
    ]
   },
@@ -1840,8 +1794,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1865,7 +1819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Cartrawler",
@@ -1885,8 +1839,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1917,7 +1871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Maestro PMS",
@@ -1937,8 +1891,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1962,7 +1916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "H2O Hospitality",
@@ -1982,8 +1936,53 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 41
+    },
+    {
+     "name": "Flexkeeping",
+     "slug": "flexkeeping",
+     "description": "Flexkeeping is a hotel operations automation platform (owned by Mews) that streamlines housekeeping, maintenance, front-office collaboration, and quality assurance for hotels and resorts. It centralizes staff task management, automated room cleaning schedules, checklists, lost-and-found, and guest service requests, and connects to major property management systems so operational teams can reduce manual work, coordinate across departments, and improve the guest experience across thousands of properties worldwide. Flexkeeping is an integration consumer rather than an API producer: it does not publish a public developer portal, OpenAPI definition, or API keys. Instead it ships pre-built connectors into PMS platforms including Mews, Apaleo, Oracle OPERA Cloud, Cloudbeds, RMS Cloud, Guesty, Shiji, Protel, SiHot, and Beds24.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flexkeeping/refs/heads/main/screenshots/flexkeeping-2026-07-25T214750.png",
+     "score": 8.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2010,11 +2009,11 @@
      "rank": 42
     },
     {
-     "name": "Flexkeeping",
-     "slug": "flexkeeping",
-     "description": "Flexkeeping is a hotel operations automation platform (owned by Mews) that streamlines housekeeping, maintenance, front-office collaboration, and quality assurance for hotels and resorts. It centralizes staff task management, automated room cleaning schedules, checklists, lost-and-found, and guest service requests, and connects to major property management systems so operational teams can reduce manual work, coordinate across departments, and improve the guest experience across thousands of properties worldwide. Flexkeeping is an integration consumer rather than an API producer: it does not publish a public developer portal, OpenAPI definition, or API keys. Instead it ships pre-built connectors into PMS platforms including Mews, Apaleo, Oracle OPERA Cloud, Cloudbeds, RMS Cloud, Guesty, Shiji, Protel, SiHot, and Beds24.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flexkeeping/refs/heads/main/screenshots/flexkeeping-2026-07-25T214750.png",
-     "score": 8.5,
+     "name": "Smartness",
+     "slug": "smartness",
+     "description": "Smartness (formerly Smartpricing) is an Italian hospitality-technology company that helps hotels, B&Bs, and vacation-rental operators automate online operations and grow direct revenue. Its product suite spans AI dynamic pricing (Smartpricing), a property management system (Smartpms), 24/7 guest messaging (Smartchat), email marketing and segmentation (Smartconnect), a website builder (Smartsite), reputation, ads, and payments (Smartpay), serving 4,000+ accommodation providers across Europe. Smartness connects to 80+ PMS and channel-manager platforms through partner integrations, but publishes no public developer API or portal; integrations are arranged via a partnership request. Backed by Partech.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smartness/refs/heads/main/screenshots/smartness-2026-09-02T155930.png",
+     "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2022,13 +2021,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2055,11 +2054,11 @@
      "rank": 43
     },
     {
-     "name": "Smartness",
-     "slug": "smartness",
-     "description": "Smartness (formerly Smartpricing) is an Italian hospitality-technology company that helps hotels, B&Bs, and vacation-rental operators automate online operations and grow direct revenue. Its product suite spans AI dynamic pricing (Smartpricing), a property management system (Smartpms), 24/7 guest messaging (Smartchat), email marketing and segmentation (Smartconnect), a website builder (Smartsite), reputation, ads, and payments (Smartpay), serving 4,000+ accommodation providers across Europe. Smartness connects to 80+ PMS and channel-manager platforms through partner integrations, but publishes no public developer API or portal; integrations are arranged via a partnership request. Backed by Partech.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smartness/refs/heads/main/screenshots/smartness-2026-09-02T155930.png",
-     "score": 7.9,
+     "name": "Hotelogix",
+     "slug": "hotelogix",
+     "description": "Hotelogix is a cloud-based hotel property management system (PMS) headquartered in Noida, India, serving more than 12,000 independent hotels, groups, chains, and resorts across 100+ countries since 2008. The platform provides front desk management, reservations, point-of-sale, housekeeping, revenue management, multi-property and group management, a web booking engine, a guest service mobile app, and an integrated channel manager that distributes inventory to OTAs and GDS. Hotelogix exposes a partner Web API (HAPI) at developer.hotelogix.net that uses XML POST over HTTP rather than REST/JSON, enabling channel managers, payment gateways, accounting systems, CRMs, loyalty programs, door locks, ID scanners, and in-room devices to integrate with the PMS. Documentation is split into Web (booking engine), Admin, and Frontdesk surfaces. There is no public OpenAPI specification, no public SDK, and no public GitHub org content; partner access and credentials are granted on request through the Hotelogix support and partnership teams. Revenue model is SaaS subscriptions per hotel/room along with an integration marketplace ecosystem.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotelogix/refs/heads/main/screenshots/hotelogix-2026-06-20T182847.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2067,13 +2066,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2100,25 +2099,32 @@
      "rank": 44
     },
     {
-     "name": "Hotelogix",
-     "slug": "hotelogix",
-     "description": "Hotelogix is a cloud-based hotel property management system (PMS) headquartered in Noida, India, serving more than 12,000 independent hotels, groups, chains, and resorts across 100+ countries since 2008. The platform provides front desk management, reservations, point-of-sale, housekeeping, revenue management, multi-property and group management, a web booking engine, a guest service mobile app, and an integrated channel manager that distributes inventory to OTAs and GDS. Hotelogix exposes a partner Web API (HAPI) at developer.hotelogix.net that uses XML POST over HTTP rather than REST/JSON, enabling channel managers, payment gateways, accounting systems, CRMs, loyalty programs, door locks, ID scanners, and in-room devices to integrate with the PMS. Documentation is split into Web (booking engine), Admin, and Frontdesk surfaces. There is no public OpenAPI specification, no public SDK, and no public GitHub org content; partner access and credentials are granted on request through the Hotelogix support and partnership teams. Revenue model is SaaS subscriptions per hotel/room along with an integration marketplace ecosystem.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotelogix/refs/heads/main/screenshots/hotelogix-2026-06-20T182847.png",
-     "score": 7.4,
+     "name": "GuruHotel",
+     "slug": "guruhotel",
+     "description": "GuruHotel is AI-native direct-booking infrastructure for independent hotels: an AI-powered hotel website builder, a conversion-optimized direct booking engine, and a Stripe-powered payment-orchestration platform that turns a hotel's official website into a commission-free direct booking channel with real-time inventory, multi-currency checkout and a guest-first experience. Founded in 2019, GuruHotel is trusted by 1000+ hotels, serves 200,000+ guests a year and processes $15M+ in annual gross booking value across the United States, Mexico, the Caribbean and Europe. It connects to hotel PMS platforms directly (Cloudbeds) and through Channex (280+ PMS incl. Mews, apaleo, Oracle OPERA Cloud, Guesty, Hostaway), plus Google for Hotels. GuruHotel is a portfolio company of 500 Global and Anthemis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guruhotel/refs/heads/main/screenshots/guruhotel-2026-07-25T220440.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2145,32 +2151,25 @@
      "rank": 45
     },
     {
-     "name": "GuruHotel",
-     "slug": "guruhotel",
-     "description": "GuruHotel is AI-native direct-booking infrastructure for independent hotels: an AI-powered hotel website builder, a conversion-optimized direct booking engine, and a Stripe-powered payment-orchestration platform that turns a hotel's official website into a commission-free direct booking channel with real-time inventory, multi-currency checkout and a guest-first experience. Founded in 2019, GuruHotel is trusted by 1000+ hotels, serves 200,000+ guests a year and processes $15M+ in annual gross booking value across the United States, Mexico, the Caribbean and Europe. It connects to hotel PMS platforms directly (Cloudbeds) and through Channex (280+ PMS incl. Mews, apaleo, Oracle OPERA Cloud, Guesty, Hostaway), plus Google for Hotels. GuruHotel is a portfolio company of 500 Global and Anthemis.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guruhotel/refs/heads/main/screenshots/guruhotel-2026-07-25T220440.png",
-     "score": 7.1,
+     "name": "reTravel.io",
+     "slug": "retravelio",
+     "description": "reTravel.io is a travel retention marketing platform that uses data science and machine learning to help travel companies, TMCs, and corporates retain customers, increase attachment rates, and grow revenue from their existing clients. Founded in 2020 by Revital Kristal and Nir Gurevich in Tel Aviv, the platform extracts booking information via predefined plugins and contextually engages travelers across multiple channels with personalized, policy-compliant products. It operates on a performance-based commercial model tied to the uplift it generates and is backed by Techstars. reTravel.io exposes no public developer API, SDK, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/retravelio/refs/heads/main/screenshots/retravelio-2026-09-02T153636.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2197,11 +2196,11 @@
      "rank": 46
     },
     {
-     "name": "reTravel.io",
-     "slug": "retravelio",
-     "description": "reTravel.io is a travel retention marketing platform that uses data science and machine learning to help travel companies, TMCs, and corporates retain customers, increase attachment rates, and grow revenue from their existing clients. Founded in 2020 by Revital Kristal and Nir Gurevich in Tel Aviv, the platform extracts booking information via predefined plugins and contextually engages travelers across multiple channels with personalized, policy-compliant products. It operates on a performance-based commercial model tied to the uplift it generates and is backed by Techstars. reTravel.io exposes no public developer API, SDK, or documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/retravelio/refs/heads/main/screenshots/retravelio-2026-09-02T153636.png",
-     "score": 6.3,
+     "name": "Duetto",
+     "slug": "duetto",
+     "description": "Duetto is a San Francisco–headquartered hospitality technology company providing a cloud-based Revenue and Profit Operating System (RP-OS) for hotels, casinos, resorts, and independent properties. Duetto's platform combines dynamic pricing, demand forecasting, group business optimization, benchmarking, and reporting to help hospitality operators optimize room rates, profitability, and total revenue performance. Core products include GameChanger (real-time dynamic pricing engine), ScoreBoard (forecasting and reporting dashboard), BlockBuster (group business optimization), Advance (AI-powered demand forecasting), HotStats (profitability benchmarking), and GameTime (select-service hotel revenue management). Duetto serves over 7,500 properties in more than 100 countries, with customers including Meliá, Sonesta, Virgin Hotels, and Sandman Hotel Group. Duetto integrates with major property management systems (PMS), central reservation systems (CRS), booking engines, and channel managers including Cloudbeds, Oracle OPERA / OHIP, Mews, Sabre, Amadeus, SiteMinder, and Infor. Duetto exposes an Open API for technical integration partners but does not publish a public, self-serve developer portal or OpenAPI specification — API access is partner-only and gated through a structured onboarding process with a self-testing toolkit. Revenue is generated through SaaS subscriptions to its revenue management products.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duetto/refs/heads/main/screenshots/duetto-2026-06-20T180314.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2209,13 +2208,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2242,11 +2241,11 @@
      "rank": 47
     },
     {
-     "name": "Duetto",
-     "slug": "duetto",
-     "description": "Duetto is a San Francisco–headquartered hospitality technology company providing a cloud-based Revenue and Profit Operating System (RP-OS) for hotels, casinos, resorts, and independent properties. Duetto's platform combines dynamic pricing, demand forecasting, group business optimization, benchmarking, and reporting to help hospitality operators optimize room rates, profitability, and total revenue performance. Core products include GameChanger (real-time dynamic pricing engine), ScoreBoard (forecasting and reporting dashboard), BlockBuster (group business optimization), Advance (AI-powered demand forecasting), HotStats (profitability benchmarking), and GameTime (select-service hotel revenue management). Duetto serves over 7,500 properties in more than 100 countries, with customers including Meliá, Sonesta, Virgin Hotels, and Sandman Hotel Group. Duetto integrates with major property management systems (PMS), central reservation systems (CRS), booking engines, and channel managers including Cloudbeds, Oracle OPERA / OHIP, Mews, Sabre, Amadeus, SiteMinder, and Infor. Duetto exposes an Open API for technical integration partners but does not publish a public, self-serve developer portal or OpenAPI specification — API access is partner-only and gated through a structured onboarding process with a self-testing toolkit. Revenue is generated through SaaS subscriptions to its revenue management products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duetto/refs/heads/main/screenshots/duetto-2026-06-20T180314.png",
-     "score": 6.2,
+     "name": "Dida",
+     "slug": "dida",
+     "description": "DidaTravel (道旅科技, Shenzhen Dida Travel Technology Co., Ltd.) is a technology-driven global travel distribution company. It operates an open platform that connects travel buyers and suppliers, providing flexible connectivity solutions across hotels, flights, airport transfers, and attraction tickets. Headquartered in Shenzhen, China, DidaTravel serves online travel agencies, tour operators, and other travel businesses worldwide with aggregated hotel content, dynamic rates, and booking delivered through its B2B distribution technology. The company positions itself as a global technology leader in travel product connectivity and is backed by investors including IDG Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dida/refs/heads/main/screenshots/dida-2026-07-25T212037.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2254,13 +2253,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2287,11 +2286,11 @@
      "rank": 48
     },
     {
-     "name": "Dida",
-     "slug": "dida",
-     "description": "DidaTravel (道旅科技, Shenzhen Dida Travel Technology Co., Ltd.) is a technology-driven global travel distribution company. It operates an open platform that connects travel buyers and suppliers, providing flexible connectivity solutions across hotels, flights, airport transfers, and attraction tickets. Headquartered in Shenzhen, China, DidaTravel serves online travel agencies, tour operators, and other travel businesses worldwide with aggregated hotel content, dynamic rates, and booking delivered through its B2B distribution technology. The company positions itself as a global technology leader in travel product connectivity and is backed by investors including IDG Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dida/refs/heads/main/screenshots/dida-2026-07-25T212037.png",
-     "score": 5.3,
+     "name": "RoomRaccoon",
+     "slug": "roomraccoon",
+     "description": "RoomRaccoon is an all-in-one hotel management software platform for independent hotels, B&Bs, guesthouses, hostels, and small chains, founded in 2017 by Tymen van Dyl and Nadja Buckenberger and headquartered in Breda, Netherlands with major operations in Cape Town, South Africa, plus offices in Valencia, Spain and Lisbon, Portugal. The platform bundles a cloud Property Management System (PMS), a Channel Manager that synchronises rates, availability, and restrictions across 200+ OTAs, metasearch engines, GDSs, and bedbanks, a commission-free Booking Engine for direct website bookings with bookable add-ons, RaccoonPay for integrated, multi-currency guest payments, and RaccoonRev for competitor insights and revenue management. RoomRaccoon advertises 400+ integrations with partners such as Booking.com, Expedia, Lightspeed, and Sage, and was named World's Best Hotel Channel Manager at the 2023 World Travel Tech Awards. A connectivity / partner API exists at api.roomraccoon.com (e.g. POS endpoint at /api/?type=POS&version=2) but is access-controlled: prospective integrators must request an API key and Hotel ID by emailing connectivity@roomraccoon.com, and no public OpenAPI specification, public SDKs, or public GitHub organisation are published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roomraccoon/refs/heads/main/screenshots/roomraccoon-2026-06-20T193221.png",
+     "score": 5.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2299,13 +2298,20 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2332,11 +2338,11 @@
      "rank": 49
     },
     {
-     "name": "RoomRaccoon",
-     "slug": "roomraccoon",
-     "description": "RoomRaccoon is an all-in-one hotel management software platform for independent hotels, B&Bs, guesthouses, hostels, and small chains, founded in 2017 by Tymen van Dyl and Nadja Buckenberger and headquartered in Breda, Netherlands with major operations in Cape Town, South Africa, plus offices in Valencia, Spain and Lisbon, Portugal. The platform bundles a cloud Property Management System (PMS), a Channel Manager that synchronises rates, availability, and restrictions across 200+ OTAs, metasearch engines, GDSs, and bedbanks, a commission-free Booking Engine for direct website bookings with bookable add-ons, RaccoonPay for integrated, multi-currency guest payments, and RaccoonRev for competitor insights and revenue management. RoomRaccoon advertises 400+ integrations with partners such as Booking.com, Expedia, Lightspeed, and Sage, and was named World's Best Hotel Channel Manager at the 2023 World Travel Tech Awards. A connectivity / partner API exists at api.roomraccoon.com (e.g. POS endpoint at /api/?type=POS&version=2) but is access-controlled: prospective integrators must request an API key and Hotel ID by emailing connectivity@roomraccoon.com, and no public OpenAPI specification, public SDKs, or public GitHub organisation are published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roomraccoon/refs/heads/main/screenshots/roomraccoon-2026-06-20T193221.png",
-     "score": 5.1,
+     "name": "ITA Software",
+     "slug": "ita-software",
+     "description": "ITA Software is a travel technology company, now part of Google, that builds airfare pricing, shopping, and availability software for airlines, online travel agencies, and travel management companies. Founded in 1996 in Cambridge, Massachusetts by MIT computer scientists (notably Jeremy Wertheimer) and backed early by Battery Ventures, General Catalyst, and Sequoia Capital, the company was acquired by Google in 2011. Its flagship QPX engine powers pricing, revenue shopping, ticket rebooking, award-flight search, ancillary merchandising, and flight schedule/seat availability for carriers including Air Canada, American Airlines, Delta, United, and Virgin Atlantic, and its technology underpins Google Flights. ITA Software also operates the consumer ITA Matrix flight-search tool at matrix.itasoftware.com. The former public QPX Express REST API was retired by Google in April 2018; today ITA Software's QPX solutions are delivered as an enterprise engagement through Google account teams, with no public self-service developer program, portal, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ita-software/refs/heads/main/screenshots/ita-software-2026-07-25T222952.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2345,19 +2351,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2384,25 +2383,25 @@
      "rank": 50
     },
     {
-     "name": "ITA Software",
-     "slug": "ita-software",
-     "description": "ITA Software is a travel technology company, now part of Google, that builds airfare pricing, shopping, and availability software for airlines, online travel agencies, and travel management companies. Founded in 1996 in Cambridge, Massachusetts by MIT computer scientists (notably Jeremy Wertheimer) and backed early by Battery Ventures, General Catalyst, and Sequoia Capital, the company was acquired by Google in 2011. Its flagship QPX engine powers pricing, revenue shopping, ticket rebooking, award-flight search, ancillary merchandising, and flight schedule/seat availability for carriers including Air Canada, American Airlines, Delta, United, and Virgin Atlantic, and its technology underpins Google Flights. ITA Software also operates the consumer ITA Matrix flight-search tool at matrix.itasoftware.com. The former public QPX Express REST API was retired by Google in April 2018; today ITA Software's QPX solutions are delivered as an enterprise engagement through Google account teams, with no public self-service developer program, portal, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ita-software/refs/heads/main/screenshots/ita-software-2026-07-25T222952.png",
+     "name": "Life House",
+     "slug": "life-house",
+     "description": "Life House was a vertically integrated hotel software, brand and management company founded in 2017 and headquartered in Miami Beach, Florida. It built its own back-of-house operating system — property management, revenue management, digital marketing and financial operations — for independent hotels, ran more than 50 properties across the United States, Mexico and Canada, and from 2021 sold the platform to third-party hoteliers. It raised over $100M from Inovia Capital, KAYAK, Tiger Global, Trinity Ventures, Sound Ventures and JLL. In December 2024 Life House combined its management portfolio with Lark Hotels to form Lark Hospitality — in which Lark holds the controlling interest — and spun its AI revenue-management platform out as Diamo. Life House never operated a public developer program: it was a consumer of hotel APIs (notably the Mews Open API) rather than a publisher of one, lifehousehotels.com now 301-redirects to larkhotels.com, no api/developer/docs subdomain resolves in DNS, and its GitHub organization holds a single fork of a third-party JavaScript library.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-house/refs/heads/main/screenshots/life-house-2026-09-02T150258.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2429,25 +2428,25 @@
      "rank": 51
     },
     {
-     "name": "Life House",
-     "slug": "life-house",
-     "description": "Life House was a vertically integrated hotel software, brand and management company founded in 2017 and headquartered in Miami Beach, Florida. It built its own back-of-house operating system — property management, revenue management, digital marketing and financial operations — for independent hotels, ran more than 50 properties across the United States, Mexico and Canada, and from 2021 sold the platform to third-party hoteliers. It raised over $100M from Inovia Capital, KAYAK, Tiger Global, Trinity Ventures, Sound Ventures and JLL. In December 2024 Life House combined its management portfolio with Lark Hotels to form Lark Hospitality — in which Lark holds the controlling interest — and spun its AI revenue-management platform out as Diamo. Life House never operated a public developer program: it was a consumer of hotel APIs (notably the Mews Open API) rather than a publisher of one, lifehousehotels.com now 301-redirects to larkhotels.com, no api/developer/docs subdomain resolves in DNS, and its GitHub organization holds a single fork of a third-party JavaScript library.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-house/refs/heads/main/screenshots/life-house-2026-09-02T150258.png",
+     "name": "Pace Revenue",
+     "slug": "pace-revenue",
+     "description": "Pace Revenue was a London-based revenue management and dynamic pricing platform for hotels and hospitality operators that used machine learning to recommend optimal room rates from real-time demand, market, and booking-pace signals. Founded in 2016 and backed by Speedinvest, Pace was acquired by FLYR in 2023, and its revenue-optimization technology has since been folded into FLYR's hospitality commercial platform. Pace Revenue does not currently publish a public developer portal or an openly documented API specification; developer resources for the combined offering now live behind FLYR's gated developer knowledge base. This profile was surfaced as a Speedinvest portfolio company and enriched by the API Evangelist pipeline; no public machine-readable API surface was found at enrichment time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pace-revenue/refs/heads/main/screenshots/pace-revenue-2026-08-07T191233.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2474,10 +2473,10 @@
      "rank": 52
     },
     {
-     "name": "Pace Revenue",
-     "slug": "pace-revenue",
-     "description": "Pace Revenue was a London-based revenue management and dynamic pricing platform for hotels and hospitality operators that used machine learning to recommend optimal room rates from real-time demand, market, and booking-pace signals. Founded in 2016 and backed by Speedinvest, Pace was acquired by FLYR in 2023, and its revenue-optimization technology has since been folded into FLYR's hospitality commercial platform. Pace Revenue does not currently publish a public developer portal or an openly documented API specification; developer resources for the combined offering now live behind FLYR's gated developer knowledge base. This profile was surfaced as a Speedinvest portfolio company and enriched by the API Evangelist pipeline; no public machine-readable API surface was found at enrichment time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pace-revenue/refs/heads/main/screenshots/pace-revenue-2026-08-07T191233.png",
+     "name": "Rebookify",
+     "slug": "rebookify",
+     "description": "Rebookify is a travel-technology company that helps travel agencies and travel management companies save money on hotel bookings by continuously monitoring the price of existing hotel reservations and automatically rebooking them at lower rates whenever prices drop, capturing the savings without changing the guest's stay. Backed by 500 Global, Rebookify operates a business-facing web product at rebookify.com. As of this enrichment pass no public developer API, documentation, developer portal, SDKs, or /.well-known discovery surface has been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rebookify/refs/heads/main/screenshots/rebookify-2026-09-02T153032.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2491,8 +2490,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2519,51 +2518,6 @@
      "rank": 53
     },
     {
-     "name": "Rebookify",
-     "slug": "rebookify",
-     "description": "Rebookify is a travel-technology company that helps travel agencies and travel management companies save money on hotel bookings by continuously monitoring the price of existing hotel reservations and automatically rebooking them at lower rates whenever prices drop, capturing the savings without changing the guest's stay. Backed by 500 Global, Rebookify operates a business-facing web product at rebookify.com. As of this enrichment pass no public developer API, documentation, developer portal, SDKs, or /.well-known discovery surface has been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rebookify/refs/heads/main/screenshots/rebookify-2026-09-02T153032.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
      "name": "Europass",
      "slug": "europass",
      "description": "EuroPass is a Paris-based digital agency founded in 2016 that specializes in Chinese outbound tourism, describing itself as the European leader in implementing Chinese digital solutions for destinations, retailers, transportation, attractions, and hospitality brands. Its services span Chinese social-media management (notably WeChat and Weibo), WeChat mini-programs and stores, e-commerce, digital ticketing, destination marketing, and mobile payment acceptance via WeChat Pay and Alipay so European businesses can serve and transact with Chinese travelers. EuroPass operates as a services and marketing company rather than a developer platform: it publishes no public API, developer portal, SDKs, or technical documentation. This profile was surfaced as a portfolio company of Partech and enriched with the identity and domain-security data available from its public web presence.",
@@ -2581,8 +2535,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2613,7 +2567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     }
    ]
   }

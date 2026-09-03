@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ arazzos:
 - description: Find pods that are not Running, read the failing pod's detail, tail its logs, and pull namespace events.
   name: Kubernetes Troubleshoot a Failing Pod
   slug: kubernetes-troubleshoot-pod-workflow
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: The Kubernetes Watch API provides a streaming event interface for receiving real-time notifications about changes to cluster resources. Clients subscribe to resource types and receive a stream of ADDE
   name: Kubernetes Watch Events
@@ -197,7 +197,7 @@ common:
   url: well-known/kubernetes-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kubernetes-mcp.yml
 - group: agent
   title: ''
@@ -460,10 +460,6 @@ jsonld:
   property_count: 36
   slug: kubernetes-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kubernetes MCP Server
-  slug: kubernetes-mcp-server
 modified: '2026-06-20'
 name: Kubernetes
 nav: Providers
@@ -534,8 +530,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

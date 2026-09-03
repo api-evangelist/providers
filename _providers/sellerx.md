@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A live, remotely hosted Model Context Protocol server operated by SellerX at mcp.sellerx.com. The endpoint requires an OAuth 2.1 bearer token, so the tool manifest is auth-gated, but the server publis
@@ -143,8 +143,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sellerx/refs/heads/main/screenshots/sellerx-2026-09-02T154822.png
 security:

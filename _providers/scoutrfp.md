@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ apis:
   description: 'Use the worksheets API to create, update, and query the worksheets in Workday Strategic Sourcing. ## Worksheet Object <SchemaDefinition schemaRef="#/components/schemas/WorksheetModel" showReadOnly={tr'
   name: Scout RFP (Workday Strategic Sourcing) worksheets API
   slug: scoutrfp-worksheets-api
-artifact_total: 96
+artifact_total: 95
 collections:
 - collection_type: open
   name: API Collection
@@ -490,7 +490,7 @@ common:
   url: agentic-access/scoutrfp-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scoutrfp-mcp.yml
 - group: agent
   title: ''
@@ -540,10 +540,6 @@ created: '2026-07-17'
 description: Scout RFP is a strategic sourcing and supplier engagement platform founded in 2014 and acquired by Workday in 2019, where it now ships as Workday Strategic Sourcing. The product covers sourcing events (RFPs/RFIs/RFQs and auctions), supplier management, contracts, projects, spend categories, awards, and supplier payments. Its public developer platform exposes a JSON:API-conformant REST API across eleven versioned services — Suppliers, Events, Reports, Contracts, Projects, Payments, Fields, Awards, Attachments, and Spend Categories — plus a SCIM 2.0 user-provisioning API. Authentication is by company API key plus a per-user personal token, all calls are HTTPS/JSON:API, cursor paginated, and rate limited to five requests per second. The legacy v3 API on api.scoutrfp.com was sunset April 18, 2025 in favor of the versioned services on api.us.workdayspend.com (with EU and CA regional hosts).
 image: https://www.workday.com/content/dam/web/en-us/images/social/workday-og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Scout RFP (Workday Strategic Sourcing) MCP Server
-  slug: scout-rfp-workday-strategic-sourcing-mcp-server
 modified: '2026-07-21'
 name: Scout RFP (Workday Strategic Sourcing)
 nav: Providers
@@ -586,8 +582,8 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scoutrfp/refs/heads/main/screenshots/scoutrfp-2026-09-02T154558.png
 security:

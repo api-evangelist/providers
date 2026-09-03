@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -588,8 +588,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:

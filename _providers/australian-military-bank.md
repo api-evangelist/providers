@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://public.open.australianmilitarybank.com.au/cds-au/v1/banking/products
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: Australian Military Bank Banking Products API
   slug: australian-military-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: data-model/australian-military-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/australian-military-bank-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-20'
 description: Australian Military Bank Ltd (ABN 48 087 649 741, AFSL/Australian Credit Licence 237988, BSB 642170) is a customer-owned mutual authorised deposit-taking institution (ADI) that has served the Australian Defence Force community, veterans, and their families since 1959, making it one of Australia's longest-serving Defence financial institutions. As an active ADI it participates in Australia's Consumer Data Right (CDR) open banking regime, and its only public, unauthenticated API surface is the mandated Product Reference Data (PRD) API built to the Data Standards Body (DSB) Consumer Data Standards. Consumer data sharing (accounts, balances, transactions) is available only to accredited data recipients through the CDR's authenticated, FAPI-profiled OAuth2/OIDC flows; the bank does not publish a broader self-serve developer portal or proprietary API program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/australian-military-bank.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the public, unauthenticated CDR Product Reference Data endpoints. Australian Military Bank publishes no official hosted MCP server; these tools map 1:1 to the t
-  name: Australian Military Bank MCP Server
-  slug: australian-military-bank-mcp-server
 modified: '2026-07-21'
 name: Australian Military Bank
 nav: Providers
@@ -246,8 +242,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
 security:

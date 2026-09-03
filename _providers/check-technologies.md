@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Check's REST API for embedding full-service payroll — companies, employees, contractors, pay schedules, payrolls, payments, tax filings, documents, bank accounts, and webhooks — into a platform produc
@@ -209,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-technologies/refs/heads/main/screenshots/check-technologies-2026-07-25T205128.png
 security:

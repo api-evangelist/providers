@@ -29,8 +29,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -71,8 +71,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Verizon",
@@ -92,8 +92,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -143,8 +143,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -176,26 +176,15 @@
       "agentic_commerce": false
      },
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "Zoom",
      "slug": "zoom",
      "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 54.8,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 71.9,
@@ -206,8 +195,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -233,7 +222,8 @@
      },
      "rank": 4
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "emerging",
@@ -260,8 +250,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -312,8 +302,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -367,8 +357,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",

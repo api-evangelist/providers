@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ apis:
   description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
   name: American Gene Technologies Young Minds API
   slug: american-gene-technologies-international-young-minds-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -204,7 +204,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/american-gene-technologies-international-mcp.yml
 - group: other
   title: ''
@@ -363,10 +363,6 @@ description: American Gene Technologies International Inc. (AGT) is a privately 
   machine-readable surface reachable without credentials is the WordPress REST content API behind americangene.com, catalogued in this profile — a read-only content surface exposing the company's gene therapy reference entries, patent portfolio, news releases, press coverage, blog, newsletters, advisory board, milestones, media library and video series as structured JSON.
 image: https://www.americangene.com/wp-content/uploads/2021/03/americangenetechnologies-homepage.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: American Gene Technologies MCP Server
-  slug: american-gene-technologies-mcp-server
 modified: '2026-08-06'
 name: American Gene Technologies
 nav: Providers
@@ -411,8 +407,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:

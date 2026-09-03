@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 28.1
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://striim.stoplight.io
@@ -134,6 +159,37 @@ rate_limits:
 - limit_count: 0
   name: Striim Rate Limits
   slug: striim-rate-limits
+score:
+  band: developing
+  composite: 48.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 39.3
+  facets:
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 52.4
+    developer_ergonomics: 44.6
+    discoverability: 74.1
+    governance: 4.5
+    operational_transparency: 21.1
+  previous_composite: 9.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/screenshots/striim-2026-09-02T161015.png
 security:
 - kind: authentication

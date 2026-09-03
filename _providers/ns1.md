@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://ns1.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.ibm.com/products/ns1-connect — a different registrable domain (ns1.com -> ibm.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -141,8 +142,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 25.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/screenshots/ns1-2026-08-07T185658.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Management API for an Edgee organization: export AI Gateway usage and cost data as CSV or JSON, create/list/update/delete AI Gateway API keys, and configure custom BYOK provider keys. Bearer-token aut'
@@ -267,8 +267,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/screenshots/edgee-2026-09-02T145329.png
 security:

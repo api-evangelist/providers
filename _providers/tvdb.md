@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -993,13 +993,13 @@ rules:
   slug: tvdb-rules
 score:
   band: developing
-  composite: 50.9
+  composite: 53.8
   coverage:
     artifact_dirs: 17
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -1009,9 +1009,6 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -1020,8 +1017,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:

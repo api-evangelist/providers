@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
@@ -76,7 +76,7 @@ apis:
   description: The Products API from MyState Bank — 2 operation(s) for products.
   name: MyState Bank Products API
   slug: mystate-bank-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: data-model/mystate-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mystate-bank-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ created: '2026-07-20'
 description: MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania, and the principal banking brand of ASX-listed MyState Limited (ASX:MYS). It traces its origins to a Tasmanian credit union serving teachers, police and nurses, formed its current group in the 2009 merger of Tasmanian Perpetual Trustees and MyState Financial, was authorised to use the MyState Bank name in 2014, and in February 2025 completed a merger with Queensland regional lender Auswide Bank to create one of Australia's larger regional banking groups. As an authorised deposit-taking institution (ADI) it is a regulated data holder under the Australian Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Consumer data sharing beyond PRD is protected under the CDR's accredited-data-recipient model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mystate-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MyState Bank MCP Server
-  slug: mystate-bank-mcp-server
 modified: '2026-07-21'
 name: MyState Bank
 nav: Providers
@@ -245,8 +241,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png
 security:

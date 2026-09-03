@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -235,8 +235,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/screenshots/kixie-2026-08-17T081010.png
 security:

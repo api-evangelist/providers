@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: TJX Companies requires EDI compliance for all resale vendors, supporting purchase orders (850), purchase order acknowledgements (855), advanced shipping notices (856), invoices (810), motor carrier lo
@@ -160,8 +160,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 13.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png
 security:

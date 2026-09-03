@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.coordinatehq.com/api/v1
@@ -106,7 +106,7 @@ apis:
   description: The Coordinate REST API API from Coordinate — 0 operation(s) for coordinate rest api.
   name: Coordinate Coordinate REST API
   slug: coordinate-coordinate-rest-api-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Coordinate Webhooks
@@ -237,7 +237,7 @@ common:
   url: asyncapi/coordinate-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coordinate-mcp.yml
 - group: agent
   title: ''
@@ -263,10 +263,6 @@ created: '2026-07-17'
 description: Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.
 image: https://cdn.prod.website-files.com/639cbe2ae16424db11366965/68c4925a9be35099761c7e7a_coordinatehq-opengraph-sept-2025.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coordinate MCP Server
-  slug: coordinate-mcp-server
 modified: '2026-07-18'
 name: Coordinate
 nav: Providers
@@ -307,8 +303,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png
 security:

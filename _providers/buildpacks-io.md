@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -387,9 +387,6 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 40.0
   provenance:
     agentic_access: derived
@@ -399,11 +396,10 @@ score:
       marker_coverage: 0.0
       total: 2
   regulatory:
-    applies: false
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The FlashExpress Open API is the merchant-facing integration surface for Flash Express parcel logistics in Thailand. All calls are HTTPS POST with an application/x-www-form-urlencoded body and a JSON '
@@ -201,8 +201,8 @@ score:
   previous_composite: 34.4
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-express/refs/heads/main/screenshots/flash-express-2026-08-17T080933.png
 security:

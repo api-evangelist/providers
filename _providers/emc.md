@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.delltechnologies.com/en-us/index.htm'', ''status'': 301, ''note'': ''declared website redirects to https://www.dell.com/en-us — a different registrable domain (delltechnologies.com -> dell.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.8
-  scored_at: '2026-09-02'
+  score: 7.9
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The ECS Management REST API provides programmatic access to manage Dell EMC Elastic Cloud Storage (ECS) object storage platform. It supports namespace management, user management, storage pool configu
@@ -42,7 +43,7 @@ apis:
 - description: The Unisphere Management REST API provides programmatic access to manage Dell EMC Unity and PowerStore storage arrays. It supports storage resource provisioning, performance monitoring, alert manageme
   name: EMC Unisphere REST API
   slug: unisphere-api
-artifact_total: 29
+artifact_total: 28
 common:
 - group: commercial
   title: ''
@@ -138,7 +139,7 @@ common:
   url: changelog/emc-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/emc-mcp.yml
 - group: start
   title: ''
@@ -217,10 +218,6 @@ integrations:
 - Kubernetes CSI
 - Ansible
 layout: provider
-mcp_servers:
-- description: ''
-  name: EMC MCP Server
-  slug: emc-mcp-server
 modified: '2026-08-29'
 name: EMC
 nav: Providers
@@ -276,8 +273,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/screenshots/emc-2026-06-20T180631.png
 security:

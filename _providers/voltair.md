@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.7
-  scored_at: '2026-09-02'
+  score: 39.0
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.voltairlabs.com
@@ -116,7 +116,7 @@ apis:
   description: The Webhooks API from Voltair — 5 operation(s) for webhooks.
   name: Voltair Webhooks API
   slug: voltair-webhooks-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Voltair Webhooks
@@ -244,7 +244,7 @@ common:
   url: data-model/voltair-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/voltair-mcp.yml
 - group: agent
   title: ''
@@ -266,10 +266,6 @@ created: '2026-07-17'
 description: Voltair (Y Combinator W26, San Francisco) is building a globally distributed network of autonomous drones for Earth observation, starting with power utilities. Its long-range, weatherized Faraday-1 aircraft recharge on Lighthouse-1 pads installed at utility substations and capture high-resolution RGB, radiometric thermal, and LiDAR data for asset inspection, LiDAR corridor mapping, post-storm damage assessment, and rapid fault localization. The Voltair API is an organization-scoped infrastructure inspection platform covering sites, assets, defects, clusters, missions, visits, media, inspections, an audit/undo transaction log, API keys, and signed webhooks.
 image: https://avatars.githubusercontent.com/u/203074429
 layout: provider
-mcp_servers:
-- description: No official Voltair MCP server was found (no public MCP docs, npm packages, or registry entries as of 2026-07-21). This is a candidate tool surface derived from the published OpenAPI at https://api.vo
-  name: Voltair MCP Server
-  slug: voltair-mcp-server
 modified: '2026-07-21'
 name: Voltair
 nav: Providers
@@ -320,8 +316,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

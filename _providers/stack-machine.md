@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint for deploying and managing StackMachine apps, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing,
   name: StackMachine GraphQL API
   slug: stackmachine-graphql-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -135,7 +135,7 @@ common:
   url: conformance/stack-machine-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stack-machine-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: StackMachine is elastic, headless infrastructure for AI applications and agents. It runs existing Node.js, Python, and PHP codebases as WebAssembly with sub-5ms cold starts and sandboxed execution for untrusted or AI-generated code, packing thousands of apps per server. The platform is driven by a single GraphQL API (api.stackmachine.com/graphql) plus official JavaScript and Python SDKs, exposing app deployment, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing, SSH access, and usage metering. Backed by a16z.
 image: https://www.stackmachine.com/opengraph-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stack Machine MCP Server
-  slug: stack-machine-mcp-server
 modified: '2026-07-21'
 name: Stack Machine
 nav: Providers
@@ -189,8 +185,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-machine/refs/heads/main/screenshots/stack-machine-2026-08-17T082055.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Aria API is the REST control surface for the Aria Networks Deep Networking platform. Its unauthenticated root index at https://api.arianetworks.com/ advertises version 1.0.0 and sixteen resource g
@@ -145,8 +145,8 @@ score:
   previous_composite: 18.4
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

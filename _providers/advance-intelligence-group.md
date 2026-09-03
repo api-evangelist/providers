@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.advance.ai
@@ -56,7 +56,7 @@ apis:
   description: Optical character recognition for identity documents.
   name: Advance Intelligence Group OCR API
   slug: advance-intelligence-group-ocr-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: packages/advance-intelligence-group-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/advance-intelligence-group-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ created: '2026-07-17'
 description: 'Advance Intelligence Group is an AI-driven technology company headquartered in Singapore, founded in 2016 and backed by SoftBank Vision Fund, Warburg Pincus and others. It operates three core business lines: ADVANCE.AI (Southeast Asia''s leading provider of digital identity verification, KYC/KYB, AML, compliance and risk-management solutions, serving 500+ enterprise clients), Atome Financial (buy-now-pay-later and digital lending) and Ginee (e-commerce enablement). The ADVANCE.AI business unit exposes a public Open API for eKYC — token authentication, global document verification, OCR field extraction, face comparison and liveness detection — used across banking, fintech, payments, retail and e-commerce in emerging markets. This API Evangelist profile was enriched from the public developer documentation at doc.advance.ai.'
 image: https://advance.ai/wp-content/uploads/2025/09/top-header-right-image.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Advance Intelligence Group MCP Server
-  slug: advance-intelligence-group-mcp-server
 modified: '2026-07-17'
 name: Advance Intelligence Group
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

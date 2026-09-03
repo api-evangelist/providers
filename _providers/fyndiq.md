@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Retrieve, fulfil and cancel marketplace orders.
   name: Fyndiq Orders API
   slug: fyndiq-orders-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: postman
   name: NEW FYNDIQ API
@@ -142,7 +142,7 @@ common:
   url: conformance/fyndiq-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fyndiq-mcp.yml
 - group: build
   title: ''
@@ -172,10 +172,6 @@ created: '2026-07-17'
 description: Fyndiq is Sweden's largest online marketplace for bargains and deals, connecting merchants with millions of deal-seeking consumers across categories from electronics and mobile accessories to home, fashion, beauty and children's goods. Merchants list products while Fyndiq handles the storefront, customer relations and payments. Fyndiq exposes a REST Merchant API that lets sellers upload and manage product articles (create, bulk, price, quantity, delete) and retrieve, fulfil and cancel orders. The API is JSON over HTTPS, secured with HTTP Basic Authentication (Base64 merchantID:token), with a self-contained sandbox environment for integration testing and official Magento, PrestaShop and WooCommerce integration modules. Fyndiq is part of the CDON marketplace group and was originally backed by Northzone.
 image: https://fyndiq.se/fyndiq/fyndiq_share.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fyndiq MCP Server
-  slug: fyndiq-mcp-server
 modified: '2026-07-19'
 name: Fyndiq
 nav: Providers
@@ -214,8 +210,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png
 security:

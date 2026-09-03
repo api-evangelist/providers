@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - baseURL: https://prometheusfuels.ai/wp-json
@@ -97,7 +97,7 @@ apis:
   description: The statuses API from Prometheus Fuels — 2 operation(s) describing publication statuses.
   name: Prometheus Fuels statuses API
   slug: prometheus-fuels-statuses-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -165,7 +165,7 @@ common:
   url: conformance/prometheus-fuels-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/prometheus-fuels-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ description: Prometheus Fuels is a Santa Cruz, California energy company founded
   pages, posts, the site's `news-articles` custom post type, categories, tags, media, comments, users, search, taxonomies, types and statuses, with write operations gated behind WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.
 image: https://prometheusfuels.ai/wp-content/uploads/2026/03/logo_favicon-300x300.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Prometheus Fuels MCP Server
-  slug: prometheus-fuels-mcp-server
 modified: '2026-08-05'
 name: Prometheus Fuels
 nav: Providers
@@ -267,8 +263,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus-fuels/refs/heads/main/screenshots/prometheus-fuels-2026-09-02T152142.png
 security:

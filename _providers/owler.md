@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: Provides Feed information
   name: Owler Feed API
   slug: owler-feed-api-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: other
   title: ''
@@ -157,7 +157,7 @@ common:
   url: packages/owler-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/owler-mcp.yml
 - group: agent
   title: ''
@@ -176,10 +176,6 @@ description: 'Owler is a crowdsourced competitive- and business-intelligence pla
   and Owler ships no first-party SDKs, CLI or MCP server. Owler was acquired by Meltwater in 2021. Added to the API Evangelist network from the Norwest Venture Partners portfolio.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/owler.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Owler MCP Server
-  slug: owler-mcp-server
 modified: '2026-08-14'
 name: Owler
 nav: Providers
@@ -226,8 +222,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/screenshots/owler-2026-08-07T191152.png
 security:

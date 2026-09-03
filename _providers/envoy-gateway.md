@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Envoy Gateway provides an expressive, extensible, role-oriented API for Kubernetes gateway management built on Envoy Proxy. Configuration is done through Kubernetes Gateway API resources (Gateway, Gat
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy-gateway/refs/heads/main/screenshots/envoy-gateway-2026-06-20T180742.png
 security:

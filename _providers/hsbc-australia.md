@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ arazzos:
 - description: Browse the HSBC Bank Australia public Consumer Data Right Product Reference Data catalog, then fetch the full detail of the first product returned. Both operations are public and unauthenticated on th
   name: HSBC Australia CDR - Browse Products
   slug: hsbc-australia-browse-products
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -194,7 +194,7 @@ common:
   url: conventions/hsbc-australia-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hsbc-australia-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ description: HSBC Bank Australia Limited is the Australian banking subsidiary of
   Recipients under the CDR ADR model. HSBC is presently a data holder only and is not accredited to receive third-party banking data. Beyond the Australian CDR surface, HSBC Group operates a global developer portal at develop.hsbc.com covering commercial/corporate banking APIs and non-Australian Open Banking markets.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hsbc-australia.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HSBC Bank Australia MCP Server
-  slug: hsbc-bank-australia-mcp-server
 modified: '2026-07-21'
 name: HSBC Bank Australia
 nav: Providers
@@ -274,8 +270,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

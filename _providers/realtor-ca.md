@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: Get Properties
   name: REALTOR.ca Property API
   slug: realtor-ca-property-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: REALTOR.ca DDF® Web API Documentation
@@ -236,7 +236,7 @@ common:
   url: security/realtor-ca-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/realtor-ca-mcp.yml
 - group: agent
   title: ''
@@ -259,10 +259,6 @@ description: 'REALTOR.ca is the national residential property listing portal of 
   a downloadable OpenAPI 3.0.4 description, yet every endpoint (including the OData $metadata document) returns 401 without a Bearer token, and tokens are only issued via client_credentials against identity.crea.ca using data-feed credentials that a REALTOR® or broker owner must first create and link in the member portal. CREA is a RESO member and states its data is normalized to the RESO Data Dictionary, but no CREA entry could be confirmed in the RESO certification directory, so this profile records the DDF® Web API as RESO-aligned rather than RESO-certified. There is no self-serve developer signup, no sandbox, no open data product, and no public consumer search API for realtor.ca itself.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realtor-ca.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: REALTOR.ca MCP Server
-  slug: realtorca-mcp-server
 modified: '2026-07-26'
 name: REALTOR.ca
 nav: Providers
@@ -306,8 +302,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/screenshots/realtor-ca-2026-09-02T153017.png
 security:

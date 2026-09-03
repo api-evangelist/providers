@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ apis:
   description: The ValueSet API from NHS England — 1 operation(s) for valueset.
   name: NHS England Value Set API
   slug: nhs-england-valueset-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Nhs England Webhooks
@@ -257,7 +257,7 @@ common:
   url: https://www.england.nhs.uk/security-vulnerability-disclosure/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nhs-england-mcp.yml
 - group: build
   title: ''
@@ -324,10 +324,6 @@ description: 'NHS England (which absorbed NHS Digital in 2023) is the national b
   (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: NHS England MCP Server
-  slug: nhs-england-mcp-server
 modified: '2026-07-24'
 name: NHS England
 nav: Providers
@@ -341,14 +337,14 @@ overview: 'NHS England publishes 19 APIs on the [APIs.io](https://apis.io/) netw
   NHS England''s developer surface includes authentication, API reference, support, sandbox, documentation, getting-started guide, engineering blog, and 34 more developer resources.'
 random_paper: 11
 score:
-  band: strong
-  composite: 55.3
+  band: developing
+  composite: 49.8
   coverage:
     artifact_dirs: 19
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -358,9 +354,6 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -378,9 +371,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png
 security:
 - kind: authentication

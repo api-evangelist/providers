@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -87,7 +87,7 @@ apis:
   description: Servi-specific operations
   name: Bear Robotics Servi API
   slug: bear-robotics-servi-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Bear Robotics Webhooks
@@ -126,7 +126,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bear-robotics-mcp.yml
 - group: company
   title: ''
@@ -245,10 +245,6 @@ description: 'Bear Robotics builds AI-driven autonomous mobile robots for hospit
   signup.'
 image: http://static1.squarespace.com/static/652cbb3fb1f91809d4610dc0/t/6a3dc3f863ff8c5ce8254bd0/1782432760376/og-bear-robotics-default.webp?format=1500w
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bear Robotics MCP Server
-  slug: bear-robotics-mcp-server
 modified: '2026-08-06'
 name: Bear Robotics
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png
 security:

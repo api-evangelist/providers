@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
@@ -268,8 +268,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:

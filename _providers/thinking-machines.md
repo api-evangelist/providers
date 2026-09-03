@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Managed training/fine-tuning and sampling API for open-weight language models, consumed through the official Tinker Python SDK and CLI. Supports SFT, RL, and distillation workflows, checkpoint managem
@@ -191,8 +191,8 @@ score:
   previous_composite: 34.7
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinking-machines/refs/heads/main/screenshots/thinking-machines-2026-09-02T163529.png
 security:

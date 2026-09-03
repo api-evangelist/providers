@@ -1,6 +1,6 @@
 {
- "total": 113,
- "shown": 113,
+ "total": 112,
+ "shown": 112,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -82,8 +82,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -135,8 +135,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -210,8 +210,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -263,8 +263,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -316,8 +316,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -369,8 +369,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -433,8 +433,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -486,8 +486,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -539,8 +539,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -592,8 +592,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -652,8 +652,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -705,8 +705,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -758,8 +758,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -811,8 +811,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -864,8 +864,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -917,8 +917,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -970,8 +970,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1023,8 +1023,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1076,8 +1076,8 @@
       "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1136,8 +1136,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1189,8 +1189,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1242,8 +1242,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1295,8 +1295,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1348,8 +1348,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1401,8 +1401,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1454,8 +1454,8 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1517,8 +1517,8 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1562,8 +1562,8 @@
       "commercial_clarity": 19.7,
       "access_clarity": 19.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1615,8 +1615,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1668,8 +1668,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1714,8 +1714,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1767,8 +1767,8 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1820,8 +1820,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1866,8 +1866,8 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1926,8 +1926,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1979,8 +1979,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2032,8 +2032,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2085,8 +2085,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2137,8 +2137,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2190,8 +2190,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2243,8 +2243,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2296,8 +2296,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2349,8 +2349,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2402,8 +2402,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2455,8 +2455,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2508,8 +2508,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2561,8 +2561,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2614,8 +2614,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2656,8 +2656,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 28,
-   "shown": 28,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "Bluevine",
@@ -2677,8 +2677,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2730,8 +2730,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2783,8 +2783,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2843,8 +2843,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2883,7 +2883,7 @@
      "slug": "bny-mellon",
      "description": "BNY Mellon (legal parent The Bank of New York Mellon Corporation, rebranded to \"BNY\" in 2024) is a US money-center bank and the world's largest custodian, overseeing roughly $50 trillion in assets under custody and/or administration. Its principal banking subsidiary, The Bank of New York Mellon, is a nationally chartered bank (OCC-supervised) headquartered in New York City, operating across Securities Services, Market & Wealth Services, and Investment & Wealth Management with brand families including Pershing, Eagle Investment Systems, and BNY Markets. On open finance, BNY runs a genuine first-party developer program — the BNY Developer Marketplace at developer.bny.com (formerly marketplace.bnymellon.com) — publishing Treasury Services (payments, liquidity, cash management, trade finance, FX), Asset Servicing, Markets, and Pershing API families to corporate, fintech, and financial-institution clients. Registration and full API reference are gated behind Nexen single sign-on, and no OpenAPI/Swagger is publicly downloadable. BNY also ships a public, smart-contract-only \"Data On-Chain\" product that broadcasts fund accounting data to Ethereum. Consumer/business-banking account data is reached primarily through aggregators such as Plaid rather than a first-party consumer data API. No FDX participation or CFPB 1033 posture is publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bny-mellon/refs/heads/main/screenshots/bny-mellon-2026-07-25T203518.png",
-     "score": 20.8,
+     "score": 20.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2896,8 +2896,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2932,59 +2932,6 @@
      "rank": 54
     },
     {
-     "name": "Novo",
-     "slug": "novo",
-     "description": "Novo is a New York- and Miami-based financial technology company, founded in 2016, that operates a digital business-banking platform for small businesses, entrepreneurs, and freelancers. Novo is not itself a chartered bank; it is a service provider to Middlesex Federal Savings, F.A. (Member FDIC), which holds the deposits and provides the underlying banking products accessed through Novo's app. The platform offers fee-free business checking, invoicing, Novo Reserves, expense management, a business debit/credit card, working-capital funding, and inbound integrations with tools like QuickBooks, Stripe, Shopify, and Wise. On open-finance posture, Novo publishes no first-party public developer API and runs no developer portal; consumer-permissioned account data (Auth, Balance, Identity, Transactions) is reached by third parties only through the Plaid aggregator. No documented FDX participation or CFPB Section 1033 data-access commitment is published as of this review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novo/refs/heads/main/screenshots/novo-2026-08-07T185621.png",
-     "score": 20.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 24.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Digital & Neobank",
-     "rank": 55
-    },
-    {
      "name": "USAA",
      "slug": "usaa",
      "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
@@ -3002,8 +2949,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3035,7 +2982,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Ally Financial",
@@ -3055,8 +3002,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3088,7 +3035,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "HSBC USA",
@@ -3108,8 +3055,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3141,7 +3088,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "UMB Bank",
@@ -3161,8 +3108,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3194,7 +3141,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Truist",
@@ -3214,8 +3161,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3247,7 +3194,7 @@
       "agentic_commerce": false
      },
      "tier": "Money-Center & Custody",
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Dave",
@@ -3267,8 +3214,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3300,7 +3247,7 @@
       "agentic_commerce": false
      },
      "tier": "Digital & Neobank",
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "EverBank",
@@ -3320,8 +3267,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3353,7 +3300,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "City National Bank",
@@ -3373,8 +3320,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3406,7 +3353,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "F.N.B. Corporation",
@@ -3426,8 +3373,61 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Regional",
+     "rank": 63
+    },
+    {
+     "name": "Raymond James Bank",
+     "slug": "raymond-james-bank",
+     "description": "Raymond James Bank is a Florida-chartered state member bank headquartered in St. Petersburg, Florida, and a wholly owned subsidiary of Raymond James Financial, Inc. (NYSE: RJF), a diversified financial services holding company founded in 1962. Supervised by the Federal Reserve and the Florida Office of Financial Regulation, the bank provides securities-based lending, residential mortgages, commercial and industrial and commercial real estate loans, tax-exempt loans, and deposit products (including its Enhanced Savings Program) primarily to Raymond James wealth-management and institutional clients. On open finance, the bank runs no first-party public developer portal and publishes no downloadable API specifications; consumer-permissioned account data is reachable only indirectly through third-party aggregators such as Plaid. No FDX participation or CFPB Section 1033 data-access posture is publicly documented for this institution as of this record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/raymond-james-bank/refs/heads/main/screenshots/raymond-james-bank-2026-09-02T152931.png",
+     "score": 12.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3462,59 +3462,6 @@
      "rank": 64
     },
     {
-     "name": "Raymond James Bank",
-     "slug": "raymond-james-bank",
-     "description": "Raymond James Bank is a Florida-chartered state member bank headquartered in St. Petersburg, Florida, and a wholly owned subsidiary of Raymond James Financial, Inc. (NYSE: RJF), a diversified financial services holding company founded in 1962. Supervised by the Federal Reserve and the Florida Office of Financial Regulation, the bank provides securities-based lending, residential mortgages, commercial and industrial and commercial real estate loans, tax-exempt loans, and deposit products (including its Enhanced Savings Program) primarily to Raymond James wealth-management and institutional clients. On open finance, the bank runs no first-party public developer portal and publishes no downloadable API specifications; consumer-permissioned account data is reachable only indirectly through third-party aggregators such as Plaid. No FDX participation or CFPB Section 1033 data-access posture is publicly documented for this institution as of this record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/raymond-james-bank/refs/heads/main/screenshots/raymond-james-bank-2026-09-02T152931.png",
-     "score": 12.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Regional",
-     "rank": 65
-    },
-    {
      "name": "Commerce Bank",
      "slug": "commerce-bancshares",
      "description": "Commerce Bank is the principal banking subsidiary of Commerce Bancshares, Inc. (NASDAQ CBSH), a Missouri-based regional bank holding company with roughly $32 billion in assets and dual headquarters in Kansas City and St. Louis. Commerce Bank is a Missouri state-chartered bank and Federal Reserve member, founded in 1865, offering personal, business, commercial, and wealth-management services across the U.S. Midwest. Its API posture is corporate/embedded-banking oriented rather than a fully open public program: it runs a registration-gated external developer portal (developers.commercebank.com) and a CommercePayments developer platform, and delivers ERP-embedded banking via Commerce Connections Direct. Consumer-permissioned data sharing is largely intermediated through aggregators such as Plaid and platforms like Modern Treasury rather than a documented first-party, self-serve open-banking API. No public FDX or CFPB Section 1033 data-access posture is documented, and no downloadable OpenAPI/Swagger is publicly available.",
@@ -3532,8 +3479,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3565,7 +3512,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "UBS Bank USA",
@@ -3585,8 +3532,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3618,7 +3565,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "America First Credit Union",
@@ -3638,8 +3585,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3671,7 +3618,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Bank of Hawaii",
@@ -3690,8 +3637,61 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Regional",
+     "rank": 68
+    },
+    {
+     "name": "First Hawaiian Bank",
+     "slug": "first-hawaiian-bank",
+     "description": "First Hawaiian Bank is Hawaii's oldest and largest financial institution, founded in 1858 and headquartered at First Hawaiian Center in Honolulu. It is a Hawaii state-chartered commercial bank and member FDIC, operating as the principal subsidiary of First Hawaiian, Inc. (NASDAQ ticker FHB), a publicly traded bank holding company. The bank serves consumer and commercial customers through roughly 57 branches in Hawaii plus locations in Guam and Saipan, offering deposit accounts, lending, wealth management, treasury/cash management, and merchant services. On the open-finance front, First Hawaiian operates no public first-party developer portal and publishes no downloadable OpenAPI/Swagger specifications; probes of developer.fhb.com, api.fhb.com, and fhb.com/en/developers returned no host or HTTP 404. Consumer-permissioned account data is reachable only through third-party aggregators (notably Plaid), not a direct bank API. No documented Financial Data Exchange (FDX) participation or published CFPB Section 1033 data-access posture was found as of this record. Its commercial online banking product (FHB Commercial Online, formerly OBC) is a traditional web application rather than a developer-facing API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/screenshots/first-hawaiian-bank-2026-07-25T214608.png",
+     "score": 11.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 14.3,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3726,59 +3726,6 @@
      "rank": 69
     },
     {
-     "name": "First Hawaiian Bank",
-     "slug": "first-hawaiian-bank",
-     "description": "First Hawaiian Bank is Hawaii's oldest and largest financial institution, founded in 1858 and headquartered at First Hawaiian Center in Honolulu. It is a Hawaii state-chartered commercial bank and member FDIC, operating as the principal subsidiary of First Hawaiian, Inc. (NASDAQ ticker FHB), a publicly traded bank holding company. The bank serves consumer and commercial customers through roughly 57 branches in Hawaii plus locations in Guam and Saipan, offering deposit accounts, lending, wealth management, treasury/cash management, and merchant services. On the open-finance front, First Hawaiian operates no public first-party developer portal and publishes no downloadable OpenAPI/Swagger specifications; probes of developer.fhb.com, api.fhb.com, and fhb.com/en/developers returned no host or HTTP 404. Consumer-permissioned account data is reachable only through third-party aggregators (notably Plaid), not a direct bank API. No documented Financial Data Exchange (FDX) participation or published CFPB Section 1033 data-access posture was found as of this record. Its commercial online banking product (FHB Commercial Online, formerly OBC) is a traditional web application rather than a developer-facing API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/screenshots/first-hawaiian-bank-2026-07-25T214608.png",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Regional",
-     "rank": 70
-    },
-    {
      "name": "Current",
      "slug": "current",
      "description": "Current (Finco Services, Inc.) is a New York City-based U.S. financial technology company operating a mobile-first consumer banking platform serving over six million members. Through partner banks Choice Financial Group and Cross River Bank it offers fee-free spending accounts with early direct deposit (up to two days early), fee-free overdraft, and paycheck advances; Savings Pods earning competitive APY with automated Round-Ups; the Build Card for responsible credit building without a traditional credit check; fee-free cryptocurrency trading; and teen banking accounts with parental controls and automatic allowances. Current is a technology company, not a bank. It does NOT publish a first-party public developer API or developer portal — no developer.current.com (does not resolve), current.com/developers and current.com/api return 404, and api.current.com is an undocumented mobile-app backend. Programmatic access to member account data is available only through third-party open-finance aggregators (Plaid), on a consumer-permissioned basis. This profile captures the company's public web, legal, and security surface and its aggregator-only data-access posture.",
@@ -3796,8 +3743,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3829,7 +3776,7 @@
       "agentic_commerce": false
      },
      "tier": "Digital & Neobank",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Wintrust Financial",
@@ -3849,8 +3796,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3882,7 +3829,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Associated Bank",
@@ -3902,8 +3849,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3935,7 +3882,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "M&T Bank",
@@ -3955,8 +3902,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3988,7 +3935,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "First Horizon",
@@ -4007,8 +3954,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4040,7 +3987,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "MidFirst Bank",
@@ -4060,8 +4007,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4093,7 +4040,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Marcus by Goldman Sachs",
@@ -4112,8 +4059,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4145,7 +4092,7 @@
       "agentic_commerce": false
      },
      "tier": "Digital & Neobank",
-     "rank": 77
+     "rank": 76
     }
    ]
   },
@@ -4175,8 +4122,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4208,7 +4155,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Atlantic Union Bank",
@@ -4228,8 +4175,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4261,7 +4208,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "PNC",
@@ -4281,8 +4228,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4314,7 +4261,7 @@
       "agentic_commerce": false
      },
      "tier": "Money-Center & Custody",
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Frost Bank",
@@ -4334,8 +4281,60 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Regional",
+     "rank": 80
+    },
+    {
+     "name": "Bank OZK",
+     "slug": "bank-ozk",
+     "description": "Bank OZK is a regional bank headquartered in Little Rock, Arkansas, tracing its charter to 1903 and today operating roughly 265 offices across Arkansas, Georgia, Florida, North Carolina, Texas, and New York. It is a state-chartered commercial bank and the wholly owned subsidiary of Bank OZK holding company, publicly traded on the Nasdaq Global Select Market under the symbol OZK, with about $40.8 billion in total assets as of year-end 2025 and a national reputation in commercial real estate lending. Bank OZK runs no first-party public developer portal and publishes no downloadable OpenAPI/Swagger specifications; it is not a documented Financial Data Exchange (FDX) participant and has not published a specific CFPB Section 1033 data-access posture. Consumer-permissioned account data is reached only indirectly through third-party aggregators, with Plaid documented as the supporting aggregator. This is an honest identity-only profile with no public API surface.",
+     "score": 9.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4370,58 +4369,6 @@
      "rank": 81
     },
     {
-     "name": "Bank OZK",
-     "slug": "bank-ozk",
-     "description": "Bank OZK is a regional bank headquartered in Little Rock, Arkansas, tracing its charter to 1903 and today operating roughly 265 offices across Arkansas, Georgia, Florida, North Carolina, Texas, and New York. It is a state-chartered commercial bank and the wholly owned subsidiary of Bank OZK holding company, publicly traded on the Nasdaq Global Select Market under the symbol OZK, with about $40.8 billion in total assets as of year-end 2025 and a national reputation in commercial real estate lending. Bank OZK runs no first-party public developer portal and publishes no downloadable OpenAPI/Swagger specifications; it is not a documented Financial Data Exchange (FDX) participant and has not published a specific CFPB Section 1033 data-access posture. Consumer-permissioned account data is reached only indirectly through third-party aggregators, with Plaid documented as the supporting aggregator. This is an honest identity-only profile with no public API surface.",
-     "score": 9.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Regional",
-     "rank": 82
-    },
-    {
      "name": "BECU",
      "slug": "becu",
      "description": "BECU (Boeing Employees' Credit Union) is a member-owned, not-for-profit state-chartered credit union founded in 1935 and headquartered in Tukwila, Washington (NMLS ID 490518). Originally serving Boeing employees, it is today one of the largest credit unions in the United States, offering consumer and business deposit accounts, lending, mortgages, and investment services across the Pacific Northwest and nationally through digital channels. Like the vast majority of US credit unions, BECU exposes no public first-party developer API or developer portal; its digital banking runs on established core and fintech vendors (FIS, LPL/Client Point, ICE/Ellie Mae for mortgage), and consumer-permissioned data access for third-party fintech apps is intermediated through data aggregators rather than a documented, self-serve BECU API. US open finance is voluntary and fragmented, and no mandated open-banking API contract applies here; the CFPB Section 1033 Personal Financial Data Rights rule is the emerging framework that will shape BECU's future data-access posture.",
@@ -4439,8 +4386,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4472,7 +4419,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "Popular (Banco Popular)",
@@ -4492,8 +4439,61 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Regional",
+     "rank": 83
+    },
+    {
+     "name": "Cadence Bank",
+     "slug": "cadence-bank",
+     "description": "Cadence Bank is a regional U.S. commercial bank headquartered in Tupelo, Mississippi and Houston, Texas, formed in October 2021 when legacy Cadence Bancorporation merged into BancorpSouth Bank (the surviving entity, subsequently renamed Cadence Bank; NYSE ticker CADE). It is a Mississippi state-chartered bank operating roughly 400+ branches across the U.S. South, Midwest, and Texas with about $48-50 billion in assets, offering consumer banking, mortgages, home equity, credit cards, small business and commercial banking, treasury management, and wealth/insurance services. On open finance, Cadence Bank exposes no first-party public developer API or developer portal; consumer-permissioned account data is reachable only through third-party aggregators (notably Plaid), which is the honest, prevailing posture for most U.S. regional banks. No documented direct FDX (Financial Data Exchange) membership or published CFPB Section 1033 data-access API was found as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cadence-bank/refs/heads/main/screenshots/cadence-bank-2026-07-25T204210.png",
+     "score": 9.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4528,59 +4528,6 @@
      "rank": 84
     },
     {
-     "name": "Cadence Bank",
-     "slug": "cadence-bank",
-     "description": "Cadence Bank is a regional U.S. commercial bank headquartered in Tupelo, Mississippi and Houston, Texas, formed in October 2021 when legacy Cadence Bancorporation merged into BancorpSouth Bank (the surviving entity, subsequently renamed Cadence Bank; NYSE ticker CADE). It is a Mississippi state-chartered bank operating roughly 400+ branches across the U.S. South, Midwest, and Texas with about $48-50 billion in assets, offering consumer banking, mortgages, home equity, credit cards, small business and commercial banking, treasury management, and wealth/insurance services. On open finance, Cadence Bank exposes no first-party public developer API or developer portal; consumer-permissioned account data is reachable only through third-party aggregators (notably Plaid), which is the honest, prevailing posture for most U.S. regional banks. No documented direct FDX (Financial Data Exchange) membership or published CFPB Section 1033 data-access API was found as of this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cadence-bank/refs/heads/main/screenshots/cadence-bank-2026-07-25T204210.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Regional",
-     "rank": 85
-    },
-    {
      "name": "Live Oak Bank",
      "slug": "live-oak-bank",
      "description": "Live Oak Bank (Live Oak Banking Company) is a digital, branchless, North Carolina state-chartered commercial bank founded in 2008 and headquartered in Wilmington, NC, operating as the primary subsidiary of Live Oak Bancshares, Inc. (NYSE: LOB). It is the largest originator of U.S. Small Business Administration (SBA) 7(a) loans in the country and serves small businesses in all 50 states with SBA and commercial lending, high-yield business and personal savings, CDs, and business checking with treasury services. Technology-forward for a bank of its size, Live Oak runs a cloud-native Finxact core (now Fiserv) with an Apiture-based digital banking platform, and in 2024 launched an in-house embedded-banking / Banking-as-a-Service (BaaS) program that lets software companies deliver Live Oak deposit and payment products to their own customers. Its API surface is real but partner-gated: a production AWS API gateway operates at api.liveoak.bank (returning MissingAuthenticationToken to unauthenticated callers, with Live-Oak-specific lob-identity-id / lob-foreign-entity-id headers), but Live Oak publishes no public self-serve developer portal, no downloadable OpenAPI/Swagger, and no public API reference. Consumer-permissioned data access is available through account aggregators rather than a first-party public API, and no FDX participation or CFPB Section 1033 data-access posture is publicly documented.",
@@ -4598,8 +4545,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4631,7 +4578,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Security Service Federal Credit Union",
@@ -4651,8 +4598,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4684,7 +4631,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Old National Bank",
@@ -4703,8 +4650,61 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Regional",
+     "rank": 87
+    },
+    {
+     "name": "Valley National Bank",
+     "slug": "valley-national",
+     "description": "Valley National Bank is a nationally chartered commercial bank (OCC-regulated) and the principal banking subsidiary of Valley National Bancorp (NASDAQ: VLY), a regional financial holding company founded in 1927 with roughly $64 billion in assets and more than 200 offices serving consumers, families, and businesses across New Jersey, New York, Florida, Alabama, California, and Illinois. Its business spans consumer banking, commercial banking, and treasury services. As of this profile Valley National Bank operates no first-party public developer portal and publishes no downloadable API specifications; consumer-permissioned account and transaction data is reached only through third-party open-finance aggregators (Finicity by Mastercard is documented, alongside general Plaid/Tink connectivity) rather than a directly exposed FDX-conformant or first-party API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valley-national/refs/heads/main/screenshots/valley-national-2026-09-02T165326.png",
+     "score": 9.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4739,25 +4739,25 @@
      "rank": 88
     },
     {
-     "name": "Valley National Bank",
-     "slug": "valley-national",
-     "description": "Valley National Bank is a nationally chartered commercial bank (OCC-regulated) and the principal banking subsidiary of Valley National Bancorp (NASDAQ: VLY), a regional financial holding company founded in 1927 with roughly $64 billion in assets and more than 200 offices serving consumers, families, and businesses across New Jersey, New York, Florida, Alabama, California, and Illinois. Its business spans consumer banking, commercial banking, and treasury services. As of this profile Valley National Bank operates no first-party public developer portal and publishes no downloadable API specifications; consumer-permissioned account and transaction data is reached only through third-party open-finance aggregators (Finicity by Mastercard is documented, alongside general Plaid/Tink connectivity) rather than a directly exposed FDX-conformant or first-party API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valley-national/refs/heads/main/screenshots/valley-national-2026-09-02T165326.png",
-     "score": 9.0,
+     "name": "Prosperity Bank",
+     "slug": "prosperity-bank",
+     "description": "Prosperity Bank is a Texas-chartered commercial bank (member FDIC, NMLS ID 466414) and the banking subsidiary of Prosperity Bancshares, Inc. (NYSE: PB), a Houston, Texas based regional financial holding company with roughly $37-43 billion in total assets and 300-plus full-service branches across Texas and central Oklahoma. It offers consumer and commercial banking, treasury management, mortgage, and wealth services, and has grown largely through acquisitions (LegacyTexas, Lone Star State Bancshares, American Bank Holding, Southwest Bancshares, Stellar Bancorp). On open finance, Prosperity Bank operates no first-party public developer portal or documented API: developer. and api. subdomains do not resolve, and no /developers or /api pages exist. Consumer-permissioned account and transaction data is reachable only through third-party aggregators (Finicity/Mastercard Open Banking, Plaid, and similar), not a directly published bank API. No FDX-conformant data-access API or CFPB Section 1033 posture is publicly documented by the bank as of this review.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prosperity-bank/refs/heads/main/screenshots/prosperity-bank-2026-09-02T152219.png",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4792,10 +4792,10 @@
      "rank": 89
     },
     {
-     "name": "Prosperity Bank",
-     "slug": "prosperity-bank",
-     "description": "Prosperity Bank is a Texas-chartered commercial bank (member FDIC, NMLS ID 466414) and the banking subsidiary of Prosperity Bancshares, Inc. (NYSE: PB), a Houston, Texas based regional financial holding company with roughly $37-43 billion in total assets and 300-plus full-service branches across Texas and central Oklahoma. It offers consumer and commercial banking, treasury management, mortgage, and wealth services, and has grown largely through acquisitions (LegacyTexas, Lone Star State Bancshares, American Bank Holding, Southwest Bancshares, Stellar Bancorp). On open finance, Prosperity Bank operates no first-party public developer portal or documented API: developer. and api. subdomains do not resolve, and no /developers or /api pages exist. Consumer-permissioned account and transaction data is reachable only through third-party aggregators (Finicity/Mastercard Open Banking, Plaid, and similar), not a directly published bank API. No FDX-conformant data-access API or CFPB Section 1033 posture is publicly documented by the bank as of this review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prosperity-bank/refs/heads/main/screenshots/prosperity-bank-2026-09-02T152219.png",
+     "name": "SouthState Bank",
+     "slug": "southstate-bank",
+     "description": "SouthState Bank, National Association is an OCC-chartered national commercial bank headquartered in Winter Haven, Florida, and the principal subsidiary of SouthState Bank Corporation (NASDAQ: SSB). Formed through the 2020 merger of South State Corporation and CenterState Bank and redomiciled to Florida in 2025, it holds roughly $67 billion in assets and operates across the Southeast, Texas, Colorado, and Virginia. Like most US regional banks, SouthState runs no public first-party developer portal and publishes no downloadable OpenAPI or Swagger definitions. Consumer-permissioned data access is delivered through third-party aggregators rather than a direct API: the Open Banking Tracker records SouthState reachable via Plaid only, with no documented Financial Data Exchange (FDX) endpoint and no published CFPB Section 1033 data-access surface. Its open-finance posture is therefore aggregator-mediated, not a self-serve developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southstate-bank/refs/heads/main/screenshots/southstate-bank-2026-09-02T160259.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4809,8 +4809,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4845,25 +4845,25 @@
      "rank": 90
     },
     {
-     "name": "SouthState Bank",
-     "slug": "southstate-bank",
-     "description": "SouthState Bank, National Association is an OCC-chartered national commercial bank headquartered in Winter Haven, Florida, and the principal subsidiary of SouthState Bank Corporation (NASDAQ: SSB). Formed through the 2020 merger of South State Corporation and CenterState Bank and redomiciled to Florida in 2025, it holds roughly $67 billion in assets and operates across the Southeast, Texas, Colorado, and Virginia. Like most US regional banks, SouthState runs no public first-party developer portal and publishes no downloadable OpenAPI or Swagger definitions. Consumer-permissioned data access is delivered through third-party aggregators rather than a direct API: the Open Banking Tracker records SouthState reachable via Plaid only, with no documented Financial Data Exchange (FDX) endpoint and no published CFPB Section 1033 data-access surface. Its open-finance posture is therefore aggregator-mediated, not a self-serve developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southstate-bank/refs/heads/main/screenshots/southstate-bank-2026-09-02T160259.png",
-     "score": 8.9,
+     "name": "Barclays US",
+     "slug": "barclays-us",
+     "description": "Barclays US is the United States consumer banking arm of Barclays PLC, operated through Barclays Bank Delaware, a Delaware state-chartered bank headquartered in Wilmington. Doing business as Barclays US (barclaysus.com redirects to cards.barclaycardus.com), it is one of the largest co-branded credit card issuers in the country, running highly customized card programs for major travel, airline, retail, and affinity partners (JetBlue, American Airlines, Wyndham, AARP, Gap, and others), alongside small-business cards, installment loans, point-of-sale financing, and a direct-to-consumer online savings and CD franchise. Unlike Barclays UK — which operates a mandated PSD2 Open Banking API Exchange at developer.barclays.com — the US consumer entity publishes no first-party public developer portal or downloadable API specification. US open finance is voluntary and fragmented, so consumer- permissioned account and card data from Barclays US is reached in practice through third-party data aggregators rather than a documented first-party API. No FDX-conformant data-access endpoint or formally stated CFPB Section 1033 posture is published on the US site as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays-us/refs/heads/main/screenshots/barclays-us-2026-07-25T202401.png",
+     "score": 8.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4898,30 +4898,30 @@
      "rank": 91
     },
     {
-     "name": "Barclays US",
-     "slug": "barclays-us",
-     "description": "Barclays US is the United States consumer banking arm of Barclays PLC, operated through Barclays Bank Delaware, a Delaware state-chartered bank headquartered in Wilmington. Doing business as Barclays US (barclaysus.com redirects to cards.barclaycardus.com), it is one of the largest co-branded credit card issuers in the country, running highly customized card programs for major travel, airline, retail, and affinity partners (JetBlue, American Airlines, Wyndham, AARP, Gap, and others), alongside small-business cards, installment loans, point-of-sale financing, and a direct-to-consumer online savings and CD franchise. Unlike Barclays UK — which operates a mandated PSD2 Open Banking API Exchange at developer.barclays.com — the US consumer entity publishes no first-party public developer portal or downloadable API specification. US open finance is voluntary and fragmented, so consumer- permissioned account and card data from Barclays US is reached in practice through third-party data aggregators rather than a documented first-party API. No FDX-conformant data-access endpoint or formally stated CFPB Section 1033 posture is published on the US site as of this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays-us/refs/heads/main/screenshots/barclays-us-2026-07-25T202401.png",
+     "name": "Texas Capital Bank",
+     "slug": "texas-capital-bank",
+     "description": "Texas Capital Bank, National Association is the banking subsidiary of Texas Capital Bancshares, Inc. (NASDAQ: TCBI), a Dallas-headquartered full-service financial services firm founded in 1998 with roughly $31.5 billion in assets (FYE 2025). As a nationally chartered commercial bank it serves businesses, entrepreneurs, and institutions across Texas and the United States with commercial and business banking, treasury management, mortgage/warehouse finance, and investment banking. On the open-finance dimension the bank is relationship-first rather than developer-first: it markets treasury and ERP API integrations (including its ConnectNow embedded banking for Sage and NetSuite, direct platform integrations, and SFTP/XChange file transfer) but exposes them through partner onboarding with dedicated bankers, not a public self-serve developer portal. There is no public first-party developer portal, no downloadable OpenAPI/Swagger, and no self-serve API signup. Consumer account and transaction data is made available to permissioned third parties through the Finicity (Mastercard) aggregator rather than a first-party API, which is the honest posture for most US regional banks under the voluntary, fragmented US open-banking landscape (CFPB Section 1033 and the industry FDX standard).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-capital-bank/refs/heads/main/screenshots/texas-capital-bank-2026-09-02T163249.png",
      "score": 8.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 17.7,
+      "score": 12.7,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -4951,30 +4951,30 @@
      "rank": 92
     },
     {
-     "name": "Texas Capital Bank",
-     "slug": "texas-capital-bank",
-     "description": "Texas Capital Bank, National Association is the banking subsidiary of Texas Capital Bancshares, Inc. (NASDAQ: TCBI), a Dallas-headquartered full-service financial services firm founded in 1998 with roughly $31.5 billion in assets (FYE 2025). As a nationally chartered commercial bank it serves businesses, entrepreneurs, and institutions across Texas and the United States with commercial and business banking, treasury management, mortgage/warehouse finance, and investment banking. On the open-finance dimension the bank is relationship-first rather than developer-first: it markets treasury and ERP API integrations (including its ConnectNow embedded banking for Sage and NetSuite, direct platform integrations, and SFTP/XChange file transfer) but exposes them through partner onboarding with dedicated bankers, not a public self-serve developer portal. There is no public first-party developer portal, no downloadable OpenAPI/Swagger, and no self-serve API signup. Consumer account and transaction data is made available to permissioned third parties through the Finicity (Mastercard) aggregator rather than a first-party API, which is the honest posture for most US regional banks under the voluntary, fragmented US open-banking landscape (CFPB Section 1033 and the industry FDX standard).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-capital-bank/refs/heads/main/screenshots/texas-capital-bank-2026-09-02T163249.png",
-     "score": 8.6,
+     "name": "Columbia Bank",
+     "slug": "columbia-banking",
+     "description": "Columbia Bank is an Oregon state-chartered commercial bank and the principal banking subsidiary of Columbia Banking System, Inc. (NASDAQ: COLB), a West Coast regional bank holding company headquartered in Tacoma, Washington with more than $50 billion in assets. The bank took the legal name \"Columbia Bank\" effective July 1, 2025, having previously operated as Umpqua Bank following the 2023 merger of Columbia Banking System and Umpqua Holdings Corporation. On the open-finance front, Columbia is one of the relatively few US regional banks to run a first-party developer surface: Columbia API Banking, a commercial and treasury-management integration product exposing capabilities such as book transfers, ACH file imports, positive pay, stop-payment and NSF management, lockbox management, transaction and statement search, check images, and real-time account balances in JSON and XML, backed by a production-ready SDK and the gated Columbia API Portal. That surface is commercial/ERP-oriented rather than a self-serve public developer portal, and consumer-permissioned data access is instead delivered through the Plaid aggregator. No documented FDX participation or published CFPB Section 1033 posture was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/columbia-banking/refs/heads/main/screenshots/columbia-banking-2026-07-25T210116.png",
+     "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 12.7,
+      "score": 7.6,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -5004,59 +5004,6 @@
      "rank": 93
     },
     {
-     "name": "Columbia Bank",
-     "slug": "columbia-banking",
-     "description": "Columbia Bank is an Oregon state-chartered commercial bank and the principal banking subsidiary of Columbia Banking System, Inc. (NASDAQ: COLB), a West Coast regional bank holding company headquartered in Tacoma, Washington with more than $50 billion in assets. The bank took the legal name \"Columbia Bank\" effective July 1, 2025, having previously operated as Umpqua Bank following the 2023 merger of Columbia Banking System and Umpqua Holdings Corporation. On the open-finance front, Columbia is one of the relatively few US regional banks to run a first-party developer surface: Columbia API Banking, a commercial and treasury-management integration product exposing capabilities such as book transfers, ACH file imports, positive pay, stop-payment and NSF management, lockbox management, transaction and statement search, check images, and real-time account balances in JSON and XML, backed by a production-ready SDK and the gated Columbia API Portal. That surface is commercial/ERP-oriented rather than a self-serve public developer portal, and consumer-permissioned data access is instead delivered through the Plaid aggregator. No documented FDX participation or published CFPB Section 1033 posture was found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/columbia-banking/refs/heads/main/screenshots/columbia-banking-2026-07-25T210116.png",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Regional",
-     "rank": 94
-    },
-    {
      "name": "SchoolsFirst FCU",
      "slug": "schoolsfirst",
      "description": "SchoolsFirst Federal Credit Union is a federally chartered, member-owned credit union headquartered in Tustin, California, serving educators and their families. Founded in 1934 as Orange County Teachers Credit Union, it is the largest credit union in California and one of the largest in the United States, with roughly $31.9 billion in assets, over 1.4 million members, and about 70 branches. It offers savings, checking, loans, mortgages, credit cards, and investment services. Like most US credit unions, SchoolsFirst runs no first-party public developer program: probes of developer.schoolsfirstfcu.org fail to resolve and /developers returns 404, and its api.schoolsfirstfcu.org host is the member online-banking login backend, not a documented API. Consumer-permissioned data access is available only through open-finance aggregators (Plaid, Finicity, MX, Akoya) rather than a direct API. No public FDX participation or CFPB Section 1033 data-access posture is documented at this time.",
@@ -5074,8 +5021,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5107,7 +5054,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "CIBC Bank USA",
@@ -5127,8 +5074,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5160,7 +5107,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Santander US",
@@ -5180,8 +5127,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5213,7 +5160,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Randolph-Brooks FCU",
@@ -5233,13 +5180,66 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 12.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Credit Union",
+     "rank": 97
+    },
+    {
+     "name": "First Tech Federal Credit Union",
+     "slug": "first-tech-federal",
+     "description": "First Tech Federal Credit Union is a federally chartered, member-owned, not-for-profit financial cooperative headquartered in San Jose, California, and one of the largest credit unions in the United States. It was founded to serve employees of the technology industry and their families, and its membership is drawn heavily from workers at major technology employers. As an NCUA-insured credit union, First Tech offers consumer and business deposit accounts, lending, mortgages, credit cards, and wealth services delivered primarily through its website and mobile apps. Like the vast majority of US credit unions, First Tech publishes no first-party public developer portal or documented open API; consumer-permissioned financial data sharing is handled through third-party data aggregators (such as Plaid, MX, Finicity, and Akoya) rather than a directly documented first-party API surface. US open finance is voluntary and fragmented — the Financial Data Exchange (FDX) standard and the CFPB Section 1033 Personal Financial Data Rights rule are still emerging — and no first-party FDX-conformant data-access API or published Section 1033 posture was found for First Tech during this review.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-tech-federal/refs/heads/main/screenshots/first-tech-federal-2026-07-25T214611.png",
+     "score": 6.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 3.6,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 10.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -5269,59 +5269,6 @@
      "rank": 98
     },
     {
-     "name": "First Tech Federal Credit Union",
-     "slug": "first-tech-federal",
-     "description": "First Tech Federal Credit Union is a federally chartered, member-owned, not-for-profit financial cooperative headquartered in San Jose, California, and one of the largest credit unions in the United States. It was founded to serve employees of the technology industry and their families, and its membership is drawn heavily from workers at major technology employers. As an NCUA-insured credit union, First Tech offers consumer and business deposit accounts, lending, mortgages, credit cards, and wealth services delivered primarily through its website and mobile apps. Like the vast majority of US credit unions, First Tech publishes no first-party public developer portal or documented open API; consumer-permissioned financial data sharing is handled through third-party data aggregators (such as Plaid, MX, Finicity, and Akoya) rather than a directly documented first-party API surface. US open finance is voluntary and fragmented — the Financial Data Exchange (FDX) standard and the CFPB Section 1033 Personal Financial Data Rights rule are still emerging — and no first-party FDX-conformant data-access API or published Section 1033 posture was found for First Tech during this review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-tech-federal/refs/heads/main/screenshots/first-tech-federal-2026-07-25T214611.png",
-     "score": 6.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 3.6,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 10.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Credit Union",
-     "rank": 99
-    },
-    {
      "name": "BOK Financial",
      "slug": "bok-financial",
      "description": "BOK Financial Corporation (NASDAQ: BOKF) is a regional financial-services holding company headquartered in Tulsa, Oklahoma, delivering banking under the Bank of Oklahoma, Bank of Texas, and BOK Financial brands across the Southwest and Midwest, along with wealth management and commercial treasury services. As of July 2026 it does not publish a first-party public developer portal or any documented API products — developer.bokfinancial.com does not resolve and /developer and /api return 404. Its public, machine-accessible surface is consumer-permissioned account data access delivered through third-party aggregators (Plaid coverage confirmed), while commercial treasury and ERP connectivity is offered privately to clients under contract rather than through a self-serve documented developer program.",
@@ -5339,8 +5286,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5372,7 +5319,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Comerica",
@@ -5392,8 +5339,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5425,7 +5372,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "State Employees' Credit Union",
@@ -5445,8 +5392,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5478,7 +5425,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Pinnacle Financial",
@@ -5498,8 +5445,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5531,7 +5478,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Alliant Credit Union",
@@ -5551,8 +5498,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5584,7 +5531,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Flagstar",
@@ -5604,8 +5551,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5637,7 +5584,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "PenFed Credit Union",
@@ -5657,8 +5604,8 @@
       "commercial_clarity": 11.8,
       "access_clarity": 11.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5690,7 +5637,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union",
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Sallie Mae Bank",
@@ -5710,8 +5657,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5743,7 +5690,7 @@
       "agentic_commerce": false
      },
      "tier": "Regional",
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Zions Bancorporation",
@@ -5762,8 +5709,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5795,7 +5742,7 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "DCU (Digital Federal Credit Union)",
@@ -5815,8 +5762,61 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Credit Union",
+     "rank": 108
+    },
+    {
+     "name": "VyStar Credit Union",
+     "slug": "vystar",
+     "description": "VyStar Credit Union is a member-owned, not-for-profit financial cooperative headquartered in Jacksonville, Florida. Founded in 1952 as Jax Navy Federal Credit Union to serve military members at Naval Air Station Jacksonville and renamed VyStar in 2002, it is one of the largest credit unions in the United States, with roughly $14 billion in assets, more than 950,000 members, and approximately 80 branches across Florida and Georgia. It is state-chartered and federally insured by the NCUA. Like most US credit unions, VyStar publishes no public, first-party developer API program: there is no live developer portal, no downloadable OpenAPI or Swagger definition, and no documented first-party data-access API. Consumer-permissioned account data is shared with third parties through financial-data aggregators rather than a documented open API, and the United States has no single mandated open-banking contract. VyStar's open-finance posture is therefore aggregator-mediated, with the emerging CFPB Section 1033 Personal Financial Data Rights rule as the relevant regulatory horizon.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vystar/refs/heads/main/screenshots/vystar-2026-09-02T170345.png",
+     "score": 2.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5851,15 +5851,15 @@
      "rank": 109
     },
     {
-     "name": "VyStar Credit Union",
-     "slug": "vystar",
-     "description": "VyStar Credit Union is a member-owned, not-for-profit financial cooperative headquartered in Jacksonville, Florida. Founded in 1952 as Jax Navy Federal Credit Union to serve military members at Naval Air Station Jacksonville and renamed VyStar in 2002, it is one of the largest credit unions in the United States, with roughly $14 billion in assets, more than 950,000 members, and approximately 80 branches across Florida and Georgia. It is state-chartered and federally insured by the NCUA. Like most US credit unions, VyStar publishes no public, first-party developer API program: there is no live developer portal, no downloadable OpenAPI or Swagger definition, and no documented first-party data-access API. Consumer-permissioned account data is shared with third parties through financial-data aggregators rather than a documented open API, and the United States has no single mandated open-banking contract. VyStar's open-finance posture is therefore aggregator-mediated, with the emerging CFPB Section 1033 Personal Financial Data Rights rule as the relevant regulatory horizon.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vystar/refs/heads/main/screenshots/vystar-2026-09-02T170345.png",
-     "score": 2.2,
+     "name": "Golden 1 Credit Union",
+     "slug": "golden-1",
+     "description": "Golden 1 Credit Union is a state-chartered, member-owned not-for-profit financial cooperative headquartered in Sacramento, California, and is one of the largest credit unions in the United States, serving roughly 1.1 million members across California with approximately 20 billion dollars in assets. Founded in 1933 and open to all Californians, it offers consumer checking, savings, credit cards, auto and home loans, and digital banking, and holds the naming rights to Golden 1 Center in Sacramento. Like most US credit unions, Golden 1 publishes NO public developer portal and NO first-party public API; its digital banking runs on a core-provider platform, and consumer-permissioned account data is reachable only indirectly through third-party data aggregators (Plaid, MX, Finicity, Akoya) rather than a documented first-party open-finance API. US open finance is voluntary and fragmented, and this institution's public API surface is honestly empty as of this record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/golden-1/refs/heads/main/screenshots/golden-1-2026-07-25T220025.png",
+     "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -5868,8 +5868,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5904,10 +5904,10 @@
      "rank": 110
     },
     {
-     "name": "Golden 1 Credit Union",
-     "slug": "golden-1",
-     "description": "Golden 1 Credit Union is a state-chartered, member-owned not-for-profit financial cooperative headquartered in Sacramento, California, and is one of the largest credit unions in the United States, serving roughly 1.1 million members across California with approximately 20 billion dollars in assets. Founded in 1933 and open to all Californians, it offers consumer checking, savings, credit cards, auto and home loans, and digital banking, and holds the naming rights to Golden 1 Center in Sacramento. Like most US credit unions, Golden 1 publishes NO public developer portal and NO first-party public API; its digital banking runs on a core-provider platform, and consumer-permissioned account data is reachable only indirectly through third-party data aggregators (Plaid, MX, Finicity, Akoya) rather than a documented first-party open-finance API. US open finance is voluntary and fragmented, and this institution's public API surface is honestly empty as of this record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/golden-1/refs/heads/main/screenshots/golden-1-2026-07-25T220025.png",
+     "name": "Mountain America Credit Union",
+     "slug": "mountain-america",
+     "description": "Mountain America Credit Union (MACU) is a federally chartered, member-owned not-for-profit financial cooperative headquartered in Sandy, Utah, founded in 1936 and regulated and insured by the National Credit Union Administration (NCUA). It is one of the largest credit unions in the United States, with roughly $21.9 billion in assets, more than 1.4 million members, and over 100 branches serving Utah, Idaho, Montana, Nevada, and Arizona, offering consumer and business checking, savings, mortgages, auto loans, credit cards, and wealth services. Like the vast majority of US credit unions, Mountain America exposes no public first-party developer API or developer portal: there is no developer.macu.com or api.macu.com host, and every path under macu.com returns the same client-rendered application shell. Consumer-permissioned data access is intermediated through its core banking provider and data aggregators (Plaid, MX, Finicity, Akoya) rather than a directly published API. US open finance is voluntary and fragmented, and no public FDX participation or CFPB Section 1033 data-access posture is documented for this institution at the time of review.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mountain-america/refs/heads/main/screenshots/mountain-america-2026-08-07T184345.png",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5921,8 +5921,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5957,10 +5957,9 @@
      "rank": 111
     },
     {
-     "name": "Mountain America Credit Union",
-     "slug": "mountain-america",
-     "description": "Mountain America Credit Union (MACU) is a federally chartered, member-owned not-for-profit financial cooperative headquartered in Sandy, Utah, founded in 1936 and regulated and insured by the National Credit Union Administration (NCUA). It is one of the largest credit unions in the United States, with roughly $21.9 billion in assets, more than 1.4 million members, and over 100 branches serving Utah, Idaho, Montana, Nevada, and Arizona, offering consumer and business checking, savings, mortgages, auto loans, credit cards, and wealth services. Like the vast majority of US credit unions, Mountain America exposes no public first-party developer API or developer portal: there is no developer.macu.com or api.macu.com host, and every path under macu.com returns the same client-rendered application shell. Consumer-permissioned data access is intermediated through its core banking provider and data aggregators (Plaid, MX, Finicity, Akoya) rather than a directly published API. US open finance is voluntary and fragmented, and no public FDX participation or CFPB Section 1033 data-access posture is documented for this institution at the time of review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mountain-america/refs/heads/main/screenshots/mountain-america-2026-08-07T184345.png",
+     "name": "Suncoast Credit Union",
+     "slug": "suncoast",
+     "description": "Suncoast Credit Union is a state-chartered, federally insured (NCUA), member-owned not-for-profit financial cooperative headquartered in Tampa, Florida. Founded in 1934 as Hillsborough County Teachers Credit Union, it is the largest credit union in Florida and one of the largest in the United States, serving well over a million members across Florida counties with more than $17 billion in assets. It offers consumer and small-business deposit accounts, lending, cards, and digital banking through a web presence (the brand's canonical domain is now suncoast.com, with the legacy suncoastcreditunion.com 301-redirecting to it) and an online/mobile banking platform hosted on banking.suncoastcreditunion.com. As is typical for a U.S. credit union, Suncoast publishes NO first-party public developer API and operates no developer portal: no developer or api subdomain resolves for either suncoastcreditunion.com or suncoast.com. Consumer-permissioned data access is available only through third-party aggregators (Plaid, MX, Finicity, Akoya) and its digital-banking core provider rather than a direct API. There is no publicly documented Financial Data Exchange (FDX) participation and no published CFPB Section 1033 open-banking posture. This is an identity-only API Evangelist record reflecting an honest \"no public API, aggregator-only\" reality.",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5974,8 +5973,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6008,58 +6007,6 @@
      },
      "tier": "Credit Union",
      "rank": 112
-    },
-    {
-     "name": "Suncoast Credit Union",
-     "slug": "suncoast",
-     "description": "Suncoast Credit Union is a state-chartered, federally insured (NCUA), member-owned not-for-profit financial cooperative headquartered in Tampa, Florida. Founded in 1934 as Hillsborough County Teachers Credit Union, it is the largest credit union in Florida and one of the largest in the United States, serving well over a million members across Florida counties with more than $17 billion in assets. It offers consumer and small-business deposit accounts, lending, cards, and digital banking through a web presence (the brand's canonical domain is now suncoast.com, with the legacy suncoastcreditunion.com 301-redirecting to it) and an online/mobile banking platform hosted on banking.suncoastcreditunion.com. As is typical for a U.S. credit union, Suncoast publishes NO first-party public developer API and operates no developer portal: no developer or api subdomain resolves for either suncoastcreditunion.com or suncoast.com. Consumer-permissioned data access is available only through third-party aggregators (Plaid, MX, Finicity, Akoya) and its digital-banking core provider rather than a direct API. There is no publicly documented Financial Data Exchange (FDX) participation and no published CFPB Section 1033 open-banking posture. This is an identity-only API Evangelist record reflecting an honest \"no public API, aggregator-only\" reality.",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Credit Union",
-     "rank": 113
     }
    ]
   }

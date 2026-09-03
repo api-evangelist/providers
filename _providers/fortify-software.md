@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.ams.fortify.com
@@ -176,7 +176,7 @@ apis:
   description: The Vulnerabilities API from Fortify Software — 20 operation(s) for vulnerabilities.
   name: Fortify Software Vulnerabilities API
   slug: fortify-software-vulnerabilities-api
-artifact_total: 62
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -268,6 +268,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/fortify-software-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/fortify-software-fod-overlay.yaml
 - group: start
@@ -300,7 +304,7 @@ common:
   url: https://blogs.opentext.com/category/technologies/cybersecurity/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fortify-software-mcp.yml
 - group: build
   title: ''
@@ -366,10 +370,6 @@ created: '2026-07-17'
 description: Fortify Software is the application security (AppSec) business now delivered as OpenText Core Application Security, better known by its long-running Fortify brand. Founded in 2003 in San Mateo, California, Fortify pioneered static application security testing (SAST) and was acquired by HP in 2010, moved to Micro Focus in 2017, and to OpenText in 2023. Its flagship SaaS, Fortify on Demand (FoD), provides SAST, DAST, mobile (MAST), and open-source/software-composition analysis as a service, and exposes a documented Fortify on Demand REST API (v3) covering applications, releases, scans, vulnerabilities, reports, users, tenants, and personal access tokens. Authentication is OAuth 2.0 (client-credentials token endpoint) with granular tenant scopes, plus personal access tokens and API keys. A rich GitHub organization (github.com/fortify) ships first-party tooling including the fcli command-line utility and Software Security Center REST clients.
 image: https://www.opentext.com/assets/images/opentext-logo-white.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fortify Software MCP Server
-  slug: fortify-software-mcp-server
 modified: '2026-07-19'
 name: Fortify Software
 nav: Providers
@@ -377,7 +377,7 @@ network: true
 overview: 'Fortify Software publishes 28 APIs on the [APIs.io](https://apis.io/) network, including ApiKeyManagement API, Applications API, Attributes API, and 25 more. Tagged areas include Company, Security, Application Security, AppSec, and SAST.
 
 
-  Fortify Software''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, and 18 more developer resources.'
+  Fortify Software''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, and 19 more developer resources.'
 random_paper: 11
 scopes:
 - name: Fortify Software Scopes
@@ -388,7 +388,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -412,8 +412,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/screenshots/fortify-software-2026-07-25T215010.png
 security:

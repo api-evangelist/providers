@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Operations for managing services within namespaces
   name: Amazon Cloud Map Services API
   slug: amazon-cloud-map-services-api
-artifact_total: 69
+artifact_total: 68
 collections:
 - collection_type: open
   name: API Collection
@@ -75,7 +75,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-cloud-map-mcp.yml
 - group: other
   title: ''
@@ -340,10 +340,6 @@ jsonld:
   property_count: 20
   slug: amazon-cloud-map-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Cloud Map MCP Server
-  slug: amazon-cloud-map-mcp-server
 modified: '2026-06-20'
 name: Amazon Cloud Map
 nav: Providers
@@ -406,8 +402,8 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:

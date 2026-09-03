@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Endpoints related to scanning blockchain transactions
   name: Blowfish Scan transaction API
   slug: blowfish-scan-transaction-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: components/blowfish-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blowfish-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: Blowfish is a proactive web3 security platform that scans EVM and Solana transactions, EVM messages, and dApp domains before a user signs, returning a recommended action (NONE, WARN, or BLOCK), severity-sorted warnings, and human-readable transaction simulation results. Its Scan API and downloadable domain blocklist help wallets and dApps protect users from scams, malicious token approvals, and phishing across 10+ blockchains. Backed by Paradigm.
 image: https://raw.githubusercontent.com/blowfishxyz/blowfish-openapi-specs/HEAD/blowfish.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blowfish MCP Server
-  slug: blowfish-mcp-server
 modified: '2026-07-18'
 name: Blowfish
 nav: Providers
@@ -241,8 +237,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/screenshots/blowfish-2026-07-25T203426.png
 security:

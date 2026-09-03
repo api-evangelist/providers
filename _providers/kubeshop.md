@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -450,13 +450,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.4
+  composite: 52.1
   coverage:
     artifact_dirs: 24
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -466,9 +466,6 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -480,8 +477,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ arazzos:
 - description: Bulk-create investors, subscribe one to an SPV, then upload the signed form and funding receipt in strict order.
   name: Zest — onboard investors and record a subscription
   slug: zest-equity-onboard-and-subscribe
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Zest Equity Webhooks
@@ -162,7 +162,7 @@ common:
   url: asyncapi/zest-equity-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zest-equity-mcp.yml
 - group: agent
   title: ''
@@ -248,10 +248,6 @@ created: '2026-07-17'
 description: 'Zest Equity is the digital infrastructure for private-market transactions — built in MENA, used worldwide. Its SPV-as-a-Service platform lets partners create DIFC-regulated Special Purpose Vehicles, run FSRA-regulated escrow and deal-arranging, bulk-onboard investors, and process subscriptions. The Zest Public API exposes this workflow programmatically: OAuth 2.0 JWT-Bearer (RFC 7523, EdDSA) authentication, idempotent write endpoints, a versioned contract-template engine, and a nine-event HMAC-signed webhook surface — so fund managers, family offices, VCs, and PE firms can embed SPV setup, fund administration, and regulatory compliance directly inside their own product.'
 image: https://cdn.prod.website-files.com/699db6380f5e26c60d1ebda3/6a31ad4a4c9ad7f045465700_favicon%20light.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zest Equity MCP Server
-  slug: zest-equity-mcp-server
 modified: '2026-07-21'
 name: Zest Equity
 nav: Providers
@@ -293,8 +289,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/screenshots/zest-equity-2026-08-17T083105.png
 security:

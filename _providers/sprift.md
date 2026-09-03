@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ arazzos:
 - description: Resolve a UPRN to Sprift's internal property ID, then collect the price estimate, unified comparables, recently sold evidence and live for-sale stock.
   name: Sprift — valuation evidence pack
   slug: sprift-valuation-evidence
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Sprift Webhooks
@@ -151,7 +151,7 @@ common:
   url: asyncapi/sprift-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sprift-mcp.yml
 - group: build
   title: ''
@@ -278,10 +278,6 @@ description: 'Sprift is a United Kingdom property data aggregator, operated by S
   is genuinely documented but commercially gated. A public, unauthenticated Swagger UI at sprift.com/dashboard/api-doc serves a real Swagger 2.0 contract (sprift.json, version 1.3.9, 27 paths, 76 definitions) for the v1 API at https://sprift.com/dashboard/api/v1, harvested verbatim here — that is the only machine-readable contract Sprift publishes. Every operation in it requires a SPRIFT-API-KEY header, and the API base returns HTTP 401 to anonymous callers. There is no self-serve signup anywhere: /dashboard/register and /dashboard/signup both return 404, pricing is not published, and Sprift''s own knowledge base instructs prospective API users to email Customer Success with their company, use case and target systems for review, noting that access "may require an additional agreement depending on your subscription". A larger v2 API family is advertised on the Data and API product page with named endpoint paths, webhook alerts and bulk queries, but no contract for it is published and no host
   for it was confirmed. No RESO Web API or Data Dictionary certification, no OData service root or $metadata document, and no Universal Property Identifier appears anywhere in Sprift''s surface — RESO is a North American, NAR-driven construct and the UK has no MLS to certify against. The UK''s standards seam is instead the Open Property Data Association and its Property Data Trust Framework, of which Sprift claims founding and accredited membership. Sprift publishes no open data of its own; the open UK property layer belongs to HM Land Registry and Ordnance Survey, which are among its inputs.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sprift MCP Server
-  slug: sprift-mcp-server
 modified: '2026-07-26'
 name: Sprift
 nav: Providers
@@ -323,8 +319,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/screenshots/sprift-2026-08-17T082046.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Planday's REST API secured by OAuth2 bearer tokens, separated into domains (HR, Absence, Pay, Payroll, Portal, Punchclock, Reports, Revenue, Schedule, Contract Rules, Security Group Membership). Reque
   name: Planday API
   slug: planday-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -131,7 +131,7 @@ common:
   url: data-model/planday-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/planday-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Planday is a workforce management platform for shift-based businesses in hospitality, retail, healthcare, hotels, entertainment, and fitness, offering employee scheduling, time tracking and punch clock, absence and leave management, payroll reporting, staff communication, and HR. Planday (part of Xero) publishes a public REST/OAuth2 developer API at openapi.planday.com, organized into domains such as HR, Absence, Pay, Payroll, Portal, Punchclock, Reports, Revenue, Schedule, Contract Rules, and Security Group Membership, so partners and customers can sync employees, shifts, timesheets, pay rates, and cost data with external systems.
 image: https://www.planday.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Planday MCP Server
-  slug: planday-mcp-server
 modified: '2026-07-20'
 name: Planday
 nav: Providers
@@ -181,8 +177,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/screenshots/planday-2026-09-02T151402.png
 security:

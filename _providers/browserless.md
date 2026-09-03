@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -313,14 +313,14 @@ rules:
     warn: 6
   slug: browserless-rules
 score:
-  band: developing
-  composite: 52.0
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 19
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -330,9 +330,6 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -341,8 +338,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/screenshots/browserless-2026-06-20T173726.png
 security:

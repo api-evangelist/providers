@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The University of Tokyo operates three SAML 2.0 entities registered in GakuNin, Japan's academic access federation — two Shibboleth Identity Providers (the central UTokyo IdP at gidp.adm.u-tokyo.ac.jp
@@ -285,13 +285,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.1
+  composite: 49.6
   coverage:
     artifact_dirs: 17
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -301,9 +301,6 @@ score:
     discoverability: 74.1
     governance: 22.0
     operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 45.1
   provenance:
     conformance: first-party
@@ -318,8 +315,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/screenshots/university-of-tokyo-2026-06-20T200308.png
 security:

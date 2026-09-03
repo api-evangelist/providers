@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.console.tessell.com
@@ -446,7 +446,7 @@ apis:
   description: The VPC Peering Governance API from Tessell — 4 operation(s) for vpc peering governance.
   name: Tessell VPC Peering Governance API
   slug: tessell-vpc-peering-governance-api
-artifact_total: 170
+artifact_total: 169
 asyncapis:
 - description: ''
   name: Tessell Notifications Webhooks
@@ -804,7 +804,7 @@ common:
   url: packages/tessell-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tessell-mcp.yml
 - group: design
   title: ''
@@ -850,10 +850,6 @@ created: '2026-07-17'
 description: Tessell is a multi-cloud database-as-a-service (DBaaS) platform that runs Oracle, SQL Server, PostgreSQL, MySQL, MongoDB, Milvus, and Apache Kafka inside a customer's own AWS, Azure, or GCP account, under the customer's encryption keys and network policies. The platform is API-first — everything available in the Tessell console is also available through its REST API and Terraform provider — covering database provisioning, availability machines (backup/recovery), Dataflix data access, governance, security profiles, monitoring, and metering across engines and clouds.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tessell.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tessell MCP Server
-  slug: tessell-mcp-server
 modified: '2026-07-21'
 name: Tessell
 nav: Providers
@@ -894,8 +890,8 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/screenshots/tessell-2026-08-17T082320.png
 security:

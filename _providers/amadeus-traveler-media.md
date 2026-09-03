@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: The Search API from Amadeus Traveler Media — 2 operation(s) for search.
   name: Amadeus Traveler Media Search API
   slug: amadeus-traveler-media-search-api
-artifact_total: 143
+artifact_total: 142
 collections:
 - collection_type: open
   name: API Collection
@@ -190,7 +190,7 @@ common:
   url: well-known/amadeus-traveler-media-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amadeus-traveler-media-mcp.yml
 - group: agent
   title: ''
@@ -592,10 +592,6 @@ jsonld:
   property_count: 4
   slug: amadeus-travel-recommendations-warning-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP surface exposing the Amadeus Traveler Media destination-content APIs (Points of Interest, Hotel Ratings, Travel Recommendations, Location Score) as one tool per OpenAPI operation. Requir
-  name: Amadeus Traveler Media MCP Server
-  slug: amadeus-traveler-media-mcp-server
 modified: '2026-06-20'
 name: Amadeus Traveler Media
 nav: Providers
@@ -658,8 +654,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:

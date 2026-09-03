@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -89,7 +89,31 @@ apis:
   description: Task records associated with CRM objects
   name: Twenty tasks API
   slug: twenty-tasks-api
-artifact_total: 35
+- description: Auto-generated GraphQL API over the same workspace schema, exposing queries, mutations, batch upserts via plural object names, and relation traversal for the Core API (/graphql) and Metadata API (/met
+  name: Twenty GraphQL API
+  slug: twenty-crm-graphql-api
+- description: Core API CRUD over company records.
+  name: Twenty Companies API
+  slug: twenty-crm-companies-api
+- description: Metadata API management of field definitions.
+  name: Twenty Metadata - Fields API
+  slug: twenty-crm-metadata-fields-api
+- description: Metadata API management of object definitions.
+  name: Twenty Metadata - Objects API
+  slug: twenty-crm-metadata-objects-api
+- description: Core API CRUD over note records.
+  name: Twenty Notes API
+  slug: twenty-crm-notes-api
+- description: Core API CRUD over opportunity records.
+  name: Twenty Opportunities API
+  slug: twenty-crm-opportunities-api
+- description: Core API CRUD over person records.
+  name: Twenty People API
+  slug: twenty-crm-people-api
+- description: Core API CRUD over task records.
+  name: Twenty Tasks API
+  slug: twenty-crm-tasks-api
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -190,6 +214,10 @@ common:
   title: ''
   type: FinOps
   url: finops/twenty-finops.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.twenty.com/
 created: 2026-06-12
 description: Twenty is an open-source CRM platform built as a modern alternative to Salesforce, designed for teams that need flexibility, data ownership, and a contemporary developer experience. It provides REST and GraphQL APIs covering core CRM operations such as managing companies, people, opportunities, notes, tasks, and fully customizable objects. Developers can extend Twenty with custom objects, server-side logic, UI components, and AI agents as TypeScript packages, all surfaced through the same API surface. The platform is available as a cloud service or as a self-hosted deployment via Docker Compose, giving teams full control over their data residency and infrastructure.
 examples:
@@ -231,13 +259,13 @@ modified: 2026-06-12
 name: Twenty
 nav: Providers
 network: true
-overview: 'Twenty publishes 9 APIs on the [APIs.io](https://apis.io/) network, including companies API, fields API, notes API, and 6 more. Tagged areas include CRM, Open-Source, REST, GraphQL, and Webhook.
+overview: 'Twenty publishes 16 APIs on the [APIs.io](https://apis.io/) network, including companies API, fields API, notes API, and 13 more. Tagged areas include CRM, Open-Source, REST, GraphQL, and Webhook.
 
 
   The Twenty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Twenty''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Twenty''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Twenty Plans Pricing
   plan_count: 3
@@ -260,19 +288,19 @@ rules:
   slug: twenty-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 48.3
   coverage:
     artifact_dirs: 16
     catalog_gap: 34.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 73.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 35.7
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 36.8
@@ -284,8 +312,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/screenshots/twenty-2026-06-20T195948.png
 security:

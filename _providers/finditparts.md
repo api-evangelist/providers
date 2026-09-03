@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ apis:
   description: Variant-level price, quantity, cutoff and core lookups.
   name: FinditParts Variants API
   slug: finditparts-variants-api
-artifact_total: 56
+artifact_total: 55
 collections:
 - collection_type: open
   name: FinditParts Reseller API
@@ -220,7 +220,7 @@ common:
   url: agentic-access/finditparts-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finditparts-mcp.yml
 - group: build
   title: ''
@@ -345,10 +345,6 @@ examples:
   slug: finditparts-variant-lookup-200
 image: https://d2jocyn8o0ggnq.cloudfront.net/logos/finditparts.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: FinditParts MCP Server
-  slug: finditparts-mcp-server
 modified: '2026-08-12'
 name: FinditParts
 nav: Providers
@@ -395,8 +391,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/screenshots/finditparts-2026-08-17T080926.png
 security:

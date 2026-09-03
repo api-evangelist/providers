@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Chat API from Interfaze — 1 operation(s) for chat.
   name: Interfaze Chat API
   slug: interfaze-chat-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/interfaze-mcp.yml
 - group: other
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: Interfaze is a Y Combinator (P26) startup building a new model architecture for deterministic developer tasks. Interfaze-beta is a multimodal, OpenAI-compatible Chat Completion API (a hybrid Mixture-of-Architecture combining specialized DNN/CNN vision and audio models with a transformer layer) tuned for high accuracy, precision, and consistency on jobs like OCR, speech-to-text, strict structured/JSON output, object detection with bounding boxes, web search, and web scraping through a single endpoint. It exposes a 1M-token context window, 32k max output, verifiable outputs with confidence scores, built-in sandboxed compute and headless browser tools, and works with the OpenAI, Vercel AI, and LangChain SDKs by swapping the base URL. Founded in 2025 by Yoeven D Khemlani and Harsha Vardhan Khurdula (evolved from JigsawStack) and based in San Francisco.
 image: https://interfaze.ai/banner.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Interfaze MCP Server
-  slug: interfaze-mcp-server
 modified: '2026-07-19'
 name: Interfaze
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:

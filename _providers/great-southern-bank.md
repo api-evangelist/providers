@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: Great Southern Bank Banking Products API
   slug: great-southern-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -156,7 +156,7 @@ common:
   url: well-known/great-southern-bank-openid-configuration.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/great-southern-bank-mcp.yml
 - group: agent
   title: ''
@@ -211,10 +211,6 @@ description: Great Southern Bank is one of Australia's largest customer-owned (m
   portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/great-southern-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Great Southern Bank MCP Server
-  slug: great-southern-bank-mcp-server
 modified: '2026-07-22'
 name: Great Southern Bank
 nav: Providers
@@ -263,8 +259,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 REST API for programmatic access to Burner line management, messaging (SMS/MMS) and configuration, plus a webhook system for real-time event notifications. Requests use `Authorization: Beare'
   name: Burner API
   slug: burner-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Burner Webhooks
@@ -119,7 +119,7 @@ common:
   url: asyncapi/burner-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/burner-mcp.yml
 - group: auth
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: Burner is the original second-phone-number app from Ad Hoc Labs (founded 2012, Los Angeles), letting people create multiple temporary or permanent phone numbers on a single iOS or Android device for privacy, communication management, and boundary-setting. Burner supports voice calls, SMS and MMS over VoIP/PSTN, with spam blocking, voicemail transcription, auto-reply and multi-line management. For developers, Burner exposes an OAuth 2.0 REST API (api.burnerapp.com) for programmatic line management and messaging, a webhook system for real-time event notifications, and the open-source Burner App Starter Kit (BASK) for building Burner-integrated apps and bots such as Hostbot and Ghostbot.
 image: https://cdn.prod.website-files.com/61a66db931b63404b86e2ae5/61c08c40a49820520cc24482_OpenGraph.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Burner MCP Server
-  slug: burner-mcp-server
 modified: '2026-07-18'
 name: Burner
 nav: Providers
@@ -173,8 +169,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/screenshots/burner-2026-07-25T204111.png
 security:

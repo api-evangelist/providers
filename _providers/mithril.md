@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -113,7 +113,7 @@ apis:
   description: The volumes API from Mithril — 2 operation(s) for volumes.
   name: Mithril volumes API
   slug: mithril-volumes-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -243,7 +243,7 @@ common:
   url: well-known/mithril-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mithril-mcp.yml
 - group: agent
   title: ''
@@ -305,10 +305,6 @@ created: '2026-07-17'
 description: Mithril is an AI omnicloud compute platform, operated by Foundry Technologies, that aggregates GPU, CPU, and storage capacity across multiple cloud providers behind a single interface with transparent, market-based pricing. Developers reserve NVIDIA A100/H100/H200 GPUs on flexible reservations or burst onto interruptible spot capacity via price-limited bids, attach WEKA/NVMe persistent storage, run Kubernetes clusters, and drive it all through the v2 Compute REST API, the `ml` CLI, and a Python batch/inference SDK. Used for training, fine-tuning, inference, and batch workloads; SOC 2 Type II certified. Backed by Lightspeed, Multicoin Capital, and Redpoint.
 image: https://app.mithril.ai/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mithril MCP Server
-  slug: mithril-mcp-server
 modified: '2026-07-20'
 name: Mithril
 nav: Providers
@@ -347,8 +343,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/screenshots/mithril-2026-08-07T183809.png
 security:

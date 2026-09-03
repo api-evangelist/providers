@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.getcensus.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.fivetran.com/ — a different registrable domain (getcensus.com -> fivetran.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Census Management REST API allows developers to programmatically manage syncs, connections, models, segments, and destinations within Census workspaces and organizations. Supports both workspace-l
@@ -231,8 +232,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/screenshots/getcensus-2026-06-20T181807.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://stellaconnect.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.medallia.com/ — a different registrable domain (stellaconnect.com -> medallia.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -73,7 +74,7 @@ apis:
   description: The Requests API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for requests.
   name: Stella Connect (Medallia Agent Connect) Requests API
   slug: stellaconnect-requests-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +196,7 @@ common:
   url: llms/stellaconnect-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stellaconnect-mcp.yml
 - group: design
   title: ''
@@ -225,10 +226,6 @@ created: '2026-07-17'
 description: Stella Connect, built by StellaService and acquired by Medallia in 2020, is now Medallia Agent Connect — a customer service team platform that pairs real-time customer feedback with agent coaching, quality assurance (QA), and recognition for contact center front-line teams. The product still runs on stellaconnect.net, and its Agent Connect API at api.stellaconnect.net exposes a Requests API for triggering feedback and service recovery surveys from any CRM or helpdesk, a Data Return API for pulling feedback, coaching sessions, QA reviews, audits, and calibrations, and a User Management API for employee lifecycle operations, secured with API keys and HMAC-signed JWTs.
 image: https://docs-assets.medallia.com/icons/medallia.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stella Connect (Medallia Agent Connect) MCP Server
-  slug: stella-connect-medallia-agent-connect-mcp-server
 modified: '2026-07-21'
 name: Stella Connect (Medallia Agent Connect)
 nav: Providers
@@ -271,8 +268,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/screenshots/stellaconnect-2026-08-17T082119.png
 security:

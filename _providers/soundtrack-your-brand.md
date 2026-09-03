@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.soundtrackyourbrand.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.soundtrack.io/ — a different registrable domain (soundtrackyourbrand.com -> soundtrack.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
   name: Soundtrack API
   slug: soundtrack-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: 'Event/streaming surface of the Soundtrack API, derived from the GraphQL Subscriptions root type via introspection. Clients subscribe over websocket to the single GraphQL endpoint (token supplied as a '
   name: Soundtrack API — GraphQL Subscriptions
@@ -139,7 +140,7 @@ common:
   url: asyncapi/soundtrack-your-brand-subscriptions-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/soundtrack-your-brand-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +158,6 @@ created: '2026-07-17'
 description: 'Soundtrack Your Brand (Soundtrack) is a Stockholm-based business music streaming company that provides licensed background music for physical spaces such as retail stores, restaurants, cafes, hotels and gyms. Its Soundtrack API is a single-endpoint GraphQL API that lets partners and customers build display, control and monitoring applications on top of Soundtrack: read what is currently playing in a sound zone, control playback, pair playback devices, and manage schedules, playlists and music libraries across accounts and locations. The API is free for paying Soundtrack customers and is complemented by a partner-gated native Player SDK for embedding Soundtrack playback in hardware.'
 image: https://api.soundtrackyourbrand.com/v2/docs/img/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Soundtrack Your Brand MCP Server
-  slug: soundtrack-your-brand-mcp-server
 modified: '2026-07-21'
 name: Soundtrack Your Brand
 nav: Providers
@@ -196,8 +193,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/screenshots/soundtrack-your-brand-2026-08-17T082005.png
 security:

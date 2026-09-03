@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -416,8 +416,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Minicheck API from Bespoke Labs — 1 operation(s) for minicheck.
   name: Bespoke Labs Minicheck API
   slug: bespoke-labs-minicheck-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -87,7 +87,7 @@ common:
   url: well-known/bespoke-labs-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bespoke-labs-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Bespoke Labs is an applied AI research lab building environment infrastructure, data curation, and evaluation tooling for AI agents and post-training. Its open-source Bespoke Curator library generates high-quality synthetic data at scale for model finetuning and structured extraction, and its Bespoke MiniCheck ("Argus") API offers a lightweight grounded-factuality / hallucination-detection service that scores whether a claim is supported by a given context. The lab is also known for OpenThoughts reasoning datasets, Terminal-Bench, the GEPA prompt optimizer, MiniChart, and OpenThinker. Backed by 8VC, Mayfield, and Wing Venture Capital.
 image: https://framerusercontent.com/images/3uXQTaKpkGh6gD7qAWsAwPMhk.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bespoke Labs MCP Server
-  slug: bespoke-labs-mcp-server
 modified: '2026-07-18'
 name: Bespoke Labs
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/screenshots/bespoke-labs-2026-07-25T202750.png
 security:

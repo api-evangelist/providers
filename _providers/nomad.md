@@ -9,6 +9,7 @@ access_model:
   - plans
   - authentication
   - security
+  - '{''url'': ''https://www.nomadproject.io/'', ''status'': 308, ''note'': ''declared website redirects to https://developer.hashicorp.com/nomad — a different registrable domain (nomadproject.io -> hashicorp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -417,8 +418,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/screenshots/nomad-2026-06-20T190354.png
 security:

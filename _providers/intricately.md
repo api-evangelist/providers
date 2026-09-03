@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
   name: Cloud Dynamics API (Intricately)
   slug: cloud-dynamics-api-intricately
-artifact_total: 7
+artifact_total: 6
 common:
 - group: start
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Intricately is a cloud and technology spend intelligence platform that tracks the adoption, usage, and spend of more than 15,000 cloud products across millions of companies worldwide, giving sales and marketing teams the signals they need to find accounts, spot active sales cycles, and predict churn. Founded in 2014 in San Francisco and backed by Bloomberg Beta, GitHub, Susa Ventures, and Singtel Innov8, Intricately was acquired by HG Insights in March 2022 and its data product is now delivered as the Cloud Dynamics API. The REST API (https://api.intricately.com/api/v2) authenticates with an X-API-KEY header and centers on asynchronous Bulk Jobs that enrich lists of domains with cloud adoption, product signatures, revenue, and digital-relationship data. API access is available on Enterprise plans.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intricately.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Intricately MCP Server
-  slug: intricately-mcp-server
 modified: '2026-08-14'
 name: Intricately
 nav: Providers
@@ -148,8 +144,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/screenshots/intricately-2026-07-25T222720.png
 security:

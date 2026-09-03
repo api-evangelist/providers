@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://m-api.eu.phas.io/api/manufacturer/v1
@@ -496,7 +496,7 @@ apis:
   description: Endpoints for managing webhooks
   name: Phasio Webhooks API
   slug: phasio-webhooks-api
-artifact_total: 190
+artifact_total: 189
 asyncapis:
 - description: ''
   name: Phasio Webhooks
@@ -888,7 +888,7 @@ common:
   url: asyncapi/phasio-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/phasio-mcp.yml
 - group: agent
   title: ''
@@ -906,10 +906,6 @@ created: '2026-07-17'
 description: Phasio is an operating platform for manufacturing service providers that unifies intelligent quoting, production operations, connected back-office/ERP integration, part intelligence, and white-labeled customer storefronts. It serves contract manufacturers across additive manufacturing, CNC machining, and injection molding, generating CAD-based quotes in seconds and managing shop-floor routing and scheduling. The Phasio Manufacturer API (v1) is an OpenAPI 3.1 REST API of 481 operations across 85 controllers covering orders, quotes, requisitions, part specifications and revisions, shipments, production steps, discounts, expenses, taxes, and webhooks, secured with OAuth 2.0 client-credentials Bearer JWTs.
 image: https://phas.io/icon.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the Phasio Manufacturer API OpenAPI. No official hosted/remote Phasio MCP server was found (docs, npm, MCP registries). This is a curated candidate set over the
-  name: Phasio MCP Server
-  slug: phasio-mcp-server
 modified: '2026-07-20'
 name: Phasio
 nav: Providers
@@ -950,8 +946,8 @@ score:
       total: 92
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/screenshots/phasio-2026-08-17T081204.png
 security:

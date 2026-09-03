@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -210,7 +210,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -220,7 +220,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.4
+  previous_composite: 21.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -230,8 +230,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png
 security:

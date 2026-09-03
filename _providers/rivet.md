@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Gateway API from Rivet — 12 operation(s) for gateway.
   name: Rivet Gateway API
   slug: rivet-gateway-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: cli/rivet-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rivet-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Rivet is infrastructure for the agentic era, providing durable, stateful compute for AI agents and realtime applications. Its core primitive, Rivet Actors (RivetKit), is a runtime for long-lived processes that co-locate in-memory state with compute, support built-in WebSockets, workflows, queues, scheduling and cron, hibernate when idle, and scale from zero to thousands of instances across a global edge network. Rivet also ships agentOS, a lightweight WebAssembly-powered alternative to sandboxes for running coding agents, and Rivet Cloud, a managed serverless platform. RivetKit is open source (Apache-2.0), self-hostable on Postgres, the file system, or FoundationDB, with client SDKs for JavaScript, React, Rust, Swift and SwiftUI, a CLI, an OpenAPI-described gateway/inspector HTTP API and an AsyncAPI WebSocket protocol. Rivet is backed by Y Combinator and a16z Speedrun.
 image: https://rivet.dev/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rivet MCP Server
-  slug: rivet-mcp-server
 modified: '2026-07-21'
 name: Rivet
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/screenshots/rivet-2026-08-17T081626.png
 security:

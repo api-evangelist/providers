@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://bounti.ai
@@ -45,7 +45,7 @@ apis:
   description: The Llms.txt API from Bounti — 1 operation(s) for llms.txt.
   name: Bounti Llms.txt API
   slug: bounti-llms-txt-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -111,7 +111,7 @@ common:
   url: llms/bounti-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bounti-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ description: Bounti (Bounti Labs, bounti.ai) is an AI-powered real estate visual
   a catalog of 303 named B.Claw skills as machine-readable schema.org SoftwareApplication definitions at bounti.ai/skills, and 34 connector listings at bounti.ai/integrations — but those skills execute only inside the authenticated B.Claw product, whose API at claw.bounti.ai/api has no published contract.
 image: https://bounti.ai/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bounti MCP Server
-  slug: bounti-mcp-server
 modified: '2026-08-14'
 name: Bounti
 nav: Providers
@@ -223,8 +219,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/screenshots/bounti-2026-07-25T203646.png
 security:

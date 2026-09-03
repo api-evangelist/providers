@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ apis:
   description: Operations for Webhooks
   name: Tackle Webhooks API
   slug: tackle-webhooks-api
-artifact_total: 61
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Tackle Webhooks
@@ -351,7 +351,7 @@ common:
   url: data-model/tackle-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tackle-mcp.yml
 - group: design
   title: ''
@@ -393,10 +393,6 @@ created: '2026-07-17'
 description: 'Tackle is a Cloud Go-To-Market (Cloud GTM) platform that helps software companies sell through the AWS, Microsoft Azure, and Google Cloud marketplaces. Its developer APIs (developers.tackle.io) automate the full marketplace workflow: creating and managing private offers on AWS and Microsoft, AWS Partner Central co-sell opportunities and invitations, public contracts, metered usage reporting, disbursements and invoices, buyer prospecting (propensity-to-buy domain scoring), and SCIM 2.0 user provisioning. Authentication is machine-to-machine JWT (client_id/client_secret exchanged for a Bearer token), and vendors receive marketplace lifecycle events via registered, authenticated webhooks. Tackle is backed by a16z and publishes a SafeBase trust center (SOC 2 Type II, GDPR).'
 image: https://tackle.io/wp-content/uploads/2024/02/cropped-cropped-favicon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tackle MCP Server
-  slug: tackle-mcp-server
 modified: '2026-08-13'
 name: Tackle
 nav: Providers
@@ -451,8 +447,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/screenshots/tackle-2026-08-17T082242.png
 security:

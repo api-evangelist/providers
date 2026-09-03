@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Instant IBAN and SWIFT number validation across the globe
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-data-api/refs/heads/main/screenshots/bank-data-api-2026-06-20T172943.png
 security:

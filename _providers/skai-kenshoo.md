@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: First-party hosted, remote Model Context Protocol servers exposing the Skai platform to AI assistants. The Reporting MCP is read-only and publishes five tools — fetch_report, relevant_columns, get_tod
@@ -494,8 +494,8 @@ score:
       total: 49
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/screenshots/skai-kenshoo-2026-08-17T081910.png
 security:

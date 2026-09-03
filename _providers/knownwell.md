@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -96,7 +96,7 @@ apis:
   description: The topics API from Knownwell — 1 operation(s) for topics.
   name: Knownwell topics API
   slug: knownwell-topics-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -251,7 +251,7 @@ common:
   url: examples/knownwell-code-examples.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/knownwell-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ description: Knownwell is an AI-powered commercial intelligence platform for B2B
   rather than named tiers, with a 30-day trial and no per-seat charge. Knownwell was acquired by 2X to form a human-agentic GTM services company.
 image: https://knownwell.com/wp-content/uploads/2023/08/favicon21.svg
 layout: provider
-mcp_servers:
-- description: Knownwell publishes no hosted or remote MCP server (no MCP reference in the developer docs, no /.well-known/ai-plugin.json, no npm or registry listing). This is a candidate server derived one-to-one f
-  name: Knownwell MCP Server
-  slug: knownwell-mcp-server
 modified: '2026-08-13'
 name: Knownwell
 nav: Providers
@@ -320,8 +316,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png
 security:

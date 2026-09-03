@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ apis:
   description: The ValueSet API from Canada Health Infoway — 8 operation(s) for valueset.
   name: Canada Health Infoway Value Set API
   slug: canada-health-infoway-valueset-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Canada Health Infoway Notifications Webhooks
@@ -145,7 +145,7 @@ common:
   url: data-model/canada-health-infoway-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/canada-health-infoway-mcp.yml
 - group: build
   title: ''
@@ -216,10 +216,6 @@ description: Canada Health Infoway is an independent, federally funded not-for-p
   clinical-data platform; the terminology content APIs are gated behind free registration and a session/token login, while the FHIR CapabilityStatement is served anonymously.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP server derived from the Terminology Gateway OpenAPI operations. Canada Health Infoway does not publish an official hosted MCP server; this is a proposed tool surface an integrator could '
-  name: Canada Health Infoway MCP Server
-  slug: canada-health-infoway-mcp-server
 modified: '2026-07-24'
 name: Canada Health Infoway
 nav: Providers
@@ -267,8 +263,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:

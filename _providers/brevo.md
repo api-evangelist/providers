@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 4
@@ -1019,8 +1019,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:

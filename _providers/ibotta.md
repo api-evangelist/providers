@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.ibops.net/bex-api
@@ -42,7 +42,7 @@ apis:
   description: Product search across Ibotta browser-extension retailer coverage.
   name: Ibotta Products API
   slug: ibotta-products-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: Ibotta Product API
@@ -54,7 +54,7 @@ common:
   url: overlays/ibotta-product-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ibotta-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ description: 'Ibotta is a Denver-based consumer technology company (NYSE: IBTA) 
   — a single product-search operation backing the Ibotta browser extension, gated by a service bearer token that is not self-serve. The Ibotta Performance Network APIs that partners actually integrate against are documented only inside the IPN partner portal (portal.ipn.ibotta.com), which is behind Auth0 and reached through a sales conversation; no public IPN API reference, pricing, or rate-limit documentation exists.'
 image: https://images.ctfassets.net/zgieqvh3kubv/59XQvan2WhYzTi2PwaCGQV/454455352f937dde633bac1485ab3fdd/featured-ibotta.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ibotta MCP Server
-  slug: ibotta-mcp-server
 modified: '2026-08-12'
 name: Ibotta
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png
 security:

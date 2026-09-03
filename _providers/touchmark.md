@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The pricing surface behind @touchmark/sdk - open a session per scope, emit events fire-and-forget with an idempotent event_id, and consume quality-adjusted valuations (absolute fair_price_usd per even
   name: Touchmark Sessions API
   slug: touchmark-sessions-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -91,7 +91,7 @@ common:
   url: well-known/touchmark-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/touchmark-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Touchmark is solving AI pricing - instead of AI being priced per token regardless of quality, Touchmark prices it by the quality, efficiency, and value of the output, so spend is fair, predictable, and tied to what you actually get. Applications emit the events they already produce (model outputs, tool calls, code diffs) with a base price, and Touchmark's out-of-band judge returns a quality-adjusted fair price for each event on a separate valuation stream. A Y Combinator Summer 2026 company founded by Ilia Bolgov and Roman Yanushevskyi in San Francisco; the TypeScript SDK (@touchmark/sdk) is in private beta.
 image: https://touchmark.ai/og-image.png
 layout: provider
-mcp_servers:
-- description: 'No official hosted or remote MCP server was found for Touchmark (checked docs.touchmark.ai and the touchmark.ai site; the product is a private-beta TypeScript SDK over HTTP/gRPC). This candidate tool '
-  name: Touchmark MCP Server (candidate)
-  slug: touchmark-mcp-server-candidate
 modified: '2026-07-21'
 name: Touchmark
 nav: Providers
@@ -168,8 +164,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/screenshots/touchmark-2026-09-02T164047.png
 security:

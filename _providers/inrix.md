@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Real-time, historical and predicted speed, travel time and reference speed for INRIX XD and TMC road segments, queried by bounding box, radius, point, segment set or corridor.
@@ -148,7 +148,7 @@ apis:
   description: The UserGroup API from INRIX — 8 operation(s) for usergroup.
   name: INRIX User Group API
   slug: inrix-usergroup-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: INRIX Parkme API
@@ -190,7 +190,7 @@ common:
   url: skills/inrix-query-signals-intersection-metrics.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inrix-mcp.yml
 - group: auth
   title: ''
@@ -337,10 +337,6 @@ description: 'INRIX is a Kirkland, Washington-based transportation analytics com
   Accounts System (UAS), which exchanges an appId and a SHA-1 hashToken for a bearer access token used across every product API.'
 image: https://docs.inrix.com/images/inrix.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: INRIX MCP Server
-  slug: inrix-mcp-server
 modified: '2026-08-01'
 name: INRIX
 nav: Providers
@@ -378,8 +374,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/screenshots/inrix-2026-08-07T170714.png
 security:

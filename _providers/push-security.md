@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST/JSON API to programmatically administer the Push platform (accounts, apps, findings, integrations) plus webhooks for real-time platform events.
@@ -188,8 +188,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 44.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/screenshots/push-security-2026-08-17T081406.png
 security:

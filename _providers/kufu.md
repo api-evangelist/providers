@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.smarthr.jp/api/v1
@@ -46,7 +46,7 @@ apis:
   description: Webhook を操作します
   name: KUFU Webhook API
   slug: kufu-webhook-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Kufu Smarthr Webhooks
@@ -204,7 +204,7 @@ common:
   url: changelog/kufu-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kufu-mcp.yml
 - group: agent
   title: ''
@@ -218,10 +218,6 @@ created: '2026-07-17'
 description: KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.
 image: https://smarthr.jp/_astro/ogp_a-1.BA0NIxgO.jpg
 layout: provider
-mcp_servers:
-- description: SmartHR publishes NO official MCP server. This is a CANDIDATE tool surface derived from the 120 operations in the published Swagger 2.0 document — a design proposal for what an MCP server over the Sma
-  name: KUFU MCP Server
-  slug: kufu-mcp-server
 modified: '2026-07-19'
 name: KUFU
 nav: Providers
@@ -268,8 +264,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 62.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png
 security:

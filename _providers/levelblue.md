@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The OTX DirectConnect API provides programmatic access to the LevelBlue Open Threat Exchange, an open community threat-intelligence platform. It exposes indicators (IPs, domains, hostnames, file hashe
@@ -54,7 +54,7 @@ apis:
   description: Endpoint for OAuth 2.0 functionality.
   name: LevelBlue OAuth API
   slug: levelblue-oauth-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Levelblue Usm Anywhere Webhooks
@@ -75,7 +75,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/levelblue-mcp.yml
 - group: other
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: LevelBlue is a pure-play managed security service provider (MSSP), formed from AT&T Cybersecurity and the AlienVault platform it acquired, delivering managed detection and response, managed cloud and network security, incident readiness and response, cyber advisory, exposure management and email security, backed by SpiderLabs threat intelligence. Its developer surface is the USM Anywhere v2.0 REST API — a per-tenant, OAuth 2.0 client-credentials API over alarms and normalized security events, with HAL pagination and a webhook connector for pushing third-party events into the platform — alongside the LevelBlue Open Threat Exchange (OTX) DirectConnect API for community threat intelligence.
 image: https://www.levelblue.com/hubfs/lb-web/social/metadata.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: LevelBlue MCP Server
-  slug: levelblue-mcp-server
 modified: '2026-07-19'
 name: LevelBlue
 nav: Providers
@@ -254,8 +250,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/screenshots/levelblue-2026-07-25T224945.png
 security:

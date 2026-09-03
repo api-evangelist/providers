@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.happycabbage.ai
@@ -244,7 +244,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -254,7 +254,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 36.7
   provenance:
     conformance: derived
     contracts:
@@ -264,8 +264,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/screenshots/happy-cabbage-analytics-2026-09-02T145659.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Trade API from DODO — 1 operation(s) for trade.
   name: DODO Trade API
   slug: dodo-trade-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ common:
   url: packages/dodo-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dodo-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: DODO is a decentralized exchange (DEX) and on-chain liquidity provider built on the Proactive Market Maker (PMM) algorithm, engineered for capital-efficient liquidity and low slippage across many EVM blockchains. Its Trade / Route API aggregates prices across DODO v1/v2, 1inch, 0x, ParaSwap, professional market makers, and DODO's own aggregation algorithm, returning real-time swap quotes plus executable ABI calldata that developers send directly to the DODORouteProxy / DODOV2Proxy contracts. DODO is backed by Pantera Capital and ships open-source smart contracts, JavaScript/TypeScript SDKs, a contract request library, and embeddable swap widgets.
 image: https://github.com/DODOEX.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: DODO MCP Server
-  slug: dodo-mcp-server
 modified: '2026-07-18'
 name: DODO
 nav: Providers
@@ -185,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/screenshots/dodo-2026-07-25T212227.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ZKsync Era ZK rollup. Standard eth_* methods plus the ZKsync-specific zks_* namespace (batches, bridging, fee estimation, proofs) over HTTPS POST, with a W
   name: ZKsync Era JSON-RPC API
   slug: zksync-era-json-rpc-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: Generated from the ZKsync Era pub-sub JSON-RPC documentation. ZKsync Era supports the Ethereum-style eth_subscribe / eth_unsubscribe subscription model over WebSocket. This is a faithful description o
   name: ZKsync Era Pub/Sub (WebSocket) API
@@ -119,7 +119,7 @@ common:
   url: well-known/matter-labs-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/matter-labs-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Matter Labs is the company behind ZKsync, a family of zero-knowledge (ZK) rollup Layer 2 scaling solutions for Ethereum. Its flagship network, ZKsync Era, is an EVM-compatible ZK rollup that inherits Ethereum security while offering low fees and high throughput. For developers ZKsync Era exposes a public, Ethereum-compatible JSON-RPC API (the standard eth_* namespace) extended with a ZKsync-specific zks_* namespace covering L1 batches, L1<->L2 bridging, fee and gas-per-pubdata estimation, token discovery, and Merkle proofs, plus a WebSocket pub/sub surface. First-party SDKs ship for JavaScript/TypeScript (zksync-ethers), Python (zksync2), and Go (zksync2-go), alongside a zksync-cli developer tool and native account-abstraction support. Matter Labs also builds the ZK Stack for launching sovereign ZK chains. The company is backed by a16z.
 image: https://avatars.githubusercontent.com/matter-labs
 layout: provider
-mcp_servers:
-- description: ''
-  name: Matter Labs MCP Server
-  slug: matter-labs-mcp-server
 modified: '2026-07-20'
 name: Matter Labs
 nav: Providers
@@ -171,8 +167,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter-labs/refs/heads/main/screenshots/matter-labs-2026-07-25T230425.png
 security:

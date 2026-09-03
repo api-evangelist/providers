@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://portal.geniemode.com
@@ -612,7 +612,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -622,7 +622,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 22.7
+  previous_composite: 22.8
   provenance:
     conformance: derived
     contracts:
@@ -631,8 +631,8 @@ score:
       marker_coverage: 0.0
       total: 95
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/screenshots/geniemode-2026-09-02T145555.png
 security:

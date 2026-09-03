@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Built with TypeScript and inspired by Angular, it provides an out-of-the-box applicat
@@ -178,8 +178,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 27.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestjs/refs/heads/main/screenshots/nestjs-2026-06-20T190137.png
 security:

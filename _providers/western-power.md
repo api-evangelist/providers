@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: The Search API from Western Power — 1 operation(s) for search.
   name: Western Power Search API
   slug: western-power-search-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: Western Power Outage Areas Feature Service (ArcGIS REST)
@@ -106,7 +106,7 @@ common:
   url: skills/western-power-query-outage-geography.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/western-power-mcp.yml
 - group: agent
   title: ''
@@ -231,10 +231,6 @@ examples:
   slug: western-power-vacancies-sample
 image: https://www.westernpower.com.au/faviconImages/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Western Power MCP Server
-  slug: western-power-mcp-server
 modified: '2026-07-27'
 name: Western Power
 nav: Providers
@@ -279,8 +275,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/screenshots/western-power-2026-09-02T170733.png
 security:

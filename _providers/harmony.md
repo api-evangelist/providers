@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ arazzos:
 - description: Create a service-desk ticket, read it back, triage it, and audit the change.
   name: Harmony — create and triage an IT ticket
   slug: harmony-create-and-triage-ticket
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -63,7 +63,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/harmony-mcp.yml
 - group: other
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Harmony is an agentic enterprise service management (ESM) platform that gives every employee an always-on AI expert for IT, HR, finance, procurement, and legal service requests inside Slack and Microsoft Teams. Its AI agents autonomously resolve requests — password and MFA resets, application access, device recovery, employee onboarding and offboarding — using a context graph that connects each employee's identity, devices, applications, and history, often resolving issues before a ticket is opened. Harmony exposes a public REST Service Desk API for programmatically listing, creating, updating, querying, and bulk-updating tickets along with their custom fields and activity history. Founded in 2025 by Nitzan Shapira and Ran Ribenzaft and backed by Lightspeed Venture Partners.
 image: https://harmony.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Harmony MCP Server
-  slug: harmony-mcp-server
 modified: '2026-07-19'
 name: Harmony
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.getgarner.com/'', ''status'': 301, ''note'': ''declared website redirects to https://garnerhealth.com/ — a different registrable domain (getgarner.com -> garnerhealth.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.getgarner.com
@@ -56,7 +57,7 @@ apis:
   description: The Providers API from Garner — 1 operation(s) for providers.
   name: Garner Providers API
   slug: garner-providers-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -100,7 +101,7 @@ common:
   url: authentication/garner-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/garner-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +147,6 @@ created: '2026-07-17'
 description: Garner Health is a healthcare technology company that helps members find high-quality, in-network doctors while helping employers, advisors, health plans, and providers improve care quality and lower costs. Garner analyzes more than 60 billion de-identified medical records from 320M+ patients and applies 550+ specialty-specific quality and efficiency metrics across 80+ specialties to identify Top Providers, delivered as an employer-funded benefit layered on top of existing insurance and as the Garner DataPro provider-recommendation data service. The Garner Health API (v1.x, OpenAPI 3.0.3) exposes ranked provider search, professional and facility directory detail, and provider-record annotation, authenticated with OAuth 2.0 client-credentials tokens.
 image: https://cdn.prod.website-files.com/6994c8f92ae6b0d756f5e541/69b15a86b59f244f1a4d372e_Open%20graph%20img.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Garner MCP Server
-  slug: garner-mcp-server
 modified: '2026-07-19'
 name: Garner
 nav: Providers
@@ -199,8 +196,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
 security:

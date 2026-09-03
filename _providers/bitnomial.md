@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Public HTTPS REST API for the Bitnomial exchange — products and contract specs, orders, fills, block trades, indexes, funding rates, and market statistics. HMAC-SHA256 signed authentication; cursor pa
@@ -44,7 +44,7 @@ apis:
   description: Real-time WebSocket market-data feed delivering trade, order book, block trade, and market status messages for subscribed products.
   name: Bitnomial Market Data WebSocket API
   slug: bitnomial-market-data-websocket-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: Real-time market-data feed for Bitnomial's CFTC-regulated derivatives exchange. Clients open a WebSocket connection and must send a subscribe message within 10 seconds or they are disconnected. Faithf
   name: Bitnomial Market Data WebSocket API
@@ -128,7 +128,7 @@ common:
   url: llms/bitnomial-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bitnomial-mcp.yml
 - group: docs
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: Bitnomial is a Chicago-based derivatives exchange company that owns and operates U.S. CFTC-regulated subsidiaries — a Designated Contract Market (exchange/DCM), a Derivatives Clearing Organization (clearinghouse/DCO), and a Futures Commission Merchant (clearing brokerage/FCM). It offers leveraged spot, perpetuals, futures, options, and prediction markets on a single regulated venue with crypto margin and settlement. For developers, Bitnomial publishes a public HTTPS REST API (products, orders, fills, block trades, indexes, funding rates, market stats), a real-time WebSocket market-data feed (trade, book, block, status channels), a low-latency binary order-entry protocol (BTP), and a FIX 4.4 API with dropcopy. REST authentication uses HMAC-SHA256 request signing with per-connection credentials. Surfaced as a portfolio company of Electric Capital and enriched by the API Evangelist pipeline.
 image: https://bitnomial.com/images/social-preview.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bitnomial MCP Server
-  slug: bitnomial-mcp-server
 modified: '2026-07-18'
 name: Bitnomial
 nav: Providers
@@ -198,8 +194,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/screenshots/bitnomial-2026-07-25T203158.png
 security:

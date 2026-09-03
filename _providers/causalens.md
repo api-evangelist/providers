@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
@@ -186,8 +186,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/screenshots/causalens-2026-09-02T145021.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.fundingcircle.co.uk/v1
@@ -51,7 +51,7 @@ apis:
   description: Create and manage business loan applications
   name: Funding Circle Loan Applications API
   slug: funding-circle-loan-applications-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Funding Circle Webhooks
@@ -132,7 +132,7 @@ common:
   url: asyncapi/funding-circle-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/funding-circle-mcp.yml
 - group: design
   title: ''
@@ -162,10 +162,6 @@ created: '2026-07-17'
 description: 'Funding Circle is a UK small-business lending marketplace providing term business loans, the FlexiPay revolving line of credit, a cashback business credit card, government-backed Growth Guarantee Scheme loans, and asset finance. For partners and brokers it publishes the Funding Circle Introducer API, which lets platforms submit and manage business loan applications programmatically: create term or FlexiPay applications, poll application status, retrieve credit decisions, and upload supporting documents. The API uses OAuth 2.0 client-credentials authentication, RFC 7807 problem-detail errors, callback-URL webhooks, and a sandbox environment with documented test values.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/funding-circle.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Funding Circle MCP Server
-  slug: funding-circle-mcp-server
 modified: '2026-07-19'
 name: Funding Circle
 nav: Providers
@@ -212,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/screenshots/funding-circle-2026-08-17T123438.png
 security:

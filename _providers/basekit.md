@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Partner-facing REST API to provision and manage brands, users, packages, sites, custom domains, SSL certificates and webhook subscriptions on the BaseKit platform. HTTP Basic auth (recommended) or OAu
@@ -166,8 +166,8 @@ score:
   previous_composite: 38.2
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basekit/refs/heads/main/screenshots/basekit-2026-07-25T202419.png
 security:

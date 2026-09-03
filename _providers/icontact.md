@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.icontact.com/icp/
@@ -40,7 +40,7 @@ apis:
   description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
   name: iContact REST API
   slug: rest-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: 'Derived AsyncAPI description of the four contact-lifecycle webhook events iContact documents at https://help.icontact.com/customers/s/article/Web-Hooks-iContact-API. NOT A PROVIDER ARTIFACT. iContact '
   name: iContact Webhooks
@@ -149,10 +149,6 @@ created: '2026-05-11'
 description: iContact is an email marketing and marketing automation platform (now part of Cision) that helps small and mid-market businesses build email campaigns, manage contacts and lists, automate drip sequences, and measure engagement. The iContact REST API v2.2 provides programmatic access to contacts, lists, segments, campaigns, messages, and reporting data using a combination of HTTP headers (API-AppId, API-Version, API-Username, API-Password) for authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icontact.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: iContact MCP server
-  slug: icontact-mcp-server
 modified: '2026-08-13'
 name: iContact
 nav: Providers
@@ -196,8 +192,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png
 security:

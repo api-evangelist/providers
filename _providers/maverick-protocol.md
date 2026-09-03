@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://v2-api.mav.xyz
@@ -40,7 +40,7 @@ apis:
   description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
   name: Maverick Protocol Latest API
   slug: maverick-protocol-latest-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -55,7 +55,7 @@ common:
   url: skills/maverick-protocol-market-tickers.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/maverick-protocol-mcp.yml
 - group: agent
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Maverick Protocol is a decentralized exchange (DEX) and automated market maker (AMM) for EVM chains, live on Ethereum, Base, zkSync Era and other networks through its dApp at app.mav.xyz. Its Dynamic Distribution AMM lets liquidity providers concentrate and automatically shift liquidity as prices move, and its veFlywheel and Boosted Positions direct MAV token incentives to pools. The core protocol is a set of on-chain V1 and V2 Solidity contracts (Factory, Pool, Router, Quoter, PoolLens, position and reward contracts) documented at docs.mav.xyz, complemented by a public hosted Data API (v2-api.mav.xyz) that returns 24-hour market pricing and volume tickers per chain. Surfaced in the API Evangelist network from the Pantera Capital portfolio.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maverick-protocol.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface mapped 1:1 from the documented Maverick V2 Data API. Not an official Maverick MCP server; a derivation for evaluation.
-  name: Maverick V2 Data (candidate)
-  slug: maverick-v2-data-candidate
 modified: '2026-07-20'
 name: Maverick Protocol
 nav: Providers
@@ -151,8 +147,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/screenshots/maverick-protocol-2026-08-07T172331.png
 security:

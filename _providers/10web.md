@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.10web.io
@@ -101,7 +101,7 @@ apis:
   description: Operations for DNS zone management
   name: 10Web Zone API
   slug: 10web-zone-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: 10Web Webhooks
@@ -152,7 +152,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/10web-mcp.yml
 - group: other
   title: ''
@@ -238,10 +238,6 @@ created: '2026-07-17'
 description: 10Web is an AI-powered website builder platform that generates, hosts, and manages full WordPress websites on managed infrastructure, powering more than two million websites. Its public REST API — the 10Web Website Builder API (V1) — lets SaaS, agency, and hosting platforms embed 10Web's AI website generation, WordPress hosting, domains, DNS, SSL, backups, and staging as a white-label solution. The API exposes 69 operations across websites, AI/Vibe Coding content generation, domains and DNS zones, SSL certificates, backups, cache and PHP management, subdomains, the page builder, and signed webhooks, all authenticated with an x-api-key header against https://api.10web.io. Originally added to the API Evangelist network as a Sierra Ventures portfolio lead, this profile has been enriched from 10Web's public developer surface.
 image: https://10web.io/wp-content/uploads/2025/03/OG-img4.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: 10Web MCP Server
-  slug: 10web-mcp-server
 modified: '2026-07-17'
 name: 10Web
 nav: Providers
@@ -282,8 +278,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:

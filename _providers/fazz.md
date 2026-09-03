@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -65,7 +65,7 @@ apis:
   description: Accept API — create and query payments (collections).
   name: Fazz Payments API
   slug: fazz-payments-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Fazz Webhooks
@@ -163,7 +163,7 @@ common:
   url: llms/fazz-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fazz-mcp.yml
 - group: other
   title: ''
@@ -241,10 +241,6 @@ finops:
   slug: fazz-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fazz.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fazz MCP Server
-  slug: fazz-mcp-server
 modified: '2026-07-17'
 name: Fazz
 nav: Providers
@@ -300,8 +296,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

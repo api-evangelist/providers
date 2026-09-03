@@ -36,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Electra's Open Charge Point Interface implementation in the Charge Point Operator role — the roaming interface an e-mobility service provider calls to read Electra's locations and tariffs, authorise i
   name: Electra OCPI CPO API
   slug: go-electra-ocpi-cpo-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -154,7 +154,7 @@ common:
   url: rate-limits/go-electra-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/go-electra-mcp.yml
 - group: agent
   title: ''
@@ -176,10 +176,6 @@ examples:
   slug: go-electra-ocpi-cpo-versions
 image: https://www.go-electra.com/favicons/apple-touch-icon-1024x1024.png
 layout: provider
-mcp_servers:
-- description: 'Electra publishes NO MCP server. This file is a candidate design, not a provider claim. Every search and probe missed: no mcp subdomain resolves, no MCP endpoint is documented, no npm or PyPI package '
-  name: Electra MCP Server
-  slug: electra-mcp-server
 modified: '2026-08-17'
 name: Electra
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/screenshots/go-electra-2026-09-02T145618.png
 security:

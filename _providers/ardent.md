@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -73,7 +73,7 @@ apis:
   description: The v1-projects API from Ardent — 2 operation(s) for v1-projects.
   name: Ardent v1-projects API
   slug: ardent-v1-projects-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -111,7 +111,7 @@ common:
   url: llms/ardent-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ardent-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Ardent is a database branching platform for Postgres that lets developers and AI coding agents clone any production or development database in seconds into fully isolated, disposable branches. Each branch is isolated at both the compute and storage layers using copy-on-write, autoscales to zero when idle, and never touches production, so agents and CI/CD pipelines can run migrations, backfills, destructive tests, and risky experiments against production-like data with zero blast radius. Ardent exposes a REST API (api.tryardent.com), a first-party npm CLI (ardent-cli), and connectors for Supabase, AWS RDS, PlanetScale, and self-hosted Postgres 13+.
 image: https://tryardent.com/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ardent MCP Server
-  slug: ardent-mcp-server
 modified: '2026-07-18'
 name: Ardent
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

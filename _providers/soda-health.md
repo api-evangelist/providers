@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://docs.evermoreoutcomes.com
@@ -56,7 +56,7 @@ apis:
   description: The health API from Soda Health — 3 operation(s) for health.
   name: Soda Health health API
   slug: soda-health-health-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -108,7 +108,7 @@ common:
   url: data-model/soda-health-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/soda-health-mcp.yml
 - group: design
   title: ''
@@ -138,10 +138,6 @@ created: '2026-07-17'
 description: 'Soda Health is a healthcare benefits technology company that builds a benefits administration and "health wallet" platform for health plans, powering supplemental benefits for Medicare Advantage and Medicaid members such as over-the-counter (OTC), healthy food and grocery, and other flex/spending-card benefits. The company now operates as Evermore Outcomes — sodahealth.com redirects to evermoreoutcomes.com and the product documentation is branded "Evermore Product Documentation," while account and program references still carry the Soda Health name. The public developer surface found is the Evermore Docs Portal API (docs.evermoreoutcomes.com): a Confluence-backed, customer-facing documentation portal secured with magic-link tokens and OIDC single sign-on, scoped per customer program. The core benefits/wallet product APIs are gated behind that portal and are not publicly published. Soda Health was surfaced as a portfolio company of Lightspeed Venture Partners.'
 image: https://docs.evermoreoutcomes.com/favicon-192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Soda Health MCP Server
-  slug: soda-health-mcp-server
 modified: '2026-07-21'
 name: Soda Health
 nav: Providers
@@ -185,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/screenshots/soda-health-2026-09-02T160055.png
 security:

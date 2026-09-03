@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Public REST API used alongside the Ramp Instant widget. Exposes available on-ramp assets and prices, off-ramp assets and prices, supported fiat currencies, payment methods, payout methods, on-ramp pur
@@ -236,8 +236,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/screenshots/ramp-network-2026-09-02T152834.png
 security:

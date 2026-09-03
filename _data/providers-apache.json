@@ -28,8 +28,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -75,8 +75,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -122,8 +122,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -169,17 +169,17 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 33.5,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 39.9,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
@@ -216,8 +216,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -263,8 +263,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -310,8 +310,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -357,8 +357,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -404,8 +404,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -451,8 +451,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 18.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -498,8 +498,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -545,8 +545,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -592,8 +592,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -627,7 +627,7 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 39,
+   "count": 38,
    "providers": [
     {
      "name": "Apache CouchDB",
@@ -649,8 +649,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -677,53 +677,6 @@
      "rank": 14
     },
     {
-     "name": "Apache Cassandra",
-     "slug": "cassandra",
-     "url": "https://providers.apis.io/providers/cassandra/",
-     "type": "API Provider",
-     "description": "Apache Cassandra is a highly scalable, distributed open-source NoSQL database designed to handle massive amounts of data across many commodity servers, providing high availability with no single point of failure. It is governed by the Apache Software Foundation (ASF) under the Apache License 2.0 and is used in production by Netflix, Apple, Bloomberg, Backblaze, and many others. Cassandra exposes its CQL native protocol for clients and a family of HTTP, REST, GraphQL, Document, and gRPC APIs via the Stargate data gateway.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/screenshots/cassandra-2026-06-20T174035.png",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 46.9,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
      "name": "Apache HttpComponents",
      "slug": "apache-http",
      "url": "https://providers.apis.io/providers/apache-http/",
@@ -743,8 +696,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -768,54 +721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
-    },
-    {
-     "name": "Apache Cordova",
-     "slug": "apache-cordova",
-     "url": "https://providers.apis.io/providers/apache-cordova/",
-     "type": "API Provider",
-     "description": "Apache Cordova is an open-source mobile development framework governed by the Apache Software Foundation that enables developers to build mobile applications using standard web technologies — HTML, CSS, and JavaScript. It bridges web code to native device capabilities through a plugin architecture, targeting iOS, Android, Electron, and Browser platforms from a single codebase.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/screenshots/apache-cordova-2026-06-20T172048.png",
-     "score": 36.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 34.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 3.8,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
+     "rank": 15
     },
     {
      "name": "Apache Geode",
@@ -837,8 +743,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -869,7 +775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 16
     },
     {
      "name": "Apache ActiveMQ",
@@ -891,8 +797,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -916,7 +822,54 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 17
+    },
+    {
+     "name": "Apache Cordova",
+     "slug": "apache-cordova",
+     "url": "https://providers.apis.io/providers/apache-cordova/",
+     "type": "API Provider",
+     "description": "Apache Cordova is an open-source mobile development framework governed by the Apache Software Foundation that enables developers to build mobile applications using standard web technologies — HTML, CSS, and JavaScript. It bridges web code to native device capabilities through a plugin architecture, targeting iOS, Android, Electron, and Browser platforms from a single codebase.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/screenshots/apache-cordova-2026-06-20T172048.png",
+     "score": 36.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 34.7,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
     },
     {
      "name": "Apache Hive",
@@ -938,8 +891,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -963,7 +916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Apache Oozie",
@@ -985,8 +938,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1010,7 +963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Apache Software Foundation",
@@ -1032,8 +985,8 @@
       "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1052,6 +1005,53 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Subversion",
+     "slug": "svn",
+     "url": "https://providers.apis.io/providers/svn/",
+     "type": "API Provider",
+     "description": "Apache Subversion (SVN) is a centralized version control system that tracks changes to files and directories over time. It supports atomic commits, directory versioning, cheap branching and tagging, merge tracking, and binary file handling. SVN is served over HTTP/HTTPS using the WebDAV/DeltaV protocol via mod_dav_svn, or over a custom protocol using svnserve.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/screenshots/svn-2026-06-20T194747.png",
+     "score": 35.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 58.5,
+      "governance": 13.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -1079,8 +1079,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1126,8 +1126,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1173,8 +1173,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1227,8 +1227,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1274,8 +1274,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1321,8 +1321,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1368,8 +1368,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1415,8 +1415,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1443,27 +1443,27 @@
      "rank": 30
     },
     {
-     "name": "Subversion",
-     "slug": "svn",
-     "url": "https://providers.apis.io/providers/svn/",
+     "name": "Apache Cassandra",
+     "slug": "cassandra",
+     "url": "https://providers.apis.io/providers/cassandra/",
      "type": "API Provider",
-     "description": "Apache Subversion (SVN) is a centralized version control system that tracks changes to files and directories over time. It supports atomic commits, directory versioning, cheap branching and tagging, merge tracking, and binary file handling. SVN is served over HTTP/HTTPS using the WebDAV/DeltaV protocol via mod_dav_svn, or over a custom protocol using svnserve.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/screenshots/svn-2026-06-20T194747.png",
-     "score": 33.5,
+     "description": "Apache Cassandra is a highly scalable, distributed open-source NoSQL database designed to handle massive amounts of data across many commodity servers, providing high availability with no single point of failure. It is governed by the Apache Software Foundation (ASF) under the Apache License 2.0 and is used in production by Netflix, Apple, Bloomberg, Backblaze, and many others. Cassandra exposes its CQL native protocol for clients and a family of HTTP, REST, GraphQL, Document, and gRPC APIs via the Stargate data gateway.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/screenshots/cassandra-2026-06-20T174035.png",
+     "score": 32.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 58.5,
-      "governance": 13.6,
-      "contract_governance": 13.6,
+      "contract_quality": 46.9,
+      "governance": 0.0,
+      "contract_governance": 0.0,
       "operational_transparency": 23.7,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1509,8 +1509,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1556,8 +1556,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1603,8 +1603,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1650,8 +1650,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1697,8 +1697,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1744,8 +1744,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1791,8 +1791,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1838,8 +1838,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1885,8 +1885,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1932,8 +1932,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1979,8 +1979,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2007,53 +2007,6 @@
      "rank": 42
     },
     {
-     "name": "Apache Ant",
-     "slug": "apache-ant",
-     "url": "https://providers.apis.io/providers/apache-ant/",
-     "type": "API Provider",
-     "description": "Apache Ant is a Java-based build tool and library developed by the Apache Software Foundation, used to automate software build processes. It uses XML-based build files to define targets and tasks for compiling, testing, packaging, and deploying Java applications. Ant provides a Java API for programmatic build execution, custom task (Antlib) development, and build file manipulation. The companion Apache Ivy project provides dependency management and artifact resolution for Ant-based builds.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ant/refs/heads/main/screenshots/apache-ant-2026-06-20T172039.png",
-     "score": 29.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 40.5,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
      "name": "Apache Atlas",
      "slug": "apache-atlas",
      "url": "https://providers.apis.io/providers/apache-atlas/",
@@ -2073,8 +2026,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2098,7 +2051,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Apache Beam",
@@ -2120,8 +2073,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2145,7 +2098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Apache POI",
@@ -2167,8 +2120,55 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 45
+    },
+    {
+     "name": "Apache RocketMQ",
+     "slug": "apache-rocketmq",
+     "url": "https://providers.apis.io/providers/apache-rocketmq/",
+     "type": "API Provider",
+     "description": "Apache RocketMQ is a distributed messaging and streaming platform with low latency, high performance, and reliability. It provides trillion-level message capacity with rich message types including normal, transactional, delayed, and ordered messages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/screenshots/apache-rocketmq-2026-06-20T172138.png",
+     "score": 29.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 52.9,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2195,18 +2195,18 @@
      "rank": 46
     },
     {
-     "name": "Apache RocketMQ",
-     "slug": "apache-rocketmq",
-     "url": "https://providers.apis.io/providers/apache-rocketmq/",
+     "name": "Apache ServiceMix",
+     "slug": "apache-servicemix",
+     "url": "https://providers.apis.io/providers/apache-servicemix/",
      "type": "API Provider",
-     "description": "Apache RocketMQ is a distributed messaging and streaming platform with low latency, high performance, and reliability. It provides trillion-level message capacity with rich message types including normal, transactional, delayed, and ordered messages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/screenshots/apache-rocketmq-2026-06-20T172138.png",
-     "score": 29.0,
+     "description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime for building enterprise integration solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/screenshots/apache-servicemix-2026-06-20T172139.png",
+     "score": 28.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 52.9,
+      "contract_quality": 52.4,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
@@ -2214,8 +2214,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2242,12 +2242,12 @@
      "rank": 47
     },
     {
-     "name": "Apache ServiceMix",
-     "slug": "apache-servicemix",
-     "url": "https://providers.apis.io/providers/apache-servicemix/",
+     "name": "Apache ShardingSphere",
+     "slug": "apache-shardingsphere",
+     "url": "https://providers.apis.io/providers/apache-shardingsphere/",
      "type": "API Provider",
-     "description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime for building enterprise integration solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/screenshots/apache-servicemix-2026-06-20T172139.png",
+     "description": "Apache ShardingSphere is an open-source ecosystem for distributed database systems providing data sharding, distributed transactions, and database governance. It supports MySQL, PostgreSQL, and other databases with transparent sharding capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/screenshots/apache-shardingsphere-2026-06-20T172141.png",
      "score": 28.9,
      "band": "thin",
      "band_label": "Thin",
@@ -2261,8 +2261,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2289,53 +2289,6 @@
      "rank": 48
     },
     {
-     "name": "Apache ShardingSphere",
-     "slug": "apache-shardingsphere",
-     "url": "https://providers.apis.io/providers/apache-shardingsphere/",
-     "type": "API Provider",
-     "description": "Apache ShardingSphere is an open-source ecosystem for distributed database systems providing data sharding, distributed transactions, and database governance. It supports MySQL, PostgreSQL, and other databases with transparent sharding capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/screenshots/apache-shardingsphere-2026-06-20T172141.png",
-     "score": 28.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 52.4,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
      "name": "Apache Calcite",
      "slug": "apache-calcite",
      "url": "https://providers.apis.io/providers/apache-calcite/",
@@ -2355,8 +2308,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2380,7 +2333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Apache Derby",
@@ -2402,8 +2355,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2427,7 +2380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Apache Thrift",
@@ -2449,8 +2402,65 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 51
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 14,
+   "providers": [
+    {
+     "name": "Apache Ant",
+     "slug": "apache-ant",
+     "url": "https://providers.apis.io/providers/apache-ant/",
+     "type": "API Provider",
+     "description": "Apache Ant is a Java-based build tool and library developed by the Apache Software Foundation, used to automate software build processes. It uses XML-based build files to define targets and tasks for compiling, testing, packaging, and deploying Java applications. Ant provides a Java API for programmatic build execution, custom task (Antlib) development, and build file manipulation. The companion Apache Ivy project provides dependency management and artifact resolution for Ant-based builds.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ant/refs/heads/main/screenshots/apache-ant-2026-06-20T172039.png",
+     "score": 24.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 40.5,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2475,17 +2485,336 @@
       "agentic_commerce": false
      },
      "rank": 52
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 13,
-   "providers": [
+    },
+    {
+     "name": "Apache OpenNLP",
+     "slug": "apache-opennlp",
+     "url": "https://providers.apis.io/providers/apache-opennlp/",
+     "type": "API Provider",
+     "description": "Apache OpenNLP is a machine learning based toolkit for the processing of natural language text. It supports common NLP tasks such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/screenshots/apache-opennlp-2026-06-20T172128.png",
+     "score": 24.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 19.1,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
+    },
+    {
+     "name": "Apache OpenWhisk",
+     "slug": "apache-openwhisk",
+     "url": "https://providers.apis.io/providers/apache-openwhisk/",
+     "type": "API Provider",
+     "description": "Apache OpenWhisk is an open-source serverless cloud platform that executes functions in response to events at any scale. It supports multiple programming languages and provides a rich programming model for creating serverless APIs and event-driven applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png",
+     "score": 23.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 20.5,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
+     "name": "Apache Pinot",
+     "slug": "apache-pinot",
+     "url": "https://providers.apis.io/providers/apache-pinot/",
+     "type": "API Provider",
+     "description": "Apache Pinot is a real-time distributed OLAP datastore designed to deliver scalable real-time analytics with low latency. It ingests data from batch and streaming sources and provides fast analytical queries for user-facing applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png",
+     "score": 21.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 19.1,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
+    },
+    {
+     "name": "Apache ORC",
+     "slug": "apache-orc",
+     "url": "https://providers.apis.io/providers/apache-orc/",
+     "type": "API Provider",
+     "description": "Apache ORC is a self-describing, type-aware columnar file format designed for Hadoop workloads. It provides high compression ratios and fast read performance for large-scale data processing with support for complex data types.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/screenshots/apache-orc-2026-06-20T172130.png",
+     "score": 21.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 19.3,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 56
+    },
+    {
+     "name": "Apache PDFBox",
+     "slug": "apache-pdfbox",
+     "url": "https://providers.apis.io/providers/apache-pdfbox/",
+     "type": "API Provider",
+     "description": "Apache PDFBox is an open-source Java library for working with PDF documents. It allows creation of new PDF documents, manipulation of existing documents, and the ability to extract content from documents with support for digital signatures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 19.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
+     "name": "Apache Ozone",
+     "slug": "apache-ozone",
+     "url": "https://providers.apis.io/providers/apache-ozone/",
+     "type": "API Provider",
+     "description": "Apache Ozone is a scalable, redundant, and distributed object store optimized for big data workloads. It provides an S3-compatible interface and a Hadoop-compatible file system interface for seamless integration with existing big data tools.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/screenshots/apache-ozone-2026-06-20T172131.png",
+     "score": 21.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 19.6,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 58
+    },
+    {
+     "name": "Apache Pig",
+     "slug": "apache-pig",
+     "url": "https://providers.apis.io/providers/apache-pig/",
+     "type": "API Provider",
+     "description": "Apache Pig is a platform for analyzing large data sets that provides a high-level language (Pig Latin) for expressing data analysis programs. It compiles Pig Latin programs into MapReduce/Tez jobs and runs them on Hadoop clusters.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/screenshots/apache-pig-2026-06-20T172132.png",
+     "score": 20.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 19.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
     {
      "name": "Apache Log4j",
      "slug": "log4j",
@@ -2493,7 +2822,7 @@
      "type": "API Provider",
      "description": "Apache Log4j is a versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist deployment for various use cases. It is part of the Apache Logging Services project. Log4j is a Java library distributed as Maven artifacts and is consumed via its Java API rather than over the network; no public HTTP/REST surface is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/screenshots/log4j-2026-06-20T184648.png",
-     "score": 24.6,
+     "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2506,8 +2835,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2538,124 +2867,30 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 60
     },
     {
-     "name": "Apache OpenNLP",
-     "slug": "apache-opennlp",
-     "url": "https://providers.apis.io/providers/apache-opennlp/",
+     "name": "Apache Software Foundation",
+     "slug": "apache",
+     "url": "https://providers.apis.io/providers/apache/",
      "type": "API Provider",
-     "description": "Apache OpenNLP is a machine learning based toolkit for the processing of natural language text. It supports common NLP tasks such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/screenshots/apache-opennlp-2026-06-20T172128.png",
-     "score": 24.0,
+     "description": "The Apache Software Foundation (ASF) is a 501(c)(3) nonprofit organization that provides open source software for the public good. Home to more than 300 open source projects maintained by a global community of over 9,900 committers and 1,190 members, the ASF operates under the principle of community over code. Projects span big data, cloud infrastructure, messaging, web frameworks, databases, build tooling, machine learning, and more — all released under the Apache License.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/screenshots/apache-2026-06-20T172036.png",
+     "score": 18.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 19.1,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "Apache OpenWhisk",
-     "slug": "apache-openwhisk",
-     "url": "https://providers.apis.io/providers/apache-openwhisk/",
-     "type": "API Provider",
-     "description": "Apache OpenWhisk is an open-source serverless cloud platform that executes functions in response to events at any scale. It supports multiple programming languages and provides a rich programming model for creating serverless APIs and event-driven applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png",
-     "score": 23.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 20.5,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Apache Parquet",
-     "slug": "parquet",
-     "url": "https://providers.apis.io/providers/parquet/",
-     "type": "API Provider",
-     "description": "APIs and tools for working with Apache Parquet, the open source columnar storage format for efficient analytics workloads. This index covers the format specification along with the major language implementations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/screenshots/parquet-2026-06-20T191417.png",
-     "score": 22.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2679,265 +2914,30 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
-    },
-    {
-     "name": "Apache Pinot",
-     "slug": "apache-pinot",
-     "url": "https://providers.apis.io/providers/apache-pinot/",
-     "type": "API Provider",
-     "description": "Apache Pinot is a real-time distributed OLAP datastore designed to deliver scalable real-time analytics with low latency. It ingests data from batch and streaming sources and provides fast analytical queries for user-facing applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png",
-     "score": 21.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 19.1,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Apache ORC",
-     "slug": "apache-orc",
-     "url": "https://providers.apis.io/providers/apache-orc/",
-     "type": "API Provider",
-     "description": "Apache ORC is a self-describing, type-aware columnar file format designed for Hadoop workloads. It provides high compression ratios and fast read performance for large-scale data processing with support for complex data types.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/screenshots/apache-orc-2026-06-20T172130.png",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 19.3,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Apache PDFBox",
-     "slug": "apache-pdfbox",
-     "url": "https://providers.apis.io/providers/apache-pdfbox/",
-     "type": "API Provider",
-     "description": "Apache PDFBox is an open-source Java library for working with PDF documents. It allows creation of new PDF documents, manipulation of existing documents, and the ability to extract content from documents with support for digital signatures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png",
-     "score": 21.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 19.0,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
-     "name": "Apache Ozone",
-     "slug": "apache-ozone",
-     "url": "https://providers.apis.io/providers/apache-ozone/",
-     "type": "API Provider",
-     "description": "Apache Ozone is a scalable, redundant, and distributed object store optimized for big data workloads. It provides an S3-compatible interface and a Hadoop-compatible file system interface for seamless integration with existing big data tools.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/screenshots/apache-ozone-2026-06-20T172131.png",
-     "score": 21.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 19.6,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 60
-    },
-    {
-     "name": "Apache Pig",
-     "slug": "apache-pig",
-     "url": "https://providers.apis.io/providers/apache-pig/",
-     "type": "API Provider",
-     "description": "Apache Pig is a platform for analyzing large data sets that provides a high-level language (Pig Latin) for expressing data analysis programs. It compiles Pig Latin programs into MapReduce/Tez jobs and runs them on Hadoop clusters.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/screenshots/apache-pig-2026-06-20T172132.png",
-     "score": 20.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 19.0,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 61
     },
     {
-     "name": "Apache Software Foundation",
-     "slug": "apache",
-     "url": "https://providers.apis.io/providers/apache/",
+     "name": "Apache Parquet",
+     "slug": "parquet",
+     "url": "https://providers.apis.io/providers/parquet/",
      "type": "API Provider",
-     "description": "The Apache Software Foundation (ASF) is a 501(c)(3) nonprofit organization that provides open source software for the public good. Home to more than 300 open source projects maintained by a global community of over 9,900 committers and 1,190 members, the ASF operates under the principle of community over code. Projects span big data, cloud infrastructure, messaging, web frameworks, databases, build tooling, machine learning, and more — all released under the Apache License.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/screenshots/apache-2026-06-20T172036.png",
-     "score": 18.3,
+     "description": "APIs and tools for working with Apache Parquet, the open source columnar storage format for efficient analytics workloads. This index covers the format specification along with the major language implementations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/screenshots/parquet-2026-06-20T191417.png",
+     "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 74.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2983,8 +2983,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3030,8 +3030,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3077,8 +3077,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3133,8 +3133,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3179,8 +3179,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

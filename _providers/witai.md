@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Wit.ai HTTP API extracts structured meaning (intents, entities, traits) from text and audio, transcribes speech (speech / dictation), synthesizes speech (text-to-speech), and manages an app''s NLP '
   name: Wit.ai HTTP API
   slug: witai-http-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -99,7 +99,7 @@ common:
   url: security/witai-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/witai-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +109,6 @@ created: '2026-07-17'
 description: Wit.ai is a natural language processing (NLP) platform from Meta that lets developers build applications and devices you can talk or text to. It turns spoken or written user input into structured, machine-readable data — extracting intents, entities, and traits — and provides speech recognition (speech-to-text), dictation, and speech synthesis (text-to-speech). Developers train an app with example utterances, then call the Wit HTTP API with a Bearer server access token to parse messages, transcribe audio, and manage an app's entities, intents, traits, and utterances. Wit.ai is free to use and ships official client SDKs for Node.js, Python, Ruby, Go, iOS, Unity, and Unreal. It was founded in 2013, backed by a16z, and acquired by Facebook (now Meta) in 2015.
 image: https://avatars.githubusercontent.com/u/4723433?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wit.AI MCP Server
-  slug: witai-mcp-server
 modified: '2026-07-21'
 name: Wit.AI
 nav: Providers
@@ -143,8 +139,8 @@ score:
   previous_composite: 23.6
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/screenshots/witai-2026-09-02T170841.png
 security:

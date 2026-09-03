@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: Manage webhooks
   name: Astrada webhooks API
   slug: astrada-webhooks-api
-artifact_total: 55
+artifact_total: 54
 asyncapis:
 - description: Webhook event surface for the Astrada API, generated from the documented Event Types and webhook delivery mechanics. Astrada delivers events via HTTP POST to registered HTTPS endpoints with at-least-o
   name: Astrada Webhook Events
@@ -335,7 +335,7 @@ common:
   url: asyncapi/astrada-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/astrada-mcp.yml
 - group: agent
   title: ''
@@ -365,10 +365,6 @@ created: '2026-07-17'
 description: Astrada is the data layer for autonomous finance, providing real-time, structured card transaction data pulled directly from the card networks rather than relying on delayed bank feeds. Its Transaction Data API lets expense management, travel, and accounting/ERP platforms enroll corporate cards (with 3DS cardholder verification), receive real-time transaction messages and enriched transactions, link bank accounts, and auto-reconcile card-to-bank activity. Founded in 2024 by Salman Syed (ex-Mastercard, Marqeta, Fidel API), Astrada is PCI DSS v4 Level 1 certified, a Mastercard Start Path and Visa Ventures portfolio company, and is backed by QED Investors.
 image: https://files.readme.io/45785f4-brandmark-blue.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Astrada MCP Server
-  slug: astrada-mcp-server
 modified: '2026-07-18'
 name: Astrada
 nav: Providers
@@ -427,8 +423,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:

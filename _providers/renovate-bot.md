@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -291,13 +291,13 @@ overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 20
 score:
   band: thin
-  composite: 36.0
+  composite: 28.9
   coverage:
     artifact_dirs: 3
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.1
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -307,13 +307,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 36.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/screenshots/renovate-bot-2026-06-20T192849.png
 security:
 - kind: domain-security

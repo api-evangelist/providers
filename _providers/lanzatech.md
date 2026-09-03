@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ apis:
   description: The widgets API from LanzaTech — 2 operation(s) for widgets.
   name: LanzaTech widgets API
   slug: lanzatech-widgets-api
-artifact_total: 77
+artifact_total: 76
 collections:
 - collection_type: open
   name: API Collection
@@ -427,7 +427,7 @@ common:
   url: well-known/lanzatech-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lanzatech-mcp.yml
 - group: agent
   title: ''
@@ -445,10 +445,6 @@ created: '2026-07-17'
 description: LanzaTech is a carbon recycling company (Nasdaq LNZA) that uses gas fermentation to convert waste carbon into fuels and chemicals. Its technology retrofits an industrial site such as a steel mill, a ferroalloy plant or a landfill with a bioreactor in which proprietary bacteria consume carbon-rich off-gases and produce ethanol and other intermediates, marketed as CarbonSmart products and used by brands including Unilever, Coty and Zara. The company operates commercial plants in China, India and Belgium, is building the LanzaTech Porsgrunn CCUS project in Norway with Eramet, and works with LanzaJet on sustainable aviation fuel. LanzaTech publishes no developer program, but lanzatech.com runs on WordPress and exposes a fully public, unauthenticated WordPress REST API whose custom content types (news, employee, board-member, download, testimonial) model the company itself.
 image: https://lanzatech.com/wp-content/uploads/2022/02/LT-Logo-Navy.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: LanzaTech MCP Server
-  slug: lanzatech-mcp-server
 modified: '2026-07-19'
 name: LanzaTech
 nav: Providers
@@ -493,8 +489,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png
 security:

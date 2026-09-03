@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
   description: The Payment API from Helcim — 7 operation(s) for payment.
   name: Helcim Payment API
   slug: helcim-payment-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Helcim Webhooks
@@ -218,7 +218,7 @@ common:
   url: packages/helcim-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/helcim-mcp.yml
 - group: build
   title: ''
@@ -268,10 +268,6 @@ created: '2026-07-24'
 description: 'Helcim is a Calgary, Canada based payment processor and merchant services provider serving small and medium-sized businesses across Canada and the United States with interchange-plus pricing and no monthly fees. Beyond its merchant dashboard, Smart Terminal hardware, and online store, Helcim ships a genuine developer surface: the versioned Helcim API (v2) for taking card and ACH payments, managing customers, cards, bank accounts and pre-authorized debits (PADs), issuing invoices, settling card and ACH batches, and driving in-person Card Terminal devices, alongside HelcimPay.js hosted checkout and connected-account webhooks. Authentication is a permissioned API access token passed in an api-token header, and the public developer portal publishes a downloadable OpenAPI 3.0 definition. In Canada''s small, concentrated payments market, Helcim is one of the API-native SMB money-movement fintechs building above the incumbent acquiring and Interac rails.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Helcim MCP Server
-  slug: helcim-mcp-server
 modified: '2026-07-24'
 name: Helcim
 nav: Providers
@@ -323,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 55.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

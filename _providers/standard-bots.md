@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'On-robot REST API (served by the RO1 control box on /api/v1, Bearer-token auth) for controlling arm position and motion, the gripper/end-effector, cameras, routines, teleoperation, the recorder, I/O, '
   name: RO1 Robotics REST API
   slug: ro1-robotics-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -107,7 +107,7 @@ common:
   url: errors/standard-bots-error-codes.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/standard-bots-mcp.yml
 - group: design
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: 'Standard Bots designs and builds AI-native industrial robotic arms — the RO1 family (Spark, Core/RO1, Thor, and the Bolt beta) — designed and assembled in the USA for machine tending, welding, palletizing, pick & place, and inspection. The robots ship with a developer platform, "StandardOS", that exposes a Bearer-token REST API served on the robot control box (/api/v1) for controlling arm motion, the gripper/end-effector, cameras, routines, teleoperation, recording, I/O and fault recovery. Alongside the REST API, Standard Bots publishes an official Python SDK (PyPI: standardbots), a realtime protobuf external-control streaming channel, and a ROS2 bridge (Cyclone DDS) with MoveIt and Modbus tooling — making the RO1 programmable both for high-level orchestration and low-latency realtime control.'
 image: https://assets-global.website-files.com/63d925b46a84dec214bc0bbd/6408ee2c083a0474a480124a_OG%20Image-Home.jpg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list mapped one-to-one from the RO1 Robotics REST API operations exposed by the official Python SDK. The RO1 API runs on the robot control box (Bearer-token auth); an MCP server wou
-  name: Standard Bots MCP Server
-  slug: standard-bots-mcp-server
 modified: '2026-07-21'
 name: Standard Bots
 nav: Providers
@@ -177,8 +173,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/screenshots/standard-bots-2026-09-02T160741.png
 security:

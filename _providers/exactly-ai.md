@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ arazzos:
 - description: Create a custom style model, train it on brand images, then generate on-brand images once ready.
   name: Exactly.ai — train a style model and generate images
   slug: exactly-ai-train-and-generate
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -162,7 +162,7 @@ common:
   url: conformance/exactly-ai-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/exactly-ai-mcp.yml
 - group: other
   title: ''
@@ -188,10 +188,6 @@ created: '2026-07-17'
 description: Exactly.ai is a private, brand-safe AI image generation platform for brands, agencies, and creative teams. It trains custom AI "style" models from as few as ten brand images, then generates hundreds of on-brand image variations with consistent look and feel. Beyond generation the platform edits and animates images, pins characters, upscales to 8K, vectorizes to SVG, and removes backgrounds, with outputs fully licensed for commercial use and original artists compensated when their styles are used. Exactly.ai exposes an enterprise Public API (bearer-token authenticated) for programmatic model creation and training, image generation, upscaling, vectorization, and background removal, alongside the e.studio web product. The company is a portfolio company of Speedinvest and is tracked in the API Evangelist network.
 image: https://framerusercontent.com/images/WlAkvz0GvPEt7p9O61w5Zp9WtY.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Exactly Ai MCP Server
-  slug: exactly-ai-mcp-server
 modified: '2026-07-19'
 name: Exactly Ai
 nav: Providers
@@ -230,8 +226,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:

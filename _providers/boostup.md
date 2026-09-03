@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,7 +55,7 @@ arazzos:
 - description: Pull the first page of Opportunities, Accounts, and Forecast Submissions out of the Boostup / Terret Export API in one run, ready to page through with limit/skip.
   name: Export all Boostup revenue data
   slug: boostup-export-all-revenue-data
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -79,7 +82,7 @@ common:
   url: llms/boostup-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/boostup-mcp.yml
 - group: design
   title: ''
@@ -189,10 +192,6 @@ created: '2026-07-17'
 description: Boostup (now operating as Terret, terret.ai) is an AI-powered revenue intelligence platform that connects data across a company's revenue systems to analyze sales performance, forecast pipeline, and translate insights into real-time execution guidance for sales teams. Its products include Terret Nexus (an answer-to-action revenue engine that generates playbooks), Terret Forecast (pipeline forecasting), and Terret Conversation Intelligence (call analysis). For developers, Boostup exposes a public REST data-export API at app.boostup.ai/export that lets customers programmatically pull their Opportunities, Accounts, and Forecast Submissions out of the platform for in-house analysis and reporting. The API is authenticated with API keys passed in the Authorization header, returns JSON paginated in batches of up to 1000 records, and supports date-based filtering on close/create/update times. The company was surfaced as a portfolio company of Canaan Partners.
 image: https://terret.ai/images/nexus-og-logo-only.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Boostup MCP Server
-  slug: boostup-mcp-server
 modified: '2026-08-13'
 name: Boostup
 nav: Providers
@@ -239,8 +238,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/screenshots/boostup-2026-07-25T203626.png
 security:

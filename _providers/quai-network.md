@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for Quai Network in the `quai_` namespace. Query balances, code, storage and proofs; read blocks, headers and uncles; look up and send transactions (Protobuf-encoded);
   name: Quai Network JSON-RPC API
   slug: quai-network-json-rpc-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -119,7 +119,7 @@ common:
   url: conformance/quai-network-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quai-network-mcp.yml
 - group: operate
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: 'Quai Network is a sharded, EVM-compatible proof-of-work Layer-1 blockchain built by Dominant Strategies, featuring two native assets: QUAI, a smart-contract account-model asset, and Qi, a UTXO-model privacy asset. Quai uses Proof-of-Entropy-Minima (PoEM) consensus with merged mining across a hierarchical structure of Prime, Region, and Zone chains braided into one network. For developers, Quai exposes an Ethereum-compatible JSON-RPC API in the `quai_` namespace (plus a GraphQL endpoint and Postman collection), the Quais SDK (a fork of Ethers v6) for JavaScript/TypeScript dApps and wallets, and the go-quai node/CLI for running nodes and miners. The canonical active zone is Cyprus-1 (chainId 9 on mainnet, 15000 on the Orchard testnet).'
 image: https://avatars.githubusercontent.com/u/54382906?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Quai Network MCP Server
-  slug: quai-network-mcp-server
 modified: '2026-07-20'
 name: Quai Network
 nav: Providers
@@ -168,8 +164,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quai-network/refs/heads/main/screenshots/quai-network-2026-09-02T152556.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single embedded-insurance API covering the full lifecycle — quotation, proposal, sale/policy issuance, endorsement, renewal, claims and webhooks.
   name: 180 Seguros Sagas API
   slug: 180-seguros-sagas-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: 180 Insurance Webhooks
@@ -107,7 +107,7 @@ common:
   url: asyncapi/180-insurance-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/180-insurance-mcp.yml
 - group: design
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: '180 Seguros (180 Insurance) is the first tech-native insurer in Brazil, an SUSEP-authorized insurtech that lets fintechs, digital banks, credit cooperatives and other financial and non-financial businesses embed insurance into their own products through a single API — the Sagas API. The platform covers the full insurance lifecycle: product/combo listing, quotation (cotação), proposal (proposta), sale/policy issuance (venda), endorsements, renewals (renovações) and claims (sinistros), plus HMAC-signed webhooks for real-time visibility. Authentication is OAuth2 client-credentials via Auth0, errors follow RFC 9457 problem-details, and the company publishes a security posture including AICPA SOC 2, LGPD and SUSEP Circular 638 compliance. 180 Seguros is backed by 8VC, Monashees, Dragoneer, Atlantico and Canary, and was added to the API Evangelist network as an 8VC portfolio company.'
 image: https://files.readme.io/21b0f8e-small-180_seguros_logo.jpeg
 layout: provider
-mcp_servers:
-- description: ''
-  name: 180 Insurance MCP Server
-  slug: 180-insurance-mcp-server
 modified: '2026-07-17'
 name: 180 Insurance
 nav: Providers
@@ -198,8 +194,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 38.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/screenshots/180-insurance-2026-07-25T181107.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Castle's REST API for real-time fraud and abuse detection. The Risk API scores authenticated user events (login, transaction, profile update), the Filter API scores anonymous/pre-authentication events
   name: Castle API
   slug: castle-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Castle Webhooks
@@ -163,7 +163,7 @@ common:
   url: components/castle-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/castle-mcp.yml
 - group: design
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Castle is a fraud and account-abuse prevention platform that stops bots, credential stuffing, account takeover, and multi-accounting through behavioral analysis and device fingerprinting — without CAPTCHAs or puzzles for legitimate users. Developers integrate a client-side SDK (browser and mobile) that generates a short-lived request token, then call Castle's backend Risk API and Filter API to score authentication and transaction events in real time. Castle returns machine-learning risk scores and signals (bot, proxy/VPN, residential proxy, impossible travel, device reputation) that drive a policy rules engine, Lists, and webhooks. It serves security and trust-and-safety teams across gaming, fintech, marketplaces, and SaaS.
 image: https://castle.io/og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Castle MCP Server
-  slug: castle-mcp-server
 modified: '2026-07-18'
 name: Castle
 nav: Providers
@@ -216,8 +212,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/screenshots/castle-2026-07-25T204740.png
 security:

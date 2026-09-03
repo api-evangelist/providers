@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the HiBob HR platform providing programmatic access to employee data, time off management, attendance, tasks, reports, documents, goals, job catalog, workforce planning, hiring, and learn
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 30.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/screenshots/bob-2026-06-20T173550.png
 security:

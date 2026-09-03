@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Webhooks API from Aqueduct — 1 operation(s) for webhooks.
   name: Aqueduct Webhooks API
   slug: aqueduct-webhooks-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: Event notifications delivered by Aqueduct to registered webhook endpoints. Each event is an HTTP POST carrying the shared envelope. Subscribe by creating a webhook endpoint (POST /webhookendpoints) wi
   name: Aqueduct Webhooks
@@ -179,7 +179,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aqueduct-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Aqueduct is a fintech billing platform that equips B2B businesses with billing, invoicing, quoting, and accounting for usage-based and metered business models. Developers configure how they collect money as a PriceModel (composed of price functions such as per-unit meters), send billable usage events, and let Aqueduct create invoices and subscriptions, send invoices by email, issue refunds, and auto-provision access via signed webhooks. The REST API lives at api.tryaqueduct.com/v1 with API-key authentication and a documented Idempotency-Key contract. Founded 2020 in Bellevue, WA and backed by Bain Capital Ventures and Conversion Capital, Aqueduct was acquired by Stripe in August 2024; its ReadMe developer portal at docs.tryaqueduct.com remains live.
 image: https://files.readme.io/9e3d7fe-small-Logo_4.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aqueduct MCP Server
-  slug: aqueduct-mcp-server
 modified: '2026-07-18'
 name: Aqueduct
 nav: Providers
@@ -260,8 +256,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/screenshots/aqueduct-2026-07-25T200954.png
 security:

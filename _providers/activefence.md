@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -79,7 +79,7 @@ apis:
   description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
   name: ActiveFence Wonder Fence API
   slug: activefence-wonderfence-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Activefence Webhooks
@@ -112,7 +112,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/activefence-mcp.yml
 - group: agent
   title: ''
@@ -235,10 +235,6 @@ description: 'ActiveFence — now operating as Alice — is an AI security, safe
   ActiveOS moderation view or an automated workflow. Authentication is a single af-api-key header issued from the platform console; the default rate limit is 50 requests per second. First-party SDKs ship for Python (wonderfence-sdk) and TypeScript (@alice-io/wonderfence-ts-sdk), with a Parlant integration and the open-source Caterpillar agent-skill security scanner. Alice is SOC 2 and ISO 27001 certified.'
 image: https://cdn.prod.website-files.com/69005ca0f0832195cbc1370c/6966208e49b12596bab0f42e_Group%201707480796.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ActiveFence MCP Server
-  slug: activefence-mcp-server
 modified: '2026-08-06'
 name: ActiveFence
 nav: Providers
@@ -280,8 +276,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:

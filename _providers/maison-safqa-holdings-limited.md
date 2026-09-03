@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Create, retrieve, and update products. Products are created in draft status and synced to Shopify when activated.
   name: Maison Safqa Holdings Limited Products API
   slug: maison-safqa-holdings-limited-products-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: llms/maison-safqa-holdings-limited-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/maison-safqa-holdings-limited-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Developer API — an API-key-authenticated REST interface for creating products (single and bulk) and updating inventory levels, which the platform then syncs into Shopify with brand data taking precedence on conflict and prices converted to SAR on ingestion. Surfaced originally as a 500 Global portfolio lead and enriched from the provider's public developer portal.
 image: https://cdn.shopify.com/s/files/1/0865/0224/4663/files/logo-ms.svg?v=1763809309
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from the Maison Safqa Brand Developer API operations. No official hosted/remote MCP server was found for this provider; this is a governance starting poin
-  name: Maison Safqa Holdings Limited MCP Server
-  slug: maison-safqa-holdings-limited-mcp-server
 modified: '2026-07-20'
 name: Maison Safqa Holdings Limited
 nav: Providers
@@ -199,8 +195,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

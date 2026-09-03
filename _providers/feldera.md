@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -73,7 +73,7 @@ apis:
   description: The Platform API from Feldera — 9 operation(s) for platform.
   name: Feldera Platform API
   slug: feldera-platform-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: cli/feldera-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/feldera-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ created: '2026-07-17'
 description: Feldera is an incremental compute engine for running complex SQL data pipelines in real time. Rather than reprocessing entire datasets, it updates materialized views proportionally to the changes in the input data, delivering low-latency, low-cost results for use cases such as fraud detection, feature engineering, change data capture, and real-time dashboards. Feldera is built on the DBSP incremental computation theory and is available as an open-source engine, a self-hosted enterprise platform, and a hosted online sandbox (try.feldera.com). Developers define pipelines as SQL programs with input/output connectors and manage them through the Feldera REST API, a Python client, and the fda CLI. Backed by Costanoa Ventures.
 image: https://cdn.sanity.io/images/nlte859i/production/1c2e10b5e5fe2946c6c16f7b4a0790214f186c81-1280x640.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Feldera MCP Server
-  slug: feldera-mcp-server
 modified: '2026-07-19'
 name: Feldera
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:

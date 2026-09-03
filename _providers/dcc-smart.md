@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: The Verify API from Smart DCC — 1 operation(s) for verify.
   name: Smart DCC Verify API
   slug: dcc-smart-verify-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: DCC Boxed DUIS Signing Tool API
@@ -71,7 +71,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dcc-smart-mcp.yml
 - group: operate
   title: ''
@@ -238,10 +238,6 @@ json_schemas:
   property_count: 0
   slug: dcc-smart-dccboxed-keystore
 layout: provider
-mcp_servers:
-- description: ''
-  name: Smart DCC MCP Server
-  slug: smart-dcc-mcp-server
 modified: '2026-07-27'
 name: Smart DCC
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:

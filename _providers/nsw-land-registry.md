@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: A live Cantaloupe Image Server exposing the International Image Interoperability Framework (IIIF) Image API 2.x over the scanned NSW land record images behind the Historical Land Records Viewer. Verif
@@ -262,8 +262,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/screenshots/nsw-land-registry-2026-07-27T125345.png
 security:

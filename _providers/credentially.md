@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -148,7 +148,7 @@ apis:
   description: API for managing webhook callback subscriptions
   name: Credentially Subscriptions API
   slug: credentially-subscriptions-api
-artifact_total: 49
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Credentially Webhooks
@@ -307,7 +307,7 @@ common:
   url: agentic-access/credentially-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/credentially-mcp.yml
 - group: agent
   title: ''
@@ -349,10 +349,6 @@ created: '2026-07-17'
 description: Credentially is a UK-founded, healthcare-only onboarding and compliance automation platform used by NHS trusts, private providers, urgent care and clinical staffing agencies in the UK and US. It brings pre-employment checks, DBS and right-to-work validation, primary source verification, credentialing and continuous compliance monitoring onto one platform, cutting the platform-managed steps of onboarding clinical staff from an industry average of around 60 days to as little as 5. The Credentially Public API (OpenAPI 3.1) exposes profiles, placements, documents with OCR auto-fill, DBS checks, references, right-to-work status and compliance packages, with a companion Webhook API for state-change events.
 image: https://cdn.prod.website-files.com/67f6367b305814423f88598b/6839b1c0c6313ba54fe9856d_5e3042f6ca409a0e92b09c9e_1231.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Credentially MCP Server
-  slug: credentially-mcp-server
 modified: '2026-07-18'
 name: Credentially
 nav: Providers
@@ -404,8 +400,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
 security:

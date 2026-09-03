@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -598,14 +598,14 @@ rules:
     warn: 5
   slug: hookdeck-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.9
+  band: strong
+  composite: 55.4
   coverage:
     artifact_dirs: 18
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -615,9 +615,6 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 53.9
   provenance:
     agentic_access: derived
@@ -626,8 +623,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:

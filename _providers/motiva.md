@@ -1,11 +1,14 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: medium
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
-  source: []
+  source:
+  - plans
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -172,8 +175,8 @@ score:
   previous_composite: 22.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motiva/refs/heads/main/screenshots/motiva-2026-08-07T184328.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: HL7 FHIR STU3 (3.0.2) "Facade" server exposing Patients Know Best personal health record data — Patient, Appointment, Communication, Consent, DiagnosticReport, DocumentReference, Encounter, Observatio
   name: PKB Facade FHIR API
   slug: pkb-facade-fhir-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -127,7 +127,7 @@ common:
   url: data-model/patients-know-best-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/patients-know-best-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Patients Know Best (PKB) is a UK health-technology company operating what it describes as the world's largest personal health record, with more than seven million registered patients across the NHS and other health systems. The platform lets patients hold, view and share their medical records, messages, test results, care plans and questionnaires with clinicians and carers across web, mobile and the NHS App. For integrators, PKB publishes a HL7 FHIR STU3 (3.0.2) API — the "Facade" FHIR server at my.patientsknowbest.com/fhir — that conforms to the NHS CareConnect profiles and exposes patient demographics, documents, observations, appointments, consent, questionnaires and read receipts, secured with OAuth 2.0 client-credentials. PKB was surfaced as a Seedcamp portfolio company and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patients-know-best.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Patients Know Best MCP Server
-  slug: patients-know-best-mcp-server
 modified: '2026-08-08'
 name: Patients Know Best
 nav: Providers
@@ -207,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 40.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/screenshots/patients-know-best-2026-08-07T191555.png
 security:

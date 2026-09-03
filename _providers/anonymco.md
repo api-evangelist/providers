@@ -9,6 +9,7 @@ access_model:
   - https://www.mozilla.org/en-US/anonym/
   - https://www.mozilla.org/en-US/anonym/how-it-works/
   - https://anonymportal.com/app-data-manager
+  - '{''url'': ''https://anonymco.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.mozilla.org/en-US/anonym/ — a different registrable domain (anonymco.com -> mozilla.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -156,8 +157,8 @@ score:
   previous_composite: 16.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/screenshots/anonymco-2026-07-25T200307.png
 security:

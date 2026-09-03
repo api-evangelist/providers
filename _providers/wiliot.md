@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Manage traceability entities - Pixels (tags), assets, categories, asset types, locations, zones, metadata and events - scoped per owner.
@@ -45,7 +45,7 @@ apis:
 - description: Manufacturing operations - pixel ownership changes, reels, tag serialization, shipment approval, payload parse/resolve and sensor/tester data upload.
   name: Wiliot Manufacturing API
   slug: wiliot-manufacturing-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -97,7 +97,7 @@ common:
   url: data-model/wiliot-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wiliot-mcp.yml
 - group: agent
   title: ''
@@ -131,10 +131,6 @@ created: '2026-07-17'
 description: 'Wiliot operates an ambient IoT platform built on battery-free "IoT Pixels" - postage-stamp-sized Bluetooth sensor tags - and a cloud that turns everyday physical items into a continuous, real-time data source for supply-chain visibility ("Physical AI"). Wiliot''s Cloud APIs expose three surfaces: a Platform (traceability) API for pixels, assets, categories, locations, zones and events; an Edge API for gateways, bridges and coverage surveys; and a Manufacturing API for pixel ownership, reels, serialization and sensor/tester data. Access uses an API key (or username/password) exchanged for a JWT bearer token, over a versioned REST surface scoped per owner. Official Python SDKs (wiliot-api, wiliot-core, and others) plus a React Native SDK are published.'
 image: https://platform.wiliot.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wiliot MCP Server
-  slug: wiliot-mcp-server
 modified: '2026-07-21'
 name: Wiliot
 nav: Providers
@@ -166,8 +162,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/screenshots/wiliot-2026-09-02T170757.png
 security:

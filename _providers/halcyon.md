@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Halcyon's REST API for device/asset data plus a universal API for streaming ransomware alerts into SIEM, SOAR, and XDR platforms. The API and its documentation are customer-authenticated (access-gated
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 18.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halcyon/refs/heads/main/screenshots/halcyon-2026-07-25T220535.png
 security:

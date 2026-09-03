@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -1006,8 +1006,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:

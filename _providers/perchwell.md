@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: RESO Property resource (listings; Media is nested).
   name: Perchwell Property API
   slug: perchwell-property-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -198,7 +198,7 @@ common:
   url: errors/perchwell-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/perchwell-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ created: '2026-07-17'
 description: 'Perchwell is a modern, unified MLS (Multiple Listing Service) technology platform used by MLS organizations, brokerages, and real estate agents across the United States. Founded in 2015 and headquartered in New York City, Perchwell provides search, client collaboration, listing add/edit, branded reports, and market analytics on a cloud-native, RESO-certified foundation. For developers and data partners, Perchwell operates three real estate data APIs: a simple token-authenticated JSON API for listing feeds, a RESO Data Dictionary certified RESO Web API (OData 4.01) exposing the standard Property, Member, Office, OpenHouse, and Media resources with full read/write support, and a legacy RETS 1.7 server for backward compatibility. Customers include CRMLS, Baldwin REALTORS, Engel & Volkers, and Keller Williams. Perchwell is SOC 2 compliant and backed by Lux Capital, Founders Fund, and Starwood Capital.'
 image: https://perchwell.com/_media/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list derived from Perchwell's documented API operations. Perchwell does not publish an official hosted MCP server; this is a proposed surface (one tool per operation) for making the
-  name: Perchwell MCP Server
-  slug: perchwell-mcp-server
 modified: '2026-07-20'
 name: Perchwell
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/screenshots/perchwell-2026-08-17T081157.png
 security:

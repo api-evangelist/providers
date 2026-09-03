@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GSMA Mobile Money API profile for account validation, FX quotations, and multi-rail money movement (wallet/bank/card) across international corridors.
   name: TerraPay API Suite
   slug: terrapay-api-suite
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Terrapay Notifications Webhooks
@@ -91,7 +91,7 @@ common:
   url: lifecycle/terrapay-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/terrapay-mcp.yml
 - group: agent
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: TerraPay is a global cross-border payments and digital-wallet infrastructure company connecting banks, mobile wallets, money-transfer operators, merchants, and card networks into a single interoperable network for real-time international money movement. Its partner API Suite follows the GSMA Mobile Money API, exposing account validation, FX quotations, and multi-rail transactions (wallet, bank account, and card) across global remittance corridors, with compliance, monitoring, reconciliation, and reporting built into the platform. Partners authenticate with signed request headers over mutual TLS across Sandbox, UAT, and LIVE environments. Added to the API Evangelist network from the Partech portfolio and enriched from TerraPay's public developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terrapay.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TerraPay MCP Server
-  slug: terrapay-mcp-server
 modified: '2026-07-21'
 name: TerraPay
 nav: Providers
@@ -161,8 +157,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/screenshots/terrapay-2026-09-02T163159.png
 security:

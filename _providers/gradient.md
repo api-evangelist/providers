@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Model listing and management
   name: Gradient Models API
   slug: gradient-models-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: packages/gradient-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gradient-mcp.yml
 - group: other
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Gradient is a decentralized AI infrastructure company building the Open Intelligence Stack — a peer-powered, sovereign alternative to centralized AI clouds. Its stack pairs Parallax (a distributed model-serving / world inference engine that turns heterogeneous machines into one AI cluster), Lattica (a universal peer-to-peer data-motion engine that moves model weights and inference tokens across a global machine mesh), Echo (distributed reinforcement learning) and Symphony (a decentralized multi-agent framework). Gradient Cloud is the enterprise inference offering, exposing an OpenAI-compatible REST API (model listing, chat completion, and text completion, streaming or non-streaming) at apis.gradient.network. The projects run atop a Solana-based network whose Sentry Node browser extension let contributors share edge compute. Gradient is backed by Multicoin Capital and Wing Venture Capital.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gradient.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gradient MCP Server
-  slug: gradient-mcp-server
 modified: '2026-07-19'
 name: Gradient
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/screenshots/gradient-2026-07-25T220159.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.myshyft.com
@@ -316,7 +316,7 @@ apis:
   description: The Support API from Shyft — 2 operation(s) for support.
   name: Shyft Support API
   slug: shyft-support-api
-artifact_total: 116
+artifact_total: 115
 collections:
 - collection_type: open
   name: API Collection
@@ -532,7 +532,7 @@ common:
   url: https://app.myshyft.com/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shyft-mcp.yml
 - group: design
   title: ''
@@ -570,10 +570,6 @@ created: '2026-07-17'
 description: Shyft is a mobile-first workforce management platform for hourly and shift-based teams — employees swap shifts, message teammates, set their availability, and manage schedules from their phone, while managers build and publish schedules from a dashboard. The Shyft Customer API is the REST/JSON backend behind the Shyft iOS and Android apps, the web app, and the Manager Dashboard, covering authentication, users, locations, availabilities, schedules and shifts, channels and chats, posts and notifications, departments, subscriptions, and earned wage access (EWA). It is secured with HTTP Bearer (JWT) tokens. Shyft is backed by General Catalyst and Techstars.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shyft.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Shyft MCP Server
-  slug: shyft-mcp-server
 modified: '2026-07-21'
 name: Shyft
 nav: Providers
@@ -611,8 +607,8 @@ score:
       total: 56
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shyft/refs/heads/main/screenshots/shyft-2026-09-02T155358.png
 security:

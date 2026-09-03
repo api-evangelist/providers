@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The SellerHub API from Spaceship — 7 operation(s) for sellerhub.
   name: Spaceship SellerHub API
   slug: spaceship-sellerhub-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: conformance/spaceship-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spaceship-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: Spaceship is a domain registrar and domain marketplace offering domain registration, DNS management, WHOIS privacy protection, and a SellerHub resale marketplace with SafePay escrow. Its public REST API (https://spaceship.dev/api, v1) exposes 40 operations across domain management, availability, settings, transfers, personal nameservers, contacts, DNS records, SellerHub, and asynchronous operations. Authentication uses a paired API key and secret (X-API-Key / X-API-Secret) with per-key scopes; long-running actions use an async-operation polling model (202 + a spaceship-async-operationid header polled at /v1/async-operations/{operationId}).
 image: https://spaceship-cdn.com/spaceship-api-doc-assets/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spaceship MCP Server
-  slug: spaceship-mcp-server
 modified: '2026-07-21'
 name: Spaceship
 nav: Providers
@@ -274,8 +270,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/screenshots/spaceship-2026-09-02T160322.png
 security:

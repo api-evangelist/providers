@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Hosted, highly customisable payment form for accepting payments across cards, alternative payment methods, and wallets. Merchants open the Payment Page with a signed request (HMAC signature over the r
@@ -219,8 +219,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/screenshots/ecommpay-2026-07-25T212806.png
 security:

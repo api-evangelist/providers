@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.4
-  scored_at: '2026-09-02'
+  score: 31.8
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.totalis.trade
@@ -263,8 +263,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/screenshots/totalis-2026-08-17T082410.png
 security:

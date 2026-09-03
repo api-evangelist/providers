@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://developer-api.qomplement.com/v1
@@ -71,7 +71,7 @@ apis:
   description: The Usage API from Qomplement — 1 operation(s) for usage.
   name: Qomplement Usage API
   slug: qomplement-usage-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Qomplement Webhooks
@@ -136,7 +136,7 @@ common:
   url: packages/qomplement-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qomplement-mcp.yml
 - group: agent
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: Qomplement is a San Francisco-based Y Combinator (Spring 2026) company building an AI-native platform for supply chain and document-heavy back-office operations. Its publicly documented developer product is the Qomplement StructDatafy API, a REST API that extracts structured data from documents in 30+ formats, fills PDF forms, and populates Excel templates programmatically using AI OCR and structuring models. The API is asynchronous (job-based), authenticated with Bearer API keys issued from the developer portal, rate limited per minute and per month, and ships first-party Python and Node.js SDKs. This profile captures the published API surface, SDKs, authentication, conventions, error model, webhooks, and lifecycle.
 image: https://qomplement.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qomplement MCP Server
-  slug: qomplement-mcp-server
 modified: '2026-07-20'
 name: Qomplement
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/screenshots/qomplement-2026-08-17T081421.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Question Answering resource management
   name: Biolevate Question Answering API
   slug: biolevate-question-answering-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: cli/biolevate-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/biolevate-mcp.yml
 - group: agent
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: 'Biolevate is an AI Knowledge Platform accelerating life sciences. Its Elise platform connects to an organization''s document storage backends (S3, Azure, GCS, SharePoint, SFTP, local), indexes documents with AI, and runs asynchronous Question Answering, Extraction, Multi-Dimensional (entity/tabular) Extraction, Find-Similar and Agent jobs over them. Target workflows span regulatory affairs, R&D, industry and post-market: systematic literature review, Clinical Study Report (CSR) and CTD assisted generation, batch-record quality control, results extraction, HTA support, pharmacovigilance PSUR updates and regulatory intelligence. Biolevate ships a public REST API (OpenAPI 3.1), a Python SDK (`biolevate`) and a CLI (`ozk`). Backed by EQT Ventures.'
 image: https://framerusercontent.com/assets/GUqkPx2LWkYnIeiiO2bjRIzJfo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Biolevate MCP Server
-  slug: biolevate-mcp-server
 modified: '2026-07-18'
 name: Biolevate
 nav: Providers
@@ -289,8 +285,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
 security:

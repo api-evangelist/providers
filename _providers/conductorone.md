@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.conductorone.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.c1.ai/ — a different registrable domain (conductorone.com -> c1.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -273,7 +274,7 @@ apis:
   description: The Webhook API from ConductorOne — 4 operation(s) for webhook.
   name: ConductorOne Webhook API
   slug: conductorone-webhook-api
-artifact_total: 101
+artifact_total: 100
 asyncapis:
 - description: ''
   name: Conductorone Webhooks
@@ -507,7 +508,7 @@ common:
   url: cli/conductorone-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/conductorone-mcp.yml
 - group: agent
   title: ''
@@ -565,10 +566,6 @@ created: '2026-07-17'
 description: ConductorOne (now branded C1) is an identity security and access governance platform that automates access reviews, just-in-time access requests, provisioning, role mining, and least-privilege enforcement across 400+ connected apps and cloud infrastructure, plus governance of AI/MCP access. Its HTTP API lets teams manage apps, entitlements, users, access reviews, automations, connectors, policies, and audit data, and integrate identity security directly into internal tools and developer workflows. The API is documented with a full OpenAPI 3.1 spec and backed by Go and TypeScript SDKs, a Terraform provider, a Postman collection, and the c1i/cone command-line tools.
 image: https://www.c1.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: ConductorOne MCP Server
-  slug: conductorone-mcp-server
 modified: '2026-07-18'
 name: ConductorOne
 nav: Providers
@@ -615,8 +612,8 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/screenshots/conductorone-2026-07-25T210248.png
 security:

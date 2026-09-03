@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.visotrust.com/api/v1
@@ -96,7 +96,7 @@ apis:
   description: The client-api-webhook-rest-resource API from VISO Trust — 2 operation(s) for client-api-webhook-rest-resource.
   name: VISO Trust client-api-webhook-rest-resource API
   slug: viso-trust-client-api-webhook-rest-resource-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Viso Trust Webhooks
@@ -240,7 +240,7 @@ common:
   url: asyncapi/viso-trust-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/viso-trust-mcp.yml
 - group: agent
   title: ''
@@ -254,10 +254,6 @@ created: '2026-07-17'
 description: VISO TRUST is an AI-powered third-party risk management (TPRM) platform that helps security teams assess and continuously monitor vendor risk across third, fourth, and nth parties. Its Artifact Intelligence AI engine reads vendor security documentation to automate assessments, and the platform covers vendor onboarding, questionnaires, external intelligence reports (SecurityScorecard, Recorded Future, BitSight), risk scoring, audit logging, and a VISO Chat agent. The public Client API (v1) exposes relationships, assessments, vendor risk summaries, questionnaires, users, and webhooks over HTTPS with bearer-token auth.
 image: https://visotrust.com/wp-content/uploads/2026/03/Viso-trust.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: VISO Trust MCP Server
-  slug: viso-trust-mcp-server
 modified: '2026-07-21'
 name: VISO Trust
 nav: Providers
@@ -298,8 +294,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/screenshots/viso-trust-2026-08-17T082801.png
 security:

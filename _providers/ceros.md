@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://rest.ceros.com
@@ -67,7 +67,7 @@ apis:
   description: The oembed API from Ceros — 1 operation(s) for oembed.
   name: Ceros Oembed API
   slug: ceros-oembed-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -93,7 +93,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ceros-mcp.yml
 - group: other
   title: ''
@@ -232,10 +232,6 @@ examples:
   slug: ceros-oembed-response
 image: https://www.ceros.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ceros MCP Server
-  slug: ceros-mcp-server
 modified: '2026-08-09'
 name: Ceros
 nav: Providers
@@ -273,8 +269,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/screenshots/ceros-2026-08-17T080810.png
 security:

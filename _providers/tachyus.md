@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://your-organization.tachyus.com/api/v1
@@ -51,7 +51,7 @@ apis:
   description: Wells belong to projects.
   name: Tachyus Wells API
   slug: tachyus-wells-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -128,7 +128,7 @@ common:
   url: lifecycle/tachyus-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tachyus-mcp.yml
 - group: design
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: Tachyus provides AI-powered operational optimization and greenhouse-gas emissions management software for the energy and industrial sectors, combining data, reservoir physics, and machine learning. Its Tachapps platform spans Strateon (production and injection allocation), Aqueon (conventional reservoir management and optimization), and Aurion (GHG emissions accounting, monitoring, forecasting, and regulatory reporting). The Tachapps REST API (v1) is organized around Projects, Wells, and Production Data, using Bearer API-token authentication with scopes, JSON over HTTPS, cursor-based pagination, and per-plan rate limits.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tachyus.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tachyus MCP Server
-  slug: tachyus-mcp-server
 modified: '2026-07-21'
 name: Tachyus
 nav: Providers
@@ -214,8 +210,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/screenshots/tachyus-2026-08-17T082238.png
 security:

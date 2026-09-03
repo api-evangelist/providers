@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Modern API for building Windows applications with support for multiple programming languages.
@@ -173,8 +173,8 @@ score:
     applies: true
     score: 65.0
   previous_composite: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows/refs/heads/main/screenshots/microsoft-windows-2026-06-20T185544.png
 security:

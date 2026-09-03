@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: Operations for generating and retrieving insurance price estimates and quotes
   name: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
-artifact_total: 86
+artifact_total: 85
 collections:
 - collection_type: open
   name: API Collection
@@ -89,7 +89,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/allianz-docs-mcp.yml
 - group: other
   title: ''
@@ -337,10 +337,6 @@ jsonld:
   property_count: 48
   slug: allianz-api-connect-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Allianz MCP Server
-  slug: allianz-mcp-server
 modified: '2026-06-20'
 name: Allianz
 nav: Providers
@@ -414,8 +410,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/screenshots/allianz-docs-2026-07-25T195659.png
 security:

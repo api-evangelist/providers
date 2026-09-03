@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The JSON API behind StoryTap's embeddable video widgets. Brands load a first-party loader script from StoryTap's CDN, and that script POSTs to api.storytap.com/w/* to fetch an embed's configuration an
   name: StoryTap Video Widget API
   slug: storytap-video-widget-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Storytap Webhooks
@@ -142,7 +142,7 @@ common:
   url: asyncapi/storytap-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/storytap-mcp.yml
 - group: operate
   title: ''
@@ -152,10 +152,6 @@ created: '2026-07-17'
 description: StoryTap is a patented AI-powered user-generated video (UGC) platform that automates the collection, editing, captioning, and distribution of authentic customer video testimonials and stories. It guides customers through recording on their own devices with no film crew or production stack, auto-edits share-ready clips, and publishes them to websites, social media, and Google Reviews. StoryTap holds six utility patents and is used by brands including TELUS, Samsung, Danone, Canadian Tire, AAA, and UCLA Anderson. A REST API and advanced webhooks are offered on Enterprise plans (not publicly documented). StoryTap is backed by Techstars and the Lazaridis Institute.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storytap.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: StoryTap MCP Server
-  slug: storytap-mcp-server
 modified: '2026-08-13'
 name: StoryTap
 nav: Providers
@@ -198,8 +194,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/screenshots/storytap-2026-08-17T082128.png
 security:

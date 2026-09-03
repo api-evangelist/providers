@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.mosaicml.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.databricks.com/blog/category/databricks-ai — a different registrable domain (mosaicml.com -> databricks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -147,8 +148,8 @@ score:
     applies: true
     score: 65.0
   previous_composite: 22.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-ml/refs/heads/main/screenshots/mosaic-ml-2026-08-07T184316.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.demisto.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.paloaltonetworks.com/cortex/cortex-xsoar — a different registrable domain (demisto.com -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -163,7 +164,7 @@ apis:
   description: The Widgets API from Demisto — 3 operation(s) for widgets.
   name: Demisto Widgets API
   slug: demisto-widgets-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -299,7 +300,7 @@ common:
   url: cli/demisto-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/demisto-mcp.yml
 - group: agent
   title: ''
@@ -345,10 +346,6 @@ created: '2026-07-17'
 description: Demisto is a Security Orchestration, Automation, and Response (SOAR) platform that unifies incident case management, playbook-driven automation, real-time analyst collaboration (the "War Room"), and threat-intelligence management. Founded as an independent security startup backed by Accel and Greylock, Demisto was acquired by Palo Alto Networks in 2019 for roughly $560M and rebranded as Cortex XSOAR; the demisto.com domain now redirects to the Cortex XSOAR product. The Demisto REST API exposes incidents, war-room entries, evidence, threat indicators, and automation scripts programmatically, with a Swagger 2.0 specification, an official Python client (demisto-py), and a content-development SDK/CLI (demisto-sdk). This API Evangelist profile was enriched from the provider's public developer surface (xsoar.pan.dev, docs-cortex.paloaltonetworks.com, and the github.com/demisto organization).
 image: https://avatars.githubusercontent.com/u/11011767?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Demisto MCP Server
-  slug: demisto-mcp-server
 modified: '2026-07-18'
 name: Demisto
 nav: Providers
@@ -387,8 +384,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/screenshots/demisto-2026-07-25T211711.png
 security:

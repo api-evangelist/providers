@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -118,7 +118,7 @@ apis:
   description: The Users API from Border0 — 5 operation(s) for users.
   name: Border0 Users API
   slug: border0-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -283,7 +283,7 @@ common:
   url: cli/border0-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/border0-mcp.yml
 - group: agent
   title: ''
@@ -297,10 +297,6 @@ created: '2026-07-17'
 description: Border0 is an identity-aware Zero Trust network access platform for securing access to infrastructure — SSH and RDP servers, PostgreSQL/MySQL/MSSQL/MongoDB/Elasticsearch databases, Kubernetes clusters, AWS consoles and S3 buckets, and any internal HTTP or TCP service. Instead of VPNs and shared credentials, Border0 publishes each resource as a policy-gated "socket," authenticates users through their existing SSO/identity provider, and records every session for audit. Its REST admin API (api.border0.com/api/v1) manages sockets, access policies, connectors, organizations, identity providers, service accounts, tokens, sessions, and audit logs, and is complemented by an official Go SDK, a Terraform provider, a CLI, and GitHub Actions. Border0 was acquired by Tailscale in March 2026.
 image: https://cdn.prod.website-files.com/6329655518c5f56d63ac0eb8/673ac517dcc68218bae5a42d_img-border0-opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Border0 MCP Server
-  slug: border0-mcp-server
 modified: '2026-07-18'
 name: Border0
 nav: Providers
@@ -339,8 +335,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:

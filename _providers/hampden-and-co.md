@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ apis:
   description: The Transactions API from Hampden & Co — 2 operation(s) for transactions.
   name: Hampden & Co Transactions API
   slug: hampden-and-co-transactions-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -305,7 +305,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hampden-and-co-mcp.yml
 - group: agent
   title: ''
@@ -320,10 +320,6 @@ description: 'Hampden & Co (trading as Hampden Bank since March 2024) is an inde
   Read/Write family (Account & Transaction Information, Payment Initiation, and Confirmation of Funds), onboarded through a developer sandbox portal and secured with FAPI-grade OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication, and eIDAS/OBIE certificate-based dynamic client registration.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hampden & Co MCP Server
-  slug: hampden-co-mcp-server
 modified: '2026-07-23'
 name: Hampden & Co
 nav: Providers
@@ -377,8 +373,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png
 security:

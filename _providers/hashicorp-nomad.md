@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.nomadproject.io/'', ''status'': 308, ''note'': ''declared website redirects to https://developer.hashicorp.com/nomad — a different registrable domain (nomadproject.io -> hashicorp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -204,13 +205,13 @@ rate_limits:
   slug: hashicorp-nomad-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 35.8
   coverage:
     artifact_dirs: 10
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -220,9 +221,6 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -231,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/screenshots/hashicorp-nomad-2026-06-20T182531.png
 security:

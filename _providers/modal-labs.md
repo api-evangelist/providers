@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,7 +69,49 @@ apis:
   description: The Modal Web Endpoints (Representative) API from Modal — 2 operation(s) for modal web endpoints (representative).
   name: Modal Modal Web Endpoints (Representative) API
   slug: modal-labs-modal-web-endpoints-representative-api
-artifact_total: 16
+- description: Defines, deploys, and invokes serverless Python Functions on Modal with per-function GPU/CPU/memory configuration, autoscaling, and sub-second cold starts.
+  name: Modal Functions API
+  slug: modal-functions-api
+- description: Logical grouping of functions, classes, and resources deployed and versioned together as an App.
+  name: Modal Apps API
+  slug: modal-apps-api
+- description: Spins up isolated, GPU-capable sandbox containers for running untrusted code (LLM agents, tool use, code-interpreter workflows) with file-system and network controls.
+  name: Modal Sandboxes API
+  slug: modal-sandboxes-api
+- description: Builds, caches, and rehydrates container images with pip / conda / apt / uv layers and supports custom Dockerfiles for function and sandbox runtimes.
+  name: Modal Images API
+  slug: modal-images-api
+- description: Distributed read/write Volumes for persistent storage of model weights, datasets, and caches across function invocations.
+  name: Modal Volumes API
+  slug: modal-volumes-api
+- description: Network File Systems for shared, mountable file storage across multiple functions and sandboxes.
+  name: Modal Network File Systems API
+  slug: modal-network-file-systems-api
+- description: Stores environment-variable secrets and API keys, mountable into functions and sandboxes at runtime.
+  name: Modal Secrets API
+  slug: modal-secrets-api
+- description: Publishes HTTP, WebSocket, and ASGI/WSGI web endpoints (FastAPI, Flask, Streamlit) backed by serverless Modal containers with custom domains and TLS.
+  name: Modal Web Endpoints API
+  slug: modal-web-endpoints-api
+- description: Schedules functions to run on cron expressions with retries, time-zone awareness, and job history.
+  name: Modal Cron API
+  slug: modal-cron-api
+- description: Distributed FIFO queues for asynchronous workloads, work-stealing, and producer/consumer patterns across functions.
+  name: Modal Queues API
+  slug: modal-queues-api
+- description: Distributed dictionaries (key-value stores) for sharing state between functions and across container restarts.
+  name: Modal Dicts API
+  slug: modal-dicts-api
+- description: Forwards local ports into Modal containers (and vice versa) for development, debugging, and hybrid networking.
+  name: Modal Tunnels API
+  slug: modal-tunnels-api
+- description: Multi-environment isolation (dev / staging / prod) within a workspace, each with its own apps, secrets, and quotas.
+  name: Modal Environments API
+  slug: modal-environments-api
+- description: Manages workspaces, tokens, members, and authentication for the Modal control plane.
+  name: Modal Token / Workspace API
+  slug: modal-token-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -172,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

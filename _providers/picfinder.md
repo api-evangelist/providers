@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: WebSocket API for AI image inference powered by the RunWare / DiffusionMaster platform. Supports text-to-image and image-to-image generation, model / LoRA selection, ControlNet, inpainting, outpaintin
   name: PicFinder Image Inference API
   slug: picfinder-image-inference-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -91,7 +91,7 @@ common:
   url: conventions/picfinder-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/picfinder-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +109,6 @@ created: '2026-07-17'
 description: PicFinder (PicFinder.ai) is an AI-powered image generation platform that turns text prompts into unlimited realistic, artistic, and abstract images in near real time. Beyond the consumer web app and Figma plugin, PicFinder exposes a developer API for programmatic image inference powered by the RunWare / DiffusionMaster inference platform. The API is delivered over a WebSocket connection and authenticated with an API key, and supports text-to-image and image-to-image generation, model and LoRA selection (including CivitAI models), ControlNet guidance, inpainting and outpainting, background removal, GAN upscaling, image-to-text interrogation, prompt enhancement, and similar-image retrieval. A first-party JavaScript / TypeScript SDK (picfinder-sdk) wraps the WebSocket protocol for both browser and Node.js environments. PicFinder was surfaced as an a16z portfolio company and profiled into the API Evangelist network.
 image: https://picfinder.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: PicFinder MCP Server
-  slug: picfinder-mcp-server
 modified: '2026-07-20'
 name: PicFinder
 nav: Providers
@@ -143,8 +139,8 @@ score:
   previous_composite: 19.7
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picfinder/refs/heads/main/screenshots/picfinder-2026-09-02T151219.png
 security:

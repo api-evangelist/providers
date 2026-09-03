@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The protocol's read/write boundary — a caching and relay layer between protocol participants and the Vana L1 covering the onchain primitives (identity, permissions, fees, PGE, schemas, files, DLP cont
@@ -204,8 +204,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/screenshots/vana-2026-09-02T165348.png
 security:

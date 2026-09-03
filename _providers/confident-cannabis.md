@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.confidentcannabis.com
@@ -86,7 +86,7 @@ apis:
   description: Submit and manage test results
   name: Confident Cannabis Test Results API
   slug: confident-cannabis-test-results-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +184,7 @@ common:
   url: well-known/confident-cannabis-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/confident-cannabis-mcp.yml
 - group: agent
   title: ''
@@ -230,10 +230,6 @@ created: '2026-07-17'
 description: Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial chemical testing. Its public v0 REST API lets labs manage samples, orders, and the order-status lifecycle, submit per-compound test results, and upload Certificates of Analysis, while testing clients read their labs, orders, samples, and results. Authentication is API-key based with optional HMAC-SHA256 request signing. Founded 2015 and backed by Bullpen Capital, the platform serves 100+ labs and 15,000+ active testing clients.
 image: https://cdn.prod.website-files.com/64d6509bb299ffdf28c03cc4/65005f8fc24b671e1c5f5e68_webclip.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Confident Cannabis MCP Server
-  slug: confident-cannabis-mcp-server
 modified: '2026-07-18'
 name: Confident Cannabis
 nav: Providers
@@ -277,8 +273,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png
 security:

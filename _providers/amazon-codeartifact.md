@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The Untag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for untag#resourcearn.
   name: Amazon CodeArtifact Untag#resourceArn API
   slug: amazon-codeartifact-untag-resourcearn-api
-artifact_total: 500
+artifact_total: 499
 collections:
 - collection_type: postman
   name: CodeArtifact Authorization Token#domain API
@@ -194,7 +194,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codeartifact-mcp.yml
 - group: other
   title: ''
@@ -1634,10 +1634,6 @@ jsonld:
   property_count: 76
   slug: amazon-codeartifact-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeArtifact MCP Server
-  slug: amazon-codeartifact-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeArtifact
 nav: Providers
@@ -1700,8 +1696,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:

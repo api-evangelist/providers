@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Order APIs enable a user to view all their active orders / sales as well as details for a single order.
   name: StockX Order API
   slug: stockx-order-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: data-model/stockx-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stockx-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ created: '2026-07-17'
 description: StockX is a global online marketplace for sneakers, streetwear, electronics, collectibles, and trading cards, operating on a live bid/ask model similar to a stock exchange. The StockX Public API (v2.0.0) lets approved developers in the StockX Developer Program search the product catalog, read live market data (bids/asks), create and manage seller listings individually or in bulk via asynchronous batch operations, and track sales orders and their shipping documents. Requests authenticate with an x-api-key header plus an OAuth 2.0 bearer token issued by StockX's Auth0 tenant. StockX was surfaced as a portfolio company of Battery Ventures and GV.
 image: https://developer.stockx.com/icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: StockX MCP Server
-  slug: stockx-mcp-server
 modified: '2026-07-21'
 name: StockX
 nav: Providers
@@ -249,8 +245,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/screenshots/stockx-2026-08-17T082124.png
 security:

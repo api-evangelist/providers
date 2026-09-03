@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Tracker API from Rasa — 7 operation(s) for tracker.
   name: Rasa Tracker API
   slug: rasa-tracker-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +127,7 @@ common:
   url: cli/rasa-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rasa-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-17'
 description: Rasa is an open-core conversational AI framework for enterprises, built by Rasa Technologies GmbH, that natively leverages generative AI through CALM (Conversational AI with Language Models) to build reliable text and voice assistants. Rasa Pro is the pro-code framework (with Flows, custom actions, channel connectors, multi-LLM routing, observability and Kubernetes deployment); Rasa Studio is the companion no-code UI; and Rasa Open Source provides the underlying NLU and dialogue-management framework. The self-hosted runtime exposes an HTTP API for managing conversation trackers and training, testing and loading models, plus a Python SDK action server for custom actions.
 image: https://rasa.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rasa MCP Server
-  slug: rasa-mcp-server
 modified: '2026-07-20'
 name: Rasa
 nav: Providers
@@ -243,8 +239,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/screenshots/rasa-2026-08-17T081447.png
 security:

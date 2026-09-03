@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
@@ -72,7 +72,7 @@ apis:
   description: TUS resumable upload session lifecycle.
   name: Opera Upload API
   slug: opera-upload-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -117,7 +117,7 @@ common:
   url: packages/opera-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/opera-mcp.yml
 - group: build
   title: ''
@@ -236,10 +236,6 @@ description: 'Opera is the Norway-based, Nasdaq-listed (OPRA) maker of the Opera
   by contacting Opera Ads.'
 image: https://github.com/operaads.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Opera MCP Server
-  slug: opera-mcp-server
 modified: '2026-08-13'
 name: Opera
 nav: Providers
@@ -285,8 +281,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic send/receive/route over iMessage — 1:1 and group chats, attachments, rich links, tapbacks, typing indicators, location pins, webhook subscriptions and events.
   name: Chert Messaging API
   slug: chert-messaging-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Chert Webhooks
@@ -115,7 +115,7 @@ common:
   url: lifecycle/chert-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chert-mcp.yml
 - group: start
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Chert is iMessage infrastructure for reaching people at scale. Its Messaging API lets teams programmatically send, receive, route, and observe real iMessage conversations — blue-bubble threads from verified numbers with typing indicators, tapback reactions, reply context, multi-recipient group threads, SMS fallback, file attachments, rich-link previews, one-time location pins, and delivery receipts. Chert also ships native integrations for Salesforce, HubSpot, and Slack, plus webhook subscriptions and an event stream (message.received, reaction.added/removed) for real-time inbound replies. Auth is bearer token or HMAC-SHA256 request signing; writes support an idempotency_key. Chert is a Y Combinator (Spring 2026) company based in the San Francisco Bay Area.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chert.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chert MCP Server
-  slug: chert-mcp-server
 modified: '2026-07-18'
 name: Chert
 nav: Providers
@@ -170,8 +166,8 @@ score:
   previous_composite: 34.5
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/screenshots/chert-2026-07-25T205203.png
 security:

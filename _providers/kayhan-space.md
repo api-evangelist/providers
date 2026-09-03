@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ arazzos:
 - description: Upload an operator ephemeris to Satcat, make it operational, run a conjunction screening, and pull the resulting CDMs and plot.
   name: Screen an ephemeris and review conjunctions
   slug: kayhan-space-screen-ephemeris
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -286,7 +286,7 @@ common:
   url: packages/kayhan-space-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kayhan-space-mcp.yml
 - group: agent
   title: ''
@@ -336,10 +336,6 @@ created: '2026-07-17'
 description: Kayhan Space is a spaceflight-safety company building autonomous space traffic coordination and collision-avoidance technology for satellite operators. Its Satcat platform delivers space situational awareness, conjunction assessment (CDM ingestion and analysis), on-orbit screening, ephemeris and Two-Line Element (TLE) catalog services, propagation, orbit determination, maneuver design, and collision-avoidance (COLA) planning through the Satcat Service API. Kayhan also offers Dynamics, an astrodynamics estimation and orbit-simulation engine. Founded in 2019 and backed by Initialized Capital and Techstars, Kayhan Space serves commercial, civil, and defense satellite operators.
 image: https://www.satcat.com/og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kayhan Space MCP Server
-  slug: kayhan-space-mcp-server
 modified: '2026-07-19'
 name: Kayhan Space
 nav: Providers
@@ -383,8 +379,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

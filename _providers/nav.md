@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,14 +36,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.0
-  scored_at: '2026-09-02'
+  score: 11.2
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for Nav partner integrations. Partners authenticate with a Bearer token API key issued during onboarding and use it to create Nav accounts for their users, fetch account state, change an acco
   name: Nav Partner API
   slug: nav-partner-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -163,7 +163,7 @@ common:
   url: data-model/nav-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nav-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ description: 'Nav Technologies, Inc. is a US financial-technology company (not a
   and there is no self-serve developer signup.'
 image: https://api-docs.nav.com/img/nav-logo-on-light.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nav MCP Server
-  slug: nav-mcp-server
 modified: '2026-08-26'
 name: Nav
 nav: Providers
@@ -217,8 +213,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/screenshots/nav-2026-09-02T150726.png
 security:

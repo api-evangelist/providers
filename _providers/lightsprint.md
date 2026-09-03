@@ -34,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
   name: Lightsprint API
   slug: lightsprint-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lightsprint-mcp.yml
 - group: start
   title: ''
@@ -170,10 +170,6 @@ created: '2026-07-17'
 description: Lightsprint is an AI-native product-development platform where developers, product managers, and designers plan, build, and ship together against a codebase a team already runs, rather than a greenfield prototype. Its three surfaces are Plan Mode, which turns plain-English requirements into structured, reviewable visual plans; infinite parallel cloud agents that execute those plans on the team's real repository using Anthropic, Cursor, or Codex models in managed cloud infrastructure instead of on a developer's machine; and per-change preview environments that give every pull request a live URL so non-engineers review a running app instead of a diff. Work is tracked on a workspace board of stacks, projects, tasks, and dependencies exposed through an OAuth 2.0 REST API, a `lightsprint` CLI, a set of published Claude Code Agent Skills, and an n8n community node. Lightsprint was founded by Ben Ong, Benedict Chan, and Heng Hong Lee, and went through Y Combinator's Spring 2026 batch.
 image: https://lightsprint.ai/favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lightsprint MCP Server
-  slug: lightsprint-mcp-server
 modified: '2026-07-19'
 name: Lightsprint
 nav: Providers
@@ -215,8 +211,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
 security:

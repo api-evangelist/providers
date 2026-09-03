@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ arazzos:
 - description: Authenticate, submit a loan application, then track its status and next actions.
   name: Originate and track a GoodLeap loan
   slug: good-leap-originate-and-track-loan
-artifact_total: 44
+artifact_total: 43
 collections:
 - collection_type: postman
   name: GoodLeap - Developer API
@@ -258,7 +258,7 @@ common:
   url: sandbox/good-leap-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/good-leap-mcp.yml
 - group: agent
   title: ''
@@ -304,10 +304,6 @@ created: '2026-07-17'
 description: 'GoodLeap (formerly Loanpal) is a fintech platform providing point-of-sale financing for sustainable home improvements — solar and battery storage, efficient heating and cooling, roofing and ventilation, water conservation, and energy-efficient windows. Its Developer API (v2, POS financing) lets approved partners originate and manage home-improvement loans through the full lifecycle: authentication and elevation, offers and payment calculation, loan submission, status and timeline tracking, case (stipulation) management, document upload via pre-signed URLs, project and milestone management, change orders, notes, tags, and user management. Authentication is JWT bearer; partner credentials from developer.goodleap.com are required. This profile was surfaced as a portfolio company of Ribbit Capital and enriched from GoodLeap''s public developer surface (developer portal + public Postman collection).'
 image: https://www.goodleap.com/opengraph-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Good Leap MCP Server
-  slug: good-leap-mcp-server
 modified: '2026-07-19'
 name: Good Leap
 nav: Providers
@@ -352,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

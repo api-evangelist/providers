@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
@@ -279,8 +279,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/screenshots/skyvia-2026-08-17T081918.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.lishfood.com/wp-json/wp/v2
@@ -91,7 +91,7 @@ apis:
   description: Post authors exposed by the site.
   name: Lish Users API
   slug: lish-users-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lish-mcp.yml
 - group: other
   title: ''
@@ -215,10 +215,6 @@ description: 'Lish is a corporate catering and workplace food service company se
   these are end-user product integrations — Lish operates no developer program and publishes no product API. The only public, self-describing HTTP API is the WordPress REST API behind its marketing site, profiled here.'
 image: https://www.lishfood.com/wp-content/uploads/2024/05/Lish-Hero-Lish_part_two_finals080jpghalf.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lish MCP Server
-  slug: lish-mcp-server
 modified: '2026-07-19'
 name: Lish
 nav: Providers
@@ -256,8 +252,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

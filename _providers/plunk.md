@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-09-02'
+  score: 42.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -284,7 +284,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -294,7 +294,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 68.8
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +305,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/screenshots/plunk-2026-06-20T191814.png
 security:

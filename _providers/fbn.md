@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: The fbn.com member application - account, farm, and field management plus access to agronomy insights, pricing transparency, and marketplace ordering. Member-only product, not a public API.
@@ -118,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

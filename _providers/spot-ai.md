@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Zones API from Spot AI — 1 operation(s) for zones.
   name: Spot AI Zones API
   slug: spot-ai-zones-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Spot Webhooks
@@ -279,7 +279,7 @@ common:
   url: asyncapi/spot-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spot-mcp.yml
 - group: agent
   title: ''
@@ -293,10 +293,6 @@ created: '2026-07-17'
 description: 'Spot AI is a physical-security video-AI platform that turns surveillance cameras into AI agents which monitor spaces 24/7, detect suspicious activity, and trigger automated responses across retail, manufacturing, construction, healthcare, and education. The Spot AI Developer API is a JSON REST API on https://dev-api.spot.ai/ (bearer API-key auth) with three surfaces: Devices (locations, appliances, cameras, live/VOD embeds, historical footage, zones, shared searches, audio playback), Intelligence (people/vehicle counting, idle/presence analytics, and License Plate Recognition interest lists), and Spot Connect (a beta integrations platform that links external business events to camera footage via integrations, devices, event types, and events, with signed RSA256 webhooks for real-time delivery).'
 image: https://cdn.prod.website-files.com/5fe2250e2f83cc02cbfefbcf/68ae36e3393364b50b65e143_Spot%20AI.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spot AI MCP Server
-  slug: spot-ai-mcp-server
 modified: '2026-07-21'
 name: Spot AI
 nav: Providers
@@ -338,8 +334,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/screenshots/spot-2026-08-17T082037.png
 security:

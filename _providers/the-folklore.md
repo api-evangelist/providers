@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for The Folklore's Shopify storefront, implementing the Universal Commerce Protocol over an MCP endpoint with buyer-approved checkout, plus read-only storefront JSON endp
@@ -158,8 +158,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/screenshots/the-folklore-2026-09-02T163345.png
 security:

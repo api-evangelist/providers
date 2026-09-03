@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ apis:
   description: User related endpoints
   name: Nestcoin users-users API
   slug: nestcoin-users-users-api
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Nestcoin Webhooks
@@ -307,7 +307,7 @@ common:
   url: asyncapi/nestcoin-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nestcoin-mcp.yml
 - group: agent
   title: ''
@@ -337,10 +337,6 @@ created: '2026-07-17'
 description: Nestcoin is an African fintech company building Onboard, a digital-money platform and crypto exchange for on/off-ramping between fiat and crypto. Its developer product, Onboard Connect, is the SDK & API integration layer over Onboard Exchange, giving Web2 and Web3 builders access to a ready-made peer-to-peer marketplace, liquidity, offers/pricing, orders, beneficiaries, and payout accounts. The public Onboard External API Gateway (OpenAPI 3.0.3, v3.0.2) exposes 96 operations across users/auth, offers, orders, accounts, and webhooks, secured with API keys, session tokens, and HMAC-SHA256 request signing. Nestcoin is backed by Coinbase Ventures, Base Ecosystem, HashKey Capital, Hashed Emergent, Distributed Global, Electric Capital, and others.
 image: https://nestcoin.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nestcoin MCP Server
-  slug: nestcoin-mcp-server
 modified: '2026-07-20'
 name: Nestcoin
 nav: Providers
@@ -388,8 +384,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/screenshots/nestcoin-2026-08-07T184916.png
 security:

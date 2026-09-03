@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ arazzos:
 - description: End-to-end flight retailing against the Trip Ninja surface published in Trip Ninja's own GitHub documentation repository (https://github.com/trip-ninja-inc/trip_ninja_api_docs, last updated 2023-12-14
   name: Trip Ninja — search, confirm price, book and ticket
   slug: webjet-tripninja-search-price-book-ticket
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: Trip Ninja API Documentation
@@ -337,7 +337,7 @@ common:
   url: well-known/webjet-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/webjet-mcp.yml
 - group: build
   title: ''
@@ -443,10 +443,6 @@ created: '2026-07-28'
 description: 'Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns
   403 to non-browser clients), while the group''s only public API surface is Trip Ninja''s: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja''s own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: Webjet MCP Server
-  slug: webjet-mcp-server
 modified: '2026-07-28'
 name: Webjet
 nav: Providers
@@ -462,13 +458,13 @@ rate_limits:
   slug: webjet-rate-limits
 score:
   band: thin
-  composite: 32.4
+  composite: 36.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 3.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -478,10 +474,7 @@ score:
     discoverability: 55.6
     governance: 4.5
     operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 31.6
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -492,8 +485,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png
 security:

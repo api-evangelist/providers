@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: Holdings and positions.
   name: Groww Portfolio API
   slug: groww-portfolio-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Groww Trading Authentication API
@@ -226,7 +226,7 @@ common:
   url: packages/groww-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/groww-mcp.yml
 - group: agent
   title: ''
@@ -248,10 +248,6 @@ created: '2026-07-17'
 description: Groww is an Indian fintech company offering investing and trading in stocks, futures & options, mutual funds, ETFs, IPOs and more through its consumer app and web platform. Backed by Iconiq Capital, Ribbit Capital and Y Combinator, Groww also operates the Groww Trading API — an official programmatic interface for algorithmic trading that covers order management (place/modify/cancel), portfolio holdings and positions, margin calculation, live market data (LTP, full quote, OHLC, option chain and greeks) and historical candle data across the CASH (equity) and FNO (derivatives) segments on Indian exchanges. Requests hit https://api.groww.in, are versioned with the X-API-VERSION header, and are authenticated with a daily Bearer access token generated via an API key + secret checksum, a TOTP flow, or an OAuth2 authorization-code flow.
 image: https://groww.in/favicon.ico
 layout: provider
-mcp_servers:
-- description: No official Groww MCP server was found. This is a CANDIDATE tool list derived one-to-one from the Groww Trading API OpenAPI operations, as a starting point for an MCP server that wraps the trading pla
-  name: Groww MCP Server
-  slug: groww-mcp-server
 modified: '2026-07-19'
 name: Groww
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

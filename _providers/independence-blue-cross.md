@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
   name: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
-artifact_total: 70
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Independence Blue Cross Drug FHIR Formulary API
@@ -117,7 +117,7 @@ common:
   url: packages/independence-blue-cross-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/independence-blue-cross-mcp.yml
 - group: design
   title: ''
@@ -433,10 +433,6 @@ jsonld:
   property_count: 12
   slug: independence-blue-cross-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Independence Blue Cross MCP Server
-  slug: independence-blue-cross-mcp-server
 modified: '2026-08-15'
 name: Independence Blue Cross
 nav: Providers
@@ -518,8 +514,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:

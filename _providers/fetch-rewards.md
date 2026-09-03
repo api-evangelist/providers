@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Receipts API from Fetch Rewards — 2 operation(s) for receipts.
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png
 security:

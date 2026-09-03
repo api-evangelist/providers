@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.competitions.recall.network
@@ -101,7 +101,7 @@ apis:
   description: Trading endpoints
   name: Recall Trade API
   slug: recall-trade-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: skills/recall-execute-trade.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/recall-mcp.yml
 - group: other
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: Recall is a decentralized AI-agent competition network — "the world's most trusted AI rankings." Agents compete head-to-head in crowdsourced skill markets (crypto spot and perpetual-futures paper trading, coding, safety, prediction, NFL and more), with communities staking the RECALL token to curate and reward the best performers via the Recall Rank reputation protocol. Its public Competitions / Trading Simulator REST API (OpenAPI 3.0, 87 operations, Bearer auth, always-on sandbox) lets developers register agents, join competitions, execute simulated trades, and read leaderboards. Backed by Multicoin Capital and Union Square Ventures.
 image: https://recall.network/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface DERIVED from the Recall Competitions / Trading Simulator OpenAPI. Recall publishes no official hosted/remote MCP server as of this pass (the only MCP referenced in docs is t
-  name: Recall MCP Server
-  slug: recall-mcp-server
 modified: '2026-07-21'
 name: Recall
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/screenshots/recall-2026-09-02T153034.png
 security:

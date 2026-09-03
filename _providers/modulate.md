@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - baseURL: https://platform.modulate.ai
@@ -91,7 +91,7 @@ apis:
   description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
   name: Modulate Velma 2 Synthetic Voice Detection Batch API
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: 'Real-time AI music detection over WebSocket. The client streams audio and receives per-window vocal AI verdicts as they become available, followed by a final clip-level summary including instrumental '
   name: Velma 2 AI Music Detection Streaming API
@@ -230,7 +230,7 @@ common:
   url: llms/modulate-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/modulate-mcp.yml
 - group: design
   title: ''
@@ -272,10 +272,6 @@ created: '2026-07-17'
 description: Modulate is a voice AI company based in Cambridge, Massachusetts, building audio-native voice intelligence for trust, safety, and conversation understanding. Its Velma-2 platform exposes a suite of REST (batch) and WebSocket (streaming) model APIs — multilingual and English speech-to-text transcription with speaker diarization, deepfake (synthetic voice) detection, emotion and accent detection, PII/PHI tagging and redaction, language detection, and music/speech and AI-music detection — alongside Velma conversation analysis (behaviors, topics, sentiment, participant roles) and the ToxMod voice-safety product for gaming and social platforms. Authentication is via an X-API-Key header (an api_key query parameter for WebSocket streams), billed per hour of audio processed. Backed by Sierra Ventures.
 image: https://cdn.prod.website-files.com/67ed675f8e30d86d14c51adb/6a0c34c788a0bb22111adc3a_Modulate%20Thumbnail%20master.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Modulate MCP Server
-  slug: modulate-mcp-server
 modified: '2026-07-20'
 name: Modulate
 nav: Providers
@@ -320,8 +316,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:

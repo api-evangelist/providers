@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
   description: Geração de fatura/recibo em PDF
   name: FaturaPDF — Brazilian Invoice & Receipt PDF API Documents API
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-documents-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -63,7 +63,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/faturapdf-brazilian-invoice-receipt-pdf-api-mcp.yml
 - group: start
   title: ''
@@ -207,10 +207,6 @@ examples:
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-generate-receipt-example
 image: https://faturapdf.com/og-cover.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: FaturaPDF — Brazilian Invoice & Receipt PDF API MCP Server
-  slug: faturapdf-brazilian-invoice-receipt-pdf-api-mcp-server
 modified: '2026-08-09'
 name: FaturaPDF — Brazilian Invoice & Receipt PDF API
 nav: Providers
@@ -257,8 +253,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faturapdf-brazilian-invoice-receipt-pdf-api/refs/heads/main/screenshots/faturapdf-brazilian-invoice-receipt-pdf-api-2026-08-17T080925.png
 security:

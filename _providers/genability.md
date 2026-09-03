@@ -9,6 +9,7 @@ access_model:
   - authentication
   - security
   - sandbox
+  - '{''url'': ''https://genability.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.arcadia.com/platform?utm_source=genability — a different registrable domain (genability.com -> arcadia.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,7 +56,7 @@ apis:
   description: The Rest API from Genability — 32 operation(s) for rest.
   name: Genability Rest API
   slug: genability-rest-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: signal
@@ -63,7 +64,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/genability-mcp.yml
 - group: auth
   title: ''
@@ -226,10 +227,6 @@ description: 'Genability is a United States energy-data platform, based in San F
   can sign up at dash.genability.com in minutes, but every endpoint — including the ones pathed /rest/public/ — returns 401 without an appId/appKey, so none of this tariff or market reference data is openly published, and Genability exposes no individual customer''s usage or billing data at all (that consumer-data surface lives in Arcadia''s separate Plug/Arc API).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Genability MCP Server
-  slug: genability-mcp-server
 modified: '2026-07-27'
 name: Genability
 nav: Providers
@@ -274,8 +271,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 47.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

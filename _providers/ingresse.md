@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Versioned REST API (v1 and v2) for event ticketing — events, tickets, checkout/payments, users, and access control — authenticated with an individually issued API key passed as the `apikey` query para
@@ -139,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingresse/refs/heads/main/screenshots/ingresse-2026-07-25T222431.png
 security:

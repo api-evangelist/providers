@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
   description: Access to transactions
   name: Meter Transactions API
   slug: meter-transactions-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: 'Real-time WebSocket subscription channels of the Meter native node API, generated from the /subscriptions/* GET (websocket-upgrade) operations declared in the Meter RESTful OpenAPI (Meterest v1.2.2). '
   name: Meter Subscriptions (WebSocket)
@@ -146,7 +146,7 @@ common:
   url: packages/meter-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/meter-mcp.yml
 - group: agent
   title: ''
@@ -228,10 +228,6 @@ created: '2026-07-17'
 description: Meter is a high-performance, EVM-compatible Layer-1 blockchain and cross-chain infrastructure network built for the Web3 economy, backed by General Catalyst and Pantera Capital. Its HotStuff-based hybrid PoV consensus delivers thousands of TPS with instant finality, MEV/censorship resistance, and a metastable gas currency (MTR) pegged to energy alongside the MTRG governance token. Developers reach Meter through a standard Ethereum JSON-RPC endpoint (rpc.meter.io) that works with web3.js, ethers.js, Hardhat, Remix and MetaMask, and through a native RESTful node API ("Meterest") covering accounts, blocks, transactions, event/transfer logs, node status, staking and WebSocket subscriptions. The Meter Passport bridge provides generic cross-chain messaging and asset transfer, and the meterify library gives a web3.js-style adaptor to the native API.
 image: https://avatars.githubusercontent.com/u/50934298?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Meter MCP Server
-  slug: meter-mcp-server
 modified: '2026-07-20'
 name: Meter
 nav: Providers
@@ -273,8 +269,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:

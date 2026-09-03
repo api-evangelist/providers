@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ rules:
   slug: pelias-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 31.4
   coverage:
     artifact_dirs: 13
     catalog_gap: 59.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -199,9 +199,6 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 32.3
   provenance:
     agentic_access: derived
@@ -210,8 +207,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/screenshots/pelias-2026-06-20T191527.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ apis:
   description: The Release Notes API from Retraced — 1 operation(s) for release notes.
   name: Retraced Release Notes API
   slug: retraced-release-notes-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -263,7 +263,7 @@ common:
   url: well-known/retraced-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/retraced-mcp.yml
 - group: agent
   title: ''
@@ -289,10 +289,6 @@ created: '2026-07-17'
 description: Retraced is an AI-first supply chain transparency and compliance platform for the fashion and textile industry. It helps brands and suppliers manage multi-tier traceability (fiber to finish), certified-materials validation, material composition, Digital Product Passports, supplier collaboration, and regulatory compliance across frameworks such as CSDDD, AGEC, and LKSG. Retraced exposes a versioned Public API v2 for machine-to-machine access to products (styles), bills of materials, material composition, certificates, companies with ESG data, supply chains, files, and Order Hub purchase/sales orders — the same data model that powers the Retraced dashboard. Backed by Partech.
 image: https://cdn.shopify.com/s/files/1/0568/3524/4150/files/iso-retraced.svg?v=1760701227
 layout: provider
-mcp_servers:
-- description: ''
-  name: Retraced MCP Server
-  slug: retraced-mcp-server
 modified: '2026-07-20'
 name: Retraced
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/screenshots/retraced-2026-09-02T153631.png
 security:

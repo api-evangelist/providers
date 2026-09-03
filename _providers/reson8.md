@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.reson8.dev/v1
@@ -51,7 +51,7 @@ apis:
   description: Realtime, turn-level, and prerecorded transcription.
   name: Reson8 Speech to Text API
   slug: reson8-speech-to-text-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: packages/reson8-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reson8-mcp.yml
 - group: agent
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-17'
 description: 'Reson8 (Resonate Labs B.V.) is a Balderton Capital-backed speech-recognition company offering an infrastructure-grade automatic speech recognition (ASR) API. Its differentiator is text-based, hyper-custom domain adaptation: feed up to ~1M tokens of domain vocabulary and a custom model adapts in under 60 seconds with no audio datasets or fine-tuning, cutting word error rate versus generic engines. The v1 API at api.reson8.dev provides realtime WebSocket streaming, turn-level events for conversational voice agents, prerecorded file transcription, speaker diarization, and custom-model phrase management across ten European languages, on EU-hosted infrastructure with zero audio retention.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reson8.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Reson8 MCP Server
-  slug: reson8-mcp-server
 modified: '2026-07-20'
 name: Reson8
 nav: Providers
@@ -223,8 +219,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/screenshots/reson8-2026-08-17T081533.png
 security:

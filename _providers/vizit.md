@@ -36,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Machine-to-machine REST API for ingesting Product Detail Pages (by Amazon ASIN or by caller-supplied id), submitting standalone images for asynchronous Visual AI scoring, retrieving PDP and image scor
   name: Vizit Public API
   slug: public-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -162,7 +162,7 @@ common:
   url: data-model/vizit-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vizit-mcp.yml
 - group: agent
   title: ''
@@ -176,10 +176,6 @@ created: '2026-08-02'
 description: Vizit (Vizit Labs, Inc.) is a Boston-based Visual AI company whose platform predicts, measures, optimizes and monitors the effectiveness of ecommerce visual content. Its patented Audience Lens technology decomposes every image into thousands of visual components and scores it against deep-learning models trained to simulate the visual preferences of specific consumer audiences, so brands can tell which hero and carousel images will convert on the digital shelf. The Vizit Public API is a machine-to-machine REST API at ext.vizit.com that lets partners and brands ingest Product Detail Pages by Amazon ASIN or by their own product identifiers, submit standalone images for scoring, retrieve listing and image scores (including GS1 hero sub-scores and the agent-ready / mobile-ready shopper-clarity flags), request Spark Ideas and Spark Images generative variations, and queue bulk CSV exports of an organization's PDP and image scores.
 image: https://www.vizit.com/img/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vizit MCP Server
-  slug: vizit-mcp-server
 modified: '2026-08-02'
 name: Vizit
 nav: Providers
@@ -216,8 +212,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/screenshots/vizit-2026-09-02T170149.png
 security:

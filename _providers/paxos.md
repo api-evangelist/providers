@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -258,7 +258,7 @@ apis:
   description: The TravelRulePublic API from Paxos — 2 operation(s) for travelrulepublic.
   name: Paxos TravelRulePublic API
   slug: paxos-travelrulepublic-api
-artifact_total: 93
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Paxos Webhooks
@@ -471,7 +471,7 @@ common:
   url: well-known/paxos-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paxos-mcp.yml
 - group: design
   title: ''
@@ -533,10 +533,6 @@ created: '2026-07-17'
 description: Paxos is a regulated blockchain and stablecoin infrastructure company that lets enterprises move any asset, any time, through a single API. The Paxos v2 REST/FIX/WebSocket platform covers stablecoin issuance and 1:1 conversion (USDG, PYUSD, USDP, PAXG), crypto brokerage and order-book trading, held-rate quotes, custody, fiat and crypto transfers, identity/KYC and account onboarding, orchestration workflows, rewards, tax forms, and Travel Rule compliance. Authentication is OAuth 2.0 client credentials, errors are RFC 9457 problem+json, and a full sandbox with test tooling is provided. Paxos issues PayPal USD (PYUSD) and the Global Dollar (USDG).
 image: https://framerusercontent.com/assets/vwdNglaGheOU0cQGcNuxFH2LUHQ.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paxos MCP Server
-  slug: paxos-mcp-server
 modified: '2026-07-20'
 name: Paxos
 nav: Providers
@@ -556,20 +552,20 @@ scopes:
   summary_line: 66 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.0
+  composite: 49.1
   coverage:
     artifact_dirs: 22
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 62.4
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 50.0
   previous_composite: 51.0
@@ -589,8 +585,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png
 security:

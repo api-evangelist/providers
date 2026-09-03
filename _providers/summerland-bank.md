@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Summerland Bank Banking Products API
   slug: summerland-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: data-model/summerland-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/summerland-bank-mcp.yml
 - group: other
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-20'
 description: 'Summerland Bank is a customer-owned (mutual) bank based in Lismore in the Northern Rivers region of New South Wales, Australia, tracing its origins to the former Summerland Credit Union (Summerland Financial Services Limited, ABN 21 087 650 360, AFSL and Australian Credit Licence 241167) and rebranded as Summerland Bank in 2023. As an APRA-regulated authorised deposit-taking institution (ADI) and certified B Corporation, it is owned by its customers rather than shareholders and has announced plans to merge with fellow customer-owned Regional Australia Bank. Under Australia''s Consumer Data Right (CDR / Open Banking), Summerland Bank operates as a data holder: it exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking under the ACCC/OAIC-governed CDR regime.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/summerland-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Summerland Bank MCP Server
-  slug: summerland-bank-mcp-server
 modified: '2026-07-21'
 name: Summerland Bank
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/screenshots/summerland-bank-2026-07-21T114749.png
 security:

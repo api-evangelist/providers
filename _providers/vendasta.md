@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 203
   human_in_the_loop: 2
@@ -478,7 +478,7 @@ apis:
   description: The WordpressService API from Vendasta — 3 operation(s) for wordpressservice.
   name: Vendasta Wordpress Service API
   slug: vendasta-wordpressservice-api
-artifact_total: 106
+artifact_total: 105
 asyncapis:
 - description: ''
   name: Vendasta Webhooks
@@ -546,7 +546,7 @@ common:
   url: packages/vendasta-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vendasta-mcp.yml
 - group: agent
   title: ''
@@ -693,10 +693,6 @@ description: 'Vendasta is an end-to-end commerce and operating platform that let
   Marketplace API V1 at developers.vendasta.com/api/v1 remains for vendor apps: accounts, users, customers, add-ons, activities, executive reports and file groups, plus eight JWT-signed Marketplace webhooks. Headquartered in Saskatoon, Canada, Vendasta was founded in 2008.'
 image: https://www.vendasta.com/wp-content/uploads/2021/03/vendasta-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vendasta MCP Server
-  slug: vendasta-mcp-server
 modified: '2026-08-13'
 name: Vendasta
 nav: Providers
@@ -751,8 +747,8 @@ score:
       total: 87
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/screenshots/vendasta-2026-08-17T080435.png
 security:

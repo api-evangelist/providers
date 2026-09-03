@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: Published price components for char.gy charging sessions.
   name: char.gy Tariffs API
   slug: chargy-tariffs-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: char.gy Open Charge Point Data API
@@ -69,7 +69,7 @@ common:
   url: overlays/chargy-open-charge-point-data-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chargy-mcp.yml
 - group: agent
   title: ''
@@ -196,10 +196,6 @@ examples:
   slug: chargy-tariffs-response
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chargy.png
 layout: provider
-mcp_servers:
-- description: char.gy operates NO Model Context Protocol server. mcp.char.gy does not resolve, https://char.gy/mcp returns 404, and a search of the public MCP registry (registry.modelcontextprotocol.io) for "char.g
-  name: char.gy MCP Server
-  slug: chargy-mcp-server
 modified: '2026-07-27'
 name: char.gy
 nav: Providers
@@ -244,8 +240,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 58.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.zillowgroup.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.zillow.com/news/ — a different registrable domain (zillowgroup.com -> zillow.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - description: RESTful JSON API returning Zillow property, rental and foreclosure Zestimates for approximately 100 million US properties. Zillow Group documents it on its own developer portal and routes the referenc
@@ -232,8 +233,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/screenshots/zillow-group-2026-06-20T201913.png
 security:

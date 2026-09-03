@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -1020,8 +1020,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:

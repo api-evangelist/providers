@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The FRVR games SDK — one JavaScript SDK (plus Unity, Cocos Creator, and Construct 3 wrappers) that integrates ads, IAP, analytics, auth, storage, social, leaderboards, tournaments, and notifications i
@@ -151,8 +151,8 @@ score:
   previous_composite: 27.7
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/screenshots/frvr-2026-07-25T215241.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.gitpod.io'', ''status'': 308, ''note'': ''declared website redirects to https://ona.com/ — a different registrable domain (gitpod.io -> ona.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 5
@@ -307,6 +308,10 @@ collections:
   name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.WorkflowService API
   slug: open-gitpod-gitpod-v1-workflowservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gitpod-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -443,7 +448,7 @@ overview: 'Gitpod publishes 31 APIs on the [APIs.io](https://apis.io/) network, 
   The Gitpod catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gitpod''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 16 more developer resources.'
+  Gitpod''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 17 more developer resources.'
 plans:
 - name: Gitpod Plans Pricing
   plan_count: 2
@@ -468,7 +473,7 @@ score:
   band: developing
   composite: 45.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -490,8 +495,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/screenshots/gitpod-2026-06-20T181852.png
 security:

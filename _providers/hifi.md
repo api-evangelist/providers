@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: Wallet endpoints
   name: Hifi Wallet API
   slug: hifi-wallet-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Hifi Webhooks
@@ -279,7 +279,7 @@ common:
   url: data-model/hifi-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hifi-mcp.yml
 - group: other
   title: ''
@@ -293,10 +293,6 @@ created: '2026-07-17'
 description: Hifi is a stablecoin and money-movement infrastructure company that provides composable financial APIs for moving, converting, routing, and settling value across bank rails and stablecoins. The platform covers fiat on-ramps and off-ramps, crypto transfers, token swaps, cross-chain bridging, virtual accounts, wallets and custody, KYC and compliance onboarding, settlement rules and orchestration addresses, transfer approvals, and reporting. Hifi is registered as a Money Services Business and partners with Cross River Bank for regulated banking, letting developers build global payouts, treasury automation, escrow flows, and multi-chain settlement programmatically over a single REST API secured with bearer API keys.
 image: https://www.hifi.com/seo/hifi-opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hifi MCP Server
-  slug: hifi-mcp-server
 modified: '2026-07-19'
 name: Hifi
 nav: Providers
@@ -344,8 +340,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/screenshots/hifi-2026-07-25T221141.png
 security:

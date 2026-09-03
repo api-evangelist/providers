@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ arazzos:
 - description: Freeze a workspace into a container version and publish it live.
   name: Google Tag Manager Version and Publish a Workspace
   slug: google-tag-manager-version-and-publish-workspace-workflow
-artifact_total: 181
+artifact_total: 180
 collections:
 - collection_type: postman
   name: Google Tag Manager API
@@ -178,7 +178,7 @@ common:
   url: well-known/google-tag-manager-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-tag-manager-mcp.yml
 - group: build
   title: ''
@@ -821,10 +821,6 @@ jsonld:
   property_count: 0
   slug: google-tag-manager-v2-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Google Tag Manager MCP Server
-  slug: google-tag-manager-mcp-server
 modified: '2026-08-13'
 name: Google Tag Manager
 nav: Providers
@@ -901,8 +897,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:

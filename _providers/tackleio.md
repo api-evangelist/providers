@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - baseURL: https://api.tackle.io
@@ -273,6 +273,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/tackleio-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/tackleio-contracts-overlay.yaml
 - group: start
@@ -405,7 +409,7 @@ overview: 'Tackle.io publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   The Tackle.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 22 more developer resources.'
+  Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 23 more developer resources.'
 random_paper: 4
 scopes:
 - name: Tackleio Scopes
@@ -416,7 +420,7 @@ score:
   band: developing
   composite: 47.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -440,8 +444,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png
 security:

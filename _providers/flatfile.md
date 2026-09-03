@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -432,8 +432,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/screenshots/flatfile-2026-06-20T181305.png
 security:

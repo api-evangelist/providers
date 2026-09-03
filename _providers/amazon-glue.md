@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 202
   human_in_the_loop: 9
@@ -6734,8 +6734,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 202
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/screenshots/amazon-glue-2026-06-20T171658.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Historical REST API that exposed job listings, employer reviews, salary reports, and company metadata to approved partners. Required a partner ID and partner key as query parameters. The program stopp
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassdoor/refs/heads/main/screenshots/glassdoor-2026-06-20T181902.png
 security:

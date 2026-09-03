@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Silverfin''s public v4 REST API and SyncAPI for accountancy automation: companies, periods, accounts, reconciliations, reports, adjustments, budgets, workflows, users, permanent documents, exports, and'
   name: Silverfin API v4
   slug: silverfin-api-v4
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Silverfin Webhooks
@@ -103,7 +103,7 @@ common:
   url: asyncapi/silverfin-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/silverfin-mcp.yml
 - group: build
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Silverfin is a cloud connected-accounting platform for accountancy firms and finance teams that standardises and automates the financial close. It pulls ledger data from bookkeeping systems, runs working papers, reconciliations and analytical review through a Liquid-based templating language, and produces reports, PDF exports and compliance filings. Founded in Ghent, Belgium and now part of Visma, Silverfin exposes a v4 REST API plus a dedicated SyncAPI that let third-party bookkeeping software and integrators submit transactions, manage companies, periods and accounts, drive workflows, generate exports, and subscribe to webhooks — all over OAuth 2.0.
 image: https://github.com/silverfin.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Silverfin MCP Server
-  slug: silverfin-mcp-server
 modified: '2026-07-21'
 name: Silverfin
 nav: Providers
@@ -193,8 +189,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverfin/refs/heads/main/screenshots/silverfin-2026-09-02T155512.png
 security:

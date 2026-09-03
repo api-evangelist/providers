@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Versioned XML-over-HTTPS API for third-party sellers on Sears Marketplace (Sears.com, Kmart.com, ShopYourWay.com). GET calls export purchase orders, inventory, item classes, attributes, cancellation r
@@ -236,8 +236,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

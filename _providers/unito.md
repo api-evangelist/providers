@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Workspaces API from Unito — 2 operation(s) for workspaces.
   name: Unito Workspaces API
   slug: unito-workspaces-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Unito Connector Webhooks
@@ -171,7 +171,7 @@ common:
   url: well-known/unito-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unito-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Unito is a two-way sync and integration platform that keeps work items in sync across 60+ SaaS tools such as Asana, Jira, Trello, GitHub, Azure DevOps, ServiceNow, Salesforce, and Smartsheet, with no-code field mappings and rules. For developers Unito offers a Connector Developer Platform (TypeScript SDK + CLI for building two-way sync connectors), an embeddable Sync Embed iframe, and the Unito Embed API - a REST API for embedding partners to manage workspaces and pull flow and workspace usage reports. Unito is SOC 2 Type 2 certified and based in Montreal, Canada.
 image: https://avatars.githubusercontent.com/u/13460182
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unito MCP Server
-  slug: unito-mcp-server
 modified: '2026-07-21'
 name: Unito
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/screenshots/unito-2026-08-17T082614.png
 security:

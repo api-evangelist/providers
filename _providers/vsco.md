@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://workspace.vsco.co/api/v2
@@ -206,7 +206,7 @@ apis:
   description: The Users API from VSCO — 2 operation(s) for users.
   name: VSCO Users API
   slug: vsco-users-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Vsco Workspace Webhooks
@@ -372,7 +372,7 @@ common:
   url: asyncapi/vsco-workspace-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vsco-mcp.yml
 - group: agent
   title: ''
@@ -410,10 +410,6 @@ created: '2026-07-17'
 description: VSCO is a photography company whose mobile apps and community give photographers editing tools, presets, and a place to share their work. Its business product, VSCO Workspace (the former Tave studio-management platform), ships a public REST API — the VSCO Workspace API v2 — that exposes a studio's contacts, jobs, orders, quotes, payments, events, galleries, files, and REST Hook webhook subscriptions behind API-key authentication, with a published OpenAPI 3.0 definition and Redoc reference.
 image: https://avatars.githubusercontent.com/vsco
 layout: provider
-mcp_servers:
-- description: ''
-  name: VSCO MCP Server
-  slug: vsco-mcp-server
 modified: '2026-07-21'
 name: VSCO
 nav: Providers
@@ -454,8 +450,8 @@ score:
       total: 34
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/screenshots/vsco-2026-09-02T170317.png
 security:

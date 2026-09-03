@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -290,13 +290,13 @@ rules:
   slug: radio-browser-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 46.8
   coverage:
     artifact_dirs: 13
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -306,9 +306,6 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -323,8 +320,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

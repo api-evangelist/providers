@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -214,7 +214,7 @@ apis:
   description: Configure event webhooks for email delivery events
   name: Route Mobile Webhooks API
   slug: route-mobile-webhooks-api
-artifact_total: 45
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Route Mobile Webhooks
@@ -294,7 +294,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/route-mobile-mcp.yml
 - group: start
   title: ''
@@ -394,10 +394,6 @@ description: 'Route Mobile Limited is a Mumbai-headquartered cloud communication
   in the request body for email.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Route Mobile MCP Server
-  slug: route-mobile-mcp-server
 modified: '2026-07-25'
 name: Route Mobile
 nav: Providers
@@ -415,14 +411,14 @@ rate_limits:
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
 score:
-  band: developing
-  composite: 50.3
+  band: strong
+  composite: 55.5
   coverage:
     artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.2
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -432,9 +428,6 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -456,9 +449,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/screenshots/route-mobile-2026-08-17T081637.png
 security:
 - kind: authentication

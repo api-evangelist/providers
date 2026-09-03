@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ apis:
   description: The Tracks API from Agile CRM — 2 operation(s) for tracks.
   name: Agile CRM Tracks API
   slug: agile-crm-tracks-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Agile Crm Webhooks
@@ -185,7 +185,7 @@ common:
   url: packages/agile-crm-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/agile-crm-mcp.yml
 - group: agent
   title: ''
@@ -271,10 +271,6 @@ created: '2026-05-11'
 description: Agile CRM is an all-in-one customer relationship management platform aimed at small and mid-sized businesses, unifying contact management, sales pipeline tracking, marketing automation, helpdesk ticketing, and telephony in a single application. The platform offers visual workflow builders, email campaigns, landing pages, and web-to-lead forms with built-in reporting. The Agile CRM REST API exposes contacts, deals, campaigns, tasks, and tickets using HTTP Basic authentication with an email and API key.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agile-crm.png
 layout: provider
-mcp_servers:
-- description: 'CANDIDATE ONLY — Agile CRM does not ship an MCP server. The tools below are DERIVED from the provider''s own documented REST operations as a design sketch of what an Agile CRM MCP server would expose; '
-  name: Agile CRM MCP Server
-  slug: agile-crm-mcp-server
 modified: '2026-08-13'
 name: Agile CRM
 nav: Providers
@@ -324,8 +320,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/screenshots/agile-crm-2026-06-20T170154.png
 security:

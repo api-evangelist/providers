@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: Chat completion API for conversational AI using Mistral's language models, with function calling, streaming, and JSON / structured output.
@@ -225,8 +225,8 @@ score:
   previous_composite: 33.5
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistralai/refs/heads/main/screenshots/mistralai-2026-08-07T183801.png
 security:

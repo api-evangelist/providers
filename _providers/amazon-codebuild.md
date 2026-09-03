@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -278,7 +278,7 @@ apis:
   description: 'The #X Amz Target=CodeBuild 20161006.UpdateWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updatewebhook.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.UpdateWebhook API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
-artifact_total: 778
+artifact_total: 777
 collections:
 - collection_type: open
   name: API Collection
@@ -539,7 +539,7 @@ common:
   url: well-known/amazon-codebuild-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codebuild-mcp.yml
 - group: agent
   title: ''
@@ -2554,10 +2554,6 @@ jsonld:
   property_count: 29
   slug: amazon-codebuild-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeBuild MCP Server
-  slug: amazon-codebuild-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeBuild
 nav: Providers
@@ -2620,8 +2616,8 @@ score:
       marker_coverage: 0.0
       total: 47
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:

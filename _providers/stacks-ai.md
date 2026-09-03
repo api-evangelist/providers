@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Run Flow API from Stacks Ai — 1 operation(s) for run flow.
   name: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -95,7 +95,7 @@ common:
   url: skills/stacks-ai-build-knowledge-base.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stacks-ai-mcp.yml
 - group: other
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: StackAI (Stack AI, Inc.) is an enterprise AI agent platform that lets teams build, deploy, and govern no-code agentic workflows at scale. Its visual Workflow Builder chains LLMs, knowledge bases, connections, and logic nodes into production agents that can be deployed as a REST API, chat assistant, form, or batch job. The public StackAI API runs deployed flows, manages Knowledge Bases and their file resources (upload, index, sync, cursor-paginated listing), and reads flow-run analytics. The platform targets regulated industries with SOC 2 Type II and ISO 27001 certifications, RBAC/SCIM governance, and multi-tenant, VPC, and on-premise deployment options. Backed by Lightspeed Venture Partners.
 image: https://www.stackai.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stacks Ai MCP Server
-  slug: stacks-ai-mcp-server
 modified: '2026-07-21'
 name: Stacks Ai
 nav: Providers
@@ -220,8 +216,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/screenshots/stacks-ai-2026-08-17T082059.png
 security:

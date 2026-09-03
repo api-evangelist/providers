@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Dredd is a language-agnostic command-line tool for validating an API description document against a backend implementation. It supports API Blueprint, OpenAPI 2.0, and OpenAPI 3.0, and provides hooks '
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 13.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/screenshots/dredd-2026-06-20T180221.png
 security:

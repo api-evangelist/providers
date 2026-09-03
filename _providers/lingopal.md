@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Create storage uploads and register jobs for later use.
   name: Lingopal Upload API
   slug: lingopal-upload-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: overlays/lingopal-v2-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lingopal-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Lingopal is an AI translation company building a real-time language layer for live and on-demand video. Its platform delivers sub-10-second AI dubbing and captioning for livestreams across 100+ languages, preserving speaker characteristics through voice cloning, and targets sports and news broadcasters, streaming and FAST channel operators, live events, faith organizations, and contact centers. Lingopal also publishes a public v2 REST API for uploading media and documents, starting translation and dubbing workflows, generating subtitle tracks, translating text synchronously, and downloading generated transcripts and subtitles. The API is documented at docs.lingopal.ai with a machine-readable OpenAPI 3.1 specification, is authenticated with an X-API-Key header, and exposes 112 locales with per-locale text, dubbing, and voice-cloning capability flags.
 image: https://lingopal.ai/header_image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lingopal MCP Server
-  slug: lingopal-mcp-server
 modified: '2026-07-19'
 name: Lingopal
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

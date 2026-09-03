@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Etleap's external REST API for creating and managing connections, pipelines, models, dbt schedules, teams, and users. Uses HTTP Basic authentication.
   name: Etleap API v2
   slug: etleap-api-v2
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -95,7 +95,7 @@ common:
   url: packages/etleap-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/etleap-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: 'Etleap is a managed ETL and data-integration platform that streamlines data ingestion, transformation, and observability so data teams can build cloud data warehouses and lakes with minimal engineering effort. Originally built as an "autopilot" for Amazon Redshift, S3, and AWS Glue, Etleap now centers on Apache Iceberg as a data foundation: it continuously ingests operational data from 50+ databases, SaaS applications, event streams, and files; shapes it with visual data wrangling and dbt Core in a single pipeline; and keeps destination tables healthy with automated maintenance. Destinations include Amazon Redshift, Snowflake, Databricks, Amazon S3, and Iceberg. Etleap exposes a REST API v2 for creating and managing connections, pipelines, models, teams, and users, and ships an official Terraform provider generated from that API.'
 image: https://framerusercontent.com/images/4uqulfTuAM7iY7udMPgBO6bEqME.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Etleap MCP Server
-  slug: etleap-mcp-server
 modified: '2026-07-19'
 name: Etleap
 nav: Providers
@@ -164,8 +160,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etleap/refs/heads/main/screenshots/etleap-2026-07-25T213654.png
 security:

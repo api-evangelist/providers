@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.getcensus.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.fivetran.com/ — a different registrable domain (getcensus.com -> fivetran.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -88,7 +89,28 @@ apis:
   description: Organization-level workspace management
   name: Census Workspaces API
   slug: census-workspaces-api
-artifact_total: 27
+- description: The Connectors API from Census — 2 operation(s) for connectors.
+  name: Census Connectors API
+  slug: census-ci-connectors-api
+- description: The Datasets and Models API from Census — 3 operation(s) for datasets and models.
+  name: Census Datasets and Models API
+  slug: census-ci-datasets-and-models-api
+- description: The Destinations API from Census — 3 operation(s) for destinations.
+  name: Census Destinations API
+  slug: census-ci-destinations-api
+- description: The Segments API from Census — 2 operation(s) for segments.
+  name: Census Segments API
+  slug: census-ci-segments-api
+- description: The Sources API from Census — 3 operation(s) for sources.
+  name: Census Sources API
+  slug: census-ci-sources-api
+- description: The Sync Runs API from Census — 3 operation(s) for sync runs.
+  name: Census Sync Runs API
+  slug: census-ci-sync-runs-api
+- description: The Syncs API from Census — 3 operation(s) for syncs.
+  name: Census Syncs API
+  slug: census-ci-syncs-api
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -174,6 +196,10 @@ common:
   title: ''
   type: Signup
   url: https://www.getcensus.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.getcensus.com
 created: '2026-03-27'
 description: Census is a reverse ETL and data activation platform that syncs data from cloud data warehouses (Snowflake, BigQuery, Databricks, Redshift) into operational SaaS applications. Census was acquired by Fivetran and is now branded as Fivetran Activations, offering a REST API for managing workspaces, datasets, syncs, destinations, and custom destinations, plus embedded Activations (Connect Links) for Powered by Fivetran use cases.
 finops:
@@ -190,10 +216,10 @@ modified: '2026-08-08'
 name: Census
 nav: Providers
 network: true
-overview: 'Census publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Destinations API, Models API, Segments API, and 4 more. Tagged areas include Connectors, Data Activation, Data Warehouse, Destinations, and Fivetran Activations.
+overview: 'Census publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Destinations API, Models API, Segments API, and 11 more. Tagged areas include Connectors, Data Activation, Data Warehouse, Destinations, and Fivetran Activations.
 
 
-  Census'' developer surface includes authentication, documentation, getting-started guide, GitHub presence, signup flow, and 9 more developer resources.'
+  Census'' developer surface includes authentication, documentation, getting-started guide, GitHub presence, signup flow, and 10 more developer resources.'
 plans:
 - name: Census Plans Pricing
   plan_count: 3
@@ -205,19 +231,19 @@ rate_limits:
   slug: census-rate-limits
 score:
   band: thin
-  composite: 26.5
+  composite: 27.5
   coverage:
     artifact_dirs: 10
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 23.2
-    developer_ergonomics: 28.6
+    developer_ergonomics: 33.3
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
@@ -229,8 +255,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174117.png
 security:

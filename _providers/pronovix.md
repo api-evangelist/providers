@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Developer portals with multiple api gateways. No vendor lock-in. Enjoy the freedom of an open source developer portal that can connect to many API gateways.
@@ -94,8 +94,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pronovix/refs/heads/main/screenshots/pronovix-2026-06-20T192203.png
 security:

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://precisionlender.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.q2.com/products/relationship-pricing-and-profitability — a different registrable domain (precisionlender.com -> q2.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -114,8 +115,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisionlender/refs/heads/main/screenshots/precisionlender-2026-09-02T151910.png
 security:

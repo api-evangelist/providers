@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Bank First Banking Products API
   slug: bank-first-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +195,7 @@ common:
   url: data-model/bank-first-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-first-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-20'
 description: Bank First is an Australian customer-owned mutual bank headquartered in Hawthorn East, Victoria. Founded in 1972 as VTU Credit Union by members of the Victorian Teachers Union and rebranded from Victoria Teachers Mutual Bank in December 2017, it is owned by its 90,000-plus members rather than external shareholders and serves the education and healthcare communities with savings, loans, and insurance. As an Authorised Deposit-taking Institution, Bank First is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data API built to the Data Standards Body Consumer Data Standards, alongside an accreditation-gated consumer data sharing surface for Accredited Data Recipients.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-first.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank First MCP Server
-  slug: bank-first-mcp-server
 modified: '2026-07-21'
 name: Bank First
 nav: Providers
@@ -270,8 +266,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png
 security:

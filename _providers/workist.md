@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Rfq API from Workist — 5 operation(s) for rfq.
   name: Workist Rfq API
   slug: workist-rfq-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: well-known/workist-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/workist-mcp.yml
 - group: other
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Workist is a Berlin-based AI document-automation company whose WorKI system automates B2B order entry and inquiry handling — extracting data from emails and PDFs, validating it against ERP master data, and writing structured transactions back into 20+ ERP systems such as SAP S/4HANA, Microsoft Dynamics 365, Oracle NetSuite, and Sage. The Workist Integrations & Developer API is a bearer-token REST API for uploading documents (orders, invoices, delivery notes, order confirmations, RFQs, property bills, lists of services), retrieving processed results, and importing ERP master data in batches.
 image: https://docs.workist.com/img/workist_icon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Workist MCP Server
-  slug: workist-mcp-server
 modified: '2026-07-21'
 name: Workist
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/screenshots/workist-2026-08-17T082941.png
 security:

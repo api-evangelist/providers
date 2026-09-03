@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Equitable Bank / EQ Bank exposes no public first-party developer API. Under explicit customer consent, EQ Bank customers can share their financial data with third-party fintech applications through th
@@ -116,8 +116,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equitable-bank/refs/heads/main/screenshots/equitable-bank-2026-07-25T213552.png
 security:

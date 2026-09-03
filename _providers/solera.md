@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ apis:
   description: The Version API from Solera — 2 operation(s) for version.
   name: Solera Version API
   slug: solera-version-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: 'Audatex Integrations (EAPI) pushes claim lifecycle events to a CLIENT-hosted HTTPS endpoint. The client registers its callback endpoints and the credentials Audatex should use, per assignment, in the '
   name: Solera / Audatex EAPI Event Callbacks
@@ -290,7 +290,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/solera-mcp.yml
 - group: agent
   title: ''
@@ -346,10 +346,6 @@ description: Solera is a Westlake, Texas headquartered vehicle lifecycle managem
   data mapping baseline for estimate return, which is the auto physical damage sector's analogue to ACORD rather than ACORD itself.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: No MCP server is published by Solera. This is a candidate tool list derived from the 26 harvested OpenAPI operations; any real deployment would be an in-tenant server, since credentials are provisione
-  name: Candidate MCP tool surface
-  slug: candidate-mcp-tool-surface
 modified: '2026-07-25'
 name: Solera
 nav: Providers
@@ -402,8 +398,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/screenshots/solera-2026-08-17T081956.png
 security:

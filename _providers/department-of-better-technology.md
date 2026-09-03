@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://screendoor.dobt.co/api
@@ -76,7 +76,7 @@ apis:
   description: Manage the status workflow stages for a project's responses.
   name: Department of Better Technology Statuses API
   slug: department-of-better-technology-statuses-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -176,7 +176,7 @@ common:
   url: packages/department-of-better-technology-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/department-of-better-technology-mcp.yml
 - group: agent
   title: ''
@@ -202,10 +202,6 @@ created: '2026-07-17'
 description: The Department of Better Technology (DOBT), founded in 2013 by former Presidential Innovation Fellows and later acquired by CityBase, builds Screendoor — a form-building and submission- management platform used by government agencies and organizations such as ProPublica, the Los Angeles Times, the Consumer Financial Protection Bureau, and the Ford Foundation to run paperless intake, evaluation, and approval workflows. The Screendoor REST API programmatically manages sites, projects, forms and form fields, workflow statuses, labels, responses (submissions), response labels, and reviewer assignments, using API-key authentication, offset pagination with RFC 5988 Link headers, and an explicit API version.
 image: https://raw.githubusercontent.com/dobtco/screendoor-api-docs/master/source/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Department of Better Technology MCP Server
-  slug: department-of-better-technology-mcp-server
 modified: '2026-07-18'
 name: Department of Better Technology
 nav: Providers
@@ -249,8 +245,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:

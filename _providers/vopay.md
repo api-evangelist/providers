@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -350,7 +350,7 @@ apis:
   description: The Zelle Endpoints API from VoPay — 6 operation(s) for zelle endpoints.
   name: VoPay Zelle Endpoints API
   slug: vopay-zelle-endpoints-api
-artifact_total: 90
+artifact_total: 89
 asyncapis:
 - description: VoPay webhook (event notification) surface. VoPay delivers 24 event types via HTTP POST to the URL configured with account/webhook-url or partner/webhook-url. Every payload carries a ValidationKey = s
   name: VoPay Webhooks
@@ -560,7 +560,7 @@ common:
   url: llms/vopay-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vopay-mcp.yml
 - group: build
   title: ''
@@ -594,10 +594,6 @@ created: '2026-07-24'
 description: VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: VoPay MCP Server
-  slug: vopay-mcp-server
 modified: '2026-07-24'
 name: VoPay
 nav: Providers
@@ -618,7 +614,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -628,7 +624,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 50.2
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -645,8 +641,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/screenshots/vopay-2026-08-17T082823.png
 security:

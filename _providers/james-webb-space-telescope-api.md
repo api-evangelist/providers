@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic access to JWST images and observations sourced from the MAST archive. Filter and query by program, observation type, and other attributes. Requires an API key obtained via signup at jwsta
@@ -94,8 +94,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 17.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/james-webb-space-telescope-api/refs/heads/main/screenshots/james-webb-space-telescope-api-2026-06-20T183655.png
 security:

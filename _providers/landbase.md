@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
@@ -204,8 +204,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/screenshots/landbase-2026-09-02T150332.png
 security:

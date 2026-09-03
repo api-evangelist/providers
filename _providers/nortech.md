@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The historicalData API from Nortech — 0 operation(s) for historicaldata.
   name: Nortech Historical Data API
   slug: nortech-historicaldata-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: Real-time signal data streamed over MQTT-over-TLS. Subscribe to per-signal topics after creating a Data Connection through the HTTP API.
   name: Nortech Live Data (MQTT)
@@ -220,7 +220,7 @@ common:
   url: security/nortech-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nortech-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ created: '2026-07-17'
 description: Nortech AI is an industrial IoT and operational-data infrastructure company (Bergen, Norway and Lisbon, Portugal) serving the maritime market and other asset-heavy industries. Its edge-plus-cloud platform extracts high-frequency data directly from industrial machinery, equipment and control systems — across vendors, protocols and equipment age — and structures it into trustworthy, contextualized signals for data-driven decision-making. The Nortech Cloud API exposes a Metadata API (workspaces, assets, divisions, units, signals), a Signal Data API (historical, live and import) and a Deriver API for computed virtual signals, plus an MQTT live-data stream.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nortech.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nortech MCP Server
-  slug: nortech-mcp-server
 modified: '2026-07-20'
 name: Nortech
 nav: Providers
@@ -315,8 +311,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png
 security:

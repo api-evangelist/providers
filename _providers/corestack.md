@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
@@ -662,7 +662,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -672,7 +672,7 @@ score:
     discoverability: 61.1
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 57.6
+  previous_composite: 56.7
   provenance:
     conformance: derived
     contracts:
@@ -688,8 +688,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/screenshots/corestack-2026-08-17T080832.png
 security:

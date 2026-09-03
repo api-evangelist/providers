@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 14
 apis:
 - baseURL: https://demo.buk.cl/api/v1/chile
@@ -368,7 +368,7 @@ apis:
   description: The Workflows API from Buk — 1 operation(s) for workflows.
   name: Buk Workflows API
   slug: buk-workflows-api
-artifact_total: 138
+artifact_total: 137
 asyncapis:
 - description: ''
   name: Buk Webhooks
@@ -694,7 +694,7 @@ common:
   url: well-known/buk-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/buk-mcp.yml
 - group: build
   title: ''
@@ -777,10 +777,6 @@ description: 'Buk (Buk SpA, Santiago, Chile) is a Latin American HR and payroll 
   catalog. Two further contracts for Buk Asistencia (attendance) and its vendor-agnostic biometric clocking ingestion endpoint are published publicly on SwaggerHub under the BUKASISTENCIA account. What is missing is the developer-program scaffolding around those contracts: there is no developer portal, no first-party SDK, no CLI, no Postman workspace, no status page, no sandbox, no /.well-known/ surface, no MCP server, no operationId on any of 206 operations, and no documented rate limit or 429 response. The contract is public; the program around it is not built yet.'
 image: https://www.buk.cl/hubfs/logo-buk.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the contracts (Buk publishes no MCP server)
-  slug: candidate-mcp-tool-surface-derived-from-the-contracts-buk-publishes-no-mcp-server
 modified: '2026-08-08'
 name: Buk
 nav: Providers
@@ -821,8 +817,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/screenshots/buk-2026-08-17T080728.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ arazzos:
 - description: Go from ATCO Electric's whole Alberta distribution grid to a small, mapped shortlist of the feeder segments with the most DER hosting capacity, without ever pulling all 880,623 features.
   name: ATCO Electric DER siting shortlist
   slug: atco-der-siting-shortlist
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: llms/atco-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/atco-mcp.yml
 - group: build
   title: ''
@@ -182,10 +182,6 @@ description: 'ATCO Ltd. (TSX: ACO.X) is a Calgary, Alberta diversified global co
   CDR energy data holder register — so there is no consumer data API, and a customer''s usage and billing data lives only behind the My Account login on a Salesforce commerce portal. What ATCO does publish, unmandated and without any signup at all, is real open grid data: ATCO Electric''s DER hosting capacity map is served from a public, anonymously queryable Esri ArcGIS REST feature service carrying 880,623 feeder segment features, linked directly from ATCO Electric''s own micro-generation and grid-connection pages. Open grid data, closed consumer data, no developer portal, and no OpenAPI anywhere on the estate.'
 image: https://www.atco.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool set (derived — ATCO publishes no MCP server)
-  slug: candidate-mcp-tool-set-derived-atco-publishes-no-mcp-server
 modified: '2026-07-27'
 name: ATCO
 nav: Providers
@@ -230,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png
 security:

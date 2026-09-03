@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://linkablenetworks.com/'', ''status'': 308, ''note'': ''declared website redirects to https://www.absolute-sway.com/ — a different registrable domain (linkablenetworks.com -> absolute-sway.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful consumer API for building applications on top of the Linkable card-linked-offer platform. Per the provider developer page it exposes consumer registration, view and opt-out (consumerapi/consum
   name: MyLinkables Consumer API
   slug: mylinkables-consumer-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -107,7 +108,7 @@ common:
   url: lifecycle/linkable-networks-collinson-group-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/linkable-networks-collinson-group-mcp.yml
 - group: agent
   title: ''
@@ -122,10 +123,6 @@ description: Linkable Networks, Inc. is a Boston-based card-linked-offers (CLO) 
   offers, link them to a cardholder, register consumers, manage linked payment accounts and track redemption. Linkable Networks is associated with the Collinson Group, the privately-owned global travel, loyalty and insurance operator behind Priority Pass, and was surfaced through the Bain Capital Ventures portfolio.
 image: https://linkablenetworks.com/wp-content/themes/linkablenetworks/library/images/svg/logo-mark.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Linkable Networks (Collinson Group) MCP Server
-  slug: linkable-networks-collinson-group-mcp-server
 modified: '2026-07-19'
 name: Linkable Networks (Collinson Group)
 nav: Providers
@@ -163,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/screenshots/linkable-networks-collinson-group-2026-07-25T225253.png
 security:

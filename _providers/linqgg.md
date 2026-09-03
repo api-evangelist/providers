@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
   name: LinQ Wallet Public API
   slug: linq-wallet-public-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/linqgg-mcp.yml
 - group: auth
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: LinQ is the wallet, payments and loyalty platform operated by Galactica Games, Inc. (dba Toffee) for game developers building loyalty programs, real-money gaming (RMG) and branded debit-card experiences. Games integrate a LinQ Wallet account for each player, then deposit, withdraw, transfer and reconcile funds against internal game currencies. The LinQ Wallet Public API is a gRPC / Protocol Buffers surface published on the Buf Schema Registry as buf.build/linq/linq, organised into Geo (IP and coordinate restriction checks), Auth (anonymous game sign-in and wallet-linked user sign-in), Money (accounts, balances, replenishment orders, transfers, Brazil Pix, operations history) and Sandbox (integration-test helpers) modules. Client libraries are generated from the registry for TypeScript, JavaScript and other targets, and a first-party Unity SDK handles PCI-compliant native card and Apple Pay checkout on device.
 image: https://framerusercontent.com/images/IDaPLV2CTzzUnLl1BCRzzHVprF4.png
 layout: provider
-mcp_servers:
-- description: 'LinQ publishes no hosted or remote MCP server. Searched the developer docs, the linqgg GitHub organization (3 repos: docs, .github, unity-sdk), npm and the Buf Schema Registry module — no MCP manifest'
-  name: Linq.gg MCP Server
-  slug: linqgg-mcp-server
 modified: '2026-07-19'
 name: Linq.gg
 nav: Providers
@@ -203,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/screenshots/linqgg-2026-07-25T225259.png
 security:

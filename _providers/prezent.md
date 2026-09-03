@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: verified
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.3
-  scored_at: '2026-09-02'
+  score: 56.5
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -357,8 +357,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/screenshots/prezent-2026-08-17T081335.png
 security:

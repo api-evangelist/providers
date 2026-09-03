@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-09-02'
+  score: 43.0
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api2.hiverhq.com/v1
@@ -231,8 +231,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiver/refs/heads/main/screenshots/hiver-2026-09-02T145747.png
 security:

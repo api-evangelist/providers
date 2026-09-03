@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Manage recurring study schedules
   name: Viewpoints AI Study Schedules API
   slug: viewpoints-ai-study-schedules-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -131,7 +131,7 @@ common:
   url: data-model/viewpoints-ai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/viewpoints-ai-mcp.yml
 - group: other
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Viewpoints AI (viewpoints.ai) is a Stanford-founded research platform that runs AI jury simulations for litigation teams and AI audience panels for market researchers. Companies upload case materials or creative/marketing stimuli and a representative panel of simulated personas reads them, deliberates, and returns verdict or response distributions, the themes driving them, and per-participant reasoning — same-day, with a claimed 88% match to real studies (Stanford-validated). The Viewpoints Study API lets developers programmatically create studies, upload stimuli, poll asynchronous creation jobs, retrieve full participant results, and schedule recurring runs. SOC 2 Type II. Backed by Forerunner Ventures.
 image: https://viewpoints.ai/og-image-2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Viewpoints AI MCP Server
-  slug: viewpoints-ai-mcp-server
 modified: '2026-07-21'
 name: Viewpoints AI
 nav: Providers
@@ -199,8 +195,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/screenshots/viewpoints-ai-2026-09-02T165900.png
 security:

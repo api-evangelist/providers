@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: AMP Bank Banking Products API
   slug: amp-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: data-model/amp-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amp-bank-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-20'
 description: AMP Bank Limited is the retail and business banking arm of AMP Limited (ASX:AMP), a diversified Australian financial services group operating since 1849 and headquartered in Sydney. AMP Bank is a publicly listed (shareholder-owned, not a mutual) authorised deposit-taking institution (ADI) regulated by APRA, offering home loans, deposit and savings accounts, and the digital AMP Bank GO small-business and everyday banking brand. As an active ADI, AMP participates in Australia's Consumer Data Right (CDR / Open Banking) regime and exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the DSB Consumer Data Standards, alongside the accredited, FAPI-secured consumer data sharing surface used by authorised data recipients.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amp-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AMP Bank MCP Server
-  slug: amp-bank-mcp-server
 modified: '2026-07-21'
 name: AMP Bank
 nav: Providers
@@ -258,8 +254,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:

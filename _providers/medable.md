@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
   name: Medable Cortex API
   slug: medable-cortex-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -127,7 +127,7 @@ common:
   url: cli/medable-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/medable-mcp.yml
 - group: design
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: Medable operates a clinical trial technology platform for decentralized and hybrid trials, combining eCOA/ePRO data capture, electronic consent, televisit, and a suite of agentic-AI products (Agent Studio, CRA Agent, PI Summary Review, Digital Data Flow agent) for life-sciences sponsors and CROs. Its developer surface is the Cortex API — a schema-driven object platform (custom objects and properties, querying, aggregation, and server-side scripting) addressed over REST at api.<env>.medable.com/<org_code>/v2/, with session-based and request-signature authentication, an mdctl developer CLI, and an iOS/Swift SDK. Backed by Obvious Ventures and Sapphire Ventures.
 image: https://cdn.prod.website-files.com/63da4ae4359b4b2bffd2a3b6/64677a1c8fad4c624f57af3c_medable-open-graph-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Medable MCP Server
-  slug: medable-mcp-server
 modified: '2026-08-15'
 name: Medable
 nav: Providers
@@ -222,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/screenshots/medable-2026-08-07T172312.png
 security:

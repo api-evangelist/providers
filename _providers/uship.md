@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -206,8 +206,8 @@ score:
   previous_composite: 36.7
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/screenshots/uship-2026-08-17T082657.png
 security:

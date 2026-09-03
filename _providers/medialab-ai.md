@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -47,7 +47,7 @@ apis:
   description: 'The Imgur API (version 3) exposes the Imgur image-sharing and community platform over a RESTful HTTPS interface: image upload and retrieval, albums, the public gallery and its tags, comments, and acco'
   name: Imgur API
   slug: imgur-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: postman
   name: Imgur API
@@ -55,7 +55,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/medialab-ai-mcp.yml
 - group: auth
   title: ''
@@ -210,10 +210,6 @@ description: MediaLab.AI Inc. is a Santa Monica, California holding company for 
   documented as a public Postman collection.
 image: https://cdn.prod.website-files.com/6434b7d63112666081bedeb0/643591619f8e24bf570e827e_medialab-webclip.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: MediaLab.AI MCP Server
-  slug: medialabai-mcp-server
 modified: '2026-08-01'
 name: MediaLab.AI
 nav: Providers
@@ -255,8 +251,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://developer.thetalake.ai/api/v1
@@ -41,7 +41,7 @@ apis:
   description: 'The Theta Lake API (v1) provides programmatic access to the DCGA platform: ingest AI, audio, chat, document, email, and video content; manage records, comments, labels, and dispositions; run unified s'
   name: Theta Lake API
   slug: theta-lake-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -129,7 +129,7 @@ common:
   url: data-model/theta-lake-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/theta-lake-mcp.yml
 - group: agent
   title: ''
@@ -143,10 +143,6 @@ created: '2026-07-17'
 description: Theta Lake is a cloud- and AI-native Digital Communications Governance and Archiving (DCGA) platform for compliance and security across unified communications. It captures, archives, supervises, and monitors electronic (eComms), audio (aComms), video (vComms), and AI (aiComms) interactions across 100+ certified integrations including Zoom, Microsoft Teams, Webex, RingCentral, Slack, Microsoft Copilot, and Anthropic. The Theta Lake API (v1) exposes data ingestion, records, unified search, supervision spaces, legal hold and legal matters, retention libraries, workflows, identities, exports, and audit logs, secured with OAuth2 client-credentials and JWT bearer tokens carrying fine-grained permission scopes.
 image: https://thetalake.com/wp-content/uploads/2018/05/TL_logo_transparent.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Theta Lake MCP Server
-  slug: theta-lake-mcp-server
 modified: '2026-07-21'
 name: Theta Lake
 nav: Providers
@@ -189,8 +185,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/screenshots/theta-lake-2026-09-02T163516.png
 security:

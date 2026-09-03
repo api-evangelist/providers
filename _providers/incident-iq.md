@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API for the Incident IQ K-12 ITSM and asset management platform. Resources include tickets, assets, users, locations, views, and categories. Requests require SiteId, Authorization (bearer toke
@@ -174,8 +174,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-iq/refs/heads/main/screenshots/incident-iq-2026-07-25T222224.png
 security:

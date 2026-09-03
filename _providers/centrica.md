@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.dev.fieldops.centrica.com/api/v1/identity
@@ -45,7 +45,7 @@ apis:
   description: The Oauth2 API from Centrica — 1 operation(s) for oauth2.
   name: Centrica Oauth2 API
   slug: centrica-oauth2-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: Identity API
@@ -57,7 +57,7 @@ common:
   url: overlays/centrica-fieldops-identity-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/centrica-mcp.yml
 - group: auth
   title: ''
@@ -176,10 +176,6 @@ description: 'Centrica plc is the FTSE-listed British energy and services group 
   data access requirement that does bind it is discharged by a written request answered within ten working days, not by an API. Household consumers reach their own data only through the British Gas app and account login; business customers through the Energy360 DataView portal. The single publicly reachable developer surface found is the Centrica FieldOps Azure API Management developer portal — a partner field-operations platform in its development environment — and Centrica publishes no open grid or market data of its own, leaving that to NESO, Elexon and the DNOs.'
 image: https://www.britishgas.co.uk/aem6/etc/designs/britishgas/favicons/favicon-152x152.png
 layout: provider
-mcp_servers:
-- description: Centrica publishes no MCP server. No hosted or remote server was found in the MCP registry, on npm under @modelcontextprotocol or any Centrica scope, in either Centrica GitHub organisation (github.com
-  name: Centrica MCP Server
-  slug: centrica-mcp-server
 modified: '2026-07-27'
 name: Centrica
 nav: Providers
@@ -231,8 +227,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

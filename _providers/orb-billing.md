@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -99,7 +99,37 @@ apis:
   description: The Subscriptions API from Orb — 5 operation(s) for subscriptions.
   name: Orb Subscriptions API
   slug: orb-billing-subscriptions-api
-artifact_total: 32
+- description: The Alerts API from Orb — 3 operation(s) for alerts.
+  name: Orb Alerts API
+  slug: orb-alerts-api
+- description: The Availability API from Orb — 1 operation(s) for availability.
+  name: Orb Availability API
+  slug: orb-availability-api
+- description: The Coupons API from Orb — 1 operation(s) for coupons.
+  name: Orb Coupons API
+  slug: orb-coupons-api
+- description: The Credit Notes API from Orb — 1 operation(s) for credit notes.
+  name: Orb Credit Notes API
+  slug: orb-credit-notes-api
+- description: The Customers API from Orb — 2 operation(s) for customers.
+  name: Orb Customers API
+  slug: orb-customers-api
+- description: The Events API from Orb — 1 operation(s) for events.
+  name: Orb Events API
+  slug: orb-events-api
+- description: The Invoices API from Orb — 1 operation(s) for invoices.
+  name: Orb Invoices API
+  slug: orb-invoices-api
+- description: The Plans API from Orb — 1 operation(s) for plans.
+  name: Orb Plans API
+  slug: orb-plans-api
+- description: The Prices API from Orb — 1 operation(s) for prices.
+  name: Orb Prices API
+  slug: orb-prices-api
+- description: The Subscriptions API from Orb — 2 operation(s) for subscriptions.
+  name: Orb Subscriptions API
+  slug: orb-subscriptions-api
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -201,7 +231,7 @@ modified: '2026-06-20'
 name: Orb
 nav: Providers
 network: true
-overview: 'Orb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Coupons API, Credits API, and 8 more. Tagged areas include Billing, Usage-Based Billing, Metering, Subscription, and Invoicing.
+overview: 'Orb publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Coupons API, Credits API, and 18 more. Tagged areas include Billing, Usage-Based Billing, Metering, Subscription, and Invoicing.
 
 
   Orb''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -215,21 +245,21 @@ rate_limits:
   name: Orb Billing Rate Limits
   slug: orb-billing-rate-limits
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 40.2
   coverage:
     artifact_dirs: 9
-    catalog_gap: 55.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 53.7
-    developer_ergonomics: 33.3
-    discoverability: 68.5
+    developer_ergonomics: 45.2
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 38.7
@@ -240,8 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/screenshots/orb-billing-2026-06-20T191155.png
 security:

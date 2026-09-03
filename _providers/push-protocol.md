@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: JavaScript/TypeScript SDK (@pushchain/core) for the Push Chain Universal Layer 1 blockchain. Exposes PushChain.initialize(signer, {network}) for client setup, pushChainClient.universal.sendTransaction
@@ -166,8 +166,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/screenshots/push-protocol-2026-06-20T192317.png
 security:

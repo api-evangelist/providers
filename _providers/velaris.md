@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.euw1.velaris.io
@@ -106,7 +106,7 @@ apis:
   description: The Users API from Velaris — 2 operation(s) for users.
   name: Velaris Users API
   slug: velaris-users-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -216,7 +216,7 @@ common:
   url: llms/velaris-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/velaris-mcp.yml
 - group: other
   title: ''
@@ -266,10 +266,6 @@ created: '2026-07-17'
 description: Velaris is an AI-native Customer Success platform for mid-market and enterprise B2B SaaS teams, centralizing customer data, health scoring, churn and expansion signals, and lifecycle automation with AI agents and a Copilot workspace assistant. Its Public API (developers.velaris.io) exposes organizations, accounts, contacts, opportunities, risks, custom objects, activities, notes, tickets, tasks, users, surveys, currencies, and lifecycle stages over REST with user-scoped bearer tokens. Velaris is a Battery Ventures portfolio company.
 image: https://cdn.prod.website-files.com/6082c882cae3781954fcc067/68907364a5c043be5750b3ea_velaris-favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Velaris MCP Server
-  slug: velaris-mcp-server
 modified: '2026-07-21'
 name: Velaris
 nav: Providers
@@ -307,8 +303,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/screenshots/velaris-2026-08-17T082724.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Fragment's GraphQL Ledger API. Store a double-entry chart-of-accounts schema, create ledgers, post idempotent ledger entries and lines, read aggregated / historical / period / strongly-consistent bala
@@ -211,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fragment/refs/heads/main/screenshots/fragment-2026-07-25T215102.png
 security:

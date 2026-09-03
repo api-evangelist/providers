@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Australian Unity Bank Banking Products API
   slug: australian-unity-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: lifecycle/australian-unity-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/australian-unity-bank-mcp.yml
 - group: other
   title: ''
@@ -190,10 +190,6 @@ description: Australian Unity Bank Limited is the banking arm of Australian Unit
   prefix - the public Product Reference Data (PRD) endpoints plus the consumer-authorized Accounts, Balances, Transactions, Direct Debits, Scheduled Payments, and Payees endpoints. A July 2026 probe from a non-AU IP returned HTTP 403 across x-v 1-4 (typical WAF / geo / accreditation gating on CDR hosts), so payloads could not be captured verbatim, but the host resolves and responds - confirming Australian Unity as a live data-holder surface. The bank publishes no separate first-party developer portal or open-banking API documentation beyond CDR (its api.australianunity.com.au host serves only a webMethods Integration Server admin page, not documented APIs); the API contract is the shared DSB Consumer Data Standards.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/australian-unity-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Australian Unity Bank MCP Server
-  slug: australian-unity-bank-mcp-server
 modified: '2026-07-21'
 name: Australian Unity Bank
 nav: Providers
@@ -247,8 +243,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/screenshots/australian-unity-bank-2026-07-21T114715.png
 security:

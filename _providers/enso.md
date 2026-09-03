@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.enso.finance
@@ -81,7 +81,7 @@ apis:
   description: The wallet API from Enso — 2 operation(s) for wallet.
   name: Enso wallet API
   slug: enso-wallet-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +184,7 @@ common:
   url: components/enso-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/enso-mcp.yml
 - group: agent
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: Enso is onchain infrastructure that turns DeFi product intent into signer-ready transaction data. Its Route API finds the optimal path between any two tokens or positions across 250+ protocols and multiple chains, while the Bundle API composes ordered onchain Actions (deposit, swap, borrow, bridge, flashloan, transfer and more) into a single executable transaction. Enso also exposes protocol, token, price and balance data, a Quoter for a simulate-then-validate transaction-safety model, cross-chain routing over Stargate/LayerZero, Chainlink CCIP, Relay and Circle CCTP, and prebuilt React widgets (Checkout, cross-chain route). Developers authenticate with a Bearer API key and integrate via the @ensofinance/sdk TypeScript SDK. Backed by Multicoin Capital and Techstars; 100+ apps and 1,900+ developers build on Enso.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enso.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Enso MCP Server
-  slug: enso-mcp-server
 modified: '2026-07-19'
 name: Enso
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/screenshots/enso-2026-07-25T213420.png
 security:

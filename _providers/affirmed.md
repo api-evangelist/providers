@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,6 +52,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.affirmednetworks.com/category/press-release/
 created: '2026-07-17'
 description: Affirmed Networks is a mobile networking company founded in 2010 (Andover, Massachusetts) that pioneered fully virtualized, cloud-native mobile core software for service providers. Its portfolio spanned a Virtualized Evolved Packet Core (vEPC), the UnityCloud 5G Core, Private Network Service, Network Slicing, and service-automation/analytics tooling, deployed by 100+ mobile operators including AT&T, Orange, Vodafone, and Telus. The company was acquired by Microsoft in March 2020 and folded into the Azure for Operators initiative; the affirmednetworks.com site now operates as a Microsoft company marketing presence with no independent public developer portal or API. Surfaced in the API Evangelist network as a portfolio company of Matrix Partners.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affirmed.png
@@ -60,23 +64,26 @@ modified: '2026-07-17'
 name: Affirmed Networks
 nav: Providers
 network: true
-overview: Affirmed Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, 5G, and Mobile Core.
+overview: 'Affirmed Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, 5G, and Mobile Core.
+
+
+  Affirmed Networks'' developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 7.7
+  composite: 8.2
   coverage:
     artifact_dirs: 2
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -87,8 +94,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirmed/refs/heads/main/screenshots/affirmed-2026-07-25T181740.png
 security:

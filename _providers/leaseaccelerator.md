@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
@@ -81,7 +81,7 @@ apis:
   description: The User Provisioning API from LeaseAccelerator — 3 operation(s) for user provisioning.
   name: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -236,7 +236,7 @@ common:
   url: well-known/leaseaccelerator-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leaseaccelerator-mcp.yml
 - group: agent
   title: ''
@@ -250,10 +250,6 @@ created: '2026-07-17'
 description: LeaseAccelerator is an enterprise lease lifecycle automation platform for equipment and real estate leases, now part of insightsoftware. It combines lease accounting, lease administration, and asset lifecycle intelligence in a single purpose-built platform, automating compliance with ASC 842, IFRS 16, and GASB 87 through a full lease sub-ledger that protects the general ledger, automated classification and booking, roll-forward analytics with drill-down transparency, and deep ERP integrations. The platform exposes a SAML2-secured API that combines REST-addressed operations with XML Remote Procedure Call payloads, covering portfolio and deal import, asset and event recording, master and reference data synchronization, disbursements and FX rates, report generation and retrieval, search across deals, assets and contacts, and Single Sign-On user provisioning.
 image: https://insightsoftware.com/wp-content/uploads/2025/12/img_LeaseAccelerator_feat.png
 layout: provider
-mcp_servers:
-- description: A candidate Model Context Protocol tool surface derived from the 43 documented LeaseAccelerator API operations. LeaseAccelerator publishes no MCP server — this is a proposal, not a shipped product. It
-  name: LeaseAccelerator MCP Server
-  slug: leaseaccelerator-mcp-server
 modified: '2026-07-19'
 name: LeaseAccelerator
 nav: Providers
@@ -291,8 +287,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:

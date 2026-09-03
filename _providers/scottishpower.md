@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The legacy Opendatasoft Search API v1.0 still served alongside Explore v2.1 on the SP Energy Networks Open Data Portal. Verified anonymously on 2026-07-27: GET /api/datasets/1.0/search/?rows=1 returne'
@@ -51,7 +51,7 @@ apis:
   description: API to work on records
   name: ScottishPower Dataset API
   slug: scottishpower-dataset-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: Explore API
@@ -135,7 +135,7 @@ common:
   url: components/scottishpower-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scottishpower-mcp.yml
 - group: build
   title: ''
@@ -229,10 +229,6 @@ examples:
   slug: scottishpower-query-records-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: A candidate MCP tool surface for the SP Energy Networks Open Data Explore API. ScottishPower operates no MCP server; this is the tool set an agent host would get by wrapping the provider's own OpenAPI
-  name: Candidate MCP tool surface derived from the OpenAPI (no provider-operated server)
-  slug: candidate-mcp-tool-surface-derived-from-the-openapi-no-provider-operated-server
 modified: '2026-07-27'
 name: ScottishPower
 nav: Providers
@@ -280,8 +276,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/screenshots/scottishpower-2026-09-02T154554.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Tags API from Amazon CodeGuru Reviewer — 2 operation(s) for tags.
   name: Amazon CodeGuru Reviewer Tags API
   slug: amazon-codeguru-reviewer-tags-api
-artifact_total: 333
+artifact_total: 332
 collections:
 - collection_type: postman
   name: Amazon CodeGuru Reviewer Associations API
@@ -91,7 +91,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codeguru-reviewer-mcp.yml
 - group: other
   title: ''
@@ -1130,10 +1130,6 @@ jsonld:
   property_count: 78
   slug: amazon-codeguru-reviewer-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeGuru Reviewer MCP Server
-  slug: amazon-codeguru-reviewer-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeGuru Reviewer
 nav: Providers
@@ -1196,8 +1192,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ apis:
   description: Bulk file delivery service behind Xignite's file products (historical equity prices, bonds, options, currencies, and corporate actions files), served from the cloudfiles.xignite.com service.
   name: Xignite CloudFiles API
   slug: xignite-cloud-files-api
-artifact_total: 50
+artifact_total: 49
 collections:
 - collection_type: open
   name: API Collection
@@ -297,7 +297,7 @@ common:
   url: packages/xignite-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/xignite-mcp.yml
 - group: agent
   title: ''
@@ -335,10 +335,6 @@ created: '2026-07-21'
 description: Xignite pioneered cloud-based financial market data APIs, offering a catalog of 40+ REST web services covering equities, forex, crypto, indices, options, futures, fixed income, mutual funds, corporate actions, news, ESG, and reference data. Each API lives on its own subdomain (for example globalquotes.xignite.com) and returns JSON, XML, or CSV, with bulk datasets delivered as files via CloudFiles and streaming quotes via its CloudStreaming product. Founded in 2000, Xignite was acquired by QUODD (a NewSpring Holdings company) in February 2023; the xignite.com developer catalog remains live while corporate pages redirect to quodd.com, and QUODD runs a newer developer platform at developer.quodd.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xignite.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Xignite MCP Server
-  slug: xignite-mcp-server
 modified: '2026-07-22'
 name: Xignite
 nav: Providers
@@ -383,8 +379,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/screenshots/xignite-2026-07-22T202705.png
 security:

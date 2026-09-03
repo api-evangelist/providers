@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ arazzos:
 - description: Create an entity, run KYC, open an account, find a stock, and place a managed market buy.
   name: Onboard a customer and place a dShare order
   slug: dinari-onboard-and-trade
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: Real-time market data and order updates over WebSocket. Clients authenticate with their API key + secret, then subscribe to market data (Level 2 order book, DFN quotes) and/or order data for their cus
   name: Dinari Streaming (WebSocket) API
@@ -248,7 +248,7 @@ common:
   url: packages/dinari-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dinari-mcp.yml
 - group: agent
   title: ''
@@ -322,10 +322,6 @@ created: '2026-07-17'
 description: Dinari provides tokenized US stocks and ETFs (dShares) backed 1:1 by real securities, giving businesses an API to offer global customers regulated access to over a hundred equities and index tokens across 85+ jurisdictions. The Dinari Enterprise API covers entity onboarding and KYC/KYB, brokerage account management, market data (prices, quotes, splits, dividends, news), managed and on-chain (EIP-155 permit) order requests, order fulfillment, blockchain wallet connection, token transfers, withdrawals, and a USD+ stablecoin for dividend payments. dShares settle on-chain across Arbitrum One, HyperEVM, and Avalanche C-Chain. Surfaced as a portfolio company of 500 Global and Version One Ventures and enriched into the API Evangelist network.
 image: https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6a2b7f71ca32dba392e2c452_dinari-og-2026.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dinari MCP Server
-  slug: dinari-mcp-server
 modified: '2026-07-18'
 name: Dinari
 nav: Providers
@@ -373,8 +369,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:

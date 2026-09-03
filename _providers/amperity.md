@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -25,7 +29,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-09-02'
+  score: 44.1
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -281,8 +285,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/screenshots/amperity-2026-07-25T200122.png
 security:

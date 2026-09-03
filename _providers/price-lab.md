@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Users API from Price Lab — 1 operation(s) for users.
   name: Price Lab Users API
   slug: price-lab-users-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: llms/price-lab-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/price-lab-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: Price Lab (Price Lab Solutions) is a Latin American retail pricing intelligence platform that helps retailers and e-commerce merchants monitor competitor prices, analyze pricing KPIs, and apply AI-driven price optimization across their catalog and store network. The platform pairs competitor price scraping and competitive pricing policies with a recommendation engine, bulk data ingestion (sales, stock, replenishment, offers, and competitor prices), and electronic shelf label (ESL) management with flash strategies. Its production REST API, documented at price-lab.readme.io and hosted at backend.pricelab.com.pe, exposes product and category master data, batch price and cost updates, competitor price exports, recommendation accept/reject flows, and store-level price management, all secured with JWT bearer authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/price-lab.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Price Lab MCP Server
-  slug: price-lab-mcp-server
 modified: '2026-07-20'
 name: Price Lab
 nav: Providers
@@ -259,8 +255,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/screenshots/price-lab-2026-09-02T152006.png
 security:

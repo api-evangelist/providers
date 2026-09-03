@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.ermeo.com/en/'', ''status'': 301, ''note'': ''declared website redirects to https://www.causeway.com/ — a different registrable domain (ermeo.com -> causeway.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for the Ermeo connected-operator platform. Authenticated with OAuth 2.0 (Bearer access tokens), it lets external systems read and write equipment, forms, reports, and field data so customers '
@@ -127,8 +128,8 @@ score:
   previous_composite: 17.2
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/screenshots/ermeo-2026-07-25T213610.png
 security:

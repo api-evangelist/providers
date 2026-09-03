@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -90,7 +90,7 @@ apis:
   description: Usage Point endpoints
   name: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Green Button Alliance Webhooks
@@ -184,7 +184,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/green-button-alliance-mcp.yml
 - group: build
   title: ''
@@ -340,10 +340,6 @@ examples:
   slug: green-button-alliance-token-response-subscription
 image: https://assets-002.noviams.com/novi-file-uploads/gba/structure/gba-logo-2023-tm-500-1.png
 layout: provider
-mcp_servers:
-- description: Green Button Alliance operates no MCP server. This is an API Evangelist candidate tool set derived from the operations in GBA's own OpenAPI documents.
-  name: Candidate MCP tool surface (derived, not published)
-  slug: candidate-mcp-tool-surface-derived-not-published
 modified: '2026-07-27'
 name: Green Button Alliance
 nav: Providers
@@ -400,8 +396,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 82.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png
 security:

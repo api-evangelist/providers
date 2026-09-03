@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.wandera.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.jamf.com/ — a different registrable domain (wandera.com -> jamf.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.wandera.com
@@ -46,7 +47,7 @@ apis:
   description: Obtain a bearer JWT from Application ID/Secret.
   name: Wandera Authentication API
   slug: wandera-authentication-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: postman
   name: RADAR Risk API
@@ -131,7 +132,7 @@ common:
   url: data-model/wandera-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wandera-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +170,6 @@ created: '2026-07-17'
 description: Wandera was a zero-trust mobile security company (backed by Bessemer Venture Partners and Sapphire Ventures) that Jamf acquired in July 2021 for approximately $400M. Its technology is now sold as Jamf Security Cloud (RADAR), providing mobile threat defense, Zero Trust Network Access (ZTNA), and data policy for mobile and desktop fleets. Wandera exposes a REST Risk API on the api.wandera.com host — documented on the Jamf Developer portal — that lets security integrations query the risk state of enrolled devices and override device risk classifications, using a short-lived JWT obtained from an Application ID/Secret pair.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wandera.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wandera MCP Server
-  slug: wandera-mcp-server
 modified: '2026-07-21'
 name: Wandera
 nav: Providers
@@ -214,8 +211,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/screenshots/wandera-2026-08-17T082834.png
 security:

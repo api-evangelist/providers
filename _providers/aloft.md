@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ apis:
   description: Workflows
   name: Aloft Workflows API
   slug: aloft-workflows-api
-artifact_total: 79
+artifact_total: 78
 collections:
 - collection_type: open
   name: API Collection
@@ -399,7 +399,7 @@ common:
   url: security/aloft-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aloft-mcp.yml
 - group: agent
   title: ''
@@ -449,10 +449,6 @@ created: '2026-07-17'
 description: 'Aloft (aloft.ai, formerly Kittyhawk.io) is the leading FAA-approved provider of drone airspace and fleet-management software in the United States, powering the majority of LAANC airspace authorizations and unmanned traffic management (UTM) for government, public-safety, enterprise, and recreational drone pilots. The Aloft API V1 is an http-bearer-authenticated REST API exposing 180 operations across 36 resource groups: airspace advisories and weather, LAANC / Notify & Fly, flights and flight logs, aircraft, batteries and maintenance, missions, risk assessments, checklists, incidents, alerts, files, workflows, and map tile layers. Aloft is SOC 2 Type II and ISO 27001 certified. This profile was enriched by the API Evangelist pipeline from Aloft''s public OpenAPI and developer surface.'
 image: https://www.aloft.ai/wp-content/uploads/2019/11/1-2.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aloft MCP Server
-  slug: aloft-mcp-server
 modified: '2026-07-18'
 name: Aloft
 nav: Providers
@@ -491,8 +487,8 @@ score:
       total: 36
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/screenshots/aloft-2026-07-25T195743.png
 security:

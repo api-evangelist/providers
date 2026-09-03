@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://{supplier_endpoint}/octo
@@ -56,7 +56,7 @@ apis:
   description: The Supplier API from Klook — 1 operation(s) for supplier.
   name: Klook Supplier API
   slug: klook-supplier-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Klook Notifications Webhooks
@@ -176,7 +176,7 @@ common:
   url: overlays/klook-octo-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/klook-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ created: '2026-07-17'
 description: 'Klook is a Hong Kong-headquartered travel and experiences booking platform for the "things to do" sector — attractions, tours and activities, theme parks, food and beverage, WiFi and SIM cards, and transportation passes. Klook publishes an Open API specification for merchants, suppliers, reservation systems and channel managers who want to distribute their inventory through Klook''s website, app and partner channels. The specification is an implementation of OCTO (Open Connectivity for Tours, Activities and Attractions), the open standard for the in-destination experiences industry: the supplier implements the OCTO core endpoints (Supplier, Products, Availability, Bookings) at their own host and Klook consumes them as the reseller, with optional Capabilities negotiated through the Octo-Capabilities header. Klook additionally runs an affiliate program and a merchant portal.'
 image: https://res.klook.com/image/upload/klook_logo.png
 layout: provider
-mcp_servers:
-- description: 'No official or hosted Klook MCP server was found during this pass (searched Klook''s documentation, the MCP registry namespace and npm). This is a candidate tool surface derived one-tool-per-operation '
-  name: Klook MCP Server
-  slug: klook-mcp-server
 modified: '2026-07-19'
 name: Klook
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png
 security:

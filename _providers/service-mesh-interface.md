@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Traffic Access Control defines the `TrafficTarget` resource, which associates a set of traffic rules with a service identity allocated to a group of pods. It is the authorization layer of SMI: which s'
@@ -257,8 +257,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-mesh-interface/refs/heads/main/screenshots/service-mesh-interface-2026-06-20T193726.png
 security:

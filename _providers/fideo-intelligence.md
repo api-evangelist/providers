@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Real-time identity verification (Verify) and modular identity intelligence (Signals) over a shared multi-field request model. Bearer-authenticated REST endpoints POST /verify and POST /signals at api.
   name: Fideo Verify & Signals API
   slug: fideo-verify-signals-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -119,7 +119,7 @@ common:
   url: well-known/fideo-intelligence-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fideo-intelligence-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: 'Fideo Intelligence is an identity intelligence platform that helps banks, fintechs, and financial institutions detect fraud and financial crime in real time. Fideo screens billions of transactions annually against an identity graph of billions of identities and hundreds of billions of identifiers and relationships. Its developer-ready APIs expose two products: Fideo Verify, a real-time, AI-powered identity verification and risk-scoring endpoint that consolidates many identity and risk checks into a single call for account origination, onboarding, account-takeover prevention, and loan-origination fraud; and Fideo Signals, modular identity intelligence that enriches existing fraud models, risk scoring, investigations, and link analysis. Both products share one multi-field request schema and are reached over a bearer-authenticated REST API at api.fideo.ai, with date-versioned responses and platform integrations for FusionAuth, Auth0, and Maltego.'
 image: https://www.fideo.ai/wp-content/uploads/2024/10/preview-thumb-fideo-1200px.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fideo Intelligence MCP Server
-  slug: fideo-intelligence-mcp-server
 modified: '2026-07-19'
 name: Fideo Intelligence
 nav: Providers
@@ -177,8 +173,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fideo-intelligence/refs/heads/main/screenshots/fideo-intelligence-2026-07-25T214416.png
 security:

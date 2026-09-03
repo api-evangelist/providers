@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification, pro
@@ -143,13 +143,13 @@ rules:
   slug: runc-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 28.0
   coverage:
     artifact_dirs: 12
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -159,13 +159,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 35.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/screenshots/runc-2026-06-20T193250.png
 security:
 - kind: domain-security

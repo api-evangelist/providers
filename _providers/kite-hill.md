@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-09-02'
+  score: 50.0
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,8 +236,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/screenshots/kite-hill-2026-09-02T150048.png
 security:

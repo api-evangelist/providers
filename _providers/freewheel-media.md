@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 0
@@ -373,7 +373,7 @@ apis:
   description: The View List API from FreeWheel Media — 1 operation(s) for view list.
   name: FreeWheel Media View List API
   slug: freewheel-media-view-list-api
-artifact_total: 76
+artifact_total: 75
 collections:
 - collection_type: open
   name: buzz
@@ -518,7 +518,7 @@ common:
   url: well-known/freewheel-media-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/freewheel-media-mcp.yml
 - group: build
   title: ''
@@ -532,10 +532,6 @@ created: '2026-07-17'
 description: FreeWheel, a Comcast company, is an advertising technology platform for the streaming and premium video television marketplace. It gives advertisers, agencies, and media buyers direct connections to premium streaming TV inventory while helping publishers and programmers monetize their video content across linear and digital channels. Its product suites include the Advertiser Suite (media buying, planning, and campaign management via Strata), the Publisher Suite (ad decisioning, forecasting, and yield optimization for sellers), and a Marketplace connecting supply and demand. FreeWheel's platform emphasizes AI-driven optimization, real-time insights, identity, and cross-screen measurement for the converged TV ecosystem. Programmatic and operational access is delivered to partners through gated Publisher (MRM) and Marketer (SFX/Strata) platforms rather than a public self-service developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freewheel-media.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: FreeWheel Media MCP Server
-  slug: freewheel-media-mcp-server
 modified: '2026-08-12'
 name: FreeWheel Media
 nav: Providers
@@ -582,8 +578,8 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Model catalog and metadata
   name: Recursal AI, Inc. Models API
   slug: recursal-ai-inc-models-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: data-model/recursal-ai-inc-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/recursal-ai-inc-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: Recursal AI, Inc. operates Featherless AI, a serverless AI inference platform that provides unified, OpenAI-compatible API access to tens of thousands of open-weight large language models sourced from Hugging Face. A single API key and base URL (https://api.featherless.ai/v1) give developers drop-in access to models ranging from small 7B instruct models to 405B-plus parameter models, under flat-rate, concurrency-based subscriptions with unlimited monthly requests and a no-logging policy on prompts and chat history. The platform is built by researchers who contribute to RWKV, a Linux Foundation project, and has raised a $20M Series A. Recursal AI was surfaced as a portfolio company of 500 Global and enriched by the API Evangelist pipeline.
 image: https://cdn.prod.website-files.com/6979c6c70c21b50639123793/69a171cf1a87499ba814df9c_OG%20Image_%20Home.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Recursal AI, Inc. MCP Server
-  slug: recursal-ai-inc-mcp-server
 modified: '2026-07-21'
 name: Recursal AI, Inc.
 nav: Providers
@@ -239,8 +235,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/screenshots/recursal-ai-inc-2026-08-17T081505.png
 security:

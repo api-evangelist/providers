@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.kaleyra.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.tatacommunications.com/kaleyra — a different registrable domain (kaleyra.com -> tatacommunications.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,7 +71,7 @@ apis:
   description: Click-to-call and outbound voice.
   name: Kaleyra Voice API
   slug: kaleyra-voice-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Kaleyra Webhooks
@@ -154,7 +155,7 @@ common:
   url: well-known/kaleyra-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kaleyra-mcp.yml
 - group: agent
   title: ''
@@ -268,10 +269,6 @@ finops:
   slug: kaleyra-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaleyra.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kaleyra MCP Server
-  slug: kaleyra-mcp-server
 modified: '2026-07-17'
 name: Kaleyra
 nav: Providers
@@ -333,8 +330,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:

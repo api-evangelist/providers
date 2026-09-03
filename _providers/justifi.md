@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-09-02'
+  score: 37.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ apis:
   description: The Events API from JustiFi — 0 operation(s) for events.
   name: JustiFi Events API
   slug: justifi-events-api
-artifact_total: 61
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Justifi Webhooks
@@ -276,6 +276,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/justifi-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/justifi-openapi-overlay.yaml
 - group: start
@@ -340,7 +344,7 @@ common:
   url: components/justifi-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/justifi-mcp.yml
 - group: agent
   title: ''
@@ -390,10 +394,6 @@ created: '2026-07-17'
 description: JustiFi is an embedded-payments and PayFac-as-a-service platform that lets SaaS companies add payment processing to their software. Its REST API (base https://api.justifi.ai/v1) plus StencilJS web components handle sub-merchant onboarding, card and bank-account tokenization, payments, refunds, disputes, payouts, proceeds, checkouts, and card-present terminals, while JustiFi carries the PCI-DSS Level 1, SOC 2, and GDPR compliance burden. Authentication is OAuth 2.0 client-credentials yielding 24-hour Bearer tokens, with idempotent money movement, cursor pagination, and webhook events. Backed by Emergence Capital.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/justifi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: JustiFi MCP Server
-  slug: justifi-mcp-server
 modified: '2026-07-19'
 name: JustiFi
 nav: Providers
@@ -404,13 +404,13 @@ overview: 'JustiFi publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The JustiFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
+  JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
 random_paper: 10
 score:
   band: developing
   composite: 51.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -445,8 +445,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

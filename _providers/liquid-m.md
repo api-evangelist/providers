@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Visual report queries across dimensions and metrics.
   name: Liquid M Reporting API
   slug: liquid-m-reporting-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: security/liquid-m-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/liquid-m-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ json_schemas:
   property_count: 3
   slug: liquid-m-visual-report
 layout: provider
-mcp_servers:
-- description: ''
-  name: Liquid M MCP Server
-  slug: liquid-m-mcp-server
 modified: '2026-08-13'
 name: Liquid M
 nav: Providers
@@ -256,8 +252,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:

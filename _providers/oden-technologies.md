@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: The Targets API from Oden Technologies — 2 operation(s) for targets.
   name: Oden Technologies Targets API
   slug: oden-technologies-targets-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oden-technologies-mcp.yml
 - group: other
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: 'Oden Technologies provides AI-powered software for manufacturing optimization, delivering real-time, AI-driven recommendations to front-line factory operators to increase output, improve quality, decrease costs, and reduce downtime. Its platform spans Forge AI agents, Process AI, Factory Analytics, and a Data Engine. The Oden Private Partner API (v2) is a RESTful, JSON-over-HTTPS API for reading, creating, and updating factory data on the Oden Platform: factories, lines, products, production intervals (runs, batches, states), scrap/yield, quality tests, metric groups, targets, dashboards, and the Oden Query Language (OQL). Oden is headquartered in New York with an office in Altrincham, UK, and is backed by EQT Ventures.'
 image: https://oden.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oden Technologies MCP Server
-  slug: oden-technologies-mcp-server
 modified: '2026-07-20'
 name: Oden Technologies
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/screenshots/oden-technologies-2026-08-07T190003.png
 security:

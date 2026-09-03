@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://partner-subdomain.embed.unmade.com
@@ -66,7 +66,7 @@ apis:
   description: The Unmade Editor API from Unmade — 2 operation(s) for unmade editor.
   name: Unmade Unmade Editor API
   slug: unmade-unmade-editor-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -133,7 +133,7 @@ common:
   url: well-known/unmade-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unmade-mcp.yml
 - group: design
   title: ''
@@ -175,10 +175,6 @@ created: '2026-07-17'
 description: Unmade is a London fashion-tech company whose UnmadeOS platform lets apparel and sportswear brands such as New Balance and Rapha sell customised, on-demand products at scale. Its partner Integration API embeds the Unmade Editor in e-commerce product pages, captures saved designs, renders previews and 3D views, creates ecommerce orders from design IDs, and drives factory production workflows through to shipping. Founded in 2013 and Techstars-backed, Unmade was acquired by garment manufacturer Hi-Tech Apparel in July 2024.
 image: https://github.com/unmadeworks.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unmade MCP Server
-  slug: unmade-mcp-server
 modified: '2026-07-21'
 name: Unmade
 nav: Providers
@@ -220,8 +216,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/screenshots/unmade-2026-09-02T164940.png
 security:

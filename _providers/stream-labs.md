@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API to access a user''s Streamlabs account: donations, custom alerts, loyalty points, media share, alert profiles, credits, tip jar, wheel spin, and a real-time Socket API. OAuth 2.0 with per-feat'
   name: Streamlabs API
   slug: streamlabs-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -115,7 +115,7 @@ common:
   url: llms/stream-labs-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stream-labs-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Streamlabs is a live-streaming toolkit for content creators, providing alerts, donations/tips, loyalty points, media share, chat and stream widgets across Twitch, YouTube and other platforms. The Streamlabs API lets developers access a user's Streamlabs account and trigger custom alerts, read and create donations, manage loyalty points, control media-share playback, spin the wheel, empty the tip jar, roll credits, and open a real-time Socket API for live events. Access is authorized with OAuth 2.0 using granular per-feature scopes, and requests are made against the versioned REST base at streamlabs.com/api/v2.0. Streamlabs is backed by Battery Ventures and was acquired by Logitech in 2019.
 image: https://cdn.streamlabs.com/static/imgs/logos/kevin-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stream Labs MCP Server
-  slug: stream-labs-mcp-server
 modified: '2026-07-21'
 name: Stream Labs
 nav: Providers
@@ -177,8 +173,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-labs/refs/heads/main/screenshots/stream-labs-2026-09-02T160957.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Single REST API for the Integrated Finance platform — clients, users, real / virtual / shared-pool accounts, bank transfers, currency exchanges, card issuing and processing, beneficiary verification, '
   name: Integrated Finance API
   slug: integrated-finance-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: If Webhooks
@@ -143,7 +143,7 @@ common:
   url: asyncapi/if-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/if-mcp.yml
 - group: auth
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Integrated Finance (IF) is a modular fintech infrastructure platform — a "financial operating system" — that lets companies build banking, card, and payment experiences for their users without becoming a bank. Its orchestration layers (IF API interface, IF CORE workflow, IF CONNECT integration) sit on top of multiple banking, card-issuing, FX, and compliance providers and expose a single REST API covering clients and users, real / virtual / shared-pool accounts, incoming and outgoing bank transfers, currency exchanges, card issuing and processing (including 3DS and PIN management), beneficiary verification, generic transactions, and open-banking consents. Authentication is OAuth 2.0 on Keycloak (JWT client assertion, client_credentials); the API supports idempotency on all POST endpoints, Ed25519-signed webhooks with automatic retry, and a full sandbox environment for testing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/if.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: IF MCP Server
-  slug: if-mcp-server
 modified: '2026-07-19'
 name: IF
 nav: Providers
@@ -206,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/screenshots/if-2026-07-25T222048.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Endpoints for product snippets by merchant
   name: PowerReviews Snippets API
   slug: powerreviews-snippets-api
-artifact_total: 15
+artifact_total: 14
 common:
 - group: other
   title: ''
@@ -207,7 +207,7 @@ common:
   url: llms/powerreviews-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/powerreviews-mcp.yml
 - group: build
   title: ''
@@ -237,10 +237,6 @@ finops:
   slug: powerreviews-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powerreviews.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PowerReviews MCP Server
-  slug: powerreviews-mcp-server
 modified: '2026-08-13'
 name: PowerReviews
 nav: Providers
@@ -287,8 +283,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/screenshots/powerreviews-2026-06-20T192030.png
 security:

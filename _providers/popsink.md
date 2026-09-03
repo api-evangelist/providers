@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -148,7 +148,7 @@ apis:
   description: The users API from Popsink — 7 operation(s) for users.
   name: Popsink users API
   slug: popsink-users-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -307,7 +307,7 @@ common:
   url: conformance/popsink-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/popsink-mcp.yml
 - group: agent
   title: ''
@@ -329,10 +329,6 @@ created: '2026-07-17'
 description: Popsink is a real-time data replication and change data capture (CDC) platform that continuously moves data out of mission-critical and legacy systems into cloud data platforms with low latency and minimal production impact. It offers a broad catalog of source and target connectors (Postgres, MySQL, Oracle, MSSQL, MongoDB, Kafka, IBM Z / IBMi (AS/400), SAP, Salesforce, HubSpot, Snowflake, BigQuery, Databricks, ClickHouse, Iceberg, and more) and flexible deployment options spanning SaaS, bring-your-own-cloud, self-hosted Kubernetes, single-VM, on-premises, and air-gapped installs. Popsink exposes a public REST API and an on-prem control-plane REST API (OAuth2 password / JWT bearer, with SAML SSO) for managing pipelines, connectors, environments, teams, schemas, and transforms. Backed by Seedcamp.
 image: https://cdn.prod.website-files.com/68c803b0497f18f5503b81d9/68c84fa4ed5fa62ff869c94f_Fav%20Icon%20256x256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Popsink MCP Server
-  slug: popsink-mcp-server
 modified: '2026-07-20'
 name: Popsink
 nav: Providers
@@ -371,8 +367,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/screenshots/popsink-2026-08-17T081318.png
 security:

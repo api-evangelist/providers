@@ -29,7 +29,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -37,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.7
-  scored_at: '2026-09-02'
+  score: 46.2
+  scored_at: '2026-09-03'
 api_count: 78
 apis:
 - description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
@@ -881,7 +881,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -891,7 +891,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 62.2
+  previous_composite: 64.0
   provenance:
     conformance: derived
     contracts:
@@ -901,8 +901,8 @@ score:
       total: 70
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:

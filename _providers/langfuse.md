@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -277,6 +277,10 @@ collections:
   name: langfuse
   slug: open-langfuse
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/langfuse-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -352,7 +356,7 @@ network: true
 overview: 'Langfuse publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AnnotationQueues API, BlobStorageIntegrations API, Comments API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Open-Source, and Evaluations.
 
 
-  Langfuse''s developer surface includes authentication, documentation, API reference, pricing, GitHub presence, and 10 more developer resources.'
+  Langfuse''s developer surface includes authentication, documentation, API reference, pricing, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Langfuse Plans Pricing
   plan_count: 5
@@ -366,7 +370,7 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -388,8 +392,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/screenshots/langfuse-2026-06-20T184307.png
 security:

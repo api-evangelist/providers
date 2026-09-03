@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Tags API from Fini — 5 operation(s) for tags.
   name: Fini Tags API
   slug: fini-tags-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: data-model/fini-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fini-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Fini AI provides self-improving AI agents for enterprise customer support across voice, chat, and email. Built on a RAGless retrieval engine, the Fini Agent Loop, a self-updating Knowledge Atlas, and Agentic Actions, Fini understands customer intent, retrieves the right data, and takes action — resolving up to 90% of support tickets at 99% accuracy. It is purpose-built for regulated industries such as fintech, banking, healthcare, insurance, and e-commerce, with PII redaction, audit trails, and guardrails. Fini exposes a public v2 REST API for managing agents, conversations, knowledge (sources, articles, folders), rules, tags, and prompts, and for driving the agent loop through its Generate Answer endpoint. Backed by Y Combinator (S22) and Matrix Partners.
 image: https://mintcdn.com/fini/images/shared/logos/fini-light.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fini MCP Server
-  slug: fini-mcp-server
 modified: '2026-07-19'
 name: Fini
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/screenshots/fini-2026-07-25T214529.png
 security:

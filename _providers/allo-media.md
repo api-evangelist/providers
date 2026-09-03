@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Read-only REST API over calls that have finished processing on the Allo-Media platform — transcription, redaction, analysis and tagging complete. Three operations: list calls with date/status filters '
@@ -244,8 +244,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/screenshots/allo-media-2026-09-02T144117.png
 security:

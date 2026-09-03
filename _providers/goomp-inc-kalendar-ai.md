@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The API host behind the Cockpit AI (formerly Kalendar AI) product. The root of https://api.oncockpit.ai returns HTTP 200 with {"name":"Cockpit AI API","status":"active"} and /health returns OK, and th
@@ -140,8 +140,8 @@ score:
   previous_composite: 9.8
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/screenshots/goomp-inc-kalendar-ai-2026-07-25T220105.png
 security:

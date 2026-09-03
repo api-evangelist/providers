@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -208,7 +208,7 @@ apis:
   description: The WorkOsWebhook API from Verifiable — 1 operation(s) for workoswebhook.
   name: Verifiable WorkOsWebhook API
   slug: verifiable-workoswebhook-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Verifiable Webhooks
@@ -419,7 +419,7 @@ common:
   url: sandbox/verifiable-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verifiable-mcp.yml
 - group: design
   title: ''
@@ -445,10 +445,6 @@ created: '2026-07-17'
 description: Verifiable is an API-first provider network management and credentialing platform for healthcare. Its RESTful API lets health plans, credentialing vendors, and digital health companies programmatically manage provider and facility records, run real-time primary-source verifications of licenses and credentials, continuously monitor providers for sanctions and exclusions, scan reference datasets, manage payers, payer plans, groups, and provider enrollments, drive credentialing requests, and receive events via webhooks. The platform is built API-first (Verifiable builds its own product on the same API) and is used as underlying credentialing infrastructure across healthcare. Backed by Craft Ventures.
 image: https://cdn.prod.website-files.com/5f274600ac3de0cf25b08be9/699f3ecc7486361f3611e7f8_Homepage.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Verifiable MCP Server
-  slug: verifiable-mcp-server
 modified: '2026-07-21'
 name: Verifiable
 nav: Providers
@@ -496,8 +492,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:

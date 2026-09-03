@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.1
-  scored_at: '2026-09-02'
+  score: 8.6
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 7
 common:
@@ -176,8 +176,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarisights/refs/heads/main/screenshots/clarisights-2026-07-25T205504.png
 security:

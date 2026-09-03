@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
   description: US Core Patient resources
   name: meditech Patient API
   slug: meditech-patient-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -246,7 +246,7 @@ common:
   url: well-known/meditech-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/meditech-mcp.yml
 - group: agent
   title: ''
@@ -349,10 +349,6 @@ jsonld:
   property_count: 6
   slug: meditech-context
 layout: provider
-mcp_servers:
-- description: No official MEDITECH-hosted or MEDITECH-published MCP server was found (web search for "MEDITECH Greenfield MCP" / "Model Context Protocol" returns generic healthcare-MCP explainer content, nothing ME
-  name: MEDITECH MCP Server
-  slug: meditech-mcp-server
 modified: '2026-08-14'
 name: MEDITECH
 nav: Providers
@@ -424,8 +420,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:

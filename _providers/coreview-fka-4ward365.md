@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The CoreView Public API provides programmatic access to Microsoft 365 governance operations — delegated administration, operators, platform reporting, license pools, and customer/tenant management — v
   name: CoreView Public API
   slug: coreview-public-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -127,7 +127,7 @@ common:
   url: lifecycle/coreview-fka-4ward365-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coreview-fka-4ward365-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: CoreView (formerly 4ward365) is an enterprise Microsoft 365 governance, security, and automation platform. It secures the configuration, identity, and access layers of Microsoft 365 tenants and provides delegated administration, license management, reporting, and workflow automation. CoreView exposes a Public API secured with OAuth 2.0 / OpenID Connect (client-credentials flow) through a regional API proxy, plus a CoreFlow Workflow API for triggering and monitoring automation runs. Datacenters are available across the EU, East US, Canada, UK, Australia, and US Government (FedRAMP) regions. This profile was surfaced as a portfolio company of Insight Partners and enriched from CoreView's public developer documentation.
 image: https://logo.clearbit.com/coreview.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: CoreView (FKA 4ward365) MCP Server
-  slug: coreview-fka-4ward365-mcp-server
 modified: '2026-07-18'
 name: CoreView (FKA 4ward365)
 nav: Providers
@@ -177,8 +173,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/screenshots/coreview-fka-4ward365-2026-07-25T210431.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ arazzos:
 - description: Read a Namespace, update its spec using the current resourceVersion, then confirm the change.
   name: Temporal Update a Namespace With Optimistic Concurrency
   slug: temporal-update-namespace-workflow
-artifact_total: 94
+artifact_total: 93
 collections:
 - collection_type: postman
   name: Temporal Cloud Operations API
@@ -155,7 +155,7 @@ common:
   url: https://github.com/temporalio/api/releases
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/temporal-mcp.yml
 - group: other
   title: ''
@@ -501,10 +501,6 @@ jsonld:
   property_count: 0
   slug: cloud-ops-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from the Temporal Cloud Ops API operations. Temporal does not publish a first-party hosted MCP server for the Cloud Ops control plane; a community MCP ser
-  name: Temporal MCP Server
-  slug: temporal-mcp-server
 modified: '2026-06-20'
 name: Temporal
 nav: Providers
@@ -578,8 +574,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:

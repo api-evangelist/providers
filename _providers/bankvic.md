@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ arazzos:
 - description: Discover BankVic's public product catalogue then drill into one product's full terms via the unauthenticated CDR Product Reference Data (PRD) surface. Runnable as-is against the live endpoint (no cons
   name: BankVic product discovery
   slug: bankvic-product-discovery
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -170,7 +170,7 @@ common:
   url: data-model/bankvic-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bankvic-mcp.yml
 - group: agent
   title: ''
@@ -228,10 +228,6 @@ created: '2026-07-20'
 description: BankVic is an Australian customer-owned mutual bank and the trading name of Police Financial Services Limited, an authorised deposit-taking institution (ADI) founded in 1974 and headquartered in Melbourne, Victoria. Member-owned rather than shareholder-driven, it has served Victoria's police, health, and emergency-services communities and the broader Victorian public under a "people before profits" ethos for more than fifty years, offering everyday accounts, home and personal loans, term deposits, credit cards, and insurance. As a regulated ADI, BankVic participates in Australia's Consumer Data Right (CDR / Open Banking) regime and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside its consented, ADR-mediated consumer data-sharing surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bankvic.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BankVic MCP Server
-  slug: bankvic-mcp-server
 modified: '2026-07-21'
 name: BankVic
 nav: Providers
@@ -285,8 +281,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png
 security:

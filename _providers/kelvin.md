@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://app.go-kelvin.com
@@ -58,7 +58,7 @@ apis:
   description: The Simulations API from Kelvin — 2 operation(s) for simulations.
   name: Kelvin Simulations API
   slug: kelvin-simulations-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: kelvin API
@@ -73,7 +73,7 @@ common:
   url: overlays/kelvin-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kelvin-mcp.yml
 - group: agent
   title: ''
@@ -147,10 +147,6 @@ created: '2026-07-17'
 description: Kelvin (kelvin°) is a Paris-based startup, founded in 2023 and backed by Seedcamp, building an AI-powered commercial platform for the home energy-renovation industry in France. Its tools help RGE-certified artisans, renovation contractors, general contractors, CEE delegatees and trade platforms find and qualify renovation prospects, generate leads through embeddable address-based simulators, automatically compute energy-efficiency scenarios and government aids (MaPrimeRenov / CEE) with remaining customer cost, and assemble complete financing packages. The AI is trained by thermal engineers and architects and uses open data plus computer vision to assess buildings without a recent DPE. More than 4,000 artisans and sales reps use Kelvin to prospect, prepare appointments and quote work.
 image: https://cdn.prod.website-files.com/6655caeb6e3835fd7ee50dd6/67a1271dde24f8ccdf843524_Kelvin-Wordmark.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kelvin MCP Server
-  slug: kelvin-mcp-server
 modified: '2026-08-14'
 name: Kelvin
 nav: Providers
@@ -207,8 +203,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ arazzos:
 - description: Run a proposed mortgage amount against Landcor's AVM value for a BC property and retrieve the password-protected PDF valuation report for the file.
   name: Landcor — loan-to-value check and valuation report
   slug: landcor-ltv-check-and-report
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: Landcor Property API
@@ -128,7 +128,7 @@ common:
   url: data-model/landcor-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/landcor-mcp.yml
 - group: build
   title: ''
@@ -220,10 +220,6 @@ description: 'Landcor Data Corporation is a New Westminster, British Columbia pr
   lists as members, holds no Web API or Data Dictionary certification, exposes no OData $metadata document, and uses its own PID identifier rather than the RESO Universal Property Identifier. No open, unlicensed dataset is published: the underlying assessment, title and cadastral data is licensed to Landcor from provincial bodies and resold, so the public record itself is a commercial product here.'
 image: https://www.landcor.com/wp-content/uploads/2026/01/favicon-152.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Landcor Data MCP Server
-  slug: landcor-data-mcp-server
 modified: '2026-07-26'
 name: Landcor Data
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

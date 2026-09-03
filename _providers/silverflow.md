@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +26,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-09-02'
+  score: 39.7
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://eu-west-1.api.silverflow.com/v1
@@ -468,7 +468,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -478,7 +478,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 51.3
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -494,8 +494,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png
 security:

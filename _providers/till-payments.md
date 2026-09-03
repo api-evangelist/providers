@@ -8,6 +8,7 @@ access_model:
   source:
   - authentication
   - security
+  - '{''url'': ''https://tillpayments.com/'', ''status'': 308, ''note'': ''declared website redirects to https://www.nuvei.com/offers/australia-and-new-zealand — a different registrable domain (tillpayments.com -> nuvei.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -92,7 +93,7 @@ arazzos:
 - description: Register (tokenize) a payment instrument, then charge it with a debit using the returned transactionToken.
   name: Till Payments — tokenize and charge
   slug: till-payments-tokenize-and-charge
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Till Payments Callbacks Webhooks
@@ -111,7 +112,7 @@ common:
   url: https://apis.io/providers/nuvei/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/till-payments-mcp.yml
 - group: other
   title: ''
@@ -225,10 +226,6 @@ created: '2026-07-24'
 description: 'Till Payments is a Sydney, Australia founded merchant acquirer and payment technology company (established 2012), focused on integrated payments for independent software vendors, platforms, and omnichannel merchants across online, in-person, and unattended channels. Its product family spans a card-present and card-not-present processing Gateway, a PCI-enabled Direct API for merchants handling raw card data, Pay By Link, and Terminal Connect for in-person device integrations. Till was acquired by Nuvei in 2024 and now operates as part of Nuvei''s global platform while retaining its Australian home market and developer surface. Its API posture is genuinely API-first: a public developer hub, hosted V3 reference documentation, and two downloadable OpenAPI 3.0 specifications (the Gateway API and the Direct PCI-enabled Payment Platform), both authenticated with HTTP Basic credentials over TLS 1.2+.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Till Payments MCP Server
-  slug: till-payments-mcp-server
 modified: '2026-07-24'
 name: Till Payments
 nav: Providers
@@ -280,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/screenshots/till-payments-2026-08-17T082354.png
 security:

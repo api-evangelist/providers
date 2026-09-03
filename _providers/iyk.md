@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The IYK API provides primitives for building digi-physical experiences. Core endpoints manage chips (NFC tags such as NTAG 424, KONG, and ARX HaLo), chip groups, items, taps/refs (validated physical i
   name: IYK API
   slug: iyk-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -87,7 +87,7 @@ common:
   url: authentication/iyk-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/iyk-mcp.yml
 - group: design
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: IYK provides useful primitives and apps for building digi-physical (phygital) experiences, connecting physical products and merchandise to blockchain tokens, POAPs, and digital content through NFC chips. The IYK API exposes three categories of endpoints - Core (chips, chip groups, items, taps/refs, OTP codes, and phygitals), Modules (POAP Events and Guestbook Events), and Self-Service POAP Devices - letting brands and artists chip physical items, verify authentic taps, gate content and rewards, mint or transfer linked NFTs, and recognize fans who show up. IYK Music applies the same primitives to fan engagement, turning chipped merch and show check-ins into a living fan identity. IYK is backed by a16z.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iyk.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: IYK MCP Server
-  slug: iyk-mcp-server
 modified: '2026-07-19'
 name: IYK
 nav: Providers
@@ -139,8 +135,8 @@ score:
   previous_composite: 25.4
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/screenshots/iyk-2026-07-25T223022.png
 security:

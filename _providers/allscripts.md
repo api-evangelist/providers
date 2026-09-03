@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The Veradigm FHIR R4 API provides RESTful access to clinical, demographic, and facility data using the HL7 FHIR R4 standard. It supports 28 FHIR resources including Patient, Condition, Observation, Me
@@ -45,7 +45,7 @@ apis:
 - description: 'The Paragon Open API provides FHIR-compliant access to data from the Veradigm Paragon acute care EHR platform. It enables third-party applications to integrate with Paragon to access patient clinical '
   name: Veradigm Paragon Open API
   slug: veradigm-paragon-open-api
-artifact_total: 14
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -77,7 +77,7 @@ common:
   url: packages/allscripts-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/allscripts-mcp.yml
 - group: agent
   title: ''
@@ -184,10 +184,6 @@ jsonld:
   property_count: 19
   slug: allscripts-context
 layout: provider
-mcp_servers:
-- description: 'No official/hosted MCP server was found for Veradigm/Allscripts. Probed open.platform.veradigm.com/mcp (404, real 404 page) and developer.veradigm.com/mcp (200, but confirmed soft-404 HTML catch-all, '
-  name: Allscripts MCP Server
-  slug: allscripts-mcp-server
 modified: '2026-08-14'
 name: Allscripts
 nav: Providers
@@ -248,8 +244,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png
 security:

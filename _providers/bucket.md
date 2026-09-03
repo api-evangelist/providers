@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
   description: The Apps API from Bucket — 9 operation(s) for apps.
   name: Bucket Apps API
   slug: bucket-apps-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: cli/bucket-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bucket-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Bucket (rebranded to Reflag in 2026, reflag.com) is a TypeScript-first feature management platform built for B2B SaaS teams. It provides feature flags with self-cleaning lifecycle automation, AI/agent integration via a hosted MCP server, strongly typed SDKs for React, React Native, Vue, Next.js, Node.js and the browser, OpenFeature providers, local flag evaluation for zero-latency and downtime protection, feature entitlements, in-app feedback collection, and deep integrations with Linear, Slack, GitHub, Datadog, Vercel and analytics tools. The platform exposes two APIs — a Runtime API for evaluating flags for users and companies at request time, and a Management API for programmatically managing apps, environments, flags and targeting rules from CI/CD. Backed by 500 Global and Creandum.
 image: https://cdn.prod.website-files.com/68a872edf3df6064de547670/68b8414134c540f12c2928bc_reflag-dynamic-favicon.svg
 layout: provider
-mcp_servers:
-- description: 'Official hosted/remote MCP server that connects an AI coding agent in the editor to a Reflag account, letting it interpret and manage feature flags and understand their state and relationships within '
-  name: Bucket MCP Server
-  slug: bucket-mcp-server
 modified: '2026-07-18'
 name: Bucket
 nav: Providers
@@ -239,8 +235,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/screenshots/bucket-2026-07-25T204024.png
 security:

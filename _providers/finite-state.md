@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -46,11 +46,11 @@ apis:
 - description: 'GraphQL API historically documented at https://platform.finitestate.io/api/v1/graphql and still the transport used by the official Python SDK, which authenticates via a client-credentials exchange at '
   name: Finite State GraphQL API
   slug: graphql-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finite-state-mcp.yml
 - group: operate
   title: ''
@@ -192,10 +192,6 @@ created: '2026-08-04'
 description: Finite State is a product security platform for connected-device and embedded software manufacturers. It performs binary and firmware composition analysis, source-code scanning and third-party scan ingestion, SBOM generation and lifecycle management (CycloneDX and SPDX), VEX, EPSS- and reachability-based vulnerability prioritization, license-policy enforcement, and evidence-backed compliance reporting for regimes such as the EU Cyber Resilience Act, FDA 524B, ISO 21434 and IEC 62443. Programmatic access is offered through a token-authenticated REST API on the platform host, a legacy GraphQL API with an official Python SDK, the fs-cli command-line tool, and CI/CD integrations for GitHub Actions, Jenkins and Azure DevOps. Finite State also publishes an anonymous, read-only A2A JSON-RPC content API described by an agent card at its canonical well-known path.
 image: https://finitestate.io/images/backgrounds/hero-space.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Finite State MCP Server
-  slug: finite-state-mcp-server
 modified: '2026-08-04'
 name: Finite State
 nav: Providers
@@ -231,8 +227,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:

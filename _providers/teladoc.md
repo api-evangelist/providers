@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -217,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/screenshots/teladoc-2026-08-17T082301.png
 security:

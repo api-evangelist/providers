@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-09-02'
+  score: 38.7
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ apis:
 - description: Public FHIR R4 API for drug formulary information, based on the Da Vinci PDEX US Drug Formulary implementation guide.
   name: Plan Coverage & Formularies API
   slug: plan-coverage-formularies-api
-artifact_total: 50
+artifact_total: 49
 collections:
 - collection_type: open
   name: API Collection
@@ -298,7 +298,7 @@ common:
   url: data-model/devoted-health-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/devoted-health-mcp.yml
 - group: agent
   title: ''
@@ -362,7 +362,7 @@ common:
   url: lifecycle/devoted-health-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/devoted-health-mcp.yml
 - group: other
   title: ''
@@ -414,7 +414,7 @@ common:
   url: lifecycle/devoted-health-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/devoted-health-mcp.yml
 - group: other
   title: ''
@@ -436,10 +436,6 @@ created: '2026-07-17'
 description: 'Devoted Health is a Medicare Advantage health insurance company that operates its own health plans, clinical care, and pharmacy for older Americans. For developers, Devoted publishes CMS Interoperability (21st Century Cures Act) FHIR R4 (4.0.1) APIs: a member-authorized Patient Access API exposing claims, clinical, and coverage data (Patient, Condition, Encounter, Medication, ExplanationOfBenefit), and public Provider Directory, Pharmacy Directory, and Drug Formulary APIs (Practitioner, Organization, Location, HealthcareService, InsurancePlan, MedicationKnowledge, List). Access uses OAuth 2.0 / OpenID Connect with SMART-on-FHIR authorization; third-party member-facing apps register for a Client ID and Secret through Devoted''s interoperability team.'
 image: https://www.devoted.com/wp-content/uploads/2021/03/devoted-health-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Devoted Health MCP Server
-  slug: devoted-health-mcp-server
 modified: '2026-07-18'
 name: Devoted Health
 nav: Providers
@@ -489,8 +485,8 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:

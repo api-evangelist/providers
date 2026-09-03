@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
   description: The Shopping API from Amadeus Solutions — 3 operation(s) for shopping.
   name: Amadeus Solutions Shopping API
   slug: amadeus-solutions-shopping-api
-artifact_total: 728
+artifact_total: 727
 collections:
 - collection_type: open
   name: API Collection
@@ -158,7 +158,7 @@ common:
   url: well-known/amadeus-solutions-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amadeus-solutions-mcp.yml
 - group: agent
   title: ''
@@ -2301,10 +2301,6 @@ jsonld:
   property_count: 136
   slug: amadeus-seat-map-display-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amadeus Solutions MCP Server
-  slug: amadeus-solutions-mcp-server
 modified: '2026-06-20'
 name: Amadeus Solutions
 nav: Providers
@@ -2367,8 +2363,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:

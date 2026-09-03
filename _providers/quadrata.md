@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Server-side REST API for Quadrata Passport: login/access-token authentication, ECDSA-signed privacy data requests, on-chain AML wallet screening, and passport attribute queries. Distributed as the @qu'
   name: Quadrata Passport API
   slug: quadrata-passport-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Quadrata Webhooks
@@ -131,7 +131,7 @@ common:
   url: components/quadrata-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quadrata-mcp.yml
 - group: design
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Quadrata is a privacy-preserving on-chain identity network for Web3, issuing a non-transferable (soulbound) NFT "Passport" that binds verified identity, compliance and reputation attributes to a user wallet without storing personal data on-chain. Integrators use the Quadrata SDK and REST API to onboard users (KYC), businesses (KYB), and accredited/sophisticated investors, run AML risk and on-chain wallet screening, request consented privacy (PII) data, and query passport attributes on-chain via smart contracts or off-chain via API. Passport attributes include DID (sybil resistance), AML score, COUNTRY, IS_BUSINESS, INVESTOR_STATUS, and Cred Protocol credit score. Supported networks include Ethereum, Polygon, Arbitrum, Optimism, Avalanche, Evmos, and KAVA.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quadrata.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Quadrata MCP Server
-  slug: quadrata-mcp-server
 modified: '2026-07-20'
 name: Quadrata
 nav: Providers
@@ -196,8 +192,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/screenshots/quadrata-2026-09-02T152551.png
 security:

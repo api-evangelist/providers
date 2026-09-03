@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify

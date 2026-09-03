@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://foo-api.esper.cloud/api
@@ -101,7 +101,7 @@ apis:
   description: Fetch API token information
   name: Esper Token API
   slug: esper-token-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Esper Events Webhooks
@@ -160,7 +160,7 @@ common:
   url: skills/esper-deploy-app-to-group.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/esper-mcp.yml
 - group: other
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: 'Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedicated devices running the Esper agent: manage devices and device groups, upload and roll out applications and versions, run device and group commands, configure compliance and enterprise policies, set up geofences, manage content, and subscribe to device events via webhooks. APIs are authenticated with a Bearer API key and served per-tenant on a dedicated Esper Cloud environment, with an official Python SDK (esperclient) and CLI.'
 image: https://avatars.githubusercontent.com/u/49017159?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Esper MCP Server
-  slug: esper-mcp-server
 modified: '2026-07-19'
 name: Esper
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
@@ -370,8 +370,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL-based management API that powers the Grafbase Dashboard and enables programmatic control of organizations, projects, schemas, branches, and deployed graph endpoints. Accessible at api.grafbase
@@ -153,8 +153,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 37.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafbase/refs/heads/main/screenshots/grafbase-2026-06-20T182315.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Per-customer JSON REST API over each Uptycs stack covering alerts and alert rules, events and event rules, assets and asset groups/tags, ad-hoc and saved SQL (osquery) queries, threat indicators/sourc
   name: Uptycs Platform API
   slug: uptycs-platform-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -107,7 +107,7 @@ common:
   url: llms/uptycs-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uptycs-mcp.yml
 - group: build
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Uptycs is a unified cloud-native application protection platform (CNAPP) and extended detection and response (XDR) company. Built on osquery — which its founders helped commercialize at scale — the Uptycs platform streams structured telemetry from endpoints, cloud workloads, containers, and Kubernetes into a SQL-queryable security data lake, powering CSPM, CWPP, CIEM, vulnerability management, compliance, threat hunting, and detection and response from a single console. Each customer runs on a dedicated stack ({stack}.uptycs.io) whose JSON REST API covers alerts, events, assets, ad-hoc SQL queries, threat intelligence, lookup tables, and users. Uptycs is backed by investors including Norwest Venture Partners and Sapphire Ventures and maintains active SOC 2 Type II compliance.
 image: https://www.uptycs.com/hubfs/About%20Us%20Page%20SPI-2.png
 layout: provider
-mcp_servers:
-- description: No official Uptycs MCP server was found (docs, npm, the public MCP registries). This is a CANDIDATE tool list derived from the real Uptycs platform API surface as exercised by the official Uptycs pack
-  name: Uptycs MCP Server
-  slug: uptycs-mcp-server
 modified: '2026-07-21'
 name: Uptycs
 nav: Providers
@@ -156,8 +152,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptycs/refs/heads/main/screenshots/uptycs-2026-09-02T165149.png
 security:

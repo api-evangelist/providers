@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.lambdatest.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.testmuai.com/ — a different registrable domain (lambdatest.com -> testmuai.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -354,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/screenshots/lambdatest-2026-06-20T184255.png
 security:

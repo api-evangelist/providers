@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -157,7 +157,7 @@ apis:
   description: User represents a single person's access to Outbrain services and to the site my.outbrain.com. A User is permitted to one or more Marketer accounts, each marketer with a role that specifies the user p
   name: Outbrain Users API
   slug: outbrain-users-api
-artifact_total: 86
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Outbrain Amplify Authentication API
@@ -464,7 +464,7 @@ common:
   url: https://www.outbrain.com/security/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/outbrain-mcp.yml
 - group: agent
   title: ''
@@ -624,10 +624,6 @@ jsonld:
   property_count: 8
   slug: outbrain-context
 layout: provider
-mcp_servers:
-- description: Outbrain (Teads) publishes NO Model Context Protocol server today. Teads has publicly announced one as an upcoming feature of the Teads AI Chatbot SDK — the developer portal page for it is headed "🚧 I
-  name: Outbrain MCP Server
-  slug: outbrain-mcp-server
 modified: '2026-08-13'
 name: Outbrain
 nav: Providers
@@ -699,8 +695,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png
 security:

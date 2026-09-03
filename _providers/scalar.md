@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 3
@@ -134,7 +134,31 @@ apis:
 - description: The workspace API from Scalar — 6 operation(s) for workspace.
   name: Scalar workspace API
   slug: scalar-workspace-api
-artifact_total: 72
+- description: Open-source (MIT) renderer that turns an OpenAPI/Swagger or AsyncAPI document into an interactive API reference with a built-in request-testing panel and multi-language code samples. Embeds from a sin
+  name: Scalar API Reference
+  slug: scalar-api-reference
+- description: Fully open-source, offline-first API client built on the OpenAPI standard - a Postman/Insomnia alternative for sending REST, GraphQL, and WebSocket requests, organizing collections and environments, r
+  name: Scalar API Client
+  slug: scalar-api-client
+- description: 'Hosted developer-portal product that combines Markdown/MDX guides with generated API references, custom domains and subdomains, themes, versions, and two-way Git Sync from GitHub. Content is deployed '
+  name: Scalar Docs Platform
+  slug: scalar-docs-platform
+- description: Open-source command-line tool (@scalar/cli) for validating and linting OpenAPI documents (Spectral rules), previewing references, and publishing/listing/ updating/deleting documents in the Scalar Regi
+  name: Scalar CLI
+  slug: scalar-cli
+- description: Hosted SDK generation that produces type-safe client libraries from an OpenAPI document for TypeScript, Python, Go, Java, PHP, C#, and Ruby, kept in sync with the registry. Paid add-on on the hosted p
+  name: Scalar SDK Generation
+  slug: scalar-sdk-generation
+- description: AI layer that lets developers chat with an API inside the docs and exposes hosted MCP (Model Context Protocol) servers generated from an OpenAPI document so agents can call the API. Metered in Agent S
+  name: Scalar Agent and MCP
+  slug: scalar-agent-mcp
+- description: Publish / list / update / delete documents - performed via the Scalar CLI (modeled).
+  name: Scalar Registry Management API
+  slug: scalar-api-registry-management-api
+- description: Public retrieval of published OpenAPI documents (confirmed public surface).
+  name: Scalar Registry Read API
+  slug: scalar-api-registry-read-api
+artifact_total: 80
 collections:
 - collection_type: open
   name: API Collection
@@ -303,6 +327,14 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.scalar.com/llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/scalar
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://guides.scalar.com
 created: '2025-01-08'
 description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go, PHP, Java, and Ruby. Used by teams at SmartBear, Microsoft ASP.NET, and 30+ framework ecosystems including Express, FastAPI, NestJS, and Spring Boot. The platform has 14.9k GitHub stars and is MIT licensed. Scalar is backed by a strong open-source community and positions itself as the modern, open alternative to Swagger UI and Postman.
 examples:
@@ -338,13 +370,13 @@ modified: '2026-05-02'
 name: Scalar
 nav: Providers
 network: true
-overview: 'Scalar publishes 24 APIs on the [APIs.io](https://apis.io/) network, including access-groups API, analytics API, api-docs API, and 21 more. Tagged areas include API Client, API Documentation, API References, Code Generation, and Developer Tools.
+overview: 'Scalar publishes 26 APIs on the [APIs.io](https://apis.io/) network, including access-groups API, analytics API, api-docs API, and 23 more. Tagged areas include API Client, API Documentation, API References, Code Generation, and Developer Tools.
 
 
   The Scalar catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scalar''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, changelog, support, and 15 more developer resources.'
+  Scalar''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, changelog, support, and 17 more developer resources.'
 plans:
 - name: Scalar Plans Pricing
   plan_count: 3
@@ -378,19 +410,19 @@ rules:
   slug: scalar-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 51.2
   coverage:
     artifact_dirs: 18
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.1
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 56.0
-    developer_ergonomics: 57.1
+    developer_ergonomics: 69.0
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 28.9
@@ -402,9 +434,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png
 security:
 - kind: authentication

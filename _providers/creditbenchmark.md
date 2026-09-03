@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Metadata discovery endpoints.
   name: Credit Benchmark Metadata API
   slug: creditbenchmark-metadata-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: overlays/creditbenchmark-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/creditbenchmark-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Credit Benchmark is a financial data company that aggregates internal credit risk assessments contributed by more than 40 leading global financial institutions into anonymized, consensus Credit Consensus Ratings and analytics covering roughly 120,000 public and private entities — over 90% of which are unrated by the traditional credit rating agencies. Its REST API delivers consensus ratings, rating distributions, aggregate credit trends, entity rating changes, and portfolio analytics, along with entity-name-to-CBID resolution (matching) and contributor-data analytics. Delivery is also available via a web app, an Excel Add-In, and file/SFTP feeds. Access is enterprise/sales-gated; the JWT-authenticated API base is https://api.creditbenchmark.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/creditbenchmark.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Credit Benchmark MCP Server
-  slug: credit-benchmark-mcp-server
 modified: '2026-08-08'
 name: Credit Benchmark
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/screenshots/creditbenchmark-2026-07-25T210720.png
 security:

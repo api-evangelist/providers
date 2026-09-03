@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.prod.quantemplate.com/v1
@@ -41,7 +41,7 @@ apis:
   description: The FabricAPI API from QuanTemplate — 2 operation(s) for fabricapi.
   name: QuanTemplate FabricAPI API
   slug: quantemplate-fabricapi-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Quantemplate Webhooks
@@ -132,7 +132,7 @@ common:
   url: errors/quantemplate-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quantemplate-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ created: '2026-07-17'
 description: Quantemplate is a data integration and management platform for the insurance industry. It automatically translates, validates, and enriches business-critical data across enterprise networks - connecting insurers, brokers, MGAs, and partners in a secure real-time data network. Its no-code environment lets business users build data-preparation workflows with AI-assisted mapping, full audit trails, permissions, and version history, plus dashboards and reporting. The FabricAPI automates data ingress and egress - run preconfigured pipelines and download the resulting datasets as CSV. Bordereaux management is a marquee solution, and the platform is used by insurers including Sompo, AXA, and Falls Lake Insurance.
 image: https://files.readme.io/29b07e5-small-QT-HEX-RGB-TRANSP_400.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: QuanTemplate MCP Server
-  slug: quantemplate-mcp-server
 modified: '2026-07-20'
 name: QuanTemplate
 nav: Providers
@@ -216,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/screenshots/quantemplate-2026-08-17T081425.png
 security:

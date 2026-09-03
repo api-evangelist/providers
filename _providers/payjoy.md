@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -79,7 +79,7 @@ apis:
   description: Endpoints related to vouchers management
   name: PayJoy Vouchers API
   slug: payjoy-vouchers-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Payjoy Webhooks
@@ -199,7 +199,7 @@ common:
   url: asyncapi/payjoy-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/payjoy-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: 'PayJoy is a fintech that provides financial access to underserved consumers in emerging markets through smartphone financing and a secured credit card that requires only a government ID. Its Partner Developer Portal exposes a REST Partner API (Sales Integration) so retail and OEM partners can integrate PayJoy point-of-sale financing: retrieve cart and sale information, list merchants and sales clerks, offer and process customer repayments, create and pay payment references, redeem and cancel vouchers, pay down payments, and pull transaction history for reconciliation. A separate E-commerce API supports online checkout and credit-application flows. Authentication is by API key; webhooks are HMAC-SHA256 signed. Founded 2015; backed by Greylock and Union Square Ventures.'
 image: https://avatars.githubusercontent.com/u/15761776?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: PayJoy MCP Server
-  slug: payjoy-mcp-server
 modified: '2026-07-20'
 name: PayJoy
 nav: Providers
@@ -263,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/screenshots/payjoy-2026-08-07T191639.png
 security:

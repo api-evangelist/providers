@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Live and recorded webinar sessions and their categories.
   name: Labayh Webinars API
   slug: labayh-webinars-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: agentic-access/labayh-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/labayh-mcp.yml
 - group: agent
   title: ''
@@ -226,10 +226,6 @@ json_schemas:
   property_count: 23
   slug: labayh-support-group
 layout: provider
-mcp_servers:
-- description: Labayh publishes no MCP server — a search of its site, the public MCP registries and the npm @modelcontextprotocol scope found nothing. This is a CANDIDATE tool surface derived from the anonymous read
-  name: Labayh MCP Server
-  slug: labayh-mcp-server
 modified: '2026-07-19'
 name: Labayh
 nav: Providers
@@ -274,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-09-02'
+  score: 41.4
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sailresearch.com/v1
@@ -250,8 +250,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/screenshots/sail-research-2026-08-17T081712.png
 security:

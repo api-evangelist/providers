@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Bank Australia Banking Products API
   slug: bank-australia-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: lifecycle/bank-australia-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-australia-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: 'Bank Australia is a customer-owned (mutual) bank headquartered in Collingwood, Victoria, tracing its origins to the 1957 CSIRO Co-operative Credit Society and formed through the merger of more than 70 credit unions and co-operatives (via mecu and bankmecu) before adopting the Bank Australia name in 2015. As an APRA-regulated authorised deposit-taking institution (ADI) and a certified B Corporation, it is owned by its customers rather than shareholders and is known for responsible, fossil-fuel-free lending. Under Australia''s Consumer Data Right (CDR / Open Banking), Bank Australia operates as a data holder: it exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-australia.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank Australia MCP Server
-  slug: bank-australia-mcp-server
 modified: '2026-07-21T12:30:00Z'
 name: Bank Australia
 nav: Providers
@@ -253,8 +249,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/screenshots/bank-australia-2026-07-21T114657.png
 security:

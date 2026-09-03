@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.partner.example.com/v1
@@ -46,7 +46,7 @@ apis:
   description: Partner stores (typically one per artist) and their merchandise.
   name: CopThis Stores API
   slug: copthis-stores-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -116,7 +116,7 @@ common:
   url: overlays/copthis-partner-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/copthis-mcp.yml
 - group: agent
   title: ''
@@ -130,10 +130,6 @@ created: '2026-07-17'
 description: CopThis is the company behind Merchbar, the official online merchandise retailer for musicians and artists, selling authenticated band and artist merch (vinyl, apparel, accessories) across thousands of artist stores. CopThis operates the Merchbar Partner API — a REST contract that merchandise and fulfillment partners implement so Merchbar can list a partner's stores and merchandise and place, track, update, and cancel orders on behalf of Merchbar customers. The API uses HTTP Basic authentication over HTTPS, a JSON envelope with a top-level data key and pagination for collections, URI-path versioning (v1), and an error envelope for 4xx/5xx responses. CopThis is a portfolio company of 500 Global.
 image: https://merchbar.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: CopThis MCP Server
-  slug: copthis-mcp-server
 modified: '2026-07-18'
 name: CopThis
 nav: Providers
@@ -171,8 +167,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/screenshots/copthis-2026-07-25T210411.png
 security:

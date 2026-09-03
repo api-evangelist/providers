@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ apis:
   description: The Yields API from Kamino — 2 operation(s) for yields.
   name: Kamino Yields API
   slug: kamino-yields-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -299,7 +299,7 @@ common:
   url: packages/kamino-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kamino-mcp.yml
 - group: design
   title: ''
@@ -357,10 +357,6 @@ created: '2026-07-17'
 description: Kamino Finance is a Solana DeFi protocol for lending and borrowing (Kamino Lend / klend), automated concentrated-liquidity and yield vaults (Kamino Earn / kvault), leveraged 'Multiply' strategies, limit orders, token swaps, and the Scope price-oracle aggregator. The Kamino Public API exposes language-agnostic HTTPS/JSON endpoints for reading real-time and historical protocol data, user positions, rewards, portfolio values, oracle prices and staking yields, plus a Transactions API that builds UNSIGNED Solana transactions for deposit, borrow, repay, withdraw and vault operations that clients sign with their own wallet. First-party TypeScript SDKs are published under the @kamino-finance npm org.
 image: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/apis.yml
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kamino MCP Server
-  slug: kamino-mcp-server
 modified: '2026-07-19'
 name: Kamino
 nav: Providers
@@ -399,8 +395,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/screenshots/kamino-2026-07-25T223446.png
 security:

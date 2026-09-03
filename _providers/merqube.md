@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: high
-  label: Public read, human-gated API key
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
-  - authentication
   - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.merqube.com
@@ -245,7 +248,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -255,7 +258,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 38.2
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -271,8 +274,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/screenshots/merqube-2026-09-02T150527.png
 security:

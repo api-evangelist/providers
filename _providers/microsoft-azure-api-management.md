@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -1404,14 +1404,14 @@ scopes:
   slug: microsoft-azure-api-management-scopes
   summary_line: 1 scope · implicit
 score:
-  band: exemplar
-  composite: 68.9
+  band: strong
+  composite: 65.4
   coverage:
     artifact_dirs: 22
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -1421,9 +1421,6 @@ score:
     discoverability: 70.4
     governance: 28.8
     operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 68.9
   provenance:
     agentic_access: derived
@@ -1432,8 +1429,8 @@ score:
       derived: 13
       marker_coverage: 17.6
       total: 74
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:

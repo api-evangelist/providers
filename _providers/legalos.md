@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -138,8 +138,8 @@ score:
   previous_composite: 16.4
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legalos/refs/heads/main/screenshots/legalos-2026-07-25T224828.png
 security:

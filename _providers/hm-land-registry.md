@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ apis:
   description: Operations regarding titles
   name: HM Land Registry Titles API
   slug: hm-land-registry-titles-api
-artifact_total: 51
+artifact_total: 50
 asyncapis:
 - description: Event surface of the HM Land Registry Business Gateway. As an application to change the Land Register moves through HMLR processing, HMLR raises notifications about it. Business units retrieve their n
   name: HM Land Registry Business Gateway Notifications
@@ -284,7 +284,7 @@ common:
   url: well-known/hm-land-registry-use-land-property-data-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hm-land-registry-mcp.yml
 - group: build
   title: ''
@@ -472,10 +472,6 @@ json_schemas:
   property_count: 1
   slug: hm-land-registry-application-validation-failed
 layout: provider
-mcp_servers:
-- description: ''
-  name: HM Land Registry MCP Server
-  slug: hm-land-registry-mcp-server
 modified: '2026-07-26'
 name: HM Land Registry
 nav: Providers
@@ -523,8 +519,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png
 security:

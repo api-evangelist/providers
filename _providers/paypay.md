@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Payments API from PayPay — 1 operation(s) for payments.
   name: PayPay Payments API
   slug: paypay-payments-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Paypay Webhooks
@@ -155,7 +155,7 @@ common:
   url: asyncapi/paypay-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paypay-mcp.yml
 - group: design
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: PayPay is Japan's largest QR/barcode mobile-payment network (a SoftBank / Yahoo Japan / Paytm joint venture) with tens of millions of users. Its Open Payment API (OPA v2) lets payment partners and merchants collect payments from PayPay wallet users through dynamic QR codes, web checkout (Web Cashier), app-invoke deep links, and a pre-authorize-and-capture flow. The REST API (base //apigw.paypay.ne.jp) is secured with HMAC-SHA256 request signatures, settles in JPY, sends transaction webhooks plus daily reconciliation files, and ships official Node, PHP, Python and Java SDKs under the github.com/paypay organization.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paypay.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PayPay MCP Server
-  slug: paypay-mcp-server
 modified: '2026-07-20'
 name: PayPay
 nav: Providers
@@ -236,8 +232,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png
 security:

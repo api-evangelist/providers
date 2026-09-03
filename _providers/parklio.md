@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Seamlessly integrate your existing systems or products with Parklio API so you can scale your operations and monitor parking space usage in real time. It provides access to your data in a way that wor
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 11.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parklio/refs/heads/main/screenshots/parklio-2026-06-20T191412.png
 security:

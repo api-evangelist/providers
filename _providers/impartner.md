@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the THQL query language with skip/take paging, fie
   name: Impartner Objects API
   slug: impartner-objects-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Impartner Webhooks
@@ -119,7 +119,7 @@ common:
   url: conformance/impartner-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/impartner-mcp.yml
 - group: design
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Impartner is a SaaS-based Partner Relationship Management (PRM) and partner revenue orchestration platform, founded in 1997 and headquartered in South Jordan, Utah, and backed by Emergence Capital. It helps enterprises manage the full indirect-channel lifecycle - partner recruitment, onboarding, deal registration, co-selling, through-channel marketing automation (TCMA), and performance measurement - from a single connected system. For developers and integrators, Impartner exposes an Objects API (version 1) over both REST and SOAP, queried with THQL (The Impartner Query Language), secured by an Auth0-based OAuth2 / OpenID Connect identity layer plus per-tenant API keys, and extended through workflow-engine webhooks and a family of first-party @impartner npm packages, design system, and CLI for building applications on Impartner Orchestration Studio.
 image: https://impartner.com/wp-content/uploads/2023/01/impartner-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Impartner MCP Server
-  slug: impartner-mcp-server
 modified: '2026-07-19'
 name: Impartner
 nav: Providers
@@ -184,8 +180,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/screenshots/impartner-2026-08-17T123914.png
 security:

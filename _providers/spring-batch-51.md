@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,13 +197,13 @@ rules:
   slug: spring-batch-51-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 27.8
   coverage:
     artifact_dirs: 15
     catalog_gap: 49.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -213,9 +213,6 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 31.5
   provenance:
     agentic_access: derived
@@ -224,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch-51/refs/heads/main/screenshots/spring-batch-51-2026-06-20T194406.png
 security:

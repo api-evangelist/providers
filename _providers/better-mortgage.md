@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Better's OpenID Connect / OAuth 2.0 identity provider for partner single sign-on, backed by AWS Cognito. Endpoints and metadata are published via the standard OIDC and OAuth authorization-server disco
@@ -120,8 +120,8 @@ score:
   previous_composite: 17.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-mortgage/refs/heads/main/screenshots/better-mortgage-2026-07-25T202809.png
 security:

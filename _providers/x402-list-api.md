@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Public REST API (OpenAPI 3.1) providing access to the x402 services directory, uptime, pricing, facilitator volumes, networks, stats, rankings, and change events. Free reads (rate-limited), with x402 '
@@ -138,6 +138,7 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -147,6 +148,7 @@ score:
     discoverability: 87.0
     governance: 50.0
     operational_transparency: 68.4
+  previous_composite: 56.6
   provenance:
     conformance: derived
     contracts:
@@ -162,8 +164,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: X402 List Api Authentication

@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the L2L Dispatch Smart Manufacturing Platform. HTTPS GET/POST/PUT/DELETE over per-tenant hosts, API-key authenticated, JSON by default (XML optional). Covers 60+ shop-floor resources incl
   name: L2L Dispatch API
   slug: l2l-dispatch-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/swipeguide-mcp.yml
 - group: company
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: SwipeGuide was a frontline digital work-instruction platform for manufacturing that has since been acquired by L2L (formerly Leading2Lean); the swipeguide.com domain now 301-redirects to l2l.com. L2L operates a Connected Workforce / Connected Manufacturing Operations platform (the L2L Dispatch Smart Manufacturing Platform) spanning maintenance, production monitoring, quality, skills, and digital work instructions on the shop floor. It exposes the L2L Dispatch REST API (v1.0) for reading and writing shop-floor data — sites, areas, lines, machines, dispatches, pitches, work orders, kaizen and more — authenticated with an API key (query auth, L2LAUTH header, or POST body) plus optional HMAC-SHA512 request signing, returning JSON (default) or XML.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swipeguide.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Swipeguide MCP Server
-  slug: swipeguide-mcp-server
 modified: '2026-07-21'
 name: Swipeguide
 nav: Providers
@@ -152,8 +148,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swipeguide/refs/heads/main/screenshots/swipeguide-2026-09-02T161410.png
 security:

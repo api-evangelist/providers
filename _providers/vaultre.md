@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ apis:
   description: Operations related to users
   name: VaultRE User API
   slug: vaultre-user-api
-artifact_total: 60
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Vaultre Webhooks
@@ -459,7 +459,7 @@ common:
   url: asyncapi/vaultre-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vaultre-mcp.yml
 - group: build
   title: ''
@@ -479,10 +479,6 @@ description: 'VaultRE - now marketed as MRI Vault CRM, after VaultRE''s parent V
   and 10,000 requests per day.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vaultre.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: VaultRE MCP Server
-  slug: vaultre-mcp-server
 modified: '2026-07-26'
 name: VaultRE
 nav: Providers
@@ -529,8 +525,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:

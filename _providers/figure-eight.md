@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.appen.com/v1
@@ -101,7 +101,7 @@ apis:
   description: Copy, launch, pause and resume workflows, check status and configuration values
   name: Figure Eight Workflows API
   slug: figure-eight-workflows-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Figure Eight Webhooks
@@ -204,7 +204,7 @@ common:
   url: data-model/figure-eight-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/figure-eight-mcp.yml
 - group: agent
   title: ''
@@ -218,10 +218,6 @@ created: '2026-07-17'
 description: Figure Eight (formerly CrowdFlower, and originally Dolores Labs) was a human-in-the-loop machine learning and artificial intelligence company founded in San Francisco in 2007 by Lukas Biewald and Chris Van Pelt. Its platform turned unlabeled text, image, audio, and video into high-quality AI training data by combining automation with a distributed contributor workforce. The company exposed a RESTful, key-authenticated JSON API for programmatically creating, configuring, launching, and monitoring annotation jobs and multi-step workflows, and for downloading aggregated judgments and reports. Figure Eight was acquired by Appen in March 2019 for up to $300M; by 2020 its assets were fully integrated into Appen and the API is now served as the Appen Platform API at api.appen.com. This profile captures that surviving API surface. figure-eight.com now redirects to appen.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/figure-eight.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Figure Eight MCP Server
-  slug: figure-eight-mcp-server
 modified: '2026-07-19'
 name: Figure Eight
 nav: Providers
@@ -261,8 +257,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.6
-  scored_at: '2026-09-02'
+  score: 16.2
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data, supporting retrieval of Fantasy Football, Baseball, Basketball and Hockey data including game, league, team, player, roster and
@@ -247,8 +247,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/screenshots/yahoo-2026-06-20T201726.png
 security:

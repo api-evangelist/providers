@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://i6eal.de
@@ -122,7 +122,7 @@ apis:
   description: Inspectable system profiles and source-evidenced links to repositories and technical inventories only.
   name: i6eal Open AI Data API Public AI System Evidence Pass API
   slug: i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -185,7 +185,7 @@ common:
   url: https://i6eal.de/apis.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/i6eal-open-ai-data-api-mcp.yml
 - group: auth
   title: ''
@@ -295,10 +295,6 @@ jsonld:
   property_count: 0
   slug: i6eal-open-ai-data-api-dcat
 layout: provider
-mcp_servers:
-- description: ''
-  name: i6eal Open AI Data API MCP Server
-  slug: i6eal-open-ai-data-api-mcp-server
 modified: '2026-08-09'
 name: i6eal Open AI Data API
 nav: Providers
@@ -345,8 +341,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/i6eal-open-ai-data-api/refs/heads/main/screenshots/i6eal-open-ai-data-api-2026-09-02T145815.png
 security:

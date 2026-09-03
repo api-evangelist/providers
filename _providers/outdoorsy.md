@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -356,7 +356,7 @@ apis:
   description: The wishlists API from Outdoorsy — 9 operation(s) for wishlists.
   name: Outdoorsy Wishlists API
   slug: outdoorsy-wishlists-api
-artifact_total: 131
+artifact_total: 130
 collections:
 - collection_type: open
   name: API Collection
@@ -675,10 +675,6 @@ created: '2026-08-02'
 description: 'Outdoorsy is an RV and campervan rental marketplace founded in 2014 and headquartered in Austin, Texas, connecting owners of recreational vehicles with travelers across North America, Europe and Australia/New Zealand. The Outdoorsy Group also operates Roamly (embedded RV insurance) and Wheelbase (RV rental fleet-management software). For developers, Outdoorsy publishes the Trailblazer Partner API at developers.outdoorsy.com — a REST platform with three integration surfaces: a fully-featured REST API for search, quoting, booking, payments and fleet management; INSTASearch embeddable JavaScript widgets; and partner deep links for attribution. Two live Swagger 2.0 contracts are published on the API hosts themselves — the core Outdoorsy API (api.outdoorsy.com/v0, 283 operations) and the Outdoorsy Search API (search.outdoorsy.com, JSON:API-formatted rental, campground, park and locality search).'
 image: https://avatars.githubusercontent.com/u/9725809?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Outdoorsy MCP Server
-  slug: outdoorsy-mcp-server
 modified: '2026-08-02'
 name: Outdoorsy
 nav: Providers
@@ -694,23 +690,23 @@ rate_limits:
   slug: outdoorsy-rate-limits
 score:
   band: developing
-  composite: 43.0
+  composite: 41.1
   coverage:
     artifact_dirs: 22
-    catalog_gap: 73.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: -1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 47.4
     developer_ergonomics: 73.2
-    discoverability: 70.4
+    discoverability: 51.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 41.1
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -727,8 +723,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/screenshots/outdoorsy-2026-08-17T124435.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Uplight markets a Developer Platform that exposes customer, program, eligibility, enrollment, device, and energy-flexibility data to utilities and ecosystem partners through APIs. The reference is pub
@@ -171,8 +171,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/screenshots/uplight-2026-09-02T165035.png
 security:

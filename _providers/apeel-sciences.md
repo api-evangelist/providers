@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,6 +93,10 @@ common:
   title: ''
   type: Investors
   url: https://forgeglobal.com/apeel-sciences_stock/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apeel.com/
 created: '2026-08-02'
 description: 'Apeel (Apeel Sciences) is a food technology company founded in 2012 and headquartered in Goleta, California. It produces a plant-derived, edible coating, made from lipids and glycerolipids found in the peels, seeds and pulp of produce, that is applied to fresh fruit and vegetables at packing houses to slow water loss and oxidation, extending shelf life and reducing food waste across the supply chain. Apeel-treated produce is sold through grocery retailers in multiple countries. In 2021 Apeel acquired ImpactVision and added hyperspectral imaging to its supplier installations to grade interior quality, ripeness and freshness. Apeel is a materials-science and supply-chain operator: as of this profile it publishes no public developer portal, API documentation, machine-readable API contract, or self-serve developer sign-up.'
 image: https://a.storyblok.com/f/157795/1080x360/48b77e842b/apeel-home.jpg
@@ -104,7 +108,7 @@ network: true
 overview: 'Apeel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Technology, AgTech, Food Waste, and Supply Chain.
 
 
-  Apeel''s developer surface includes FAQ, product news, engineering blog, support, and 10 more developer resources.'
+  Apeel''s developer surface includes FAQ, product news, engineering blog, support, and 11 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -125,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 11.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apeel-sciences/refs/heads/main/screenshots/apeel-sciences-2026-08-07T161438.png
 security:

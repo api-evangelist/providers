@@ -7,6 +7,7 @@ access_model:
   public: true
   source:
   - authentication
+  - '{''url'': ''https://www.liberateinc.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.liberate.ai/ — a different registrable domain (liberateinc.com -> liberate.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://integration.liberateinc.io
@@ -46,7 +47,7 @@ apis:
   description: Start workflow orchestrations and pass context data into them.
   name: Liberate Innovations Workflows API
   slug: liberate-innovations-workflows-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -60,7 +61,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/liberate-innovations-mcp.yml
 - group: other
   title: ''
@@ -171,10 +172,6 @@ description: Liberate Innovations, Inc. (trading as Liberate) is a Palo Alto, Ca
   Snapsheet, and Microsoft Outlook.
 image: https://cdn.prod.website-files.com/69d93976ca90059d5696cd0b/69d93976ca90059d5696cef7_Webclip.png
 layout: provider
-mcp_servers:
-- description: Liberate publishes no official hosted or remote Model Context Protocol server. No MCP endpoint, npm/PyPI MCP package, registry listing, or mcp.json manifest was found on any Liberate host or in the pu
-  name: Liberate Orchestration Platform MCP candidate
-  slug: liberate-orchestration-platform-mcp-candidate
 modified: '2026-07-19'
 name: Liberate Innovations
 nav: Providers
@@ -218,8 +215,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:

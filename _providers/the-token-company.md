@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.thetokencompany.com
@@ -46,7 +46,7 @@ apis:
   description: Compressed web search
   name: The Token Company Search API
   slug: the-token-company-search-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: changelog/the-token-company-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/the-token-company-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: The Token Company builds LLM input-compression middleware. A single API call runs a prompt, a full chat conversation, or web-search results through their bear compression models (bear-2 latest, plus bear-1.2/1.1/1) to strip low-signal tokens before the text reaches a language model, cutting cost and latency while preserving output quality. It ships drop-in Python and Node.js SDKs that wrap the OpenAI, Anthropic, Vercel AI SDK, and OpenRouter clients so existing apps compress automatically, plus content-protection (ttc_safe) tags, per-app usage tagging, and a zero-data-retention policy. A Y Combinator (W26) company based in San Francisco.
 image: https://thetokencompany.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: The Token Company MCP Server
-  slug: the-token-company-mcp-server
 modified: '2026-07-21'
 name: The Token Company
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/screenshots/the-token-company-2026-08-17T082339.png
 security:

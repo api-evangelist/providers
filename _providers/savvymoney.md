@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: JWT-based Single Sign-On REST API that lets a partner's online or mobile banking platform transfer an authenticated member into SavvyMoney without a second set of credentials. Publicly documented oper
@@ -203,8 +203,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/screenshots/savvymoney-2026-09-02T154453.png
 security:

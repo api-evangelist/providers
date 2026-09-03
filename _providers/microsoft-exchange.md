@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ arazzos:
 - description: Find a contact by email and update it if it exists, otherwise create it.
   name: Microsoft Exchange Upsert a Contact
   slug: microsoft-exchange-upsert-contact-workflow
-artifact_total: 131
+artifact_total: 130
 collections:
 - collection_type: postman
   name: Microsoft Exchange Exchange Online Admin API
@@ -321,7 +321,7 @@ common:
   url: well-known/microsoft-exchange-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/microsoft-exchange-mcp.yml
 - group: agent
   title: ''
@@ -705,10 +705,6 @@ jsonld:
   property_count: 13
   slug: microsoft-exchange-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for Microsoft Exchange derived one-tool-per-operation from the repo's OpenAPI definitions (79 operations across the Graph Mail, Calendar, Contacts, People, Import/Export, and Exch
-  name: Microsoft Exchange MCP Server
-  slug: microsoft-exchange-mcp-server
 modified: '2026-06-20'
 name: Microsoft Exchange
 nav: Providers
@@ -773,8 +769,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:

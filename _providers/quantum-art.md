@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -163,7 +163,7 @@ apis:
   description: The User API from Quantum Art — 1 operation(s) for user.
   name: Quantum Art User API
   slug: quantum-art-user-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -267,7 +267,7 @@ common:
   url: errors/quantum-art-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quantum-art-mcp.yml
 - group: agent
   title: ''
@@ -333,10 +333,6 @@ created: '2026-07-17'
 description: Quantum Art is a quantum computing company building best-in-class, scalable quantum computers for commercial applications. Its technology combines advanced multi-qubit gates that implement up to 1,000 standard two-qubit operations in a single action with a dynamically reconfigurable multi-core trapped-ion architecture that runs tens of independent cores in parallel with microsecond reconfiguration. Quantum Art targets chemistry and materials science, machine learning, process optimization, and finance. It exposes its systems through a Quantum-as-a-Service (QaaS) platform whose QaaS Backend API offers a Qiskit-provider-compatible interface for listing backends, submitting and managing quantum jobs, retrieving results, plus account, task, artifact, and administration management. Backed by Battery Ventures.
 image: https://qaas.quantum-art.tech/logo-square.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Quantum Art MCP Server
-  slug: quantum-art-mcp-server
 modified: '2026-07-20'
 name: Quantum Art
 nav: Providers
@@ -375,8 +371,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/screenshots/quantum-art-2026-09-02T152619.png
 security:

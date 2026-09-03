@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-09-02'
+  score: 37.9
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.mystars.tg
@@ -262,8 +262,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/screenshots/mystars-2026-09-02T150711.png
 security:

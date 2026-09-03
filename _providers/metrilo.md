@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: The API API from Metrilo — 10 operation(s) for api.
   name: Metrilo API
   slug: metrilo-api-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -161,7 +161,7 @@ common:
   url: data-model/metrilo-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/metrilo-mcp.yml
 - group: agent
   title: ''
@@ -215,10 +215,6 @@ created: '2026-07-17'
 description: Metrilo is a plug-and-play ecommerce growth platform that combines real-time analytics, an ecommerce CRM, and email marketing for online brands. Founded in 2014 and acquired by Brevo (formerly Sendinblue) in 2021, Metrilo tracks visitor and customer behavior, builds rich customer profiles with 30+ segmentation filters, and powers retention-focused email campaigns. Developers integrate via official plugins for WooCommerce, Magento, and OpenCart, a client-side JavaScript tracking library (window.metrilo), and a server-side ingestion API at trk.mtrl.me/v2 that pushes customers, categories, products, and orders using an API Token plus an HMAC-SHA256 X-Digest request signature.
 image: https://www.metrilo.com/images/metrilo-1200x628.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Metrilo MCP Server
-  slug: metrilo-mcp-server
 modified: '2026-08-13'
 name: Metrilo
 nav: Providers
@@ -265,8 +261,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:

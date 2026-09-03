@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JSON:API-based REST API for portfolio management, transactions, positions, the ownership graph (entities/groups), attributes, benchmarks, files, jobs, billing, reporting, and administration on the Add
   name: Addepar API
   slug: addepar-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Addepar is a wealth-management technology and data platform for investment portfolio management, analysis, and reporting used by family offices, RIAs, private banks, and wealth managers. Its REST API follows the JSON:API specification (application/vnd.api+json) and exposes portfolio, transactions, positions, entities, groups, attributes, benchmarks, files, jobs, roles, teams, and users resources across Portfolio, Ownership Graph, and Admin workflows. Access is secured with HTTP Basic authentication (API key/secret plus an Addepar-Firm header) or an OAuth 2.0 authorization-code flow with granular scopes. Addepar was surfaced as a portfolio company of 8VC and Craft Ventures and enriched into the API Evangelist network.
 image: https://logo.clearbit.com/addepar.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Addepar MCP (candidate)
-  slug: addepar-mcp-candidate
 modified: '2026-07-17'
 name: Addepar
 nav: Providers
@@ -149,8 +145,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/addepar/refs/heads/main/screenshots/addepar-2026-07-25T181615.png
 security:

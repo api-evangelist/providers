@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ apis:
   description: The Provenance API from Tebra — 1 operation(s) for provenance.
   name: Tebra Provenance API
   slug: tebra-provenance-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -196,7 +196,7 @@ common:
   url: overlays/tebra-fhir-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tebra-mcp.yml
 - group: agent
   title: ''
@@ -311,10 +311,6 @@ finops:
   slug: tebra-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tebra.png
 layout: provider
-mcp_servers:
-- description: 'No official Tebra MCP server was found. Probed https://www.tebra.com/mcp (404) and POSTed a tools/list JSON-RPC request to https://fhir.prd.cloud.tebra.com/mcp (302 redirect to the SmileCDR SPA login '
-  name: Tebra MCP Server
-  slug: tebra-mcp-server
 modified: '2026-08-14'
 name: Tebra
 nav: Providers
@@ -380,8 +376,8 @@ score:
     regime: Health
     regime_id: health
     score: 86.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/screenshots/tebra-2026-08-17T082258.png
 security:

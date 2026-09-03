@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ arazzos:
 - description: From a latitude/longitude, find the nearest licensed transmitter sites, pull the frequency assignments in a band and postcode range around them, and attribute an assignment back to its licensee.
   name: ACMA — spectrum survey by location
   slug: acma-spectrum-survey-by-location
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: ACMA Spectrum Licensing API
@@ -107,7 +107,7 @@ common:
   url: overlays/acma-spectrum-licensing-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/acma-mcp.yml
 - group: agent
   title: ''
@@ -260,10 +260,6 @@ examples:
   slug: acma-site-search
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ACMA MCP Server
-  slug: acma-mcp-server
 modified: '2026-07-25'
 name: ACMA
 nav: Providers
@@ -316,8 +312,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-17T082235.png
 security:

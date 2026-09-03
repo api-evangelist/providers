@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ arazzos:
 - description: Search the Cofactr Knowledge Graph for a part, then view its full detail.
   name: Cofactr — search and view a component
   slug: cofactr-search-and-view-product
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Cofactr Platform Webhooks
@@ -142,7 +142,7 @@ common:
   url: asyncapi/cofactr-platform-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cofactr-mcp.yml
 - group: agent
   title: ''
@@ -204,10 +204,6 @@ created: '2026-07-17'
 description: 'Cofactr provides electronics supply chain infrastructure for hardware manufacturers — component intelligence, procurement execution, and ITAR-registered warehousing and kitting — so teams avoid shortages and production delays with full traceability. Its developer surface exposes two REST APIs: the Knowledge Graph (Component Cloud) API for searching parts, offers, pricing, and specs, and the Platform API for BOMs, purchase orders, kits, invoices, and inventory, plus outbound webhooks and integrations with NetSuite, SAP, Arena, Altium 365, QuickBooks, and more.'
 image: https://cdn.sanity.io/images/fdrwu6gi/production/4ecf7716c98de655cbae16fedb06c8142e446975-600x592.jpg?w=1200&fm=webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cofactr MCP Server
-  slug: cofactr-mcp-server
 modified: '2026-07-18'
 name: Cofactr
 nav: Providers
@@ -253,8 +249,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:

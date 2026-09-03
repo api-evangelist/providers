@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: TPP certificate lifecycle.
   name: Holvi Third Party Provider API
   slug: holvi-third-party-provider-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: well-known/holvi-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/holvi-mcp.yml
 - group: design
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Holvi is a Finnish digital business-banking service for freelancers, founders and small businesses, founded in Helsinki in 2011 and operating as a regulated Authorised Payment Institution supervised by the Finnish Financial Supervisory Authority. It combines a business account with its own IBAN, a Holvi Business Mastercard, invoicing, expense tracking, VAT calculation and bookkeeping preparation in one dashboard, serving more than 150,000 businesses across Europe with a focus on Finland, Germany and Austria. For developers, Holvi publishes a PSD2 API v2.0 for licensed Third Party Providers, exposing account information (AISP) and payment initiation (PISP, SEPA / SEPA Instant / SWIFT) with Strong Customer Authentication and optional Verification of Payee.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holvi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Holvi MCP Server
-  slug: holvi-mcp-server
 modified: '2026-07-19'
 name: Holvi
 nav: Providers
@@ -249,8 +245,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

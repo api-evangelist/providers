@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -128,7 +128,7 @@ apis:
   description: The Transaction API from Spare — 5 operation(s) for transaction.
   name: Spare Transaction API
   slug: spare-transaction-api
-artifact_total: 42
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Spare Webhooks
@@ -311,7 +311,7 @@ common:
   url: data-model/spare-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spare-mcp.yml
 - group: design
   title: ''
@@ -325,10 +325,6 @@ created: '2026-07-17'
 description: Spare is a MENA-region open banking and open finance platform, licensed by the Central Bank of Bahrain as an Account Information Service Provider and Payment Initiation Service Provider (AISP/PISP) and permitted to test under the Saudi Central Bank (SAMA) regulatory sandbox. Spare exposes RESTful Account Information Services (AIS) — account details, balances, transactions, statements, beneficiaries, parties, direct debits, plus risk and affordability reports — and Payment Initiation Services (PIS) for domestic single, future-dated and standing-order payments, across separate Bahrain, KSA and UAE tenants hosted in-region for data-residency compliance. Developers authenticate with OAuth2 client credentials to obtain signed JWT bearer tokens, drive a customer to connection to consent to data flow, verify token and webhook signatures against a published JWKS, and integrate via official TypeScript, Java, .NET and PHP SDKs plus Postman collections.
 image: https://files.readme.io/91c2031-small-Spare-logo-white3x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spare MCP Server
-  slug: spare-mcp-server
 modified: '2026-07-21'
 name: Spare
 nav: Providers
@@ -381,8 +377,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/screenshots/spare-2026-08-17T082018.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Users & Workflow API from VBOUT — 9 operation(s) for users & workflow.
   name: VBOUT Users & Workflow API
   slug: vbout-users-workflow-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Vbout Webhooks
@@ -299,7 +299,7 @@ common:
   url: well-known/vbout-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vbout-mcp.yml
 - group: agent
   title: ''
@@ -329,10 +329,6 @@ created: '2026-07-17'
 description: VBOUT is an AI-enabled marketing automation platform used by agencies and small-to-mid-size businesses to run email marketing, social media scheduling, landing pages, popups, lead scoring, and an AI chatbot from one place. The VBOUT REST API (v1.0 at api.vbout.com/1) exposes the platform programmatically — contacts, lists, audiences, email campaigns and stats, social channels, calendar and posts, conversion goals, sub-users and groups, on-site engagement actions, automations, pipeline boards, and account settings — authenticated with an account API key, with responses in JSON or XML and a documented 15 requests/second rate limit. VBOUT is a 500 Global portfolio company.
 image: https://developers.vbout.com/images/front/icons/logo-square-114x114.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool surface for the VBOUT API, derived one tool per operation from the provider-published OpenAPI 3.1.0 document (71 operations across Application, Social Media, Email Marketing,
-  name: VBOUT MCP Server
-  slug: vbout-mcp-server
 modified: '2026-08-13'
 name: VBOUT
 nav: Providers
@@ -382,8 +378,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/screenshots/vbout-2026-08-17T082712.png
 security:

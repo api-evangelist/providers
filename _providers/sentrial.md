@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sentrial.com
@@ -46,7 +46,7 @@ apis:
   description: Create and manage agent sessions.
   name: Sentrial Sessions API
   slug: sentrial-sessions-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: overlays/sentrial-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sentrial-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: Sentrial is an observability platform for AI agents, backed by Y Combinator. It tracks every agent session, tool call, and LLM interaction, then automatically detects issues, diagnoses root causes, and helps teams fix them in code. Developers instrument agents with the Sentrial Python or TypeScript SDK (one-line integrations for LangChain, CrewAI, AutoGen, Mastra, the Vercel AI SDK, and the Claude Agent SDK), by sending OpenTelemetry traces, or by calling the REST ingestion API (https://api.sentrial.com) directly to create sessions and record events. A `sentrial` CLI ships with the SDK for local setup, scriptable session/event inspection, diagnosis, and CI regression gates.
 image: https://www.sentrial.com/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sentrial MCP Server
-  slug: sentrial-mcp-server
 modified: '2026-07-21'
 name: Sentrial
 nav: Providers
@@ -195,8 +191,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/screenshots/sentrial-2026-08-17T081809.png
 security:

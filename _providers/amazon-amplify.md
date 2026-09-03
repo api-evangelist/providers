@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Apps API from Amazon Amplify — 4 operation(s) for apps.
   name: Amazon Amplify Apps API
   slug: amazon-amplify-apps-api
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: open
   name: API Collection
@@ -95,7 +95,7 @@ common:
   url: well-known/amazon-amplify-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-amplify-mcp.yml
 - group: agent
   title: ''
@@ -303,10 +303,6 @@ jsonld:
   property_count: 10
   slug: amazon-amplify-context
 layout: provider
-mcp_servers:
-- description: No single hosted MCP server dedicated to the Amplify Hosting management REST API was found. AWS publishes related MCP servers (see related_servers). The tools below are a candidate mapping, one per Op
-  name: Amazon Amplify MCP Server
-  slug: amazon-amplify-mcp-server
 modified: '2026-06-20'
 name: Amazon Amplify
 nav: Providers
@@ -369,8 +365,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:

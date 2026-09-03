@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://time.now/developer/api
@@ -46,7 +46,7 @@ apis:
   description: The Timezone API from Sunrise Atelier — 2 operation(s) for timezone.
   name: Sunrise Atelier Timezone API
   slug: sunrise-atelier-timezone-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -60,7 +60,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sunrise-atelier-mcp.yml
 - group: other
   title: ''
@@ -102,10 +102,6 @@ created: '2026-07-17'
 description: Sunrise Atelier operates Sunrise.am, a free consumer service that provides accurate sunrise, sunset, twilight, golden-hour and daylight times for every city and country worldwide, plus a solar calendar, an online clock, and educational articles. For developers, Sunrise.am publishes a free public World Time API (documented at https://sunrise.am/developer and served from the time.now host) that returns the current time, timezone information, daylight-saving data, and IP-based time geolocation as clean JSON with no API key required and CORS enabled. Surfaced as a portfolio company of 500 Global and enriched in the API Evangelist network from its live developer surface.
 image: https://sunrise.am/static/sunrise-am-og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sunrise Atelier MCP Server
-  slug: sunrise-atelier-mcp-server
 modified: '2026-07-21'
 name: Sunrise Atelier
 nav: Providers
@@ -143,8 +139,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/screenshots/sunrise-atelier-2026-09-02T161146.png
 security:

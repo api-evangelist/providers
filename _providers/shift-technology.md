@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,6 +68,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/shift-technology-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shift-technology.com/resources
 created: '2026-07-17'
 description: Shift Technology is an insurance-focused artificial intelligence company that builds purpose-built AI agents automating critical insurance workflows, including claims processing and automation, fraud and financial-crime detection, coverage assessment, subrogation, and payment integrity. Founded in Paris and now operating globally, Shift serves 120+ insurance customers across more than 30 countries and has analyzed billions of policies, claims, and supporting documents. Shift deploys as cloud SaaS and integrates with insurer core systems through its technology, data, and service partner programs. The company does not publish a public developer API, OpenAPI specification, or self-service developer portal; integrations are delivered as enterprise engagements. This profile was surfaced as a venture-portfolio lead and enriched by the API Evangelist pipeline; the artifacts here capture the company's public security, compliance, and domain posture rather than a public API.
 image: https://www.shift-technology.com/favicon.ico
@@ -79,23 +83,23 @@ network: true
 overview: 'Shift Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Insurance, Insurtech, and Fraud Detection.
 
 
-  Shift Technology''s developer surface includes support and 7 more developer resources.'
+  Shift Technology''s developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 16.7
+  composite: 17.1
   coverage:
     artifact_dirs: 3
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 10.5
@@ -114,8 +118,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/screenshots/shift-technology-2026-09-02T155204.png
 security:

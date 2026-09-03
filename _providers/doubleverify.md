@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol endpoint that exposes DoubleVerify's media quality, verification and performance data to an AI assistant as the DV Neura Insight Agent. DoubleVerify states that cl
@@ -241,8 +241,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/screenshots/doubleverify-2026-06-20T180204.png
 security:

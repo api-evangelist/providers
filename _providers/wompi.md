@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -77,7 +77,7 @@ apis:
   description: Create and track payment transactions.
   name: Wompi Transactions API
   slug: wompi-transactions-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Wompi Webhooks
@@ -213,7 +213,7 @@ common:
   url: data-model/wompi-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wompi-mcp.yml
 - group: agent
   title: ''
@@ -263,10 +263,6 @@ finops:
   slug: wompi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wompi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wompi MCP Server
-  slug: wompi-mcp-server
 modified: '2026-07-17'
 name: Wompi
 nav: Providers
@@ -322,8 +318,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/screenshots/wompi-2026-08-17T082934.png
 security:

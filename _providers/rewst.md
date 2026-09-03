@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Inbound custom webhook triggers that start Rewst workflows. An external system sends an HTTP request (method configured per trigger) to a per-trigger URL; the normalized payload ({body, headers, metho
@@ -198,8 +198,8 @@ score:
   previous_composite: 46.4
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rewst/refs/heads/main/screenshots/rewst-2026-08-17T081551.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Bi-directional API for technology platforms to request insurance coverage for their customers' suppliers and receive real-time, source-verified policy data, PDF certificates of insurance and endorseme
@@ -143,8 +143,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certificial/refs/heads/main/screenshots/certificial-2026-09-02T145029.png
 security:

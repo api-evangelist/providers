@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ThunderCore mainnet (chain ID 108, TT gas token). Supports the standard eth_/net_/web3_ method surface over HTTPS, with WebSocket endpoints for subscriptio
@@ -48,7 +48,7 @@ apis:
 - description: GraphQL query surface over official ThunderCore subgraphs (TTSwap DEX and TT Mining) served from ThunderCore's Graph node; third-party subgraph deployment is available on request via support@thunderco
   name: ThunderCore Subgraph GraphQL API
   slug: thundercore-subgraph-graphql-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: GENERATED (not provider-published) AsyncAPI description of ThunderCore's documented WebSocket endpoints. ThunderCore publishes WebSocket URLs for mainnet and testnet and recommends WebSockets for havi
   name: ThunderCore WebSocket JSON-RPC event surface
@@ -116,7 +116,7 @@ common:
   url: packages/thundercore-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thundercore-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: ThunderCore is an EVM-compatible layer-1 public blockchain with roughly one-second block times and single-block finality, using TT as its native gas token (chain ID 108). Its external protocol is Ethereum-compatible, so standard Ethereum JSON-RPC methods, wallets, and Solidity toolchains (Hardhat, Foundry, Truffle, Remix) work against the public RPC and WebSocket endpoints, alongside a BlockScout explorer API, official subgraphs on The Graph, a cross-chain bridge, and a public testnet with a faucet. Backed by Pantera Capital.
 image: https://www.thundercore.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: 'No official ThunderCore MCP server was found (npm, the modelcontextprotocol registry, and the docs were searched). This is a CANDIDATE tool list derived from the documented public API surface: the Eth'
-  name: ThunderCore MCP Server
-  slug: thundercore-mcp-server
 modified: '2026-07-21'
 name: ThunderCore
 nav: Providers
@@ -200,8 +196,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/screenshots/thundercore-2026-08-17T082355.png
 security:

@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 5
 common:
@@ -136,8 +140,8 @@ score:
   previous_composite: 13.6
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-runner/refs/heads/main/screenshots/spot-runner-2026-09-02T160549.png
 security:

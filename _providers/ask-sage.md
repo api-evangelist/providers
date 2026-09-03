@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 6
@@ -203,7 +203,7 @@ apis:
   description: Workbook management
   name: Ask Sage Workbooks API
   slug: ask-sage-workbooks-api
-artifact_total: 70
+artifact_total: 69
 collections:
 - collection_type: open
   name: API Collection
@@ -379,7 +379,7 @@ common:
   url: packages/ask-sage-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ask-sage-mcp.yml
 - group: agent
   title: ''
@@ -433,10 +433,6 @@ created: '2026-07-17'
 description: Ask Sage is a secure, government- and defense-grade generative AI platform that gives regulated organizations access to a broad catalog of commercial and open large language models behind a strict compliance boundary (FedRAMP High, DoD Impact Level 5/6, CMMC, NIST 800-53, GDPR). Beyond chat, it offers retrieval over private datasets, agents and an Agent Builder, plugins, a Deep Agent, and Model Context Protocol (MCP) integrations for Microsoft 365, GitHub, and Box. The platform is exposed through two REST APIs — a Server API for core AI operations (models, completions, agents, datasets, training) and a User API for authentication, API keys, and dataset management — plus OpenAI-, Anthropic-, and Gemini-style compatibility endpoints and an official Python client.
 image: https://www.asksage.ai/wp-content/uploads/2021/06/3_WHT.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ask Sage MCP Server
-  slug: ask-sage-mcp-server
 modified: '2026-07-18'
 name: Ask Sage
 nav: Providers
@@ -481,8 +477,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/screenshots/ask-sage-2026-07-25T201421.png
 security:

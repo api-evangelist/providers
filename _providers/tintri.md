@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
   name: Tintri VMstore REST API
   slug: tintri-vmstore-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: operate
   title: ''
@@ -127,7 +127,7 @@ common:
   url: well-known/tintri-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tintri-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC) management fabric. Tintri exposes a versioned, session-authenticated REST API (v310) on every VMstore appliance and TGC instance, letting operators automate VM- and virtual-disk-level provisioning, snapshots, replication, QoS, alerting, and per-VM analytics. First-party automation ships as a Python SDK (PySDK), a PowerShell Automation Toolkit, Ansible playbooks, and Kubernetes CSI and OpenStack Cinder storage drivers, all published in the public Tintri GitHub organization alongside the REST API reference and code examples.'
 image: https://tintri.github.io/tintri-rest-api/TintriLogo-300.png
 layout: provider
-mcp_servers:
-- description: Candidate Model Context Protocol server for the Tintri VMstore REST API. Tintri publishes no official hosted/remote MCP server; this is a derived candidate tool list mapped from the documented v310 RE
-  name: Tintri MCP Server
-  slug: tintri-mcp-server
 modified: '2026-07-21'
 name: Tintri
 nav: Providers
@@ -180,8 +176,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/screenshots/tintri-2026-09-02T163809.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -436,7 +436,7 @@ apis:
   description: The Troncs API from Harri — 2 operation(s) for troncs.
   name: Harri Troncs API
   slug: harri-troncs-api
-artifact_total: 164
+artifact_total: 163
 asyncapis:
 - description: ''
   name: Harri Webhooks
@@ -798,7 +798,7 @@ common:
   url: well-known/harri-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/harri-mcp.yml
 - group: agent
   title: ''
@@ -813,10 +813,6 @@ description: Harri is a hospitality-first human capital management (HCM) and wor
   and franchise operators.
 image: https://cdn.harri.com/10c3cd15-ec51-41c0-ba18-3227e664ad83/images/icons/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Harri MCP Server
-  slug: harri-mcp-server
 modified: '2026-08-04'
 name: Harri
 nav: Providers
@@ -846,7 +842,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -856,7 +852,7 @@ score:
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 44.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -867,8 +863,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:

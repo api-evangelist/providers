@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
   name: Highnote Webhooks & Event Notifications API
   slug: highnote-webhooks-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: Highnote delivers event notifications to registered HTTPS webhook notification targets (addWebhookNotificationTarget) via outbound POST. Subscribe a target to event types with addSubscriptionsToNotifi
   name: Highnote Event Notifications
@@ -200,7 +200,7 @@ common:
   url: packages/highnote-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/highnote-mcp.yml
 - group: build
   title: ''
@@ -291,10 +291,6 @@ graphqls:
   slug: highnote-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highnote.png
 layout: provider
-mcp_servers:
-- description: No official Highnote-hosted MCP server was found (searched docs, npm @modelcontextprotocol, and public MCP registries as of 2026-07-23). This is a DERIVED candidate tool list — one tool per marquee Gr
-  name: Highnote MCP Server
-  slug: highnote-mcp-server
 modified: '2026-07-23'
 name: Highnote
 nav: Providers
@@ -350,8 +346,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:

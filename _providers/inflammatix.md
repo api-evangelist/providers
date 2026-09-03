@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - baseURL: https://inflammatix.com/wp-json/wp/v2
@@ -122,7 +122,7 @@ apis:
   description: The Types API from Inflammatix — 1 operation(s) for types.
   name: Inflammatix Types API
   slug: inflammatix-types-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: Inflammatix Site Content API (WordPress REST)
@@ -141,7 +141,7 @@ common:
   url: overlays/inflammatix-support-content-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inflammatix-mcp.yml
 - group: company
   title: ''
@@ -248,10 +248,6 @@ description: Inflammatix is a molecular diagnostics company headquartered in Sun
   instrument advertises "multiple LIS connectivity options" and remote notification, but no public interface specification. The machine-readable surfaces it does serve are the WordPress REST content APIs behind inflammatix.com and its customer support/training portal, which expose the company's peer-reviewed publication library and the TriVerity/Myrna course catalogue as JSON.
 image: https://inflammatix.com/wp-content/uploads/2025/05/logo-revdark-850-1024x242.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Inflammatix MCP Server
-  slug: inflammatix-mcp-server
 modified: '2026-08-01'
 name: Inflammatix
 nav: Providers
@@ -295,8 +291,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:

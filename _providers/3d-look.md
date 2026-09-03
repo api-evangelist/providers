@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API to create a person, upload front and side photos, and asynchronously retrieve 80+ calculated body measurements for made-to-measure apparel, uniforms, and size recommendation.
@@ -42,7 +42,7 @@ apis:
 - description: REST API for body composition and health/fitness insights - body measurements, weight prediction, BMI/body-fat/BMR, 3D model prediction, and 2D/3D body-progress comparison, with subscription usage tra
   name: FitXpress API
   slug: fitxpress-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -106,7 +106,7 @@ common:
   url: conventions/3d-look-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/3d-look-mcp.yml
 - group: design
   title: ''
@@ -124,10 +124,6 @@ created: '2026-07-17'
 description: '3DLOOK is an AI-powered body measurement and mobile body-scanning company whose computer-vision technology extracts 80+ accurate body measurements and 3D body models from just two smartphone photos. It offers two developer products: SAIA Perfect Fit / Mobile Tailor (a made-to-measure and size-recommendation API for apparel, uniforms, and on-demand manufacturing) and FitXpress (a body-composition and health/fitness insights API delivering weight prediction, BMI, body-fat, BMR, and 2D/3D body-progress visualization). Both expose REST APIs with API-key authentication, a JavaScript SDK, native iOS and Android capture SDKs, and embeddable photo-capture and measurement widgets.'
 image: https://3dlook.ai/wp-content/uploads/2024/12/fitxpress.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: 3D Look MCP Server
-  slug: 3d-look-mcp-server
 modified: '2026-07-17'
 name: 3D Look
 nav: Providers
@@ -164,8 +160,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/screenshots/3d-look-2026-07-25T181146.png
 security:

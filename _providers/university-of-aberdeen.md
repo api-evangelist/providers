@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: The University's own Shibboleth Identity Provider, entityID https://shibserv.abdn.ac.uk/shibboleth, asserting shibmd:Scope abdn.ac.uk. Its entity descriptor is published as signed, machine-readable SA
@@ -210,8 +210,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-aberdeen/refs/heads/main/screenshots/university-of-aberdeen-2026-06-20T200131.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: http://api.amp.active.com
@@ -46,7 +46,7 @@ apis:
   description: The Camping API from Active Network — 1 operation(s) for camping.
   name: Active Network Camping API
   slug: active-network-camping-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: well-known/active-network-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/active-network-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: 'ACTIVE Network provides intelligent activity and event management software for communities and organizations, powering registration, payments, marketing, and attendance for recreation departments, YMCAs, camps, schools, event organizers, and municipalities, and is trusted by over 6,300 organizations worldwide. For developers, ACTIVE Network publishes a set of read-only public data APIs on its AMP platform (api.amp.active.com): the Activity Search API v2 surfaces searchable activities and events from ACTIVE.com and ACTIVEkids.com, and the Campground / Campsite Search APIs surface campgrounds and campsites. All APIs are authenticated with a simple api_key query parameter and are rate limited.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/active-network.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Active Network MCP Server
-  slug: active-network-mcp-server
 modified: '2026-07-17'
 name: Active Network
 nav: Providers
@@ -199,8 +195,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
 security:

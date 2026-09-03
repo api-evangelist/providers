@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://cradlepoint.com'', ''status'': 301, ''note'': ''declared website redirects to https://cradlepoint.ericsson.com/ — a different registrable domain (cradlepoint.com -> ericsson.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -354,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/screenshots/cradlepoint-2026-06-20T175202.png
 security:

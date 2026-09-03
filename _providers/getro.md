@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Read-oriented JSON REST API exposing a Getro network's companies, jobs and contacts, plus shared reference collections (job functions, industry tags, locations). Bearer API-key auth, URI-path versioni
   name: Getro Network API v2
   slug: getro-network-api-v2
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: data-model/getro-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/getro-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Getro provides talent and hiring software for venture-capital firms and professional communities. Its flagship product GetroJobs aggregates every open role across a network's companies into a single automatically-updated job board, while GetroConnect adds a relationship layer for warm introductions at scale — People Finder, Company Research, contact outreach and lightweight CRM. Getro exposes a Network API (v2), a read-oriented JSON REST API that lets a network programmatically page through its companies, jobs and contacts. The API is authenticated with a bearer API key, versioned in the URI path, rate limited to 30 requests per minute, and documented on the Getro developer portal. Getro was founded out of the Techstars community and is now part of Findem.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getro.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Getro Network API v2. Getro does not publish an official hosted/remote MCP server. This is a DERIVED candidate tool list mapped one-to-one from the operations documented o
-  name: Getro MCP Server
-  slug: getro-mcp-server
 modified: '2026-07-19'
 name: Getro
 nav: Providers
@@ -163,8 +159,8 @@ score:
   previous_composite: 28.7
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getro/refs/heads/main/screenshots/getro-2026-07-25T215739.png
 security:

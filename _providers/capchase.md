@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -52,7 +52,7 @@ arazzos:
 - description: Create a buyer, confirm qualification, then create a financed subscription and read its status.
   name: Capchase Qualify a Buyer and Create a Financed Subscription
   slug: capchase-buyer-to-subscription
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -63,7 +63,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/capchase-mcp.yml
 - group: other
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: 'Capchase provides embedded financing and B2B payment infrastructure for software and hardware vendors. Its Capchase Pay API lets vendors offer buyers flexible installment payment terms at checkout while the vendor is paid the full contract value upfront. Vendors create buyer companies, run automated KYB/underwriting qualification, create subscriptions that generate hosted payment links, list and retrieve subscription status, and pull instalment receipts. The v2 REST API is served from universe.capchase.com, uses HTTP Basic authentication (clientId / clientSecret), ships a Playground environment, and is documented on a ReadMe developer portal with an OpenAPI reference and an AI-agent llms.txt index. Sector: fintech; backed by QED Investors.'
 image: https://cdn.prod.website-files.com/6146543ab50f167ae088b201/61701898ec2756274d6e8665_256px.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Capchase MCP Server
-  slug: capchase-mcp-server
 modified: '2026-07-18'
 name: Capchase
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

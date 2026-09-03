@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Beam's v1 REST payments API — payment links, charges, refunds, transactions, card authorizations (auth/capture/cancel), network tokenization, and Beam Bolt in-person payments.
   name: Beam API v1
   slug: beam-api-v1
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Beam Checkout Webhooks
@@ -123,7 +123,7 @@ common:
   url: asyncapi/beam-checkout-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/beam-checkout-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Beam is a Thailand-focused payments platform that lets businesses accept payments across in-person and online channels. Its products include Beam Checkout (online payments for social media, websites, and apps via hosted payment links and a Charges API), Beam Bolt (an in-person payment device), and Beam Bridge (embedded payments for partner platforms). Beam supports cards, e-wallets, QR PromptPay, installments, and Alipay+, with card authorization/capture, refunds, tokenization, 3DS, and CIT/MIT recurring flows. The v1 REST API uses HTTP Basic auth (merchantId:apiKey), idempotency keys, HMAC-signed webhooks, and a playground sandbox. Beam states it is PCI DSS compliant and compliant with Bank of Thailand regulations. Backed by Peak XV, Partech, and SeaX Ventures.
 image: https://www.beamcheckout.com/assets/beam-thumbnail.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Beam Checkout MCP Server
-  slug: beam-checkout-mcp-server
 modified: '2026-07-18'
 name: Beam Checkout
 nav: Providers
@@ -209,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/screenshots/beam-checkout-2026-07-25T202537.png
 security:

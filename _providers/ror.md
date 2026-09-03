@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The ROR REST API provides programmatic access to the Research Organization Registry, enabling users to retrieve, search, filter, and match organization records by name, identifier, affiliation text, o
@@ -155,8 +155,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ror/refs/heads/main/screenshots/ror-2026-06-20T193222.png
 security:

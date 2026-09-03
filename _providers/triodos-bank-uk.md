@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
   description: The UserInfo Endpoint provides information about the authenticated end-user.
   name: Triodos Bank UK UserInfo Endpoint API
   slug: triodos-bank-uk-userinfo-endpoint-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: Triodos Auth service
@@ -172,7 +172,7 @@ common:
   url: data-model/triodos-bank-uk-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/triodos-bank-uk-mcp.yml
 - group: agent
   title: ''
@@ -247,10 +247,6 @@ description: Triodos Bank UK Limited is a values-based, sustainability-focused b
   single developer platform at developer.triodos.com covering its UK, Netherlands, and Belgium account holders. Its production XS2A APIs provide Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CoF) services, secured with OAuth2/OpenID Connect authorization, mutual-TLS client authentication, eIDAS/QWAC certificates, and PSD2 strong customer authentication, with a full sandbox for onboarding and testing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Triodos Bank UK MCP Server
-  slug: triodos-bank-uk-mcp-server
 modified: '2026-07-23'
 name: Triodos Bank UK
 nav: Providers
@@ -308,8 +304,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 94.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png
 security:

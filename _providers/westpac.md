@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: First-party Westpac payment API (beyond CDR). PayWay is Westpac's merchant payment platform; its public REST API v1 processes real-time credit-card and bank-account payments, refunds, pre-authorisatio
@@ -77,7 +77,7 @@ apis:
   description: Banking Product endpoints
   name: Westpac Banking Corporation Banking Products API
   slug: westpac-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -178,7 +178,7 @@ common:
   url: overlays/westpac-cds-banking-products-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/westpac-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ created: '2026-07-20'
 description: Westpac Banking Corporation is Australia's oldest bank and company, founded in 1817 as the Bank of New South Wales, and is one of the country's "Big Four" banks. Headquartered in Sydney, it is a publicly listed company on the Australian Securities Exchange (ASX:WBC), not a customer-owned mutual, and operates a multi-brand group that includes St.George, BankSA, Bank of Melbourne, and RAMS. As an authorised deposit-taking institution (ADI) regulated by APRA, Westpac is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards. Consumer and account data sharing beyond product reference data is available only to accredited data recipients through the CDR's authenticated, consent-driven channels.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westpac.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Westpac Banking Corporation MCP Server
-  slug: westpac-banking-corporation-mcp-server
 modified: '2026-07-21'
 name: Westpac Banking Corporation
 nav: Providers
@@ -267,8 +263,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/screenshots/westpac-2026-07-21T114757.png
 security:

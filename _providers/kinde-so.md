@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 12
@@ -269,6 +269,10 @@ collections:
   name: Kinde Management API
   slug: open-kinde-so
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kinde-so-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -336,7 +340,7 @@ network: true
 overview: 'Kinde publishes 27 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 24 more. Tagged areas include Authentication, User Management, Identity, Authorization, and Software-as-a-Service.
 
 
-  Kinde''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Kinde''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Kinde So Plans Pricing
   plan_count: 5
@@ -350,7 +354,7 @@ score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -372,8 +376,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde-so/refs/heads/main/screenshots/kinde-so-2026-07-25T223804.png
 security:

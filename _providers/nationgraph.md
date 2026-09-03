@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.0
-  scored_at: '2026-09-02'
+  score: 44.4
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ apis:
   description: The YouTube API from NationGraph — 2 operation(s) for youtube.
   name: NationGraph YouTube API
   slug: nationgraph-youtube-api
-artifact_total: 121
+artifact_total: 120
 collections:
 - collection_type: open
   name: API Collection
@@ -556,7 +556,7 @@ common:
   url: https://github.com/nationgraph
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nationgraph-mcp.yml
 - group: design
   title: ''
@@ -610,10 +610,6 @@ created: '2026-07-17'
 description: NationGraph is a public-sector sales intelligence platform that makes government buying legible to businesses selling into state, local, and education (SLED) markets. It indexes roughly 110,000 government institutions and ~4 million government webpages — council meeting minutes, budgets, purchase orders, contracts, capital improvement plans, and active RFPs — to surface predictive buying signals before a formal RFP is published. Its Signals product flags buying intent, Contacts matches verified government decision-makers with emails and phone numbers, and Public Record Automations run FOIA requests and structured document extraction into existing CRM and communications tools (Salesforce, HubSpot, Slack). Founded in 2024 (Miami, with Toronto and San Francisco offices), NationGraph has raised $22.5M, with a Series A led by Menlo Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nationgraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NationGraph
-  slug: nationgraph
 modified: '2026-08-14'
 name: NationGraph
 nav: Providers
@@ -671,8 +667,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/screenshots/nationgraph-2026-08-07T184651.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -53,7 +53,7 @@ apis:
   description: Moondream vision Skills — query, caption, detect, point, segment.
   name: Moondream Skills API
   slug: moondream-skills-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: packages/moondream-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moondream-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Moondream is a fast, efficient open vision language model (VLM) from M87 Labs. The Moondream Cloud API turns images into structured output through five Skills — Query (visual question answering), Caption, Detect (bounding boxes), Point (center coordinates), and Segment (SVG path masks) — plus an OpenAI-compatible chat endpoint, an asynchronous Batch API, and cloud finetuning (Lens). Model weights are open and downloadable from Hugging Face; hosted inference is pay-per-token with HIPAA and SOC 2 available. Official Python and Node.js SDKs are published.
 image: https://moondream.ai/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server derived from the documented Moondream Cloud Skill operations. No official Moondream-hosted MCP server was found as of the probe date; this is a proposed tool surface, not a publis
-  name: Moondream MCP Server
-  slug: moondream-mcp-server
 modified: '2026-07-20'
 name: Moondream
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/screenshots/moondream-2026-08-07T184237.png
 security:

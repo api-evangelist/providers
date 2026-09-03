@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Job titles, skills and related jobs data
@@ -83,8 +83,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 6.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-skills/refs/heads/main/screenshots/open-skills-2026-06-20T190853.png
 slug: open-skills

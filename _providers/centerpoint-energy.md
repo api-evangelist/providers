@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Automated access to residential and commercial billing history and electricity usage as measured by CenterPoint's Interval Data Recorders (IDRs), exposed through the Smart Meter Texas platform that Ce
@@ -142,8 +142,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centerpoint-energy/refs/heads/main/screenshots/centerpoint-energy-2026-06-20T174124.png
 security:

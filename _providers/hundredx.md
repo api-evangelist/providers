@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Two HundredX-operated Model Context Protocol servers reachable on the public internet — "HX BigQuery MCP Server" 2.0.0 at hx-bigquery-mcp.hundredx.com and "Jupyter MCP Server" 2.0.0 at jupyter-mcp.hun
@@ -180,8 +180,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/screenshots/hundredx-2026-09-02T145756.png
 security:

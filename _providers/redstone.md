@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Public HTTP gateway that serves signed data packages and historical token prices aggregated by the RedStone oracle network. Read-only and unauthenticated; responses carry ECDSA signatures and the prov
@@ -42,7 +42,7 @@ apis:
 - description: Production data-package gateway exposing the latest signed data packages per data-service (e.g. redstone-primary-prod) for the Pull model and SDK consumption.
   name: RedStone Oracle Gateway
   slug: redstone-oracle-gateway
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -114,7 +114,7 @@ common:
   url: security/redstone-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/redstone-mcp.yml
 - group: agent
   title: ''
@@ -124,10 +124,6 @@ created: '2026-07-17'
 description: 'RedStone is a modular blockchain oracle infrastructure provider delivering tamper-proof price feeds and off-chain data to smart contracts across 100+ EVM and non-EVM networks. It aggregates data from 20+ centralized and decentralized exchanges, signs each data package with the provider''s key, and delivers it through three models: Pull (Core, on-demand data injected into a transaction via the EVM connector), Push (on-chain relayers that write prices to a feed contract), and a Hybrid ERC-7412 flow. RedStone also runs a public HTTP cache/gateway API for reading signed data packages and historical prices, publishes SDKs (TypeScript, Rust), chain connectors (EVM, Starknet, TON, Fuel, Radix, Casper), a CLI, and on-chain example contracts. It secures billions of dollars of value for 200+ DeFi protocols and supports Proof of Reserve and MEV-resistant (OEV) products.'
 image: https://cdn.prod.website-files.com/67519197ce9eaef4601a6287/677f9f8bb6ae73e45b28a6fb_Variant2%20(3).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: RedStone MCP Server
-  slug: redstone-mcp-server
 modified: '2026-07-21'
 name: RedStone
 nav: Providers
@@ -158,8 +154,8 @@ score:
   previous_composite: 24.3
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/screenshots/redstone-2026-09-02T153202.png
 security:

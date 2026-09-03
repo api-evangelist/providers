@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: SMS messaging to devices
   name: Verizon SMS API
   slug: verizon-sms-api
-artifact_total: 98
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Verizon Thingspace Callbacks Webhooks
@@ -215,7 +215,7 @@ common:
   url: packages/verizon-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verizon-mcp.yml
 - group: agent
   title: ''
@@ -482,10 +482,6 @@ jsonld:
   property_count: 43
   slug: verizon-thingspace-connectivity-context
 layout: provider
-mcp_servers:
-- description: 'CANDIDATE, NOT A VERIZON PRODUCT. Verizon publishes no Model Context Protocol server. This is an API Evangelist-derived tool proposal: one tool per real ThingSpace Connectivity Management operationId,'
-  name: ThingSpace MCP tool candidate (API Evangelist derived — Verizon operates no MCP server)
-  slug: thingspace-mcp-tool-candidate-api-evangelist-derived-verizon-operates-no-mcp-server
 modified: '2026-08-04'
 name: Verizon
 nav: Providers
@@ -584,8 +580,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:

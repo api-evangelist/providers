@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ apis:
   description: Update Extract Resource
   name: Payments Canada Update Extract Resource API
   slug: payments-canada-update-extract-resource-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: CCIN Output API
@@ -210,7 +210,7 @@ common:
   url: sandbox/payments-canada-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/payments-canada-mcp.yml
 - group: build
   title: ''
@@ -277,10 +277,6 @@ description: Payments Canada (formerly the Canadian Payments Association) is the
   member/registered-user sandbox and data-extract APIs — including downloadable RTR sandbox OpenAPI specifications — secured with OAuth2 client-credentials (Consumer Key/Secret via Apigee); production access is license/agreement gated.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Payments Canada MCP Server
-  slug: payments-canada-mcp-server
 modified: '2026-07-23'
 name: Payments Canada
 nav: Providers
@@ -330,8 +326,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png
 security:

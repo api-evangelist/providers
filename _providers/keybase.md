@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Keybase public HTTP JSON API (v1.0). Read-oriented endpoints for user lookup and discovery by social proof, PGP public-key fetch, Merkle-tree root and block retrieval for verification, and the salt/lo
   name: Keybase API
   slug: keybase-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: other
   title: ''
@@ -97,10 +97,6 @@ created: '2026-07-17'
 description: Keybase is an end-to-end encrypted messaging, file-sharing, and key-directory platform built on public-key cryptography, founded by Chris Coyne and Max Krohn and acquired by Zoom in 2020. It maps human-readable usernames to public keys and cryptographically verifiable social-identity proofs (Twitter, GitHub, Reddit, Hacker News, personal domains, and cryptocurrency addresses), and provides encrypted chat, teams, KBFS encrypted filesystem, git, and a wallet. Keybase exposes a public read-oriented HTTP JSON API (version 1.0) at keybase.io/_/api/1.0 for user lookup, PGP key fetch, Merkle-tree verification, and session/signature auth, plus officially supported chat-bot SDKs for Node.js, Python, and Go that script the local keybase client and CLI.
 image: https://keybase.io/images/icons/icon-keybase-logo-48.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the documented Keybase API 1.0 read endpoints. Keybase publishes no official hosted/remote MCP server; this is a proposed mapping (one tool per public operation
-  name: Keybase MCP Server
-  slug: keybase-mcp-server
 modified: '2026-07-20'
 name: Keybase
 nav: Providers
@@ -133,8 +129,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keybase/refs/heads/main/screenshots/keybase-2026-07-25T223641.png
 security:

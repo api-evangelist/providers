@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Client SDK for embedding and interacting with Spline scenes from JavaScript.
@@ -97,6 +97,10 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.spline.design/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.spline.design
 created: '2026-05-08'
 description: Spline is a real-time collaborative 3D design tool with AI-driven object generation, web embedding, and animation. Spline does NOT publish a REST API for 3D scene generation as of May 2026; instead it exposes Code APIs (Web, SwiftUI, Kotlin) for embedding scenes, plus a real-time API for variables/data and webhooks for event-driven integrations.
 finops:
@@ -112,7 +116,7 @@ network: true
 overview: 'Spline publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Design, Artificial Intelligence, Collaboration, and Web.
 
 
-  Spline''s developer surface includes documentation and 10 more developer resources.'
+  Spline''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Spline Plans Pricing
   plan_count: 4
@@ -124,25 +128,25 @@ rate_limits:
   slug: spline-rate-limits
 score:
   band: emerging
-  composite: 15.8
+  composite: 16.3
   coverage:
     artifact_dirs: 6
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 15.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spline/refs/heads/main/screenshots/spline-2026-06-20T194404.png
 security:

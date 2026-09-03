@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
   description: The Test Types API from Athelas — 1 operation(s) for test types.
   name: Athelas Test Types API
   slug: athelas-test-types-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Athelas Webhooks
@@ -142,7 +142,7 @@ common:
   url: asyncapi/athelas-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/athelas-mcp.yml
 - group: agent
   title: ''
@@ -216,10 +216,6 @@ created: '2026-07-17'
 description: 'Athelas (Commure d/b/a Athelas) is a healthcare technology company building AI-powered infrastructure for provider organizations, spanning remote patient monitoring (RPM), an AI-native EHR ("Air"), ambient AI scribing, and revenue cycle management (RCM / "Insights"). Its developer surface exposes two public APIs: the Athelas Enterprise RPM API (Bearer-token REST over api.athelas.com/enterprise/v1) for enrolling patients, managing sites and prescribers, shipping cellular-connected monitoring devices, and streaming device test results via webhook; and the Commure EHR FHIR API, an ONC (g)(10)-certified, US Core 6.1.0-compliant FHIR R4B server secured with SMART on FHIR v2 / OAuth2 for third-party app integrations with Air. Backed by General Catalyst and Initialized Capital; Athelas and Commure merged to form a multi-billion-dollar healthcare infrastructure company.'
 image: https://www.athelas.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Athelas MCP Server
-  slug: athelas-mcp-server
 modified: '2026-07-18'
 name: Athelas
 nav: Providers
@@ -276,8 +272,8 @@ score:
     regime: Health
     regime_id: health
     score: 87.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.zego.com
@@ -61,7 +61,7 @@ apis:
   description: Start and end insurance cover periods (shifts) for customers.
   name: Zego Shifts API
   slug: zego-shifts-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Zego Webhooks
@@ -92,7 +92,7 @@ common:
   url: skills/zego-enrol-public-liability.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zego-mcp.yml
 - group: auth
   title: ''
@@ -134,10 +134,6 @@ created: '2026-07-17'
 description: Zego is an FCA-regulated UK insurtech providing flexible, technology-driven motor and public-liability insurance built for the gig economy. Its telematics app (Sense) rewards safe driving, and it covers food-delivery and courier riders, private-hire and taxi drivers, van drivers, fleets, and learner drivers with monthly or annual policies. Zego works with partners such as Uber, Deliveroo, Just Eat and Amazon Flex, has served around 750,000 drivers and sold over 94 million policies. Beyond consumer products, Zego operates a RESTful Partner API (developer.zego.com, base URL api.zego.com) that lets work providers activate and deactivate insurance cover per shift, register and validate customers, enrol customers on public liability, issue fixed-term policies, and match external users to Zego customers, with signed webhooks for sign-up integration.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zego.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zego MCP Server
-  slug: zego-mcp-server
 modified: '2026-07-21'
 name: Zego
 nav: Providers
@@ -183,8 +179,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/screenshots/zego-2026-09-02T171533.png
 security:

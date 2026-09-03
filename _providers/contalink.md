@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Valida los status de vigencia y pago de un documento fiscal
   name: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +119,7 @@ common:
   url: skills/contalink-post-manual-policy.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/contalink-mcp.yml
 - group: other
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-17'
 description: 'Contalink is a Mexican cloud accounting and payroll platform ("contabilidad en la nube") built for independent accountants, accounting firms (despachos) and SMEs. It automates repetitive Mexican fiscal work — bulk CFDI download and classification, electronic accounting, DIOT preparation, treasury and bank reconciliation, invoicing (facturación) and payroll (nómina) with digital stamping — across multiple companies and users. Contalink also exposes a REST API that lets external systems read and post accounting data: trial balance (balanza de comprobación), account balances, manual accounting policies (pólizas manuales), invoice reconciliation (conciliación), bank transactions (movimientos bancarios) and CFDI fiscal-document listing, upload and status checks. The API authenticates with a per-company API key sent in the Authorization header. Backed by 500 Global.'
 image: https://www.contalink.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Contalink MCP Server
-  slug: contalink-mcp-server
 modified: '2026-07-18'
 name: Contalink
 nav: Providers
@@ -243,8 +239,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png
 security:

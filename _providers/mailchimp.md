@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ arazzos:
 - description: Find a member by email and update them, otherwise add them to the audience.
   name: Mailchimp Upsert Audience Member
   slug: mailchimp-upsert-member-workflow
-artifact_total: 385
+artifact_total: 384
 asyncapis:
 - description: AsyncAPI description of Mailchimp Marketing audience webhooks. Mailchimp delivers list/audience events to a customer-configured callback URL via HTTP POST with an `application/x-www-form-urlencoded` b
   name: Mailchimp Marketing Webhooks
@@ -744,7 +744,7 @@ common:
   url: well-known/mailchimp-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mailchimp-mcp.yml
 - group: agent
   title: ''
@@ -1533,10 +1533,6 @@ jsonld:
   property_count: 0
   slug: mailchimp-transactional-context
 layout: provider
-mcp_servers:
-- description: Mailchimp publishes an official hosted MCP server for the Transactional (Mandrill) Messaging API. It exposes nine tools that mirror what the Transactional API can already do, plus onboarding/diagnosis
-  name: Mailchimp MCP Server
-  slug: mailchimp-mcp-server
 modified: '2026-08-13'
 name: Mailchimp
 nav: Providers
@@ -1614,8 +1610,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:

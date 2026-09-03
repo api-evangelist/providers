@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://enterprise.api.trato.io
@@ -61,7 +61,7 @@ apis:
   description: List reusable contract templates.
   name: Trato Templates API
   slug: trato-templates-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: TRATO delivers contract and milestone lifecycle events to subscriber URLs as HTTP POST callbacks. Webhooks are configured in the user profile per event type. Each request carries an `X-Trato-Secret` h
   name: TRATO Webhooks
@@ -156,7 +156,7 @@ common:
   url: asyncapi/trato-webhooks-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trato-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: TRATO is an AI-powered Contract Lifecycle Management (CLM) and electronic signature platform used by more than 180,000 users to centralize, draft, approve, sign and track contracts. It offers template-based smart drafting, automated approval routing, real-time contract tracking, and secure e-signatures, with multi-jurisdiction legal expertise across Mexico, Spain and Germany and support for Mexican NOM-151 advanced electronic signatures. TRATO exposes a JWT-authenticated REST API (Contracts, Templates, Milestones) and webhook events for programmatic contract generation and integration with CRM, document management and payment systems. Founded in 2014 in Mexico City and backed by 500 Global.
 image: https://trato.io
 layout: provider
-mcp_servers:
-- description: ''
-  name: Trato MCP Server
-  slug: trato-mcp-server
 modified: '2026-07-21'
 name: Trato
 nav: Providers
@@ -250,8 +246,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/screenshots/trato-2026-08-17T082426.png
 security:

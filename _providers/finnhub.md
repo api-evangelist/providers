@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: The Default API from Finnhub — 117 operation(s) for default.
   name: Finnhub Default API
   slug: finnhub-default-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: AsyncAPI specification for Finnhub's real-time streaming WebSocket APIs. A single WebSocket endpoint (wss://ws.finnhub.io) multiplexes three documented streams selected by the envelope `type` field on
   name: Finnhub WebSocket API
@@ -147,7 +147,7 @@ common:
   url: packages/finnhub-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finnhub-mcp.yml
 - group: build
   title: ''
@@ -245,10 +245,6 @@ finops:
   slug: finnhub-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finnhub.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Finnhub MCP Server
-  slug: finnhub-mcp-server
 modified: '2026-07-22'
 name: Finnhub
 nav: Providers
@@ -316,8 +312,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

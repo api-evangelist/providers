@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ apis:
   description: Write time series data to [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket).
   name: InfluxData Write API
   slug: influxdata-write-api
-artifact_total: 97
+artifact_total: 96
 collections:
 - collection_type: open
   name: API Collection
@@ -499,7 +499,7 @@ common:
   url: cli/influxdata-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/influxdata-mcp.yml
 - group: agent
   title: ''
@@ -561,10 +561,6 @@ created: '2026-07-17'
 description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OSS), a fully managed multi-cloud service (InfluxDB Cloud), and dedicated/clustered offerings. The platform exposes a REST /api/v2 HTTP API for writing line-protocol data, querying with Flux and InfluxQL/SQL, and managing buckets, organizations, tasks, API tokens, and dashboards, alongside official client libraries, the influx CLI, and the Telegraf collection agent.
 image: https://github.com/influxdata.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: InfluxData MCP Server
-  slug: influxdata-mcp-server
 modified: '2026-07-19'
 name: InfluxData
 nav: Providers
@@ -603,8 +599,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/screenshots/influxdata-2026-07-25T222417.png
 security:

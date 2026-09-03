@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -113,7 +113,7 @@ apis:
   description: Resource containers scoped to an account.
   name: The San Francisco Compute Company Workspaces API
   slug: the-san-francisco-compute-company-workspaces-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -243,7 +243,7 @@ common:
   url: cli/the-san-francisco-compute-company-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/the-san-francisco-compute-company-mcp.yml
 - group: agent
   title: ''
@@ -309,10 +309,6 @@ created: '2026-07-17'
 description: The San Francisco Compute Company (SF Compute) runs large-scale, vetted GPU clusters and operates a compute marketplace where buyers reserve H100/H200 capacity by the hour and sellers resell unused compute back into the market with no long-term lock-in. Its public preview REST API (api.sfcompute.com, base path /preview/v2) and the `sf` CLI let developers buy and sell compute via orders and an orderbook, manage pools of reserved balance, launch and operate GPU instances from images and templates, run procurements and deployments, and organize resources across workspaces with roles, grants, and tags. Authentication is a Bearer token (sk_live_ API key). The API is documented on a Mintlify docs site with a per-operation OpenAPI reference, an llms.txt index, and an official agent skill.
 image: https://sfcompute.com/icon.svg
 layout: provider
-mcp_servers:
-- description: SF Compute publishes a hosted MCP server for its documentation (served by the Mintlify docs platform). It exposes documentation search to MCP-capable agents. There is no first-party MCP server for the
-  name: The San Francisco Compute Company MCP Server
-  slug: the-san-francisco-compute-company-mcp-server
 modified: '2026-07-21'
 name: The San Francisco Compute Company
 nav: Providers
@@ -351,8 +347,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/screenshots/the-san-francisco-compute-company-2026-08-17T082343.png
 security:

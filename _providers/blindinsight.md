@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 4
@@ -138,7 +138,7 @@ apis:
   description: The ws API from BlindInsight — 1 operation(s) for ws.
   name: BlindInsight ws API
   slug: blindinsight-ws-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: Real-time progress channel for asynchronous Blind Insight ingest/upload jobs. After starting a batch upload (POST /api/jobs/upload/) or a large resumable file upload (POST /api/files/), clients receiv
   name: Blind Insight Jobs WebSocket
@@ -255,7 +255,7 @@ common:
   url: asyncapi/blindinsight-jobs-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blindinsight-mcp.yml
 - group: start
   title: ''
@@ -309,10 +309,6 @@ created: '2026-07-17'
 description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that transparently performs client-side encryption and decryption against the cloud REST API. The platform provides schema-constrained encrypted fields, searchable encryption, key sharing and keyring management, role- and team-based access grants, organization and user management, resumable batch ingestion, and a BlindLLM interface for prompting models over protected data — aimed at regulated, compliance-sensitive workloads.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blindinsight.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BlindInsight MCP Server
-  slug: blindinsight-mcp-server
 modified: '2026-07-18'
 name: BlindInsight
 nav: Providers
@@ -354,8 +350,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/screenshots/blindinsight-2026-07-25T203316.png
 security:

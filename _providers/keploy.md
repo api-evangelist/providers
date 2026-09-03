@@ -10,6 +10,31 @@ access_model:
   - pricing-page
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 27.7
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.keploy.io/client/v1
@@ -125,6 +150,37 @@ rate_limits:
 - limit_count: 1
   name: Keploy Rate Limits
   slug: keploy-rate-limits
+score:
+  band: strong
+  composite: 58.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 46.8
+  facets:
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 57.9
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    governance: 18.2
+    operational_transparency: 42.1
+  previous_composite: 11.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/keploy/refs/heads/main/screenshots/keploy-2026-07-25T223630.png
 security:
 - kind: authentication

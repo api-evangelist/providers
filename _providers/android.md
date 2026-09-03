@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -162,7 +162,7 @@ arazzos:
 - description: Validate a new subscription purchase with the Subscriptions v2 API and acknowledge it before the three-day auto-refund window closes.
   name: Android Verify and Acknowledge a Subscription Purchase
   slug: android-verify-acknowledge-subscription-purchase-workflow
-artifact_total: 241
+artifact_total: 240
 collections:
 - collection_type: postman
   name: Google Play Developer Orders API
@@ -230,7 +230,7 @@ common:
   url: well-known/android-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/android-mcp.yml
 - group: agent
   title: ''
@@ -859,10 +859,6 @@ jsonld:
   property_count: 0
   slug: google-play-developer-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Android MCP Server
-  slug: android-mcp-server
 modified: '2026-06-20'
 name: Android
 nav: Providers
@@ -938,8 +934,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:

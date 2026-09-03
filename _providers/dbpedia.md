@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Public SPARQL 1.1 query endpoint backed by OpenLink Virtuoso over the DBpedia knowledge graph derived from Wikipedia. Supports up to 10,000 result rows, 120-second query timeout, and 100 requests/seco
@@ -142,8 +142,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/screenshots/dbpedia-2026-06-20T175737.png
 security:

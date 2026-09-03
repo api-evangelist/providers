@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://yousign.com'', ''status'': 301, ''note'': ''declared website redirects to https://youtrust.com/ — a different registrable domain (yousign.com -> youtrust.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -496,8 +497,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yousign/refs/heads/main/screenshots/yousign-2026-06-20T201749.png
 security:

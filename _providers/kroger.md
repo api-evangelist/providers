@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.8
-  scored_at: '2026-09-02'
+  score: 7.9
+  scored_at: '2026-09-03'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -78,7 +78,7 @@ apis:
 - description: This contract outlines the APIs agreement for vendors seeking integration with Kroger as a locker vendor. The provided APIs enable partners to transmit unattended locker pickup orders state updates to
   name: Kroger Locker Integration APIs (Partners)
   slug: kroger-locker-integration-apis-partners
-artifact_total: 22
+artifact_total: 21
 common:
 - group: auth
   title: ''
@@ -142,7 +142,7 @@ common:
   url: packages/kroger-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kroger-mcp.yml
 - group: agent
   title: ''
@@ -196,10 +196,6 @@ finops:
   slug: kroger-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kroger.png
 layout: provider
-mcp_servers:
-- description: No Kroger MCP server exists; a candidate tool list derived from published operations.
-  name: Kroger MCP Candidate
-  slug: kroger-mcp-candidate
 modified: '2026-08-27'
 name: Kroger
 nav: Providers
@@ -260,8 +256,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/screenshots/kroger-2026-06-20T184156.png
 security:

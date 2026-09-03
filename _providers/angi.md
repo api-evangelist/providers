@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Not a self-serve public API - there is no published base URL, API reference, or API key signup. Once a pro or CRM partner is approved by an Angi Ads Client Success Manager, Angi Ads/Angi Leads pushes '
@@ -105,8 +105,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angi/refs/heads/main/screenshots/angi-2026-08-07T161409.png
 security:

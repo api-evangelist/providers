@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
@@ -183,8 +183,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/screenshots/coro-2026-07-25T210437.png
 security:

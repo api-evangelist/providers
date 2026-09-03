@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
   description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
   name: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
-artifact_total: 50
+artifact_total: 49
 asyncapis:
 - description: AsyncAPI 2.6 description of Financial Modeling Prep's real-time market data WebSocket surface, documented at https://site.financialmodelingprep.com/datasets/websocket and https://site.financialmodelin
   name: Financial Modeling Prep Real-Time WebSocket API
@@ -305,7 +305,7 @@ common:
   url: packages/financial-modeling-prep-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/financial-modeling-prep-mcp.yml
 - group: docs
   title: ''
@@ -343,10 +343,6 @@ finops:
   slug: financial-modeling-prep-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/financial-modeling-prep.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Financial Modeling Prep MCP Server
-  slug: financial-modeling-prep-mcp-server
 modified: '2026-07-22'
 name: Financial Modeling Prep
 nav: Providers
@@ -414,8 +410,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/screenshots/financial-modeling-prep-2026-08-17T080057.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 123
   human_in_the_loop: 1
@@ -288,7 +288,7 @@ apis:
   description: The webhooks API from Creed — 1 operation(s) for webhooks.
   name: Creed webhooks API
   slug: creed-webhooks-api
-artifact_total: 103
+artifact_total: 102
 collections:
 - collection_type: open
   name: API Collection
@@ -443,7 +443,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/creed-mcp.yml
 - group: other
   title: ''
@@ -501,10 +501,6 @@ created: '2026-07-17'
 description: Creed (Creed Labs, operated by Lemon Tree Labs Inc.) is a Brooklyn-based faith-tech company building an AI-powered Bible study, prayer, and Christian community app used by more than two million people. The consumer product pairs a voice-enabled AI companion (Lenny) with daily prayers, devotionals, scripture retrieval, a moderated prayer wall, learning plans, gratitude and prayer journaling, friend streaks, church discovery, leaderboards, and gamification. Creed also ships tools for churches and creators to grow and engage their congregations. Its public backend is a FastAPI service at api.usecreed.com exposing 191 operations across chatbot, prayer, church-admin, social, and gamification domains, secured with Supabase-issued JWT bearer tokens.
 image: https://usecreed.com/images/creed_logo_lg.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Creed MCP Server
-  slug: creed-mcp-server
 modified: '2026-07-18'
 name: Creed
 nav: Providers
@@ -543,8 +539,8 @@ score:
       total: 49
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/screenshots/creed-2026-07-25T210722.png
 security:

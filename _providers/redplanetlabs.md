@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: In-cluster HTTP+JSON RPC surface exposed by Rama Supervisors (default port 2000) for appending to depots, querying PStates by navigation path, and invoking query topologies. POST-only; no application-
   name: Rama REST API
   slug: rama-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: changelog/redplanetlabs-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/redplanetlabs-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while providing ACID semantics, reactive queries, fine-grained change detection, and linear scalability. Rama exposes a REST API (an in-cluster HTTP+JSON RPC surface for depot appends, PState queries, and query-topology invokes), ships a `rama` operations CLI, publishes Maven client libraries under the com.rpl groupId, open-sources the Specter data-navigation library, and provides first-party Agent Skills for authoring Rama backends. Surfaced as a portfolio company of Kindred Ventures and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/redplanetlabs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Redplanetlabs MCP Server
-  slug: redplanetlabs-mcp-server
 modified: '2026-08-08'
 name: Redplanetlabs
 nav: Providers
@@ -177,8 +173,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redplanetlabs/refs/heads/main/screenshots/redplanetlabs-2026-09-02T153157.png
 security:

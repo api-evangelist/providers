@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Newa API from LI-COR Intermediate — 1 operation(s) for newa.
   name: LI-COR Intermediate Newa API
   slug: li-cor-intermediate-newa-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: well-known/li-cor-intermediate-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/li-cor-intermediate-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: 'LI-COR Intermediate, Inc. is the Battery Ventures-backed holding entity for LI-COR, a Lincoln, Nebraska environmental and life-science instrumentation maker founded more than fifty years ago. The group operates under two brands: LI-COR Environmental (licor.com), which builds greenhouse-gas analyzers, eddy-covariance flux systems, photosynthesis and soil-gas instruments, and the HOBO line of data loggers; and LICORbio (licorbio.com), which builds Western blot imaging systems and infrared fluorescent dyes and reagents. Its instruments are cited in more than 73,000 research publications and used across 1,200+ universities in 150+ countries. The connected-device side of the business runs through LI-COR Cloud (licor.cloud, formerly HOBOlink), which exposes a public read-only HOBOLINK External API for pulling logger and sensor observations into customer systems.'
 image: https://www.licor.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: LI-COR Intermediate MCP Server
-  slug: li-cor-intermediate-mcp-server
 modified: '2026-07-19'
 name: LI-COR Intermediate
 nav: Providers
@@ -209,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The SecureStack Application Development Kit is Axiado's public API for building secure applications on the AX3000 / AX2000 TCU family. It exposes thread-safe engine interfaces for crypto (AES, SHA/SHA
@@ -193,8 +193,8 @@ score:
   previous_composite: 23.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/screenshots/axiado-corporation-2026-08-07T162032.png
 security:

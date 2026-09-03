@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.prod.spyderbat.com/api/v1
@@ -188,6 +188,10 @@ asyncapis:
   name: Spyderbat Events Webhooks
   slug: spyderbat-events-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spyderbat-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -319,7 +323,7 @@ overview: 'Spyderbat publishes 29 APIs on the [APIs.io](https://apis.io/) networ
   The Spyderbat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spyderbat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  Spyderbat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Spyderbat Plans Pricing
   plan_count: 0
@@ -333,7 +337,7 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -357,8 +361,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/screenshots/spyderbat-2026-09-02T160632.png
 security:

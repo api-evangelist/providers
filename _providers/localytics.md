@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ apis:
   description: Transactional push send endpoints
   name: Localytics Push API
   slug: localytics-push-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: llms/localytics-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/localytics-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ json_schemas:
   property_count: 8
   slug: localytics-events-api-v1
 layout: provider
-mcp_servers:
-- description: ''
-  name: Localytics MCP Server
-  slug: localytics-mcp-server
 modified: '2026-08-13'
 name: Localytics
 nav: Providers
@@ -320,8 +316,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:

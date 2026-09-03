@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Ellipsis coding-agent platform. Start and manage agent sessions, read back typed results and transcripts, manage agent configs, defaults and templates, set sandbox variables, list int
   name: Ellipsis API
   slug: ellipsis-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: Ellipsis is a managed cloud platform for running autonomous coding agents at scale. Engineering teams define agents as YAML config files that live in their repositories, and Ellipsis runs them in isolated, ephemeral sandboxes to review pull requests, fix bugs, build features, and investigate production issues. Agents trigger automatically on cron schedules, GitHub pull-request lifecycle events, or @ellipsis-dev mentions, and can also be launched on demand from the dashboard, the REST API, or the `agent` CLI. The platform runs Claude, Codex, and Gemini models, enforces hard budget caps and scoped per-session credentials, retains zero source code, and provides full observability with audit trails and replayable execution. Ellipsis (YC W24) serves 400+ engineering teams across 67,000+ connected repositories.
 image: https://www.ellipsis.dev/brand/lockup-dark-transparent.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ellipsis MCP Server
-  slug: ellipsis-mcp-server
 modified: '2026-07-19'
 name: Ellipsis
 nav: Providers
@@ -164,8 +160,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis/refs/heads/main/screenshots/ellipsis-2026-07-25T213149.png
 security:

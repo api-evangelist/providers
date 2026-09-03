@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
   description: The Users API from HouseSigma — 2 operation(s) for users.
   name: HouseSigma Users API
   slug: housesigma-users-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: HouseSigma Blog Content API
@@ -97,7 +97,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/housesigma-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ examples:
   slug: housesigma-blog-content-listTaxonomies-200
 image: https://housesigma.com/apple-touch-icon.png?v=2
 layout: provider
-mcp_servers:
-- description: ''
-  name: HouseSigma MCP Server
-  slug: housesigma-mcp-server
 modified: '2026-07-26'
 name: HouseSigma
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png
 security:

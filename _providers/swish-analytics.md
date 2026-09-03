@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.swishanalytics.com
@@ -86,7 +86,7 @@ apis:
   description: The WTA Tennis API from Swish Analytics — 3 operation(s) for wta tennis.
   name: Swish Analytics WTA Tennis API
   slug: swish-analytics-wta-tennis-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: conformance/swish-analytics-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/swish-analytics-mcp.yml
 - group: design
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: Swish Analytics is a machine-learning sports analytics company that prices and originates sportsbook markets. Its B2B API delivers hyper-accurate player-prop pricing, pre-match and in-play match/team markets, single and parlay (accumulator) bet-request pricing, and market results across NFL, NBA, MLB, NHL, NCAA basketball and football, ATP and WTA tennis, and soccer. The read-only JSON API is authenticated with an ApiKey header, supports multi-value filtering and incremental delta sync via a modifiedAtGreater timestamp, and is documented at docs.swishanalytics.com. Swish positions itself as a global leader in player-props pricing and odds origination, risk-management and trading software for U.S. sportsbooks.
 image: https://swish-assets.s3-us-west-2.amazonaws.com/imgs/spawn/api-logo-2023-full-black.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Swish Analytics MCP Server
-  slug: swish-analytics-mcp-server
 modified: '2026-07-21'
 name: Swish Analytics
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/screenshots/swish-analytics-2026-09-02T161411.png
 security:

@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Galxe's public GraphQL API for building web3 experiences — query credentials and eligibility, quests, spaces, loyalty-points leaderboards, and Starboard social/onchain influence metrics, and push cred
   name: Galxe Integration API
   slug: galxe-integration-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -136,7 +136,7 @@ common:
   url: conformance/galxe-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/galxe-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: Galxe is a decentralized super app and one of web3's largest onchain distribution platforms, serving 14M+ Galxe ID users across a product suite of Quest, Passport, Score, Compass, and the Galxe Identity Protocol. For developers, Galxe exposes a public Integration GraphQL API (https://graphigo-business.prd.galaxy.eco/query) to query credentials, quests, spaces, loyalty-points leaderboards, and Starboard social metrics, plus a Credential API for pushing eligibility data, "Sign in with Galxe" OAuth 2.0 for identity, and a TypeScript SDK for the zero-knowledge Galxe Identity Protocol. API access uses a dashboard-issued access-token header with per-second rate limits and monthly quotas. Originally surfaced as a portfolio company of Multicoin Capital and enriched from Galxe's public developer documentation.
 image: https://framerusercontent.com/assets/VIwrglmv5dnewbKhEV0KdBzBSAk.jpg
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool surface derived from the documented Galxe Integration GraphQL root fields. Galxe publishes no official hosted/remote MCP server as of this pass; these tools map 1:1 to real G
-  name: Galxe MCP Server
-  slug: galxe-mcp-server
 modified: '2026-07-19'
 name: Galxe
 nav: Providers
@@ -203,8 +199,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galxe/refs/heads/main/screenshots/galxe-2026-07-25T215406.png
 security:

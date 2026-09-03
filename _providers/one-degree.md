@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://data.1degree.org/v1
@@ -70,7 +70,7 @@ arazzos:
 - description: Search opportunities by location, then load the top result's details and schedule.
   name: One Degree — find and detail a nearby service
   slug: one-degree-find-services
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: postman
   name: One Degree
@@ -175,7 +175,7 @@ common:
   url: data-model/one-degree-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/one-degree-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: One Degree is a California-based 501(c)(3) nonprofit technology organization that empowers low-income and underserved individuals, families, and social-service professionals to find and access life-changing benefits and services. Its Resource Server API exposes a curated, community- maintained database of social-service resources — organizations and the opportunities (programs and services) they offer, along with locations, phones, schedules, ratings, tags, comments, images, properties, guides, and housing properties. The API is designed for interoperability with third-party services so communities can coordinate and deliver social services more effectively. It is a read-focused REST API served at data.1degree.org/v1, authenticated with an api_key query parameter and HMAC-SHA256 request signatures for write verbs. Resource data is licensed under Creative Commons Attribution-NonCommercial 4.0 International.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-degree.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: One Degree MCP Server
-  slug: one-degree-mcp-server
 modified: '2026-07-20'
 name: One Degree
 nav: Providers
@@ -240,8 +236,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/screenshots/one-degree-2026-08-07T190242.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ apis:
   description: The Token API from Nayya — 1 operation(s) for token.
   name: Nayya Token API
   slug: nayya-token-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +239,7 @@ common:
   url: components/nayya-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nayya-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: Nayya is an AI-powered health and wealth benefits decision-support platform used by employers, brokers, carriers, and benefits-administration partners to help employees choose and use their benefits. Its "Choose" experience delivers personalized plan recommendations, and its agentic adviser can answer benefits questions and file supplemental-health claims on an employee's behalf. Nayya exposes a partner-facing REST API — Nayya Integrate — with three surfaces (Accounts, Benefits, and Choose) that let integrators map employers, employees, and dependents, configure benefits, snapshot an employee's context, retrieve recommendations, and record enrollments, plus an embedded UI that partners drop into their own enrollment flow via SSO.
 image: https://logo.clearbit.com/nayya.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nayya MCP Server
-  slug: nayya-mcp-server
 modified: '2026-07-20'
 name: Nayya
 nav: Providers
@@ -301,8 +297,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:

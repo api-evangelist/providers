@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
   name: =nil; JSON-RPC API
   slug: nil-json-rpc-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -91,7 +91,7 @@ common:
   url: cli/nil-foundation-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nil-foundation-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: =nil; Foundation is the developer of =nil;, an Ethereum Layer 2 blockchain powered by zkSharding that delivers horizontal scalability with built-in cross-shard communication and zero-knowledge proofs. On =nil; all accounts are smart contracts (no EOAs), state is partitioned across execution shards, and correctness is verified with zk proofs while Ethereum provides data availability and consensus. Developers build with Solidity smart contracts and interact with the cluster through an Ethereum-style JSON-RPC 2.0 API, the @nilfoundation/niljs TypeScript client library, the =nil; CLI, and a Hardhat plugin. =nil; Foundation also develops zkLLVM (a zero-knowledge proof circuit compiler) and the Placeholder proof system with an in-EVM verifier. The company is a portfolio company of Polychain Capital.
 image: https://nil.foundation/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: =nil; Foundation MCP Server
-  slug: nil-foundation-mcp-server
 modified: '2026-07-20'
 name: =nil; Foundation
 nav: Providers
@@ -168,8 +164,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nil-foundation/refs/heads/main/screenshots/nil-foundation-2026-08-07T185257.png
 security:

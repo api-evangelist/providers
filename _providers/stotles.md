@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server exposing Stotles public sector market data to AI chat tools and agents. Streamable-HTTP transport at api.stotles.com/mcp, authenticated with the same x-api
@@ -61,7 +61,7 @@ apis:
   description: Suppliers bidding for and winning public sector contracts.
   name: Stotles Suppliers API
   slug: stotles-suppliers-api
-artifact_total: 12
+artifact_total: 11
 common:
 - group: other
   title: ''
@@ -162,11 +162,8 @@ image: https://cdn.prod.website-files.com/67caf809eabcc3eb572f7bc7/68149b136c8bc
 layout: provider
 mcp_servers:
 - description: ''
-  name: Stotles MCP server
-  slug: stotles-mcp-server
-- description: ''
   name: Stotles MCP Server
-  slug: stotles-mcp-server-2
+  slug: stotles-mcp-server
 modified: '2026-08-14'
 name: Stotles
 nav: Providers
@@ -222,8 +219,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/screenshots/stotles-2026-08-17T082131.png
 security:

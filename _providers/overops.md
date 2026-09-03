@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -123,7 +123,7 @@ apis:
   description: Fetch and manipulate grouping of events (i.e. Views) according to attribute sets (e.g. "uncaught exceptions", "errors from package com.acme")
   name: Overops Views API
   slug: overops-views-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -207,7 +207,7 @@ common:
   url: well-known/overops-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/overops-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents, and resolves critical software issues across CI/CD, testing, and production. OverOps captures true root-cause code snapshots (stack, source, and variable state) at the moment of failure and exposes everything through a REST API that lets admins and users automate every action available in the OverOps UI. OverOps was acquired by Harness; overops.com now redirects to harness.io, while the developer API, documentation, and application hosts remain live.
 image: https://files.readme.io/dd13086-small-Logo_white.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Overops MCP Server
-  slug: overops-mcp-server
 modified: '2026-07-20'
 name: Overops
 nav: Providers
@@ -315,8 +311,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/screenshots/overops-2026-08-07T191135.png
 security:

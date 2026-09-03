@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Update a secret's description and KMS key with UpdateSecret, then describe it to confirm the new metadata was applied.
   name: Amazon Secrets Manager Update Metadata and Verify
   slug: amazon-secrets-manager-update-metadata-and-verify-workflow
-artifact_total: 65
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Amazon Secrets Manager API
@@ -159,7 +159,7 @@ common:
   url: well-known/amazon-secrets-manager-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-secrets-manager-mcp.yml
 - group: agent
   title: ''
@@ -468,10 +468,6 @@ jsonld:
   property_count: 27
   slug: amazon-secrets-manager-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Secrets Manager MCP Server
-  slug: amazon-secrets-manager-mcp-server
 modified: '2026-06-20'
 name: Amazon Secrets Manager
 nav: Providers
@@ -542,8 +538,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

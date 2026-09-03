@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -65,7 +65,7 @@ apis:
   description: Operations related to Short Energy (SE)
   name: Wattwatchers Short Energy API
   slug: wattwatchers-short-energy-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Wattwatchers API
@@ -177,7 +177,7 @@ common:
   url: data-model/wattwatchers-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wattwatchers-mcp.yml
 - group: agent
   title: ''
@@ -204,10 +204,6 @@ examples:
   slug: wattwatchers-rest-api-v3-examples
 image: https://docs.wattwatchers.com.au/assets/images/favicon.png
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP tool surface for the Wattwatchers REST API v3 (Mercury). All 14 operations map cleanly to tools. Note the safety profile: 13 of 14 are safe reads, and exactly one — update_device — is a '
-  name: Wattwatchers MCP Server
-  slug: wattwatchers-mcp-server
 modified: '2026-07-27'
 name: Wattwatchers
 nav: Providers
@@ -256,8 +252,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/screenshots/wattwatchers-2026-09-02T170454.png
 security:

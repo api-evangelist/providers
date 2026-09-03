@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: raw data endpoints
   name: Apptentive raw API
   slug: apptentive-raw-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: packages/apptentive-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apptentive-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Apptentive, now Alchemer Mobile / Alchemer Digital, is a mobile customer engagement and in-app feedback platform used to run surveys, message prompts (Notes), ratings/review prompts, and Fan Signals inside iOS, Android, React Native, and web apps. Its public Data API at data.apptentive.com gives customers read-only export and analytics access to app metrics (active users, retention, Love Percent, Net Fan Score, ratings, reviews), survey and note reporting, and raw people, device, conversation, and message records, plus a GDPR/CCPA data-request endpoint. Authentication is an X-API-KEY header issued and scoped from the Alchemer Digital dashboard; the service is SOC 2 Type 2 and ISO 27001 certified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apptentive.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Apptentive MCP Server
-  slug: apptentive-mcp-server
 modified: '2026-07-18'
 name: Apptentive
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/screenshots/apptentive-2026-07-25T200848.png
 security:

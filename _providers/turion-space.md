@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: First-party REST API gateway behind the STARFIRE customer dashboard. Route prefixes observed in the provider's own published dashboard bundle include /api/v1/tasking-orders, /api/v1/images/, /api/v1/t
@@ -148,8 +148,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turion-space/refs/heads/main/screenshots/turion-space-2026-09-02T164540.png
 security:

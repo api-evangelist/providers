@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://edools.com'', ''status'': 301, ''note'': ''declared website redirects to https://herospark.com/ — a different registrable domain (edools.com -> herospark.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for managing an Edools school — team and role administration, content (courses, learning paths, lessons, media), student management and engagement triggers, and school pro
@@ -167,8 +168,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edools/refs/heads/main/screenshots/edools-2026-07-25T212856.png
 security:

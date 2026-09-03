@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
   description: Energy Plan endpoints
   name: Alinta Energy Energy Plans API
   slug: alinta-energy-energy-plans-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: CDR Common API
@@ -166,7 +166,7 @@ common:
   url: packages/alinta-energy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alinta-energy-mcp.yml
 - group: agent
   title: ''
@@ -249,10 +249,6 @@ description: 'Alinta Energy is one of Australia''s largest integrated energy ret
   therefore honestly summarised as mandate-implemented but developer-closed: everything of substance sits behind ACCC accreditation and consumer consent, Alinta publishes no developer portal, no self-serve API, no proprietary OpenAPI and no open grid or market data of its own.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alinta-energy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alinta Energy MCP Server
-  slug: alinta-energy-mcp-server
 modified: '2026-07-27'
 name: Alinta Energy
 nav: Providers
@@ -306,8 +302,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

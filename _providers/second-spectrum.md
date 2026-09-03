@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.secondspectrum.com/'', ''status'': 302, ''note'': ''declared website redirects to https://performancestudio.geniussports.com/ — a different registrable domain (secondspectrum.com -> geniussports.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Customer-facing platform delivering Second Spectrum tracking data, visualizations, and clips to club analysts and coaching staff. Access is gated by Auth0-backed login under the Genius Sports Performa
@@ -111,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/second-spectrum/refs/heads/main/screenshots/second-spectrum-2026-06-20T193622.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: xCBL 4.0 is a royalty-free library of XML business documents and reusable components for business-to-business e-commerce, published by Commerce One and still distributed from xcbl.org. It is a documen
@@ -138,8 +138,8 @@ score:
   previous_composite: 26.0
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/screenshots/commerce-one-2026-07-25T210126.png
 security:

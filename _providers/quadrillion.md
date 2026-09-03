@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -298,7 +298,7 @@ apis:
   description: The You API from Quadrillion — 1 operation(s) for you.
   name: Quadrillion You API
   slug: quadrillion-you-api
-artifact_total: 108
+artifact_total: 107
 collections:
 - collection_type: open
   name: API Collection
@@ -555,7 +555,7 @@ common:
   url: overlays/quadrillion-cloud-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quadrillion-mcp.yml
 - group: agent
   title: ''
@@ -569,10 +569,6 @@ created: '2026-07-17'
 description: Quadrillion Labs builds Qualia, an AI coding agent for researchers that runs hundreds of agents in parallel to compress weeks of research into hours. Qualia is a Jupyter-compatible notebook IDE with autonomous mode, a central knowledge graph, reusable skills, and MCP integrations to tools like Snowflake, arXiv, Google Drive, Slack, and Atlassian. The Quadrillion Cloud API is the public cloud backend behind the desktop app, exposing cloud-safe endpoints for LLM provider proxying (OpenAI, Anthropic, Gemini, Cerebras, OpenRouter, Fireworks), API-key and session management, org/WorkOS SSO administration, compute and kernel orchestration, notebooks, projects/tasks, the knowledge graph, and Stripe billing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quadrillion.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Quadrillion MCP Server
-  slug: quadrillion-mcp-server
 modified: '2026-07-20'
 name: Quadrillion
 nav: Providers
@@ -611,8 +607,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/screenshots/quadrillion-2026-08-17T081425.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 2
@@ -103,7 +103,7 @@ apis:
   description: Endpoints to create, view, update and delete VPCs
   name: Fluence VPCs API
   slug: fluence-vpcs-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -235,7 +235,7 @@ common:
   url: data-model/fluence-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fluence-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: 'Fluence is a decentralized (DePIN) cloud-computing platform offering enterprise-grade CPU and GPU compute — virtual machines, GPU containers, and bare-metal instances — rented from a global marketplace of independent infrastructure providers at up to 85% below traditional clouds, with predictable pricing and zero egress fees. The Fluence API (api.fluence.dev) gives programmatic access to the marketplace: search available compute, deploy and manage VMs, attach storage and public IPs, configure VPCs, subnets, and security groups, register SSH keys, and handle billing. Compute is paid in USDC; the FLT token is used for staking and protocol governance on Fluence''s Arbitrum Orbit L2 appchain. Backed by Multicoin Capital.'
 image: https://www.fluence.network/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fluence MCP Server
-  slug: fluence-mcp-server
 modified: '2026-07-19'
 name: Fluence
 nav: Providers
@@ -300,8 +296,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/screenshots/fluence-2026-07-25T214842.png
 security:

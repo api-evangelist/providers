@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.9
-  scored_at: '2026-09-02'
+  score: 41.1
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ apis:
   description: As mailpieces travel through the mail stream, USPS scans their unique barcodes, and Lob processes these mail scans to generate tracking events. <h3>Certified Tracking Event Details</h3> Letters sent w
   name: Lob.com Tracking Events API
   slug: lobcom-tracking-events-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Lobcom Webhooks
@@ -383,7 +383,7 @@ common:
   url: packages/lobcom-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lobcom-mcp.yml
 - group: agent
   title: ''
@@ -489,10 +489,6 @@ created: '2026-07-17'
 description: Lob is the direct-mail and address-verification API for developers. Its REST API lets teams programmatically create and mail postcards, letters, checks, self-mailers, snap packs, booklets, buckslips and cards; verify and autocomplete US and international addresses; run direct-mail and USPS Informed Delivery campaigns; manage HTML templates; and track physical delivery through USPS scan events surfaced over webhooks. The API is organized around REST with resource-oriented URLs, HTTP Basic authentication using test_/live_ API keys, cursor pagination, Idempotency-Key support, and standard rate-limit headers. Lob was surfaced as an a16z portfolio company and enriched into the API Evangelist network from its public OpenAPI, docs, SDKs, and registries.
 image: https://www.lob.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lob.com MCP Server
-  slug: lobcom-mcp-server
 modified: '2026-08-13'
 name: Lob.com
 nav: Providers
@@ -542,8 +538,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

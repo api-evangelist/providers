@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
   name: kevin. platform API
   slug: kevin-platform-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Kevin Webhooks
@@ -103,7 +103,7 @@ common:
   url: conformance/kevin-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kevin-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: kevin. was a Lithuanian account-to-account (A2A) payments infrastructure company providing PSD2 open-banking Payment Initiation and Account Information services to merchants across 28 European countries. Its platform API let businesses initiate bank (SEPA) and card (hybrid) payments, issue refunds, read account data, and receive signed payment webhooks through a single integration to hundreds of banks, supported by an official Node.js SDK, a CLI, and a React UI component library. Backed by Accel. The company has wound down its public web presence - kevin.eu no longer resolves as of 2026-07 - and this profile is enriched from kevin.'s published npm packages and archived developer reference.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kevin.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the operationIds exposed by the official kevin. platform SDK (Auth, General, Payment Initiation, Account Information services). No official hosted MCP server wa
-  name: Kevin. MCP Server
-  slug: kevin-mcp-server
 modified: '2026-07-19'
 name: Kevin.
 nav: Providers
@@ -179,8 +175,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

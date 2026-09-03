@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -217,8 +217,8 @@ score:
   previous_composite: 29.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:

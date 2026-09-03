@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,7 +20,7 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-09-02'
+  score: 40.1
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.validere.io/app
@@ -311,7 +312,7 @@ apis:
   description: Workflow
   name: Validere workflows API
   slug: validere-workflows-api
-artifact_total: 115
+artifact_total: 114
 collections:
 - collection_type: open
   name: API Collection
@@ -576,7 +577,7 @@ common:
   url: well-known/validere-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/validere-mcp.yml
 - group: agent
   title: ''
@@ -586,10 +587,6 @@ created: '2026-07-17'
 description: Validere is an enterprise environmental operations and emissions data management platform for the energy industry. Upstream, midstream, refining, utility, and CCUS operators use it to unify operational, measurement, and emissions data for regulatory and voluntary emissions reporting, methane management, EHS compliance, asset management, and production accounting. Its public REST API at api.validere.io spans the CarbonHub App API (facilities, equipment, flows, devices, measurements, estimation methods, records, workflows, and reports) and the Data Platform Source API for pushing JSON or file data validated against registered JSON Schemas, with ingestion tracked through a Transactions API.
 image: https://github.com/ValidereInc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Validere MCP Server
-  slug: validere-mcp-server
 modified: '2026-07-21'
 name: Validere
 nav: Providers
@@ -633,8 +630,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/screenshots/validere-2026-08-17T082707.png
 security:

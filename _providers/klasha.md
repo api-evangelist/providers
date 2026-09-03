@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Collect payments from customers in Africa via card, bank transfer, USSD, M-Pesa, mobile money and the Klasha wallet, including charge validation, refunds and exchange rates.
@@ -51,7 +51,7 @@ apis:
 - description: Generate payment links for merchants and sub-merchants to collect payments without a code integration, from the dashboard or over the API.
   name: Klasha Payment Link API
   slug: payment-link-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Klasha Webhooks
@@ -183,7 +183,7 @@ common:
   url: llms/klasha-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/klasha-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: Klasha is a cross-border payments company for emerging markets that lets international businesses sell into Africa and accept payments online in local African currencies. The Klasha platform covers payment collection (cards, bank transfer, USSD, M-Pesa and mobile money, Klasha wallet), payouts to bank accounts and mobile money wallets across Africa and to China, currency swap between merchant wallets at internal Klasha rates, virtual account creation for bank-account collection, payment links, and an embeddable JavaScript checkout. Developers integrate through the documented REST APIs at developers.klasha.com, the Klasha Inline JavaScript library, first-party web and mobile SDKs (Angular, React, Vue 2/3, iOS, Android, Flutter, Ionic, React Native), or ready-made e-commerce plugins for WooCommerce, Magento 2, BigCommerce, OpenCart, Ecwid, Wix and Weebly.
 image: https://klasha.com/icon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Klasha MCP Server
-  slug: klasha-mcp-server
 modified: '2026-07-19'
 name: Klasha
 nav: Providers
@@ -238,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/screenshots/klasha-2026-07-25T223937.png
 security:

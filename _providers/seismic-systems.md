@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The tokens API from Seismic Systems — 2 operation(s) for tokens.
   name: Seismic Systems tokens API
   slug: seismic-systems-tokens-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -59,7 +59,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/seismic-systems-mcp.yml
 - group: other
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Seismic Systems Inc. is a fintech company building a privacy-enabled ("encrypted") blockchain — a shielded EVM implementing the "Mercury" specification — that aims to power a complete stablecoin stack. Backed by a $17M seed led by a16z crypto, Seismic lets developers build private tokens (SRC20) whose balances and transfers are hidden from observers, using shielded types in Solidity, TEE-encrypted calldata (ECDH + AES-GCM), and authenticated "signed reads." It ships first-party client SDKs for TypeScript (seismic-viem, seismic-react), Python (seismic-web3), and Rust (seismic-alloy), an sfoundry developer toolchain (sforge/sanvil/ssolc), a public testnet with a faucet and block explorer, published Claude Code agent skills, and a read-only SRC20 Factory REST API for querying deployed tokens.
 image: https://github.com/SeismicSystems.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote MCP server was found for Seismic (the docs publish Claude Code workflow skills and CLAUDE.md templates instead — see skills/_index.yml). This is a CANDIDATE tool list derived
-  name: Seismic Systems MCP Server
-  slug: seismic-systems-mcp-server
 modified: '2026-07-21'
 name: Seismic Systems
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic-systems/refs/heads/main/screenshots/seismic-systems-2026-09-02T154810.png
 security:

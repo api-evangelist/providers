@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -58,7 +58,7 @@ apis:
   description: Operations for managing resource tags
   name: Amazon AppFlow Tags API
   slug: amazon-appflow-tags-api
-artifact_total: 217
+artifact_total: 216
 collections:
 - collection_type: postman
   name: Amazon AppFlow Connectors API
@@ -196,7 +196,7 @@ common:
   url: well-known/amazon-appflow-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-appflow-mcp.yml
 - group: agent
   title: ''
@@ -789,10 +789,6 @@ jsonld:
   property_count: 120
   slug: amazon-appflow-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon AppFlow MCP Server
-  slug: amazon-appflow-mcp-server
 modified: '2026-06-20'
 name: Amazon AppFlow
 nav: Providers
@@ -855,8 +851,8 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

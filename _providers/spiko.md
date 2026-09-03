@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ apis:
   description: The Yields API from Spiko — 3 operation(s) for yields.
   name: Spiko Yields API
   slug: spiko-yields-api
-artifact_total: 61
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Spiko Distributor Webhooks
@@ -269,6 +269,10 @@ collections:
   name: Spiko Distributor Account transactions Yields API
   slug: open-spiko-yields-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spiko-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -351,7 +355,7 @@ common:
   url: security/spiko-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spiko-mcp.yml
 - group: agent
   title: ''
@@ -413,10 +417,6 @@ created: '2026-07-17'
 description: 'Spiko is a European fintech and MiFID-authorized investment firm (ACPR license #19183) offering regulated daily treasury management through tokenized, UCITS-approved government money market funds and multi-currency cash accounts (EUR, USD, GBP, CHF). Businesses and individuals earn the risk-free rate on idle cash while keeping daily liquidity; client funds are custodied by CACEIS Bank and Spiko itself holds no client funds. Spiko exposes three developer APIs: an open Public API for fund, share-class, NAV, yield, and exchange-rate data; an Investor API for direct clients and partners to manage accounts and deposit/withdrawal/transfer orders; and a Distributor API for partners to onboard investors, manage accounts and orders, and receive webhook events.'
 image: https://cdn.prod.website-files.com/670cbf7bea9b168605318b30/674b4c0d4a61fe0fa0036e29_Logo_square_white%402x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spiko MCP Server
-  slug: spiko-mcp-server
 modified: '2026-07-21'
 name: Spiko
 nav: Providers
@@ -427,7 +427,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
   The Spiko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 4
 scopes:
 - name: Spiko Scopes
@@ -438,7 +438,7 @@ score:
   band: strong
   composite: 54.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -473,8 +473,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/screenshots/spiko-2026-08-17T082026.png
 security:

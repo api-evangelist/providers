@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: OpenSearch 1.1 query interface returning an Atom feed of repository records, served from the institution's own host. Verified live 2026-08-19 (HTTP 200, 32KB Atom response for query=test).
@@ -256,13 +256,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.9
+  composite: 45.4
   coverage:
     artifact_dirs: 17
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -272,9 +272,6 @@ score:
     discoverability: 59.3
     governance: 22.0
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 43.9
   provenance:
     conformance: first-party
@@ -289,8 +286,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/screenshots/peking-2026-06-20T191532.png
 security:

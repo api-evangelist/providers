@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: Withdrawal operations from pools
   name: MetaLend Withdrawals API
   slug: metalend-withdrawals-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/metalend-mcp.yml
 - group: design
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: 'MetaLend is a DeFi "earn and spend" platform that aggregates lending pools across protocols (Aave, Morpho, Euler) and chains (Base, Ethereum, Polygon, Arbitrum, Linea) behind a single cross-chain Rebalancing API. It continuously repositions user-approved, self-custodied capital into the best-yielding pools while keeping funds instantly spendable via a debit card. The API is notably agent-native: it serves an AI agent flow guide at GET /SKILL.md, ships SIWE challenge/verify JWT auth with EIP-191/EIP-712/EIP-3009 wallet signing, and gates its services directory behind an x402 (HTTP 402) micropayment in USDC on Base. Smart contracts are audited by Sherlock. Backed by Pantera Capital.'
 image: https://d26nkljutfj8pz.cloudfront.net/images/metalend-share.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MetaLend MCP Server
-  slug: metalend-mcp-server
 modified: '2026-07-20'
 name: MetaLend
 nav: Providers
@@ -289,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/screenshots/metalend-2026-08-07T172645.png
 security:

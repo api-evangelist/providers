@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ apis:
   description: The Vehicles API from Distru — 1 operation(s) for vehicles.
   name: Distru Vehicles API
   slug: distru-vehicles-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -307,7 +307,7 @@ common:
   url: overlays/distru-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/distru-mcp.yml
 - group: agent
   title: ''
@@ -329,10 +329,6 @@ created: '2026-07-17'
 description: Distru is a cannabis-industry ERP and seed-to-sale platform that serves as the central operating hub for cultivators, processors and manufacturers, distributors, retailers and multi-state operators. It unifies inventory management with live Metrc and BioTrack compliance synchronization, order fulfillment, wholesale sales (DistruCommerce), invoicing, procurement and purchasing, warehouse management, production and assemblies with bills of materials and cost accounting, cultivation management, label printing, and certificate-of-analysis and test-result tracking. Distru also exposes a public REST API so operators can build custom integrations against products, inventory, orders, invoices, purchases, companies, contacts, batches, packages, strains, test results and more. The API uses Bearer API-key authentication generated inside the Distru app and returns JSON with cursor- style page[number]/page[size] pagination.
 image: https://cdn.prod.website-files.com/6352c27835e754635b10bba3/64efab164e5b7a73477d8993_api-docs.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Distru MCP Server
-  slug: distru-mcp-server
 modified: '2026-07-18'
 name: Distru
 nav: Providers
@@ -371,8 +367,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png
 security:

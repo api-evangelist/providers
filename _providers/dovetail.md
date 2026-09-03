@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Dovetail Public API for building custom integrations against a Dovetail workspace: manage projects, folders, docs, insights, data (notes), highlights, tags, themes, channels, topics, contacts, users, '
@@ -187,8 +187,8 @@ score:
   previous_composite: 30.5
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/screenshots/dovetail-2026-07-25T212327.png
 security:

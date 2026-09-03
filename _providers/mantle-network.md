@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://explorer.mantle.xyz/'', ''status'': 302, ''note'': ''declared website redirects to https://mantlescan.xyz/ — a different registrable domain (mantle.xyz -> mantlescan.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Standard Ethereum JSON-RPC endpoint for Mantle mainnet (chain ID 5000). Used by wallets, dApps, indexers, and tooling to read chain state and submit transactions on the Mantle L2.
@@ -169,8 +170,8 @@ score:
     governance: 11.4
     operational_transparency: 26.3
   previous_composite: 32.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/screenshots/mantle-network-2026-06-20T184930.png
 security:

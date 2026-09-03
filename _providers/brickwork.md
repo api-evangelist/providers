@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ apis:
   description: The Utilities API from Brickwork — 1 operation(s) for utilities.
   name: Brickwork Utilities API
   slug: brickwork-utilities-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -387,7 +387,7 @@ common:
   url: lifecycle/brickwork-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brickwork-mcp.yml
 - group: agent
   title: ''
@@ -401,10 +401,6 @@ created: '2026-07-17'
 description: Brickwork is an omnichannel retail platform, now operated by DevHub, that powers a rich digital presence for physical retail stores. It provides store pages and the first omnichannel-enabling store locator, plus local activation around store services, appointments, in-store events with RSVPs, store hours, promotions, and customer records to drive qualified online traffic into brick-and-mortar locations. The Brickwork API v3 exposes 107 operations spanning admin management (stores, store types, services, appointments, events, RSVPs, customers, company users, regular and special hours, store images, alerts, transactions) and public front-end store, service, and event data. Admin endpoints authenticate with a company api_key query parameter; responses are JSON, paginated by page number, and support an optional locale path prefix for localization. Founded in 2013 and backed by Cowboy Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brickwork.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brickwork MCP Server
-  slug: brickwork-mcp-server
 modified: '2026-07-18'
 name: Brickwork
 nav: Providers
@@ -443,8 +439,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/screenshots/brickwork-2026-07-25T203804.png
 security:

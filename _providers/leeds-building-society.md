@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The OBIE Read/Write Account and Transaction Information (AIS) standard for retrieving account, balance, transaction, and beneficiary data with customer consent, secured with FAPI-grade OAuth2/OIDC, mu
@@ -166,8 +166,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/screenshots/leeds-building-society-2026-07-25T224818.png
 security:

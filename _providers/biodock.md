@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.biodock.ai/api/external
@@ -56,7 +56,7 @@ apis:
   description: Listing published analysis pipelines
   name: Biodock Pipelines API
   slug: biodock-pipelines-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -76,7 +76,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/biodock-mcp.yml
 - group: other
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: Biodock is an AI platform that makes deep learning easy to train, run, and interpret on biological and microscopy images, dramatically accelerating R&D image analysis. Researchers upload microscopy images, label and train fully-automated deep AI models in a visual labeler (no code required), and run those models across large datasets to segment, classify, and quantify objects such as cells - producing results comparable to flow cytometry along with downloadable object-level and aggregate data. Biodock is used by academic labs and Fortune 500 biopharma and life-science organizations, and is SOC 2 Type II and ISO 27001 certified. Beyond the visual app, Biodock exposes a public REST API (beta) for uploading files to the Biodock Filesystem, submitting analysis jobs against published pipelines, tracking job progress, and downloading results and segmentation masks - so analysis can be scripted and integrated into internal tools and imaging pipelines.
 image: https://cdn.prod.website-files.com/63213d26df394911486f698e/637bb41c1cac3a4ded2e9f23_SEOImage.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Biodock MCP Server
-  slug: biodock-mcp-server
 modified: '2026-07-18'
 name: Biodock
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
 security:

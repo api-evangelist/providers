@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.leo1.in
@@ -196,7 +196,7 @@ apis:
   description: The waiver API from Leo1 — 1 operation(s) for waiver.
   name: Leo1 waiver API
   slug: leo1-waiver-api
-artifact_total: 69
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Leo1 Fees Webhooks
@@ -308,7 +308,7 @@ common:
   url: capabilities/leo1-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leo1-mcp.yml
 - group: company
   title: ''
@@ -414,10 +414,6 @@ created: '2026-07-17'
 description: LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus and financial platform for Indian educational institutions. The company issues co-branded student and alumni prepaid cards, collects and reconciles institutional fees, and originates fee-financing (education loan) journeys that convert lump-sum tuition into instalments while giving institutes regularized cash flow. LEO1 exposes the LEO1 Fees SDK — a documented server-to-server and web checkout integration that lets an institute ERP start a fee transaction, embed the hosted checkout, and receive payment-gateway and fee-finance webhook notifications — backed by a public OpenAPI 3.0.2 description covering student, fee-due, fee-collection, payment, NACH/eNACH mandate, refund, penalty, waiver, settlement and institute administration operations. Backed by QED Investors, LEO1 reports partnerships with 31+ institution groups serving over half a million students across India.
 image: https://dn9oz5dl4ecgb.cloudfront.net/LEO1_Famous_card.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Leo1 MCP Server
-  slug: leo1-mcp-server
 modified: '2026-07-19'
 name: Leo1
 nav: Providers
@@ -464,8 +460,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png
 security:

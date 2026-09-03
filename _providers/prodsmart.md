@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://prodsmart.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.autodesk.com/products/prodsmart/overview — a different registrable domain (prodsmart.com -> autodesk.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://fusionoperations.autodesk.com
@@ -116,7 +117,7 @@ apis:
   description: The Task Durations API from Prodsmart — 2 operation(s) for task durations.
   name: Prodsmart Task Durations API
   slug: prodsmart-task-durations-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Prodsmart Webhooks
@@ -232,7 +233,7 @@ common:
   url: asyncapi/prodsmart-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/prodsmart-mcp.yml
 - group: agent
   title: ''
@@ -250,10 +251,6 @@ created: '2026-07-17'
 description: Prodsmart is a cloud manufacturing execution system (MES) and production management platform for small and mid-sized manufacturers, covering production tracking, inventory, sales and purchasing, quality, scheduling and material requirements, asset maintenance, and shop-floor analytics across mobile and desktop. Founded as Prodsmart and acquired by Autodesk in 2021, it is now offered as Autodesk Fusion Operations. It exposes a documented REST API (a deprecated v1 surface at fusionoperations.autodesk.com/api/v1 and a current v2 API on Autodesk Platform Services), authenticated with an API Key/Secret via HTTP Basic that mints a 2-hour token, plus webhooks, a Changes Feed, and Zapier and Power BI integrations. This profile was surfaced as a portfolio company of 500 Global and enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prodsmart.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Prodsmart MCP Server
-  slug: prodsmart-mcp-server
 modified: '2026-07-20'
 name: Prodsmart
 nav: Providers
@@ -292,8 +289,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prodsmart/refs/heads/main/screenshots/prodsmart-2026-09-02T152117.png
 security:

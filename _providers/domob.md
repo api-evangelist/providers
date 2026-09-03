@@ -1,11 +1,16 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Domob's mobile ad exchange, supporting RTB, PMP, PD and PDB buying. Listed on the Domob developer platform's API docking page with a docking document updated 2025-06-13, but that document is hosted on
@@ -43,7 +48,7 @@ apis:
   description: Media revenue and delivery statistics for a publisher's ad slots.
   name: domob Reporting API
   slug: domob-reporting-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: Domob Media Data API
@@ -159,7 +164,7 @@ common:
   url: llms/domob-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/domob-mcp.yml
 - group: build
   title: ''
@@ -178,10 +183,6 @@ description: 'Domob (多盟) is a Beijing-based mobile intelligent marketing and
   API on developer.domob.cn), an ad exchange at adx.domob.cn whose docking document sits behind a BlueFocus Feishu login, an undocumented "Domob Open API" gateway at open.domob.cn, and a retired Reporting API whose documentation is still published even though its host no longer resolves. No machine-readable specification is published on any host. In 2025 the Domob SDK passed CAICT dual-end (iOS/Android) security certification. This profile was surfaced as a portfolio company of Qiming Venture Partners and enriched from public sources.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/domob.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: domob MCP Server
-  slug: domob-mcp-server
 modified: '2026-08-12'
 name: domob
 nav: Providers
@@ -227,8 +228,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/screenshots/domob-2026-07-25T212250.png
 security:

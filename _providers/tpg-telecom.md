@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Contacts Management API for the Vodafone Business Messaging Hub, providing CRUD over contacts, lists and custom fields for SMS/MMS campaigns. Documented as an Apiary API Blueprint (project subdomain c
@@ -45,7 +45,7 @@ apis:
 - description: The SMS/MMS REST API of the Vodafone Business Messaging Hub, listed on the product page as "Access to our REST API" on every plan tier. The API is live on the TPG-branded host https://api.messaging.tp
   name: TPG Telecom Messaging Hub REST API
   slug: tpg-telecom-messaging-hub-rest-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Tpg Telecom Messaging Webhooks
@@ -105,7 +105,7 @@ common:
   url: asyncapi/tpg-telecom-messaging-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tpg-telecom-mcp.yml
 - group: build
   title: ''
@@ -200,10 +200,6 @@ description: 'TPG Telecom Limited is Australia''s second-largest telecommunicati
   API Blueprint owned by MessageMedia. On the sector''s defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG''s public position is that it is "closely watching developments like GSMA Open Gateway" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: 'TPG Telecom publishes no Model Context Protocol server, and none is listed in the official MCP registry or in the Messaging Hub help centre. One live finding is worth recording: the API gateway at api'
-  name: TPG Telecom MCP Server
-  slug: tpg-telecom-mcp-server
 modified: '2026-07-25'
 name: TPG Telecom
 nav: Providers
@@ -253,8 +249,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/screenshots/tpg-telecom-2026-08-17T082417.png
 security:

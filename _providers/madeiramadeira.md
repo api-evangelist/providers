@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - baseURL: https://marketplace.madeiramadeira.com.br
@@ -201,7 +202,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -211,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 33.8
+  previous_composite: 34.1
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +222,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/screenshots/madeiramadeira-2026-09-02T150356.png
 security:

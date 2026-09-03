@@ -6,6 +6,7 @@ access_model:
   pricing: paid
   public: false
   source:
+  - '{''url'': ''https://www.workramp.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.confirm.com/scale-up/products/learn-up — a different registrable domain (workramp.com -> confirm.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   - plans
   - docs
   trial: false
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -415,8 +416,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/screenshots/workramp-2026-06-20T201617.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Police Bank Banking Products API
   slug: police-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: lifecycle/police-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/police-bank-mcp.yml
 - group: design
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-20'
 description: Police Bank is a mutual, member-owned Australian bank (ABN 95 087 650 799, ACN 087 650 799, AFSL / Australian Credit Licence No. 240018) founded to serve the New South Wales police community and their families and now open to the wider public. As an Authorised Deposit-taking Institution it participates in Australia's Consumer Data Right (Open Banking) regime as an active data holder - it publishes an unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, and lets members share their banking data with ACCC-accredited data recipients. Police Bank states it is in the process of gaining ACCC accreditation to also receive data as an Accredited Data Recipient.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/police-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Police Bank MCP Server
-  slug: police-bank-mcp-server
 modified: '2026-07-21T12:00:00Z'
 name: Police Bank
 nav: Providers
@@ -238,8 +234,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/screenshots/police-bank-2026-07-21T114745.png
 security:

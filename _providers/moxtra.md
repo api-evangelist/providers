@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Moxtra's REST API for building embedded collaboration experiences, covering users, binders (workspaces), pages, messages, files, meetings, todos, signatures, and webhooks. Authentication uses OAuth 2.
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxtra/refs/heads/main/screenshots/moxtra-2026-06-20T185836.png
 security:

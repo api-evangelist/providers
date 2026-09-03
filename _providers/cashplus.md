@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ apis:
   description: The Transactions API from Cashplus Bank — 3 operation(s) for transactions.
   name: Cashplus Bank Transactions API
   slug: cashplus-transactions-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -290,7 +290,7 @@ common:
   url: data-model/cashplus-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cashplus-mcp.yml
 - group: build
   title: ''
@@ -321,10 +321,6 @@ description: Cashplus Bank (legal entity Advanced Payment Solutions Limited, reb
   certificates. Cashplus is not one of the CMA9 mandated banks. Alongside the regulated Open Banking surface it runs a first-party partner/developer platform documenting proprietary Identity, Accounts, Applications, Eligibility, Payments, Products, and Transactions APIs for embedded and commercial integrations.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cashplus Bank MCP Server
-  slug: cashplus-bank-mcp-server
 modified: '2026-07-23'
 name: Cashplus Bank
 nav: Providers
@@ -378,8 +374,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

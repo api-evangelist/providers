@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://flows.super.ai/api
@@ -131,7 +131,7 @@ apis:
   description: The worker-groups API from Super.ai — 3 operation(s) for worker-groups.
   name: Super.ai worker-groups API
   slug: superai-worker-groups-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Superai Flows Webhooks
@@ -285,7 +285,7 @@ common:
   url: llms/superai-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/superai-mcp.yml
 - group: other
   title: ''
@@ -323,10 +323,6 @@ created: '2026-07-17'
 description: 'super.AI is an intelligent document processing (IDP) platform that automates the extraction and processing of complex, multi-page documents such as invoices, contracts, and bills of lading, improving accuracy as users correct its output. Its developer product, SuperAI Flows, is a workflow orchestration platform for building durable, AI-powered automations through a simple REST API: design flows that orchestrate AI models, data processing, human-review tasks, and business logic, then run them synchronously via polling or asynchronously via webhooks. The API covers flows, flow executions, task executions and outputs, human review, integrations (email, storage, databases), files, models, service accounts, SSO, and organization management, with JWT bearer and service-account API-key authentication. super.AI serves financial services, insurance, logistics, shared services, and testing/inspection/certification.'
 image: https://super.ai/superai-logo.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Super.ai MCP Server
-  slug: superai-mcp-server
 modified: '2026-07-21'
 name: Super.ai
 nav: Providers
@@ -367,8 +363,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/screenshots/superai-2026-08-17T082158.png
 security:

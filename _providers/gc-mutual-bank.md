@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: G&C Mutual Bank Banking Products API
   slug: gc-mutual-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: lifecycle/gc-mutual-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gc-mutual-bank-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-20'
 description: G&C Mutual Bank is an Australian customer-owned mutual bank and authorised deposit-taking institution (ADI) providing retail and business banking to its members, including home loans, transaction and savings accounts, and credit cards. It merged with Unity Bank effective 7 March 2025, with the combined entity renamed Unity Bank Limited from 1 July 2025; the G&C Mutual Bank brand and its digital banking host (gcmutualbank.com.au) remain operational during the multi-brand consolidation, while the public website gcmutual.bank now redirects to unity.bank. Under Australia's Consumer Data Right (CDR / Open Banking) the bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside the authenticated consumer-data (accounts and transactions) surface that is restricted to accredited data recipients under the CDR ADR model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gc-mutual-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: G&C Mutual Bank MCP Server
-  slug: gc-mutual-bank-mcp-server
 modified: '2026-07-21T00:00:00Z'
 name: G&C Mutual Bank
 nav: Providers
@@ -242,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/screenshots/gc-mutual-bank-2026-07-21T114725.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - description: Create, retrieve, update, and delete individual consumer customer resources for a brand and run Know-Your-Customer (KYC) identity verification against them. Endpoints start and retrieve KYC status, re
@@ -182,6 +182,10 @@ common:
   title: ''
   type: Conformance
   url: conformance/bond-conformance.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://bond.tech/
 created: '2026-07-17'
 description: Bond Financial Technologies is an enterprise-grade banking-as-a-service (BaaS) and embedded finance platform that lets software companies and fintechs embed financial products directly into their applications through a single REST API. The platform covers consumer and commercial deposit accounts, credit-builder and secured charge cards, debit and virtual card issuing and management, money movement (ACH and account-to-account transfers, external-account linking via Plaid), a transaction ledger, statements, identity verification (KYC, KYB, and beneficial-owner verification powered by Persona), webhook event subscriptions, and a full sandbox with simulation endpoints for authorizations, settlements, and KYC/KYB scenarios. Bond exposes API-key authenticated endpoints under api.bond.tech with pre-integrated bank partnerships. Bond was acquired by FIS in June 2023; its developer documentation remains live at docs.bond.tech. Surfaced originally as a portfolio company of Canaan Partners
   and enriched here from Bond's public developer documentation.
@@ -197,7 +201,7 @@ overview: 'Bond publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Bond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
+  Bond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 22 more developer resources.'
 random_paper: 20
 score:
   band: developing
@@ -226,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/screenshots/bond-2026-07-25T203549.png
 security:

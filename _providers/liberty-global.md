@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The STB API from Liberty Global — 2 operation(s) for stb.
   name: Liberty Global STB API
   slug: liberty-global-stb-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: AppStore Bundle Service API
@@ -80,7 +80,7 @@ common:
   url: overlays/liberty-global-appstore-caching-service-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/liberty-global-mcp.yml
 - group: operate
   title: ''
@@ -187,10 +187,6 @@ description: 'Liberty Global is a London-headquartered converged connectivity gr
   resolve — and every callable CAMARA network API reaches the market through the operating joint ventures (Virgin Media O2''s UK KYC Age Verify, KYC Tenure and SIM Swap APIs; VodafoneZiggo''s four Dutch network APIs) or through the operators'' shared channels, never from the parent. The only OpenAPI definitions Liberty Global itself publishes are the Apache-2.0 RDK App Store service specs in its public GitHub organisation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Liberty Global MCP Server
-  slug: liberty-global-mcp-server
 modified: '2026-07-25'
 name: Liberty Global
 nav: Providers
@@ -235,8 +231,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

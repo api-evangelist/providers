@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Report builds and their status to Ketryx.
   name: Ketryx Builds API
   slug: ketryx-builds-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: security/ketryx-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ketryx-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation, traceability, and quality-management work required by FDA, EU MDR, ISO 13485, ISO 14971, and IEC 62304, keeping teams continuously audit-ready. Capabilities include automated Design and Development File generation, requirement-risk-code-test traceability, agentic AI for repetitive compliance tasks, ISO 14971 risk management, software bill-of-materials (SBOM) and vulnerability tracking, QMS enforcement, and change-impact assessment. Ketryx exposes a public Build API that lets CI/CD pipelines report builds, JUnit / Cucumber test results, build artifacts, and CycloneDX / SPDX SBOM documents into a project, via a first-party GitHub Action and Python utility. The company is backed by Lightspeed Venture Partners.
 image: https://www.ketryx.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ketryx MCP Server
-  slug: ketryx-mcp-server
 modified: '2026-07-19'
 name: Ketryx
 nav: Providers
@@ -217,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:

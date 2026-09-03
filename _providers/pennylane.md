@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -493,8 +493,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png
 security:

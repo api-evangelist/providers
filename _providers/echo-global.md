@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,7 +84,10 @@ apis:
   description: Obtaining and using tokens
   name: Echo Global Logistics token API
   slug: echo-global-token-api
-artifact_total: 33
+- description: Echo supports system-to-system EDI integration alongside its REST APIs via the EchoSync platform, enabling shippers, carriers, third parties, and TMS software to exchange transactional data with Echo'
+  name: Echo EDI Integration
+  slug: edi
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -170,6 +173,18 @@ common:
   title: ''
   type: FinOps
   url: finops/echo-global-finops.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.echo.com/technology/integrations/echosync/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.swaggerhub.com/organizations/EchoGlobalLogistics
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/EchoGlobalLogistics
 created: '2026-06-13'
 description: Tech-enabled freight brokerage with REST APIs for shipping quotes, booking LTL and FTL shipments, tracking deliveries, and managing carrier relationships. The EchoSync API suite includes the Partner-Connect API for load creation and LTL rating, the Customer API for truckload quoting, the Carrier API for digital freight marketplace access, and an Authorizer API for OAuth 2.0 token management.
 examples:
@@ -216,7 +231,7 @@ overview: 'Echo Global Logistics publishes 8 APIs on the [APIs.io](https://apis.
   The Echo Global Logistics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Echo Global Logistics'' developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Echo Global Logistics'' developer surface includes authentication, documentation, engineering blog, pricing, developer portal, API reference, and 11 more developer resources.'
 plans:
 - name: Echo Global Plans Pricing
   plan_count: 3
@@ -239,22 +254,22 @@ rules:
   slug: echo-global-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.8
+  composite: 45.9
   coverage:
     artifact_dirs: 15
-    catalog_gap: 36.8
+    catalog_gap: 41.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 61.5
-    developer_ergonomics: 23.8
-    discoverability: 74.1
+    developer_ergonomics: 40.5
+    discoverability: 64.8
     governance: 9.8
-    operational_transparency: 31.6
+    operational_transparency: 36.8
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -263,8 +278,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/screenshots/echo-global-2026-06-20T180419.png
 security:

@@ -7,10 +7,11 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.ariba.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.sap.com/products/spend-management.html?src=ariba — a different registrable domain (ariba.com -> sap.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.9
-  scored_at: '2026-09-02'
+  score: 26.4
+  scored_at: '2026-09-03'
 api_count: 74
 apis:
 - description: Provides synchronous and asynchronous access to operational procurement data including requisitions, purchase orders, receipts, and invoices for reporting and analytics purposes.
@@ -497,8 +498,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/screenshots/ariba-2026-06-20T172425.png
 security:

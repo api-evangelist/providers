@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Vehicles API from Shiftmove — 7 operation(s) for vehicles.
   name: Shiftmove Vehicles API
   slug: shiftmove-vehicles-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -203,7 +203,7 @@ common:
   url: https://www.shiftmove.com/legal/legal-overview
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shiftmove-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Shiftmove GmbH is a Berlin-based European fleet management software company backed by Battery Ventures, operating the Vimcar, Fleet, Avrios, Optimum and Océan brands and managing 730,000+ vehicles for 25,000+ fleet customers. Its developer surface is the Avrios Fleet-API, a Swagger 2.0 REST API (base URL https://api.avrios.com) that syncs fleet data — vehicles, drivers, driver/vehicle assignments, license plates, vehicle financing, usages, invoices, organizations and custom fields — with the Avrios/Shiftmove platform. The API uses HTTP Basic authentication, is rate limited to 300 requests per minute, exposes 40 operations across ten resource groups, follows semantic versioning, and returns page-number paginated responses.
 image: https://www.shiftmove.com/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Shiftmove MCP Server
-  slug: shiftmove-mcp-server
 modified: '2026-07-21'
 name: Shiftmove
 nav: Providers
@@ -275,8 +271,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/screenshots/shiftmove-2026-08-17T081831.png
 security:

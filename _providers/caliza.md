@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Compliant, real-time cross-border payments and USD account infrastructure: beneficiaries and KYC/KYB, USD and multi-currency virtual accounts, transaction/payment simulation and execution, batch and s'
   name: Caliza Core API
   slug: caliza-core-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Caliza Webhooks
@@ -127,7 +127,7 @@ common:
   url: data-model/caliza-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/caliza-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Caliza is a financial infrastructure company providing compliant, real-time cross-border payments and USD account infrastructure for global businesses. The Caliza Core API lets integrators create individual and business beneficiaries (with KYC/KYB verification), issue named USD digital-dollar and multi-currency virtual accounts, simulate and execute transactions and payments across fiat and stablecoin rails (ACH, WIRE, SWIFT, RTP, PIX, SPEI, and blockchain networks including Ethereum, Polygon, Tron, Stellar, Base and Solana), run batch and sweep payouts, lock FX rates, manage recipients, and receive HMAC-signed webhook notifications for the full transaction and beneficiary lifecycle. Authentication is OAuth 2.0 (OpenID Connect / Keycloak) and a full sandbox environment with mock deposit simulators is provided. Caliza is backed by Initialized Capital and QED Investors.
 image: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/6787817b276b304d33d8dd2f_caliza-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Caliza MCP Server
-  slug: caliza-mcp-server
 modified: '2026-07-18'
 name: Caliza
 nav: Providers
@@ -203,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/screenshots/caliza-2026-07-25T204235.png
 security:

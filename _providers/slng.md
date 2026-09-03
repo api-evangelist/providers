@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -118,7 +118,7 @@ apis:
   description: Whisper Large v3 with 99+ language support.
   name: SLNG Whisper Large v3 API
   slug: slng-whisper-large-v3-api
-artifact_total: 54
+artifact_total: 53
 asyncapis:
 - description: SLNG Gateway API
   name: SLNG Gateway API - SLNG (WebSocket)
@@ -310,7 +310,7 @@ common:
   url: cli/slng-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/slng-mcp.yml
 - group: agent
   title: ''
@@ -364,10 +364,6 @@ created: '2026-07-17'
 description: SLNG is a compliance-first speech AI gateway that gives developers a single, unified API for speech-to-text, text-to-speech, and LLM-driven voice agents across 30+ models from providers like Deepgram, Rime, Cartesia, ElevenLabs, and OpenAI Whisper. The platform acts as an execution layer between an orchestrator and the models, routing each request to in-region compute across 60+ regions and 11 sovereign hubs for low latency and local data residency (GDPR), with ISO 27001 certification and HIPAA compliance. Every model is reachable over HTTP or streaming WebSocket, with bring-your-own-key billing, batch transcription, pronunciation dictionaries, and per-minute pricing. Founded in Barcelona in 2025 and backed by a pre-seed round led by Earlybird.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slng.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SLNG MCP Server
-  slug: slng-mcp-server
 modified: '2026-07-21'
 name: SLNG
 nav: Providers
@@ -409,8 +405,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/screenshots/slng-2026-08-17T081926.png
 security:

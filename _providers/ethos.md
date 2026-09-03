@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Partner-gated API surface exposing Ethos's underwriting and interview engines. Partners can retrieve customized quotes, conduct interviews and instant underwriting, collect required policy and billing
@@ -93,6 +93,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ethos-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://techandethos.medium.com/feed
 created: '2026-07-17'
 description: Ethos (Ethos Technologies Inc.) is a modern online life insurance platform founded in 2016 that lets eligible applicants get covered in as little as ten minutes without a medical exam, with coverage up to $3 million. Ethos offers term life, whole life, Indexed Universal Life (IUL), final expense, and guaranteed-issue policies through multiple top-rated carriers, plus wills, trusts, and estate-planning services. Beyond its direct-to-consumer and agent channels, Ethos exposes its underwriting and interview engines to enterprise partners through a set of partnership APIs, allowing partners to retrieve customized quotes, run instant interviews and underwriting, collect policy and billing information, and generate signed policy documents while keeping their own branding and UX. The partner API is gated behind a bearer token generated from a partner API key and tied to an individual application session.
 image: https://res.cloudinary.com/getethos/image/upload/v1565983195/00_CMS/Ethos_Life_Insurance_y3fyg1.png
@@ -104,7 +108,7 @@ network: true
 overview: 'Ethos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Life Insurance, Insurtech, and Underwriting.
 
 
-  Ethos'' developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
+  Ethos'' developer surface includes engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -133,8 +137,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethos/refs/heads/main/screenshots/ethos-2026-07-25T213654.png
 security:

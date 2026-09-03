@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The user API from QuotaPath — 1 operation(s) for user.
   name: QuotaPath user API
   slug: quotapath-user-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: authentication/quotapath-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quotapath-mcp.yml
 - group: agent
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: QuotaPath is a sales commission tracking and compensation management platform that helps revenue, finance, and sales operations teams design, automate, and audit variable-pay programs. It sits as a system of record between a company's CRM, finance stack, and payroll — pulling deals from HubSpot and Salesforce, applying commission plans, quotas, and ASC 606 ledger logic, and syncing payouts to accounting and HRIS systems like QuickBooks, NetSuite, and Rippling. QuotaPath exposes a REST API (available on the Premium tier) for pushing deals, reading payouts, managing quota assignments, and building custom CRM and payroll integrations. The API uses token-based API-key authentication over https://api.quotapath.com/v1 with limit/offset pagination.
 image: https://storage.googleapis.com/quotapath-prod-app/qp_logos/logo_primary.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: QuotaPath MCP Server
-  slug: quotapath-mcp-server
 modified: '2026-08-14'
 name: QuotaPath
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/screenshots/quotapath-2026-08-17T081433.png
 security:

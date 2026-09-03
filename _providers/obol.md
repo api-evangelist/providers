@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -128,7 +128,7 @@ apis:
   description: The tvs API from Obol — 2 operation(s) for tvs.
   name: Obol tvs API
   slug: obol-tvs-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +239,7 @@ common:
   url: overlays/obol-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/obol-mcp.yml
 - group: agent
   title: ''
@@ -321,10 +321,6 @@ created: '2026-07-17'
 description: Obol builds distributed validator infrastructure for Ethereum, letting a validator be run across multiple independent operators and machines (a Distributed Validator, or DV) instead of a single node, which removes single points of failure in proof-of-stake staking. Its core software is Charon, a Go middleware client that coordinates the operators, plus the DV Launchpad dapp, the Obol Splits smart contracts, and the Obol API (api.obol.tech) with a TypeScript SDK for creating and managing clusters. The Obol API exposes cluster definitions, cluster locks, validator states, exits, deposits, fee recipients, effectiveness, peer scores, Techne credentials, and network staking metrics.
 image: https://obol.org/obolnetwork.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Obol MCP Server
-  slug: obol-mcp-server
 modified: '2026-07-20'
 name: Obol
 nav: Providers
@@ -363,8 +359,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/screenshots/obol-2026-08-07T185909.png
 security:

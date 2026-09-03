@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.9
-  scored_at: '2026-09-02'
+  score: 41.1
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ apis:
   description: Transaction history for an account.
   name: MethodFi Transactions API
   slug: methodfi-transactions-api
-artifact_total: 141
+artifact_total: 140
 asyncapis:
 - description: ''
   name: Methodfi Webhooks
@@ -628,7 +628,7 @@ common:
   url: rate-limits/methodfi-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/methodfi-mcp.yml
 - group: agent
   title: ''
@@ -706,10 +706,6 @@ finops:
   slug: methodfi-finops
 image: https://framerusercontent.com/assets/ZHgWyxIoZ4u3muxNTrEuOhP9o.jpg
 layout: provider
-mcp_servers:
-- description: No official hosted/remote Method MCP server was found (no @methodfi MCP package, no documented MCP endpoint). This is a DERIVED candidate tool surface mapping marquee Method operations to MCP tools, o
-  name: MethodFi MCP Server
-  slug: methodfi-mcp-server
 modified: '2026-08-08'
 name: MethodFi
 nav: Providers
@@ -765,8 +761,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: gRPC bundle-submission interface for searchers. Authenticate with a Solana keypair (challenge-response to Bearer tokens), then submit atomic transaction bundles with revert protection. Backwards-compa
@@ -42,7 +42,7 @@ apis:
 - description: 'gRPC services the Harmonic validator clients (Salsa/Samba) use to bind to a block builder: subscribe to packet and bundle streams, set the scheduling strategy, discover block engine endpoints, report '
   name: Harmonic Validator API (gRPC)
   slug: harmonic-validator-api-grpc
-artifact_total: 5
+artifact_total: 4
 common:
 - group: operate
   title: ''
@@ -130,7 +130,7 @@ common:
   url: data-model/harmonic-gg-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/harmonic-gg-mcp.yml
 - group: agent
   title: ''
@@ -148,10 +148,6 @@ created: '2026-07-17'
 description: Harmonic is a highly-configurable, open block-building system for Solana. Validators keep full autonomy over how their blocks are built, choosing their own block builder and scheduling strategy (FBA, FIFO, MREV, or custom) while the block engine streams the constructed block for broadcast. A Remote TPU aggregation layer collects proposals from independent builders in real time, HFT-router style, to raise validator revenue and strengthen network decentralization. Searchers submit atomic transaction bundles over a gRPC interface that is backwards-compatible with Jito's searcher protos, with revert protection, bundle privacy, and tips paid as ordinary priority fees (no protocol cut). Harmonic raised a $6M seed round led by Paradigm.
 image: https://harmonic.gg/api/og?v=home
 layout: provider
-mcp_servers:
-- description: ''
-  name: Harmonic GG MCP Server
-  slug: harmonic-gg-mcp-server
 modified: '2026-07-19'
 name: Harmonic GG
 nav: Providers
@@ -184,8 +180,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/screenshots/harmonic-gg-2026-07-25T220716.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -94,7 +94,25 @@ apis:
   description: User account management (admin).
   name: Drone Users API
   slug: drone-users-api
-artifact_total: 35
+- description: Bearer-token authenticated REST API exposed by every Drone server. Endpoints under /api/ for repos, builds, cron, secrets, users, templates, logs and queue status. Default port 8080.
+  name: Drone Server REST API
+  slug: rest
+- description: The Builds API from Drone — 9 operation(s) for builds.
+  name: Drone Builds API
+  slug: drone-ci-builds-api
+- description: The Cron API from Drone — 1 operation(s) for cron.
+  name: Drone Cron API
+  slug: drone-ci-cron-api
+- description: The Secrets API from Drone — 1 operation(s) for secrets.
+  name: Drone Secrets API
+  slug: drone-ci-secrets-api
+- description: The Templates API from Drone — 1 operation(s) for templates.
+  name: Drone Templates API
+  slug: drone-ci-templates-api
+- description: The User API from Drone — 1 operation(s) for user.
+  name: Drone User API
+  slug: drone-ci-user-api
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -194,6 +212,10 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/drone-context.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.harness.io/blog/rss.xml
 created: '2026-06-12'
 description: Drone is an open-source, container-native continuous integration and continuous delivery platform that automates software build, testing, and deployment pipelines entirely through Docker containers. Acquired by Harness in 2021, Drone enables development teams to define pipelines as code using simple YAML configuration files committed alongside their source code. The platform provides a comprehensive REST API for managing builds, repositories, secrets, cron jobs, templates, and user accounts in both self-hosted and cloud deployments. Drone supports multiple source control providers including GitHub, GitHub Enterprise, Bitbucket, and GitLab, and is available as a free open-source edition (Apache 2 license) or a paid enterprise edition for larger organizations.
 examples:
@@ -231,13 +253,13 @@ modified: '2026-06-12'
 name: Drone
 nav: Providers
 network: true
-overview: 'Drone publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Cron API, Nodes API, and 7 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Containers.
+overview: 'Drone publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Cron API, Nodes API, and 12 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Containers.
 
 
   The Drone catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Drone''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Drone''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Drone Plans Pricing
   plan_count: 3
@@ -260,19 +282,19 @@ rules:
   slug: drone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 42.0
   coverage:
     artifact_dirs: 15
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 61.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 5.3
@@ -284,8 +306,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/screenshots/drone-2026-06-20T180238.png
 security:

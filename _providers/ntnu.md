@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: 'NTNU runs its own Open Journal Systems installation, "NTNU Open Access Journals", on its own registrable domain at www.ntnu.no/ojs, publishing sixteen journals including Nordic Journal of Science and '
@@ -207,7 +207,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -217,7 +217,7 @@ score:
     discoverability: 85.2
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 30.5
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   regulatory:
@@ -226,8 +226,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
 security:

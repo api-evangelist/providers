@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -221,7 +221,7 @@ apis:
   description: The UsageRecords Resource API from KORE Wireless — 2 operation(s) for usagerecords resource.
   name: KORE Wireless UsageRecords Resource API
   slug: kore-wireless-usagerecords-resource-api
-artifact_total: 50
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Kore Wireless Event Streams Webhooks
@@ -414,7 +414,7 @@ common:
   url: packages/kore-wireless-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kore-wireless-mcp.yml
 - group: agent
   title: ''
@@ -465,10 +465,6 @@ description: 'KORE Wireless (KORE Group Holdings) is an Atlanta, Georgia headqua
   no login, self-serve account registration at console.korewireless.com, OAuth 2.0 client-credentials authorization, signed webhooks, and CloudEvents-formatted event streams. KORE publishes no CAMARA network APIs and is not a GSMA Open Gateway operator participant — as an MVNO it consumes carrier network capability rather than exposing it, and no CAMARA, Open Gateway, TM Forum, or NEF/SCEF reference appears anywhere in its documentation. In 2026 KORE was taken private by Searchlight Capital Partners and Abry Partners and delisted from the NYSE.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from KORE OpenAPI
-  slug: candidate-mcp-tool-surface-derived-from-kore-openapi
 modified: '2026-07-25'
 name: KORE Wireless
 nav: Providers
@@ -521,8 +517,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 63.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/screenshots/kore-wireless-2026-08-07T171327.png
 security:

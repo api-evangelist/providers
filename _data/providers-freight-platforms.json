@@ -29,8 +29,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -86,8 +86,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -132,8 +132,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -185,8 +185,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -231,10 +231,9 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -293,8 +292,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -339,8 +338,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -385,8 +384,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -431,8 +430,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -477,8 +476,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -523,8 +522,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -579,8 +578,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -625,8 +624,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 9.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -671,8 +670,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -717,8 +716,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -746,6 +745,52 @@
      "rank": 15
     },
     {
+     "name": "GS1",
+     "slug": "gs1",
+     "description": "GS1 (GS1 AISBL) is the not-for-profit, neutral standards body headquartered at Avenue Louise 523, 1050 Brussels, Belgium, that maintains the identification keys and data standards the rest of the supply chain hangs its transactions on — GTIN, GLN, SSCC, GINC and GSIN, the barcode and EPC/RFID capture standards, EPCIS and the Core Business Vocabulary for supply chain visibility events, GS1 Digital Link, and EANCOM, GS1's own subset of UN/EDIFACT. GS1 does not run a commercial logistics service; it sits underneath every party in the chain, defining the identifiers a shipper, forwarder, carrier, terminal, customs authority and last-mile network all quote at each other. Its API posture is unusually open for a standards body: the full standards library is downloadable free as PDF from ref.gs1.org with no login, EPCIS 2.0.1 ships a normative OpenAPI 3.0.3 REST binding plus JSON Schema, XSD, WSDL, SHACL and JSON-LD ontologies, and GS1 AISBL itself operates a live, unauthenticated GS1-Conformant Resolver at id.gs1.org. What is gated is the other half — issuing GS1 identifiers and querying the Verified by GS1 registry are federated to national GS1 Member Organisations and sold under paid membership or a commercial API subscription, not offered self-serve by the Global Office.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png",
+     "score": 24.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 52.6,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Industry Bodies & Standards",
+     "rank": 16
+    },
+    {
      "name": "AEB",
      "slug": "aeb",
      "description": "AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and freight cost management, and warehouse management. In the logistics chain AEB sits at the intermediation layer of customs and trade tech: it is the certified filer between the shipper or forwarder and the customs authority (German ATLAS, EU AES/NCTS/ICS, EMCS, Intrastat, UK CHIEF), and the multi-carrier abstraction between the shipper and 300+ carriers, generating the carrier EDI so the customer never has to. Its API posture is unusually open for this tier: four public ReadMe developer hubs (Customs, Trade Compliance, Transport & Freight Management, SAP add-ons) publish machine-readable OpenAPI 3.0.1 for every product, served live and unauthenticated from AEB's own test and demo instances, with shared try-it credentials in the docs. But the contract is entirely proprietary — a REST-over-RPC business-facade shape unique to AEB, with a legacy SOAP business facade still exposed beside it — and production access requires registering with AEB and licensing the products, so it is a documented, quotable, contract-gated API rather than a self-serve one.",
@@ -763,8 +808,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -796,52 +841,6 @@
       "agentic_commerce": false
      },
      "tier": "Customs & Trade Tech",
-     "rank": 16
-    },
-    {
-     "name": "GS1",
-     "slug": "gs1",
-     "description": "GS1 (GS1 AISBL) is the not-for-profit, neutral standards body headquartered at Avenue Louise 523, 1050 Brussels, Belgium, that maintains the identification keys and data standards the rest of the supply chain hangs its transactions on — GTIN, GLN, SSCC, GINC and GSIN, the barcode and EPC/RFID capture standards, EPCIS and the Core Business Vocabulary for supply chain visibility events, GS1 Digital Link, and EANCOM, GS1's own subset of UN/EDIFACT. GS1 does not run a commercial logistics service; it sits underneath every party in the chain, defining the identifiers a shipper, forwarder, carrier, terminal, customs authority and last-mile network all quote at each other. Its API posture is unusually open for a standards body: the full standards library is downloadable free as PDF from ref.gs1.org with no login, EPCIS 2.0.1 ships a normative OpenAPI 3.0.3 REST binding plus JSON Schema, XSD, WSDL, SHACL and JSON-LD ontologies, and GS1 AISBL itself operates a live, unauthenticated GS1-Conformant Resolver at id.gs1.org. What is gated is the other half — issuing GS1 identifiers and querying the Verified by GS1 registry are federated to national GS1 Member Organisations and sold under paid membership or a commercial API subscription, not offered self-serve by the Global Office.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 52.6,
-      "governance": 15.2,
-      "contract_governance": 15.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Industry Bodies & Standards",
      "rank": 17
     },
     {
@@ -862,8 +861,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -908,8 +907,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -961,8 +960,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1007,8 +1006,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1053,8 +1052,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1109,8 +1108,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1154,10 +1153,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },

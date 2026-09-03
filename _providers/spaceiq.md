@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: SpaceIQ's (SiQ) GraphQL API. A single endpoint at https://api.spaceiq.com/queries accepts POST requests with a JSON query body and an access-token bearer header. Read operations cover companies, build
   name: SiQ GraphQL API
   slug: siq-graphql-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -123,7 +123,7 @@ common:
   url: conformance/spaceiq-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spaceiq-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: 'SpaceIQ (branded SiQ, now part of Eptura) is a workplace and space-management platform for optimizing physical office environments: space planning, desk and meeting-room booking, hoteling, moves management, wayfinding, floorplan management, occupancy analytics, building-attendance reporting, and real-estate forecasting. SpaceIQ exposes a GraphQL API (schema version 1.7) at api.spaceiq.com/queries for reading workplace data (companies, buildings, floors, spaces, departments, employees, meeting-room calendars, map images, and reports/exports) and for creating and deleting meeting-room calendar events. All access is over HTTPS with an admin/IT-generated access token; the schema is fully introspectable.'
 image: https://eptura.com/spaceiq/
 layout: provider
-mcp_servers:
-- description: ''
-  name: SpaceIQ MCP Server
-  slug: spaceiq-mcp-server
 modified: '2026-07-21'
 name: SpaceIQ
 nav: Providers
@@ -185,8 +181,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/screenshots/spaceiq-2026-09-02T160308.png
 security:

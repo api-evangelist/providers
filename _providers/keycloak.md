@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -114,7 +114,7 @@ arazzos:
 - description: Create a realm-level role if it is missing, update it if it already exists, then read it back.
   name: Keycloak Upsert a Realm Role
   slug: keycloak-upsert-realm-role-workflow
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/keycloak-mcp.yml
 - group: other
   title: ''
@@ -285,10 +285,6 @@ finops:
   slug: keycloak-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keycloak.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Keycloak MCP Server
-  slug: keycloak-mcp-server
 modified: '2026-06-20'
 name: Keycloak
 nav: Providers
@@ -348,8 +344,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -269,6 +269,10 @@ collections:
   name: TimeCamp API
   slug: open-timecamp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/timecamp-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -332,7 +336,7 @@ network: true
 overview: 'TimeCamp publishes 27 APIs on the [APIs.io](https://apis.io/) network, including [v1] Approvals API, [v1] Attendance API, [v1] Billing Rates API, and 24 more. Tagged areas include Time Tracking, Timesheets, Productivity, Attendance, and Project Management.
 
 
-  TimeCamp''s developer surface includes authentication, documentation, support, pricing, engineering blog, and 7 more developer resources.'
+  TimeCamp''s developer surface includes authentication, documentation, support, pricing, engineering blog, and 8 more developer resources.'
 plans:
 - name: Timecamp Plans Pricing
   plan_count: 5
@@ -346,7 +350,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -368,8 +372,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timecamp/refs/heads/main/screenshots/timecamp-2026-09-02T163753.png
 security:

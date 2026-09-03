@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://learnatnoon.com'', ''status'': 302, ''note'': ''declared website redirects to https://www.noonacademy.com/ — a different registrable domain (learnatnoon.com -> noonacademy.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,8 +92,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noon-academy/refs/heads/main/screenshots/noon-academy-2026-08-07T185501.png
 security:

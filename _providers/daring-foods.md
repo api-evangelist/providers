@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: The `post_tag` taxonomy. Registered but empty on this site (0 terms).
   name: Daring Foods Tags API
   slug: daring-foods-tags-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -267,7 +267,7 @@ common:
   url: llms/daring-foods-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/daring-foods-mcp.yml
 - group: build
   title: ''
@@ -282,10 +282,6 @@ description: 'Daring Foods is an American plant-based food company, founded in 2
   interface it exposes is the WordPress REST content API behind daring.com, which is anonymously readable and unusually well-stocked for a CPG site - 208 recipes classified by cooking method, 14 retail products, 7 foodservice products, 17 marketing pages and a 749-item media library - captured here for discovery purposes.'
 image: https://daring.com/wp-content/uploads/2023/06/cropped-favicon-6oi8ii-5-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Daring Foods MCP Server
-  slug: daring-foods-mcp-server
 modified: '2026-08-04'
 name: Daring Foods
 nav: Providers
@@ -324,8 +320,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:

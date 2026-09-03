@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://velocityglobal.com'', ''status'': 301, ''note'': ''declared website redirects to https://hellopebl.com/ — a different registrable domain (velocityglobal.com -> hellopebl.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing global employment operations including international hiring, employee records, payroll processing, benefits administration, onboarding, offboarding, and compliance management acr
@@ -137,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/screenshots/velocity-global-2026-06-20T200937.png
 security:

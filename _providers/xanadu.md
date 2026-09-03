@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: PennyLane is the cross-platform Python framework for quantum computing, quantum machine learning, and quantum chemistry maintained by Xanadu. It provides automatic differentiation of hybrid quantum-cl
@@ -234,8 +234,8 @@ score:
     governance: 9.8
     operational_transparency: 21.1
   previous_composite: 24.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xanadu/refs/heads/main/screenshots/xanadu-2026-06-20T201650.png
 security:

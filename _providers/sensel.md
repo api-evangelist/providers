@@ -8,6 +8,7 @@ access_model:
   source:
   - rate-limits
   - security
+  - '{''url'': ''https://sensel.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.cirque.com/sensel — a different registrable domain (sensel.com -> cirque.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Sensel API is a C library for communicating with Sensel devices (Morph and Sensel sensor boards). It is a LOCAL DEVICE API, not an HTTP service: an application links LibSensel and LibSenselDecompr'
@@ -166,8 +167,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensel/refs/heads/main/screenshots/sensel-2026-09-02T154902.png
 security:

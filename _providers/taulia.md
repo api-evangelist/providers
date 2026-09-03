@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The buyer-side integration API described in the SAP Taulia Description of Software Services. It carries the accounts-payable object set — supplier master, business unit, purchase orders, invoices, pay
@@ -204,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taulia/refs/heads/main/screenshots/taulia-2026-09-02T162611.png
 security:

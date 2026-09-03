@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The WhatsApp API from engageSPARK — 3 operation(s) for whatsapp.
   name: engageSPARK WhatsApp API
   slug: engagespark-whatsapp-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Engagespark Webhooks
@@ -115,7 +115,7 @@ common:
   url: capabilities/engagespark-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/engagespark-mcp.yml
 - group: other
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: engageSPARK is a mobile messaging and engagement platform for reaching hard-to-reach populations in low- and middle-income countries at scale. It lets NGOs, researchers, microfinance institutions, and businesses run SMS, automated voice (IVR), WhatsApp, and pre-paid airtime top-up campaigns across 180+ countries without writing code, or programmatically through its HTTP API. The engageSPARK API (api.engagespark.com, v1) exposes token-authenticated endpoints for sending SMS, WhatsApp, and airtime top-ups, managing contacts and organizations, subscribing and unsubscribing contacts to voice and SMS campaigns, reading message and top-up history, checking organization balance, and managing files. Incoming-SMS and campaign-action webhooks let the platform push survey responses and inbound messages into external systems such as Salesforce or Qualtrics.
 image: https://www.engagespark.com/wp-content/uploads/2017/03/engagespark_logo_small.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: engageSPARK MCP Server
-  slug: engagespark-mcp-server
 modified: '2026-07-19'
 name: engageSPARK
 nav: Providers
@@ -244,8 +240,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:

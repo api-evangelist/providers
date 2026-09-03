@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -139,8 +139,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delek-us-holdings/refs/heads/main/screenshots/delek-us-holdings-2026-08-07T180430.png
 security:

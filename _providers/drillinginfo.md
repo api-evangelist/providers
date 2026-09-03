@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Current version of the Enverus Developer API (formerly Drillinginfo Direct Access). Read-only JSON access to energy datasets — wells, well-origins, wellbores, production, completions, permits, rigs, c
@@ -42,7 +42,7 @@ apis:
 - description: Legacy Direct Access Version 2 of the Enverus / Drillinginfo API. Read-only JSON dataset access authenticated with client_id, client_secret and an API key exchanged for a bearer token. Superseded by t
   name: Enverus Direct Access API (v2, legacy)
   slug: enverus-direct-access-api-v2-legacy
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
@@ -50,7 +50,7 @@ common:
   url: llms/drillinginfo-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/drillinginfo-mcp.yml
 - group: auth
   title: ''
@@ -136,10 +136,6 @@ created: '2026-07-17'
 description: Drillinginfo (now Enverus) is an Austin, Texas energy-technology company that provides AI-powered analytics and the most comprehensive dataset across oil and gas, power, renewables, and financial markets. Its Direct Access / Developer API (rebranded from Drillinginfo Direct Access to the Enverus Developer API) gives subscribers programmatic, read-only access to well, production, completion, permit, rig, wellbore, lease, and producing-entity datasets for import into data warehouses and internal applications. The API is token-authenticated (secret key in v3, client credentials plus API key in v2), returns JSON, and paginates via RFC 5988 Link headers. An official Python client (enverus-developer-api) handles authentication, token management, pagination, and retries. Enverus serves over 8,000 companies across the energy value chain.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drillinginfo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Drillinginfo MCP Server
-  slug: drillinginfo-mcp-server
 modified: '2026-07-18'
 name: Drillinginfo
 nav: Providers
@@ -177,8 +173,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drillinginfo/refs/heads/main/screenshots/drillinginfo-2026-07-25T212404.png
 security:

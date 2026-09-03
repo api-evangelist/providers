@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Lindy's callable surface. There is no public REST API and no published OpenAPI. The one documented HTTP endpoint is an inbound webhook trigger at https://public.lindy.ai/api/v1/webhooks/[unique-id], a
@@ -237,8 +237,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/screenshots/lindy-2026-06-20T184536.png
 security:

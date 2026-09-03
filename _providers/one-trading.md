@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: wss://streams.fast.onetrading.com
@@ -61,7 +61,7 @@ apis:
   description: Account order and trade endpoints (Bearer token, TRADE/READ scope)
   name: One Trading Trading API
   slug: one-trading-trading-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: Real-time WebSocket (WSS) API for the One Trading exchange. Clients receive market data feeds (order book, price ticks, book ticker) and, after authenticating, private trading event streams (order lif
   name: One Trading WebSocket Streams API
@@ -173,7 +173,7 @@ common:
   url: packages/one-trading-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/one-trading-mcp.yml
 - group: agent
   title: ''
@@ -191,10 +191,6 @@ created: '2026-07-17'
 description: One Trading (One Trading Exchange B.V.) is an EU-regulated cryptocurrency and derivatives exchange for retail and institutional traders, positioning itself as "the world's fastest exchange." It offers spot crypto plus crypto futures (up to 10x leverage), index futures and 24/7 equity futures. Its public "Fast API" provides REST market-data and trading endpoints (currencies, instruments, order book, candlesticks, ticker, fees, funding rates, orders, trades, futures positions and subaccount transfers) at https://api.onetrading.com/fast, plus a real-time WebSocket streams API at wss://streams.fast.onetrading.com. Formerly operated as Bitpanda Pro. This profile was surfaced as a Speedinvest portfolio company and enriched by the API Evangelist pipeline from the provider's public documentation and live endpoints.
 image: https://framerusercontent.com/images/m2JxgHpA4PAHjVJIacTjS6wnvRY.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: One Trading MCP Server
-  slug: one-trading-mcp-server
 modified: '2026-07-20'
 name: One Trading
 nav: Providers
@@ -241,8 +237,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 8
@@ -482,6 +482,10 @@ collections:
   name: PeerTube Abuses Watched Words API
   slug: open-peertube-watched-words-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/peertube-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1945,7 +1949,7 @@ overview: 'PeerTube publishes 54 APIs on the [APIs.io](https://apis.io/) network
   The PeerTube catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PeerTube''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
+  PeerTube''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -1975,7 +1979,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 61.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -1997,8 +2001,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Certified-partner API gateway for WideOrbit.io providing real-time, object-level interaction with WideOrbit Traffic, Network, and Omni systems. Access is restricted to authorized, WideOrbit-certified '
@@ -204,8 +204,8 @@ score:
   previous_composite: 37.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wideorbit/refs/heads/main/screenshots/wideorbit-2026-09-02T170733.png
 security:

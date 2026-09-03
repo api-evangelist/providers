@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Testing API from handy — 1 operation(s) for testing.
   name: handy Testing API
   slug: handy-testing-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Handy Webhooks
@@ -155,7 +155,7 @@ common:
   url: asyncapi/handy-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/handy-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: 'Handy is a home-services marketplace, now part of Angi (ANGI Homeservices), that connects customers with pre-screened independent professionals for house cleaning, handyman work, furniture assembly, and in-home installations. Handy''s Partner API lets retailers offer fixed-price installation and service bookings at eCommerce or in-store checkout: partners create and manage orders, products, and line items, retrieve bookings and their assigned providers, and receive booking-lifecycle webhooks. Requests are authenticated with a custom RSA-SHA256 signed-request scheme.'
 image: https://www.handy.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: handy MCP Server
-  slug: handy-mcp-server
 modified: '2026-07-19'
 name: handy
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/screenshots/handy-2026-07-25T220617.png
 security:

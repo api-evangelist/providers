@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://loyalty.hang.xyz/partner-api
@@ -126,7 +126,7 @@ apis:
   description: The Wallet Integration API from Hang — 2 operation(s) for wallet integration.
   name: Hang Wallet Integration API
   slug: hang-wallet-integration-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Hang Webhooks
@@ -264,7 +264,7 @@ common:
   url: llms/hang-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hang-mcp.yml
 - group: design
   title: ''
@@ -306,10 +306,6 @@ created: '2026-07-17'
 description: Hang is a customer loyalty and engagement platform (originally a Paradigm-backed Web3 brand-loyalty company, now positioned as an AI-driven "autonomous marketing system") used by restaurant, beauty, apparel, and e-commerce brands to build and run tier-based membership and rewards programs. Its Partner API powers program memberships, points and activities, quests, challenges, puzzles, loot/mystery boxes, rewards and redemptions, balance/gift cards, tokenized rewards, program tiers and segments, plus point-of-sale integrations with Toast and Square and real-time webhooks. Brands can embed a white-labeled rewards portal or drive the whole loyalty experience programmatically through the REST API.
 image: https://hang.com/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hang MCP Server
-  slug: hang-mcp-server
 modified: '2026-07-19'
 name: Hang
 nav: Providers
@@ -350,8 +346,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -80,7 +80,7 @@ apis:
   description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
   name: Snappt Webhooks API
   slug: snappt-webhooks-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Snappt Enterprise Api Webhooks
@@ -117,7 +117,7 @@ common:
   url: capabilities/snappt-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/snappt-mcp.yml
 - group: company
   title: ''
@@ -255,10 +255,6 @@ created: '2026-08-05'
 description: Snappt is a Los Angeles-based applicant-screening and document-fraud-detection company serving the multifamily rental and property-management industry. Its Applicant Trust Platform combines proprietary AI document forensics with human review to detect edited pay stubs and bank statements, verify applicant income from traditional and connected payroll sources, verify identity with biometric and document checks, and confirm rental payment history. Snappt exposes this to property-management systems and partners through the Snappt Enterprise API — a partner API-key-authenticated REST API covering properties, applicant sessions, document upload, fraud and income reports, ID-verification sessions and outbound webhooks — plus an embeddable browser SDK that launches the applicant verification flow as a modal inside a partner's own leasing flow.
 image: https://snappt.com/wp-content/uploads/2023/05/snappt-sharing-fallback.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Snappt MCP Server
-  slug: snappt-mcp-server
 modified: '2026-08-05'
 name: Snappt
 nav: Providers
@@ -300,8 +296,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/screenshots/snappt-2026-08-17T081942.png
 security:

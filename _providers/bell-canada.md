@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: The troubleTicket API from Bell Canada — 2 operation(s) for troubleticket.
   name: Bell Canada Trouble Ticket API
   slug: bell-canada-troubleticket-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Bell Canada Webhooks
@@ -191,7 +191,7 @@ common:
   url: examples/bell-canada-examples.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bell-canada-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ description: 'Bell Canada is Canada''s largest communications company and the pr
   no base URL, no credential scheme and no self-serve key issuance is published, and the documented request examples redact the credential as a literal SECURITY_CREDENTIALS placeholder. Bell publishes no first-party CAMARA network APIs and runs no Open Gateway portal of its own. Its network APIs reach developers indirectly, through EnStream LP — the identity and fraud-signal joint venture Bell Mobility owns with Rogers and TELUS — which announced a partnership with Aduna, the Ericsson-and-carrier joint venture, on 27 February 2025 to distribute Canadian Number Verification and SIM Swap signals through Aduna''s CAMARA-aligned global channel. Bell is therefore an aggregator-mediated carrier: partner-gated on its own surface, reachable by developers only through a third party.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bell Canada MCP Server
-  slug: bell-canada-mcp-server
 modified: '2026-07-25'
 name: Bell Canada
 nav: Providers
@@ -321,8 +317,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/screenshots/bell-canada-2026-08-07T162303.png
 security:

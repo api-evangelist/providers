@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Notification logs
   name: Cesanta Logs API
   slug: cesanta-logs-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -111,7 +111,7 @@ common:
   url: conformance/cesanta-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cesanta-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Cesanta is an embedded software and IoT company, established in 2013 to develop and support the Mongoose embedded web server and networking library (HTTP, WebSocket, MQTT, CoAP, TCP/IP) that ships in over 100 million devices from vendors such as Siemens, Bosch, Samsung, Schneider Electric, Broadcom, Google, and Caterpillar — and even runs aboard the International Space Station. Alongside the Mongoose library, Cesanta builds Mongoose OS (an IoT firmware development framework for ESP32, ESP8266, STM32 and other microcontrollers with AWS/Azure/Google Cloud integration), VCON.io (remote firmware update and automated firmware testing), and mDash — a managed IoT device cloud offering device management, over-the-air (OTA) updates, a device database/shadow, remote RPC, access control, and a documented REST API for programmatic fleet management.
 image: https://cesanta.com/images/logo1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cesanta MCP Server
-  slug: cesanta-mcp-server
 modified: '2026-07-18'
 name: Cesanta
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/screenshots/cesanta-2026-07-25T205012.png
 security:

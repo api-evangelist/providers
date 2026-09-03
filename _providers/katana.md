@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 139
@@ -363,7 +363,7 @@ apis:
   description: The WebhookLogsController API from Katana — 1 operation(s) for webhooklogscontroller.
   name: Katana WebhookLogsController API
   slug: katana-webhooklogscontroller-api
-artifact_total: 136
+artifact_total: 135
 asyncapis:
 - description: ''
   name: Katana Webhooks
@@ -647,7 +647,7 @@ common:
   url: asyncapi/katana-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/katana-mcp.yml
 - group: agent
   title: ''
@@ -693,10 +693,6 @@ created: '2026-07-17'
 description: Katana is a cloud manufacturing ERP and inventory management platform for product businesses. It gives makers and small-to-midsize manufacturers real-time inventory control across multiple locations and sales channels, production and manufacturing-order planning, purchasing and demand forecasting, warehouse and bin management with barcode workflows, and lot/ serial-number traceability. Katana connects to Shopify, Amazon, QuickBooks Online, Xero, WooCommerce, BigCommerce, HubSpot and 50+ other tools, and exposes a full REST API (documented with OpenAPI 3.0) plus HMAC-signed webhooks so integrators can sync sales orders, purchase orders, manufacturing orders, products, variants, materials and stock programmatically. Added to the API Evangelist network as a portfolio company of Northzone and enriched from its public developer surface.
 image: https://katanamrp.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Katana MCP Server
-  slug: katana-mcp-server
 modified: '2026-07-19'
 name: Katana
 nav: Providers
@@ -742,8 +738,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/screenshots/katana-2026-07-25T223530.png
 security:

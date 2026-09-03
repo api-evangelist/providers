@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The gRPC surface a HARIX skill application uses to drive a CloudMinds cloud robot and to consume HARIX cloud AI. Five robotSkillApi services cover control (move/rotate/stop/emergency-stop, RCU reboot/
@@ -170,8 +170,8 @@ score:
   previous_composite: 27.3
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

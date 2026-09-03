@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ arazzos:
 - description: Find an organization, list its folders, then list the projects directly under it.
   name: Google Cloud Platform Walk Resource Hierarchy
   slug: google-cloud-platform-walk-resource-hierarchy-workflow
-artifact_total: 194
+artifact_total: 193
 collections:
 - collection_type: postman
   name: Google Cloud Platform Google Cloud Resource Manager API
@@ -218,7 +218,7 @@ common:
   url: well-known/google-cloud-platform-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-cloud-platform-mcp.yml
 - group: agent
   title: ''
@@ -870,10 +870,6 @@ jsonld:
   property_count: 22
   slug: google-cloud-platform-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Google Cloud Platform MCP Server
-  slug: google-cloud-platform-mcp-server
 modified: '2026-06-20'
 name: Google Cloud Platform
 nav: Providers
@@ -949,8 +945,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:

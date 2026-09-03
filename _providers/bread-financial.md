@@ -33,13 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
-api_count: 1
+  scored_at: '2026-09-03'
+api_count: 3
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
   name: BreadPay Platform API
   slug: breadpay-platform-api
-artifact_total: 5
+- description: The Bread Pay API enables merchants to integrate installment financing options into online and in-store checkout flows. Supports creating financing applications, retrieving loan statuses, managing tra
+  name: Bread Pay API
+  slug: bread-pay-api
+- description: SplitPay is a short-term financing alternative for retail merchants, enabling customers to split purchases into manageable payments and helping retailers attract price-sensitive customers while increa
+  name: Bread SplitPay API
+  slug: split-pay-api
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Bread Financial Webhooks
@@ -115,7 +121,7 @@ common:
   url: components/bread-financial-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bread-financial-mcp.yml
 - group: design
   title: ''
@@ -129,43 +135,47 @@ common:
   title: ''
   type: DomainSecurity
   url: security/bread-financial-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/getbread
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.breadfinancial.com/
 created: '2026-07-17'
 description: 'Bread Financial (formerly Alliance Data Systems) is a US consumer financial services company providing branded and co-brand credit cards, private-label and general-purpose lending, and point-of-sale buy-now-pay-later financing under the Bread Pay brand. Its developer surface, Bread Pay, exposes a REST API platform for merchants to embed installment and revolving financing into online and in-store checkout: the next-generation BreadPay Platform API (api.platform.breadpayments.com) manages buyers, merchant accounts, payment options, pricing, and the transaction lifecycle (authorize, capture, cancel, refund), secured with OAuth 2.0 client-credentials and JWT access tokens; a legacy Bread Classic Merchant API manages checkout carts and transactions; and browser (JavaScript) plus native iOS and Android SDKs render placements, prequalification (RTPS), and the Bread checkout modal on merchant storefronts. Bread also ships e-commerce platform plugins (Shopify, Magento 2, BigCommerce,
   WooCommerce, Miva, Volusion, Salesforce Commerce Cloud) and a partner sandbox. This profile was surfaced as a portfolio company of Bessemer Venture Partners.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bread-financial.png
 layout: provider
-mcp_servers:
-- description: 'No official hosted/remote Bread Pay MCP server was found. This is a CANDIDATE tool list derived from the documented BreadPay Platform API capabilities (buyers, merchant accounts, payment options, and '
-  name: Bread Financial MCP Server
-  slug: bread-financial-mcp-server
 modified: '2026-07-18'
 name: Bread Financial
 nav: Providers
 network: true
-overview: 'Bread Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Buy Now Pay Later, and Lending.
+overview: 'Bread Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Buy Now Pay Later, and Lending.
 
 
   The Bread Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
+  Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 17 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 30.7
+  composite: 30.3
   coverage:
     artifact_dirs: 13
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 50.0
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 10.5
   previous_composite: 30.7
@@ -178,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/screenshots/bread-financial-2026-07-25T203733.png
 security:

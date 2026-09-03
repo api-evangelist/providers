@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ arazzos:
 - description: Submit text to Napkin AI, poll the asynchronous request until it completes, then download each generated file (PNG/SVG/PDF/PPT).
   name: Generate a visual from text with Napkin AI
   slug: napkinai-generate-visual
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: well-known/napkinai-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/napkinai-mcp.yml
 - group: design
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportable to PPT, PNG, PDF, or SVG) and Napkin Slides (beta AI presentation agent that builds a tailored, fully editable deck). A developer-preview REST API also generates visuals programmatically: submit text to POST /v1/visual, poll the request status, then download the generated PNG/SVG/PPT files. Authentication is by account API token (HTTP Bearer) or OAuth 2.0 (beta) with user and generation scopes. Napkin AI is backed by Accel.'
 image: https://www.napkin.ai/assets/og-image-v5.png?v=2
 layout: provider
-mcp_servers:
-- description: ''
-  name: Napkin.AI MCP Server
-  slug: napkinai-mcp-server
 modified: '2026-07-20'
 name: Napkin.AI
 nav: Providers
@@ -236,8 +232,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/screenshots/napkinai-2026-08-07T184624.png
 security:

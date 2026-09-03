@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ apis:
   description: Universal and Meaningful Connectivity targets and scores.
   name: ITU UMC API
   slug: itu-umc-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: ITU DataHub API
@@ -140,7 +140,7 @@ common:
   url: examples/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/itu-mcp.yml
 - group: build
   title: ''
@@ -195,10 +195,6 @@ description: 'The International Telecommunication Union (ITU) is the United Nati
   no terms of programmatic use, and the official ITU GitHub organization has zero public repositories. ITU is not a CAMARA participant and not a GSMA Open Gateway operator; network APIs are being standardised outside the UN system, and ITU''s role in that layer is limited to the IMT requirements framework rather than any callable interface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ITU MCP Server
-  slug: itu-mcp-server
 modified: '2026-07-26'
 name: ITU
 nav: Providers
@@ -243,8 +239,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/screenshots/itu-2026-08-07T170931.png
 security:

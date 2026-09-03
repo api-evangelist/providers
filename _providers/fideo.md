@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Fideo''s real-time REST API for identity verification, fraud risk scoring, and identity intelligence. Two endpoints share a common multi-field request schema: POST /verify runs a comprehensive suite of'
   name: Fideo Verify & Signals API
   slug: fideo-verify-signals-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -122,10 +122,6 @@ description: Fideo Intelligence is a Denver-based identity intelligence and frau
   and JSON payloads, and is documented on a ReadMe developer hub.
 image: https://www.fideo.ai/wp-content/uploads/2024/10/preview-thumb-fideo-1200px.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fideo MCP Server
-  slug: fideo-mcp-server
 modified: '2026-07-19'
 name: Fideo
 nav: Providers
@@ -157,8 +153,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/screenshots/fideo-2026-07-25T214416.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Serves active branded campaigns/missions to games and lets a game reset campaign progress and claim rewards. Consumed by the official Monetizr Unity SDK with a per-game HTTP Bearer API key.
   name: Monetizr Campaigns API
   slug: monetizr-campaigns-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Monetizr (TheMonetizr) is a gaming media platform for in-game brand advertising that turns gameplay into measurable, voluntary, and non-skippable brand engagement. Brands run branded campaigns and missions inside mobile games; players complete them for in-game or brand-sponsored rewards, reporting >30% average engagement, >90% viewability, and >85% video completion across a 340M mobile-gamer reach. The Monetizr Campaigns API (base https://api.themonetizr.com) serves active campaigns to games — listing campaigns/missions, resetting progress, and claiming rewards — and is consumed by the official open-source Unity SDK using a per-game HTTP Bearer API key. The company is a Techstars-backed portfolio company.
 image: https://avatars.githubusercontent.com/u/19929995?s=400
 layout: provider
-mcp_servers:
-- description: ''
-  name: TheMonetizr MCP Server
-  slug: themonetizr-mcp-server
 modified: '2026-07-21'
 name: TheMonetizr
 nav: Providers
@@ -140,8 +136,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themonetizr/refs/heads/main/screenshots/themonetizr-2026-09-02T163445.png
 security:

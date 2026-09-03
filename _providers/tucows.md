@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Wholesale reseller API for domain-name lookup, registration, transfer, renewal, DNS-zone management and TLS/SSL certificate ordering. An XML-over-HTTPS POST protocol authenticated with a reseller user
@@ -42,7 +42,7 @@ apis:
 - description: The OpenSRS Mail API is the provisioning interface for the OpenSRS hosted email system — create, modify and delete mailboxes, aliases, domains and other aspects of the service. A stateless web service
   name: OpenSRS Email API (OMA)
   slug: opensrs-email-api-oma
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Tucows Opensrs Domains Events
@@ -126,7 +126,7 @@ common:
   url: sandbox/tucows-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tucows-mcp.yml
 - group: design
   title: ''
@@ -152,10 +152,6 @@ created: '2026-07-17'
 description: Tucows is one of the world's largest internet-services and domain companies. Its OpenSRS division runs a wholesale reseller platform for domain-name registration, DNS, TLS/SSL certificates and hosted email, exposed through the OpenSRS API (an XML-over-HTTPS reseller protocol) and the OpenSRS Mail API (OMA). Tucows also operates Wavelo, a telecom BSS/OSS billing, provisioning and subscriber-management platform for communication service providers, and the Ting Internet fiber business. This profile captures the public OpenSRS developer surface — the domains/SSL API, the email provisioning API, authentication, error codes, sandbox, events and lifecycle. Tucows is a Union Square Ventures portfolio company.
 image: https://files.readme.io/fd0f1b4-small-OpenSRS_knowledgebase_1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tucows MCP Server
-  slug: tucows-mcp-server
 modified: '2026-07-21'
 name: Tucows
 nav: Providers
@@ -197,8 +193,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/screenshots/tucows-2026-08-17T082459.png
 security:

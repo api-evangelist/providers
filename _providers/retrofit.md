@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Retrofit is a type-safe HTTP client for the JVM that turns annotated Java/Kotlin interfaces into HTTP API calls. Supports all HTTP methods via annotations. Built on OkHttp with support for synchronous
@@ -167,8 +167,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retrofit/refs/heads/main/screenshots/retrofit-2026-06-20T193038.png
 slug: retrofit

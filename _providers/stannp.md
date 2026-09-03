@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Manage individual recipients and bulk imports
   name: Stannp Recipients API
   slug: stannp-recipients-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Stannp Webhooks
@@ -188,7 +188,7 @@ common:
   url: packages/stannp-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stannp-mcp.yml
 - group: agent
   title: ''
@@ -307,10 +307,6 @@ jsonld:
   property_count: 9
   slug: stannp-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stannp MCP Server
-  slug: stannp-mcp-server
 modified: '2026-08-13'
 name: Stannp
 nav: Providers
@@ -377,8 +373,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png
 security:

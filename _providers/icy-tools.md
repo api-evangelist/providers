@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://developers.icy.tools/'', ''status'': 301, ''note'': ''declared website redirects to https://www.quicknode.com/?utm_source=icy.tools — a different registrable domain (icy.tools -> quicknode.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL based NFT API
@@ -93,8 +94,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icy-tools/refs/heads/main/screenshots/icy-tools-2026-06-20T183202.png
 security:

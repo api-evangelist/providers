@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.8
-  scored_at: '2026-09-02'
+  score: 22.3
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Tailor Embedded gives partner platforms programmatic access to Tailor Brands' business formation and compliance engine — LLC formation, EIN issuance, registered agent service and annual reports — so S
@@ -158,8 +158,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailor-brands/refs/heads/main/screenshots/tailor-brands-2026-09-02T162428.png
 security:

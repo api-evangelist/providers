@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for poolside's Laguna agentic-coding models. Send chat-completion and model-listing requests from your own tools, scripts, and applications using the OpenAI SDK by swit
@@ -192,8 +192,8 @@ score:
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/screenshots/poolside-2026-09-02T151727.png
 security:

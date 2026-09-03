@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -184,7 +184,7 @@ apis:
   description: The Users API from Form3 — 11 operation(s) for users.
   name: Form3 Users API
   slug: form3-users-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Form3 Notifications Webhooks
@@ -255,7 +255,7 @@ common:
   url: packages/form3-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/form3-mcp.yml
 - group: agent
   title: ''
@@ -358,10 +358,6 @@ description: Form3 is a United Kingdom-headquartered, cloud-native payments tech
   regulated B2B rail rather than an open self-serve signup product; production access is contracted.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Form3 MCP Server
-  slug: form3-mcp-server
 modified: '2026-07-24'
 name: Form3
 nav: Providers
@@ -387,7 +383,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -397,7 +393,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 43.9
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -418,8 +414,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:

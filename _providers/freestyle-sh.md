@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -507,8 +507,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:

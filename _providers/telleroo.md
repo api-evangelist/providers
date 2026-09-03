@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
@@ -42,7 +42,7 @@ apis:
 - description: 'RESTful Embedded Payments API (v3) to build Telleroo into your own platform: authorize against client companies over OAuth 2.0 (authorization code, scope "create"), enumerate companies and accounts, a'
   name: Telleroo Partner API
   slug: telleroo-partner-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: Outbound webhook events emitted by the Telleroo Business API (v1) and Partner API (v3). Each delivery is an HTTP POST to the subscriber URL configured in the Telleroo dashboard and carries a subscribe
   name: Telleroo Webhooks
@@ -162,16 +162,12 @@ common:
   url: asyncapi/telleroo-webhooks-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/telleroo-mcp.yml
 created: '2026-07-17'
 description: 'Telleroo is a UK bulk payments platform that automates supplier and payroll payments for businesses, accountants and bookkeepers. It provisions a ring-fenced e-money wallet in the customer''s name and sends bulk Faster Payments 24/7 (including bank holidays), plus international payments in 25+ currencies over SEPA, ACH and SWIFT. Built-in fraud controls include Confirmation of Payee, new/updated payee alerts and multi-level approval workflows, and it integrates with accounting and payroll software such as Xero, QuickBooks, Employment Hero and Staffology. Telleroo exposes two RESTful APIs: a Business API (v1, token auth) for automating outbound payments from your own account, and a Partner/Embedded Payments API (v3, OAuth 2.0) for building pay runs into your own platform on behalf of client companies. Both support idempotent requests, real-time webhooks and a dedicated sandbox environment.'
 image: https://www.telleroo.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Telleroo MCP Server
-  slug: telleroo-mcp-server
 modified: '2026-07-21'
 name: Telleroo
 nav: Providers
@@ -217,8 +213,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/screenshots/telleroo-2026-08-17T082305.png
 security:

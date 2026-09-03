@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Credit-metered REST intelligence API exposing App Store and Google Play keyword rankings, app metadata, ad creatives, Apple Search Ads / CPP data, and dashboard resources. Authenticated with an accoun
@@ -236,8 +236,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobile-action/refs/heads/main/screenshots/mobile-action-2026-08-07T183845.png
 security:

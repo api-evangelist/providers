@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.3
-  scored_at: '2026-09-02'
+  score: 31.5
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.smartersorting.com
@@ -59,7 +59,7 @@ apis:
   description: The products API from Smarter Sorting — 4 operation(s) for products.
   name: Smarter Sorting Products API
   slug: smarter-sorting-products-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Smarter Sorting Event Surface
@@ -75,7 +75,7 @@ common:
   url: overlays/smarter-sorting-customer-classification-v1-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smarter-sorting-mcp.yml
 - group: auth
   title: ''
@@ -166,10 +166,6 @@ description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operat
   a public status page.
 image: https://portal.smartersorting.com/assets/imgs/logo-ss-color.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Smarter Sorting MCP Server
-  slug: smarter-sorting-mcp-server
 modified: '2026-08-28'
 name: Smarter Sorting
 nav: Providers
@@ -218,8 +214,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/screenshots/smarter-sorting-2026-09-02T155912.png
 security:

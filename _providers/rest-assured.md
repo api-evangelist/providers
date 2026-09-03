@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST Assured is a Java DSL library for testing and validating RESTful APIs using a fluent, BDD-style syntax with given-when-then patterns. It supports HTTP methods, JSON/XML validation, authentication
@@ -165,8 +165,8 @@ score:
     applies: true
     score: 35.0
   previous_composite: 30.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/screenshots/rest-assured-2026-06-20T192958.png
 security:

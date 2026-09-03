@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.perimeter81.com/'', ''status'': 301, ''note'': ''declared website redirects to https://sase.checkpoint.com:443/ — a different registrable domain (perimeter81.com -> checkpoint.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -128,7 +129,7 @@ apis:
   description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
   name: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +192,7 @@ common:
   url: capabilities/perimeter-81-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/perimeter-81-mcp.yml
 - group: other
   title: ''
@@ -261,10 +262,6 @@ created: '2026-07-17'
 description: Perimeter 81 is a cloud-native Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) platform, now part of Check Point as Check Point Harmony SASE following its 2023 acquisition. It lets organizations build and manage secure, software-defined networks that connect a distributed workforce to on-premises resources, cloud infrastructure, and SaaS applications without legacy hardware appliances. The Harmony SASE Public API (v2.3) exposes programmatic control over networks, regions and points-of-presence, gateways, IPSec/WireGuard/OpenVPN tunnels, route tables, firewall policies, and network objects, using a two-step API-key-to-JWT access-token authentication model across US, EU, Australia, and India regional gateways.
 image: https://www.perimeter81.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Perimeter 81 MCP Server
-  slug: perimeter-81-mcp-server
 modified: '2026-07-20'
 name: Perimeter 81
 nav: Providers
@@ -303,8 +300,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/screenshots/perimeter-81-2026-09-02T151050.png
 security:

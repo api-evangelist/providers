@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: WebSocket-based (WebAssembly) JavaScript/TypeScript market data API for browser and Node.js, installed as npm package '@activfinancial/one-api' (latest 1.1.4). Supports snapshots, real-time subscripti
@@ -171,8 +171,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/screenshots/options-technology-2026-07-22T202537.png
 security:

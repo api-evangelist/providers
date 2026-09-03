@@ -9,6 +9,7 @@ access_model:
   - plans
   - authentication
   - sandbox
+  - '{''url'': ''https://serpwow.com/'', ''status'': 301, ''note'': ''declared website redirects to https://trajectdata.com/serp/serp-wow-api/ — a different registrable domain (serpwow.com -> trajectdata.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
 agent_readiness:
@@ -26,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: na
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-09-02'
+  score: 32.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +54,7 @@ apis:
   description: The real-time Search API from SerpWow — GET /search, /places, /shopping, /news, /product and /place_reviews against https://api.serpwow.com/live, authenticated with an api_key query parameter and mete
   name: SerpWow Search API
   slug: serpwow-search-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Serpwow Batches Webhooks
@@ -155,7 +156,7 @@ common:
   url: llms/serpwow-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/serpwow-mcp.yml
 - group: design
   title: ''
@@ -206,10 +207,6 @@ finops:
   slug: serpwow-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/serpwow.png
 layout: provider
-mcp_servers:
-- description: SerpWow publishes no MCP server. Candidate tool list derived one-per-operationId from the repo's OpenAPI. Nothing here is served by the provider — do not read this as an agent surface.
-  name: SerpWow MCP Server
-  slug: serpwow-mcp-server
 modified: '2026-08-27'
 name: SerpWow
 nav: Providers
@@ -259,8 +256,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/screenshots/serpwow-2026-06-20T193727.png
 security:

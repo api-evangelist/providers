@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Official hosted Model Context Protocol server for Rohlik online grocery. Search the catalog, manage a cart, discover recipes, track and repeat orders, manage shopping lists, and reach customer service
@@ -169,8 +169,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rohlik/refs/heads/main/screenshots/rohlik-2026-09-02T154054.png
 security:

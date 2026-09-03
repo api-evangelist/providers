@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -358,6 +358,10 @@ collections:
   name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateMetricSet API
   slug: open-amazon-lookout-for-metrics-updatemetricset-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-lookout-for-metrics-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2540,7 +2544,7 @@ overview: 'Amazon Lookout for Metrics publishes 28 APIs on the [APIs.io](https:/
   The Amazon Lookout for Metrics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Metrics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Lookout for Metrics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Lookout For Metrics Plans Pricing
   plan_count: 3
@@ -2576,7 +2580,7 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -2598,8 +2602,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:

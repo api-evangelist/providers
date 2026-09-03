@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.switchfly.com
@@ -51,7 +51,7 @@ apis:
   description: Information about requests performed by Switchfly system to 3rd party service to fetch Loyalty profile data and redeem points from the customer account.
   name: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -72,7 +72,7 @@ common:
   url: capabilities/switchfly-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/switchfly-mcp.yml
 - group: other
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Switchfly is a B2B travel loyalty and commerce technology company that powers white-label travel booking, dynamic packaging, and points-plus-cash redemption for airlines, financial services loyalty programs, and HR/employee-rewards platforms. Its platform connects flights, hotels, cars, and activities to loyalty currencies with real-time pricing, business rules, markups, and 24/7 traveler support, giving partners access to more than 400,000 travel options. Switchfly exposes a REST Loyalty API (v3.4, OpenAPI 3.1) for OAuth2 SSO authentication, traveler-profile retrieval, points redemption, and refunds, plus a family of embeddable travel-search and identity UI widgets with a JavaScript SDK. Headquartered in Denver, Colorado, Switchfly has operated in travel technology for more than twenty years.
 image: https://www.switchfly.com/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Switchfly MCP Server
-  slug: switchfly-mcp-server
 modified: '2026-07-21'
 name: Switchfly
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/screenshots/switchfly-2026-09-02T161418.png
 security:

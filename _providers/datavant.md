@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 2
@@ -85,7 +85,7 @@ apis:
   description: A visit is a record of the actions performed by Datavant to obtain charts from a specific clinic within the specified date ranges for a specific patient.
   name: Datavant Visits API
   slug: datavant-visits-api
-artifact_total: 17
+artifact_total: 16
 common:
 - group: other
   title: ''
@@ -261,17 +261,13 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/datavant-mcp.yml
 created: '2026-07-24'
 description: 'Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US health systems. Its core capabilities are privacy-preserving record linkage using Datavant tokens, HIPAA Expert Determination and de-identification, medical record retrieval / release of information, and real-world evidence generation for life sciences, payers, providers, and government. Datavant publishes a real machine-readable contract for the retrieval side of that business: an OpenAPI 3.1.0 document for the Datavant REST API (36 paths, 54 operations, OAuth 2.0 client credentials, base https://api.datavant.io/v2) is served anonymously at https://developer.datavant.com/openapi.json, even though that host''s root returns HTTP 404. Access is still enterprise and contract-gated -
   there is no self-serve sign-up, no published pricing beyond a single AWS Marketplace listing, no published scopes or rate limits, and no FHIR CapabilityStatement. Home market is the United States.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Datavant MCP Server
-  slug: datavant-mcp-server
 modified: '2026-08-14'
 name: Datavant
 nav: Providers
@@ -329,8 +325,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/screenshots/datavant-2026-07-25T211401.png
 security:

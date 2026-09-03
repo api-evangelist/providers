@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
   name: Synapse Protocol
   slug: synapse-protocol
-artifact_total: 3
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -76,10 +76,6 @@ created: '2026-07-17'
 description: Science Corporation is a neurotechnology company founded in 2021 by former Neuralink president Max Hodak, developing brain-computer interfaces and implantable neural devices to restore vision, cognition, and mobility (its PRIMA retinal implant and biohybrid BCI are its marquee programs). Its developer-facing surface is the Synapse Protocol, a flexible gRPC / Protocol Buffers standard API — paired with the Neural Data Transport Protocol (NDTP) — for discovering neural interface devices on a local network, configuring on-device signal chains (broadband source, spike detector, electrical/optical stimulation, disk writer, camera nodes), and streaming high-throughput neural data over UDP. Official client libraries ship for Python (science-synapse, including the synapsectl CLI), TypeScript, and C++, all generated from the open protobuf definitions in the sciencecorp GitHub org.
 image: https://science.xyz/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from the SynapseDevice gRPC service. Science Corporation does not publish a hosted/remote MCP server; this is a proposed local (stdio) wrapper over synaps
-  name: Science Corporation MCP Server
-  slug: science-corporation-mcp-server
 modified: '2026-07-21'
 name: Science Corporation
 nav: Providers
@@ -118,8 +114,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-corporation/refs/heads/main/screenshots/science-corporation-2026-09-02T154534.png
 security:

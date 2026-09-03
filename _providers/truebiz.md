@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://ae.truebiz.io
@@ -91,7 +91,7 @@ apis:
   description: Our website status endpoints help with checking to see if a provided URL is up and that it is not part of a website grouping that TrueBiz does not support.
   name: TrueBiz Website Status API
   slug: truebiz-website-status-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -160,7 +160,7 @@ common:
   url: security/truebiz-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/truebiz-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: TrueBiz automates merchant risk assessment by analyzing a business's internet footprint. Its Web Presence Review API scores a merchant's legitimacy and risk from a domain plus submitted business details, returning a rich Company profile with fraud-risk analysis, website content flags, customer reviews, connected people and entities, and domain/hosting intelligence. A Monitoring API watches domains continuously and raises alerts, and Blocklist, Industry Discovery, and Fraud Search endpoints round out the platform. Payments providers and financial institutions use TrueBiz to streamline underwriting and ongoing merchant due diligence. The REST API authenticates with an X-API-KEY header and is documented with an OpenAPI 3.0.2 specification.
 image: https://truebiz.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: TrueBiz MCP Server
-  slug: truebiz-mcp-server
 modified: '2026-07-21'
 name: TrueBiz
 nav: Providers
@@ -253,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/screenshots/truebiz-2026-09-02T164340.png
 security:

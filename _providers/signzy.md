@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: The Identity (US) API from Signzy — 1 operation(s) for identity (us).
   name: Signzy Identity (US) API
   slug: signzy-identity-us-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Signzy Verification Authentication API
@@ -168,7 +168,7 @@ common:
   url: well-known/signzy-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/signzy-mcp.yml
 - group: other
   title: ''
@@ -250,10 +250,6 @@ finops:
   slug: signzy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signzy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Signzy MCP Server
-  slug: signzy-mcp-server
 modified: '2026-07-17'
 name: Signzy
 nav: Providers
@@ -300,8 +296,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/screenshots/signzy-2026-08-17T081859.png
 security:

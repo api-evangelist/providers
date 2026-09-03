@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ apis:
   description: The Wire/RTP v2 API from KeyCorp — 1 operation(s) for wire/rtp v2.
   name: KeyCorp Wire/RTP v2 API
   slug: keycorp-wire-rtp-v2-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Keycorp Payment Alerts Webhooks
@@ -237,7 +237,7 @@ common:
   url: asyncapi/keycorp-payment-alerts-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/keycorp-mcp.yml
 - group: build
   title: ''
@@ -287,10 +287,6 @@ finops:
   slug: keycorp-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keycorp.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: KeyCorp MCP Server
-  slug: keycorp-mcp-server
 modified: '2026-07-23'
 name: KeyCorp
 nav: Providers
@@ -362,8 +358,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:

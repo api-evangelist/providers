@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST/JSON server-side API for investor accreditation, KYC/KYB/AML, identity, risk monitoring, and case management. v2 (current) authenticates with a Bearer API key; v1 (legacy) and the JavaScript SDK '
   name: Parallel Markets Server API
   slug: parallel-markets-server-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Parallel Markets Webhooks
@@ -151,7 +151,7 @@ common:
   url: data-model/parallel-markets-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parallel-markets-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Parallel Markets (an iCapital company) is the leader in reusable financial identity, providing an end-to-end solution for investor onboarding, verification, and monitoring. Its platform handles investor accreditation for 506(c) offerings, Know-Your-Customer (KYC), Know-Your-Business (KYB), Anti-Money-Laundering (AML) and sanctions/risk monitoring, beneficial-ownership mapping, and identity verification. Partners integrate a client-side JavaScript SDK that collects user information in an accreditation, KYC, KYB, or general onboarding flow, plus a server-side REST API (Server API and Case Management API) and signed webhooks that push accreditation, identity, and risk updates. The reusable "Passport" lets users assert their identity and accreditation status across third-party platforms. Trusted by investment advisors, asset managers, brokers, and fundraising platforms.
 image: https://developer.parallelmarkets.com/img/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parallel Markets MCP Server
-  slug: parallel-markets-mcp-server
 modified: '2026-07-20'
 name: Parallel Markets
 nav: Providers
@@ -208,8 +204,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/screenshots/parallel-markets-2026-08-07T191421.png
 security:

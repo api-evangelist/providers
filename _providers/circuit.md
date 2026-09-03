@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.spoke.com/public/v1
@@ -91,7 +91,7 @@ apis:
   description: Endpoints to operate on [Unassigned Stop](/docs/models/unassignedStop) resources.
   name: Circuit Unassigned Stops API
   slug: circuit-unassigned-stops-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Circuit Webhooks
@@ -224,7 +224,7 @@ common:
   url: data-model/circuit-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/circuit-mcp.yml
 - group: agent
   title: ''
@@ -262,10 +262,6 @@ created: '2026-07-17'
 description: Circuit (operating publicly as Spoke; legal entity Circuit Routing Limited) builds last-mile delivery route-optimization software. Its products are Route Planner, a free driver app for uploading stops, optimizing multi-stop routes and navigating; Dispatch, a multi-driver delivery-management platform with route planning, live tracking and proof of delivery for courier operations; and Connect, a marketplace that lets retailers discover local couriers and track deliveries. The Spoke Public API (formerly the Circuit for Teams API) is an HTTP/JSON API that lets teams manage plans, stops, unassigned stops, drivers, depots, routes, members and long-running operations programmatically, optimize and distribute plans across drivers, run full-text stop search with a filtering DSL, and subscribe to webhook events for delivery workflows.
 image: https://spoke.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Circuit MCP Server
-  slug: circuit-mcp-server
 modified: '2026-07-18'
 name: Circuit
 nav: Providers
@@ -310,8 +306,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/screenshots/circuit-2026-07-25T205411.png
 security:

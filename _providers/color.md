@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.color.com/api/v1/external
@@ -53,7 +53,7 @@ apis:
   description: 'Lab/LIMS sample lifecycle: accession, result reporting, destruction.'
   name: Color Samples API
   slug: color-samples-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -181,7 +181,7 @@ common:
   url: plans/color-plans-pricing.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/color-mcp.yml
 - group: agent
   title: ''
@@ -195,10 +195,6 @@ created: '2026-07-17'
 description: Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes an External API V1 at api.color.com/api/v1/external — 13 operations across eligibility entries, population reporting (participants, samples, results, self-reported results) and a lab/LIMS sample lifecycle — documented at docs.color.com/reference, alongside SAML-based SSO and SFTP/PGP file transfer for eligibility, claims, and member-event data.
 image: https://www.color.com/wp-content/uploads/2021/02/Wordmark_Color_RGB.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Color MCP Server
-  slug: color-mcp-server
 modified: '2026-08-15'
 name: Color
 nav: Providers
@@ -256,8 +252,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:

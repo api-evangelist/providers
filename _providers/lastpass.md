@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: 'Single POST endpoint at lastpass.com/enterpriseapi.php that accepts a JSON payload selecting one of many command names (batchadd, batchchange, deluser, disableuser, getuserdata, getsfdata, getreport, '
@@ -136,8 +136,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 13.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastpass/refs/heads/main/screenshots/lastpass-2026-06-20T184323.png
 security:

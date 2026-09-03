@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.verdigris.co/data/v4
@@ -86,7 +86,7 @@ apis:
   description: Endpoints that return weather data
   name: Verdigris Technologies Weather API
   slug: verdigris-technologies-weather-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -188,7 +188,7 @@ common:
   url: well-known/verdigris-technologies-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verdigris-technologies-mcp.yml
 - group: other
   title: ''
@@ -226,10 +226,6 @@ created: '2026-07-17'
 description: 'Verdigris Technologies builds AI-powered building energy intelligence, pairing proprietary current-sensor hardware clamped onto a building''s electrical panels with cloud software that monitors every circuit in real time. The Verdigris API exposes that telemetry through OAuth2-secured REST endpoints (the Data API v4): energy, power, voltage, current, power factor, total harmonic distortion, weather, energy forecasts, building controls, and high-resolution Pro Capture waveforms, all queryable at building, panel, circuit, and breaker granularity with batch variants for pulling many entities in a single request. Developers use it to power enterprise data lakes, internal power-monitoring dashboards, and sustainability and energy-optimization applications for smart buildings.'
 image: https://verdigris.co/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Verdigris Technologies MCP Server
-  slug: verdigris-technologies-mcp-server
 modified: '2026-07-21'
 name: Verdigris Technologies
 nav: Providers
@@ -278,8 +274,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png
 security:

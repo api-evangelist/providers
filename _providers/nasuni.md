@@ -193,6 +193,10 @@ asyncapis:
   name: Nasuni File Iq Alerts Webhooks
   slug: nasuni-file-iq-alerts-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nasuni-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -360,7 +364,7 @@ overview: 'Nasuni publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
   The Nasuni catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nasuni''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
+  Nasuni''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
 plans:
 - name: Nasuni Plans Pricing
   plan_count: 5
@@ -379,7 +383,7 @@ score:
   band: strong
   composite: 61.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -403,7 +407,7 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.18.1
+  schema_version: 0.18.2
   scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/screenshots/nasuni-2026-09-02T150723.png

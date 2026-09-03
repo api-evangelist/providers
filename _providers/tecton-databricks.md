@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.tecton.ai/'', ''status'': 301, ''note'': ''declared website redirects to https://www.databricks.com/ — a different registrable domain (tecton.ai -> databricks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Tecton feature platform - the Feature Service (low-latency online feature retrieval, e.g. POST /api/v1/feature-service/get-features), the Ingest API, the Metadata API, and SCIM 2.0 pr
@@ -180,8 +181,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/screenshots/tecton-databricks-2026-09-02T162713.png
 security:

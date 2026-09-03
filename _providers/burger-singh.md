@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any burgersinghonline.com URL.
   name: Burger Singh SEO Metadata API
   slug: burger-singh-seo-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: llms/burger-singh-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/burger-singh-mcp.yml
 - group: build
   title: ''
@@ -190,10 +190,6 @@ description: 'Burger Singh is an Indian quick-service restaurant chain founded i
   is the WordPress REST content API behind its corporate site at burgersinghonline.com, captured here for discovery purposes.'
 image: https://www.burgersinghonline.com/wp-content/uploads/2024/04/cropped-logo-v0.1-2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Burger Singh MCP Server
-  slug: burger-singh-mcp-server
 modified: '2026-08-08'
 name: Burger Singh
 nav: Providers
@@ -232,8 +228,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/screenshots/burger-singh-2026-09-02T144958.png
 security:

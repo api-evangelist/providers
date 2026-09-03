@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Open-source Python framework for building agents with memory, knowledge, and tools. Provides Agent, Team, Workflow, Tools, Memory, Knowledge, and Storage primitives. Multi-modal and type-safe; support
@@ -170,8 +170,8 @@ score:
     applies: true
     score: 65.0
   previous_composite: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/screenshots/phidata-2026-06-20T191648.png
 security:

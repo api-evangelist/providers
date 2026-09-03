@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.eu1.fullview.io
@@ -41,7 +41,7 @@ apis:
   description: The Bug Report API from Fullview — 2 operation(s) for bug report.
   name: Fullview Bug Report API
   slug: fullview-bug-report-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: packages/fullview-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fullview-mcp.yml
 - group: agent
   title: ''
@@ -170,10 +170,6 @@ created: '2026-07-17'
 description: Fullview is a customer-support platform that combines cobrowsing and session replays. Support agents can view and control a customer's browser session in real time directly from a help-desk ticket, and automatically recorded session replays capture user clicks, scrolls, console logs, network errors and JavaScript exceptions so issues can be diagnosed without asking the customer to screen-share. Fullview integrates one-click with Zendesk, Intercom, Salesforce Service Cloud and HubSpot Service Hub, offers customizable privacy controls and PII masking, and exposes a Bug Report integration API plus web and React Native SDKs. Authentication is handled by a Keycloak-based OpenID Connect provider, with optional RS256 JWT "Signed Identities" to secure end-user identity. Backed by Lightspeed Venture Partners and Seedcamp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fullview.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fullview MCP Server
-  slug: fullview-mcp-server
 modified: '2026-07-19'
 name: Fullview
 nav: Providers
@@ -216,8 +212,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/screenshots/fullview-2026-07-25T215258.png
 security:

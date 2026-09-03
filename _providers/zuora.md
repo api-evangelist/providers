@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-09-02'
+  score: 43.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -801,8 +801,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

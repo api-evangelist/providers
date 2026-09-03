@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.3
-  scored_at: '2026-09-02'
+  score: 33.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -344,8 +344,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:

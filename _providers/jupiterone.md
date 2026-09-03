@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JupiterOne's public GraphQL API for querying the security asset graph with J1QL, managing entities and relationships, running alert rules, ingesting data via sync jobs, and administering integrations,
@@ -207,8 +207,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png
 security:

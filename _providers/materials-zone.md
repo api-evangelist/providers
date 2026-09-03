@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Tables are organized in folders, and contain Items.
   name: Materials Zone tables API
   slug: materials-zone-tables-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/materials-zone-mcp.yml
 - group: docs
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: Materials Zone (MaterialsZone) is a materials-informatics platform that centralizes materials R&D data into a single, structured source of truth. Its RESTful API integrates with lab instruments and supports Python scripts and analytical tools, letting teams automate workflows, connect diverse data sources, and run domain-specific analysis. Data is organized as Folders > Tables > Items, enriched with Parameters, Values, Measurements, Protocols and Parsers, with per-organization data segregation and encryption in transit and at rest. The company is a portfolio company of Insight Partners.
 image: https://cdn.prod.website-files.com/66a76467298c454de539f7aa/66cef238e96d8f1502659d8f_WebClip%20%20256x256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Materials Zone MCP Server
-  slug: materials-zone-mcp-server
 modified: '2026-07-20'
 name: Materials Zone
 nav: Providers
@@ -265,8 +261,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://hathora.dev/'', ''status'': 301, ''note'': ''declared website redirects to https://gamefabric.com/ — a different registrable domain (hathora.dev -> gamefabric.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -240,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/screenshots/hathora-2026-07-25T220753.png
 security:

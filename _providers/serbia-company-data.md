@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
   description: The Search API from Serbia Company Data — 1 operation(s) for search.
   name: Serbia Company Data Search API
   slug: serbia-company-data-search-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -130,7 +130,7 @@ common:
   url: overlays/serbia-company-data-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/serbia-company-data-mcp.yml
 - group: agent
   title: ''
@@ -176,10 +176,6 @@ json_schemas:
   property_count: 2
   slug: serbia-company-data-searchSerbianCompanies-bazaar
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool list derived from the OpenAPI — no server is published
-  slug: candidate-mcp-tool-list-derived-from-the-openapi-no-server-is-published
 modified: '2026-08-14'
 name: Serbia Company Data
 nav: Providers
@@ -232,8 +228,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serbia-company-data/refs/heads/main/screenshots/serbia-company-data-2026-09-02T154940.png
 security:

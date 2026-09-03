@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Projects API from Indiegogo — 2 operation(s) for projects.
   name: Indiegogo Projects API
   slug: indiegogo-projects-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +127,7 @@ common:
   url: data-model/indiegogo-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/indiegogo-mcp.yml
 - group: design
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Indiegogo is a global crowdfunding platform where entrepreneurs, inventors, and creators raise money for products, creative works, and community projects through campaigns backed by individual contributors. Founded in 2008, it is one of the largest reward-based crowdfunding sites alongside Kickstarter, and it also runs InDemand for ongoing post-campaign fundraising. For developers, Indiegogo publishes a read-only Public API (https://www.indiegogo.com/api/public) that returns creators and active crowdfunding projects without authentication, with responses cached for a short duration. A separate, now-deprecated Partner API (api.indiegogo.com) previously offered token-authenticated access to campaign, perk, contribution, and comment data. This profile was seeded from VC-portfolio sourcing and enriched by the API Evangelist pipeline against the live public endpoints.
 image: https://avatars.githubusercontent.com/u/889441?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Indiegogo MCP Server
-  slug: indiegogo-mcp-server
 modified: '2026-07-19'
 name: Indiegogo
 nav: Providers
@@ -217,8 +213,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/screenshots/indiegogo-2026-07-25T222320.png
 security:

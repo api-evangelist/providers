@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
   description: Customer status and deletion operations for partners.
   name: NIFT Customers API
   slug: nift-customers-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -124,7 +124,7 @@ common:
   url: components/nift-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nift-mcp.yml
 - group: build
   title: ''
@@ -194,10 +194,6 @@ created: '2026-07-17'
 description: 'Nift is a customer-gifting and acquisition platform: businesses send "thank-you" gifts that let their own customers discover and try new brands, restaurants, and services, while the partnering brands gain new customers at the moment of gift selection. Proprietary AI matches each recipient to relevant gift options. For developers, Nift ships a partner integration surface: first-party SDKs (Web, iOS, Android, React Native) that embed the Nift gift-redemption "card flow" directly into a partner''s app, plus a server-side Partners API secured with OAuth 2.0 client credentials for looking up customer eligibility status and submitting GDPR-style customer deletion (anonymization) requests. Backed by Foundry Group.'
 image: https://cdn.nift.me/assets/media_library/Nift-30-GiftCard-330af8982cf61d121b763521121a4025dd0f85b6010e361ebc736d0fa0d13d78.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NIFT MCP Server
-  slug: nift-mcp-server
 modified: '2026-08-13'
 name: NIFT
 nav: Providers
@@ -249,8 +245,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/screenshots/nift-2026-08-07T185254.png
 security:

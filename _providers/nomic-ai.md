@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -191,13 +191,13 @@ rate_limits:
   slug: nomic-ai-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 38.5
   coverage:
     artifact_dirs: 10
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -207,9 +207,6 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -218,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/screenshots/nomic-ai-2026-06-20T190456.png
 security:

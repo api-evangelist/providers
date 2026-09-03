@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 2
@@ -263,7 +263,7 @@ apis:
   description: The workflow-architect API from Netter — 2 operation(s) for workflow-architect.
   name: Netter workflow-architect API
   slug: netter-workflow-architect-api
-artifact_total: 93
+artifact_total: 92
 collections:
 - collection_type: open
   name: API Collection
@@ -479,7 +479,7 @@ common:
   url: data-model/netter-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/netter-mcp.yml
 - group: agent
   title: ''
@@ -493,10 +493,6 @@ created: '2026-07-17'
 description: Netter is a Y Combinator-backed AI data platform ("Build with your data, not your engineers") that centralizes a company's scattered data sources, cleans and enriches them into a living ontology, and lets teams turn that into dashboards, workflows, pipelines and AI-generated apps through chat rather than tickets. Netter exposes a public REST API (the "DMI Backend", rooted at /api/v1 on api.netter.ai) for programmatic file upload plus a broad application surface covering projects, pipelines, ontology entities/rows/relationships, integrations (Databricks, Snowflake, Salesforce, Slack, GitHub, Notion, PostgreSQL and more), dashboards, permissions and an assistant. Auth is an ntr_-prefixed bearer API key; enterprise controls include SAML 2.0 SSO and SCIM 2.0 provisioning.
 image: https://www.netter.ai/assets/netter-symbol.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Netter MCP Server
-  slug: netter-mcp-server
 modified: '2026-07-20'
 name: Netter
 nav: Providers
@@ -535,8 +531,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/screenshots/netter-2026-08-07T184948.png
 security:

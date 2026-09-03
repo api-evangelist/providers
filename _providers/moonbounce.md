@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Labels API from Moonbounce — 1 operation(s) for labels.
   name: Moonbounce Labels API
   slug: moonbounce-labels-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Moonbounce Webhooks
@@ -115,7 +115,7 @@ common:
   url: packages/moonbounce-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moonbounce-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Moonbounce (formerly Clavata) is a realtime AI control and content-moderation platform. Its policy-first engine uses a concise, structured policy syntax to evaluate text and image content in real time and enforce an organization's safety policies at scale. The Clavata Public API v1 exposes content-evaluation jobs, bulk batch processing (CSV via presigned URL), real-time streaming evaluation, completion webhooks, and label evaluation, backed by Python, JavaScript/TypeScript, and Go SDKs and bearer-token API keys. Founded by ex-Meta Integrity and ex-Apple AI-infrastructure leaders and backed by Amplify Partners.
 image: https://framerusercontent.com/assets/qhocdI2pyd7eqIyEeG1ZxNPvsgw.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moonbounce MCP Server
-  slug: moonbounce-mcp-server
 modified: '2026-07-20'
 name: Moonbounce
 nav: Providers
@@ -260,8 +256,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/screenshots/moonbounce-2026-08-07T184233.png
 security:

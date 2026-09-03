@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 55.1
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST/HTTP API to discover, inspect, run and poll third-party agent tools, with smart-run capabilities, leaderboards, wallet balance and agent self-registration. Exposes OpenAPI 3.1, two hosted MCP ser
@@ -197,6 +222,34 @@ scopes:
   scope_count: 4
   slug: cracked-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 64.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  facets:
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 81.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
 security:
 - kind: authentication
   name: Cracked Authentication

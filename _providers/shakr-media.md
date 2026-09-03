@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -42,7 +42,7 @@ apis:
 - description: Embeddable, white-labeled drag-and-drop video editor for the browser (npm @shakrmedia/editor-sdk).
   name: Shakr Video Editor SDK
   slug: shakr-video-editor-sdk
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Shakr Media Webhooks
@@ -106,7 +106,7 @@ common:
   url: data-model/shakr-media-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shakr-media-mcp.yml
 - group: agent
   title: ''
@@ -128,10 +128,6 @@ created: '2026-07-17'
 description: 'Shakr is a video creation platform that helps businesses produce and automate video at scale. The Shakr Video API (v2) offers programmatic end-to-end video production: create a versioned creative template (TemplateStyleVersion), map input content (text, images, video, audio, fonts) onto its editable spec, kick off a render session, and automatically deliver the finished video to destinations such as Amazon S3, Microsoft Azure Blob Storage, and Facebook Ad Accounts — with completion webhooks. The Shakr Video Editor SDK embeds a white-labeled drag-and-drop video editor directly inside a customer''s product. Authentication uses the OAuth 2.0 Client Credentials Grant with scoped bearer tokens. Shakr is a 500 Global portfolio company.'
 image: https://avatars.githubusercontent.com/shakrmedia
 layout: provider
-mcp_servers:
-- description: ''
-  name: Shakr Media MCP Server
-  slug: shakr-media-mcp-server
 modified: '2026-07-21'
 name: Shakr Media
 nav: Providers
@@ -170,8 +166,8 @@ score:
   previous_composite: 25.1
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

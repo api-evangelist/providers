@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Translate content at runtime and queue files for translation.
   name: General Translation Translation API
   slug: general-translation-translation-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: General Translation Webhooks
@@ -208,7 +208,7 @@ common:
   url: cli/general-translation-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/general-translation-mcp.yml
 - group: agent
   title: ''
@@ -282,10 +282,6 @@ created: '2026-07-17'
 description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation instructions), and Locadex, an AI coding agent that internationalizes source code and opens pull requests. The public REST API (api2.gtx.dev, plus the runtime host runtime2.gtx.dev) uploads source files, queues and downloads translations, manages branches and tags, reads project and job status, and translates content at runtime. It is used by developer-first teams including Cursor, Windsurf, Ramp, Mintlify, and ClickHouse.
 image: https://avatars.githubusercontent.com/u/153253056?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: General Translation MCP Server
-  slug: general-translation-mcp-server
 modified: '2026-07-19'
 name: General Translation
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:

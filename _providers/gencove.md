@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -143,7 +143,7 @@ apis:
   description: The user API from Gencove — 12 operation(s) for user.
   name: Gencove user API
   slug: gencove-user-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Gencove Webhooks
@@ -327,7 +327,7 @@ common:
   url: changelog/gencove-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gencove-mcp.yml
 - group: agent
   title: ''
@@ -349,10 +349,6 @@ created: '2026-07-17'
 description: Gencove is an enterprise analytics platform for low-pass whole genome sequencing (lpWGS). Its REST API lets customers upload FASTQ and array data, run samples through configurable analysis pipelines, track sample status, download deliverables (including merged VCFs, imputation and ancestry outputs), manage projects, batches, BaseSpace and S3 imports, and operate the Gencove Explorer compute environment. The platform is used across human health, agriculture and research to turn raw sequencing reads into genotypes, polygenic scores and ancestry at industrial scale. Access is via a web dashboard, the official `gencove` Python CLI/SDK, and a versioned HTTP API authenticated with an API key or JWT, with signed webhooks for analysis-completion events.
 image: https://www.google.com/s2/favicons?domain=gencove.com&sz=128
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gencove MCP Server
-  slug: gencove-mcp-server
 modified: '2026-07-19'
 name: Gencove
 nav: Providers
@@ -400,8 +396,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/screenshots/gencove-2026-07-25T215527.png
 security:

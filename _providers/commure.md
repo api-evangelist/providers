@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api-{tenant-id}.developer.commure.com
@@ -48,7 +48,7 @@ apis:
   description: The FHIR API from Commure — 49 operation(s) for fhir.
   name: Commure FHIR API
   slug: commure-fhir-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: Commure FHIR API
@@ -156,7 +156,7 @@ common:
   url: components/commure-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/commure-mcp.yml
 - group: start
   title: ''
@@ -251,10 +251,6 @@ description: Commure is a San Francisco-based AI-native healthcare technology co
   contract is Commure's public Postman workspace, which publishes a 59-request "Commure FHIR API" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Commure MCP Server
-  slug: commure-mcp-server
 modified: '2026-08-15'
 name: Commure
 nav: Providers
@@ -311,8 +307,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:

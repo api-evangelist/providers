@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.ezeetechnosys.com'', ''status'': 301, ''note'': ''declared website redirects to https://yanoljacloudsolution.com:443/ — a different registrable domain (ezeetechnosys.com -> yanoljacloudsolution.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,8 +161,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/screenshots/ezee-2026-07-25T214046.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
@@ -265,7 +265,7 @@ apis:
   description: Virtual Tours
   name: Rentberry Virtual Tours API
   slug: rentberry-virtual-tours-api
-artifact_total: 95
+artifact_total: 94
 collections:
 - collection_type: open
   name: API Collection
@@ -420,7 +420,7 @@ common:
   url: https://github.com/Rentberry/geocoder/releases
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rentberry-mcp.yml
 - group: commercial
   title: ''
@@ -550,10 +550,6 @@ created: '2026-08-02'
 description: 'Rentberry, Inc. is an international long-term home rental marketplace founded in 2015 and headquartered in San Francisco, California. The platform runs the whole rental lifecycle in one closed loop for both tenants and landlords: property listing and syndication, search across residential rental cities worldwide, virtual tours and open-house scheduling, custom rent offers and negotiation, rental applications with proof-of-income attachments, US credit and background screening, e-signed rental contracts and contract templates, online rent collection and rental subscriptions via Stripe, in-platform messaging, maintenance and complaint handling, and a flexible-living concept aimed at digital nomads. Rentberry operates a versioned REST API at api.rentberry.com whose Swagger UI at /docs publishes an OpenAPI 3.0.0 description covering applications, auth and social OAuth login, listings, search, contracts, screening, payments, rentals, messaging, user verification and localization.'
 image: https://cdn.rentberry.com/files/seo/main.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rentberry MCP Server
-  slug: rentberry-mcp-server
 modified: '2026-08-02'
 name: Rentberry
 nav: Providers
@@ -600,8 +596,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/screenshots/rentberry-2026-09-02T153459.png
 security:

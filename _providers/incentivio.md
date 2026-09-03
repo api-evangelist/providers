@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Incentivio describes an API-first, composable data platform that unifies guest data across POS, loyalty, app, web, and marketplace channels into a single persistent Guest ID, with reverse ETL to sync '
@@ -468,7 +468,7 @@ apis:
   description: The web-app-config-controller API from Incentivio — 1 operation(s) for web-app-config-controller.
   name: Incentivio Web App Config Controller API
   slug: incentivio-web-app-config-controller-api
-artifact_total: 95
+artifact_total: 94
 asyncapis:
 - description: ''
   name: Incentivio Webhooks
@@ -591,7 +591,7 @@ common:
   url: packages/incentivio-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/incentivio-mcp.yml
 - group: agent
   title: ''
@@ -606,10 +606,6 @@ description: 'Incentivio is a Boston-based digital guest engagement platform for
   developer portal at apidocs.incentivio.com that publishes no public projects, but two production Spring Boot services expose live, unauthenticated springdoc OpenAPI definitions on Incentivio''s own hosts: the guest-facing Mobile & Ordering API (125 operations) and the operator-facing Admin API (421 operations), both fronted by an OAuth 2.0 authorization server advertised via RFC 8414 metadata. Narrative documentation, pricing, and self-service onboarding remain gated behind partnership and enterprise onboarding (the Connect Enterprise tier markets dedicated API SLAs).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/incentivio.png
 layout: provider
-mcp_servers:
-- description: Incentivio ships no MCP server. Nothing was found on the company's site, its empty developer portal, its (empty) GitHub organization, npm, or PyPI, and no MCP endpoint responded on any Incentivio host
-  name: Incentivio MCP server (candidate)
-  slug: incentivio-mcp-server-candidate
 modified: '2026-08-13'
 name: Incentivio
 nav: Providers
@@ -664,8 +660,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/screenshots/incentivio-2026-06-20T183307.png
 security:

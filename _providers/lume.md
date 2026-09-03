@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for automating data mappings and transformations with AI. Create and run Flows, manage target schemas, poll job/run status, and retrieve mapping results. Authenticated with a per-account API '
   name: Lume API
   slug: lume-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Lume Webhooks
@@ -95,7 +95,7 @@ common:
   url: security/lume-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lume-mcp.yml
 - group: design
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: Lume is an AI-powered customer data integration platform for software teams. Its models handle schema discovery, suggest intelligent field-level data mappings, validate data quality, and generate transformation code automatically, turning a manual data-onboarding process into a fast, repeatable pipeline. Teams create Flows and Projects that map arbitrary source data (CSV/S3, relational databases such as PostgreSQL or Snowflake, and API payloads) to their own internal target schemas. Lume exposes a REST API and first-party Python and TypeScript SDKs, delivers run results via webhooks, and is SOC 2 Type 1 and Type 2 compliant. Backed by General Catalyst, Khosla Ventures, Floodgate, Soma Capital, and Y Combinator; in March 2026 Lume joined Harvey AI.
 image: https://app.lume.ai/assets/logo-256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lume MCP Server
-  slug: lume-mcp-server
 modified: '2026-07-20'
 name: Lume
 nav: Providers
@@ -159,8 +155,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lume/refs/heads/main/screenshots/lume-2026-07-25T225704.png
 security:

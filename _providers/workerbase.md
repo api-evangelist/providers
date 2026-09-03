@@ -33,9 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -79,7 +79,7 @@ common:
   url: packages/workerbase-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/workerbase-mcp.yml
 - group: agent
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: Workerbase is a Munich-based connected-worker platform — a frontline execution layer for manufacturing that bridges ERP/MES planning and shopfloor operations with digital work instructions, dynamic task orchestration, quality and maintenance workflows, material logistics, an industrial smartwatch, and AI agents for the shopfloor. Its per-tenant platform API is reachable through a first-party JavaScript SDK and Node-RED nodes published on npm, covering tasks, users, roles, skills, locations, media, databases, connectors, and functions; customer documentation lives in a login-gated help center.
 image: https://avatars.githubusercontent.com/u/28139586?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Workerbase MCP Server
-  slug: workerbase-mcp-server
 modified: '2026-07-21'
 name: Workerbase
 nav: Providers
@@ -152,8 +148,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/screenshots/workerbase-2026-09-02T170931.png
 security:

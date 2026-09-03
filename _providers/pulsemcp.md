@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public v0.1 API for browsing MCP servers, server versions, and ecosystem metadata in the PulseMCP Registry. Implements the Generic MCP Registry API specification with PulseMCP enrichments (popularity,
@@ -212,8 +212,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/screenshots/pulsemcp-2026-06-20T192300.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.lifen.fr/fhir/v3
@@ -72,7 +72,7 @@ apis:
   description: The Token API from Lifen — 1 operation(s) for token.
   name: Lifen Token API
   slug: lifen-token-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Lifen Platform Webhooks
@@ -250,7 +250,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lifen-mcp.yml
 - group: other
   title: ''
@@ -273,10 +273,6 @@ description: 'Lifen (Honestica SAS, Paris) is a French digital-health company wh
   is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.'
 image: https://files.readme.io/ea56e58-small-Logo_couleur.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lifen MCP Server
-  slug: lifen-mcp-server
 modified: '2026-07-19'
 name: Lifen
 nav: Providers
@@ -336,8 +332,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ arazzos:
 - description: Build a complete connectivity picture for one UK postcode by calling both Ofcom Connected Nations APIs — fixed broadband availability and mobile coverage across all four UK operators — and joining the
   name: Ofcom postcode connectivity profile
   slug: ofcom-postcode-connectivity-profile
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: Ofcom Connected Nations Broadband API
@@ -83,7 +83,7 @@ common:
   url: skills/ofcom-check-mobile-coverage.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ofcom-mcp.yml
 - group: agent
   title: ''
@@ -202,14 +202,6 @@ description: Ofcom is the Office of Communications, the United Kingdom's indepen
   gateway at api-proxy.ofcom.org.uk and authenticated with an Azure APIM subscription key. Everything else Ofcom publishes (spectrum licence registers, numbering data, market research) is documents and datasets, not APIs, and the community has repeatedly built third-party APIs on top of those files. Ofcom appears once in the CAMARA project participant register but exposes no CAMARA network APIs and is not a GSMA Open Gateway participant — Open Gateway is an operator commitment programme and Ofcom is the regulator, not an operator.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: 'Ofcom publishes no MCP server. This is a DERIVED candidate tool surface — what an
-
-    MCP server over Ofcom''s two published operations would expose — not an Ofcom
-
-    product. Confirmed absence: the anonymous'
-  name: Ofcom MCP Server
-  slug: ofcom-mcp-server
 modified: '2026-07-25'
 name: Ofcom
 nav: Providers
@@ -262,8 +254,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:

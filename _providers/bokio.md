@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.bokio.se/v1
@@ -116,7 +116,7 @@ apis:
   description: Operations for managing file uploads
   name: Bokio uploads API
   slug: bokio-uploads-api
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Company authorization API
@@ -320,7 +320,7 @@ common:
   url: sandbox/bokio-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bokio-mcp.yml
 - group: agent
   title: ''
@@ -362,10 +362,6 @@ created: '2026-07-17'
 description: Bokio is a Swedish cloud accounting and bookkeeping platform (a Visma company) for small businesses, sole traders and their accountants, combining automated bookkeeping, invoicing, a business bank account and financial reporting. Its public REST API is split into a Company API (journal entries, invoices, credit notes, customers, items, suppliers and supplier invoices, uploads, bank payments, chart of accounts, fiscal years and SIE export) and a General API that handles OAuth 2.0 token issuance and connection management for public multi-tenant integrations. Authentication is OAuth 2.0 (authorization code and client credentials) with 24 fine-grained resource:action scopes; the API uses URI-path versioning (v1), page-number pagination, per-token rate limits and a documented deprecation, brownout and sunset lifecycle.
 image: https://www.bokio.se/media/38801/open-graph.png?width=1200
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bokio MCP Server
-  slug: bokio-mcp-server
 modified: '2026-07-18'
 name: Bokio
 nav: Providers
@@ -414,8 +410,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:

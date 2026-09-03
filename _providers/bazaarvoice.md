@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -188,7 +192,7 @@ apis:
   description: The Uploadphoto API from Bazaarvoice — 1 operation(s) for uploadphoto.
   name: Bazaarvoice Uploadphoto API
   slug: bazaarvoice-uploadphoto-api
-artifact_total: 57
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Bazaarvoice Notifications Subscriptions API
@@ -361,7 +365,7 @@ common:
   url: packages/bazaarvoice-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bazaarvoice-mcp.yml
 - group: agent
   title: ''
@@ -460,10 +464,6 @@ description: 'Bazaarvoice operates a retail and brand user-generated-content net
   header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.'
 image: https://github.com/bazaarvoice.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bazaarvoice MCP Server
-  slug: bazaarvoice-mcp-server
 modified: '2026-08-13'
 name: Bazaarvoice
 nav: Providers
@@ -483,20 +483,20 @@ rate_limits:
   slug: bazaarvoice-rate-limits
 score:
   band: strong
-  composite: 60.5
+  composite: 58.6
   coverage:
     artifact_dirs: 26
-    catalog_gap: 63.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 52.9
     developer_ergonomics: 67.3
-    discoverability: 81.5
+    discoverability: 63.0
     governance: 18.2
     operational_transparency: 48.7
   previous_composite: 60.5
@@ -510,8 +510,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png
 security:

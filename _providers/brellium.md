@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Users API from Brellium — 2 operation(s) for users.
   name: Brellium Users API
   slug: brellium-users-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Brellium Webhooks
@@ -143,7 +143,7 @@ common:
   url: authentication/brellium-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brellium-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: Brellium is an AI-powered clinical compliance platform for healthcare organizations. Its clinical AI audits 100% of a provider's clinical documentation and medical coding across every patient visit, checking notes against payor, clinical-quality, and billing requirements to catch compliance risks before they become clawbacks and to surface earned-but-unbilled revenue. It flags issues such as inaccurate MDM/E&M coding, cloned notes, and inconsistent session lengths, and gives clinical teams instant correction guidance. Brellium serves tech-enabled clinics, behavioral health, ABA, hospice, and digital-health providers, and exposes a REST API so platforms can embed chart-review and coding audits directly into their EMR or telehealth workflows.
 image: https://brellium.com/og-image.png?v=3
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brellium MCP Server
-  slug: brellium-mcp-server
 modified: '2026-07-18'
 name: Brellium
 nav: Providers
@@ -284,8 +280,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
 security:

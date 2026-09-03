@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -93,7 +93,7 @@ apis:
   description: A virtual_machine represents a single virtual machine created within an HPE SimpliVity datastore.
   name: SimpliVity virtual_machines API
   slug: simplivity-virtual-machines-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: packages/simplivity-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/simplivity-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster recovery across VMware and Hyper-V clusters. The programmatic surface is the HPE OmniStack REST API (v1.25), which manages the key components of a SimpliVity configuration — virtual machines, backups, backup policies, datastores, hosts, clusters/omnistack_clusters, cluster groups, external stores, certificates, and long-running tasks. The API is served on-appliance by the Management Virtual Appliance (MVA) and authenticated with an OAuth2 password grant that issues read/write bearer tokens. HPE publishes first-party SDKs for Python, Go, and PowerShell plus Ansible modules on the HewlettPackard GitHub org.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplivity.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SimpliVity MCP Server
-  slug: simplivity-mcp-server
 modified: '2026-07-21'
 name: SimpliVity
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/screenshots/simplivity-2026-09-02T155554.png
 security:

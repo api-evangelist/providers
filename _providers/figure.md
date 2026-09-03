@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Payment History V2 API from Figure — 1 operation(s) for payment history v2.
   name: Figure Payment History V2 API
   slug: figure-payment-history-v2-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Figure Webhooks
@@ -195,7 +195,7 @@ common:
   url: lifecycle/figure-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/figure-mcp.yml
 - group: agent
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: Figure is a fintech lender and blockchain-native capital marketplace, backed by Ribbit Capital, and one of the largest non-bank HELOC (home equity line of credit) originators in the United States. Its Partner APIs let affiliates, brokers, and loan originators run the full HELOC lifecycle — pre-qualification, inquiry creation, borrower/SSN/income and property enrichment, lien verification, matching-property and offer selection, borrower costs, and document retrieval — plus a Portfolio Manager reporting API for asset holders to query and download owned and pledged loan-tape and payment-history data. The REST APIs authenticate with an apikey header behind a Kong gateway, support optional JWE/RSA payload encryption, expose separate test and production environments, and push webhooks as inquiries and applications progress.
 image: https://cdn.figure.com/shared-assets/social-logos/figure-logo-social.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Figure MCP Server
-  slug: figure-mcp-server
 modified: '2026-07-19'
 name: Figure
 nav: Providers
@@ -278,8 +274,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/screenshots/figure-2026-07-25T214439.png
 security:

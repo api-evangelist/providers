@@ -36,17 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
   name: ReqKey REST API
   slug: reqkey-rest-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reqkey-mcp.yml
 - group: auth
   title: ''
@@ -156,10 +156,6 @@ created: '2026-07-26'
 description: 'ReqKey is out-of-band API key authentication, usage credits, rate limiting and request analytics as a service for teams that sell or expose an API. It never sits in front of customer traffic: your own middleware makes one call to POST /key/validate per request, which checks the key, deducts a credit from that customer''s pool and records the decision, typically in under 5ms over a reused connection. The defining design choice is that credits and rate limits live on the CONSUMER rather than the key, so issuing a customer fifty keys never multiplies their plan into fifty quotas and disabling a consumer stops all of its keys at once. Validation is Redis-backed and runs in multiple AWS regions with a global sync layer reconciling credit balances. A second endpoint, POST /ingest, correlates full request/response logs to a validation by requestId and feeds an Analytics API over two datasets. Seven first-party SDKs wrap both calls as framework middleware.'
 image: https://www.reqkey.com/og-image.png
 layout: provider
-mcp_servers:
-- description: A CANDIDATE tool surface — what an official ReqKey MCP server would expose if ReqKey shipped one. This is an API Evangelist proposal grounded in real, documented endpoints, NOT a server that exists. B
-  name: ReqKey MCP Server
-  slug: reqkey-mcp-server
 modified: '2026-08-09'
 name: ReqKey
 nav: Providers
@@ -199,8 +195,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/screenshots/reqkey-2026-09-02T153516.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Oauth API from Cobee by Pluxee — 1 operation(s) for oauth.
   name: Cobee by Pluxee Oauth API
   slug: cobee-oauth-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: sandbox/cobee-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cobee-mcp.yml
 - group: design
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Cobee is a Madrid-based flexible employee benefits and compensation platform, acquired by Pluxee (Sodexo group) in 2024. It lets companies manage a modular multi-benefit program (meal, transport, training, health and life insurance, wellbeing and employee discounts) from a single dashboard, delivered to employees through a Cobee VISA card and mobile app. Cobee exposes a REST Public API (v3, OpenAPI 3.0.1) for HR and payroll integrations, covering companies, employees, benefit models, payroll cycles, and benefit consumptions, with OAuth 2.0 client-credentials (Auth0-issued JWT) auth and a separate staging sandbox. The Public API is currently available to Spanish customers, with credentials issued by the customer's Customer Success Manager.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cobee.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cobee by Pluxee MCP Server
-  slug: cobee-by-pluxee-mcp-server
 modified: '2026-07-18'
 name: Cobee by Pluxee
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
 security:

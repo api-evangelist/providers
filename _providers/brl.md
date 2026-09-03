@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://brl.xyz'', ''status'': 301, ''note'': ''declared website redirects to https://www.crown-brlv.com/ — a different registrable domain (brl.xyz -> crown-brlv.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -98,7 +99,7 @@ apis:
   description: The Crown API & Webhooks API from BRL — 0 operation(s) for crown api & webhooks.
   name: BRL Crown API & Webhooks API
   slug: brl-crown-api-webhooks-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Brl Webhooks
@@ -216,7 +217,7 @@ common:
   url: data-model/brl-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brl-mcp.yml
 - group: other
   title: ''
@@ -231,10 +232,6 @@ description: Crown (brl.xyz) is a Brazilian fintech, backed by Paradigm, Coinbas
   binds each request's URI, nonce and SHA-256 body hash.
 image: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/apis.yml
 layout: provider
-mcp_servers:
-- description: ''
-  name: BRL MCP Server
-  slug: brl-mcp-server
 modified: '2026-07-18'
 name: BRL
 nav: Providers
@@ -281,8 +278,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png
 security:

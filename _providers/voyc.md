@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Voyc's integration API, monitored on the public status page as "Voyc API v3" (Data Export) alongside "Voyc API" (Conversation Uploads & Reporting). The production host is api.app.voyc.ai, confirmed li
@@ -206,8 +210,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/screenshots/voyc-2026-08-17T082827.png
 security:

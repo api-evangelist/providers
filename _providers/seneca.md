@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Seneca is a microservices toolkit for Node.js that uses a pattern-matching approach to message handling. It provides transport independence, allowing services to communicate over HTTP, TCP, or message
@@ -146,8 +146,8 @@ score:
     applies: true
     score: 40.0
   previous_composite: 20.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seneca/refs/heads/main/screenshots/seneca-2026-06-20T193656.png
 security:

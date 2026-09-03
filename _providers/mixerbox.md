@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Services?funcs=GetWeatherInfo&mobile=0 API from MixerBox — 1 operation(s) for services?funcs=getweatherinfo&mobile=0.
   name: MixerBox Services?funcs=GetWeatherInfo&mobile=0 API
   slug: mixerbox-services-funcs-getweatherinfo-mobile-0-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ common:
   url: well-known/mixerbox-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mixerbox-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: MixerBox ("Super-Apps to Live Easier") is a Y Combinator and Initialized Capital-backed consumer software company that ships a broad family of AI assistant tools as ChatGPT plugins / GPT Actions. Its catalog spans music and podcasts (OnePlayer, Podcasts), weather, a Google Calendar assistant, translation and language learning, text-to-image generation, photo enhancement, PDF and academic-paper question answering (ChatPDF, Scholar), QR generation, diagram rendering, and prompt optimization. Each product publishes an OpenAI plugin manifest (/.well-known/ai-plugin.json) and an OpenAPI 3.1 specification; authentication is service-level or open.
 image: https://www.mbplayer.com/favicon-app_store_icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MixerBox MCP Server
-  slug: mixerbox-mcp-server
 modified: '2026-07-20'
 name: MixerBox
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/screenshots/mixerbox-2026-08-07T183823.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -148,8 +148,8 @@ score:
     applies: true
     score: 25.0
   previous_composite: 23.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/screenshots/high-fidelity-2026-07-25T221150.png
 security:

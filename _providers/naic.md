@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -407,7 +407,7 @@ apis:
   description: workflow entity resources exposed by the NAIC JSON:API.
   name: NAIC Workflow API
   slug: naic-workflow-api
-artifact_total: 83
+artifact_total: 82
 collections:
 - collection_type: open
   name: NAIC Content JSON:API
@@ -455,7 +455,7 @@ common:
   url: lifecycle/naic-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/naic-mcp.yml
 - group: agent
   title: ''
@@ -547,10 +547,6 @@ examples:
   slug: naic-taxonomy-states-alabama-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: No official or third-party hosted NAIC MCP server exists. Searched the NAIC estate (no developer portal, no GitHub organization — github.com/naic is an unrelated personal account with one repo), the M
-  name: NAIC MCP Server
-  slug: naic-mcp-server
 modified: '2026-07-25'
 name: NAIC
 nav: Providers
@@ -568,7 +564,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -578,7 +574,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 33.3
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -595,8 +591,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
 security:

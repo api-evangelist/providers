@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hosted Platform-as-a-Service REST API for Me Protocol — the backend behind the embeddable rewards SDKs. Authenticates SDK integrations with an API key and brokers reward issuance, redemption, and cros
@@ -139,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/screenshots/my-ai-2026-08-07T184501.png
 security:

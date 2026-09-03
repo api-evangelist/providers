@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -1103,7 +1103,7 @@ apis:
   description: The Mist API API from Mist — 0 operation(s) for mist api.
   name: Mist Mist API
   slug: mist-mist-api-api
-artifact_total: 430
+artifact_total: 429
 asyncapis:
 - description: ''
   name: Mist Webhooks
@@ -1848,7 +1848,7 @@ common:
   url: packages/mist-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mist-mcp.yml
 - group: design
   title: ''
@@ -1874,10 +1874,6 @@ created: '2026-07-17'
 description: Mist (Mist Systems), acquired by Juniper Networks and now Juniper Mist, is an AI-driven cloud platform for wireless, wired, and WAN networking. The Juniper Mist Cloud API is a RESTful HTTPS/JSON API organized around an Org -> Site -> Device hierarchy, giving programmatic access to configuration, inventory, client analytics (SLE), the Marvis virtual network assistant, location services, and real-time event webhooks. Mist was an early Lightspeed Venture Partners portfolio company (seed, 2014) before its Juniper acquisition.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mist.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mist MCP Server
-  slug: mist-mcp-server
 modified: '2026-07-20'
 name: Mist
 nav: Providers
@@ -1923,8 +1919,8 @@ score:
       total: 212
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:

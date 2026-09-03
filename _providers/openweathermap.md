@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ arazzos:
 - description: Resolve a zip or postal code to coordinates, then return five day and sixteen day forecasts.
   name: OpenWeatherMap Zip To Forecast
   slug: openweathermap-zip-to-forecast-workflow
-artifact_total: 122
+artifact_total: 121
 collections:
 - collection_type: postman
   name: OpenWeatherMap Accumulated Parameters API
@@ -417,7 +417,7 @@ common:
   url: well-known/openweathermap-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openweathermap-mcp.yml
 - group: agent
   title: ''
@@ -565,10 +565,6 @@ jsonld:
   property_count: 12
   slug: openweathermap-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: MCP Server (candidate)
-  slug: mcp-server-candidate
 modified: '2026-06-20'
 name: OpenWeatherMap
 nav: Providers
@@ -639,8 +635,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:

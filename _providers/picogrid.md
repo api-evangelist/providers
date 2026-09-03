@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Legion Platform HTTP API (v3, OpenAPI 3.1.0) for controlling and integrating data from unmanned and mission systems: entities and entity locations, feeds (message and file data) and feed definitio'
@@ -217,8 +217,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/screenshots/picogrid-2026-08-17T081219.png
 security:

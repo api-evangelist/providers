@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.typingdna.com
@@ -51,7 +51,7 @@ apis:
   description: Main routes
   name: TypingDNA standard API
   slug: typingdna-standard-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: well-known/typingdna-verify-openid-configuration.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/typingdna-mcp.yml
 - group: agent
   title: ''
@@ -214,10 +214,6 @@ created: '2026-07-17'
 description: TypingDNA provides AI-based typing biometrics authentication, recognizing people by how they type on desktop and mobile keyboards. Its RESTful Authentication API enrolls and verifies typing patterns for fraud prevention, account-sharing detection and passwordless second factors, while Verify 2FA replaces SMS/email one-time codes with typing verification — standalone or as an OIDC authentication method for Okta, Ping Identity and Microsoft Entra ID. TypingDNA is certified for ISO 27001, ISO 27017 and ISO 27018.
 image: https://www.typingdna.com/assets/images/default-meta-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: TypingDNA MCP Server
-  slug: typingdna-mcp-server
 modified: '2026-07-21'
 name: TypingDNA
 nav: Providers
@@ -260,8 +256,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/screenshots/typingdna-2026-08-17T082510.png
 security:

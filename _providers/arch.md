@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Users API from Arch — 2 operation(s) for users.
   name: Arch Users API
   slug: arch-users-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: conformance/arch-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arch-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: Arch (Arch Labs, Inc.) is the digital administration platform for private markets and alternative investments. It aggregates statements, capital calls, tax documents, and data from hundreds of funds and sources into one secure portal, then uses automation and AI to extract data, summarize documents, surface insights, and coordinate workflows for limited partners, advisors, accountants, family offices, and fund service providers. The Arch Client API is a JSON HTTP REST API that lets customers programmatically access holdings, cash flows, investing/issuing entities, activities, tasks, files, and tax documents on the platform, authenticating with client-credential JWT bearer tokens. Founded in 2018, Arch is backed by Oak HC/FT, Menlo Ventures, Craft Ventures, Uncork Capital, Citi Ventures, and others.
 image: https://archlabs.com/images/arch-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Arch MCP Server
-  slug: arch-mcp-server
 modified: '2026-07-18'
 name: Arch
 nav: Providers
@@ -307,8 +303,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/screenshots/arch-2026-07-25T201014.png
 security:

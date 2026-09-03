@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Webhooks API from Mason — 2 operation(s) for webhooks.
   name: Mason Webhooks API
   slug: mason-webhooks-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Mason Webhooks
@@ -215,7 +215,7 @@ common:
   url: asyncapi/mason-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mason-mcp.yml
 - group: design
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: Mason (getmason.io), the company behind the ModeMagic Shopify app, is an AI-powered "agentic shopping engine" for ecommerce brands. Built by Kubric, the platform pairs merchandising, promotion, conversion and gamification AI agents with a developer platform for programmatic creative generation and commerce automation. Its public developer hub at getmason.dev documents a REST API (OAuth2 bearer, base host https://api.getmason.io) spanning app provisioning, template-driven image/creative generation (Genie), long-running creative tasks, asset search, webhook subscriptions, and a promotion/discount engine (Scrooge) for tiered, bulk and Buy-X-Get-Y discounts, plus a custom-checkout integration contract. Surfaced as a portfolio company of Accel, GGV Capital, Point Nine and Y Combinator; this profile was enriched by the API Evangelist pipeline from Mason's published OpenAPI, llms.txt and developer documentation.
 image: https://media.getmason.io/api/assetlib/e5067013-1809-44f3-8847-8d66857625c7.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mason MCP Server
-  slug: mason-mcp-server
 modified: '2026-07-20'
 name: Mason
 nav: Providers
@@ -291,8 +287,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
 security:

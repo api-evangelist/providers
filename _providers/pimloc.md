@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Secure Redact API API from Pimloc — 0 operation(s) for secure redact api.
   name: Pimloc Secure Redact API
   slug: pimloc-secure-redact-api-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: Secure Redact processes media asynchronously. When a state_callback and/or export_callback URL is supplied on upload, the platform POSTs event payloads to those URLs as media moves through the redacti
   name: Secure Redact Media Callbacks
@@ -184,7 +184,7 @@ common:
   url: packages/pimloc-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pimloc-mcp.yml
 - group: agent
   title: ''
@@ -218,10 +218,6 @@ created: '2026-07-17'
 description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen text and full bodies with high accuracy. Used across law enforcement, local government, transport, insurance, healthcare, education and retail to meet GDPR, CCPA, HIPAA, FOIA and DSAR obligations, Secure Redact offers a browser SaaS and a v3 REST API. The API supports a fully automated Standard Flow (upload by URL, process, download) and an Enterprise Flow (review and edit in the UI, with projects, users and audit/chain-of-custody trails), plus audio transcription, video search and webhook callbacks. Pimloc is backed by Speedinvest.
 image: https://www.secureredact.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pimloc MCP Server
-  slug: pimloc-mcp-server
 modified: '2026-07-20'
 name: Pimloc
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/screenshots/pimloc-2026-08-17T081234.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth2 text-to-video generation API — list supported actors and voices, create and export videos of speaking digital avatars, and poll video status. Legacy surface; company acquired by Adobe (Nov 2023
   name: Rephrase Studio API
   slug: rephrase-studio-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -67,7 +67,7 @@ common:
   url: conventions/rephraseai-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rephraseai-mcp.yml
 - group: agent
   title: ''
@@ -81,10 +81,6 @@ created: '2026-07-17'
 description: Rephrase.ai is a Bengaluru-based generative-AI startup whose text-to-video platform, Rephrase Studio, turns plain text scripts into videos of digital human avatars ("actors") that speak the script with lip-synced, natural voices. It exposed a Rephrase Studio API for programmatic video generation (list actors and voices, create and export videos, poll video status) secured with OAuth2 bearer tokens. Backed by Techstars, Rephrase.ai was acquired by Adobe in November 2023 and its technology folded into Adobe's video and generative-AI offerings; the standalone product hosts have since been decommissioned, though the legacy API reference remains hosted on ReadMe. This profile is maintained by API Evangelist for historical and enrichment purposes.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rephraseai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rephrase.ai MCP Server
-  slug: rephraseai-mcp-server
 modified: '2026-07-20'
 name: Rephrase.ai
 nav: Providers
@@ -120,8 +116,8 @@ score:
   previous_composite: 11.6
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rephraseai/refs/heads/main/screenshots/rephraseai-2026-09-02T153504.png
 security:

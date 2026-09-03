@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -113,7 +113,7 @@ apis:
   description: The Twilio Media Stream API from ASAPP — 1 operation(s) for twilio media stream.
   name: ASAPP Twilio Media Stream API
   slug: asapp-twilio-media-stream-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Asapp Realtime Events Webhooks
@@ -235,7 +235,7 @@ common:
   url: components/asapp-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/asapp-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ json_schemas:
   property_count: 0
   slug: asapp-messaging-feeds
 layout: provider
-mcp_servers:
-- description: ''
-  name: ASAPP MCP Server
-  slug: asapp-mcp-server
 modified: '2026-07-18'
 name: ASAPP
 nav: Providers
@@ -346,8 +342,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:

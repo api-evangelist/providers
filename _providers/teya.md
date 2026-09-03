@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ apis:
   description: Transactions
   name: Teya Transactions API
   slug: teya-transactions-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -279,7 +279,7 @@ common:
   url: data-model/teya-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/teya-mcp.yml
 - group: agent
   title: ''
@@ -305,10 +305,6 @@ created: '2026-07-17'
 description: 'Teya (formerly SaltPay) is a European payments and business-services provider serving local businesses with card machines, online and in-person card acquiring, a business account, and flexible business funding. Its developer platform exposes REST APIs for the full card-payment lifecycle: Online Payments (Hosted Checkout, PayByLink, e-commerce transactions, captures, refunds, digital receipts, tokens), a Payments Gateway (card-present, MOTO, refunds, captures, reversals), POSLink for cloud terminal control (payment requests, tabs, stores, terminals, ePOS registration, receipt printing), and a Teya FX API for Dynamic Currency Conversion, plus a SOAP-based Settlement API for payout reporting. Authentication is OAuth 2.0 (authorization code and client credentials) against id.teya.com, write operations support Idempotency-Key, and first-party SDKs cover web (Teya Blocks) and Android/iOS point-of-sale.'
 image: https://www.teya.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Teya MCP Server
-  slug: teya-mcp-server
 modified: '2026-07-21'
 name: Teya
 nav: Providers
@@ -358,8 +354,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/screenshots/teya-2026-08-17T082330.png
 security:

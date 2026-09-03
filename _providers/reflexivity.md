@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.1
-  scored_at: '2026-09-02'
+  score: 17.6
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Reflexivity's institutional REST API. Documented by the company as "JSON REST based services" whose requests are authenticated with an OAuth 2.0 Bearer token obtained from the Reflexivity OAuth servic
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reflexivity/refs/heads/main/screenshots/reflexivity-2026-09-02T153231.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ apis:
   description: Obtain the list of transactions for a CommBank account and details for each transaction. Transaction API is a consumer API. To access data you'll need the customer's consent. Seven years’ worth of tra
   name: Commonwealth Bank Transaction API API
   slug: commonwealth-bank-transaction-api-api
-artifact_total: 66
+artifact_total: 65
 collections:
 - collection_type: open
   name: API Collection
@@ -248,7 +248,7 @@ common:
   url: data-model/commonwealth-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/commonwealth-bank-mcp.yml
 - group: agent
   title: ''
@@ -367,10 +367,6 @@ integrations:
 - description: Major card scheme acquiring and issuing partnerships.
   name: Mastercard and Visa
 layout: provider
-mcp_servers:
-- description: ''
-  name: Commonwealth Bank MCP Server
-  slug: commonwealth-bank-mcp-server
 modified: '2026-07-21'
 name: Commonwealth Bank
 nav: Providers
@@ -420,8 +416,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png
 security:

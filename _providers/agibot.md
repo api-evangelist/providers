@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The AimDK protocol is AgiBot's first-party Protocol Buffers definition of its robots' interfaces, published as the aimrt_protocol repository of Link-U OS. It defines 33 gRPC services and 175 RPCs acro
@@ -238,8 +238,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/screenshots/agibot-2026-08-07T161032.png
 security:

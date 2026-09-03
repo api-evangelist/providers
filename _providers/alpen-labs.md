@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Alpen''s public JSON-RPC interface exposed by the full node and bundler on the Alpen Testnet (chain ID 8150, Signet BTC). Supports standard Ethereum eth_* methods, twenty-five Strata-specific strata_* '
@@ -138,8 +138,8 @@ score:
   previous_composite: 23.4
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/screenshots/alpen-labs-2026-07-25T195749.png
 security:

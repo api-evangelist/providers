@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://market-data.grvt.io
@@ -44,7 +44,7 @@ apis:
 - description: Authenticated trading API for GRVT — create/cancel orders (single, bulk, TP/SL, trigger), open orders and order history, fills, positions and position history, margin management, sub-account and fundi
   name: GRVT Trading API
   slug: grvt-trading-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Blue Square Group Limited Streams
@@ -120,7 +120,7 @@ common:
   url: conformance/blue-square-group-limited-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blue-square-group-limited-mcp.yml
 - group: design
   title: ''
@@ -147,10 +147,6 @@ description: Blue Square Group Limited is the corporate entity behind GRVT (pron
   Evangelist network.
 image: https://avatars.githubusercontent.com/u/112316440?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blue Square Group Limited MCP Server
-  slug: blue-square-group-limited-mcp-server
 modified: '2026-07-18'
 name: Blue Square Group Limited
 nav: Providers
@@ -192,8 +188,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png
 security:

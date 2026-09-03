@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.centrify.com/'', ''status'': 301, ''note'': ''declared website redirects to https://delinea.com/centrify — a different registrable domain (centrify.com -> delinea.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Centrify Identity Platform / Cloud Suite (PAS). Programmatic access to authentication profiles, users, directories, roles, sets, resources, secrets, privileged access requests, connec
@@ -167,8 +168,8 @@ score:
   previous_composite: 27.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrify/refs/heads/main/screenshots/centrify-2026-07-25T204934.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ apis:
   description: The Uploads API from Agora Data — 1 operation(s) for uploads.
   name: Agora Data Uploads API
   slug: agora-data-uploads-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Agora Data Webhooks
@@ -244,7 +244,7 @@ common:
   url: asyncapi/agora-data-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/agora-data-mcp.yml
 - group: agent
   title: ''
@@ -262,10 +262,6 @@ created: '2026-08-06'
 description: 'Agora Data, Inc. is an Arlington, Texas fintech that provides capital, analytics and loan-servicing technology to the non-prime and Buy Here Pay Here (BHPH) automotive finance market. Its platform lets independent auto dealers and other loan originators publish, analyze and sell their retail installment contract portfolios: AgoraCapital provides structured financing that connects originators to capital-markets funding, AgoraInsights delivers portfolio performance analytics, AgoraPortal is the originator-facing management console, and Nuron is the proprietary AI risk, pricing and fraud modeling system trained on a large non-prime auto finance dataset. Agora runs a public loan-data import API at api.agoradata.com that dealer management system (DMS) vendors and integration partners use to upload, status-check and delete loan portfolio files, plus webhook receivers for iDMS and Auto Master file delivery.'
 image: https://agoradata.com/wp-content/uploads/2023/06/AgoraData_Logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Agora Data MCP Server
-  slug: agora-data-mcp-server
 modified: '2026-08-06'
 name: Agora Data
 nav: Providers
@@ -312,8 +308,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:

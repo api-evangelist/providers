@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,6 +80,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/arx-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://arx-robotics.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://arx-robotics.com/news
 created: '2026-07-17'
 description: ARX Robotics is a European defense technology company building autonomous unmanned ground systems and the software that runs them. Its flagship Mithra OS is an AI-driven autonomy platform that turns legacy and modern military vehicles into software-defined, autonomous units, while its Gereon RCS line delivers scalable robotic ground vehicles for reconnaissance, firepower, clearance, surveillance, cargo, and casualty evacuation across defense and commercial missions. Headquartered in Munich with offices in Berlin, the UK, and Ukraine, ARX operates one of Europe's largest autonomous defense systems production facilities and has delivered unmanned ground systems to Ukraine. The company is venture-backed (a €31M Series A extended by €11M, with HV Capital among its investors) and partners with RENK, DEUTZ, Helsing, and Quantum Systems to strengthen Europe's technological resilience and defense sovereignty. ARX publishes no public developer API; this profile captures the company's
   public web presence and an llms.txt it publishes for AI agents.
@@ -92,7 +100,7 @@ network: true
 overview: 'ARX Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Resilience Defence, Robotics, Autonomous Systems, and Defense Technology.
 
 
-  ARX Robotics'' developer surface includes engineering blog, support, and 9 more developer resources.'
+  ARX Robotics'' developer surface includes engineering blog, support, and 11 more developer resources.'
 random_paper: 16
 score:
   band: emerging
@@ -113,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arx/refs/heads/main/screenshots/arx-2026-07-25T201353.png
 security:

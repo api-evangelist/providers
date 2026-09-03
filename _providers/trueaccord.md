@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Create, retrieve, and manage customers (consumers) and their debts.
   name: TrueAccord Customers API
   slug: trueaccord-customers-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: data-model/trueaccord-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trueaccord-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: TrueAccord is a digital-first, omnichannel debt collection agency that uses data science and machine learning to recover consumer debt with a consumer-friendly, self-service experience. Through its Recover API, creditors and debt buyers place consumers and their debts for collection and manage customer records — customers, their contact information (addresses, phones, emails), and the debts placed against them — over a simple HTTPS interface secured with HTTP Basic authentication (API key as username) plus an X-TA-CREDITOR header for multi-creditor accounts. TrueAccord also operates first-party collections through its Sentry Credit subsidiary and its HeartBeat and HumAIn platforms, and is ISO 27001 certified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trueaccord.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TrueAccord MCP Server
-  slug: trueaccord-mcp-server
 modified: '2026-07-21'
 name: TrueAccord
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/screenshots/trueaccord-2026-09-02T164334.png
 security:

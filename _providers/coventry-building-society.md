@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ apis:
   description: The Transactions API from Coventry Building Society — 2 operation(s) for transactions.
   name: Coventry Building Society Transactions API
   slug: coventry-building-society-transactions-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
@@ -262,7 +262,7 @@ common:
   url: llms/coventry-building-society-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coventry-building-society-mcp.yml
 - group: build
   title: ''
@@ -337,10 +337,6 @@ description: Coventry Building Society is the United Kingdom's second-largest bu
   PSD2 strong customer authentication, and mutual-TLS using Open Banking WAC or eIDAS QWAC certificates, with registered TPP onboarding handled via open.banking@thecoventry.co.uk.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coventry Building Society MCP Server
-  slug: coventry-building-society-mcp-server
 modified: '2026-07-23'
 name: Coventry Building Society
 nav: Providers
@@ -396,8 +392,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:

@@ -12,7 +12,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-09-02'
+  score: 30.4
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.meetleo.com
@@ -246,8 +246,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 78.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png
 security:

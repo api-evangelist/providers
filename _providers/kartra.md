@@ -37,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Kartra's inbound developer API. One endpoint, POST only, form-encoded, with the operation selected by `actions[].cmd`. Twenty-nine documented commands cover leads, tags, lists, automation sequences, c
   name: Kartra API
   slug: kartra-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Kartra Webhooks
@@ -155,7 +155,7 @@ common:
   url: conformance/kartra-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kartra-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ description: 'Kartra is an all-in-one online business platform operated by Kartr
   error signal.'
 image: https://kartra.com/wp-content/uploads/2024/06/Kartra-logo-icon-blue-transparent.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kartra MCP Server
-  slug: kartra-mcp-server
 modified: '2026-08-12'
 name: Kartra
 nav: Providers
@@ -231,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/screenshots/kartra-2026-08-17T081006.png
 security:

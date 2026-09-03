@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-09-02'
+  score: 33.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -532,13 +532,13 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 39.4
+  composite: 43.4
   coverage:
     artifact_dirs: 17
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -548,9 +548,6 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -565,8 +562,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
 security:

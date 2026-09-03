@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.leolabs.space/v1
@@ -46,7 +46,7 @@ apis:
   description: LeoLabs radar instruments and their tasking.
   name: LeoLabs instruments API
   slug: leo-labs-instruments-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: cli/leo-labs-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leo-labs-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: LeoLabs is a commercial space situational awareness company that operates a global network of phased-array radars and a cloud analytics platform delivering what it calls Persistent Orbital Intelligence for low Earth orbit. It independently tracks more than 23,000 objects in LEO and turns those radar observations into a commercial catalog, orbital state vectors, conjunction alerts, maneuver detection, pattern-of-life analysis and launch support for satellite operators, insurers, defense and civil space agencies. Customers reach the data either through the LeoLabs Platform web interface or, as LeoLabs describes it, "a suite of full-featured RESTful APIs for ground system integration and automation at scale" — the v1 Platform API over the catalog, radar measurements, state vectors, TLEs, ephemeris propagation and radar tasking. The company is backed by Insight Partners.
 image: https://leolabs.space/wp-content/uploads/2025/12/leolabs-badge-scaled.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LeoLabs MCP Server
-  slug: leolabs-mcp-server
 modified: '2026-07-19'
 name: LeoLabs
 nav: Providers
@@ -204,8 +200,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png
 security:

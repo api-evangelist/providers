@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -90,7 +90,7 @@ arazzos:
 - description: Authenticate, check eligibility, run data processing, capture customer KYC, and send it for review.
   name: CrediLinq — Onboard a customer and complete KYC
   slug: credilinqai-onboard-and-kyc
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI representation of CrediLinq's documented webhook events. CrediLinq delivers server-to-server notifications via HTTP POST to a partner-configured redirect_url. Payloads are signed with HMAC SH
   name: CrediLinq Webhooks
@@ -233,7 +233,7 @@ common:
   url: asyncapi/credilinqai-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/credilinqai-mcp.yml
 - group: agent
   title: ''
@@ -255,10 +255,6 @@ created: '2026-07-17'
 description: 'CrediLinq is a Singapore-founded embedded-finance and B2B lending fintech that lets platforms and marketplaces offer white-labeled credit to their business customers. Its API-first "Credit as a Service" powers two products: B2B PayLater (buy-now-pay-later for buyers) and GMV Financing (working-capital advances for sellers), with AI/data-driven credit underwriting, automated onboarding and KYC, credit-line management, loan drawdowns, repayments and reconciliation, and partner reporting. The CrediLinq REST API (OpenAPI 3.0, Auth0 client-credentials bearer auth, sandbox/staging/production environments, HMAC-signed webhooks) is documented at docs.credilinq.ai.'
 image: https://credilinq.ai/wp-content/uploads/2025/08/Layer_1-1.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Credilinq.ai MCP Server
-  slug: credilinqai-mcp-server
 modified: '2026-07-18'
 name: Credilinq.ai
 nav: Providers
@@ -306,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/screenshots/credilinqai-2026-07-25T210714.png
 security:

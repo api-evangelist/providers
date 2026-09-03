@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ arazzos:
 - description: A lab creates an order for a testing client, verifies it into the workflow, submits test results for a sample, attaches the COA, and completes the order.
   name: Confident LIMS — lab order to finalized results
   slug: confident-lims-lab-order-to-results
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Confident Lims Webhooks
@@ -222,7 +222,7 @@ common:
   url: conformance/confident-lims-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/confident-lims-mcp.yml
 - group: agent
   title: ''
@@ -256,10 +256,6 @@ created: '2026-07-17'
 description: Confident LIMS (CC Software LLC, formerly Confident Cannabis, founded 2015) is a cloud-based Laboratory Information Management System for high-velocity analytical testing labs and their testing clients. It manages samples from accession through workflow, results, and reporting, automates regulatory compliance (ISO 17025, TNI/NELAP, SOC 2, FDA 21 CFR Part 11), and gives clients a self-service ordering and results portal. It serves cannabis, food & beverage, agriculture, nutraceuticals, cosmetics, environmental, industrial chemicals, and oil & gas labs. The Confident Cannabis REST API (v0, api.confidentcannabis.com) exposes labs, clients, and shared reference data with API-key + HMAC-SHA256 request signing and result webhooks.
 image: https://files.readme.io/ebcaf628c1535f1f7354303ab5d660f8ee74c181042849f2f2954f5c025a3e1d-Brand_Symbol.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Confident LIMS MCP Server
-  slug: confident-lims-mcp-server
 modified: '2026-07-18'
 name: Confident LIMS
 nav: Providers
@@ -301,8 +297,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/screenshots/confident-lims-2026-07-25T210248.png
 security:

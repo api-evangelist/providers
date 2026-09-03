@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: American Electric Power operates an Azure API Management instance (apim-aep-prod-use2-001) fronted by the "AEP API Management" developer portal at developer.aep.com and the gateway host api.aep.com. T
@@ -171,7 +171,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 11.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -181,7 +181,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.2
+  previous_composite: 17.0
   provenance:
     mcp: derived
   regulatory:
@@ -190,9 +190,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png
 security:
 - kind: domain-security

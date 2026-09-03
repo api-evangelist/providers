@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Users API from Physna — 4 operation(s) for users.
   name: Physna Users API
   slug: physna-users-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/physna-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Physna is a geometric search and 3D deep-learning platform that lets you search, compare, analyze, and organize 3D models and physical parts by their actual geometry rather than by filename or metadata. Its public REST API (v2, OpenAPI 3.0) exposes model ingestion and reprocessing, geometric search (part-to-part, part-in-part, part, scan, visual, and geo-related matches), image-based search, collections and folders, model/collection metadata and metadata keys, assembly-tree traversal, match reports, user management, and client-credential provisioning. The API is JSON over HTTPS, is authenticated with OAuth 2.0 through Physna's Okta authorization server, and is used to detect duplicate designs, discover alternative components, and organize design inventory across manufacturing, engineering, and AI training use cases.
 image: https://physna.com/assets/vectors/logo-p.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Physna MCP Server
-  slug: physna-mcp-server
 modified: '2026-07-20'
 name: Physna
 nav: Providers
@@ -256,8 +252,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/screenshots/physna-2026-09-02T151410.png
 security:

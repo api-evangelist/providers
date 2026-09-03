@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://horizongames.net/'', ''status'': 301, ''note'': ''declared website redirects to https://sequence.xyz/ — a different registrable domain (horizongames.net -> sequence.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 1
@@ -68,7 +69,7 @@ apis:
   description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
   name: Horizon Blockchain Games secret API
   slug: horizon-blockchain-games-secret-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Horizon Blockchain Games Webhooks
@@ -211,7 +212,7 @@ common:
   url: data-model/horizon-blockchain-games-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/horizon-blockchain-games-mcp.yml
 - group: design
   title: ''
@@ -225,10 +226,6 @@ created: '2026-07-17'
 description: Horizon Blockchain Games is the web3 gaming studio and infrastructure company behind Skyweaver and the Sequence platform (sequence.xyz / 0xsequence) — a modular, open-source web3 development stack for onchain apps, DeFi, stablecoins, and games. Sequence unifies smart-contract wallets, embedded Wallet-as-a-Service, 1-click cross-chain payments, an NFT marketplace, a multi-chain indexer, token metadata, a transaction relayer with gas sponsorship, a node gateway, analytics, and SDKs for Web, Unity, Unreal, React Native, and Go. Its APIs are webrpc JSON-RPC-over-HTTP services spanning 40+ EVM chains, authenticated with project access keys. Sequence was acquired by Polygon Labs. This profile was enriched by the API Evangelist pipeline from Sequence's public developer surface.
 image: https://sequence.xyz/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Horizon Blockchain Games MCP Server
-  slug: horizon-blockchain-games-mcp-server
 modified: '2026-07-19'
 name: Horizon Blockchain Games
 nav: Providers
@@ -276,8 +273,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/screenshots/horizon-blockchain-games-2026-07-25T221424.png
 security:

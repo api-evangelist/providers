@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 11.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors, serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does not curre
@@ -192,7 +192,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 10.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -202,7 +202,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 10.4
+  previous_composite: 21.0
   provenance:
     conformance: first-party
   regulatory:
@@ -211,9 +211,9 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/screenshots/amerisourcebergen-2026-06-20T171929.png
 security:
 - kind: authentication

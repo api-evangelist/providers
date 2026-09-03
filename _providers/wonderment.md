@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.wonderment.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.loopreturns.com/wonderment-is-now-loop-tracking/ — a different registrable domain (wonderment.com -> loopreturns.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +63,7 @@ arazzos:
 - description: List the authenticated shop's shipment report exports and download the most recent finished, non-expired report.
   name: Wonderment — export and download a shipment report
   slug: wonderment-report-export
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Wonderment Webhooks
@@ -115,7 +116,7 @@ common:
   url: llms/wonderment-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wonderment-mcp.yml
 - group: auth
   title: ''
@@ -173,10 +174,6 @@ created: '2026-07-17'
 description: Wonderment is a post-purchase order-tracking and shipment-visibility platform for ecommerce brands (built for Shopify), now part of Loop as Loop Tracking. It ingests carrier tracking data, surfaces proactive delivery updates, powers branded self-serve tracking pages, and reports on shipment performance. The public REST API (versioned 2022-10, hosted at api.wonderment.com) lets merchants search shipments by order name or tracking code, list and download shipment report exports, and fetch delivery-date predictions for shipping methods, plus webhooks for shipping events. Originally a CRV-backed company, added to the API Evangelist network and enriched from its ReadMe developer hub.
 image: https://www.wonderment.com/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wonderment MCP Server
-  slug: wonderment-mcp-server
 modified: '2026-07-21'
 name: Wonderment
 nav: Providers
@@ -218,8 +215,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/screenshots/wonderment-2026-09-02T170915.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Task API from Chaldal — 20 operation(s) for task.
   name: Chaldal Task API
   slug: chaldal-task-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ common:
   url: skills/chaldal-consolidate-consignment.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chaldal-mcp.yml
 - group: other
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Chaldal is Bangladesh's largest online grocery delivery platform, founded in 2013 in Dhaka. It pioneered the "dark store" micro-warehouse model to deliver fresh food, groceries, personal care, and baby products within one hour across Dhaka, Narayanganj, Chittagong, Jashore, Khulna, Sylhet, and Rajshahi. Beyond retail grocery, Chaldal has built out supply-chain, agriculture, and logistics technology, including its Gogo Bangla / "Egg Transport" third-party-logistics arm, which exposes a public B2B delivery API. Backed by Y Combinator and 500 Global, Chaldal partners with the UN World Food Programme, UNDP, USAID, and the World Bank. Its engineering stack is F#/.NET Core, Scala, Python, and React/React Native. This profile was enriched by the API Evangelist pipeline from Chaldal's public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chaldal.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chaldal MCP Server
-  slug: chaldal-mcp-server
 modified: '2026-07-18'
 name: Chaldal
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/screenshots/chaldal-2026-07-25T205118.png
 security:

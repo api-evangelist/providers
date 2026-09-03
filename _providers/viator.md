@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ apis:
   description: 'This section describes the Viator built API(s) available for reservation system consumption. **Note**: For these APIs, the request is sent **to** Viator and the response is received **from** Viator.'
   name: Viator Viator APIs API
   slug: viator-viator-apis-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Viator Events
@@ -292,7 +292,7 @@ common:
   url: asyncapi/viator-events.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/viator-mcp.yml
 - group: build
   title: ''
@@ -327,10 +327,6 @@ description: 'Viator is a Tripadvisor company and the largest online marketplace
   passing a two-part front-end and back-end certification. No open travel standard is referenced anywhere in the specifications: the contract is entirely Viator-proprietary, product identifiers are Viator-internal, and partners are contractually required to prevent search engines indexing Viator reviews and unique content.'
 image: https://partnerresources.viator.com/wp-content/uploads/2023/08/V-logo_Green.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Viator MCP Server
-  slug: viator-mcp-server
 modified: '2026-07-28'
 name: Viator
 nav: Providers
@@ -355,7 +351,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -365,7 +361,7 @@ score:
     discoverability: 59.3
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.2
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,8 +372,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png
 security:

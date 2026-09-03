@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.getonbrd.com/api/v0/
@@ -146,7 +146,7 @@ apis:
   description: Webhook endpoints and events
   name: Get On Board Webhooks API
   slug: get-on-board-webhooks-api
-artifact_total: 50
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Get On Board Webhooks
@@ -308,7 +308,7 @@ common:
   url: lifecycle/get-on-board-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/get-on-board-mcp.yml
 - group: design
   title: ''
@@ -342,10 +342,6 @@ created: '2026-07-17'
 description: Get on Board (getonbrd.com) is the leading tech-recruitment platform and applicant tracking system (ATS) for Latin America, connecting companies with a talent database of 1M+ technology professionals. Companies post jobs, run structured hiring processes, and access candidate profiles. Get on Board publishes a public REST API (v0) with an OpenAPI 3.0 specification, a sandbox environment, outbound webhooks, and a first-party Ruby client library. The public API exposes job categories, company profiles, published jobs, and a job search endpoint with no authentication; a private Companies API (API-key authenticated, subscription-gated) covers jobs, applications, hiring processes, professionals, company shells, and webhook management. Surfaced as a portfolio company of 500 Global and enriched by the API Evangelist pipeline.
 image: https://d2dgum4gsvdsrq.cloudfront.net/assets/og_images/og-image-4d63c74882f757bdb9589139bc6475e094fec168aeba32184c24b0f5a8de8a35.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Get On Board MCP Server
-  slug: get-on-board-mcp-server
 modified: '2026-07-19'
 name: Get On Board
 nav: Providers
@@ -386,8 +382,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/screenshots/get-on-board-2026-07-25T215711.png
 security:

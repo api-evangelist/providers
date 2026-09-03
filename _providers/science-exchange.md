@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 23
 apis:
 - baseURL: https://www.scienceexchange.com/api/providers/v1
@@ -151,7 +151,7 @@ apis:
   description: Users resource.
   name: Science Exchange users API
   slug: science-exchange-users-api
-artifact_total: 51
+artifact_total: 50
 collections:
 - collection_type: open
   name: API Collection
@@ -308,7 +308,7 @@ common:
   url: data-model/science-exchange-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/science-exchange-mcp.yml
 - group: agent
   title: ''
@@ -338,10 +338,6 @@ created: '2026-07-17'
 description: Science Exchange is an R&D supplier orchestration and procurement platform for life-sciences organizations. It runs a marketplace of 3,800+ pre-qualified scientific service providers under a single master service agreement, and streamlines supplier sourcing, onboarding, contracting, compliance, and payment. The platform integrates with ERP (SAP, Oracle, Workday), P2P (Ariba, Coupa), and SSO/SAML identity systems, and exposes a read-only Providers REST API (v1) that lets scientific-service suppliers pull their RFQs, quotes, services, facilities, line items, ratings, tags, and users. Founded in 2011 and headquartered in Palo Alto, California; backed by a16z, Index Ventures, and Union Square Ventures.
 image: https://avatars.githubusercontent.com/scienceexchange
 layout: provider
-mcp_servers:
-- description: ''
-  name: Science Exchange MCP Server
-  slug: science-exchange-mcp-server
 modified: '2026-07-21'
 name: Science Exchange
 nav: Providers
@@ -391,8 +387,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/screenshots/science-exchange-2026-08-17T081734.png
 security:

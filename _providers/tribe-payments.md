@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -244,7 +244,7 @@ apis:
   description: The User Actions Trigger API from Tribe Payments — 1 operation(s) for user actions trigger.
   name: Tribe Payments User Actions Trigger API
   slug: tribe-payments-user-actions-trigger-api
-artifact_total: 65
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Tribe Payments Webhooks
@@ -406,7 +406,7 @@ common:
   url: components/tribe-payments-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tribe-payments-mcp.yml
 - group: agent
   title: ''
@@ -424,10 +424,6 @@ created: '2026-07-24'
 description: Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer processor that gives banks, acquirers, and fintechs a modular, API-driven platform to launch card and payment products without building core processing in-house. Built around its ISAAC processing engine, Tribe spans card issuing (issuer processing), merchant acquiring and a payment gateway, POS/SoftPOS terminal management, tokenization, fraud and risk monitoring, 3D Secure, digital wallets, Open Banking (PSD2 account-to-account payment initiation and account information), and Bank Connect / Banking-as-a-Service. Tribe positions itself as developer-led, publishing an extensive public API reference at doc.tribepayments.com; sandbox access is granted on request rather than through fully open self-service signup. Its home market is the United Kingdom, where PSD2/Open Banking and the Faster Payments and Bacs rails operated by Pay.UK anchor a dense cluster of API-native payment providers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tribe Payments MCP Server
-  slug: tribe-payments-mcp-server
 modified: '2026-07-24'
 name: Tribe Payments
 nav: Providers
@@ -448,7 +444,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -458,7 +454,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 44.4
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -483,8 +479,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png
 security:

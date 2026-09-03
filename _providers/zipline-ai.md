@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: http://localhost:9000
@@ -56,7 +56,7 @@ apis:
   description: The workflow API from Zipline Ai — 1 operation(s) for workflow.
   name: Zipline Ai workflow API
   slug: zipline-ai-workflow-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -80,7 +80,7 @@ common:
   url: skills/zipline-ai-fetch-features.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zipline-ai-mcp.yml
 - group: other
   title: ''
@@ -102,10 +102,6 @@ created: '2026-07-17'
 description: Zipline Ai is a company surfaced as a portfolio company of wing-venture-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zipline-ai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zipline Ai MCP Server
-  slug: zipline-ai-mcp-server
 modified: '2026-07-17'
 name: Zipline Ai
 nav: Providers
@@ -143,8 +139,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/screenshots/zipline-ai-2026-09-02T171802.png
 security:

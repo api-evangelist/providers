@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Keyless, read-only JSON REST API of FDAT, the university's institutional research data repository, operated by the Digital Humanities Center on the InvenioRDM platform and served from the university's
@@ -211,8 +211,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/screenshots/university-of-tubingen-2026-06-20T200240.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'White-label REST API for electronic invoicing integrated with Ecuador''s SRI: issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth, asynchronous webhooks for authorization status, a'
@@ -159,8 +159,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/screenshots/taxo-2026-09-02T162626.png
 security:

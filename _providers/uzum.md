@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.2
-  scored_at: '2026-09-02'
+  score: 34.4
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: Payment gateway for websites and mobile applications. Card payments (Visa, Mastercard, Uzcard, Humo), one-step and two-step authorization, back-to-back payment without the hosted form, card binding an
@@ -71,7 +71,7 @@ apis:
 - description: Seller-cabinet API for Uzum Market used to synchronise marketplace orders, inventory and prices for both Fulfilment by Operator (FBO) and Fulfilment by Seller (FBS) models. Access requires an API toke
   name: Uzum Market Seller API
   slug: uzum-market-seller
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Uzum Merchant Webhooks
@@ -127,7 +127,7 @@ common:
   url: packages/uzum-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uzum-mcp.yml
 - group: agent
   title: ''
@@ -202,10 +202,6 @@ description: 'Uzum is an Uzbekistan-based digital ecosystem headquartered in Tas
   FBO/FBS order, inventory and price synchronization, which is credential-gated. All Uzum Bank API programs are onboarded through an account manager rather than self-service signup.'
 image: https://developer.uzumbank.uz/en/img/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Uzum MCP Server
-  slug: uzum-mcp-server
 modified: '2026-09-02'
 name: Uzum
 nav: Providers
@@ -234,6 +230,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -243,6 +240,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 23.7
+  previous_composite: 52.8
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +256,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Uzum Authentication

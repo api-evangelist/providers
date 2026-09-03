@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.forestadmin.com'', ''status'': 301, ''note'': ''declared website redirects to https://forest.app/ — a different registrable domain (forestadmin.com -> forest.app), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Forest Admin Admin Backend is a REST API deployed on the customer's own infrastructure. It translates UI calls from the Forest Admin browser interface into database queries covering CRUD operation
@@ -149,8 +150,8 @@ score:
     governance: 15.2
     operational_transparency: 34.2
   previous_composite: 34.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forestadmin/refs/heads/main/screenshots/forestadmin-2026-06-20T181423.png
 security:

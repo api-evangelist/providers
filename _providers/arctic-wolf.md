@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Ticket API from Arctic Wolf — 3 operation(s) for ticket.
   name: Arctic Wolf Ticket API
   slug: arctic-wolf-ticket-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +119,7 @@ common:
   url: lifecycle/arctic-wolf-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arctic-wolf-mcp.yml
 - group: other
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-17'
 description: 'Arctic Wolf is a security operations company delivering 24x7 AI-driven managed detection and response (MDR), managed risk, incident response, and endpoint security through its cloud-native Aurora Platform and Concierge Security Team. For developers and OEM partners, Arctic Wolf exposes a set of REST and standards-based APIs via docs.arcticwolf.com and the Unified Portal: a Ticket API for programmatically listing, commenting on, and closing security tickets; a User API and Aurora Endpoint Defense API for user and endpoint management; and Threat Intelligence feed APIs (TAXII 1.1, TAXII 2.1, and a Blocklist API) for consuming indicators into your own security tooling. Authentication uses bearer JWT tokens generated from Personal API Keys in the Unified Portal, with regional service endpoints (US, EU, AU, CA pods).'
 image: https://arcticwolf.com/wp-content/uploads/2021/11/AW_LOGO_REVERSE-334.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Arctic Wolf MCP Server
-  slug: arctic-wolf-mcp-server
 modified: '2026-07-18'
 name: Arctic Wolf
 nav: Providers
@@ -243,8 +239,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/screenshots/arctic-wolf-2026-07-25T201101.png
 security:

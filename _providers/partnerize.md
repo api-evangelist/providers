@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 2
@@ -563,7 +563,7 @@ apis:
   description: The Websites API from Partnerize — 2 operation(s) for websites.
   name: Partnerize Websites API
   slug: partnerize-websites-api
-artifact_total: 222
+artifact_total: 221
 collections:
 - collection_type: open
   name: API Collection
@@ -1035,7 +1035,7 @@ common:
   url: data-model/partnerize-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/partnerize-mcp.yml
 - group: agent
   title: ''
@@ -1069,10 +1069,6 @@ jsonld:
   property_count: 4
   slug: partnerize-context
 layout: provider
-mcp_servers:
-- description: Partnerize publishes no Model Context Protocol server. This is a DERIVED candidate tool set, mapped one-to-one onto real operationIds in the 104 OpenAPI documents in openapi/, offered as a design star
-  name: Partnerize MCP Server (candidate)
-  slug: partnerize-mcp-server-candidate
 modified: '2026-08-13'
 name: Partnerize
 nav: Providers
@@ -1133,8 +1129,8 @@ score:
       total: 104
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png
 security:

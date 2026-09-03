@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Routefusion''s global payments GraphQL API: users, entities, wallets, virtual accounts, beneficiaries, transfers, quotes/rates, incoming transfers, and webhooks for cross-border payouts over SWIFT, loc'
   name: Routefusion GraphQL API
   slug: routefusion-graphql-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Routefusion Webhooks
@@ -143,7 +143,7 @@ common:
   url: conformance/routefusion-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/routefusion-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Routefusion is a global payments infrastructure platform that lets platforms, fintechs, and marketplaces move money across borders through a single GraphQL API. It supports payouts to 180+ countries over SWIFT, local rails, and stablecoin (USDC), non-resident and FDIC/virtual accounts in multiple currencies, multi-currency wallets, FX rate locking and quotes, beneficiary and entity onboarding with compliance review, incoming-transfer reconciliation, and Ed25519-signed webhooks. The API is GraphQL over HTTPS with bearer-token authentication and a full sandbox environment. This profile was added to the API Evangelist network as a portfolio company of Initialized Capital and enriched from Routefusion's public developer documentation.
 image: https://routefusion.com/images/routefusion-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Routefusion MCP Server
-  slug: routefusion-mcp-server
 modified: '2026-07-21'
 name: Routefusion
 nav: Providers
@@ -210,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/screenshots/routefusion-2026-08-17T081642.png
 security:

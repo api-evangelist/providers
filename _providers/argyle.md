@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -258,6 +258,10 @@ collections:
   name: Argyle Accounts Webhooks API
   slug: open-argyle-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/argyle-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -322,6 +326,14 @@ common:
   title: ''
   type: FinOps
   url: finops/argyle-finops.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/argyle-systems
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.argyle.com/api-guide/overview
 created: '2026-06-13'
 description: Argyle is an employment data connectivity platform offering a REST API for accessing payroll records, employment history, income verification, and gig platform earnings via user-consented direct-source connections. The API provides real-time access to standardized payroll data across traditional employers, gig platforms, and government payroll systems, with webhook alerts for employment and income changes.
 examples:
@@ -918,7 +930,7 @@ overview: 'Argyle publishes 26 APIs on the [APIs.io](https://apis.io/) network, 
   The Argyle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Argyle''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 11 more developer resources.'
+  Argyle''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Argyle Plans Pricing
   plan_count: 2
@@ -943,7 +955,7 @@ score:
   band: developing
   composite: 48.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -965,8 +977,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle/refs/heads/main/screenshots/argyle-2026-06-20T172423.png
 security:

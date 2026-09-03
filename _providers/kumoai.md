@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://kumo.ai'', ''status'': 301, ''note'': ''declared website redirects to https://docs.nvidia.com/sdgm/rfm/overview — a different registrable domain (kumo.ai -> nvidia.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Automate and schedule predictive query training and batch predictions. Retrain a predictive query (re-ingesting data from the source), trigger recurring batch predictions, monitor job status and evalu
@@ -211,8 +212,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumoai/refs/heads/main/screenshots/kumoai-2026-07-25T224329.png
 security:

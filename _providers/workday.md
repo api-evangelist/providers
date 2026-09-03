@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -347,7 +347,7 @@ arazzos:
 - description: Discover a WQL data source and its fields, then execute a WQL query against it.
   name: Workday WQL Discover and Query
   slug: workday-wql-discover-and-query-workflow
-artifact_total: 740
+artifact_total: 739
 collections:
 - collection_type: postman
   name: Workday Absence Management API
@@ -603,7 +603,7 @@ common:
   url: components/workday-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/workday-mcp.yml
 - group: agent
   title: ''
@@ -2623,10 +2623,6 @@ jsonld:
   property_count: 0
   slug: wql-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Workday MCP Server
-  slug: workday-mcp-server
 modified: '2026-06-20'
 name: Workday
 nav: Providers
@@ -2702,8 +2698,8 @@ score:
       marker_coverage: 0.0
       total: 46
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.silnahealth.com/api
@@ -246,7 +246,7 @@ apis:
   description: The V2BenefitsCheckResource API from Silna — 1 operation(s) for v2benefitscheckresource.
   name: Silna V2BenefitsCheckResource API
   slug: silna-v2benefitscheckresource-api
-artifact_total: 90
+artifact_total: 89
 collections:
 - collection_type: open
   name: API Collection
@@ -428,7 +428,7 @@ common:
   url: data-model/silna-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/silna-mcp.yml
 - group: agent
   title: ''
@@ -510,10 +510,6 @@ created: '2026-07-17'
 description: Silna Health is a healthcare automation platform that handles prior authorizations, benefit checks, eligibility verification, and insurance monitoring upfront so providers can confirm patients are clear to receive care. Its Public API (OpenAPI 3.0.2, Bearer-authenticated) exposes patients, patient plans, payors, providers, service locations, benefits checks, eligibility, prior authorizations, document validation, payor detection, escalations, and bulk export across 63 operations, with cursor pagination, idempotency keys, source ids, and per-minute rate limiting. Silna is SOC 2 Type II certified (via Vanta) and HIPAA compliant, and was surfaced as a portfolio company of Accel and Bain Capital Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silna.png
 layout: provider
-mcp_servers:
-- description: Candidate Model Context Protocol (MCP) tool surface derived from the Silna Public API OpenAPI operations. Silna does not publish an official hosted/remote MCP server; this is a proposed mapping of RES
-  name: Silna MCP Server
-  slug: silna-mcp-server
 modified: '2026-07-21'
 name: Silna
 nav: Providers
@@ -565,8 +561,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 53.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/screenshots/silna-2026-08-17T081856.png
 security:

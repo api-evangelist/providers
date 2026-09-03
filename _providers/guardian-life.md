@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 15
 apis:
 - description: 'Secure, real-time EOI decisioning on a benefit technology partner''s platform when required by an elected Guardian benefit. Employees required to submit EOI are presented the required health questions '
@@ -183,8 +183,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/screenshots/guardian-life-2026-06-20T182426.png
 security:

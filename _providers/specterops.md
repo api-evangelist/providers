@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://bloodhoundenterprise.io/api/v2
@@ -251,7 +251,7 @@ apis:
   description: The Tasks API from SpecterOps — 9 operation(s) for tasks.
   name: SpecterOps Tasks API
   slug: specterops-tasks-api
-artifact_total: 94
+artifact_total: 93
 collections:
 - collection_type: open
   name: API Collection
@@ -450,7 +450,7 @@ common:
   url: packages/specterops-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/specterops-mcp.yml
 - group: agent
   title: ''
@@ -520,10 +520,6 @@ created: '2026-07-17'
 description: SpecterOps is a cybersecurity company specializing in identity attack path management and offensive security. Its flagship BloodHound platform continuously maps identity relationships and permissions across Active Directory, Entra ID, and cloud/SaaS environments to reveal and eliminate hidden attack paths before they are exploited. Offerings include BloodHound Enterprise (SaaS), BloodHound Community Edition (open source), OpenGraph for custom data sources, Privilege Zones, and the SharpHound/AzureHound collectors, alongside adversary-focused services (red team, penetration testing, attack path assessments) and training. The BloodHound API is a documented REST API (OpenAPI 3.0.3, v2) covering 270+ operations for data ingest, Cypher graph queries, analysis, attack-path findings, and administration.
 image: https://specterops.io/wp-content/uploads/sites/3/2022/04/SO-Icon-Color.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SpecterOps MCP Server
-  slug: specterops-mcp-server
 modified: '2026-07-21'
 name: SpecterOps
 nav: Providers
@@ -561,8 +557,8 @@ score:
       total: 43
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/screenshots/specterops-2026-08-17T082020.png
 security:

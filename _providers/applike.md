@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -315,8 +315,8 @@ score:
       marker_coverage: 0.0
       total: 7
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:

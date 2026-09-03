@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 8
 common:
@@ -102,8 +102,8 @@ score:
     governance: 15.2
     operational_transparency: 2.6
   previous_composite: 6.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sephora/refs/heads/main/screenshots/sephora-2026-06-20T193713.png
 security:

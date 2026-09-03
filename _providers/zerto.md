@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API exposed by the Zerto Virtual Manager / Zerto Cloud Appliance for programmatic disaster-recovery management — VPGs, failover, checkpoints, VRAs, peer sites, alerts, events, tasks, and long-ter
   name: Zerto ZVM REST API
   slug: zerto-zvm-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -83,7 +83,7 @@ common:
   url: data-model/zerto-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zerto-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Zerto, a Hewlett Packard Enterprise company, provides continuous data protection (CDP), disaster recovery, ransomware resilience, and multi-cloud data mobility for on-premises and cloud workloads. Its ZVM (Zerto Virtual Manager), ZCA (Zerto Cloud Appliance), and ZIC (Zerto In-Cloud) appliances expose a REST API under /v1, authenticated through an embedded Keycloak OAuth2 identity provider. The API lets teams manage Virtual Protection Groups (VPGs), orchestrate non-disruptive failover tests and live failover/failback, browse recovery checkpoints, run file- and VM-level restores, manage long-term retention repositories, and consume alerts and events — everything the Zerto UI does, driven programmatically. Zerto publishes an official PowerShell SDK, plus Python, Ansible, Terraform, and Postman examples via its ZertoPublic GitHub organization.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zerto.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zerto MCP Server
-  slug: zerto-mcp-server
 modified: '2026-07-21'
 name: Zerto
 nav: Providers
@@ -173,8 +169,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/screenshots/zerto-2026-09-02T171653.png
 security:

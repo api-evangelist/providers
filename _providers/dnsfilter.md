@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -268,7 +268,7 @@ apis:
   description: The Users API from DNSFilter — 4 operation(s) for users.
   name: DNSFilter Users API
   slug: dnsfilter-users-api
-artifact_total: 94
+artifact_total: 93
 collections:
 - collection_type: open
   name: API Collection
@@ -432,7 +432,7 @@ common:
   url: packages/dnsfilter-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dnsfilter-mcp.yml
 - group: agent
   title: ''
@@ -526,10 +526,6 @@ created: '2026-07-17'
 description: DNSFilter is an AI-powered DNS security and content-filtering platform that protects organizations from cyber threats and unwanted content at the DNS layer. Its machine-learning engine blocks malicious domains — phishing, malware, ransomware, and botnet command-and-control — often before they appear in third-party threat feeds, and enforces content policies across 40+ categories with application-level (AppAware) controls, roaming clients for off-network devices, and user-behavior analytics (CyberSight). DNSFilter serves SMBs, enterprises, MSPs, schools, healthcare, and government over a dual Anycast network with DNSSEC validation. The DNSFilter management REST API (api.dnsfilter.com) programmatically manages organizations, networks/sites, filtering policies, block pages, applications, categories, API keys, and traffic/threat reporting — authenticated with an API key in the Authorization header.
 image: https://www.dnsfilter.com/hubfs/dnsfilterfeaturedimages1.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: DNSFilter MCP Server
-  slug: dnsfilter-mcp-server
 modified: '2026-07-18'
 name: DNSFilter
 nav: Providers
@@ -568,8 +564,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/screenshots/dnsfilter-2026-07-25T212151.png
 security:

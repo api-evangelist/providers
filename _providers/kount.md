@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://kount.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.equifax.com/business/identity-fraud/ — a different registrable domain (kount.com -> equifax.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The Payments Fraud API is the core REST endpoint of the Kount 360 platform for AI-driven digital fraud prevention. Merchants submit order, payment, customer, and device session data, and receive a rea
@@ -192,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kount/refs/heads/main/screenshots/kount-2026-06-20T184141.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ apis:
   description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
   name: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -215,7 +215,7 @@ common:
   url: overlays/logicgate-risk-cloud-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/logicgate-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: LogicGate is the maker of Risk Cloud, a no-code governance, risk, and compliance (GRC) platform that lets teams design, automate, and connect their risk and compliance programs. The Risk Cloud API v2 is an API-first, RESTful interface for managing the building blocks of a Risk Cloud environment - Applications, Workflows, Workflow Maps, Steps, Paths (edge/next/redirect), Fields, Records, and Access Audits - so organizations can integrate, automate, and build custom workflows against their risk data. Authentication is an HTTP bearer "API Token" minted via HTTP basic against the token endpoint, and API access requires the paid API Access add-on. The v2 OpenAPI 3.1 specification is published on GitHub as the single source of truth, alongside a Postman collection and interactive documentation.
 image: https://www.logicgate.com/wp-content/uploads/img-grid-01.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LogicGate MCP Server
-  slug: logicgate-mcp-server
 modified: '2026-07-20'
 name: LogicGate
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/screenshots/logicgate-2026-07-25T225458.png
 security:

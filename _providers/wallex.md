@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JSON REST API for authentication, users/KYC, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, and webhook notifica
   name: Wallex Partner API
   slug: wallex-partner-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Wallex Webhooks
@@ -95,7 +95,7 @@ common:
   url: rate-limits/wallex-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wallex-mcp.yml
 - group: design
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Wallex is a Singapore-headquartered cross-border payments and business banking platform for businesses across Southeast Asia and Greater China. Its Partner API is a JSON REST API that lets platforms embed multi-currency wallets, issue virtual collection accounts, run FX conversions, send cross-border payments to beneficiaries, and onboard and KYC their own members. The API is organised around a hierarchical account model (Standard and Partner accounts, Individual and Company entities, Regular and Lite KYC) and covers authentication, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, users, and webhooks. Wallex is a portfolio company of 500 Global.
 image: https://docs.wallex.asia/img/wallex-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wallex MCP Server
-  slug: wallex-mcp-server
 modified: '2026-07-21'
 name: Wallex
 nav: Providers
@@ -174,8 +170,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallex/refs/heads/main/screenshots/wallex-2026-09-02T170414.png
 security:

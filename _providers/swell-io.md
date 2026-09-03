@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -359,6 +359,10 @@ collections:
   name: Swell Backend Account Addresses Webhooks API
   slug: open-swell-io-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/swell-io-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -758,7 +762,7 @@ overview: 'Swell publishes 31 APIs on the [APIs.io](https://apis.io/) network, i
   The Swell catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Swell''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, developer console, changelog, and 55 more developer resources.'
+  Swell''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, developer console, changelog, and 56 more developer resources.'
 plans:
 - name: Swell Io Plans Pricing
   plan_count: 5
@@ -794,7 +798,7 @@ score:
   band: exemplar
   composite: 68.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -822,8 +826,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
 security:

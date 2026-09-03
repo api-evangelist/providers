@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: DKAN open-data API for Medicaid Open Data, covering a catalog of 255 datasets. Provides the DKAN search API (/api/1/search), the metastore (/api/1/metastore/schemas/dataset/items), and a CKAN-compatib
@@ -119,8 +119,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/screenshots/data-medicaid-gov-2026-06-20T175546.png
 security:

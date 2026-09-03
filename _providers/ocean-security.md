@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Operations for retrieving threat information
   name: Ocean Security Threats API
   slug: ocean-security-threats-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -87,7 +87,7 @@ common:
   url: skills/ocean-security-investigate-phishing-reports.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ocean-security-mcp.yml
 - group: other
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Ocean Security (Ocean) is an AI-native, agentic email security platform that stops targeted, AI-powered email attacks that surface-level detection tools miss. At its core is Ray, an autonomous investigation engine that reviews every inbound email in real time — checking the sender, content, links, technical infrastructure, and business context to decide whether a message can be trusted — enabling enterprises to stop phishing, business email compromise (BEC), impersonation, and financial fraud. The platform pairs deep email investigation with autonomous SOC triage and real-time employee inbox guidance. Ocean's REST API gives security teams programmatic access to detected threats, phishing reports (SONAR), allow/deny list settings, and ROI/security metrics such as hours saved and financial loss prevented. Founded in Israel and backed by Lightspeed Venture Partners, Ocean protects hundreds of thousands of mailboxes across Global Fortune 500 organizations.
 image: https://ocean.security/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ocean Security MCP Server
-  slug: ocean-security-mcp-server
 modified: '2026-07-20'
 name: Ocean Security
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/screenshots/ocean-security-2026-08-07T185923.png
 security:

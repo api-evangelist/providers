@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
   description: The LodgingShoppingService API from Engine — 2 operation(s) for lodgingshoppingservice.
   name: Engine Lodging Shopping Service API
   slug: hotel-engine-lodgingshoppingservice-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -220,10 +220,6 @@ created: '2026-08-04'
 description: 'Engine (formerly Hotel Engine, rebranded in 2024) is a Denver, Colorado business travel and spend platform for booking and managing lodging, flights, rental cars, group travel, and meeting and event spaces, with travel policy enforcement, trip approvals, consolidated DirectBill invoicing, and the Engine X charge card. Engine says it serves 25,000+ businesses and 1.2 million travelers with negotiated rates across 1,000,000+ hotel properties. Its API product is Omni — a partner-facing lodging inventory API offered over gRPC and HTTP/JSON, authenticated with mutual TLS, that covers property content, real-time rate shopping, booking, folio generation, and cancellation. Omni is protobuf-first: the proto contracts are published under Apache 2.0 on GitHub and the Swagger document, descriptor set, and JVM client bindings are generated from them and released per version.'
 image: https://engine.com/_astro/engine-og-default.BAjJjAAC.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Engine MCP Server
-  slug: engine-mcp-server
 modified: '2026-08-04'
 name: Engine
 nav: Providers
@@ -272,8 +268,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/screenshots/hotel-engine-2026-08-07T170318.png
 security:

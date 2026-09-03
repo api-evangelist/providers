@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: The ICE Mortgage Technology Developer Portal is a self-service solution providing developers with resources and documentation to build and deploy mortgage lending applications. It includes a comprehen
   name: ICE Mortgage Technology Developer Portal
   slug: mortgage-technology-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -181,10 +181,6 @@ finops:
   slug: intercontinental-exchange-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intercontinental-exchange.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Intercontinental Exchange MCP Server
-  slug: intercontinental-exchange-mcp-server
 modified: '2026-07-22'
 name: Intercontinental Exchange
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

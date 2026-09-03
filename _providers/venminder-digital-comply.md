@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
@@ -114,7 +114,7 @@ apis:
   description: The Venmonitor API from Venminder (Digital Comply) — 1 operation(s) for venmonitor.
   name: Venminder (Digital Comply) Venmonitor API
   slug: venminder-digital-comply-venmonitor-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +239,7 @@ common:
   url: well-known/venminder-digital-comply-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/venminder-digital-comply-mcp.yml
 - group: agent
   title: ''
@@ -285,10 +285,6 @@ created: '2026-07-17'
 description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitoring. Founded in Elizabethtown, Kentucky as Digital Comply and backed by Bain Capital Ventures, the company merged with Ncontracts in 2024. The Venminder API (OAuth 2.0 client-credentials, scope venminderApi, tokens from login.venminder.com) exposes a customer's vendors, products, contracts, documents, questionnaires, onboarding requests, oversight and spend data at rsd.venminder.com, alongside a SCIM 2.0 user-provisioning surface at /scim/v2.
 image: https://avatars.githubusercontent.com/u/116671086
 layout: provider
-mcp_servers:
-- description: ''
-  name: Venminder (Digital Comply) MCP Server
-  slug: venminder-digital-comply-mcp-server
 modified: '2026-07-21'
 name: Venminder (Digital Comply)
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/screenshots/venminder-digital-comply-2026-08-17T082723.png
 security:

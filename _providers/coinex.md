@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The primary HTTP REST API for CoinEx, providing access to spot trading, futures, perpetual contracts, account management, asset operations, market data, and referral endpoints. Authentication uses HMA
@@ -169,8 +169,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinex/refs/heads/main/screenshots/coinex-2026-06-20T174731.png
 security:

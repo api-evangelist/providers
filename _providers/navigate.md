@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.navigateai.co
@@ -116,7 +116,7 @@ apis:
   description: The Work orders API from Navigate — 9 operation(s) for work orders.
   name: Navigate Work orders API
   slug: navigate-work-orders-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: skills/navigate-capture-to-findings.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/navigate-mcp.yml
 - group: other
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: Navigate (NavigateAI) is a proptech company building an AI copilot for the physical world, helping field teams across construction, commercial real estate, homebuilding, data centers, and the trades complete projects faster, at higher quality, and lower cost. Its platform combines AI Capture for mobile visual documentation of project features and quality, AI Insights for on-demand expert coaching and upskilling, and AI Workflows for automating documentation and communication. Co-founded by Eric Wu and David Sinsky, Navigate is backed by Khosla Ventures, Affinity Partners, and Fifth Wall, with strategic investors including Tishman Speyer, Lennar, and Helix Electric. Navigate publishes a real external REST API (OpenAPI 3.1, bearer API-key auth) at https://api.navigateai.co for programmatically managing locations, visits, video captures, scopes, line items, work orders, and vendors.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navigate.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Navigate MCP Server
-  slug: navigate-mcp-server
 modified: '2026-07-20'
 name: Navigate
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
 security:

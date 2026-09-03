@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL API exposing occupancy and space-utilization insights across sites, buildings, floors, zones, and groups. Available to customers with an active contract; authenticated with OAuth 2.0 client cr
   name: InnerSpace API v2
   slug: innerspace-api-v2
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -139,16 +139,12 @@ common:
   url: security/innerspace-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/innerspace-mcp.yml
 created: '2026-07-17'
 description: InnerSpace (InnerSpace Technologies Inc.) is a workplace analytics company that measures how physical space is used by leveraging a building's existing Wi-Fi infrastructure rather than dedicated occupancy sensors. Its patented Predictive Hyperbolic Location Fingerprinting (PHLF) technology locates and counts people to within roughly four feet to reveal occupancy, movement, and space-utilization patterns across sites, buildings, floors, and zones. The InnerSpace platform serves hybrid-workplace management, real-estate portfolio optimization, higher-education, and employee-experience use cases for enterprises including Microsoft, KPMG, Indeed, and LinkedIn. A GraphQL API (v2) at api.innerspace.io exposes building, zone, site, floor, group, and insights data to customers with active contracts, authenticated via an OAuth 2.0 client-credentials exchange that returns a session token.
 image: https://innerspace.io/hubfs/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: InnerSpace MCP Server
-  slug: innerspace-mcp-server
 modified: '2026-07-19'
 name: InnerSpace
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/screenshots/innerspace-2026-07-25T222456.png
 security:

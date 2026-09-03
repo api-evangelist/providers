@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Webhook management for GoTo Webinar — 11 operations to create the delivery secret key, register and activate webhook callbacks, and create, read, update and delete the per-user subscriptions that make
   name: GoTo Webinar Webhooks API
   slug: goto-webinar-webhooks-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Goto Webinar Webhooks
@@ -145,7 +145,7 @@ common:
   url: well-known/goto-webinar-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/goto-webinar-mcp.yml
 - group: agent
   title: ''
@@ -275,10 +275,6 @@ created: '2026-05-11'
 description: GoTo Webinar is a webinar and virtual event platform from GoTo (formerly LogMeIn) used by marketing, training, and corporate communications teams to host live and on-demand webinars with registration, polling, Q&A, recordings, and analytics. The product integrates with marketing automation and CRM systems to drive lead capture and attendee follow-up. The GoTo Webinar v2 REST API exposes organizer, webinar, session, registrant, attendee, and analytics endpoints under api.getgo.com and uses OAuth2 for authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goto-webinar.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GoTo Webinar MCP Server
-  slug: goto-webinar-mcp-server
 modified: '2026-08-13'
 name: GoTo Webinar
 nav: Providers
@@ -333,8 +329,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-webinar/refs/heads/main/screenshots/goto-webinar-2026-06-20T182256.png
 security:

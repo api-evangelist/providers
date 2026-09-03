@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
   description: Dated, source-attributed US tax and retirement figures.
   name: Planomy Tax Data Tax Data API
   slug: planomy-tax-data-tax-data-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -133,7 +133,7 @@ common:
   url: components/planomy-tax-data-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/planomy-tax-data-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ json_schemas:
   property_count: 16
   slug: planomy-tax-data-tax-year-dataset
 layout: provider
-mcp_servers:
-- description: Planomy ships no MCP server. Probed for one on 2026-08-09 — https://planomy.net/mcp and /.well-known/mcp.json both 404, no server is referenced from https://planomy.net/data/, from llms.txt, or from a
-  name: Planomy Tax Data MCP Server
-  slug: planomy-tax-data-mcp-server
 modified: '2026-08-09'
 name: Planomy Tax Data
 nav: Providers
@@ -209,8 +205,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/screenshots/planomy-tax-data-2026-09-02T151417.png
 security:

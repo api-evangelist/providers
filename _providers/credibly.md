@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and '
@@ -139,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/screenshots/credibly-2026-06-20T175222.png
 security:

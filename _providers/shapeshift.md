@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The v1 API from Shapeshift — 14 operation(s) for v1.
   name: Shapeshift v1 API
   slug: shapeshift-v1-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Shapeshift Unchained Webhooks
@@ -143,7 +143,7 @@ common:
   url: packages/shapeshift-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shapeshift-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: ShapeShift is a community-owned, non-custodial multichain cryptocurrency platform where users buy, hold, trade, and earn with digital assets across 48+ blockchains and 10,000+ tokens while retaining full custody of their keys. Its open-source "unchained" backend exposes a public, key-free REST and WebSocket API that provides a common interface to many blockchains — account balances, transaction history, UTXOs, raw transaction broadcast, gas/fee estimation, and realtime pending/confirmed transaction updates — behind per-chain hosts such as api.ethereum.shapeshift.com and api.bitcoin.shapeshift.com. ShapeShift was founded in 2014, is backed by Earlybird Venture Capital, and today operates as a DAO with all code public under github.com/shapeshift.
 image: https://shapeshift.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Shapeshift MCP Server
-  slug: shapeshift-mcp-server
 modified: '2026-07-21'
 name: Shapeshift
 nav: Providers
@@ -243,8 +239,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/screenshots/shapeshift-2026-08-17T081822.png
 security:

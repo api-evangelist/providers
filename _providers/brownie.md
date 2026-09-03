@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic access to trigger AI-driven incident investigations, poll investigation status and results, and read/update hierarchical team configuration. Authenticated with team or admin bearer tokens
   name: IncidentFox REST API
   slug: incidentfox-rest-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Brownie Webhooks
@@ -111,7 +111,7 @@ common:
   url: lifecycle/brownie-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brownie-mcp.yml
 - group: design
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and deployment history across 300+ integrations (Kubernetes, AWS, Datadog, Grafana, Prometheus, Sentry, Coralogix, and more), correlates signals, finds root causes, and proposes remediation - operating primarily from Slack, Microsoft Teams, or Google Chat with human approval gates on all write actions. IncidentFox exposes a REST API (base https://api.incidentfox.ai/api/v1) for triggering investigations, polling status, and managing hierarchical team configuration, authenticated with team/admin bearer tokens or OIDC/SSO. It ships as Apache-2.0 open source (with a Business Source License security layer) or as managed SaaS with self-hosted and on-premises options.
 image: https://incidentfox.ai/public/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: IncidentFox (Brownie) MCP Server
-  slug: incidentfox-brownie-mcp-server
 modified: '2026-07-18'
 name: IncidentFox (Brownie)
 nav: Providers
@@ -200,8 +196,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png
 security:

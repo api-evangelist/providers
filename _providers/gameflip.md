@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://production-gameflip.fingershock.com/api/v1
@@ -66,7 +66,7 @@ apis:
   description: Escrow Steam items.
   name: Gameflip Steam Escrow API
   slug: gameflip-steam-escrow-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -96,7 +96,7 @@ common:
   url: skills/gameflip-create-and-sell.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gameflip-mcp.yml
 - group: other
   title: ''
@@ -170,10 +170,6 @@ created: '2026-07-17'
 description: 'Gameflip is a digital marketplace where gamers buy and sell games, in-game items, gift cards, game accounts, boosting/coaching gigs, and other digital goods, backed by an escrow-style buyer guarantee and a built-in wallet. For developers and power sellers, Gameflip publishes the GFAPI — a JSON REST API (base path /api/v1) for creating and managing listings, searching the marketplace, running exchanges (sell/buy records), reading account profiles and wallet history, and handling Steam item escrow and bulk trade-offer listings. Requests are authenticated with an API key plus a rotating TOTP one-time password sent in the Authorization header (`GFAPI <apikey>:<totp>`). Access is Beta and gated: API keys and TOTP secrets are issued to selected developers through Gameflip support / account settings. An official Node.js client library (gfapi) with sample code is published by Gameflip.'
 image: https://gameflip.com/img/app/gf_logo_280x150.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gameflip MCP Server
-  slug: gameflip-mcp-server
 modified: '2026-07-19'
 name: Gameflip
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:

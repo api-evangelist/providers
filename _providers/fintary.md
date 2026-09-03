@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
   description: The Documents API from Fintary — 2 operation(s) for documents.
   name: Fintary Documents API
   slug: fintary-documents-api
-artifact_total: 16
+artifact_total: 15
 common:
 - group: other
   title: ''
@@ -182,7 +182,7 @@ common:
   url: packages/fintary-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fintary-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ description: Fintary is an AI-powered commission management and revenue operatio
   is maintained in the API Evangelist network.
 image: https://cdn.prod.website-files.com/6891283959a9d392e4db12c1/68d598f0c0abbe7967241ea6_fintary-webclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fintary MCP Server
-  slug: fintary-mcp-server
 modified: '2026-08-14'
 name: Fintary
 nav: Providers
@@ -265,8 +261,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 53.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/screenshots/fintary-2026-07-25T214544.png
 security:

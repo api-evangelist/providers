@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public REST API for Starburst Galaxy, secured with the OAuth2 client-credentials flow. Manages clusters, catalogs, users, roles, privileges, access-control policies, tags, row filters, column masks, d
   name: Starburst Galaxy REST API
   slug: starburst-galaxy-rest-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -131,7 +131,7 @@ common:
   url: conformance/starburst-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/starburst-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Starburst is an enterprise data analytics and intelligence platform built on Trino, the open-source distributed SQL query engine. It lets organizations access and query data across disparate systems through a unified context layer — federated analytics with no pipelines or data movement required. Its products include Starburst Galaxy (a fully managed cloud service on AWS, GCP, and Azure), Starburst Enterprise (self-managed for hybrid and on-premises), Icehouse (Apache Iceberg plus Trino for the lakehouse), and AIDA, a conversational AI data assistant. Starburst Galaxy exposes a public REST API secured with OAuth2 client credentials for managing clusters, catalogs, users, roles, privileges, access policies, data products, and SQL jobs.
 image: https://www.starburst.io/wp-content/uploads/2021/01/starburst-og.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Starburst MCP Server
-  slug: starburst-mcp-server
 modified: '2026-07-21'
 name: Starburst
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starburst/refs/heads/main/screenshots/starburst-2026-09-02T160757.png
 security:

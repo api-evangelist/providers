@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API providing property-level data including AVM valuations, rental value, land value, LTV, sales history, tax history, flood data, school info, and geographic features for US residential properti
@@ -144,8 +144,8 @@ score:
     governance: 0.0
     operational_transparency: 50.0
   previous_composite: 35.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecanary/refs/heads/main/screenshots/housecanary-2026-06-20T182847.png
 security:

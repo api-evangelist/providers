@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-09-02'
+  score: 9.2
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Nativo API V3 is the platform REST API for the Nativo advertising platform. It exposes CRUD trafficking resources (advertisers, campaigns, budgets, ads, creatives, placements, targeting parameters
@@ -218,8 +218,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/screenshots/nativo-2026-09-02T150725.png
 security:

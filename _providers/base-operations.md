@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.baseoperationsenterprise.com/
@@ -96,7 +96,7 @@ apis:
   description: The Threats API from Base Operations — 6 operation(s) for threats.
   name: Base Operations Threats API
   slug: base-operations-threats-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -224,7 +224,7 @@ common:
   url: overlays/base-operations-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/base-operations-mcp.yml
 - group: agent
   title: ''
@@ -242,10 +242,6 @@ created: '2026-07-17'
 description: Base Operations provides street-level threat intelligence for corporate, government, and law-enforcement security teams. Its platform validates crime, violence, unrest, and sUAS-incursion data from 25,000+ OSINT sources across 5,000+ global cities (99% of the US) and distills it into BaseScore, a transparent 0-100 risk metric comparable at country, city, district, and sub-mile (0.1 mile) granularity. The Customer API exposes BaseScore ratings, threat summaries, time-series trends, forecasting, change analysis, and saved locations over a REST interface authenticated with an X-API-KEY header, returning JSON so teams can integrate standardized risk scores directly into their own risk models, travel-security, event-security, and site-selection workflows.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/base-operations.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Base Operations MCP Server
-  slug: base-operations-mcp-server
 modified: '2026-07-18'
 name: Base Operations
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/screenshots/base-operations-2026-07-25T202413.png
 security:

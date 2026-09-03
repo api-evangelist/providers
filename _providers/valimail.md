@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -131,7 +131,7 @@ apis:
   description: The Teams API from Valimail — 2 operation(s) for teams.
   name: Valimail Teams API
   slug: valimail-teams-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Valimail Webhooks
@@ -312,7 +312,7 @@ common:
   url: packages/valimail-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/valimail-mcp.yml
 - group: agent
   title: ''
@@ -350,10 +350,6 @@ created: '2026-07-17'
 description: Valimail is an email authentication platform that automates DMARC enforcement to stop phishing, spoofing, and brand impersonation. Its Monitor, Enforce, Amplify, and Align products give organizations visibility into every service sending on their domains and manage SPF, DKIM, DMARC, BIMI, MTA-STS, and TLS-RPT at scale. Valimail publishes REST APIs — a DMARC Configuration API, a partner Account Management API, and a Reporting Data API — secured with bearer tokens, plus SCIM 2.0 user provisioning and Ed25519-signed webhooks. The platform is FedRAMP LI-SaaS authorized and SOC 2 Type II certified.
 image: https://api.valimail.com/images/sites/valimail/favicon_64.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Valimail MCP Server
-  slug: valimail-mcp-server
 modified: '2026-08-14'
 name: Valimail
 nav: Providers
@@ -382,7 +378,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -392,7 +388,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 61.9
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,8 +399,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/screenshots/valimail-2026-08-17T082710.png
 security:

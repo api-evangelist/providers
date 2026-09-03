@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Open access
-  onboarding: open
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Simetrik''s hosted remote Model Context Protocol server. An MCP client adds one URL and signs in with a Simetrik account over OAuth 2.1 (authorization code + PKCE, dynamic client registration) - there '
@@ -228,8 +229,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/screenshots/simetrik-2026-09-02T155523.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://rpc.cosmos.network
@@ -61,7 +61,7 @@ apis:
   description: Subscribe/unsubscribe are reserved for websocket events.
   name: Tendermint Websocket API
   slug: tendermint-websocket-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Tendermint Events Webhooks
@@ -136,7 +136,7 @@ common:
   url: cli/tendermint-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tendermint-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ created: '2026-07-17'
 description: Tendermint is a core contributor to the Cosmos Network and the original developer of Tendermint Core, a best-in-class Byzantine Fault Tolerant (BFT) consensus engine for state-machine replication, alongside the Cosmos SDK blockchain application framework and the IBC inter-blockchain communication protocol. Its primary developer-facing API is the Tendermint RPC — a JSONRPC 2.0 interface (also exposed as a REST-URI form and over websockets) for querying chain state, blocks, transactions and validators, and broadcasting transactions to a node. Tendermint Core has since been renamed to CometBFT, which is the actively maintained successor.
 image: https://raw.githubusercontent.com/api-evangelist/tendermint/main/apis.yml
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tendermint MCP Server
-  slug: tendermint-mcp-server
 modified: '2026-07-21'
 name: Tendermint
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/screenshots/tendermint-2026-08-17T082310.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -93,7 +93,7 @@ apis:
   description: The Source Service operates on Collection Live Sources and Project Sources.
   name: Lightstream SourceService API
   slug: lightstream-sourceservice-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: Event-driven view of the API.stream Event API. The Event API provides a bidirectional publish/subscribe channel between a partner's backend services, the compositor and connected clients, and also car
   name: API.stream Event API
@@ -239,7 +239,7 @@ common:
   url: security/lightstream-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lightstream-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: 'Lightstream (Infiniscene, Inc.) is a Techstars-backed live video company best known for Lightstream Studio, a browser-based streaming studio used by creators to broadcast to Twitch, YouTube and other destinations without installing desktop encoding software. Lightstream also operates API.stream, its developer platform, which exposes the same cloud video pipeline to development partners as three API-first services: a Live API for managing collections, projects, sources, destinations and broadcasts; a Layout API for building and animating layered scene compositions; and an Event API for publishing and subscribing to real-time events across collaborators, guests and renderers. All three services are defined as gRPC Protobuf contracts and fronted by gRPC-Web and REST gateways, secured with a JWT access-token model and role-based permissions (HOST, COHOST, CONTRIBUTOR, GUEST, VIEWER), with first-party JavaScript/TypeScript SDKs and a Studio Kit for embedding a full studio experience.'
 image: https://raw.githubusercontent.com/golightstream/api.stream-sdk/main/build/logo-dark.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lightstream MCP Server
-  slug: lightstream-mcp-server
 modified: '2026-07-19'
 name: Lightstream
 nav: Providers
@@ -318,8 +314,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/screenshots/lightstream-2026-07-25T225138.png
 security:

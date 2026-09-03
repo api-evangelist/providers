@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Webhook Alerts API from GenLogs — 3 operation(s) for webhook alerts.
   name: GenLogs Webhook Alerts API
   slug: genlogs-webhook-alerts-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: GenLogs delivers alert.matches_found webhook notifications when detection alerts (license plate, VIN, USDOT, etc.) match roadside sensor observations. Payloads are signed with an HMAC-SHA512 signature
   name: GenLogs Alert Webhooks
@@ -142,7 +142,7 @@ common:
   url: capabilities/genlogs-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/genlogs-mcp.yml
 - group: other
   title: ''
@@ -224,10 +224,6 @@ json_schemas:
   property_count: 7
   slug: genlogs-alert-matches-found.schema
 layout: provider
-mcp_servers:
-- description: ''
-  name: GenLogs MCP Server
-  slug: genlogs-mcp-server
 modified: '2026-07-19'
 name: GenLogs
 nav: Providers
@@ -275,8 +271,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/screenshots/genlogs-2026-07-25T215622.png
 security:

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: First-party hosted remote MCP server, launched with API 1.7.0 on 2026-06-05, exposing 16 read tools over wallets, balances, financial movements, payments, live FX rates, spot trades, fixed forwards an
@@ -320,8 +320,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/screenshots/ibanfirst-2026-09-02T145820.png
 security:

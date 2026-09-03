@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -53,7 +53,7 @@ apis:
   description: The US API from Otonomo — 2 operation(s) for us.
   name: Otonomo US API
   slug: otonomo-us-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Otonomo Events Webhooks
@@ -79,7 +79,7 @@ common:
   url: skills/otonomo-check-vehicle-connectivity.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/otonomo-mcp.yml
 - group: other
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: Otonomo operates a connected-vehicle data platform that aggregates, normalizes and delivers telematics and mobility data from millions of connected cars to fleets, insurers, cities and mobility developers. Its Fleet ("Personal Data for Fleets") API exposes OAuth2-secured endpoints for vehicle onboarding (VIN upload / enablement / consent), near-real-time vehicle status, historical fleet points and trips reporting, connectivity checks, an attribute explorer, custom event rules with callbacks, and a streaming interface — across separate US and EU data regions. Otonomo was acquired by Urgently (Urgent.ly) in 2023; the connected-car Fleet data API remains operational and documented on ReadMe at docs.otonomo.io. Originally surfaced as a Bessemer Venture Partners portfolio company and enriched from its live developer surface.
 image: https://otonomo.io/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Otonomo MCP Server
-  slug: otonomo-mcp-server
 modified: '2026-07-20'
 name: Otonomo
 nav: Providers
@@ -183,8 +179,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

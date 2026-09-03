@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -271,6 +271,10 @@ collections:
   name: Middesk subpackage_actions subpackage_websites API
   slug: open-middesk-subpackage-websites-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/middesk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -427,7 +431,7 @@ overview: 'Middesk publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The Middesk catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Middesk''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Middesk''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Middesk Plans Pricing
   plan_count: 3
@@ -448,7 +452,7 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -470,8 +474,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/screenshots/middesk-2026-06-20T185620.png
 security:

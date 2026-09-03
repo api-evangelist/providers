@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://meliopayments.com/'', ''status'': 301, ''note'': ''declared website redirects to https://melio.com/ — a different registrable domain (meliopayments.com -> melio.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -167,8 +168,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/screenshots/melio-2026-06-20T185133.png
 security:

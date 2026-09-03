@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: DRiV, a Tenneco company, provides digital parts catalog and vehicle fitment lookup capabilities for its portfolio of more than 30 aftermarket brands including Monroe, Champion, Walker, and Fel-Pro.
@@ -133,8 +133,8 @@ score:
     governance: 15.2
     operational_transparency: 7.9
   previous_composite: 15.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenneco/refs/heads/main/screenshots/tenneco-2026-06-20T195115.png
 security:

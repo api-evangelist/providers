@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://integration.voa.health/v1
@@ -46,7 +46,7 @@ apis:
   description: Submit, query, replace, and delete clinical records on the RNDS national bus.
   name: VOA Health RNDS API
   slug: voa-health-rnds-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +140,7 @@ common:
   url: data-model/voa-health-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/voa-health-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: Voa is a Brazilian healthcare-technology company providing an AI clinical documentation and patient-monitoring assistant that embeds directly into electronic patient record (EHR/PEP) systems, used by 60,000+ physicians across 1M+ consultations. Voa exposes integration surfaces — an embeddable plugin, an iFrame widget, and a browser extension — plus a REST integration API and an RNDS API that submits finalized clinical records to Brazil's Rede Nacional de Dados em Saúde (national health data network) in FHIR R4 using ICP-Brasil certificate authentication. Backed by Prosus Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voa-health.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface mapped 1:1 from the documented Voa RNDS API operations. Each tool would require a Bearer JWT (see authentication/voa-health-authentication.yml). Not an official/hosted serve
-  name: VOA Health MCP Server
-  slug: voa-health-mcp-server
 modified: '2026-07-21'
 name: VOA Health
 nav: Providers
@@ -209,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/screenshots/voa-health-2026-09-02T170203.png
 security:

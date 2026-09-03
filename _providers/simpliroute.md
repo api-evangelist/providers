@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for delivery visits, route plans, route optimization, vehicles, drivers, clients, invoices and lifecycle webhooks. Token-header authenticated, JSON over HTTPS, versioned at /v1.
   name: SimpliRoute API
   slug: simpliroute-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Simpliroute Webhooks
@@ -131,7 +131,7 @@ common:
   url: packages/simpliroute-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/simpliroute-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: SimpliRoute is an AI-powered last-mile route optimization and delivery management platform, founded in Chile and operating across Latin America and beyond. Its REST API (base URL https://api.simpliroute.com/v1, authenticated with an Authorization Token header) lets developers create delivery and pickup visits, build daily plans, run the route-optimization engine over vehicles and deliveries, manage vehicles, drivers, couriers, clients, skills, zones and fleets, handle invoices, and subscribe to lifecycle webhooks (route started, on its way, checkout, route finished). First-party Node/TypeScript and Python SDKs are published under the github.com/simpliroute organization.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpliroute.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Simpliroute MCP Server
-  slug: simpliroute-mcp-server
 modified: '2026-07-21'
 name: Simpliroute
 nav: Providers
@@ -188,8 +184,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpliroute/refs/heads/main/screenshots/simpliroute-2026-09-02T155548.png
 security:

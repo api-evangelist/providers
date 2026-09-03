@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - '{''url'': ''https://www.dbschenker.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.dsv.com/en — a different registrable domain (dbschenker.com -> dsv.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://parcelservices-se.dbschenker.com/Apipartner
@@ -162,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png
 slug: db-schenker

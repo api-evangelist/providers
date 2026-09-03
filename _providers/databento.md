@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -162,7 +162,7 @@ apis:
   description: The users API from Databento — 28 operation(s) for users.
   name: Databento Users API
   slug: databento-users-api
-artifact_total: 45
+artifact_total: 44
 collections:
 - collection_type: postman
   name: Databento Historical and Reference Batch API
@@ -226,7 +226,7 @@ common:
   url: packages/databento-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/databento-mcp.yml
 - group: agent
   title: ''
@@ -368,10 +368,6 @@ finops:
   slug: databento-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/databento.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Databento MCP Server
-  slug: databento-mcp-server
 modified: '2026-07-22'
 name: Databento
 nav: Providers
@@ -429,8 +425,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

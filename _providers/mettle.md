@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Mettle SME API
   slug: mettle-sme-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: Open Data API
@@ -146,7 +146,7 @@ common:
   url: well-known/mettle-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mettle-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ description: Mettle is a digital-only business bank account brand for UK sole tr
   using OBIE/eIDAS certificates, onboarded via the Bank of APIs portal. Mettle is delivered under NatWest Group's FCA-authorised banking group and is a challenger/digital proposition rather than one of the CMA9 mandated brands.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mettle MCP Server
-  slug: mettle-mcp-server
 modified: '2026-07-23'
 name: Mettle
 nav: Providers
@@ -264,8 +260,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:

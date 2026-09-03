@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The NAESB REQ.21 ESPI Model Business Practices define the data exchange protocol for transferring retail energy usage information from a utility (Data Custodian) to a Third Party with the Retail Custo
@@ -45,11 +45,11 @@ apis:
 - description: 'The NAESB Electric Industry Registry is the central repository of registry information used by the North American wholesale electric industry for electronic tagging; it replaced the NERC TSIN in 2012 '
   name: NAESB Electric Industry Registry (EIR) webRegistry Web Services
   slug: naesb-eir-webregistry
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/naesb-mcp.yml
 - group: auth
   title: ''
@@ -169,10 +169,6 @@ description: 'The North American Energy Standards Board (NAESB) is the non-profi
   and no open market data of its own.'
 image: https://www.naesb.org/images/naesb-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: NAESB MCP Server
-  slug: naesb-mcp-server
 modified: '2026-07-27'
 name: NAESB
 nav: Providers
@@ -211,8 +207,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naesb/refs/heads/main/screenshots/naesb-2026-08-07T184604.png
 security:

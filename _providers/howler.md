@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -128,7 +128,7 @@ apis:
   description: The User API from Howler — 4 operation(s) for user.
   name: Howler User API
   slug: howler-user-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -266,7 +266,7 @@ common:
   url: openapi/howler-webhooks-openapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/howler-mcp.yml
 - group: agent
   title: ''
@@ -296,10 +296,6 @@ created: '2026-07-17'
 description: Howler is a South African event technology platform that consolidates ticketing, RFID cashless payments, and vendor and access-control management into a single system for event organisers and attendees. Founded out of the Barclays Accelerator powered by Techstars (2017) and Techstars-backed, Howler has processed over R1.5 billion in transactions across thousands of events. Its public Howler API v3 consumer portal exposes 67 operations for authentication (OAuth2, JWT, email OTP, third-party OAuth), tickets (buy, assign, transfer), cashless RFID tags, top-ups, and cashout to bank accounts, and a Howler Webhooks v1 surface pushes ticket, event, and payment events to partner endpoints.
 image: https://d1as2iufift1z3.cloudfront.net/assets/opengraph_image-5c147fd54bd5d4a768273fb2aa31296c060de259bc86df716898404aa091830c.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Howler MCP Server
-  slug: howler-mcp-server
 modified: '2026-07-19'
 name: Howler
 nav: Providers
@@ -349,8 +345,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/screenshots/howler-2026-07-25T221539.png
 security:

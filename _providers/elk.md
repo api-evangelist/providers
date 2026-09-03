@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Elk''s own server surface, served by its Nuxt runtime at https://elk.zone/api. Four endpoints: list the Mastodon-compatible instances offered in the sign-in picker, build the instance authorize URL, co'
@@ -169,8 +169,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elk/refs/heads/main/screenshots/elk-2026-06-20T180618.png
 security:

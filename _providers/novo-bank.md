@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.novo.co
@@ -92,6 +92,18 @@ common:
   title: ''
   type: FinOps
   url: finops/novo-bank-finops.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://novo.co
+- group: company
+  title: ''
+  type: Blog
+  url: https://novo.co/learn
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://plaid.com/institutions/novo/
 created: '2026-06-20'
 description: Novo is a U.S. business banking platform built for small businesses, freelancers, and self-employed professionals, offering a free business checking account, invoicing, reserves, AI-assisted bookkeeping, a business credit card, and funding. Banking services are provided by Middlesex Federal Savings, F.A. Novo does not publish a public self-service developer API; programmatic access to Novo account data is currently delivered through third-party aggregators (Plaid), and product integrations connect Novo accounts to tools like Stripe, Shopify, QuickBooks, Xero, Wise, and Square.
 finops:
@@ -107,7 +119,7 @@ network: true
 overview: 'Novo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts, Transactions, and Payments. Tagged areas include Banking, Business Banking, Fintech, Small Business, and Freelancers.
 
 
-  Novo''s developer surface includes documentation and 7 more developer resources.'
+  Novo''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Novo Bank Plans Pricing
   plan_count: 4
@@ -118,20 +130,20 @@ rate_limits:
   name: Novo Bank Rate Limits
   slug: novo-bank-rate-limits
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 26.3
   coverage:
     artifact_dirs: 7
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 27.9
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
@@ -142,8 +154,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/screenshots/novo-bank-2026-06-20T190435.png
 security:

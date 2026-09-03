@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
@@ -248,8 +248,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
 security:

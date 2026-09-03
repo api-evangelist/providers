@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -94,7 +94,7 @@ apis:
   description: The Webhooks API from PayMongo — 4 operation(s) for webhooks.
   name: PayMongo Webhooks API
   slug: paymongo-webhooks-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Paymongo Webhooks
@@ -286,7 +286,7 @@ common:
   url: well-known/paymongo-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paymongo-mcp.yml
 - group: other
   title: ''
@@ -340,10 +340,6 @@ finops:
   slug: paymongo-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paymongo.png
 layout: provider
-mcp_servers:
-- description: 'PayMongo does not operate an official hosted or local MCP server at probe time (no server documented on docs.paymongo.com; nothing in the paymongo GitHub org or the MCP registries). This is a DERIVED '
-  name: PayMongo MCP Server
-  slug: paymongo-mcp-server
 modified: '2026-07-17'
 name: PayMongo
 nav: Providers
@@ -399,8 +395,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
 security:

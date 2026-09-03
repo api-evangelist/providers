@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ apis:
   description: The VersioningService API from Verta — 40 operation(s) for versioningservice.
   name: Verta VersioningService API
   slug: verta-versioningservice-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +195,7 @@ common:
   url: packages/verta-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verta-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: Verta was an MLOps model-management, experiment-tracking, and model-registry platform (verta.ai) acquired by Cloudera on 2024-06-03; verta.ai now redirects to Cloudera Machine Learning. Its open-source core, ModelDB (Apache-2.0, github.com/VertaAI/modeldb), remains actively maintained and provides ML model versioning, metadata management, and experiment tracking. The REST API is a grpc-gateway transcoding of the ModelDB and UAC gRPC services — 11 services and 264 operations served under /v1 — covering projects, experiments, experiment runs, datasets, a model registry, Git-style versioning, deployment stages, monitoring, and SCIM/UAC access control.
 image: https://github.com/VertaAI.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Verta MCP Server
-  slug: verta-mcp-server
 modified: '2026-07-21'
 name: Verta
 nav: Providers
@@ -266,8 +262,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/screenshots/verta-2026-09-02T165805.png
 security:

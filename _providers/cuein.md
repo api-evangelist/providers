@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +56,7 @@ apis:
   description: APIs for retrieving customer-support interaction insights
   name: Cuein conversations API
   slug: cuein-conversations-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -91,7 +94,7 @@ common:
   url: llms/cuein-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cuein-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +188,6 @@ created: '2026-07-17'
 description: 'Cuein is an AI-native customer-experience platform ("co-pilot for customer experience teams") that unifies structured and unstructured customer-support data and applies generative AI to surface contact reasons, root causes, resolutions, and metrics such as Inferred CSAT and Resolution Rate. Its public developer surface exposes two REST APIs: an Insights API for retrieving per-conversation and bulk conversation insights over a date range, and an Answers API that generates answers grounded in a tenant''s knowledge articles and documents. Both APIs use x-api-key authentication and are documented on a ReadMe-hosted developer hub. Cuein was acquired by ServiceNow (announced Q1 2025); the standalone developer hub remains live. Backed by Lightspeed Venture Partners.'
 image: https://files.readme.io/083b62d-Logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cuein MCP Server
-  slug: cuein-mcp-server
 modified: '2026-08-14'
 name: Cuein
 nav: Providers
@@ -235,8 +234,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:

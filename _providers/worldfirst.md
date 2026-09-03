@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The WorldFirst Enterprise Solution (World Account) API — a RESTful, JSON, signed-request interface covering customer onboarding, account and beneficiary management, statements, foreign exchange, trans
@@ -185,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/screenshots/worldfirst-2026-08-17T083002.png
 security:

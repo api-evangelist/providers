@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: Browser-side JavaScript API (also called the External API) that embeds a Jitsi Meet conference into any web page through an iframe. Exposes the JitsiMeetExternalAPI constructor with commands (executeC
@@ -284,13 +284,13 @@ overview: 'Jitsi publishes 10 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 17
 score:
   band: thin
-  composite: 38.7
+  composite: 33.5
   coverage:
     artifact_dirs: 3
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -300,13 +300,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 85.0
   previous_composite: 38.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitsi-org/refs/heads/main/screenshots/jitsi-org-2026-06-20T183736.png
 security:
 - kind: domain-security

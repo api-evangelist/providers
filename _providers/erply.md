@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 248
   human_in_the_loop: 0
@@ -363,7 +363,7 @@ apis:
   description: The workorder API from Erply — 14 operation(s) for workorder.
   name: Erply workorder API
   slug: erply-workorder-api
-artifact_total: 135
+artifact_total: 134
 asyncapis:
 - description: ''
   name: Erply Webhooks
@@ -663,7 +663,7 @@ common:
   url: llms/erply-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/erply-mcp.yml
 - group: design
   title: ''
@@ -701,10 +701,6 @@ created: '2026-07-17'
 description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more stores, warehouses and online sales channels. Erply exposes a general-purpose classic API plus a growing set of purpose-built JSON REST APIs (PIM, Account/Assignments, CAFA app configuration, Reports, CDN, WMS) documented with Swagger, and a Webhook Manager for real-time POS and sales-order events. Authentication is session-key based (verifyUser -> sessionKey with a per-account clientCode). Surfaced as a portfolio company of 500 Global and Seedcamp and enriched into the API Evangelist network with its real developer surface.
 image: https://cdn.erply.com/images/533252/erplyIcon-1.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Erply MCP Server
-  slug: erply-mcp-server
 modified: '2026-07-19'
 name: Erply
 nav: Providers
@@ -750,8 +746,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/screenshots/erply-2026-07-25T213611.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ apis:
   description: The Webhook API from Fixflo — 4 operation(s) for webhook.
   name: Fixflo Webhook API
   slug: fixflo-webhook-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Fixflo Webhooks
@@ -251,7 +251,7 @@ common:
   url: asyncapi/fixflo-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fixflo-mcp.yml
 - group: agent
   title: ''
@@ -338,10 +338,6 @@ description: Fixflo (a trading name of Tactile Limited, London, United Kingdom, 
   in, but actually calling it is licensed. Every use of the API is subject to the signed Fixflo Application Developer and API Licence Agreement, keys are issued by support after a review of the use case, and the runtime base URL is the customer's own per-tenant subdomain. Read the contract freely; sign an agreement to use it.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fixflo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fixflo MCP Server
-  slug: fixflo-mcp-server
 modified: '2026-07-26'
 name: Fixflo
 nav: Providers
@@ -392,8 +388,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/screenshots/fixflo-2026-08-07T165332.png
 security:

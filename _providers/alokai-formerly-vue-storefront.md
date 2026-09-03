@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://farmer.vuestorefront.cloud
@@ -126,7 +126,7 @@ apis:
   description: The v2.2/instance/{namespace}/pods API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pods.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pods API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -188,7 +188,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alokai-formerly-vue-storefront-mcp.yml
 - group: other
   title: ''
@@ -302,10 +302,6 @@ created: '2026-07-17'
 description: Alokai (formerly Vue Storefront) is a Frontend-as-a-Service platform for composable, headless commerce. It connects enterprise ecommerce backends (SAP Commerce Cloud, Salesforce, Adobe Commerce/Magento, commercetools, BigCommerce, Shopware and others) to fast, customizable storefronts through the Alokai SDK, a server-side Middleware layer, a Unified Data Layer, the StorefrontUI component library, and Alokai Cloud hosting managed via the Alokai Console. The Alokai Cloud API ("farmer", OpenAPI 3.0) programmatically manages cloud instances, deployments, pods, ingresses, CDN cache and environment variables, authenticated with X-Api-Key and X-User-Id headers.
 image: https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/bltd2e8b4aaef77df33/65f899d60c744de1117c17ef/OG_Product_Overview_(1).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alokai (formerly Vue Storefront) MCP Server
-  slug: alokai-formerly-vue-storefront-mcp-server
 modified: '2026-07-17'
 name: Alokai (formerly Vue Storefront)
 nav: Providers
@@ -343,8 +339,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:

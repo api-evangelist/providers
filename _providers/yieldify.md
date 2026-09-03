@@ -8,6 +8,7 @@ access_model:
   source:
   - https://www.epsilon.com/us/products-and-services/accelerate
   - plans/yieldify-plans-pricing.yml
+  - '{''url'': ''https://www.yieldify.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.epsilon.com/us/products-and-services/accelerate — a different registrable domain (yieldify.com -> epsilon.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -149,8 +150,8 @@ score:
   previous_composite: 14.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldify/refs/heads/main/screenshots/yieldify-2026-09-02T171258.png
 security:

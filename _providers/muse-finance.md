@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
   name: Muse Finance API
   slug: muse-finance-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Muse Finance Webhooks
@@ -99,7 +99,7 @@ common:
   url: data-model/muse-finance-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/muse-finance-mcp.yml
 - group: design
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Muse Finance is a UK embedded-finance platform (Muse Finance Limited, London & Hastings) providing modular working-capital infrastructure — invoice finance, trade finance and supply finance — that lenders, originators, foreign-exchange providers and payment platforms integrate as a white-label product or via a REST API. The Muse Finance API lets partners submit and convert leads, manage finance applications and agreements, raise funds requests, submit exchange rates, and handle credit-backed offers, with JWT + API-key authentication and webhook or polling event notifications. Backed by Techstars.
 image: https://getmymuse.com/favicon-96x96.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list for the Muse Finance embedded-finance API, one tool per documented operation. Not an official Muse server.
-  name: Muse Finance MCP Server
-  slug: muse-finance-mcp-server
 modified: '2026-07-20'
 name: Muse Finance
 nav: Providers
@@ -167,8 +163,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/screenshots/muse-finance-2026-08-07T184450.png
 security:

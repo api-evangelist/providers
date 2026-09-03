@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Lura Framework is an open-source Go library for building ultra-high-performance API gateways with middleware support. It provides core packages for configuration, routing, proxying, logging, plugi
@@ -111,14 +111,14 @@ rate_limits:
   name: Lura Project Rate Limits
   slug: lura-project-rate-limits
 score:
-  band: thin
-  composite: 27.6
+  band: emerging
+  composite: 19.6
   coverage:
     artifact_dirs: 5
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -128,13 +128,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 27.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lura-project/refs/heads/main/screenshots/lura-project-2026-06-20T184802.png
 security:
 - kind: domain-security

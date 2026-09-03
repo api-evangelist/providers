@@ -1,13 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Enterprise · Partner onboarding · US-only
-  onboarding: unknown
-  pricing: enterprise
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
   public: false
   source:
+  - plans
   - authentication
-  - documentation
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -93,7 +97,7 @@ apis:
   description: Identify the patient based on personal information
   name: Vim Patient Identification API
   slug: vim-patient-identification-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Vim Webhooks
@@ -117,7 +121,7 @@ common:
   url: openapi/vim-rest-api-openapi-original.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vim-mcp.yml
 - group: build
   title: ''
@@ -296,10 +300,6 @@ description: Vim is a United States healthcare technology company (getvim.com) t
   an HL7 FHIR API and publishes no FHIR CapabilityStatement. The API is available only to application servers hosted within the United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vim MCP Server
-  slug: vim-mcp-server
 modified: '2026-08-15'
 name: Vim
 nav: Providers
@@ -364,8 +364,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/screenshots/vim-2026-08-17T082750.png
 security:

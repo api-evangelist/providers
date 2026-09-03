@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -215,7 +215,7 @@ apis:
   description: The valuation-ratio-controller API from dxFeed — 6 operation(s) for valuation-ratio-controller.
   name: dxFeed Valuation Ratio Controller API
   slug: dxfeed-valuation-ratio-controller-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: '## Overview dxLink.WebSocket is a WebSocket-based protocol that allows you to receive market data from dxFeed services. ## Terminology - **Connection** - an instance of the WebSocket connection - **Cl'
   name: dxLink WebSocket
@@ -231,7 +231,7 @@ common:
   url: overlays/dxfeed-fundamentals-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dxfeed-mcp.yml
 - group: agent
   title: ''
@@ -341,10 +341,6 @@ created: '2026-07-21'
 description: dxFeed is a market data distributor and subsidiary of Devexperts, headquartered in Munich, delivering real-time, delayed, historical, and on-demand financial market data across equities, ETFs, futures, options, indices, FX, fixed income, and crypto (3.5M instruments, ~200,000 simultaneous streaming clients), plus reference data (instrument profiles, corporate actions, trading schedules), Morningstar-sourced fundamentals, options analytics, and news feeds. Delivery is developer-documented but sales-gated - production credentials (endpoint URLs, login, password) arrive via onboarding after contacting sales - across a REST web service with Server-Sent Events streaming, the dxLink WebSocket protocol (public AsyncAPI spec and live demo endpoint), a binary QD protocol over TCP, FIX, file-based historical/tick data extraction, and Java/C++/.NET/Swift/Go/JavaScript/Python client libraries.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dxfeed.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: dxFeed MCP Server
-  slug: dxfeed-mcp-server
 modified: '2026-07-22'
 name: dxFeed
 nav: Providers
@@ -392,8 +388,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
 security:

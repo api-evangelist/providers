@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.pixxel.space
@@ -131,7 +131,7 @@ apis:
   description: The Workflows API from Pixxel — 3 operation(s) for workflows.
   name: Pixxel Workflows API
   slug: pixxel-workflows-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -256,7 +256,7 @@ common:
   url: well-known/pixxel-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pixxel-mcp.yml
 - group: other
   title: ''
@@ -290,10 +290,6 @@ created: '2026-07-17'
 description: Pixxel is a hyperspectral Earth-observation company operating the Firefly constellation of hyperspectral imaging satellites and the Aurora platform, an Earth-observation studio for tasking, ordering, searching, and analyzing satellite imagery. Its public "stargate" API (api.pixxel.space) gives developers programmatic access to projects and areas of interest (AOIs), satellite tasking and ordering, a STAC-based imagery archive, cloud delivery, spectral indices and visualizations, and analytics workflows, jobs, and model insights across agriculture, mining, energy, forestry, environment, and government use cases. Authentication uses bearer Personal Access Tokens scoped by organization, project, and role.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixxel.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pixxel MCP Server
-  slug: pixxel-mcp-server
 modified: '2026-07-20'
 name: Pixxel
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixxel/refs/heads/main/screenshots/pixxel-2026-08-17T121353.png
 security:

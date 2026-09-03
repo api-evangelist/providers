@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Gutendex is a JSON web API for Project Gutenberg ebook metadata. It provides access to the catalog of 75,000+ public domain books with filtering by language, copyright status, topic, author lifespan, '
@@ -135,8 +135,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gutenberg/refs/heads/main/screenshots/gutenberg-2026-06-20T182441.png
 security:

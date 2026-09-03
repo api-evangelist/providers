@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
   description: The rendering API from HitchPin — 3 operation(s) for rendering.
   name: HitchPin rendering API
   slug: hitchpin-rendering-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: data-model/hitchpin-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hitchpin-mcp.yml
 - group: agent
   title: ''
@@ -184,10 +184,6 @@ json_schemas:
   property_count: 7
   slug: hitchpin-problem-details.schema
 layout: provider
-mcp_servers:
-- description: ''
-  name: HitchPin MCP Server
-  slug: hitchpin-mcp-server
 modified: '2026-07-19'
 name: HitchPin
 nav: Providers
@@ -232,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/screenshots/hitchpin-2026-07-25T221300.png
 security:

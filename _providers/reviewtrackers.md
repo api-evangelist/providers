@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the ReviewTrackers online reputation management platform. Provides access to review data from 100+ review sites, enables automated review responses, supports review solicitation campaigns
@@ -216,8 +216,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/screenshots/reviewtrackers-2026-06-20T193050.png
 security:

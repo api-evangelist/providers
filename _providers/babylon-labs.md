@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: Babylon Phase-2 API endpoints
   name: Babylon Labs v2 API
   slug: babylon-labs-v2-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -118,7 +118,7 @@ common:
   url: data-model/babylon-labs-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/babylon-labs-mcp.yml
 - group: other
   title: ''
@@ -172,10 +172,6 @@ created: '2026-07-17'
 description: Babylon Labs builds the Bitcoin staking protocol that lets BTC holders secure Proof-of-Stake networks without custody, bridges, or wrapping. BTC is locked in time-locked covenant scripts on Bitcoin L1 and delegated to finality providers, providing Bitcoin-grade economic security to Cosmos chains, rollups, and other Bitcoin Supercharged Networks (BSNs) while stakers retain self-custody. Its mainnet, Babylon Genesis, launched April 2025 on CometBFT with CosmWasm smart contracts and the BABY native token. Babylon exposes a public Babylon Staking API for querying delegations, finality providers, network parameters, stats, prices, and APR, plus Go and TypeScript SDKs, node/operator daemons, and CosmWasm contracts.
 image: https://avatars.githubusercontent.com/u/175623330?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Babylon Labs MCP Server
-  slug: babylon-labs-mcp-server
 modified: '2026-07-18'
 name: Babylon Labs
 nav: Providers
@@ -214,8 +210,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/screenshots/babylon-labs-2026-07-25T202203.png
 security:

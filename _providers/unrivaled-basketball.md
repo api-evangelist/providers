@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sportradar.com/unrivaled
@@ -71,7 +71,7 @@ apis:
   description: The Tournaments API from Unrivaled Basketball — 3 operation(s) for tournaments.
   name: Unrivaled Basketball Tournaments API
   slug: unrivaled-basketball-tournaments-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: overlays/unrivaled-basketball-unrivaled-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unrivaled-basketball-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: Unrivaled is a U.S. professional women's 3x3 basketball league co-founded by Napheesa Collier and Breanna Stewart, playing a condensed winter season with six clubs and a midseason 1-on-1 tournament. The league's official real-time data API — the Unrivaled API v8 — is operated by Sportradar as the league's Official Data Provider, delivering schedules, standings, rosters, live scores, play-by-play (including the Elam Ending and weighted free throws), injuries, transfers, and season statistics in JSON or XML.
 image: https://www.unrivaled.basketball/images/icon-mask.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unrivaled Basketball MCP Server
-  slug: unrivaled-basketball-mcp-server
 modified: '2026-07-21'
 name: Unrivaled Basketball
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/screenshots/unrivaled-basketball-2026-08-17T082632.png
 security:

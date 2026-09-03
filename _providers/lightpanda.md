@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:9222
@@ -157,8 +157,8 @@ score:
     governance: 13.6
     operational_transparency: 34.2
   previous_composite: 30.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png
 security:

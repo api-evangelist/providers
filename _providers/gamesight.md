@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +29,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -32,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-09-02'
+  score: 51.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -260,8 +265,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
 security:

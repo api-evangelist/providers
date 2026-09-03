@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Hosted, remote, streamable-HTTP MCP server exposing seven Brandfetch tools — brand_search, get_brand, get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64 and send_feedback — to an
@@ -321,8 +321,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:

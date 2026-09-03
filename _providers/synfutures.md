@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: Tokenized stock deposits and withdrawals
   name: SynFutures Stock API
   slug: synfutures-stock-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: lifecycle/synfutures-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/synfutures-mcp.yml
 - group: design
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: SynFutures is an on-chain derivatives and real-world-asset (RWA) trading protocol that brings crypto perpetuals, tokenized stocks, and ETFs on-chain across Base, Ethereum, and Monad. For developers it exposes a RESTful RWA Trading API (market data, portfolio, order placement, cash and stock operations, and One Click delegated trading) secured with HMAC-SHA256 signed, IP-whitelisted API keys, plus TypeScript SDKs (@synfutures/sdks-perp and oyster-sdk) and on-chain smart contracts for the Oyster (V3) protocol. Backed by Pantera Capital and Polychain.
 image: https://www.synfutures.com/assets/trade_every_asset.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SynFutures MCP Server
-  slug: synfutures-mcp-server
 modified: '2026-07-21'
 name: SynFutures
 nav: Providers
@@ -241,8 +237,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/screenshots/synfutures-2026-09-02T161503.png
 security:

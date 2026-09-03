@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
   name: Meitu AI Open Platform
   slug: meitu-ai-open-platform
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,7 +87,7 @@ common:
   url: lifecycle/meitu-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/meitu-mcp.yml
 - group: agent
   title: ''
@@ -101,10 +101,6 @@ created: '2026-07-17'
 description: Meitu (美图) is a Chinese visual-technology company best known for its photo- and video-editing apps (Meitu, BeautyCam, Meitu Xiuxiu). It operates the Meitu AI Open Platform, which exposes 100+ image and video AI capabilities as a Web API (OpenAPI) plus native/mobile SDKs — image generation and editing, portrait beautification, face and body analysis, cutout and segmentation, virtual try-on, and image/text-to-video. Access uses a per-application access key and secret key signature; an official Node.js CLI (meitu-cli) wraps the OpenAPI. Surfaced as a portfolio company of Qiming and enriched by the API Evangelist pipeline.
 image: https://ai.meitu.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: CANDIDATE MCP tool surface derived from the official meitu-cli command set and the Meitu AI Open Platform capabilities. No official hosted/remote Meitu MCP server was found at enrichment time; this is
-  name: Meitu MCP Server
-  slug: meitu-mcp-server
 modified: '2026-07-20'
 name: Meitu
 nav: Providers
@@ -135,8 +131,8 @@ score:
   previous_composite: 15.8
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/screenshots/meitu-2026-08-07T172444.png
 security:

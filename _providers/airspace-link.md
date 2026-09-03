@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API delivering airspace data and services for UAS applications — B4UFLY airspace briefings, LAANC SDSP operations and authorizations, ASL and ephemeral operations, surface/risk/routing, elevation
   name: AirHub API
   slug: airhub-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -127,7 +127,7 @@ common:
   url: lifecycle/airspace-link-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/airspace-link-mcp.yml
 - group: design
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Airspace Link provides digital infrastructure for safer skies, operating the AirHub platform for drone and unmanned aircraft system (UAS) operations. Its AirHub API is a REST service that delivers airspace awareness, FAA data, LAANC authorizations, B4UFLY briefings, operational hazard and risk assessment, routing, elevation, position telemetry, and vector tiles to power UAS applications. Airspace Link also offers a Drone Operations Management System (DOMS), FAA-approved Unmanned Traffic Management (UTM) services, and airspace security capabilities for state and local governments, federal and defense agencies, and commercial drone programs. The API authenticates with OAuth 2.0 client-credentials plus an API key and runs in separate sandbox and live environments.
 image: https://airspacelink.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Airspace Link MCP Server
-  slug: airspace-link-mcp-server
 modified: '2026-07-18'
 name: Airspace Link
 nav: Providers
@@ -194,8 +190,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/screenshots/airspace-link-2026-07-25T195436.png
 security:

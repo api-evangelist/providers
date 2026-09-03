@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -113,7 +113,7 @@ apis:
   description: The Security API from Receeve — 1 operation(s) for security.
   name: Receeve Security API
   slug: receeve-security-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: Signed outbound webhook event catalog for InDebted's Receive (formerly Receeve) debt servicing platform. Every event is delivered as an HTTP POST with a common envelope and an RSA/SHA-256 signature (b
   name: Receive (Receeve) Webhook Events
@@ -211,7 +211,7 @@ common:
   url: asyncapi/receeve-webhooks-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/receeve-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: 'Receeve is a no-code debt collection and receivables management SaaS platform, founded in Hamburg, Germany and backed by Speedinvest. It was acquired by InDebted and now operates as the "Receive" product — a debt servicing platform that lets creditors, banks, lenders, utilities and collection agencies automate the full collections lifecycle: importing accounts and claims, running configurable dunning strategies and journeys, sending multi-channel communications (email, SMS, letters, calls), generating hosted debtor landing pages, and reconciling payments, promises-to-pay, instalment plans and settlements. The Receive Client API is an OpenAPI 3.0 REST API secured with OAuth2 client-credentials (Bearer tokens) and emits an extensive catalog of signed webhooks for account, claim, communication, finance, landing-page and strategy events.'
 image: https://www.indebted.co/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Receeve MCP Server
-  slug: receeve-mcp-server
 modified: '2026-07-21'
 name: Receeve
 nav: Providers
@@ -312,8 +308,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/screenshots/receeve-2026-09-02T153040.png
 security:

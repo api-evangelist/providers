@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -867,6 +867,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/slack-capability-edges.yml
+- group: other
+  title: ''
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
@@ -1360,7 +1364,7 @@ overview: 'Slack publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
   The Slack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Slack''s developer surface includes authentication, developer portal, getting-started guide, code examples, sandbox, engineering blog, support, and 86 more developer resources.'
+  Slack''s developer surface includes authentication, developer portal, getting-started guide, code examples, sandbox, engineering blog, support, and 87 more developer resources.'
 plans:
 - name: Slack Plans Pricing
   plan_count: 4
@@ -1412,7 +1416,7 @@ score:
   band: strong
   composite: 64.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -1434,8 +1438,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

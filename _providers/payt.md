@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ apis:
   description: Operations about vat_rates
   name: Payt vat_rates API
   slug: payt-vat-rates-api
-artifact_total: 46
+artifact_total: 45
 collections:
 - collection_type: open
   name: API Collection
@@ -271,7 +271,7 @@ common:
   url: webhooks/payt-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/payt-mcp.yml
 - group: agent
   title: ''
@@ -333,10 +333,6 @@ created: '2026-07-17'
 description: 'Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.'
 image: https://paytsoftware.nl/wp-content/uploads/2024/06/Logo-background-white-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Payt MCP Server
-  slug: payt-mcp-server
 modified: '2026-07-20'
 name: Payt
 nav: Providers
@@ -386,8 +382,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:

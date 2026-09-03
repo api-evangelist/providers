@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ apis:
   description: https://hl7.org/fhir/R4/specimen.html
   name: NextGen Healthcare Specimen API
   slug: nextgen-healthcare-specimen-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -328,7 +328,7 @@ common:
   url: llms/nextgen-healthcare-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nextgen-healthcare-mcp.yml
 - group: build
   title: ''
@@ -423,10 +423,6 @@ jsonld:
   property_count: 2
   slug: nextgen-healthcare-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface DERIVED from the NextGen Office FHIR OpenAPI/Swagger. NextGen publishes no official hosted/remote MCP server. Tools map one-to-one onto real Bulk FHIR operationIds and the r
-  name: NextGen Healthcare MCP Server
-  slug: nextgen-healthcare-mcp-server
 modified: '2026-08-14'
 name: NextGen Healthcare
 nav: Providers
@@ -487,8 +483,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:

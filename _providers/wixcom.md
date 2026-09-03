@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The unified Wix REST API exposes every Wix business solution — Stores, Bookings, Events, CMS/Data, Contacts, Payments, Marketing, Restaurants, Media, Members, and more — as JSON-over-HTTPS endpoints o
@@ -250,8 +250,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wixcom/refs/heads/main/screenshots/wixcom-2026-08-17T082949.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-09-02'
+  score: 34.4
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ apis:
   description: Operations related to trusted accounts.
   name: Volt Trusted accounts API
   slug: volt-io-trusted-accounts-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Volt Io Webhooks
@@ -111,7 +111,7 @@ common:
   url: overlays/volt-io-accounts-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/volt-io-mcp.yml
 - group: auth
   title: ''
@@ -266,10 +266,6 @@ description: 'Volt is a London-headquartered real-time payments company that ope
   a single production gateway host (gateway.volt.io) with a sandbox, OAuth2 authentication, and webhooks for asynchronous payment events. The docs.volt.io API reference renders schemas server-side, but Volt publishes a real OpenAPI 3.0.1 definition for its Accounts API (virtual IBANs, named accounts, settlement) in the github.com/volt-io/volt-io-accounts repository, and ships first-party mobile checkout SDKs (iOS/Android) plus e-commerce plugins in the same GitHub organization.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Volt MCP Server
-  slug: volt-mcp-server
 modified: '2026-07-24'
 name: Volt
 nav: Providers
@@ -317,8 +313,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/screenshots/volt-io-2026-08-17T082816.png
 security:

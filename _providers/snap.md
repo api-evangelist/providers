@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-09-02'
+  score: 37.9
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
@@ -287,8 +286,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/screenshots/snap-2026-08-17T081939.png
 security:

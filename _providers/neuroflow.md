@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The REST API behind the NeuroFlow Live web and mobile applications, served same-origin from https://neuroflowlive.com/api/ (server: gunicorn, versioned /api/v2/ routes). A Swagger document is publishe'
@@ -141,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuroflow/refs/heads/main/screenshots/neuroflow-2026-08-07T185022.png
 security:

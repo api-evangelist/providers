@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Zenoti beauty/wellness/fitness platform covering centers, appointments, guests, invoices and payments, memberships, packages, gift cards, classes, opportunities, employees, and webhoo
   name: Zenoti API
   slug: zenoti-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Zenoti Webhooks
@@ -115,7 +115,7 @@ common:
   url: security/zenoti-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zenoti-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Zenoti is an AI-powered, all-in-one cloud management platform for the beauty, wellness, and fitness industries, serving 30,000+ salons, spas, medspas, barbershops, and fitness centers across 50+ countries. It covers online booking, point of sale and payments, memberships, packages, gift cards, loyalty, marketing, staff scheduling, and business intelligence. Zenoti exposes a large REST API (~283 documented operations) with API-key and bearer-token authentication, signed webhooks, page-number pagination, and per-organization rate limiting, letting partners build custom booking, membership-sale, product-sale, gift-card, and CRM/opportunity workflows on top of the platform.
 image: https://www.zenoti.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zenoti MCP Server
-  slug: zenoti-mcp-server
 modified: '2026-07-21'
 name: Zenoti
 nav: Providers
@@ -193,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/screenshots/zenoti-2026-08-17T083047.png
 security:

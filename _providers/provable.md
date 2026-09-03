@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Aurora Connect (Buf) API for the SEC-registered securities-finance ATS — authentication, company/instrument reference, order management (OMS), venue order book, contract requests, contract lifecyc
   name: Aurora API
   slug: aurora-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Provable Events Webhooks
@@ -103,7 +103,7 @@ common:
   url: asyncapi/provable-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/provable-mcp.yml
 - group: design
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: 'Provable Markets is a New York and Amsterdam based financial technology firm operating Aurora, the first new SEC-registered Alternative Trading System (ATS) for securities finance in over a decade. Through Aurora Marketplace and Aurora Trade Manager, Provable delivers front-, middle-, and back-office technology for the securities lending market: automated trade matching, contract lifecycle management (returns, recalls, marks, rate changes), and CCP connectivity via NSCC. Its cloud-native platform exposes open APIs — a Connect/gRPC Aurora API, FIX specifications, and WebSocket/webhook event streams — and it is a FINRA member registered as an SEC ATS with SOC 2 and ISO 27001 certifications.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/provable.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Provable MCP Server
-  slug: provable-mcp-server
 modified: '2026-07-20'
 name: Provable
 nav: Providers
@@ -174,8 +170,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/screenshots/provable-2026-08-17T081404.png
 security:

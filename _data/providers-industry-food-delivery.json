@@ -1,6 +1,6 @@
 {
- "total": 106,
- "shown": 106,
+ "total": 105,
+ "shown": 105,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -85,8 +85,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -130,10 +130,9 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -180,8 +179,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -225,8 +224,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -270,8 +269,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -315,8 +314,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -360,8 +359,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -412,8 +411,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -468,8 +467,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -513,8 +512,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -558,8 +557,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -603,8 +602,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -648,8 +647,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -693,10 +692,9 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },
@@ -743,8 +741,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -788,8 +786,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -832,8 +830,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -877,8 +875,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -929,8 +927,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -974,8 +972,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1019,8 +1017,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1071,8 +1069,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1116,8 +1114,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1189,8 +1187,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1233,8 +1231,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1278,8 +1276,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1323,8 +1321,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1375,8 +1373,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1420,8 +1418,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1465,8 +1463,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1517,8 +1515,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1562,8 +1560,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1607,8 +1605,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1659,8 +1657,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1704,8 +1702,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1749,8 +1747,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1794,8 +1792,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1839,8 +1837,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1883,8 +1881,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1928,8 +1926,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1973,8 +1971,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2017,8 +2015,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2061,8 +2059,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2106,8 +2104,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2151,8 +2149,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2196,8 +2194,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2241,8 +2239,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2286,8 +2284,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2331,8 +2329,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2365,8 +2363,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 56,
-   "shown": 56,
+   "count": 55,
+   "shown": 55,
    "providers": [
     {
      "name": "Blue Apron",
@@ -2386,8 +2384,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2431,8 +2429,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2476,8 +2474,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2521,8 +2519,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2566,8 +2564,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2594,32 +2592,25 @@
      "rank": 55
     },
     {
-     "name": "Slice",
-     "slug": "slice-ordering",
-     "description": "Slice is a done-for-you online ordering, marketing, payments, and point-of-sale platform for independent pizzerias, serving more than 19,000 shops across all 50 states and 3,000+ cities. Consumers order through slicelife.com and the Slice apps; shop owners run their business through slice.com, the Owner's Portal (owners.slicelife.com), and the Slice Register POS. Slice does publish a developer portal titled \"Slice Public API\" at developer.slicelife.com (built on Stoplight) and a separate merchant/banking API portal at developer.slicebank.com, but neither is an open, self-serve API - there is no public API-key signup and the endpoint reference is not openly rendered or documented for third parties. API access is partner-gated and arranged through Slice's partnerships team (partner@slicelife.com). The APIs listed below are logical groupings modeled from the platform's known merchant surfaces (shops, menus, orders, customers); no public OpenAPI definition is available, so no specification is included.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/slice-ordering/refs/heads/main/screenshots/slice-ordering-2026-09-02T155840.png",
-     "score": 10.5,
+     "name": "Magicpin",
+     "slug": "magicpin",
+     "description": "Magicpin (operated by Samast Technologies Private Limited) is India's hyperlocal savings and discovery platform, connecting consumers with deals, cashback, and vouchers across restaurants, food delivery, fashion, grocery, beauty, fitness, and electronics merchants in cities throughout India. The company operates a consumer savings app alongside a merchant/brands portal and corporate voucher solutions. As of this enrichment pass Magicpin publishes a consumer web and mobile experience plus partner and brand onboarding portals, but exposes no public developer API, OpenAPI specification, SDK, or developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magicpin/refs/heads/main/screenshots/magicpin-2026-07-25T225853.png",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 11.9,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2646,10 +2637,10 @@
      "rank": 56
     },
     {
-     "name": "Magicpin",
-     "slug": "magicpin",
-     "description": "Magicpin (operated by Samast Technologies Private Limited) is India's hyperlocal savings and discovery platform, connecting consumers with deals, cashback, and vouchers across restaurants, food delivery, fashion, grocery, beauty, fitness, and electronics merchants in cities throughout India. The company operates a consumer savings app alongside a merchant/brands portal and corporate voucher solutions. As of this enrichment pass Magicpin publishes a consumer web and mobile experience plus partner and brand onboarding portals, but exposes no public developer API, OpenAPI specification, SDK, or developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magicpin/refs/heads/main/screenshots/magicpin-2026-07-25T225853.png",
+     "name": "Swish",
+     "slug": "swish",
+     "description": "Swish (operated by Munchmart Technologies Private Limited) is a Bengaluru-based quick-commerce food delivery startup founded in 2024 that promises meals at your door in ten minutes. It runs a full-stack, vertically integrated model — owning its neighbourhood cloud kitchens (\"delight centres\"), sourcing and supply chain, proprietary ordering/routing technology, and its own last-mile delivery fleet — operating dense hyperlocal clusters of roughly 1.5–2 km. The company focuses on frequent, lower-ticket occasions such as breakfast, snacks, and late-night meals, and reports around 20,000 orders a day across Bengaluru micro-markets. Swish raised a $38M Series B led by Hara Global and Bain Capital Ventures with participation from Accel, valuing it at $139M post-money and bringing total funding to about $54M. Swish is a consumer mobile-app business and does not publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swish/refs/heads/main/screenshots/swish-2026-09-02T161412.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2659,12 +2650,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2691,25 +2682,25 @@
      "rank": 57
     },
     {
-     "name": "Swish",
-     "slug": "swish",
-     "description": "Swish (operated by Munchmart Technologies Private Limited) is a Bengaluru-based quick-commerce food delivery startup founded in 2024 that promises meals at your door in ten minutes. It runs a full-stack, vertically integrated model — owning its neighbourhood cloud kitchens (\"delight centres\"), sourcing and supply chain, proprietary ordering/routing technology, and its own last-mile delivery fleet — operating dense hyperlocal clusters of roughly 1.5–2 km. The company focuses on frequent, lower-ticket occasions such as breakfast, snacks, and late-night meals, and reports around 20,000 orders a day across Bengaluru micro-markets. Swish raised a $38M Series B led by Hara Global and Bain Capital Ventures with participation from Accel, valuing it at $139M post-money and bringing total funding to about $54M. Swish is a consumer mobile-app business and does not publish a public developer API, developer portal, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swish/refs/heads/main/screenshots/swish-2026-09-02T161412.png",
-     "score": 10.2,
+     "name": "Lanch",
+     "slug": "lanch",
+     "description": "LANCH GmbH is a Berlin-based food-tech startup that builds creator-led virtual restaurant brands for the delivery market. Founded by Nono Konopka and Jonas Meynert and headquartered at Schoenhauser Allee 180 in Berlin, LANCH develops food brands together with German influencers, musicians and athletes, then scales them through franchise partners and ghost-kitchen partners operating out of existing restaurant kitchens. Its two flagship brands are Loco Chicken (halal-certified wings, filets, burgers and chicken-and-waffle creations) and Happy Slice (hand-pulled pinsa-dough pizza, dips and cookies), both distributed through delivery marketplaces including Wolt, Lieferando and Uber Eats. The company is backed by HV Capital and Felix Capital alongside founders of FlixBus, Gorillas, Flaschenpost, Glovo, Foodspring, Foodora, Honest Food and Finleap. LANCH publishes a marketing and partner-recruitment website only; as of this enrichment pass it exposes no public developer portal, API documentation, machine-readable API specification or SDK surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanch/refs/heads/main/screenshots/lanch-2026-07-25T224453.png",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2736,25 +2727,24 @@
      "rank": 58
     },
     {
-     "name": "Lanch",
-     "slug": "lanch",
-     "description": "LANCH GmbH is a Berlin-based food-tech startup that builds creator-led virtual restaurant brands for the delivery market. Founded by Nono Konopka and Jonas Meynert and headquartered at Schoenhauser Allee 180 in Berlin, LANCH develops food brands together with German influencers, musicians and athletes, then scales them through franchise partners and ghost-kitchen partners operating out of existing restaurant kitchens. Its two flagship brands are Loco Chicken (halal-certified wings, filets, burgers and chicken-and-waffle creations) and Happy Slice (hand-pulled pinsa-dough pizza, dips and cookies), both distributed through delivery marketplaces including Wolt, Lieferando and Uber Eats. The company is backed by HV Capital and Felix Capital alongside founders of FlixBus, Gorillas, Flaschenpost, Glovo, Foodspring, Foodora, Honest Food and Finleap. LANCH publishes a marketing and partner-recruitment website only; as of this enrichment pass it exposes no public developer portal, API documentation, machine-readable API specification or SDK surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanch/refs/heads/main/screenshots/lanch-2026-07-25T224453.png",
-     "score": 10.0,
+     "name": "Swiggy",
+     "slug": "swiggy",
+     "description": "Swiggy is an Indian hyperlocal on-demand commerce and food-delivery platform founded in 2014 and headquartered in Bengaluru. Through a single consumer app it connects users with restaurant and merchant partners for food delivery, Swiggy Instamart (quick grocery and essentials commerce), Swiggy Genie (pick-up and drop errands), Swiggy Dineout (restaurant reservations and dining), and the Swiggy One membership program, operating across hundreds of cities in India with a large network of restaurant and delivery partners. Swiggy is a publicly listed company backed by Accel, Bessemer Venture Partners, Norwest Venture Partners and SoftBank Vision Fund. It exposes a login-gated merchant partner portal but does not publish a public developer API program.",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2781,10 +2771,11 @@
      "rank": 59
     },
     {
-     "name": "Swiggy",
-     "slug": "swiggy",
-     "description": "Swiggy is an Indian hyperlocal on-demand commerce and food-delivery platform founded in 2014 and headquartered in Bengaluru. Through a single consumer app it connects users with restaurant and merchant partners for food delivery, Swiggy Instamart (quick grocery and essentials commerce), Swiggy Genie (pick-up and drop errands), Swiggy Dineout (restaurant reservations and dining), and the Swiggy One membership program, operating across hundreds of cities in India with a large network of restaurant and delivery partners. Swiggy is a publicly listed company backed by Accel, Bessemer Venture Partners, Norwest Venture Partners and SoftBank Vision Fund. It exposes a login-gated merchant partner portal but does not publish a public developer API program.",
-     "score": 9.7,
+     "name": "Gousto",
+     "slug": "gousto",
+     "description": "Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and headquartered in Shepherd's Bush, London. It delivers recipe boxes with pre-portioned fresh ingredients and step-by-step recipes to homes across the UK, using proprietary data science, ERP, courier-integration and warehouse-automation systems to run its subscription operation. A SoftBank Vision Fund portfolio company, Gousto does not publish a public developer API; this profile captures its public digital surface (website, engineering blog, GitHub organization, and coordinated vulnerability-disclosure program) for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gousto/refs/heads/main/screenshots/gousto-2026-07-25T220135.png",
+     "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2792,13 +2783,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2825,11 +2816,11 @@
      "rank": 60
     },
     {
-     "name": "Gousto",
-     "slug": "gousto",
-     "description": "Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and headquartered in Shepherd's Bush, London. It delivers recipe boxes with pre-portioned fresh ingredients and step-by-step recipes to homes across the UK, using proprietary data science, ERP, courier-integration and warehouse-automation systems to run its subscription operation. A SoftBank Vision Fund portfolio company, Gousto does not publish a public developer API; this profile captures its public digital surface (website, engineering blog, GitHub organization, and coordinated vulnerability-disclosure program) for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gousto/refs/heads/main/screenshots/gousto-2026-07-25T220135.png",
-     "score": 9.3,
+     "name": "Dishpatch",
+     "slug": "dishpatch",
+     "description": "Dishpatch is a UK-based meal delivery service that partners with renowned chefs and restaurants to deliver restaurant-quality, finish-at-home meals nationwide. Operated by Dishpatch Ltd (part of the Waitrose family), the service curates seasonal menus from chefs such as Michel Roux, Rick Stein, Sabrina Ghayour, Jose Pizarro and Paul Ainsworth. Orders are placed a la carte rather than by subscription, delivered on Fridays in insulated, recyclable packaging via DPD, and arrive pre-prepared for simple finishing steps at home. A paid \"Supper Club\" membership adds free shipping, exclusive menus, early sale access and spending credits. Dishpatch operates a consumer e-commerce storefront and does not currently publish a public developer API or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dishpatch/refs/heads/main/screenshots/dishpatch-2026-07-25T212103.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2837,13 +2828,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2870,10 +2861,10 @@
      "rank": 61
     },
     {
-     "name": "Dishpatch",
-     "slug": "dishpatch",
-     "description": "Dishpatch is a UK-based meal delivery service that partners with renowned chefs and restaurants to deliver restaurant-quality, finish-at-home meals nationwide. Operated by Dishpatch Ltd (part of the Waitrose family), the service curates seasonal menus from chefs such as Michel Roux, Rick Stein, Sabrina Ghayour, Jose Pizarro and Paul Ainsworth. Orders are placed a la carte rather than by subscription, delivered on Fridays in insulated, recyclable packaging via DPD, and arrive pre-prepared for simple finishing steps at home. A paid \"Supper Club\" membership adds free shipping, exclusive menus, early sale access and spending credits. Dishpatch operates a consumer e-commerce storefront and does not currently publish a public developer API or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dishpatch/refs/heads/main/screenshots/dishpatch-2026-07-25T212103.png",
+     "name": "Ordermark",
+     "slug": "ordermark",
+     "description": "Ordermark is a restaurant technology company that consolidates online food delivery and takeout orders from third-party channels such as DoorDash, Uber Eats, Grubhub, and Postmates into a single dashboard and printer, with menu synchronization, order management, and analytics across delivery partners and 250+ POS systems. Ordermark was acquired by and now operates under UrbanPiper; the ordermark.com property is maintained by UrbanPiper. As of this enrichment pass Ordermark publishes no public developer API, developer portal, API documentation, or SDKs on its own surface. It was surfaced to the API Evangelist network as a Techstars portfolio company lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ordermark/refs/heads/main/screenshots/ordermark-2026-08-07T190918.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2887,8 +2878,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2915,51 +2906,6 @@
      "rank": 62
     },
     {
-     "name": "Ordermark",
-     "slug": "ordermark",
-     "description": "Ordermark is a restaurant technology company that consolidates online food delivery and takeout orders from third-party channels such as DoorDash, Uber Eats, Grubhub, and Postmates into a single dashboard and printer, with menu synchronization, order management, and analytics across delivery partners and 250+ POS systems. Ordermark was acquired by and now operates under UrbanPiper; the ordermark.com property is maintained by UrbanPiper. As of this enrichment pass Ordermark publishes no public developer API, developer portal, API documentation, or SDKs on its own surface. It was surfaced to the API Evangelist network as a Techstars portfolio company lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ordermark/refs/heads/main/screenshots/ordermark-2026-08-07T190918.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
      "name": "Woowa Brothers",
      "slug": "woowa-brothers",
      "description": "Woowa Brothers is the Seoul-based technology company behind Baedal Minjok (Baemin), South Korea's leading food delivery platform, alongside B-Mart quick commerce, Baemin Connect rider services, and robotics initiatives for serving and delivery robots. A subsidiary of Delivery Hero since 2021, the company runs a strong engineering culture through its Woowahan tech blog and first-party open-source libraries on GitHub (NestJS libraries, WoowahanJS, Redis tooling), but it does not publish a public developer API or developer portal.",
@@ -2976,8 +2922,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3001,7 +2947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "DailyMealz",
@@ -3021,8 +2967,53 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 64
+    },
+    {
+     "name": "Barakah",
+     "slug": "barakah",
+     "description": "Barakah is a Saudi foodtech company operating a consumer mobile marketplace that fights food waste by connecting restaurants, cafes, hotels, bakeries, and grocery retailers with consumers who buy their surplus, still-fresh meals and food products at discounts of up to 70 percent for pickup or delivery. Founded in Jeddah and backed by 500 Global, FoodLabs, and Salica Investments, Barakah has grown into one of the most downloaded food and drink apps in Saudi Arabia with partnerships across more than 800 merchants, including global brands. Barakah is a business-to-consumer mobile application and does not currently publish a public developer platform, API, or SDK; this profile captures its identity and public web surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barakah/refs/heads/main/screenshots/barakah-2026-07-25T202356.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3049,25 +3040,25 @@
      "rank": 65
     },
     {
-     "name": "Barakah",
-     "slug": "barakah",
-     "description": "Barakah is a Saudi foodtech company operating a consumer mobile marketplace that fights food waste by connecting restaurants, cafes, hotels, bakeries, and grocery retailers with consumers who buy their surplus, still-fresh meals and food products at discounts of up to 70 percent for pickup or delivery. Founded in Jeddah and backed by 500 Global, FoodLabs, and Salica Investments, Barakah has grown into one of the most downloaded food and drink apps in Saudi Arabia with partnerships across more than 800 merchants, including global brands. Barakah is a business-to-consumer mobile application and does not currently publish a public developer platform, API, or SDK; this profile captures its identity and public web surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barakah/refs/heads/main/screenshots/barakah-2026-07-25T202356.png",
+     "name": "Meituan",
+     "slug": "meituan",
+     "description": "Meituan (美团) is a Chinese technology-retail company operating one of the world's largest on-demand local-services and food-delivery super-apps. Its platform spans restaurant food delivery, in-store dining and group buying (Dianping), grocery and instant retail, hotel and travel booking, bike and moped sharing, and payments. Meituan runs a partner/developer cooperation center exposing merchant, delivery/logistics, and local-services integration APIs to business partners; these are partner-gated and documented in Chinese, with no public OpenAPI specification, SDK registry, or self-serve developer signup surfaced at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meituan/refs/heads/main/screenshots/meituan-2026-08-07T172447.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3094,11 +3085,11 @@
      "rank": 66
     },
     {
-     "name": "Meituan",
-     "slug": "meituan",
-     "description": "Meituan (美团) is a Chinese technology-retail company operating one of the world's largest on-demand local-services and food-delivery super-apps. Its platform spans restaurant food delivery, in-store dining and group buying (Dianping), grocery and instant retail, hotel and travel booking, bike and moped sharing, and payments. Meituan runs a partner/developer cooperation center exposing merchant, delivery/logistics, and local-services integration APIs to business partners; these are partner-gated and documented in Chinese, with no public OpenAPI specification, SDK registry, or self-serve developer signup surfaced at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meituan/refs/heads/main/screenshots/meituan-2026-08-07T172447.png",
-     "score": 7.6,
+     "name": "Flytrex",
+     "slug": "flytrex",
+     "description": "Flytrex is an autonomous drone delivery operator headquartered in Tel Aviv, Israel, with US operations centered on the Dallas-Fort Worth metroplex and North Carolina. The company runs an end-to-end backyard delivery service that flies food and small goods from partner restaurants and retailers to consumer homes in roughly five minutes, operating its own Sky-series multirotor aircraft, ground docks, and a remote-operations control center. Flytrex sells to consumers through its own iOS and Android ordering apps and to merchants through a partner portal, and routes demand from third-party marketplaces including DoorDash and Uber Eats. It does not currently publish a public developer program, API reference, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flytrex/refs/heads/main/screenshots/flytrex-2026-09-02T145535.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3106,13 +3097,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3139,25 +3130,25 @@
      "rank": 67
     },
     {
-     "name": "Flytrex",
-     "slug": "flytrex",
-     "description": "Flytrex is an autonomous drone delivery operator headquartered in Tel Aviv, Israel, with US operations centered on the Dallas-Fort Worth metroplex and North Carolina. The company runs an end-to-end backyard delivery service that flies food and small goods from partner restaurants and retailers to consumer homes in roughly five minutes, operating its own Sky-series multirotor aircraft, ground docks, and a remote-operations control center. Flytrex sells to consumers through its own iOS and Android ordering apps and to merchants through a partner portal, and routes demand from third-party marketplaces including DoorDash and Uber Eats. It does not currently publish a public developer program, API reference, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flytrex/refs/heads/main/screenshots/flytrex-2026-09-02T145535.png",
-     "score": 7.4,
+     "name": "Foodology",
+     "slug": "foodology",
+     "description": "Foodology is a Bogota-based food-tech company building what it calls the largest group of delivery-focused virtual restaurant brands in Latin America. Founded in 2019 by Daniela Izquierdo and Juan Guillermo Azuero, it operates a cloud-kitchen (ghost kitchen) model, creating restaurant brands from scratch and running them out of shared commissaries and kitchens so multiple brands share real estate, ingredients, and staff. Marquee brands include Brunch & Munch (the #1 breakfast delivery brand in Colombia) and Avocalia (a leading salad brand). Foodology runs more than 85 cloud kitchens across Colombia, Mexico, Brazil, and Peru and reports over 300,000 delivered orders per month. It is backed by Andreessen Horowitz (a16z), Base10/Base Partners, Wollef, Kayyak, Chimera, and artist Maluma, having raised a $15M Series A and a later $50M round. This profile was surfaced as an a16z portfolio company and added to the API Evangelist network; Foodology is a consumer food-delivery operator and does not publish a public developer API, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foodology/refs/heads/main/screenshots/foodology-2026-07-25T214917.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3184,10 +3175,10 @@
      "rank": 68
     },
     {
-     "name": "Foodology",
-     "slug": "foodology",
-     "description": "Foodology is a Bogota-based food-tech company building what it calls the largest group of delivery-focused virtual restaurant brands in Latin America. Founded in 2019 by Daniela Izquierdo and Juan Guillermo Azuero, it operates a cloud-kitchen (ghost kitchen) model, creating restaurant brands from scratch and running them out of shared commissaries and kitchens so multiple brands share real estate, ingredients, and staff. Marquee brands include Brunch & Munch (the #1 breakfast delivery brand in Colombia) and Avocalia (a leading salad brand). Foodology runs more than 85 cloud kitchens across Colombia, Mexico, Brazil, and Peru and reports over 300,000 delivered orders per month. It is backed by Andreessen Horowitz (a16z), Base10/Base Partners, Wollef, Kayyak, Chimera, and artist Maluma, having raised a $15M Series A and a later $50M round. This profile was surfaced as an a16z portfolio company and added to the API Evangelist network; Foodology is a consumer food-delivery operator and does not publish a public developer API, SDKs, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foodology/refs/heads/main/screenshots/foodology-2026-07-25T214917.png",
+     "name": "Hangry",
+     "slug": "hangry",
+     "description": "Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen company founded in 2019 and backed by 500 Global. It designs, operates, and delivers a portfolio of consumer food brands - including Moon Chicken, San Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be tasty, consistent, and affordable for the mass market and sold primarily through third-party food-delivery channels. Hangry operates as a direct-to-consumer food and beverage business rather than an API or developer platform provider; it publishes no public developer portal, API documentation, or machine-readable API surface. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3201,8 +3192,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3229,10 +3220,10 @@
      "rank": 69
     },
     {
-     "name": "Hangry",
-     "slug": "hangry",
-     "description": "Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen company founded in 2019 and backed by 500 Global. It designs, operates, and delivers a portfolio of consumer food brands - including Moon Chicken, San Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be tasty, consistent, and affordable for the mass market and sold primarily through third-party food-delivery channels. Hangry operates as a direct-to-consumer food and beverage business rather than an API or developer platform provider; it publishes no public developer portal, API documentation, or machine-readable API surface. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment tracking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png",
+     "name": "Huuva",
+     "slug": "huuva",
+     "description": "Huuva is a Finnish food-court aggregator that lets customers order from multiple partner restaurants in a single order under the tagline \"The hottest restaurants, all in one address.\" It operates physical food-court locations across Finland and runs a consumer web and mobile ordering platform for delivery and pickup, alongside lunch services and gift cards. Huuva is a consumer marketplace in the restaurant-technology and food-delivery space and does not currently publish a public developer or API program. It is a General Catalyst portfolio company based in Europe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/screenshots/huuva-2026-07-25T221752.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3246,8 +3237,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3274,11 +3265,11 @@
      "rank": 70
     },
     {
-     "name": "Huuva",
-     "slug": "huuva",
-     "description": "Huuva is a Finnish food-court aggregator that lets customers order from multiple partner restaurants in a single order under the tagline \"The hottest restaurants, all in one address.\" It operates physical food-court locations across Finland and runs a consumer web and mobile ordering platform for delivery and pickup, alongside lunch services and gift cards. Huuva is a consumer marketplace in the restaurant-technology and food-delivery space and does not currently publish a public developer or API program. It is a General Catalyst portfolio company based in Europe.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/screenshots/huuva-2026-07-25T221752.png",
-     "score": 7.1,
+     "name": "Mathem",
+     "slug": "mathem",
+     "description": "Mathem is Sweden's largest pure-play online grocery retailer, delivering fresh food, household goods and pantry staples directly to consumers' homes across Sweden. Customers browse and order the full assortment of a physical supermarket through the mathem.se website and native iOS/Android apps, and receive scheduled home delivery. Mathem merged with the Norwegian online grocer Oda to form one of the Nordics' largest online grocery groups, and its security and careers functions are now operated under the shared Oda organization. Payments are handled through Klarna and the major card networks. Mathem operates a consumer e-commerce storefront and mobile apps; it does not publish a public developer API, SDKs, or a developer portal. This API Evangelist profile was created as a SoftBank Vision Fund portfolio lead and enriched via the enrichment pipeline; the substantive public technical surface found is an RFC 9116 security.txt and an invite-only YesWeHack bug-bounty program run through Oda.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mathem/refs/heads/main/screenshots/mathem-2026-07-25T230409.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3286,13 +3277,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3319,10 +3310,10 @@
      "rank": 71
     },
     {
-     "name": "Mathem",
-     "slug": "mathem",
-     "description": "Mathem is Sweden's largest pure-play online grocery retailer, delivering fresh food, household goods and pantry staples directly to consumers' homes across Sweden. Customers browse and order the full assortment of a physical supermarket through the mathem.se website and native iOS/Android apps, and receive scheduled home delivery. Mathem merged with the Norwegian online grocer Oda to form one of the Nordics' largest online grocery groups, and its security and careers functions are now operated under the shared Oda organization. Payments are handled through Klarna and the major card networks. Mathem operates a consumer e-commerce storefront and mobile apps; it does not publish a public developer API, SDKs, or a developer portal. This API Evangelist profile was created as a SoftBank Vision Fund portfolio lead and enriched via the enrichment pipeline; the substantive public technical surface found is an RFC 9116 security.txt and an invite-only YesWeHack bug-bounty program run through Oda.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mathem/refs/heads/main/screenshots/mathem-2026-07-25T230409.png",
+     "name": "Sun Basket",
+     "slug": "sun-basket",
+     "description": "Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/screenshots/sun-basket-2026-09-02T161127.png",
      "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3336,8 +3327,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3364,11 +3355,11 @@
      "rank": 72
     },
     {
-     "name": "Sun Basket",
-     "slug": "sun-basket",
-     "description": "Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/screenshots/sun-basket-2026-09-02T161127.png",
-     "score": 6.4,
+     "name": "Dispatch Goods",
+     "slug": "dispatch-goods",
+     "description": "Dispatch Goods is a reusable-packaging and reverse-logistics company that offers returnable containers and insulated bags as an alternative to single-use and compostable packaging for direct-to-consumer meal kits, grocery delivery, and food-service operations. The company handles the full circular loop — packaging, collection, washing, and redistribution — and markets its reusable system as a cheaper and lower-impact substitute for cardboard, gel packs, and insulation, citing reductions in water use and CO2 equivalent emissions. It was surfaced as a Techstars portfolio company and added to the API Evangelist network as a company profile; it does not currently publish a public API, developer portal, or technical documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dispatch-goods/refs/heads/main/screenshots/dispatch-goods-2026-07-25T212104.png",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3376,13 +3367,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3409,10 +3400,10 @@
      "rank": 73
     },
     {
-     "name": "Dispatch Goods",
-     "slug": "dispatch-goods",
-     "description": "Dispatch Goods is a reusable-packaging and reverse-logistics company that offers returnable containers and insulated bags as an alternative to single-use and compostable packaging for direct-to-consumer meal kits, grocery delivery, and food-service operations. The company handles the full circular loop — packaging, collection, washing, and redistribution — and markets its reusable system as a cheaper and lower-impact substitute for cardboard, gel packs, and insulation, citing reductions in water use and CO2 equivalent emissions. It was surfaced as a Techstars portfolio company and added to the API Evangelist network as a company profile; it does not currently publish a public API, developer portal, or technical documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dispatch-goods/refs/heads/main/screenshots/dispatch-goods-2026-07-25T212104.png",
+     "name": "Grain",
+     "slug": "grain",
+     "description": "Grain is a Singapore-based online restaurant and catering company founded in 2013 that delivers freshly prepared, thoughtfully sourced meals across Singapore. Its products include Meals On Demand (same-day ready-to-eat delivery), wedding catering, event catering, gift cards, and the Grain Savers program, with MUIS Halal and ISO certifications. Grain was surfaced in the API Evangelist network as a VC-portfolio stub (500 Global among its early backers). As of this enrichment pass it publishes a consumer web storefront but no public API, developer portal, OpenAPI, or other machine-readable API artifacts, so this profile captures company identity and domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grain/refs/heads/main/screenshots/grain-2026-07-25T220215.png",
      "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3426,8 +3417,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3454,10 +3445,10 @@
      "rank": 74
     },
     {
-     "name": "Grain",
-     "slug": "grain",
-     "description": "Grain is a Singapore-based online restaurant and catering company founded in 2013 that delivers freshly prepared, thoughtfully sourced meals across Singapore. Its products include Meals On Demand (same-day ready-to-eat delivery), wedding catering, event catering, gift cards, and the Grain Savers program, with MUIS Halal and ISO certifications. Grain was surfaced in the API Evangelist network as a VC-portfolio stub (500 Global among its early backers). As of this enrichment pass it publishes a consumer web storefront but no public API, developer portal, OpenAPI, or other machine-readable API artifacts, so this profile captures company identity and domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grain/refs/heads/main/screenshots/grain-2026-07-25T220215.png",
+     "name": "Haseel",
+     "slug": "haseel",
+     "description": "Haseel (حصيل) is a Riyadh-based technology startup, founded in 2018, that delivers fresh fruits and vegetables to consumers across Saudi Arabia through its iOS and Android mobile apps. The company sources high-quality produce and fulfills each order from the nearest of its branches inside Riyadh, pairing a curated selection with fast, reliable last-mile delivery. Haseel reports more than 400,000 app downloads, three branches inside Riyadh, and over 1,000 orders per day, and is backed by 500 Global. This profile is maintained in the API Evangelist network; Haseel is a consumer produce-delivery app and does not currently publish a public developer API or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haseel/refs/heads/main/screenshots/haseel-2026-07-25T220744.png",
      "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3471,8 +3462,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3499,10 +3490,10 @@
      "rank": 75
     },
     {
-     "name": "Haseel",
-     "slug": "haseel",
-     "description": "Haseel (حصيل) is a Riyadh-based technology startup, founded in 2018, that delivers fresh fruits and vegetables to consumers across Saudi Arabia through its iOS and Android mobile apps. The company sources high-quality produce and fulfills each order from the nearest of its branches inside Riyadh, pairing a curated selection with fast, reliable last-mile delivery. Haseel reports more than 400,000 app downloads, three branches inside Riyadh, and over 1,000 orders per day, and is backed by 500 Global. This profile is maintained in the API Evangelist network; Haseel is a consumer produce-delivery app and does not currently publish a public developer API or OpenAPI surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haseel/refs/heads/main/screenshots/haseel-2026-07-25T220744.png",
+     "name": "Popmeals",
+     "slug": "popmeals",
+     "description": "Popmeals (Pop Meals, operated by Farm To Fork Sdn Bhd) is a Malaysian food-delivery and cloud-kitchen brand offering popular meals at affordable prices through a central-kitchen model and a network of outlets across Malaysia and Southeast Asia. It was surfaced as a portfolio company of Partech and added to the API Evangelist network. This is a consumer brand with a public ordering and support surface but no published developer/API program: domain-security posture was probed live, and no OpenAPI, SDK, MCP server, or developer portal was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/popmeals/refs/heads/main/screenshots/popmeals-2026-09-02T151737.png",
      "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3516,8 +3507,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3544,25 +3535,25 @@
      "rank": 76
     },
     {
-     "name": "Popmeals",
-     "slug": "popmeals",
-     "description": "Popmeals (Pop Meals, operated by Farm To Fork Sdn Bhd) is a Malaysian food-delivery and cloud-kitchen brand offering popular meals at affordable prices through a central-kitchen model and a network of outlets across Malaysia and Southeast Asia. It was surfaced as a portfolio company of Partech and added to the API Evangelist network. This is a consumer brand with a public ordering and support surface but no published developer/API program: domain-security posture was probed live, and no OpenAPI, SDK, MCP server, or developer portal was found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/popmeals/refs/heads/main/screenshots/popmeals-2026-09-02T151737.png",
-     "score": 6.0,
+     "name": "BerryKitchen",
+     "slug": "berrykitchen",
+     "description": "BerryKitchen (Berry Kitchen) was an Indonesian online catering and prepared-meal company founded in Jakarta in 2012 by Cynthia Tenggara. It took online orders for lunch boxes and bento meals aimed at office workers across Jabodetabek, and ran the full chain itself - supplier sourcing, cooking, packaging and last-mile delivery - rather than acting as a marketplace. It was backed by East Ventures and 500 Startups (now 500 Global) and was acquired by Yummy Corp in 2019, with the team folded into Yummy Corp's Yummybox unit and the founder subsequently exiting. BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3589,10 +3580,10 @@
      "rank": 77
     },
     {
-     "name": "BerryKitchen",
-     "slug": "berrykitchen",
-     "description": "BerryKitchen (Berry Kitchen) was an Indonesian online catering and prepared-meal company founded in Jakarta in 2012 by Cynthia Tenggara. It took online orders for lunch boxes and bento meals aimed at office workers across Jabodetabek, and ran the full chain itself - supplier sourcing, cooking, packaging and last-mile delivery - rather than acting as a marketplace. It was backed by East Ventures and 500 Startups (now 500 Global) and was acquired by Yummy Corp in 2019, with the team folded into Yummy Corp's Yummybox unit and the founder subsequently exiting. BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png",
+     "name": "Kitchen United",
+     "slug": "kitchen-united",
+     "description": "Kitchen United was a Pasadena, California ghost-kitchen operator that built and ran shared commissary kitchens — branded \"Kitchen United Mix\" — where multiple restaurant brands cooked out of one facility for delivery and pickup, including a chain of in-store food halls operated with Kroger. Backed by GV (Google Ventures) among others, the company wound down its physical footprint: in late 2023 it announced it would sell or close all remaining units and pivot to licensing its ordering software, and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired its intellectual property and ghost-kitchen assets into a new holding company, Everybody Eats, alongside C3 and Nextbite. Kitchen United never published a public developer API, SDK, CLI or developer portal, and no OpenAPI, AsyncAPI or package-registry artifact exists for it. The kitchenunited.com domain still resolves but now serves a residual WordPress shell whose only remaining page is unrelated SEO spam, so it should not be treated as a live developer surface. This profile is retained as a historical company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/screenshots/kitchen-united-2026-07-25T223901.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3606,8 +3597,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3634,51 +3625,6 @@
      "rank": 78
     },
     {
-     "name": "Kitchen United",
-     "slug": "kitchen-united",
-     "description": "Kitchen United was a Pasadena, California ghost-kitchen operator that built and ran shared commissary kitchens — branded \"Kitchen United Mix\" — where multiple restaurant brands cooked out of one facility for delivery and pickup, including a chain of in-store food halls operated with Kroger. Backed by GV (Google Ventures) among others, the company wound down its physical footprint: in late 2023 it announced it would sell or close all remaining units and pivot to licensing its ordering software, and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired its intellectual property and ghost-kitchen assets into a new holding company, Everybody Eats, alongside C3 and Nextbite. Kitchen United never published a public developer API, SDK, CLI or developer portal, and no OpenAPI, AsyncAPI or package-registry artifact exists for it. The kitchenunited.com domain still resolves but now serves a residual WordPress shell whose only remaining page is unrelated SEO spam, so it should not be treated as a live developer surface. This profile is retained as a historical company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/screenshots/kitchen-united-2026-07-25T223901.png",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 79
-    },
-    {
      "name": "Rappi",
      "slug": "rappi",
      "description": "Rappi is a Colombian-founded pan-Latin American super-app headquartered in Bogotá, with regional hubs in São Paulo and Mexico City. Founded in 2015 by Simón Borrero, Sebastián Mejía, and Felipe Villamarín, and accelerated through Y Combinator's W16 batch, Rappi operates across Argentina, Brazil, Chile, Colombia, Costa Rica, Ecuador, Mexico, Peru, and Uruguay. The platform bundles on-demand delivery (restaurants, groceries via \"Súper\" and Turbo Fresh, pharmacies, retail, alcohol) with consumer fintech (RappiPay, RappiCard, RappiCash) and adjacent services such as RappiTravel and the RappiPrime subscription. Rappi's developer surface is operated through its Partners program at dev-portal.rappi.com, where approved restaurants, retailers, and middleware providers obtain OAuth 2.0 client credentials to integrate with a REST API for menu and catalog management, store availability, order lifecycle events, financial reconciliation, and webhook subscriptions. Access is not self-serve — a Rappi business contact must approve onboarding, after which partners receive development-environment credentials and an integration path to production. SoftBank-backed since 2019, Rappi competes regionally with iFood, Uber Eats, and DiDi Food, with fintech ambitions overlapping Nubank, Mercado Pago, and regional neobanks.",
@@ -3696,8 +3642,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3728,7 +3674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Alibaba Local Services",
@@ -3747,8 +3693,53 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
+     "name": "All Day Kitchens",
+     "slug": "all-day-kitchens",
+     "description": "All Day Kitchens is a San Francisco-based cloud-kitchen (ghost kitchen) infrastructure company that operates a network of delivery-optimized commissary kitchens, letting restaurant brands expand into new markets and fulfill online delivery orders without building out their own physical locations. Often positioned as a \"Kitchen as a Service\" platform, it pairs shared kitchen capacity with software and operations for order routing, food preparation, and last-mile delivery hand-off. The company was added to the API Evangelist network as an a16z portfolio lead; as of this enrichment pass it publishes only a marketing landing page at www.alldaykitchens.com with no public developer portal, API, documentation, or event surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/all-day-kitchens/refs/heads/main/screenshots/all-day-kitchens-2026-07-25T195634.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3775,10 +3766,10 @@
      "rank": 81
     },
     {
-     "name": "All Day Kitchens",
-     "slug": "all-day-kitchens",
-     "description": "All Day Kitchens is a San Francisco-based cloud-kitchen (ghost kitchen) infrastructure company that operates a network of delivery-optimized commissary kitchens, letting restaurant brands expand into new markets and fulfill online delivery orders without building out their own physical locations. Often positioned as a \"Kitchen as a Service\" platform, it pairs shared kitchen capacity with software and operations for order routing, food preparation, and last-mile delivery hand-off. The company was added to the API Evangelist network as an a16z portfolio lead; as of this enrichment pass it publishes only a marketing landing page at www.alldaykitchens.com with no public developer portal, API, documentation, or event surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/all-day-kitchens/refs/heads/main/screenshots/all-day-kitchens-2026-07-25T195634.png",
+     "name": "AllTaster",
+     "slug": "alltaster",
+     "description": "AllTaster Limited (trading as Taster) is a UK-registered, digital-first food-brand creator that imagines and operates virtual and physical restaurant concepts in collaboration with chefs, creators, and franchise partners, distributed largely through third-party delivery apps and its own consumer mobile apps. Its brand portfolio includes Pepe Chicken, Out Fry, La Vie Dirty Burgers, Sheesh!, and others. As of this enrichment pass the company publishes no public developer API, SDKs, OpenAPI, developer portal, or technical documentation, so no API artifacts could be searched, generated, or derived; this profile captures verified company identity only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alltaster/refs/heads/main/screenshots/alltaster-2026-07-25T195720.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3792,8 +3783,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3820,10 +3811,10 @@
      "rank": 82
     },
     {
-     "name": "AllTaster",
-     "slug": "alltaster",
-     "description": "AllTaster Limited (trading as Taster) is a UK-registered, digital-first food-brand creator that imagines and operates virtual and physical restaurant concepts in collaboration with chefs, creators, and franchise partners, distributed largely through third-party delivery apps and its own consumer mobile apps. Its brand portfolio includes Pepe Chicken, Out Fry, La Vie Dirty Burgers, Sheesh!, and others. As of this enrichment pass the company publishes no public developer API, SDKs, OpenAPI, developer portal, or technical documentation, so no API artifacts could be searched, generated, or derived; this profile captures verified company identity only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alltaster/refs/heads/main/screenshots/alltaster-2026-07-25T195720.png",
+     "name": "Caterwings",
+     "slug": "caterwings",
+     "description": "Caterwings was a European online catering marketplace connecting businesses with local caterers for office and event food ordering, surfaced in the API Evangelist network as a portfolio company of HV Capital. As of the July 2026 enrichment probe the brand appears to be retired: caterwings.com no longer serves a site (AWS S3 responds 403 AllAccessDisabled) and caterwings.de redirects to www.eatfirst.com, the corporate-catering platform operated by B2B Food Group of Berlin, which also runs the EatFirst and Feedr brands. No developer portal, API documentation, OpenAPI definition, SDK package, or GitHub organization could be found for Caterwings; this repo is retained as a historical network record with no live API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caterwings/refs/heads/main/screenshots/caterwings-2026-07-25T204807.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3837,8 +3828,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3865,10 +3856,10 @@
      "rank": 83
     },
     {
-     "name": "Caterwings",
-     "slug": "caterwings",
-     "description": "Caterwings was a European online catering marketplace connecting businesses with local caterers for office and event food ordering, surfaced in the API Evangelist network as a portfolio company of HV Capital. As of the July 2026 enrichment probe the brand appears to be retired: caterwings.com no longer serves a site (AWS S3 responds 403 AllAccessDisabled) and caterwings.de redirects to www.eatfirst.com, the corporate-catering platform operated by B2B Food Group of Berlin, which also runs the EatFirst and Feedr brands. No developer portal, API documentation, OpenAPI definition, SDK package, or GitHub organization could be found for Caterwings; this repo is retained as a historical network record with no live API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caterwings/refs/heads/main/screenshots/caterwings-2026-07-25T204807.png",
+     "name": "Caviar",
+     "slug": "caviar",
+     "description": "Caviar is a premium restaurant food-ordering and delivery marketplace that connects diners with local, higher-end and popular restaurants for on-demand delivery and pickup. Originally launched in 2012 and later owned by Square, Caviar was acquired by DoorDash in 2019 and now operates on DoorDash's logistics and marketplace platform under the trycaviar.com brand. The service focuses on curated restaurant selection, quality-oriented ordering, courier delivery, and catering. Caviar does not publish a public developer API or developer portal; this API Evangelist profile tracks the company as a portfolio lead and captures whatever public, agent-relevant surface exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caviar/refs/heads/main/screenshots/caviar-2026-07-25T204824.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3882,8 +3873,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3910,10 +3901,9 @@
      "rank": 84
     },
     {
-     "name": "Caviar",
-     "slug": "caviar",
-     "description": "Caviar is a premium restaurant food-ordering and delivery marketplace that connects diners with local, higher-end and popular restaurants for on-demand delivery and pickup. Originally launched in 2012 and later owned by Square, Caviar was acquired by DoorDash in 2019 and now operates on DoorDash's logistics and marketplace platform under the trycaviar.com brand. The service focuses on curated restaurant selection, quality-oriented ordering, courier delivery, and catering. Caviar does not publish a public developer API or developer portal; this API Evangelist profile tracks the company as a portfolio lead and captures whatever public, agent-relevant surface exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caviar/refs/heads/main/screenshots/caviar-2026-07-25T204824.png",
+     "name": "Dingdong",
+     "slug": "dingdong",
+     "description": "Dingdong (Dingdong Maicai / 叮咚买菜) is a Shanghai-based on-demand fresh-grocery e-commerce company operating a front-warehouse (dark-store) model that delivers fruit, vegetables, meat, seafood and prepared foods to consumers, typically within about 30 minutes, through its mobile app. The company is publicly listed on the New York Stock Exchange (ticker DDL) and is backed by Hongshan (formerly Sequoia Capital China). Its public surface (ddxq.mobi) is a consumer mobile-app backend rather than a developer platform; no public developer portal, API documentation, or open API program was found during enrichment, and the host is not reachable outside of China.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3927,8 +3917,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3955,9 +3945,10 @@
      "rank": 85
     },
     {
-     "name": "Dingdong",
-     "slug": "dingdong",
-     "description": "Dingdong (Dingdong Maicai / 叮咚买菜) is a Shanghai-based on-demand fresh-grocery e-commerce company operating a front-warehouse (dark-store) model that delivers fruit, vegetables, meat, seafood and prepared foods to consumers, typically within about 30 minutes, through its mobile app. The company is publicly listed on the New York Stock Exchange (ticker DDL) and is backed by Hongshan (formerly Sequoia Capital China). Its public surface (ddxq.mobi) is a consumer mobile-app backend rather than a developer platform; no public developer portal, API documentation, or open API program was found during enrichment, and the host is not reachable outside of China.",
+     "name": "Dingdong Maicai",
+     "slug": "dingdong-maicai",
+     "description": "Dingdong Maicai (叮咚买菜), operated by Shanghai Yibai Mi Network Technology Co., Ltd., is a Chinese on-demand fresh grocery e-commerce and delivery platform. It runs a mobile-app marketplace for fresh produce, meat, seafood, prepared foods, and daily groceries, backed by a network of front-line neighborhood micro-fulfillment stations that enable fast, same-hour delivery in major Chinese cities. The company is publicly listed on the NYSE (ticker DDL) and was backed by SoftBank Vision Fund. It is a consumer-facing operation with no public developer program or open API surface; this profile is a network lead maintained by the API Evangelist enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dingdong-maicai/refs/heads/main/screenshots/dingdong-maicai-2026-07-25T212049.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3971,8 +3962,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3999,10 +3990,10 @@
      "rank": 86
     },
     {
-     "name": "Dingdong Maicai",
-     "slug": "dingdong-maicai",
-     "description": "Dingdong Maicai (叮咚买菜), operated by Shanghai Yibai Mi Network Technology Co., Ltd., is a Chinese on-demand fresh grocery e-commerce and delivery platform. It runs a mobile-app marketplace for fresh produce, meat, seafood, prepared foods, and daily groceries, backed by a network of front-line neighborhood micro-fulfillment stations that enable fast, same-hour delivery in major Chinese cities. The company is publicly listed on the NYSE (ticker DDL) and was backed by SoftBank Vision Fund. It is a consumer-facing operation with no public developer program or open API surface; this profile is a network lead maintained by the API Evangelist enrichment pipeline.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dingdong-maicai/refs/heads/main/screenshots/dingdong-maicai-2026-07-25T212049.png",
+     "name": "DwellSocial",
+     "slug": "dwellsocial",
+     "description": "DwellSocial is a Techstars-backed, Chicago-area community food service that brings iconic city restaurants to suburban neighborhoods. Members browse curated restaurant offerings, place group orders for scheduled dates, and meet for a convenient neighborhood pickup to enjoy city-quality meals at home. The service also runs fundraisers for local causes and non-profits, and currently serves suburbs such as Naperville and Elmhurst. DwellSocial operates as a consumer web and mobile application; no public developer API, OpenAPI, documentation, or well-known discovery surface was found during enrichment (dwellsocial.com serves a JavaScript single-page app and api.dwellsocial.com returns the same marketing site rather than a machine API).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwellsocial/refs/heads/main/screenshots/dwellsocial-2026-07-25T212543.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4016,8 +4007,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4044,10 +4035,10 @@
      "rank": 87
     },
     {
-     "name": "DwellSocial",
-     "slug": "dwellsocial",
-     "description": "DwellSocial is a Techstars-backed, Chicago-area community food service that brings iconic city restaurants to suburban neighborhoods. Members browse curated restaurant offerings, place group orders for scheduled dates, and meet for a convenient neighborhood pickup to enjoy city-quality meals at home. The service also runs fundraisers for local causes and non-profits, and currently serves suburbs such as Naperville and Elmhurst. DwellSocial operates as a consumer web and mobile application; no public developer API, OpenAPI, documentation, or well-known discovery surface was found during enrichment (dwellsocial.com serves a JavaScript single-page app and api.dwellsocial.com returns the same marketing site rather than a machine API).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwellsocial/refs/heads/main/screenshots/dwellsocial-2026-07-25T212543.png",
+     "name": "Eatsii",
+     "slug": "eatsii",
+     "description": "Eatsii is a Jakarta, Indonesia based foodtech startup operating a cloud kitchen platform. It runs a cloud kitchen concept that offers takeaway and delivery alongside dine-in service, and markets cloud kitchen space to F&B operators under a franchise partnership model, positioning itself as helping food and beverage companies run a more efficient kitchen in the food delivery era. The company describes itself as combining a heartfelt touch with data and business strategy, and lists 11-50 employees in Food and Beverage Services. It was surfaced through the 500 Global (500 Durians) portfolio. Eatsii publishes no developer program, public API, or technical documentation, and as of July 2026 its eatsii.com domain does not serve a live website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eatsii/refs/heads/main/screenshots/eatsii-2026-08-07T164656.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4061,8 +4052,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4089,10 +4080,9 @@
      "rank": 88
     },
     {
-     "name": "Eatsii",
-     "slug": "eatsii",
-     "description": "Eatsii is a Jakarta, Indonesia based foodtech startup operating a cloud kitchen platform. It runs a cloud kitchen concept that offers takeaway and delivery alongside dine-in service, and markets cloud kitchen space to F&B operators under a franchise partnership model, positioning itself as helping food and beverage companies run a more efficient kitchen in the food delivery era. The company describes itself as combining a heartfelt touch with data and business strategy, and lists 11-50 employees in Food and Beverage Services. It was surfaced through the 500 Global (500 Durians) portfolio. Eatsii publishes no developer program, public API, or technical documentation, and as of July 2026 its eatsii.com domain does not serve a live website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eatsii/refs/heads/main/screenshots/eatsii-2026-08-07T164656.png",
+     "name": "FreshDish",
+     "slug": "freshdish",
+     "description": "FreshDish (Fresh Dish, Inc.) was a Santa Monica meal-kit delivery startup founded in 2012 by Steve Goldstein (formerly SVP/GM at Provide Commerce, the ProFlowers and Shari's Berries operator). Incubated by Science Inc. and seeded with $500,000 from Battery Ventures, it shipped ready-to-cook dinner kits with chef-designed recipes and pre-portioned ingredients (two-person kits at $24, family-of-four at $32, free shipping). The company was deadpooled and is no longer operating; the freshdish.com domain now resolves to a parked/for-sale lander. It was surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub. FreshDish never operated a developer program, public API, or SDKs, so there is no API surface to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4106,8 +4096,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4134,9 +4124,10 @@
      "rank": 89
     },
     {
-     "name": "FreshDish",
-     "slug": "freshdish",
-     "description": "FreshDish (Fresh Dish, Inc.) was a Santa Monica meal-kit delivery startup founded in 2012 by Steve Goldstein (formerly SVP/GM at Provide Commerce, the ProFlowers and Shari's Berries operator). Incubated by Science Inc. and seeded with $500,000 from Battery Ventures, it shipped ready-to-cook dinner kits with chef-designed recipes and pre-portioned ingredients (two-person kits at $24, family-of-four at $32, free shipping). The company was deadpooled and is no longer operating; the freshdish.com domain now resolves to a parked/for-sale lander. It was surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub. FreshDish never operated a developer program, public API, or SDKs, so there is no API surface to enrich.",
+     "name": "Freshmenu",
+     "slug": "freshmenu",
+     "description": "FreshMenu is a Bengaluru-based full-stack food-technology company that operates its own cloud kitchens and cooks, packages, and delivers a daily-changing menu of fresh gourmet meals directly to consumers. Unlike aggregator marketplaces, FreshMenu owns the end-to-end experience — from culinary R&D and kitchen operations to its consumer ordering website and mobile apps — serving Bengaluru, Mumbai, and the Delhi/NCR region (New Delhi and Gurgaon). The company is backed by Lightspeed Venture Partners and was surfaced into the API Evangelist network as a portfolio lead. It publishes a consumer ordering experience but no public API or developer program; this profile captures its identity and infrastructure posture for the enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshmenu/refs/heads/main/screenshots/freshmenu-2026-07-25T215224.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4150,8 +4141,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4178,10 +4169,9 @@
      "rank": 90
     },
     {
-     "name": "Freshmenu",
-     "slug": "freshmenu",
-     "description": "FreshMenu is a Bengaluru-based full-stack food-technology company that operates its own cloud kitchens and cooks, packages, and delivers a daily-changing menu of fresh gourmet meals directly to consumers. Unlike aggregator marketplaces, FreshMenu owns the end-to-end experience — from culinary R&D and kitchen operations to its consumer ordering website and mobile apps — serving Bengaluru, Mumbai, and the Delhi/NCR region (New Delhi and Gurgaon). The company is backed by Lightspeed Venture Partners and was surfaced into the API Evangelist network as a portfolio lead. It publishes a consumer ordering experience but no public API or developer program; this profile captures its identity and infrastructure posture for the enrichment pipeline.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshmenu/refs/heads/main/screenshots/freshmenu-2026-07-25T215224.png",
+     "name": "Honest Food Company",
+     "slug": "honest-food-company",
+     "description": "Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded in 2017 that produced and delivered food under a portfolio of virtual delivery-only brands (Mamacita, Blattgold, Baba Noni, Beste Freunde, Holy Chicken, Clubkitchen) ordered through its own sites and third-party delivery platforms. Backed by Creandum and Index Ventures, it was acquired by Delivery Hero SE in February 2020 and folded into the Delivery Hero group; it operates no independent public developer/API surface. Added to the API Evangelist network as a Creandum portfolio lead. Sector: consumer / food delivery.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4195,8 +4185,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4223,9 +4213,9 @@
      "rank": 91
     },
     {
-     "name": "Honest Food Company",
-     "slug": "honest-food-company",
-     "description": "Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded in 2017 that produced and delivered food under a portfolio of virtual delivery-only brands (Mamacita, Blattgold, Baba Noni, Beste Freunde, Holy Chicken, Clubkitchen) ordered through its own sites and third-party delivery platforms. Backed by Creandum and Index Ventures, it was acquired by Delivery Hero SE in February 2020 and folded into the Delivery Hero group; it operates no independent public developer/API surface. Added to the API Evangelist network as a Creandum portfolio lead. Sector: consumer / food delivery.",
+     "name": "Jüsto",
+     "slug": "j-sto",
+     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4239,8 +4229,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4267,9 +4257,10 @@
      "rank": 92
     },
     {
-     "name": "Jüsto",
-     "slug": "j-sto",
-     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
+     "name": "Kitch",
+     "slug": "kitch",
+     "description": "Kitch was a Lisbon, Portugal based restaurant technology company founded in 2019 by Rui Bento and Nuno Rodrigues, both former Uber executives for southern Europe. After starting as a delivery-first \"dark kitchen\" operator, Kitch pivoted during the 2020 pandemic into a SaaS platform that let restaurants consolidate and manage digital orders arriving from multiple third-party delivery marketplaces — Glovo, Uber Eats, Bolt Food and Just Eat among them — on a single tablet, alongside their own direct-ordering storefront, so operators could keep control of their menus, pricing and customer identity instead of depending on the aggregator apps. Kitch raised roughly EUR 1 million in pre-seed funding led by Seedcamp and Mustard Seed MAZE, followed by a EUR 3.25 million seed round led by Atlantic Food Labs. The company was acquired by Barcelona-based delivery platform Glovo in a deal signed in January 2022 and announced in March 2022, and the standalone Kitch brand has since been retired. Kitch never published a public developer program: no developer portal, API reference, OpenAPI definition, SDK, or status page was ever published on kitch.io, and none appears in the Internet Archive's record of the domain. The kitch.io domain registration has since lapsed and now resolves to an unrelated third-party gambling site, so no live link is carried in this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitch/refs/heads/main/screenshots/kitch-2026-07-25T223859.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4283,8 +4274,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4311,10 +4302,10 @@
      "rank": 93
     },
     {
-     "name": "Kitch",
-     "slug": "kitch",
-     "description": "Kitch was a Lisbon, Portugal based restaurant technology company founded in 2019 by Rui Bento and Nuno Rodrigues, both former Uber executives for southern Europe. After starting as a delivery-first \"dark kitchen\" operator, Kitch pivoted during the 2020 pandemic into a SaaS platform that let restaurants consolidate and manage digital orders arriving from multiple third-party delivery marketplaces — Glovo, Uber Eats, Bolt Food and Just Eat among them — on a single tablet, alongside their own direct-ordering storefront, so operators could keep control of their menus, pricing and customer identity instead of depending on the aggregator apps. Kitch raised roughly EUR 1 million in pre-seed funding led by Seedcamp and Mustard Seed MAZE, followed by a EUR 3.25 million seed round led by Atlantic Food Labs. The company was acquired by Barcelona-based delivery platform Glovo in a deal signed in January 2022 and announced in March 2022, and the standalone Kitch brand has since been retired. Kitch never published a public developer program: no developer portal, API reference, OpenAPI definition, SDK, or status page was ever published on kitch.io, and none appears in the Internet Archive's record of the domain. The kitch.io domain registration has since lapsed and now resolves to an unrelated third-party gambling site, so no live link is carried in this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitch/refs/heads/main/screenshots/kitch-2026-07-25T223859.png",
+     "name": "Local Kitchens",
+     "slug": "local-kitchens",
+     "description": "Local Kitchens is a restaurant company that operates multi-brand \"food hall\" locations where a single kitchen prepares menu items from a curated set of local and national restaurant brands for on-demand pickup and delivery, ordered through its consumer website and mobile app. Surfaced as a portfolio company of General Catalyst and added to the API Evangelist network for enrichment, it is a consumer-facing hospitality and food-ordering business. As of this pass it does not publish a public developer API, developer portal, or API documentation — its web presence is a Cloudflare-fronted marketing and ordering site (Google Workspace email, Klaviyo, Twilio, Zoom in its DNS records).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/local-kitchens/refs/heads/main/screenshots/local-kitchens-2026-07-25T225429.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4328,8 +4319,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4356,10 +4347,10 @@
      "rank": 94
     },
     {
-     "name": "Local Kitchens",
-     "slug": "local-kitchens",
-     "description": "Local Kitchens is a restaurant company that operates multi-brand \"food hall\" locations where a single kitchen prepares menu items from a curated set of local and national restaurant brands for on-demand pickup and delivery, ordered through its consumer website and mobile app. Surfaced as a portfolio company of General Catalyst and added to the API Evangelist network for enrichment, it is a consumer-facing hospitality and food-ordering business. As of this pass it does not publish a public developer API, developer portal, or API documentation — its web presence is a Cloudflare-fronted marketing and ordering site (Google Workspace email, Klaviyo, Twilio, Zoom in its DNS records).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/local-kitchens/refs/heads/main/screenshots/local-kitchens-2026-07-25T225429.png",
+     "name": "Milano Vice",
+     "slug": "milano-vice",
+     "description": "Milano Vice is a Berlin-based virtual restaurant company founded in 2021 by Rudolf Donauer and Dennis Murselovic (both ex-Delivery Hero) that operates a digitally-powered, delivery-first pizza brand. It partners with professional kitchens across German cities including Berlin, Cologne, Hamburg and Frankfurt to prepare and deliver handmade pizzas and pinsa to homes and offices, orderable through its own website and third-party delivery platforms such as Lieferando, Wolt and Uber Eats. It is a consumer food brand backed by Speedinvest, Coefficient Capital, True and Geschwister Oetker, and does not currently publish a public developer API surface. This profile was added to the API Evangelist network as a portfolio-lead stub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/milano-vice/refs/heads/main/screenshots/milano-vice-2026-08-07T172909.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4373,8 +4364,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4401,10 +4392,10 @@
      "rank": 95
     },
     {
-     "name": "Milano Vice",
-     "slug": "milano-vice",
-     "description": "Milano Vice is a Berlin-based virtual restaurant company founded in 2021 by Rudolf Donauer and Dennis Murselovic (both ex-Delivery Hero) that operates a digitally-powered, delivery-first pizza brand. It partners with professional kitchens across German cities including Berlin, Cologne, Hamburg and Frankfurt to prepare and deliver handmade pizzas and pinsa to homes and offices, orderable through its own website and third-party delivery platforms such as Lieferando, Wolt and Uber Eats. It is a consumer food brand backed by Speedinvest, Coefficient Capital, True and Geschwister Oetker, and does not currently publish a public developer API surface. This profile was added to the API Evangelist network as a portfolio-lead stub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/milano-vice/refs/heads/main/screenshots/milano-vice-2026-08-07T172909.png",
+     "name": "Nextbite",
+     "slug": "nextbite",
+     "description": "Nextbite is a virtual-restaurant / ghost-kitchen company that operates delivery-only food brands out of existing restaurant kitchens, backed by SoftBank Vision Fund. It reaches consumers through third-party delivery marketplaces rather than a public developer platform; its sister restaurant-ordering-aggregation product Ordermark has since merged into UrbanPiper (a DoorDash Preferred Integrations Partner). As of this enrichment pass Nextbite publishes only a thin marketing website (nextbite.com, \"We Put Food on The Table\") and exposes no public API, developer portal, OpenAPI, SDKs, MCP server, or /.well-known discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextbite/refs/heads/main/screenshots/nextbite-2026-08-07T185210.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4418,8 +4409,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4446,10 +4437,10 @@
      "rank": 96
     },
     {
-     "name": "Nextbite",
-     "slug": "nextbite",
-     "description": "Nextbite is a virtual-restaurant / ghost-kitchen company that operates delivery-only food brands out of existing restaurant kitchens, backed by SoftBank Vision Fund. It reaches consumers through third-party delivery marketplaces rather than a public developer platform; its sister restaurant-ordering-aggregation product Ordermark has since merged into UrbanPiper (a DoorDash Preferred Integrations Partner). As of this enrichment pass Nextbite publishes only a thin marketing website (nextbite.com, \"We Put Food on The Table\") and exposes no public API, developer portal, OpenAPI, SDKs, MCP server, or /.well-known discovery surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextbite/refs/heads/main/screenshots/nextbite-2026-08-07T185210.png",
+     "name": "OneKitchen",
+     "slug": "onekitchen",
+     "description": "OneKitchen is a Dubai-based cloud/ghost-kitchen enablement startup founded in 2018 that provided chefs, restaurants, and food entrepreneurs with shared kitchen space, equipment, and operating technology to launch delivery-only restaurant brands in about 48 hours at a fraction of traditional restaurant capital cost. It was backed by 500 Global, Chernovetskyi Investment Group, and Savour Ventures. As of this enrichment pass the company appears dormant - its primary domain joinonekitchen.com no longer resolves to a live product (it now redirects to a domain-sale parking page) and no public developer portal, API, documentation, or other API surface could be found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onekitchen/refs/heads/main/screenshots/onekitchen-2026-08-07T190325.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4463,8 +4454,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4491,10 +4482,9 @@
      "rank": 97
     },
     {
-     "name": "OneKitchen",
-     "slug": "onekitchen",
-     "description": "OneKitchen is a Dubai-based cloud/ghost-kitchen enablement startup founded in 2018 that provided chefs, restaurants, and food entrepreneurs with shared kitchen space, equipment, and operating technology to launch delivery-only restaurant brands in about 48 hours at a fraction of traditional restaurant capital cost. It was backed by 500 Global, Chernovetskyi Investment Group, and Savour Ventures. As of this enrichment pass the company appears dormant - its primary domain joinonekitchen.com no longer resolves to a live product (it now redirects to a domain-sale parking page) and no public developer portal, API, documentation, or other API surface could be found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onekitchen/refs/heads/main/screenshots/onekitchen-2026-08-07T190325.png",
+     "name": "plated",
+     "slug": "plated",
+     "description": "Plated was a meal-kit delivery company surfaced as a portfolio company of Slow Ventures and Techstars and added to the API Evangelist network for enrichment. The company was acquired by Albertsons in 2017 and later wound down; the plated.com domain now 301-redirects to safeway.com, and no independent developer portal, API reference, SDK, or well-known surface remains. This profile records the honest state of a defunct provider with no active API surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4508,8 +4498,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4536,9 +4526,9 @@
      "rank": 98
     },
     {
-     "name": "plated",
-     "slug": "plated",
-     "description": "Plated was a meal-kit delivery company surfaced as a portfolio company of Slow Ventures and Techstars and added to the API Evangelist network for enrichment. The company was acquired by Albertsons in 2017 and later wound down; the plated.com domain now 301-redirects to safeway.com, and no independent developer portal, API reference, SDK, or well-known surface remains. This profile records the honest state of a defunct provider with no active API surface.",
+     "name": "Skipthedishes",
+     "slug": "skipthedishes",
+     "description": "SkipTheDishes is a Canadian online food-delivery marketplace headquartered in Winnipeg, Manitoba, founded in 2012 and acquired by Just Eat (now Just Eat Takeaway.com) in 2016, under which it operates as the group's Canadian brand. It connects diners with local restaurants and a network of independent couriers for on-demand food delivery and pickup across Canadian cities via its consumer website and mobile apps, and runs a restaurant partner onboarding program and a courier (Skip Network) program. As of this enrichment pass SkipTheDishes publishes no public developer API, developer portal, or API documentation. The primary domain is served behind Cloudflare bot protection and the partner/partners subdomains are static marketing/onboarding pages, so no OpenAPI, webhook, or SDK surface is available to harvest.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4552,8 +4542,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4580,9 +4570,9 @@
      "rank": 99
     },
     {
-     "name": "Skipthedishes",
-     "slug": "skipthedishes",
-     "description": "SkipTheDishes is a Canadian online food-delivery marketplace headquartered in Winnipeg, Manitoba, founded in 2012 and acquired by Just Eat (now Just Eat Takeaway.com) in 2016, under which it operates as the group's Canadian brand. It connects diners with local restaurants and a network of independent couriers for on-demand food delivery and pickup across Canadian cities via its consumer website and mobile apps, and runs a restaurant partner onboarding program and a courier (Skip Network) program. As of this enrichment pass SkipTheDishes publishes no public developer API, developer portal, or API documentation. The primary domain is served behind Cloudflare bot protection and the partner/partners subdomains are static marketing/onboarding pages, so no OpenAPI, webhook, or SDK surface is available to harvest.",
+     "name": "SpoonRocket",
+     "slug": "spoonrocket",
+     "description": "SpoonRocket was an on-demand, prepared-meal delivery startup backed by a16z that delivered low-cost ready-to-eat meals on demand. The company has since ceased operations and its spoonrocket.com domain no longer resolves to a live website (AWS Route53 nameservers remain delegated, but there is no A record). It publishes no developer portal, documentation, SDKs, or public API surface. This profile remains in the API Evangelist network as an a16z portfolio lead with no active API to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4596,8 +4586,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4624,9 +4614,10 @@
      "rank": 100
     },
     {
-     "name": "SpoonRocket",
-     "slug": "spoonrocket",
-     "description": "SpoonRocket was an on-demand, prepared-meal delivery startup backed by a16z that delivered low-cost ready-to-eat meals on demand. The company has since ceased operations and its spoonrocket.com domain no longer resolves to a live website (AWS Route53 nameservers remain delegated, but there is no A record). It publishes no developer portal, documentation, SDKs, or public API surface. This profile remains in the API Evangelist network as an a16z portfolio lead with no active API to enrich.",
+     "name": "Sweetgreen",
+     "slug": "sweetgreen",
+     "description": "Sweetgreen is a fast-casual restaurant company (NYSE: SG) building healthy, plant-forward food through a network of company-owned locations and its digital ordering platform. It reaches customers primarily via its consumer website and mobile app for pickup, delivery, and its Sweetgreen Rewards loyalty program, and operates automated \"Infinite Kitchen\" locations. As of this enrichment pass, Sweetgreen publishes no public developer API, developer portal, or machine-readable API specifications; this profile captures its public web presence and probed domain-security posture only. Backed by D1 Capital and True Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sweetgreen/refs/heads/main/screenshots/sweetgreen-2026-09-02T161343.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4640,8 +4631,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4668,10 +4659,10 @@
      "rank": 101
     },
     {
-     "name": "Sweetgreen",
-     "slug": "sweetgreen",
-     "description": "Sweetgreen is a fast-casual restaurant company (NYSE: SG) building healthy, plant-forward food through a network of company-owned locations and its digital ordering platform. It reaches customers primarily via its consumer website and mobile app for pickup, delivery, and its Sweetgreen Rewards loyalty program, and operates automated \"Infinite Kitchen\" locations. As of this enrichment pass, Sweetgreen publishes no public developer API, developer portal, or machine-readable API specifications; this profile captures its public web presence and probed domain-security posture only. Backed by D1 Capital and True Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sweetgreen/refs/heads/main/screenshots/sweetgreen-2026-09-02T161343.png",
+     "name": "TastyUrban",
+     "slug": "tastyurban",
+     "description": "TastyUrban is a Berlin-based virtual restaurant franchise and digital-first food-brand licensing company founded in 2022 by Felix Chrobog, Marc Hansell, and Gerry Pidgeon (alumni of Gorillas, Tier, and Deliveroo). It pursues an asset-light model in which existing restaurants and retail partners license and operate TastyUrban's digital food brands, using otherwise idle kitchen capacity to add revenue without major investment or operational complexity. The company is backed by Earlybird and raised a EUR 1.5M seed round in 2023 and a EUR 6.5M Series A in 2025 (led by IBB Ventures). TastyUrban operates a consumer/partner web presence at tastyurban.com but publishes no public API, developer portal, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastyurban/refs/heads/main/screenshots/tastyurban-2026-09-02T162607.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4685,8 +4676,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4713,11 +4704,11 @@
      "rank": 102
     },
     {
-     "name": "TastyUrban",
-     "slug": "tastyurban",
-     "description": "TastyUrban is a Berlin-based virtual restaurant franchise and digital-first food-brand licensing company founded in 2022 by Felix Chrobog, Marc Hansell, and Gerry Pidgeon (alumni of Gorillas, Tier, and Deliveroo). It pursues an asset-light model in which existing restaurants and retail partners license and operate TastyUrban's digital food brands, using otherwise idle kitchen capacity to add revenue without major investment or operational complexity. The company is backed by Earlybird and raised a EUR 1.5M seed round in 2023 and a EUR 6.5M Series A in 2025 (led by IBB Ventures). TastyUrban operates a consumer/partner web presence at tastyurban.com but publishes no public API, developer portal, or documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastyurban/refs/heads/main/screenshots/tastyurban-2026-09-02T162607.png",
-     "score": 5.0,
+     "name": "Yassir",
+     "slug": "yassir",
+     "description": "Yassir is an Algerian-founded super app providing on-demand and financial services across the Maghreb, sub-Saharan Africa, Canada, and France. Founded in 2017 by Noureddine Tayebi and headquartered in Palo Alto, California with operations centered in Algiers, the company bundles ride-hailing (Yassir Ride), food delivery (Yassir Food), grocery delivery (Yassir Market), and digital financial services (Yassir Cash) into a single consumer mobile app, alongside a Yassir B2B suite covering corporate mobility, meal benefits, procurement, parcel delivery, and digital gift cards. Yassir reports more than six million users, 130,000+ driver and merchant partners, and 4,500 employees operating across cities in Algeria, Morocco, Tunisia, South Africa, Senegal, Canada, and France. The company has raised roughly $193M to date, including a $150M Series B led by BOND with participation from Y Combinator and DN Capital, and a global sponsorship partnership with Paris Saint-Germain. Yassir is a consumer and merchant-facing super app: it operates iOS and Android apps and a business portal (go-business.yassir.com) but does not publish a public developer API, SDK, OpenAPI specification, or open-source project. Driver, courier, restaurant, and store onboarding flow through partner sign-up forms rather than a developer program, and the yassir-tech GitHub organization currently has no public repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yassir/refs/heads/main/screenshots/yassir-2026-06-20T201734.png",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4725,13 +4716,20 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4758,11 +4756,11 @@
      "rank": 103
     },
     {
-     "name": "Yassir",
-     "slug": "yassir",
-     "description": "Yassir is an Algerian-founded super app providing on-demand and financial services across the Maghreb, sub-Saharan Africa, Canada, and France. Founded in 2017 by Noureddine Tayebi and headquartered in Palo Alto, California with operations centered in Algiers, the company bundles ride-hailing (Yassir Ride), food delivery (Yassir Food), grocery delivery (Yassir Market), and digital financial services (Yassir Cash) into a single consumer mobile app, alongside a Yassir B2B suite covering corporate mobility, meal benefits, procurement, parcel delivery, and digital gift cards. Yassir reports more than six million users, 130,000+ driver and merchant partners, and 4,500 employees operating across cities in Algeria, Morocco, Tunisia, South Africa, Senegal, Canada, and France. The company has raised roughly $193M to date, including a $150M Series B led by BOND with participation from Y Combinator and DN Capital, and a global sponsorship partnership with Paris Saint-Germain. Yassir is a consumer and merchant-facing super app: it operates iOS and Android apps and a business portal (go-business.yassir.com) but does not publish a public developer API, SDK, OpenAPI specification, or open-source project. Driver, courier, restaurant, and store onboarding flow through partner sign-up forms rather than a developer program, and the yassir-tech GitHub organization currently has no public repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yassir/refs/heads/main/screenshots/yassir-2026-06-20T201734.png",
-     "score": 3.3,
+     "name": "Noon",
+     "slug": "noon",
+     "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noon/refs/heads/main/screenshots/noon-2026-08-07T185509.png",
+     "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4770,13 +4768,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4810,10 +4808,10 @@
      "rank": 104
     },
     {
-     "name": "Noon",
-     "slug": "noon",
-     "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noon/refs/heads/main/screenshots/noon-2026-08-07T185509.png",
+     "name": "Swoop",
+     "slug": "swoop",
+     "description": "Swoop (formerly Thumo) is an African super-app building toward a single consumer platform for everyday commerce, starting with same-day food delivery and online shopping in Lagos, Nigeria (Yaba, Surulere, Gbagada and surrounding areas) and Eswatini, where it launched in 2025 and became the country's largest ecommerce platform. The app offers real-time order tracking, transparent upfront pricing, in-app support, and payments via card, bank transfer and OPay, with plans to add a payments app and further services on the road to a pan-African super-app. Founded by Thiel Fellow Aubrey Niederhoffer and Edwin Ruiz, Swoop raised a $7.3M seed round in 2026 with participation from Version One Ventures, Long Journey, Variant, Soma Capital and Dune. Swoop is a consumer-facing mobile and web platform; it does not currently publish a public developer API, OpenAPI specification, SDKs, or developer documentation. This profile was surfaced as a Version One Ventures portfolio company and enriched as an identity-only lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swoop/refs/heads/main/screenshots/swoop-2026-09-02T161422.png",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4827,8 +4825,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4860,58 +4858,6 @@
       "agentic_commerce": false
      },
      "rank": 105
-    },
-    {
-     "name": "Swoop",
-     "slug": "swoop",
-     "description": "Swoop (formerly Thumo) is an African super-app building toward a single consumer platform for everyday commerce, starting with same-day food delivery and online shopping in Lagos, Nigeria (Yaba, Surulere, Gbagada and surrounding areas) and Eswatini, where it launched in 2025 and became the country's largest ecommerce platform. The app offers real-time order tracking, transparent upfront pricing, in-app support, and payments via card, bank transfer and OPay, with plans to add a payments app and further services on the road to a pan-African super-app. Founded by Thiel Fellow Aubrey Niederhoffer and Edwin Ruiz, Swoop raised a $7.3M seed round in 2026 with participation from Version One Ventures, Long Journey, Variant, Soma Capital and Dune. Swoop is a consumer-facing mobile and web platform; it does not currently publish a public developer API, OpenAPI specification, SDKs, or developer documentation. This profile was surfaced as a Version One Ventures portfolio company and enriched as an identity-only lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swoop/refs/heads/main/screenshots/swoop-2026-09-02T161422.png",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
     }
    ]
   }

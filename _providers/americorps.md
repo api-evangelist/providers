@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: na
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.3
-  scored_at: '2026-09-02'
+  score: 27.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 9.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -251,7 +251,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 33.2
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,9 +268,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/screenshots/americorps-2026-06-20T171928.png
 security:
 - kind: authentication

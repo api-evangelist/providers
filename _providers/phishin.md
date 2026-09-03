@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A web-based archive of legal live audio recordings of the improvisational rock band Phish
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phishin/refs/heads/main/screenshots/phishin-2026-06-20T191641.png
 security:

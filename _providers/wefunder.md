@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -108,7 +108,7 @@ apis:
   description: The Users API from Wefunder — 1 operation(s) for users.
   name: Wefunder Users API
   slug: wefunder-users-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Wefunder Webhooks
@@ -223,7 +223,7 @@ common:
   url: well-known/wefunder-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wefunder-mcp.yml
 - group: agent
   title: ''
@@ -281,10 +281,6 @@ created: '2026-07-17'
 description: Wefunder is the largest SEC-registered funding portal, the home of the Community Round — a Public Benefit Corporation (YC W13) that has helped 4,400+ founders raise over $1B from more than one million everyday investors since 2012, with notable raises from Mercury, Substack, and Replit. Its OAuth 2.0 Wefunder API v2 (api.wefunder.com) exposes public offerings, investments, campaigns, syndicates, write intents, and campaign attribution with signed webhooks, backed by an official TypeScript SDK (@wefunder/sdk) and PKCE-first authorization.
 image: https://wefunder.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wefunder MCP Server
-  slug: wefunder-mcp-server
 modified: '2026-07-21'
 name: Wefunder
 nav: Providers
@@ -337,8 +333,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/screenshots/wefunder-2026-08-17T082859.png
 security:

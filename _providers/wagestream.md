@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Operations relating to Shifts
   name: Wagestream Shifts API
   slug: wagestream-shifts-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -93,7 +93,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wagestream-mcp.yml
 - group: auth
   title: ''
@@ -215,10 +215,6 @@ created: '2026-08-05'
 description: Wagestream — trading as Stream since its 2025 rebrand — is a UK-founded, B Corp certified workplace financial wellbeing platform that gives hourly and salaried employees earned wage access (flexible pay), shift and pay tracking, workplace savings, budgeting tools, salary-deducted workplace loans, benefits and state-benefit claim support, financial coaching and discounts, delivered as a mobile app funded by the employer rather than the worker. Employers connect their HR, workforce management and payroll systems to Stream through the Wagestream Integrations API — a small, batch-oriented REST push API over employees, shifts (time and attendance), absences, off-cycle payments and Stream-generated enrolment banking records — or via SFTP file feeds and browser upload into the employer administration portal. The API is API-key authenticated, asynchronous (every write returns a transaction id polled through a matching GET), and idempotent through an optional per-request nonce.
 image: https://stream.co/api/media/file/Home_Hero_Left.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wagestream MCP Server
-  slug: wagestream-mcp-server
 modified: '2026-08-05'
 name: Wagestream
 nav: Providers
@@ -257,8 +253,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/screenshots/wagestream-2026-08-17T082831.png
 security:

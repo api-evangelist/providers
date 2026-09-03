@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.utila.io
@@ -71,7 +71,7 @@ apis:
   description: The Wallets API from Utila — 10 operation(s) for wallets.
   name: Utila Wallets API
   slug: utila-wallets-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Utila Webhooks
@@ -237,7 +237,7 @@ common:
   url: asyncapi/utila-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/utila-mcp.yml
 - group: agent
   title: ''
@@ -267,10 +267,6 @@ created: '2026-07-17'
 description: Utila is an institutional digital asset wallet and stablecoin infrastructure platform for fintechs and enterprises. Built on MPC (multi-party computation) key management, it provides secure custody with policy-driven governance, embedded compliance and AML screening, and a resource-oriented REST API for programmatically managing vaults, MPC wallets, addresses, balances, and transactions across many blockchains — including sponsored (gas-abstracted) transfers, transaction simulation, an automated Co-Signer for signing workflows, webhooks, and a first-party CLI.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/utila.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Utila MCP Server
-  slug: utila-mcp-server
 modified: '2026-07-21'
 name: Utila
 nav: Providers
@@ -317,8 +313,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/screenshots/utila-2026-08-17T082701.png
 security:

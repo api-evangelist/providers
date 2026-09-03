@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.sendlane.com/v2
@@ -106,7 +106,7 @@ apis:
   description: The Tags API from Sendlane — 3 operation(s) for tags.
   name: Sendlane Tags API
   slug: sendlane-tags-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Sendlane Webhooks
@@ -214,7 +214,7 @@ common:
   url: packages/sendlane-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sendlane-mcp.yml
 - group: agent
   title: ''
@@ -281,10 +281,6 @@ jsonld:
   property_count: 14
   slug: sendlane-context
 layout: provider
-mcp_servers:
-- description: Sendlane ships no Model Context Protocol server. This is a CANDIDATE tool list derived from the 82 operations in the published OpenAPI, showing what an MCP server over the Sendlane v2 API would expose
-  name: Sendlane MCP Server (candidate)
-  slug: sendlane-mcp-server-candidate
 modified: '2026-08-13'
 name: Sendlane
 nav: Providers
@@ -333,8 +329,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
 security:

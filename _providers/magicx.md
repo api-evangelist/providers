@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Framework-agnostic HTTP API behind the AI Autocomplete SDKs. A single POST /api/suggest endpoint drives keystroke-by-keystroke guided autocomplete over a placeholder-based query model, with a POST /ap
   name: AI Autocomplete API
   slug: ai-autocomplete-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: errors/magicx-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/magicx-mcp.yml
 - group: design
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: MagicX Inc. builds software that lets people take actions instantly from any text box. Its flagship developer product, AI Autocomplete, is a drop-in SDK and HTTP API that turns a blank input into instant intent — guiding users on what to type with roughly 200ms suggestions, delivered as native SDKs for React, Angular, Vanilla JS and Swift or a framework-agnostic HTTP API. Auth uses public, secret, and short-lived access-token keys, and pricing is usage-based per prediction with a SOC 2 enterprise tier. MagicX also ships Hero Assistant, a consumer AI assistant. The company is backed by Forerunner Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magicx.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MagicX MCP Server
-  slug: magicx-mcp-server
 modified: '2026-07-20'
 name: MagicX
 nav: Providers
@@ -165,8 +161,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicx/refs/heads/main/screenshots/magicx-2026-07-25T225856.png
 security:

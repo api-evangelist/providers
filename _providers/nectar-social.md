@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Remote Model Context Protocol server exposing Nectar Social''s social content and analytics to AI agents over JSON-RPC 2.0 (Streamable HTTP). OAuth-protected: an anonymous tools/list returns HTTP 401 w'
@@ -189,8 +189,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

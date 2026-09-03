@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Watchtower API from Interos — 3 operation(s) for watchtower.
   name: Interos Watchtower API
   slug: interos-watchtower-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: overlays/interos-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/interos-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Interos operates an automated supplier-resilience platform that maps and continuously monitors extended, multi-tier supply chains for Fortune 1000 companies and federal agencies. Its cloud-native, multi-tenant SaaS uses AI and a large B2B relationship graph to deliver real-time, multi-domain risk scores and alerts. The public Interos API (REST/JSON, OpenAPI 3.0.2) exposes organization search, organization and risk profiles, the supplier relationship graph, organization groups, custom fields, and scenario watchlists, authenticated with x-api-key and x-customer-id headers. Headquartered in Arlington, Virginia; backed by Kleiner Perkins.
 image: https://logo.clearbit.com/interos.ai
 layout: provider
-mcp_servers:
-- description: ''
-  name: Interos MCP Server
-  slug: interos-mcp-server
 modified: '2026-07-19'
 name: Interos
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png
 security:

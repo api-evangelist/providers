@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.tryoto.com/rest/v2
@@ -136,7 +136,7 @@ apis:
   description: 'WEBHOOK for ORDER There are 3 types of webhook for now, newOrders, orderStatus , shipmentError and walletTransaction. OTO will push updates to the registered webhook endpoint for the orderStatus type '
   name: OTO Global Webhook API
   slug: oto-global-webhook-api
-artifact_total: 45
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Oto Global Webhooks
@@ -308,7 +308,7 @@ common:
   url: well-known/oto-global-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oto-global-mcp.yml
 - group: agent
   title: ''
@@ -330,10 +330,6 @@ created: '2026-07-17'
 description: OTO is a multi-carrier shipping and fulfillment platform for e-commerce businesses, headquartered in Saudi Arabia and serving 10,000+ merchants. It connects a single integration to 450+ shipping carriers and provides order management, warehouse and picking/packing automation, real-time tracking with customer notifications, returns management, address validation, and omnichannel order synchronization. The OTO REST API V2 (base https://api.tryoto.com/rest/v2, staging at staging-api.tryoto.com) exposes 74 operations across orders, shipments, returns, tracking, shipping rates, carrier integrations, pickup locations, products, stock management, sales channels, and webhooks. Authentication is a bearer access_token minted from a dashboard refresh_token.
 image: https://www.tryoto.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: OTO Global MCP Server
-  slug: oto-global-mcp-server
 modified: '2026-07-20'
 name: OTO Global
 nav: Providers
@@ -380,8 +376,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/screenshots/oto-global-2026-08-07T191028.png
 security:

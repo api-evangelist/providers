@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -661,13 +661,13 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: developing
-  composite: 48.0
+  composite: 53.2
   coverage:
     artifact_dirs: 19
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.2
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
@@ -677,9 +677,6 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 48.0
   provenance:
     agentic_access: derived
@@ -694,9 +691,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:
 - kind: authentication

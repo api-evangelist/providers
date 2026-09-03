@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://programming-quotes-api.azurewebsites.net/api
@@ -200,13 +200,13 @@ rules:
   slug: programming-quotes-rules
 score:
   band: emerging
-  composite: 25.9
+  composite: 26.0
   coverage:
     artifact_dirs: 10
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -216,9 +216,6 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 25.9
   provenance:
     contracts:
@@ -226,8 +223,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:

@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 6.0
-  scored_at: '2026-09-02'
+  score: 11.2
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -157,8 +157,8 @@ score:
   previous_composite: 21.4
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/screenshots/ripl-2026-09-02T153845.png
 security:

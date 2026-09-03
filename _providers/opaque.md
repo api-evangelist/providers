@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.<your-subdomain>/v2.5
@@ -93,7 +93,7 @@ apis:
   description: Workspaces
   name: OPAQUE Workspaces API
   slug: opaque-workspaces-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -134,7 +134,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/opaque-mcp.yml
 - group: auth
   title: ''
@@ -241,10 +241,6 @@ description: 'OPAQUE Systems, Inc. is a confidential-AI platform company that le
   services, and high-tech for confidential RAG, secure multi-party analytics, and governed agent execution.'
 image: https://cdn.prod.website-files.com/66d977be14c1ef2f8e88c93c/68cb38f2400045b985a92458_Opaque%20Logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: OPAQUE MCP Server
-  slug: opaque-mcp-server
 modified: '2026-08-04'
 name: OPAQUE
 nav: Providers
@@ -282,8 +278,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:

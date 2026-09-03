@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Cboe LiveVol All Access API is a REST API suite offering quote and trade details for equities and options via live, delayed, and historical endpoints. Endpoint groups cover Market at a Glance (opt
@@ -43,7 +43,7 @@ apis:
 - description: 'Public, unauthenticated JSON endpoints served from cdn.cboe.com that back the delayed-quote pages on cboe.com. Provide delayed quotes and full option chains for equities and Cboe indices (for example '
   name: Cboe Delayed Quotes API
   slug: cboe-delayed-quotes-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -147,7 +147,7 @@ common:
   url: llms/cboe-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cboe-mcp.yml
 - group: auth
   title: ''
@@ -157,10 +157,6 @@ created: '2026-05-05'
 description: Cboe Global Markets is one of the world's largest exchange holding companies, operating options, futures, equities, and FX markets including the Cboe Options Exchange, home of the VIX Index and SPX options. Cboe offers market data programmatically through the Cboe DataShop platform and the LiveVol All Access API — a REST API suite covering real-time, delayed, and historical options and equities quotes and trades, Greeks and implied volatility analytics, earnings events, custom market scanners, and trade review — secured with OAuth 2.0 via the LiveVol identity service, plus free public delayed-quote JSON endpoints that back cboe.com quote pages.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cboe.png
 layout: provider
-mcp_servers:
-- description: No official Cboe or LiveVol MCP server was found (docs, npm, MCP registries). This is a candidate tool list derived from documented Cboe LiveVol All Access API endpoints — one tool per documented endp
-  name: Cboe Global Markets MCP Server
-  slug: cboe-global-markets-mcp-server
 modified: '2026-07-22'
 name: Cboe Global Markets
 nav: Providers
@@ -211,8 +207,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png
 security:

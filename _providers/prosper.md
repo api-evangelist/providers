@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
   name: Prosper Investor API
   slug: prosper-investor-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Prosper Marketplace operates one of the largest peer-to-peer (marketplace) lending platforms in the United States, matching individual and institutional investors with consumers seeking personal loans, and also offering a HELOC and a credit-card product. For investors, Prosper publishes a RESTful Investor API that lets individual, institutional, and third-party agents connect directly to the platform to view account balances, search active loan listings, place orders (bids) to purchase Notes, and track owned Notes, loans, and payments. The API uses OAuth 2.0 over SSL with comprehensive filtering and sorting, and offers a sandbox environment for integration testing. This profile was surfaced as a portfolio company of Emergence Capital, IVP, and QED Investors and enriched from Prosper's public developer documentation.
 image: https://www.prosper.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Prosper MCP Server
-  slug: prosper-mcp-server
 modified: '2026-07-20'
 name: Prosper
 nav: Providers
@@ -161,8 +157,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/screenshots/prosper-2026-09-02T152212.png
 security:

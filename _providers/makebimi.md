@@ -32,14 +32,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single unauthenticated endpoint that validates a remotely hosted SVG for BIMI suitability (SVG Tiny P/S). Described by the provider's own llms.txt as "the unauthenticated SVG validation endpoint", con
   name: makeBIMI SVG Validation API
   slug: makebimi-validation-api
-artifact_total: 1
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/makebimi-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: security/makebimi-security.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/makebimi-plans-pricing.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/makebimi-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/makebimi-domain-security.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -67,27 +87,31 @@ common:
 created: '2026-08-21'
 description: makeBIMI is a free web tool for preparing and validating brand logos for BIMI (Brand Indicators for Message Identification). It converts supported image inputs to SVG Tiny P/S, checks SVG suitability, audits a domain's DMARC configuration, and suggests a BIMI DNS TXT record. It does not issue certificates and does not guarantee mailbox-provider logo display. The public API is a single unauthenticated endpoint, GET /api/validate, for validating a remotely hosted SVG in an automated workflow. Operated alongside veriBIMI, an independent BIMI certificate-brokerage and implementation-support service, and DMARCSwiss, a Swiss-hosted DMARC monitoring service.
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-03'
 name: makeBIMI
 nav: Providers
 network: true
 overview: 'makeBIMI publishes 1 API on the [APIs.io](https://apis.io/) network: SVG Validation API. Tagged areas include BIMI, DMARC, Email Authentication, SVG, and brand indicators.
 
 
-  makeBIMI''s developer surface includes documentation, support, and 4 more developer resources.'
+  makeBIMI''s developer surface includes documentation, support, and 9 more developer resources.'
+plans:
+- name: Makebimi Plans Pricing
+  plan_count: 1
+  slug: makebimi-plans-pricing
 random_paper: 12
 score:
   band: emerging
-  composite: 18.7
+  composite: 22.9
   coverage:
-    artifact_dirs: 4
-    catalog_gap: 80.0
+    artifact_dirs: 5
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 5.3
-    commercial_clarity: 5.3
+    access_clarity: 26.3
+    commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 26.7
     developer_ergonomics: 11.9
@@ -95,10 +119,19 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/screenshots/makebimi-2026-09-02T150427.png
+security:
+- kind: domain-security
+  name: Makebimi Domain Security
+  slug: makebimi-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Makebimi Vulnerability Disclosure
+  slug: makebimi-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: makebimi
 tags:
 - BIMI

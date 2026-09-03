@@ -7,6 +7,8 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://amplify.asce.org/'', ''status'': 302, ''note'': ''declared website redirects to https://idp.sams-sigma.com/authorize?client_id=ASCE&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//amplify.asce.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.Dt8ycQ8ri4c4NqsHac831uiw1tZYvKtHlVoSLOVtX86qJ1ZmmJy1B70AK-b4xnBlDAV3BimhIYkOMeDXY8jEfus3rMYDriDtV_ZlyvIXpsUa4K08mkVJVcWrb9qFYUp8u-PqYIaHfIJoopByDEEg5bpbGAXOUJy5cdzW219i9wYthOlkRA5S5d9boU4Fl5msqsLi3JSUwgte1PdKAzgmJDaSbsB-u3AI1eEzdsk0b6pAVgyKBgvQyRjwwAcJmjqHK-o-9KU930THbpMmrAc73xEIZkW5FXRwU3MUkv5jTiKwl5dwGLfuutbcjuFeSCFTVZjd6vEnujuLl06a04EThw._90E37JZ3GbJsves.ONYVg_sogJsLmlYA3ylW-q14U5ZtlM9iK7YVgL3nJ8rf5rHdJ6Uzbl5fXEU8KqSsAYHQVp6-er-KJlb0GMrIvY_S3WvteoeAr1w9ENdOgIEw86FhBv6k5Esv5aTSgxxTC_4H7VR4sUBzf_Nt0ZCr74Va3urUYUn-xZXl7nNUyebhFzOqrhNmqyd6T_cbix93RX_08a5VP5kAVA.3la3dUfVSZi3vFhnqQeWpA&ip_address=2600%3A4040%3A9270%3Ac700%3Af5db%3Ae0be%3A34ee%3A3beb&referrer_url&prompt=none&openid_connect_destination=/%3Fimplicit-login%3Dtrue&state=%257B%2522token%2522%253A%25220HgmY4HObONCcrndKH6SvPdkC0f4JHgaCTZRt9-IrSM%2522%252C%2522destination%2522%253A%2522%255C%252F%253Fimplicit-login%253Dtrue%2522%257D&shibboleth_dest=https%3A//amplify.asce.org/openid-connect/sams-sigma/login-redirect&shibboleth=true
+    — a different registrable domain (asce.org -> sams-sigma.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The ASCE Hazard Tool API provides a simple interface to query locations in the United States for environmental hazard data by geographic location. It provides site-specific hazard values used in struc
@@ -113,8 +115,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 14.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/screenshots/asce-amplify-2026-06-20T172456.png
 security:

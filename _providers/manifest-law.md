@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic surface behind ManifestOS, gated by the Manifest Law OAuth 2.0 / OpenID Connect authorization server (issuer https://app.manifestlaw.com/api/auth, `api` scope).
@@ -112,8 +112,8 @@ score:
   previous_composite: 13.5
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/screenshots/manifest-law-2026-07-25T230049.png
 security:

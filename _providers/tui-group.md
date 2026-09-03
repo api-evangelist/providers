@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -612,7 +612,7 @@ apis:
   description: The watchList API from TUI Group — 4 operation(s) for watchlist.
   name: TUI Group Watch List API
   slug: tui-group-watchlist-api
-artifact_total: 140
+artifact_total: 139
 collections:
 - collection_type: open
   name: TravelMessage.v31
@@ -733,7 +733,7 @@ common:
   url: overlays/tui-group-tui-ship-content-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tui-group-mcp.yml
 - group: agent
   title: ''
@@ -904,10 +904,6 @@ description: 'TUI Group is the world''s largest integrated leisure tourism busin
   front TUI runs a real, publicly readable developer portal at developer.tui fronted by Apigee X, with 21 documented API products covering flight shopping and booking, departure control, packages, accommodation content, cruise and metasearch distribution. The documentation is genuinely open — base URLs, endpoints, auth flows, quota tiers, downloadable Postman collections and a public OpenAPI 3.0 document for every one of the 21 products (1,261 operations in total, served from the portal''s Swagger UI) are all published without a login — but the runtime is not: every API product requires a partner-manager approval, most airline APIs additionally require a Navitaire New Skies agent profile and a production IP whitelist, and the TUI fly OTA API states plainly that step one is to conclude a contract. There is no self-serve key, no published developer terms of use (the portal''s terms page is still unfilled lorem-ipsum placeholder text), no idempotency contract on any booking or payment operation,
   no status page, no event or webhook surface, and no documented bulk-export or data-portability operation for a departing partner.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: TUI Group MCP Server
-  slug: tui-group-mcp-server
 modified: '2026-07-28'
 name: TUI Group
 nav: Providers
@@ -955,8 +951,8 @@ score:
       total: 113
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png
 security:

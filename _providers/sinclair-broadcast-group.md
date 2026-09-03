@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://sbgi.net/wp-json
@@ -77,7 +77,7 @@ apis:
   description: Categories and tags that classify press releases.
   name: Sinclair, Inc. Taxonomy API
   slug: sinclair-broadcast-group-taxonomy-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: Sinclair Corporate Content API
@@ -93,7 +93,7 @@ common:
   url: overlays/sinclair-broadcast-group-content-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sinclair-broadcast-group-mcp.yml
 - group: auth
   title: ''
@@ -193,10 +193,6 @@ integrations:
 - description: ONE Media works with consumer-electronics OEMs, station groups, and standards bodies to commercialize NextGen TV.
   name: ATSC 3.0 Industry Partners
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sinclair, Inc. MCP Server
-  slug: sinclair-inc-mcp-server
 modified: '2026-08-12'
 name: Sinclair, Inc.
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:

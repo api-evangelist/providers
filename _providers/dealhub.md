@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 21
 apis:
 - baseURL: https://api.dealhub.io
@@ -619,8 +620,8 @@ score:
       total: 63
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:

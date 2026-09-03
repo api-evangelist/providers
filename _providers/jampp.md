@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'GraphQL reporting API for Jampp advertisers. The pivot query returns funnel metrics — impressions, clicks, spend, installs, events, CPC/CPM/CTR/CPI/CPA/ROAS — grouped by any combination of documented '
@@ -205,8 +205,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/screenshots/jampp-2026-09-02T145930.png
 security:

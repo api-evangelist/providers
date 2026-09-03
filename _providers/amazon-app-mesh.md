@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Untag#resourceArn API from Amazon App Mesh — 1 operation(s) for untag#resourcearn.
   name: Amazon App Mesh Untag#resourceArn API
   slug: amazon-app-mesh-untag-resourcearn-api
-artifact_total: 999
+artifact_total: 998
 collections:
 - collection_type: open
   name: API Collection
@@ -87,7 +87,7 @@ common:
   url: capabilities/amazon-app-mesh-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-app-mesh-mcp.yml
 - group: other
   title: ''
@@ -3124,10 +3124,6 @@ jsonld:
   property_count: 1
   slug: amazon-app-mesh-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon App Mesh MCP Server
-  slug: amazon-app-mesh-mcp-server
 modified: '2026-06-20'
 name: Amazon App Mesh
 nav: Providers
@@ -3190,8 +3186,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

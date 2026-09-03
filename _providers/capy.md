@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -103,7 +103,7 @@ apis:
   description: The usage API from Capy — 1 operation(s) for usage.
   name: Capy usage API
   slug: capy-usage-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -223,7 +223,7 @@ common:
   url: https://trust.capy.ai
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/capy-mcp.yml
 - group: agent
   title: ''
@@ -257,10 +257,6 @@ created: '2026-07-17'
 description: Capy is an AI software-engineering platform that orchestrates a fleet of cloud coding agents inside the apps a team already uses (Slack, Linear, GitHub). Each task runs in its own isolated Ubuntu VM where a captain agent plans and build agents execute — writing code, running end-to-end browser tests, migrating codebases, generating docs, triaging and fixing bugs, and opening pull requests for review. Capy supports multiple frontier models (GPT, Claude, Grok, Gemini) and exposes a REST API (bearer capy_ token) plus scheduled and webhook-triggered automations. Backed by CRV; SOC 2 Type II certified.
 image: https://capy.ai/_marketing/opengraph-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Capy MCP Server
-  slug: capy-mcp-server
 modified: '2026-07-18'
 name: Capy
 nav: Providers
@@ -299,8 +295,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/screenshots/capy-2026-07-25T204458.png
 security:

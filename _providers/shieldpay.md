@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API to manage payment workflows end to end — create projects, manage payers and payees, run KYC verification, and authorise payments to disburse funds securely. Secured with mTLS + API key + RSA-
@@ -201,8 +201,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/screenshots/shieldpay-2026-08-17T081831.png
 security:

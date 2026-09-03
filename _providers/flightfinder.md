@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 30.3
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST/JSON over the merged corpus. 17 paths / 18 operations in the served OpenAPI 3.0.3. Keyless GET tier, CORS open, RateLimit-* headers on every response, per-record licence and attribution.
@@ -158,6 +183,35 @@ rate_limits:
 - limit_count: 4
   name: Flightfinder Rate Limits
   slug: flightfinder-rate-limits
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  facets:
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 70.8
+    discoverability: 87.0
+    governance: 0.0
+    operational_transparency: 31.6
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
 security:
 - kind: authentication
   name: Flightfinder Authentication

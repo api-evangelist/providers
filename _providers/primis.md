@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -103,7 +103,7 @@ apis:
   description: User API
   name: PRIMIS User API
   slug: primis-user-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: capabilities/primis-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/primis-mcp.yml
 - group: other
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: Primis (Primis CX) is a post-purchase customer experience platform for eCommerce retailers, headquartered in the UK and backed by 500 Global. Its products — Primis Track (branded order tracking), Primis Ship (discounted multi-carrier shipping), Primis Returns (label-less returns processing), and Primis International (cross-border logistics across 120+ carriers) — reduce "where is my order?" support volume and drive repeat purchases. Primis exposes a REST API (OpenAPI 3.0.0, 42 operations) over HTTPS with bearer-token authentication, covering retailers, orders, shipments, products, campaigns, billing, users, tracking pages, FAQs, and documents, and integrates with Shopify, BigCommerce, Adobe Commerce/Magento, WooCommerce, and carriers such as DPD, DHL, USPS, Evri, UPS, and FedEx.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primis.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PRIMIS MCP Server
-  slug: primis-mcp-server
 modified: '2026-07-20'
 name: PRIMIS
 nav: Providers
@@ -254,8 +250,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/screenshots/primis-2026-09-02T152023.png
 security:

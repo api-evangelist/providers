@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - security
   trial: false
   try_now: false
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -156,8 +157,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 13.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hungry/refs/heads/main/screenshots/hungry-2026-09-02T145759.png
 security:

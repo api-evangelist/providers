@@ -1,12 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Adverity Management API provides programmatic access to the Adverity platform for managing datastreams, authorizations, fetches, transformations, data mappings, destinations, workspaces, and users
@@ -241,8 +245,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/screenshots/adverity-2026-07-25T181708.png
 security:

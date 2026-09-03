@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -114,7 +114,7 @@ apis:
   description: The RefillOrder API from MedAdvisor — 14 operation(s) for refillorder.
   name: MedAdvisor Refill Order API
   slug: medadvisor-refillorder-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: Pharmacy Unified API v2.0
@@ -173,7 +173,7 @@ common:
   url: security/medadvisor-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/medadvisor-mcp.yml
 - group: build
   title: ''
@@ -240,10 +240,6 @@ description: MedAdvisor (MedAdvisor Solutions) is an Australian-founded, ASX-lis
   eCommerce integrations. Authentication is a JWT bearer token obtained via a clientId/clientSecret plus Base64-encoded pharmacy credentials exchange; the surface is HL7/HTTP REST rather than HL7 FHIR - no public FHIR CapabilityStatement or SMART-on-FHIR configuration is served. Home market is Australia, positioned as the dominant community-pharmacy engagement layer sitting between dispense systems, pharmaceutical programs, and patients.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: MedAdvisor MCP Server
-  slug: medadvisor-mcp-server
 modified: '2026-07-24'
 name: MedAdvisor
 nav: Providers
@@ -294,8 +290,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png
 security:

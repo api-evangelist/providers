@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.5
-  scored_at: '2026-09-02'
+  score: 29.7
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping APIs. Files use the .apib extension with media type text/vnd.apiblueprint
@@ -44,7 +44,7 @@ apis:
   description: The API Blueprint API is the parsing service operated at api.apiblueprint.org by the API Blueprint project. It parses API Blueprint and Swagger 2.0 documents into the Refract Parse Result Namespace (A
   name: API Blueprint API
   slug: api-blueprint-api
-artifact_total: 21
+artifact_total: 20
 common:
 - group: operate
   title: ''
@@ -112,7 +112,7 @@ common:
   url: rate-limits/api-blueprint-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/api-blueprint-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ json_schemas:
   property_count: 0
   slug: api-blueprint-api-elements-element
 layout: provider
-mcp_servers:
-- description: ''
-  name: API Blueprint MCP Server
-  slug: api-blueprint-mcp-server
 modified: '2026-09-02'
 name: API Blueprint
 nav: Providers
@@ -197,13 +193,13 @@ rate_limits:
   slug: api-blueprint-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 41.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 21.5
+  delta: 1.7
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -213,10 +209,7 @@ score:
     discoverability: 59.3
     governance: 4.5
     operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 18.7
+  previous_composite: 40.2
   provenance:
     conformance: derived
     contracts:
@@ -226,9 +219,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/screenshots/api-blueprint-2026-06-20T172201.png
 security:
 - kind: authentication

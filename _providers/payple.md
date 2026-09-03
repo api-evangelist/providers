@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Payple REST payment API (v2) for card, bank-account, recurring/billing-key, link, verification, and payout (Hub) operations, plus the hosted payment window.
@@ -188,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/screenshots/payple-2026-08-07T191656.png
 security:

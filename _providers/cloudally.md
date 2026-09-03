@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.cloudally.com'', ''status'': 301, ''note'': ''declared website redirects to https://cybersecurity.opentext.com/legacy/cloudally/ — a different registrable domain (cloudally.com -> opentext.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -254,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/screenshots/cloudally-2026-06-20T174540.png
 security:

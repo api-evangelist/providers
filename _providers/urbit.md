@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The HTTP interface of every Urbit ship, served by the Eyre kernel vane. Clients authenticate by POSTing the ship's web login code to /~/login for an urbauth session cookie, then interact through chann
@@ -188,8 +188,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/screenshots/urbit-2026-09-02T165214.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.wayflyer.com/financing/
@@ -96,7 +96,7 @@ apis:
   description: The User Details API from Wayflyer — 4 operation(s) for user details.
   name: Wayflyer User Details API
   slug: wayflyer-user-details-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +212,7 @@ common:
   url: data-model/wayflyer-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wayflyer-mcp.yml
 - group: agent
   title: ''
@@ -266,10 +266,6 @@ created: '2026-07-17'
 description: Wayflyer provides revenue-based financing and growth capital for e-commerce businesses, and exposes its funding products to software platforms through the Hosted Capital / Embedded Finance API. Partners upload anonymized merchant revenue data to generate personalised indicative offers, render a Wayflyer CTA banner in their own UI, and run the full funding application as an embedded (v5) or hosted (v4 legacy) journey — with JavaScript UI and headless SDKs on npm, a production-parity sandbox with application-state simulation, and OpenAPI 3.1 contracts published on a Kong Konnect developer portal at docs.wayflyer.com.
 image: https://avatars.githubusercontent.com/u/56260407
 layout: provider
-mcp_servers:
-- description: Wayflyer publishes no official MCP server (none found in the docs portal, the wayflyer GitHub org, npm @wf-financing/@wayflyer scopes, or the MCP registries at probe time). This is a CANDIDATE tool li
-  name: Wayflyer MCP Server
-  slug: wayflyer-mcp-server
 modified: '2026-07-21'
 name: Wayflyer
 nav: Providers
@@ -307,8 +303,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/screenshots/wayflyer-2026-08-17T082841.png
 security:

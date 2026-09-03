@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-09-02'
+  score: 42.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,6 +45,11 @@ agentic_access:
   summary_line: 64 operations · 1 acting
 api_count: 18
 apis:
+- baseURL: https://apis.io
+  baseurl_source: declared
+  description: Discover a domain's machine-readable API surface and submit a provider for review — the Add-API door, documented first-party from the serving Lambda.
+  name: APIs.io Submit API
+  slug: apisio-submit-api
 - baseURL: https://apis.io/api/v1
   baseurl_source: declared
   description: Index of HTTP application programming interfaces.
@@ -100,12 +105,36 @@ apis:
   description: The tag taxonomy, with network-wide ranking metadata.
   name: APIs.io Tags API
   slug: apis-io-tags-api
-- description: Any scored population of providers — a tag, industry, region, area, or VC portfolio — with the distribution, rankings, facet scores, and capability matrix that a Trend or Portfolio Report is built fro
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Any scored population of providers — a tag, industry, region, area, or VC portfolio — with the distribution, rankings, facet scores, and capability matrix that a Trend or Portfolio Report is built fro
   name: APIs.io Cohorts API
   slug: apis-io-cohorts-api
-- description: Story leads mined from catalog movement (owner tier). 1 operation of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Story leads mined from catalog movement (owner tier). 1 operation of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
   name: APIs.io Editorial API
   slug: apis-io-editorial-api
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Bulk dataset pulls of the catalog — ratings and providers as one download (Business tier). 2 operations of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its o
+  name: APIs.io Export API
+  slug: apis-io-export-api
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Agent ergonomics — resolve any identifier (domain, URL, GitHub org) to a provider, and enrich a provider in one call by choosing field groups. 2 operations of the APIs.io API, split out by tag so this
+  name: APIs.io Resolve & Enrich API
+  slug: apis-io-resolve-enrich-api
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Saved searches and provider lists for a signed-in apis.io API key — save a query, re-run it, and watch what is net-new. 10 operations of the APIs.io API, split out by tag so this surface is documented
+  name: APIs.io Saved Workspace API
+  slug: apis-io-saved-workspace-api
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Venture-capital firms as a first-class entity — fund identity plus a network-matched, rated portfolio graph, and the reverse edge from a provider to the VCs that back it. 4 operations of the APIs.io A
+  name: APIs.io Venture Capital API
+  slug: apis-io-venture-capital-api
 arazzos:
 - description: Run two keyword searches against APIs.io and compare how many APIs the index holds for each term.
   name: APIs.io Compare Keyword Coverage
@@ -119,7 +148,7 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 107
+artifact_total: 112
 collections:
 - collection_type: postman
   name: .io Search APIs API
@@ -589,7 +618,7 @@ modified: '2026-08-20'
 name: APIs.io
 nav: Providers
 network: true
-overview: 'APIs.io publishes 13 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Areas API, Artifact Types API, and 10 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
+overview: 'APIs.io publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Submit API, APIs API, Areas API, and 15 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
 
 
   The APIs.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -616,31 +645,31 @@ rules:
     info: 2
     warn: 3
   slug: apis-io-jsonschema-spectral-rules
-- effective_rule_count: 83
+- effective_rule_count: 112
   extends:
   - spectral:oas
   name: APIs.io API Rules
-  rule_count: 42
+  rule_count: 71
   severity_counts:
-    error: 13
+    error: 48
     hint: 0
-    info: 6
+    info: 0
     warn: 23
   slug: apis-io-spectral-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 71.5
   coverage:
     artifact_dirs: 32
     catalog_gap: 17.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 33.3
-    contract_quality: 68.3
+    contract_quality: 70.3
     developer_ergonomics: 71.4
     discoverability: 92.6
     governance: 33.3
@@ -656,8 +685,8 @@ score:
       total: 18
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-09-02T172139.png
 security:

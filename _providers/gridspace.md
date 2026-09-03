@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ arazzos:
 - description: Send an SMS from a Guava number, then poll the inbox for the recipient's reply.
   name: Send an SMS and poll for the reply
   slug: gridspace-send-and-poll-sms
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: postman
   name: Guava Voice Agent REST Conversations API
@@ -208,7 +208,7 @@ common:
   url: sandbox/gridspace-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gridspace-mcp.yml
 - group: agent
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: Gridspace is a voice AI company (founded 2013) that now operates as Guava (goguava.ai) — a voice agent platform built for regulated industries such as healthcare, banking, insurance, BPOs, and government. Guava provides an end-to-end conversational voice stack (ASR, LLM, TTS, plus compliance guardrails) exposed through Python, TypeScript, and Elixir SDKs, a "guava" CLI, a managed cloud deployment platform, and a REST API for managing conversations, transcripts, recordings, and SMS. It supports inbound and outbound calling over WebRTC and SIP, with SOC 2 Type II, HITRUST i1, and PCI DSS posture and built-in TCPA / A2P 10DLC / SHAKEN-STIR telephony compliance workflows. The legacy gridspace.com domain now redirects to goguava.ai.
 image: https://goguava.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gridspace MCP Server
-  slug: gridspace-mcp-server
 modified: '2026-07-19'
 name: Gridspace
 nav: Providers
@@ -298,8 +294,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/screenshots/gridspace-2026-07-25T220327.png
 security:

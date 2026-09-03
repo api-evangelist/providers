@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Public REST API for the Favro planning and collaboration platform: manage organizations, collections, widgets, columns, cards, tasks, tasklists, comments, tags, custom fields, groups, users, and webho'
   name: Favro API
   slug: favro-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Favro Webhooks
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Favro is a cloud planning and collaboration platform for agile teams, combining planning boards, backlogs, sprint/kanban widgets, roadmaps, and OKR/portfolio management in a single organization-scoped workspace. Its public REST API (https://favro.com/api/v1) exposes organizations, collections, widgets, columns, cards, tasks, tasklists, comments, tags, custom fields, groups, users, and webhooks, authenticated with HTTP Basic auth using an email plus a revocable API token. The API supports request-id cursor pagination, per-plan token-bucket rate limiting with X-RateLimit-* headers, backend-affinity routing via the X-Favro-Backend-Identifier header, outbound webhooks for card and comment events, and SCIM 1.1/2.0 user and group provisioning. Favro is SaaS, backed by Creandum.
 image: https://cdn.prod.website-files.com/5eb8d3f3c300199312debf24/6036cf2c15bbbca169cec61a_meta2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Favro MCP Server
-  slug: favro-mcp-server
 modified: '2026-07-19'
 name: Favro
 nav: Providers
@@ -143,8 +139,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/favro/refs/heads/main/screenshots/favro-2026-07-25T214254.png
 security:

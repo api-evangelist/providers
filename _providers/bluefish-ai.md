@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A live, first-party remote Model Context Protocol server that makes the Bluefish AI platform callable by agents over Streamable HTTP. It is protected by OAuth 2.1 and requires the mcp:connect scope; a
@@ -155,8 +155,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluefish-ai/refs/heads/main/screenshots/bluefish-ai-2026-07-25T203448.png
 security:

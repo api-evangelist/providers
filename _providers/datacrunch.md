@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://datacrunch.io'', ''status'': 301, ''note'': ''declared website redirects to https://verda.com/ — a different registrable domain (datacrunch.io -> verda.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -240,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/screenshots/datacrunch-2026-07-25T211313.png
 security:

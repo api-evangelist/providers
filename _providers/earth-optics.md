@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Private REST API backing the EarthOptics customer application (360 PRO dashboard) at app.earthoptics.com. Served from api.earthoptics.com on gunicorn behind Django REST Framework, with a drf-spectacul
@@ -179,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earth-optics/refs/heads/main/screenshots/earth-optics-2026-08-07T164636.png
 security:

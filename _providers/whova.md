@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Modeled view of Whova's attendee integration surface. Whova exposes attendee data to organizers only through the Zapier CRM integration - a Get Attendees trigger that fires when the attendee list chan
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whova/refs/heads/main/screenshots/whova-2026-09-02T170731.png
 security:

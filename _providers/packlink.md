@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Create shipments, print labels, and track parcels.
   name: Packlink Shipments API
   slug: packlink-shipments-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Packlink Webhooks
@@ -151,7 +151,7 @@ common:
   url: agentic-access/packlink-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/packlink-mcp.yml
 - group: design
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-17'
 description: Packlink is a multi-carrier shipping comparison and management platform for e-commerce, founded in Spain and backed by Accel. It lets individuals and businesses compare courier services (UPS, DPD, DHL, Evri, Royal Mail and more) and send parcels nationally and internationally at negotiated rates. Its Packlink PRO product adds a business shipping dashboard with marketplace and e-commerce integrations (Shopify, WooCommerce, Magento, PrestaShop, Amazon, eBay). The Packlink PRO Shipping API (api.packlink.com) exposes service comparison, shipment creation, label printing, parcel tracking, warehouse management, customs invoicing, and integration management, and Packlink maintains open-source e-commerce integration modules on GitHub.
 image: http://www.packlink.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Packlink MCP Server
-  slug: packlink-mcp-server
 modified: '2026-07-20'
 name: Packlink
 nav: Providers
@@ -252,8 +248,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:

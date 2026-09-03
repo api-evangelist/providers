@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-09-02'
+  score: 34.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -715,8 +715,8 @@ score:
       total: 98
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png
 security:

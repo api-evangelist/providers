@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -100,7 +100,7 @@ arazzos:
 - description: Discover providers, create a managed service, and confirm it is running.
   name: Provision a Codesphere managed service
   slug: codesphere-provision-managed-service
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -222,7 +222,7 @@ common:
   url: packages/codesphere-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/codesphere-mcp.yml
 - group: agent
   title: ''
@@ -284,10 +284,6 @@ created: '2026-07-17'
 description: Codesphere is a European-built sovereign cloud platform that lets organizations deploy and operate applications across on-premises, hybrid, and public-cloud infrastructure from a single control layer, without Kubernetes expertise or vendor lock-in. Its Public API manages workspaces, CI/deploy pipelines, landscapes, managed services (PostgreSQL, Valkey, OpenSearch, RabbitMQ, DocumentDB, object storage, virtual Kubernetes clusters), custom domains, teams, organizations, secret vaults, SSH keys, and usage. A first-party `cs` CLI, a Go managed-services SDK, a GitHub deploy Action, and a VS Code extension wrap the same REST contract. Codesphere is ISO 27001 certified and SOC 1 & 2 attested. Surfaced as a portfolio company of Creandum and enriched from its own public developer surface.
 image: https://avatars.githubusercontent.com/u/66959440?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Codesphere MCP Server
-  slug: codesphere-mcp-server
 modified: '2026-07-18'
 name: Codesphere
 nav: Providers
@@ -326,8 +322,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
 security:

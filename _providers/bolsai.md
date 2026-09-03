@@ -10,6 +10,31 @@ access_model:
   - https://usebolsai.com/#playground
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 25.2
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST/JSON API for Brazilian financial-market data — equities, FIIs, fundamentals, dividends, financial statements, and macro series. Authenticated via X-API-Key header.
@@ -70,6 +95,44 @@ rate_limits:
 - limit_count: 2
   name: Bolsai Rate Limits
   slug: bolsai-rate-limits
+score:
+  band: thin
+  composite: 34.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 25.2
+  facets:
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 37.5
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 21.1
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: never_enriched
+  previous_composite: 9.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 38.3
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/screenshots/bolsai-2026-07-25T203539.png
 security:
 - kind: authentication

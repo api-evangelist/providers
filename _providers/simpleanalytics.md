@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: The Websites API from Simple Analytics — the Admin surface for listing the websites in an account and adding a new one with timezone, visibility and label.
   name: Simple Analytics Websites API
   slug: simpleanalytics-websites-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -160,7 +160,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/simpleanalytics-mcp.yml
 - group: agent
   title: ''
@@ -242,10 +242,6 @@ finops:
   slug: simpleanalytics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpleanalytics.png
 layout: provider
-mcp_servers:
-- description: Simple Analytics publishes no MCP server. Probes of mcp.simpleanalytics.com (DNS does not resolve), simpleanalytics.com/mcp (404), www.simpleanalytics.com/mcp (404), docs.simpleanalytics.com/mcp (404)
-  name: Simple Analytics MCP Server
-  slug: simple-analytics-mcp-server
 modified: '2026-08-13'
 name: Simple Analytics
 nav: Providers
@@ -292,8 +288,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/screenshots/simpleanalytics-2026-08-17T080419.png
 security:

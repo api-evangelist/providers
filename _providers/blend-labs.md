@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Blend's platform API for home lending, consumer lending, deposit account opening, documents and disclosures, e-signature packages, electronic and remote online notary (RON) closings, verification of i
   name: Blend API
   slug: blend-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Blend Labs Events Webhooks
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: 'Blend Labs, Inc. (NYSE: BLND) is a cloud banking platform, founded in 2012 and headquartered in the San Francisco Bay Area, that powers digital lending and account opening for banks, credit unions, and mortgage lenders. The Blend API lets integrators drive the full home-lending lifecycle — creating and exporting mortgage applications (with MISMO 3.3.1 and Fannie 3.2 export), managing parties, documents and disclosures, e-signature packages, and electronic/RON closings — as well as consumer lending, deposit account opening, verification of income/employment/assets, tax transcripts, lender user management, reporting, and event notifications. Requests authenticate with an OAuth token, HTTP bearer, or basic credentials plus a mandatory blend-target-instance tenant header, against production (api.blendlabs.com) or beta (api.beta.blendlabs.com).'
 image: https://cdn.readme.io/og-image/create?type=home&title=Blend%20API%20Docs&projectTitle=Blend%20API%20Docs
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blend Labs MCP Server
-  slug: blend-labs-mcp-server
 modified: '2026-07-18'
 name: Blend Labs
 nav: Providers
@@ -161,8 +157,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-labs/refs/heads/main/screenshots/blend-labs-2026-07-25T203310.png
 security:

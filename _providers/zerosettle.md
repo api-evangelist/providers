@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.zerosettle.io/v1
@@ -96,7 +96,7 @@ apis:
   description: Unified offer + subscription-state resolver (SDK 1.2+)
   name: ZeroSettle User Offer API
   slug: zerosettle-user-offer-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +140,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zerosettle-mcp.yml
 - group: other
   title: ''
@@ -250,10 +250,6 @@ created: '2026-07-17'
 description: ZeroSettle is a Y Combinator-backed subscription revenue platform that lets iOS, Android, Flutter, and React Native app developers offer direct web billing as an alternative to App Store and Google Play in-app purchase — the pitch is "keep 85% of your revenue, not 70%." As Merchant of Record (on Stripe Connect, or BYOS), it handles web checkout, entitlements, subscription lifecycle, StoreKit transaction syncing, retention cancel flows, upgrade/migration offers, and compliance external-purchase reporting. The ZeroSettle IAP API (REST/JSON, X-ZeroSettle-Key auth) powers all of its client SDKs, with a free tier plus a $29/month Pro plan.
 image: https://zerosettle.io/images/favicon/favicon.ico
 layout: provider
-mcp_servers:
-- description: No official hosted ZeroSettle MCP server was found. This is a CANDIDATE tool surface derived from the 25 operations of the ZeroSettle IAP API (https://api.zerosettle.io/v1, X-ZeroSettle-Key auth) — on
-  name: ZeroSettle MCP Server
-  slug: zerosettle-mcp-server
 modified: '2026-07-21'
 name: ZeroSettle
 nav: Providers
@@ -297,8 +293,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/screenshots/zerosettle-2026-08-17T083101.png
 security:

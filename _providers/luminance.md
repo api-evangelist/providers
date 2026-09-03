@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://your-instance.app.luminance.com/api2
@@ -143,7 +143,7 @@ apis:
   description: The Workflows API from Luminance — 4 operation(s) for workflows.
   name: Luminance Workflows API
   slug: luminance-workflows-api
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +211,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/luminance-mcp.yml
 - group: other
   title: ''
@@ -318,10 +318,6 @@ description: 'Luminance Technologies Ltd. is a UK-headquartered legal-AI company
   token endpoint, and API traffic is rate limited to 100 requests every 10 minutes.'
 image: https://api.luminance.com/img/general_resources/luminance_logos/Luminance-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Luminance MCP Server
-  slug: luminance-mcp-server
 modified: '2026-08-04'
 name: Luminance
 nav: Providers
@@ -368,8 +364,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:

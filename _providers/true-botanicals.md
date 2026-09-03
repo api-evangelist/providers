@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol shopping service True Botanicals serves at its own domain. A POST to /api/ucp/mcp answers an unauthenticated MCP tools/list with 13 tools — search_catalog, lookup_catal
@@ -184,8 +184,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/true-botanicals/refs/heads/main/screenshots/true-botanicals-2026-09-02T164331.png
 security:

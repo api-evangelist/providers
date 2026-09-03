@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - baseURL: https://docs.waf.chaitin.com
@@ -2816,7 +2816,7 @@ apis:
   description: The 资产/种子/域名 WHOIS API from Chaitin Tech — 6 operation(s) for 资产/种子/域名 whois.
   name: Chaitin Tech 资产/种子/域名 WHOIS API
   slug: chaitin-whois-api
-artifact_total: 1116
+artifact_total: 1115
 collections:
 - collection_type: open
   name: API Collection
@@ -4564,7 +4564,7 @@ common:
   url: errors/chaitin-error-codes.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chaitin-mcp.yml
 - group: design
   title: ''
@@ -4590,10 +4590,6 @@ created: '2026-07-17'
 description: Chaitin Tech (长亭科技) is a Chinese cybersecurity company best known for SafeLine (雷池), a self-hosted, semantic-analysis Web Application Firewall and reverse proxy with 22k+ GitHub stars. Its broader security portfolio spans web application firewalling, vulnerability and risk assessment (X-Ray), automated penetration testing, asset exposure management (Cloud Atlas), container security (VeinMind), host workload protection (CloudWalker), API security (APISec), threat deception (D-Sensor), traffic threat detection (T-Answer), static application security testing (CodeInsight), and AI security tooling. Chaitin products expose machine APIs authenticated with a per-instance API token header (SafeLine uses X-SLCE-API-TOKEN on port 9443, /api/open/*) and are managed through a unified command-line tool, chaitin-cli, which also ships as an installable agent skill. Chaitin is backed by Qiming Venture Partners.
 image: https://avatars.githubusercontent.com/u/7302766?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chaitin Tech MCP Server
-  slug: chaitin-tech-mcp-server
 modified: '2026-07-18'
 name: Chaitin Tech
 nav: Providers
@@ -4631,8 +4627,8 @@ score:
       total: 556
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

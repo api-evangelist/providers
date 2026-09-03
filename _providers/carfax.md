@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: 'Converts a license plate number and state into a VIN with full vehicle decode (year, make, model, trim). Each QuickVIN lookup includes access to a CARFAX Vehicle History Report. Available to lenders, '
@@ -151,8 +151,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carfax/refs/heads/main/screenshots/carfax-2026-06-20T173958.png
 security:

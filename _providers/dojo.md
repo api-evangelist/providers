@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ apis:
   description: 'Webhooks notify you when a specific event has occurred. **Documentation**: [Webhooks](../../development-resources/webhooks)'
   name: Dojo Webhooks API
   slug: dojo-webhooks-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: 'The Async Websocket API to enable Dojo integrated products. Core modules: - Tables - Areas - Orders - Parties - Reservations API modules can generally be implemented independently, with a small number'
   name: EPOS Data API (WebSockets)
@@ -244,7 +244,7 @@ common:
   url: lifecycle/dojo-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dojo-mcp.yml
 - group: other
   title: ''
@@ -319,10 +319,6 @@ description: Dojo is a United Kingdom payments company (Paymentsense trading as 
   and SumUp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dojo MCP Server
-  slug: dojo-mcp-server
 modified: '2026-07-24'
 name: Dojo
 nav: Providers
@@ -370,8 +366,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:

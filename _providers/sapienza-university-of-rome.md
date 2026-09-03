@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting provider for IRIS, Sapienza's institutional research information system and repository, served from the university's own host iris.uniroma1.it. Verified live 2026-09-01
@@ -192,8 +192,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/screenshots/sapienza-university-of-rome-2026-06-20T193443.png
 security:

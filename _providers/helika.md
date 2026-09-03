@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://events.analytics.helika.io
@@ -41,7 +41,7 @@ apis:
   description: The Events API from Helika — 1 operation(s) for events.
   name: Helika Events API
   slug: helika-events-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -108,7 +108,7 @@ common:
   url: packages/helika-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/helika-mcp.yml
 - group: auth
   title: ''
@@ -146,10 +146,6 @@ created: '2026-07-17'
 description: Helika is a game and brand analytics platform, originally built for web3 and blockchain games, that helps studios, sports teams, and entertainment brands collect, unify, and act on player and community engagement data. Its Analytics Service API ingests gameplay and engagement events through a single events endpoint authenticated with an x-api-key header, and is instrumented by first-party Unity, Unreal Engine, and Web SDKs. Helika has since expanded into Helika Evolve, an AI-character platform that lets IP owners deploy brand-safe interactive characters across Discord, web, and social channels. Helika is a Pantera Capital portfolio company operating in the crypto and gaming sector.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helika.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Helika MCP Server
-  slug: helika-mcp-server
 modified: '2026-07-19'
 name: Helika
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helika/refs/heads/main/screenshots/helika-2026-07-25T220913.png
 security:

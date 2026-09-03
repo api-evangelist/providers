@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect protected API surface serving Mudflap's partner, fleet, and merchant dashboards. Discovered via the published RFC 8414 authorization-server metadata; no public OpenAPI refer
@@ -142,8 +142,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mudflap/refs/heads/main/screenshots/mudflap-2026-08-07T184427.png
 security:

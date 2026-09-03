@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Carrier-grade SMS API for sending and receiving A2P and P2A SMS at scale on the Rakuten Mobile network, with delivery receipts pushed to caller-configured webhooks. UTF-8 encoded, JWT-authenticated RE
@@ -177,8 +177,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten-mobile/refs/heads/main/screenshots/rakuten-mobile-2026-06-20T192543.png
 security:

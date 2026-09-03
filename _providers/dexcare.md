@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
@@ -135,7 +135,7 @@ apis:
   description: The waittimes API from DexCare — 2 operation(s) for waittimes.
   name: DexCare Waittimes API
   slug: dexcare-waittimes-api
-artifact_total: 25
+artifact_total: 24
 common:
 - group: other
   title: ''
@@ -271,7 +271,7 @@ common:
   url: plans/dexcare-plans-pricing.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dexcare-mcp.yml
 - group: agent
   title: ''
@@ -282,10 +282,6 @@ description: 'DexCare is a healthcare navigation and care-orchestration platform
   services require a DexCare-issued x-api-key. DexCare operates as a HIPAA business associate. This profile was enriched from DexCare''s public developer surface as part of the API Evangelist network (originally surfaced as an ICONIQ Capital portfolio lead).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dexcare.png
 layout: provider
-mcp_servers:
-- description: DexCare publishes no Model Context Protocol server. Searched the DexCare developer portal (developers.dexcarehealth.com), dexcare.com, the DexCare GitHub organization (8 public repos, none MCP-related
-  name: DexCare (candidate MCP server)
-  slug: dexcare-candidate-mcp-server
 modified: '2026-08-15'
 name: DexCare
 nav: Providers
@@ -341,8 +337,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
 security:

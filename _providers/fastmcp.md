@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -259,14 +259,14 @@ overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
   FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 25 more developer resources.'
 random_paper: 15
 score:
-  band: thin
-  composite: 27.8
+  band: emerging
+  composite: 19.7
   coverage:
     artifact_dirs: 4
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.1
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -276,13 +276,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 27.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/screenshots/fastmcp-2026-06-20T181055.png
 security:
 - kind: domain-security

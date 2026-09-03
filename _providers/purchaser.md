@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) covering the sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks. API-key authentication with team and environment scoping; the full reference and int
   name: Purchaser API
   slug: purchaser-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Purchaser Webhooks
@@ -119,16 +119,12 @@ common:
   url: data-model/purchaser-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/purchaser-mcp.yml
 created: '2026-07-17'
 description: Purchaser is an AI-powered RFQ (Request for Quotation) intelligence platform for capital-intensive industries such as EPC, LNG, transmission & distribution, and specialty-equipment manufacturing. It ingests unstructured vendor quotes from PDFs, emails, and spreadsheets and normalizes them into structured, defensible sourcing data so procurement teams can level bids apples-to-apples, surface deviations and gaps, and produce audit-ready award traceability. Purchaser exposes a REST API (OpenAPI 3.1) covering the full sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks — with API-key auth, idempotency keys, versioned /api/v1/ endpoints, sliding-window rate limiting, and connectors for SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365, Infor, and more. Based in Lexington, KY and backed by Homebrew.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purchaser.png
 layout: provider
-mcp_servers:
-- description: A candidate MCP tool surface mapped from Purchaser's publicly listed REST resources. Not an official Purchaser MCP server; endpoints/operationIds are defined in the customer-gated OpenAPI 3.1 spec, so
-  name: Purchaser MCP (candidate)
-  slug: purchaser-mcp-candidate
 modified: '2026-07-20'
 name: Purchaser
 nav: Providers
@@ -163,8 +159,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/screenshots/purchaser-2026-09-02T152339.png
 security:

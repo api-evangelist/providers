@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: LeanLaw operates a remote Model Context Protocol server at https://api.leanlaw.io/mcp that lets an AI assistant work with a firm's clients, matters, time entries, expenses, fixed fees and invoices. It
@@ -93,7 +93,7 @@ apis:
   description: The User API from LeanLaw — 2 operation(s) for user.
   name: LeanLaw User API
   slug: leanlaw-user-api
-artifact_total: 17
+artifact_total: 16
 common:
 - group: other
   title: ''
@@ -211,10 +211,6 @@ created: '2026-08-25'
 description: LeanLaw is legal billing and revenue-operations software for small and mid-sized law firms, built natively on QuickBooks Online. It runs the full law-firm revenue lifecycle — time and expense tracking, matter management, trust/IOLTA accounting, flat-fee and contingency billing, invoicing, e-payments, LEDES output and compensation reporting — and keeps a real-time two-way sync with QuickBooks Online so invoices, payments, trust deposits and expenses post automatically. LeanLaw publishes a public REST API (v2) at api.leanlaw.io covering clients, matters, time entries, expenses, fixed fees, invoices, practice areas, custom fields, users and LEDES billing codes, with an OpenAPI 3.0.4 specification, a Zudoku-powered developer portal at platform.leanlaw.io, and a remote MCP server for AI assistants that is currently in private beta.
 image: https://www.leanlaw.co/images/og-default.png
 layout: provider
-mcp_servers:
-- description: LeanLaw operates a first-party remote MCP server that lets an AI assistant work with a law firm's clients, matters, time entries, expenses, fixed fees and invoices. Per the provider's own documentatio
-  name: LeanLaw MCP Server
-  slug: leanlaw-mcp-server
 modified: '2026-08-25'
 name: LeanLaw
 nav: Providers
@@ -245,7 +241,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -255,7 +251,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.8
+  previous_composite: 57.7
   provenance:
     conformance: first-party
     contracts:
@@ -271,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/screenshots/leanlaw-2026-09-02T150231.png
 security:

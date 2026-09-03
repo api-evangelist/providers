@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
   description: Subscribe to real-time call events.
   name: Samora AI Webhooks API
   slug: samora-ai-webhooks-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: Real-time call events delivered by Samora AI to a subscriber-provided HTTPS endpoint. Subscriptions are managed via the REST /v2/webhooks operations; each subscription returns a signing secret used to
   name: Samora AI Webhooks
@@ -123,7 +123,7 @@ common:
   url: agentic-access/samora-ai-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/samora-ai-mcp.yml
 - group: docs
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Samora AI is a Y Combinator (W2026) company building multilingual voice agents that automate high-volume inbound and outbound calling for financial services, recruitment, healthcare, and government. Its agents handle natural conversation across 20+ languages with interruption handling, code-switching, and escalation to human operators, plus omnichannel support (voice, WhatsApp, SMS, email) and CRM integration. Samora exposes a server-to-server REST API to trigger outbound calls, manage outbound calling campaigns and their scheduled recipients, and subscribe to real-time call events through signed webhooks. Authentication is an organization API key sent in the X-API-Key header; the base URL is https://api.samora.ai and the developer documentation is at https://docs.samora.ai.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samora-ai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Samora AI MCP Server
-  slug: samora-ai-mcp-server
 modified: '2026-07-21'
 name: Samora AI
 nav: Providers
@@ -222,8 +218,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/screenshots/samora-ai-2026-09-02T154344.png
 security:

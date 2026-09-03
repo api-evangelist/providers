@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.dips.no/dips.oauth
@@ -174,6 +174,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -183,6 +184,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 5.3
+  previous_composite: 54.0
   provenance:
     conformance: first-party
     contracts:
@@ -198,8 +200,9 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Dips Authentication

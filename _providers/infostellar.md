@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public gRPC API for the StellarStation ground-station-as-a-service platform. Lets satellite operators list upcoming available passes, reserve and cancel plans, add and retrieve TLE orbital data, set p
   name: StellarStation API
   slug: stellarstation-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -115,7 +115,7 @@ common:
   url: errors/infostellar-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/infostellar-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: Infostellar is a Tokyo-based space infrastructure company that operates StellarStation, a cloud ground-station-as-a-service (GSaaS) platform. It aggregates partner and operator antennas into a shared global network so satellite operators can discover and reserve upcoming passes, schedule and cancel plans, manage two-line element (TLE) orbital data, and stream live telemetry and commands to and from their spacecraft. StellarStation exposes a public gRPC API (defined with Protocol Buffers) at api.stellarstation.com, with precompiled client stubs published for Java, Python, Go, and Node.js and authentication handled via JWT bearer service-account credentials issued from the StellarStation Console. The API separates a satellite-operator service (StellarStationService) from a ground-station-operator service (GroundStationService), plus supporting definitions for antennas, radios, orbit, monitoring, and transport.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infostellar.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Infostellar MCP Server
-  slug: infostellar-mcp-server
 modified: '2026-07-19'
 name: Infostellar
 nav: Providers
@@ -165,8 +161,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infostellar/refs/heads/main/screenshots/infostellar-2026-07-25T222423.png
 security:

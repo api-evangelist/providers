@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -350,6 +350,10 @@ collections:
   name: Hatchet API
   slug: open-hatchet
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hatchet-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -664,7 +668,7 @@ overview: 'Hatchet publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Hatchet catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Hatchet''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, tooling, and 26 more developer resources.'
+  Hatchet''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, tooling, and 27 more developer resources.'
 plans:
 - name: Hatchet Plans Pricing
   plan_count: 5
@@ -700,7 +704,7 @@ score:
   band: strong
   composite: 57.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -725,8 +729,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/screenshots/hatchet-2026-06-20T182616.png
 security:

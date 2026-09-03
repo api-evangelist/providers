@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ apis:
   description: The Transactions API from Chase UK — 2 operation(s) for transactions.
   name: Chase UK Transactions API
   slug: chase-uk-transactions-api
-artifact_total: 33
+artifact_total: 32
 common:
 - group: other
   title: ''
@@ -281,7 +281,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chase-uk-mcp.yml
 - group: build
   title: ''
@@ -304,10 +304,6 @@ description: Chase UK is the digital retail bank operated in the United Kingdom 
   strong customer authentication, and mutual-TLS using eIDAS QWAC or OBWAC certificates from the Open Banking Certificate Authority.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chase UK MCP Server
-  slug: chase-uk-mcp-server
 modified: '2026-07-23'
 name: Chase UK
 nav: Providers
@@ -361,8 +357,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/screenshots/chase-uk-2026-07-25T205111.png
 security:

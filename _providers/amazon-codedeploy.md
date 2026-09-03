@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -288,7 +288,7 @@ apis:
   description: 'The #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.updatedeploymentgroup.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
-artifact_total: 1120
+artifact_total: 1119
 collections:
 - collection_type: postman
   name: AWS CodeDeploy Applications API
@@ -698,7 +698,7 @@ common:
   url: well-known/amazon-codedeploy-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codedeploy-mcp.yml
 - group: agent
   title: ''
@@ -3591,10 +3591,6 @@ jsonld:
   property_count: 29
   slug: amazon-codedeploy-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeDeploy MCP Server
-  slug: amazon-codedeploy-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeDeploy
 nav: Providers
@@ -3657,8 +3653,8 @@ score:
       marker_coverage: 0.0
       total: 49
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/screenshots/amazon-codedeploy-2026-07-25T195954.png
 security:

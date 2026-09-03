@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The UploadUrl API from Amazon CodeGuru Security — 1 operation(s) for uploadurl.
   name: Amazon CodeGuru Security UploadUrl API
   slug: amazon-codeguru-security-uploadurl-api
-artifact_total: 262
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Amazon CodeGuru Security AccountConfiguration API
@@ -227,7 +227,7 @@ common:
   url: well-known/amazon-codeguru-security-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codeguru-security-mcp.yml
 - group: agent
   title: ''
@@ -925,10 +925,6 @@ jsonld:
   property_count: 70
   slug: amazon-codeguru-security-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeGuru Security MCP Server
-  slug: amazon-codeguru-security-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeGuru Security
 nav: Providers
@@ -991,8 +987,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:

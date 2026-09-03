@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The my.anydesk I REST API automates retrieval and management of AnyDesk account data from the my.anydesk management console: license and account details, registered clients and their aliases/online st'
   name: AnyDesk REST API
   slug: anydesk-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -119,16 +119,12 @@ common:
   url: security/anydesk-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anydesk-mcp.yml
 created: '2026-07-17'
 description: AnyDesk is a German remote desktop and remote access software company whose clients provide cross-platform remote control, unattended access, remote support and file transfer for Windows, macOS, Linux, Android and iOS. For administrators, the my.anydesk management console centralizes license, client, address book and session management, and exposes a JSON-over-HTTPS REST API (my.anydesk I REST API, v1.1.1) that automates retrieval and management of account data — license and account details, registered clients, session history and comments, aliases and address books — so teams can integrate AnyDesk with billing, ticketing and session-logging systems. AnyDesk ships an official open-source Python library for the API and supports SSO/SAML for console access.
 image: https://anydesk.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool list derived from the documented my.anydesk I REST API command set. AnyDesk publishes no official hosted or remote MCP server; these tools are a proposed one-tool-per-documen
-  name: AnyDesk MCP Server
-  slug: anydesk-mcp-server
 modified: '2026-07-17'
 name: AnyDesk
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anydesk/refs/heads/main/screenshots/anydesk-2026-07-25T200502.png
 security:

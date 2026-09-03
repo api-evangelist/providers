@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://arch.co/client-api/v0
@@ -111,7 +111,7 @@ apis:
   description: The Users API from Arch Labs — 2 operation(s) for users.
   name: Arch Labs Users API
   slug: arch-labs-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: skills/arch-labs-collect-tax-documents.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arch-labs-mcp.yml
 - group: other
   title: ''
@@ -262,10 +262,6 @@ created: '2026-07-17'
 description: Arch (Arch Labs, Inc.) is a private-markets infrastructure platform that centralizes the administration of alternative investments for individual investors, wealth managers, family offices, institutional allocators, CPAs, fund managers and their advisors. Acting as a "portal of portals," Arch collects and classifies investment correspondence, parses account statements and cash flows, automates capital-call and distribution workflows, tracks tax-document deadlines, and produces standardized portfolio views and AI-generated manager-update summaries across private credit, real estate, venture capital, hedge funds and private equity. Its Client API exposes holdings, investing/issuing entities, activities, cash flows, tasks, tax documents, user roles and Addepar exports, and it integrates with Addepar, Salesforce and Bipsync. Backed by Craft Ventures, Menlo Ventures, Oak HC/FT and others.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arch-labs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Arch Labs MCP Server
-  slug: arch-labs-mcp-server
 modified: '2026-07-18'
 name: Arch Labs
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/screenshots/arch-labs-2026-07-25T201015.png
 security:

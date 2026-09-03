@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-09-02'
+  score: 27.2
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.neuehouse.com/wp-json
@@ -238,7 +238,7 @@ apis:
   description: WordPress REST `wp_pattern_category` resource on www.neuehouse.com.
   name: NeueHouse Wp Pattern Category API
   slug: neuehouse-wp-pattern-category-api
-artifact_total: 45
+artifact_total: 44
 common:
 - group: other
   title: ''
@@ -310,7 +310,7 @@ common:
   url: security/neuehouse-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/neuehouse-mcp.yml
 - group: build
   title: ''
@@ -361,10 +361,6 @@ description: 'NeueHouse is a private work and cultural home for creatives — a 
   intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.'
 image: https://neuehouse.com/wp-content/uploads/2023/05/NeueHouse-Social-Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NeueHouse MCP Server
-  slug: neuehouse-mcp-server
 modified: '2026-08-26'
 name: NeueHouse
 nav: Providers
@@ -390,7 +386,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -400,7 +396,7 @@ score:
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 25.1
   provenance:
     conformance: derived
     contracts:
@@ -410,8 +406,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png
 security:

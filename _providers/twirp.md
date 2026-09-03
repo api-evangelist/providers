@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Twirp is a simple RPC framework with protobuf service definitions. Define your service in a .proto file and Twirp generates servers and clients implementing the Twirp wire protocol. Services are expos
@@ -143,13 +143,13 @@ rules:
   slug: twirp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.1
+  composite: 22.4
   coverage:
     artifact_dirs: 9
     catalog_gap: 55.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -159,12 +159,9 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 25.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twirp/refs/heads/main/screenshots/twirp-2026-06-20T195851.png
 slug: twirp

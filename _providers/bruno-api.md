@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
-api_count: 5
+  scored_at: '2026-09-03'
+api_count: 6
 apis:
 - description: The core open-source, git-native desktop API client (a lightweight Postman/Insomnia alternative). Compose and send HTTP, REST, GraphQL, and gRPC requests, organize them into collections, manage enviro
   name: Bruno API Client
@@ -51,7 +51,10 @@ apis:
 - description: Paid Bruno (Pro and Ultimate) adds native in-app Git integration and OpenAPI sync (5 syncs/month on Pro, unlimited on Ultimate) plus SSO, SCIM, audit logs, and license/admin controls. Collaboration ha
   name: Bruno Git Integration and Sync
   slug: bruno-git-collaboration
-artifact_total: 8
+- description: Bruno is an open-source API client for exploring and testing REST, GraphQL, and gRPC APIs. Collections are stored as plain text Bru files on the filesystem, enabling Git-based version control, team co
+  name: Bruno API Client
+  slug: api-client
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -85,6 +88,10 @@ common:
   title: ''
   type: Blog
   url: https://blog.usebruno.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.usebruno.com/blog
 created: '2026-07-11'
 description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Bru" markup language, with OpenCollection YAML now recommended for new collections), so API requests are version-controlled in Git alongside code. Bruno sends HTTP, REST, GraphQL, and gRPC requests, manages environments and variables, and runs pre-request/post-response scripts, tests, and assertions. The @usebruno/cli command-line runner (bru) executes collections headlessly in CI/CD with JSON, JUnit, and HTML reporters. Bruno is offline-only and does not sync request data to a Bruno-hosted cloud; paid Pro/Ultimate tiers add native in-app Git integration, OpenAPI sync, and enterprise admin controls that run through your own Git provider and identity systems. Bruno does not expose a documented
   public REST HTTP API.
@@ -98,10 +105,10 @@ modified: '2026-07-11'
 name: Bruno
 nav: Providers
 network: true
-overview: 'Bruno publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, Developer Tools, Open-Source, and Git-Native.
+overview: 'Bruno publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, Developer Tools, Open-Source, and Git-Native.
 
 
-  Bruno''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Bruno''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Bruno Api Plans Pricing
   plan_count: 4
@@ -113,25 +120,25 @@ rate_limits:
   slug: bruno-api-rate-limits
 score:
   band: emerging
-  composite: 23.3
+  composite: 25.7
   coverage:
     artifact_dirs: 5
     catalog_gap: 53.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 23.8
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 23.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/screenshots/bruno-api-2026-07-25T204007.png
 slug: bruno-api

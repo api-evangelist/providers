@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Drillster REST API (v2.1.1) lets developers integrate Drillster's adaptive learning and training platform into external applications. It supports user account provisioning, group assignment, progr
@@ -119,8 +119,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 33.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/screenshots/drillster-2026-06-20T180231.png
 security:

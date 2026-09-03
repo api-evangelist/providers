@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Swan''s Partner API is a GraphQL API for embedding banking: accounts and account holders, memberships, cards, SEPA credit transfers and direct debits, standing orders, merchant payments, onboarding, an'
   name: Swan Partner API
   slug: swan-partner-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Swan Webhooks
@@ -171,7 +171,7 @@ common:
   url: security/swan-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/swan-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: Swan is a European banking-as-a-service (BaaS) and embedded-finance platform that lets software companies embed banking features -- business accounts with native IBANs, physical and virtual card programs, SEPA payments, direct debits, and white-labelled onboarding -- directly into their products through a single GraphQL API. Swan operates as a licensed electronic money institution authorised by France's ACPR (identifier 86245); client deposits are safeguarded with BNP Paribas and covered by the French FGDR deposit guarantee. Developers integrate via an OAuth 2.0 protected Partner GraphQL API (sandbox and live), a Testing API and Event Simulator for end-to-end sandbox testing, webhooks for external events, and first-party React/React Native tooling. Swan has issued over one million cards and serves platforms across accounting, treasury, proptech, HR-tech and travel.
 image: https://avatars.githubusercontent.com/u/47886602?v=4
 layout: provider
-mcp_servers:
-- description: 'Swan does not (as of this pass) publish a hosted, remote MCP server for its Partner API. It does maintain an open-source library, swan-io/mcp-graphql-tools, for building MCP tools over a GraphQL API. '
-  name: Swan MCP Server
-  slug: swan-mcp-server
 modified: '2026-07-21'
 name: Swan
 nav: Providers
@@ -234,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swan/refs/heads/main/screenshots/swan-2026-08-17T082209.png
 security:

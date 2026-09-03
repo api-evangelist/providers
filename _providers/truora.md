@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -69,7 +69,7 @@ apis:
   description: Document, facial, email, and phone validation (KYC).
   name: Truora Validators API
   slug: truora-validators-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Truora Webhooks
@@ -207,7 +207,7 @@ common:
   url: data-model/truora-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/truora-mcp.yml
 - group: other
   title: ''
@@ -273,10 +273,6 @@ finops:
   slug: truora-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truora.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Truora MCP Server
-  slug: truora-mcp-server
 modified: '2026-07-17'
 name: Truora
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/screenshots/truora-2026-08-17T080431.png
 security:

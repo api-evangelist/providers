@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A range of APIs for address verification, geocoding, demographics, property data, and location intelligence.
@@ -128,13 +128,13 @@ rate_limits:
   slug: precisely-rate-limits
 score:
   band: emerging
-  composite: 22.9
+  composite: 21.6
   coverage:
     artifact_dirs: 7
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -144,12 +144,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 35.0
   previous_composite: 22.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely/refs/heads/main/screenshots/precisely-2026-06-20T192040.png
 security:

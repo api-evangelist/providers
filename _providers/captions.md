@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -89,7 +89,7 @@ apis:
   description: Generate talking-head videos using community AI avatars or AI Twins
   name: Captions AI Creator API
   slug: captions-ai-creator-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -224,7 +224,7 @@ common:
   url: security/captions-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/captions-mcp.yml
 - group: agent
   title: ''
@@ -299,10 +299,6 @@ jsonld:
   property_count: 31
   slug: captions-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Captions MCP Server
-  slug: captions-mcp-server
 modified: '2026-08-08'
 name: Captions
 nav: Providers
@@ -366,8 +362,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:

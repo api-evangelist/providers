@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API at https://api.meshy.ai for Text-to-3D (v2 with preview + refine workflow), Image-to-3D, Multi Image-to-3D, Remesh, Rigging, Animation, Retexture, Text-to-Image, Image-to-Image, Multi-Color P
@@ -155,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshy/refs/heads/main/screenshots/meshy-2026-06-20T185245.png
 security:

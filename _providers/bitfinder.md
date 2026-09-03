@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Authenticated Awair user profile
   name: Bitfinder User API
   slug: bitfinder-user-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: well-known/bitfinder-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bitfinder-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC), and fine dust (PM2.5). The Awair Home & OAuth Developer API lets developers, partners, and hobbyists read a user's registered devices and their air-data time series (latest, raw per-second, 5-minute-average, and 15-minute-average) on behalf of Awair users, authorized with an OAuth 2.0 or Developer Console Bearer token. Bitfinder was a Techstars portfolio company.
 image: https://cdn.prod.website-files.com/606ca67e54e3f68fa1be1f6b/652df95bec0aa957aba241bd_Frame%201060.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bitfinder MCP Server
-  slug: bitfinder-mcp-server
 modified: '2026-07-18'
 name: Bitfinder
 nav: Providers
@@ -246,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:

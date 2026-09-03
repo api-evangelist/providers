@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -83,7 +83,7 @@ apis:
   description: Utility endpoints
   name: ZeroTier util API
   slug: zerotier-util-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Zerotier Webhooks
@@ -271,7 +271,7 @@ common:
   url: cli/zerotier-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zerotier-mcp.yml
 - group: agent
   title: ''
@@ -317,10 +317,6 @@ created: '2026-07-17'
 description: ZeroTier, Inc. builds a software-defined networking (SDN) overlay that securely connects devices, servers, clouds, and networks anywhere in the world as if they were on the same local LAN, without the complexity of traditional VPNs, port forwarding, or firewall changes. The platform combines a peer-to-peer, end-to-end encrypted transport with a hosted control plane (ZeroTier Central) for network, member, organization, and access management. Developers automate ZeroTier through the hosted Central API (create and manage virtual networks, authorize members, set flow rules and IAM), the local ZeroTier One Service/Client API on each node, a Terraform provider, first-party client libraries, webhooks for real-time organization events, and a growing focus on post-quantum ("ZeroTier Quantum") secure networking.
 image: https://avatars.githubusercontent.com/u/4173285?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: ZeroTier MCP Server
-  slug: zerotier-mcp-server
 modified: '2026-07-21'
 name: ZeroTier
 nav: Providers
@@ -362,8 +358,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/screenshots/zerotier-2026-08-17T083100.png
 security:

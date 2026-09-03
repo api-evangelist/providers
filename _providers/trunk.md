@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: Control the Trunk Merge Queue.
   name: Trunk Merge Queue API
   slug: trunk-merge-queue-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Trunk Webhooks
@@ -115,7 +115,7 @@ common:
   url: agentic-access/trunk-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trunk-mcp.yml
 - group: design
   title: ''
@@ -185,10 +185,6 @@ finops:
   slug: trunk-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trunk.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Trunk MCP Server
-  slug: trunk-mcp-server
 modified: '2026-08-08'
 name: Trunk
 nav: Providers
@@ -238,8 +234,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:

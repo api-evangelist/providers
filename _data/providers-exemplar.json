@@ -1,12 +1,12 @@
 {
- "total": 254,
+ "total": 261,
  "bands": [
   {
    "band": "exemplar",
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 254,
+   "count": 261,
    "providers": [
     {
      "name": "Shopify",
@@ -28,8 +28,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -82,8 +82,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -147,17 +147,17 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 82.9,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 91.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "verified",
@@ -181,7 +181,7 @@
      "type": "API Provider",
      "description": "Medplum is an Apache 2.0 open-source, FHIR-native developer platform for shipping clinical software. It bundles a FHIR R4 datastore, REST and GraphQL APIs, a TypeScript SDK, React component library, OAuth 2.0 / SMART on FHIR authentication, declarative Access Policies, Subscriptions, and TypeScript-based serverless Bots — sold as a hosted service at api.medplum.com and as a self-hostable monorepo on GitHub. Medplum is HIPAA, SOC 2 Type II, and ONC-certified.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png",
-     "score": 87.0,
+     "score": 88.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -194,8 +194,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -248,8 +248,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -290,60 +290,6 @@
      "rank": 5
     },
     {
-     "name": "Centers for Medicare and Medicaid Services",
-     "slug": "cms",
-     "url": "https://providers.apis.io/providers/cms/",
-     "type": "API Provider",
-     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
-     "score": 85.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 62.8,
-      "governance": 43.2,
-      "contract_governance": 43.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 82.7,
-      "commercial_clarity": 89.5,
-      "access_clarity": 89.5
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 83.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Tray.ai",
      "slug": "tray-ai",
      "url": "https://providers.apis.io/providers/tray-ai/",
@@ -363,8 +309,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -388,7 +334,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Dynatrace",
@@ -410,8 +356,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -435,7 +381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "OpenAI",
@@ -457,8 +403,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 49.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -482,7 +428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Brevo",
@@ -504,8 +450,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -536,7 +482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Customer.io",
@@ -558,8 +504,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -590,6 +536,60 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 10
+    },
+    {
+     "name": "Salesforce Marketing Cloud",
+     "slug": "salesforce-marketing-cloud",
+     "url": "https://providers.apis.io/providers/salesforce-marketing-cloud/",
+     "type": "API Provider",
+     "description": "Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with HMAC-SHA256 signed callbacks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png",
+     "score": 83.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 74.5,
+      "governance": 31.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 56.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 11
     },
     {
@@ -612,9 +612,9 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 43.3,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 46.5,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -622,7 +622,7 @@
       "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "verified",
@@ -659,8 +659,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -694,6 +694,60 @@
      "rank": 13
     },
     {
+     "name": "Centers for Medicare and Medicaid Services",
+     "slug": "cms",
+     "url": "https://providers.apis.io/providers/cms/",
+     "type": "API Provider",
+     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
+     "score": 82.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 62.8,
+      "governance": 43.2,
+      "contract_governance": 43.2,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 82.7,
+      "commercial_clarity": 89.5,
+      "access_clarity": 89.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 83.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Kit",
      "slug": "convertkit",
      "url": "https://providers.apis.io/providers/convertkit/",
@@ -713,8 +767,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -745,7 +799,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Salesforce",
@@ -767,8 +821,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -792,7 +846,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "ZoomInfo",
@@ -814,8 +868,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -839,7 +893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Honeycomb",
@@ -861,8 +915,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -886,7 +940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "drchrono",
@@ -908,8 +962,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -940,7 +994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Tabby",
@@ -962,8 +1016,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -972,7 +1026,7 @@
       "matched_via": "tags"
      },
      "agent_score": 44.1,
-     "agent_band": "agent-native",
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -994,7 +1048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "AfterShip",
@@ -1016,8 +1070,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1048,7 +1102,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Elation Health",
@@ -1070,8 +1124,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1109,7 +1163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Lightspeed Commerce",
@@ -1131,8 +1185,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1163,7 +1217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Losant",
@@ -1185,8 +1239,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1210,7 +1264,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Amazon Pinpoint",
@@ -1232,8 +1286,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1264,7 +1318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Stripe",
@@ -1286,8 +1340,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1325,7 +1379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "HubSpot",
@@ -1347,8 +1401,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1372,7 +1426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Power Query",
@@ -1394,8 +1448,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1426,7 +1480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Upstox",
@@ -1447,8 +1501,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1479,7 +1533,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Amazon Web Services (AWS)",
@@ -1501,8 +1555,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1526,7 +1580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Svix",
@@ -1548,8 +1602,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1580,7 +1634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Adobe",
@@ -1602,8 +1656,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1627,7 +1681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Stannp",
@@ -1649,8 +1703,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1681,7 +1735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Braze",
@@ -1703,8 +1757,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1735,7 +1789,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "LaunchDarkly",
@@ -1757,8 +1811,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1779,60 +1833,6 @@
       "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Salesforce Marketing Cloud",
-     "slug": "salesforce-marketing-cloud",
-     "url": "https://providers.apis.io/providers/salesforce-marketing-cloud/",
-     "type": "API Provider",
-     "description": "Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with HMAC-SHA256 signed callbacks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png",
-     "score": 77.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 74.5,
-      "governance": 31.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 73.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 56.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
@@ -1858,8 +1858,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1905,8 +1905,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1959,8 +1959,8 @@
       "commercial_clarity": 72.4,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2013,8 +2013,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2067,8 +2067,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2121,8 +2121,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2168,8 +2168,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2215,8 +2215,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2243,6 +2243,60 @@
      "rank": 43
     },
     {
+     "name": "Leadping",
+     "slug": "leadping",
+     "url": "https://providers.apis.io/providers/leadping/",
+     "type": "API Provider",
+     "description": "Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, places and transfers calls, keeps conversation and event history together, enforces recipient suppression and opt-out handling, tracks A2P 10DLC carrier registration and phone-number warmup, requires TrustedForm consent evidence where a source needs it, and reports usage, billing and analytics. The 137-operation REST API is published as an OpenAPI 3.1.1 contract with six Kiota-generated first-party SDKs, two remote MCP servers, Standard Webhooks signing, and an unusually complete machine-readable discovery surface including APIs.json, an RFC 9727 API catalog, RFC 9728 protected-resource metadata, llms.txt and an agent-skill index.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/screenshots/leadping-2026-09-02T150226.png",
+     "score": 76.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 67.2,
+      "governance": 33.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 81.6,
+      "access_clarity": 81.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 80.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 44
+    },
+    {
      "name": "Mux",
      "slug": "mux-com",
      "url": "https://providers.apis.io/providers/mux-com/",
@@ -2262,8 +2316,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2287,7 +2341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Thanx",
@@ -2309,8 +2363,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2334,7 +2388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Nylas",
@@ -2356,15 +2410,15 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 52.4,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 57.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": "verified",
       "error_semantics": "verified",
@@ -2381,7 +2435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Swetrix",
@@ -2403,8 +2457,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2428,7 +2482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Close",
@@ -2450,8 +2504,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2493,7 +2547,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "MailerLite",
@@ -2515,8 +2569,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2554,7 +2608,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "1upHealth",
@@ -2576,8 +2630,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2615,7 +2669,108 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
+    },
+    {
+     "name": "Snowflake",
+     "slug": "snowflake",
+     "url": "https://providers.apis.io/providers/snowflake/",
+     "type": "API Provider",
+     "description": "Snowflake is a cloud-based data platform delivering data warehousing, data lakes, data engineering, data science and data application development as a single managed service across AWS, Azure and Google Cloud. Its developer surface is a 47-document OpenAPI corpus over /api/v2 covering databases, schemas, tables, Iceberg and dynamic tables, warehouses, tasks, pipes, streams, roles and grants, plus a SQL API for arbitrary statements and a Cortex family for AI inference, semantic analytics and retrieval. Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
+     "score": 75.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 80.6,
+      "governance": 47.0,
+      "contract_governance": 47.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 43.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
+     "name": "Canvas LMS",
+     "slug": "canvas-lms",
+     "url": "https://providers.apis.io/providers/canvas-lms/",
+     "type": "API Provider",
+     "description": "Canvas is the open, AGPLv3-licensed learning management system created and maintained by Instructure, Inc. and used by more than 30 million students, teachers, and administrators across higher education, K-12, business, and government. Canvas exposes a deep REST API (190+ resource groups covering Accounts, Courses, Enrollments, Assignments, Submissions, Grades, Outcomes, Quizzes, Rubrics, Modules, Pages, Discussions, Files, Conversations, Calendar Events, SIS Import, Authentication Providers, Developer Keys, External Tools, AI Conversations, AI Experiences, Analytics, Audit Logs, and more), a GraphQL API at /api/graphql, IMS LTI 1.3 / LTI Advantage services (Names and Role Provisioning, Line Items, Score, Result, Deep Linking), a Platform Notification Service for server-to-server webhook delivery, and the Data Access Platform (DAP / Canvas Data 2) for warehouse-scale event and snapshot data export. Canvas is the same software that powers canvas.instructure.com (Free for Teacher), Canvas Cloud for institutions, and self-hosted deployments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png",
+     "score": 75.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 61.1,
+      "contract_quality": 72.4,
+      "governance": 14.4,
+      "contract_governance": 14.4,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 85.7,
+      "commercial_clarity": 73.7,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 85.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
     },
     {
      "name": "Anthropic",
@@ -2637,8 +2792,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2662,7 +2817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "SendGrid",
@@ -2684,15 +2839,15 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 41.2,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -2709,7 +2864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "Veeva",
@@ -2731,8 +2886,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2763,7 +2918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Ghost",
@@ -2785,8 +2940,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2810,7 +2965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Stax",
@@ -2832,8 +2987,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2864,7 +3019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "Amazon VPN",
@@ -2886,8 +3041,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2911,7 +3066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "Confluent",
@@ -2933,8 +3088,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2958,7 +3113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "Squarespace",
@@ -2980,8 +3135,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3012,7 +3167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Twelve Data",
@@ -3034,8 +3189,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3073,7 +3228,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "iOS",
@@ -3095,8 +3250,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3127,7 +3282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Listrak",
@@ -3149,8 +3304,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3192,7 +3347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "Pluralsight",
@@ -3214,8 +3369,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3246,7 +3401,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "Acquia",
@@ -3268,8 +3423,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3293,7 +3448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "Klarna",
@@ -3314,8 +3469,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3346,7 +3501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "OpenSanctions",
@@ -3368,8 +3523,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3400,7 +3555,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "eClinicalWorks",
@@ -3422,8 +3577,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3454,7 +3609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "OneSignal",
@@ -3476,8 +3631,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3508,7 +3663,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Availity",
@@ -3530,8 +3685,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3562,7 +3717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Ada",
@@ -3584,8 +3739,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 45.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3609,7 +3764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "Treasure Data",
@@ -3631,8 +3786,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3656,7 +3811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Salla",
@@ -3678,8 +3833,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3710,7 +3865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "Efí Pay (Gerencianet)",
@@ -3732,8 +3887,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3764,7 +3919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "0xArchive",
@@ -3786,8 +3941,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3818,7 +3973,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "Klaviyo",
@@ -3840,8 +3995,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3883,7 +4038,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Drippay",
@@ -3905,8 +4060,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3944,7 +4099,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Highnote",
@@ -3966,8 +4121,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3998,61 +4153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
-    },
-    {
-     "name": "Canvas LMS",
-     "slug": "canvas-lms",
-     "url": "https://providers.apis.io/providers/canvas-lms/",
-     "type": "API Provider",
-     "description": "Canvas is the open, AGPLv3-licensed learning management system created and maintained by Instructure, Inc. and used by more than 30 million students, teachers, and administrators across higher education, K-12, business, and government. Canvas exposes a deep REST API (190+ resource groups covering Accounts, Courses, Enrollments, Assignments, Submissions, Grades, Outcomes, Quizzes, Rubrics, Modules, Pages, Discussions, Files, Conversations, Calendar Events, SIS Import, Authentication Providers, Developer Keys, External Tools, AI Conversations, AI Experiences, Analytics, Audit Logs, and more), a GraphQL API at /api/graphql, IMS LTI 1.3 / LTI Advantage services (Names and Role Provisioning, Line Items, Score, Result, Deep Linking), a Platform Notification Service for server-to-server webhook delivery, and the Data Access Platform (DAP / Canvas Data 2) for warehouse-scale event and snapshot data export. Canvas is the same software that powers canvas.instructure.com (Free for Teacher), Canvas Cloud for institutions, and self-hosted deployments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png",
-     "score": 73.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 67.0,
-      "governance": 14.4,
-      "contract_governance": 14.4,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 85.7,
-      "commercial_clarity": 73.7,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 85.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Flexpa",
@@ -4074,8 +4175,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4106,7 +4207,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "Qonto",
@@ -4128,8 +4229,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4148,7 +4249,7 @@
        }
       ]
      },
-     "agent_score": 41.9,
+     "agent_score": 45.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -4156,7 +4257,7 @@
       "reversibility_documented": false,
       "mcp_server": "verified",
       "auth_clarity": "bearer",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -4171,7 +4272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Redocly",
@@ -4193,8 +4294,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4218,7 +4319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "Mailboxlayer",
@@ -4240,8 +4341,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4265,7 +4366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Zoom Phone",
@@ -4287,8 +4388,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4319,7 +4420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "ThriveCart",
@@ -4341,8 +4442,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4373,61 +4474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
-    },
-    {
-     "name": "Adobe Campaign",
-     "slug": "adobe-campaign",
-     "url": "https://providers.apis.io/providers/adobe-campaign/",
-     "type": "API Provider",
-     "description": "Adobe Campaign is Adobe's enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{ORGANIZATION}/campaign covering profiles, services and subscriptions, custom resources, workflows, privacy requests and transactional messaging, authenticated with an Adobe IMS OAuth Server-to-Server bearer token plus an X-Api-Key; and the Campaign Classic SOAP-over-HTTP surface on the customer's own instance host, authenticated with a session-token pair from xtk:session#Logon. Campaign v8 is the current generation, Campaign Classic v7 is the legacy on-premise line, and Adobe has deprecated Campaign Standard in favour of Adobe Journey Optimizer. The data model is extended per tenant, so the deployed shape must be discovered at runtime rather than assumed from a specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png",
-     "score": 72.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 74.0,
-      "governance": 31.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 72.0,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 73.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "SMTP2GO",
@@ -4449,8 +4496,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4472,53 +4519,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 85
-    },
-    {
-     "name": "Oracle Cloud Infrastructure",
-     "slug": "oracle-cloud",
-     "url": "https://providers.apis.io/providers/oracle-cloud/",
-     "type": "API Provider",
-     "description": "Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notifications. Every request is signed with an RSA API signing key rather than a bearer token, every service is versioned by a YYYYMMDD segment in the URL path, and Oracle publishes a first-party Swagger 2.0 contract for each service from a single machine-readable index at docs.oracle.com/en-us/iaas/api/specs/. Client SDKs ship for Python, Java, TypeScript, Go, Ruby, .NET and PowerShell alongside the OCI CLI, a Terraform provider, and a repository of 27 reference MCP servers for agent access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png",
-     "score": 72.3,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 42.3,
-      "governance": 47.0,
-      "contract_governance": 47.0,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 87.5,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 42.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -4550,8 +4550,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4597,8 +4597,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4651,8 +4651,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4705,8 +4705,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4778,8 +4778,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4847,8 +4847,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4894,8 +4894,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -4948,8 +4948,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4995,8 +4995,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5049,8 +5049,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5096,8 +5096,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5161,8 +5161,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5222,8 +5222,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 53.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5269,8 +5269,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5323,8 +5323,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5377,8 +5377,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5442,8 +5442,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5489,8 +5489,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5524,6 +5524,53 @@
      "rank": 104
     },
     {
+     "name": "APIs.io",
+     "slug": "apis-io",
+     "url": "https://providers.apis.io/providers/apis-io/",
+     "type": "API Provider",
+     "description": "APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Postman collections, JSON Schema, JSON-LD contexts, Spectral rulesets, vocabularies, OAuth scopes, plans, rate limits and FinOps profiles — and lets developers and agents search that catalog by keyword, capability, tag, industry, region, artifact type and quality band. As of August 2026 the network published roughly 26,414 providers, 109,100 APIs and 120,595 schemas across 71 industries and 77 curated areas. Every provider is scored with the Kin Score, a 0–100 composite across six weighted facets plus a standalone agent-readiness score. The same read-only OpenAPI 3.1 contract powers three surfaces — a REST API at https://apis.io/api/v1, a Streamable-HTTP MCP server at https://apis.io/mcp, and a set of published Agent Skills — alongside an RFC 9727 api-catalog linkset, an llms.txt and an APIs.json self-description. It is maintained by API Evangelist and serves both API producers submitting profiles and API consumers discovering APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-09-02T172139.png",
+     "score": 71.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 70.3,
+      "governance": 33.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 71.4,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 42.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 105
+    },
+    {
      "name": "Blnk Finance",
      "slug": "blnkfinance",
      "url": "https://providers.apis.io/providers/blnkfinance/",
@@ -5543,8 +5590,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5582,7 +5629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Postmark",
@@ -5604,8 +5651,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5629,7 +5676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Azure Kubernetes Service",
@@ -5651,8 +5698,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5676,7 +5723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Talon.One",
@@ -5698,8 +5745,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 45.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -5723,7 +5770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Soda",
@@ -5745,8 +5792,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5770,7 +5817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Iterable",
@@ -5792,8 +5839,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5824,7 +5871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "NextGen Healthcare",
@@ -5846,8 +5893,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5878,7 +5925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "PayMongo",
@@ -5900,8 +5947,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5932,7 +5979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Square",
@@ -5954,8 +6001,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5986,53 +6033,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
-    },
-    {
-     "name": "APIs.io",
-     "slug": "apis-io",
-     "url": "https://providers.apis.io/providers/apis-io/",
-     "type": "API Provider",
-     "description": "APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Postman collections, JSON Schema, JSON-LD contexts, Spectral rulesets, vocabularies, OAuth scopes, plans, rate limits and FinOps profiles — and lets developers and agents search that catalog by keyword, capability, tag, industry, region, artifact type and quality band. As of August 2026 the network published roughly 26,414 providers, 109,100 APIs and 120,595 schemas across 71 industries and 77 curated areas. Every provider is scored with the Kin Score, a 0–100 composite across six weighted facets plus a standalone agent-readiness score. The same read-only OpenAPI 3.1 contract powers three surfaces — a REST API at https://apis.io/api/v1, a Streamable-HTTP MCP server at https://apis.io/mcp, and a set of published Agent Skills — alongside an RFC 9727 api-catalog linkset, an llms.txt and an APIs.json self-description. It is maintained by API Evangelist and serves both API producers submitting profiles and API consumers discovering APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-09-02T172139.png",
-     "score": 71.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 68.3,
-      "governance": 33.3,
-      "contract_governance": 33.3,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 40.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 114
     },
     {
@@ -6055,8 +6055,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6083,6 +6083,60 @@
      "rank": 115
     },
     {
+     "name": "Adobe Campaign",
+     "slug": "adobe-campaign",
+     "url": "https://providers.apis.io/providers/adobe-campaign/",
+     "type": "API Provider",
+     "description": "Adobe Campaign is Adobe's enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{ORGANIZATION}/campaign covering profiles, services and subscriptions, custom resources, workflows, privacy requests and transactional messaging, authenticated with an Adobe IMS OAuth Server-to-Server bearer token plus an X-Api-Key; and the Campaign Classic SOAP-over-HTTP surface on the customer's own instance host, authenticated with a session-token pair from xtk:session#Logon. Campaign v8 is the current generation, Campaign Classic v7 is the legacy on-premise line, and Adobe has deprecated Campaign Standard in favour of Adobe Journey Optimizer. The data model is extended per tenant, so the deployed shape must be discovered at runtime rather than assumed from a specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png",
+     "score": 70.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 74.0,
+      "governance": 31.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 72.0,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 116
+    },
+    {
      "name": "Gitea",
      "slug": "gitea",
      "url": "https://providers.apis.io/providers/gitea/",
@@ -6102,8 +6156,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6127,7 +6181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Jitterbit",
@@ -6149,8 +6203,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6165,53 +6219,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 117
-    },
-    {
-     "name": "Power BI",
-     "slug": "power-bi",
-     "url": "https://providers.apis.io/providers/power-bi/",
-     "type": "API Provider",
-     "description": "Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png",
-     "score": 70.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 72.8,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 100.0,
-      "commercial_clarity": 61.8,
-      "access_clarity": 61.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6243,8 +6250,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6304,8 +6311,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 56.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6351,8 +6358,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6397,8 +6404,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6451,8 +6458,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 58.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6498,8 +6505,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6552,8 +6559,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6599,8 +6606,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6646,8 +6653,8 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -6700,8 +6707,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 46.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6747,8 +6754,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6801,8 +6808,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6855,8 +6862,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -6916,8 +6923,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -6977,8 +6984,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 62.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -7024,8 +7031,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7071,8 +7078,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7106,6 +7113,60 @@
      "rank": 135
     },
     {
+     "name": "Jefferson Health",
+     "slug": "jefferson-health",
+     "url": "https://providers.apis.io/providers/jefferson-health/",
+     "type": "API Provider",
+     "description": "Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jefferson University and Jefferson Health Plans (formerly Health Partners Plans). Its patient-facing electronic health record runs on Epic and is branded as MyJeffersonHealth / MyChart, with a CMS-mandated HL7 FHIR R4 API published at fhir.jefferson.edu/FHIRProxy/api/FHIR/R4 that exposes USCDI-aligned clinical resources to third-party patient-access applications via SMART on FHIR and OAuth 2.0. Jefferson Health Plans separately exposes CARIN-aligned Patient Access and Da Vinci Plan-Net Provider Directory FHIR APIs powered by Smile CDR for its insurance members and the public.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png",
+     "score": 69.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 58.5,
+      "governance": 87.9,
+      "contract_governance": 87.9,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 81.6,
+      "access_clarity": 81.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 76.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 136
+    },
+    {
      "name": "LINE",
      "slug": "line",
      "url": "https://providers.apis.io/providers/line/",
@@ -7125,8 +7186,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -7150,7 +7211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "NVIDIA NIM",
@@ -7172,8 +7233,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7197,7 +7258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Snyk",
@@ -7219,8 +7280,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7244,7 +7305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Spade",
@@ -7266,8 +7327,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7305,7 +7366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Boom Ai",
@@ -7327,8 +7388,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7359,59 +7420,6 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 140
-    },
-    {
-     "name": "Delft University of Technology",
-     "slug": "tu-delft",
-     "url": "https://providers.apis.io/providers/tu-delft/",
-     "type": "API Provider",
-     "description": "Delft University of Technology (TU Delft) is the oldest and largest public technical university in the Netherlands and a member of the 4TU.Federation. Its programmable footprint is narrow, and this profile states that plainly rather than padding it. TU Delft operates exactly one public, unauthenticated API: the 4TU.ResearchData repository at data.4tu.nl, which runs on djehuty, open-source repository software written by 4TU.ResearchData and Nikhef. The /v2 surface is deliberately shape-compatible with the Figshare v2 API because that was a requirement of the 2023 migration OFF Figshare — the contract is not Figshare's, and the service runs inside TU Delft's own RIPE netblock (DUNET, 131.180.0.0/16). The other genuinely institution-operated machine-readable surface is a SAML 2.0 identity provider at login.tudelft.nl, published into the SURFconext national federation and onward to eduGAIN. Beyond those two, the picture is retirement and tenancy. The general-purpose institutional API platform at api.tudelft.nl — campus, buildings, courses, schedules, study results, organisation — no longer answers on port 80 or 443, and its documentation host apidoc.tudelft.nl has no DNS record at all. The research information portal at pure.tudelft.nl / research.tudelft.nl is an Elsevier Pure tenancy whose own API documentation canonicalises to api.elsevierpure.com: TU Delft's data, Elsevier's contract. The library discovery layer is an OCLC WorldCat tenancy. No working OAI-PMH endpoint exists on any TU Delft-operated host despite third-party registry entries claiming otherwise. TU Delft publishes no OpenAPI, no llms.txt, no scope vocabulary and no API changelog.",
-     "score": 69.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 64.1,
-      "governance": 67.4,
-      "contract_governance": 67.4,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 90.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 141
     },
     {
@@ -7434,8 +7442,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7488,8 +7496,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7549,8 +7557,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 65.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -7596,8 +7604,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7643,8 +7651,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -7690,8 +7698,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7744,8 +7752,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7764,13 +7772,13 @@
        }
       ]
      },
-     "agent_score": 34.2,
+     "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -7809,8 +7817,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7856,8 +7864,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -7910,8 +7918,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7957,8 +7965,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 62.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -8004,8 +8012,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8032,6 +8040,53 @@
      "rank": 153
     },
     {
+     "name": "Oracle Cloud Infrastructure",
+     "slug": "oracle-cloud",
+     "url": "https://providers.apis.io/providers/oracle-cloud/",
+     "type": "API Provider",
+     "description": "Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notifications. Every request is signed with an RSA API signing key rather than a bearer token, every service is versioned by a YYYYMMDD segment in the URL path, and Oracle publishes a first-party Swagger 2.0 contract for each service from a single machine-readable index at docs.oracle.com/en-us/iaas/api/specs/. Client SDKs ship for Python, Java, TypeScript, Go, Ruby, .NET and PowerShell alongside the OCI CLI, a Terraform provider, and a repository of 27 reference MCP servers for agent access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png",
+     "score": 69.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 42.3,
+      "governance": 47.0,
+      "contract_governance": 47.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 87.5,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 42.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 154
+    },
+    {
      "name": "Stoplight",
      "slug": "stoplight",
      "url": "https://providers.apis.io/providers/stoplight/",
@@ -8051,8 +8106,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8076,7 +8131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Knock",
@@ -8098,8 +8153,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8137,7 +8192,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Bitly",
@@ -8159,8 +8214,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8184,7 +8239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Enphase Energy",
@@ -8206,8 +8261,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8238,7 +8293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Lightspark",
@@ -8260,8 +8315,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -8292,7 +8347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Mailosaur",
@@ -8314,8 +8369,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8339,7 +8394,61 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
+    },
+    {
+     "name": "Polygon",
+     "slug": "polygon",
+     "url": "https://providers.apis.io/providers/polygon/",
+     "type": "API Provider",
+     "description": "Polygon (Polygon.io, rebranded as Massive in early 2026) provides real-time and historical market data APIs across US stocks, options, indices, forex, cryptocurrencies, and futures. Coverage is delivered through REST endpoints and WebSocket streams under a single api.polygon.io surface plus an S3 flat files product, with tiered subscription plans for retail developers and Business contracts for redistribution and exchange-licensed data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png",
+     "score": 69.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 72.5,
+      "governance": 33.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 77.6,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 68.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 63.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 161
     },
     {
      "name": "Remote",
@@ -8361,8 +8470,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8386,7 +8495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 162
     },
     {
      "name": "Crypto.com",
@@ -8408,8 +8517,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -8440,7 +8549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 163
     },
     {
      "name": "Instacart",
@@ -8462,8 +8571,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8487,7 +8596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 164
     },
     {
      "name": "IPinfo",
@@ -8509,8 +8618,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8541,54 +8650,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
-    },
-    {
-     "name": "Microsoft Azure API Management",
-     "slug": "microsoft-azure-api-management",
-     "url": "https://providers.apis.io/providers/microsoft-azure-api-management/",
-     "type": "API Provider",
-     "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs for external, partner, and internal developers. It now includes an AI gateway for governing OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, Microsoft Foundry models, Amazon Bedrock, MCP servers exposed from REST APIs or proxied from external MCP backends, and A2A agent APIs - with token rate limiting, semantic caching, content safety, backend load balancing, circuit breakers, and token emission to Application Insights. It pairs with Azure API Center for design-time inventory, governance, and discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png",
-     "score": 68.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 56.9,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 92.9,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 25.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Plunk",
@@ -8610,9 +8672,9 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 39.0,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 42.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -8620,7 +8682,7 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
@@ -8635,7 +8697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Prismic",
@@ -8657,8 +8719,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8682,7 +8744,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "Taboola",
@@ -8704,8 +8766,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8729,7 +8791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Telr",
@@ -8751,8 +8813,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -8790,7 +8852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "UserGems",
@@ -8812,8 +8874,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8837,7 +8899,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Algolia",
@@ -8859,8 +8921,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8884,7 +8946,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Arcade",
@@ -8906,8 +8968,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8931,7 +8993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Browser Use",
@@ -8953,8 +9015,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 53.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8978,7 +9040,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "MethodFi",
@@ -9000,8 +9062,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9009,15 +9071,15 @@
       "score": 59.4,
       "matched_via": "tags"
      },
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
+     "agent_score": 41.1,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "documented",
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "verified",
@@ -9032,7 +9094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Loops",
@@ -9054,8 +9116,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 57.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -9079,7 +9141,108 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
+    },
+    {
+     "name": "Shodan",
+     "slug": "shodan",
+     "url": "https://providers.apis.io/providers/shodan/",
+     "type": "API Provider",
+     "description": "Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Streaming, and Trends APIs along with on-demand scanning, network alerts, notifiers, DNS lookups, the InternetDB API, and the CVEDB vulnerability database. It is widely used for attack-surface management, security research, threat intelligence, vulnerability discovery, market research, and academic study of the Internet itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png",
+     "score": 68.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 79.5,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 89.3,
+      "commercial_clarity": 56.6,
+      "access_clarity": 56.6
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 23.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 176
+    },
+    {
+     "name": "Virto Commerce",
+     "slug": "virto-commerce",
+     "url": "https://providers.apis.io/providers/virto-commerce/",
+     "type": "API Provider",
+     "description": "Virto Commerce is an open-source, API-first B2B e-commerce platform built on .NET Core. It provides REST and GraphQL APIs for catalog management, pricing, inventory, order management, customer organizations, marketing, payments, shipping, subscriptions, and complex B2B purchasing workflows including quotes, contracts, and approval routing. The modular architecture offers 100+ independently deployable modules covering the full commerce stack for enterprise deployments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png",
+     "score": 68.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 57.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 78.9,
+      "access_clarity": 78.9
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bound",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 177
     },
     {
      "name": "Coresignal",
@@ -9101,8 +9264,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -9126,7 +9289,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 178
     },
     {
      "name": "Blueshift",
@@ -9148,8 +9311,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -9180,7 +9343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 179
     },
     {
      "name": "SignalWire",
@@ -9202,8 +9365,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -9234,7 +9397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 180
     },
     {
      "name": "Ontraport",
@@ -9256,8 +9419,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9288,7 +9451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 181
     },
     {
      "name": "Orange Business",
@@ -9310,8 +9473,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -9342,7 +9505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 182
     },
     {
      "name": "Plaid",
@@ -9364,8 +9527,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9407,7 +9570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 183
     },
     {
      "name": "Solana",
@@ -9429,8 +9592,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9454,7 +9617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 184
     },
     {
      "name": "Vibes Platform",
@@ -9476,8 +9639,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -9508,7 +9671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 185
     },
     {
      "name": "Vidyard",
@@ -9530,8 +9693,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -9555,7 +9718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 186
     },
     {
      "name": "Zoho Campaigns",
@@ -9577,8 +9740,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -9609,7 +9772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 187
     },
     {
      "name": "Google Search Console",
@@ -9631,8 +9794,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -9656,7 +9819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 188
     },
     {
      "name": "Swell",
@@ -9678,8 +9841,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9710,7 +9873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 189
     },
     {
      "name": "Wappalyzer",
@@ -9732,8 +9895,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -9757,7 +9920,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 190
     },
     {
      "name": "Finix",
@@ -9779,8 +9942,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9811,7 +9974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 191
     },
     {
      "name": "Google Analytics",
@@ -9833,8 +9996,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -9858,7 +10021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 192
     },
     {
      "name": "Healthie",
@@ -9880,8 +10043,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9912,7 +10075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 193
     },
     {
      "name": "Lusha",
@@ -9934,8 +10097,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 57.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -9959,7 +10122,61 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 194
+    },
+    {
+     "name": "Uphold",
+     "slug": "uphold",
+     "url": "https://providers.apis.io/providers/uphold/",
+     "type": "API Provider",
+     "description": "Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its Enterprise API Suite (\"Move on chain\") is a modular set of OpenAPI 3.1 REST APIs — Core, Widgets, Topper, Market Pulse and KYC Connector — that partners embed to onboard and KYC/KYB-verify users, move value across bank rails (ACH, FedNow/RTP, Wire, FPS, SEPA), debit and credit cards, alternative payment methods (Apple Pay, PayPal) and 50+ blockchain networks, and to run buy/sell, trade, send, portfolio, statements and FATF Travel Rule flows. Uphold also runs a public legacy market-data and wallet API at api.uphold.com/v0, publishes embeddable Payment, KYC and Travel Rule widgets, a Svix-backed webhook event surface, a full Sandbox with test helpers, a public Postman workspace, an llms.txt, an A2A agent card and a documentation MCP server.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png",
+     "score": 68.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 66.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 78.6,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 195
     },
     {
      "name": "Benchling",
@@ -9981,8 +10198,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10024,61 +10241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
-    },
-    {
-     "name": "Polygon",
-     "slug": "polygon",
-     "url": "https://providers.apis.io/providers/polygon/",
-     "type": "API Provider",
-     "description": "Polygon (Polygon.io, rebranded as Massive in early 2026) provides real-time and historical market data APIs across US stocks, options, indices, forex, cryptocurrencies, and futures. Coverage is delivered through REST endpoints and WebSocket streams under a single api.polygon.io surface plus an S3 flat files product, with tiered subscription plans for retail developers and Business contracts for redistribution and exchange-licensed data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png",
-     "score": 68.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 72.5,
-      "governance": 33.3,
-      "contract_governance": 33.3,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 77.6,
-      "access_clarity": 77.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 68.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 63.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 193
+     "rank": 196
     },
     {
      "name": "Buttondown",
@@ -10100,8 +10263,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -10132,7 +10295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 197
     },
     {
      "name": "fal",
@@ -10154,8 +10317,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10179,7 +10342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 198
     },
     {
      "name": "Hunter",
@@ -10201,8 +10364,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -10226,61 +10389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
-    },
-    {
-     "name": "Jefferson Health",
-     "slug": "jefferson-health",
-     "url": "https://providers.apis.io/providers/jefferson-health/",
-     "type": "API Provider",
-     "description": "Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jefferson University and Jefferson Health Plans (formerly Health Partners Plans). Its patient-facing electronic health record runs on Epic and is branded as MyJeffersonHealth / MyChart, with a CMS-mandated HL7 FHIR R4 API published at fhir.jefferson.edu/FHIRProxy/api/FHIR/R4 that exposes USCDI-aligned clinical resources to third-party patient-access applications via SMART on FHIR and OAuth 2.0. Jefferson Health Plans separately exposes CARIN-aligned Patient Access and Da Vinci Plan-Net Provider Directory FHIR APIs powered by Smile CDR for its insurance members and the public.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png",
-     "score": 68.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 58.5,
-      "governance": 87.9,
-      "contract_governance": 87.9,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 81.6,
-      "access_clarity": 81.6
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 76.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 197
+     "rank": 199
     },
     {
      "name": "Punchh",
@@ -10302,8 +10411,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -10334,7 +10443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 200
     },
     {
      "name": "AlphaLoops FMCSA Carrier Data API",
@@ -10356,8 +10465,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -10365,13 +10474,13 @@
       "score": 50.0,
       "matched_via": "tags"
      },
-     "agent_score": 30.3,
+     "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -10388,7 +10497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 201
     },
     {
      "name": "Google Ads",
@@ -10410,8 +10519,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10435,7 +10544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 202
     },
     {
      "name": "Medblocks",
@@ -10456,8 +10565,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10499,7 +10608,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 203
     },
     {
      "name": "Salesforce Service Cloud APIs",
@@ -10521,8 +10630,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -10546,7 +10655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 204
     },
     {
      "name": "Sift",
@@ -10568,8 +10677,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -10593,7 +10702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 205
     },
     {
      "name": "Tealium",
@@ -10615,8 +10724,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10640,7 +10749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 206
     },
     {
      "name": "Independence Blue Cross",
@@ -10662,8 +10771,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10694,7 +10803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 207
     },
     {
      "name": "SimilarWeb",
@@ -10716,8 +10825,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10741,7 +10850,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 208
     },
     {
      "name": "API Evangelist",
@@ -10763,8 +10872,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10788,7 +10897,101 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 209
+    },
+    {
+     "name": "Convoy",
+     "slug": "convoy",
+     "url": "https://providers.apis.io/providers/convoy/",
+     "type": "API Provider",
+     "description": "Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as \"the complete solution for secure, scalable, and reliable webhook delivery,\" covering both outbound (sending) and inbound (receiving) webhooks with retries, payload signing, fan-out, rate limiting, message broker ingestion, and customer-facing portals. Convoy is offered as a self-hosted open-source project (Elastic License v2.0, with the OpenAPI spec under MPL 2.0) and a fully managed cloud service in US and EU regions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png",
+     "score": 67.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 75.1,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 73.8,
+      "commercial_clarity": 75.0,
+      "access_clarity": 75.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 210
+    },
+    {
+     "name": "Dust",
+     "slug": "dust-tt",
+     "url": "https://providers.apis.io/providers/dust-tt/",
+     "type": "API Provider",
+     "description": "Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for \"AI Operators\" — the people who design, govern, and continuously improve agentic workflows across Sales, Customer Support, Marketing, Engineering, Data & Analytics, IT, Legal, Recruiting, and Knowledge teams. Agents in Dust are model-agnostic (OpenAI, Anthropic, Google, Mistral), grounded on company data through 100+ connectors (Slack, Notion, GitHub, Google Drive, Salesforce, Zendesk, Jira, Confluence, HubSpot, BigQuery, Snowflake), exposed via a REST API, MCP servers (client- and server-side), webhooks, and OAuth2, and reachable from a multiplayer conversation UI, Slack, a Chrome extension, a Raycast extension, and a CLI. The Dust core platform is open source under the MIT license at github.com/dust-tt/dust. The hosted service is available on a per-seat Pro plan (29 EUR / user / month) and a custom Enterprise tier (100+ seats) with SSO, SCIM, dedicated environments, EU residency, and SOC 2 Type II / GDPR / HIPAA-ready compliance.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png",
+     "score": 67.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 67.0,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 76.2,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 211
     },
     {
      "name": "Hightouch",
@@ -10810,8 +11013,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10835,7 +11038,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 212
     },
     {
      "name": "Hint Health",
@@ -10857,8 +11060,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10889,7 +11092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 213
     },
     {
      "name": "Seamless.AI",
@@ -10911,8 +11114,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -10936,7 +11139,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 214
     },
     {
      "name": "Acronis",
@@ -10958,8 +11161,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 45.9,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -10983,7 +11186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 215
     },
     {
      "name": "Amazon FreeRTOS",
@@ -11005,8 +11208,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11030,61 +11233,108 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 216
     },
     {
-     "name": "UK Power Networks",
-     "slug": "uk-power-networks",
-     "url": "https://providers.apis.io/providers/uk-power-networks/",
+     "name": "Power BI",
+     "slug": "power-bi",
+     "url": "https://providers.apis.io/providers/power-bi/",
      "type": "API Provider",
-     "description": "UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern Power Networks (EPN) — and the Distribution System Operator function that sits on top of them. It is a poles-and-wires business: it owns the substations, cables and overhead lines, holds the network capacity and connection queue, and handles more than 70,000 connection enquiries a year, but it does not sell electricity and has no retail customer relationship to expose. Its API posture is the exact inverse of the usual utility story. Britain never legislated a consumer energy data right — there is no CDR equivalent, no Green Button obligation, and the one thing the UK did mandate was infrastructure (the Smart DCC carrying smart-meter traffic under the Smart Energy Code), which produces no public API. What did produce an API was Ofgem's Data Best Practice and digitalisation obligation on network licensees, and UK Power Networks has actually implemented it: a live Opendatasoft-hosted Open Data Portal serving 136 datasets over a documented, versioned REST API with a real OpenAPI 3.0.3 contract published at its own domain, a DCAT-AP catalogue export, and an official open-source Python client (ukpyn) on PyPI. So the split is unusually sharp and unusually positive on one side: market and network data is genuinely open and genuinely queryable — live faults, carbon intensity, embedded capacity register, substation and feeder-level smart meter aggregates, LTDS tables, flexibility dispatches, curtailment events — while consumer data is not merely closed but absent, because as a DNO it holds no billable customer account to hand over. The gate is free and self-serve rather than open: the catalogue and 36 of 136 datasets answer anonymously, but the other 99 return HTTP 403 until you register a free account and mint an API key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png",
+     "description": "Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png",
      "score": 67.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 59.9,
-      "governance": 33.3,
-      "contract_governance": 33.3,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 87.5,
-      "commercial_clarity": 42.1,
-      "access_clarity": 42.1
+      "contract_quality": 72.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 100.0,
+      "commercial_clarity": 61.8,
+      "access_clarity": 61.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 59.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.1,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
+      "idempotency": false,
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 217
+    },
+    {
+     "name": "University of Waterloo",
+     "slug": "university-of-waterloo",
+     "url": "https://providers.apis.io/providers/university-of-waterloo/",
+     "type": "API Provider",
+     "description": "The University of Waterloo is a public research university in Waterloo, Ontario, Canada, known for cooperative education and for strength in mathematics, engineering and computer science. Unusually for this cohort, Waterloo genuinely operates its own API programme rather than appearing programmable through a vendor's contract: the Open Data API v3 at openapi.data.uwaterloo.ca is Waterloo-built and Waterloo-hosted, publishes a first-party OpenAPI at /swagger/v1/swagger.json, exposes 48 self-serve key-authenticated operations across courses, class and exam schedules, terms, subjects, academic organizations, locations, food services, important dates and web content, and carries a dated release-note stream, a published 120 requests-per-minute cap and a completed v2 retirement. Alongside it Waterloo runs a second, deliberately gated SourceAPI over authoritative Quest and WatIAM data, its own Shibboleth identity provider at idp.uwaterloo.ca, and the UWSpace institutional repository with DSpace REST and OAI-PMH endpoints on a Waterloo Libraries host. What it does not run is the research-data platform: Waterloo's data collection is a tenancy on the consortial Borealis Dataverse, and its status page is a Statuspage tenancy — both recorded here as relationships, not as Waterloo engineering. There is no unified developer portal spanning the three programmes; documentation is split between a Confluence space, a GitHub wiki and a Swagger UI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png",
+     "score": 67.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 56.8,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 71.1,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 85.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 218
     },
     {
      "name": "Agorapulse",
@@ -11106,8 +11356,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11131,7 +11381,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 219
     },
     {
      "name": "Canvas Medical",
@@ -11153,8 +11403,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11196,7 +11446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 220
     },
     {
      "name": "Cogny",
@@ -11218,8 +11468,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11243,7 +11493,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 221
     },
     {
      "name": "Elastic Stack (ELK Stack)",
@@ -11265,8 +11515,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 48.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -11290,7 +11540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 222
     },
     {
      "name": "Matomo",
@@ -11312,8 +11562,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11337,7 +11587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 223
     },
     {
      "name": "Plinth US Grants Data",
@@ -11359,8 +11609,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -11391,7 +11641,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 224
     },
     {
      "name": "ThousandEyes",
@@ -11413,8 +11663,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11438,7 +11688,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 225
     },
     {
      "name": "Financial Modeling Prep",
@@ -11460,8 +11710,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -11492,7 +11742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 226
     },
     {
      "name": "Lucidya Ltd",
@@ -11514,8 +11764,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11539,7 +11789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 227
     },
     {
      "name": "Microsoft Dynamics 365 Sales",
@@ -11561,8 +11811,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11586,7 +11836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 228
     },
     {
      "name": "Outreach",
@@ -11608,8 +11858,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 49.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11633,7 +11883,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 229
     },
     {
      "name": "Sigma Computing",
@@ -11655,8 +11905,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -11680,7 +11930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 230
     },
     {
      "name": "Surfe",
@@ -11702,8 +11952,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11727,7 +11977,101 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 231
+    },
+    {
+     "name": "APITube",
+     "slug": "apitube",
+     "url": "https://providers.apis.io/providers/apitube/",
+     "type": "API Provider",
+     "description": "APITube is a news data API providing search and retrieval across news articles, top headlines, trends, companies, journalists, and fact-checks, with taxonomy resolution for entities, topics and locations. The public contract is an OpenAPI 3.1 document of 26 operations served from api.apitube.io, authenticated with an API key by header or query parameter. APITube also operates a first-party MCP server at mcp.apitube.io over streamable HTTP, whose tool list is readable anonymously, and publishes an RFC 9727 api-catalog linkset at the apex that names the specification, the documentation, the llms.txt and the MCP server card.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/screenshots/apitube-2026-09-02T144120.png",
+     "score": 67.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 64.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 83.3,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 40.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 232
+    },
+    {
+     "name": "Geekflare",
+     "slug": "geekflare",
+     "url": "https://providers.apis.io/providers/geekflare/",
+     "type": "API Provider",
+     "description": "Geekflare is an API platform for AI agents and web automation: one account and one x-api-key give access to AI-ready web scraping, web and news search with grounded answers, screenshots, PDF generation, brand data, and website/DNS/TLS/network testing — all returning structured JSON or clean Markdown, backed by an OpenAPI 3.1 contract, official Node.js and Python SDKs, and a hosted MCP server, with a permanent free tier of 500 credits per month.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geekflare/refs/heads/main/screenshots/geekflare-2026-06-20T181711.png",
+     "score": 67.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 55.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 73.8,
+      "commercial_clarity": 92.1,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 233
     },
     {
      "name": "Facebook Business Manager",
@@ -11749,8 +12093,8 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 38.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11774,7 +12118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 234
     },
     {
      "name": "Omnisend",
@@ -11796,8 +12140,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11821,7 +12165,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 235
     },
     {
      "name": "Postman",
@@ -11843,8 +12187,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11868,7 +12212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 236
     },
     {
      "name": "S&P Global",
@@ -11890,8 +12234,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 63.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -11915,7 +12259,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 237
     },
     {
      "name": "Ziina",
@@ -11937,8 +12281,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -11969,7 +12313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 238
     },
     {
      "name": "ZeroBounce",
@@ -11991,8 +12335,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12016,7 +12360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 239
     },
     {
      "name": "dLocal",
@@ -12038,8 +12382,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -12070,7 +12414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 240
     },
     {
      "name": "Fitbit",
@@ -12092,8 +12436,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12124,7 +12468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 241
     },
     {
      "name": "Highlight (highlight.io)",
@@ -12146,8 +12490,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -12171,7 +12515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 242
     },
     {
      "name": "Netlify",
@@ -12193,15 +12537,15 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 57.0,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 62.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -12218,7 +12562,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 243
     },
     {
      "name": "NexGen Cloud",
@@ -12240,8 +12584,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12265,7 +12609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 244
     },
     {
      "name": "Rewardful",
@@ -12287,8 +12631,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12312,7 +12656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 245
     },
     {
      "name": "Segmind",
@@ -12334,8 +12678,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12359,7 +12703,54 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 246
+    },
+    {
+     "name": "WhoisFreaks",
+     "slug": "whoisfreaks",
+     "url": "https://providers.apis.io/providers/whoisfreaks/",
+     "type": "API Provider",
+     "description": "WhoisFreaks is a domain and IP intelligence provider whose REST API suite covers live WHOIS, historical WHOIS, bulk and reverse WHOIS, IP and ASN WHOIS, live/historical/reverse DNS, domain availability with suggestions, typosquatting discovery, SSL certificate lookup, subdomain enumeration, IP geolocation, IP reputation and domain reputation. Alongside the live lookup APIs it ships bulk downloadable databases (WHOIS, DNS, subdomains, IP geolocation, IP security, ASN, newly registered domains, expiring and dropped domains, and daily phishing/malware/spam threat feeds), brand/domain/registrant monitoring services with email, Telegram and webhook alerts, ten officially maintained OpenAPI-generated SDKs, a Go CLI, an n8n community node, and an open-source MCP server exposing fourteen domain-intelligence tools to AI assistants. Authentication is a single apiKey query parameter across every endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/screenshots/whoisfreaks-2026-08-17T080443.png",
+     "score": 66.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 64.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 30.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 247
     },
     {
      "name": "Adyen",
@@ -12381,8 +12772,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -12390,15 +12781,15 @@
       "score": 62.5,
       "matched_via": "tags"
      },
-     "agent_score": 39.4,
-     "agent_band": "agent-ready",
+     "agent_score": 45.9,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "documented",
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
@@ -12413,54 +12804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
-    },
-    {
-     "name": "Dust",
-     "slug": "dust-tt",
-     "url": "https://providers.apis.io/providers/dust-tt/",
-     "type": "API Provider",
-     "description": "Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for \"AI Operators\" — the people who design, govern, and continuously improve agentic workflows across Sales, Customer Support, Marketing, Engineering, Data & Analytics, IT, Legal, Recruiting, and Knowledge teams. Agents in Dust are model-agnostic (OpenAI, Anthropic, Google, Mistral), grounded on company data through 100+ connectors (Slack, Notion, GitHub, Google Drive, Salesforce, Zendesk, Jira, Confluence, HubSpot, BigQuery, Snowflake), exposed via a REST API, MCP servers (client- and server-side), webhooks, and OAuth2, and reachable from a multiplayer conversation UI, Slack, a Chrome extension, a Raycast extension, and a CLI. The Dust core platform is open source under the MIT license at github.com/dust-tt/dust. The hosted service is available on a per-seat Pro plan (29 EUR / user / month) and a custom Enterprise tier (100+ seats) with SSO, SCIM, dedicated environments, EU residency, and SOC 2 Type II / GDPR / HIPAA-ready compliance.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png",
-     "score": 66.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.0,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 76.2,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 24.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 241
+     "rank": 248
     },
     {
      "name": "Instagram",
@@ -12482,8 +12826,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12507,7 +12851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 249
     },
     {
      "name": "Qlik Sense APIs",
@@ -12529,8 +12873,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12554,7 +12898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 250
     },
     {
      "name": "Canva",
@@ -12576,8 +12920,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 47.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12601,7 +12945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 251
     },
     {
      "name": "Censys",
@@ -12623,8 +12967,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -12648,7 +12992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 252
     },
     {
      "name": "Airbyte",
@@ -12670,8 +13014,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12695,7 +13039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 253
     },
     {
      "name": "Amazon CodeGuru Profiler",
@@ -12717,8 +13061,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -12742,7 +13086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 254
     },
     {
      "name": "Captions",
@@ -12764,8 +13108,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -12789,7 +13133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 255
     },
     {
      "name": "Explorium",
@@ -12811,8 +13155,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12836,7 +13180,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 256
     },
     {
      "name": "Rybbit",
@@ -12858,8 +13202,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 43.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -12883,7 +13227,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 257
     },
     {
      "name": "Barndoor",
@@ -12905,8 +13249,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -12937,7 +13281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 258
     },
     {
      "name": "Inworld AI",
@@ -12959,8 +13303,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -12984,7 +13328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 259
     },
     {
      "name": "Pirsch",
@@ -13006,8 +13350,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -13031,7 +13375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 260
     },
     {
      "name": "Tomorrow.io",
@@ -13053,8 +13397,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -13078,7 +13422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 261
     }
    ],
    "open": true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - baseURL: https://developers.b3.com.br:8065
@@ -81,7 +81,7 @@ apis:
 - description: End-of-day and reference data service covering fixed income, equities, currencies, and debentures for mark-to-market, risk, and pricing workflows - standardized files in TXT, CSV, JSON, or XML deliver
   name: B3 UP2DATA
   slug: b3-up2data
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: well-known/b3-exchange-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/b3-exchange-mcp.yml
 - group: agent
   title: ''
@@ -242,10 +242,6 @@ created: '2026-07-21'
 description: B3 S.A. - Brasil, Bolsa, Balcão is the Brazilian exchange and financial market infrastructure operator formed by the 2017 merger of BM&FBOVESPA and Cetip, running trading, clearing, central depository, and OTC registration for equities, derivatives, fixed income, and FX. Its public B3 for Developers portal documents 114 B2B REST APIs (OAuth 2.0 client credentials and ROPC) across investor-area, OTC (Balcão), listed-markets, Tesouro Direto, Banco B3, and insurance domains. Real-time market data is distributed through the UMDF multicast feed (FIX/FAST and Binary SBE, L1/L2) via authorized distributors, and end-of-day plus reference data through the UP2DATA file service (TXT/CSV/JSON/XML via client software or cloud). All API and data access is contract-gated for institutions - B3 explicitly offers no self-serve access for individuals.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: B3 (Brasil Bolsa Balcão) MCP Server
-  slug: b3-brasil-bolsa-balcão-mcp-server
 modified: '2026-07-22'
 name: B3 (Brasil Bolsa Balcão)
 nav: Providers
@@ -289,8 +285,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

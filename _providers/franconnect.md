@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: 'Franchise Sales / Development module (path segment "fs"). Import and export franchise development leads, prospects, and the franchise sales pipeline used to recruit and qualify new franchisees. Exact '
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/screenshots/franconnect-2026-07-25T215117.png
 security:

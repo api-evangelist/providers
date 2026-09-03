@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Login and payment risk assessment
   name: Incognia Transactions API
   slug: incognia-transactions-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: authentication/incognia-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/incognia-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Incognia is a location identity and device fingerprinting platform for fraud prevention, providing real-time risk assessments for user onboarding, login, and payment transactions. Its API returns low_risk / high_risk / unknown_risk verdicts by combining privacy-first device recognition, location behavior analysis, and tamper detection, and accepts feedback events (chargebacks, account takeover, identity fraud, accepted/declined outcomes) that continuously tune the risk model. Incognia is used across financial services, fintech, marketplaces, delivery, and gaming to stop account takeover, new-account fraud, and payment fraud while reducing friction for trusted users. Authentication is OAuth 2.0 client credentials, exchanged for short-lived bearer tokens; official SDKs ship for Node.js, Python, Ruby, Java, and Go.
 image: https://www.incognia.com/hubfs/incognia-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Incognia MCP Server
-  slug: incognia-mcp-server
 modified: '2026-07-19'
 name: Incognia
 nav: Providers
@@ -244,8 +240,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/screenshots/incognia-2026-07-25T222233.png
 security:

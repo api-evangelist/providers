@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -45,7 +45,7 @@ apis:
 - description: Whoosh! is Totogi's Application-to-Person (A2P) messaging API, launched in September 2023 and positioned as a drop-in replacement for Twilio's A2P APIs that network operators can resell to keep enterp
   name: Whoosh Programmable Messaging API
   slug: whoosh-programmable-messaging-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Totogi Whoosh Webhooks
@@ -53,7 +53,7 @@ asyncapis:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/totogi-mcp.yml
 - group: company
   title: ''
@@ -196,10 +196,6 @@ description: 'Totogi LLC is an Austin, Texas based vertical AI and BSS software 
   publishes 32 queries, 61 mutations and 480 type definitions, with per-operation named authorization roles, typed result-union errors, caller-supplied transaction ids for idempotency, and dated field deprecations. Whoosh! is a Twilio-compatible A2P messaging API sold through operators, with open quickstarts, a live API host and four published helper libraries. The platform''s other reference at docs.totogi.solutions is a Redocly login wall, and there is no self-serve signup anywhere. Totogi holds TM Forum Platinum Open API Conformance Certification for 31 certified Open APIs and once ranked #1 on the TM Forum Open API Certification Leaderboard. No CAMARA, GSMA Open Gateway, or Aduna reference appears anywhere in Totogi''s own canonical AI index.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Totogi MCP Server
-  slug: totogi-mcp-server
 modified: '2026-07-25'
 name: Totogi
 nav: Providers
@@ -246,8 +242,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 70.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/screenshots/totogi-2026-08-17T082413.png
 security:

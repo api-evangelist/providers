@@ -8,6 +8,7 @@ access_model:
   source:
   - authentication
   - security
+  - '{''url'': ''https://oscar-emr.com/'', ''status'': 301, ''note'': ''declared website redirects to https://fammed.mcmaster.ca/oscar-emr/ — a different registrable domain (oscar-emr.com -> mcmaster.ca), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OSCAR's REST web-services layer, served under the /ws/services base path of a deployed OSCAR instance, covering most of the clinical record - scheduling/appointments, demographics, billing, prescripti
@@ -155,8 +156,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oscar-emr/refs/heads/main/screenshots/oscar-emr-2026-08-07T191006.png
 security:

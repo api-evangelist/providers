@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Travelier Connect is the group's partner distribution API — marketed on travelier.com/partners as "the largest ground & sea transportation GDS", aggregating 12,000+ intercity transport operators acros
@@ -144,8 +144,8 @@ score:
   previous_composite: 7.2
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelier/refs/heads/main/screenshots/travelier-2026-09-02T164142.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Provides operations to handle shipping-related tasks.
   name: Topi shippingMethod API
   slug: topi-shippingmethod-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Topi Webhooks
@@ -171,7 +171,7 @@ common:
   url: asyncapi/topi-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/topi-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: topi is a European hardware-as-a-service (HaaS) fintech that lets B2B sellers and retailers offer tech devices, IT hardware, and equipment as flexible monthly rental subscriptions instead of one-off purchases, across eCommerce, telesales, and point-of-sale channels. Merchants embed topi rentals into their checkout through the OAuth2-secured topi Seller API (catalog, offers, orders, shipments, and shipping methods) and the topi Elements embeddable web components, with a dedicated sandbox for end-to-end testing. Backed by Creandum.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Topi MCP Server
-  slug: topi-mcp-server
 modified: '2026-07-21'
 name: Topi
 nav: Providers
@@ -249,8 +245,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png
 security:

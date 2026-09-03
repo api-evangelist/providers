@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Vector ships with a local gRPC API that lets you interact with a running Vector instance — inspect component topology, read internal metrics and health, and tap live events flowing through the pipelin
   name: Vector Observability API
   slug: vector-observability-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -103,7 +103,7 @@ common:
   url: well-known/timber-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/timber-mcp.yml
 - group: design
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: 'Timber (timber.io) is the developer-tools company, backed by Lux Capital, that built Vector — an open-source, high-performance observability data pipeline written in Rust. The timber.io domain now redirects to vector.dev, and the project is stewarded by Datadog (which acquired Timber in 2021). Vector collects, transforms, and routes logs, metrics, and traces from many sources through a Vector Remap Language (VRL) transform layer to many sinks, running as a single static binary in agent or aggregator roles. Vector is configuration- driven (YAML/TOML/JSON) rather than an HTTP SaaS; its programmable surface is a local gRPC "Observability API" that lets tooling inspect and interact with a running Vector instance (component topology, metrics, health, live event tapping). This profile enriches the Timber/Vector lead with the real developer surface: the gRPC API, the vector CLI, distribution packages, and project security posture.'
 image: https://vector.dev/img/open-graph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Timber MCP Server
-  slug: timber-mcp-server
 modified: '2026-07-21'
 name: Timber
 nav: Providers
@@ -176,8 +172,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/screenshots/timber-2026-09-02T163748.png
 security:

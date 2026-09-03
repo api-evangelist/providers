@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ arazzos:
 - description: Pull a video's statistics, its top comment thread, and the replies under that thread's top comment.
   name: YouTube Video Engagement Report
   slug: youtube-video-engagement-report-workflow
-artifact_total: 441
+artifact_total: 440
 collections:
 - collection_type: postman
   name: YouTube Analytics API
@@ -475,7 +475,7 @@ common:
   url: well-known/youtube-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/youtube-mcp.yml
 - group: agent
   title: ''
@@ -1690,10 +1690,6 @@ jsonld:
   property_count: 6
   slug: youtube-reporting-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Youtube MCP Server
-  slug: youtube-mcp-server
 modified: '2026-06-20'
 name: Youtube
 nav: Providers
@@ -1769,8 +1765,8 @@ score:
       marker_coverage: 12.0
       total: 25
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

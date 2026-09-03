@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.truepill.com'', ''status'': 301, ''note'': ''declared website redirects to https://rx.fuzehealth.com/ — a different registrable domain (truepill.com -> fuzehealth.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -304,8 +305,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/screenshots/truepill-2026-08-17T082448.png
 security:

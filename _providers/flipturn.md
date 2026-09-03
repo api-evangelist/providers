@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: Electric vehicles and their associated access IDs.
   name: Flipturn Vehicles API
   slug: flipturn-vehicles-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -199,7 +199,7 @@ common:
   url: llms/flipturn-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/flipturn-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: Flipturn is an EV charging management platform that gives businesses and fleet operators one system to monitor chargers, manage energy costs, run fleet charging operations, control access, and handle payments and billing. Its software layer sits on top of OCPP 1.6 and 2.0.1 chargers (with OCPI support for roaming partners) and serves delivery fleets, transit agencies, multifamily housing, dealerships, workplaces, hospitality, retail, parking, and valet. Flipturn also publishes a JSON REST API, secured with a bearer API key, that exposes sites, chargers and ports, charging sessions, charger health and uptime, access IDs (RFID cards and vehicles), vehicles, alerts, charger errors, raw OCPP messages, port reservations, site power limits, vehicle departure times, and maintenance windows — designed for integrating charging data with ticketing platforms, data warehouses, and transportation management systems. Flipturn is backed by Accel and CRV.
 image: https://cdn.prod.website-files.com/64b825ce3428b050ac90c545/6a0deea6bb9839d3ec28999f_Opengraph_hi-res.avif
 layout: provider
-mcp_servers:
-- description: ''
-  name: Flipturn MCP Server
-  slug: flipturn-mcp-server
 modified: '2026-07-19'
 name: Flipturn
 nav: Providers
@@ -317,8 +313,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:

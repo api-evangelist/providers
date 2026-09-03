@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - baseURL: https://analytics-service.neurable.com
@@ -63,7 +63,7 @@ apis:
   description: The protected API from Neurable — 5 operation(s) for protected.
   name: Neurable Protected API
   slug: neurable-protected-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -95,7 +95,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/neurable-mcp.yml
 - group: other
   title: ''
@@ -182,10 +182,6 @@ description: 'Neurable is a Boston, Massachusetts neurotechnology company, found
   a full OpenID Connect authorization server, and a Brain Health Service.'
 image: https://cdn.prod.website-files.com/65773cb2354a620eb230d1e4/657b30529e7a3d9845248e54_Neurable-December-Opengraph%20(2).jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Neurable MCP Server
-  slug: neurable-mcp-server
 modified: '2026-08-04'
 name: Neurable
 nav: Providers
@@ -234,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

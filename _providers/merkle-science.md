@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.kybb.app.merklescience.com/api/v1
@@ -41,7 +41,7 @@ apis:
   description: Query and retrieve off-chain VASP due-diligence entities.
   name: Merkle Science VASP Entities API
   slug: merkle-science-vasp-entities-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: llms/merkle-science-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/merkle-science-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT regulations across 10,000+ crypto assets. Its product suite includes Compass (transaction and wallet monitoring), Tracker (forensic investigation and fund tracing), KYBB / Know Your Blockchain Business (counterparty due diligence and risk intelligence), Onchain Pulse (ecosystem monitoring and token risk scoring), and Institute (compliance training and certification). The public KYBB API exposes off-chain VASP due-diligence data — KYC/AML posture, supported coins and FIAT, permitted activities, regulatory alerts, licensing and legal-entity records, and jurisdictional restrictions. Merkle Science is backed by 500 Global.
 image: https://www.merklescience.com/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Merkle Science MCP Server
-  slug: merkle-science-mcp-server
 modified: '2026-07-20'
 name: Merkle Science
 nav: Providers
@@ -199,8 +195,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/screenshots/merkle-science-2026-08-07T172608.png
 security:

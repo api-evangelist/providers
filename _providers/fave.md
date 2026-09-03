@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ arazzos:
 - description: Charge a customer via merchant scan, then list the outlet's recent transactions and acknowledge the new one. All operationIds are verified against the FavePay Omni OpenAPI.
   name: Merchant-scan charge and reconcile
   slug: fave-scan-and-reconcile
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: Webhook (callback) event surface for FavePay Omni. Fave POSTs the transaction object to the partner's callback_url whenever a transaction changes status. Each payload carries a `sign` (HMAC-SHA256) fi
   name: FavePay Omni Webhooks
@@ -161,7 +161,7 @@ common:
   url: data-model/fave-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fave-mcp.yml
 - group: other
   title: ''
@@ -195,10 +195,6 @@ created: '2026-07-17'
 description: 'Fave is a Malaysia- and Singapore-based lifestyle and payments app offering deals, cashback, rewards, eCards, and QR-code payments, operated by Fave Asia Technologies and owned by Pine Labs. For merchants and platforms, Fave exposes the FavePay Omni (FPO) partner API: create single-use QR codes or payment URLs, process customer-presented (merchant-scan) charges, look up, list, and acknowledge transactions, issue full or partial refunds, and receive signed webhook callbacks on every status change. Every request is signed with HMAC-SHA256 using a secret key Fave issues during partner onboarding. FavePay Omni operates across Malaysia (MY), Singapore (SG), and Indonesia (ID).'
 image: https://myfave.com/banner.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fave MCP Server
-  slug: fave-mcp-server
 modified: '2026-07-19'
 name: Fave
 nav: Providers
@@ -246,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/screenshots/fave-2026-07-25T214253.png
 security:

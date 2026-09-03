@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - baseURL: https://api-sandbox.koin.com.br
@@ -116,7 +116,7 @@ apis:
   description: The WireTransfer API from Koin — 1 operation(s) for wiretransfer.
   name: Koin WireTransfer API
   slug: koin-wiretransfer-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Koin Payments Webhooks
@@ -300,7 +300,7 @@ common:
   url: conformance/koin-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/koin-mcp.yml
 - group: agent
   title: ''
@@ -318,10 +318,6 @@ created: '2026-07-17'
 description: Koin is a Brazilian payments and fraud-prevention provider operating across Latin America, offering merchants a single private-key API for BNPL ("Pix Parcelado" / installment payments without a card), instant Pix, card payments with anti-fraud, crypto and Pix payouts, refunds, cancellations and account-validation. Its Antifraud API scores e-commerce, wire-transfer and account-takeover events with device fingerprinting, 3-D Secure and strategy-based recovery, while an Onboarding API registers merchants. Koin publishes a ReadMe-hosted developer portal with OpenAPI 3 contracts, first-party Magento 2, WooCommerce, VTEX, Shopify, Wake, Nuvemshop and Tiendanube plugins, and iOS/Android checkout SDKs. Founded in Brazil and backed by Speedinvest (2018), Koin was acquired by Despegar in 2020.
 image: https://framerusercontent.com/images/PkgidZslCNXkKXqoQ6oHqtcYHo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Koin MCP Server
-  slug: koin-mcp-server
 modified: '2026-07-19'
 name: Koin
 nav: Providers
@@ -368,8 +364,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:

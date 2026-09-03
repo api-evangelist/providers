@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -309,6 +309,10 @@ collections:
   name: PortainerCE API
   slug: open-portainer
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/portainer-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -404,7 +408,7 @@ network: true
 overview: 'Portainer publishes 32 APIs on the [APIs.io](https://apis.io/) network, including auth API, backup API, custom_templates API, and 29 more. Tagged areas include Container Management, Containers, Docker, and Kubernetes.
 
 
-  Portainer''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, and 15 more developer resources.'
+  Portainer''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Portainer Plans Pricing
   plan_count: 3
@@ -418,7 +422,7 @@ score:
   band: developing
   composite: 44.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -443,8 +447,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:

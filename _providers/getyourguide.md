@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.getyourguide.com
@@ -80,7 +80,7 @@ arazzos:
 - description: Search the GetYourGuide marketplace, pick a tour option, check availability, then create and confirm a booking via the two-step cart flow.
   name: Search a tour and create a booking
   slug: getyourguide-search-and-book
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -201,7 +201,7 @@ common:
   url: sandbox/getyourguide-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/getyourguide-mcp.yml
 - group: agent
   title: ''
@@ -219,10 +219,6 @@ created: '2026-07-17'
 description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affiliates, agencies, and technology partners programmatic access to the GetYourGuide marketplace catalog — searching tours and activities, retrieving categories, options, availability, price breakdowns, supplier details, and reviews, and creating shopping carts and bookings. The RESTful Partner API uses JSON, is secured over TLS with an API access token (X-ACCESS-TOKEN header), and publishes its OpenAPI specification as open source on GitHub. GetYourGuide is backed by Battery Ventures and SoftBank Vision Fund.
 image: https://cdn.getyourguide.com/tf/assets/static/logos/gyg-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: GetYourGuide MCP Server
-  slug: getyourguide-mcp-server
 modified: '2026-07-19'
 name: GetYourGuide
 nav: Providers
@@ -260,8 +256,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -114,7 +114,7 @@ apis:
   description: 'With the https://:tenant_url/configapi/v2/user endpoint you can: Create new users and define most of their attributes Update existing users Check and clear user lockout state Manage agents'' skills Del'
   name: Bright Pattern Users API
   slug: bright-pattern-users-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: capabilities/bright-pattern-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bright-pattern-mcp.yml
 - group: agent
   title: ''
@@ -310,10 +310,6 @@ created: '2026-08-08'
 description: 'Bright Pattern is a cloud contact center (CCaaS) software company whose omnichannel platform routes voice, IVR, email, chat, SMS/MMS, video and social messenger conversations to agents, with built-in quality management, workforce management, outbound dialing and AI/bot assistance. The platform is multi-tenant: every customer contact center runs on its own tenant hostname, and Bright Pattern exposes nine public REST API families against that tenant — Configuration, SCIM-compliant user provisioning, List Management (v2, v3.0, v3.2), Task Routing, SMS/MMS, Interaction Content (call recordings and metadata), Real-Time Statistics, and the Mobile/Web Messaging APIs (v1 and v2) that back the iOS and Android Mobile SDKs. The public API reference is published as Postman documenter collections linked from the Bright Pattern documentation wiki.'
 image: https://www.brightpattern.com/wp-content/uploads/2025/02/Brightpattern-Homepage-Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bright Pattern MCP Server
-  slug: bright-pattern-mcp-server
 modified: '2026-08-08'
 name: Bright Pattern
 nav: Providers
@@ -364,8 +360,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/screenshots/bright-pattern-2026-08-17T080703.png
 security:

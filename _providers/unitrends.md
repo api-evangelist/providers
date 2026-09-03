@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://public-api.backup.net
@@ -91,7 +91,7 @@ apis:
   description: The DomainUsersV2 API from Unitrends — 1 operation(s) for domainusersv2.
   name: Unitrends DomainUsersV2 API
   slug: unitrends-domainusersv2-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -188,7 +188,7 @@ common:
   url: well-known/unitrends-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unitrends-mcp.yml
 - group: agent
   title: ''
@@ -230,10 +230,6 @@ created: '2026-07-17'
 description: Unitrends, a Kaseya company, provides all-in-one backup and disaster recovery (BCDR) solutions that secure, defend, and recover data across on-prem data centers, cloud, SaaS, and endpoints. The platform spans Recovery Series backup appliances, Unitrends Backup software, endpoint backup, and the UniView / Unitrends MSP portal, with ransomware detection, automated recovery assurance testing, and BackupIQ intelligence. Developers get a UniView Portal Public API (OAuth 2.0 client credentials via login.backup.net) for customers, appliances, assets, backups, and BackupIQ alerts, plus a documented per-appliance REST API and a community PowerShell toolkit.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unitrends.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unitrends MCP Server
-  slug: unitrends-mcp-server
 modified: '2026-07-21'
 name: Unitrends
 nav: Providers
@@ -276,8 +272,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/screenshots/unitrends-2026-09-02T164925.png
 security:

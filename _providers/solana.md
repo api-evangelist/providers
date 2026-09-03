@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ arazzos:
 - description: Read a wallet's lamport balance, enumerate its SPL Token accounts, and price one token account.
   name: Solana Snapshot a Wallet's SOL and SPL Token Holdings
   slug: solana-wallet-portfolio-workflow
-artifact_total: 67
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Solana JSON-RPC Accounts API
@@ -332,7 +332,7 @@ common:
   url: well-known/solana-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/solana-mcp.yml
 - group: agent
   title: ''
@@ -496,10 +496,6 @@ jsonld:
   property_count: 56
   slug: solana-rpc-context
 layout: provider
-mcp_servers:
-- description: 'The Solana Foundation publishes solana-dev-mcp, an official reference/demo Model Context Protocol server (stdio transport) that exposes core Solana RPC methods as tools for LLM clients such as Claude '
-  name: Solana MCP Server
-  slug: solana-mcp-server
 modified: '2026-06-20'
 name: Solana
 nav: Providers
@@ -562,8 +558,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

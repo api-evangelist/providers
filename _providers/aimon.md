@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for AIMon LLM monitoring and evaluation — manage users, models, applications, evaluations and evaluation runs, retrieve evaluation and production metrics, and manage datasets, records, and da
   name: AIMon API
   slug: aimon-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -115,7 +115,7 @@ common:
   url: sandbox/aimon-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aimon-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: AIMon (AIMon Labs) is an enterprise AI monitoring, evaluation, and governance platform that helps teams ship trustworthy LLM, RAG, and agentic AI applications. Its API and SDKs detect hallucinations and quality issues (instruction adherence, context quality, conciseness, completeness, toxicity) across offline evaluation, continuous production monitoring, and inline/real-time detection. Developers create applications and models, run evaluations and evaluation runs, retrieve evaluation and production metrics, and manage datasets, dataset records, and dataset collections through a REST API (base https://sdkbe-production.aimon.ai) with Bearer API-key authentication, plus official Python and TypeScript SDKs and a LlamaIndex integration. Surfaced as a portfolio company of Bessemer Venture Partners; sector ai-ml.
 image: https://www.aimon.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: AIMon MCP Server
-  slug: aimon-mcp-server
 modified: '2026-07-17'
 name: AIMon
 nav: Providers
@@ -163,8 +159,8 @@ score:
   previous_composite: 28.5
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimon/refs/heads/main/screenshots/aimon-2026-07-25T195355.png
 security:

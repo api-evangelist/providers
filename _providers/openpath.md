@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.openpath.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.avigilon.com/access-control — a different registrable domain (openpath.com -> avigilon.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 4
@@ -488,7 +489,7 @@ apis:
   description: Token use and validation
   name: Openpath tokens API
   slug: openpath-tokens-api
-artifact_total: 184
+artifact_total: 183
 collections:
 - collection_type: open
   name: API Collection
@@ -823,7 +824,7 @@ common:
   url: data-model/openpath-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openpath-mcp.yml
 - group: agent
   title: ''
@@ -849,10 +850,6 @@ created: '2026-07-17'
 description: 'Openpath is a cloud-based, mobile-first access control platform for the modern workplace — touchless entry, door/reader/relay hardware (ACUs), user and credential management, roles, schedules, sites and zones, video and alarm integrations. Founded in 2016 and backed by Emergence Capital, Openpath was acquired by Motorola Solutions in 2021 and is now marketed as Avigilon Alta; openpath.com redirects to avigilon.com/access-control. Its developer surface remains live: a documented REST API at api.openpath.com (546 operations, JWT scope-based auth, OpenID Connect) with reference docs on ReadMe.'
 image: https://files.readme.io/31f837c-small-Avigilon_Alta_favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Openpath MCP Server
-  slug: openpath-mcp-server
 modified: '2026-07-20'
 name: Openpath
 nav: Providers
@@ -868,21 +865,21 @@ scopes:
   slug: openpath-scopes
   summary_line: 3 scopes
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 25.7
   coverage:
     artifact_dirs: 17
-    catalog_gap: 81.0
+    catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 48.3
     developer_ergonomics: 32.7
-    discoverability: 70.4
+    discoverability: 51.9
     governance: 4.5
     operational_transparency: 0.0
   previous_composite: 27.5
@@ -896,8 +893,8 @@ score:
       total: 89
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/screenshots/openpath-2026-08-07T190619.png
 security:

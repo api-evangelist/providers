@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'A live remote Model Context Protocol endpoint serving WINN.AI conversation data to agents. It is published nowhere on the company''s website — it was found by probing RFC 9728 OAuth protected-resource '
@@ -173,8 +173,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/winnai/refs/heads/main/screenshots/winnai-2026-09-02T170810.png
 security:

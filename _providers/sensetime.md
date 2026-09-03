@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The SenseNova LLM API service platform exposes SenseTime's large multimodal foundation models (chat completions, embeddings, image and video generation, and fine-tuning) over an HTTP API, authenticate
@@ -138,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensetime/refs/heads/main/screenshots/sensetime-2026-09-02T154906.png
 security:

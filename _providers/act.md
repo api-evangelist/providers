@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: 'JSON-based REST API for the Act! CRM database exposing contacts, companies, groups, opportunities, tasks, activity series, calendar, notes, history, documents, attachments, users, teams, preferences, '
@@ -92,7 +92,7 @@ apis:
   description: The TaskTypes API from Act! CRM — 4 operation(s) for tasktypes.
   name: Act! CRM Task Types API
   slug: act-tasktypes-api
-artifact_total: 50
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Act Webhooks
@@ -192,6 +192,10 @@ collections:
   name: Act! Web API — Webhooks
   slug: open-act-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/act-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -316,10 +320,6 @@ created: '2026-05-11'
 description: Act! is a CRM and marketing automation platform built for small and mid-sized businesses, providing contact and activity management, opportunity tracking, email marketing, and pipeline reporting in cloud (Act! Advantage) or on-premises (Act! Premium Desktop) editions. The Act! Web API is a JSON-based REST API that exposes contacts, companies, groups, opportunities, activities, tasks, notes, history, documents and tenant-defined custom entities across 410 operations, with OData v4 query options ($filter, $orderby, $top, $skip, $select, $expand) on collection reads, multipart batching at POST /api/$batch, a webhook registration API, and a published Swagger 2.0 specification. Authentication is a JWT bearer token minted at GET /authorize from HTTP Basic credentials plus an Act-Database-Name header. The API is deployed per database — either on Act! Premium Cloud or on the customer's own IIS server — so the base URL is per-tenant.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/act.png
 layout: provider
-mcp_servers:
-- description: Act! operates no MCP server. This file is a CANDIDATE tool surface derived from the Act! Web API's own operations so the shape of an Act! MCP server can be reasoned about — it is not something Act! sh
-  name: Act! CRM MCP Server
-  slug: act-crm-mcp-server
 modified: '2026-08-13'
 name: Act! CRM
 nav: Providers
@@ -330,7 +330,7 @@ overview: 'Act! CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Act! CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Act! CRM''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, pricing, and 23 more developer resources.'
+  Act! CRM''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, pricing, and 24 more developer resources.'
 plans:
 - name: Act Plans Pricing
   plan_count: 4
@@ -344,7 +344,7 @@ score:
   band: strong
   composite: 65.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -368,8 +368,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/screenshots/act-2026-08-17T121405.png
 security:

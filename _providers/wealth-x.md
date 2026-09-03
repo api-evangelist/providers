@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.1
-  scored_at: '2026-09-02'
+  score: 33.6
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://connect.wealthx.com/rest/v1
@@ -63,7 +63,7 @@ apis:
 - description: 'Asynchronous bulk matching of a customer dataset against the Altrata dataset. Submit a personsMatch or organizations mutation, receive a requestId, poll until matched, then page the results as unique '
   name: Altrata Matching API
   slug: altrata-matching-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -144,7 +144,7 @@ common:
   url: conformance/wealth-x-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wealth-x-mcp.yml
 - group: agent
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: Wealth-X, an Altrata company founded in 2010, provides curated wealth intelligence on ultra-high-net-worth (UHNW) and very-high-net-worth (VHNW) individuals and their privately held companies. Its Connect API delivers Wealth-X dossiers — net worth, careers, interests, philanthropy and relationship networks — plus advanced prospect search and bulk/incremental sync directly into a subscriber's CRM or data platform. Wealth-X serves financial services, luxury, nonprofit and education clients for prospect qualification, relationship intelligence and compliance. Altrata's developer documentation names Wealth-X as a legacy product migrating to the unified Altrata GraphQL platform (Profile, Relationship, Events and Matching APIs), which also fronts a live OAuth-protected remote MCP server.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wealth-x.png
 layout: provider
-mcp_servers:
-- description: 'A real, reachable remote MCP server is operated by Altrata — Wealth-X''s parent — at https://mcp.altrata.com/mcp. It is OAuth-protected: an anonymous GET or POST returns HTTP 401 with `WWW-Authenticate'
-  name: Altrata MCP
-  slug: altrata-mcp
 modified: '2026-08-14'
 name: Wealth-X
 nav: Providers
@@ -264,8 +260,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/screenshots/wealth-x-2026-08-17T082844.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -104,7 +104,7 @@ apis:
   description: Settlement transfers (abonos) paid out to the merchant.
   name: Culqi Transfers API
   slug: culqi-transfers-api
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Culqi Events Webhooks
@@ -312,7 +312,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/culqi-mcp.yml
 - group: agent
   title: ''
@@ -362,10 +362,6 @@ finops:
   slug: culqi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/culqi.png
 layout: provider
-mcp_servers:
-- description: Culqi publishes no official hosted or packaged MCP server (no entry in the MCP registry, npm @modelcontextprotocol, or the Culqi docs/GitHub org as of July 2026). This is a DERIVED candidate tool list
-  name: Culqi MCP Server
-  slug: culqi-mcp-server
 modified: '2026-07-17'
 name: Culqi
 nav: Providers
@@ -421,8 +417,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:

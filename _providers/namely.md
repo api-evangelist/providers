@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.1
-  scored_at: '2026-09-02'
+  score: 24.3
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://{company}.namely.com/api/v1
@@ -135,7 +135,7 @@ apis:
   description: The Teams API from Namely — 1 operation(s) for teams.
   name: Namely Teams API
   slug: namely-teams-api
-artifact_total: 24
+artifact_total: 23
 common:
 - group: auth
   title: ''
@@ -243,7 +243,7 @@ common:
   url: sandbox/namely-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/namely-mcp.yml
 - group: agent
   title: ''
@@ -266,10 +266,6 @@ description: Namely is a mid-market Human Capital Management (HCM) platform comb
   combined Vensure Employer Solutions / PrismHR organisation in September 2022.
 image: https://namely.com/wp-content/uploads/2023/11/Namely.svg
 layout: provider
-mcp_servers:
-- description: 'Namely ships NO MCP server. This file is a DERIVED candidate tool surface computed from the 54 operations in Namely''s published Swagger 2.0 contract, so that the shape of an agent-native Namely is on '
-  name: Namely MCP tool candidate
-  slug: namely-mcp-tool-candidate
 modified: '2026-08-26'
 name: Namely
 nav: Providers
@@ -295,7 +291,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -305,7 +301,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 56.5
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -315,8 +311,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/screenshots/namely-2026-09-02T150721.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
   description: The Assignment API from Teammates — 1 operation(s) for assignment.
   name: Teammates Assignment API
   slug: teammates-assignment-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Teammates Webhooks
@@ -142,7 +142,7 @@ common:
   url: llms/teammates-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/teammates-mcp.yml
 - group: design
   title: ''
@@ -172,10 +172,6 @@ created: '2026-07-17'
 description: Teammates ("AI that works") is Super Duper Labs' end-to-end platform for designing and managing a virtual AI workforce. Companies create AI teammates that autonomously execute natural-language assignments across the SaaS tools their human teams already use — Salesforce, GitHub, Gmail, Slack, Google Workspace, Microsoft 365, Jira, HubSpot and more — through Smart Tools connections, reusable skills, event-driven rules and triggers, a secure password manager, and human-in-the-loop escalation. The public SmartTools API (api.teammates.work/v1) lets developers enqueue assignments against a named tool with a natural-language prompt and retrieve results by polling or webhook. Usage-based pricing (Team / Business / Enterprise). Backed by Matrix Partners.
 image: https://cdn.prod.website-files.com/66f1c713e9cce059a0faaf67/683bb044870f2478d1e2f664_page-cover-default.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Teammates MCP Server
-  slug: teammates-mcp-server
 modified: '2026-07-21'
 name: Teammates
 nav: Providers
@@ -216,8 +212,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/screenshots/teammates-2026-08-17T082257.png
 security:

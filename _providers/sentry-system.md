@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -265,6 +265,12 @@ apis:
   description: Retrieve user-related information
   name: Sentry Users API
   slug: sentry-system-users-api
+- description: 'Sentry provides official SDKs for 22+ platforms including JavaScript, Python, PHP, .NET, Java, Go, Ruby, Rust, Android, Apple, React Native, Unity, and Unreal Engine. Each SDK provides error capture, '
+  name: Sentry SDK API
+  slug: sentry-sdk-api
+- description: 'The Sentry Integration Platform API enables building public and internal integrations with Sentry. Supports OAuth2 with PKCE, device authorization flow for CLI/CI environments, webhook notifications, '
+  name: Sentry Integration Platform API
+  slug: sentry-integration-platform-api
 arazzos:
 - description: Find a recent project event, attach user feedback to it, and confirm the feedback was recorded.
   name: Sentry Capture User Feedback for an Event
@@ -302,7 +308,7 @@ arazzos:
 - description: Find a high-priority unresolved issue in an organization, inspect it, then assign and resolve it.
   name: Sentry Triage and Resolve an Issue
   slug: sentry-system-triage-resolve-issue-workflow
-artifact_total: 210
+artifact_total: 212
 collections:
 - collection_type: postman
   name: Sentry Alerts API
@@ -798,6 +804,18 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.sentry.io/llms.txt
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.sentry.io/api/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.sentry.io/api/
+- group: company
+  title: ''
+  type: Blog
+  url: https://sentry.io/blog/
 created: '2024-01-15'
 description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
 finops:
@@ -986,13 +1004,13 @@ modified: '2026-06-20'
 name: Sentry
 nav: Providers
 network: true
-overview: 'Sentry publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Check-Ins API, Client Keys API, and 41 more. Tagged areas include APM, Application Monitoring, Bug Tracking, Developer Tools, and Error Tracking.
+overview: 'Sentry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Check-Ins API, Client Keys API, and 42 more. Tagged areas include APM, Application Monitoring, Bug Tracking, Developer Tools, and Error Tracking.
 
 
   The Sentry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sentry''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, pricing, and 51 more developer resources.'
+  Sentry''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, pricing, and 54 more developer resources.'
 plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
@@ -1020,18 +1038,18 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.0
+  composite: 61.1
   coverage:
     artifact_dirs: 34
     catalog_gap: 63.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 14.4
-    contract_quality: 68.4
+    contract_quality: 76.5
     developer_ergonomics: 73.8
     discoverability: 55.6
     governance: 14.4
@@ -1046,8 +1064,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

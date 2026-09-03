@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
@@ -107,7 +107,7 @@ apis:
   description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
   name: Bendigo and Adelaide Bank Webhooks API
   slug: bendigo-and-adelaide-bank-webhooks-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: Real-time webhook event callbacks delivered by Up to a subscriber-configured HTTPS URL when transaction activity occurs on an Up account. Each delivery carries an X-Up-Authenticity-Signature header (S
   name: Up Developer API Webhooks
@@ -285,7 +285,7 @@ common:
   url: llms/bendigo-and-adelaide-bank-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bendigo-and-adelaide-bank-mcp.yml
 - group: agent
   title: ''
@@ -299,10 +299,6 @@ created: '2026-07-20'
 description: Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest retail banks, formed by the 2007 merger of the community-focused Bendigo Bank and the wholesale-strong Adelaide Bank, and headquartered in Bendigo, Victoria. The group serves millions of customers through the Bendigo Bank, Adelaide Bank, Rural Bank, and Up (neobank) brands, with a distinctive Community Bank branch-franchise model. As an authorised deposit-taking institution and accredited Consumer Data Right (CDR) data holder, the bank exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the Australian Consumer Data Standards, alongside the authenticated CDR consumer data-sharing surface governed by the ACCC/DSB rules.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bendigo-and-adelaide-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bendigo and Adelaide Bank MCP Server
-  slug: bendigo-and-adelaide-bank-mcp-server
 modified: '2026-07-21'
 name: Bendigo and Adelaide Bank
 nav: Providers
@@ -354,8 +350,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

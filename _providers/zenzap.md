@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Operations for managing topics (group chats/channels/conversations)
   name: ZenZap Topics (group chats/channels/conversations) API
   slug: zenzap-topics-group-chats-channels-conversations-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Zenzap Webhooks
@@ -215,7 +215,7 @@ common:
   url: data-model/zenzap-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zenzap-mcp.yml
 - group: agent
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: 'Zenzap is an AI-native work communication platform — "Work Chat Built for the AI Era" — used by teams in healthcare, hospitality, construction, food service, retail, franchise, manufacturing, and non-profit operations. It organizes work into topics (group chats / channels / conversations) carrying messages, tasks, polls, reactions, and file attachments, with HIPAA and SOC 2 compliance, SAML SSO, and SCIM provisioning for enterprises. The Zenzap External Integration API (v2) lets external applications and AI agents act as bots: create topics, send and manage messages, run tasks and polls, manage members, and receive events by webhook or long polling. Backed by Bessemer Venture Partners.'
 image: https://cdn.prod.website-files.com/6559c53afcb17d5a5995bfc0/683d76d5c705aada2bab4c9e_Open%20graph%20visual.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ZenZap MCP Server
-  slug: zenzap-mcp-server
 modified: '2026-07-21'
 name: ZenZap
 nav: Providers
@@ -291,8 +287,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/screenshots/zenzap-2026-08-17T083047.png
 security:

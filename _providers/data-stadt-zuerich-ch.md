@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: CKAN Action API for Zurich Open Data, ~925 datasets. Base URL https://data.stadt-zuerich.ch/api/3/action/.
@@ -122,8 +122,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png
 security:

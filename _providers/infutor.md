@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Real-time GET query to authenticate a LeadiD token against an account code, confirming lead capture provenance. Credentials are passed as query parameters (lac account code, id LeadiD token).
@@ -52,7 +52,7 @@ apis:
 - description: 'The batch counterpart to the real-time LeadiD queries — a versioned REST surface on myJornaya for driving Activate audience instances: list the Activate instances on an account, retrieve a presigned u'
   name: InfutorData Activate API
   slug: infutordata-activate-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -152,16 +152,12 @@ common:
   url: conformance/infutor-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/infutor-mcp.yml
 created: '2026-07-17'
 description: InfutorData (part of ActiveProspect, formerly Infutor / Jornaya / LeadiD) is a consumer identity and data-solutions provider that helps marketers identify, understand, and reach consumers while maintaining privacy and compliance. Its platform delivers identity resolution and completion, identity scoring, consumer data enrichment and attributes, audience activation, and lead-quality and TCPA compliance tooling (TCPA Guardian, LeadiD tokens). Real-time query APIs on api.leadid.com support authentication, lead audit, intelligence, and privacy-guardian lookups, documented in the InfutorData help center. Backed by Norwest Venture Partners.
 image: https://infutor.com/wp-content/uploads/2026/04/ID_primary_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Infutor MCP Server
-  slug: infutor-mcp-server
 modified: '2026-08-13'
 name: Infutor
 nav: Providers
@@ -201,8 +197,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/screenshots/infutor-2026-07-25T222430.png
 security:

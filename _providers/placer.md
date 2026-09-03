@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Visits Reports API from Placer — 7 operation(s) for visits reports.
   name: Placer Visits Reports API
   slug: placer-visits-reports-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: data-model/placer-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/placer-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Placer.ai is a location analytics and foot-traffic intelligence platform that measures visits, trade areas, demographics, and consumer behavior for physical points of interest across retail, CPG, commercial real estate, hospitality, and the public sector. Its public developer surface, the Placer API (PAPI, base https://papi.placer.ai), lets developers and data analysts extract Placer's location analytics programmatically to enrich, filter, or combine it with other data sources for custom dashboards, internal reporting, and competitive analysis. The v1 REST API covers entity/POI search, custom POI and tag management, and a suite of report endpoints spanning visit metrics and trends, trade area (true trade area, drive-time, demographics), ranking, loyalty, and retail sales. Authentication is a static API key sent in the x-api-key header.
 image: https://files.readme.io/338fd63-small-Placer_logo_ai_308px2x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Placer MCP Server
-  slug: placer-mcp-server
 modified: '2026-07-20'
 name: Placer
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/screenshots/placer-2026-08-17T081250.png
 security:

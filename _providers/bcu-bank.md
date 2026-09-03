@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: BCU Bank Banking Products API
   slug: bcu-bank-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: data-model/bcu-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bcu-bank-mcp.yml
 - group: other
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-20'
 description: BCU Bank is a customer-owned banking brand operated by Police & Nurses Limited (ABN 69 087 651 876), the mutual bank formed when Bananacoast Community Credit Union merged into the P&N Group. Headquartered on the New South Wales north coast, BCU serves retail and business members with everyday accounts, savings, home and personal lending, and cards. As an Authorised Deposit-taking Institution, BCU is a Consumer Data Right (CDR) Data Holder that exposes a public, unauthenticated Product Reference Data (PRD) API under the DSB Consumer Data Standards, and supports consumer data sharing to accredited data recipients through the CDR consent and Open Banking model. BCU does not run a general-purpose developer portal; its programmatic surface is the standards-based CDR banking API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bcu-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BCU Bank MCP Server
-  slug: bcu-bank-mcp-server
 modified: '2026-07-21'
 name: BCU Bank
 nav: Providers
@@ -290,8 +286,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/screenshots/bcu-bank-2026-07-21T114720.png
 security:

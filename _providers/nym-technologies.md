@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://validator.nymtech.net/api
@@ -151,7 +151,7 @@ apis:
   description: The Utility API from Nym Technologies — 4 operation(s) for utility.
   name: Nym Technologies Utility API
   slug: nym-technologies-utility-api
-artifact_total: 52
+artifact_total: 51
 collections:
 - collection_type: open
   name: API Collection
@@ -352,7 +352,7 @@ common:
   url: data-model/nym-technologies-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nym-technologies-mcp.yml
 - group: agent
   title: ''
@@ -370,10 +370,6 @@ created: '2026-07-17'
 description: Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect metadata (who talks to whom, when, and from where), not just IP addresses, using the Sphinx packet format, cover traffic, and zero-knowledge ecash (zk-nyms) for anonymous, unlinkable payments. The network is incentivized by the NYM token on the Nyx (Cosmos SDK) blockchain. Nym publishes a public Nym API (validator / nym-api) and a Node Status API for querying mixnodes, gateways, ecash signatures, epochs, rewards and network status, plus Rust and TypeScript SDKs (mix-fetch, mix-tunnel, mix-dns, mix-websocket) for routing arbitrary traffic through the mixnet.
 image: https://nym.com/docs/images/Nym_meta_Image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nym Technologies MCP Server
-  slug: nym-technologies-mcp-server
 modified: '2026-07-20'
 name: Nym Technologies
 nav: Providers
@@ -411,8 +407,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ apis:
   description: The Webhooks resource allows applications to subscribe to topics and receive events for users. Events are pushed to the webhook's `address` with a payload by issuing an HTTP POST request each time. **
   name: Boxc Webhooks API
   slug: boxc-webhooks-api
-artifact_total: 51
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Boxc Webhooks
@@ -308,7 +308,7 @@ common:
   url: asyncapi/boxc-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/boxc-mcp.yml
 - group: agent
   title: ''
@@ -354,10 +354,6 @@ created: '2026-07-17'
 description: BoxC (BoxC Logistics, Inc.) is an international e-commerce logistics management platform. Its single RESTful API drives cross-border ecommerce by integrating dozens of carriers, customs clearance, duties and taxes, warehousing and fulfillment, and returns through one integration. A routing engine can complete every leg of a shipment's journey or only selected steps on the merchant's behalf. The v1 API (currently 1.123) exposes 83 operations across 34 resources including Shipments, Labels, Orders, Products, Shops, Warehouses, Manifests, Overpacks, Inbound, Returns, Reshipments, Webhooks, Carrier Credentials, Customs Products, Entry Points, Tracking, Calculate Duty, Validate Address, and Classify. Authentication is OAuth 2.0 / OpenID Connect with RS256 JWT bearer tokens.
 image: https://storage.googleapis.com/boxc_cdn/public/boxc-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Boxc MCP Server
-  slug: boxc-mcp-server
 modified: '2026-07-18'
 name: Boxc
 nav: Providers
@@ -404,8 +400,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:

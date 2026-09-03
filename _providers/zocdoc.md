@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ apis:
   description: Reference endpoints to retrieve the visit reasons Zocdoc supports and the specialty each one belongs to. Visit reason drives appointment duration and bookable timeslots.
   name: Zocdoc visit-reasons API
   slug: zocdoc-visit-reasons-api
-artifact_total: 42
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Zocdoc Webhooks
@@ -244,7 +244,7 @@ common:
   url: packages/zocdoc-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zocdoc-mcp.yml
 - group: build
   title: ''
@@ -347,10 +347,6 @@ jsonld:
   property_count: 70
   slug: zocdoc-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zocdoc MCP Server
-  slug: zocdoc-mcp-server
 modified: '2026-08-15'
 name: Zocdoc
 nav: Providers
@@ -422,8 +418,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:

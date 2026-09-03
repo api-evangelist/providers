@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://admin.farmcommand.com/
@@ -91,7 +91,7 @@ apis:
   description: The token-login API from Farmers Edge — 1 operation(s) for token-login.
   name: Farmers Edge token-login API
   slug: farmers-edge-token-login-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: overlays/farmers-edge-farmcommand-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/farmers-edge-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +194,6 @@ created: '2026-07-17'
 description: Farmers Edge is a precision-agriculture and digital-farming company whose FarmCommand platform combines satellite imagery, connected weather stations, in-field telematics (the CanPlug IoT device), agronomic modeling, carbon-program tooling, and soil/lab products such as LabCommand and Hefty/FESoils. The public FarmCommand API is a Django REST (drf-yasg) service on admin.farmcommand.com that handles self-serve client onboarding and verification, token-based login for FarmCommand, LabCommand, GridCalc, RecEngine and Hefty users, password resets, CanPlug device lookup, and inbound integration webhooks (Stripe billing, DocuSign envelopes, LEAF field alerts). Authentication is a FarmCommand API token passed as a query parameter.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/farmers-edge.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Farmers Edge MCP Server
-  slug: farmers-edge-mcp-server
 modified: '2026-07-19'
 name: Farmers Edge
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
 security:

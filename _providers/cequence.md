@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-02'
-api_count: 5
+  score: 11.4
+  scored_at: '2026-09-03'
+api_count: 6
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
   name: Cequence API Spyder
@@ -51,7 +51,10 @@ apis:
 - description: Cequence Defender is a reverse-proxy deployed inline with API traffic, enforcing API policies, filtering malicious traffic, and providing real-time detection and mitigation through active traffic insp
   name: Cequence Defender
   slug: cequence-defender
-artifact_total: 10
+- description: 'Enterprise AI Gateway that makes applications agent-ready through governed Model Context Protocol integration. Register a REST API from its OpenAPI spec (or proxy a third-party remote MCP server) and '
+  name: Cequence AI Gateway
+  slug: cequence-ai-gateway
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -97,6 +100,22 @@ common:
   title: ''
   type: LlmsText
   url: https://www.cequence.ai/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://aigateway.cequence.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aigateway.cequence.ai/docs/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aigateway.cequence.ai/docs/remote-mcp-servers/cequence-ai-gateway
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cequenceai
 created: '2025-01-08'
 description: Cequence Security delivers the Unified API Protection (UAP) platform, combining external API attack-surface discovery, posture and compliance analysis, inline runtime protection, and testing into a single solution for defending web applications, APIs, and AI endpoints against business logic abuse, bot attacks, and fraud. The Cequence product family is organized into API Spyder (agentless external discovery), API Sentinel (API inventory, posture, and compliance), API Spartan (runtime bot and abuse defense), API Security Testing (shift-left OpenAPI conformance and vulnerability testing), and Cequence Defender (inline reverse-proxy enforcement of API policy).
 finops:
@@ -105,14 +124,18 @@ finops:
   slug: cequence-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cequence.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Cequence Security MCP Server
+  slug: cequence-security-mcp-server
 modified: '2026-04-23'
 name: Cequence Security
 nav: Providers
 network: true
-overview: 'Cequence Security publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Protection, API Discovery, API Security, Application Security, and Attack Surface.
+overview: 'Cequence Security publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Protection, API Discovery, API Security, Application Security, and Attack Surface.
 
 
-  Cequence Security''s developer surface includes engineering blog, product news, and 9 more developer resources.'
+  Cequence Security''s developer surface includes engineering blog, product news, documentation, API reference, and 11 more developer resources.'
 plans:
 - name: Cequence Plans Pricing
   plan_count: 3
@@ -123,27 +146,27 @@ rate_limits:
   name: Cequence Rate Limits
   slug: cequence-rate-limits
 score:
-  band: emerging
-  composite: 16.7
+  band: thin
+  composite: 26.2
   coverage:
     artifact_dirs: 7
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 9.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 64.3
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/screenshots/cequence-2026-06-20T174136.png
 security:
 - kind: domain-security

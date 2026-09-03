@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A secured REST API that lets an approved Hownd partner manage Subscribers on behalf of Hownd customers (merchants and businesses). Partners are issued OAuth 2.0 client credentials and retrieve a beare
@@ -177,8 +177,8 @@ score:
   previous_composite: 31.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/screenshots/locbox-labs-2026-07-25T225435.png
 security:

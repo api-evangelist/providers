@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -278,7 +278,7 @@ apis:
   description: The Webhooks API from Soldo — 0 operation(s) for webhooks.
   name: Soldo Webhooks API
   slug: soldo-webhooks-api
-artifact_total: 97
+artifact_total: 96
 asyncapis:
 - description: ''
   name: Soldo Webhooks
@@ -499,7 +499,7 @@ common:
   url: security/soldo-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/soldo-mcp.yml
 - group: other
   title: ''
@@ -537,10 +537,6 @@ created: '2026-07-17'
 description: Soldo is a pan-European spend management and prepaid business card platform that pairs Mastercard company cards with software for budgeting, expense tracking, and accounting reconciliation. The Soldo Business API (v2.0, OpenAPI 3.1) lets businesses programmatically issue and control cards, manage wallets and internal transfers, read and reconcile transactions, run expense reports and reviews, manage users, groups and roles, handle documents and receipts, and subscribe to 81 webhook event types. Authentication is OAuth 2.0 Client Credentials, with request-signed "advanced authentication" (SHA512withRSA fingerprints) layered on top for money movement and sensitive changes. Soldo also operates a separate PSD2 / Open Banking API.
 image: https://www.soldo.com/wp-content/uploads/2023/11/home-page-soldo-hero-small.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Soldo MCP Server
-  slug: soldo-mcp-server
 modified: '2026-07-21'
 name: Soldo
 nav: Providers
@@ -597,8 +593,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/screenshots/soldo-2026-08-17T081954.png
 security:

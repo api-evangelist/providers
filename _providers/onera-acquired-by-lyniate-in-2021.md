@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -79,8 +79,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onera-acquired-by-lyniate-in-2021/refs/heads/main/screenshots/onera-acquired-by-lyniate-in-2021-2026-08-07T190338.png
 slug: onera-acquired-by-lyniate-in-2021

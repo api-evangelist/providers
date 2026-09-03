@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The IDRX API API from IDRX — 0 operation(s) for idrx api.
   name: IDRX IDRX API
   slug: idrx-idrx-api-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Idrx Callback Webhooks
@@ -144,7 +144,7 @@ common:
   url: asyncapi/idrx-callback-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/idrx-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ created: '2026-07-17'
 description: IDRX is a stablecoin pegged 1:1 to the Indonesian Rupiah (IDR), issued by a regulated Indonesian entity and available across multiple EVM chains and Solana. Its REST API lets business (organization) accounts onboard KYC-verified users, register bank accounts, and process mint (fiat IDR -> IDRX / USDT on-chain), redeem (IDRX -> fiat IDR to a bank account), and bridge (cross-chain) transactions, plus query swap rates, fees, supported bank methods, and transaction history. Requests are authenticated with an API key and an HMAC-SHA256 request signature, and settlement is confirmed via single-delivery webhooks or transaction-history polling. IDRX is a portfolio company of a16z (crypto).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idrx.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: IDRX MCP Server
-  slug: idrx-mcp-server
 modified: '2026-07-19'
 name: IDRX
 nav: Providers
@@ -217,8 +213,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:

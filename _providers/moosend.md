@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.moosend.com/v3
@@ -56,7 +56,7 @@ apis:
   description: The Subscribers API from Moosend — 11 operation(s) for subscribers.
   name: Moosend Subscribers API
   slug: moosend-subscribers-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: Moosend API
@@ -168,7 +168,7 @@ common:
   url: llms/moosend-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moosend-mcp.yml
 - group: agent
   title: ''
@@ -227,10 +227,6 @@ jsonld:
   property_count: 0
   slug: moosend-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moosend MCP Server
-  slug: moosend-mcp-server
 modified: '2026-08-13'
 name: Moosend
 nav: Providers
@@ -285,8 +281,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:

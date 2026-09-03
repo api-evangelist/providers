@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for requesting a consenting user's genetic trait reports from Genomelink. A report is fetched by trait name and population (for example GET /v1/reports/eye-color/?population=europea
   name: Genomelink Developer API
   slug: genomelink-developer-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: security/awakens-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/awakens-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: AWAKENS (operating the consumer product Genomelink at genomelink.io) is a personal-genomics company that lets people upload the raw DNA data they exported from AncestryDNA, 23andMe, or MyHeritage and receive additional ancestry, trait, nutrition, and wellness reports interpreted from a knowledge base of 100,000+ SNPs across 50+ genetic traits. For developers, AWAKENS published the Genomelink Developer API — an OAuth 2.0 (authorization-code) REST API that lets third-party apps request a user's genetic trait reports (for example eye-color by population) after the user consents, plus an enterprise reports endpoint. Official Python (`genomelink`) and Node.js (`genomelink-node`) SDKs were shipped on PyPI and npm. The public developer API is currently marked "not available" on the developers page, so the artifacts here capture the documented OAuth surface, SDKs, and test credentials from AWAKENS' own first-party sources.
 image: https://genomelink.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: AWAKENS MCP Server
-  slug: awakens-mcp-server
 modified: '2026-07-18'
 name: AWAKENS
 nav: Providers
@@ -188,8 +184,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/screenshots/awakens-2026-07-25T202019.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -44,7 +44,7 @@ apis:
   description: Trade estimates and cross-chain order execution data.
   name: Zircuit Orders API
   slug: zircuit-orders-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -147,16 +147,12 @@ common:
   url: well-known/zircuit-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zircuit-mcp.yml
 created: '2026-07-17'
 description: Zircuit is a zero-knowledge (zk) rollup Layer 2 blockchain and secure onchain finance platform. The network is fully EVM-compatible and OP-Stack based, letting developers deploy standard Solidity smart contracts (via Foundry and the usual Ethereum tooling) while settling to Ethereum with zk validity proofs. Zircuit exposes standard Ethereum JSON-RPC endpoints for mainnet (chain ID 48900) and the Garfield testnet (chain ID 48898), a canonical L1<>L2 bridge, a relayer service (EIP-7702 gasless relaying), a transaction simulation surface, and the GUD Trading Engine — a REST API that aggregates cross-chain liquidity to return best-execution quotes and signable transaction data. On top of the chain, Zircuit Finance and the Liquidity Hub offer institutional-grade yield and LST/LRT staking. Backed by Pantera Capital; the network and contracts have been audited by six independent security firms and run a bug-bounty program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zircuit.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zircuit MCP Server
-  slug: zircuit-mcp-server
 modified: '2026-07-21'
 name: Zircuit
 nav: Providers
@@ -193,8 +189,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/screenshots/zircuit-2026-08-17T083112.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -150,7 +150,7 @@ arazzos:
 - description: Create (or reuse) a product, upload a firmware/binary image, run a scan, poll until it completes, then list the findings and pull a PDF report — the core CI/CD gate flow for the Binarly Transparency P
   name: Scan firmware in CI/CD with Binarly
   slug: binarly-scan-firmware
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -218,7 +218,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/binarly-mcp.yml
 - group: other
   title: ''
@@ -328,10 +328,6 @@ created: '2026-07-17'
 description: Binarly is a firmware and software supply-chain security company whose Binarly Transparency Platform performs binary-native analysis of compiled software, firmware, and container images without requiring source code. It detects known and unknown vulnerabilities, hardcoded secrets, cryptographic materials, malicious code, and missing hardening mitigations across UEFI, bootloaders, Linux packages, and application binaries, then generates SBOM, VEX, CBOM, and PQC-compliance artifacts for supply-chain assurance. The platform exposes a REST API (v4, Keycloak/OIDC-authenticated) so producers can automate firmware scanning inside CI/CD pipelines and enterprise buyers can programmatically assess vendor software. Binarly also maintains open firmware-research tooling such as the FwHunt rule format and fwhunt-scan. The company was surfaced as a portfolio company of Canaan Partners.
 image: https://www.binarly.io/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Binarly MCP Server
-  slug: binarly-mcp-server
 modified: '2026-07-18'
 name: Binarly
 nav: Providers
@@ -370,8 +366,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/screenshots/binarly-2026-07-25T202957.png
 security:

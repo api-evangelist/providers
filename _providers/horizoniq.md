@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -88,7 +88,7 @@ apis:
   description: Enpionts related to user accounts
   name: HorizonIQ User Accounts API
   slug: horizoniq-user-accounts-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: overlays/horizoniq-compass-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/horizoniq-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ created: '2026-07-17'
 description: HorizonIQ (formerly INAP / Internap) is a US infrastructure provider delivering fully managed private cloud, bare metal servers, and GPU dedicated servers, along with block and object storage, backup and recovery, connectivity, load balancing, firewalls, and DDoS mitigation across its data center footprint. Its Compass platform gives customers self-service provisioning, monitoring, and automation, exposed programmatically through the Compass REST API for managing servers, devices, managed firewalls, OS images, SSL certificates, billing, users, action items, and support cases. HorizonIQ holds SOC 2 Type II, ISO 27001, and PCI DSS certifications.
 image: https://www.horizoniq.com/wp-content/uploads/2024/01/HorizonIQ_FullColor_Horizontal.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HorizonIQ MCP Server
-  slug: horizoniq-mcp-server
 modified: '2026-07-19'
 name: HorizonIQ
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/screenshots/horizoniq-2026-07-25T221431.png
 security:

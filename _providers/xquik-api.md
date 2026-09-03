@@ -28,8 +28,8 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
-    mcp_server: documented
+    idempotency: verified
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: verified
@@ -37,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 82.9
-  scored_at: '2026-09-02'
+  score: 91.4
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -534,8 +534,8 @@ score:
       total: 20
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
 security:

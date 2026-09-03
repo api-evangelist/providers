@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Starknet API from Gallop — 2 operation(s) for starknet.
   name: Gallop Starknet API
   slug: gallop-starknet-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: conformance/gallop-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gallop-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: 'Gallop is an NFT data and analytics platform (backed by Amplify Partners) that provides composable data-aggregation, analytics and insight APIs so data engineers, developers and data scientists can rapidly deploy NFT products and experiences. Its REST APIs cover Ethereum, Solana, Polygon and Starknet across three surfaces: a Data API (collections, tokens, traits, transactions, wallet holdings, live listings, floor prices, ENS lookup), an Analytics API (collection/token summaries, rarity, wash-trade detection, OHLC candlesticks, leaderboards, wallet P&L) and an Insights API (token appraisal/liquidation estimates, wallet activity labels and wallet valuation). Authentication is via an x-api-key header, all operations are POST, and calls are limited to 5 requests/second. Note: as of mid-2026 the primary domain (higallop.com) is in registry redemption and the api.prod.gallop.run backend is unreachable, though the developer documentation remains published on ReadMe.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gallop.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gallop MCP Server
-  slug: gallop-mcp-server
 modified: '2026-07-19'
 name: Gallop
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/screenshots/gallop-2026-07-25T215406.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ apis:
   description: The VFR Helicopter Route Chart API from Federal Aviation Administration — 4 operation(s) for vfr helicopter route chart.
   name: Federal Aviation Administration VFR Helicopter Route Chart API
   slug: faa-vfr-helicopter-route-chart-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Faa Swim Event Surface
@@ -288,7 +288,7 @@ common:
   url: https://apim-api.apic4e.faa.gov/portal/environments/DEFAULT/apis
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/faa-mcp.yml
 - group: agent
   title: ''
@@ -403,10 +403,6 @@ description: The Federal Aviation Administration (FAA) is the United States civi
   over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.
 image: https://www.faa.gov/themes/custom/faa/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool manifest derived from the FAA CC0 OpenAPIs — not published by the FAA
-  slug: candidate-mcp-tool-manifest-derived-from-the-faa-cc0-openapis-not-published-by-the-faa
 modified: '2026-07-28'
 name: Federal Aviation Administration
 nav: Providers
@@ -462,8 +458,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png
 security:

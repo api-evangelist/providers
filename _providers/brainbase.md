@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -53,7 +53,7 @@ apis:
   description: GeneralController endpoints
   name: Brainbase General API
   slug: brainbase-general-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -75,7 +75,7 @@ common:
   url: conventions/brainbase-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brainbase-mcp.yml
 - group: agent
   title: ''
@@ -118,10 +118,6 @@ description: Brainbase is a modern, end-to-end brand-licensing and intellectual-
   This profile was surfaced from the Bessemer Venture Partners portfolio and enriched by the API Evangelist pipeline from the live API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brainbase.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brainbase MCP Server
-  slug: brainbase-mcp-server
 modified: '2026-07-18'
 name: Brainbase
 nav: Providers
@@ -159,8 +155,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.kalpalabs.ai
@@ -51,7 +51,7 @@ apis:
   description: Per-key usage and metering.
   name: Kalpa Labs Usage API
   slug: kalpa-labs-usage-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -124,7 +124,7 @@ common:
   url: lifecycle/kalpa-labs-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kalpa-labs-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +162,6 @@ created: '2026-07-17'
 description: 'Kalpa Labs is a San Francisco audio-research lab (Y Combinator Fall 2025) building generalist speech models that unify text-to-speech, multi-speaker conversation, voice cloning, and speech-in / speech-out reasoning behind one API — steerable with natural instructions and in-context learning the way a large language model is. Their Kalpa Speech API exposes stable public model ids over a clean REST interface: POST /v1/tts turns text into 24 kHz WAV audio, POST /v1/converse completes the open turn of a conversation (authored speech or contextual TTS), and a stateful WebSocket streams multi-speaker sessions. The developer surface ships a committed OpenAPI 3.1 contract, an AsyncAPI 3.0 WebSocket protocol, docs with a markdown twin per page, an llms.txt, and a browser Studio playground. Founded by Prashant Shishodia and Gautam Jha.'
 image: https://kalpalabs.ai/og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kalpa Labs MCP Server
-  slug: kalpa-labs-mcp-server
 modified: '2026-07-19'
 name: Kalpa Labs
 nav: Providers
@@ -207,8 +203,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://api.sommelier.finance
@@ -51,7 +51,7 @@ apis:
   description: Daily and hourly performance snapshots of Sommelier vaults (cellars).
   name: Sommelier Vault Data API
   slug: sommelier-vault-data-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -96,7 +96,7 @@ common:
   url: conformance/sommelier-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sommelier-mcp.yml
 - group: agent
   title: ''
@@ -114,10 +114,6 @@ created: '2026-07-17'
 description: 'Sommelier (rebranding to "Somm") is a decentralized asset-management and DeFi vault protocol whose smart-contract "cellars" run automated yield strategies on Ethereum. It publishes a public, read-only HTTP API that exposes on-chain vault performance data — daily and hourly snapshots (APY, TVL, share price, total assets), protocol-wide total value locked, per-cellar snapshots, and integration datasets for Kelp and ether.fi points and balances. All endpoints are unauthenticated GET requests with path-based parameters and a { "Response": ... } envelope; the API currently serves the ethereum network. Backed by Multicoin Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sommelier.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sommelier MCP Server
-  slug: sommelier-mcp-server
 modified: '2026-07-21'
 name: Sommelier
 nav: Providers
@@ -155,8 +151,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/screenshots/sommelier-2026-09-02T160153.png
 security:

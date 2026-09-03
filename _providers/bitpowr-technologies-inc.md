@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Utils API from BitPowr Technologies, Inc. — 4 operation(s) for utils.
   name: BitPowr Technologies, Inc. Utils API
   slug: bitpowr-technologies-inc-utils-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Bitpowr Technologies Inc Webhooks
@@ -183,7 +183,7 @@ common:
   url: asyncapi/bitpowr-technologies-inc-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bitpowr-technologies-inc-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ created: '2026-07-17'
 description: BitPowr Technologies is an institutional digital-asset infrastructure provider — often described as "AWS for crypto" — offering wallet-as-a-service, treasury management, tokenization, and compliance (AML / Know-Your-Transaction) tooling for fintechs, exchanges, and payment gateways. The Bitpowr Developer API is a REST API (base https://developers.bitpowr.com/api/v1) that lets businesses create and manage MPC-secured wallets, generate addresses, add assets, move funds, and stream events across 12+ blockchains including Bitcoin, Ethereum, Solana, Tron, Stellar, Litecoin, Bitcoin Cash, and Polygon. It supports test and live environments, page-based pagination, HTTP-429 rate-limit signaling, and a webhook event catalog. Backed by 500 Global.
 image: https://bitpowr.com/static/img/bitpowr_banner.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BitPowr Technologies, Inc. MCP Server
-  slug: bitpowr-technologies-inc-mcp-server
 modified: '2026-07-18'
 name: BitPowr Technologies, Inc.
 nav: Providers
@@ -288,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/screenshots/bitpowr-technologies-inc-2026-07-25T203206.png
 security:

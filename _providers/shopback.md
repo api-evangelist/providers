@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://prod-merchant-service.hoolah.co/merchant
@@ -63,7 +63,7 @@ apis:
   description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
   name: ShopBack Pre Auth API
   slug: shopback-pre-auth-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Shopback Payment Notification Webhooks
@@ -90,7 +90,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shopback-mcp.yml
 - group: other
   title: ''
@@ -225,10 +225,6 @@ description: ShopBack is a Singapore-headquartered shopping, rewards and payment
   1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.
 image: https://corporate.shopback.com/opengraph.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ShopBack MCP Server
-  slug: shopback-mcp-server
 modified: '2026-08-02'
 name: ShopBack
 nav: Providers
@@ -275,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/screenshots/shopback-2026-08-17T081837.png
 security:

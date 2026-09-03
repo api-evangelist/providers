@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: The Token API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for token.
   name: RICS (Royal Institution of Chartered Surveyors) Token API
   slug: rics-token-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -166,7 +166,7 @@ common:
   url: conformance/rics-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rics-mcp.yml
 - group: agent
   title: ''
@@ -308,10 +308,6 @@ created: '2026-07-26'
 description: 'RICS, the Royal Institution of Chartered Surveyors, is the British royal-chartered professional body founded in London in 1868 that qualifies, regulates and sets standards for surveyors, valuers and built-environment professionals worldwide, with the United Kingdom as its home market. In the property value chain it sits on the professional and valuation side rather than the listings side: it writes the RICS Valuation - Global Standards (the Red Book, incorporating IVS), the RICS Home Survey Standard, RICS Property Measurement / IPMS, ICMS, ILMS and the Rules of Conduct, it regulates roughly 12,000 RICS-regulated firms, and it runs the consumer-facing Find a Surveyor directory at ricsfirms.com and the isurv knowledge platform. Because the United Kingdom has no MLS, there is no RESO here at all - no RESO Web API or Data Dictionary certification, no OData $metadata, no Universal Property Identifier - so the "certified but unreachable" pattern does not apply; there is simply no
   listing-data certification layer in this market. What RICS does publish is genuinely machine-readable: the RICS Data Standard (RDS) 3.3.3 is an MIT-licensed JSON Schema and XSD covering land, property and infrastructure assets and incorporating ICMS, ILMS, IPMS, IVS and IBOS, hosted openly on GitHub at RICS-Data-Standard/RDS and downloadable anonymously. RICS also operates one real production API - the DigitalCommunity API at api.rics.org, whose OpenAPI 3.0.1 contract is served publicly and anonymously from a live Swagger UI - but it is not a public data API: it exposes RICS firm regulation schemes, PII and redress records, subscriptions, payments, member profiles and survey-writer integration, and its own description states that credentials must first be issued by RICS. There is no developer portal, no self-serve signup, and no open dataset from RICS; the UK''s open property data layer belongs to HM Land Registry and Ordnance Survey, not to the professional body.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool list derived from the OpenAPI - RICS publishes no MCP server (api.rics.org/mcp returns 404)
-  slug: candidate-mcp-tool-list-derived-from-the-openapi-rics-publishes-no-mcp-server-apiricsorgmcp-returns-404
 modified: '2026-07-26'
 name: RICS (Royal Institution of Chartered Surveyors)
 nav: Providers
@@ -358,8 +354,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/screenshots/rics-2026-09-02T153806.png
 security:

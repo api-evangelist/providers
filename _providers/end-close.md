@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -108,7 +108,7 @@ apis:
   description: The End Close API API from End Close — 0 operation(s) for end close api.
   name: End Close End Close API
   slug: end-close-end-close-api-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: End Close Webhooks
@@ -188,7 +188,7 @@ common:
   url: asyncapi/end-close-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/end-close-mcp.yml
 - group: agent
   title: ''
@@ -242,10 +242,6 @@ created: '2026-07-17'
 description: End Close is an automated reconciliation platform for payments companies and other high-volume transaction businesses. Its REST API connects payment processors, bank accounts, and accounting systems, continuously matches transactions across those sources into reconciliations, surfaces exceptions with full context, and automates their resolution using rules and agents. The v1 API covers data streams, records, reconciliations, matches, rules, stories, exceptions, bank accounts and balances, bulk/async ingestion, and webhooks. Backed by Y Combinator.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/end-close.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: End Close MCP Server
-  slug: end-close-mcp-server
 modified: '2026-07-19'
 name: End Close
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:

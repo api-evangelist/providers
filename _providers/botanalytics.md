@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.beta.botanalytics.co/v2
@@ -41,7 +41,7 @@ apis:
   description: The Messages API from Botanalytics — 1 operation(s) for messages.
   name: Botanalytics Messages API
   slug: botanalytics-messages-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ common:
   url: conformance/botanalytics-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/botanalytics-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: Botanalytics is a conversational analytics platform for AI chatbots and voice assistants. It helps bot builders and product teams measure engagement, understand user intents and natural-language understanding (NLU) quality, segment conversations, identify bottlenecks and drop-off points, and surface audience insights across 20+ languages and multiple messaging and voice channels (Facebook Messenger, Amazon Alexa, Microsoft Bot Framework, Samsung Bixby, and a universal channel). Conversation data is sent either through native no-code integrations, first-party SDKs (Node, Python, Java, Ruby), or a v2 REST ingestion API secured with Bearer JWT API keys. Botanalytics is backed by 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/botanalytics.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Botanalytics MCP Server
-  slug: botanalytics-mcp-server
 modified: '2026-07-18'
 name: Botanalytics
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/screenshots/botanalytics-2026-07-25T203639.png
 security:

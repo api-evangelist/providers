@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -69,7 +69,7 @@ apis:
   description: The Transactions API from Button — 1 operation(s) for transactions.
   name: Button Transactions API
   slug: usebutton-transactions-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Usebutton Webhooks
@@ -213,7 +213,7 @@ common:
   url: packages/usebutton-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/usebutton-mcp.yml
 - group: agent
   title: ''
@@ -267,10 +267,6 @@ created: '2026-07-17'
 description: 'Button (usebutton.com) is a mobile commerce technology company whose platform connects Publishers and Brands in a two-sided marketplace: publishers deep-link their users into retailer apps and sites with full attribution, and brands acquire and re-engage customers through those optimized journeys. Its server-to-server APIs cover personalized Offers, attributed Link and Shortlink generation (including Amazon creator links), Brand partnership details, Billing/affiliation transaction reporting, and Order reporting, complemented by Publisher SDKs, Merchant Libraries, and HMAC-signed transaction webhooks.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usebutton.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Button MCP Server
-  slug: button-mcp-server
 modified: '2026-07-21'
 name: Button
 nav: Providers
@@ -311,8 +307,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/screenshots/usebutton-2026-08-17T082649.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public GraphQL API for programmatically querying Font Awesome releases, searching icons and their metadata (family-styles, unicode, aliases, SVG path data), and — with an access token — reading accoun
   name: Font Awesome GraphQL API
   slug: font-awesome-graphql-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: start
   title: ''
@@ -87,7 +87,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/font-awesome-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Font Awesome is the web's most popular icon library and toolkit, providing thousands of SVG, font, and CSS icons across multiple styles and families for web, desktop, and mobile projects. Beyond the icon sets and framework components (React, Vue, Angular, Ember, Svelte, React Native, WordPress), Font Awesome operates a public GraphQL API at api.fontawesome.com that lets developers programmatically query releases, search icons and their metadata, resolve family-styles and unicode values, and — with an authenticated access token — read account Kits, entitlements, and download subsets. The API uses a token-exchange endpoint that resolves an account API token into a short-lived bearer access token scoped by permission (public, kits_read, svg_icons_free, svg_icons_pro, and more). Font Awesome also ships a first-party `fa` CLI and official AI agent skills for icon discovery and setup.
 image: https://fontawesome.com/images/open-graph/default.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Font Awesome MCP Server
-  slug: font-awesome-mcp-server
 modified: '2026-07-19'
 name: Font Awesome
 nav: Providers
@@ -200,8 +196,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/screenshots/font-awesome-2026-07-25T214913.png
 security:

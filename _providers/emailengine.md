@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -247,13 +247,13 @@ rate_limits:
   slug: emailengine-rate-limits
 score:
   band: thin
-  composite: 37.4
+  composite: 30.5
   coverage:
     artifact_dirs: 9
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -6.9
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -263,9 +263,6 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 47.4
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 37.4
   provenance:
     agentic_access: derived
@@ -274,9 +271,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
 security:
 - kind: domain-security

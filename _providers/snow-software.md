@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.snowsoftware.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.flexera.com/ — a different registrable domain (snowsoftware.com -> flexera.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -307,6 +308,10 @@ collections:
   name: 'SAM: Computers Applications Upgrades API'
   slug: open-snow-software-upgrades-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/snow-software-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -393,7 +398,7 @@ overview: 'Snow Software publishes 31 APIs on the [APIs.io](https://apis.io/) ne
   The Snow Software catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snow Software''s developer surface includes authentication, documentation, engineering blog, support, and 8 more developer resources.'
+  Snow Software''s developer surface includes authentication, documentation, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Snow Software Plans Pricing
   plan_count: 1
@@ -429,7 +434,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -451,8 +456,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/screenshots/snow-software-2026-06-20T194211.png
 security:

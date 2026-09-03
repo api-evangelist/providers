@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
   name: Pipe Storage (Firestarter) API
   slug: pipe-storage-firestarter-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: operate
   title: ''
@@ -119,7 +119,7 @@ common:
   url: errors/pipe-network-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pipe-network-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Pipe Network is a decentralized storage and content-delivery network built on Solana, marketed as "Firestarter" storage. It offers content-addressed (Blake3) object storage with client-side AES-256-GCM and post-quantum (Kyber-1024 / Dilithium5) encryption, deterministic public URLs of the form /{account}/{hash}, prepaid-USDC billing funded via Solana Pay, and first-party TypeScript / Python / Rust SDKs plus a Rust CLI. The SDKs ship native agent- framework tool adapters (OpenAI, Anthropic, LangChain, LlamaIndex, Vercel AI SDK, Cloudflare AI Workflows, AutoGen, CrewAI) and x402 machine-to-machine payment support. Backed by Multicoin Capital.
 image: https://github.com/PipeNetwork.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pipe Network MCP Server
-  slug: pipe-network-mcp-server
 modified: '2026-07-20'
 name: Pipe Network
 nav: Providers
@@ -176,8 +172,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/screenshots/pipe-network-2026-09-02T151313.png
 security:

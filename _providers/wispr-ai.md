@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.wisprflow.ai
@@ -286,7 +286,7 @@ apis:
   description: The Wispr Backend API from Wispr AI — 1 operation(s) for wispr backend.
   name: Wispr AI Wispr Backend API
   slug: wispr-ai-wispr-backend-api
-artifact_total: 106
+artifact_total: 105
 collections:
 - collection_type: open
   name: API Collection
@@ -516,7 +516,7 @@ common:
   url: packages/wispr-ai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wispr-ai-mcp.yml
 - group: other
   title: ''
@@ -566,10 +566,6 @@ created: '2026-07-17'
 description: Wispr AI is the company behind Wispr Flow, an AI voice-to-text dictation product that turns natural speech into polished, formatted text in any application across macOS, Windows, iOS, and Android, with AI auto-edits, a personal dictionary, voice snippets, tone styling, and support for 100+ languages. Wispr has raised $81M to build what it calls the Voice OS, publishes an enterprise trust center with SOC 2 Type II, ISO 27001, and HIPAA attestations, and operates a public backend API at api.wisprflow.ai whose OpenAPI describes authentication, dictionary, teams, history, notes, and payments surfaces used by its clients.
 image: https://cdn.prod.website-files.com/682f84b3838c89f8ff7667db/683c611aba65ade013982bcd_wispr-og-min.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wispr AI MCP Server
-  slug: wispr-ai-mcp-server
 modified: '2026-07-21'
 name: Wispr AI
 nav: Providers
@@ -607,8 +603,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/screenshots/wispr-ai-2026-08-17T130429.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.slopesoftware.com
@@ -113,7 +113,7 @@ arazzos:
 - description: Find a model, create a projection from a template, run it, and poll for completion.
   name: Run a SLOPE projection from a template
   slug: slope-software-run-projection
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +239,7 @@ common:
   url: conformance/slope-software-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/slope-software-mcp.yml
 - group: other
   title: ''
@@ -269,10 +269,6 @@ created: '2026-07-17'
 description: 'Slope Software builds SLOPE, a cloud-native actuarial modeling platform for life, annuity, pension, and supplemental health/disability/LTC insurers. SLOPE lets actuaries develop transparent, flexible projection models, aggregate and manage assumptions and data tables, run high-performance valuation, pricing, ALM, and experience-study calculations, and analyze results with dynamic reporting. The SLOPE REST API automates the full valuation workflow end to end: ingesting scenario and data tables, uploading model point files, creating projections from templates, kicking off runs, checking status, and pulling results back down to integrate with downstream systems.'
 image: https://slopesoftware.com/wp-content/uploads/2021/09/cropped-slope-fullcolor-logomark-square.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Slope Software MCP Server
-  slug: slope-software-mcp-server
 modified: '2026-07-21'
 name: Slope Software
 nav: Providers
@@ -320,8 +316,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/screenshots/slope-software-2026-09-02T155856.png
 security:

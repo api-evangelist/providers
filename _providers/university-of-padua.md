@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: PHAIDRA is the University of Padua Library System's digital-collections repository, holding the institution's digitised images, documents, books and video. The data, the objects and the persistent ide
@@ -182,8 +182,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png
 security:

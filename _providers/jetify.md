@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://search.devbox.sh/v2
@@ -51,7 +51,7 @@ apis:
   description: The Search API from Jetify — 1 operation(s) for search.
   name: Jetify Search API
   slug: jetify-search-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: data-model/jetify-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jetify-mcp.yml
 - group: agent
   title: ''
@@ -178,10 +178,6 @@ created: '2026-07-17'
 description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub indexes over one million package versions across 100,000+ Nix packages and exposes a free, public REST API for searching and resolving them; and Testpilot is an AI agent for autonomous end-to-end testing. Jetify is backed by GV and Homebrew. This profile was enriched by the API Evangelist pipeline from Jetify's public docs, npm/Go registries, and live API probes.
 image: https://avatars.githubusercontent.com/u/65328393?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Jetify MCP Server
-  slug: jetify-mcp-server
 modified: '2026-07-19'
 name: Jetify
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetify/refs/heads/main/screenshots/jetify-2026-07-25T223137.png
 security:

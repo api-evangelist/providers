@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Regional bill-payment and payments infrastructure API — biller directory, service/bill payments, phone recharges, subscriptions, scheduled-payment agendas and digital gift cards, with a token-based Lo
   name: Tapi API
   slug: tapi-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Tapi Webhooks
@@ -91,7 +91,7 @@ common:
   url: asyncapi/tapi-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tapi-mcp.yml
 - group: agent
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: Tapi (tapi.la) is the leading payment network in Latin America, founded in 2022. It provides embeddable financial infrastructure — bill and service payments, cash-in/cash-out, phone and airtime recharges, digital gift cards and PINs, and scheduled/recurring payments — that fintechs, banks and neobanks integrate through a single regional API. Tapi operates across Argentina, Chile, Colombia, Mexico and Peru, exposing a directory of thousands of billers plus Services, Recharges, Subscriptions and Agenda products, with asynchronous operation-status polling and webhook notifications, behind a token-based Login service. tapi_pay extends the network into payment acceptance.
 image: https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Isologotipo%20tapi%20negro-1F26IShaiaKI9XHv5vPfH3EVzXgKYQ.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tapi MCP Server
-  slug: tapi-mcp-server
 modified: '2026-07-21'
 name: Tapi
 nav: Providers
@@ -160,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/screenshots/tapi-2026-09-02T162529.png
 security:

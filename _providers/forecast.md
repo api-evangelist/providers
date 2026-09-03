@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.forecast.app/'', ''status'': 301, ''note'': ''declared website redirects to https://www.accelo.com/forecast — a different registrable domain (forecast.app -> accelo.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST-style JSON API exposing the full Forecast platform: projects, tasks, sub-tasks, phases, sprints, time registrations, allocations, persons, clients, rate cards, invoices, and webhook subscriptions'
   name: Forecast API
   slug: forecast-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Forecast Webhooks
@@ -113,10 +114,6 @@ created: '2026-07-17'
 description: Forecast is an AI-powered project and resource management platform (a professional services automation / PSA tool) for project-driven companies, covering predictive project planning, resource allocation, capacity planning, time tracking, budgets, rate cards, and financial forecasting. Forecast exposes a complete REST API (JSON over HTTPS at api.forecast.it) for projects, tasks, time registrations, allocations, people, clients, and webhooks, authenticated with a per-integration API key. Originally a Danish/UK startup backed by Balderton Capital, Forecast was acquired by Accelo in 2025 and the forecast.app brand has since been integrated into accelo.com, while the api.forecast.it API endpoints remain operational. Added to the API Evangelist network from a VC-portfolio lead and enriched from the public Forecast API documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forecast.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: forecast MCP Server
-  slug: forecast-mcp-server
 modified: '2026-07-19'
 name: forecast
 nav: Providers
@@ -152,8 +149,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/screenshots/forecast-2026-07-25T214928.png
 security:

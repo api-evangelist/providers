@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The FOSSA REST API lets you build integrations and automate open source management workflows — manage projects, revisions, issues, users and teams, release groups, and reports; initiate binary scans; '
   name: FOSSA REST API
   slug: fossa-rest-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Fossa Webhooks
@@ -155,7 +155,7 @@ common:
   url: asyncapi/fossa-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fossa-mcp.yml
 - group: auth
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: FOSSA is a software supply chain security and open source management platform that scans codebases, containers, and binaries to detect open source dependencies, then enforces open source license compliance, vulnerability management, and SBOM (CycloneDX/SPDX) obligations across the software development lifecycle. FOSSA exposes a REST API at app.fossa.com/api plus the language-agnostic FOSSA CLI, integrating with 20+ build systems and CI/CD to surface licensing, security, and quality issues, generate attribution and audit reports, and gate pull requests on policy violations. Backed by Bain Capital Ventures and Norwest Venture Partners.
 image: https://fossa.com/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fossa MCP Server
-  slug: fossa-mcp-server
 modified: '2026-07-19'
 name: Fossa
 nav: Providers
@@ -203,8 +199,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/screenshots/fossa-2026-07-25T215032.png
 security:

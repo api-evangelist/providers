@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Qudos Bank Banking Products API
   slug: qudos-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: data-model/qudos-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qudos-bank-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-20'
 description: Qudos Bank is an Australian customer-owned (mutual) bank that has been 100% customer-owned since 1959, serving members with everyday transaction and savings accounts, term deposits, credit cards, home and personal loans, and offset accounts. Following its 2025 merger it now operates as a division of Bank Australia Limited (ABN 21 087 651 607, trading as Qudos Bank), one of the largest customer-owned banks in the country. As an Australian authorised deposit-taking institution and a designated data holder under the Consumer Data Right (CDR / Open Banking), Qudos Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards, and supports authenticated CDR consumer data sharing with accredited data recipients under the ACCC / FAPI security profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qudos-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qudos Bank MCP Server
-  slug: qudos-bank-mcp-server
 modified: '2026-07-21'
 name: Qudos Bank
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/screenshots/qudos-bank-2026-07-21T114742.png
 security:

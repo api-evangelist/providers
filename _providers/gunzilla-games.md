@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The public Ethereum-compatible JSON-RPC endpoint for the GUNZ L1 chain, an Avalanche subnet running Subnet-EVM. It inherits the full EVM API surface of an Ethereum node (eth_*, net_*, web3_*), plus th
@@ -45,7 +45,7 @@ apis:
 - description: 'GUNZScan is the GUNZ chain block explorer, referenced from Gunzilla''s own chain documentation as the official explorer. It runs Blockscout and exposes three anonymous, machine-readable read surfaces: '
   name: GUNZScan Explorer API
   slug: gunzscan-explorer-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Gunzilla Games Gunzscan Events
@@ -157,7 +157,7 @@ common:
   url: asyncapi/gunzilla-games-gunzscan-events.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gunzilla-games-mcp.yml
 - group: agent
   title: ''
@@ -171,10 +171,6 @@ created: '2026-08-04'
 description: 'Gunzilla Games is a AAA game developer founded in 2020 with studios in Frankfurt, Kyiv and London, best known for the cyberpunk battle-royale shooter Off The Grid. Alongside the game the studio operates GUNZ, a permissioned Avalanche L1 (subnet) blockchain purpose-built for game developers, with GUN as its native gas coin. The public technical surface is EVM-shaped: a public Ethereum/Subnet-EVM JSON-RPC node at rpc.gunzchain.io (chain ID 43419), a mirrored Avalanche-hosted RPC, and the GUNZScan block explorer at gunzscan.io, which exposes a Blockscout REST v2 API, an Etherscan-compatible module/action API, an open GraphQL endpoint and a WebSocket subscription surface. A gated marketplace/minting API sits behind api.gunztoken.io.'
 image: https://storage.gunbygunz.com/gunz_symbol_320x320.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gunzilla Games MCP Server
-  slug: gunzilla-games-mcp-server
 modified: '2026-08-04'
 name: Gunzilla Games
 nav: Providers
@@ -214,8 +210,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/screenshots/gunzilla-games-2026-08-07T165902.png
 security:

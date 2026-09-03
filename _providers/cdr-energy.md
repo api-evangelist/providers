@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - baseURL: https://api.cdr.gov.au/cdr-register/v1
@@ -125,7 +125,7 @@ apis:
   description: Register Operations endpoints
   name: Consumer Data Right (Energy) Register Operations API
   slug: cdr-energy-register-operations-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Cdr Energy Webhooks
@@ -308,7 +308,7 @@ common:
   url: well-known/cdr-energy-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cdr-energy-mcp.yml
 - group: agent
   title: ''
@@ -371,10 +371,6 @@ examples:
   slug: cdr-energy-register-data-holder-brands-summary-example
 image: https://raw.githubusercontent.com/ConsumerDataRight/mock-data-holder/main/Assets/cdr-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from OpenAPI (no published server)
-  slug: candidate-mcp-tool-surface-derived-from-openapi-no-published-server
 modified: '2026-07-27'
 name: Consumer Data Right (Energy)
 nav: Providers
@@ -430,8 +426,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:

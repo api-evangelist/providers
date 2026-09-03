@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Hotels API from Amadeus Media — 3 operation(s) for hotels.
   name: Amadeus Media Hotels API
   slug: amadeus-media-hotels-api
-artifact_total: 82
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Amadeus Hotel Content API
@@ -184,7 +184,7 @@ common:
   url: well-known/amadeus-media-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amadeus-media-mcp.yml
 - group: agent
   title: ''
@@ -384,10 +384,6 @@ jsonld:
   property_count: 12
   slug: amadeus-hotel-list-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amadeus Media MCP Server
-  slug: amadeus-media-mcp-server
 modified: '2026-06-20'
 name: Amadeus Media
 nav: Providers
@@ -450,8 +446,8 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 7
@@ -193,7 +193,7 @@ apis:
   description: The UserSettingsService API from Chef Software — 1 operation(s) for usersettingsservice.
   name: Chef Software UserSettingsService API
   slug: chef-software-usersettingsservice-api
-artifact_total: 98
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Chef Software Data Feed Webhooks
@@ -383,6 +383,10 @@ collections:
   name: external/applications/applications.proto ApplicationsService UserSettingsService API
   slug: open-chef-software-usersettingsservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chef-software-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -469,7 +473,7 @@ common:
   url: cli/chef-software-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chef-software-mcp.yml
 - group: agent
   title: ''
@@ -531,10 +535,6 @@ created: '2026-07-17'
 description: Chef Software is the DevOps automation company behind Chef Infra, Chef InSpec, Chef Habitat, and Chef Automate, now part of Progress Software. Chef pioneered infrastructure-as-code, letting teams define, deploy, and continuously enforce the configuration, compliance, and security posture of servers and applications across data centers and cloud at any scale. Chef Automate exposes a REST API (generated from gRPC service definitions via grpc-gateway) for managing compliance reporting, node management, configuration management, secrets, data feeds, event feeds, IAM (users, teams, tokens, policies, rules), and the application service catalog. Authentication is via API tokens presented in the api-token HTTP header. Chef also ships a deep open-source ecosystem of Ruby client tooling (chef-client, InSpec, Ohai, Berkshelf, chef-cli, knife) distributed on RubyGems, all developed in the open on the chef GitHub org.
 image: https://www.chef.io/hubfs/chef-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chef Software MCP Server
-  slug: chef-software-mcp-server
 modified: '2026-07-18'
 name: Chef Software
 nav: Providers
@@ -545,13 +545,13 @@ overview: 'Chef Software publishes 30 APIs on the [APIs.io](https://apis.io/) ne
   The Chef Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
+  Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 30 more developer resources.'
 random_paper: 3
 score:
   band: strong
   composite: 57.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -576,8 +576,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/screenshots/chef-software-2026-07-25T205137.png
 security:

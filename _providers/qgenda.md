@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.qgenda.com/v2
@@ -171,7 +171,7 @@ apis:
   description: The Workflows API from QGenda — 5 operation(s) for workflows.
   name: QGenda Workflows API
   slug: qgenda-workflows-api
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -304,7 +304,7 @@ common:
   url: data-model/qgenda-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qgenda-mcp.yml
 - group: agent
   title: ''
@@ -378,10 +378,6 @@ created: '2026-07-17'
 description: QGenda is a healthcare workforce management platform used by hospitals, health systems, medical groups, and academic medical centers for physician and staff scheduling, on-call management, provider credentialing, time tracking, and clinical operations. Its public REST API (version 2) exposes 146 operations across scheduling, open shifts, rotations, staff members, tasks, time-off requests and limits, pay codes and rates, locations, credentialing, notifications, and workflows. The API uses token-based authentication via a login endpoint, serves JSON over HTTPS (TLS 1.2/1.3 only), supports BR/GZip compression, and offers OData query parameters on select resources. Backed by ICONIQ Capital.
 image: https://www.qgenda.com/wp-content/uploads/2025/05/hero-homepage-new.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: QGenda MCP Server
-  slug: qgenda-mcp-server
 modified: '2026-07-20'
 name: QGenda
 nav: Providers
@@ -425,8 +421,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qgenda/refs/heads/main/screenshots/qgenda-2026-08-17T081419.png
 security:

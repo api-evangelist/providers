@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.sleeper.app/v1
@@ -76,7 +76,7 @@ apis:
   description: The Users API from Sleeper — 1 operation(s) for users.
   name: Sleeper Users API
   slug: sleeper-users-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -160,7 +160,7 @@ common:
   url: data-model/sleeper-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sleeper-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +194,6 @@ created: '2026-07-17'
 description: 'Sleeper is a fantasy sports platform — a mobile-first app for creating and managing fantasy football, basketball, and other sports leagues with chat, drafts, waivers, and real-time scoring built in. Sleeper publishes a free, read-only HTTP API at api.sleeper.app that exposes public fantasy data: users, leagues, rosters, matchups, transactions, drafts, draft picks, traded picks, trending players, and the current sport/season state. The API requires no API token or OAuth because no content can be modified through it; every endpoint is a GET request returning JSON, and callers are asked to stay under 1,000 requests per minute to avoid IP blocks. Sleeper is backed by a16z and General Catalyst.'
 image: https://sleepercdn.com/images/v2/icons/app_icon_web.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sleeper MCP Server
-  slug: sleeper-mcp-server
 modified: '2026-07-21'
 name: Sleeper
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/screenshots/sleeper-2026-09-02T155833.png
 security:

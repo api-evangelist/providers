@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,16 @@ apis:
   description: Search across Smithsonian collections
   name: Smithsonian Institution search API
   slug: smithsonian-search-api
-artifact_total: 19
+- description: The Content API from Smithsonian Institution — 1 operation(s) for content.
+  name: Smithsonian Institution Content API
+  slug: smithsonian-institution-content-api
+- description: The Metrics API from Smithsonian Institution — 1 operation(s) for metrics.
+  name: Smithsonian Institution Metrics API
+  slug: smithsonian-institution-metrics-api
+- description: The Search API from Smithsonian Institution — 3 operation(s) for search.
+  name: Smithsonian Institution Search API
+  slug: smithsonian-institution-search-api
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -161,7 +170,7 @@ modified: '2026-06-13'
 name: Smithsonian Institution
 nav: Providers
 network: true
-overview: 'Smithsonian Institution publishes 3 APIs on the [APIs.io](https://apis.io/) network: content API, metrics API, and search API. Tagged areas include Museums, Open Access, Cultural Heritage, Collection, and Image.
+overview: 'Smithsonian Institution publishes 6 APIs on the [APIs.io](https://apis.io/) network, including content API, metrics API, search API, and 3 more. Tagged areas include Museums, Open Access, Cultural Heritage, Collection, and Image.
 
 
   The Smithsonian Institution catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -190,16 +199,16 @@ rules:
   slug: smithsonian-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 43.7
   coverage:
     artifact_dirs: 15
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.6
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 9.8
     contract_quality: 62.1
     developer_ergonomics: 23.8
@@ -214,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/screenshots/smithsonian-2026-06-20T194054.png
 security:

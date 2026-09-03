@@ -8,6 +8,7 @@ access_model:
   source:
   - https://docs.linuxfoundation.org/lfx/community-management
   - https://github.com/linuxfoundation/crowd.dev/blob/main/docs/adr/0016-akrites-cdp-public-api-authentication.md
+  - '{''url'': ''https://crowd.dev'', ''status'': 301, ''note'': ''declared website redirects to https://github.com/linuxfoundation/crowd.dev — a different registrable domain (crowd.dev -> github.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -124,7 +125,7 @@ apis:
   description: Manage and verify member work experiences (organization affiliations).
   name: Crowd.dev Work Experiences API
   slug: crowddev-work-experiences-api
-artifact_total: 40
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -280,7 +281,7 @@ common:
   url: data-model/crowddev-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/crowddev-mcp.yml
 - group: design
   title: ''
@@ -326,10 +327,6 @@ created: '2026-07-17'
 description: Crowd.dev is an open-source developer data platform that centralizes community, product, and commercial data to unify contributor identities, resolve who is engaging with an open-source project, and activate that data for developer relations and community-led growth. Founded in Berlin and backed by Seedcamp, crowd.dev was acquired by the Linux Foundation in April 2024 and now powers the LFX Community Data Platform (CDP). The codebase is Apache-2.0 open source at github.com/CrowdDotDev (now linuxfoundation/crowd.dev), and the CDP Public API exposes transactional REST endpoints for member and organization profiles, identity verification, work-experience and project-affiliation management, contributor affiliation lookups, and open-source package/stewardship intelligence.
 image: https://avatars.githubusercontent.com/u/85551972?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Crowd.dev MCP Server
-  slug: crowddev-mcp-server
 modified: '2026-08-14'
 name: Crowd.dev
 nav: Providers
@@ -354,13 +351,13 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.4
+  composite: 53.8
   coverage:
     artifact_dirs: 23
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -370,9 +367,6 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -384,8 +378,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/screenshots/crowddev-2026-07-25T210805.png
 security:

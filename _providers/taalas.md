@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: The Monitoring API from Taalas — 1 operation(s) for monitoring.
   name: Taalas Monitoring API
   slug: taalas-monitoring-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: llms/taalas-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/taalas-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-08-02'
 description: 'Taalas is a Toronto-based semiconductor company building "Hardcore Models" — AI models etched directly into custom silicon rather than executed as software on general-purpose GPUs, under the tagline "The Model is The Computer." Its first product, the HC1 technology demonstrator, hard-wires Meta''s Llama 3.1 8B into an 815mm2 / 53-billion-transistor die on TSMC''s 6nm process and is publicly demonstrated through the ChatJimmy chatbot. Taalas exposes that silicon to developers through a hosted inference REST API at api.taalas.com, which publishes two OpenAPI 3.1.0 contracts: a root API with health, model-info and a Taalas-native /generate operation, and an OpenAI-compatible /v1 surface with /v1/completions and /v1/chat/completions. Access is by bearer API key issued through an application form; applications are currently closed due to demand.'
 image: https://taalas.com/h-content/uploads/2024/01/cropped-favicon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Taalas MCP Server
-  slug: taalas-mcp-server
 modified: '2026-08-02'
 name: Taalas
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/screenshots/taalas-2026-09-02T161654.png
 security:

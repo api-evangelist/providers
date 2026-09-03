@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Energy Storage Resource public data, launched May 29, 2025 per the ERCOT Public Data API release notes, beginning with four-second ESR charging MW telemetry (GET /rptesr-m/4_sec_esr_charging_mw). Docu
@@ -234,7 +234,7 @@ apis:
   description: The Versioning API from ERCOT — 1 operation(s) for versioning.
   name: ERCOT Versioning API
   slug: ercot-versioning-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Ercot Ews Notifications
@@ -314,7 +314,7 @@ common:
   url: packages/ercot-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ercot-mcp.yml
 - group: build
   title: ''
@@ -404,10 +404,6 @@ created: '2026-07-27'
 description: 'The Electric Reliability Council of Texas (ERCOT) is the independent system operator that manages the flow of electric power to roughly 27 million Texas customers on the ERCOT Interconnection, running the wholesale Day-Ahead and Real-Time energy markets, ancillary services, congestion revenue rights, and retail switching for the competitive Texas market. Its home market is the United States (Texas). ERCOT sits at the wholesale/system-operator layer of the energy value chain, upstream of the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) and the retail electric providers that serve end customers. Its API posture is a clean split: market and grid data are genuinely open — ERCOT publishes a real, versioned OpenAPI 3.0 for the Public Data API covering 106 EMIL data-product endpoints (locational marginal prices, settlement point prices, system load, wind and solar production, ancillary services, outage capacity), and the Market Information System still
   serves public report archives anonymously with no account at all. Consumer energy data is a different story: ERCOT operates no consumer usage API and implements no Green Button / ESPI surface. Texas residential interval data lives in Smart Meter Texas, which is operated by the joint Transmission and Distribution Utilities under PUCT oversight, not by ERCOT. The market-participant SOAP estate (ERCOT Web Services, MarkeTrak, Retail API) is documented publicly on GitHub but reachable only by certified market participants.'
 layout: provider
-mcp_servers:
-- description: 'ERCOT publishes no first-party MCP server. Searching the developer portal, the ERCOT GitHub organization and the npm registry turns up no ERCOT-operated hosted or stdio MCP endpoint, and no agent/LLM '
-  name: ERCOT MCP Server
-  slug: ercot-mcp-server
 modified: '2026-07-27'
 name: ERCOT
 nav: Providers
@@ -463,8 +459,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 67.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png
 security:

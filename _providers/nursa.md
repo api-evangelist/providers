@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -108,7 +108,7 @@ apis:
   description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
   name: Nursa Webhook logs API
   slug: nursa-webhook-logs-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Nursa Public Api V2 Webhooks
@@ -159,7 +159,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nursa-mcp.yml
 - group: auth
   title: ''
@@ -306,10 +306,6 @@ description: Nursa is a healthcare staffing marketplace, founded in Salt Lake Ci
   4,500 facilities and 500,000 clinicians nationwide.
 image: https://cdn.prod.website-files.com/636e7f8063d6538dea5ca1e4/63e3d5253bcbd6e2b35efeee_logo-horizontal-color.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nursa MCP Server
-  slug: nursa-mcp-server
 modified: '2026-08-04'
 name: Nursa
 nav: Providers
@@ -365,8 +361,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:

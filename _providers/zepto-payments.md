@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -156,7 +156,7 @@ apis:
   description: The Webhooks API from Zepto — 4 operation(s) for webhooks.
   name: Zepto Webhooks API
   slug: zepto-payments-webhooks-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Zepto Payments Notifications Webhooks
@@ -323,7 +323,7 @@ common:
   url: llms/zepto-payments-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zepto-payments-mcp.yml
 - group: design
   title: ''
@@ -374,10 +374,6 @@ description: 'Zepto is a Gold Coast, Australia based account-to-account (A2A) pa
   API, PayTo, Confirmation of Payee (Validate), disputes, clients, merchant reports and notifications.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zepto MCP Server
-  slug: zepto-mcp-server
 modified: '2026-07-24'
 name: Zepto
 nav: Providers
@@ -430,8 +426,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zepto-payments/refs/heads/main/screenshots/zepto-payments-2026-08-17T083057.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for managing the full subscription lifecycle in Maxio Advanced Billing (formerly Chargify): customers, products, components, subscriptions, invoices, transactions, coupons, and webhooks. Auth'
@@ -142,8 +142,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxio/refs/heads/main/screenshots/maxio-2026-06-20T185049.png
 security:

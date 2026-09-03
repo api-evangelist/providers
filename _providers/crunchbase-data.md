@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -74,7 +74,19 @@ apis:
   description: The Search API from Crunchbase — 43 operation(s) for search.
   name: Crunchbase Search API
   slug: crunchbase-data-search-api
-artifact_total: 21
+- description: Type-ahead suggestions for entities.
+  name: Crunchbase Autocomplete API
+  slug: crunchbase-autocomplete-api
+- description: Feeds of deleted entities for downstream sync.
+  name: Crunchbase Deletes API
+  slug: crunchbase-deletes-api
+- description: Entity lookup endpoints for organizations, people, funding rounds, acquisitions, and IPOs.
+  name: Crunchbase Entities API
+  slug: crunchbase-entities-api
+- description: Full-text and faceted search across entity types.
+  name: Crunchbase Search API
+  slug: crunchbase-search-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -267,6 +279,10 @@ common:
   title: ''
   type: FinOps
   url: finops/crunchbase-data-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.crunchbase.com/blog
 created: '2026-07-11'
 description: Crunchbase is a leading source of private and public company, funding, and investor data - firmographics, funding rounds, acquisitions, investors, people, events, and AI-generated predictions and insights across the global startup and business landscape. The Crunchbase Data API (REST v4, base https://api.crunchbase.com/v4/data) exposes this graph programmatically through Entity Lookup, Search, Autocomplete, and Deleted Entities across 43 entity collections, and is published as six package-scoped OpenAPI 3.0.1 documents - Firmographic, Core Financials, Advanced Financials, Insights, Predictions, and Predictions & Insights - discoverable through an RFC 9727 api-catalog at data.crunchbase.com. Crunchbase also ships a first-party remote MCP server at mcp.crunchbase.com over Streamable HTTP with fourteen documented tools, authenticated with OAuth 2.1 + PKCE and sold as per-user MCP seats. The REST API is read-only and authenticated with a single account-level API key (user_key query
   parameter or X-cb-user-key header); which of the six packages that key is provisioned against determines which operations it can call. Access is subscription-gated with no published pricing - the full API requires a Crunchbase Enterprise or Applications licence, with a reduced Basic API for Crunchbase Basic plan holders.
@@ -284,10 +300,10 @@ modified: '2026-08-14'
 name: Crunchbase
 nav: Providers
 network: true
-overview: 'Crunchbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Deleted Entities API, Entity API, and 2 more. Tagged areas include Company Data, Web Intelligence, Funding Data, Firmographics, and B2B Data.
+overview: 'Crunchbase publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Deleted Entities API, Entity API, and 6 more. Tagged areas include Company Data, Web Intelligence, Funding Data, Firmographics, and B2B Data.
 
 
-  Crunchbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 36 more developer resources.'
+  Crunchbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 37 more developer resources.'
 plans:
 - name: Crunchbase Data Plans Pricing
   plan_count: 8
@@ -304,18 +320,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.8
+  composite: 50.9
   coverage:
     artifact_dirs: 23
-    catalog_gap: 48.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 33.8
+    contract_quality: 37.9
     developer_ergonomics: 39.9
     discoverability: 81.5
     governance: 4.5
@@ -331,8 +347,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:

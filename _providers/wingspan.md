@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: Operations related to Wingspan Wallet
   name: Wingspan Wingspan Wallet API
   slug: wingspan-wingspan-wallet-api
-artifact_total: 53
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Wingspan Webhooks
@@ -316,7 +316,7 @@ common:
   url: packages/wingspan-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wingspan-mcp.yml
 - group: agent
   title: ''
@@ -358,10 +358,6 @@ created: '2026-07-17'
 description: Wingspan is a contractor payments and payroll platform built for the independent workforce, giving enterprises a single system to onboard 1099 contractors, collect W-9 and compliance documents, run approval-based payroll, pay collaborators by ACH or instant payout, and file 1099 tax forms. Its REST Payments API (OpenAPI 3.1) covers payables, invoicing, collaborators and groups, payable/invoice/1099 batches, deductions, eligibility requirements, custom fields, reporting, and webhooks, with embeddable onboarding and payout-settings UIs.
 image: https://www.wingspan.app/images/wingspan-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wingspan MCP Server
-  slug: wingspan-mcp-server
 modified: '2026-07-21'
 name: Wingspan
 nav: Providers
@@ -417,8 +413,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/screenshots/wingspan-2026-08-17T082930.png
 security:

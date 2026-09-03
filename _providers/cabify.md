@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: Subscribe to event-driven notifications to receive live updates about parcel status changes, location updates, and proof of delivery codes.
   name: Cabify webhooks API
   slug: cabify-webhooks-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Cabify Webhooks
@@ -211,7 +211,7 @@ common:
   url: https://cabify.statuspage.io
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cabify-mcp.yml
 - group: agent
   title: ''
@@ -289,10 +289,6 @@ created: '2026-07-17'
 description: 'Cabify is a Spanish multi-mobility company founded in 2011 and headquartered in Madrid, operating ride-hailing, corporate mobility, and last-mile logistics across Spain and Latin America (6+ countries and 40+ cities). Its public developer platform exposes two authenticated REST APIs: a Ride-Hailing API (v4) for price estimation, journey booking, real-time state tracking, rider and label management, and sales reporting; and a Logistics API (v1) for creating, shipping, tracking, and configuring proof of delivery for parcels, including ecommerce integrations with Shopify, Tiendanube, and VTEX. Both APIs authenticate with OAuth2 client-credentials access tokens (Bearer), publish independent sandbox environments, and deliver asynchronous updates via webhooks.'
 image: https://cabify.com/static/head/cover.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cabify MCP Server
-  slug: cabify-mcp-server
 modified: '2026-07-18'
 name: Cabify
 nav: Providers
@@ -334,8 +330,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:

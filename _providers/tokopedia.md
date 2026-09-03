@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://developer.tokopedia.com/openapi/guide/#/'', ''status'': 301, ''note'': ''declared website redirects to https://partner.tiktokshop.com/docv2/page/overview — a different registrable domain (tokopedia.com -> tiktokshop.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Tokopedia's Official API for integration of various services from Tokopedia
@@ -81,8 +82,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tokopedia/refs/heads/main/screenshots/tokopedia-2026-06-20T195441.png
 security:

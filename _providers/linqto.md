@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The linqto.com marketing, blog, and market-insights site runs on WordPress and exposes the standard public WordPress REST API at /wp-json/. The route index reports 472 routes across 19 namespaces (inc
@@ -145,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 19.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqto/refs/heads/main/screenshots/linqto-2026-08-07T171717.png
 security:

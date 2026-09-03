@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The AutoRest Core package (@autorest/core) is the central engine that orchestrates code generation from OpenAPI specifications. It handles input processing, configuration resolution, pipeline manageme
@@ -193,13 +193,13 @@ rate_limits:
   slug: autorest-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 29.0
   coverage:
     artifact_dirs: 12
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -209,15 +209,12 @@ score:
     discoverability: 64.8
     governance: 33.3
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 36.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/screenshots/autorest-2026-06-20T172707.png
 security:
 - kind: vulnerability-disclosure

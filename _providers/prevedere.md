@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://prevedere.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.board.com/ — a different registrable domain (prevedere.com -> board.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.prevedere.com
@@ -131,7 +132,7 @@ apis:
   description: Workbenches are a powerful feature in the Board Foresight application that allow users to organize and analyze data through indicators. They enable the creation of models by selecting primary and addi
   name: Prevedere Workbench API
   slug: prevedere-workbench-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -256,7 +257,7 @@ common:
   url: lifecycle/prevedere-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/prevedere-mcp.yml
 - group: agent
   title: ''
@@ -274,10 +275,6 @@ created: '2026-07-17'
 description: Prevedere is an economic forecasting and predictive analytics platform that ingests thousands of external macroeconomic, industry, weather, and market indicators to drive demand planning, financial forecasting, and risk analysis. Its models correlate a company's internal metrics against leading external signals to project revenue, demand, and other business outcomes. Prevedere was acquired by Board International and its capability is now delivered as Board Foresight; the live Board Foresight API (V1), hosted at api.prevedere.com, exposes forecast models, indicators, scenarios, alerts, correlation discovery, and client-data integration. This profile enriches the surviving API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prevedere.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Prevedere MCP Server
-  slug: prevedere-mcp-server
 modified: '2026-07-20'
 name: Prevedere
 nav: Providers
@@ -315,8 +312,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/screenshots/prevedere-2026-09-02T152020.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: RACQ Bank Banking Products API
   slug: racq-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: data-model/racq-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/racq-bank-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-20'
 description: RACQ Bank is the retail banking division of RACQ (The Royal Automobile Club of Queensland), a member-owned mutual organisation and one of Queensland's largest clubs, long known for roadside assistance, insurance, and banking for its members. The bank is an Australian authorised deposit-taking institution (ADI) regulated by APRA, offering transaction and savings accounts, term deposits, home loans, personal loans, and credit cards. Its banking arm traces to QT Mutual Bank, which merged with RACQ in 2016. As an active data holder under Australia's Consumer Data Right (CDR / Open Banking), RACQ Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, alongside the accredited-data-recipient consumer-data-sharing channels mandated of every Australian bank.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/racq-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: RACQ Bank MCP Server
-  slug: racq-bank-mcp-server
 modified: '2026-07-21T13:00:00Z'
 name: RACQ Bank
 nav: Providers
@@ -241,8 +237,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/screenshots/racq-bank-2026-07-21T114746.png
 security:

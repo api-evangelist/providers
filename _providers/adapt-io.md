@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Search the contact database using contact and company filters.
   name: Adapt Contact Search API
   slug: adapt-io-contact-search-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Adapt Prospect Company Search API
@@ -215,7 +215,7 @@ common:
   url: packages/adapt-io-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adapt-io-mcp.yml
 - group: agent
   title: ''
@@ -300,10 +300,6 @@ jsonld:
   property_count: 3
   slug: adapt-io-context
 layout: provider
-mcp_servers:
-- description: Adapt ships NO Model Context Protocol server — hosted or local. This is a CANDIDATE tool surface derived from the four published Prospect API v3 operations, showing what an MCP server over Adapt would
-  name: Adapt MCP Server
-  slug: adapt-mcp-server
 modified: '2026-08-13'
 name: Adapt
 nav: Providers
@@ -364,8 +360,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/screenshots/adapt-io-2026-06-20T164545.png
 security:

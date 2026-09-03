@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ apis:
   description: The wiki API from Inthegame — 5 operation(s) for wiki.
   name: Inthegame wiki API
   slug: inthegame-wiki-api
-artifact_total: 49
+artifact_total: 48
 asyncapis:
 - description: Real-time viewer-engagement events pushed over Socket.IO. The socket traces server messages to the app, keeping viewer state in sync when admins inject polls, ratings, trivia, offers and wikis, and st
   name: Inthegame Realtime (Socket.IO)
@@ -279,7 +279,7 @@ common:
   url: sandbox/inthegame-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inthegame-mcp.yml
 - group: agent
   title: ''
@@ -325,10 +325,6 @@ examples:
   slug: inthegame-examples
 image: https://www.inthegame.io/assets/images/6756948bfd57e173d3fa6e19_favicon_itg.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Inthegame MCP Server
-  slug: inthegame-mcp-server
 modified: '2026-07-19'
 name: Inthegame
 nav: Providers
@@ -370,8 +366,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inthegame/refs/heads/main/screenshots/inthegame-2026-07-25T222719.png
 security:

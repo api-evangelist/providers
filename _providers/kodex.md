@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Real-time verification of law enforcement requesters. Pass a requester email address to the lookup endpoint and receive the agent's standing, their agency's status, and the domain's risk level, checke
@@ -42,7 +42,7 @@ apis:
 - description: 'The Request Portal (Targets / Data Production) API creates and manages data requests and automates producing data on verified requests — targets, attachments, and messages. Published endpoint: GET /v1'
   name: Kodex Request Portal API
   slug: request-portal-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Kodex Webhooks
@@ -158,7 +158,7 @@ common:
   url: components/kodex-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kodex-mcp.yml
 - group: agent
   title: ''
@@ -168,10 +168,6 @@ created: '2026-07-17'
 description: 'Kodex (Albatross Technologies) operates the Kodex Global Network, a platform for managing law enforcement and government data requests — subpoenas, warrants, and emergency disclosure requests — for crypto exchanges, fintechs, banks, and telecommunications companies. The platform covers request intake and automation, requester verification against a network of 15K+ government agencies, threat intelligence, encrypted data production and delivery, cost recovery, and transparency reporting. Kodex exposes the same network programmatically through the Kodex API: a Verification API for real-time requester lookups, a Targets (Data Production) API for automating production on verified requests, and status webhooks for agent credential changes. Developer documentation is published on ReadMe at docs.kodexapi.com as two projects — Request Portal and Verifications API — both authenticated with scoped organization API keys sent in an X-API-Key header.'
 image: https://files.readme.io/e8089f1952ef71694a5e2b27b67dd3f885d17bd265d6c6232d9a47fac9308d93-Kodex_PrimaryLogo_COLOR.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kodex MCP Server
-  slug: kodex-mcp-server
 modified: '2026-07-19'
 name: Kodex
 nav: Providers
@@ -216,8 +212,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/screenshots/kodex-2026-07-25T224044.png
 security:

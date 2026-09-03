@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -121,7 +121,7 @@ apis:
   description: The smart view article keyword API from SmartNews — 1 operation(s) for smart view article keyword.
   name: SmartNews smart view article keyword API
   slug: smartnews-smart-view-article-keyword-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -278,7 +278,7 @@ common:
   url: data-model/smartnews-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smartnews-mcp.yml
 - group: build
   title: ''
@@ -324,10 +324,6 @@ created: '2026-07-17'
 description: SmartNews is a news-discovery company whose consumer app ranks and delivers news to tens of millions of readers in Japan and the United States. For developers it operates the SmartNews Ads platform and publishes the SmartNews Marketing API (v3) — a REST API for programmatically managing advertising campaigns, ad groups, ads, media files, custom audiences, conversion pixels, and Business Manager product catalogs, plus an Insights API for performance reporting. The API uses OAuth 2.0 bearer (JWT) access tokens and is documented with a public OpenAPI 3.0 reference and an official API-spec repository.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartnews.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SmartNews MCP Server
-  slug: smartnews-mcp-server
 modified: '2026-08-13'
 name: SmartNews
 nav: Providers
@@ -374,8 +370,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/screenshots/smartnews-2026-08-17T081937.png
 security:

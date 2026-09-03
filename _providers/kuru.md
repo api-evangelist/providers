@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://ws.kuru.io
@@ -46,7 +46,7 @@ apis:
   description: The Quote API from Kuru — 1 operation(s) for quote.
   name: Kuru Quote API
   slug: kuru-quote-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -128,7 +128,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kuru-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: Kuru is a fully on-chain central limit order book (CLOB) decentralized exchange and smart routing aggregator built on Monad, operated by Kuru Labs. It combines an on-chain order book with AMM vault liquidity to deliver low-slippage, self-custody trading, and exposes the Kuru Flow API — a liquidity-aggregating routing engine that lets wallets, dApps and aggregators quote and build any-token-to-any-token swaps across every market on Monad, optionally appending their own referrer fee. Developers integrate through a TypeScript SDK, a Python CLOB SDK for market making, published and audited Solidity contracts, and a first-party agent skill for automated trading.
 image: https://www.kuru.io/favicon-96x96.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kuru MCP Server
-  slug: kuru-mcp-server
 modified: '2026-07-19'
 name: Kuru
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
 security:

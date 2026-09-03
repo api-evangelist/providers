@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Payees surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data Recipie
   name: Bank of Melbourne CDR Payees API
   slug: bank-of-melbourne-cdr-payees-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: CDR Banking API
@@ -140,7 +140,7 @@ common:
   url: overlays/bank-of-melbourne-cds-banking-products-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-of-melbourne-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-20'
 description: Bank of Melbourne is a Victorian retail and business banking brand operated by Westpac Banking Corporation (ASX code WBC) as part of the Westpac Group. The original Bank of Melbourne was acquired by Westpac in 1997 and the brand was relaunched in 2011; today it operates under the St.George Bank banking authority within Westpac and is NOT a customer-owned mutual - it is a division of a publicly listed, APRA-regulated authorised deposit-taking institution (ADI). As an accredited Consumer Data Right (CDR) data holder, Bank of Melbourne exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Australian Consumer Data Standards, confirmed live on shared Westpac Group infrastructure at digital-api.bankofmelbourne.com.au. Consumer data sharing runs through the regulated CDR / Accredited Data Recipient (ADR) model using OAuth2 / OpenID Connect (FAPI) authorization; the bank does not run a broader third-party developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-melbourne.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank of Melbourne MCP Server
-  slug: bank-of-melbourne-mcp-server
 modified: '2026-07-21'
 name: Bank of Melbourne
 nav: Providers
@@ -197,8 +193,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
 security:

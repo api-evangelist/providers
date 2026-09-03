@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -157,7 +157,7 @@ apis:
   description: The Wallet entity holds vaulted & secured payment methods owned by a customer (buyer/payor) that can be used to make payments via Collaborative AR (online Portals, AutoPay, Pay Now), Order Transaction
   name: Versapay Wallets API
   slug: versapay-wallets-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Versapay Webhooks
@@ -200,7 +200,7 @@ common:
   url: well-known/versapay-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/versapay-mcp.yml
 - group: agent
   title: ''
@@ -303,10 +303,6 @@ description: 'Versapay is a Toronto, Canada based B2B payments company focused o
   Ecommerce API for PCI-reduced payment sessions. Authentication is HTTPS Basic access authentication using an API Token and Key issued from the account console, with a UAT sandbox alongside production and a documented webhook event model.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Versapay MCP Server
-  slug: versapay-mcp-server
 modified: '2026-07-24'
 name: Versapay
 nav: Providers
@@ -359,8 +355,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png
 security:

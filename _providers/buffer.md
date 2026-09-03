@@ -36,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas and idea groups, post templates, and accessing normalized post metrics across 11 major social me
   name: Buffer API
   slug: buffer-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -162,7 +162,7 @@ common:
   url: cli/buffer-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/buffer-mcp.yml
 - group: build
   title: ''
@@ -231,10 +231,6 @@ graphqls:
   slug: buffer-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buffer.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Buffer MCP Server
-  slug: buffer-mcp-server
 modified: '2026-08-13'
 name: Buffer
 nav: Providers
@@ -280,8 +276,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/screenshots/buffer-2026-08-17T123104.png
 security:

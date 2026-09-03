@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.impala.travel/v1
@@ -51,7 +51,7 @@ apis:
   description: Getting rates for future dates.
   name: Impala Rate Calendar API
   slug: impala-rate-calendar-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -88,7 +88,7 @@ common:
   url: packages/impala-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/impala-mcp.yml
 - group: agent
   title: ''
@@ -134,10 +134,6 @@ created: '2026-07-17'
 description: 'Impala built a single, standardized REST API for the hotel industry — one integration to search availability, read rate plans, and create, amend, and cancel bookings across many property management systems (PMS), so any app could sell hotel rooms and earn commission per booking. Founded in London in 2016 and backed by Speedinvest, Lakestar, and Kima Ventures, Impala shipped a sandbox (with a demo hotel, "The Charleston"), a Postman collection, and PHP/JavaScript wrappers. The company is now defunct: getimpala.com / impala.travel and the API and docs hosts no longer resolve, and the primary domain is held by an unrelated party. This profile preserves the historical OpenAPI (apis.guru impala.travel:hotels 1.003) and pipeline-derived artifacts for the record.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impala.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Impala MCP Server
-  slug: impala-mcp-server
 modified: '2026-07-19'
 name: Impala
 nav: Providers
@@ -181,8 +177,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

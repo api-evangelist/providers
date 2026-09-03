@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A direct system-to-system API that Emirates SkyCargo advertises on its own Digital Booking Channels page, described as connecting a freight forwarder's in-house system for real-time instant booking co
@@ -114,8 +114,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 15.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emirates-skycargo/refs/heads/main/screenshots/emirates-skycargo-2026-08-07T164847.png
 slug: emirates-skycargo

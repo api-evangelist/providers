@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.replicon.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.deltek.com/products/replicon/ — a different registrable domain (replicon.com -> deltek.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Proprietary JSON-over-HTTPS web-service API for the Replicon Time Intelligence Platform and Polaris PSA — users, clients, projects, tasks, time, billing/costing and analytics. Tenants resolve their re
@@ -179,8 +180,8 @@ score:
   previous_composite: 25.3
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/screenshots/replicon-2026-09-02T153504.png
 security:

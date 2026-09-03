@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.coverwallet.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.aonaffinity.com/traffic-director/ — a different registrable domain (coverwallet.com -> aonaffinity.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for quoting and binding small business commercial insurance policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers, Hiscox, and others. Supports real-time estimates
@@ -139,8 +140,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverwallet/refs/heads/main/screenshots/coverwallet-2026-06-20T175118.png
 security:

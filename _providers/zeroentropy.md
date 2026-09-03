@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.zeroentropy.dev/v1
@@ -71,7 +71,7 @@ apis:
   description: The Usage API from ZeroEntropy — 6 operation(s) for usage.
   name: ZeroEntropy Usage API
   slug: zeroentropy-usage-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -100,7 +100,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zeroentropy-mcp.yml
 - group: other
   title: ''
@@ -186,10 +186,6 @@ created: '2026-07-17'
 description: ZeroEntropy builds specialized, lightweight AI models for information retrieval and retrieval-augmented generation (RAG). Its zerank rerankers and zembed embedding models improve the accuracy of any search pipeline, and its hosted retrieval API lets developers create collections, index documents, and run relevance queries (top documents, pages, and snippets) with metadata filtering. The API is a versioned (/v1) HTTP JSON service with US and EU data-center endpoints, official Python and TypeScript SDKs, and API-key bearer authentication. ZeroEntropy is a portfolio company of Initialized Capital operating in the enterprise AI / search sector.
 image: https://zeroentropy.dev/assets/images/ze-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ZeroEntropy MCP Server
-  slug: zeroentropy-mcp-server
 modified: '2026-07-21'
 name: ZeroEntropy
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/screenshots/zeroentropy-2026-08-17T083058.png
 security:

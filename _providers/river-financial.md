@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and OpenID Connect. Read scopes cover account balances, transactions, identity, and payment networks.
   name: River API
   slug: river-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/river-financial-mcp.yml
 - group: company
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: 'River Financial Inc. (river.com) is a regulated U.S.-based Bitcoin brokerage and bank for long-term investors, operating under NMLS ID #1906809. Customers can buy, sell, send, and receive bitcoin, get paid in bitcoin via direct deposit, and earn interest on cash balances paid in bitcoin. River holds 100% of customer bitcoin in full-reserve multisig cold storage, publishes monthly third-party Proof of Reserves attestations, and provides FDIC insurance on cash up to $250,000 through partner bank Lead Bank. River exposes a GraphQL data API at https://river.com/api secured by an OAuth 2.0 authorization-code + PKCE flow with OpenID Connect discovery (balances, transactions, identity, and payment network read scopes). Surfaced as a polychain portfolio company and enriched from River''s public well-known, OIDC, and security surfaces.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/river-financial.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: River Financial MCP Server
-  slug: river-financial-mcp-server
 modified: '2026-07-21'
 name: River Financial
 nav: Providers
@@ -171,8 +167,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/screenshots/river-financial-2026-09-02T153919.png
 security:

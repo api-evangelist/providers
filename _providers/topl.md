@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The gRPC interface to the Apparatus (Topl) blockchain: NodeRpc on the Bifrost full node for submitting transactions, reading blocks and following the chain tip, and the Genus indexer''s BlockService, T'
@@ -146,8 +146,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/screenshots/topl-2026-09-02T163927.png
 security:

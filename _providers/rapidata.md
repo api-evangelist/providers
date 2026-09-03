@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.rapidata.ai/
@@ -312,7 +312,7 @@ apis:
   description: The Workflow API from Rapidata — 5 operation(s) for workflow.
   name: Rapidata Workflow API
   slug: rapidata-workflow-api
-artifact_total: 115
+artifact_total: 114
 collections:
 - collection_type: open
   name: API Collection
@@ -549,7 +549,7 @@ common:
   url: well-known/rapidata-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rapidata-mcp.yml
 - group: agent
   title: ''
@@ -603,10 +603,6 @@ created: '2026-07-17'
 description: Rapidata provides human feedback at scale — crowd-sourced labeling, model evaluation, ranking, and preference data (RLHF-style) collected from real people worldwide. Teams use the Rapidata API and Python SDK to run online RLHF, refine model behavior, and evaluate model outputs (image, video, audio, and text) with pairwise A/B comparisons, ranking, and leaderboards, as well as to collect targeted human annotations (classification, locating, bounding, transcription, free text, select-words) by country, language, or demographic, with built-in quality control and confidence-based early stopping. The REST API is OAuth 2.0 / OpenID Connect secured and reaches thousands of high-quality annotations per minute. Rapidata AG is a portfolio company of Canaan Partners.
 image: https://rapidata.ai/media/rapidata.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rapidata MCP Server
-  slug: rapidata-mcp-server
 modified: '2026-07-20'
 name: Rapidata
 nav: Providers
@@ -649,8 +645,8 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/screenshots/rapidata-2026-08-17T083202.png
 security:

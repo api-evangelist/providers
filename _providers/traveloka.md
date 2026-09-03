@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -110,7 +110,7 @@ apis:
   description: The Rate API from Traveloka — 2 operation(s) for rate.
   name: Traveloka Rate API
   slug: traveloka-rate-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Traveloka Connect Webhooks
@@ -168,7 +168,7 @@ common:
   url: capabilities/traveloka-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/traveloka-mcp.yml
 - group: company
   title: ''
@@ -290,10 +290,6 @@ created: '2026-08-05'
 description: 'Traveloka (Traveloka Services Pte. Ltd.) is a Southeast Asian multi-product online travel agency operating across Indonesia, Thailand, Vietnam, Malaysia, Singapore, the Philippines, Australia, Japan and South Korea, selling flights, hotels and alternative stays, activities (Xperience), trains, cruises, buses, car rental and airport transfers. Its API surface is entirely partner-facing and runs in three distinct programs: the Traveloka Partners Network (LOKA) v2 REST API for distribution partners reselling Traveloka accommodation inventory; Traveloka Connect, an OpenTravel (OTA) 2017B XML connectivity API for channel managers and property-management systems pushing availability, rates and content; and Traveloka Atlas, a published JSON specification that accommodation suppliers implement on their own hosts so Traveloka can search and book against them. All three are approval-gated behind a partnership agreement and certification; none offer self-serve signup.'
 image: https://ik.imagekit.io/tvlk/image/imageResource/2024/08/09/1723192761223-35bd6fefad235fbb690b6d79b050343f.png?tr=q-75
 layout: provider
-mcp_servers:
-- description: ''
-  name: Traveloka MCP Server
-  slug: traveloka-mcp-server
 modified: '2026-08-05'
 name: Traveloka
 nav: Providers
@@ -338,8 +334,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/screenshots/traveloka-2026-08-17T125942.png
 security:

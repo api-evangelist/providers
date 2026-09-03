@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 5
@@ -287,6 +287,10 @@ collections:
   name: HashiCorp Vault Vault Auth Methods AppRole Userpass API
   slug: open-hvault-userpass-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hvault-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -417,7 +421,7 @@ overview: 'HashiCorp Vault publishes 28 APIs on the [APIs.io](https://apis.io/) 
   The HashiCorp Vault catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  HashiCorp Vault''s developer surface includes authentication and 21 more developer resources.'
+  HashiCorp Vault''s developer surface includes authentication and 22 more developer resources.'
 plans:
 - name: Hvault Plans Pricing
   plan_count: 4
@@ -442,7 +446,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 57.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -464,8 +468,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

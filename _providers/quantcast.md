@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
@@ -44,7 +44,7 @@ apis:
 - description: 'Quantcast Measure is the company''s free audience measurement product. Publishers and advertisers integrate the Quantcast Live Tag (Q Pixel) on web properties, or the Measure SDKs on iOS, Android, and '
   name: Quantcast Measure (Live Tag)
   slug: quantcast-measure-tag
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -220,7 +220,7 @@ common:
   url: components/quantcast-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quantcast-mcp.yml
 - group: agent
   title: ''
@@ -239,10 +239,6 @@ graphqls:
   slug: quantcast-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantcast.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Quantcast MCP candidate manifest (no server published)
-  slug: quantcast-mcp-candidate-manifest-no-server-published
 modified: '2026-08-13'
 name: Quantcast
 nav: Providers
@@ -288,8 +284,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/screenshots/quantcast-2026-06-20T192410.png
 security:

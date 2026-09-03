@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: First-party GraphQL router backing the Brigad talent (freelancer) app — talents, propositions/missions, onboarding, experiences, availabilities and billing. Endpoint is hardcoded in Brigad's own web S
@@ -44,7 +44,7 @@ apis:
 - description: First-party GraphQL router exposing Brigad's legacy monolith schema (382 queries, 501 mutations spanning both talent and business domains). Anonymous introspection is open. Undocumented internal app b
   name: Brigad GraphQL (Legacy monolith)
   slug: brigad-graphql-legacy-monolith
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -104,7 +104,7 @@ common:
   url: data-model/brigad-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brigad-mcp.yml
 - group: operate
   title: ''
@@ -119,10 +119,6 @@ description: Brigad is a French-founded staffing marketplace that connects verif
   introspection is open; those live SDLs are captured here as an undocumented internal contract, alongside the company identity and public web properties tracked for the API Evangelist network.
 image: https://cdn.prod.website-files.com/650bff9b13318f3181a5cfbc/658043e5f20fc2fc6360d636_opengraph%20-%20EN.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brigad MCP Server
-  slug: brigad-mcp-server
 modified: '2026-08-17'
 name: Brigad
 nav: Providers
@@ -167,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brigad/refs/heads/main/screenshots/brigad-2026-07-25T203819.png
 security:

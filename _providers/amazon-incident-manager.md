@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -347,6 +347,10 @@ collections:
   name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateTimelineEvent API
   slug: open-amazon-incident-manager-updatetimelineevent-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-incident-manager-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1575,7 +1579,7 @@ overview: 'Amazon Incident Manager publishes 27 APIs on the [APIs.io](https://ap
   The Amazon Incident Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Incident Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon Incident Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Incident Manager Plans Pricing
   plan_count: 3
@@ -1611,7 +1615,7 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -1633,8 +1637,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/screenshots/amazon-incident-manager-2026-06-20T171704.png
 security:

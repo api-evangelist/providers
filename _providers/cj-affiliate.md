@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 10
@@ -87,7 +87,7 @@ apis:
   description: DEPRECATED XML REST API for near-real-time commission and item-detail data. CJ's own documentation states it was to be removed on 1 June 2019 and directs integrators to the GraphQL Commission Detail A
   name: CJ Affiliate Commission Detail API (Legacy)
   slug: cj-affiliate-commission-detail-legacy-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: 'CJ Affiliate''s ONLY event/streaming surface: the GraphQL subscriptions declared on the ads API at https://ads.api.cj.com/query. These are bulk catalog downloads — a subscription requests an advertiser'
   name: CJ Affiliate Product Catalog Streaming API
@@ -248,7 +248,7 @@ common:
   url: llms/cj-affiliate-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cj-affiliate-mcp.yml
 - group: build
   title: ''
@@ -275,10 +275,6 @@ graphqls:
   slug: cj-affiliate-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cj-affiliate.png
 layout: provider
-mcp_servers:
-- description: CJ Affiliate ships NO Model Context Protocol server. Searches on 2026-08-13 found no CJ-published remote MCP endpoint, no npm or PyPI package under a CJ or Conversant namespace, no mention of MCP anyw
-  name: CJ Affiliate MCP Server
-  slug: cj-affiliate-mcp-server
 modified: '2026-08-13'
 name: CJ Affiliate
 nav: Providers
@@ -328,8 +324,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png
 security:

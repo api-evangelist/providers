@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 2
@@ -333,7 +333,7 @@ apis:
   description: The Users API from tread.io — 23 operation(s) for users.
   name: tread.io Users API
   slug: treadio-users-api
-artifact_total: 122
+artifact_total: 121
 asyncapis:
 - description: ''
   name: Treadio Webhooks
@@ -595,7 +595,7 @@ common:
   url: asyncapi/treadio-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/treadio-mcp.yml
 - group: agent
   title: ''
@@ -633,10 +633,6 @@ created: '2026-07-17'
 description: Tread (tread.io / tread.ai) is the operating system for bulk materials hauling — a dispatch and logistics TMS for construction-materials producers, contractors, and haulers. The Tread Horizon platform unifies order management, truck dispatching, route and driver tracking, e-ticketing, driver timesheets, settlements, and billing across web and a mobile driver/foreman app. Its public Horizon API V1 is a REST/JSON API (OpenAPI 3.0.3, 562 paths, 732 operations) covering Projects, Orders, Jobs, Loads, Tickets, Sites, Materials, Equipment, Settlements, and Invoices, with HMAC-signed webhooks, bearer-JWT / OAuth2 client-credentials auth, cursor pagination, and integrations to QuickBooks, Sage, Vista, Foundation, Spectrum, HCSS, Samsara/Geotab telematics, and Agave.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/treadio.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: tread.io MCP Server
-  slug: treadio-mcp-server
 modified: '2026-07-21'
 name: tread.io
 nav: Providers
@@ -678,8 +674,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/screenshots/treadio-2026-08-17T082430.png
 security:

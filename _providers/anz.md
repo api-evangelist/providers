@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ apis:
   description: Banking Product endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Products API
   slug: anz-banking-products-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -182,7 +182,7 @@ common:
   url: data-model/anz-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anz-mcp.yml
 - group: agent
   title: ''
@@ -244,10 +244,6 @@ created: '2026-07-20'
 description: Australia and New Zealand Banking Group Limited (ANZ) is one of Australia's "Big Four" banks, a publicly listed company (ASX and NZX code ANZ) headquartered in Melbourne that provides retail, commercial, and institutional banking across Australia, New Zealand, and internationally. ANZ is not a mutual or customer-owned institution; it is a shareholder-owned Authorised Deposit-taking Institution (ADI) regulated by APRA. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), ANZ exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and operates a separate CDR brand endpoint for ANZ Plus. Consumer data sharing beyond product reference data is gated behind the CDR accredited-data-recipient (ADR) model using OAuth2 / OpenID Connect FAPI security profiles.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anz.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Australia and New Zealand Banking Group (ANZ) MCP Server
-  slug: australia-and-new-zealand-banking-group-anz-mcp-server
 modified: '2026-07-21'
 name: Australia and New Zealand Banking Group (ANZ)
 nav: Providers
@@ -301,8 +297,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

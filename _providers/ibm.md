@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -263,7 +263,7 @@ arazzos:
 - description: Create a trusted profile, attach a SAML claim rule, and verify the trust took effect.
   name: IBM Cloud IAM Set Up a Trusted Profile for Federated Access
   slug: ibm-trusted-profile-federation-workflow
-artifact_total: 114
+artifact_total: 113
 collections:
 - collection_type: postman
   name: IBM Cloud IAM API Keys API
@@ -360,7 +360,7 @@ common:
   url: well-known/ibm-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ibm-mcp.yml
 - group: agent
   title: ''
@@ -660,10 +660,6 @@ jsonld:
   property_count: 21
   slug: ibm-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: IBM MCP Server
-  slug: ibm-mcp-server
 modified: '2026-08-21'
 name: IBM
 nav: Providers
@@ -744,8 +740,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

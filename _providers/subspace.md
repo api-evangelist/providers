@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The WebRtcCdnService API from Subspace — 1 operation(s) for webrtccdnservice.
   name: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: packages/subspace-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/subspace-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: 'Subspace was a real-time network-as-a-service platform delivering a dedicated, performance-optimized global network for latency-sensitive applications — WebRTC, VoIP/SIP calling, video conferencing, multiplayer gaming, and fintech. Its Product API provisions three services: PacketAccelerator (no-code global internet acceleration), SIPTeleport (SIP/VoIP call-quality improvement), and WebRTC-CDN (instant global WebRTC acceleration with ICE server configuration). The REST API uses resource-oriented URLs and JSON responses, versioned at v1, authenticated with OAuth2 client-credentials issuing 24-hour JWT bearer tokens via Auth0, and ships six first-party OpenAPI client SDKs. The company was a Bloomberg Beta portfolio company; its marketing site remains live while the API, identity, and status hosts have wound down operationally.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/subspace.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Subspace MCP Server
-  slug: subspace-mcp-server
 modified: '2026-07-21'
 name: Subspace
 nav: Providers
@@ -224,8 +220,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/screenshots/subspace-2026-09-02T161100.png
 security:

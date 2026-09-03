@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ apis:
   description: The WorkOrders API from Alto (Vebra / Zoopla) — 3 operation(s) for workorders.
   name: Alto (Vebra / Zoopla) Work Orders API
   slug: alto-vebra-workorders-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: 'Event notifications Alto delivers to a partner-hosted HTTPS endpoint when data changes in an Alto agency tenancy. Faithfully transcribed by API Evangelist from the webhook catalogue Alto publishes at '
   name: Alto Webhooks
@@ -312,7 +312,7 @@ common:
   url: packages/alto-vebra-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alto-vebra-mcp.yml
 - group: build
   title: ''
@@ -410,10 +410,6 @@ created: '2026-07-26'
 description: 'Alto — formerly Vebra Alto, and still trading through vebra.com — is the United Kingdom''s most widely deployed estate agency CRM, used by more than 6,000 sales and lettings agency branches to run valuations, listings, applicant matching, offers, sales and lettings progression, tenancies, property management, work orders and client accounting. It is owned by Houseful Limited, the parent of the Zoopla portal, which places Alto at the exact chokepoint of the UK residential market — the country has no MLS, so listings reach Rightmove and Zoopla through agency CRM software rather than a shared cooperative database, and Alto is the largest of those pipes. Its API posture is genuinely strong on the contract side and closed on the access side: Alto publishes an open, unauthenticated developer portal at developers.vebraalto.com carrying a complete OpenAPI 3.0.4 document (95 paths, 112 operations across 27 resource families) served verbatim from api-docs.vebraalto.com, alongside 26
   documented CloudEvents 1.0 webhook event types and 101 published OAuth scope strings. But credentials are partner-only — a developer must register an integration in Alto Connect, be bound by an existing contract with Vebra Solutions, and then wait for an individual agency to activate the integration and issue an AgencyRef before a single call can be made. Sibling Zoopla portal product APIs (Leads, Premium Listing Activations, Weekly Featured Property) are documented publicly at developers.zoopla.co.uk with downloadable specs but are likewise restricted to contracted Zoopla agency customers. There is no SDK, CLI, Postman collection, MCP server or status page anywhere in the estate, and no RESO Web API or Data Dictionary certification exists — RESO is a North American NAR-driven standard with no UK counterpart. Alto publishes no open data; the UK''s open property layer sits with HM Land Registry and Ordnance Survey, not with the private CRM duopoly feeders.'
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the OpenAPIs
-  slug: candidate-mcp-tool-surface-derived-from-the-openapis
 modified: '2026-07-26'
 name: Alto (Vebra / Zoopla)
 nav: Providers
@@ -460,8 +456,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/screenshots/alto-vebra-2026-08-07T161256.png
 security:

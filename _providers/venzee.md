@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://venzee.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.jasperpim.com/ — a different registrable domain (venzee.com -> jasperpim.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API for the Venzee / Jasper PIM platform. Manage products, variants, categories, brands, attributes and options, channel-specific pricing and inventory, and digital assets; subscribe to webhoo
@@ -148,8 +149,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 35.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/venzee/refs/heads/main/screenshots/venzee-2026-09-02T165653.png
 security:

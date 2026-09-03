@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ apis:
   description: The Start Bulk Data Export API from AdvancedMD — 1 operation(s) for start bulk data export.
   name: AdvancedMD Start Bulk Data Export API
   slug: advancedmd-start-bulk-data-export-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: AdvancedMD Application Access APIs
@@ -401,7 +401,7 @@ common:
   url: llms/advancedmd-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/advancedmd-mcp.yml
 - group: build
   title: ''
@@ -416,10 +416,6 @@ description: AdvancedMD is a cloud practice-management, medical-billing and elec
   fees before sandbox or production credentials are issued.
 image: https://www.advancedmd.com/wp-content/uploads/2025/06/cropped-bird_solid_5121-300x300.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface for AdvancedMD, one tool per published REST operation across the FHIR Single API, the FHIR Bulk Data API and the legacy Application Access APIs. AdvancedMD publishes no host
-  name: AdvancedMD MCP Server
-  slug: advancedmd-mcp-server
 modified: '2026-08-15'
 name: AdvancedMD
 nav: Providers
@@ -450,7 +446,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -460,7 +456,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 54.3
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -481,8 +477,8 @@ score:
     regime: Health
     regime_id: health
     score: 77.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:

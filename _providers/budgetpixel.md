@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: First-party hosted remote Model Context Protocol server (streamable HTTP, protocol 2025-06-18) giving agents 12 tools to generate images, video, music and sound effects on the signed-in account, upsca
@@ -367,8 +367,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/screenshots/budgetpixel-2026-09-02T144959.png
 security:

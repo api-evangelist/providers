@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Create, read, list, estimate and cancel local courier deliveries.
   name: Metrobi Deliveries API
   slug: metrobi-deliveries-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Metrobi Delivery Webhooks
@@ -147,7 +147,7 @@ common:
   url: asyncapi/metrobi-delivery-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/metrobi-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Metrobi is a Boston-based local same-day delivery and courier platform for businesses — bakeries, caterers, florists, coffee roasters, meal-prep and wholesale food & beverage makers — covering the top 18 US metropolitan areas. Its fulfillment platform handles delivery management, route optimization, receiver notifications, live tracking and driver dispatch across a network of contractor drivers, plus tools for teams running their own in-house drivers. The Metrobi Delivery API lets platforms programmatically estimate, create, read, list and cancel local deliveries and receive real-time status updates via per-delivery webhooks.
 image: https://metrobi.com/wp-content/uploads/2023/06/website-thumbnail.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Metrobi MCP Server
-  slug: metrobi-mcp-server
 modified: '2026-07-20'
 name: Metrobi
 nav: Providers
@@ -222,8 +218,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/screenshots/metrobi-2026-08-07T172751.png
 security:

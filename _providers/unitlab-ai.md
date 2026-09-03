@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.unitlab.ai
@@ -46,7 +46,7 @@ apis:
   description: Annotation projects
   name: Unitlab AI Projects API
   slug: unitlab-ai-projects-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ common:
   url: llms/unitlab-ai-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unitlab-ai-mcp.yml
 - group: design
   title: ''
@@ -162,10 +162,6 @@ created: '2026-07-17'
 description: Unitlab AI is an enterprise multimodal data annotation platform for AI teams, providing a unified workspace to label images, video, audio, text, documents, and medical (DICOM/NIfTI) data with AI-assisted auto-labeling (including Segment Anything), human review workflows, dataset versioning and releases, and bring-your-own-model integration. Programmatic access comes through the Unitlab SDK API at api.unitlab.ai, consumed by the official `unitlab` Python SDK and CLI on PyPI, authenticated with API keys. Backed by 500 Global.
 image: https://unitlab-storage.s3.us-east-2.amazonaws.com/Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unitlab AI MCP Server
-  slug: unitlab-ai-mcp-server
 modified: '2026-07-21'
 name: Unitlab AI
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/screenshots/unitlab-ai-2026-08-17T082617.png
 security:

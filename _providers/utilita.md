@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://status.utilita.co.uk/api/v2
@@ -269,8 +269,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 62.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/screenshots/utilita-2026-08-17T082702.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Webhooks API from Sheeva — 3 operation(s) for webhooks.
   name: Sheeva Webhooks API
   slug: sheeva-webhooks-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Sheeva Webhooks
@@ -242,7 +242,7 @@ common:
   url: asyncapi/sheeva-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sheeva-mcp.yml
 - group: agent
   title: ''
@@ -296,10 +296,6 @@ created: '2026-07-17'
 description: Sheeva.AI (legally Parkofon Inc.) builds transaction infrastructure for connected vehicles. Its SheevaConnect platform lets a vehicle discover nearby Sheeva Pay outlets, authenticate the driver, and pay for real-world services - fueling, EV charging, parking, tolling, QSR and curbside pickup, and car wash - directly from the infotainment system, using patented location intelligence (SheevaLocate, SheevaFence) and tokenized in-vehicle payments (SheevaPay). The SheevaConnect partner API 2.0 exposes drivers, vehicles, sessions, service hubs, payments, wallets and cards, loyalty, feedback, and HMAC-signed status webhooks across US and India regions.
 image: https://cdn.prod.website-files.com/66e526d793f281dac248b0c4/677c3e75f423e08e3219b26e_SheevaLogowebclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sheeva MCP Server
-  slug: sheeva-mcp-server
 modified: '2026-07-21'
 name: Sheeva
 nav: Providers
@@ -347,8 +343,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/screenshots/sheeva-2026-08-17T125223.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API over the Bullhorn Staffing Object Model — CRUD, query, Lucene search, mass update, resume parsing, and file attachments across Candidate, JobOrder, Placement, ClientCorporation, ClientContact
@@ -183,8 +183,8 @@ score:
   previous_composite: 36.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/screenshots/bullhorn-2026-07-25T204058.png
 security:

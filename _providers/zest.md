@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Service health and OpenAPI introspection endpoints.
   name: Zest System API
   slug: zest-system-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Zest Webhooks
@@ -175,7 +175,7 @@ common:
   url: asyncapi/zest-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zest-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: 'Zest Equity is a DIFC/ADGM-based provider of digital infrastructure for private-market transactions across the Middle East and North Africa. Its SPV-as-a-Service (SPaaS) platform lets partners create Cayman/DIFC Special Purpose Vehicles, run FSRA-regulated escrow, and arrange private capital deals. The Zest Public API gives partners programmatic access to the core workflow: OAuth 2.0 JWT-Bearer authentication, contract-validated SPV creation requests, bulk investor onboarding, subscription processing (signed forms + funding receipts), and nine HMAC-SHA256-signed webhook lifecycle events, with Idempotency-Key support on write endpoints and a uniform error envelope.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zest.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zest MCP Server
-  slug: zest-mcp-server
 modified: '2026-07-21'
 name: Zest
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/screenshots/zest-2026-08-17T083101.png
 security:

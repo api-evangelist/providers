@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API over Specright''s specification data. Forty-six operations across six areas: token issuance, specifications, spec families (BOM / finished good), suppliers, a generic /objects/{api-name} endpo'
@@ -211,8 +211,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/screenshots/specright-2026-09-02T160357.png
 security:

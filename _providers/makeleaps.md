@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the MakeLeaps cloud invoicing platform. Authenticated with OAuth 2.0 client-credentials against api.makeleaps.com, it exposes partner-scoped resources for clients, documents (invoices, qu
   name: MakeLeaps API
   slug: makeleaps-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: MakeLeaps is a cloud invoicing, quoting, and payment-management SaaS operated by Meikuriipusu K.K., a Ricoh Group company headquartered in Meguro-ku, Tokyo. The platform lets businesses create ten document types (quotes, invoices, purchase orders, receipts and more), send them electronically or by post in one click, track payments with automated bank reconciliation, and stay compliant with Japan's qualified-invoice law and electronic-bookkeeping regulations. MakeLeaps exposes a REST API at api.makeleaps.com secured with OAuth 2.0 client-credentials, letting partners create clients and documents and drive the sending workflow programmatically, plus a Salesforce (Apex) managed-package SDK and published tutorials for building your own MCP server over your invoice data.
 image: https://www.makeleaps.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: MakeLeaps MCP Server
-  slug: makeleaps-mcp-server
 modified: '2026-07-20'
 name: MakeLeaps
 nav: Providers
@@ -158,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeleaps/refs/heads/main/screenshots/makeleaps-2026-07-25T225937.png
 security:

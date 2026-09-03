@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 208
   human_in_the_loop: 23
@@ -463,8 +463,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-xyz/refs/heads/main/screenshots/dynamic-xyz-2026-06-20T180335.png
 security:

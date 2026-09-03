@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Read-only REST API over the Gro ontology and its agricultural, climate and trade time series. Every operation was an HTTP GET under /v2/, authenticated with a bearer token issued from the Gro web appl
@@ -170,8 +170,8 @@ score:
   previous_composite: 19.9
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/screenshots/gro-intelligence-2026-09-02T145635.png
 security:

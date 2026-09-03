@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ apis:
   description: The Workspaces API from PEXA — 6 operation(s) for workspaces.
   name: PEXA Workspaces API
   slug: pexa-workspaces-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Pexa Notification Webhooks
@@ -312,7 +312,7 @@ common:
   url: packages/pexa-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pexa-mcp.yml
 - group: agent
   title: ''
@@ -387,10 +387,6 @@ description: 'PEXA (Property Exchange Australia) operates Australia''s dominant 
   Plus Marketplace APIs, and the ARNECC Model Operating Requirements oblige it to offer API access to third parties on an equivalent basis. But that surface is not self-serve: PEXA states plainly that access to the Developer Portal and to test or production credentials is contingent on having signed PEXA''s API Agreement, so a developer registers via a form, is validated and approved, signs an agreement, and is then issued OAuth 2.0 client credentials (or mutual TLS). RESO is absent — it is a North American MLS standard with no bearing on Australian e-conveyancing — so there is no RESO Web API or Data Dictionary certification here, and none should be expected. This is a well-documented, regulated, licensed-access API estate rather than an open one.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pexa.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from PEXA operations
-  slug: candidate-mcp-tool-surface-derived-from-pexa-operations
 modified: '2026-07-26'
 name: PEXA
 nav: Providers
@@ -437,8 +433,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

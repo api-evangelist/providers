@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: The wellknownconfiguration.WellKnownService API from Virtru — 1 operation(s) for wellknownconfiguration.wellknownservice.
   name: Virtru wellknownconfiguration.WellKnownService API
   slug: virtru-wellknownconfiguration-wellknownservice-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -255,7 +255,7 @@ common:
   url: grpc/virtru-kas.proto
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/virtru-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ created: '2026-07-17'
 description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — email, files, SaaS, and data pipelines. The platform exposes Connect-protocol (gRPC + HTTP/JSON) services for policy (namespaces, attributes, values, subject mappings), key access, authorization decisions, and entity resolution, authenticated with OIDC/OAuth 2.0. Virtru maintains the open-source OpenTDF project and ships SDKs for JavaScript, Go, and Java plus the otdfctl CLI. Backed by Bessemer Venture Partners and ICONIQ Capital.
 image: https://www.virtru.com/hubfs/assets/images/logos/virtru/logomark/blue/virtru_LOGOMARKMASTER_BLUE_FINAL.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote MCP server was found for Virtru / OpenTDF as of this pass. This is a DERIVED candidate tool list mapping marquee Data Security Platform operations to MCP tools, as a starting
-  name: Virtru MCP Server
-  slug: virtru-mcp-server
 modified: '2026-07-21'
 name: Virtru
 nav: Providers
@@ -343,8 +339,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/screenshots/virtru-2026-08-17T082758.png
 security:

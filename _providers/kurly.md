@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ arazzos:
 - description: Register a SKU, book it inbound to a Kurly fulfillment centre with an idempotency key, pull the inbound label and transaction specification, then poll request-level status, item-level status and excep
   name: Kurly fulfillment inbound receiving flow
   slug: kurly-inbound-receiving-flow
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -141,7 +141,7 @@ common:
   url: agentic-access/kurly-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kurly-mcp.yml
 - group: agent
   title: ''
@@ -219,10 +219,6 @@ created: '2026-07-17'
 description: 'Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight "dawn delivery" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper''s stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly''s Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.'
 image: https://res.kurly.com/icons/favicon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface (derived, not published by Kurly)
-  slug: candidate-mcp-tool-surface-derived-not-published-by-kurly
 modified: '2026-07-19'
 name: Kurly
 nav: Providers
@@ -265,8 +261,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

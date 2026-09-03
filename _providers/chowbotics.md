@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://chowbotics.com/'', ''status'': 302, ''note'': ''declared website redirects to https://merchants.doordash.com/en-us?utm_campaign=chowbotics — a different registrable domain (chowbotics.com -> doordash.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,8 +74,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chowbotics/refs/heads/main/screenshots/chowbotics-2026-07-25T205257.png
 security:

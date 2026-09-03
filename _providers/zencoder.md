@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://zencoder.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.brightcove.com/solutions/zencoder?utm_source=zencoder.com — a different registrable domain (zencoder.com -> brightcove.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -68,7 +69,7 @@ apis:
   description: Operations for getting reports.
   name: Zencoder Reports API
   slug: zencoder-reports-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Zencoder Notifications Webhooks
@@ -199,7 +200,7 @@ common:
   url: sandbox/zencoder-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zencoder-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +222,6 @@ created: '2026-07-17'
 description: Zencoder is a cloud-based video and audio encoding (transcoding) platform, now part of Brightcove, that turns source media into web-, mobile-, and broadcast-ready outputs at scale. Its REST API lets developers submit encoding jobs, generate multiple simultaneous outputs (MP4, HLS, DASH, HEVC/H.265, VP9, 4K/UHD, HDR10), apply captions, watermarks, clips, and thumbnails, protect content with DRM and encryption, and receive completion notifications via webhooks. Zencoder is known for its Emmy Award-winning Context Aware Encoding (CAE), no queue time, and per-minute usage-based pricing. The v2 API is organized around Jobs, Inputs, Outputs, Accounts, and Reports resources and authenticates with a Zencoder-Api-Key header (also accepted as an api_key query parameter). Originally an a16z / GV / 500 Global-backed startup, Zencoder was acquired by Brightcove and its API is documented and supported under the Brightcove developer surface.
 image: https://zencoder.support.brightcove.com/assets/s-site-assets-favicons/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zencoder MCP Server
-  slug: zencoder-mcp-server
 modified: '2026-07-21'
 name: Zencoder
 nav: Providers
@@ -266,8 +263,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/screenshots/zencoder-2026-08-17T083039.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Resource 'WebResponse' operations.
   name: Orakl WebResponse API
   slug: orakl-webresponse-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: well-known/orakl-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/orakl-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: Orakl Oncology is a Paris-based TechBio company, a spin-off from the Gustave Roussy cancer institute, building an AI-powered drug-development platform that combines one of the largest biobanks of patient tumor avatars (organoids) with deep clinical and omics data and machine learning to predict how individual patients will respond to new cancer drug candidates. Its commercial products O-Predict and O-Validate deliver actionable response predictions to drug developers across clinical trials. This API Evangelist profile documents the public website API (an API Platform / Roadiz headless-CMS Hydra + JSON-LD surface with JWT authentication) that powers orakl-oncology.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orakl.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Orakl MCP Server
-  slug: orakl-mcp-server
 modified: '2026-07-20'
 name: Orakl
 nav: Providers
@@ -229,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
 security:

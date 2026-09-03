@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
@@ -71,7 +71,7 @@ apis:
   description: The RiderPosition API from Delivery Hero — 1 operation(s) for riderposition.
   name: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Delivery Hero On Demand Rider Webhooks
@@ -176,7 +176,7 @@ common:
   url: sandbox/delivery-hero-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/delivery-hero-mcp.yml
 - group: design
   title: ''
@@ -202,10 +202,6 @@ created: '2026-07-17'
 description: Delivery Hero SE is a Berlin-based multinational online food-delivery and quick-commerce company operating in 70+ markets through local brands including foodpanda, Talabat, Glovo, PedidosYa, Yemeksepeti, Hungerstation and Pandamart. Its public developer surface exposes logistics and partner-integration APIs. The flagship On Demand Rider (ODR) API lets merchants request on-demand courier delivery across brands such as Glovo and pandago — registering outlets, estimating delivery fees and times, creating and tracking orders, retrieving proof of pickup/delivery/return, and receiving order-status, courier-location and refund webhooks. Additional Q-Commerce and Restaurant (POS) integration APIs handle order transmission and grocery assortment/promotion sync for restaurant and quick-commerce partners.
 image: images/delivery-hero-on-demand-rider-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Delivery Hero MCP Server
-  slug: delivery-hero-mcp-server
 modified: '2026-07-18'
 name: Delivery Hero
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
 security:

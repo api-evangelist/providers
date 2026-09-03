@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ apis:
   description: The signatures API from Swisscom — 1 operation(s) for signatures.
   name: Swisscom Signatures API
   slug: swisscom-signatures-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Swisscom Messaging Webhooks
@@ -134,7 +134,7 @@ common:
   url: well-known/swisscom-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/swisscom-mcp.yml
 - group: build
   title: ''
@@ -297,10 +297,6 @@ description: 'Swisscom is Switzerland''s largest telecommunications provider and
   is that every API reference, key and spec beyond Swisscom Sign sits behind a Swisscom login and, for several products, a signed service contract — the marketplace is a storefront, not open documentation. On network APIs Swisscom was one of the 21 founding signatories of the GSMA Open Gateway Memorandum of Understanding in February 2023, but it publishes no CAMARA API, no Open Gateway developer portal and no callable network-API endpoint; developers who want SIM-swap or phone-verification signals from the Swisscom network have historically reached them through third-party channels such as IPification rather than from Swisscom directly. Its legacy developer programme (developer.swisscom.com, the Cloud Foundry Application Cloud, the swisscom-developer GitHub SDKs) is dead or redirected, and the older Messaging and Voice APIs are still documented only as RAML-rendered HTML in a GitHub wiki.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Swisscom MCP Server
-  slug: swisscom-mcp-server
 modified: '2026-07-25'
 name: Swisscom
 nav: Providers
@@ -357,8 +353,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 83.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/screenshots/swisscom-2026-08-17T082213.png
 security:

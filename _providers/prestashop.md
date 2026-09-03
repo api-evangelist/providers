@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The PrestaShop Webservice API enables third-party applications to access and manage shop data through CRUD operations on 60+ resources including products, categories, orders, customers, carriers, stoc
@@ -139,13 +139,13 @@ rate_limits:
   slug: prestashop-rate-limits
 score:
   band: developing
-  composite: 43.5
+  composite: 41.3
   coverage:
     artifact_dirs: 8
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -155,9 +155,6 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 68.4
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 43.5
   regulatory:
     applies: true
@@ -165,8 +162,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestashop/refs/heads/main/screenshots/prestashop-2026-06-20T192052.png
 security:

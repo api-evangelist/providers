@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://seeclickfix.com/api/v2
@@ -61,7 +61,7 @@ apis:
   description: The Tokens API from CivicPlus — 1 operation(s) for tokens.
   name: CivicPlus Tokens API
   slug: civicplus-tokens-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: packages/civicplus-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/civicplus-mcp.yml
 - group: agent
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-17'
 description: CivicPlus is a govtech company providing an integrated platform for local, state, and education government operations, serving 13,000+ public-sector customers. Its product suite spans municipal websites, agenda and meeting management, recreation management, community development (permitting, licensing, code enforcement), utility billing, mass notification, public records requests (NextRequest), Municode codification, payments (CivicPlus Pay), and the SeeClickFix 311 resident-request CRM. The most developer-facing public interface in the CivicPlus family is the SeeClickFix API v2, a REST API over civic service requests (issues), comments, users, places, and questions, which additionally exposes an Open311 GeoReport v2 compatible endpoint for interoperable civic-issue reporting.
 image: https://www.civicplus.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: CivicPlus MCP Server
-  slug: civicplus-mcp-server
 modified: '2026-07-18'
 name: CivicPlus
 nav: Providers
@@ -228,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:

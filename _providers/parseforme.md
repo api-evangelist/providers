@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 31.5
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Document parsing REST API that converts documents into structured, confidence-scored fields, with exports and HMAC-signed webhooks. Bearer-token (pfm_live_ workspace key) auth.
@@ -130,6 +155,35 @@ rate_limits:
 - limit_count: 5
   name: Parseforme Rate Limits
   slug: parseforme-rate-limits
+score:
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  facets:
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 44.6
+    discoverability: 68.5
+    governance: 4.5
+    operational_transparency: 39.5
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
 security:
 - kind: authentication
   name: Parseforme Authentication

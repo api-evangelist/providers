@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -121,7 +121,7 @@ apis:
   description: The User Terminals API from Starlink — 6 operation(s) for user terminals.
   name: Starlink User Terminals API
   slug: starlink-user-terminals-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: 'Event surface for Starlink enterprise device telemetry. Starlink exposes it as a poll-based JSON-over-HTTP stream rather than a broker: the consumer makes continuous small-batch POST requests to /publ'
   name: Starlink Telemetry Stream and Device Alerts
@@ -237,7 +237,7 @@ common:
   url: packages/starlink-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/starlink-mcp.yml
 - group: build
   title: ''
@@ -336,10 +336,6 @@ description: Starlink is the low-Earth-orbit satellite internet constellation op
   service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Starlink MCP Server
-  slug: starlink-mcp-server
 modified: '2026-07-25'
 name: Starlink
 nav: Providers
@@ -362,14 +358,14 @@ scopes:
   slug: starlink-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 43.0
   coverage:
     artifact_dirs: 25
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -379,9 +375,6 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 59.2
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 39.2
   provenance:
     agentic_access: derived
@@ -399,8 +392,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 63.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/screenshots/starlink-2026-08-17T082120.png
 security:

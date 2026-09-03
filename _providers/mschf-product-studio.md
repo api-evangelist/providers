@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -79,8 +79,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mschf-product-studio/refs/heads/main/screenshots/mschf-product-studio-2026-08-07T184419.png
 slug: mschf-product-studio

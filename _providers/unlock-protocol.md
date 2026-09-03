@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -204,7 +204,7 @@ apis:
   description: The Verifier API from Unlock Protocol — 3 operation(s) for verifier.
   name: Unlock Protocol Verifier API
   slug: unlock-protocol-verifier-api
-artifact_total: 72
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Unlock Protocol Websub Webhooks
@@ -379,7 +379,7 @@ common:
   url: packages/unlock-protocol-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unlock-protocol-mcp.yml
 - group: agent
   title: ''
@@ -441,10 +441,6 @@ created: '2026-07-17'
 description: Unlock Protocol is an open-source, community-governed protocol for onchain memberships and subscriptions. Creators deploy "locks" (membership smart contracts) that mint time-based, optionally recurring membership NFTs ("keys") across Ethereum, Base, Optimism, Polygon, Arbitrum, and other networks. The hosted Locksmith REST API adds off-chain conveniences — metadata storage, event ticketing with QR verification, checkout configuration, receipts, fiat payments via Stripe Connect, WebSub webhooks, and email delivery — while GraphQL subgraphs index the contracts per network. Originally built by Unlock Labs, stewardship passed to the Unlock Protocol Foundation and the Unlock DAO in 2025.
 image: https://github.com/unlock-protocol.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unlock Protocol MCP Server
-  slug: unlock-protocol-mcp-server
 modified: '2026-07-21'
 name: Unlock Protocol
 nav: Providers
@@ -491,8 +487,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/screenshots/unlock-protocol-2026-08-17T082632.png
 security:

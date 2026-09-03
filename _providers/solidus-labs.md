@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://tokensniffer.com/api/v2
@@ -74,7 +74,7 @@ apis:
   description: The Webhooks API API from Solidus Labs — 2 operation(s) for webhooks api.
   name: Solidus Labs Webhooks API API
   slug: solidus-labs-webhooks-api-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Solidus Labs Tokensniffer Webhooks
@@ -239,7 +239,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/solidus-labs-mcp.yml
 - group: build
   title: ''
@@ -250,10 +250,6 @@ description: 'Solidus Labs is a crypto-native market-integrity and compliance te
   The HALO platform itself is delivered to contracted customers through regional dashboards and is not publicly documented.'
 image: https://cdn.prod.website-files.com/5dc2e688a258f6237d614aa3/6a554a304e638b073bec090e_Logo%20Icon%20dark%20on%20yellow.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Solidus Labs MCP Server
-  slug: solidus-labs-mcp-server
 modified: '2026-08-05'
 name: Solidus Labs
 nav: Providers
@@ -302,8 +298,8 @@ score:
       total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:

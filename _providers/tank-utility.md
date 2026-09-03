@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://data.tankutility.com/api
@@ -50,7 +50,7 @@ arazzos:
 - description: Authenticate to the Tank Utility API, list the propane monitors on the account, and read the latest reading (fuel level %, temperature) for the first device.
   name: Tank Utility — read propane tank level
   slug: tank-utility-read-tank-level
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -64,7 +64,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tank-utility-mcp.yml
 - group: auth
   title: ''
@@ -146,10 +146,6 @@ created: '2026-07-17'
 description: Tank Utility makes LTE-connected propane tank monitors, mobile apps, and a read-only API that surface their data. Its sensors report tank fuel level, temperature, and battery state so homeowners get low-fuel alerts and fuel marketers can route deliveries by real consumption instead of guesswork — Tank Utility says this drops the same gallons in up to 40% fewer deliveries. The Tank Utility API lets an account exchange credentials (HTTP Basic) for a short-lived token, list the monitors on the account, and read each device's latest reading. Tank Utility is owned by Anova.
 image: https://tankutility.com/wp-content/uploads/2025/06/logo_merge.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tank Utility MCP Server
-  slug: tank-utility-mcp-server
 modified: '2026-07-21'
 name: Tank Utility
 nav: Providers
@@ -193,8 +189,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/screenshots/tank-utility-2026-09-02T162519.png
 security:

@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://lang.ai'', ''status'': 301, ''note'': ''declared website redirects to https://capacity.com/lang/?company=lang.ai — a different registrable domain (lang.ai -> capacity.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +54,7 @@ apis:
   description: Create and inspect classification projects and their tags.
   name: Lang.ai Projects API
   slug: langai-projects-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +160,7 @@ common:
   url: data-model/langai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/langai-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +218,6 @@ created: '2026-07-17'
 description: 'Lang.ai is a conversation-intelligence platform that turns unstructured customer interactions — support tickets, chatbot messages, emails and calls — into structured intents, features and tags. Its unsupervised algorithm ingests a dataset of customer text, automatically extracts the intents and features it finds, and lets teams group those into tags that form a custom classifier for any language, industry or business case. A small REST API then applies that classifier in real time: create a project from a CSV dataset, list projects and their tags, analyze a document to get back its matched tags and intents, and save documents with arbitrary metadata for dashboard reporting. Lang.ai was founded in Spain, backed by 500 Global, and is now part of Capacity, whose AI support-automation platform absorbed Lang.ai''s conversation intelligence.'
 image: https://docs.lang.ai/images/logo-lang.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lang.ai MCP Server
-  slug: langai-mcp-server
 modified: '2026-08-14'
 name: Lang.ai
 nav: Providers
@@ -267,8 +264,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/screenshots/langai-2026-07-25T224513.png
 security:

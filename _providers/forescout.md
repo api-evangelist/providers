@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The Web API plugin of the Forescout eyeExtend Connect Open Integration Module lets external systems query and act on the Forescout platform over HTTP. Clients authenticate at POST /api/login and pass '
@@ -45,7 +45,7 @@ apis:
 - description: Administrative REST API plugin for the Forescout eyeSight platform, used to manage appliance configuration and switch/device administration surfaced in the Forescout examples repository (admin-switch-
   name: Forescout eyeSight Admin API
   slug: forescout-eyesight-admin-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -105,7 +105,7 @@ common:
   url: security/forescout-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/forescout-mcp.yml
 - group: agent
   title: ''
@@ -119,10 +119,6 @@ created: '2026-07-17'
 description: Forescout Technologies is a cybersecurity company specializing in automated cybersecurity for device visibility, control, and compliance across IT, OT/ICS, IoT, and IoMT environments. The Forescout Platform (eyeSight, eyeControl, eyeInspect, eyeExtend, and Risk & Exposure Management) discovers, classifies, assesses, and secures every connected asset on the network without requiring agents. Forescout exposes REST APIs for external integration through the Open Integration Module (OIM) of eyeExtend Connect — the Web API and Data Exchange (DEX) plugins — plus the eyeSight Admin API and the eyeInspect Command Center REST API, giving programmatic access to host inventory, network policies, alerts, and vulnerability data. First-party integration example code (Python, Node, and Postman collections) is published in the Forescout GitHub org.
 image: https://www.forescout.com/wp-content/uploads/2021/09/forescout-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Forescout MCP Server
-  slug: forescout-mcp-server
 modified: '2026-07-19'
 name: Forescout
 nav: Providers
@@ -154,8 +150,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forescout/refs/heads/main/screenshots/forescout-2026-07-25T214933.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 2
@@ -183,7 +183,7 @@ apis:
   description: The Versions API from Terminal Use — 6 operation(s) for versions.
   name: Terminal Use Versions API
   slug: terminal-use-versions-api
-artifact_total: 62
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Terminal Use Webhooks
@@ -277,6 +277,10 @@ collections:
   name: Sb0 Agent APIKeys Versions API
   slug: open-terminal-use-versions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/terminal-use-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -355,7 +359,7 @@ common:
   url: data-model/terminal-use-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/terminal-use-mcp.yml
 - group: other
   title: ''
@@ -377,10 +381,6 @@ created: '2026-07-17'
 description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime model and one deploy flow. Teams write agent code in Python with the AgentServer runtime, ship it with the tu CLI, then call deployed agents from their own app with the Python or TypeScript SDKs (including a Vercel AI SDK provider for streaming chat UIs). The platform is model- and framework- agnostic — run the Claude Agent SDK, Codex SDK, or your own framework inside sandboxed compute with forkable, shareable filesystems. The HTTP API exposes namespaces, projects, agents, branches, versions, tasks, events, messages, state, filesystems, schedules, secrets, API keys, and webhook keys. Terminal Use is a Y Combinator (W26) company founded by Vivek Raja, Filip Balucha, and Stavros Filosidis.
 image: https://www.terminaluse.com/icon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Terminal Use MCP Server
-  slug: terminal-use-mcp-server
 modified: '2026-07-21'
 name: Terminal Use
 nav: Providers
@@ -391,13 +391,13 @@ overview: 'Terminal Use publishes 28 APIs on the [APIs.io](https://apis.io/) net
   The Terminal Use catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
+  Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 18 more developer resources.'
 random_paper: 20
 score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -422,8 +422,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/screenshots/terminal-use-2026-09-02T163149.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ apis:
   description: The Vintage API from Moody's — 1 operation(s) for vintage.
   name: Moody's Vintage API
   slug: moodys-vintage-api
-artifact_total: 114
+artifact_total: 113
 collections:
 - collection_type: postman
   name: Moody's Data Buffet Baskets API
@@ -246,7 +246,7 @@ common:
   url: well-known/moodys-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moodys-mcp.yml
 - group: agent
   title: ''
@@ -540,10 +540,6 @@ jsonld:
   property_count: 0
   slug: moodys-data-buffet-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moody's MCP Server
-  slug: moodys-mcp-server
 modified: '2026-07-25'
 name: Moody's
 nav: Providers
@@ -642,8 +638,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

@@ -33,9 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Datasaur Webhooks
@@ -123,7 +123,7 @@ common:
   url: cli/datasaur-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/datasaur-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Datasaur is an enterprise AI lab that builds private, secure LLM and data solutions deployed on a customer's own infrastructure. Its Data Studio is a collaborative data-labeling platform (span, row, document, bounding-box, conversational and audio tasks) with ML-assisted labeling, while LLM Labs covers sandboxing, deployment, knowledge bases, model integrations and evaluation. Products include an enterprise chatbot, document intelligence, PII/PHI redaction and private agents, serving legal, healthcare, finance, insurance, eCommerce and government. Developers integrate through a GraphQL API (OAuth2 client credentials) at app.datasaur.ai/graphql, the Robosaur CLI, webhooks, and SAML/SCIM for workspace SSO.
 image: https://cdn.prod.website-files.com/623952e7f678f73f3096fd25/66c5ad5767cd845864d963b5_webclip.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Datasaur MCP (candidate)
-  slug: datasaur-mcp-candidate
 modified: '2026-07-18'
 name: Datasaur
 nav: Providers
@@ -204,8 +200,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/screenshots/datasaur-2026-07-25T211356.png
 security:

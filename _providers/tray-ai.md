@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -612,7 +612,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 31.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -622,7 +622,7 @@ score:
     discoverability: 81.5
     governance: 47.0
     operational_transparency: 92.1
-  previous_composite: 53.5
+  previous_composite: 85.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -633,9 +633,9 @@ score:
       total: 12
     mcp: first-party
     skills: unknown
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:
 - kind: authentication

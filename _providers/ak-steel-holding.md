@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: AK Steel Holding Corporation investor relations portal providing access to financial reports, SEC filings, news releases, and shareholder information. Following acquisition by Cleveland-Cliffs in 2020
@@ -145,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/screenshots/ak-steel-holding-2026-06-20T171441.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,14 +102,14 @@ overview: 'Node.js is profiled on the [APIs.io](https://apis.io/) network. Tagge
   Node.js'' developer surface includes documentation, engineering blog, and 11 more developer resources.'
 random_paper: 16
 score:
-  band: emerging
-  composite: 19.2
+  band: minimal
+  composite: 10.2
   coverage:
     artifact_dirs: 3
     catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,13 +119,10 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 19.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/node-js/refs/heads/main/screenshots/node-js-2026-06-20T190349.png
 security:
 - kind: domain-security

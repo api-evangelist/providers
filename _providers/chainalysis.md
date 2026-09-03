@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC, EU, or UN sanctions authorities. No commercial licence required; widely embedded by wallets, dApps
@@ -233,8 +233,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/screenshots/chainalysis-2026-06-20T174208.png
 security:

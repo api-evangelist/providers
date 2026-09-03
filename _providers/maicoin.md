@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Real-time streaming service for MAX Exchange. Public channels cover order book (book), trade, ticker, kline, market_status and m-wallet pool_quota; private channels stream order snapshots/updates, tra
@@ -276,8 +276,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/screenshots/maicoin-2026-09-02T150513.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -263,7 +263,7 @@ apis:
   description: Webhook Controller
   name: WinCL Webhook API
   slug: wincl-webhook-api
-artifact_total: 93
+artifact_total: 92
 collections:
 - collection_type: open
   name: API Collection
@@ -447,7 +447,7 @@ common:
   url: data-model/wincl-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wincl-mcp.yml
 - group: agent
   title: ''
@@ -469,10 +469,6 @@ created: '2026-07-17'
 description: WinCL (윈클) is a Korean integrated carbon-management platform that helps enterprises calculate greenhouse-gas emissions, produce climate disclosures and reports, and offset their footprint end-to-end. It combines WinCL Monitoring (emissions accounting and climate disclosure), a WinCL Marketplace for buying globally certified carbon credits (Verra, Gold Standard) and I-REC renewable-energy certificates, a WinCL Reward marketing layer, and consulting services. The WinCL API (api.wincl.io, 271 operations, Bearer JWT) exposes wallet, credit box, certificate box, product, order, Stripe/KCP payment, and Hedera on-chain minting/offset operations so customers can embed carbon purchasing and credit retirement directly into their own applications.
 image: https://static.wixstatic.com/media/7a0600_6dd50be2bc40458f9398c57c7c238c15~mv2.png/v1/fill/w_432,h_228,al_c/7a0600_6dd50be2bc40458f9398c57c7c238c15~mv2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: WinCL MCP Server
-  slug: wincl-mcp-server
 modified: '2026-07-21'
 name: WinCL
 nav: Providers
@@ -517,8 +513,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png
 security:

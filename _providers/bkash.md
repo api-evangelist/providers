@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for accepting bKash payments — token-based auth (Grant/Refresh Token), Checkout and Tokenized Checkout (create/execute/query payment, create/execute agreement), Refund, Instant Payout (B2C), '
   name: bKash Payment Gateway (PGW)
   slug: bkash-payment-gateway-pgw
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Bkash Webhooks
@@ -123,7 +123,7 @@ common:
   url: packages/bkash-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bkash-mcp.yml
 - group: commercial
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: bKash is Bangladesh's largest mobile financial services (MFS) provider, offering a Payment Gateway (PGW) that lets online and mobile merchants accept bKash wallet payments through secure REST APIs. The developer platform (developer.bka.sh, public beta "Inferno Dragon") documents Checkout (hosted iframe/URL), Tokenized Checkout (agreement-based PIN-only payments), Instant Payout (B2C disbursement), Add Wallet, Auth and Capture, Subscriptions, and real-time webhook Instant Payment Notifications. Integration follows a token-based flow — Grant Token, Create Payment, Execute Payment, Query, Refund — with a self-service sandbox (service-name.sandbox.bka.sh) and production (service-name.pay.bka.sh) environments. bKash is a portfolio company associated with the SoftBank Vision Fund and is majority owned by BRAC Bank, with investment from Ant Group, the Bill & Melinda Gates Foundation, and IFC.
 image: https://developer.bka.sh/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool surface derived from bKash Payment Gateway documented operations. bKash publishes no official hosted/remote MCP server; this is a starting point (not authoritative), one tool
-  name: bKash MCP Server
-  slug: bkash-mcp-server
 modified: '2026-07-18'
 name: bKash
 nav: Providers
@@ -185,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/screenshots/bkash-2026-07-25T203226.png
 security:

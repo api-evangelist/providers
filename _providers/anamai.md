@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
   description: The Voices API from Anam.ai — 3 operation(s) for voices.
   name: Anam.ai Voices API
   slug: anamai-voices-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Anam AI Avatars API
@@ -241,7 +241,7 @@ common:
   url: packages/anamai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anamai-mcp.yml
 - group: agent
   title: ''
@@ -315,10 +315,6 @@ created: '2026-07-17'
 description: Anam.ai is a real-time interactive AI avatar platform for building conversational video AI agents with photorealistic personas. Its proprietary CARA-4 avatar model streams over WebRTC with ultra-low latency (around 180ms) across 70+ languages, powering customer support, sales, tutoring, medical, and training use cases. The REST API (https://api.anam.ai/v1/) lets teams create and manage personas, avatars, voices, LLM configs, RAG knowledge groups, tools, share links, and sessions, and invite personas into Google Meet, Zoom, and Microsoft Teams calls via the Meetings API. Auth is a two-step Bearer flow (API key exchanged for a short-lived session token). Anam is HIPAA and SOC 2 certified. Surfaced as a Techstars portfolio company and enriched into the API Evangelist network.
 image: https://framerusercontent.com/assets/cyASyHEg6g3WK5dCwQoOyyVbFZU.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Anam.ai MCP Server
-  slug: anamai-mcp-server
 modified: '2026-07-17'
 name: Anam.ai
 nav: Providers
@@ -361,8 +357,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
 security:

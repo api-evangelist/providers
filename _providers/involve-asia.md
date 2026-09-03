@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ arazzos:
 - description: Authenticate and pull attributed conversions for a date range.
   name: Involve Asia Sync Conversions
   slug: involve-asia-sync-conversions-workflow
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Involve Asia Webhooks
@@ -206,7 +206,7 @@ common:
   url: agentic-access/involve-asia-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/involve-asia-mcp.yml
 - group: agent
   title: ''
@@ -240,10 +240,6 @@ created: '2026-07-17'
 description: 'Involve Asia (Involve Asia Technologies Sdn. Bhd.) is a leading affiliate and partnership-marketing network across Southeast Asia and Taiwan, connecting advertisers with publishers and creators to grow revenue through performance marketing. Its public Publisher API lets publishers programmatically pull conversion (commission) data, browse offers and campaigns, generate trackable affiliate deeplinks, and access Shopee Commission Xtra boosted-payout brands — without logging into the dashboard. The API is REST over HTTPS with bearer-JWT auth (2-hour token TTL), form-urlencoded requests, page-number pagination, a 60 requests/minute throttle, and a 1,000-link rolling 30-day deeplink cap. Involve Asia publishes first-party machine-readable artifacts: an OpenAPI 3.1 spec, a Claude Skill, an llms.txt, and a Postman collection.'
 image: https://api.involve.asia/docs/assets/f4c704c9-e5f3-4fea-8ccd-89209c3f2451.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Involve Asia MCP Server
-  slug: involve-asia-mcp-server
 modified: '2026-08-13'
 name: Involve Asia
 nav: Providers
@@ -293,8 +289,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:

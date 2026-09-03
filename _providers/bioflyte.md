@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ apis:
   description: The Users API from BioFlyte — 3 operation(s) for users.
   name: BioFlyte Users API
   slug: bioflyte-users-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Bioflyte Event Surface
@@ -322,7 +322,7 @@ common:
   url: lifecycle/bioflyte-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bioflyte-mcp.yml
 - group: build
   title: ''
@@ -337,10 +337,6 @@ description: 'BioFlyte, Inc. is an Albuquerque, New Mexico based biodefense inst
   and a $5.4M Series B (2023), holds a U.S. Department of Homeland Security SAFETY Act Qualified Anti-Terrorism Technology designation and a U.S. Air Force SBIR Phase II contract, and has run deployments and pilots with Pittsburgh International Airport, SoBran and Los Alamos National Laboratory. BioFlyte publishes no developer program, API documentation, SDK, portal or pricing page. It does run two machine-readable API surfaces that a member of the public can reach: the fleet and alerting API behind its customer portal at portal.bioflyte.com, an ASP.NET Core service ("AdminWeb") whose OpenAPI 3.0.1 description is served openly at /swagger/v1/swagger.json even though every one of its 40 operations redirects an unauthenticated caller to a login page; and the anonymously readable WordPress REST API (wp/v2) on www.bioflyte.com, which serves the press-release newsroom, the Resources library of blog posts and whitepapers, the marketing pages, the media library, taxonomies and site search as JSON.'
 image: https://www.bioflyte.com/wp-content/uploads/2023/07/cropped-favicon-512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BioFlyte MCP Server
-  slug: bioflyte-mcp-server
 modified: '2026-08-07'
 name: BioFlyte
 nav: Providers
@@ -382,8 +378,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

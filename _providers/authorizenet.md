@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Payment gateway API for accepting credit card and eCheck.Net payments, storing customer payment profiles (CIM), recurring billing (ARB), hosted/tokenized card capture (Accept.js / Accept Hosted), tran
   name: Authorize.net API
   slug: authorizenet-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Authorizenet Webhooks
@@ -115,7 +115,7 @@ common:
   url: packages/authorizenet-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/authorizenet-mcp.yml
 - group: design
   title: ''
@@ -158,10 +158,6 @@ description: Authorize.net is a payment gateway operated by Visa (Visa Acceptanc
   public developer surface.
 image: https://www.authorize.net/content/dam/authorize/images/logos/anet-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Authorize.net MCP Server
-  slug: authorizenet-mcp-server
 modified: '2026-07-18'
 name: Authorize.net
 nav: Providers
@@ -202,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/screenshots/authorizenet-2026-07-25T201810.png
 security:

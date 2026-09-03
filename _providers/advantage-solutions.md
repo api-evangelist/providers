@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.advantagesolutions.net'', ''status'': 301, ''note'': ''declared website redirects to https://youradv.com/ — a different registrable domain (advantagesolutions.net -> youradv.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -152,7 +153,7 @@ apis:
   description: The users API from Advantage Solutions — 6 operation(s) for users.
   name: Advantage Solutions Users API
   slug: advantage-solutions-users-api
-artifact_total: 28
+artifact_total: 27
 common:
 - group: other
   title: ''
@@ -256,7 +257,7 @@ common:
   url: plans/advantage-solutions-plans-pricing.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/advantage-solutions-mcp.yml
 - group: agent
   title: ''
@@ -266,10 +267,6 @@ created: '2026-05-04'
 description: Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/advantage-solutions.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Advantage Solutions MCP Server
-  slug: advantage-solutions-mcp-server
 modified: '2026-08-13'
 name: Advantage Solutions
 nav: Providers
@@ -316,8 +313,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png
 security:

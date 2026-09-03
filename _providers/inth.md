@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://your-instance.c15t.dev
@@ -61,7 +61,7 @@ apis:
   description: The Subjects API from Inth — 2 operation(s) for subjects.
   name: Inth Subjects API
   slug: inth-subjects-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -192,7 +192,7 @@ common:
   url: changelog/inth-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inth-mcp.yml
 - group: agent
   title: ''
@@ -214,10 +214,6 @@ created: '2026-07-17'
 description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-source, developer-first consent management platform with 3M+ npm downloads used by teams like Zed, Expo, Infisical, and Unkey. c15t provides a headless, composable cookie banner, consent manager, and preference center for JavaScript, React, and Next.js, plus a self-hostable consent backend and REST API (@c15t/backend) that also runs as the inth.com managed service. It supports GDPR, CCPA, LGPD, IAB TCF 2.3, Google Consent Mode v2, and Global Privacy Control, with regional policy packs, audit-ready consent records, script and iframe gating, and first-party SDKs and CLI.
 image: https://inth.com/opengraph-image.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface for the c15t consent backend, one tool per REST operation. c15t currently provides agent integration via a packaged Agent Skill (see skills/inth-c15t.md), not an MCP server.
-  name: Inth MCP Server
-  slug: inth-mcp-server
 modified: '2026-07-19'
 name: Inth
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:

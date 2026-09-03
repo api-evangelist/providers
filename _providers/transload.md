@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.transload.io
@@ -146,7 +146,7 @@ apis:
   description: The Sites API from Transload — 2 operation(s) for sites.
   name: Transload Sites API
   slug: transload-sites-api
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -256,7 +256,7 @@ common:
   url: https://api.transload.io/docs
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/transload-mcp.yml
 - group: agent
   title: ''
@@ -286,10 +286,6 @@ created: '2026-07-17'
 description: Transload (YC Spring 2026) measures freight with security cameras, turning the CCTV already installed in logistics warehouses into a 3D dimensioner for the loading dock. Its computer vision captures the true size of every pallet, couch, or tire as it moves through the warehouse — no new hardware or process changes — recovering rebilling revenue and trailer utilization for trucking companies (the company reports ~15% of shipments measure larger than declared). Founded 2026 in San Francisco by Nils Börner, Julius Scheel, and Jago Wahl-Schwentker (TU Munich). Its bearer-authenticated Pipeline Backend API is publicly described by an OpenAPI 3.0.3 served at api.transload.io/docs, covering customers, sites, cameras, scans, processing stages, AI measurement results, and customer handling-unit data.
 image: https://bookface-images.s3.amazonaws.com/small_logos/1bddf9622d95fa25a8b10500158d81f74f5df2f7.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Transload MCP Server
-  slug: transload-mcp-server
 modified: '2026-07-21'
 name: Transload
 nav: Providers
@@ -327,8 +323,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/screenshots/transload-2026-09-02T164130.png
 security:

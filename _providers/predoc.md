@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for retrieving, aggregating, and delivering structured patient medical records. Covers patient management, record-retrieval requests, previous-provider retrievals, record uploads, granular cl
   name: Predoc Partner API
   slug: predoc-partner-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Predoc Webhooks
@@ -139,7 +139,7 @@ common:
   url: sandbox/predoc-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/predoc-mcp.yml
 - group: design
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Predoc is an AI-native medical records platform that automates the retrieval, aggregation, normalization, de-duplication, and structured delivery of complete patient histories. It queries health information exchanges (HIEs) and initiates outreach to non-connected providers, ingests faxes, PDFs, and digital formats, and delivers clean, FHIR-compliant clinical data to healthcare organizations and clinical research teams via a REST Partner API, file exports, or direct EHR integration. The Predoc Partner API (v1.4.1) exposes patient management, record-retrieval requests, record uploads, granular clinical document endpoints (medications, labs, imaging, procedures, notes, vaccines, allergies), clinical summaries, and webhook event notifications, secured with short-lived JWT bearer tokens.
 image: https://cdn.prod.website-files.com/6827c1994862c627993a82d8/688c883a300cc1480f08f8a1_favicon_32.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Predoc MCP Server
-  slug: predoc-mcp-server
 modified: '2026-07-20'
 name: Predoc
 nav: Providers
@@ -210,8 +206,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/screenshots/predoc-2026-08-17T081335.png
 security:

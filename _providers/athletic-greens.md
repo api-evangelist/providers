@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -197,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/screenshots/athletic-greens-2026-08-07T161847.png
 security:

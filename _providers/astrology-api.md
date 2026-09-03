@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://json.astrologyapi.com/v1
@@ -131,8 +131,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/screenshots/astrology-api-2026-06-20T172511.png
 security:

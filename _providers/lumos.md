@@ -1,15 +1,18 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -405,8 +408,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/screenshots/lumos-2026-06-20T184756.png
 security:

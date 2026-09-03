@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -188,7 +188,7 @@ apis:
   description: The web_vitals API from BrightEdge Technologies — 4 operation(s) for web_vitals.
   name: BrightEdge Technologies web_vitals API
   slug: brightedge-technologies-web-vitals-api
-artifact_total: 78
+artifact_total: 77
 collections:
 - collection_type: open
   name: API Collection
@@ -328,6 +328,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/brightedge-technologies-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/brightedge-technologies-platform-overlay.yaml
 - group: start
@@ -384,7 +388,7 @@ common:
   url: lifecycle/brightedge-technologies-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brightedge-technologies-mcp.yml
 - group: design
   title: ''
@@ -414,10 +418,6 @@ created: '2026-07-17'
 description: BrightEdge is an enterprise SEO and content performance marketing platform, founded in 2007 and headquartered in Foster City, California. Its S3 platform uses AI and machine learning (the BrightEdge "Data Cube" and Copilot/Autopilot engines) to help brands research keywords, optimize content, analyze competitors, audit sites, track SERP features and AI answers, and measure organic search performance against revenue. The BrightEdge Platform API (v5.0) is a REST interface that exposes accounts, keywords, keyword groups, competitors, domains, backlinks, page crawl and cache, Core Web Vitals, market insights, SERP and People-Also-Ask data, AI Catalyst share-of-answer metrics, bulk export jobs, and user administration, letting enterprise customers pull BrightEdge insights into platforms such as Salesforce Marketing Cloud, Domo, and Marketo. BrightEdge serves 1,700+ brands including dozens of the Fortune 100.
 image: https://logos.brightedge.com/images/be_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BrightEdge Technologies MCP Server
-  slug: brightedge-technologies-mcp-server
 modified: '2026-07-18'
 name: BrightEdge Technologies
 nav: Providers
@@ -425,13 +425,13 @@ network: true
 overview: 'BrightEdge Technologies publishes 29 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 26 more. Tagged areas include SEO, Content Marketing, Search, Marketing, and Analytics.
 
 
-  BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
+  BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
 random_paper: 1
 score:
   band: thin
   composite: 33.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -456,8 +456,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:

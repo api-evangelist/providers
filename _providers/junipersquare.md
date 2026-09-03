@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Developer API with broad read and write coverage across the GPX platform — investor data, fund accounting, payments, compliance, and reporting. Used to sync investor and fund data into CRMs (Salesforc
@@ -147,8 +147,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/screenshots/junipersquare-2026-07-25T223322.png
 security:

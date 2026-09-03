@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://prodapi.omniful.com
@@ -206,7 +206,7 @@ apis:
   description: The Webhooks API from Omniful, Inc. — 1 operation(s) for webhooks.
   name: Omniful, Inc. Webhooks API
   slug: omniful-inc-webhooks-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Omniful Inc Webhooks
@@ -324,7 +324,7 @@ common:
   url: capabilities/omniful-inc-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/omniful-inc-mcp.yml
 - group: other
   title: ''
@@ -410,10 +410,6 @@ created: '2026-07-17'
 description: Omniful is an AI-powered unified supply chain and fulfillment platform that consolidates order management (OMS), warehouse management (WMS), transportation management (TMS), inventory, point of sale, and returns into a single intelligent system for retailers, e-commerce businesses, logistics providers, and enterprises. The platform offers plug-and-play integrations with sales channels, marketplaces, and ERPs, multi-location and multi-brand operation support, and a set of public Integration APIs (seller/sales-channel, tenant, and TMS) with bearer-token authentication and webhook event subscriptions, documented as a public Postman collection at docs.omniful.tech. Omniful is a 500 Global portfolio company operating primarily across the MENA region.
 image: https://www.omniful.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Omniful, Inc. MCP Server
-  slug: omniful-inc-mcp-server
 modified: '2026-07-20'
 name: Omniful, Inc.
 nav: Providers
@@ -428,20 +424,20 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 8
 score:
   band: thin
-  composite: 38.0
+  composite: 36.1
   coverage:
     artifact_dirs: 16
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 59.0
     developer_ergonomics: 34.5
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 38.0
@@ -452,8 +448,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL API for requesting delivery quotes, booking on-demand and scheduled deliveries, managing and canceling deliveries, and tracking drivers in real time via webhooks or long polling.
   name: Curri GraphQL API
   slug: curri-graphql-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Curri Webhooks
@@ -127,7 +127,7 @@ common:
   url: conformance/curri-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/curri-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Curri is a last-mile and same-day delivery platform built for construction and industrial supplies. It lets distributors and suppliers dispatch on-demand drivers (Hotshots), run dedicated recurring fleets, and orchestrate a vetted nationwide carrier network including LTL freight — with smart vehicle matching, live tracking and ETAs, digital proof-of-delivery, and route planning. Curri's GraphQL API (https://api.curri.com/graphql) connects a customer's own systems to the platform so they can request quotes, book and manage deliveries, and track drivers in real time without logging into the app. Authentication is HTTP Basic with an issued API key plus a separate Sandbox key for test bookings.
 image: https://www.curri.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Curri MCP Server
-  slug: curri-mcp-server
 modified: '2026-07-18'
 name: Curri
 nav: Providers
@@ -180,8 +176,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/screenshots/curri-2026-07-25T210950.png
 security:

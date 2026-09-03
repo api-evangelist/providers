@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
   description: The Storage API from Leia — 1 operation(s) for storage.
   name: Leia Storage API
   slug: leia-storage-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Leia Callbacks
@@ -201,7 +201,7 @@ common:
   url: asyncapi/leia-callbacks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leia-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ description: Leia Inc. is the Silicon Valley company behind Immersity, a platfor
   patents.
 image: https://cdn.prod.website-files.com/684b15b38863077bd3c46420/6895344cc46838641181605c_OpenGraph_V1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Leia MCP Server
-  slug: leia-mcp-server
 modified: '2026-08-01'
 name: Leia
 nav: Providers
@@ -274,8 +270,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:

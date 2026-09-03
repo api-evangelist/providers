@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Manage teamspaces and their members.
   name: Certifaction Teamspace API
   slug: certifaction-teamspace-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Certifaction Webhooks
@@ -179,7 +179,7 @@ common:
   url: components/certifaction-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/certifaction-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ created: '2026-07-17'
 description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.'
 image: https://developers.certifaction.com/themes/certifaction/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Certifaction MCP Server
-  slug: certifaction-mcp-server
 modified: '2026-07-18'
 name: Certifaction
 nav: Providers
@@ -282,8 +278,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png
 security:

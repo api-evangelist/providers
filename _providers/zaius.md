@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - baseURL: https://api.us1.odp.optimizely.com/v3
@@ -121,7 +121,7 @@ apis:
   description: The Relationships schema API from Zaius — 2 operation(s) for relationships schema.
   name: Zaius Relationships schema API
   slug: zaius-relationships-schema-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -280,7 +280,7 @@ common:
   url: https://www.optimizely.com/trust-center/compliance
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zaius-mcp.yml
 - group: agent
   title: ''
@@ -334,10 +334,6 @@ created: '2026-07-17'
 description: Zaius is the B2C marketing customer data platform (CDP) that Optimizely acquired in 2021 and now operates as the Optimizely Data Platform (ODP). It unifies customer, event, order, product, and custom data into a single behavioral profile, powers real-time audience segmentation, and drives personalization and orchestrated cross-channel campaigns. ODP exposes a versioned (v3) REST API surface across regional hosts (US/EU/AU) for events, customers, orders, products, objects, lists, consent, exports, schema management, recommendations, and real-time segments, plus a GraphQL query API and Web / React Native / Node SDKs. Authentication is via public (Tracker ID) and private x-api-key keys. Originally a portfolio company of Insight Partners.
 image: https://images3.cmp.optimizely.com/Zz1hOTU5MjFjNDY5MWYxMWYxOTU5NmZlODFjZDBjMWExMg==?width=1200
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zaius MCP Server
-  slug: zaius-mcp-server
 modified: '2026-08-13'
 name: Zaius
 nav: Providers
@@ -383,8 +379,8 @@ score:
       total: 17
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:

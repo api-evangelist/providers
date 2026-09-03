@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Video generation
   name: FlexAI Video API
   slug: flexai-video-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: postman
   name: FlexAI Token Factory Audio API
@@ -229,7 +229,7 @@ common:
   url: data-model/flexai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/flexai-mcp.yml
 - group: agent
   title: ''
@@ -247,10 +247,6 @@ created: '2026-07-17'
 description: FlexAI is managed inference for builders — an OpenAI-compatible API (Token Factory) that provides a single API key across open models for text, code, reasoning, vision, embeddings, image, video, and audio, priced by usage per model. Beyond serverless inference the platform offers dedicated GPU endpoints, managed LoRA/QLoRA fine-tuning, distributed training, an Agent SDK (in trial), and a private AI cloud (AI Factory) deployable to VPC, on-prem, or air-gapped environments. Because the inference API is a drop-in OpenAI replacement, teams point the OpenAI SDK at the FlexAI base URL and change only the key. FlexAI is backed by Partech and profiled in the API Evangelist network for its developer surface and agent-native infrastructure.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexai.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the FlexAI Token Factory OpenAPI operations. FlexAI does not publish an official hosted MCP server; this is a starting point that maps each documented operation
-  name: FlexAI MCP Server
-  slug: flexai-mcp-server
 modified: '2026-07-19'
 name: FlexAI
 nav: Providers
@@ -297,8 +293,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:

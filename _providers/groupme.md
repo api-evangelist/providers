@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST + JSON API for GroupMe groups, memberships, messages, chats, likes, blocks, users, and bots, plus a Bayeux push service and bot webhook callbacks.
   name: GroupMe API v3
   slug: groupme-api-v3
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Groupme Push Webhooks
@@ -115,7 +115,7 @@ common:
   url: packages/groupme-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/groupme-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated with a per-user access token in the X-Access-Token header. The API covers groups and former groups, memberships and nicknames, group and direct messages with attachments, likes, blocks, user profiles, and bots. A Bayeux/Faye push service delivers realtime message and typing events, and bots receive HTTP webhook callbacks for every group message. GroupMe was surfaced as a portfolio company of Thrive Capital and enriched here from its public developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groupme.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GroupMe MCP Server
-  slug: groupme-mcp-server
 modified: '2026-07-19'
 name: GroupMe
 nav: Providers
@@ -171,8 +167,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/screenshots/groupme-2026-07-25T220348.png
 security:

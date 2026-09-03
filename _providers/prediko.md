@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Prediko''s public REST API for inventory operations: manage orders and deliveries, read SKUs and procurement suggestions, manage bill-of-materials and production consumption, and sync suppliers and war'
   name: Prediko API
   slug: prediko-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: conformance/prediko-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/prediko-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Prediko is an AI-powered inventory management and planning platform for Shopify D2C and B2B brands, covering demand forecasting, supply and replenishment planning, purchase-order management, raw-materials and bill-of-materials tracking, and multi-location inventory. Prediko exposes a public REST API (https://api.prediko.io/api/v1) authenticated with pk_live_ bearer API keys, letting merchants and integrators manage orders, read SKU stock levels and procurement suggestions, sync suppliers and warehouses, and automate inventory workflows. "Pia" is Prediko's AI inventory agent. The company is backed by Techstars.
 image: https://cdn.prod.website-files.com/68ceeb4f2c25c399d42f4726/696653966c56edb6b763849e_predikoinventorymanagement.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Prediko MCP Server
-  slug: prediko-mcp-server
 modified: '2026-07-20'
 name: Prediko
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/screenshots/prediko-2026-09-02T151915.png
 security:

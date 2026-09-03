@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of state, county, and local cannabis excise taxes, storage of tax data, and support for monthly cannabis tax return filing acro
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

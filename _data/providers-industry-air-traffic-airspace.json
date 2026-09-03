@@ -29,8 +29,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -71,9 +71,60 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
+    {
+     "name": "FlightFinder",
+     "slug": "flightfinder",
+     "description": "Read-only JSON API over a merged aviation-safety corpus: 164,068 accident narratives aggregated from 130 official investigation authorities (NTSB, ATSB, AAIB, BEA, MAK and national agencies), deduplicated into one occurrence-level dataset, plus the FAA wildlife-strike, laser-incident and drone-sighting datasets and OurAirports reference data. Every record carries its source, attribution, licence and a deep link, and GET /sources returns the per-source licence and narrative policy. Keyless tier answers without an Authorization header at 100 requests/day/IP, and the same corpus is served to agents by an anonymous remote MCP server at https://himaxym.com/mcp with nine tools.",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 26.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 70.8,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
     {
      "name": "UK Civil Aviation Authority",
      "slug": "uk-caa",
@@ -92,8 +143,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -124,7 +175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Flightradar24",
@@ -144,8 +195,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -169,7 +220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Aloft",
@@ -189,8 +240,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -214,7 +265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "OpenSky Network",
@@ -234,8 +285,8 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -259,7 +310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "FlightAware",
@@ -278,8 +329,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -303,7 +354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "AeroDataBox",
@@ -323,8 +374,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -348,7 +399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "ADS-B Exchange",
@@ -368,8 +419,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -393,7 +444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     }
    ],
    "open": true
@@ -424,8 +475,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -449,7 +500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Airlabs",
@@ -469,8 +520,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -494,7 +545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "FlightLabs",
@@ -514,53 +565,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Aviation Edge",
-     "slug": "aviation-edge",
-     "description": "Aviation Edge is a leading provider of aviation data and technology solutions for the global aviation industry. The company offers comprehensive and accurate data sets that cover everything from flight schedules and airline information to airport details and aircraft data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/screenshots/aviation-edge-2026-06-20T172729.png",
-     "score": 30.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 48.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -587,6 +593,51 @@
      "rank": 12
     },
     {
+     "name": "Aviation Edge",
+     "slug": "aviation-edge",
+     "description": "Aviation Edge is a leading provider of aviation data and technology solutions for the global aviation industry. The company offers comprehensive and accurate data sets that cover everything from flight schedules and airline information to airport details and aircraft data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/screenshots/aviation-edge-2026-06-20T172729.png",
+     "score": 30.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 48.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Civil Aviation Safety Authority (CASA)",
      "slug": "casa-aviation",
      "description": "The Civil Aviation Safety Authority (CASA) is Australia's independent statutory aviation safety regulator, established under the Civil Aviation Act 1988. It maintains the Australian Civil Aircraft Register (VH- marks), issues Airworthiness Directives, licenses flight crew and maintenance organisations, certifies air operators, and regulates drone and RPAS operations. CASA sits entirely OUTSIDE the travel distribution chain — it is a safety regulator, not a distributor, so it has no GDS, NDC, channel-manager or OTA position, and airline fare distribution, full-content agreements and consumer disclosure are not CASA functions. Its API posture is split and honest: two genuinely open, no-key, documented bulk data products (the full Airworthiness Directives listing as JSON/CSV and the complete civil aircraft register as a daily CSV, both served from services.casa.gov.au), and one approval-gated partner API — the CASA RPAS Digital Platform at data.casa.rpasplatform.net — whose endpoints are named in public PDFs but require a service account, a signed four-year agreement, a CASA onboarding check-out and a paid Airservices Australia airspace data licence. There is no self-serve developer portal, no OpenAPI, and new RPAS Platform onboarding is currently paused pending Airservices' Flight Information Management System.",
@@ -604,8 +655,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -636,7 +687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Airspace Link",
@@ -656,8 +707,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -681,7 +732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     }
    ]
   },
@@ -711,8 +762,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -743,7 +794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Aviationstack",
@@ -763,8 +814,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -788,7 +839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "ICAO",
@@ -808,8 +859,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -833,7 +884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Avision",
@@ -853,8 +904,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -878,7 +929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Spire Global",
@@ -898,53 +949,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Aviyair",
-     "slug": "aviyair",
-     "description": "Aviyair provides global coverage of flight and airport information including real-time and historical flight tracking, flight schedules with airline arrival and departure times, IATA and ICAO codes, airline routes, and flight delays information.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviyair/refs/heads/main/screenshots/aviyair-2026-06-20T172731.png",
-     "score": 15.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -971,6 +977,51 @@
      "rank": 20
     },
     {
+     "name": "Aviyair",
+     "slug": "aviyair",
+     "description": "Aviyair provides global coverage of flight and airport information including real-time and historical flight tracking, flight schedules with airline arrival and departure times, IATA and ICAO codes, airline routes, and flight delays information.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviyair/refs/heads/main/screenshots/aviyair-2026-06-20T172731.png",
+     "score": 15.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
      "name": "Fortem Technologies",
      "slug": "fortem-technologies",
      "description": "Fortem Technologies is an airspace security and defense company based in Lindon, Utah that builds counter-unmanned aircraft systems (C-UAS) for military, government, critical infrastructure, and commercial customers. Its SkyDome System combines TrueView AESA radars, long-range TrueView cameras, RF sensors, and the autonomous DroneHunter interceptor into a single detect-track-defeat capability, orchestrated by SkyDome Manager command-and-control software. SkyDome Manager exposes REST, realtime, and track-only integration APIs so third-party C2 platforms (such as the U.S. Army FAAD C2 and Lockheed Martin systems) can exchange over a hundred fields and commands for airspace awareness and drone mitigation. Fortem is backed by Lockheed Martin, DCVC, Toshiba, Boeing, and other strategic investors, and its systems have been selected for high-profile deployments including protection of venues at the 2026 FIFA World Cup.",
@@ -988,53 +1039,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Skyryse",
-     "slug": "skyryse",
-     "description": "Skyryse is an El Segundo, California aviation technology company founded in 2016 by Mark Groden and Mitch Adler that builds SkyOS, a universal operating system for flight. SkyOS is a retrofittable hardware and software stack that replaces complex mechanical flight controls with a triply redundant, software-driven system, letting a pilot fly an airplane or helicopter with a single control stick and touchscreens. The platform delivers simplified flight controls, inherent stability, automated maneuvers, emergency autorotation, automated zero-visibility landing, envelope protection, and optionally piloted capability. Skyryse also produces Skyryse One, a SkyOS-powered production helicopter, and Skylar, a universal AI flight assistant. Customers and partners span the U.S. military, law enforcement, Cal Fire, emergency medical services, disaster response, and private operators. In February 2026 the company raised over $300 million in Series C funding at a $1.15 billion post-money valuation, co-led by Autopilot and Fidelity Investments. Skyryse operates as a certified-avionics and aircraft manufacturer and does not publish a public developer API, SDK, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/screenshots/skyryse-2026-09-02T155815.png",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1059,6 +1065,51 @@
       "agentic_commerce": false
      },
      "rank": 22
+    },
+    {
+     "name": "Skyryse",
+     "slug": "skyryse",
+     "description": "Skyryse is an El Segundo, California aviation technology company founded in 2016 by Mark Groden and Mitch Adler that builds SkyOS, a universal operating system for flight. SkyOS is a retrofittable hardware and software stack that replaces complex mechanical flight controls with a triply redundant, software-driven system, letting a pilot fly an airplane or helicopter with a single control stick and touchscreens. The platform delivers simplified flight controls, inherent stability, automated maneuvers, emergency autorotation, automated zero-visibility landing, envelope protection, and optionally piloted capability. Skyryse also produces Skyryse One, a SkyOS-powered production helicopter, and Skylar, a universal AI flight assistant. Customers and partners span the U.S. military, law enforcement, Cal Fire, emergency medical services, disaster response, and private operators. In February 2026 the company raised over $300 million in Series C funding at a $1.15 billion post-money valuation, co-led by Autopilot and Fidelity Investments. Skyryse operates as a certified-avionics and aircraft manufacturer and does not publish a public developer API, SDK, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/screenshots/skyryse-2026-09-02T155815.png",
+     "score": 11.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
     }
    ]
   },
@@ -1088,53 +1139,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Wing",
-     "slug": "wing-alphabet",
-     "description": "Wing is Alphabet's drone delivery subsidiary, spun out of Google X in 2018, with operating headquarters in Palo Alto, California and significant operations in Australia, Finland, Ireland, and the United States. Wing designs, builds, and operates a fleet of small fixed-wing electric VTOL aircraft that autonomously pick up and deliver packages to customers' homes, and it operates an unmanned traffic management (UTM) stack used by drone pilots and aviation authorities. Wing was the first company to receive an FAA Part 135 Air Carrier Certificate for drone delivery (2019) and is an approved LAANC USS in the United States and an approved drone airspace authorization provider for CASA in Australia. Wing's commercial surface is split across two main platforms — the Wing Delivery Platform, a partner-only API and UI suite that lets retailers, restaurants, and logistics providers embed drone delivery into their own order flows (Walmart, DoorDash, Papa Johns, and others), and OpenSky, a consumer drone airspace authorization app and partner API. Wing also co-founded the InterUSS Platform open-source UTM project, now hosted by the Linux Foundation. Wing's revenue comes from per-delivery fees charged to merchant partners and from drone-as-a-service operations rather than from public developer APIs; the Delivery Platform API and OpenSky API are not openly published and there is no public OpenAPI, SDK, or developer portal at the time of profiling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wing-alphabet/refs/heads/main/screenshots/wing-alphabet-2026-06-20T201520.png",
-     "score": 5.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 1.2,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1161,11 +1167,11 @@
      "rank": 24
     },
     {
-     "name": "AirMap",
-     "slug": "airmap",
-     "description": "AirMap was a drone airspace-management and unmanned traffic management (UTM) platform that provided airspace intelligence, flight planning, digital notice, and geofencing services for drones and their operators, exposed through a developer platform of airspace and flight APIs. It was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as an enrichment lead. As of this enrichment pass (2026-07) the company appears defunct: airmap.com no longer serves a developer portal or API and now resolves to a parked Squarespace-hosted page with a mismatched TLS certificate, and the legacy developer.airmap.com / api.airmap.com / docs.airmap.com hosts no longer resolve. No live API surface remains to harvest.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airmap/refs/heads/main/screenshots/airmap-2026-07-25T195428.png",
-     "score": 5.0,
+     "name": "Wing",
+     "slug": "wing-alphabet",
+     "description": "Wing is Alphabet's drone delivery subsidiary, spun out of Google X in 2018, with operating headquarters in Palo Alto, California and significant operations in Australia, Finland, Ireland, and the United States. Wing designs, builds, and operates a fleet of small fixed-wing electric VTOL aircraft that autonomously pick up and deliver packages to customers' homes, and it operates an unmanned traffic management (UTM) stack used by drone pilots and aviation authorities. Wing was the first company to receive an FAA Part 135 Air Carrier Certificate for drone delivery (2019) and is an approved LAANC USS in the United States and an approved drone airspace authorization provider for CASA in Australia. Wing's commercial surface is split across two main platforms — the Wing Delivery Platform, a partner-only API and UI suite that lets retailers, restaurants, and logistics providers embed drone delivery into their own order flows (Walmart, DoorDash, Papa Johns, and others), and OpenSky, a consumer drone airspace authorization app and partner API. Wing also co-founded the InterUSS Platform open-source UTM project, now hosted by the Linux Foundation. Wing's revenue comes from per-delivery fees charged to merchant partners and from drone-as-a-service operations rather than from public developer APIs; the Delivery Platform API and OpenSky API are not openly published and there is no public OpenAPI, SDK, or developer portal at the time of profiling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wing-alphabet/refs/heads/main/screenshots/wing-alphabet-2026-06-20T201520.png",
+     "score": 5.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1173,13 +1179,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 1.2,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1206,10 +1212,10 @@
      "rank": 25
     },
     {
-     "name": "Apollo Shield",
-     "slug": "apollo-shield",
-     "description": "ApolloShield develops counter-drone (counter-UAS / cUAS) systems that detect, classify, and neutralize unauthorized aerial threats. Its product suite spans RF detection sensors (omnidirectional Omni RF Sensor up to 1.5 km and directional sensors 2-5 km with triangulation), active-defense jammers (portable RF Gun under 4 kg, stationary, mobile, and vehicle-mounted RF Jammers), the integrated RF Sense&Block system, a CUAS vehicle, and a centralized Command Center that manages sensors and issues real-time alerts via SMS, email, and API. The platform uses AI-assisted RF fingerprinting to identify drone communications and can force unauthorized drones to return home. Command Center runs on-premise or cloud-based. Note: jammers cannot be sold in the United States except to federal government entities and require regulatory compliance in other jurisdictions. ApolloShield exposes no public developer API, documentation, SDK, or portal today; the only programmatic surface referenced is outbound Command Center alert delivery. Surfaced as a portfolio company of Partech.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-shield/refs/heads/main/screenshots/apollo-shield-2026-07-25T200752.png",
+     "name": "AirMap",
+     "slug": "airmap",
+     "description": "AirMap was a drone airspace-management and unmanned traffic management (UTM) platform that provided airspace intelligence, flight planning, digital notice, and geofencing services for drones and their operators, exposed through a developer platform of airspace and flight APIs. It was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as an enrichment lead. As of this enrichment pass (2026-07) the company appears defunct: airmap.com no longer serves a developer portal or API and now resolves to a parked Squarespace-hosted page with a mismatched TLS certificate, and the legacy developer.airmap.com / api.airmap.com / docs.airmap.com hosts no longer resolve. No live API surface remains to harvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airmap/refs/heads/main/screenshots/airmap-2026-07-25T195428.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1223,8 +1229,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1251,10 +1257,10 @@
      "rank": 26
     },
     {
-     "name": "Enhanced Radar",
-     "slug": "enhanced-radar",
-     "description": "Enhanced Radar is a San Francisco-based applied AI company building intelligent systems for aviation, the world's most complex transportation domain. Its work centers on pilot-controller communications, where the company owns the full pipeline from data collection through in-house labeling and quality assurance to produce high-quality aviation AI training datasets. Products include Pattern, an aviation operational intelligence platform; ATC.com, a live air traffic control radio service; and Y4, an aviation understanding model announced in February 2026. Enhanced Radar has demonstrated real-time detection of runway incursion risks and raised $7 million in May 2026. It is backed by DCVC and Initialized Capital. The company does not currently publish a public API, developer documentation, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enhanced-radar/refs/heads/main/screenshots/enhanced-radar-2026-07-25T213357.png",
+     "name": "Apollo Shield",
+     "slug": "apollo-shield",
+     "description": "ApolloShield develops counter-drone (counter-UAS / cUAS) systems that detect, classify, and neutralize unauthorized aerial threats. Its product suite spans RF detection sensors (omnidirectional Omni RF Sensor up to 1.5 km and directional sensors 2-5 km with triangulation), active-defense jammers (portable RF Gun under 4 kg, stationary, mobile, and vehicle-mounted RF Jammers), the integrated RF Sense&Block system, a CUAS vehicle, and a centralized Command Center that manages sensors and issues real-time alerts via SMS, email, and API. The platform uses AI-assisted RF fingerprinting to identify drone communications and can force unauthorized drones to return home. Command Center runs on-premise or cloud-based. Note: jammers cannot be sold in the United States except to federal government entities and require regulatory compliance in other jurisdictions. ApolloShield exposes no public developer API, documentation, SDK, or portal today; the only programmatic surface referenced is outbound Command Center alert delivery. Surfaced as a portfolio company of Partech.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-shield/refs/heads/main/screenshots/apollo-shield-2026-07-25T200752.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1268,8 +1274,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1296,10 +1302,10 @@
      "rank": 27
     },
     {
-     "name": "General Aviation",
-     "slug": "general-aviation",
-     "description": "General Aviation is a Y Combinator-backed startup (Spring 2026 batch) building a new air traffic control (ATC) system by connecting aircraft to the internet. Founded by Ben Frank, the company develops remote ATC tower technology aimed at the roughly 90 percent of airports in the U.S. National Airspace System that currently operate without control towers, giving smaller airfields an affordable path to the safety and efficiency benefits of tower services without the cost of traditional tower infrastructure and staffing. As of this profile the company operates a single marketing landing page and publishes no public developer API, documentation, or SDK surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-aviation/refs/heads/main/screenshots/general-aviation-2026-07-25T215532.png",
+     "name": "Enhanced Radar",
+     "slug": "enhanced-radar",
+     "description": "Enhanced Radar is a San Francisco-based applied AI company building intelligent systems for aviation, the world's most complex transportation domain. Its work centers on pilot-controller communications, where the company owns the full pipeline from data collection through in-house labeling and quality assurance to produce high-quality aviation AI training datasets. Products include Pattern, an aviation operational intelligence platform; ATC.com, a live air traffic control radio service; and Y4, an aviation understanding model announced in February 2026. Enhanced Radar has demonstrated real-time detection of runway incursion risks and raised $7 million in May 2026. It is backed by DCVC and Initialized Capital. The company does not currently publish a public API, developer documentation, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enhanced-radar/refs/heads/main/screenshots/enhanced-radar-2026-07-25T213357.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1313,8 +1319,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1341,10 +1347,10 @@
      "rank": 28
     },
     {
-     "name": "Milliray",
-     "slug": "milliray",
-     "description": "Milliray is an airspace-security company building millimeter-wave radar technology to detect, track, and classify the small drones that conventional radar systems miss — from $50 quadcopters to autonomous swarms. Its DroneTector product fuses multiple sensor types into all-weather, 24/7 units that operate standalone or in networked mesh configurations, protecting airports, critical infrastructure (substations, refineries, water-treatment facilities), and forward-deployed defense operations. The company is backed by Y Combinator, NATO DIANA, the UK Defence and Security Accelerator, and the Royal Academy of Engineering. As of this enrichment pass Milliray publishes no public API, developer portal, SDK, or documentation surface — it is a hardware/defense provider without a programmable interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/milliray/refs/heads/main/screenshots/milliray-2026-08-07T172914.png",
+     "name": "General Aviation",
+     "slug": "general-aviation",
+     "description": "General Aviation is a Y Combinator-backed startup (Spring 2026 batch) building a new air traffic control (ATC) system by connecting aircraft to the internet. Founded by Ben Frank, the company develops remote ATC tower technology aimed at the roughly 90 percent of airports in the U.S. National Airspace System that currently operate without control towers, giving smaller airfields an affordable path to the safety and efficiency benefits of tower services without the cost of traditional tower infrastructure and staffing. As of this profile the company operates a single marketing landing page and publishes no public developer API, documentation, or SDK surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-aviation/refs/heads/main/screenshots/general-aviation-2026-07-25T215532.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1358,8 +1364,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1386,6 +1392,51 @@
      "rank": 29
     },
     {
+     "name": "Milliray",
+     "slug": "milliray",
+     "description": "Milliray is an airspace-security company building millimeter-wave radar technology to detect, track, and classify the small drones that conventional radar systems miss — from $50 quadcopters to autonomous swarms. Its DroneTector product fuses multiple sensor types into all-weather, 24/7 units that operate standalone or in networked mesh configurations, protecting airports, critical infrastructure (substations, refineries, water-treatment facilities), and forward-deployed defense operations. The company is backed by Y Combinator, NATO DIANA, the UK Defence and Security Accelerator, and the Royal Academy of Engineering. As of this enrichment pass Milliray publishes no public API, developer portal, SDK, or documentation surface — it is a hardware/defense provider without a programmable interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/milliray/refs/heads/main/screenshots/milliray-2026-08-07T172914.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 30
+    },
+    {
      "name": "Curtiss-Wright",
      "slug": "curtiss-wright",
      "description": "Curtiss-Wright is a global integrated business that provides highly engineered products, solutions, and services mainly to the aerospace, defense, commercial power, process, and general industrial markets. Its product portfolio spans rugged embedded computing, mission-critical avionics, electronic packaging, naval propulsion, reactor coolant pumps for nuclear power, surface treatment services, industrial valves, sensors, data acquisition systems, telemetry ground stations, emergency arresting systems for military aircraft, and electronic systems for naval shipbuilding programs. The company traces its lineage to the aviation pioneers Glenn Curtiss and the Wright brothers and today operates across the Defense Electronics, Naval & Power, and Aerospace & Industrial segments.",
@@ -1403,8 +1454,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1435,22 +1486,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "FlightFinder",
-     "slug": "flightfinder",
-     "description": "Read-only JSON API over a merged aviation-safety corpus: 164,068 accident narratives aggregated from 130 official investigation authorities (NTSB, ATSB, AAIB, BEA, MAK and national agencies), deduplicated into one occurrence-level dataset, plus the FAA wildlife-strike, laser-incident and drone-sighting datasets and OurAirports reference data. Every record carries its source, attribution, licence and a deep link, and GET /sources returns the per-source licence and narrative policy. Keyless tier answers without an Authorization header at 100 requests/day/IP, and the same corpus is served to agents by an anonymous remote MCP server at https://himaxym.com/mcp with nine tools.",
      "rank": 31
     }
    ]

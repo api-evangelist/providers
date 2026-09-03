@@ -10,6 +10,7 @@ access_model:
   - authentication
   - scopes
   - security
+  - '{''url'': ''https://www.spocket.dev'', ''status'': 308, ''note'': ''declared website redirects to https://www.spockethosting.com/ — a different registrable domain (spocket.dev -> spockethosting.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
 agent_readiness:
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Hosted MCP server (Streamable HTTP) with ~20 tools for deploying and managing always-on apps. Uses OAuth 2.1 with PKCE and dynamic client registration; usable by any account holder from Claude Code, C
@@ -196,8 +197,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/screenshots/spocket-2026-09-02T160531.png
 security:

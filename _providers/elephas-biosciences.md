@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The private backend API behind the Elephas Portal, the secure cloud-based web application through which clinicians, laboratories and research partners receive elive test reports and manage specimen re
@@ -206,8 +206,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/screenshots/elephas-biosciences-2026-09-02T145335.png
 security:

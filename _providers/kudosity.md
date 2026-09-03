@@ -33,10 +33,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-09-02'
+  score: 44.4
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -46,22 +46,22 @@ agentic_access:
   summary_line: 57 operations · 42 acting
 api_count: 2
 apis:
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
   description: The Account API from Kudosity — 1 operation(s) for account.
   name: Kudosity Account API
   slug: kudosity-account-api
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
   description: The Contacts & Lists API from Kudosity — 9 operation(s) for contacts & lists.
   name: Kudosity Contacts & Lists API
   slug: kudosity-contacts-lists-api
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
   description: The Email SMS API from Kudosity — 2 operation(s) for email sms.
   name: Kudosity Email SMS API
   slug: kudosity-email-sms-api
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
   description: The Keywords API from Kudosity — 3 operation(s) for keywords.
   name: Kudosity Keywords API
@@ -71,7 +71,7 @@ apis:
   description: The primary method of sending MMS
   name: Kudosity MMS API
   slug: kudosity-mms-api
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
   description: The Numbers API from Kudosity — 4 operation(s) for numbers.
   name: Kudosity Numbers API
@@ -81,7 +81,7 @@ apis:
   description: The RCS API from Kudosity — 3 operation(s) for rcs.
   name: Kudosity RCS API
   slug: kudosity-rcs-api
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
   description: The Reporting API from Kudosity — 11 operation(s) for reporting.
   name: Kudosity Reporting API
@@ -119,6 +119,10 @@ collections:
   name: Transmit SMS API
   slug: postman-kudosity-transmit-sms-openapi-original
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://kudosity.com
 - group: other
   title: ''
   type: CapabilityMap
@@ -319,6 +323,10 @@ common:
   title: ''
   type: SourceCode
   url: https://github.com/kudosity/mcp
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/kudosity-well-known.yml
 created: '2026-07-11'
 description: 'Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, lists, dedicated virtual numbers, keywords, email-to-SMS and all reporting. Both share one account, one set of senders and one bill. Both ship public OpenAPI documents. What makes Kudosity unusual for its size is the agent-native surface layered on top: a hosted MCP server whose tools/list answers without credentials, llms.txt on both the docs and marketing hosts with per-section fan-out, and five published agent integrations — a Claude Code plugin, a GitHub Copilot extension, a Gemini CLI extension, an OpenClaw channel plugin and an SMS GitHub Action — all open source in a public GitHub organization. RCS is in beta; there is no voice product, no sandbox and no idempotency key.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kudosity.png
@@ -330,7 +338,7 @@ mcp_servers:
 - description: ''
   name: Kudosity MCP Server
   slug: kudosity-mcp-server
-modified: '2026-07-27'
+modified: '2026-09-03'
 name: Kudosity
 nav: Providers
 network: true
@@ -340,7 +348,7 @@ overview: 'Kudosity publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Kudosity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 43 more developer resources.'
+  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
 plans:
 - name: Kudosity Plans
   plan_count: 4
@@ -354,7 +362,7 @@ score:
   band: strong
   composite: 59.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -389,8 +397,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:
@@ -426,5 +434,5 @@ tags:
 - Notification
 - Two-Way Messaging
 - Contact Management
-website: https://developers.kudosity.com
+website: https://kudosity.com
 ---

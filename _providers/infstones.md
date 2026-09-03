@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.infstones.com/bsc/mainnet
@@ -41,7 +41,7 @@ apis:
   description: The Bnb Chain API from InfStones — 1 operation(s) for bnb chain.
   name: InfStones Bnb Chain API
   slug: infstones-bnb-chain-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -116,7 +116,7 @@ common:
   url: sandbox/infstones-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/infstones-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +146,6 @@ created: '2026-07-17'
 description: InfStones is an enterprise-grade blockchain infrastructure platform providing node deployment and management, non-custodial staking, and reliable RPC/JSON-RPC API access across 50+ blockchains including Ethereum, BNB Chain, Cosmos, Solana, Cardano, Tezos, TRON, and ZetaChain. Developers connect to hosted full and archive nodes over standard EVM JSON-RPC, Tendermint, and Cosmos gRPC-REST endpoints authenticated by a per-project API key, deploy dedicated validator and staking nodes, and query on-chain data through a single unified developer console. The platform holds SOC 2 Type I and Type II attestation and serves major exchanges, protocols, and institutional clients globally. Backed by Qiming Venture Partners and SoftBank Vision Fund.
 image: https://infstones.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: InfStones MCP Server
-  slug: infstones-mcp-server
 modified: '2026-07-19'
 name: InfStones
 nav: Providers
@@ -187,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/screenshots/infstones-2026-07-25T222427.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 0
@@ -792,7 +792,7 @@ apis:
   description: The VerificationChecks API from Smart Pension — 3 operation(s) for verificationchecks.
   name: Smart Pension Verification Checks API
   slug: smart-pension-verificationchecks-api
-artifact_total: 304
+artifact_total: 303
 collections:
 - collection_type: open
   name: API Collection
@@ -1242,7 +1242,7 @@ common:
   url: capabilities/smart-pension-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smart-pension-mcp.yml
 - group: agent
   title: ''
@@ -1385,10 +1385,6 @@ description: Smart Pension is a UK defined contribution workplace pension master
   for machine-to-machine partners), with three sandboxed environments and self-serve partner registration.
 image: https://cdn.prod.website-files.com/5ce68aba5375cabb8f952335/5d8a243dcd466e77cc8dc3b6_Z-V12-Social-GeneralTile.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Smart Pension MCP Server
-  slug: smart-pension-mcp-server
 modified: '2026-08-05'
 name: Smart Pension
 nav: Providers
@@ -1415,7 +1411,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1425,7 +1421,7 @@ score:
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 52.7
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1436,8 +1432,8 @@ score:
       total: 149
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/screenshots/smart-pension-2026-08-17T081929.png
 security:

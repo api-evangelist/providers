@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: User operations
   name: Door Users API
   slug: door-users-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: packages/door-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/door-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: DOOR (formerly Latch) is a multifamily proptech company providing a smart-building access and building-intelligence platform. It unifies smart locks, readers, intercoms, cameras, thermostats and sensors with software (DOOR OS) for property managers, and integrates with property-management systems such as Yardi, RealPage, Entrata, and AppFolio. DOOR exposes its capabilities to authorized partners through OpenDOOR - a set of REST APIs plus native iOS, Android, and Web SDKs - letting partner apps enumerate buildings, doors, keys, and users and grant, update, or revoke resident access. The API is secured with Auth0-issued JWTs (partner-scoped machine-to-machine and user-scoped passwordless tokens). This profile was enriched by the API Evangelist pipeline from DOOR's public developer hub at developers.door.com.
 image: https://cdn.prod.website-files.com/6838ad705264e74df1653563/683f3efb468620cdf85dd643_door-logo-webclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Door MCP Server
-  slug: door-mcp-server
 modified: '2026-07-18'
 name: Door
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/screenshots/door-2026-07-25T212301.png
 security:

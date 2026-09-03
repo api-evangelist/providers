@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ apis:
   description: The Webhook Subscriptions API from Goodstack — 2 operation(s) for webhook subscriptions.
   name: Goodstack Webhook Subscriptions API
   slug: goodstack-webhook-subscriptions-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Goodstack Webhooks
@@ -251,7 +251,7 @@ common:
   url: llms/goodstack-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/goodstack-mcp.yml
 - group: operate
   title: ''
@@ -341,10 +341,6 @@ created: '2026-07-17'
 description: Goodstack (formerly Percent) is an impact platform whose REST API lets businesses build charitable giving, nonprofit verification, and fund disbursement into their own products. The Goodstack Services API covers monetary donations (direct and via a hosted donation gateway), a global registry of verified nonprofit and educational organisations, organisation name search, eligibility and monitoring subscriptions, agent verifications, validation requests and submissions, Gift Aid declarations, categories, and webhook subscriptions. Goodstack handles the vetting, validation, and timely disbursement of donations to good causes across multiple countries and currencies. The API is organised around REST, uses API-key authentication (publishable pk_ and secret sk_ keys), returns JSON with standard HTTP status codes, and offers a sandbox environment.
 image: https://goodstack.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Goodstack MCP Server
-  slug: goodstack-mcp-server
 modified: '2026-07-19'
 name: Goodstack
 nav: Providers
@@ -392,8 +388,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
 security:

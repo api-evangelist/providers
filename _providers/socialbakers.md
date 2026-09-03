@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -83,7 +87,7 @@ apis:
   description: Managed profiles, labels, label groups, listening queries, ad accounts
   name: Socialbakers Reference API
   slug: socialbakers-reference-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +123,7 @@ common:
   url: agentic-access/socialbakers-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/socialbakers-mcp.yml
 - group: build
   title: ''
@@ -221,10 +225,6 @@ created: '2026-07-17'
 description: Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.
 image: https://base.cdn.emplifi.io/suite/main/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Socialbakers MCP Server
-  slug: socialbakers-mcp-server
 modified: '2026-08-13'
 name: Socialbakers
 nav: Providers
@@ -276,8 +276,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png
 security:

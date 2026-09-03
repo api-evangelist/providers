@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ arazzos:
 - description: Turn raw coordinates into a street address, then list the points of interest surrounding that point.
   name: Google Maps Reverse Geocode a Coordinate and Discover What Is Around It
   slug: google-maps-reverse-geocode-to-nearby-workflow
-artifact_total: 315
+artifact_total: 314
 collections:
 - collection_type: postman
   name: Google Maps Directions Autocomplete API
@@ -281,7 +281,7 @@ common:
   url: well-known/google-maps-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-maps-mcp.yml
 - group: agent
   title: ''
@@ -1106,10 +1106,6 @@ jsonld:
   property_count: 0
   slug: google-maps-places-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Google Maps Platform MCP Server
-  slug: google-maps-platform-mcp-server
 modified: '2026-06-20'
 name: Google Maps Platform
 nav: Providers
@@ -1180,8 +1176,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:

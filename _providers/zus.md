@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: The Zus FHIR Query Service (FQS) is a read-only GraphQL API over the FHIR data model, exposed at a single endpoint. Supports UPID-scoped (one-human) and builder-scoped queries across resource types in
   name: Zus FHIR GraphQL API (FQS)
   slug: zus-fhir-graphql-api-fqs
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Zus Zushooks
@@ -245,7 +245,7 @@ common:
   url: security/zus-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zus-mcp.yml
 - group: design
   title: ''
@@ -309,7 +309,7 @@ common:
   url: security/zus-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zus-mcp.yml
 - group: design
   title: ''
@@ -331,10 +331,6 @@ finops:
   slug: zus-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zus.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zus Health MCP Server
-  slug: zus-health-mcp-server
 modified: '2026-06-21'
 name: Zus Health
 nav: Providers
@@ -390,8 +386,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/screenshots/zus-2026-08-17T083124.png
 security:

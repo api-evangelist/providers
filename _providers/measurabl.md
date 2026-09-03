@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - baseURL: https://api.measurabl.com/core/v0
@@ -159,7 +159,7 @@ apis:
   description: The Waste Meters API from Measurabl — 3 operation(s) for waste meters.
   name: Measurabl Waste Meters API
   slug: measurabl-waste-meters-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: Measurabl Core API
@@ -203,7 +203,7 @@ common:
   url: overlays/measurabl-partners-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/measurabl-mcp.yml
 - group: auth
   title: ''
@@ -334,10 +334,6 @@ description: 'Measurabl is an ESG (environmental, social and governance) data an
   and building-level datasets; and a Partner API for partner-side portfolio, building and monthly utility data access. Every API is OpenAPI 3.0.1, secured with OAuth 2.0 client credentials, and returns JSON:API (application/vnd.api+json) documents.'
 image: https://www.measurabl.com/wp-content/uploads/2019/06/cropped-measurabl_icon-1-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Measurabl MCP Server
-  slug: measurabl-mcp-server
 modified: '2026-08-01'
 name: Measurabl
 nav: Providers
@@ -364,7 +360,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -374,7 +370,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 50.0
+  previous_composite: 51.9
   provenance:
     conformance: derived
     contracts:
@@ -394,8 +390,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the TO THE MARKET store, implementing the Universal Commerce Protocol over a hosted MCP endpoint. Agents can search the catalog, create carts, and run buyer-approved '
@@ -141,8 +141,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/to-the-market/refs/heads/main/screenshots/to-the-market-2026-09-02T163835.png
 security:

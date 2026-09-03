@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -78,7 +78,7 @@ apis:
   description: The Videos API from Mirage — 3 operation(s) for videos.
   name: Mirage Videos API
   slug: mirage-videos-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Mirage Webhooks
@@ -199,7 +199,7 @@ common:
   url: conformance/mirage-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mirage-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: 'Mirage is an AI research company headquartered in New York City that builds Captions, an AI video editor and generator used by more than 20 million creators, small businesses, and enterprises worldwide. The Mirage Video API exposes the company''s state-of-the-art video models over a simple HTTP interface: generate expressive human video from an image and audio (Mirage Video 1), apply styled captions to an existing video, synthesize speech with text-to-speech voices, and render meta text overlays. It is an asynchronous submit-and-poll REST API authenticated with an x-api-key header and priced by usage (per minute of captioning, per second of generated video).'
 image: https://captions.ai/mrkt-static/captions-og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mirage MCP Server
-  slug: mirage-mcp-server
 modified: '2026-07-20'
 name: Mirage
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
 security:

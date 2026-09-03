@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ apis:
   description: Manage user API keys.
   name: nexos.ai User Management API
   slug: nexosai-user-management-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -255,7 +255,7 @@ common:
   url: security/nexosai-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nexosai-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: nexos.ai is an enterprise AI platform and OpenAI-compatible AI gateway that unifies many large language model providers behind a single API key and governed workspace. Its Gateway API exposes chat completions, responses, messages, embeddings, images, audio (speech, transcription, translation), batches, files, and storage, alongside management surfaces for models and fallbacks, teams, users, agents, assistants, companies, API keys, and per-company/team/user budget limits. Organizations get guardrails, observability, smart routing across models, agents (Agent Builder with human-in-the-loop approvals), and integrations with tools like Slack, Atlassian, GitHub, Google Workspace, and Microsoft 365. Founded by the team behind Nord Security and backed by Index Ventures and Creandum. This profile was enriched from the provider's public docs at docs.nexos.ai.
 image: https://nexos.ai/
 layout: provider
-mcp_servers:
-- description: ''
-  name: nexos.ai MCP Server
-  slug: nexosai-mcp-server
 modified: '2026-07-20'
 name: nexos.ai
 nav: Providers
@@ -315,8 +311,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/screenshots/nexosai-2026-08-07T185156.png
 security:

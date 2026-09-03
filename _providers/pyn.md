@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -127,8 +127,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 30.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyn/refs/heads/main/screenshots/pyn-2026-09-02T152357.png
 security:

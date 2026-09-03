@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -88,7 +88,7 @@ apis:
   description: Workspace information
   name: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: Outgoing webhook deliveries from Hopae Connect for the identity verification lifecycle. Every delivery is signed with an HMAC-SHA256 signature in the X-Hopae-Signature header (format `t=<unix-ts>,v1=<
   name: Hopae hConnect Webhooks
@@ -167,7 +167,7 @@ common:
   url: well-known/hopae-inc-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hopae-inc-mcp.yml
 - group: agent
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Hopae, Inc. (Hopae S.A.) is a digital identity infrastructure company that connects verification providers, regulated businesses, and trust service providers to 65+ government-backed electronic IDs (eIDs) worldwide through a single, compliant API. Its flagship product, hConnect, is a unified global eID verification hub exposing an OIDC OpenID Provider surface plus a REST API for provider discovery and the verification lifecycle. Hopae also ships an accredited eIDAS 2.0 wallet SDK, authored the widely used SD-JWT / SD-JWT-VC reference implementation (donated to the OpenWallet Foundation), and builds around open standards including eIDAS 2.0, mDL, SD-JWT, and W3C Verifiable Credentials. The platform is developer-first with sandbox and production environments, HMAC-signed webhooks, and a published SOC 2 / ISO 27001 / GDPR compliance posture.
 image: https://framerusercontent.com/assets/JDrpQK9QXlyYCuykjUrR228U2M.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hopae, Inc. MCP Server
-  slug: hopae-inc-mcp-server
 modified: '2026-07-19'
 name: Hopae, Inc.
 nav: Providers
@@ -315,8 +311,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
 security:

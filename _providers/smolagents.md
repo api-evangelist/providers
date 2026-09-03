@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The core smolagents Python library providing CodeAgent and ToolCallingAgent classes for building AI agents that write Python code or structured JSON to call tools and orchestrate multi-agent systems. '
@@ -192,8 +192,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 38.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smolagents/refs/heads/main/screenshots/smolagents-2026-06-20T194059.png
 security:

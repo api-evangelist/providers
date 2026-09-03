@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Core REST API for managing Tenderly projects including smart contract simulations, alerts, Web3 Actions, contract management, wallet tracking, and virtual test environments.
@@ -172,8 +172,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 32.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenderly/refs/heads/main/screenshots/tenderly-2026-06-20T195106.png
 security:

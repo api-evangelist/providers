@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -138,7 +138,7 @@ apis:
   description: The Workspaces API from Oxen — 5 operation(s) for workspaces.
   name: Oxen Workspaces API
   slug: oxen-workspaces-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -311,7 +311,7 @@ common:
   url: data-model/oxen-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oxen-mcp.yml
 - group: agent
   title: ''
@@ -325,10 +325,6 @@ created: '2026-07-17'
 description: Oxen.ai is a blazing-fast data version control system and AI platform for teams building with their own data. Its open-source Rust core (liboxen) versions, branches, and shares terabyte-scale datasets, model weights, and experiments without Git's large-file limits. On top of the version control layer, Oxen.ai offers a unified, OpenAI-compatible inference API across 200+ text, image, video, and audio models, plus a fine-tuning API for training and deploying custom LLMs, vision-language, image, and video models. Developers work through a Python SDK (oxenai), a command-line tool (oxen), and an HTTP API for repository management, workspaces, data-frame diffing, generation queues, and model deployment.
 image: https://github.com/Oxen-AI.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oxen MCP Server
-  slug: oxen-mcp-server
 modified: '2026-07-20'
 name: Oxen
 nav: Providers
@@ -367,8 +363,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:

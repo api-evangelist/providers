@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: wss://highrise.game/web/botapi
@@ -69,7 +69,7 @@ apis:
   description: The users API from Highrise — 2 operation(s) for users.
   name: Highrise users API
   slug: highrise-users-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: Event surface of the Highrise Bot API, generated faithfully from the official highrise-bot-sdk event model (github.com/pocketzworld/python-bot-sdk, src/highrise/models.py). Bots open a single WebSocke
   name: Highrise Bot API — Event Surface
@@ -180,7 +180,7 @@ common:
   url: changelog/highrise-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/highrise-mcp.yml
 - group: agent
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable bots inside rooms (official Python and .NET SDKs), a read-only REST Web API exposing public users, rooms, posts, items and grabs data, and Highrise Studio with an Engine API and Cloud API for scripting worlds and games in Lua. Bots authenticate with an API token minted from the Highrise account settings and are bound to a room ID.'
 image: https://highrise.game/assets/images/highrise-meta.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Highrise MCP Server
-  slug: highrise-mcp-server
 modified: '2026-07-19'
 name: Highrise
 nav: Providers
@@ -254,8 +250,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/screenshots/highrise-2026-07-25T221206.png
 security:

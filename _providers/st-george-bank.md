@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: St.George Bank Banking Products API
   slug: st-george-bank-banking-products-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -183,7 +183,7 @@ common:
   url: data-model/st-george-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/st-george-bank-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-20'
 description: St.George Bank is one of Australia's largest retail and business banks and a division of Westpac Banking Corporation (ASX:WBC), one of the country's "Big Four" banks. Originally a New South Wales building society that grew into an independent ADI, St.George merged into the Westpac Group in 2008 and today operates as a Westpac brand alongside BankSA, Bank of Melbourne and RAMS. As an authorised deposit-taking institution it is a designated Data Holder under Australia's Consumer Data Right (CDR / Open Banking), and therefore exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, alongside the consented, ADR-gated CDR data-sharing APIs. St.George does not operate a broad public developer portal beyond its CDR Open Banking surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/st-george-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: St.George Bank MCP Server
-  slug: stgeorge-bank-mcp-server
 modified: '2026-07-21'
 name: St.George Bank
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/screenshots/st-george-bank-2026-07-21T114749.png
 security:

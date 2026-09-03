@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -149,7 +149,28 @@ apis:
   description: The Workflows API from Agno — 5 operation(s) for workflows.
   name: Agno Workflows API
   slug: agno-workflows-api
-artifact_total: 64
+- description: Run and manage individual agents.
+  name: Agno Agents API
+  slug: agno-agi-agents-api
+- description: Evaluation runs for quality and reliability.
+  name: Agno Evals API
+  slug: agno-agi-evals-api
+- description: Knowledge base content used for retrieval.
+  name: Agno Knowledge API
+  slug: agno-agi-knowledge-api
+- description: Persistent per-user memories.
+  name: Agno Memory API
+  slug: agno-agi-memory-api
+- description: Conversation history and state for agents, teams, and workflows.
+  name: Agno Sessions API
+  slug: agno-agi-sessions-api
+- description: Run and manage teams of agents.
+  name: Agno Teams API
+  slug: agno-agi-teams-api
+- description: Run and manage multi-step workflows.
+  name: Agno Workflows API
+  slug: agno-agi-workflows-api
+artifact_total: 71
 collections:
 - collection_type: open
   name: API Collection
@@ -286,6 +307,10 @@ common:
   title: ''
   type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/examples/agno-agentos-api-examples.json
+- group: company
+  title: ''
+  type: Blog
+  url: https://agno.com/blog
 created: '2026-06-12'
 description: Agno (formerly Phidata) is a high-performance open-source Python framework for building multi-modal, multi-agent systems with memory, knowledge, tools, and reasoning capabilities. It provides both an agent development SDK and AgentOS, a production runtime that transforms agents into managed APIs with 50+ endpoints for runs, sessions, memory, knowledge, traces, evaluations, and scheduling. AgentOS supports RBAC, per-user session isolation, streaming via Server-Sent Events, background execution, and human-in-the-loop approval flows. The platform supports 30+ LLM providers and can be deployed on AWS, GCP, Railway, or air-gapped environments with data remaining in the customer's cloud.
 examples:
@@ -344,13 +369,13 @@ modified: '2026-06-12'
 name: Agno
 nav: Providers
 network: true
-overview: 'Agno publishes 21 APIs on the [APIs.io](https://apis.io/) network, including A2A API, Agents API, AGUI API, and 18 more. Tagged areas include AI Agents, Multi-Agent Systems, Python Framework, LLM, and Machine-Learning.
+overview: 'Agno publishes 28 APIs on the [APIs.io](https://apis.io/) network, including A2A API, Agents API, AGUI API, and 25 more. Tagged areas include AI Agents, Multi-Agent Systems, Python Framework, LLM, and Machine-Learning.
 
 
   The Agno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Agno''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, code examples, and 11 more developer resources.'
+  Agno''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, code examples, and 12 more developer resources.'
 plans:
 - name: Agno Plans Pricing
   plan_count: 3
@@ -373,20 +398,20 @@ rules:
   slug: agno-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 49.9
   coverage:
     artifact_dirs: 15
-    catalog_gap: 31.8
+    catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 69.4
-    developer_ergonomics: 23.8
-    discoverability: 68.5
+    developer_ergonomics: 35.7
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 50.0
   previous_composite: 48.5
@@ -397,8 +422,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/screenshots/agno-2026-06-20T170338.png
 security:

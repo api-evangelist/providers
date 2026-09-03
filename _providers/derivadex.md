@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://exchange.derivadex.com
@@ -51,7 +51,7 @@ apis:
   description: Health, server time, and exchange configuration
   name: DerivaDEX System API
   slug: derivadex-system-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -128,7 +128,7 @@ common:
   url: data-model/derivadex-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/derivadex-mcp.yml
 - group: design
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: DerivaDEX is a decentralized cryptocurrency derivatives exchange for perpetual swaps, governed from day one by the DerivaDAO and its DDX token. It aims to pair the performance and usability of a centralized exchange with the custody and transparency of DeFi, using on-chain settlement, an insurance fund, trade mining, and a checkpointed price feed. DerivaDEX publishes a public REST API (exchange system and market-data endpoints plus protocol/stats aggregations) documented at docs.derivadex.io and exchange.derivadex.com/api-docs, an Authenticated REST API and a Realtime API, an on-chain explorer, and a governance app. Mainnet runs as a limited-access pilot on Ethereum with a public Sepolia testnet, and the exchange is licensed by the Bermuda Monetary Authority. Backed by Polychain Capital.
 image: https://exchange.derivadex.com/icons/512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: DerivaDEX MCP Server
-  slug: derivadex-mcp-server
 modified: '2026-07-18'
 name: DerivaDEX
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

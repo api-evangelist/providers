@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -83,8 +83,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Fat Zebra",
@@ -104,8 +104,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -157,8 +157,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -193,59 +193,6 @@
      "rank": 3
     },
     {
-     "name": "Zai",
-     "slug": "zai",
-     "description": "Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia's New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer for the Australian market and platforms operating there.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png",
-     "score": 55.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 64.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 22.4,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 81.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 4
-    },
-    {
      "name": "Weel",
      "slug": "weel",
      "description": "Weel (formerly DiviPay, operated by Weel Pty Ltd) is a Melbourne-based all-in-one spend management platform for finance teams in Australia and New Zealand, serving over 4,000 finance teams and 60,000+ card holders. Weel issues virtual and physical Visa debit cards with real-time limits and controls, and layers accounts payable automation, expense management, reimbursements, subscription management, budgets, and approval policies on top. Rather than operating payment rails directly, Weel sits on the spend and AP/AR seam, syncing approved spend into Xero, QuickBooks, MYOB, and NetSuite. On the API posture, Weel ships a genuine public developer portal at developer.letsweel.com (Redocly-based) documenting a single RESTful \"Weel Open API\" that both reads and writes budgets, users, transactions, custom fields, accounting codes, categories, invites, and top-ups, authenticated with a bearer API key generated in-app. API access is an Enterprise-tier capability. No public webhooks, Postman collection, or OAuth flow are documented as of this review.",
@@ -263,8 +210,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -296,7 +243,7 @@
       "agentic_commerce": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 5
+     "rank": 4
     }
    ],
    "open": true
@@ -306,9 +253,62 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
+    {
+     "name": "Zai",
+     "slug": "zai",
+     "description": "Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia's New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer for the Australian market and platforms operating there.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png",
+     "score": 54.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 64.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 22.4,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 81.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Open Banking & A2A Payments",
+     "rank": 5
+    },
     {
      "name": "Pinch Payments",
      "slug": "pinch-payments",
@@ -327,8 +327,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -380,8 +380,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -433,8 +433,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -486,8 +486,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -539,8 +539,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -602,8 +602,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -662,8 +662,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -715,8 +715,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -768,8 +768,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -821,8 +821,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -874,8 +874,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -937,8 +937,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -990,8 +990,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1043,8 +1043,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1096,8 +1096,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

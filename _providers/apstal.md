@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -240,8 +240,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:

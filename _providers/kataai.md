@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.kata.ai
@@ -85,7 +85,7 @@ arazzos:
 - description: Log in, create a project, push a bot revision, cut a deployment version, and bind an environment.
   name: Build and deploy a Kata.ai bot
   slug: kataai-build-and-deploy-bot
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -200,7 +200,7 @@ common:
   url: security/kataai-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kataai-mcp.yml
 - group: agent
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: Kata.ai is an Indonesian enterprise conversational-AI company that builds AI agents and chatbots for customer experience, marketing, sales, and HR across financial services, retail, healthcare, automotive, and government. Its developer-facing Kata Platform lets teams create bot projects that bundle a Bot, CMS, and a Natural Language Understanding (NLU) model, then deploy them and connect messaging channels such as LINE, Telegram, WhatsApp, Facebook Messenger, Slack, and Qiscus. Kata.ai exposes a public REST API for managing projects, bots, deployments, environments, channels, teams, and NLUs, an NL Prediction API for entity extraction from a trained model, the kata command line tool, and the Aksara design system. Backed by 500 Global.
 image: https://kata.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kata.ai MCP Server
-  slug: kataai-mcp-server
 modified: '2026-07-19'
 name: Kata.ai
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:

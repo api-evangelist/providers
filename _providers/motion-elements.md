@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Search the marketplace across media types.
   name: Motion Elements Search API
   slug: motion-elements-search-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ common:
   url: lifecycle/motion-elements-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/motion-elements-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: 'MotionElements is a global creative-asset marketplace and AI production platform offering an unlimited-download subscription catalog of 26M+ royalty-free assets: stock video, music, sound effects, motion and editing templates (After Effects, Premiere Pro, Final Cut / Apple Motion, DaVinci Resolve, .mogrt), photos, vectors, GIFs and Lottie animations, plus Studio AI generative tools. Its Marketplace API v2 lets platforms search, retrieve, license and download from the catalog using HTTP Basic authentication (API secret key as username) over HTTPS.'
 image: https://static.moele.me/img/motionelements-og-en.220830.jpg
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the MotionElements Marketplace API v2. Tools derived one-per-operation from the harvested OpenAPI. No official hosted MCP server was found; this is a proposed tool surface.
-  name: Motion Elements MCP Server
-  slug: motion-elements-mcp-server
 modified: '2026-07-20'
 name: Motion Elements
 nav: Providers
@@ -223,8 +219,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/screenshots/motion-elements-2026-08-07T184326.png
 security:

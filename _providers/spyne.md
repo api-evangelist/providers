@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Spyne Unified API accepts vehicle images and video (by SKU / VIN / stock number) and returns AI-transformed studio images, background replacement, 360-degree spins, and feature videos, plus image '
   name: Spyne Unified API
   slug: spyne-unified-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Spyne Webhooks
@@ -83,7 +83,7 @@ common:
   url: asyncapi/spyne-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spyne-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Spyne is an AI platform for automotive retail that helps car dealerships and marketplaces produce studio-grade vehicle visuals and merchandising at scale. Its Unified API and mobile SDKs let developers submit raw vehicle images and video and receive AI-transformed studio images, background replacement, 360-degree spins, feature videos, and automated image classification and QC. Processing is asynchronous - jobs are submitted per SKU/VIN and results are delivered via polling endpoints or signed webhook callbacks. Spyne also offers conversational AI agents for dealership sourcing, listing, marketing, and selling vehicles faster.
 image: https://d20uiuzezo3er4.cloudfront.net/AI-tools/ai-tools-landing-360/logo+spyne.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spyne MCP Server
-  slug: spyne-mcp-server
 modified: '2026-07-21'
 name: Spyne
 nav: Providers
@@ -192,8 +188,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/screenshots/spyne-2026-08-17T082052.png
 security:

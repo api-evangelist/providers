@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.openworklabs.com
@@ -514,13 +514,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.9
+  composite: 47.7
   coverage:
     artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -530,9 +530,6 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 52.9
   provenance:
     conformance: derived
@@ -543,9 +540,9 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/screenshots/openwork-2026-08-17T124245.png
 security:
 - kind: authentication

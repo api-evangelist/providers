@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -1593,8 +1593,8 @@ score:
       marker_coverage: 0.0
       total: 78
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

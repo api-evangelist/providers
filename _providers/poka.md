@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful Poka API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning. Developer/API documentation is delivered per-tenant (behind
@@ -142,8 +142,8 @@ score:
   previous_composite: 14.0
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/screenshots/poka-2026-09-02T151636.png
 security:

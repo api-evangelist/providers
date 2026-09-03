@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Gamelocker backend (gamelocker.unruly-studios.com) is a self-hosted GitLab instance that stores each learner''s coding "profiles" and game files as GitLab projects and repository files. It exposes '
   name: Unruly Gamelocker API
   slug: unruly-gamelocker-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -95,7 +95,7 @@ common:
   url: well-known/unruly-studios-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unruly-studios-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +109,6 @@ created: '2026-07-17'
 description: Unruly Studios makes Unruly Splats, programmable stompable floor buttons that teach children to code through active, physical STEM play. Students use a tablet or computer app to program Splats to light up, make sounds, and score points, building games, dance competitions, and math activities they play together in classrooms and gyms. Founded in 2015 in Boston by Bryanne Leeming and backed by Techstars, the Amazon Alexa Fund, AT&T, eCoast Angels, and LearnLaunch. Unruly's only machine API surface is an internal "Gamelocker" project store, a self-hosted GitLab instance that saves kids' coding projects as GitLab repositories and exposes GitLab's OAuth 2.0 / OpenID Connect and v4 REST API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unruly-studios.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unruly Studios MCP Server
-  slug: unruly-studios-mcp-server
 modified: '2026-07-21'
 name: Unruly Studios
 nav: Providers
@@ -154,8 +150,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unruly-studios/refs/heads/main/screenshots/unruly-studios-2026-09-02T164953.png
 security:

@@ -35,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Paysend Enterprise's single Payout API disburses funds worldwide to cards and bank accounts through the Paysend payments network. A multi-task POST /processing endpoint carries operations including pa
   name: Paysend Enterprise Payout API
   slug: paysend-enterprise-payout-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Paysend Webhooks
@@ -125,7 +125,7 @@ common:
   url: conformance/paysend-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paysend-mcp.yml
 - group: agent
   title: ''
@@ -136,10 +136,6 @@ description: 'Paysend is a London-headquartered global fintech, founded in 2017,
   on a Docusaurus developer portal with a sandbox mock service, but does not publish a downloadable OpenAPI/Swagger definition or a public base URL.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paysend MCP Server
-  slug: paysend-mcp-server
 modified: '2026-07-24'
 name: Paysend
 nav: Providers
@@ -186,8 +182,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysend/refs/heads/main/screenshots/paysend-2026-08-07T191655.png
 security:

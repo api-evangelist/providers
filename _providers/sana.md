@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.sana.ai
@@ -86,7 +86,7 @@ apis:
   description: The xAPI API from Sana — 1 operation(s) for xapi.
   name: Sana xAPI API
   slug: sana-xapi-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Sana Events Webhooks
@@ -204,7 +204,7 @@ common:
   url: asyncapi/sana-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sana-mcp.yml
 - group: agent
   title: ''
@@ -222,10 +222,6 @@ created: '2026-07-17'
 description: 'Sana is an enterprise AI platform, now part of Workday, offering two products: Sana, an AI knowledge and agent workspace that automates tasks, answers questions, and generates documents across a company''s connected applications; and Sana Learn, an AI-native learning platform combining LMS, LXP, authoring, and virtual classroom capabilities. Sana exposes a secure REST API (users, groups, programs, assignments, courses, paths, teamspaces, reporting and Insights, and xAPI statements), served per tenant at https://<domain>.sana.ai and authenticated with OAuth 2.0 client credentials using read/write scopes. It also provides SCIM 2.0 user provisioning, SAML/OIDC single sign-on, and real-time xAPI webhook events. Sana is ISO 27001, SOC 2, and GDPR compliant and runs on Google Cloud. Originally surfaced as a portfolio company of NEA.'
 image: https://www.sanalabs.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sana MCP Server
-  slug: sana-mcp-server
 modified: '2026-07-21'
 name: Sana
 nav: Providers
@@ -281,8 +277,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/screenshots/sana-2026-08-17T081718.png
 security:

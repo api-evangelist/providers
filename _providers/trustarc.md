@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 17
@@ -317,6 +317,10 @@ asyncapis:
   name: Trustarc Webhooks
   slug: trustarc-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trustarc-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -565,7 +569,7 @@ overview: 'TrustArc publishes 50 APIs on the [APIs.io](https://apis.io/) network
   The TrustArc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TrustArc''s developer surface includes authentication, GitHub presence, changelog, sandbox, documentation, API reference, getting-started guide, and 51 more developer resources.'
+  TrustArc''s developer surface includes authentication, GitHub presence, changelog, sandbox, documentation, API reference, getting-started guide, and 52 more developer resources.'
 plans:
 - name: Trustarc Plans Pricing
   plan_count: 0
@@ -584,11 +588,11 @@ score:
   band: developing
   composite: 45.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -598,7 +602,7 @@ score:
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 44.8
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -609,8 +613,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/screenshots/trustarc-2026-06-20T195803.png
 security:

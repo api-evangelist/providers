@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
   description: Manage users
   name: Malt SCIM API
   slug: malt-scim-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: other
   title: ''
@@ -194,7 +194,7 @@ common:
   url: rate-limits/malt-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/malt-mcp.yml
 - group: build
   title: ''
@@ -236,10 +236,6 @@ created: '2026-08-17'
 description: 'Malt is a European freelance marketplace and Freelance Management System (FMS) founded in 2013 in Paris by Vincent Huguet and Hugo Lassiege, connecting more than a million independent consultants across tech, data, AI, design, marketing and management with enterprise buyers. Beyond matching, the platform handles the administrative spine of freelance engagement: quotes, automated contracts and NDAs, timesheets, invoicing, insured payments and compliance checks, plus an enterprise tier that consolidates an existing freelance roster (Malt Open) and plugs into 85+ ERP, procurement and HR systems including SAP Fieldglass, Coupa and Workday. Malt publishes a small, credential-gated public API surface at api.malt.com documented with Stoplight Elements: a freelancer billing API (invoices, service charge invoices, payments, invoice PDFs) and a SCIM 2.0 user-provisioning endpoint for enterprise identity lifecycle management.'
 image: https://dam.malt.com/rebranding2020/malt-logo/malt-brew-only
 layout: provider
-mcp_servers:
-- description: ''
-  name: Malt MCP Server
-  slug: malt-mcp-server
 modified: '2026-08-17'
 name: Malt
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/screenshots/malt-2026-09-02T150425.png
 security:

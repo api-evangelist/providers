@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://secure.splitwise.com/api/v3.0
@@ -258,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitwise/refs/heads/main/screenshots/splitwise-2026-08-17T082029.png
 security:

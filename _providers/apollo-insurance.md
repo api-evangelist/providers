@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: The Quote API from APOLLO Insurance — 1 operation(s) for quote.
   name: APOLLO Insurance Quote API
   slug: apollo-insurance-quote-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Apollo Insurance Covertrack Webhooks
@@ -103,7 +103,7 @@ common:
   url: llms/apollo-insurance-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apollo-insurance-mcp.yml
 - group: build
   title: ''
@@ -278,10 +278,6 @@ description: 'APOLLO Insurance (APOLLO Insurance Agency Ltd., apollocover.com) i
   product. Unusually for the Canadian insurance sector, APOLLO publishes a genuine, publicly readable developer portal at docs.apollocover.com — a Stoplight workspace with three public projects and downloadable OpenAPI definitions covering quote and application (pre-fill) for tenant insurance and compliance-status lookup for partner properties. The surface is real but partner-scoped: every call needs an affiliateId (a co-branded APOLLO subdomain) and an x-api-key token that APOLLO issues by hand to affiliates and property-manager partners, so there is no self-serve credential path and no consumer-facing API. Canada has no open-insurance mandate — OSFI supervises prudentially, the provinces (FSRA, AMF) supervise market conduct, and Consumer-Driven Banking excludes insurance entirely — so nothing forces this disclosure; APOLLO published it as a distribution strategy. No ACORD, AL3, IVANS or agency-management-system reference appears anywhere in its public site or documentation.'
 image: https://platform-assets.apollocover.com/apollo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: APOLLO Insurance MCP Server
-  slug: apollo-insurance-mcp-server
 modified: '2026-07-25'
 name: APOLLO Insurance
 nav: Providers
@@ -329,8 +325,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.yubico.com/wsapi/2.0
@@ -41,7 +41,7 @@ apis:
   description: Yubico OTP validation operations.
   name: Yubico Validation API
   slug: yubico-validation-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -124,7 +124,7 @@ common:
   url: cli/yubico-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yubico-mcp.yml
 - group: agent
   title: ''
@@ -186,10 +186,6 @@ created: '2026-07-17'
 description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via a signed HTTPS request to api.yubico.com, alongside a broad set of first-party SDKs and libraries for WebAuthn/FIDO2, PIV smart cards, OATH, OTP, and the YubiHSM 2 across Python, .NET, Java, Android, iOS, and C, plus the ykman command-line tool. Yubico co-authored the FIDO U2F standard, ships FIPS 140-3 validated keys, and holds a SOC 2 Type 2 attestation for its enterprise services.
 image: https://www.yubico.com/wp-content/uploads/2021/02/Yubico-Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Yubico MCP Server
-  slug: yubico-mcp-server
 modified: '2026-07-21'
 name: Yubico
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/screenshots/yubico-2026-08-17T083021.png
 security:

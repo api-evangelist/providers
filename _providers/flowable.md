@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 4
@@ -364,7 +364,28 @@ apis:
   description: The Users API from Flowable — 20 operation(s) for users.
   name: Flowable Users API
   slug: flowable-users-api
-artifact_total: 150
+- description: 'Flowable also ships a packaged REST API webapp that exposes the Process Engine services over HTTP. The REST API covers process definitions and deployments, process instances and variables, user tasks '
+  name: Flowable REST API
+  slug: rest-api
+- description: The CMMN API from Flowable — 4 operation(s) for cmmn.
+  name: Flowable CMMN API
+  slug: flowable-api-cmmn-api
+- description: The Deployments API from Flowable — 3 operation(s) for deployments.
+  name: Flowable Deployments API
+  slug: flowable-api-deployments-api
+- description: The Models API from Flowable — 1 operation(s) for models.
+  name: Flowable Models API
+  slug: flowable-api-models-api
+- description: The ProcessDefinitions API from Flowable — 2 operation(s) for processdefinitions.
+  name: Flowable ProcessDefinitions API
+  slug: flowable-api-processdefinitions-api
+- description: The ProcessInstances API from Flowable — 1 operation(s) for processinstances.
+  name: Flowable ProcessInstances API
+  slug: flowable-api-processinstances-api
+- description: The Tasks API from Flowable — 2 operation(s) for tasks.
+  name: Flowable Tasks API
+  slug: flowable-api-tasks-api
+artifact_total: 157
 collections:
 - collection_type: open
   name: API Collection
@@ -658,6 +679,10 @@ common:
   title: ''
   type: FinOps
   url: finops/flowable-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.flowable.org/
 created: '2026-06-13'
 description: Flowable is an open-source BPM and workflow engine with rich REST APIs for deploying process definitions, starting process instances, managing tasks, querying workflow state, and orchestrating AI agents, people, and processes together. It provides BPMN, CMMN, and DMN automation engines via Java and REST APIs, with enterprise offerings for regulated industries.
 examples:
@@ -713,13 +738,13 @@ modified: '2026-06-13'
 name: Flowable
 nav: Providers
 network: true
-overview: 'Flowable publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Accounts API, Acquire and Execute API, and 61 more. Tagged areas include BPM, Business Process Management, Workflows, BPMN, and CMMN.
+overview: 'Flowable publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Accounts API, Acquire and Execute API, and 67 more. Tagged areas include BPM, Business Process Management, Workflows, BPMN, and CMMN.
 
 
   The Flowable catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Flowable''s developer surface includes authentication, documentation, engineering blog, pricing, and 20 more developer resources.'
+  Flowable''s developer surface includes authentication, documentation, engineering blog, pricing, and 21 more developer resources.'
 plans:
 - name: Flowable Plans Pricing
   plan_count: 3
@@ -769,8 +794,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 64
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/screenshots/flowable-2026-06-20T181326.png
 security:

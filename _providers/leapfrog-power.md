@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -100,7 +100,7 @@ apis:
   description: The webhooks API from Leap — 3 operation(s) for webhooks.
   name: Leap Webhooks API
   slug: leapfrog-power-webhooks-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: API Evangelist DERIVED AsyncAPI rendering of Leap's published webhook surface. Leap does not publish an AsyncAPI document; this document was derived from the public event catalog and the published exa
   name: Leap Webhook Events
@@ -213,7 +213,7 @@ common:
   url: well-known/leapfrog-power-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leapfrog-power-mcp.yml
 - group: agent
   title: ''
@@ -307,10 +307,6 @@ created: '2026-07-27'
 description: Leap (Leapfrog Power, Inc.) is a San Francisco based energy software company whose primary domain leap.ac 301-redirects to www.leap.energy. Leap sits in the private, unmandated layer of the United States energy stack — between distributed energy resources and the wholesale markets — letting technology brands build and scale virtual power plants without owning market access. Its software-only platform aggregates residential and commercial battery storage, smart thermostats, heat pumps, HVAC and EV charging, registers those assets into CAISO, NYISO, PJM and utility demand response programs, and settles the revenue back to the partner. Leap publishes a genuinely open developer portal at developer.leap.energy with eight anonymously downloadable OpenAPI definitions covering meter creation, enrollment and idle periods, meter details, market nominations, dispatch, webhooks, interval data upload and revenue and analytics. Its API posture is open documentation over a closed door — every
   specification and guide can be read without an account, but no key can be self-issued — keys are created only inside a Leap-provisioned partner account and prospective partners are told to contact an account manager or partners@leap.ac. No data-sharing mandate applies to Leap. It is not a utility, not a retailer and not a designated data holder anywhere; it is a downstream recipient of consumer data that California's investor-owned utilities are compelled to share, integrating PG&E, SCE and SDG&E through their Share My Data authorization flow. Leap's documentation never names Green Button, ESPI, OpenADR, IEEE 2030.5, OCPP or CIM. Consumer usage and settlement data are reachable through the API but only for a partner's own consented, enrolled meters, and Leap publishes no open grid or market data at all.
 layout: provider
-mcp_servers:
-- description: ''
-  name: Leap MCP Server
-  slug: leap-mcp-server
 modified: '2026-07-27'
 name: Leap
 nav: Providers
@@ -358,8 +354,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

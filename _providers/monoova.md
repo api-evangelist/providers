@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -200,7 +200,7 @@ apis:
   description: <h3> Overview </h3> <p> This feature enables whitelisting of bank accounts when receiving funds in automatcher accounts. Funds received from a non-whitelisted account will be automatically returned. U
   name: Monoova Whitelisting for Automatcher (Bank Account Receivables) API
   slug: monoova-whitelisting-for-automatcher-bank-account-receivables-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Monoova Webhooks
@@ -216,6 +216,10 @@ collections:
   name: Monoova PayTo API
   slug: open-monoova-payto
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monoova-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -318,7 +322,7 @@ common:
   url: lifecycle/monoova-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/monoova-mcp.yml
 - group: build
   title: ''
@@ -372,10 +376,6 @@ created: '2026-07-24'
 description: 'Monoova is an Australian payments platform that lets businesses receive, manage, and pay funds in AUD across every domestic rail through a single set of RESTful JSON APIs. Operated by Monoova Global Payments Pty Ltd (AFSL 421414) and enrolled with AUSTRAC, it connects directly to the New Payments Platform (real-time account-to-account transfers via NPP/Osko, PayID addressing, and PayTo mandated debits) alongside BPAY, direct entry (credit/debit), card acquiring, and Apple Pay / Google Pay. Its Automatcher reconciliation engine, virtual mAccount/mWallet hierarchies, Confirmation of Payee, account verification, payment tokenisation, and webhook-driven reporting target fintechs, marketplaces, payroll, lending, remittance, and SaaS businesses (customers include Wise, Nium, Finder, and Sharesies). Monoova is genuinely API-first: it ships a public developer portal, a Redoc API reference, downloadable OpenAPI specifications, and a public Postman workspace, plus a free self-serve sandbox.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Monoova MCP Server
-  slug: monoova-mcp-server
 modified: '2026-07-24'
 name: Monoova
 nav: Providers
@@ -386,13 +386,13 @@ overview: 'Monoova publishes 31 APIs on the [APIs.io](https://apis.io/) network,
   The Monoova catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 31 more developer resources.'
+  Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 32 more developer resources.'
 random_paper: 11
 score:
   band: developing
   composite: 53.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -423,8 +423,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/screenshots/monoova-2026-08-07T184216.png
 security:

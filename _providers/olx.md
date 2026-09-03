@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth2 partner API for OLX Poland (olx.pl) that lets integrators manage classified adverts (list, create, update), read category attributes, and read delivery settings. Bearer-token authenticated; OLX
   name: OLX Poland Partner API
   slug: olx-poland-partner-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -87,7 +87,7 @@ common:
   url: conventions/olx-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/olx-mcp.yml
 - group: agent
   title: ''
@@ -97,10 +97,6 @@ created: '2026-07-17'
 description: OLX is a global online classifieds and marketplace operator, part of OLX Group (owned by Prosus / Naspers), running consumer buy-and-sell marketplaces across 30+ countries under 20+ brands including OLX Poland (olx.pl), OLX Brazil (olx.com.br), OLX Portugal, OLX Bulgaria and OLX Romania, spanning general classifieds, motors/autos, and real estate. OLX Poland publishes a public Partner API (OAuth2) that lets integrators and sellers manage adverts, categories/attributes, and delivery settings programmatically. Surfaced as a portfolio company of Bessemer Venture Partners and General Catalyst and enriched into the API Evangelist network.
 image: https://www.olx.pl/app/static/media/olx-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: OLX MCP Server
-  slug: olx-mcp-server
 modified: '2026-07-20'
 name: OLX
 nav: Providers
@@ -131,8 +127,8 @@ score:
   previous_composite: 15.9
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olx/refs/heads/main/screenshots/olx-2026-08-07T190129.png
 security:

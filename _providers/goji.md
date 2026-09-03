@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Goji Platform API for private-markets investing: create and KYC/KYB investors, open and administer IF ISAs, move funds via investor and manager payment APIs, settle debt and equity investments, ma'
   name: Goji Platform API
   slug: goji-platform-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Goji Webhooks
@@ -111,7 +111,7 @@ common:
   url: asyncapi/goji-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/goji-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Goji is a private-fund digitisation platform, part of the Euroclear group and regulated by the UK Financial Conduct Authority. Founded in 2015 and backed by Anthemis, Goji provides end-to-end infrastructure for asset managers, fund administrators and distributors to digitise access to private markets -- investor onboarding, KYC/KYB and AML, ISA administration, payments, and debt and equity settlement. Its Platform API exposes investor, payment, settlement, bond and ISA operations over HTTPS with HMAC-signed requests and a webhook event stream, letting distributors offer investors a fully digital investment journey into private market funds.
 image: https://goji.investments/hubfs/Goji%20favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Goji MCP Server
-  slug: goji-mcp-server
 modified: '2026-07-19'
 name: Goji
 nav: Providers
@@ -182,8 +178,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goji/refs/heads/main/screenshots/goji-2026-07-25T220023.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Extend''s REST API for product and shipping protection: manage offers, contracts, orders and line items, refunds, claims, service orders, and leads. Header-based date versioning; OAuth2 client-credenti'
   name: Extend API
   slug: extend-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Extend Webhooks
@@ -119,7 +119,7 @@ common:
   url: well-known/extend-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/extend-mcp.yml
 - group: design
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Extend is a product and shipping protection platform for merchants and ecommerce brands. Its API lets merchants surface extended-warranty and shipping-protection offers at checkout and post-purchase, create and manage protection contracts, process orders and line items, file and track claims, and manage service orders, refunds, and leads. Extend provides separate demo (sandbox) and production environments, header-based date versioning, OAuth2 client-credentials authentication with short-lived access tokens, idempotency keys on writes, and webhooks for claim and service-order status changes, alongside client-side SDKs and prebuilt commerce-platform integrations for Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud.
 image: https://avatars.githubusercontent.com/u/46018312?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Extend MCP Server
-  slug: extend-mcp-server
 modified: '2026-07-19'
 name: Extend
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png
 security:

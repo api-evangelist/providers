@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ apis:
   description: Webhooks notify your systems the moment something happens in Reonic. For example when a project is created or an offer is signed. Instead of repeatedly polling the API for changes, you give Reonic a U
   name: Reonic Webhooks API
   slug: reonic-webhooks-api
-artifact_total: 66
+artifact_total: 65
 asyncapis:
 - description: Event surface for the Reonic REST API v3. Reonic POSTs a signed JSON body (HMAC SHA-256, X-Reonic-Signature) to your configured HTTPS endpoint when a selected event occurs. Payloads are thin (ids only
   name: Reonic Webhooks
@@ -295,6 +295,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/reonic-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/reonic-v3-overlay.yaml
 - group: start
@@ -379,7 +383,7 @@ common:
   url: asyncapi/reonic-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reonic-mcp.yml
 - group: agent
   title: ''
@@ -405,10 +409,6 @@ created: '2026-07-17'
 description: Reonic is a German climate-tech company (founded 2021, Augsburg) building an AI-powered operating system for renewable-energy installers. Its platform covers the full workflow for selling and installing photovoltaic systems, heat pumps, EV chargers, and battery storage — CRM and lead management, 3D roof planning and shading simulation, instant pricing, proposal generation with digital signature, project and installation tracking, and documentation. The Reonic REST API v3 exposes 111 endpoints across 33 resource areas (contacts, residential and commercial projects, tasks, files, components, planning templates, time tracking, wiki, photogrammetry, and more), authenticated with rnc_v3_ API keys, plus a 17-event signed webhook surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reonic.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Reonic MCP Server
-  slug: reonic-mcp-server
 modified: '2026-07-20'
 name: Reonic
 nav: Providers
@@ -419,13 +419,13 @@ overview: 'Reonic publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Reonic catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Reonic''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 20 more developer resources.'
+  Reonic''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 21 more developer resources.'
 random_paper: 10
 score:
   band: developing
   composite: 42.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -456,8 +456,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/screenshots/reonic-2026-08-17T081520.png
 security:

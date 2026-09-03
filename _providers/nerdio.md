@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -70,7 +70,7 @@ apis:
   description: The Usage API from Nerdio — 1 operation(s) for usage.
   name: Nerdio Usage API
   slug: nerdio-usage-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Nerdio Notifications Webhooks
@@ -86,7 +86,7 @@ common:
   url: overlays/nerdio-distributor-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nerdio-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ description: Nerdio (Nerdio, Inc., founded 2017, Chicago) builds automation and 
   a first-party PowerShell module generated from the NME API specification with AutoRest.
 image: https://getnerdio.com/wp-content/themes/nrd/assets/images/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nerdio MCP Server
-  slug: nerdio-mcp-server
 modified: '2026-08-01'
 name: Nerdio
 nav: Providers
@@ -258,8 +254,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

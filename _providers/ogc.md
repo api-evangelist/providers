@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 24
 apis:
 - baseURL: https://maps.gnosis.earth/ogcapi
@@ -290,7 +290,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -300,7 +300,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 20.8
+  previous_composite: 21.6
   provenance:
     conformance: unknown
     contracts:
@@ -308,8 +308,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogc/refs/heads/main/screenshots/ogc-2026-09-02T150837.png
 slug: ogc

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: 'The core Lucky Cart API. POST /cart/ticket submits a validated shopping cart — cart identifier, shopper identifier, gross and net amounts, and product lines — and Lucky Cart determines whether a game '
@@ -179,8 +179,8 @@ score:
   previous_composite: 24.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/screenshots/lucky-cart-2026-07-25T225646.png
 security:

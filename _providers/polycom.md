@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''http://www.polycom.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.hp.com/us-en/poly.html — a different registrable domain (polycom.com -> hp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Polycom RealPresence Platform (RealPresence Resource Manager / Distributed Media Application, later Poly Clariti). Integrates the platform into business processes such as resource mon
@@ -92,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polycom/refs/heads/main/screenshots/polycom-2026-09-02T151707.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The GraphQL API the Strangeworks Python SDK is built on. Exposes the workspace a user's API key belongs to, the compute backends available to it, and mutations for uploading workspace files, initiatin
@@ -46,7 +46,7 @@ apis:
 - description: The product-side GraphQL API used by compute products published on the Strangeworks platform to register and update backends, create and update jobs, upload job files, store resource configuration, an
   name: Strangeworks Products GraphQL API
   slug: products
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Strangeworks Webhooks
@@ -138,7 +138,7 @@ common:
   url: asyncapi/strangeworks-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/strangeworks-mcp.yml
 - group: build
   title: ''
@@ -160,10 +160,6 @@ created: '2026-08-05'
 description: Strangeworks is an Austin, Texas based optimization and quantum computing company founded in 2018 by whurley (William Hurley). It operates a "heterogeneous hybrid compute" platform that gives enterprises and governments managed access to quantum processors, quantum-inspired annealers and classical optimization solvers from a single API and Python SDK, alongside its Compute, Workflows, Decisions and HybridSolver products and an expert services practice. The platform is organized around workspaces, products, resources, jobs and backends, and is programmable through three public GraphQL endpoints (sdk, platform, products) at api.strangeworks.com plus a REST proxy that forwards calls to an activated resource. Compute partners reachable through the platform include IBM Quantum, Amazon Braket, Azure Quantum, IonQ, Rigetti, Quantinuum, QuEra, IQM, AQT, Pasqal, D-Wave, Toshiba, Hitachi, Fujitsu, NEC, Gurobi, JIJ, LightSolver and Quantagonia (acquired 2025).
 image: https://strangeworks.com/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Strangeworks MCP Server
-  slug: strangeworks-mcp-server
 modified: '2026-08-05'
 name: Strangeworks
 nav: Providers
@@ -199,8 +195,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/screenshots/strangeworks-2026-08-17T082131.png
 security:

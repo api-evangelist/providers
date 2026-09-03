@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: The Validators API from Lido Finance — 1 operation(s) for validators.
   name: Lido Finance Validators API
   slug: lido-finance-validators-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -238,7 +238,7 @@ common:
   url: sandbox/lido-finance-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lido-finance-mcp.yml
 - group: agent
   title: ''
@@ -257,10 +257,6 @@ description: Lido is a liquid staking protocol for Ethereum, live since 2020, th
   a Python SDK, and a React UI component library.
 image: https://lido.fi/favicon.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface for the Lido public APIs. Every operation is an unauthenticated GET, which makes this an unusually clean read-only MCP surface — no credentials to broker, no write-path cons
-  name: Lido Finance MCP Server
-  slug: lido-finance-mcp-server
 modified: '2026-07-19'
 name: Lido Finance
 nav: Providers
@@ -299,8 +295,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/screenshots/lido-finance-2026-07-25T225027.png
 security:

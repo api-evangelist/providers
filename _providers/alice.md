@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
   description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
   name: Alice WonderFence API
   slug: alice-wonderfence-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Alice Webhooks
@@ -155,7 +155,7 @@ common:
   url: security/alice-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alice-mcp.yml
 - group: design
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: Alice (formerly ActiveFence) is an enterprise AI security, safety, and trust platform for the GenAI era. Its WonderSuite platform stress-tests, guards, and monitors AI models, applications, and agents against jailbreaks, prompt injection, unsafe outputs, and policy violations. The Alice API provides content analysis (text, image, video, and audio moderation), real-time GenAI message evaluation (WonderFence), and adversarial red-team assessments (WonderBuild), authenticated with an af-api-key header and delivering asynchronous results via callback webhooks. Alice safeguards more than 3 billion users across 120+ languages and is SOC 2 and ISO 27001 certified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alice.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alice MCP Server
-  slug: alice-mcp-server
 modified: '2026-07-17'
 name: Alice
 nav: Providers
@@ -250,8 +246,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/screenshots/alice-2026-07-25T195611.png
 security:

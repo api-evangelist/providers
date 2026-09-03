@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -365,6 +365,10 @@ collections:
   name: Dataiku API Node Administration Artifact Sign-Offs Users API
   slug: open-dataiku-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dataiku-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -801,7 +805,7 @@ overview: 'Dataiku publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The Dataiku catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, pricing, engineering blog, GitHub presence, and 41 more developer resources.'
+  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, pricing, engineering blog, GitHub presence, and 42 more developer resources.'
 plans:
 - name: Dataiku Plans Pricing
   plan_count: 3
@@ -837,7 +841,7 @@ score:
   band: developing
   composite: 48.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -859,8 +863,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
 security:

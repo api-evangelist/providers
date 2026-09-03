@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.sempra-energy.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.sempra.com/ — a different registrable domain (sempra-energy.com -> sempra.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Sempra Energy runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway — an unrouted request returns the genuine Apigee messaging.adaptors.http.flow.ApplicationNotFound JSON faul
@@ -173,8 +174,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

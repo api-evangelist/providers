@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -294,6 +294,10 @@ collections:
   name: Buttondown API
   slug: open-buttondown
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/buttondown-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -499,7 +503,7 @@ overview: 'Buttondown publishes 30 APIs on the [APIs.io](https://apis.io/) netwo
   The Buttondown catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Buttondown''s developer surface includes authentication, changelog, CLI, sandbox, code examples, documentation, API reference, and 38 more developer resources.'
+  Buttondown''s developer surface includes authentication, changelog, CLI, sandbox, code examples, documentation, API reference, and 39 more developer resources.'
 plans:
 - name: Buttondown Plans Pricing
   plan_count: 2
@@ -513,7 +517,7 @@ score:
   band: exemplar
   composite: 68.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -544,8 +548,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:

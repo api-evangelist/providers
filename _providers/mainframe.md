@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Graph subgraph that indexes the Hifi fixed-rate, fixed-term lending protocol — vaults, collateral and debt positions, listed bonds and collaterals, AMM pools and swaps — and serves them over Graph
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 19.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mainframe/refs/heads/main/screenshots/mainframe-2026-07-25T225915.png
 security:

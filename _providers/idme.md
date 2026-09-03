@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -217,8 +217,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 70.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/screenshots/idme-2026-08-17T123853.png
 security:

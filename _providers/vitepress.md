@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The VitePress Runtime API provides Vue composition functions and helper utilities for use in custom themes, Vue components, and Markdown pages. Key composables include useData() for accessing site and
@@ -165,8 +165,8 @@ score:
     governance: 25.0
     operational_transparency: 13.2
   previous_composite: 20.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitepress/refs/heads/main/screenshots/vitepress-2026-06-20T201107.png
 security:

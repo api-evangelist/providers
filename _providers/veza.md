@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Publish identity, resource and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, and run authorization assessment queries and reports.
   name: Veza Open Authorization API (OAA)
   slug: veza-open-authorization-api-oaa
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Veza Webhooks
@@ -99,7 +99,7 @@ common:
   url: cli/veza-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/veza-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Veza is an identity security platform. Its Open Authorization API (OAA) publishes identity, resource, and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, making access across systems searchable and governable for least-privilege enforcement, access reviews, and rules and alerts. The REST API manages custom providers and their data sources, pushes OAA JSON payloads (users, groups, roles, resources, permissions), and runs authorization assessment queries and reports. It authenticates with a per-tenant API key presented as a bearer token, with official Python and C# SDKs and a command-line client.
 image: https://veza.com/wp-content/uploads/2024/01/Veza_Stacked-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Veza MCP Server
-  slug: veza-mcp-server
 modified: '2026-07-21'
 name: Veza
 nav: Providers
@@ -184,8 +180,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veza/refs/heads/main/screenshots/veza-2026-08-17T082737.png
 security:

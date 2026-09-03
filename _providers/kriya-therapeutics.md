@@ -8,6 +8,7 @@ access_model:
   source:
   - authentication
   - security
+  - '{''url'': ''https://kriyatherapeutics.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.kriyatx.com/ — a different registrable domain (kriyatherapeutics.com -> kriyatx.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://kriyatherapeutics.com/wp-json
@@ -290,8 +291,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:

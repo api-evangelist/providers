@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The tunnels API from Alpic — 1 operation(s) for tunnels.
   name: Alpic tunnels API
   slug: alpic-tunnels-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alpic-mcp.yml
 - group: other
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: Alpic is the MCP-native cloud platform for building, deploying, monitoring, and distributing Model Context Protocol (MCP) servers and ChatGPT Apps. Its stack spans the open-source Skybridge TypeScript framework, the `alpic` CLI, Alpic Cloud (one-click deploy, multi-environment support, runtime and build logs, analytics, DCR proxy, Node.js/Python runtimes), Beacon compliance audits, and one-click distribution to the MCP registry. The Alpic REST API (https://api.alpic.ai, v1) programmatically manages teams, projects, environments, environment variables, deployments, analytics, playgrounds, tunnels, distribution, and Beacon audits, with an agentic self-registration path so AI agents can obtain an API key and ship MCP servers autonomously. Founded by the repeat team behind Streamroot; backed by Partech.
 image: https://framerusercontent.com/images/WZiXUn1MVLa0eLUmTzKrnFH9tUs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alpic MCP Server
-  slug: alpic-mcp-server
 modified: '2026-07-17'
 name: Alpic
 nav: Providers
@@ -260,8 +256,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/screenshots/alpic-2026-07-25T195808.png
 security:

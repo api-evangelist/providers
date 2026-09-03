@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ apis:
   description: The UserDefinedMetadata API from Pryon — 9 operation(s) for userdefinedmetadata.
   name: Pryon User Defined Metadata API
   slug: pryon-userdefinedmetadata-api
-artifact_total: 77
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Pryon Events
@@ -426,7 +426,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pryon-mcp.yml
 - group: build
   title: ''
@@ -441,10 +441,6 @@ description: Pryon is a Raleigh, North Carolina enterprise AI company founded in
   are documented at docs.pryon.com, which also serves an llms.txt index for agents.
 image: https://cdn.prod.website-files.com/65cbae0a3956181cf7a74c75/672bde6da9f2a2dc6e54b6fa_fav-icon-pryon-wht-bg.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pryon MCP Server
-  slug: pryon-mcp-server
 modified: '2026-08-02'
 name: Pryon
 nav: Providers
@@ -486,8 +482,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/screenshots/pryon-2026-08-17T081359.png
 security:

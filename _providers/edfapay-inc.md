@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://revamp-api.edfapay.com
@@ -71,7 +71,7 @@ apis:
   description: User Management APIs
   name: EdfaPay, Inc. User Management API
   slug: edfapay-inc-user-management-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Edfapay Inc Webhooks
@@ -172,7 +172,7 @@ common:
   url: llms/edfapay-inc-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/edfapay-inc-mcp.yml
 - group: auth
   title: ''
@@ -234,10 +234,6 @@ created: '2026-07-17'
 description: EdfaPay is a Saudi fintech and payment-technology company offering a developer-friendly payment platform across the GCC region. Its products include a hosted Checkout and Server-to-Server (S2S) payment gateway, SoftPOS tap-to-pay technology that turns mobile devices into card readers, merchant onboarding, payouts, e-invoicing, and white-label solutions for banks and partners. The gateway supports Visa, Mastercard, MADA, Apple Pay and STC Pay with 3D Secure, webhooks, refunds and recurring payments, on PCI-DSS certified infrastructure. EdfaPay was added to the API Evangelist network as a portfolio company of 500 Global and enriched from its public developer documentation, OpenAPI definitions and SDKs.
 image: https://files.readme.io/89700fae642aef272b5162ed82daf2f2ececcb418693c2307830e1a0e3f7fa2e-EdfaPay-Logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: EdfaPay, Inc. MCP Server
-  slug: edfapay-inc-mcp-server
 modified: '2026-07-19'
 name: EdfaPay, Inc.
 nav: Providers
@@ -284,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
 security:

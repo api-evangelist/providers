@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -98,7 +98,7 @@ apis:
   description: The Webhooks API from Timeular — 3 operation(s) for webhooks.
   name: Timeular Webhooks API
   slug: timeular-webhooks-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: Event surface derived from the EARLY (Timeular) public webhook API. Consumers subscribe a publicly reachable HTTPS target URL to a named event via POST /api/v4/webhooks/subscription; EARLY delivers th
   name: EARLY (Timeular) Webhooks
@@ -195,7 +195,7 @@ common:
   url: https://early.app/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/timeular-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: Timeular (now branded EARLY) is a time-tracking company whose apps and physical tracking device help individuals and teams capture where their time goes. Its public REST API — hosted at api.early.app — lets developers manage activities, start and stop live tracking, create and query time entries over date ranges, generate reports, organize tags and mentions, administer folders, users and leave, and subscribe to webhooks for time-tracking and leave events. Authentication uses an API Key and API Secret exchanged for a short-lived Bearer Access Token. The API is versioned in the URI path (V4 is current; V3 and V2 remain available) and is published as a public Postman collection. Timeular is backed by Speedinvest.
 image: https://content.pstmn.io/b2851088-5dea-4fb1-9fc8-ba83d3c33bc2/RUFSTFktV09SRE1BUkstREFSSy1HUkVFTi1QUklNQVJZLnBuZw==
 layout: provider
-mcp_servers:
-- description: ''
-  name: Timeular MCP Server
-  slug: timeular-mcp-server
 modified: '2026-07-21'
 name: Timeular
 nav: Providers
@@ -270,8 +266,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/screenshots/timeular-2026-08-17T082357.png
 security:

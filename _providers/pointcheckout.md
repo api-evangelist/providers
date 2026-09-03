@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.paymennt.com/mer/v2.0/
@@ -56,7 +56,7 @@ apis:
   description: API endpoints for webhook management.
   name: PointCheckout Webhooks API
   slug: pointcheckout-webhooks-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Pointcheckout Webhooks
@@ -128,7 +128,7 @@ common:
   url: asyncapi/pointcheckout-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pointcheckout-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ created: '2026-07-17'
 description: PointCheckout is a MENA-region payments and rewards platform, backed by 500 Global, that lets shoppers pay online with reward points and miles and lets merchants accept card and rewards payments. Its developer-facing Merchant API (powered by paymennt.com) exposes hosted web, payment-link, QR, and mobile checkouts, recurring subscriptions, merchant branches, and HMAC-signed webhooks. The API is RESTful JSON, versioned in the URI path (v2.0), secured with an API key and secret header pair, and ships with a separate test environment plus iOS/Android SDKs and e-commerce plugins for Magento 2, WooCommerce, OpenCart, and Shopify.
 image: https://docs.pointcheckout.com/img/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: PointCheckout MCP Server
-  slug: pointcheckout-mcp-server
 modified: '2026-07-20'
 name: PointCheckout
 nav: Providers
@@ -248,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/screenshots/pointcheckout-2026-08-17T081313.png
 security:

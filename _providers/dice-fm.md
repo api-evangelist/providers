@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Query a partner's events through the DICE Ticket Holders GraphQL API - event name, state, start/end datetimes, currency, URL, artists, genres, ticket types, price tiers, and total ticket allocation. E
@@ -97,6 +97,10 @@ common:
   title: ''
   type: FinOps
   url: finops/dice-fm-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://dice.fm/blog
 created: '2026-07-05'
 description: DICE is a live music and events ticketing platform (dice.fm) connecting fans to gigs, club nights, festivals, and experiences, with a fan-facing mobile app and a partner platform (MIO) for promoters, venues, and festivals. For partners, DICE exposes a documented but access-gated GraphQL API - the Ticket Holders API at partners-endpoint.dice.fm/graphql - that lets downstream systems query events, tickets and ticket holders, orders and sales, returns and transfers, fans, and venues. API tokens are generated inside MIO and passed as a Bearer authorization header; the API is available to DICE partners rather than as an open self-service developer program.
 finops:
@@ -112,7 +116,7 @@ network: true
 overview: 'DICE publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ticketing, Live Music, Event, Tickets, and GraphQL.
 
 
-  DICE''s developer surface includes documentation, developer portal, signup flow, and 8 more developer resources.'
+  DICE''s developer surface includes documentation, developer portal, signup flow, engineering blog, and 8 more developer resources.'
 plans:
 - name: Dice Fm Plans Pricing
   plan_count: 2
@@ -124,25 +128,25 @@ rate_limits:
   slug: dice-fm-rate-limits
 score:
   band: emerging
-  composite: 25.5
+  composite: 26.0
   coverage:
     artifact_dirs: 5
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 25.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dice-fm/refs/heads/main/screenshots/dice-fm-2026-07-25T211936.png
 security:

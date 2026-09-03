@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API converting public URLs to Markdown, text, HTML, JSON, ARIA trees, screenshots, PDFs, link-preview metadata and normalized structured data, plus batch reads, robots-aware crawls with a 202 job
@@ -207,6 +207,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -216,6 +217,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 94.7
+  previous_composite: 70.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,8 +228,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Pagesnap Authentication

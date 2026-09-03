@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: Site comments — anonymously readable, empty at capture.
   name: Cresilon Comments API
   slug: cresilon-comments-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -131,7 +131,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cresilon-mcp.yml
 - group: company
   title: ''
@@ -278,10 +278,6 @@ description: 'Cresilon is a Brooklyn, New York biotechnology company founded in 
   no commercial or developer-facing product API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at cresilon.com, captured here for discovery purposes.'
 image: https://cresilon.com/wp-content/uploads/2025/10/cropped-Cresilon-01-1024x325.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cresilon MCP Server
-  slug: cresilon-mcp-server
 modified: '2026-08-04'
 name: Cresilon
 nav: Providers
@@ -326,8 +322,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/screenshots/cresilon-2026-08-07T163837.png
 security:

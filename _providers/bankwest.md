@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Bankwest Banking Products API
   slug: bankwest-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -151,7 +151,7 @@ common:
   url: data-model/bankwest-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bankwest-mcp.yml
 - group: other
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: Bankwest is an Australian retail and business bank headquartered in Perth, Western Australia. Founded in 1895 as the Agricultural Bank of Western Australia and later the Bank of Western Australia, it has operated as a wholly owned subsidiary of Commonwealth Bank of Australia (CBA) since CBA's December 2008 acquisition. In March 2024 Bankwest announced it would close its remaining branch network and become a digital-only bank, retaining the Bankwest brand for personal and business customers nationally. As an authorised deposit-taking institution brand operating under Australia's Consumer Data Right (CDR / Open Banking) regime, Bankwest exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards; consumer data sharing beyond PRD requires ACCC accreditation and customer consent under the CDR authorisation model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bankwest.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bankwest MCP Server
-  slug: bankwest-mcp-server
 modified: '2026-07-21T12:00:00Z'
 name: Bankwest
 nav: Providers
@@ -254,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png
 security:

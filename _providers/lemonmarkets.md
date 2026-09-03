@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ apis:
   description: Use workflows to perform repetitive tasks automatically.
   name: lemon.markets Workflows API
   slug: lemonmarkets-workflows-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Lemonmarkets Brokerage Webhooks
@@ -243,7 +243,7 @@ common:
   url: well-known/lemonmarkets-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lemonmarkets-mcp.yml
 - group: agent
   title: ''
@@ -329,10 +329,6 @@ created: '2026-07-17'
 description: lemon.markets is a Berlin-based, BaFin-licensed investment firm that sells brokerage infrastructure as an API. Its Brokerage API lets fintechs, banks and platforms embed investing — account opening and KYC/identification, securities accounts, order placement and execution, trades, positions, transactions, withdrawals, settlements, corporate actions, income distributions, tax exemption orders (Freistellungsauftrag) and treasury products — without building or licensing a broker-dealer stack themselves. Coverage spans 10,000+ ETFs, ETPs, stocks, bonds and funds, and the platform supports omnibus, fully disclosed and BPO (business process outsourcing) operating models. The REST API is complemented by a webhook/event surface, an Idempotency-Key contract on order placement, and a sandbox environment with published test ISINs. API access is invite-only.
 image: https://www.lemon.markets/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: lemon.markets MCP Server
-  slug: lemonmarkets-mcp-server
 modified: '2026-08-08'
 name: lemon.markets
 nav: Providers
@@ -380,8 +376,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

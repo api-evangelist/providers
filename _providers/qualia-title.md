@@ -10,18 +10,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-02'
-api_count: 6
+  score: 7.9
+  scored_at: '2026-09-03'
+api_count: 7
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
   name: Qualia Title Orders API
@@ -54,7 +54,10 @@ apis:
 - description: Programmatic access to Qualia's national network of technology-enabled independent title agents and Marketplace vendors, letting businesses without internal title operations place and route orders dig
   name: Qualia Connect and Marketplace API
   slug: qualia-title-marketplace-api
-artifact_total: 11
+- description: The Qualia API is a read-write GraphQL API over the Qualia title, escrow and closing platform. It lets partner organizations place title orders into Qualia Core or Connect (or route them to third-part
+  name: Qualia API
+  slug: qualia-api
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -100,6 +103,10 @@ common:
   title: ''
   type: Blog
   url: https://blog.qualia.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/qualialabs
 created: '2026-07-04'
 description: Qualia is a digital real estate closing platform for the title, escrow, and settlement industry, connecting title agents, lenders, real estate agents, and homebuyers on a single system for managing closings end to end. The Qualia API is an enterprise-grade, cloud-based GraphQL read-write API with a developer hub and sandbox. It lets real estate businesses and PropTech companies place and track title orders, send and receive messages and documents, and pull order, accounting, and contact data for custom reporting and to connect accounting, CRM, and BI systems. Access is partner-gated behind a secure authorization framework (capability gates, authorized organizations, HTTP authentication, and rate limiting); Qualia does not publish an open, unauthenticated developer portal, so the API areas below are modeled from Qualia's public product and press material rather than from a public GraphQL schema.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualia-title.png
@@ -108,10 +115,10 @@ modified: '2026-07-25'
 name: Qualia
 nav: Providers
 network: true
-overview: 'Qualia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real-Estate, Closing, and Settlement.
+overview: 'Qualia publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real-Estate, Closing, and Settlement.
 
 
-  Qualia''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Qualia''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Qualia Title Plans Pricing
   plan_count: 1
@@ -123,31 +130,31 @@ rate_limits:
   slug: qualia-title-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 24.6
   coverage:
     artifact_dirs: 4
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 23.8
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 26.3
   previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 31.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+    score: 40.9
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/screenshots/qualia-title-2026-09-02T152559.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 0
@@ -486,7 +486,7 @@ apis:
   description: The vendors API from LeafLink — 3 operation(s) for vendors.
   name: LeafLink Vendors API
   slug: leaflink-vendors-api
-artifact_total: 95
+artifact_total: 94
 asyncapis:
 - description: ''
   name: Leaflink Webhooks
@@ -614,7 +614,7 @@ common:
   url: asyncapi/leaflink-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/leaflink-mcp.yml
 - group: agent
   title: ''
@@ -641,10 +641,6 @@ description: LeafLink is the wholesale cannabis marketplace and B2B commerce pla
   and product events.
 image: https://www.leaflink.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: LeafLink MCP Server
-  slug: leaflink-mcp-server
 modified: '2026-08-01'
 name: LeafLink
 nav: Providers
@@ -669,7 +665,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -679,7 +675,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 55.2
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -696,8 +692,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png
 security:

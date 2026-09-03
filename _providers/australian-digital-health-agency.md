@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The business-to-business FHIR Gateway for connecting conformant clinical software to the My Health Record national shared health record. Exposes FHIR-based read and upload interactions for clinical do
@@ -55,7 +55,7 @@ apis:
 - description: The national Healthcare Identifiers Service, providing unique identifiers for individuals (IHI), healthcare providers (HPI-I) and organisations (HPI-O) that underpin My Health Record, electronic presc
   name: Healthcare Identifiers (HI) Service
   slug: healthcare-identifiers-service
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -139,7 +139,7 @@ common:
   url: lifecycle/australian-digital-health-agency-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/australian-digital-health-agency-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ description: The Australian Digital Health Agency (ADHA) is the Australian Gover
   Production onboarding is gated behind registration, conformance testing, and PKI issuance; ADHA aligns to the AU Base / AU Core FHIR implementation guides stewarded through HL7 Australia and the Sparked national FHIR accelerator.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Australian Digital Health Agency MCP Server
-  slug: australian-digital-health-agency-mcp-server
 modified: '2026-07-24'
 name: Australian Digital Health Agency
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

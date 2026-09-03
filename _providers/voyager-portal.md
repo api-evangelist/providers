@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing voyages and workflows on the Voyager Portal maritime operations platform. Resources include voyages (schedules, cargoes, documents, categories, models), claims and claim port-cal
   name: Voyager Portal Public API
   slug: voyager-portal-public-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Voyager Portal Webhooks
@@ -119,7 +119,7 @@ common:
   url: llms/voyager-portal-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/voyager-portal-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Voyager Portal is an AI-powered voyage and demurrage management platform for bulk commodity charterers, traders, brokers, and manufacturers, streamlining maritime shipping workflows from pre-fixture planning through post-fixture claim resolution. The platform provides AI-driven demurrage claims management and laytime calculations, cargo allocation, AIS vessel tracking, ETA tracking, noon reporting, and analytics, and exposes a documented public REST API for managing voyages, cargoes, claims, SOFs, vessels, ports, and workflows, plus outbound webhooks.
 image: https://www.voyagerportal.com/wp-content/uploads/2025/08/teste-1.png
 layout: provider
-mcp_servers:
-- description: No official Voyager Portal MCP server was found (docs, npm, MCP registries searched 2026-07-21). This is a candidate tool list derived from the documented public REST API surface; no OpenAPI is publis
-  name: Voyager Portal MCP Server
-  slug: voyager-portal-mcp-server
 modified: '2026-07-21'
 name: Voyager Portal
 nav: Providers
@@ -175,8 +171,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/screenshots/voyager-portal-2026-09-02T170305.png
 security:

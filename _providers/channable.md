@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.channable.com/v1
@@ -67,7 +67,7 @@ apis:
   description: The transporters API from Channable — 3 operation(s) for transporters.
   name: Channable transporters API
   slug: channable-transporters-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -109,7 +109,7 @@ common:
   url: skills/channable-process-returns.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/channable-mcp.yml
 - group: other
   title: ''
@@ -236,10 +236,6 @@ description: 'Channable is a feed management and marketplace integration platfor
   lets integrators test order flows without touching live marketplaces.'
 image: https://www.channable.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Channable MCP Server
-  slug: channable-mcp-server
 modified: '2026-08-13'
 name: Channable
 nav: Providers
@@ -285,8 +281,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/screenshots/channable-2026-08-17T083552.png
 security:

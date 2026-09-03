@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-09-02'
+  score: 24.6
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - baseURL: https://www.nikangtx.com/wp-json
@@ -83,7 +83,7 @@ apis:
   description: oEmbed 1.0 provider endpoint for www.nikangtx.com URLs. Verified live and anonymous — returns provider_name "Nikang Therapeutics" for the site root.
   name: NiKang Therapeutics oEmbed API
   slug: nikang-therapeutics-oembed-api
-artifact_total: 14
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -175,7 +175,7 @@ common:
   url: packages/nikang-therapeutics-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nikang-therapeutics-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ description: NiKang Therapeutics is a clinical-stage biotechnology company headq
   September 2020 and a $200 million Series C in May 2021, and has partnered its chemistry with Erasca on SHP2 and with Pfizer, Hansoh and Roche on HIF2. NiKang Therapeutics runs no developer program and publishes no product API, developer portal, API reference or machine-readable specification of its own. The only machine-readable surface reachable without credentials is the WordPress REST content API behind www.nikangtx.com, which is catalogued here — 210 registered routes across 17 namespaces, of which the anonymously readable read-only content families are described in openapi/.
 image: https://www.nikangtx.com/wp-content/uploads/2023/10/nikang-logo-footer.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NiKang Therapeutics MCP Server
-  slug: nikang-therapeutics-mcp-server
 modified: '2026-08-26'
 name: NiKang Therapeutics
 nav: Providers
@@ -245,8 +241,8 @@ score:
     regime: Health
     regime_id: health
     score: 48.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nikang-therapeutics/refs/heads/main/screenshots/nikang-therapeutics-2026-09-02T150754.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: HKBU's own SAML 2.0 identity provider, entityID https://buidp01.hkbu.edu.hk/idp/shibboleth, registered in eduGAIN by the Hong Kong Access Federation (HKAF) since 2018-03-14 with scope hkbu.edu.hk. The
@@ -228,8 +228,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/screenshots/hong-kong-baptist-university-2026-06-20T182824.png
 security:

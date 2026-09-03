@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol shopping service exposed over MCP by the tnuck.com Shopify storefront - catalog search, cart, checkout, fulfillment, discounts, and orders, with buyer-approved payment. Dis
@@ -146,8 +146,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/screenshots/uscoop-2026-09-02T165232.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: 'These actions are performed within the context of a specific user (uses OAuth2 with an `Authorization: Bearer` header)'
   name: AltoIRA User API
   slug: altoira-user-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: Alto pushes investment-lifecycle events to a Platform Partner's registered webhook endpoint so the partner can track an investor's progress through the Direction of Investment (DOI), funding and any p
   name: Alto Investment Status Webhooks
@@ -224,7 +224,7 @@ common:
   url: errors/altoira-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/altoira-mcp.yml
 - group: build
   title: ''
@@ -238,10 +238,6 @@ created: '2026-08-06'
 description: Alto (AltoIRA) is a Nashville-based self-directed IRA platform that lets everyday investors hold alternative assets — private equity, venture funds, startups, real estate, farmland, private credit and cryptocurrency — inside tax-advantaged Traditional, Roth and SEP retirement accounts. Alto Trust Company acts as the IRA custodian and Alto Securities, LLC (FINRA/SIPC) operates the Alto Marketplace of curated private-market offerings. Alto reports custody of roughly $2B in assets for about 30,000 self-directed IRA investors and support for more than 2,500 issuers who have raised capital on the platform. For issuers and investment platforms, Alto publishes a partner REST API (the "AltoIRA.com API") on a ReadMe developer hub that covers OAuth investor handoff, offering creation, document upload, investor invitation, investment retrieval, refunds, cancellations, distributions and capital calls, plus an investment-status webhook feed.
 image: https://cdn.prod.website-files.com/662048df2bce7baa72aab3f3/662ae161e60cc17317200006_Altologo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: AltoIRA MCP Server
-  slug: altoira-mcp-server
 modified: '2026-08-06'
 name: AltoIRA
 nav: Providers
@@ -288,8 +284,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/screenshots/altoira-2026-08-07T161253.png
 security:

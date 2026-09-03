@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Enterprise API for partner organisations covering fiat<>crypto trading on India INR rails (deposits via Cards/UPI/NEFT/IMPS/RTGS), automated KYC verification (Aadhar/PAN/VoterID/Passport), crypto<>cry
@@ -160,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/screenshots/vauld-2026-09-02T165505.png
 security:

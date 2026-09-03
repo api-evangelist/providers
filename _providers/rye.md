@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The Test Helpers API from Rye — 6 operation(s) for test helpers.
   name: Rye Test Helpers API
   slug: rye-test-helpers-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Rye Webhooks
@@ -278,7 +278,7 @@ common:
   url: packages/rye-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rye-mcp.yml
 - group: agent
   title: ''
@@ -364,10 +364,6 @@ created: '2026-07-17'
 description: Rye is agentic commerce infrastructure - a Universal Checkout API that turns any product URL into a completed order without redirecting the shopper. Developers pass a product URL and buyer details and receive price, tax, shipping and delivery estimates, then confirm with a tokenized payment method (Stripe, Basis Theory, pre-funded drawdown balance, or x402/USDC) to place the order across thousands of merchants including Shopify stores and Amazon. Rye combines AI browser automation with fraud-mitigation and caches successful flows as deterministic workflows, advertising 90%+ order reliability, sub-35s offer resolution, and 99.9% uptime. The platform ships official TypeScript, Python, and Java SDKs, HMAC-signed webhooks, a staging sandbox with test products and simulated shipment/return helpers, Rewards UI React components, and a returns/refunds lifecycle. Rye is an a16z portfolio company.
 image: https://rye.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: 'No official hosted/remote Rye MCP server was found. This is a candidate MCP tool surface derived one-to-one from the Universal Checkout API OpenAPI operations, for forging an MCP server (e.g. via the '
-  name: Rye MCP Server
-  slug: rye-mcp-server
 modified: '2026-07-21'
 name: Rye
 nav: Providers
@@ -419,8 +415,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/screenshots/rye-2026-08-17T081702.png
 security:

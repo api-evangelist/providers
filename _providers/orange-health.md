@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://partner-api.orangehealth.in
@@ -56,7 +56,7 @@ apis:
   description: The Orange Health Partner API API from Orange Health — 0 operation(s) for orange health partner api.
   name: Orange Health Orange Health Partner API
   slug: orange-health-orange-health-partner-api-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Orange Health Webhooks
@@ -137,16 +137,12 @@ common:
   url: asyncapi/orange-health-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/orange-health-mcp.yml
 created: '2026-07-17'
 description: Orange Health Labs is an Indian at-home diagnostics laboratory serving Bengaluru, Delhi, Gurgaon, Noida and Hyderabad, offering 60-minute home sample collection and test results within about six hours. Its Partner API (documented on Apiary as the "Partner API Public Order Flow") lets healthcare partners, employers and apps check location serviceability and slots, create home-collection, lab-drop-off and health-camp orders, track order status, reschedule, cancel and add on tests, and pull structured investigation-level test results. Order lifecycle transitions (order.created through order.completed / order.cancelled) are delivered as HMAC-SHA256 signed webhooks. Authentication is an api_key request header.
 image: https://d1wi3p9y2i20go.cloudfront.net/website/homepage/dweb/hero-section/hero-new.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Orange Health MCP Server
-  slug: orange-health-mcp-server
 modified: '2026-07-20'
 name: Orange Health
 nav: Providers
@@ -193,8 +189,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:

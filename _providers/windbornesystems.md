@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API serving balloon observations, soundings, WeatherMesh point and gridded forecasts, constellation/flight metadata, tropical cyclones, and population-weighted degree-day insights. Bearer API-key
@@ -120,8 +120,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windbornesystems/refs/heads/main/screenshots/windbornesystems-2026-09-02T170757.png
 security:

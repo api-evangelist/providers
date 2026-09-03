@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: The v2 API from EDF Energy — 1 operation(s) for v2.
   name: EDF Energy V2 API
   slug: edf-energy-v2-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: Kraken
@@ -197,7 +197,7 @@ common:
   url: packages/edf-energy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/edf-energy-mcp.yml
 - group: build
   title: ''
@@ -318,10 +318,6 @@ graphqls:
   slug: edf-energy-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: No official EDF Energy or Kraken MCP server exists. Searched the EDF GB developer portal (developer.edfgb-kraken.energy), the EDF GitHub organisation, npm (edf-energy, edfgb-kraken, kraken-energy, oct
-  name: EDF Energy MCP Server
-  slug: edf-energy-mcp-server
 modified: '2026-07-27'
 name: EDF Energy
 nav: Providers
@@ -379,8 +375,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 78.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/screenshots/edf-energy-2026-08-07T164723.png
 security:

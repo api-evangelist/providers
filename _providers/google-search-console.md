@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: The urlTestingTools API from Google Search Console — 1 operation(s) for urltestingtools.
   name: Google Search Console URL Testing Tools API
   slug: google-search-console-urltestingtools-api
-artifact_total: 111
+artifact_total: 110
 collections:
 - collection_type: postman
   name: Google Search Console Search Analytics API
@@ -147,7 +147,7 @@ common:
   url: security/google-search-console-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-search-console-mcp.yml
 - group: agent
   title: ''
@@ -531,10 +531,6 @@ jsonld:
   property_count: 0
   slug: google-search-console-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Google Search Console MCP Server
-  slug: google-search-console-mcp-server
 modified: '2026-08-13'
 name: Google Search Console
 nav: Providers
@@ -611,8 +607,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
 security:

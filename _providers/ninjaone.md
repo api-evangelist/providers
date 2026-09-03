@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -153,7 +153,7 @@ apis:
   description: Webhook Endpoints
   name: NinjaOne webhooks API
   slug: ninjaone-webhooks-api
-artifact_total: 53
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Ninjaone Webhooks
@@ -311,7 +311,7 @@ common:
   url: https://www.ninjaone.com/.well-known/security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ninjaone-mcp.yml
 - group: agent
   title: ''
@@ -341,10 +341,6 @@ created: '2026-07-17'
 description: NinjaOne is a unified IT operations and endpoint management platform for enterprise IT teams and managed service providers (MSPs), combining remote monitoring and management (RMM), endpoint management, patch management, remote access, backup, mobile device management, IT asset management, vulnerability management, endpoint security, IT documentation, and ticketing in a single cloud-native platform. Founded in 2013 as NinjaRMM, the company manages over five million endpoints across 30,000+ customers. The NinjaOne Public API 2.0 is an OAuth 2.0-secured REST API (client-credentials, authorization-code and refresh-token grants) that exposes organizations, devices, groups, queries, management actions, ticketing, users, locations, backup, custom fields, knowledge base, documents, checklists, vulnerability management, and webhooks for building integrations on top of the platform.
 image: https://www.ninjaone.com/wp-content/uploads/2026/01/homepage-repositioning-social-share-1024x535.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: NinjaOne MCP Server
-  slug: ninjaone-mcp-server
 modified: '2026-07-20'
 name: NinjaOne
 nav: Providers
@@ -391,8 +387,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:

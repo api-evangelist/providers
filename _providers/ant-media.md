@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-09-02'
+  score: 30.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -352,13 +352,13 @@ rules:
   slug: ant-media-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.0
+  composite: 60.5
   coverage:
     artifact_dirs: 32
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 13.3
+  delta: 3.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -368,10 +368,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 43.7
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,9 +379,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:
 - kind: authentication

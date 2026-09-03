@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API to automate the Nevis Authentication Cloud — passwordless registration, authentication and transaction signing (FIDO2 / passkeys, Access App, OATH TOTP, SMS OTP, recovery codes), user and aut
   name: Nevis Authentication Cloud REST API
   slug: nevis-authentication-cloud-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -111,7 +111,7 @@ common:
   url: packages/nevis-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nevis-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Nevis (Nevis Security AG) is a Swiss customer identity and access management (CIAM) and passwordless authentication provider. Its Authentication Cloud adds passwordless login and transaction signing to applications using FIDO2 passkeys, the Nevis Access App device authenticator, OATH TOTP, SMS OTP and recovery codes, exposed through a versioned REST API and native iOS / Android Mobile Authentication SDKs. Nevis also offers the on-premises Identity Suite and Nevis ID, serving banks, insurers and government with secure, standards-based (FIDO2 / WebAuthn) authentication.
 image: https://www.nevis.net/hubfs/Nevis/images/logotype.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nevis MCP Server
-  slug: nevis-mcp-server
 modified: '2026-07-20'
 name: Nevis
 nav: Providers
@@ -172,8 +168,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/screenshots/nevis-2026-08-07T185048.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -1090,7 +1090,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -1100,7 +1100,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1111,8 +1111,8 @@ score:
       total: 112
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:

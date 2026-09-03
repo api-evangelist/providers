@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://us.opencv.fr
@@ -61,7 +61,7 @@ apis:
   description: The endpoints below allow you to search for previously registered persons using a face image obtained at a later time. The search is performed using a deep learning model trained on millions of face i
   name: Seventh Sense Search API
   slug: seventh-sense-search-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -128,7 +128,7 @@ common:
   url: data-model/seventh-sense-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/seventh-sense-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +158,6 @@ created: '2026-07-17'
 description: Seventh Sense AI is a Singapore-based deep-tech company building privacy-preserving, face-based identity and biometric verification technology. Its OpenCV Face Recognition (OpenCV FR) platform — ranked among the top 10 facial recognition algorithms globally by NIST — provides face detection, matching, liveness detection, search and person/collection management through a multi-region REST API and Python/C++ SDKs. Seventh Sense also develops the SenseCrypt suite (eID, PKI and self-sovereign identity built on distributed ledgers, "0% biometrics, 100% privacy") and SenseVantage multimodal video AI. The company is SOC, ISO 27001 certified and GDPR compliant, serving enterprise and government customers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seventh-sense.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface mapped from the OpenCV FR REST API operations, suitable for wrapping the API (x-api-key auth) as agent tools.
-  name: Seventh Sense MCP Server
-  slug: seventh-sense-mcp-server
 modified: '2026-07-21'
 name: Seventh Sense
 nav: Providers
@@ -199,8 +195,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/screenshots/seventh-sense-2026-09-02T155055.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ apis:
   description: The transactions API from Moneyhub — 9 operation(s) for transactions.
   name: Moneyhub Transactions API
   slug: moneyhub-transactions-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Moneyhub Webhooks
@@ -245,7 +245,7 @@ common:
   url: data-model/moneyhub-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moneyhub-mcp.yml
 - group: build
   title: ''
@@ -324,10 +324,6 @@ description: 'Moneyhub is a UK open banking and open finance platform, headquart
   and jwt-bearer grants and fine-grained scopes for data and payment initiation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moneyhub MCP Server
-  slug: moneyhub-mcp-server
 modified: '2026-07-24'
 name: Moneyhub
 nav: Providers
@@ -385,8 +381,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

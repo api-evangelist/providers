@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ arazzos:
 - description: Authenticate and read tire events/alerts for a fleet over a time window.
   name: Pull tire events for a fleet
   slug: revvo-pull-tire-events
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -194,7 +194,7 @@ common:
   url: data-model/revvo-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/revvo-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ created: '2026-07-17'
 description: 'Revvo is an AI-powered tire and fleet management platform. Its TireIQ engine connects to OEM and aftermarket TPMS sensors and turns raw tire data into real-time pressure, temperature, tread-wear, puncture and vehicle-off alerts delivered by SMS, email or API. The Revvo API is a v0 REST interface that lets fleets register gateways and sensors, manage vehicles and tires, and pull tire events, all scoped to a fleet. Authentication is a two-step exchange: a fleet API key is presented to POST /auth to mint a short-lived JWT, which is then sent as a bearer token on every operation. Revvo integrates with Geotab, Samsara, Motive, Fleetio, Lytx, Azuga and Zapier, and serves fleets across logistics, waste, food and beverage, oil and gas, and passenger transit.'
 image: https://www.revvo.ai/wp-content/uploads/2023/11/cropped-Revvo_Icon_Black.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Revvo MCP Server
-  slug: revvo-mcp-server
 modified: '2026-07-21'
 name: Revvo
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/screenshots/revvo-2026-09-02T153731.png
 security:

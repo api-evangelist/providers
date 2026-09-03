@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ apis:
   description: The Vitals API from Depict — 1 operation(s) for vitals.
   name: Depict Vitals API
   slug: depict-vitals-api
-artifact_total: 76
+artifact_total: 75
 collections:
 - collection_type: open
   name: API Collection
@@ -439,7 +439,7 @@ common:
   url: changelog/depict-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/depict-mcp.yml
 - group: other
   title: ''
@@ -461,10 +461,6 @@ created: '2026-07-17'
 description: Depict is an AI-assisted merchandising platform for e-commerce brands, headquartered in Stockholm, Sweden and backed by Slow Ventures and Y Combinator. Depict helps fashion and lifestyle retailers curate visual merchandising, hybrid AI-plus-keyword site search, and personalized product recommendations across their storefronts, automating routine merchandising and optimization while keeping brand rules intact. For developers, Depict exposes a public Storefront API (served from api.depict.ai) that returns search results, query suggestions, product listings, and recommendations and accepts tracking events, plus an Auth0-protected Portal API and a Lite API that power the merchant portal and the Depict Lite Shopify app. The platform integrates with Shopify, Centra, WooCommerce, and headless/composable storefronts through JavaScript and React UI libraries as well as direct REST API access.
 image: https://depict.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Depict MCP Server
-  slug: depict-mcp-server
 modified: '2026-07-18'
 name: Depict
 nav: Providers
@@ -508,8 +504,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/screenshots/depict-2026-07-25T211731.png
 security:

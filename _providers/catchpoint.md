@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ apis:
   description: The Workflow API from Catchpoint — 1 operation(s) for workflow.
   name: Catchpoint Workflow API
   slug: catchpoint-workflow-api
-artifact_total: 69
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Catchpoint Webhooks
@@ -301,9 +301,13 @@ collections:
   name: Catchpoint REST API v2.0 Account Workflow API
   slug: open-catchpoint-workflow-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/catchpoint-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/catchpoint-mcp.yml
 - group: company
   title: ''
@@ -429,10 +433,6 @@ created: '2026-07-17'
 description: Catchpoint is a leading Internet Performance Monitoring (IPM) company. Its platform combines the largest independent global observability network (thousands of synthetic agents across 100+ countries plus BGP peers) with synthetic monitoring, real user monitoring (RUM), BGP monitoring, endpoint/workforce monitoring, tracing, and Internet Sonar to give teams end-to-end visibility across the entire Internet Stack — networks, DNS, CDN, SASE, and third-party services — from the end-user perspective. Catchpoint exposes a REST API v2 (bearer API key, JSON) for managing synthetic tests, monitoring nodes and node groups, products/folders, alerts, contacts, SLOs, insights, and usage reporting, plus alert/test-data/BGP webhooks and an official Terraform provider. Catchpoint is a portfolio company of Sapphire Ventures.
 image: https://cdn.prod.website-files.com/61027bb0bc31fc6cafefbc0c/6387709b977c72057fb211e3_CATCHPOINT_OPENGRAPH_1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Catchpoint MCP Server
-  slug: catchpoint-mcp-server
 modified: '2026-07-18'
 name: Catchpoint
 nav: Providers
@@ -443,13 +443,13 @@ overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
   The Catchpoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Catchpoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 24 more developer resources.'
+  Catchpoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 25 more developer resources.'
 random_paper: 19
 score:
   band: developing
   composite: 50.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -474,8 +474,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/screenshots/catchpoint-2026-07-25T204806.png
 security:

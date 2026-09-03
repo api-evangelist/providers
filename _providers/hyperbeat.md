@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Hyperliquid API from Hyperbeat — 6 operation(s) for hyperliquid.
   name: Hyperbeat Hyperliquid API
   slug: hyperbeat-hyperliquid-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: authentication/hyperbeat-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hyperbeat-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: 'Hyperbeat is a "Liquid Banking" DeFi platform on Hyperliquid''s HyperEVM, backed by Electric Capital. It combines a self-custodial smart wallet with saving, spending, trading, and yield in one account: multi-chain deposits (BTC/ETH/SOL), up to 40x leveraged trading, up to ~8% APY on idle balances, a crypto-collateralized credit card, and Chat & Pay. Its product suite spans Hyperbeat Pay and the USD+ stablecoin, beHYPE liquid staking, Hyperbeat Earn vaults, delta-neutral tokens (dnHYPE/dnBTC/dnETH), Morphobeat money markets, MasterSwap DEX aggregation, and the Beatpot no-loss prize protocol. For developers and institutions it exposes a Staking API (powered by P2P.org) for programmatic HYPE staking, Builder Codes for beHYPE integration and revenue share, and a public Hyperliquid RPC node.'
 image: https://docs.hyperbeat.org/~gitbook/image?url=https%3A%2F%2F3374536696-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252Fc5pQo8TWkfT3vxsBpjEs%252Fsites%252Fsite_8DCfQ%252Ficon%252F5NvaQNePJxJqfblCFSeI%252FMono-white.png%3Falt%3Dmedia%26token%3D8f675090-98b9-4515-bc9c-ac73d9ea4499&width=256&height=256&sign=717a6d7a&sv=2
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hyperbeat MCP Server
-  slug: hyperbeat-mcp-server
 modified: '2026-07-19'
 name: Hyperbeat
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/screenshots/hyperbeat-2026-07-25T221845.png
 security:

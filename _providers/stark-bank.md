@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.starkbank.com
@@ -191,7 +191,7 @@ apis:
   description: Workspaces are bank accounts. They have independent balances, statements, operations and permissions. The only property that is shared between your workspaces is the link they have to your organizatio
   name: Stark Bank Workspace API
   slug: stark-bank-workspace-api
-artifact_total: 67
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Stark Bank Events Webhooks
@@ -361,7 +361,7 @@ common:
   url: packages/stark-bank-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stark-bank-mcp.yml
 - group: agent
   title: ''
@@ -419,10 +419,6 @@ created: '2026-07-17'
 description: Stark Bank is a regulated Brazilian financial institution (authorized by the Banco Central do Brasil, not a payment service provider) that exposes end-to-end money movement through a single RESTful JSON API. Businesses collect money with Pix Invoices, Pix QR codes, Pix subscriptions, Boletos, card payments and marketplace split receivables, and pay out with Pix/TED Transfers, Boleto, BR Code, utility, tax and DARF payments plus approval-gated Payment Requests. Received funds land directly in the account balance with no wallet or payout step. The v2 OpenAPI 3.1 API (143 operations) authenticates with ECDSA request signing rather than API keys or OAuth, offers a production-identical sandbox, cursor pagination, externalId idempotency and signed webhook events, and ships nine official SDKs (Python, Node, Go, Java, Ruby, PHP, .NET, Elixir, Clojure).
 image: https://www.starkbank.com/static/icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stark Bank MCP Server
-  slug: stark-bank-mcp-server
 modified: '2026-07-21'
 name: Stark Bank
 nav: Providers
@@ -469,8 +465,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/screenshots/stark-bank-2026-08-17T082105.png
 security:

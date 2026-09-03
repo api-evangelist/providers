@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Partners API from Impossible Cloud — 5 operation(s) for partners.
   name: Impossible Cloud Partners API
   slug: impossible-cloud-partners-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -83,7 +83,7 @@ common:
   url: llms/impossible-cloud-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/impossible-cloud-mcp.yml
 - group: other
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Impossible Cloud is a European sovereign cloud platform headquartered in Hamburg, Germany, providing S3-compatible object storage (11 nines durability, Object Lock/WORM, no egress or API-call fees), bare metal NVIDIA GPU servers, and managed AI services, all GDPR-ready by design and operated under EU jurisdiction with no US CLOUD Act exposure. For partners, distributors, and resellers it exposes the Management Console public API — a RESTful JSON API for automating storage-account provisioning, partner and member management, region discovery, and usage/billing reporting. The object storage service is fully AWS S3 API compatible, so existing AWS SDKs, the AWS CLI, and S3 tooling work against regional endpoints such as https://eu-central-2.storage.impossibleapi.net.
 image: https://www.impossiblecloud.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Impossible Cloud MCP Server
-  slug: impossible-cloud-mcp-server
 modified: '2026-07-19'
 name: Impossible Cloud
 nav: Providers
@@ -230,8 +226,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
 security:

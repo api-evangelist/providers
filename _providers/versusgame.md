@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -204,7 +204,7 @@ apis:
   description: The widgets API from VersusGame — 5 operation(s) for widgets.
   name: VersusGame Widgets API
   slug: versusgame-widgets-api
-artifact_total: 70
+artifact_total: 69
 collections:
 - collection_type: open
   name: API Collection
@@ -315,7 +315,7 @@ common:
   url: capabilities/versusgame-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/versusgame-mcp.yml
 - group: agent
   title: ''
@@ -409,10 +409,6 @@ created: '2026-08-02'
 description: VersusGame (branded "Versus") is an interactive gaming and audience-engagement company whose AI content-gamification engine turns publisher articles, live broadcasts and on-demand video into embeddable prediction games. Its flagship MiniGames product drops contextual, content-native games into partner sites via embed widgets, and its VersusLM AI system generates prediction games from arbitrary media. The platform layers real-time prediction, social competition, leaderboards, virtual wallets, coin/ticket economies, prize payouts and contextual "seamless ads" on top of partner content to drive longer sessions, repeat visits and incremental revenue. A single production REST API at api.versusgame.com exposes 239 operations across game creation, gameplays, gamesets, leaderboards, widgets, creators, playlists, wallets, ledger, payments/payouts and an autogame AI pipeline. Publicly named partners include ABC, Microsoft, Disney, BuzzFeed, Billboard, ESPN and UFC.
 image: https://cdn.prod.website-files.com/661e9580f882ac357a892420/667c9c7ef8960c14de4190b9_Versus-Favicon-256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: VersusGame MCP Server
-  slug: versusgame-mcp-server
 modified: '2026-08-02'
 name: VersusGame
 nav: Providers
@@ -457,8 +453,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/screenshots/versusgame-2026-09-02T165753.png
 security:

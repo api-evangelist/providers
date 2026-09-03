@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -268,7 +268,7 @@ apis:
   description: The widget API from Unisson — 10 operation(s) for widget.
   name: Unisson widget API
   slug: unisson-widget-api
-artifact_total: 97
+artifact_total: 96
 asyncapis:
 - description: ''
   name: Unisson Webhooks
@@ -463,7 +463,7 @@ common:
   url: https://trust.unisson.ai/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unisson-mcp.yml
 - group: agent
   title: ''
@@ -504,10 +504,6 @@ common:
 created: '2026-07-17'
 description: Unisson (YC W26) builds AI agents that act as subject-matter experts for B2B software implementation and customer-facing teams. Its Runner agent executes complex deployment, onboarding, and administration tasks directly inside a product, while Explorer maintains an always up-to-date knowledge base of how the product works. Agents are reachable over Slack, Microsoft Teams, WhatsApp, email, and an embeddable widget, and the platform exposes a bearer-token REST API (api.unisson.ai) covering agents, runs, scheduled runs, skills, knowledge base, integrations, customers, meetings, and an external Runner API for triggering runs and receiving webhook callbacks from your own tools.
 layout: provider
-mcp_servers:
-- description: No official hosted MCP server was found for Unisson (mcp.unisson.ai does not resolve; no registry listing). Candidate tool list derived from the external Runner API operations plus the highest-value p
-  name: Unisson MCP Server
-  slug: unisson-mcp-server
 modified: '2026-07-21'
 name: Unisson
 nav: Providers
@@ -549,8 +545,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/screenshots/unisson-2026-09-02T164911.png
 security:

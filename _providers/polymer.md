@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Polymer embedded analytics platform. Manage workspaces and users, connect and sync data sources (Snowflake, BigQuery, uploads), create and update datasets, compose boards from visuali
   name: Polymer Embedded Analytics API
   slug: polymer-embedded-analytics-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -131,7 +131,7 @@ common:
   url: changelog/polymer-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/polymer-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Polymer (Polymer Search) is an AI-driven embedded analytics and business intelligence platform that lets teams and product developers turn raw spreadsheet, database, and SaaS data into interactive dashboards, charts, and visualizations without a data analyst. Its REST API lets developers create workspaces, connect data sources (Snowflake, BigQuery, CSV/JSON uploads), build boards composed of visualization blocks, and embed white-labeled, permission-scoped dashboards directly into their own applications with a few lines of code. Authentication is via API key, with short-lived embed tokens for end-user access. Polymer is backed by Sierra Ventures and 500 Global.
 image: https://www.polymersearch.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Polymer MCP Server (candidate)
-  slug: polymer-mcp-server-candidate
 modified: '2026-07-20'
 name: Polymer
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/screenshots/polymer-2026-09-02T151710.png
 security:

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.textmaster.com
@@ -141,7 +141,7 @@ apis:
   description: The Work Templates API from TextMaster — 2 operation(s) for work templates.
   name: TextMaster Work Templates API
   slug: textmaster-work-templates-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Textmaster Event Surface
@@ -149,7 +149,7 @@ asyncapis:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/textmaster-mcp.yml
 - group: other
   title: ''
@@ -255,10 +255,6 @@ created: '2026-08-17'
 description: TextMaster is a French professional translation, proofreading and copywriting platform that sells human-and-machine language work as an API-first service in 50+ languages. Clients create Projects, attach Documents (plain text or file URLs), request a quotation, launch against a prepaid credit wallet, and receive finished content back through status-change webhooks. The platform exposes a documented OpenAPI 3.0.3 REST API at api.textmaster.com covering projects, documents, glossaries, expertises, preferred authors, work/API templates, transactions, invoices and receipts, secured by OAuth 2.0 authorization-code apps with 22 granular scopes plus a legacy signature strategy. It ships first-party Akeneo, Magento 2, Salesforce Commerce Cloud and Hybris connectors and a PHP API client. TextMaster is now part of Acolad Group; the marketing site is a transition landing page pointing at Acolad's Lia platform, while the application, the API and the developer portal remain live and in service.
 image: https://www.textmaster.com/assets/textmaster-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: TextMaster MCP Server
-  slug: textmaster-mcp-server
 modified: '2026-08-17'
 name: TextMaster
 nav: Providers
@@ -312,8 +308,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/screenshots/textmaster-2026-09-02T163300.png
 security:

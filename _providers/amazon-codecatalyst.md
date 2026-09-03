@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -63,7 +63,7 @@ apis:
   description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
   name: Amazon CodeCatalyst UserDetails API
   slug: amazon-codecatalyst-userdetails-api
-artifact_total: 466
+artifact_total: 465
 collections:
 - collection_type: postman
   name: Amazon CodeCatalyst AccessTokens API
@@ -95,7 +95,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codecatalyst-mcp.yml
 - group: other
   title: ''
@@ -1533,10 +1533,6 @@ jsonld:
   property_count: 74
   slug: amazon-codecatalyst-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeCatalyst MCP Server
-  slug: amazon-codecatalyst-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeCatalyst
 nav: Providers
@@ -1599,8 +1595,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:

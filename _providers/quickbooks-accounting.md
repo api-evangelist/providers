@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing QuickBooks Online accounting entities including Customer, Vendor, Employee, Item, Invoice, Bill, Payment, BillPayment, JournalEntry, Account, TaxCode, and Company information. Al
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 22.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks-accounting/refs/heads/main/screenshots/quickbooks-accounting-2026-06-20T192431.png
 security:

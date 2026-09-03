@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Control plane (api.tabtabtab.ai) plus per-environment agent/webhook surface (<env>.tabtabtab.app). Driven via the tabtabtab CLI and inbound webhooks; no public OpenAPI is published.
@@ -166,8 +166,8 @@ score:
   previous_composite: 30.1
   provenance:
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabtabtab/refs/heads/main/screenshots/tabtabtab-2026-08-17T082241.png
 security:

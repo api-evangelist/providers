@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Which crawler a User-Agent header belongs to, who operates it, whether it documents obeying robots.txt, how to verify it is genuine against the operator's own published IP ranges, and what blocking it
@@ -186,8 +186,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/screenshots/pathwren-2026-09-02T150912.png
 security:

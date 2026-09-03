@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Sanctions Screening API from TRM Labs — 1 operation(s) for sanctions screening.
   name: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: data-model/trm-labs-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trm-labs-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: TRM Labs is a blockchain intelligence company that helps financial institutions, crypto businesses, and government agencies detect and investigate crypto-related fraud, money laundering, and sanctions violations. Its public API surface includes the TRM Sanctions API for screening blockchain addresses against sanctions lists, and the Chainabuse Public API (community-sourced scam reporting) for contributing, retrieving, and looking up reports of malicious addresses, tokens, transactions, and domains. Both APIs use HTTP Basic authentication and are documented at docs.trmlabs.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trm-labs.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: TRM Labs MCP Server
-  slug: trm-labs-mcp-server
 modified: '2026-07-21'
 name: TRM Labs
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/screenshots/trm-labs-2026-08-17T082443.png
 security:

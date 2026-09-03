@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -500,8 +500,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/screenshots/bridgit-2026-06-20T173656.png
 security:

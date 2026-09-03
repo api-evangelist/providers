@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.emergemarket.io/v1
@@ -84,7 +84,7 @@ apis:
   description: Webhooks are used to provide updates to the TMS when award or option events are generated within the Emerge system. </br></br>If our webhook message cannot be accepted by the webhook endpoint due to n
   name: Emerge Webhooks API
   slug: emerge-webhooks-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Emerge Webhooks
@@ -231,7 +231,7 @@ common:
   url: packages/emerge-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/emerge-mcp.yml
 - group: agent
   title: ''
@@ -254,10 +254,6 @@ description: Emerge (EmergeTech, Inc.) is a Scottsdale, Arizona freight procurem
   E2open, MercuryGate and Capacity Link partners.
 image: https://cdn.prod.website-files.com/66ad43d7385c00622859db37/66b8fd0eb48dad5fa020dc5c_website_share.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Emerge MCP Server
-  slug: emerge-mcp-server
 modified: '2026-08-12'
 name: Emerge
 nav: Providers
@@ -306,8 +302,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
 security:

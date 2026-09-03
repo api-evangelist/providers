@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ arazzos:
 - description: Inspect a PSD's text layers, rewrite their content and styling, then render the result.
   name: Adobe Photoshop Text Layer Personalization
   slug: adobe-photoshop-text-layer-personalization-workflow
-artifact_total: 138
+artifact_total: 137
 asyncapis:
 - description: Event-driven notifications for Adobe Photoshop API asynchronous job processing. When registered through Adobe I/O Events, webhooks deliver real-time notifications when Photoshop API jobs complete or f
   name: Adobe Photoshop API Webhook Events
@@ -254,7 +254,7 @@ common:
   url: well-known/adobe-photoshop-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adobe-photoshop-mcp.yml
 - group: agent
   title: ''
@@ -610,10 +610,6 @@ jsonld:
   property_count: 28
   slug: adobe-photoshop-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adobe Photoshop MCP Server
-  slug: adobe-photoshop-mcp-server
 modified: '2026-06-20'
 name: Adobe Photoshop
 nav: Providers
@@ -695,8 +691,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:

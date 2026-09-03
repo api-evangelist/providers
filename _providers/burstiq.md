@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -148,7 +148,7 @@ apis:
   description: For interacting with wallets when the type of wallet (user or system) is unknown
   name: BurstIQ Wallet APIs API
   slug: burstiq-wallet-apis-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -231,7 +231,7 @@ common:
   url: authentication/burstiq-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/burstiq-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ created: '2026-07-17'
 description: BurstIQ is a health-and-data technology company whose LifeGraph platform pairs a blockchain-secured knowledge graph (GraphChain) with granular consent-and-ownership wallets and configurable data pipelines to give enterprises trusted, agent-ready data. The LifeGraph REST API (OpenAPI 3.1, version 2.42.0) exposes 171 operations across GraphChain Smart Data Objects, user and system wallets, dictionaries, glossaries, edge definitions, data pipelines, job management, and an OData v4 query surface, secured with bearer (JWT) authentication. BurstIQ was surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.
 image: https://burstiq.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: BurstIQ MCP Server
-  slug: burstiq-mcp-server
 modified: '2026-07-18'
 name: BurstIQ
 nav: Providers
@@ -349,8 +345,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/screenshots/burstiq-2026-07-25T204112.png
 security:

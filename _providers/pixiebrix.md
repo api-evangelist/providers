@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.pixiebrix.com/api/
@@ -346,11 +346,11 @@ score:
   band: strong
   composite: 59.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -360,7 +360,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.0
+  previous_composite: 59.6
   provenance:
     conformance: first-party
     contracts:
@@ -370,8 +370,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/screenshots/pixiebrix-2026-09-02T151345.png
 security:

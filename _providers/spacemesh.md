@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
   description: The TransactionService API from Spacemesh — 8 operation(s) for transactionservice.
   name: Spacemesh TransactionService API
   slug: spacemesh-transactionservice-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -178,7 +178,7 @@ common:
   url: cli/spacemesh-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spacemesh-mcp.yml
 - group: agent
   title: ''
@@ -224,10 +224,6 @@ created: '2026-07-17'
 description: Spacemesh is a permissionless, self-mining proof-of-space-time (PoST) layer-1 blockchain built to run on ordinary home computers using unused disk space rather than specialized hardware or large capital stake. Its full-node software (go-spacemesh) exposes a gRPC API with a grpc-gateway REST/JSON facade for reading chain state — accounts, transactions, layers, rewards and activations (ATXs) — and for submitting transactions. Surfaced as a Paradigm portfolio company; the protocol, node, API design and developer tooling remain open source under the spacemeshos GitHub org, though the company's spacemesh.io / spacemesh.network web and hosted-API domains are now parked and the last node release was April 2025 (project appears dormant).
 image: https://github.com/spacemeshos.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spacemesh MCP Server
-  slug: spacemesh-mcp-server
 modified: '2026-07-21'
 name: Spacemesh
 nav: Providers
@@ -269,8 +265,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/screenshots/spacemesh-2026-09-02T160328.png
 security:

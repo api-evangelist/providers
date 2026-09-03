@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: 'The BandChain REST API provides HTTP access to BandChain mainnet data including oracle scripts, data requests, price feeds, validator information, account balances, and all Cosmos SDK module queries. '
@@ -162,8 +162,8 @@ score:
     applies: true
     score: 60.0
   previous_composite: 34.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-protocol/refs/heads/main/screenshots/band-protocol-2026-06-20T173037.png
 security:

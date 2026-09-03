@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: http://{haproxy-host}:5555/v3
@@ -210,7 +210,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -223,7 +223,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 43.8
+  previous_composite: 44.6
   provenance:
     conformance: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haproxy/refs/heads/main/screenshots/haproxy-2026-06-20T182509.png
 security:

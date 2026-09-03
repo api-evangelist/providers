@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Cross-border payouts to bank accounts, cards and wallets in 220+ countries with real-time delivery in 100+.
@@ -114,8 +114,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/screenshots/nium-2026-06-20T190335.png
 security:

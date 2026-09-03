@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -334,7 +334,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 45.6
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,8 +350,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

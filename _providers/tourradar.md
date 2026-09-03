@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Unified B2B API giving platforms, travel agencies, airlines, and GDSs access to TourRadar's network of 2,500+ organized adventure operators and 50,000+ experiences. Offered in three tiers - a Search &
@@ -164,8 +164,8 @@ score:
   previous_composite: 20.1
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/screenshots/tourradar-2026-09-02T163955.png
 security:

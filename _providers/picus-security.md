@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ apis:
   description: The Users API from Picus Security — 5 operation(s) for users.
   name: Picus Security Users API
   slug: picus-security-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -165,7 +165,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/picus-security-mcp.yml
 - group: other
   title: ''
@@ -303,10 +303,6 @@ created: '2026-08-02'
 description: Picus Security is a cybersecurity company that pioneered Breach and Attack Simulation (BAS) in 2013 and now ships the Picus Security Validation Platform for Adversarial Exposure Validation (AEV) and Continuous Threat Exposure Management (CTEM). The platform continuously simulates real-world adversary techniques against network, endpoint, email and cloud controls, scores prevention and detection effectiveness, maps results to MITRE ATT&CK and the Unified Kill Chain, and returns vendor-specific mitigation signatures and validated detection rules from the Picus Mitigation Library. The Picus Customer API is a public REST API documented at apidocs.picussecurity.com and served from api.picussecurity.com, exposing simulations, simulation run results, the threat library, threat templates, agents, integrations, mitigation and detection content, exposure instance scores, users and roles, and activity logs, authorized with OAuth2-issued refresh and access tokens.
 image: https://www.picussecurity.com/hubfs/Picus_February2020/images/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Picus Security MCP Server
-  slug: picus-security-mcp-server
 modified: '2026-08-02'
 name: Picus Security
 nav: Providers
@@ -349,8 +345,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
 security:

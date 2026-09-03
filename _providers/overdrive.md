@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Discovery APIs to search and find information about titles in a library's OverDrive collection — Library Account, Search, Metadata, and Library Availability.
@@ -45,7 +45,7 @@ apis:
 - description: Reporting API to see the titles that were borrowed from a specific collection during a specific time period (public libraries only).
   name: OverDrive Reporting API
   slug: overdrive-reporting-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -117,7 +117,7 @@ common:
   url: https://developer.overdrive.com/.well-known/security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/overdrive-mcp.yml
 - group: agent
   title: ''
@@ -127,10 +127,6 @@ created: '2026-07-17'
 description: 'OverDrive is a digital reading platform that distributes ebooks, audiobooks, and magazines to public libraries and schools worldwide, best known for its Libby and Sora reading apps. OverDrive publishes a set of REST APIs that let library systems, integrators, and partners work against a library''s OverDrive collection: Discovery APIs (Library Account, Search, Metadata, and Library Availability), Circulation APIs (patron information, checkouts, and holds), Reporting APIs (checkouts report), and a Title Link API. Access is authorized with OAuth 2.0 client-credentials (client authentication) for discovery and patron authentication (including QR-code sign-in) for borrowing and holds, with a dedicated integration environment for testing against real titles before going live.'
 image: https://developer.overdrive.com/img/overdrive-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OverDrive MCP Server
-  slug: overdrive-mcp-server
 modified: '2026-07-20'
 name: OverDrive
 nav: Providers
@@ -168,8 +164,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/screenshots/overdrive-2026-08-07T191124.png
 security:

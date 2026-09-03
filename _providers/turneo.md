@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST booking API for searching experiences, retrieving options and availability, and assembling and confirming booking orders. Authenticated with an X-API-Key header; versioned in the URI path (/v2).
   name: Turneo v2 API
   slug: turneo-v2-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -95,7 +95,7 @@ common:
   url: components/turneo-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/turneo-mcp.yml
 - group: agent
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: Turneo is an operating system for hotel experiences and services, backed by Bessemer Venture Partners. It digitizes the activities, spa & wellness, dining, rentals, transfers, and tickets a hotel offers, makes them bookable across guest touchpoints, and deploys AI agents to automate the operations behind them. Hotels and partners integrate through the Turneo v2 REST API (https://api.turneo.co, API-key authenticated) to search experiences, retrieve options and availability, and assemble and confirm booking orders, and through embeddable Turneo Elements widgets that add browse-and-book surfaces (with Apple Pay) directly to a partner website. It also plugs into existing tools such as Bokun, OPERA Cloud, apaleo, MEWS, and REGIONDO.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turneo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Turneo MCP Server
-  slug: turneo-mcp-server
 modified: '2026-07-21'
 name: Turneo
 nav: Providers
@@ -151,8 +147,8 @@ score:
   previous_composite: 24.5
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turneo/refs/heads/main/screenshots/turneo-2026-09-02T164536.png
 security:

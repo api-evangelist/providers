@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://quantive.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.workboard.com/ — a different registrable domain (quantive.com -> workboard.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API v1.0 for the WorkBoard / Quantive strategy-execution platform. Supports OAuth 2.0 (authorization-code) for multi-user apps and an instant-token flow for single-user or testing scenarios. A
@@ -102,8 +103,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantive/refs/heads/main/screenshots/quantive-2026-09-02T152611.png
 security:

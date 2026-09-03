@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'REST and WebSocket API for advanced crypto trading on Nexo Pro. Supports spot trading, futures, TWAP orders, account balances, order placement, order cancellation, trade history, and futures position '
@@ -154,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/screenshots/nexo-2026-06-20T190254.png
 security:

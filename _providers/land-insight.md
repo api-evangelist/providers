@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.land.tech/api
@@ -96,7 +96,7 @@ apis:
   description: Endpoint for details on strategic industrial location
   name: Land Insight Strategic Industrial Location API
   slug: land-insight-strategic-industrial-location-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -244,7 +244,7 @@ common:
   url: llms/land-insight-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/land-insight-mcp.yml
 - group: agent
   title: ''
@@ -254,10 +254,6 @@ created: '2026-07-17'
 description: LandTech (land.tech) is a UK property technology company whose LandInsight platform is used by developers, land agents, planners and investors to source and assess development sites. It combines HM Land Registry ownership and title data, planning applications, local plan policy, development constraints (Green Belt, flood zones, Article 4 directions, heritage designations), Land Availability Assessments, brownfield and regeneration opportunities, EPC and property attributes, and electricity network / renewable energy infrastructure into a single map-based product. Alongside LandInsight the company ships LandFund for development finance appraisal and Give My View for community engagement. The LandTech API exposes the same UK land and planning datasets as a paid HTTP product so customers can feed parcel search, ownership, planning application and constraint data into their own internal or customer-facing systems.
 image: https://land.tech/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Land Insight MCP Server
-  slug: land-insight-mcp-server
 modified: '2026-07-19'
 name: Land Insight
 nav: Providers
@@ -295,8 +291,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/screenshots/land-insight-2026-07-25T224458.png
 security:

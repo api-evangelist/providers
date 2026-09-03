@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
@@ -209,8 +209,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: 'Repolinter is an open source linting tool for repositories that validates compliance with open source best practices. It checks repositories for standard files like LICENSE, README, CONTRIBUTING, and '
@@ -210,8 +210,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 33.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todo-group/refs/heads/main/screenshots/todo-group-2026-06-20T195427.png
 security:

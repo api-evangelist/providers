@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.planradar.com/api/v1
@@ -216,7 +216,7 @@ apis:
   description: The videos API from PlanRadar — 3 operation(s) for videos.
   name: PlanRadar videos API
   slug: planradar-videos-api
-artifact_total: 78
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Planradar Webhooks
@@ -412,7 +412,7 @@ common:
   url: data-model/planradar-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/planradar-mcp.yml
 - group: design
   title: ''
@@ -454,10 +454,6 @@ created: '2026-07-17'
 description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read and manage projects, tickets, documents, DMS nodes, forms, plans, roles, approval requests and workflows, and Site View captures, generate asynchronous Excel and PDF exports, and subscribe to event webhooks. PlanRadar Connect, built on Workato, layers 200+ no-code integrations on top of the API for tools such as SharePoint, Power BI, Salesforce, Procore, SAP, Jira and Slack.
 image: https://www.planradar.com/wp-content/themes/planradar/images/favicon_192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PlanRadar MCP Server
-  slug: planradar-mcp-server
 modified: '2026-07-20'
 name: PlanRadar
 nav: Providers
@@ -498,8 +494,8 @@ score:
       total: 36
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/screenshots/planradar-2026-08-17T081300.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -105,7 +105,7 @@ arazzos:
 - description: Start a Sumsub KYC session, read stored PII, and create a tax-document signing submission for a Passage user.
   name: CoinList Passage - KYC and document onboarding
   slug: coinlist-kyc-onboarding
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -174,7 +174,7 @@ common:
   url: components/coinlist-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coinlist-mcp.yml
 - group: agent
   title: ''
@@ -276,10 +276,6 @@ created: '2026-07-17'
 description: 'CoinList is a fintech platform for the token economy - it runs compliant token sales, tokenized equities, trading, staking, and wallet services for crypto projects and investors. Its developer surface is Passage (the "Frontline API"), a partner API that lets third parties embed CoinList-managed token sales and tokenized equities directly inside their own apps: OAuth 2.0 (PKCE) partner and user authentication, Sumsub KYC token issuance, tax-document signing, offers, eligibility requirements, participations, wallet ownership proof and allow-listing, and on-chain swap/token reads. Passage runs the regulated infrastructure and back office; the partner focuses on the product. Shipped with a React SDK (@coinlist-co/react) of UI components, hooks, and server helpers. Added to the API Evangelist network from the electric-capital and polychain portfolios and enriched from CoinList''s public developer surface.'
 image: https://logo.clearbit.com/coinlist.co
 layout: provider
-mcp_servers:
-- description: ''
-  name: CoinList MCP Server
-  slug: coinlist-mcp-server
 modified: '2026-07-18'
 name: CoinList
 nav: Providers
@@ -329,8 +325,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/screenshots/coinlist-2026-08-17T123123.png
 security:

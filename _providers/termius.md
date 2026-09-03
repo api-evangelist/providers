@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: http://localhost:8080
@@ -47,7 +47,7 @@ apis:
   description: Create or Delete a host inside the vault or the group
   name: Termius host API
   slug: termius-host-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -141,7 +141,7 @@ common:
   url: well-known/termius-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/termius-mcp.yml
 - group: design
   title: ''
@@ -195,10 +195,6 @@ created: '2026-07-17'
 description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults, shared and synced credentials, SSH keys, snippets, SFTP, port forwarding, jump hosts, and session organization. For programmatic use Termius ships the API Bridge — a self-hosted REST API (OpenAPI 3.0) that encrypts infrastructure data locally and pushes hosts and groups into a Termius Team vault — plus an official command-line client. The company also runs a Security Center with a SOC 2 report.
 image: https://framerusercontent.com/images/JcjJ8OLLESSIHYJ4Rdi4fZmDkQw.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Termius MCP Server
-  slug: termius-mcp-server
 modified: '2026-07-21'
 name: Termius
 nav: Providers
@@ -236,8 +232,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/screenshots/termius-2026-08-17T082319.png
 security:

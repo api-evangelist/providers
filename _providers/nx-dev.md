@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 10
 apis:
 - description: The Nx command-line interface — the primary surface for running, caching, and orchestrating tasks across a monorepo. Built in Rust for performance and extensible via TypeScript plugins. Supports `nx r
@@ -266,8 +266,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 25.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nx-dev/refs/heads/main/screenshots/nx-dev-2026-08-07T185821.png
 security:

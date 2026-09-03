@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
@@ -160,8 +160,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/screenshots/jedify-2026-07-25T223116.png
 security:

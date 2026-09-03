@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public API for javascript, css and font libraries on PageCDN
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagecdn/refs/heads/main/screenshots/pagecdn-2026-06-20T191322.png
 security:

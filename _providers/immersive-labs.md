@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Immersive platform V1 API — a single GraphQL endpoint exposing organizational data (achievements, assignable content, labs, collections, cyber roles, viewer account, workforce scenarios, and OIDC '
   name: Immersive API V1 (GraphQL)
   slug: immersive-api-v1-graphql
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -131,7 +131,7 @@ common:
   url: llms/immersive-labs-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/immersive-labs-mcp.yml
 - group: auth
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Immersive Labs (now branded "Immersive") is a cyber resilience platform — "the cyber proving ground for the AI enterprise" — that lets organizations continuously prove and improve the cyber readiness of their workforce, security teams, AI agents, and leadership through hands-on labs, realistic drills, and crisis-simulation exercises. Trusted by more than 30% of Fortune 100 companies, the platform measures human and organizational cyber capability across people, process, and technology. Its APIs let customers export achievements, assignable content, labs, collections, cyber roles, and workforce-scenario data into their own reporting, SIEM, and workforce-analytics systems. The current V1 API is GraphQL (with a legacy GraphQL surface being retired in favor of an actively enhanced V2), authenticated with an API access key and secret token exchanged for a short-lived bearer access token.
 image: https://cdn.prod.website-files.com/6735fba9a631272fb4513263/6759b61c2c4a5793d96bfb2d_WhiteOutLogo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Immersive Labs MCP Server
-  slug: immersive-labs-mcp-server
 modified: '2026-07-19'
 name: Immersive Labs
 nav: Providers
@@ -184,8 +180,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immersive-labs/refs/heads/main/screenshots/immersive-labs-2026-07-25T222128.png
 security:

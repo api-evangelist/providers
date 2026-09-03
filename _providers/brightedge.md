@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.3
-  scored_at: '2026-09-02'
+  score: 40.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -330,6 +330,10 @@ collections:
   name: BrightEdge Platform accounts webhook API
   slug: open-brightedge-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brightedge-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -516,7 +520,7 @@ network: true
 overview: 'BrightEdge publishes 29 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 26 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
 
 
-  BrightEdge''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 35 more developer resources.'
+  BrightEdge''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Brightedge Plans Pricing
   plan_count: 0
@@ -535,7 +539,7 @@ score:
   band: developing
   composite: 47.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -560,8 +564,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for RunReveal — manage sources, detections, pipelines, investigations, dashboards, notifications, agents, and agent skills across a workspace. OAuth2 (authorization_code + PKCE) or workspace '
@@ -194,8 +194,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runreveal/refs/heads/main/screenshots/runreveal-2026-09-02T154209.png
 security:

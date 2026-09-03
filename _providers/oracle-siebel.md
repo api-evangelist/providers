@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -400,13 +400,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.6
+  composite: 65.6
   coverage:
     artifact_dirs: 29
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -416,9 +416,6 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 84.2
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 61.6
   provenance:
     conformance: derived
@@ -429,8 +426,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:

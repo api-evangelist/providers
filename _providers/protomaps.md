@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: CDN-backed hosted basemap tile API serving OpenStreetMap-derived vector tiles in MVT format. Provides Style JSON, TileJSON, and ZXY tile endpoints. Free for non-commercial use; commercial use requires
@@ -154,8 +154,8 @@ score:
     applies: true
     score: 25.0
   previous_composite: 34.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/screenshots/protomaps-2026-06-20T192223.png
 security:

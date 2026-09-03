@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -108,7 +108,7 @@ apis:
   description: The Webhooks API from Overflow — 3 operation(s) for webhooks.
   name: Overflow Webhooks API
   slug: overflow-webhooks-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Overflow Webhooks
@@ -219,7 +219,7 @@ common:
   url: llms/overflow-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/overflow-mcp.yml
 - group: other
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Overflow is a fintech giving platform for churches and nonprofits that lets organizations accept and reconcile donations across many asset types — card and ACH, Apple Pay and Google Pay, stock, cryptocurrency, RoundUps, and Donor Advised Funds (DAFs) — through a single unified platform. Overflow also offers Overflow Tap (NFC tap-to-give hardware) and Generosity University donor education. Its public Overflow Open API (v3) is a REST interface over contributions, donors, subscriptions (recurring gifts), payments, campaigns, deposits, refunds, chargebacks, locations, tap devices/events, and webhooks, authenticated with header API keys and used to sync giving data into CRMs and accounting/reconciliation workflows. Overflow is backed by Uncork Capital.
 image: https://cdn.prod.website-files.com/661982b7ce6b433411c6e0c8/661986ff805671631abc51f8_Open%20Graph%20Image.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Overflow MCP Server
-  slug: overflow-mcp-server
 modified: '2026-07-20'
 name: Overflow
 nav: Providers
@@ -316,8 +312,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/screenshots/overflow-2026-08-07T191125.png
 security:

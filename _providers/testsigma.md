@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API to manage Testsigma entities (projects, applications, environments, elements, uploads, test plans) and to trigger and poll test-plan executions remotely. Authenticated with a Bearer API Key.
   name: Testsigma REST API
   slug: testsigma-rest-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -131,7 +131,7 @@ common:
   url: cli/testsigma-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/testsigma-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Testsigma is an agentic, GenAI-powered codeless test automation platform. AI co-workers work alongside QA teams to author and maintain automated tests in natural language across web, mobile, desktop, API, and packaged applications like Salesforce and SAP. Testsigma exposes a REST API (app.testsigma.com/api/v1, Bearer API-Key authentication) to manage projects, applications, environments, elements, uploads, and test plans, and to trigger and poll test-plan executions remotely from CI/CD pipelines. A Community Edition is open source under Apache 2.0. Testsigma is backed by Accel.
 image: https://website-static.testsigma.com/website-next/nextjs/6d1168/favicons/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Testsigma MCP Server
-  slug: testsigma-mcp-server
 modified: '2026-07-21'
 name: Testsigma
 nav: Providers
@@ -200,8 +196,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testsigma/refs/heads/main/screenshots/testsigma-2026-09-02T163241.png
 security:

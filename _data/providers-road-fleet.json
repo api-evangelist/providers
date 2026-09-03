@@ -4,21 +4,21 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "66.5+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Convoy",
      "slug": "convoy",
      "description": "Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as \"the complete solution for secure, scalable, and reliable webhook delivery,\" covering both outbound (sending) and inbound (receiving) webhooks with retries, payload signing, fan-out, rate limiting, message broker ingestion, and customer-facing portals. Convoy is offered as a self-hosted open-source project (Elastic License v2.0, with the OpenAPI spec under MPL 2.0) and a fully managed cloud service in US and EU regions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png",
-     "score": 65.8,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 67.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 70.4,
       "contract_quality": 75.1,
@@ -29,8 +29,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -56,7 +56,18 @@
      },
      "tier": "Digital Freight Marketplaces",
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
     {
      "name": "Onfleet",
      "slug": "onfleet",
@@ -75,8 +86,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 23.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -121,8 +132,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -185,8 +196,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -231,8 +242,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -277,8 +288,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -323,8 +334,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -369,8 +380,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -415,8 +426,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -443,8 +454,7 @@
      "tier": "Telematics & Fleet",
      "rank": 9
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "thin",
@@ -454,6 +464,52 @@
    "count": 4,
    "shown": 4,
    "providers": [
+    {
+     "name": "Samsara",
+     "slug": "samsara",
+     "description": "Samsara is a leading connected operations platform for physical operations industries including transportation, logistics, construction, field services, and energy. The Samsara REST API provides programmatic access to fleet telematics, driver safety, compliance (ELD/HOS), vehicle diagnostics, route management, industrial IoT sensors, and workforce management. With over two million connected devices, the platform offers real-time GPS tracking, AI-powered safety cameras, digital inspection forms (DVIRs), IFTA reporting, and data streaming via webhooks and Kafka. Base URL: https://api.samsara.com. Authentication uses Bearer tokens with OAuth 2.0 support.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png",
+     "score": 35.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 71.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 10.7,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 20.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Telematics & Fleet",
+     "rank": 10
+    },
     {
      "name": "Turvo",
      "slug": "turvo",
@@ -472,8 +528,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -505,7 +561,7 @@
       "agentic_commerce": false
      },
      "tier": "Transportation Management",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Cargomatic",
@@ -525,8 +581,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -551,7 +607,7 @@
       "agentic_commerce": false
      },
      "tier": "Digital Freight Marketplaces",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Motive",
@@ -571,8 +627,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -584,52 +640,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Telematics & Fleet",
-     "rank": 12
-    },
-    {
-     "name": "Samsara",
-     "slug": "samsara",
-     "description": "Samsara is a leading connected operations platform for physical operations industries including transportation, logistics, construction, field services, and energy. The Samsara REST API provides programmatic access to fleet telematics, driver safety, compliance (ELD/HOS), vehicle diagnostics, route management, industrial IoT sensors, and workforce management. With over two million connected devices, the platform offers real-time GPS tracking, AI-powered safety cameras, digital inspection forms (DVIRs), IFTA reporting, and data streaming via webhooks and Kafka. Base URL: https://api.samsara.com. Authentication uses Bearer tokens with OAuth 2.0 support.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png",
-     "score": 32.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 71.0,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 10.7,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 20.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -673,8 +683,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -726,8 +736,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -762,52 +772,6 @@
      "rank": 15
     },
     {
-     "name": "NMFTA",
-     "slug": "nmfta",
-     "description": "The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that industry agreement as open OpenAPI contracts. Two councils sit under the DSDC — the Digital LTL Council, founded November 2020, and the Digital FTL Council, which absorbed the Scheduling Standards Consortium — and between them they turn the paper artifacts of trucking into machine-readable APIs: the electronic bill of lading, the rate quote, the invoice and supporting documents, in-transit visibility, appointment scheduling, book and tender, and preliminary freight charges. For most of NMFTA's history its standards were classification and coding — the NMFC freight classification, ClassIT+, SCAC carrier codes, SPLC location codes — and the DSDC is the same institution doing the same job for the API layer. It is one of the clearest examples of an old, mandate-free trade association choosing specifications-as-code over another PDF behind a membership wall, and the gap between what its website advertises as released and what its public repositories actually contain is the most interesting thing about it.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png",
-     "score": 24.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 48.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Industry Bodies & Standards",
-     "rank": 16
-    },
-    {
      "name": "sennder",
      "slug": "sennder",
      "description": "sennder is Europe's leading digital road freight forwarder, connecting enterprise shippers with a vetted carrier network of 40,000+ small and medium-sized European carriers operating 250,000+ vehicles across 20+ European markets. Headquartered in Berlin with 20 offices across Germany, Italy, Spain, France, Poland, the Netherlands, Latvia, and Romania, sennder runs its proprietary sennOS platform covering end-to-end digital shipment lifecycle management, real-time visibility and tracking, self- service booking at fixed and market prices, and integrated carrier and shipper portals (including a driver app and shipper TMS connectors). sennder operates partner-gated integration APIs for carriers, shippers, and TMS vendors (joined via business onboarding rather than public self- service), and publishes open-source tooling on GitHub including a generator for Python httpx + Pydantic clients from OpenAPI definitions. Sustainability offerings include biofuel and electric vehicle options.",
@@ -825,8 +789,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -858,6 +822,52 @@
       "agentic_commerce": false
      },
      "tier": "Digital Freight Marketplaces",
+     "rank": 16
+    },
+    {
+     "name": "NMFTA",
+     "slug": "nmfta",
+     "description": "The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that industry agreement as open OpenAPI contracts. Two councils sit under the DSDC — the Digital LTL Council, founded November 2020, and the Digital FTL Council, which absorbed the Scheduling Standards Consortium — and between them they turn the paper artifacts of trucking into machine-readable APIs: the electronic bill of lading, the rate quote, the invoice and supporting documents, in-transit visibility, appointment scheduling, book and tender, and preliminary freight charges. For most of NMFTA's history its standards were classification and coding — the NMFC freight classification, ClassIT+, SCAC carrier codes, SPLC location codes — and the DSDC is the same institution doing the same job for the API layer. It is one of the clearest examples of an old, mandate-free trade association choosing specifications-as-code over another PDF behind a membership wall, and the gap between what its website advertises as released and what its public repositories actually contain is the most interesting thing about it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png",
+     "score": 22.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 48.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Industry Bodies & Standards",
      "rank": 17
     },
     {
@@ -878,8 +888,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -924,8 +934,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -970,8 +980,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1026,8 +1036,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1072,8 +1082,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",

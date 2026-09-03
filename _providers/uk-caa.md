@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ arazzos:
 - description: Search the UK Civil Aviation Authority's published consultation activities, then pull the full detail record for the first match.
   name: Track UK CAA consultations
   slug: uk-caa-track-consultations
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: CAA Consultations API (Citizen Space 2.4)
@@ -65,7 +65,7 @@ common:
   url: capabilities/uk-caa-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uk-caa-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ json_schemas:
   property_count: 2
   slug: uk-caa-term
 layout: provider
-mcp_servers:
-- description: 'The UK Civil Aviation Authority publishes NO MCP server. Searched on 2026-07-28: no mcp.caa.co.uk, no MCP reference anywhere on caa.co.uk or in the CAA''s own llms.txt, no CAA GitHub organisation (ukca'
-  name: UK Civil Aviation Authority MCP Server
-  slug: uk-civil-aviation-authority-mcp-server
 modified: '2026-07-28'
 name: UK Civil Aviation Authority
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-caa/refs/heads/main/screenshots/uk-caa-2026-09-02T164750.png
 security:

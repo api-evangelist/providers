@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.daily.co/v1
@@ -101,7 +101,7 @@ apis:
   description: The webhooks API from Daily — 2 operation(s) for webhooks.
   name: Daily webhooks API
   slug: daily-webhooks-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Daily Webhooks
@@ -236,7 +236,7 @@ common:
   url: packages/daily-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/daily-mcp.yml
 - group: other
   title: ''
@@ -282,10 +282,6 @@ created: '2026-07-17'
 description: Daily is a Y Combinator-backed developer platform providing real-time audio and video APIs and client SDKs for embedding WebRTC video calls, live streaming, cloud recording, transcription, and SIP/PSTN telephony into web, mobile, and server applications. Its REST API manages rooms, meeting tokens, recordings, transcripts, webhooks, phone numbers, and domain configuration, complemented by the daily-js, daily-react, and native iOS/Android/Python/Flutter SDKs plus the embeddable Daily Prebuilt UI. Authentication uses a domain-scoped API key sent as an HTTP Bearer token.
 image: https://www.daily.co/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Daily MCP Server
-  slug: daily-mcp-server
 modified: '2026-07-18'
 name: Daily
 nav: Providers
@@ -326,8 +322,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/screenshots/daily-2026-07-25T211132.png
 security:

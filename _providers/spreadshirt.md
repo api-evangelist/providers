@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
@@ -74,7 +74,7 @@ apis:
   description: 'This api offers you webhook subscriptions that will notify you about changes with your order via a POST request. ### Acknowledge notifications Notifications are following the at *least once principal*'
   name: Spreadshirt Subscriptions API
   slug: spreadshirt-subscriptions-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Spreadshirt Webhooks
@@ -191,7 +191,7 @@ common:
   url: sandbox/spreadshirt-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/spreadshirt-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: 'Spreadshirt (Spread Group) is a European print-on-demand and custom apparel platform that lets individuals and businesses design, sell, and order personalized T-shirts, hoodies, accessories, and merchandise. It exposes two developer surfaces: the SpreadConnect (SPOD) fulfillment REST API, which connects any shop system to on-demand production and drop-shipping (articles, orders, product types, stock, designs, and webhook subscriptions), and the older Spreadshirt Public Shop API for building custom storefronts against the EU and North American marketplaces. Added to the API Evangelist network as a consumer / print-on-demand provider and enriched by the pipeline.'
 image: https://www.spreadshirt.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Spreadshirt MCP Server
-  slug: spreadshirt-mcp-server
 modified: '2026-07-21'
 name: Spreadshirt
 nav: Providers
@@ -269,8 +265,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spreadshirt/refs/heads/main/screenshots/spreadshirt-2026-08-17T082038.png
 security:

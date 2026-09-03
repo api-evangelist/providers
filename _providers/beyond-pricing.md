@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: The Webhooks API from Beyond Pricing — 0 operation(s) for webhooks.
   name: Beyond Pricing Webhooks API
   slug: beyond-pricing-webhooks-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Beyond Pricing Webhooks
@@ -129,7 +129,7 @@ common:
   url: well-known/beyond-pricing-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/beyond-pricing-mcp.yml
 - group: agent
   title: ''
@@ -244,10 +244,6 @@ description: 'Beyond (formerly Beyond Pricing) is a revenue management platform 
   headers, URL-path versioning and a published deprecation policy.'
 image: https://www.beyondpricing.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Beyond Pricing MCP Server
-  slug: beyond-pricing-mcp-server
 modified: '2026-07-18'
 name: Beyond Pricing
 nav: Providers
@@ -294,8 +290,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/screenshots/beyond-pricing-2026-07-25T202840.png
 security:

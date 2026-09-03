@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 36
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
@@ -498,7 +498,7 @@ score:
   band: strong
   composite: 56.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -522,8 +522,8 @@ score:
       total: 29
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
 security:

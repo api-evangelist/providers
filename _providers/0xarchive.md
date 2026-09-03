@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Current and historical market data across Hyperliquid core, Spot, HIP-3, HIP-4, and Lighter. Direct market-data requests use X-API-Key.
@@ -340,8 +340,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/screenshots/0xarchive-2026-09-02T144104.png
 security:

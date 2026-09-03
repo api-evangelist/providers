@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://quickbooks.api.intuit.com/v3/company
@@ -143,8 +143,8 @@ score:
     governance: 13.6
     operational_transparency: 2.6
   previous_composite: 34.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks/refs/heads/main/screenshots/quickbooks-2026-06-20T192434.png
 security:

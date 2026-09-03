@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Apollo Server GraphQL API that backs premierlacrosseleague.com and stats.premierlacrosseleague.com (teams, players, games, standings, stats). Undocumented and unadvertised: there is no developer porta'
@@ -172,8 +172,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/screenshots/premier-lacrosse-league-2026-09-02T151931.png
 security:

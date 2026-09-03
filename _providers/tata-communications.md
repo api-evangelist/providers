@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: The TOP 25 CDR by account Id & Time Frame API from Tata Communications — 1 operation(s) for top 25 cdr by account id & time frame.
   name: Tata Communications TOP 25 CDR by account Id & Time Frame API
   slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Tata Communications Webhooks
@@ -118,7 +118,7 @@ common:
   url: llms/tata-communications-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tata-communications-mcp.yml
 - group: build
   title: ''
@@ -253,10 +253,6 @@ description: 'Tata Communications is the global wholesale carrier and digital-in
   other forty-six answer 401. MOVE IoT has a second, separate Azure API Management portal that lists three API products but gates the reference behind sign-in. The DIGO CPaaS documentation site is HTML-only, sales-gated behind a "we will get in touch" form, and was serving an expired TLS certificate at the time of review. No CAMARA network API and no GSMA Open Gateway participation could be evidenced anywhere on its properties. In practice most developers reach Tata Communications through the separately branded Kaleyra CPaaS portal rather than through Tata Communications itself.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tata Communications MCP Server
-  slug: tata-communications-mcp-server
 modified: '2026-07-25'
 name: Tata Communications
 nav: Providers
@@ -304,8 +300,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/screenshots/tata-communications-2026-08-17T082254.png
 security:

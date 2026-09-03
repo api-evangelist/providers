@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Virtual Accounts API from BCB Group — 6 operation(s) for virtual accounts.
   name: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Bcb Group Webhooks
@@ -215,7 +215,7 @@ common:
   url: sandbox/bcb-group-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bcb-group-mcp.yml
 - group: agent
   title: ''
@@ -257,10 +257,6 @@ created: '2026-07-17'
 description: BCB Group is a regulated, multi-jurisdictional payments infrastructure provider connecting traditional finance with digital assets for financial institutions across global fiat and crypto markets. Its products include multi-currency payment accounts, virtual IBANs, crypto and e-money accounts, trading, stablecoin earn, and the BLINC instant, fee-free 24/7 settlement network linking 100+ ecosystem members. BCB serves 250+ clients (including Bitstamp, Circle, Ripple, Fireblocks and Copper) and exposes a Bearer-token Payments API (OAuth 2.0 client credentials) covering accounts, balances, transactions, beneficiaries, payments, virtual accounts and webhooks. Surfaced as a portfolio company of Pantera Capital and enriched from its public developer documentation.
 image: https://www.bcbgroup.com/wp-content/uploads/2026/03/bcb-icons.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BCB Group MCP Server
-  slug: bcb-group-mcp-server
 modified: '2026-07-18'
 name: BCB Group
 nav: Providers
@@ -308,8 +304,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/screenshots/bcb-group-2026-07-25T202502.png
 security:

@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -79,7 +79,7 @@
      "slug": "etsy",
      "description": "Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entries, reviews, shipping profiles, processing profiles, production partners, return policies, and seller/buyer taxonomy. Webhooks deliver order lifecycle events (order.paid, order.canceled, order.shipped, order.delivered) to subscriber endpoints. This profile catalogs the public API surface, machine-readable artifacts, plans, rate limits, FinOps alignment, and Naftiko capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png",
-     "score": 61.5,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -92,8 +92,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -144,8 +144,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 40.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -183,63 +183,11 @@
    "shown": 6,
    "providers": [
     {
-     "name": "Amazon",
-     "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-     "score": 51.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 71.2,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 43.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Best Buy",
      "slug": "best-buy",
      "description": "Best Buy is a multinational consumer electronics retailer offering technology products, services, and solutions through stores, online, and in-home consultations. Best Buy provides a developer API giving access to product data, store locations, categories, recommendations, open box offers, and commerce capabilities for partners and developers building retail integrations and applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png",
-     "score": 49.7,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -252,8 +200,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -272,6 +220,58 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Amazon",
+     "slug": "amazon",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
+     "score": 51.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 71.2,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 43.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -297,8 +297,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -349,15 +349,15 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 36.9,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -394,8 +394,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -439,8 +439,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -493,8 +493,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -538,8 +538,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 37.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -583,8 +583,8 @@
       "commercial_clarity": 19.7,
       "access_clarity": 19.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -628,8 +628,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -673,8 +673,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -707,8 +707,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Chewy",
@@ -728,8 +728,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -780,8 +780,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -825,8 +825,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -870,8 +870,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -914,8 +914,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -942,25 +942,25 @@
      "rank": 19
     },
     {
-     "name": "Nike",
-     "slug": "nike",
-     "description": "Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png",
-     "score": 11.1,
+     "name": "TJX Companies",
+     "slug": "tjx",
+     "description": "The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png",
+     "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 53.7,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 11.9,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 19.0,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -985,6 +985,51 @@
       "agentic_commerce": false
      },
      "rank": 20
+    },
+    {
+     "name": "Nike",
+     "slug": "nike",
+     "description": "Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png",
+     "score": 11.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
     }
    ]
   },
@@ -993,8 +1038,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Bloomingdale's",
@@ -1014,53 +1059,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Barnes & Noble",
-     "slug": "barnes-nobles",
-     "description": "Barnes & Noble is the largest retail bookseller in the United States and the operator of the Nook digital reading platform. Barnes & Noble does not currently publish a public general-purpose developer portal. Trade and affiliate partners integrate through B&N's affiliate program, the B&N Press self-publishing platform for independent authors, EDI-based wholesale channels with publishers, and the Nook content distribution and reading ecosystem.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barnes-nobles/refs/heads/main/screenshots/barnes-nobles-2026-06-20T173038.png",
-     "score": 7.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1087,25 +1087,25 @@
      "rank": 22
     },
     {
-     "name": "Sephora",
-     "slug": "sephora",
-     "description": "Sephora is a French multinational chain of personal care and beauty stores and a subsidiary of LVMH, operating 2,700+ locations worldwide and a large ecommerce footprint. Sephora does not publish a public developer API and does not maintain a public GitHub organization. The Sephora storefront and Beauty Insider loyalty program are accessed only through consumer apps and the website; affiliate marketing partnerships are brokered through third-party networks such as Rakuten Advertising and Skimlinks rather than a Sephora-owned API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sephora/refs/heads/main/screenshots/sephora-2026-06-20T193713.png",
-     "score": 6.2,
+     "name": "Barnes & Noble",
+     "slug": "barnes-nobles",
+     "description": "Barnes & Noble is the largest retail bookseller in the United States and the operator of the Nook digital reading platform. Barnes & Noble does not currently publish a public general-purpose developer portal. Trade and affiliate partners integrate through B&N's affiliate program, the B&N Press self-publishing platform for independent authors, EDI-based wholesale channels with publishers, and the Nook content distribution and reading ecosystem.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barnes-nobles/refs/heads/main/screenshots/barnes-nobles-2026-06-20T173038.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 15.2,
-      "contract_governance": 15.2,
+      "governance": 0.0,
+      "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1132,25 +1132,25 @@
      "rank": 23
     },
     {
-     "name": "Costco Wholesale",
-     "slug": "costco",
-     "description": "Costco Wholesale Corporation is a Fortune 500 American multinational membership-only big-box retail chain that operates warehouse clubs offering a wide selection of merchandise at discounted prices. Costco does not publish a public developer API; supplier and trading partner integrations are conducted through EDI and B2B channels using ANSI X12 transactions and the Costco Supplier Portal. Costco operates an e-commerce site, the Costco Travel and Costco Pharmacy properties, and the Costco Photo Center.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/costco/refs/heads/main/screenshots/costco-2026-06-20T175100.png",
-     "score": 6.1,
+     "name": "Sephora",
+     "slug": "sephora",
+     "description": "Sephora is a French multinational chain of personal care and beauty stores and a subsidiary of LVMH, operating 2,700+ locations worldwide and a large ecommerce footprint. Sephora does not publish a public developer API and does not maintain a public GitHub organization. The Sephora storefront and Beauty Insider loyalty program are accessed only through consumer apps and the website; affiliate marketing partnerships are brokered through third-party networks such as Rakuten Advertising and Skimlinks rather than a Sephora-owned API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sephora/refs/heads/main/screenshots/sephora-2026-06-20T193713.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 5.3,
-      "access_clarity": 5.3
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1177,11 +1177,11 @@
      "rank": 24
     },
     {
-     "name": "H&M",
-     "slug": "hm",
-     "description": "A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world's largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
-     "score": 5.5,
+     "name": "Costco Wholesale",
+     "slug": "costco",
+     "description": "Costco Wholesale Corporation is a Fortune 500 American multinational membership-only big-box retail chain that operates warehouse clubs offering a wide selection of merchandise at discounted prices. Costco does not publish a public developer API; supplier and trading partner integrations are conducted through EDI and B2B channels using ANSI X12 transactions and the Costco Supplier Portal. Costco operates an e-commerce site, the Costco Travel and Costco Pharmacy properties, and the Costco Photo Center.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/costco/refs/heads/main/screenshots/costco-2026-06-20T175100.png",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1190,12 +1190,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 5.3,
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1222,25 +1222,25 @@
      "rank": 25
     },
     {
-     "name": "Nordstrom",
-     "slug": "nordstrom",
-     "description": "Nordstrom is a leading fashion retailer offering compelling clothing, shoes, and accessories for men, women, and children through Nordstrom and Nordstrom Rack stores and online. Nordstrom does not currently operate a public developer portal or expose general-purpose APIs to third-party developers; this repository captures the company profile and any future developer-facing artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nordstrom/refs/heads/main/screenshots/nordstrom-2026-06-20T190406.png",
-     "score": 5.4,
+     "name": "H&M",
+     "slug": "hm",
+     "description": "A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world's largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1267,6 +1267,51 @@
      "rank": 26
     },
     {
+     "name": "Nordstrom",
+     "slug": "nordstrom",
+     "description": "Nordstrom is a leading fashion retailer offering compelling clothing, shoes, and accessories for men, women, and children through Nordstrom and Nordstrom Rack stores and online. Nordstrom does not currently operate a public developer portal or expose general-purpose APIs to third-party developers; this repository captures the company profile and any future developer-facing artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nordstrom/refs/heads/main/screenshots/nordstrom-2026-06-20T190406.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 27
+    },
+    {
      "name": "Lego",
      "slug": "lego",
      "description": "The LEGO Group is a Danish toy company and the world's largest manufacturer of interlocking plastic building bricks. The company extends its brand across video games, theme parks, movies, educational products, and licensed sets for children and adults. LEGO does not currently publish a public developer API or developer portal; consumer-facing systems and partner integrations are closed. A public GitHub organization hosts internal engineering tooling and open-source contributions.",
@@ -1284,8 +1329,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1316,7 +1361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Williams-Sonoma",
@@ -1336,53 +1381,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "Academy Sports and Outdoors",
-     "slug": "academy-sports-and-outdoors",
-     "description": "Academy Sports + Outdoors is a Fortune 500 sporting goods and outdoor recreation retailer headquartered in Katy, Texas. The company operates retail stores across the United States and an e-commerce platform offering sporting equipment, apparel, footwear, hunting and fishing gear, camping supplies, and outdoor recreation products. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Academy Sports + Outdoors. No public developer APIs or documentation portal have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/academy-sports-and-outdoors/refs/heads/main/screenshots/academy-sports-and-outdoors-2026-06-20T163514.png",
-     "score": 4.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1409,24 +1409,25 @@
      "rank": 29
     },
     {
-     "name": "Gap",
-     "slug": "gap",
-     "description": "Gap Inc. is a Fortune 500 American clothing and accessories retailer operating brands including Gap, Old Navy, Banana Republic, and Athleta. Gap does not publish a public developer API; this repository tracks the company, its public web presence, and any partner or technical artifacts that surface over time.",
+     "name": "Academy Sports and Outdoors",
+     "slug": "academy-sports-and-outdoors",
+     "description": "Academy Sports + Outdoors is a Fortune 500 sporting goods and outdoor recreation retailer headquartered in Katy, Texas. The company operates retail stores across the United States and an e-commerce platform offering sporting equipment, apparel, footwear, hunting and fishing gear, camping supplies, and outdoor recreation products. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Academy Sports + Outdoors. No public developer APIs or documentation portal have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/academy-sports-and-outdoors/refs/heads/main/screenshots/academy-sports-and-outdoors-2026-06-20T163514.png",
      "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1453,9 +1454,9 @@
      "rank": 30
     },
     {
-     "name": "Inditex",
-     "slug": "inditex",
-     "description": "A Spanish multinational fashion group and the world's largest apparel retailer operating brands including Zara, Massimo Dutti, and Pull&Bear. Known for its fast-fashion model with rapid design-to-store turnaround times. No public developer portal or open API catalogue was located on inditex.com.",
+     "name": "Gap",
+     "slug": "gap",
+     "description": "Gap Inc. is a Fortune 500 American clothing and accessories retailer operating brands including Gap, Old Navy, Banana Republic, and Athleta. Gap does not publish a public developer API; this repository tracks the company, its public web presence, and any partner or technical artifacts that surface over time.",
      "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1469,8 +1470,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1497,10 +1498,9 @@
      "rank": 31
     },
     {
-     "name": "Macy's",
-     "slug": "macys",
-     "description": "Macy's, Inc. is one of the nation's premier omnichannel retailers, operating department stores, websites, and apps under the Macy's, Bloomingdale's, and Bluemercury brands. This repository tracks any APIs, developer tools, and machine-readable artifacts that are made publicly available by Macy's.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/macys/refs/heads/main/screenshots/macys-2026-07-25T225826.png",
+     "name": "Inditex",
+     "slug": "inditex",
+     "description": "A Spanish multinational fashion group and the world's largest apparel retailer operating brands including Zara, Massimo Dutti, and Pull&Bear. Known for its fast-fashion model with rapid design-to-store turnaround times. No public developer portal or open API catalogue was located on inditex.com.",
      "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1514,8 +1514,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1542,14 +1542,15 @@
      "rank": 32
     },
     {
-     "name": "TJX Companies",
-     "slug": "tjx-companies",
-     "description": "The leading off-price retailer in the United States and worldwide operating TJ Maxx, Marshalls, HomeGoods, and Sierra. Sources brand-name and designer merchandise at discount prices through an opportunistic buying model.",
-     "score": 3.9,
+     "name": "Macy's",
+     "slug": "macys",
+     "description": "Macy's, Inc. is one of the nation's premier omnichannel retailers, operating department stores, websites, and apps under the Macy's, Bloomingdale's, and Bluemercury brands. This repository tracks any APIs, developer tools, and machine-readable artifacts that are made publicly available by Macy's.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/macys/refs/heads/main/screenshots/macys-2026-07-25T225826.png",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1558,8 +1559,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1603,8 +1604,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1648,10 +1649,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
-      "applies": false,
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
      },

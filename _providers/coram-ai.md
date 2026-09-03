@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -83,7 +83,7 @@ apis:
   description: Bulk-import your school reunification roster — schools, students (with guardians), teachers, staff, and class sections — programmatically, the API equivalent of the in-app CSV upload. Each import is a
   name: Coram Ai reunification API
   slug: coram-ai-reunification-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: authentication/coram-ai-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coram-ai-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: Coram AI is an AI-native unified physical security platform that brings video surveillance, access control, emergency management, and visitor verification into a single cloud system that works with existing IP cameras. Its Developer API offers programmatic access to cameras, camera groups, NVRs, locations, access-control doors and events, and firearm-detection alerts, plus bulk school-reunification roster imports. Features include natural-language AI video search, firearm and fall detection, license plate and facial recognition, tailgating alerts, and remote door unlock. Coram is backed by 8VC and Battery Ventures.
 image: https://cdn.prod.website-files.com/630e00312de75c578a95ebfb/6a1ed1f27828fd211e840fd7_Open%20Graph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coram Ai MCP Server
-  slug: coram-ai-mcp-server
 modified: '2026-07-18'
 name: Coram Ai
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/screenshots/coram-ai-2026-07-25T210425.png
 security:

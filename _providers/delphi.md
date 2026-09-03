@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Stream voice responses and synthesize speech as real-time PCM audio.
   name: Delphi Voice API
   slug: delphi-voice-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Delphi Webhooks
@@ -175,7 +175,7 @@ common:
   url: agentic-access/delphi-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/delphi-mcp.yml
 - group: design
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: 'Delphi is an AI platform for building "Digital Minds" — hyper-realistic AI clones trained exclusively on a person''s own content (podcasts, videos, blogs, long-form writing, live feeds) that match how they speak, write, and think. Audiences can call, text, or video-chat a clone 24/7 for Q&A, coaching, mentorship, and engagement, with omnichannel reach across websites, SMS, Telegram, Slack, and learning platforms like Kajabi and Thinkific. Delphi''s v3 REST API (Immortal plan) lets developers embed a Digital Mind directly in their own app: create conversations, stream text and voice responses, manage the audience and its contextual memory, organize contacts with tags, search the clone''s knowledge base for RAG, track per-user usage, and receive events via signed webhooks. Delphi is backed by Menlo Ventures.'
 image: https://avatars.githubusercontent.com/u/120126721?v=4
 layout: provider
-mcp_servers:
-- description: No official hosted/remote Delphi MCP server was found (searched docs.delphi.ai, the delphi-ai GitHub org, and the MCP registry / @modelcontextprotocol npm). This is a CANDIDATE tool list derived one-t
-  name: Delphi MCP Server
-  slug: delphi-mcp-server
 modified: '2026-07-18'
 name: Delphi
 nav: Providers
@@ -278,8 +274,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ arazzos:
 - description: Connect a staff user, look up a payment transaction by uuid, then issue a refund. Grounded in real operationIds from the Adopets External API.
   name: Refund an adoption payment transaction (Adopets External API)
   slug: adopets-refund-transaction
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -130,7 +130,7 @@ common:
   url: data-model/adopets-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adopets-mcp.yml
 - group: agent
   title: ''
@@ -168,10 +168,6 @@ created: '2026-07-17'
 description: Adopets is an Adoption Management System (AMS) for animal shelters and rescues that streamlines the entire pet adoption process — online and in-person applications, approval and team collaboration workflows, digital kennel cards with QR codes, secure payment processing for adoption fees, licenses, products and donations, daily reporting and dashboards, and post-adoption communication. Backed by Techstars. Adopets exposes an External API (documented as a public Postman collection) that lets partner systems connect staff users and create, retrieve, change, cancel, and refund adoption payment requests and transactions on behalf of an organization, authenticated with an organization API key plus a per-session JWT bearer token.
 image: https://avatars.githubusercontent.com/u/19703738?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adopets MCP Server
-  slug: adopets-mcp-server
 modified: '2026-07-17'
 name: Adopets
 nav: Providers
@@ -216,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
 security:

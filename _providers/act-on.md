@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Outgoing webhook event surface — nineteen documented event types across contacts, consent, deliverability, lead scoring, subscriptions, automated programs, messaging, forms and CRM connections. Payloa
@@ -166,7 +166,7 @@ apis:
   description: The User API from Act-On — 3 operation(s) for user.
   name: Act-On User API
   slug: act-on-user-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Act On Webhooks
@@ -307,7 +307,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/act-on-mcp.yml
 - group: auth
   title: ''
@@ -326,10 +326,6 @@ description: 'Act-On Software is a cloud-based marketing automation platform use
   from Act-On''s public developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/act-on.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Act-On MCP Server
-  slug: act-on-mcp-server
 modified: '2026-08-13'
 name: Act-On
 nav: Providers
@@ -383,8 +379,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:

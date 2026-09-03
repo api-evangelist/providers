@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://shopgo.me'', ''status'': 302, ''note'': ''declared website redirects to sa-https://makane.com/ar/ — a different registrable domain (shopgo.me -> makane.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.shopgo.me/v1/management
@@ -61,7 +62,7 @@ apis:
   description: Dashboard user and tenant information
   name: ShopGo Users API
   slug: shopgo-users-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Shopgo Webhooks
@@ -136,7 +137,7 @@ common:
   url: asyncapi/shopgo-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shopgo-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +163,6 @@ created: '2026-07-17'
 description: 'ShopGo (now branded Makane) is a MENA-focused eCommerce SaaS platform based in Amman, Jordan and founded in 2012, backed by 500 Global. It lets merchants build and run online stores with integrated payment and shipment options across the Middle East and North Africa. For developers, ShopGo publishes a GitBook developer portal (docs.shopgo.me) documenting two REST APIs served from api.shopgo.me: a Management API for store, order, payment and shipment administration, and an internal Platform API for SaaS tenant control. Both use API-key authentication and a JSON result/payload envelope, and the platform supports configurable checkout webhooks (custom shipping rates, order confirmation).'
 image: https://github.com/shopgo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ShopGo MCP Server
-  slug: shopgo-mcp-server
 modified: '2026-07-21'
 name: ShopGo
 nav: Providers
@@ -212,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/screenshots/shopgo-2026-09-02T155259.png
 security:

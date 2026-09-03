@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
   description: Maker order retrieval, acknowledgement, packing sheets and shipping labels.
   name: Zazzle Vendor API
   slug: zazzle-vendor-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -77,7 +77,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zazzle-mcp.yml
 - group: other
   title: ''
@@ -204,10 +204,6 @@ description: 'Zazzle is an online marketplace and on-demand manufacturing platfo
   Associates/Ambassador program, with partners setting their own royalty and earning a referral share on each sale.'
 image: https://asset.zcache.com/assets/graphics/z5/global/zazzle_white.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zazzle MCP Server
-  slug: zazzle-mcp-server
 modified: '2026-08-05'
 name: Zazzle
 nav: Providers
@@ -246,8 +242,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/screenshots/zazzle-2026-09-02T171459.png
 security:

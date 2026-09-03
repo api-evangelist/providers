@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hosted MCP server that lets AI assistants query a manufacturer's Prox workspace (products, knowledge trees, wiki nodes) grounded in their manuals and make attributed, version-controlled edits. OAuth 2
@@ -152,8 +152,8 @@ score:
   previous_composite: 24.2
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prox/refs/heads/main/screenshots/prox-2026-09-02T152244.png
 security:

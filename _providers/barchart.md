@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ apis:
   description: The Splits, Dividends, and Earnings API from Barchart — 8 operation(s) for splits, dividends, and earnings.
   name: Barchart Splits, Dividends, and Earnings API
   slug: barchart-splits-dividends-and-earnings-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Barchart OnDemand Commodities & Agriculture API
@@ -285,7 +285,7 @@ common:
   url: packages/barchart-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/barchart-mcp.yml
 - group: agent
   title: ''
@@ -375,10 +375,6 @@ finops:
   slug: barchart-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/barchart.png
 layout: provider
-mcp_servers:
-- description: Barchart publishes no official MCP server (checked npm, the official MCP registry, and Barchart docs on 2026-07-22). This is a CANDIDATE tool list derived one-tool-per-operation from the official Barc
-  name: Barchart MCP Server
-  slug: barchart-mcp-server
 modified: '2026-07-22'
 name: Barchart
 nav: Providers
@@ -431,8 +427,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/screenshots/barchart-2026-08-17T122638.png
 security:

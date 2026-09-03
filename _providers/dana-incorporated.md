@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Dana Aftermarket API provides programmatic access to Dana's aftermarket e-commerce platform with APIs for advanced shipping notification, availability, deep linking, order status, part details, pa
@@ -110,8 +110,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana-incorporated/refs/heads/main/screenshots/dana-incorporated-2026-06-20T175458.png
 security:

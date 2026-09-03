@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
   description: The Api API from Vooma — 0 operation(s) for api.
   name: Vooma API
   slug: vooma-api-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Vooma Webhooks
@@ -208,7 +208,7 @@ common:
   url: llms/vooma-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vooma-mcp.yml
 - group: design
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: Vooma builds AI agents for the freight industry, automating the back office of freight brokers and carriers. Its agents quote loads from email, build orders in the TMS, schedule facility appointments, cover loads with carriers, and track shipments end to end. The Vooma Public API (api.vooma.ai/v0) lets enterprise customers integrate their own TMS, exposing quotes, shipments, movements, carriers, customers, locations, contacts, and tracking status, with webhook events for orders, carriers, customers, locations, appointments, and tracking updates.
 image: https://cdn.prod.website-files.com/68ed090d0998c3c224a59e7c/69125b78bbe508e2ec38f42d_vooma-webclip.png
 layout: provider
-mcp_servers:
-- description: No official Vooma MCP server was found (docs, npm, GitHub org vooma-ai, MCP registries searched 2026-07-21). This is a candidate tool list derived from the Vooma Public API OpenAPI operations — one to
-  name: Vooma MCP Server
-  slug: vooma-mcp-server
 modified: '2026-07-21'
 name: Vooma
 nav: Providers
@@ -297,8 +293,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/screenshots/vooma-2026-08-17T082822.png
 security:

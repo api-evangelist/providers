@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Supported crypto trading pairs and their constraints.
   name: Robinhood Trading Pairs API
   slug: robinhood-trading-pairs-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: well-known/robinhood-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/robinhood-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Robinhood Markets is a US financial-services company offering commission-free trading of stocks, ETFs, options, and cryptocurrency, plus retirement accounts, a cash/spending card, and 24-hour markets. For developers, Robinhood publishes the Crypto Trading API, a REST interface at trading.robinhood.com that lets an account holder view buying power and holdings, pull market data (best bid/ask and estimated fill prices), enumerate supported trading pairs, and place, retrieve, and cancel crypto orders (market, limit, stop-loss, and stop-limit). The API authenticates each request with an API key plus an Ed25519 request signature carried in the x-api-key, x-timestamp, and x-signature headers. Robinhood was added to the API Evangelist network as a VC-portfolio lead and enriched from its public developer surface.
 image: https://robinhood.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Robinhood MCP Server
-  slug: robinhood-mcp-server
 modified: '2026-07-21'
 name: Robinhood
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/screenshots/robinhood-2026-08-17T081615.png
 security:

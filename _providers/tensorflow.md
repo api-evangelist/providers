@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ arazzos:
 - description: Score the same instances against a pinned candidate version and the default version to measure rollout drift.
   name: TensorFlow Serving Compare a Candidate Version Against the Default
   slug: tensorflow-version-canary-compare-workflow
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: packages/tensorflow-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tensorflow-mcp.yml
 - group: agent
   title: ''
@@ -276,10 +276,6 @@ jsonld:
   property_count: 15
   slug: tensorflow-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: TensorFlow MCP Server
-  slug: tensorflow-mcp-server
 modified: '2026-06-20'
 name: TensorFlow
 nav: Providers
@@ -351,8 +347,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
 security:

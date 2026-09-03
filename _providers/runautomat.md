@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The extract API from Runautomat — 1 operation(s) for extract.
   name: Runautomat extract API
   slug: runautomat-extract-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: llms/runautomat-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/runautomat-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: Runautomat (dba Automat) builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with self-healing managed automations. Founded in 2022 by ex-Google engineers Lucas Ochoa and Gautam Bose and backed by Felicis, Khosla Ventures, Initialized Capital, and Y Combinator. The platform spans UI-based AI agents (Computer Use RPA), AI document extraction (IDP), API-based automations (iPaaS), and a managed forward-deployed-engineer service. Its public developer surface is the Automat Document Extraction API, a single synchronous /api/extract operation that turns PDFs and images into structured JSON matching a configured extractor, authenticated with an organization API key.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runautomat.png
 layout: provider
-mcp_servers:
-- description: Official hosted MCP server for the Automat documentation (Mintlify), for AI clients (Claude Code, Cursor, etc.) to query the docs. This is a documentation MCP server, not an execution wrapper over the
-  name: Runautomat MCP Server
-  slug: runautomat-mcp-server
 modified: '2026-07-21'
 name: Runautomat
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/screenshots/runautomat-2026-08-17T081652.png
 security:

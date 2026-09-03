@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Partner API from Curai — 2 operation(s) for partner.
   name: Curai Partner API
   slug: curai-partner-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: well-known/curai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/curai-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Curai Health is a virtual-first primary care company offering 24/7 text-based telemedicine to patients across all 50 U.S. states, connecting them with board-certified clinicians for urgent care, chronic disease management, wellness, and preventive screenings, with orders for labs and prescriptions and referrals to specialists. For organizations, health systems, TPAs, and benefits administrators, Curai exposes a Partner API and an embeddable Web SDK (curai-js) that let partners register patients and drop the Curai patient experience into their own web and mobile apps, plus integration via standards-based APIs, Health Information Exchanges (HIE), and webhooks. The Partner API is a small, key-authenticated surface used to onboard patients and obtain session access tokens for the embedded experience.
 image: https://cdn.prod.website-files.com/619acca858666ac6759d6e31/61d79c66ae46600b755a13be_logo_webclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Curai MCP Server
-  slug: curai-mcp-server
 modified: '2026-07-18'
 name: Curai
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
 security:

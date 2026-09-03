@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
   description: The Sonar API from Riot — 0 operation(s) for sonar.
   name: Riot Sonar API
   slug: riot-sonar-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Riot Webhooks
@@ -145,7 +145,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/riot-mcp.yml
 - group: agent
   title: ''
@@ -291,10 +291,6 @@ created: '2026-08-05'
 description: Riot is a Paris-based employee security posture management (human risk management) platform that helps companies reduce the human attack surface. The product suite spans phishing and smishing simulation, security awareness training courses, credential breach monitoring, employee-reported email triage (Inbox), inbound email protection (Slash), and third-party SaaS/drive exposure monitoring (Sonar), fronted by a chat assistant that runs in Slack, Microsoft Teams and the web portal. Riot publishes a public REST API (OpenAPI 3.1.1, x-api-key authentication, cursor pagination, scoped keys) that exposes organization, employee, group, course, campaign, attack, breach and inbox data, a SCIM 2.0 provisioning surface for user and group lifecycle, and Standard-Webhooks server-to-server events whose payloads follow the OCSF Detection Finding schema so they can be ingested by a SIEM or SOAR without custom mapping.
 image: https://cms-content.tryriot.com/riot_preview_305b31b839.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Riot MCP Server
-  slug: riot-mcp-server
 modified: '2026-08-05'
 name: Riot
 nav: Providers
@@ -345,8 +341,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png
 security:

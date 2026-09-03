@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GW2Spidy API, Items data on the Guild Wars 2 Trade Market
@@ -83,8 +83,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 6.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gw2spidy/refs/heads/main/screenshots/gw2spidy-2026-06-20T182445.png
 slug: gw2spidy

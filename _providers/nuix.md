@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -1279,8 +1279,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:

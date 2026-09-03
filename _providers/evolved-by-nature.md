@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The agent-callable commerce surface of the Evolved By Nature direct-to-consumer skincare store. A UCP 2026-04-08 MCP endpoint exposes 13 catalog, cart, checkout and order tools; a second Shopify store
@@ -188,8 +188,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/screenshots/evolved-by-nature-2026-09-02T145440.png
 security:

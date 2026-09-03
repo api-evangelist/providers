@@ -9,6 +9,7 @@ access_model:
   - authentication
   - lifecycle
   - plans
+  - '{''url'': ''http://www.getcacheflow.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.hubspot.com/products/revenue/cpq — a different registrable domain (getcacheflow.com -> hubspot.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.getcacheflow.com
@@ -323,7 +324,7 @@ apis:
   description: The Webhooks API from Cacheflow — 6 operation(s) for webhooks.
   name: Cacheflow Webhooks API
   slug: cacheflow-webhooks-api
-artifact_total: 63
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Cacheflow Webhooks
@@ -415,7 +416,7 @@ common:
   url: rate-limits/cacheflow-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cacheflow-mcp.yml
 - group: agent
   title: ''
@@ -434,10 +435,6 @@ description: 'Cacheflow was a B2B SaaS billing, CPQ (configure-price-quote), and
   profile therefore records a rare shape: a fully published, machine-readable API contract that outlived the API it described.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cacheflow.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cacheflow MCP Server
-  slug: cacheflow-mcp-server
 modified: '2026-08-13'
 name: Cacheflow
 nav: Providers
@@ -492,8 +489,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cacheflow/refs/heads/main/screenshots/cacheflow-2026-07-25T204205.png
 security:

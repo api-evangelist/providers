@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 14.2
-  scored_at: '2026-09-02'
+  score: 10.8
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Akita Software provided an API observability platform that used passive traffic monitoring to automatically discover, map, and model APIs without requiring code changes or proxying. It could generate '
@@ -191,8 +191,8 @@ score:
   previous_composite: 25.8
   provenance:
     mcp: unknown
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

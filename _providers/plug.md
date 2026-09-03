@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ apis:
   description: A Malga utiliza o serviço de webhooks para notificar o seu sistema sobre os eventos ocorridos na nossa plataforma. Através de webhooks você consegue atualizar seu sistema sempre que um evento importan
   name: Malga Webhooks API
   slug: plug-webhooks-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Plug Webhooks
@@ -322,7 +322,7 @@ common:
   url: well-known/plug-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/plug-mcp.yml
 - group: design
   title: ''
@@ -348,10 +348,6 @@ created: '2026-07-17'
 description: Malga (formerly Plug / plugpagamentos.com) is a Brazilian intelligent payment infrastructure and orchestration platform. It lets companies route transactions across multiple acquirers, payment providers, methods (card, Pix, boleto, wallets such as PicPay and Apple Pay) and anti-fraud engines from a single API, with smart routing/retry flows, tokenization, 3D Secure 2, subscriptions/recurrence, split payments, sellers/payouts and a GraphQL analytics API. Malga is PCI DSS Level 1 compliant and backed by Lightspeed Venture Partners and QED Investors.
 image: https://malga.io/images/malga-announcement.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Malga MCP Server
-  slug: malga-mcp-server
 modified: '2026-07-20'
 name: Malga
 nav: Providers
@@ -399,8 +395,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/screenshots/plug-2026-08-17T081311.png
 security:

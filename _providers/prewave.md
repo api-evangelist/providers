@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -175,7 +175,7 @@ arazzos:
 - description: Create a supplier site, run validation and screening, then read its risk alerts.
   name: Onboard and monitor a supplier
   slug: prewave-onboard-and-monitor-supplier
-artifact_total: 58
+artifact_total: 57
 collections:
 - collection_type: open
   name: API Collection
@@ -338,7 +338,7 @@ common:
   url: conformance/prewave-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/prewave-mcp.yml
 - group: agent
   title: ''
@@ -368,10 +368,6 @@ created: '2026-07-17'
 description: Prewave is a Vienna-based AI-powered supply-chain risk intelligence platform that monitors millions of risk events across languages and networks to give enterprises proactive resilience, multi-tier supplier transparency, and sustainability-compliance automation (EU Deforestation Regulation, LkSG, and CSDDD). The Public Prewave API is a REST API at api.prewave.com covering suppliers and sites, collections and the Tier-N supplier graph, alerts and the risk feed, disruptions, risk scores (target, external, and enterprise export), exposure graphs, EUDR products / origin requests / Due Diligence Statements, actions, and user and role management. It authenticates with an X-Auth-Token API key.
 image: https://www.prewave.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Prewave MCP Server
-  slug: prewave-mcp-server
 modified: '2026-07-20'
 name: Prewave
 nav: Providers
@@ -410,8 +406,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/screenshots/prewave-2026-08-17T081335.png
 security:

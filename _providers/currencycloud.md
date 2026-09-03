@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ apis:
   description: Manage withdrawal accounts
   name: Currencycloud Withdrawal Accounts API
   slug: currencycloud-withdrawal-accounts-api
-artifact_total: 89
+artifact_total: 88
 asyncapis:
 - description: ''
   name: Currencycloud Webhooks
@@ -424,7 +424,7 @@ common:
   url: packages/currencycloud-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/currencycloud-mcp.yml
 - group: agent
   title: ''
@@ -502,10 +502,6 @@ created: '2026-07-17'
 description: 'Currencycloud is a cross-border payments and foreign-exchange platform, part of Visa, that provides a robust, predictable REST API for converting money between currencies, holding multi-currency balances, and making payments around the world. Its API v2 spans 18 domains — authentication, accounts and sub-accounts, balances, beneficiaries, contacts, conversions, funding, payers, payments, quotes, rates, reference data, reporting, transactions, transfers and withdrawal accounts — and lets businesses dynamically register sub-accounts to offer white-labelled money-transfer services to their own customers. Currencycloud is an FCA-authorised Electronic Money Institution (registration #900199) and a FinCEN-registered money transmitter, and publishes official SDKs for JavaScript, Python, Ruby, PHP, Java and .NET.'
 image: https://raw.githubusercontent.com/CurrencyCloud/currencycloud-swagger/master/apps/website/public/images/introduction-header.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Currencycloud MCP Server
-  slug: currencycloud-mcp-server
 modified: '2026-07-18'
 name: Currencycloud
 nav: Providers
@@ -561,8 +557,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:

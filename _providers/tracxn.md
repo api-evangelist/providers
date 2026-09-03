@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.5
-  scored_at: '2026-09-02'
+  score: 33.6
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Programmatic access to Tracxn''s private-market database. Version 3.0 is current and version 2.2 is formally announced for deprecation. A uniform JSON-over-HTTPS contract: every data endpoint is a POST'
@@ -233,8 +233,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/screenshots/tracxn-2026-09-02T164035.png
 security:

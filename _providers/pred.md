@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: End-to-end signed-order trading flow on the Pred prediction exchange.
   name: PRED trading workflows
   slug: pred-trading
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: Real-time market and order data for the Pred prediction exchange, delivered over Ably WebSocket. Obtain an Ably token via POST /api/v1/auth/ably (use it as Ably authCallback). The private user channel
   name: PRED Real-Time API (Ably WebSocket)
@@ -195,7 +195,7 @@ common:
   url: data-model/pred-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pred-mcp.yml
 - group: other
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: Pred (PRED) is a fully decentralized, peer-to-peer sports prediction exchange built on Base, Coinbase's Ethereum Layer 2 network. Rather than a traditional sportsbook, Pred runs a real-time central limit order book where traders take LONG (YES) and SHORT (NO) positions on sporting outcomes priced between 0.00 and 1.00 USDC, and prices emerge from live supply and demand. Users keep full self-custody of collateral through per-user Gnosis Safe proxy wallets and authorize every order with EIP-712 signatures, with on-chain settlement of USDC on Base. Winning traders are welcome with no account limits, sub-200ms order execution and spreads under 2%. Pred publishes a documented HTTP trading API (login-with-signature auth, market discovery, order placement/cancellation, portfolio) plus an Ably WebSocket stream for real-time orderbook and order events. Initial markets cover the English Premier League and NBA. The company has raised $2.5M backed by Accel, Coinbase Ventures and Reverie.
 image: https://public-assets.pred.app/banners/image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pred MCP Server
-  slug: pred-mcp-server
 modified: '2026-07-20'
 name: Pred
 nav: Providers
@@ -284,8 +280,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/screenshots/pred-2026-08-17T081353.png
 security:

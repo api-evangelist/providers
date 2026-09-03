@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ apis:
   description: The Vitals API from Depict.AI — 1 operation(s) for vitals.
   name: Depict.AI Vitals API
   slug: depictai-vitals-api
-artifact_total: 77
+artifact_total: 76
 collections:
 - collection_type: open
   name: API Collection
@@ -407,7 +407,7 @@ common:
   url: components/depictai-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/depictai-mcp.yml
 - group: agent
   title: ''
@@ -473,10 +473,6 @@ created: '2026-07-17'
 description: Depict (Depict.AI) is an AI-powered merchandising, search and product-recommendations platform for e-commerce brands. It serves ranked collection and product-listing pages, hybrid AI site search, and personalized recommendations ("Similar Products", "You may also like", "Frequently bought together") through a front-end-agnostic Storefront API, React and JavaScript UI libraries, and a native Shopify app. Merchants curate hundreds of collections at scale with pinning, boost-and-bury rules and per-market settings while keeping full control of the storefront frontend. Depict is used by 350+ brands and is backed by EQT Ventures and Initialized Capital.
 image: https://depict.ai/en/opengraph-image?7e17831b390c6d53
 layout: provider
-mcp_servers:
-- description: ''
-  name: Depict.AI MCP Server
-  slug: depictai-mcp-server
 modified: '2026-07-18'
 name: Depict.AI
 nav: Providers
@@ -520,8 +516,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depictai/refs/heads/main/screenshots/depictai-2026-07-25T211734.png
 security:

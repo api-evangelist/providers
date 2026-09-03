@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The VNPAY-QR payment gateway (vpcpay) processes card, QR, ATM/bank-account and international-card payments via a browser redirect plus server-to-server IPN callback. Requests carry vnp_ parameters sig
   name: VNPAY Payment Gateway
   slug: vnpay-payment-gateway
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -115,7 +115,7 @@ common:
   url: changelog/vnlife-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vnlife-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: VNLIFE is the Vietnamese technology and financial-services holding group whose flagship business is VNPAY (Vietnam Payment Solution Joint Stock Company), the leading electronic-payment provider in Vietnam. VNLIFE operates a payments and lifestyle ecosystem spanning the VNPAY-QR payment gateway (integrated across 40+ banks and 15+ e-wallets), SmartPOS/PhonePOS acceptance hardware, the VNPAY super-app, VnShop e-commerce, taxi booking, e-invoicing, and B2B payment platforms serving 350,000+ merchants, 450,000+ acceptance points, and 60M+ users. The VNPAY payment gateway is exposed as a documented redirect/IPN HTTP API (VNPAY-QR / vpcpay) secured with HMAC-SHA512 checksums. VNLIFE is backed by investors including SoftBank Vision Fund and GIC.
 image: https://vnpay.vn/assets/images/logo-vnpay-qr.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: VNLIFE MCP Server
-  slug: vnlife-mcp-server
 modified: '2026-07-21'
 name: VNLIFE
 nav: Providers
@@ -166,8 +162,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/screenshots/vnlife-2026-09-02T170159.png
 security:

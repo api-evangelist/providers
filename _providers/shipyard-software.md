@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Request-for-Quote swap API for the Clipper DEX. Aggregators retrieve pool state (price feeds, k factor), request firm quotes, and sign quotes to obtain the EIP-2098 signature/calldata needed to execut
@@ -156,8 +156,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipyard-software/refs/heads/main/screenshots/shipyard-software-2026-09-02T155237.png
 security:

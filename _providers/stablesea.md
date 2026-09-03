@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api-sandbox.stablesea.com/v1
@@ -46,7 +46,7 @@ apis:
   description: The Organizations API from Stablesea — 11 operation(s) for organizations.
   name: Stablesea Organizations API
   slug: stablesea-organizations-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -64,7 +64,7 @@ common:
   url: skills/stablesea-place-payout-order.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stablesea-mcp.yml
 - group: other
   title: ''
@@ -118,10 +118,6 @@ created: '2026-07-17'
 description: Stable Sea is a financial technology platform providing global cash management and liquidity for companies building in stablecoins. The Stable Sea Terminal lets businesses consolidate on-chain and off-chain accounts, settle money across 40+ countries, run fiat-to-stablecoin on/off-ramps for transactions up to $50M, earn yield through tokenized money-market funds, and hold Bitcoin in insured custody. The Stable Sea Terminal API is a bearer-authenticated REST API (OpenAPI 3.1) for managing organizations, liquidity providers and exchange rates, external payment instruments, offerings, quotes, and payout orders — with idempotent writes on all create operations. Surfaced as a Kindred Ventures portfolio company and enriched into the API Evangelist network.
 image: https://framerusercontent.com/images/Z7eNpaGMVcjn2gmGRb3QxFnqnE.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stablesea MCP Server
-  slug: stablesea-mcp-server
 modified: '2026-07-21'
 name: Stablesea
 nav: Providers
@@ -165,8 +161,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/screenshots/stablesea-2026-09-02T160657.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Corelayer v1 REST API (api/v1) provides programmatic access to issues, groups, integrations, events, anomaly configs, deep research, API keys, and settings. It uses API-key authentication with rol
@@ -212,8 +212,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/screenshots/corelayer-2026-07-25T210427.png
 security:

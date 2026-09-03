@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://tester.army/api/v1
@@ -242,8 +242,8 @@ score:
       total: 5
     mcp: first-party
     skills: unknown
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/screenshots/testerarmy-2026-08-17T082329.png
 security:

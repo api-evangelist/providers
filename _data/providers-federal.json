@@ -15,7 +15,7 @@
      "type": "API Provider",
      "description": "Login.gov is the U.S. federal government's secure single sign-on and identity verification service for the public, operated by the General Services Administration's Technology Transformation Services (GSA TTS). Relying parties — federal, and in some cases state and local — federate user authentication to Login.gov via OpenID Connect (iGov profile) or SAML 2.0, with support for IAL1 (auth-only) and IAL2 (identity-verified) assurance and AAL2 multi-factor authentication including phishing-resistant and PIV/CAC authenticators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png",
-     "score": 56.9,
+     "score": 55.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -28,8 +28,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -82,8 +82,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -133,7 +133,7 @@
      "type": "API Provider",
      "description": "The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Marketplace, and the broader CMS open-data program. CMS operates one of the largest collections of HL7 FHIR APIs in the U.S. federal government — Blue Button 2.0, BCDA, AB2D, DPC, and the upstream BFD server — alongside the Marketplace API, the data.cms.gov open-data catalog, the Provider Data Catalog, the Quality Payment Program API, and the Medicare Coverage Database.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png",
-     "score": 49.3,
+     "score": 43.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -146,8 +146,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -200,8 +200,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -254,8 +254,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -308,8 +308,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -350,7 +350,7 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
+   "count": 5,
    "providers": [
     {
      "name": "OSHA",
@@ -371,8 +371,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -411,7 +411,7 @@
      "url": "https://providers.apis.io/providers/uspto-gov/",
      "type": "API Provider",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png",
-     "score": 34.0,
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -420,12 +420,12 @@
       "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 26.2,
+      "developer_ergonomics": 33.3,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -478,8 +478,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -513,60 +513,6 @@
      "rank": 9
     },
     {
-     "name": "Public Sector",
-     "slug": "public-sector",
-     "url": "https://providers.apis.io/providers/public-sector/",
-     "type": "API Provider",
-     "description": "Industry-vertical index for the public-sector / government API landscape across U.S. federal, state, and local levels. Catalogs the federal API gateway api.data.gov (operated by GSA's Technology Transformation Services under the Open Government Data Act of 2018, used by 25 agencies for over 450 APIs), the catalog.data.gov CKAN metadata catalog, headline federal programmatic surfaces (Regulations.gov, Federal Register, GovInfo, SAM.gov, USAspending.gov, Treasury Fiscal Data, Congress.gov, FEC openFEC, api.weather.gov, api.nasa.gov, Census Data API, Bureau of Economic Analysis), state and local infrastructure (Socrata / Tyler Data and Insights, Tyler Technologies courts/ERP/public-safety stack, OpenGov ERP/budgeting/permitting cloud), and the civic-tech layer (OpenStates / Plural Policy, GovTrack, Open Civic Data). Cross-references Kin Lane's 2026-05-05 roundup of 211 U.S. federal agencies and their APIs on apievangelist.com. The catalog focuses on the data-schema shape of a government dataset / agency / regulation record so that civic-tech and enterprise consumers can normalize across federal, state, and local publishers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png",
-     "score": 28.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 14.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "OpenFEC",
      "slug": "open-fec",
      "url": "https://providers.apis.io/providers/open-fec/",
@@ -586,8 +532,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -618,7 +564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Zero-Trust Security Model",
@@ -640,8 +586,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -672,7 +618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     }
    ]
   },
@@ -681,7 +627,7 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
+   "count": 6,
    "providers": [
     {
      "name": "Federal Housing Finance Agency (FHFA)",
@@ -703,8 +649,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -735,45 +681,45 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
-     "name": "Data.gov",
-     "slug": "data-gov",
-     "url": "https://providers.apis.io/providers/data-gov/",
+     "name": "Public Sector",
+     "slug": "public-sector",
+     "url": "https://providers.apis.io/providers/public-sector/",
      "type": "API Provider",
-     "description": "Data.gov is the United States federal government's open data catalog, operated by the General Services Administration (GSA) Technology Transformation Services. It indexes over 300,000 datasets, tools, and resources from federal, state, local, and tribal governments, as well as universities and non-profits. The catalog runs on CKAN 2.11 and exposes the standard CKAN Action API at catalog.data.gov/api/3/action for programmatic discovery and retrieval of datasets, organizations, groups, tags, and resources. Data.gov also publishes the federal Project Open Data (POD) schema (data.json) catalog endpoint at /data.json on every federal agency site, which Data.gov harvests into the central catalog. Related properties include inventory.data.gov (publisher-facing CKAN inventory), resources.data.gov (open data policy resources), and the api.data.gov shared API gateway used by 25+ federal agencies for 450+ APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/screenshots/data-gov-2026-06-20T175527.png",
-     "score": 21.8,
+     "description": "Industry-vertical index for the public-sector / government API landscape across U.S. federal, state, and local levels. Catalogs the federal API gateway api.data.gov (operated by GSA's Technology Transformation Services under the Open Government Data Act of 2018, used by 25 agencies for over 450 APIs), the catalog.data.gov CKAN metadata catalog, headline federal programmatic surfaces (Regulations.gov, Federal Register, GovInfo, SAM.gov, USAspending.gov, Treasury Fiscal Data, Congress.gov, FEC openFEC, api.weather.gov, api.nasa.gov, Census Data API, Bureau of Economic Analysis), state and local infrastructure (Socrata / Tyler Data and Insights, Tyler Technologies courts/ERP/public-safety stack, OpenGov ERP/budgeting/permitting cloud), and the civic-tech layer (OpenStates / Plural Policy, GovTrack, Open Civic Data). Cross-references Kin Lane's 2026-05-05 roundup of 211 U.S. federal agencies and their APIs on apievangelist.com. The catalog focuses on the data-schema shape of a government dataset / agency / regulation record so that civic-tech and enterprise consumers can normalize across federal, state, and local publishers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png",
+     "score": 23.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 8.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "contract_quality": 14.7,
+      "governance": 9.8,
+      "contract_governance": 9.8,
       "operational_transparency": 13.2,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 25.9,
+      "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -789,7 +735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Air Force Reserve",
@@ -811,8 +757,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -832,6 +778,60 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Data.gov",
+     "slug": "data-gov",
+     "url": "https://providers.apis.io/providers/data-gov/",
+     "type": "API Provider",
+     "description": "Data.gov is the United States federal government's open data catalog, operated by the General Services Administration (GSA) Technology Transformation Services. It indexes over 300,000 datasets, tools, and resources from federal, state, local, and tribal governments, as well as universities and non-profits. The catalog runs on CKAN 2.11 and exposes the standard CKAN Action API at catalog.data.gov/api/3/action for programmatic discovery and retrieval of datasets, organizations, groups, tags, and resources. Data.gov also publishes the federal Project Open Data (POD) schema (data.json) catalog endpoint at /data.json on every federal agency site, which Data.gov harvests into the central catalog. Related properties include inventory.data.gov (publisher-facing CKAN inventory), resources.data.gov (open data policy resources), and the api.data.gov shared API gateway used by 25+ federal agencies for 450+ APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/screenshots/data-gov-2026-06-20T175527.png",
+     "score": 20.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 8.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 25.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -865,8 +865,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -919,8 +919,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -982,8 +982,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",

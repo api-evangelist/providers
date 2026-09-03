@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: List Greater Bank's public CDR Product Reference Data (PRD) offerings, then retrieve the full detail for one product. Runs unauthenticated against the live public CDS host (no consumer consent / ADR h
   name: Greater Bank product lookup
   slug: greater-bank-product-lookup
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: data-model/greater-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/greater-bank-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-20'
 description: Greater Bank is a customer-owned Australian retail bank headquartered in Newcastle, New South Wales, offering everyday transaction and savings accounts, term deposits, home loans, personal loans, and credit cards to personal and business customers. In March 2023 Greater Bank merged with Newcastle Permanent to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned mutual banking organisations, while continuing to trade under the Greater Bank brand. As an Authorised Deposit-taking Institution (ADI) it is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards. Consumer-data sharing beyond PRD runs on the accredited CDR data-recipient (ADR) model with OAuth2/OpenID Connect FAPI-profile security.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greater-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Greater Bank MCP Server
-  slug: greater-bank-mcp-server
 modified: '2026-07-22'
 name: Greater Bank
 nav: Providers
@@ -261,8 +257,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:

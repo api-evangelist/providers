@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for managing Zscaler Internet Access policies, URL filtering, cloud sandbox, DLP, location and user provisioning, and reporting on web traffic and threats across the Zscaler Cloud platform.
@@ -111,8 +111,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 12.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/screenshots/zscaler-2026-06-20T201955.png
 security:

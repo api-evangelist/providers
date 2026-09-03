@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Provider-published Model Context Protocol server ("governance-hub") distributed as the npm package @credoai/governance-hub-mcp and run over stdio via npx. Grounds the Credo AI Claude Code Agent Skills
@@ -395,7 +396,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -405,7 +406,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 49.2
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     contracts:
@@ -415,8 +416,8 @@ score:
       total: 39
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/screenshots/credo-ai-2026-08-17T080838.png
 security:

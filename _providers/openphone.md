@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.quo.com
@@ -81,7 +81,7 @@ apis:
   description: Operations related to webhooks
   name: OpenPhone Webhooks API
   slug: openphone-webhooks-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Openphone Webhooks
@@ -216,7 +216,7 @@ common:
   url: asyncapi/openphone-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openphone-mcp.yml
 - group: agent
   title: ''
@@ -242,10 +242,6 @@ created: '2026-07-17'
 description: OpenPhone (rebranded to Quo in 2026) is a business phone and customer communications platform that provides shared phone numbers, calling, SMS/MMS texting, AI call summaries and transcripts, contacts, conversations, and tasks for teams. Its public REST API lets developers programmatically send messages, list and retrieve calls with recordings and voicemails, manage contacts and custom fields, manage conversations and tasks, look up phone numbers and users, and subscribe to webhooks for message and call events. The API uses API-key authentication in the Authorization header, returns JSON over HTTPS at https://api.quo.com, uses cursor-based pagination, and is rate limited to 10 requests per second. OpenPhone was surfaced as a portfolio company of 500 Global and profiled into the API Evangelist network.
 image: https://www.quo.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: OpenPhone MCP Server
-  slug: openphone-mcp-server
 modified: '2026-07-20'
 name: OpenPhone
 nav: Providers
@@ -298,8 +294,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -88,7 +88,7 @@ apis:
   description: The Rigetti QCS API API from Rigetti & Co — 2 operation(s) for rigetti qcs api.
   name: Rigetti & Co Rigetti QCS API API
   slug: rigetti-and-co-rigetti-qcs-api-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: packages/rigetti-and-co-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rigetti-and-co-mcp.yml
 - group: agent
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: Rigetti Computing (Rigetti & Co) is a full-stack quantum computing company that builds superconducting quantum processors and delivers access to them through Quantum Cloud Services (QCS). The QCS HTTP API is an OpenAPI 3.0.2 REST/RPC interface (aligned with Google API Improvement Proposals) for discovering quantum processors and their instruction set architectures, reserving execution time, opening execution engagements against endpoints, and managing accounts and billing. Quantum programs are built and run with the pyQuil and qcs-sdk Python/Rust SDKs, while low-latency job execution, readout, and translation run over a companion gRPC surface. Authentication is OAuth2 (Okta) bearer JWT. Surfaced as an a16z portfolio company and enriched by the API Evangelist pipeline from Rigetti's published OpenAPI, gRPC protos, client packages, and QCS documentation.
 image: https://docs.rigetti.com/img/rigetti.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rigetti & Co MCP Server
-  slug: rigetti-co-mcp-server
 modified: '2026-07-21'
 name: Rigetti & Co
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/screenshots/rigetti-and-co-2026-08-17T081558.png
 security:

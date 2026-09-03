@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ apis:
   description: Users
   name: Newstore users API
   slug: newstore-users-api
-artifact_total: 90
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Newstore Webhooks
@@ -462,7 +462,7 @@ common:
   url: well-known/newstore-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/newstore-mcp.yml
 - group: agent
   title: ''
@@ -512,10 +512,6 @@ created: '2026-07-17'
 description: NewStore is a mobile-first omnichannel order management system (OMS) and point-of-service platform for retail brands. Its cloud platform unifies order management, mobile POS and checkout, clienteling, inventory and availability, fulfillment and order routing, returns, tax, fiscalization, and store operations into a single system, exposed through the NewStore Omnichannel REST API. The public API covers carts and checkout, customer profiles, orders and sales orders, in-store pickup and shipments, stock and reservations, fulfillment routing, catalog/pricebook/product export, identity and access management (users, roles, providers), and tenant/store configuration. Integrations are delivered through a documented webhook/adapter surface (payment, tax, shipping, fulfillment, gift card, availability, and an event stream). Authentication is OAuth 2.0 client-credentials against a per-tenant Keycloak identity server. NewStore was founded by Stephan Schambach.
 image: https://developer.newstore.com/static/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Newstore MCP Server
-  slug: newstore-mcp-server
 modified: '2026-07-20'
 name: Newstore
 nav: Providers
@@ -562,8 +558,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/screenshots/newstore-2026-08-07T185135.png
 security:

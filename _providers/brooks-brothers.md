@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 23
 common:
@@ -156,8 +156,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooks-brothers/refs/heads/main/screenshots/brooks-brothers-2026-06-20T173720.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ arazzos:
 - description: Authenticate, discover an available score and the data sources it is available in, bind it to a brand entity, and request the score timeseries.
   name: Morning Consult — compute a score
   slug: morning-consult-compute-score
-artifact_total: 15
+artifact_total: 14
 common:
 - group: other
   title: ''
@@ -83,7 +83,7 @@ common:
   url: overlays/morning-consult-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/morning-consult-mcp.yml
 - group: auth
   title: ''
@@ -217,10 +217,6 @@ json_schemas:
   property_count: 0
   slug: morning-consult-schemas
 layout: provider
-mcp_servers:
-- description: ''
-  name: Morning Consult MCP Server
-  slug: morning-consult-mcp-server
 modified: '2026-08-01'
 name: Morning Consult
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
 security:

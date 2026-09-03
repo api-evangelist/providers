@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'On-demand last-mile delivery: generate binding shipment promises (price + ETA), create deliveries, calculate venueless delivery fees, cancel before courier acceptance, retrieve handshake PINs, and rec'
@@ -42,7 +42,7 @@ apis:
 - description: 'Receive and fulfill consumer marketplace orders in a POS/in-store system: accept, reject, mark ready, mark delivered, refund items or basket, and handle preorders and group orders.'
   name: Wolt Order / Marketplace API
   slug: wolt-order-marketplace-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Wolt Webhooks
@@ -126,7 +126,7 @@ common:
   url: conformance/wolt-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wolt-mcp.yml
 - group: agent
   title: ''
@@ -160,10 +160,6 @@ created: '2026-07-17'
 description: 'Wolt is a marketplace and last-mile delivery platform (part of DoorDash) operating across Europe and beyond. Its developer surface exposes two production APIs: the Order / Marketplace API, which delivers consumer orders into a merchant POS or in-store system and drives them through accept, ready, and delivered states with refunds and group-order support; and the Wolt Drive API, which provides on-demand last-mile delivery via shipment promises, delivery creation, courier tracking, and webhooks. Authentication is OAuth 2.0 issuing one-hour bearer JWTs (Wolt Drive uses a Merchant Key bearer token), with HMAC-SHA256 / HS256-JWT signed webhooks for order and delivery lifecycle events.'
 image: https://wolt.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wolt MCP Server
-  slug: wolt-mcp-server
 modified: '2026-07-21'
 name: Wolt
 nav: Providers
@@ -204,8 +200,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/screenshots/wolt-2026-09-02T170901.png
 security:

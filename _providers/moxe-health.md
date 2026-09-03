@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ arazzos:
 - description: Initiate a release-of-information request for a patient's clinical chart, then poll the status endpoint with the returned moxeRequestId until Moxe delivers the chart via SFTP.
   name: Request a patient chart and poll for status
   slug: moxe-health-request-patient-chart
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: Chart Retrieval API
@@ -127,7 +127,7 @@ common:
   url: data-model/moxe-health-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/moxe-health-mcp.yml
 - group: build
   title: ''
@@ -246,10 +246,6 @@ description: Moxe Health is a United States healthcare data interoperability com
   Data Exchange. The documented API is REST/JSON rather than HL7 FHIR, and full access is granted through a partner onboarding agreement.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Moxe Health MCP Server
-  slug: moxe-health-mcp-server
 modified: '2026-07-24T12:00:00Z'
 name: Moxe Health
 nav: Providers
@@ -313,8 +309,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:

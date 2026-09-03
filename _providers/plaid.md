@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -49,7 +49,7 @@ apis:
   description: The Plaid API from Plaid — 256 operation(s) for plaid.
   name: Plaid Plaid API
   slug: plaid-plaid-api
-artifact_total: 93
+artifact_total: 92
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Plaid webhook surface. Plaid delivers asynchronous notifications via HTTP POST to the URL registered on an Item (`webhook` parameter in `/link/token/create`) or conf
   name: Plaid Webhooks
@@ -431,7 +431,7 @@ common:
   url: asyncapi/plaid-webhooks--asyncapi-original.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/plaid-mcp.yml
 - group: build
   title: ''
@@ -491,10 +491,6 @@ graphqls:
   slug: plaid-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plaid.png
 layout: provider
-mcp_servers:
-- description: 'Plaid does not publish an official hosted/remote MCP server as of this round (no server advertised in Plaid docs, the plaid GitHub org, or the public MCP registries). This is a CANDIDATE tool surface '
-  name: Plaid MCP Server
-  slug: plaid-mcp-server
 modified: '2026-07-23'
 name: Plaid
 nav: Providers
@@ -579,8 +575,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

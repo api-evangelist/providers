@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.pricefinder.com.au/v1
@@ -132,7 +132,7 @@ apis:
   description: The suggest API from Pricefinder — 6 operation(s) for suggest.
   name: Pricefinder Suggest API
   slug: pricefinder-suggest-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: PriceFinder API v1.13.1
@@ -188,7 +188,7 @@ common:
   url: packages/pricefinder-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pricefinder-mcp.yml
 - group: agent
   title: ''
@@ -243,10 +243,6 @@ description: Pricefinder is an Australian property intelligence and valuation pl
   A complete Swagger 2.0 document (v1.13.1, 112 paths, 188 definitions, 19 tags) and an interactive Swagger UI are served anonymously from api.pricefinder.com.au, and OAuth 2.0 client_credentials, authorization_code and refresh_token flows are documented in full. But every data path returns 401 without credentials, and credentials are not self-serve — there is no developer signup, only industry "Get started" forms that route to sales for a custom, minimum-one-month commercial subscription governed by the Domain Group API Terms and Conditions. Australia has no MLS system and no RESO regime — no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier appears anywhere in Pricefinder's contract or documentation. The land-registry seam shows up instead as state-specific title reference lookups (NSW/VIC/QLD/SA/WA/TAS/NT/ACT plan, lot, section, volume and folio paths).
 image: https://www.pricefinder.com.au/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pricefinder MCP Server
-  slug: pricefinder-mcp-server
 modified: '2026-07-26'
 name: Pricefinder
 nav: Providers
@@ -290,8 +286,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
 security:

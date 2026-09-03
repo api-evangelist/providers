@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -168,7 +168,7 @@ apis:
   description: The Workflows API from One Codex — 9 operation(s) for workflows.
   name: One Codex Workflows API
   slug: one-codex-workflows-api
-artifact_total: 57
+artifact_total: 56
 asyncapis:
 - description: ''
   name: One Codex Webhooks
@@ -347,7 +347,7 @@ common:
   url: cli/one-codex-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/one-codex-mcp.yml
 - group: agent
   title: ''
@@ -389,10 +389,6 @@ created: '2026-07-17'
 description: One Codex is a microbial genomics data platform for fast, reproducible microbiome sequencing and analysis. Its cloud platform pairs the "world's largest microbial reference database" with automated shotgun and amplicon pipelines, sample management, and collaboration for academic institutions, biotech companies, and clinical laboratories. Beyond the web application, One Codex exposes a RESTful JSON API (self-described with JSON Schema) covering samples, analyses, classifications, panels, alignments, MLST, functional profiles, jobs/workflows, projects, metadata, tags, documents, sequencing batches, events, and webhooks — plus an official `onecodex` Python client and CLI. The company also offers a Genome Library and end-to-end microbiome sequencing services. One Codex is a portfolio company of DCVC.
 image: https://www.onecodex.com/wp-content/uploads/2019/03/one-codex-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: One Codex MCP Server
-  slug: one-codex-mcp-server
 modified: '2026-07-20'
 name: One Codex
 nav: Providers
@@ -444,8 +440,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:

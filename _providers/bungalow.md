@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://fieldstone.bungalow.com/api/v1/
@@ -57,7 +57,7 @@ apis:
   description: These two endpoints will give you everything you need to get booking availability, as well as create a showing at a given property.
   name: Bungalow Showings API
   slug: bungalow-showings-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Bungalow Webhooks
@@ -69,7 +69,7 @@ common:
   url: capabilities/bungalow-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bungalow-mcp.yml
 - group: company
   title: ''
@@ -188,10 +188,6 @@ description: Bungalow is a US residential rental platform for single-family home
   partners as a richer alternative, and partners are asked to post lead-capture webhooks back to Bungalow. Active in roughly 23 markets across the United States.
 image: https://assets.bungalow.com/home-page/header/header-hero-min.png?h=630&w=1200&auto=format
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bungalow MCP Server
-  slug: bungalow-mcp-server
 modified: '2026-08-01'
 name: Bungalow
 nav: Providers
@@ -232,8 +228,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/screenshots/bungalow-2026-08-07T162850.png
 security:

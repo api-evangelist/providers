@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for asynchronous AI fashion generation tasks. Authenticates with a single long-lived bearer API key (Authorization: Bearer fd_live_xxx); the secret is shown only once at creation and a key ma'
@@ -135,8 +135,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fashiondiffusion/refs/heads/main/screenshots/fashiondiffusion-2026-09-02T145503.png
 security:

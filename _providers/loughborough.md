@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: The REST API of Loughborough University Library's Koha integrated library system, served from the university's own koha.lboro.ac.uk host. The live description at /api/v1/ is a Swagger 2.0 document dec
@@ -172,7 +172,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -182,7 +182,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 28.4
+  previous_composite: 27.5
   provenance:
     conformance: first-party
   regulatory:
@@ -191,8 +191,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
 security:

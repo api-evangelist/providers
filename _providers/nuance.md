@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: 'Automatic Speech Recognition as a Service — convert speech to text in real time over a gRPC streaming API (Recognizer service), with wordsets, training and ForgetMe operations. Secured with OAuth 2.0 '
@@ -51,7 +51,7 @@ apis:
 - description: Grammar-based recognition as a Service — grammar-driven speech recognition over a gRPC runtime service.
   name: Nuance Mix NRaaS gRPC API
   slug: nuance-mix-nraas-grpc-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: other
   title: ''
@@ -115,7 +115,7 @@ common:
   url: conformance/nuance-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nuance-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: 'Nuance Communications (NASDAQ: NUAN) is a conversational-AI and speech-recognition pioneer, acquired by Microsoft in 2022. Its self-service developer platform, Nuance Mix, provides tooling and runtime services for building conversational applications: Automatic Speech Recognition (ASRaaS), Natural Language Understanding (NLUaaS), Dialog management (DLGaaS), Text-to-Speech (TTSaaS) and grammar-based recognition (NRaaS) — all exposed as gRPC/protobuf runtime services secured with OAuth 2.0 client-credentials. Design-time tooling (Mix.nlu, Mix.dialog) and a first-party CLI (@nuance-mix/mix-cli) round out the platform. Nuance also ships Dragon speech solutions, including Dragon Medical SpeechKit for healthcare voice capture.'
 image: https://github.com/nuance-communications.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote MCP server was found for Nuance Mix (searched npm @modelcontextprotocol, the nuance-communications GitHub org, and MCP registries). The tool list below is a CANDIDATE mapping
-  name: Nuance MCP Server
-  slug: nuance-mcp-server
 modified: '2026-07-20'
 name: Nuance
 nav: Providers
@@ -166,8 +162,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/screenshots/nuance-2026-08-07T185712.png
 security:

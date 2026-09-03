@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: VoiceAgent API ver. 1.0.0
   name: CloudTalk VoiceAgent API
   slug: cloudtalk-voiceagent-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Cloudtalk Webhooks
@@ -279,7 +279,7 @@ common:
   url: asyncapi/cloudtalk-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cloudtalk-mcp.yml
 - group: agent
   title: ''
@@ -309,10 +309,6 @@ created: '2026-07-17'
 description: CloudTalk is an AI-powered cloud call center and business phone system (CCaaS) for sales and customer support teams, backed by Point Nine. Its public REST API (served at https://my.cloudtalk.io/api, published as OpenAPI 3.0.1 version 1.7) lets developers automate calls, contacts, agents, groups, phone numbers, campaigns, tags, SMS, blacklists and notes, and read Conversation Intelligence data — transcription, sentiment, topics, talk-listen ratio and smart notes — plus initiate VoiceAgent calls. Authentication is HTTPS-only HTTP Basic Auth using an API Access Key ID and Secret; responses are JSON, paginated with a Collections Envelope, and rate limited to 60 requests per minute per company. Events are delivered through Workflow Automation triggers (native and virtual webhooks) rather than the REST API.
 image: https://www.cloudtalk.sk/files/social/1/Share-Img.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CloudTalk MCP Server
-  slug: cloudtalk-mcp-server
 modified: '2026-08-14'
 name: CloudTalk
 nav: Providers
@@ -368,8 +364,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/screenshots/cloudtalk-2026-07-25T205712.png
 security:

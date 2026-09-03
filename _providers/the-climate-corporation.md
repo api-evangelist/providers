@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: General data upload endpoints.
   name: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -187,7 +187,7 @@ common:
   url: agentic-access/the-climate-corporation-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/the-climate-corporation-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: 'The Climate Corporation (Climate LLC, a Bayer company) operates Climate FieldView, one of the world''s largest digital agriculture platforms, spanning 120M+ acres and 100,000+ farmers. Its FieldView Platform APIs let approved partners read and write growers'' data with OAuth2 consent: field boundaries (GeoJSON), farm organizations, operations, resource owners, and agronomic layers (as-planted, as-applied, as-harvested, scouting), plus asynchronous bulk uploads and exports of planting, application, harvest, imagery, seeding prescription (rx), and soil-sample data. Every call requires both a Bearer access token and a partner X-Api-Key. A v5 API surface is in preview.'
 image: https://s3-us-west-2.amazonaws.com/climate-com/favicons/android-chrome-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: The Climate Corporation MCP Server
-  slug: the-climate-corporation-mcp-server
 modified: '2026-07-21'
 name: The Climate Corporation
 nav: Providers
@@ -256,8 +252,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/screenshots/the-climate-corporation-2026-08-17T082334.png
 security:

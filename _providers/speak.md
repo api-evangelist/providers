@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Production application backend for the Speak language-learning app. It is an OAuth2/OIDC issuer (token endpoint at /v1/auth/token, JWKS published) serving the iOS, Android, and web clients. Not docume
@@ -131,8 +131,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speak/refs/heads/main/screenshots/speak-2026-09-02T160346.png
 security:

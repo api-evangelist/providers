@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -173,7 +173,7 @@ apis:
   description: The Wallet API from Ondo Finance — 12 operation(s) for wallet.
   name: Ondo Finance Wallet API
   slug: ondo-finance-wallet-api
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -363,7 +363,7 @@ common:
   url: conformance/ondo-finance-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ondo-finance-mcp.yml
 - group: design
   title: ''
@@ -393,10 +393,6 @@ created: '2026-07-17'
 description: 'Ondo Finance builds institutional-grade platforms and infrastructure to bring financial markets onchain, tokenizing real-world assets and equities. Its developer surface spans three APIs: the GM Backend API (Ondo Stocks / Global Markets) for tokenized-stock prices, market data, dividends, trading limits and mint/redeem attestations, exposed over REST plus a gRPC real-time streaming service; and the Ondo Perps REST and WebSocket APIs for perpetual-futures trading with SIWE (EIP-4361) and Web2 authentication, order management, positions, funding and live market data. Products include Ondo Stocks, USDY (yieldcoin) and OUSG (tokenized US Treasuries).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ondo-finance.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ondo Finance MCP Server
-  slug: ondo-finance-mcp-server
 modified: '2026-07-20'
 name: Ondo Finance
 nav: Providers
@@ -445,8 +441,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/screenshots/ondo-finance-2026-08-07T190231.png
 security:

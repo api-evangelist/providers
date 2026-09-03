@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful interface for data management, backup and recovery, cyber resilience, reporting, and site continuity operations across Cohesity Helios (multi-cluster SaaS control plane) and on-premises Cohesi
@@ -180,8 +180,8 @@ score:
   previous_composite: 36.0
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohesity-global/refs/heads/main/screenshots/cohesity-global-2026-07-25T210017.png
 security:

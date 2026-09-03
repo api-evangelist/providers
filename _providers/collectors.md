@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The PSA Public API Methods API from Collectors — 6 operation(s) for psa public api methods.
   name: Collectors PSA Public API Methods API
   slug: collectors-psa-public-api-methods-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +115,7 @@ common:
   url: conformance/collectors-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/collectors-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Collectors (Collectors Holdings, Inc.) is the parent company behind PSA, PCGS, Beckett, SGC, Card Ladder, and Collectors vault and financial services — the infrastructure powering trust, authentication, grading, vaulting, and marketplace services for trading cards, coins, currency, and memorabilia. Its PSA brand publishes a public developer API for certificate verification, grading order and submission tracking, and population reports, secured with Bearer access tokens.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collectors.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Collectors MCP Server
-  slug: collectors-mcp-server
 modified: '2026-07-18'
 name: Collectors
 nav: Providers
@@ -189,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/screenshots/collectors-2026-07-25T210048.png
 security:

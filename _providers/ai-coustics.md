@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Real-time speech-enhancement SDK (Quail, Rook, Quail VAD, Quail Voice Focus, Tyto) with a JWT token-minting API for client authentication. Delivered as native language bindings.
@@ -161,8 +161,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/screenshots/ai-coustics-2026-07-25T195338.png
 security:

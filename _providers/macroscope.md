@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://hooks.macroscope.com
@@ -41,7 +41,7 @@ apis:
   description: The Workspaces API from Macroscope — 2 operation(s) for workspaces.
   name: Macroscope Workspaces API
   slug: macroscope-workspaces-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Macroscope Webhooks
@@ -56,7 +56,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/macroscope-mcp.yml
 - group: other
   title: ''
@@ -134,10 +134,6 @@ created: '2026-07-17'
 description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Review (automatic bug detection, PR descriptions, and fixes on every pull request), and Status (commit summaries, area classification, productivity insights, and sprint reports). Macroscope integrates with GitHub, Slack, Jira, Linear, BigQuery, PostHog, LaunchDarkly, and GCP Cloud Logging, ships a local CLI plus plugins for Claude Code, Codex, Cursor, and OpenCode, and exposes a public agent webhook API. Billing is usage-based (prepaid, Stripe-metered). Macroscope is backed by Lightspeed Venture Partners. Enriched into the API Evangelist network from its public developer documentation.
 image: https://macroscope.com/assets/macroscop-logo-black.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from Macroscope's documented agent webhook API. Macroscope publishes local plugins for Claude Code, Codex, Cursor, and OpenCode (see cli/macroscope-cli.yml) but no o
-  name: Macroscope MCP Server
-  slug: macroscope-mcp-server
 modified: '2026-07-20'
 name: Macroscope
 nav: Providers
@@ -178,8 +174,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/screenshots/macroscope-2026-07-25T225824.png
 security:

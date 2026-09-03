@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.timeswap.io
@@ -61,7 +61,7 @@ apis:
   description: The Token API from Timeswap — 1 operation(s) for token.
   name: Timeswap Token API
   slug: timeswap-token-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +140,7 @@ common:
   url: well-known/timeswap-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/timeswap-mcp.yml
 - group: agent
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-17'
 description: Timeswap is a decentralized fixed-maturity lending and borrowing protocol built by Timeswap Labs. Its AMM lets lenders earn fixed interest, borrowers take non-liquidatable loans against any ERC-20 collateral, and liquidity providers act as the counterparty, across pools on multiple EVM chains. Alongside the on-chain V2 contracts, Timeswap runs a public backend API at api.timeswap.io serving pools, caps, tokens, and spot prices to its dApp, and publishes TypeScript SDK packages under the @timeswap-labs npm scope.
 image: https://avatars.githubusercontent.com/u/75018723?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Timeswap MCP Server
-  slug: timeswap-mcp-server
 modified: '2026-07-21'
 name: Timeswap
 nav: Providers
@@ -223,8 +219,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/screenshots/timeswap-2026-09-02T163804.png
 security:

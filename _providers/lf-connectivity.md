@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Magma is a next-generation packet core that delivers cellular network innovation at lower cost of ownership, with REST and gRPC APIs for orchestration, subscriber management, and policy enforcement.
@@ -124,13 +124,13 @@ rate_limits:
   slug: lf-connectivity-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 14.0
   coverage:
     artifact_dirs: 6
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -140,9 +140,6 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 22.3
   regulatory:
     applies: true
@@ -150,9 +147,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-connectivity/refs/heads/main/screenshots/lf-connectivity-2026-06-20T184450.png
 security:
 - kind: domain-security

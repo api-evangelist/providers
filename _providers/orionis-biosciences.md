@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
   description: The Users API from Orionis Biosciences — 3 operation(s) for users.
   name: Orionis Biosciences Users API
   slug: orionis-biosciences-users-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +140,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/orionis-biosciences-mcp.yml
 - group: other
   title: ''
@@ -251,10 +251,6 @@ description: Orionis Biosciences is a privately held biotechnology company headq
   no developer program, no product API and no OpenAPI of its own; the only machine-readable surface on orionisbio.com is the WordPress REST API (wp/v2) that serves the company newsroom, corporate and platform pages, leadership and scientific-team profiles and the media library as anonymously readable JSON, alongside a WordPress Abilities API (wp-abilities/v1) registry that is present but authentication-gated.
 image: https://orionisbio.com/wp-content/uploads/2020/02/cropped-favicon-coast-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Orionis Biosciences MCP Server
-  slug: orionis-biosciences-mcp-server
 modified: '2026-08-04'
 name: Orionis Biosciences
 nav: Providers
@@ -299,8 +295,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:

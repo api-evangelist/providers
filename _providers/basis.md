@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
   description: The Analytics API from Basis — 31 operation(s) for analytics.
   name: Basis Analytics API
   slug: basis-analytics-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -145,7 +145,7 @@ common:
   url: well-known/basis-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/basis-mcp.yml
 - group: agent
   title: ''
@@ -244,10 +244,6 @@ jsonld:
   property_count: 9
   slug: basis-context
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP tool surface for the Basis Platform API. All 31 published operations are GET, so a faithful MCP server for this API is entirely read-only: an agent can plan-and-report against Basis camp'
-  name: Candidate tool surface derived from the Basis OpenAPI — Basis operates no MCP server
-  slug: candidate-tool-surface-derived-from-the-basis-openapi-basis-operates-no-mcp-server
 modified: '2026-08-13'
 name: Basis
 nav: Providers
@@ -313,8 +309,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/screenshots/basis-2026-06-20T173036.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -282,6 +282,10 @@ collections:
   name: Coder Agents Workspaces API
   slug: open-coder-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coder-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -414,7 +418,7 @@ overview: 'Coder publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
   The Coder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Coder''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, and 11 more developer resources.'
+  Coder''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, and 12 more developer resources.'
 plans:
 - name: Coder Plans Pricing
   plan_count: 2
@@ -439,7 +443,7 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 45.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -461,8 +465,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/screenshots/coder-2026-06-20T174705.png
 security:

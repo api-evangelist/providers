@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
   description: The Understand API from Memories — 2 operation(s) for understand.
   name: Memories Understand API
   slug: memories-understand-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Memories Webhooks
@@ -131,7 +131,7 @@ common:
   url: cli/memories-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/memories-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: 'Memories.ai (MAVI) is a video-intelligence platform that turns raw video into searchable, agent-ready understanding. It ships three products on a shared video-understanding stack: Visual Intelligence (stateless REST APIs for transcription, captioning, frame description, embeddings, social-media scraping, and real-time audio/video stream moderation via VLMs such as Gemini, Nova, and Qwen), Visual Search (an auto-indexed private and public video/image library searchable by text, image, or transcript), and Visual Agents (pre-built workflows for video search, AI video editing, and screenplay extraction). The platform authenticates with sk-mavi- API keys, bills on a unified per-endpoint credit model, and is HIPAA, SOC 2 Type 2, and GDPR compliant. It is a Seedcamp portfolio company.'
 image: https://mintcdn.com/memories/xyhRN3OJaXxxzcxh/logo/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Memories MCP Server
-  slug: memories-mcp-server
 modified: '2026-07-20'
 name: Memories
 nav: Providers
@@ -238,8 +234,8 @@ score:
       total: 3
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/screenshots/memories-2026-08-07T172506.png
 security:

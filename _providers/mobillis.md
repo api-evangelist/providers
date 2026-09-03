@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Partner-facing REST API for distributing prepaid vehicle access. Documented resources include wallet creation and management, PSP-orchestrated top-ups, ledger / transaction history, and webhook regist
   name: Mobillis Open API
   slug: mobillis-open-api
-artifact_total: 4
+artifact_total: 3
 asyncapis:
 - description: ''
   name: Mobillis Webhooks
@@ -66,7 +66,7 @@ common:
   url: https://auth.mobillis.com/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mobillis-mcp.yml
 - group: design
   title: ''
@@ -88,10 +88,6 @@ created: '2026-07-17'
 description: Mobillis, operated by Reflex Mobility, Inc., is a fintech mobility platform that turns vehicle fleet inventory into a prepaid billing and access product. It sits as an overlay on top of legacy rental and fleet systems rather than replacing them, letting fleet operators collect payment upfront and reach new "everyday driver" segments, while non-fleet distribution partners resell vehicle access through referral links, a white-label front end, or the Mobillis Open APIs. The documented API surface covers wallet creation and management, PSP-orchestrated top-ups, ledger and transaction-history access, and webhook events for low-balance alerts and billing triggers. Mobillis operates from Johannesburg and New York.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mobillis.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mobillis MCP Server
-  slug: mobillis-mcp-server
 modified: '2026-07-20'
 name: Mobillis
 nav: Providers
@@ -131,8 +127,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobillis/refs/heads/main/screenshots/mobillis-2026-08-07T183851.png
 security:

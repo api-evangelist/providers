@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Scoring API from ReasonBlocks — 1 operation(s) for scoring.
   name: ReasonBlocks Scoring API
   slug: reasonblocks-scoring-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: llms/reasonblocks-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reasonblocks-mcp.yml
 - group: other
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: ReasonBlocks is a Y Combinator (Spring 2026) startup building a drop-in runtime layer that makes production AI agents observable, self-correcting, and cheaper to run. The platform detects failing agent trajectories (loops and redundant work), compresses stale tool outputs and message histories to cut token spend, and builds a private learning library of reasoning patterns (E-traces) that steer future runs. It ships as a Python SDK with first-party integrations for LangChain, LangGraph, the OpenAI Agents SDK, and the Anthropic Claude / Claude Agent SDK, plus a language-agnostic REST API (rb-api) so any custom agent harness can wire in over three HTTP calls. Reported results include a 42% accuracy gain and ~52% token reduction on SWE-bench Pro.
 image: https://reasonblocks.com/rb.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ReasonBlocks MCP Server
-  slug: reasonblocks-mcp-server
 modified: '2026-07-21'
 name: ReasonBlocks
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/screenshots/reasonblocks-2026-09-02T153021.png
 security:

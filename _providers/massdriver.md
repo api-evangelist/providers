@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Massdriver is an internal developer platform providing self-service infrastructure, ephemeral environments, and cloud operations for engineering teams.
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/massdriver/refs/heads/main/screenshots/massdriver-2026-06-20T185017.png
 security:

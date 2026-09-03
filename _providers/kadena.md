@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ apis:
   description: The P2P communication between chainweb-nodes is sharded into several independent P2P network. The `cut` network is exchanging consensus state. There is also one mempool P2P network for each chain.
   name: Kadena peer API
   slug: kadena-peer-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -234,7 +234,7 @@ common:
   url: cli/kadena-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kadena-mcp.yml
 - group: agent
   title: ''
@@ -277,10 +277,6 @@ description: 'Kadena was a layer-1 Proof-of-Work blockchain platform built aroun
   was archived on 2025-12-23. A community edition (kda-community) forked from mainnet on 2025-11-08 and continues the open-source protocol. This profile documents the public API surface as published.'
 image: https://cdn.sanity.io/images/agrhq0bu/production/73f06e78e066f86e21cb84f82292494fe04b9be8-1438x472.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kadena MCP Server
-  slug: kadena-mcp-server
 modified: '2026-07-19'
 name: Kadena
 nav: Providers
@@ -318,8 +314,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/screenshots/kadena-2026-07-25T223401.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Lizee's production operations API powering its rental, resale, and logistics platforms. Confirmed live via the company status page (components "API v1" and "e-commerce API & Admin") and the production
@@ -87,8 +87,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 8.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lizee/refs/heads/main/screenshots/lizee-2026-07-25T225412.png
 slug: lizee

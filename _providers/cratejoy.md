@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'REST interface into most of the data and functionality of interest to Cratejoy merchants and developers: customers, orders, subscriptions, shipments, products, inventory, carts, transactions, addresse'
@@ -42,7 +42,7 @@ apis:
 - description: 'Front-end API that lets storefront JavaScript read (and sometimes write) data on behalf of the logged-in customer: customer, product, subscription, shipment, address, and survey methods, plus add-to-c'
   name: Cratejoy Store API
   slug: cratejoy-store-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Cratejoy Webhooks
@@ -130,7 +130,7 @@ common:
   url: packages/cratejoy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cratejoy-mcp.yml
 - group: design
   title: ''
@@ -148,10 +148,6 @@ created: '2026-07-17'
 description: 'Cratejoy is a subscription-box commerce platform and marketplace (a CRV and Y Combinator company) that lets independent creators launch, sell, and manage recurring subscription boxes and one-time products. It exposes two public REST APIs: a Merchant API (https://api.cratejoy.com/v1/) covering customers, orders, subscriptions, shipments, products, inventory, carts, transactions, and webhooks; and a front-end Store API for reading and writing customer-scoped data from a storefront theme. Resources are JSON, authenticated with HTTP Basic credentials, paginated, filterable with double-underscore operators, and rate-limited with Retry-After.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cratejoy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cratejoy MCP Server
-  slug: cratejoy-mcp-server
 modified: '2026-07-18'
 name: Cratejoy
 nav: Providers
@@ -192,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cratejoy/refs/heads/main/screenshots/cratejoy-2026-07-25T210648.png
 security:

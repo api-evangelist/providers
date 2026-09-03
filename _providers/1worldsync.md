@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The FetchProduct API from 1WorldSync — 3 operation(s) for fetchproduct.
   name: 1WorldSync FetchProduct API
   slug: 1worldsync-fetchproduct-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: well-known/1worldsync-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/1worldsync-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: 1WorldSync is the leading product content network and a GS1-certified GDSN data pool, helping consumer goods brands, manufacturers, and retailers create, manage, syndicate, and verify trusted product content across the digital shelf and the physical supply chain. Its Content1 platform exposes REST APIs for product master data — the Content1 Read API (product search, fetch, count, and hierarchy retrieval), the Item Management Inbound API (add, update, delete, and link items and hierarchies), a Digital Asset Management (DAM) API for images and rich media, and a User Management API (UMA) — all authenticated with HMAC-signed requests using an app_id and a secret key. 1WorldSync serves CPG, grocery, healthcare, foodservice, and DIY sectors and is SOC 2 Type 2 and ISO/IEC 27001:2022 certified.
 image: https://1worldsync.com/wp-content/uploads/2024/10/Untitled-design-49.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: 1WorldSync MCP Server
-  slug: 1worldsync-mcp-server
 modified: '2026-07-17'
 name: 1WorldSync
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

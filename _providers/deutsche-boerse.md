@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - baseURL: https://a7.deutsche-boerse.com/api/v1
@@ -99,7 +99,7 @@ apis:
   description: Cloud-delivered real-time market data streaming over WebSocket (host md.deutsche-boerse.com) with Protocol Buffers or JSON message encoding and API-key authentication - the published sample client sub
   name: Deutsche Börse Cloud Stream Market Data API
   slug: cloud-stream-market-data-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: 'Real-time market data streaming over WebSocket from Deutsche Börse Cloud Stream. Clients connect to md.deutsche-boerse.com with an API key generated in the GUI (passed as a token; the official Python '
   name: Deutsche Börse Cloud Stream Market Data
@@ -181,7 +181,7 @@ common:
   url: well-known/deutsche-boerse-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/deutsche-boerse-mcp.yml
 - group: build
   title: ''
@@ -307,10 +307,6 @@ created: '2026-07-21'
 description: Deutsche Börse AG is the Frankfurt-based, publicly listed (FWB DB1) exchange organization behind the Frankfurt Stock Exchange and Xetra cash market, the Eurex derivatives exchange, EEX, 360T, Clearstream post-trade services, and the ISS STOXX index and analytics business. Its Market Data + Services arm sells real-time, historical, and reference market data, delivered through a self-serve Group API platform (developer.deutsche-boerse.com, API-key gated REST and GraphQL), the A7 Analytics Platform cloud REST API for nanosecond order-by-order Eurex/Xetra/EEX/CME history, a Cloud Stream WebSocket feed, licensed low-latency feeds, and the Datashop for commercial data purchases.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deutsche-boerse.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Deutsche Börse MCP Server
-  slug: deutsche-börse-mcp-server
 modified: '2026-07-22'
 name: Deutsche Börse
 nav: Providers
@@ -357,8 +353,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
 security:

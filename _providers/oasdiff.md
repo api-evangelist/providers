@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
@@ -102,8 +102,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 11.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oasdiff/refs/heads/main/screenshots/oasdiff-2026-06-20T190549.png
 security:

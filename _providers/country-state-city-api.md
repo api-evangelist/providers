@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,13 +199,13 @@ rules:
   slug: country-state-city-api-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 42.0
   coverage:
     artifact_dirs: 12
     catalog_gap: 49.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -215,9 +215,6 @@ score:
     discoverability: 75.9
     governance: 60.6
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 44.3
   provenance:
     agentic_access: derived
@@ -226,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/screenshots/country-state-city-api-2026-06-20T175144.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Xiaoe's Open API (开放API) for integrating store data and operations — users, products, orders, refunds, live broadcasts, learning/course data, marketing (coupons, group-buy, promoters) and points — int
@@ -150,8 +150,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/screenshots/sem-2026-09-02T154825.png
 security:

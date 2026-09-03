@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: APIwiz is a low-code, end-to-end API management platform enabling the complete API lifecycle including design, build, security, governance, observability, and monetization. It provides a visual API de
   name: APIwiz
   slug: apiwiz
-artifact_total: 35
+artifact_total: 36
 common:
 - group: company
   title: ''
@@ -60,15 +60,15 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/apiwiz
+  url: https://www.linkedin.com/company/apiwizio/
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.apiwiz.io/docs
+  url: https://docs.apiwiz.io/guides
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.apiwiz.io/api-reference
+  url: https://docs.apiwiz.io/references
 - group: start
   title: ''
   type: Portal
@@ -80,15 +80,51 @@ common:
 - group: operate
   title: ''
   type: Contact
-  url: https://www.apiwiz.io/contact
+  url: https://www.apiwiz.io/contact-us
 - group: operate
   title: ''
   type: Support
   url: https://wizdesk.apiwiz.io
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://docs.apiwiz.io/llms.txt
+  type: LLMsTxt
+  url: llms/apiwiz-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/apiwiz-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/apiwiz-components.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/apiwiz-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.apiwiz.io/legal/certificates
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/apiwiz-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apiwiz-lifecycle.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.apiwiz.io/auth
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@apiwiz
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/getapiwiz
 created: '2025-01-08'
 description: APIwiz is a federated API management platform that streamlines the complete API lifecycle from design through monetization. The low-code platform provides centralized control for organizations managing APIs across multiple cloud environments, with federated gateway control, automated governance, security pipeline, compliance monitoring, and API marketplace capabilities. Trusted by 25K+ managed APIs and 10B+ API volume. Gartner Magic Quadrant Honorable Mention (2023).
 features:
@@ -147,51 +183,57 @@ integrations:
 - description: Project management integration via Wizdesk connector for issue tracking.
   name: Jira
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-03'
 name: APIwiz
 nav: Providers
 network: true
 overview: 'APIwiz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Gateway, API Governance, API Lifecycle, and API Management.
 
 
-  APIwiz''s developer surface includes engineering blog, documentation, API reference, developer portal, support, and 7 more developer resources.'
+  APIwiz''s developer surface includes engineering blog, documentation, API reference, developer portal, support, YouTube channel, and 15 more developer resources.'
 plans:
 - name: Apiwiz Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: apiwiz-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Apiwiz Rate Limits
   slug: apiwiz-rate-limits
 score:
   band: emerging
-  composite: 18.5
+  composite: 23.9
   coverage:
-    artifact_dirs: 7
-    catalog_gap: 74.0
+    artifact_dirs: 12
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.4
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
-    contract_governance: 0.0
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 15.5
     discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 10.5
+    governance: 18.2
+    operational_transparency: 2.6
   previous_composite: 18.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiwiz/refs/heads/main/screenshots/apiwiz-2026-06-20T172301.png
 security:
 - kind: domain-security
   name: Apiwiz Domain Security
   slug: apiwiz-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Apiwiz Trust Center
+  slug: apiwiz-trust-center
+  summary_line: ISO 27001, SOC 2 Type 1, SOC 2 Type 2, SOC 3, HIPAA, CSA STAR Level 1, GDPR, CCPA
 slug: apiwiz
 tags:
 - API Design

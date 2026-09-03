@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  - '{''url'': ''https://www.tietoevry.com/en/'', ''status'': 301, ''note'': ''declared website redirects to https://www.tieto.com/en/ — a different registrable domain (tietoevry.com -> tieto.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 24
 apis:
 - baseURL: https://openbanking.api.tietoevry.com
@@ -203,6 +217,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -212,6 +227,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 50.0
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +243,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Tietoevry Authentication

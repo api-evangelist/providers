@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ arazzos:
 - description: Reconstruct why Alberta's price cleared where it did — the offer stack, the units directed online, the outages that removed supply, and the resulting system marginal and pool prices.
   name: AESO price formation trace
   slug: aeso-price-formation
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: Actual Forecast Report
@@ -227,7 +227,7 @@ common:
   url: overlays/aeso-unitcommitmentdata-api-v2-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aeso-mcp.yml
 - group: agent
   title: ''
@@ -371,10 +371,6 @@ description: 'The Alberta Electric System Operator (AESO) is the independent, no
   parameter). The one real friction is legal rather than technical: AESO''s site terms permit non-commercial, personal or educational use only, and any other use requires written permission.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aeso.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AESO MCP Server
-  slug: aeso-mcp-server
 modified: '2026-07-27'
 name: AESO
 nav: Providers
@@ -423,8 +419,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:

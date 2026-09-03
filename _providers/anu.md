@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -294,8 +294,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png
 security:

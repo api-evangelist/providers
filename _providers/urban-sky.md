@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Real-time balloon telemetry feed delivered over WebSocket via the Urban Sky SDK (JavaScript and Python, distributed by CDN loader from sdk.atmosys.com), with balloon and unassigned-device location upd
@@ -174,8 +174,8 @@ score:
   previous_composite: 33.5
   provenance:
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urban-sky/refs/heads/main/screenshots/urban-sky-2026-09-02T165154.png
 security:

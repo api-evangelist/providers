@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Sensu Go backend REST API for managing observability resources: checks, events, entities, filters, handlers, mutators, hooks, pipelines, assets, silences, namespaces, roles, role bindings, cluster'
   name: Sensu Go Backend REST API
   slug: sensu-go-backend-rest-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Sensu (Sensu by Sumo Logic) is an observability pipeline that delivers monitoring as code across multi-cloud and hybrid environments. Sensu Go codifies monitoring workflows into declarative, versionable configuration and exposes a backend REST API (core/v2 plus namespaced and cluster-wide enterprise APIs) for managing checks, events, entities, filters, handlers, mutators, pipelines, assets, silences, roles, and users. It integrates with Nagios, StatsD, Telegraf, and Prometheus, automates registration and de-registration of servers, containers, services, and functions, and drives self-healing and automated diagnosis from bare metal to Kubernetes. The platform ships the sensuctl command-line interface, an open-source Go codebase, and role-based access control, with JWT access tokens and persistent API keys for authentication and OIDC single sign-on for operators.
 image: https://sensu.io/img/sensu-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sensu MCP Server
-  slug: sensu-mcp-server
 modified: '2026-07-21'
 name: Sensu
 nav: Providers
@@ -140,8 +136,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensu/refs/heads/main/screenshots/sensu-2026-09-02T154919.png
 security:

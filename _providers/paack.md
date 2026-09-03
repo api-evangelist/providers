@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for creating and managing parcel delivery orders, generating shipping labels, checking delivery coverage, retrieving proof of delivery, and consuming real-time tracking events. Authenticated '
   name: Paack API
   slug: paack-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Paack Webhooks
@@ -95,7 +95,7 @@ common:
   url: data-model/paack-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paack-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Paack is a technology-driven last-mile parcel delivery company serving e-commerce retailers across Spain, Portugal, the United Kingdom, France and Italy. Founded in 2015 and headquartered in Barcelona, Paack provides scheduled, precise home delivery, returns and reverse logistics, real-time parcel tracking, and proof of delivery. Its developer platform exposes REST APIs for order creation and management, label generation, delivery coverage and postcode-zone lookup, and real-time tracking events, complemented by webhooks for event notifications and an sFTP batch integration. APIs are authenticated with Auth0 OAuth2 client-credentials JSON Web Tokens and documented on a ReadMe developer hub with staging and production environments.
 image: https://files.readme.io/005f576-small-Logo_paack_negativo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paack MCP Server
-  slug: paack-mcp-server
 modified: '2026-07-20'
 name: Paack
 nav: Providers
@@ -191,8 +187,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/screenshots/paack-2026-08-07T191232.png
 security:

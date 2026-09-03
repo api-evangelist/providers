@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic access to Tubular's cross-platform social video intelligence — creator, video, and audience data across YouTube, Instagram, Facebook, Twitch, and other platforms — for brand-mention monit
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 22.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tubular-labs/refs/heads/main/screenshots/tubular-labs-2026-09-02T164456.png
 security:

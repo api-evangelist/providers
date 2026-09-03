@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The v1 Import API lets a customer push their own data into a SegMetrics integration — contacts (with UTM attribution, geo, affiliate and custom fields), tags, orders/invoices, subscriptions, products '
@@ -222,8 +222,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmetrics/refs/heads/main/screenshots/segmetrics-2026-08-17T081754.png
 security:

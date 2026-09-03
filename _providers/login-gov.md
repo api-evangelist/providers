@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -313,13 +313,13 @@ rules:
   slug: login-gov-rules
 score:
   band: strong
-  composite: 56.9
+  composite: 55.5
   coverage:
     artifact_dirs: 15
     catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -329,9 +329,6 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -346,8 +343,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

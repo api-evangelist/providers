@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''http://opendata.praha.eu/en'', ''status'': 307, ''note'': ''declared website redirects to https://lkod.cz/catalog/praha — a different registrable domain (praha.eu -> lkod.cz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Prague(CZ) City Open Data
@@ -87,8 +88,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/city-prague-open-data/refs/heads/main/screenshots/city-prague-open-data-2026-06-20T174424.png
 security:

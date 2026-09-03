@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -251,8 +251,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Ualá Bis API Cobros Online V2 API from Ualá — 0 operation(s) for ualá bis api cobros online v2.
   name: Ualá Ualá Bis API Cobros Online V2 API
   slug: ual-ual-bis-api-cobros-online-v2-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Ual Webhooks
@@ -176,7 +176,7 @@ common:
   url: packages/ual-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ual-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.
 image: https://developers.ualabis.com.ar/logo-large.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ualá MCP Server
-  slug: ualá-mcp-server
 modified: '2026-07-21'
 name: Ualá
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png
 security:

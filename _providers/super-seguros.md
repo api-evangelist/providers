@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.super.mx
@@ -41,7 +41,7 @@ apis:
   description: The Quotes API from Super Seguros — 1 operation(s) for quotes.
   name: Super Seguros Quotes API
   slug: super-seguros-quotes-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -88,7 +88,7 @@ common:
   url: llms/super-seguros-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/super-seguros-mcp.yml
 - group: other
   title: ''
@@ -126,10 +126,6 @@ created: '2026-07-17'
 description: Super Seguros (super.mx) is a Mexican insurtech that lets people quote, buy, and manage insurance entirely online. Its developer product, Super Studio, is a set of REST APIs partners use to generate insurance quotes and sell policies — covering life insurance (12-month term and 5-year plans with savings), home, renters, and landlord products. Quoting endpoints are broadly available and return prefilled purchase links to super.mx; purchase endpoints let approved partners sell insurance directly via API. Authentication is via an X-Api-Key header, with separate sandbox and production hosts. Super Seguros is backed by Anthemis.
 image: https://www.super.mx/src/assets/super_midoconline_fav.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Super Seguros MCP Server
-  slug: super-seguros-mcp-server
 modified: '2026-07-21'
 name: Super Seguros
 nav: Providers
@@ -173,8 +169,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-seguros/refs/heads/main/screenshots/super-seguros-2026-09-02T161203.png
 security:

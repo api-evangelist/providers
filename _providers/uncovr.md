@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Inference (V3, Backwards Compatible) API from Uncovr — 1 operation(s) for inference (v3, backwards compatible).
   name: Uncovr Inference (V3, Backwards Compatible) API
   slug: uncovr-inference-v3-backwards-compatible-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -107,7 +107,7 @@ common:
   url: https://www.linkedin.com/company/uncovr-uncover/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uncovr-mcp.yml
 - group: design
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Uncovr is a surgical AI company building a foundation model for surgery. Its platform captures video from any operating-room source (laparoscopic, robotic, or other devices), analyzes procedures in real time, and automatically generates operative reports, CPT billing codes, and structured clinical intelligence, with a zero-PHI on-device anonymization architecture and EHR integration. Uncovr publishes no developer portal or SDKs, but serves a live OpenAPI 3.1 inference API (with Swagger UI) at api.uncovr.ai, and publishes an llms.txt on its website.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uncovr.png
 layout: provider
-mcp_servers:
-- description: No official Uncovr MCP server was found (none in docs, npm, or the MCP registry surface we checked). Candidate tool list derived from the served OpenAPI 3.1 operations at https://api.uncovr.ai/openapi
-  name: Uncovr MCP Server
-  slug: uncovr-mcp-server
 modified: '2026-07-21'
 name: Uncovr
 nav: Providers
@@ -181,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/screenshots/uncovr-2026-09-02T164853.png
 security:

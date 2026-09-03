@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful JSON API for CapLinked virtual data rooms, secured by HMAC-SHA256 request signing. Manage organizations, teams, workspaces, folders, files, groups, permissions, uploads, downloads, watermarks,
   name: CapLinked API
   slug: caplinked-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -151,7 +151,7 @@ common:
   url: conformance/caplinked-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/caplinked-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ created: '2026-07-17'
 description: 'CapLinked is a secure virtual data room (VDR) provider used for M&A, fundraising, due diligence, audits, and other confidential document workflows. The CapLinked API is a RESTful, JSON API secured by HMAC-SHA256 request signing (TLS + signed requests) that lets developers embed CapLinked''s information-security controls into their own applications: protect and encrypt files in secure cloud storage, configure Access Control List (ACL) privileges, apply enterprise Digital Rights Management (DRM) to Microsoft Office and PDF files, generate dynamic watermarks, produce exhaustive activity and audit-trail reports, and run OCR-backed search over stored files. The API models an Organization > Team > Workspace hierarchy containing Folders, Files, Groups, Permissions, Activities, Uploads, Downloads, and Watermarks, and ships official SDKs for Node.js, Ruby, PHP, C#/.NET, and Python. It supports search, pagination, and filtering.'
 image: https://www.caplinked.com/wp-content/uploads/2022/03/Caplinked-Logo-299x80-e1541700266853.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Caplinked MCP Server
-  slug: caplinked-mcp-server
 modified: '2026-07-18'
 name: Caplinked
 nav: Providers
@@ -196,8 +192,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/screenshots/caplinked-2026-07-25T204422.png
 security:

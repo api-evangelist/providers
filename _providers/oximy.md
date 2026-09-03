@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: LLM request/response event ingestion.
   name: Oximy Telemetry API
   slug: oximy-telemetry-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: packages/oximy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oximy-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: Oximy is an AI adoption and governance platform — "the AI adoption engine for every company." It gives organizations visibility into how their people and applications use AI tools across the enterprise (tracking thousands of AI tools across categories), surfaces risks and recommendations, and lets teams ask natural-language questions about their AI usage. For developers, Oximy ships a Public API (https://api.oximy.com) and an official TypeScript SDK that wrap any OpenAI-compatible client to capture zero-overhead LLM telemetry and enforce usage policy inline — PII detection and redaction, prompt-injection detection, deny/allow lists, and token/cost/rate limits. Backed by Y Combinator (W26) and Blume Ventures; founded by Naman Ambavi.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oximy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oximy MCP Server
-  slug: oximy-mcp-server
 modified: '2026-07-20'
 name: Oximy
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/screenshots/oximy-2026-08-07T191209.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://uk.api.just-eat.io
@@ -151,7 +151,7 @@ apis:
   description: The Search API from Just Eat — 2 operation(s) for search.
   name: Just Eat Search API
   slug: just-eat-search-api
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Just Eat Webhooks
@@ -275,7 +275,7 @@ common:
   url: lifecycle/just-eat-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/just-eat-mcp.yml
 - group: agent
   title: ''
@@ -317,10 +317,6 @@ created: '2026-07-17'
 description: 'Just Eat Takeaway.com is a leading global online food-delivery marketplace, formed by the 2020 merger of Just Eat and Takeaway.com and headquartered in Amsterdam. It connects consumers with local restaurants and a last-mile delivery network across the UK, Europe, Australia/New Zealand and North America. Its public developer surface (developers.just-eat.com) exposes the Just Eat UK API for restaurant discovery and search, product catalogue and menu ingestion, order-lifecycle management, delivery-state tracking, checkout and basket, and consumer communication preferences, plus specialised partner integrations: JET Connect (point-of-sale) and JET Go (delivery as a service). Order-lifecycle and delivery-state events are pushed to partners through an extensive webhook surface, including async webhooks that use a callback URL.'
 image: https://logo.clearbit.com/just-eat.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Just Eat MCP Server
-  slug: just-eat-mcp-server
 modified: '2026-07-19'
 name: Just Eat
 nav: Providers
@@ -361,8 +357,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

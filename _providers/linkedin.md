@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -414,7 +414,7 @@ arazzos:
 - description: Register a video upload for an owner, then confirm the resulting video asset resolves.
   name: LinkedIn Upload a Video and Verify the Asset
   slug: linkedin-upload-video-and-verify-workflow
-artifact_total: 874
+artifact_total: 873
 asyncapis:
 - description: ''
   name: Linkedin Webhooks
@@ -840,7 +840,7 @@ common:
   url: well-known/linkedin-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/linkedin-mcp.yml
 - group: agent
   title: ''
@@ -3158,10 +3158,6 @@ jsonld:
   property_count: 265
   slug: linkedin-api-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: LinkedIn MCP Server
-  slug: linkedin-mcp-server
 modified: '2026-08-13'
 name: LinkedIn
 nav: Providers
@@ -3254,8 +3250,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:

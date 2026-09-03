@@ -8,6 +8,7 @@ access_model:
   source:
   - rate-limits
   - security
+  - '{''url'': ''https://www.mosaic.tech/'', ''status'': 301, ''note'': ''declared website redirects to https://www.hibob.com/platform/finance/ — a different registrable domain (mosaic.tech -> hibob.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -136,8 +137,8 @@ score:
   previous_composite: 10.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-tech/refs/heads/main/screenshots/mosaic-tech-2026-09-02T150639.png
 security:

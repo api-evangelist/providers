@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ apis:
   description: Health check and project resource summaries.
   name: Onecli Utility API
   slug: onecli-utility-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -319,7 +319,7 @@ common:
   url: cli/onecli-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/onecli-mcp.yml
 - group: agent
   title: ''
@@ -357,10 +357,6 @@ created: '2026-07-17'
 description: OneCLI is an open-source credential gateway and identity layer for AI agents. Agents connect to Gmail, GitHub, Slack, AWS, Jira and 50+ other services through a network-layer proxy that injects real API keys and OAuth tokens at request time, so the agent only ever sees placeholder credential stubs and a compromised or misbehaving agent can never leak secrets. Teams get per-agent access control, policy rules (allow, block, rate-limit, manual approval), a built-in encrypted secrets vault, and full audit logs. The REST API manages agents, secrets, policy rules, and app connections programmatically; OneCLI runs as hosted Cloud or as a self-hosted (Docker) community edition. Founded by ex-Argon Security / Aqua Security engineers and backed by Y Combinator; licensed Apache-2.0.
 image: https://onecli.sh/og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Onecli MCP Server
-  slug: onecli-mcp-server
 modified: '2026-07-20'
 name: Onecli
 nav: Providers
@@ -399,8 +395,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/screenshots/onecli-2026-08-07T190306.png
 security:

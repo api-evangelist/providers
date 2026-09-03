@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
   name: Campaign Monitor API
   slug: campaign-monitor-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Campaignmonitor Webhooks
@@ -199,7 +199,7 @@ common:
   url: asyncapi/campaignmonitor-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/campaignmonitor-mcp.yml
 - group: agent
   title: ''
@@ -218,10 +218,6 @@ jsonld:
   property_count: 1
   slug: campaignmonitor-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Campaign Monitor MCP Server
-  slug: campaign-monitor-mcp-server
 modified: '2026-08-13'
 name: Campaign Monitor
 nav: Providers
@@ -279,8 +275,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/screenshots/campaignmonitor-2026-06-20T173912.png
 security:

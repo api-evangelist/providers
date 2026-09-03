@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
   name: Mesh Connect Transfers API
   slug: mesh-connect-transfers-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Mesh Connect Transfers Webhooks
@@ -231,7 +231,7 @@ common:
   url: llms/mesh-connect-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mesh-connect-mcp.yml
 - group: start
   title: ''
@@ -277,10 +277,6 @@ created: '2026-07-17'
 description: Mesh (formerly Mesh Connect) is a global crypto payments network that lets businesses accept crypto payments from 300+ wallets and exchanges and settle in stablecoins or local currency through a single integration. The Mesh Integration API and embeddable Link SDK handle account connection, credential validation, MFA, portfolio and balance aggregation, and managed crypto transfers across exchanges and self-custody wallets. Mesh is backed by Paradigm and operates in the crypto-infrastructure sector.
 image: https://cdn.prod.website-files.com/656cc624086b77872a31a084/68d80ffccc987492d4bd2e0a_Untitled%20design%20(81).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mesh Connect MCP Server
-  slug: mesh-connect-mcp-server
 modified: '2026-07-20'
 name: Mesh Connect
 nav: Providers
@@ -328,8 +324,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/screenshots/mesh-connect-2026-08-07T172619.png
 security:

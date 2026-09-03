@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
@@ -57,7 +57,7 @@ apis:
   description: Usage Point endpoints
   name: Alectra Utilities Usage Point API
   slug: alectra-utilities-usagepoint-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: Green Button API Documentation
@@ -69,7 +69,7 @@ common:
   url: overlays/alectra-utilities-green-button-espi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alectra-utilities-mcp.yml
 - group: auth
   title: ''
@@ -149,10 +149,6 @@ description: 'Alectra Utilities Corporation is Ontario''s second-largest municip
   not resolve; /developers, /api, /docs, /data, /openapi.json and /swagger.json all return HTTP 404. Every path on the Green Button portal — including a deliberately invented control path — HTTP 302 redirects to a customer sign-in, so no endpoint could be confirmed. The resulting split is the finding: a mandated consumer-data API that a third party can reach only by completing an application and being approved, and zero open market or grid data of any kind, because in Ontario that layer belongs to the IESO and the OEB rather than to the distributor.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alectra Utilities MCP Server
-  slug: alectra-utilities-mcp-server
 modified: '2026-07-27'
 name: Alectra Utilities
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/screenshots/alectra-utilities-2026-08-07T161155.png
 security:

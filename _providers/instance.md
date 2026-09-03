@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ apis:
   description: The Verify Frames API from Instance — 1 operation(s) for verify frames.
   name: Instance Verify Frames API
   slug: instance-verify-frames-api
-artifact_total: 60
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -314,7 +314,7 @@ common:
   url: conventions/instance-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/instance-mcp.yml
 - group: other
   title: ''
@@ -344,10 +344,6 @@ created: '2026-07-17'
 description: Instance (Instance Labs) is a Y Combinator-backed (Summer 2026) company building a verification layer for robot learning. Their platform ingests raw robot rollouts and episode footage from any robot or camera angle and automatically judges whether a task was completed successfully, returning a verdict with supporting evidence and a detailed subtask breakdown. The company positions itself as the ground-truth / success-detection layer that lets robotics teams trust their training data and train policies faster, and reports its verifier reaching higher accuracy than frontier vision-language models at a fraction of the latency across 10,000+ human-labeled episodes on 7 robot platforms. Founded by MIT computer scientists with backgrounds at SpaceX, AWS, and NASA JPL. Today the product is exposed as a hosted demo (submit videos or capture a live rollout for verification); there is no publicly documented developer API, SDK, or OpenAPI at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instance.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Instance MCP Server
-  slug: instance-mcp-server
 modified: '2026-07-19'
 name: Instance
 nav: Providers
@@ -386,8 +382,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/screenshots/instance-2026-07-25T222605.png
 security:

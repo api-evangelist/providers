@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - baseURL: https://akuity.cloud/api/v1
@@ -78,7 +78,7 @@ apis:
   description: The SystemService API from Akuity — 14 operation(s) for systemservice.
   name: Akuity System Service API
   slug: akuity-systemservice-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Akuity Notifications Webhooks
@@ -114,7 +114,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/akuity-mcp.yml
 - group: auth
   title: ''
@@ -268,10 +268,6 @@ created: '2026-08-06'
 description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Akuity Agent for connecting target Kubernetes clusters, and Akuity Intelligence — an AI layer adding multi-cluster insight dashboards, on-call and promotion advisor agents, and AI-assisted remediation. The platform is controlled by a REST API at https://akuity.cloud/api/v1/, an `akuity` CLI, a Terraform provider and a Crossplane provider, all of which speak the same grpc-gateway service surface. Akuity runs on AWS with US and EU data residency and maintains SOC 2 Type II, ISO 27001:2022, PCI DSS 4.0.1, HIPAA-aligned and CSA STAR Level 1 posture.'
 image: https://framerusercontent.com/images/GquIfu25ll0uHAbX9oobc0UUUE.png
 layout: provider
-mcp_servers:
-- description: 'Akuity does NOT publish an MCP server for the Akuity Platform API. It is an MCP *client*: Akuity Intelligence connects to customer-supplied MCP servers and folds their tools into its own tool-calling '
-  name: Akuity MCP Server
-  slug: akuity-mcp-server
 modified: '2026-08-06'
 name: Akuity
 nav: Providers
@@ -316,8 +312,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:

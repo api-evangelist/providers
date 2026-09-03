@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -113,7 +113,7 @@ apis:
   description: The accepting_bids API from Powernaut — 0 operation(s) for accepting_bids.
   name: Powernaut Accepting Bids API
   slug: powernaut-accepting-bids-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Powernaut Webhooks
@@ -212,7 +212,7 @@ common:
   url: security/powernaut-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/powernaut-mcp.yml
 - group: agent
   title: ''
@@ -254,10 +254,6 @@ created: '2026-07-17'
 description: Powernaut is a Virtual Power Plant (VPP) and energy-flexibility platform for energy retailers and independent power producers. Its Energy Operations Workspace connects and aggregates distributed energy resources — solar, batteries, EVs and HVAC — then forecasts, optimizes and trades their flexibility across day-ahead, intraday, imbalance, congestion and ancillary-service markets. The Powernaut Partner API (OpenAPI 3.0) exposes site and resource connectivity, credential management, baselining, market bidding, forecasting, sensor readings and metrics. Powernaut BV is based in Gent, Belgium and is backed by Seedcamp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powernaut.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Powernaut MCP Server
-  slug: powernaut-mcp-server
 modified: '2026-07-20'
 name: Powernaut
 nav: Providers
@@ -305,8 +301,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/screenshots/powernaut-2026-09-02T151845.png
 security:

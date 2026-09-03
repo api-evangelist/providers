@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ apis:
   description: The Data API API from Ava Labs — 0 operation(s) for data api.
   name: Ava Labs Data API
   slug: ava-labs-data-api-api
-artifact_total: 62
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Ava Labs Webhooks
@@ -279,6 +279,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/ava-labs-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/ava-labs-platform-api-overlay.yaml
 - group: company
@@ -351,7 +355,7 @@ common:
   url: sandbox/ava-labs-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ava-labs-mcp.yml
 - group: agent
   title: ''
@@ -401,10 +405,6 @@ created: '2026-07-17'
 description: 'Ava Labs is the company behind Avalanche, a high-throughput, low-latency smart-contract blockchain platform. Through AvaCloud it ships a public developer surface for building on Avalanche and its L1s (subnets): a Data API (glacier-api.avax.network) for balances, tokens, transactions, blocks, NFTs and Interchain Messaging; a Metrics API for chain performance and staking analytics; a Webhooks API for real-time address-activity events; and standard JSON-RPC access to the Primary Network''s P-Chain, X-Chain and C-Chain. First-party SDKs (AvaCloud SDK for TypeScript, AvalancheJS, AvalancheGo in Go) and the Avalanche-CLI round out the toolchain. This profile was enriched from Ava Labs'' published OpenAPI specs and docs.'
 image: https://avatars.githubusercontent.com/u/44277073?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ava Labs MCP Server
-  slug: ava-labs-mcp-server
 modified: '2026-07-18'
 name: Ava Labs
 nav: Providers
@@ -415,17 +415,17 @@ overview: 'Ava Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network
   The Ava Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 23 more developer resources.'
+  Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 24 more developer resources.'
 random_paper: 19
 score:
   band: developing
   composite: 52.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -435,7 +435,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 51.5
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -446,8 +446,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png
 security:

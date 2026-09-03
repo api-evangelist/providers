@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST data APIs for ShotSpotter gunfire detection — incident data, CAD incident ID lookup, and ILS (Investigative Lead Summary) retrieval.
@@ -41,7 +41,7 @@ apis:
 - description: REST data APIs for SafePointe AI weapons detection — alert data and line-crossing data.
   name: SafePointe Data APIs
   slug: safepointe-data-apis
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Shotspotter Napi Webhooks
@@ -89,7 +89,7 @@ common:
   url: llms/shotspotter-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shotspotter-mcp.yml
 - group: auth
   title: ''
@@ -103,10 +103,6 @@ created: '2026-07-17'
 description: 'ShotSpotter is the flagship acoustic gunshot detection service of SoundThinking, Inc. (Nasdaq: SSTI), the public safety technology company formerly named ShotSpotter, Inc. SoundThinking operates a portfolio of law-enforcement and security products including ShotSpotter gunfire detection, SafePointe AI weapons detection, PlateRanger license-plate recognition, CrimeTracer investigative search, CaseBuilder case management, and ResourceRouter patrol analytics. Developers integrate via the SoundThinking developer documentation at docs.soundthinking.com, which publishes REST data APIs for ShotSpotter (incident data, CAD incident ID, ILS) and SafePointe (alert data, line-crossing data), plus NAPI, a webhook/push notification interface that delivers real-time XML alert documents (ShotSpotter IALRT incident presentations and SafePointe SPALRT alerts) to a customer network endpoint, alongside an Applications IT Resource Guide.'
 image: https://www.soundthinking.com/wp-content/themes/soundthinking/assets/images/soundthinking-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: ShotSpotter (SoundThinking) MCP Server
-  slug: shotspotter-soundthinking-mcp-server
 modified: '2026-07-21'
 name: ShotSpotter (SoundThinking)
 nav: Providers
@@ -146,8 +142,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shotspotter/refs/heads/main/screenshots/shotspotter-2026-09-02T155315.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -212,6 +212,10 @@ collections:
   name: Instantly.ai API v2
   slug: open-instantly-ai
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/instantly-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -430,7 +434,7 @@ overview: 'Instantly publishes 30 APIs on the [APIs.io](https://apis.io/) networ
   The Instantly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Instantly''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 41 more developer resources.'
+  Instantly''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 42 more developer resources.'
 plans:
 - name: Instantly Ai Plans Pricing
   plan_count: 13
@@ -449,7 +453,7 @@ score:
   band: strong
   composite: 65.3
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -474,8 +478,8 @@ score:
       total: 30
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/screenshots/instantly-ai-2026-06-20T183518.png
 security:

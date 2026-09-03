@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Hush Security platform, secured with OAuth 2.0 client-credentials (API Key ID + Secret exchanged at POST /v1/oauth/token for a Bearer access token). Region-scoped host (US). Errors fo
@@ -176,8 +176,8 @@ score:
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/screenshots/hush-security-2026-07-25T221747.png
 security:

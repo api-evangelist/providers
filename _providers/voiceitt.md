@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://web.voiceitt.com/socket.io
@@ -51,7 +51,7 @@ apis:
   description: The Rec API from Voiceitt — 1 operation(s) for rec.
   name: Voiceitt Rec API
   slug: voiceitt-rec-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: Socket.IO WebSockets API for real-time speech recognition of non-standard speech. Clients authenticate with a JWT (token + refresh_token in the Socket.IO auth option, obtained from the Voiceitt HTTP A
   name: Voiceitt WebSockets API
@@ -125,7 +125,7 @@ common:
   url: well-known/voiceitt-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/voiceitt-mcp.yml
 - group: other
   title: ''
@@ -171,10 +171,6 @@ created: '2026-07-17'
 description: Voiceitt builds inclusive voice AI — automatic speech recognition designed for people with non-standard speech, including speech disabilities, aging adults, and accented speakers. Its speaker-independent and personalized speech-to-text power an AAC/dictation app, live captioning integrations for Zoom, Microsoft Teams, and WebEx, a Chrome extension, and Alexa smart-home control. Developers integrate the same engine through the Voiceitt HTTP API (JWT-authenticated audio-file transcription at api2.voiceitt.com) and a Socket.IO WebSockets API for real-time streaming recognition with partial results.
 image: https://cdn.prod.website-files.com/64bcd35b2013e5d1f0557e8c/64bce732fa9c2b4c2df390a5_voiceittLogo.svg
 layout: provider
-mcp_servers:
-- description: No official Voiceitt MCP server was found (searched the MCP registries, npm, GitHub, and the Voiceitt docs on 2026-07-21). This is a candidate tool list derived from the operations in the Voiceitt HTT
-  name: Voiceitt MCP Server
-  slug: voiceitt-mcp-server
 modified: '2026-07-21'
 name: Voiceitt
 nav: Providers
@@ -215,8 +211,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/screenshots/voiceitt-2026-08-17T082826.png
 security:

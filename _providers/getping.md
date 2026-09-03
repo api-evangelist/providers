@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Trigger an email notification with a simple GET request
@@ -83,8 +83,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 6.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getping/refs/heads/main/screenshots/getping-2026-06-20T181808.png
 slug: getping

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://windsurf.com/'', ''status'': 308, ''note'': ''declared website redirects to https://devin.ai/desktop — a different registrable domain (windsurf.com -> devin.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,7 +79,16 @@ apis:
   description: The UserAnalytics API from Windsurf — 1 operation(s) for useranalytics.
   name: Windsurf UserAnalytics API
   slug: windsurf-useranalytics-api
-artifact_total: 23
+- description: Code completion and Cascade AI usage analytics
+  name: Windsurf analytics API
+  slug: windsurfrules-analytics-api
+- description: Usage configuration and credit balance management
+  name: Windsurf billing API
+  slug: windsurfrules-billing-api
+- description: Team and user analytics
+  name: Windsurf teams API
+  slug: windsurfrules-teams-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -158,6 +168,14 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.windsurf.com/llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.windsurf.com/plugins/accounts/api-reference/api-introduction
+- group: company
+  title: ''
+  type: Blog
+  url: https://windsurf.com/blog
 created: '2026-05-08'
 description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast agent model. Plans range from Free / Light / Pro / Max / Teams / Enterprise. No public REST API for application developers.
 finops:
@@ -170,10 +188,10 @@ modified: '2026-05-08'
 name: Windsurf
 nav: Providers
 network: true
-overview: 'Windsurf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CascadeAnalytics API, CreditBalance API, CustomAnalytics API, and 2 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and Cascade.
+overview: 'Windsurf publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CascadeAnalytics API, CreditBalance API, CustomAnalytics API, and 5 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and Cascade.
 
 
-  Windsurf''s developer surface includes authentication, engineering blog, documentation, pricing, and 10 more developer resources.'
+  Windsurf''s developer surface includes authentication, engineering blog, documentation, pricing, API reference, and 11 more developer resources.'
 plans:
 - name: Windsurf Plans Pricing
   plan_count: 1
@@ -185,19 +203,19 @@ rate_limits:
   slug: windsurf-rate-limits
 score:
   band: thin
-  composite: 31.9
+  composite: 33.3
   coverage:
     artifact_dirs: 11
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 54.4
-    developer_ergonomics: 23.8
+    developer_ergonomics: 31.0
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
@@ -209,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/screenshots/windsurf-2026-06-20T201508.png
 security:

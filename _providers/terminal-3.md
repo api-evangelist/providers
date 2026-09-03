@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Verifiable Credential issuer operations.
   name: Terminal 3 VC V1 API
   slug: terminal-3-vc-v1-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: packages/terminal-3-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/terminal-3-mcp.yml
 - group: agent
   title: ''
@@ -234,10 +234,6 @@ description: Terminal 3 (T3) is a data-freedom and decentralized-identity compan
   Ventures, and Cherubic Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terminal-3.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Terminal 3 MCP Server
-  slug: terminal-3-mcp-server
 modified: '2026-07-21'
 name: Terminal 3
 nav: Providers
@@ -276,8 +272,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/screenshots/terminal-3-2026-09-02T163133.png
 security:

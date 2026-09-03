@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ apis:
   description: The Wars API from CCP Games — 3 operation(s) for wars.
   name: CCP Games Wars API
   slug: ccp-games-wars-api
-artifact_total: 69
+artifact_total: 68
 collections:
 - collection_type: open
   name: API Collection
@@ -297,6 +297,10 @@ collections:
   name: EVE Swagger Incineration (ESI) - tranquility Alliance Wars API
   slug: open-ccp-games-wars-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ccp-games-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -311,7 +315,7 @@ common:
   url: llms/ccp-games-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ccp-games-mcp.yml
 - group: design
   title: ''
@@ -413,10 +417,6 @@ created: '2026-07-17'
 description: 'CCP Games is the Reykjavik-based studio behind EVE Online, the long-running single-shard massively multiplayer space sandbox. CCP operates one of the most mature third-party developer programs in gaming through the EVE Swagger Interface (ESI) - a public, versioned REST API that exposes character, corporation, alliance, market, industry, universe, and fleet data from the live Tranquility server. ESI is secured with EVE SSO (OAuth 2.0 / OpenID Connect on login.eveonline.com) using fine-grained per-scope consent, and is governed by a free third-party Developer License Agreement. This profile enriches the CCP Games entry with the real ESI API surface: its OpenAPI 3.1 description, authentication and OAuth scope model, error and error-limit conventions, lifecycle/deprecation posture, and agent-readiness artifacts.'
 image: https://developers.eveonline.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: CCP Games MCP Server
-  slug: ccp-games-mcp-server
 modified: '2026-07-18'
 name: CCP Games
 nav: Providers
@@ -424,7 +424,7 @@ network: true
 overview: 'CCP Games publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 28 more. Tagged areas include Company, Gaming, Games, MMO, and EVE Online.
 
 
-  CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
+  CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
 random_paper: 19
 scopes:
 - name: Ccp Games Scopes
@@ -435,7 +435,7 @@ score:
   band: developing
   composite: 42.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -460,8 +460,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/screenshots/ccp-games-2026-07-25T204826.png
 security:

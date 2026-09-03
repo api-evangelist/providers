@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
   description: '- New Instructions, SSTC''s and PCD''s for a Specific Timeframe'
   name: TwentyCi UK Housing Market Metrics API
   slug: twentyci-uk-housing-market-metrics-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: TwentyAPI (TwentyCi) OAuth 2.0 Token API
@@ -152,7 +152,7 @@ common:
   url: packages/twentyci-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/twentyci-mcp.yml
 - group: agent
   title: ''
@@ -243,10 +243,6 @@ description: TwentyCi is a United Kingdom residential property data and home-mov
   performance, address matching, schools, housing market metrics and retail propensity - but every endpoint returns 401 without a TwentyCi-issued OAuth 2.0 bearer token, there is no self-serve signup, no published pricing, and the specification download TwentyCi advertises at https://api.twentyci.co.uk/docs/v2/spec.json returns HTTP 404. Access is sales-led and partner-only. RESO is entirely absent - the UK has no MLS or RESO regime and TwentyCi identifies property by UPRN, the Ordnance Survey/GeoPlace Unique Property Reference Number, rather than by any RESO Universal Property Identifier.
 image: https://www.twentyci.co.uk/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: TwentyCi MCP Server
-  slug: twentyci-mcp-server
 modified: '2026-07-26'
 name: TwentyCi
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/screenshots/twentyci-2026-09-02T164620.png
 security:

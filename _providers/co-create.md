@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.usecocreate.io/'', ''status'': 301, ''note'': ''declared website redirects to https://www.cocreate.ink/ — a different registrable domain (usecocreate.io -> cocreate.ink), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for token-driven communities on Polygon: users and hosted wallets; ERC-20 / ERC-721 / ERC-1155 and Soulbound token contract deployment, minting, patching, and transfers (sync + async with sta'
@@ -127,8 +128,8 @@ score:
   previous_composite: 17.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-create/refs/heads/main/screenshots/co-create-2026-07-25T205812.png
 security:

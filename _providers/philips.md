@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: HSDP is Philips' cloud platform for building connected health applications. It packages a suite of building-block services - including Identity and Access Management, Provisioning, IoT/Connect for dev
@@ -108,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/philips/refs/heads/main/screenshots/philips-2026-06-20T191638.png
 security:

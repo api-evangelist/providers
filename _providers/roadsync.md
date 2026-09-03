@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ apis:
   description: The Workorders API
   name: Roadsync workorders API
   slug: roadsync-workorders-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -263,7 +263,7 @@ common:
   url: agentic-access/roadsync-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/roadsync-mcp.yml
 - group: agent
   title: ''
@@ -309,10 +309,6 @@ created: '2026-07-17'
 description: 'RoadSync is a digital payments and expense-management platform for the logistics and trucking industry, enabling warehouses, repair and tow shops, brokers, and carriers to accept and disburse payments faster. RoadSync publishes a REST API surface across six services: the RoadSyncPay Public API (payees, funding sources, payables, transactions, brokers, loads for ACH/paper-check/RTP carrier disbursements), the Invoice API (create, send, void, clone, refund, and embed invoices), the Company API (locations and product catalog), the WorkOrders API (create, send, approve work orders), a Payment API for taking payments, and a legacy Client API. All APIs are HTTPS REST, authenticated with an x-api-key header, versioned in the URI path, and split into test and production hosts.'
 image: https://roadsync.com/wp-content/uploads/2022/05/cropped-RS-1000-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Roadsync MCP Server
-  slug: roadsync-mcp-server
 modified: '2026-07-21'
 name: Roadsync
 nav: Providers
@@ -357,8 +353,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/screenshots/roadsync-2026-09-02T153957.png
 security:

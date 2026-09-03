@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: VIA Rail's complete national timetable published as a static General Transit Feed Specification (GTFS) archive, offered for download from the VIA Rail Developer Resources page with no registration, no
@@ -219,8 +219,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/screenshots/via-rail-2026-09-02T165836.png
 security:

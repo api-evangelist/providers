@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 2
@@ -238,7 +238,7 @@ apis:
   description: The WorkflowRole API from Enviance — 3 operation(s) for workflowrole.
   name: Enviance WorkflowRole API
   slug: enviance-workflowrole-api
-artifact_total: 83
+artifact_total: 82
 collections:
 - collection_type: open
   name: API Collection
@@ -407,7 +407,7 @@ common:
   url: data-model/enviance-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/enviance-mcp.yml
 - group: design
   title: ''
@@ -433,10 +433,6 @@ created: '2026-07-17'
 description: Enviance (now Cority Enviance) is an environmental, health, and safety (EHS) compliance-management SaaS platform. Originally an independent cloud environmental-compliance vendor, Enviance was acquired by Cority and its product now ships as "Cority Enviance." The platform manages regulatory requirements, compliance tasks, emissions and environmental events, chemicals and materials inventories, documents, workflows, and reporting for enterprises in regulated industries. Its EMS REST API (the "Cority Enviance App API") exposes 250+ operations across 39 service areas — Activity, Chemical, Material, Compliance, Requirement, Event, Task, Workflow, Document, Report, Portal, Bulk data, SCIM identity, and more — for building custom interfaces and integrating Enviance with corporate and third-party systems.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enviance.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Enviance MCP Server
-  slug: enviance-mcp-server
 modified: '2026-07-19'
 name: Enviance
 nav: Providers
@@ -475,8 +471,8 @@ score:
       total: 39
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/screenshots/enviance-2026-07-25T213455.png
 security:

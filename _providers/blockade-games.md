@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://backend.blockadelabs.com/api/v1
@@ -47,7 +47,7 @@ apis:
   description: The Skyboxes API from Blockade Games — 8 operation(s) for skyboxes.
   name: Blockade Games Skyboxes API
   slug: blockade-games-skyboxes-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Blockade Games Webhooks
@@ -173,7 +173,7 @@ common:
   url: packages/blockade-games-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blockade-games-mcp.yml
 - group: agent
   title: ''
@@ -195,10 +195,6 @@ created: '2026-07-17'
 description: Blockade Games (operating as Blockade Labs) is the maker of Skybox AI, an AI-powered platform that generates production-ready 360 equirectangular panoramas and skyboxes from text prompts, along with depth maps for 3D scenes. It offers a public REST API for asynchronous skybox generation, style selection, remixing, history, and multi-format exports, with delivery via webhooks and Pusher realtime events. First-party SDKs ship for JavaScript/TypeScript (npm), PHP/Laravel (Packagist), and Unity (C#), plus engine and tool integrations for Blender, Unreal, Godot, Roblox, SketchUp, and Figma. The product serves game, VR/AR, film, e-commerce, and education teams.
 image: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da~mv2.jpg/v1/fit/w_2500,h_1330,al_c/8d6639_b2ee76a88e224659804c1ef09c7bc5da~mv2.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blockade Games MCP Server
-  slug: blockade-games-mcp-server
 modified: '2026-07-18'
 name: Blockade Games
 nav: Providers
@@ -239,8 +235,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/screenshots/blockade-games-2026-07-25T203333.png
 security:

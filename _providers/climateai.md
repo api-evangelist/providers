@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -119,7 +119,7 @@ apis:
   description: user related operations
   name: ClimateAI User API
   slug: climateai-user-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -257,7 +257,7 @@ common:
   url: vocabulary/climateai-weather-variables.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/climateai-mcp.yml
 - group: build
   title: ''
@@ -279,10 +279,6 @@ created: '2026-08-02'
 description: ClimateAi (climate.ai) is a climate-intelligence company that turns global weather, climate and extreme-event modeling into decision-grade forecasts for agriculture, food and beverage, manufacturing, energy, finance, retail and federal/defense customers. Its ClimateLens products cover risk screening, monitoring and adaptation, and its developer surface is the LensConnect API — a REST weather and climate data API addressed by latitude and longitude that returns 30+ years of history (1995-present, ERA5-backed), a fixed 30-year climatology baseline, and AI-stitched probabilistic forecasts running from short-term through seasonal (~6 months) in a single continuous timeline, at ~25 km resolution with optional 1 km downscaling for select variables. A separate ClimateAI Platform gateway handles accounts, users, roles, permissions, device API keys and product routing.
 image: https://climate.ai/wp-content/uploads/2022/09/Logo_orange_dark.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ClimateAI MCP Server
-  slug: climateai-mcp-server
 modified: '2026-08-04'
 name: ClimateAI
 nav: Providers
@@ -321,8 +317,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:

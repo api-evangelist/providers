@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Bank of Sydney Banking Products API
   slug: bank-of-sydney-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: data-model/bank-of-sydney-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bank-of-sydney-mcp.yml
 - group: other
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-20'
 description: Bank of Sydney Ltd is an Australian authorised deposit-taking institution (ADI) headquartered in Sydney, New South Wales, offering personal and business banking, home loans, deposits, and everyday accounts. It is a wholly owned subsidiary of Lebanon-based Bank of Beirut and operates a national branch and digital footprint across Australia. As a regulated ADI, Bank of Sydney participates in Australia's Consumer Data Right (CDR) / Open Banking regime, exposing a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards. Consumer-facing account and transaction data sharing is delivered to Accredited Data Recipients (ADRs) under the CDR authorisation model, backed by OAuth2/OIDC.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-sydney.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bank of Sydney MCP Server
-  slug: bank-of-sydney-mcp-server
 modified: '2026-07-21'
 name: Bank of Sydney
 nav: Providers
@@ -242,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png
 security:

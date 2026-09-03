@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: The Users API from Archastro — 7 operation(s) for users.
   name: Archastro Users API
   slug: archastro-users-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Archastro Webhooks
@@ -167,7 +167,7 @@ common:
   url: cli/archastro-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/archastro-mcp.yml
 - group: agent
   title: ''
@@ -249,10 +249,6 @@ created: '2026-07-17'
 description: 'ArchAstro is a Seattle-area startup building a runtime for cross-company AI agents: privacy-aware agents deployed on both sides of a business relationship that collaborate on integrations, migrations, upgrades, onboarding, testing, and bug fixes, with shared test visibility and human approval gates. The ArchAstro Platform API is an agent-first developer control plane covering users, teams, agents, routines, threads, messages, knowledge, tools, installations, workflows, sandboxes, integrations, and inbound webhooks, with first-party TypeScript and Python SDKs and a CLI. Founded in 2026 by engineering veterans from Microsoft, Stripe, Statsig, and Meta; backed by a $6.2M pre-seed.'
 image: https://archastro.ai/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Archastro MCP Server
-  slug: archastro-mcp-server
 modified: '2026-07-18'
 name: Archastro
 nav: Providers
@@ -294,8 +290,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/screenshots/archastro-2026-07-25T201021.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Arist runs its customer-facing authentication on an Auth0 tenant at auth.arist.app. The tenant publishes an RFC 8414 / OpenID Connect Discovery document anonymously, describing the authorization, toke
@@ -182,8 +182,8 @@ score:
   previous_composite: 29.4
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arist/refs/heads/main/screenshots/arist-2026-08-07T161713.png
 security:

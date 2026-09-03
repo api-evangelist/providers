@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 3
@@ -98,7 +98,7 @@ apis:
   description: The User API from Hacware — 9 operation(s) for user.
   name: Hacware User API
   slug: hacware-user-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: capabilities/hacware-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hacware-mcp.yml
 - group: other
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: 'HacWare is an AI-powered security awareness training and phishing simulation platform that helps organizations reduce human-factor cyber risk. Its RESTful Security Awareness API lets partners and developers embed HacWare into their own products: schedule and manage AI-generated phishing simulations (clickable link, attachment, direct response, and SMS), enroll users in micro-training courses, lesson plans and quizzes, run dark web breach reporting and human-risk assessments, manage users, groups and Microsoft 365 security groups, and operate a multi-tenant partner/customer hierarchy with compliance evidence retrieval. The API is documented with apiDoc and exposes 114 operations across Phishing, Training, Reporting, User, Group, Compliance, and Multi-Tenant surfaces. HacWare is a Techstars portfolio company.'
 image: https://hacware.com/img/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hacware MCP Server
-  slug: hacware-mcp-server
 modified: '2026-07-19'
 name: Hacware
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/screenshots/hacware-2026-07-25T220524.png
 security:

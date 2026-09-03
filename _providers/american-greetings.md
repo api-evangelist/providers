@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://corporate.americangreetings.com/wp-json
@@ -152,7 +152,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 23.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -162,7 +162,7 @@ score:
     discoverability: 59.3
     governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 7.7
+  previous_composite: 30.8
   provenance:
     conformance: derived
     contracts:
@@ -178,9 +178,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: rising
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/screenshots/american-greetings-2026-06-20T171917.png
 security:
 - kind: authentication

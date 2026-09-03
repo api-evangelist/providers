@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -64,7 +64,7 @@ apis:
   description: Query transaction status by Ozow reference or merchant reference.
   name: Ozow Transactions API
   slug: ozow-transactions-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Ozow Webhooks
@@ -184,7 +184,7 @@ common:
   url: packages/ozow-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ozow-mcp.yml
 - group: agent
   title: ''
@@ -246,10 +246,6 @@ finops:
   slug: ozow-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ozow.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote Ozow MCP server was found (no listing in the MCP registry, npm @modelcontextprotocol, or Ozow docs at probe time). This is a DERIVED candidate tool list — one tool per OpenAP
-  name: Ozow MCP Server
-  slug: ozow-mcp-server
 modified: '2026-07-17'
 name: Ozow
 nav: Providers
@@ -305,8 +301,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/screenshots/ozow-2026-08-07T191227.png
 security:

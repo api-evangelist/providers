@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The direct HTTP API behind the Atlas CLI — the research graph, Library, runs, evidence, compute, and research surfaces. Bearer (thk_*) auth; JSON responses; Idempotency-Key on writes. Base https://app
@@ -177,8 +177,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/screenshots/synthetic-sciences-2026-09-02T161636.png
 security:

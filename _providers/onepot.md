@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic access to onepot CORE for make-on-demand molecule discovery and synthesis. Run similarity (Tanimoto) and substructure (SMILES/SMARTS) search, optional retrosynthetic decomposition with bu
   name: Onepot API
   slug: onepot-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,7 +87,7 @@ common:
   url: conventions/onepot-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/onepot-mcp.yml
 - group: agent
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Onepot (onepot.ai) is a San Francisco-based startup building an AI-powered, fully automated custom synthesis platform for small-molecule drug discovery. It combines ultra-high-throughput lab automation in its POT-1 lab with an AI organic chemist ("Phil") and reaction foundation models to search, quote, and synthesize make-on-demand molecules end to end, aiming to replace slow, error-prone CRO workflows. Onepot exposes a developer API and a Python client (published on PyPI as "onepot") that lets teams run Tanimoto similarity and SMILES/SMARTS substructure search over the full onepot CORE compound space, perform retrosynthetic decomposition with building-block and price/risk filters, stream real-time results over server-sent events, and place synthesis orders programmatically from their own pipelines using an API key.
 image: https://www.onepot.ai/onepot_logo_color.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Onepot MCP Server
-  slug: onepot-mcp-server
 modified: '2026-07-20'
 name: Onepot
 nav: Providers
@@ -146,8 +142,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onepot/refs/heads/main/screenshots/onepot-2026-08-07T190333.png
 security:

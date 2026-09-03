@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Open access
-  onboarding: open
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The FinThrive API, published through a Microsoft Azure API Management instance. The developer portal at api-portal.nthrive.com is publicly reachable and describes auto-generated API documentation, mul
@@ -176,8 +177,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finthrive/refs/heads/main/screenshots/finthrive-2026-09-02T145514.png
 security:

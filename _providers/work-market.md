@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://www.workmarket.com/api/v1
@@ -86,7 +86,7 @@ apis:
   description: The UpdateCheckIn API from Work Market — 2 operation(s) for updatecheckin.
   name: Work Market UpdateCheckIn API
   slug: work-market-updatecheckin-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Work Market Webhooks
@@ -212,7 +212,7 @@ common:
   url: packages/work-market-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/work-market-mcp.yml
 - group: start
   title: ''
@@ -281,10 +281,6 @@ json_schemas:
   property_count: 43
   slug: work-market-template
 layout: provider
-mcp_servers:
-- description: No official WorkMarket MCP server was found (npm, the official MCP registry surface, and the developer portal were searched 2026-07-21). This is a candidate tool list derived one-to-one from the 66 op
-  name: Work Market MCP Server
-  slug: work-market-mcp-server
 modified: '2026-07-21'
 name: Work Market
 nav: Providers
@@ -331,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/screenshots/work-market-2026-08-17T082936.png
 security:

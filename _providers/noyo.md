@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://fulfillment.noyo.com
@@ -356,7 +356,7 @@ apis:
   description: The Volleys API from Noyo — 5 operation(s) for volleys.
   name: Noyo Volleys API
   slug: noyo-volleys-api
-artifact_total: 133
+artifact_total: 132
 asyncapis:
 - description: ''
   name: Noyo Webhooks
@@ -620,7 +620,7 @@ common:
   url: authentication/noyo-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/noyo-mcp.yml
 - group: design
   title: ''
@@ -658,10 +658,6 @@ created: '2026-07-17'
 description: Noyo operates benefits data infrastructure that automates the exchange of employee benefits enrollment data between benefits administration platforms, brokers, and insurance carriers. Its APIs let ben-admin platforms connect a group to a carrier, send member snapshots (new hires, qualifying life events, open enrollment, COBRA, terminations), and receive near-real-time, field-level tracking of every change through to carrier confirmation. The Fulfillment API manages groups, connections, employees, dependents, enrollments, plans, renewals and member requests; the Tracking API surfaces differences and discrepancies; the Carrier API exposes carrier network configuration. Noyo standardizes the messy, EDI-heavy world of carrier data exchange behind a modern REST interface with webhooks and a sandbox.
 image: https://static.noyo.com/img/noyo-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Noyo MCP Server
-  slug: noyo-mcp-server
 modified: '2026-07-20'
 name: Noyo
 nav: Providers
@@ -708,8 +704,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png
 security:

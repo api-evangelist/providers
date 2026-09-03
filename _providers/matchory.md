@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Enterprise · Requires approval
+  onboarding: approval
+  pricing: enterprise
   public: false
   source:
+  - plans
   - authentication
+  - scopes
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
@@ -225,8 +229,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/screenshots/matchory-2026-07-25T230348.png
 security:

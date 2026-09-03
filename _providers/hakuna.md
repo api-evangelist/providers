@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
   description: Users of the account
   name: Hakuna Users API
   slug: hakuna-users-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: conformance/hakuna-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hakuna-mcp.yml
 - group: design
   title: ''
@@ -229,10 +229,6 @@ created: '2026-07-17'
 description: 'hakuna AG is a Swiss digital time-tracking and personnel-management platform for SMEs. The browser- and mobile-based product centralizes workforce administration: time recording with a running timer, absence and vacation management, expense processing, project and client tracking, task categorization, shift planning, personnel records, and compliance monitoring against Swiss labor-law requirements. hakuna is "100% Swiss" — all data is stored in Switzerland under Swiss data-protection law (DSG) — and requires no additional hardware terminals or badges. It exposes a token-authenticated REST API (X-Auth-Token) over JSON at app.hakuna.ch/api/v1 covering the timer, time entries, absences, projects, tasks, clients, users, company settings, and an organization-wide presence status endpoint, with admin-only management endpoints and a documented 100 requests/minute rate limit.'
 image: https://www.hakuna.ch/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from the operations in the hakuna OpenAPI. No official hosted/remote hakuna MCP server was found; this is a governance starting point, not a published ser
-  name: Hakuna MCP Server
-  slug: hakuna-mcp-server
 modified: '2026-07-19'
 name: Hakuna
 nav: Providers
@@ -275,8 +271,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png
 security:

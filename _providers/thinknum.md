@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Token-authenticated REST API over data.thinknum.com for querying Thinknum's alternative datasets. Endpoints cover dataset query (filter/group/sort/ function), historical daily and monthly feeds, compa
   name: Thinknum Data API
   slug: thinknum-data-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -127,7 +127,7 @@ common:
   url: components/thinknum-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thinknum-mcp.yml
 - group: design
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Thinknum is an alternative data platform that collects and structures web-sourced datasets to power investment and business intelligence. It tracks metrics such as job listings, store locations, product pricing, web traffic, app reviews, and social engagement across hundreds of thousands of companies, keyed by exchange ticker. The Thinknum Data API (data.thinknum.com) exposes these datasets over a token-authenticated REST interface with Query, Historical, Company, and Upload endpoints, plus embeddable widgets and an official Python client. Backed by 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinknum.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the published Thinknum Data API operations. Not an official Thinknum MCP server — a starting point for wrapping the token-authenticated REST API as MCP tools.
-  name: Thinknum MCP Server
-  slug: thinknum-mcp-server
 modified: '2026-07-21'
 name: Thinknum
 nav: Providers
@@ -179,8 +175,8 @@ score:
   previous_composite: 27.2
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/screenshots/thinknum-2026-09-02T163532.png
 security:

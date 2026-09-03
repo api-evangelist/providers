@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://closingtheory.com/'', ''status'': 301, ''note'': ''declared website redirects to https://playhousehunt.com/ — a different registrable domain (closingtheory.com -> playhousehunt.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,8 +94,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/closing-theory-studios/refs/heads/main/screenshots/closing-theory-studios-2026-07-25T205643.png
 security:

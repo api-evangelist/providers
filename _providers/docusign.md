@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -1924,8 +1924,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 128
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:

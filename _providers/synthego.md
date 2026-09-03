@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Order API from Synthego — 3 operation(s) for order.
   name: Synthego Order API
   slug: synthego-order-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +139,7 @@ common:
   url: well-known/synthego-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/synthego-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Synthego is a genome-engineering company that manufactures synthetic guide RNA (sgRNA, crRNA, trRNA), CRISPR kits, and engineered cells for research and cell/gene-therapy development. Its public Synthego Order API is a third-party integration API that lets partners retrieve current product pricing, generate a priced order preview from a list of guide-RNA sequences, and track an order through to checkout on Synthego's eCommerce site. Authentication is by an API key passed in the SYNTHEGOAPIKEY header. Synthego was surfaced as a portfolio company of SoftBank Vision Fund.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthego.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Synthego MCP Server
-  slug: synthego-mcp-server
 modified: '2026-07-21'
 name: Synthego
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/screenshots/synthego-2026-09-02T161631.png
 security:

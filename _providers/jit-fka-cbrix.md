@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Jit REST API for programmatic access to security findings, artifacts (SBOM, scan results), teams, plans, policies, workflows, integrations, billing metrics, and on-demand scan execution. Authenticates
   name: Jit API
   slug: jit-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: llms/jit-fka-cbrix-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jit-fka-cbrix-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Jit is an AI-powered Application Security Posture Management (ASPM) and DevSecOps orchestration platform for modern engineering teams. It unifies open-source and proprietary security scanners (Semgrep, Prowler, KICS, OWASP ZAP, Trivy, npm-audit, Wiz and more) behind one control plane, correlates their signals, prioritizes findings by policy, and drives fix-focused remediation directly in the developer workflow. Jit exposes a REST API at api.jit.io with OAuth2 client-credentials (JWT bearer) authentication and a fine-grained jit.* permission model covering findings, artifacts, teams, plans, policies, workflows, integrations, and scan execution. Formerly Cbrix, Jit is backed by Insight Partners and integrates across GitHub, GitLab, Bitbucket, Azure DevOps, AWS, GCP, and Azure.
 image: https://cdn.prod.website-files.com/61e3cab9aff0501e51b0bd77/67fe6ccbc18c587b9d9b93bf_og.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Jit (fka Cbrix) MCP Server
-  slug: jit-fka-cbrix-mcp-server
 modified: '2026-07-19'
 name: Jit (fka Cbrix)
 nav: Providers
@@ -177,8 +173,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/screenshots/jit-fka-cbrix-2026-07-25T223206.png
 security:

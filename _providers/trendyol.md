@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Trendyol Marketplace / Partner API for sellers and integrators — product, order/shipment, returns, invoice, settlement, and webhook operations.
   name: Trendyol Marketplace API
   slug: trendyol-marketplace-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Trendyol Webhooks
@@ -103,7 +103,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/trendyol-mcp.yml
 - group: agent
   title: ''
@@ -113,10 +113,6 @@ created: '2026-07-17'
 description: 'Trendyol is Turkey''s largest e-commerce marketplace and a leading fashion and retail platform operating across Türkiye, the Gulf, Azerbaijan, and Central & Eastern Europe. Its Marketplace (Partner) API lets sellers and integrators manage the full commerce lifecycle: product catalog with category/brand/ attribute data, price and stock updates, order and shipment-package fulfillment, returns and claims, invoicing, settlements and financial reconciliation, the Export Center, customer questions, and order webhooks. Authentication is HTTP Basic (API key/secret) with a mandatory User-Agent header, plus an OAuth 2.0 authorization-code flow for multi-supplier integrators. Bulk writes are asynchronous and confirmed via a batchRequestId.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trendyol.png
 layout: provider
-mcp_servers:
-- description: A candidate Model Context Protocol tool surface for the Trendyol Marketplace API, mapped one-to-one from documented operations. Not published by Trendyol — a starting point for an agent integration, g
-  name: Trendyol MCP Server
-  slug: trendyol-mcp-server
 modified: '2026-07-21'
 name: Trendyol
 nav: Providers
@@ -156,8 +152,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/screenshots/trendyol-2026-08-17T082435.png
 security:

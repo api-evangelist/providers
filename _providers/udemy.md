@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST Affiliate API exposing the Udemy course catalog for course discovery and search by category, subcategory, price, language, and keyword. Authentication uses a base64-encoded HTTP Basic header deri
@@ -136,8 +136,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 27.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/udemy/refs/heads/main/screenshots/udemy-2026-06-20T195955.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API to sync users, jobs, candidacies, projects, learning items, and the Skills Foundation job architecture into Gloat, plus RBAC authorization and company settings.
   name: Gloat Customer API
   slug: gloat-customer-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Gloat Webhooks
@@ -119,7 +119,7 @@ common:
   url: sandbox/gloat-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gloat-mcp.yml
 - group: design
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: 'Gloat is an AI-native workforce orchestration and talent-marketplace platform. Its developer APIs let enterprises connect HR, learning, and skills data to Gloat: syncing users, jobs, projects, candidacies, and learning items, and maintaining a skills-and-job-architecture ontology (the Skills Foundation) of job families, job codes, and position titles. The platform also exposes RBAC authorization (roles, groups, permissions, access rules), certifications, applications, analytics embeds, and outbound sync webhooks. Customer APIs authenticate with a client-credentials JWT; Talent Marketplace APIs use an X-Gloat-API-Key header. All hosts are per-tenant at https://{company_slug}.gloat.com/api.'
 image: https://www.gloat.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gloat MCP Server
-  slug: gloat-mcp-server
 modified: '2026-07-19'
 name: Gloat
 nav: Providers
@@ -180,8 +176,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloat/refs/heads/main/screenshots/gloat-2026-07-25T215912.png
 security:

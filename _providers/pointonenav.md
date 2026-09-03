@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: GraphQL interface for Point One workflow and data management, authenticated with an API key issued from app.pointonenav.com.
@@ -173,8 +173,8 @@ score:
   previous_composite: 22.2
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/screenshots/pointonenav-2026-09-02T151636.png
 security:

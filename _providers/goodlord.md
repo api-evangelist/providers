@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ apis:
   description: A person who exists on an application.
   name: Goodlord Subject API
   slug: goodlord-subject-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Goodlord Referencing Webhooks
@@ -195,7 +195,7 @@ common:
   url: llms/goodlord-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/goodlord-mcp.yml
 - group: design
   title: ''
@@ -302,10 +302,6 @@ description: 'Goodlord (Oh Goodlord Limited, London) is a United Kingdom PropTec
   and requires an invite code, and Goodlord''s own getting-started guide instructs developers to obtain sandbox and production access through a Goodlord sales manager or account manager. Public contract, partner-gated keys. There is no RESO reference of any kind — RESO is a US NAR/MLS construct with no United Kingdom counterpart — and Goodlord publishes no open data.'
 image: https://www.goodlord.com/hubfs/goodlord-logo-1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Goodlord MCP Server
-  slug: goodlord-mcp-server
 modified: '2026-07-26'
 name: Goodlord
 nav: Providers
@@ -362,8 +358,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:

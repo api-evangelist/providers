@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://brainshop.ai/'', ''status'': 302, ''note'': ''declared website redirects to atom.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Make A Free A.I Brain
@@ -83,8 +84,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainshop-ai/refs/heads/main/screenshots/brainshop-ai-2026-08-07T162741.png
 slug: brainshop-ai

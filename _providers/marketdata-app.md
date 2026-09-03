@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: The v1 API from Market Data — 15 operation(s) for v1.
   name: Market Data V1 API
   slug: marketdata-app-v1-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Market Data Indices API
@@ -136,7 +136,7 @@ common:
   url: well-known/marketdata-app-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/marketdata-app-mcp.yml
 - group: agent
   title: ''
@@ -258,10 +258,6 @@ finops:
   slug: marketdata-app-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketdata-app.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Market Data MCP Server
-  slug: market-data-mcp-server
 modified: '2026-07-22'
 name: Market Data
 nav: Providers
@@ -314,8 +310,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

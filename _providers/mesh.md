@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://integration-api.meshconnect.com
@@ -81,7 +81,7 @@ apis:
   description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
   name: Mesh Transfers API
   slug: mesh-transfers-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Mesh Transfers Webhooks
@@ -212,7 +212,7 @@ common:
   url: asyncapi/mesh-transfers-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mesh-mcp.yml
 - group: build
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: Mesh is the first global crypto payments network, connecting hundreds of exchanges, wallets, and financial platforms into a single, unified infrastructure layer so businesses can let users pay, get paid, deposit, and transfer digital assets from any wallet on any chain. The Mesh Connect Integration API lets developers programmatically generate Link tokens for Mesh's hosted connection UX, initiate managed crypto transfers (deposit, payment, onramp, withdrawal), read holdings, balances, and transaction history across connected exchange and self-custody accounts, verify wallet ownership, and receive HMAC-signed transfer-status webhooks. Mesh handles credential validation, MFA, OAuth, and per-integration error handling on the developer's behalf. Formerly Front Finance. SOC 2 Type II certified. Backed by Anthemis and General Catalyst.
 image: https://cdn.prod.website-files.com/656cc624086b77872a31a084/68d8116f8f0a10f661523cea_Favicon_new.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mesh MCP Server
-  slug: mesh-mcp-server
 modified: '2026-07-20'
 name: Mesh
 nav: Providers
@@ -296,8 +292,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh/refs/heads/main/screenshots/mesh-2026-08-07T172618.png
 security:

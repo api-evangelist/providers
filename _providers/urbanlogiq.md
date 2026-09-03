@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The signed-request platform API behind the UrbanLogiq community intelligence platform — data catalog objects, aggregate queries, and streams served in Apache Arrow, Parquet, CSV, XLSX, JSON, text, and
   name: UrbanLogiq Platform API
   slug: urbanlogiq-platform-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -119,7 +119,7 @@ common:
   url: llms/urbanlogiq-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/urbanlogiq-mcp.yml
 - group: auth
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: UrbanLogiq (CommunityLogiq Software, Inc.) is a community intelligence platform that helps government leaders make faster, data-driven decisions by unifying siloed departmental data across transportation, planning, public safety, and economic development. The platform spans data integration, predictive modeling, cross-domain analytics, and governed generative AI (Ethica), and is served by a signed-request platform API with an official open source multi-language SDK (C++, Go, Java, Python, Rust, TypeScript) and CLI. Customers include the City of Toronto, Chicago DOT, the State of Hawaii, and Texas DOT; the service runs in separate US and Canada environments for data residency and is ISO/IEC 27001, 27701, 27017, and 27018 certified.
 image: https://storage.googleapis.com/gpt-engineer-file-uploads/iMsRxc6pmShB43YLqbITcQTBj7L2/social-images/social-1774310251571-colored_ul_logo.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: UrbanLogiq MCP Server
-  slug: urbanlogiq-mcp-server
 modified: '2026-07-21'
 name: UrbanLogiq
 nav: Providers
@@ -194,8 +190,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urbanlogiq/refs/heads/main/screenshots/urbanlogiq-2026-09-02T165205.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Consume a deployed Lua agent directly over HTTP — single-shot generation or real-time SSE streaming — with bearer API-key auth.
@@ -200,8 +200,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lua-global-inc/refs/heads/main/screenshots/lua-global-inc-2026-07-25T225637.png
 security:

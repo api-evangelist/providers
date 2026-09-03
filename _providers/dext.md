@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.precision.dext.com
@@ -41,7 +41,7 @@ apis:
   description: Practice client data-health metrics and activity statistics
   name: Dext Clients API
   slug: dext-clients-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: data-model/dext-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dext-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: Dext is bookkeeping automation software for businesses, accountants and bookkeepers (formerly Receipt Bank / Dext Precision / Dext Commerce). It captures receipts, invoices and bank statements, extracts and validates the data with high accuracy, and publishes it into accounting software such as Xero, QuickBooks, Sage, Zoho and MYOB. Dext serves over 700,000 customers worldwide across the UK, US, Canada, Australia, France and South Africa. For accounting practices, Dext exposes a read-only Data Health & Insights REST API that returns client data-health metrics and rolling activity statistics, authenticated with practice-scoped bearer tokens and rate limited to 60 requests per minute.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dext.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dext MCP Server
-  slug: dext-mcp-server
 modified: '2026-07-18'
 name: Dext
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

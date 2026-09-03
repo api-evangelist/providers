@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://three.arcprize.org
@@ -51,7 +51,7 @@ apis:
   description: The Scorecards API from Arc Prize Foundation — 4 operation(s) for scorecards.
   name: Arc Prize Foundation Scorecards API
   slug: arc-prize-foundation-scorecards-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -88,7 +88,7 @@ common:
   url: packages/arc-prize-foundation-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arc-prize-foundation-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +162,6 @@ created: '2026-07-17'
 description: The ARC Prize Foundation is a nonprofit advancing open artificial general intelligence research through scientifically rigorous benchmarks and competitive prizes. Its ARC-AGI benchmark series measures fluid intelligence on tasks that are easy for humans but hard for AI, and its ARC-AGI-3 Interactive Reasoning Benchmark exposes a public REST API (three.arcprize.org) plus an open-source Python toolkit and SDK for building agents that play, score, and generalize across novel game environments. The Foundation runs the ARC Prize competitions in partnership with Kaggle, with participation from OpenAI, Google, xAI, Anthropic, and NIST.
 image: https://arcprize.org/media/images/og-image-default.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Arc Prize Foundation MCP Server
-  slug: arc-prize-foundation-mcp-server
 modified: '2026-07-18'
 name: Arc Prize Foundation
 nav: Providers
@@ -203,8 +199,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/screenshots/arc-prize-foundation-2026-07-25T201009.png
 security:

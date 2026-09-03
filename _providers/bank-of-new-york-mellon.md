@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.bnymellon.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.bny.com/corporate/global/en.html — a different registrable domain (bnymellon.com -> bny.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -407,8 +408,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
 security:

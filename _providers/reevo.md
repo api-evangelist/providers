@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Reevo's permission-scoped public REST API. Endpoints cover account and contact upsert, accounts (create/update/get/search-by-domain), contacts (get/search), opportunities (create/update/get/search/shi
@@ -232,8 +232,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/screenshots/reevo-2026-08-17T081502.png
 security:

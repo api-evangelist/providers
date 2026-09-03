@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST-based interface exposing the Kinaxis Maestro (RapidResponse) supply chain planning platform for data integration, process orchestration, and insight embedding. Enables reading and writing plannin
@@ -143,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/screenshots/kinaxis-2026-06-20T184039.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Verification API from Verisoul — 3 operation(s) for verification.
   name: Verisoul Verification API
   slug: verisoul-verification-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: Asynchronous results for the Verisoul Email Intelligence API are delivered to your configured endpoint as signed webhooks. When an email submitted via POST /email (or the batch endpoint) finishes anal
   name: Verisoul Email Intelligence Webhooks
@@ -227,7 +227,7 @@ common:
   url: components/verisoul-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verisoul-mcp.yml
 - group: agent
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Verisoul is a fake-account and fraud detection platform that helps businesses stop bots, fake signups, and multi-accounting. It combines device fingerprinting, network and location signals, bot detection, email intelligence (risk, deliverability, breach, and identity signals), phone validation, and account linking with an automated rules engine and ML models. Verisoul also offers hosted identity verification products — Face Match (liveness/selfie dedup) and ID Check (government-ID document verification) — and manages biometric capture, consent, and retention on the customer's behalf. It exposes a REST API (Account, Session, Lists, Phone, Email Intelligence, Face Match, ID Check) authenticated with an x-api-key header, plus web and mobile SDKs and signed webhooks. Verisoul is backed by 500 Global.
 image: https://cdn.prod.website-files.com/6627605478f226ce86d5c27f/6a5790e9790a84c9ea0498ca_verisoul-logo_og-meta-preview.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Verisoul MCP Server
-  slug: verisoul-mcp-server
 modified: '2026-07-21'
 name: Verisoul
 nav: Providers
@@ -314,8 +310,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/screenshots/verisoul-2026-08-17T082730.png
 security:

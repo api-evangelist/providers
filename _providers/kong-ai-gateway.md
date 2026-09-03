@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 21
 apis:
 - description: Kong AI Gateway is the connectivity and governance layer for AI-native applications. Built on Kong Gateway, it provides a universal LLM API across 16+ providers, semantic caching, prompt firewalls and
@@ -272,8 +272,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 40.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong-ai-gateway/refs/heads/main/screenshots/kong-ai-gateway-2026-06-20T184133.png
 security:

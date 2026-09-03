@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JavaScript API for programmatic control of Vectary 3D scenes embedded on websites. The VctrModelApi class (an ES module served from app.vectary.com) wraps postMessage communication with the embedded i
@@ -161,8 +161,8 @@ score:
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 34.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/screenshots/vectary-2026-09-02T165538.png
 security:

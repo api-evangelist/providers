@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: Remote MCP server that lets any MCP-compatible assistant query the NordStellar platform in natural language. Clients connect through the open-source nordstellar-mcp auth proxy (PyPI, run via uvx, or a
@@ -228,6 +228,10 @@ collections:
   name: Platform Integration API
   slug: open-nord-security-nordstellar-platform-integration-api-v3
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nord-security-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -450,7 +454,7 @@ network: true
 overview: 'Nord Security publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API User Management API, Applications API, AUC API, and 27 more. Tagged areas include Cybersecurity, Threat Intelligence, Dark Web Monitoring, Attack Surface Management, and Breach Intelligence.
 
 
-  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
+  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 0
@@ -460,7 +464,7 @@ score:
   band: strong
   composite: 54.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -487,8 +491,8 @@ score:
       total: 30
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:

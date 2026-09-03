@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: Google Shopping product results.
   name: ValueSERP Shopping API
   slug: valueserp-shopping-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +168,7 @@ common:
   url: packages/valueserp-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/valueserp-mcp.yml
 - group: design
   title: ''
@@ -287,10 +287,6 @@ jsonld:
   property_count: 120
   slug: valueserp-context
 layout: provider
-mcp_servers:
-- description: ValueSERP / Traject Data ship NO Model Context Protocol server. The tool list below is a CANDIDATE derived from the documented REST operations so an agent integrator has a starting point; it is not so
-  name: ValueSERP MCP Server
-  slug: valueserp-mcp-server
 modified: 2026-08-13
 name: ValueSERP
 nav: Providers
@@ -351,8 +347,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:

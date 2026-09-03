@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://apurata.com
@@ -56,7 +56,7 @@ apis:
   description: Embeddable checkout widgets (HTML)
   name: Apurata widgets API
   slug: apurata-widgets-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: Outbound webhook events Apurata delivers to a merchant-registered URL as an aCuotaz installment order moves through its lifecycle. Generated from the public webhook documentation at docs.apurata.com/P
   name: Apurata aCuotaz Order Webhooks
@@ -147,7 +147,7 @@ common:
   url: well-known/apurata-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apurata-mcp.yml
 - group: agent
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: Apurata (legal name Tecno Creditos S.A.C.) is a Peruvian financial-technology company, authorized by Peru's banking regulator (SBS), that provides fast fully online personal loans and the aCuotaz "buy now, pay later" installment-financing product for e-commerce merchants. Consumers borrow from S/100 to S/1,000 with funding in as little as 29 minutes, repaid across 1-8 installments. For merchants, aCuotaz adds installment checkout with 0% interest options, pays the merchant upfront, and integrates via a REST API, webhooks, and prebuilt payment-gateway plugins for WooCommerce, Magento 2, Shopify, VTEX, Salesforce, OpenCart, and PrestaShop. Apurata also operates aPagos and a Samsung Finance+ financing API.
 image: https://apurata.com/app/logo512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Apurata MCP Server
-  slug: apurata-mcp-server
 modified: '2026-07-18'
 name: Apurata
 nav: Providers
@@ -267,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:

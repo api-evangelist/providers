@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Paid
-  onboarding: unknown
+  confidence: low
+  label: Paid · Requires approval
+  onboarding: approval
   pricing: paid
   public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Import and query customer (sales) orders for fulfillment. Modeled from Deposco integration references - PUT /import/{businessUnit}/customerOrder/{orderNumber} to create or update an order, and GET /se
@@ -113,8 +114,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deposco/refs/heads/main/screenshots/deposco-2026-07-25T211736.png
 security:

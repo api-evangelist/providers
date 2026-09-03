@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://market-api.metadao.fi
@@ -56,7 +56,7 @@ apis:
   description: Aggregate trading volume
   name: MetaDAO Volume API
   slug: metadao-volume-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ common:
   url: rate-limits/metadao-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/metadao-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: MetaDAO is a fundraising and governance platform for high-quality founders and their communities, built on the Solana Futarchy protocol. It runs early fair token launches (high-float ICOs) and market-driven ("futarchy") governance where decision markets control treasury and intellectual property, with performance-aligned insider token unlocks. For developers, MetaDAO operates the public Futarchy DEX API — a CoinGecko-compatible, read-only market-data API at market-api.metadao.fi that automatically discovers every DAO on the protocol and exposes real-time pricing, trading volume, liquidity, and token supply. Surfaced as a Paradigm portfolio company and enriched by the API Evangelist pipeline from MetaDAO's own published documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metadao.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MetaDAO MCP Server
-  slug: metadao-mcp-server
 modified: '2026-07-20'
 name: MetaDAO
 nav: Providers
@@ -201,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/screenshots/metadao-2026-08-07T172641.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 404
   human_in_the_loop: 8
@@ -118,7 +118,7 @@ apis:
   description: '(Alpha) Vortex API. Base URL: https://api.alphaus.cloud/m/blue/vortex'
   name: Alphaus Vortex API
   slug: alphaus-vortex-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -271,7 +271,7 @@ common:
   url: data-model/alphaus-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alphaus-mcp.yml
 - group: agent
   title: ''
@@ -285,10 +285,6 @@ created: '2026-07-17'
 description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reseller billing automation and invoicing), and Cover (cost anomaly detection and recommendation intelligence). Developers integrate through the Blue API — a unified protobuf/gRPC surface with a grpc-gateway JSON/REST proxy and generated OpenAPI — spanning 15 services and nearly 600 operations, complemented by the bluectl CLI and Go, Python, and TypeScript SDKs.
 image: https://cdn.prod.website-files.com/657180a2db5e5db9774cd4a3/65ba1d60bf395fcd9cbb3bdb_home.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alphaus MCP Server
-  slug: alphaus-mcp-server
 modified: '2026-07-17'
 name: Alphaus
 nav: Providers
@@ -332,8 +328,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -420,6 +420,10 @@ common:
   title: ''
   type: Website
   url: https://anchorage.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/anchorageoss
 created: '2026-07-17'
 description: 'Anchorage Digital is the first federally chartered crypto bank in the U.S., providing institutional-grade digital asset infrastructure through its integrated Prime platform: qualified custody of crypto and USD, institutional trading with deep liquidity, staking across dozens of proof-of-stake networks, the Atlas on-chain settlement network, stablecoin issuance and conversion, and integrated cash-and-crypto banking. Its REST API v2.0 (and newer v3 surface) exposes 100+ operations across custody, wallets, addresses, transfers, transactions, trading, Atlas settlement, collateral management, onboarding, subaccounts, tax, stablecoins, and webhook notifications, secured with API keys plus Ed25519 request signing and quorum approval. Trusted by institutions including BlackRock, Goldman Sachs, and Grayscale.'
 image: https://cdn.prod.website-files.com/649e7e19aca422fdfb636e26/64de142d90faade0441ac39c_favicon-256x256.png
@@ -438,7 +442,7 @@ overview: 'Anchorage Digital publishes 28 APIs on the [APIs.io](https://apis.io/
   The Anchorage Digital catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 27 more developer resources.'
+  Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 28 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 1
@@ -446,13 +450,13 @@ rate_limits:
   slug: anchorage-rate-limits
 score:
   band: developing
-  composite: 44.2
+  composite: 44.9
   coverage:
     artifact_dirs: 23
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -461,7 +465,7 @@ score:
     developer_ergonomics: 23.2
     discoverability: 57.4
     governance: 4.5
-    operational_transparency: 78.9
+    operational_transparency: 84.2
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -479,8 +483,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:

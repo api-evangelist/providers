@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -121,7 +121,25 @@ apis:
   description: The Routes API from Spring Framework — 3 operation(s) for routes.
   name: Spring Framework Routes API
   slug: spring-routes-api
-artifact_total: 55
+- description: Production-ready features for monitoring and managing Spring Boot applications. Exposes health checks, metrics, environment info, configuration properties, thread dumps, heap dumps, and logger configu
+  name: Spring Boot Actuator API
+  slug: spring-boot-actuator
+- description: Model-View-Controller web framework built on the Servlet API. Supports annotation-driven controllers, content negotiation, validation, data binding, file uploads, CORS, and exception handling in a fle
+  name: Spring MVC Web Framework
+  slug: spring-mvc
+- description: Reactive-stack web framework for building non-blocking, event-driven web applications on top of Project Reactor. Supports annotated controllers and functional endpoints with reactive programming model
+  name: Spring WebFlux Reactive API
+  slug: spring-webflux
+- description: The Generation API from Spring Framework — 2 operation(s) for generation.
+  name: Spring Framework Generation API
+  slug: spring-framework-generation-api
+- description: The Management API from Spring Framework — 2 operation(s) for management.
+  name: Spring Framework Management API
+  slug: spring-framework-management-api
+- description: The Metadata API from Spring Framework — 2 operation(s) for metadata.
+  name: Spring Framework Metadata API
+  slug: spring-framework-metadata-api
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -239,6 +257,14 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/spring-vocabulary.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://spring.io/projects/spring-framework
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.spring.io/spring-framework/docs/current/reference/html/
 created: '2026-05-02'
 description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring Boot enables rapid application development with embedded servers and auto-configuration. Spring is maintained by VMware and hosted under the Spring Projects GitHub organization.
 examples:
@@ -288,13 +314,13 @@ modified: '2026-08-08'
 name: Spring Framework
 nav: Providers
 network: true
-overview: 'Spring Framework publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 10 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
+overview: 'Spring Framework publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 13 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
 
 
   The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Spring Framework''s developer surface includes authentication, GitHub presence, documentation, engineering blog, release notes, Stack Overflow tag, and 10 more developer resources.'
+  Spring Framework''s developer surface includes authentication, GitHub presence, documentation, engineering blog, release notes, Stack Overflow tag, and 12 more developer resources.'
 plans:
 - name: Spring Plans Pricing
   plan_count: 2
@@ -363,8 +389,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: Operations for restoring backed-up resources
   name: Amazon Backup Restore Jobs API
   slug: amazon-backup-restore-jobs-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -82,7 +82,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-backup-mcp.yml
 - group: other
   title: ''
@@ -208,10 +208,6 @@ jsonld:
   property_count: 4
   slug: amazon-backup-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Backup MCP Server
-  slug: amazon-backup-mcp-server
 modified: '2026-06-20'
 name: Amazon Backup
 nav: Providers
@@ -263,8 +259,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/screenshots/amazon-backup-2026-07-25T195935.png
 security:

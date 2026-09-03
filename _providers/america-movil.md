@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ arazzos:
 - description: 'Before trusting a phone number as an authentication factor, ask Claro Brasil two questions: has the SIM pairing changed recently, and where is the device on the network? Step one is the decision gate '
   name: Account-takeover check for a Brazilian mobile line
   slug: america-movil-account-takeover-check
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: America Movil Webhooks
@@ -218,7 +218,7 @@ common:
   url: packages/america-movil-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/america-movil-mcp.yml
 - group: agent
   title: ''
@@ -306,10 +306,6 @@ description: 'América Móvil, S.A.B. de C.V. is the largest telecommunications 
   developers only through an aggregator rather than directly.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: América Móvil publishes no MCP server. This is a CANDIDATE manifest — the tool surface an MCP server over Claro Brasil's network APIs would expose, derived one-for-one from operations that genuinely e
-  name: América Móvil MCP Server
-  slug: américa-móvil-mcp-server
 modified: '2026-07-25'
 name: América Móvil
 nav: Providers
@@ -370,8 +366,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
 security:

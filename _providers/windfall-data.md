@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Windfall API API from Windfall Data — 1 operation(s) for windfall api.
   name: Windfall Data Windfall API API
   slug: windfall-data-windfall-api-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -91,7 +91,7 @@ common:
   url: sandbox/windfall-data-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/windfall-data-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: 'Windfall (windfall.com, formerly windfalldata.com) is a people-intelligence and AI platform that personalizes go-to-market workflows with wealth and career data. Its developer-facing Windfall API delivers enriched household and career data on a single-record basis in real time: submit a person record with basic PII and receive that individual''s household net worth, a stable Windfall ID, and career signals such as a LinkedIn URL and title, returned as JSON in one sub-second request. Coverage is United States, data is refreshed weekly, and the API is used for real-time lead routing and grading, marketing enrichment, and analytics scoring. Authentication is a Windfall-issued header token with a dedicated sandbox environment of deterministic test personas. Windfall is SOC 2 Type 2 certified.'
 image: https://api-docs.windfall.com/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Windfall Data MCP Server
-  slug: windfall-data-mcp-server
 modified: '2026-08-13'
 name: Windfall Data
 nav: Providers
@@ -231,8 +227,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windfall-data/refs/heads/main/screenshots/windfall-data-2026-08-17T082922.png
 security:

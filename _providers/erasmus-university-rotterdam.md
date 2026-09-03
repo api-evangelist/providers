@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://repub.eur.nl/oai
@@ -297,7 +297,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -307,7 +307,7 @@ score:
     discoverability: 79.6
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.3
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     contracts:
@@ -321,8 +321,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png
 security:

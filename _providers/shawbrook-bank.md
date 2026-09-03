@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-09-02'
+  score: 40.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -333,13 +333,13 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 31.6
+  composite: 34.6
   coverage:
     artifact_dirs: 18
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -349,9 +349,6 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 5.3
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 31.6
   provenance:
     agentic_access: derived
@@ -372,8 +369,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/screenshots/shawbrook-bank-2026-09-02T155119.png
 security:

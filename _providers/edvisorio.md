@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single GraphQL API for the Edvisor.io education-recruitment platform, covering students, quotes, school offerings, enrollments, invoices, and agency/school company management. Bearer API-key authentic
   name: Edvisor.io GraphQL API
   slug: edvisorio-graphql-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Edvisorio Webhooks
@@ -103,7 +103,7 @@ common:
   url: components/edvisorio-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/edvisorio-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Edvisor.io is a B2B international-education recruitment platform that connects education agencies with 700+ partner schools across 80+ countries. Agencies browse school portfolios with live pricing, build and send student quotes, manage the student journey from inquiry through enrollment, and track commissions and invoices; schools distribute programs to 5,000+ active agencies, grow and manage their agency network, and analyze their enrollment pipeline. The platform has processed over $2B in tuition. Edvisor exposes a GraphQL API at api-v2.edvisor.io/graphql (226 queries, 203 mutations, Bearer API-key auth) plus webhooks for two-way synchronization with external CRM and back-office systems.
 image: https://www.edvisor.io/images/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Edvisor.io MCP Server
-  slug: edvisorio-mcp-server
 modified: '2026-07-19'
 name: Edvisor.io
 nav: Providers
@@ -214,8 +210,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/screenshots/edvisorio-2026-07-25T212910.png
 security:

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Medusa's GraphQL surface over the store data core. The schema in this repo was derived from the OAS output schemas published in the medusajs/medusa repository; Medusa does not publish a hosted, intros
@@ -362,7 +362,58 @@ apis:
   description: These API routes allow you to track workflow executions in your Medusa application. Depending on the workflow engine you use, executions may only be retained for a short while, or only until the Medus
   name: Medusa Workflows Executions API
   slug: medusa-workflows-executions-api
-artifact_total: 74
+- description: Official TypeScript / JavaScript SDK wrapping the Store and Admin REST APIs - typed clients, auth helpers, and ergonomic resource methods. Distributed via npm as @medusajs/js-sdk with shared @medusajs
+  name: Medusa JS SDK (@medusajs/js-sdk)
+  slug: js-sdk
+- description: Server-side framework primitives for extending Medusa - custom API Routes, Modules with their own data models (DML), Module Links, Workflows for transactional business logic, Subscribers and Scheduled
+  name: Medusa Framework (Modules, Workflows, Routes)
+  slug: framework
+- description: First-party domain modules that compose into a Medusa application - Cart, Payment, Customer, Pricing, Promotion, Product, Order, Inventory, Fulfillment, Stock Location, Region, Sales Channel, Tax, Cur
+  name: Medusa Commerce Modules
+  slug: commerce-modules
+- description: Command-line tooling for scaffolding new Medusa projects, generating modules and migrations, running the server in dev, and managing common project tasks.
+  name: Medusa CLI (create-medusa-app)
+  slug: cli
+- description: Reference Next.js storefront talking to the Medusa Store API - cart, checkout, account, product browse, payments, and search. Used as the canonical starting point for headless storefronts.
+  name: Medusa Next.js Storefront Starter
+  slug: nextjs-starter
+- description: Remote Model Context Protocol server exposing the Medusa documentation to LLM-powered coding assistants - lets agents look up commerce modules, framework concepts, and APIs while writing Medusa code.
+  name: Medusa Docs MCP Server
+  slug: mcp-server
+- description: Monorepo with the Medusa server, Admin, Commerce Modules, Framework, and packages. MIT-licensed reference for self-hosting and for building modules and plugins.
+  name: Medusa Core Repository
+  slug: core-repo
+- description: The Auth API from Medusa — 2 operation(s) for auth.
+  name: Medusa Auth API
+  slug: medusa-js-auth-api
+- description: The Carts API from Medusa — 3 operation(s) for carts.
+  name: Medusa Carts API
+  slug: medusa-js-carts-api
+- description: The Categories API from Medusa — 1 operation(s) for categories.
+  name: Medusa Categories API
+  slug: medusa-js-categories-api
+- description: The Collections API from Medusa — 1 operation(s) for collections.
+  name: Medusa Collections API
+  slug: medusa-js-collections-api
+- description: The Customers API from Medusa — 2 operation(s) for customers.
+  name: Medusa Customers API
+  slug: medusa-js-customers-api
+- description: The Orders API from Medusa — 2 operation(s) for orders.
+  name: Medusa Orders API
+  slug: medusa-js-orders-api
+- description: The Payments API from Medusa — 1 operation(s) for payments.
+  name: Medusa Payments API
+  slug: medusa-js-payments-api
+- description: The Products API from Medusa — 2 operation(s) for products.
+  name: Medusa Products API
+  slug: medusa-js-products-api
+- description: The Regions API from Medusa — 2 operation(s) for regions.
+  name: Medusa Regions API
+  slug: medusa-js-regions-api
+- description: The Shipping API from Medusa — 1 operation(s) for shipping.
+  name: Medusa Shipping API
+  slug: medusa-js-shipping-api
+artifact_total: 91
 asyncapis:
 - description: ''
   name: Medusa Events
@@ -544,6 +595,10 @@ common:
   title: ''
   type: GraphQL
   url: graphql/medusa-graphql.md
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.medusajs.com/api/admin
 created: '2026-07-22'
 description: 'Medusa is an open-source, MIT-licensed digital commerce platform built around a modular architecture: a suite of Commerce Modules (cart, products, orders, pricing, promotions, tax, inventory, fulfillment, payment), a Framework for building custom API routes, data models, workflows and integrations, and a customizable Medusa Admin dashboard. Medusa ships two first-party REST APIs — a Store API for storefronts and an Admin API for merchant operations — both documented with published OpenAPI 3.0 specifications generated from the codebase. Medusa is self-hosted by default; MedusaJS, Inc. also operates Medusa Cloud, a managed PaaS, and a remote MCP server plus published Claude Code agent skills for agentic development.'
 graphqls:
@@ -560,13 +615,13 @@ modified: '2026-08-26'
 name: Medusa
 nav: Providers
 network: true
-overview: 'Medusa publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Auth API, [auth Provider] API, and 60 more. Tagged areas include E-Commerce, Headless Commerce, Open-Source, Commerce, and Storefront.
+overview: 'Medusa publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Auth API, [auth Provider] API, and 70 more. Tagged areas include E-Commerce, Headless Commerce, Open-Source, Commerce, and Storefront.
 
 
   The Medusa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Medusa''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  Medusa''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
 plans:
 - name: Medusa Plans Pricing
   plan_count: 4
@@ -589,7 +644,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -599,7 +654,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 59.9
+  previous_composite: 60.6
   provenance:
     conformance: derived
     contracts:
@@ -609,8 +664,8 @@ score:
       total: 63
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/screenshots/medusa-2026-08-07T172412.png
 security:

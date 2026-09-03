@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid · Requires approval
+  onboarding: approval
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
+  - '{''url'': ''https://kondukto.io'', ''status'': 301, ''note'': ''declared website redirects to https://www.invicti.com/ — a different registrable domain (kondukto.io -> invicti.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -99,7 +101,7 @@ apis:
   description: The Vulnerabilities API from Kondukto — 9 operation(s) for vulnerabilities.
   name: Kondukto Vulnerabilities API
   slug: kondukto-vulnerabilities-api
-artifact_total: 42
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Kondukto Webhooks
@@ -313,7 +315,7 @@ common:
   url: asyncapi/kondukto-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kondukto-mcp.yml
 - group: agent
   title: ''
@@ -331,10 +333,6 @@ created: '2026-07-17'
 description: Kondukto — now shipped as Invicti ASPM following Invicti Security's acquisition of the company — is an Application Security Posture Management platform that centralizes and automates the AppSec vulnerability management lifecycle. It ingests, deduplicates and correlates findings from more than eighty security scanners across SAST, DAST, SCA, container, infrastructure and pentest testing, enriches them with CWE, CVSS, EPSS, CISA KEV, EUVD threat intelligence and VEX exploitability data, and routes them to owning teams through Jira, GitLab, ServiceNow and webhook issue managers. Kondukto publishes a documented REST API v2 covering projects, products, teams, labels, scans and vulnerabilities, an open-source Go command-line client (KDT) that drives the same API from CI/CD pipelines, and a webhook surface for both outbound platform events and customer-hosted issue managers. The platform is deployed per customer, so the API host is deployment-specific.
 image: https://cdn.kondukto.io/img/logo/a990cbe5-f31f-49a0-a135-2ea0b7abb0ec.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kondukto MCP Server
-  slug: kondukto-mcp-server
 modified: '2026-07-19'
 name: Kondukto
 nav: Providers
@@ -380,8 +378,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:

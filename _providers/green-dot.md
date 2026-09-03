@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -275,8 +275,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
 security:

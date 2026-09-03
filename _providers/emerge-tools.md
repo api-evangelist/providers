@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.emergetools.com/
@@ -86,7 +86,7 @@ apis:
   description: The UploadFromLink API from Emerge Tools — 1 operation(s) for uploadfromlink.
   name: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -232,7 +232,7 @@ common:
   url: well-known/emerge-tools-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/emerge-tools-mcp.yml
 - group: agent
   title: ''
@@ -242,10 +242,6 @@ created: '2026-07-17'
 description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regression testing for SwiftUI and Jetpack Compose), Build Distribution (share iOS/Android builds via QR or web), Reaper (runtime dead-code detection), Launch Booster (order-file startup optimization), and Performance testing. The Emerge API (OpenAPI 3.1.0, api.emergetools.com) exposes build upload, size/PR analysis, snapshot comparison, performance results, and Reaper dead-code export, authenticated with an X-API-Token key. Emerge is joining Sentry.
 image: https://emergeassets.s3.us-west-1.amazonaws.com/seo/default-seo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Emerge Tools MCP Server
-  slug: emerge-tools-mcp-server
 modified: '2026-07-19'
 name: Emerge Tools
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
 security:

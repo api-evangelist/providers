@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Policy API from Open — 1 operation(s) for policy.
   name: Open Policy API
   slug: open-insurance-policy-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: Open Insurance API
@@ -201,7 +201,7 @@ common:
   url: well-known/open-insurance-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/open-insurance-mcp.yml
 - group: build
   title: ''
@@ -220,10 +220,6 @@ description: Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), tradi
   of Currency — for which a real OpenAPI 3.0.3 definition is published. Quote is only prepared and polled through the SDK; bind, issue, policy servicing and claims all happen inside Open's hosted (optionally white-labelled) journey rather than over an API, and there is no public FNOL, webhook, GraphQL or Postman surface. API keys and secrets are issued by Open at partner account creation — there is no self-serve signup — and no ACORD, AL3 or NGDS reference appears anywhere on the site or in the documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Open MCP Server
-  slug: open-mcp-server
 modified: '2026-07-25'
 name: Open
 nav: Providers
@@ -268,8 +264,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:

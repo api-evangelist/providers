@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST/JSON access-evaluation API. Evaluate whether a principal may perform actions on assets in context, search accessible assets or authorized principals, query the directory, and route provider hooks
   name: SGNL Public API v2 (Access Service)
   slug: sgnl-public-api-v2-access-service
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -111,7 +111,7 @@ common:
   url: packages/sgnl-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sgnl-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: SGNL is a continuous identity and authorization platform that eliminates standing privilege and makes real-time, context-aware access decisions for both human users and AI agents. It sits at the center of an enterprise IAM architecture, dynamically adapting permissions as conditions change and revoking sessions in real time. SGNL is built on the OpenID Shared Signals Framework (SSF) and the Continuous Access Evaluation Profile (CAEP), ingesting context from identity providers, HR systems, and security tooling to enforce zero standing privilege across cloud and infrastructure. Its Public API v2 (Access Service) exposes REST/JSON access evaluation, asset and principal search, directory query, and provider-hook routing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sgnl.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SGNL MCP Server
-  slug: sgnl-mcp-server
 modified: '2026-07-21'
 name: SGNL
 nav: Providers
@@ -172,8 +168,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sgnl/refs/heads/main/screenshots/sgnl-2026-09-02T155047.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing Infogram projects programmatically — list and copy projects, read and update project entities, upload image assets, publish and unpublish, delete, and export projects as image/PD
   name: Infogram API
   slug: infogram-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -123,7 +123,7 @@ common:
   url: lifecycle/infogram-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/infogram-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Infogram is a data visualization platform (based in Riga, Latvia, part of the Prezi family) that lets writers, marketers, journalists, researchers, and analysts turn raw data into interactive infographics, charts, maps, reports, and dashboards that can be embedded or shared anywhere. Its REST API at api.infogram.com uses bearer-token authentication and lets developers list and copy projects, read and update project entities (text, charts, images), upload image assets, publish and unpublish projects, delete projects, and export a project as PNG/JPG/PDF or zipped HTML. Long-running export/download tasks are monitored over Server-Sent Events via a task-status stream. First-party client libraries are published for PHP, Java, Node.js, and Ruby.
 image: https://cdn.jifo.co/js/dist/f248da3747f83ee2a1a6a8768140ce82.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Infogram MCP Server
-  slug: infogram-mcp-server
 modified: '2026-07-19'
 name: Infogram
 nav: Providers
@@ -179,8 +175,8 @@ score:
   previous_composite: 29.4
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/screenshots/infogram-2026-07-25T222416.png
 security:

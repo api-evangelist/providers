@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Boosted.ai (Alfa) API delivers personalized, autonomous market insights and conversational investment research to platforms via API, SDK, or embedded UI. Documented endpoints let a client execute '
   name: Boosted.ai API (Alfa)
   slug: boostedai-api-alfa
-artifact_total: 6
+artifact_total: 5
 common:
 - group: start
   title: ''
@@ -115,7 +115,7 @@ common:
   url: security/boosted-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/boosted-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Boosted.ai is an agentic AI platform purpose-built for the financial services and investment management industry. Its Alfa product gives portfolio managers, analysts, and wealth and institutional platforms conversational financial chat and autonomous investment agents that automate research, market monitoring, idea generation, and reporting over verified, financial-grade data. Boosted.ai exposes these capabilities to developers through an API, SDK, and embeddable UI so platforms can deliver an investing assistant, an insights feed of agent-generated research, and custom compliant agents inside their own products. The company reports serving 300+ global clients managing $5T+ in assets and is headquartered in New York, with offices in Toronto and San Francisco.
 image: https://cdn.prod.website-files.com/67ad5f417c605912a4a03b1b/691e1dfb823530400d9145e7_Meta-Home%203.jpeg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Boosted.ai MCP Server
-  slug: boostedai-mcp-server
 modified: '2026-07-18'
 name: Boosted.ai
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boosted/refs/heads/main/screenshots/boosted-2026-07-25T203622.png
 security:

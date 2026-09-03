@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -34,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-09-02'
+  score: 37.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -294,8 +293,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/screenshots/rockbot-2026-08-17T081620.png
 security:

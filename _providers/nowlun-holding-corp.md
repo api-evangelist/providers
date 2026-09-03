@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Nowlun freight-forwarding capabilities to agents. Requires an access token holding the "mcp" scope.
@@ -128,8 +128,8 @@ score:
   previous_composite: 15.4
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/screenshots/nowlun-holding-corp-2026-08-07T185638.png
 security:

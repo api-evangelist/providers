@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Celona Orchestrator REST API for network monitoring, event querying, device experience, system status, and audit logs. Authenticated with an X-API-Key generated in the Orchestrator.
   name: Celona API
   slug: celona-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Celona Events Webhooks
@@ -139,7 +139,7 @@ common:
   url: asyncapi/celona-events-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/celona-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Celona provides enterprise private 5G and LTE cellular networking that connects where Wi-Fi cannot reach. The platform combines Celona Edge appliances, indoor and outdoor 5G Access Points, and the cloud-delivered Celona Orchestrator (CSO) for zero-touch provisioning, policy, and lifecycle management over CBRS and shared spectrum. Celona exposes a REST API surface through the Orchestrator for network monitoring, event querying, device experience, system status (Edge and Access Point CPU, memory, and uptime), and account audit logs, authenticated with an X-API-Key generated in the Orchestrator. It serves manufacturing, logistics, healthcare, higher education, oil and gas, and other industries needing mission-critical wireless.
 image: https://cdn.prod.website-files.com/5e3277d251fd9e4b90615367/6450b4ba92a91d1652d39d1a_Home.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server derived from the documented Celona Orchestrator REST operations. Celona does not publish an official hosted MCP server; these tools map one-to-one to real documented endpoints (X-
-  name: Celona MCP Server
-  slug: celona-mcp-server
 modified: '2026-07-18'
 name: Celona
 nav: Providers
@@ -202,8 +198,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/screenshots/celona-2026-07-25T204906.png
 security:

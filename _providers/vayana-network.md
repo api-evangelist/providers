@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.5
-  scored_at: '2026-09-02'
+  score: 29.7
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://s.api.one.vayana.com
@@ -37,7 +37,7 @@ apis:
 - description: Vayana GSP's Pass-Through API Service is the thin, last-mile gateway to the GSTN and NIC ecosystems for integrators who want to speak the government contracts directly. The caller populates the govern
   name: Vayana GSP Pass-Through API Service (PAS)
   slug: vayana-network-gsp-pass-through
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -133,7 +133,7 @@ common:
   url: data-model/vayana-network-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vayana-network-mcp.yml
 - group: agent
   title: ''
@@ -148,10 +148,6 @@ description: 'Vayana (legal entity Vay Network Services Pvt. Ltd., founded 2016,
   TLS.'
 image: https://www.vayana.com/wp-content/uploads/2022/11/vayana-logo-1.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vayana Network MCP Server
-  slug: vayana-network-mcp-server
 modified: '2026-09-02'
 name: Vayana Network
 nav: Providers
@@ -177,6 +173,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -186,6 +183,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     contracts:
@@ -201,8 +199,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Vayana Network Authentication

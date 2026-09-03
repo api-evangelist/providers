@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: The Webhook API allows an API partner to create and manage webhooks.
   name: Convelio Webhook API
   slug: convelio-webhook-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Convelio Webhooks
@@ -77,7 +77,7 @@ common:
   url: capabilities/convelio-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/convelio-mcp.yml
 - group: other
   title: ''
@@ -183,10 +183,6 @@ created: '2026-08-09'
 description: Convelio is a Paris- and London-based tech-enabled fine art logistics company that moves high-value, fragile and oversized objects — paintings, sculpture, antiques and design — for galleries, auction houses, art fairs, dealers, collectors and online marketplaces. Its differentiator is an instant-pricing engine that returns an all-inclusive door-to-door shipping price (packing, crating, customs, road/air/sea freight, insurance and white-glove delivery) in place of the multi-day manual quoting the art-handling trade traditionally runs on. Convelio exposes that engine to partners as the Convelio Public API — a REST Shipping API (v2.0) documented with OpenAPI 3.1 at developers.convelio.com — plus an embeddable checkout widget, a web dashboard and a tracking surface, so marketplaces and auction platforms can price, book and track fine art shipments inside their own product.
 image: https://www.convelio.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Convelio MCP Server
-  slug: convelio-mcp-server
 modified: '2026-08-09'
 name: Convelio
 nav: Providers
@@ -234,8 +230,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/screenshots/convelio-2026-08-17T080832.png
 security:

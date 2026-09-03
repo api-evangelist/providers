@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://testfairy.com'', ''status'': 301, ''note'': ''declared website redirects to https://saucelabs.com/products/testfairy-sauce-labs — a different registrable domain (testfairy.com -> saucelabs.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing TestFairy projects, builds, testers, tester groups, sites, webhooks, permissions, feedback, and audit trails. Authenticated with HTTP Basic (email:api-key) or OIDC bearer tokens.
   name: TestFairy REST API
   slug: testfairy-rest-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Testfairy Webhooks Asyncapi
@@ -115,7 +116,7 @@ common:
   url: cli/testfairy-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/testfairy-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +178,6 @@ created: '2026-07-17'
 description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs, crash reports, and CPU/memory/network telemetry for debugging. It exposes a REST API for managing projects, builds, testers, tester groups, sites, webhooks, and audit trails, plus a separate Upload API for pushing APK/AAB/IPA packages and symbol files from CI. Native SDKs (iOS, Android) and cross-platform wrappers (React Native, Flutter, Cordova, Unity, Xamarin, NativeScript) instrument apps, and command-line uploaders integrate with Jenkins, fastlane, Travis, and CircleCI. Authentication is HTTP Basic (email + API key) or OIDC bearer tokens.
 image: https://raw.githubusercontent.com/api-evangelist/testfairy/main/testfairy.png
 layout: provider
-mcp_servers:
-- description: TestFairy does not publish an official hosted or local MCP server. This is a DERIVED candidate tool list mapping the documented REST endpoints to MCP tools, so an agent could operate TestFairy build d
-  name: TestFairy MCP Server
-  slug: testfairy-mcp-server
 modified: '2026-07-21'
 name: TestFairy
 nav: Providers
@@ -215,8 +212,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/screenshots/testfairy-2026-08-17T082325.png
 security:

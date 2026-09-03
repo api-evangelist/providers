@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://www.purestorage.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.everpuredata.com/ — a different registrable domain (purestorage.com -> everpuredata.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -1620,13 +1621,13 @@ rules:
   slug: pure-storage-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 49.8
   coverage:
     artifact_dirs: 18
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -1636,9 +1637,6 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -1647,8 +1645,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 129
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png
 security:

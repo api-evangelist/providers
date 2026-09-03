@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app-integration.rocksolid.network/api
@@ -51,7 +51,7 @@ apis:
   description: Vault catalogue, metadata and performance
   name: RockSolid Vaults API
   slug: rocksolid-vaults-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ common:
   url: data-model/rocksolid-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rocksolid-mcp.yml
 - group: agent
   title: ''
@@ -154,10 +154,6 @@ created: '2026-07-17'
 description: RockSolid (rocksolid.network) is a DeFi platform offering actively managed, institutional-grade liquid vaults. It lets institutions, protocols and projects launch tailored, white-label vault products that give their communities streamlined access to higher yields and DeFi strategies typically reserved for large investors, sourcing yield from protocols such as Uniswap, Aave, Morpho and Yearn. Vaults are built on the ERC-7540 Asynchronous Tokenized Vault standard (Lagoon Finance implementation) and are audited. RockSolid publishes a public, read-only REST Vaults API that exposes vault metadata, curators, rewards, latest performance (NAV, APR/APY, TVL), strategy allocation snapshots by period, and calculated APR/TVL — plus smart-contract integration docs for on-chain deposit/redeem. Added to the API Evangelist network as a portfolio company of Kindred Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocksolid.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: RockSolid MCP Server
-  slug: rocksolid-mcp-server
 modified: '2026-07-21'
 name: RockSolid
 nav: Providers
@@ -195,8 +191,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/screenshots/rocksolid-2026-09-02T154045.png
 security:

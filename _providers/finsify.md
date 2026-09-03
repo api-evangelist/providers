@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful bank-aggregation API for accessing consumer banking data — accounts, balances, and categorized transaction history — plus customer, connection token, and login lifecycle management, with webho
   name: Finsify Hub API
   slug: finsify-hub-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Finsify Webhooks
@@ -87,7 +87,7 @@ common:
   url: data-model/finsify-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finsify-mcp.yml
 - group: agent
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Finsify is a Southeast Asian bank-data aggregation company whose Finsify Hub service exposes a RESTful API for accessing end-user banking data — account balances and status, and categorized transaction history — across 50+ bank and statement services in 15 countries. The API handles customer creation, short-lived connection tokens that drive the end-user bank-login flow, account retrieval, transaction history filtered by date range, and login lifecycle management (activate, deactivate, refresh, reconnect), with machine-learning transaction categorization and webhook notifications for new transactions and login-status changes. Finsify is a 500 Global portfolio company and powers fintech products including Money Lover, Money Paper, Ngan Luong, and Bao Kim.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finsify.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Finsify MCP Server
-  slug: finsify-mcp-server
 modified: '2026-07-19'
 name: Finsify
 nav: Providers
@@ -148,8 +144,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/screenshots/finsify-2026-07-25T214546.png
 security:

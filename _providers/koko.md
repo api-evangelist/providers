@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The keyword-matching service behind Koko's Suicide Prevention Toolkit. Callers match a search term or post against Koko's risk taxonomy, filtered across three dimensions — category, confidence and int
@@ -49,7 +49,7 @@ apis:
   description: Crisis helpline data endpoints
   name: Koko Helplines API
   slug: koko-helplines-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: well-known/koko-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/koko-mcp.yml
 - group: agent
   title: ''
@@ -174,10 +174,6 @@ description: 'Koko is a 501(c)(3) nonprofit that makes free, evidence-based ment
   trials.'
 image: https://avatars.githubusercontent.com/u/69280615?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Koko MCP Server
-  slug: koko-mcp-server
 modified: '2026-07-19'
 name: Koko
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/screenshots/koko-2026-07-25T224124.png
 security:

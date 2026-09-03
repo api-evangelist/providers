@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -241,7 +241,7 @@ apis:
   description: The Void API from ConnexPay — 1 operation(s) for void.
   name: ConnexPay Void API
   slug: connexpay-void-api
-artifact_total: 84
+artifact_total: 83
 asyncapis:
 - description: ''
   name: Connexpay Webhooks
@@ -374,7 +374,7 @@ common:
   url: capabilities/connexpay-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/connexpay-mcp.yml
 - group: other
   title: ''
@@ -508,10 +508,6 @@ created: '2026-08-09'
 description: ConnexPay is a Milwaukee-founded B2B payments platform that combines merchant acquiring and card issuing in one integration, so a company's incoming customer payments directly fund its outgoing supplier payments with no float in between. An inbound Sale (PayIn) returns an Incoming Transaction Code that funds the virtual cards, ACH credits, push-to-card payouts, checks and international bank-to-bank transfers issued against it (PayOuts). The platform is used heavily in leisure and business travel, advertising and media buying, insurance claims, and embedded-payments software, and is delivered through ten REST APIs — Sales, Purchases, Push to Card, Payment Valet payment instructions, Checkout Session, Merchant Payor, Stop Payment, Chargebacks (CMS), and two Reporting surfaces — plus a browser payments SDK, a Hosted Payment Page, the Bridge operator console, and a 51-event webhook surface called CXP Eventing. ConnexPay is a registered ISO/MSP of The Central Trust Bank and MVB Bank.
 image: https://www.connexpay.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: ConnexPay MCP Server
-  slug: connexpay-mcp-server
 modified: '2026-08-09'
 name: ConnexPay
 nav: Providers
@@ -559,8 +555,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/screenshots/connexpay-2026-08-17T080827.png
 security:

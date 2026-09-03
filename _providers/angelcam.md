@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -195,7 +195,7 @@ arazzos:
 - description: List cameras and retrieve the live-stream URLs for one.
   name: Angelcam — watch a live camera
   slug: angelcam-watch-live-camera
-artifact_total: 68
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Angelcam Webhooks
@@ -326,7 +326,7 @@ common:
   url: scopes/angelcam-scopes.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/angelcam-mcp.yml
 - group: agent
   title: ''
@@ -412,10 +412,6 @@ created: '2026-07-17'
 description: Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud — via ONVIF and the open-source Arrow connector — for live viewing, cloud recording, clip creation and sharing, two-way audio, sensors, and Remote Technical Surveillance (RTS) event notifications. The Angelcam RESTful API (HTTPS-only JSON, organised around Spaces, secured with OAuth2 or a Personal Access Token) exposes 90+ endpoints across cameras, recordings, clips, events, Arrow clients, notifications, speakers, and services.
 image: https://developers.angelcam.com/assets/logo-angelcam.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: AngelCam MCP Server
-  slug: angelcam-mcp-server
 modified: '2026-07-17'
 name: AngelCam
 nav: Providers
@@ -466,8 +462,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:

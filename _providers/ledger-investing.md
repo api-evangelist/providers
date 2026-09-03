@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -73,7 +73,7 @@ apis:
   description: Upload, list, retrieve and delete insurance loss triangles.
   name: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -235,7 +235,7 @@ common:
   url: security/ledger-investing-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ledger-investing-mcp.yml
 - group: agent
   title: ''
@@ -254,10 +254,6 @@ description: Ledger Investing is a New York-based specialist broking and advisor
   broker-dealer, FINRA/SIPC member) and Ledger Risk Markets, LLC (licensed reinsurance intermediary).
 image: https://www.ledgerinvesting.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ledger Investing MCP Server
-  slug: ledger-investing-mcp-server
 modified: '2026-07-19'
 name: Ledger Investing
 nav: Providers
@@ -305,8 +301,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
 security:

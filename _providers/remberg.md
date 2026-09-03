@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -138,7 +138,7 @@ apis:
   description: The work-requests API from Remberg — 7 operation(s) for work-requests.
   name: Remberg work-requests API
   slug: remberg-work-requests-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Remberg Events Webhooks
@@ -307,7 +307,7 @@ common:
   url: llms/remberg-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/remberg-mcp.yml
 - group: agent
   title: ''
@@ -329,10 +329,6 @@ created: '2026-07-17'
 description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.
 image: https://cdn.prod.website-files.com/673f38dcff99b6e3a5b731cb/67b82bff96b78efd5092c4e4_main-hero-16-9-de-2-1024x576.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Remberg MCP Server
-  slug: remberg-mcp-server
 modified: '2026-07-21'
 name: Remberg
 nav: Providers
@@ -378,8 +374,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png
 security:

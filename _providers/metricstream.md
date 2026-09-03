@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Open access
-  onboarding: open
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Business REST APIs over the GRC Foundation object model — Area of Compliance, Asset, Asset Class, Control, Evidence, Exception, Financial Accounts, Function, Framework/Model Reference, Objectives, Pro
@@ -209,8 +210,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/screenshots/metricstream-2026-09-02T150529.png
 security:

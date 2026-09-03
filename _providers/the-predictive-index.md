@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://integrations.predictiveindex.com
@@ -56,7 +56,7 @@ apis:
   description: The Jobs API from The Predictive Index — 1 operation(s) for jobs.
   name: The Predictive Index Jobs API
   slug: the-predictive-index-jobs-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: The Predictive Index Webhooks
@@ -80,7 +80,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/the-predictive-index-mcp.yml
 - group: auth
   title: ''
@@ -174,10 +174,6 @@ created: '2026-07-17'
 description: The Predictive Index (PI) is a talent optimization platform that pairs 70+ years of behavioral science with software to help organizations hire, engage, and develop teams — behavioral and cognitive assessments, hiring and candidate screening, leadership development, employee engagement, and performance management. PI publishes a RESTful Integration API (on Azure API Management) that lets external systems such as ATS/HRIS platforms programmatically create candidates, send behavioral and cognitive assessments, retrieve jobs and results, and generate insight and coaching-guide reports — the same data that appears in the PI Portal software. Status-change notification webhooks push assessment completion events to listening systems. Backed by a $50M investment from General Catalyst.
 image: https://media.predictiveindex.com/wp-content/uploads/2025/02/25165442/ThePredictiveIndex_Thumbnail-1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: The Predictive Index MCP Server
-  slug: the-predictive-index-mcp-server
 modified: '2026-07-21'
 name: The Predictive Index
 nav: Providers
@@ -217,8 +213,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/screenshots/the-predictive-index-2026-08-17T082339.png
 security:

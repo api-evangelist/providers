@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://api.opercredits.com
@@ -296,7 +296,7 @@ apis:
   description: Your Webhooks tag description
   name: Oper Webhooks API
   slug: oper-webhooks-api
-artifact_total: 110
+artifact_total: 109
 collections:
 - collection_type: open
   name: API Collection
@@ -540,7 +540,7 @@ common:
   url: llms/oper-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oper-mcp.yml
 - group: agent
   title: ''
@@ -550,10 +550,6 @@ created: '2026-07-17'
 description: Oper (Oper Credits) is a Belgium-based fintech that provides digital mortgage origination software for banks, lenders, brokers and insurers. Its modular Oper Connect platform connects every stakeholder in the mortgage value chain, and its Herman AI underwriting agent automates document classification, data extraction, verification and credit-policy application to shorten time-to-decision. The Oper Connect API is a JWT-authenticated REST API (Django REST Framework style) exposing loan requests, clients, offers, financial plans, documents and hundreds of configuration resources, plus a versioned Loan Request Webhook API for pushing loan events to lender systems.
 image: https://developers.opercredits.com/assets/logo-white.svg
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP tool surface derived from the Oper Connect OpenAPI. No official hosted/remote Oper MCP server was found during search; this is a proposed mapping of marquee operations to MCP tools, not '
-  name: Oper MCP Server
-  slug: oper-mcp-server
 modified: '2026-07-20'
 name: Oper
 nav: Providers
@@ -601,8 +597,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/screenshots/oper-2026-08-07T190659.png
 security:

@@ -5,7 +5,8 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://www.eigenda.xyz'', ''status'': 302, ''note'': ''declared website redirects to https://www.eigencloud.xyz/da — a different registrable domain (eigenda.xyz -> eigencloud.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -32,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: gRPC API exposed by the EigenDA Disperser. Rollups submit raw blobs to DisperseBlob, then poll GetBlobStatus until the blob is confirmed and dispersed across the operator set. v2 adds GetBlobCommitmen
@@ -199,14 +200,14 @@ overview: 'EigenDA publishes 5 APIs on the [APIs.io](https://apis.io/) network. 
   EigenDA''s developer surface includes developer portal, documentation, engineering blog, tooling, code examples, support, and 27 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 20.3
   coverage:
     artifact_dirs: 3
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -6.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -216,13 +217,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 85.0
   previous_composite: 26.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenda/refs/heads/main/screenshots/eigenda-2026-06-20T180522.png
 security:
 - kind: domain-security

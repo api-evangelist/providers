@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the True & Co Shopify storefront: a hosted Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, and checkout, backed by Shopify Customer Account O'
   name: True & Co UCP Agent Commerce
   slug: true-co-ucp-agent-commerce
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/true-and-co-mcp.yml
 - group: agent
   title: ''
@@ -81,10 +81,6 @@ created: '2026-07-17'
 description: 'True & Co is a direct-to-consumer women''s intimates and lingerie brand, originally venture-backed (Cowboy Ventures, Uncork Capital) and now operating under PVH Corp. It sells bras, underwear, and loungewear online through a Shopify-hosted storefront at trueandco.com. The store exposes no traditional developer API, but it does expose a modern agent-commerce surface: a hosted Universal Commerce Protocol (UCP) MCP endpoint for catalog, cart, and checkout, Shopify Customer Account OAuth 2.0 / OIDC for buyer identity, a public read-only storefront JSON surface, and an agent-facing llms.txt / agents.md.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/true-and-co.png
 layout: provider
-mcp_servers:
-- description: Shopify-native, hosted Model Context Protocol server exposing True & Co's catalog, cart, and checkout to shopping agents via the Universal Commerce Protocol. Payment completion always requires contemp
-  name: True & Co UCP Shopping MCP
-  slug: true-co-ucp-shopping-mcp
 modified: '2026-07-21'
 name: True & Co
 nav: Providers
@@ -120,8 +116,8 @@ score:
   previous_composite: 14.2
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/screenshots/true-and-co-2026-09-02T164331.png
 security:

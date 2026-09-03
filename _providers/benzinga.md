@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - baseURL: https://api.benzinga.com
@@ -253,7 +253,7 @@ apis:
   description: The transcripts API from Benzinga — 2 operation(s) for transcripts.
   name: Benzinga transcripts API
   slug: benzinga-transcripts-api
-artifact_total: 98
+artifact_total: 97
 asyncapis:
 - description: 'WebSocket API providing real-time analyst insights for specific ticker symbols. **Authentication** - Clients must provide their API token as a query parameter: ``` wss://api.benzinga.com/api/v1/analys'
   name: Benzinga Analyst Insights WebSocket Stream
@@ -481,7 +481,7 @@ common:
   url: well-known/benzinga-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/benzinga-mcp.yml
 - group: agent
   title: ''
@@ -543,10 +543,6 @@ created: '2026-07-21'
 description: Benzinga is a Detroit-based financial media and market data company (founded 2010, acquired by Beringer Capital in 2021) that licenses its newsroom and data products through a developer-first API platform at docs.benzinga.com. Products span real-time financial news (Newsfeed, Press Releases, Why Is It Moving), quantified news sentiment, a deep corporate-events Calendar (earnings, dividends, ratings, IPOs, splits, economics, FDA, M&A, government and insider trades), delayed quotes, historical OHLCV bars, fundamentals, logos, ticker trends, and earnings-call transcripts. Delivery is REST over https://api.benzinga.com with API-key auth, plus WebSocket streams, a TCP streaming service (tcp-v1.benzinga.io:11337), and a data webhook engine. OpenAPI and AsyncAPI specs are published in the public Benzinga/benzinga-docs GitHub repo. Access is licensing-led with a developer console registration flow; no public pricing page.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benzinga.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Benzinga MCP Server
-  slug: benzinga-mcp-server
 modified: '2026-07-22'
 name: Benzinga
 nav: Providers
@@ -593,8 +589,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

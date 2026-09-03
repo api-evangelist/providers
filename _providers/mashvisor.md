@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Market trends and heatmaps
   name: Mashvisor Trends API
   slug: mashvisor-trends-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -171,7 +171,7 @@ common:
   url: sandbox/mashvisor-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mashvisor-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Mashvisor is a real estate investment analytics platform for the US housing market. Its Data API gives investors, agents, property managers, and developers programmatic access to short-term (Airbnb) and long-term (traditional) rental performance, MLS listings and property records, neighborhood and city analytics, rental-rate estimates, investment ROI and cash-flow breakdowns, predictive scores, and market trends. All API operations are read-only GET requests authenticated with an x-api-key header and scoped by US state; responses are JSON. Plans range from a free developer trial to Enterprise. Mashvisor was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline from its public developer documentation.
 image: https://www.mashvisor.com/favicon-32x32.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mashvisor MCP Server
-  slug: mashvisor-mcp-server
 modified: '2026-07-20'
 name: Mashvisor
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Agents API from Graphy — 7 operation(s) for agents.
   name: Graphy Agents API
   slug: graphy-agents-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: components/graphy-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/graphy-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ created: '2026-07-17'
 description: 'Graphy is an AI-powered data visualization platform that turns raw data into presentation-ready charts and interactive data stories. Alongside its no-code chart maker (Google Sheets, CSV and Excel import, AI insights, conversational data chat and 20+ chart types), Graphy ships a developer platform at graphy.dev: an AI Agents API that generates, mutates, annotates, narrates, extracts and deterministically evaluates charts from natural language — streamed as Server-Sent Events — plus a React charting SDK and editor for embedding editable, story-driven data experiences inside your own product. Backed by Seedcamp, Coatue, General Catalyst and Northzone.'
 image: https://framerusercontent.com/assets/HQAKsmFxtBCYp0V86Kb4PbbCjx4.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Graphy MCP Server
-  slug: graphy-mcp-server
 modified: '2026-07-19'
 name: Graphy
 nav: Providers
@@ -219,8 +215,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/screenshots/graphy-2026-07-25T220250.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://orderbook.filament.finance/sei
@@ -41,7 +41,7 @@ apis:
   description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
   name: Filament API
   slug: filament-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: 'Real-time WebSocket streams for the Filament perpetual DEX on Sei: order-book state, live asset price feed, and per-account order updates.'
   name: Filament Orderbook Streaming API
@@ -89,7 +89,7 @@ common:
   url: conventions/filament-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/filament-mcp.yml
 - group: docs
   title: ''
@@ -127,10 +127,6 @@ created: '2026-07-17'
 description: Filament (Filament Finance) is a hybrid on-chain perpetual / derivatives DEX built on the Sei Network. It pairs an off-chain orderbook with a Compartment-Based (COMB) liquidity pool to deliver deep liquidity even in thin markets, offering up to 30x leverage on crypto perpetuals using USDC collateral and oracle-based mark prices. Filament Pro is the flagship trading platform, and the project exposes a signature-authenticated REST + WebSocket order-book API at orderbook.filament.finance for market makers and programmatic traders. The team draws on experience from Goldman Sachs, BlackRock, Persistence, and Nethermind; the protocol's smart contracts were audited by PeckShield. Added to the API Evangelist network as a portfolio-lead stub and enriched from the provider's public documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/filament.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Filament MCP Server
-  slug: filament-mcp-server
 modified: '2026-07-19'
 name: Filament
 nav: Providers
@@ -171,8 +167,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
 security:

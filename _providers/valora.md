@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.mainnet.valora.xyz
@@ -61,7 +61,7 @@ apis:
   description: Transaction simulation
   name: Valora transactions API
   slug: valora-transactions-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -124,7 +124,7 @@ common:
   url: packages/valora-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/valora-mcp.yml
 - group: agent
   title: ''
@@ -178,10 +178,6 @@ created: '2026-07-17'
 description: Valora is an open-source, self-custodial mobile crypto wallet focused on making digital assets and peer-to-peer payments simple and accessible from a phone. Born in the Celo ecosystem and now multichain (Celo, Ethereum, Arbitrum, Optimism, Base, Polygon), it pairs the wallet app with a public API for token prices, swap quotes, NFTs, and transaction simulation, plus the Divvi Hooks platform that lets developers extend the app with position-pricing and shortcut hooks. Valora Inc is backed by a16z and Polychain.
 image: https://avatars.githubusercontent.com/u/85907816?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Valora MCP Server
-  slug: valora-mcp-server
 modified: '2026-07-21'
 name: Valora
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/screenshots/valora-2026-09-02T165333.png
 security:

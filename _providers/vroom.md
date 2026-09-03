@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: United Auto Credit Corporation dealer financing integration providing non-prime auto lending origination, 24/7 application access, instant credit decisions, and contract printing for dealership partne
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 24.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vroom/refs/heads/main/screenshots/vroom-2026-06-20T201143.png
 security:

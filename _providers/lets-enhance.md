@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Encompasses operations with videos.
   name: Let's Enhance Video API
   slug: lets-enhance-video-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Lets Enhance Claid Webhooks
@@ -187,7 +187,7 @@ common:
   url: data-model/lets-enhance-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lets-enhance-mcp.yml
 - group: other
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-17'
 description: Let's Enhance is an AI image enhancement company whose consumer product at letsenhance.io upscales, sharpens, denoises and restores photographs up to 512MP, and whose developer platform is shipped as Claid.ai — a REST API for AI image editing, generation and image-to-video. The Claid API exposes synchronous and asynchronous image editing pipelines, batch processing, direct upload, natural-language AI edit, AI fashion models, AI background scene generation, image generation, image-to-video, and cloud storage connectors for AWS S3, Google Cloud Storage and web folders. It is used by ecommerce, marketplace, real-estate and print-on-demand teams to automate product and listing imagery at scale. Authentication is a bearer API key with per-key permission scopes; long-running jobs are polled or delivered by HMAC-signed webhooks. Let's Enhance is a Techstars-backed company.
 image: https://letsenhance.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Let's Enhance MCP Server
-  slug: lets-enhance-mcp-server
 modified: '2026-07-19'
 name: Let's Enhance
 nav: Providers
@@ -255,8 +251,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png
 security:

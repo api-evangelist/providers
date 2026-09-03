@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Teams accessible to the API key
   name: Avoca Teams API
   slug: avoca-teams-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Avoca Webhooks
@@ -123,7 +123,7 @@ common:
   url: capabilities/avoca-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/avoca-mcp.yml
 - group: other
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: Avoca is "The AI Front Office for Service Businesses" — always-on AI agents that answer inbound calls, texts, and web chats 24/7 for home-services companies (HVAC, plumbing, electrical, pest control, garage door, and construction), book jobs, run multi-channel outbound re-engagement campaigns, score and coach every call, and respond to leads instantly. The company raised a $125M Series B at a $1B valuation and serves 1,000+ service businesses. Avoca publishes an Enterprise API (bearer API-key auth over https://enterprise-api.avoca.ai) that exposes read access to calls, transcripts, leads, teams, coach/QA evaluations, sessions, bookings, outbound texting, and Simple Scheduler analytics, plus HMAC-signed event webhooks and a Speed-to-Lead intake webhook — designed for enterprise partners ingesting Avoca activity into their BI warehouses and CRMs (ServiceTitan, Dialpad, Five9, 3CX).
 image: https://www.avoca.ai/og-default.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Avoca MCP Server
-  slug: avoca-mcp-server
 modified: '2026-07-18'
 name: Avoca
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:

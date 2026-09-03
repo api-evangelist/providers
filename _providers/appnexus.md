@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.appnexus.com'', ''status'': 301, ''note'': ''declared website redirects to https://about.ads.microsoft.com/en — a different registrable domain (appnexus.com -> microsoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful JSON API for the AppNexus/Xandr programmatic advertising platform - manage advertisers, campaigns, line items, creatives, placements, inventory, deals, and pull reporting. Token authentication
@@ -204,8 +205,8 @@ score:
   previous_composite: 37.3
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/screenshots/appnexus-2026-07-25T200821.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Arc provides a unified financial operating platform for technology companies, combining cash management, treasury, debt capital, and AI-powered financial services. The platform is primarily accessed t
@@ -111,8 +111,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-technologies/refs/heads/main/screenshots/arc-technologies-2026-06-20T172353.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: REST API for creating and managing payment jobs and payments — create, retrieve, and cancel payment jobs; capture, refund, and cancel individual payments; card tokenisation; and recurring payments. Pa
@@ -50,7 +50,7 @@ apis:
 - description: Standalone REST API for PCI-PTS secure Kinetic payment devices, served locally from the terminal (default http://127.0.0.1:8080) under /api/v2 — device info, ping/status, settings, transactions, scree
   name: Cashflows In-Person Payments API
   slug: cashflows-in-person-payments-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Cashflows Gateway Webhooks
@@ -166,7 +166,7 @@ common:
   url: well-known/cashflows-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cashflows-mcp.yml
 - group: agent
   title: ''
@@ -177,10 +177,6 @@ description: Cashflows is a United Kingdom payment gateway and card acquirer, he
   plus a SHA-512 request hash for the Gateway, and auth_id/auth_pass for Remote Authentication) rather than OAuth.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cashflows MCP Server
-  slug: cashflows-mcp-server
 modified: '2026-07-24T12:00:00Z'
 name: Cashflows
 nav: Providers
@@ -225,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png
 security:

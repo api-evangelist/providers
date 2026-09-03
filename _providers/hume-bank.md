@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Hume Bank Banking Products API
   slug: hume-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: lifecycle/hume-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hume-bank-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: Hume Bank is a customer-owned (mutual) Australian bank headquartered in Albury, New South Wales. Founded in 1955 as the Hume Co-operative Building & Investment Society, it became Hume Building Society and then Hume Bank on 1 July 2014, serving roughly 65,000 customers with around A$1.70 billion in assets. As an authorised deposit-taking institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking) regime, exposing a public, unauthenticated Product Reference Data (PRD) API built to the Consumer Data Standards for its retail and business deposit and credit card products, alongside the accredited-data-recipient consent flows required of a CDR data holder.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hume-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hume Bank MCP Server
-  slug: hume-bank-mcp-server
 modified: '2026-07-22'
 name: Hume Bank
 nav: Providers
@@ -249,8 +245,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -154,7 +154,7 @@ apis:
   description: Entity that belongs and is managed by an application and contains the definition and combination of the Resource Types that are required to create a Virtual Entity.
   name: Hildebrand Virtual Entity Type API
   slug: hildebrand-virtual-entity-type-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Hildebrand Event Surface
@@ -246,7 +246,7 @@ common:
   url: plans/hildebrand-plans.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hildebrand-mcp.yml
 - group: agent
   title: ''
@@ -317,10 +317,6 @@ description: 'Hildebrand Technology Limited is a London-based energy data compan
   from api.glowmarkt.com/api-docs, and any individual who installs Bright, creates an account and passes meter-point verification can call the same production API for their own household data with a published applicationId. Third-party organisational access to other people''s data is the closed half — it runs through Glow Data Service on a signed contract from GBP 595/month per MPxN, with consumer verification and consent captured per meter point. Hildebrand publishes no open grid or market data of any kind: every documented endpoint returns HTTP 400 without an applicationId header, so this is a closed-market-data, consent-gated-consumer-data provider.'
 image: https://www.hildebrand.co.uk/images/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hildebrand MCP Server
-  slug: hildebrand-mcp-server
 modified: '2026-07-27'
 name: Hildebrand
 nav: Providers
@@ -372,8 +368,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/screenshots/hildebrand-2026-08-07T170207.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The external Operator Rounds (mRounds) REST API on the Innovapptive Connected Business Operations host. It lets a tenant programmatically list published round plans, read a specific round plan with it
@@ -211,8 +211,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovapptive/refs/heads/main/screenshots/innovapptive-2026-08-07T170708.png
 security:

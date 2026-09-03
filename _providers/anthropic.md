@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -293,7 +293,7 @@ arazzos:
 - description: Upload a file, read back its metadata, and download its content when it is downloadable.
   name: Anthropic Upload, Verify, and Download a File
   slug: anthropic-upload-verify-download-file-workflow
-artifact_total: 137
+artifact_total: 136
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Content-Typ'
   name: Anthropic Messages Streaming API
@@ -453,7 +453,7 @@ common:
   url: well-known/anthropic-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anthropic-mcp.yml
 - group: agent
   title: ''
@@ -1026,10 +1026,6 @@ jsonld:
   property_count: 18
   slug: anthropic-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Anthropic MCP Server
-  slug: anthropic-mcp-server
 modified: '2026-08-27'
 name: Anthropic
 nav: Providers
@@ -1080,7 +1076,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -1090,7 +1086,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 71.1
-  previous_composite: 75.4
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1101,8 +1097,8 @@ score:
       total: 48
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

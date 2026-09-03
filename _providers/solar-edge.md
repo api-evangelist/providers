@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
   description: Account hierarchy.
   name: SolarEdge Account API
   slug: solar-edge-account-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -228,7 +228,7 @@ common:
   url: conformance/solar-edge-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/solar-edge-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ jsonld:
   property_count: 44
   slug: solar-edge-context
 layout: provider
-mcp_servers:
-- description: No official SolarEdge-hosted or first-party MCP server was found during this pass. This is a CANDIDATE tool surface derived one-to-one from the read-only operations in openapi/solaredge-monitoring-ope
-  name: SolarEdge MCP Server
-  slug: solaredge-mcp-server
 modified: '2026-08-08'
 name: SolarEdge
 nav: Providers
@@ -342,8 +338,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:

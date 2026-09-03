@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Open access
-  onboarding: open
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
@@ -36,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -244,8 +245,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/screenshots/cisco-support-apis-2026-09-02T145048.png
 security:

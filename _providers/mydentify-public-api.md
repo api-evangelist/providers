@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
   name: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -101,7 +101,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mydentify-public-api-mcp.yml
 - group: other
   title: ''
@@ -216,10 +216,6 @@ examples:
   slug: mydentify-public-api-product-categories-response
 image: https://mydentify.com/favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mydentify Public API MCP Server
-  slug: mydentify-public-api-mcp-server
 modified: '2026-08-09'
 name: Mydentify Public API
 nav: Providers
@@ -258,8 +254,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/screenshots/mydentify-public-api-2026-09-02T150703.png
 security:

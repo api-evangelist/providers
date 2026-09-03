@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -64,7 +64,7 @@ apis:
   description: The Voice Change API from LALAL.AI — 2 operation(s) for voice change.
   name: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
-artifact_total: 52
+artifact_total: 51
 collections:
 - collection_type: postman
   name: LALAL.AI Batch Stem Separation API
@@ -199,7 +199,7 @@ common:
   url: packages/lalal-ai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lalal-ai-mcp.yml
 - group: design
   title: ''
@@ -301,10 +301,6 @@ jsonld:
   property_count: 5
   slug: lalal-ai-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: API Evangelist candidate — LALAL.AI publishes no MCP server
-  slug: api-evangelist-candidate-lalalai-publishes-no-mcp-server
 modified: '2026-08-13'
 name: LALAL.AI
 nav: Providers
@@ -376,8 +372,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:

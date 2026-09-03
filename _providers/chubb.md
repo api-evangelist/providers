@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Chubb Studio is Chubb's embedded insurance technology platform that enables digital partners (banks, retailers, travel platforms, fintechs, OEMs, and other distributors) to integrate Chubb's insurance
@@ -225,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chubb/refs/heads/main/screenshots/chubb-2026-06-20T174331.png
 security:

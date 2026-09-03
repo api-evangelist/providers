@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: CKAN Action API for Bahia Blanca Open Data, ~221 datasets. Base URL https://datos.bahia.gob.ar/api/3/action/.
@@ -119,8 +119,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-bahia-gob-ar/refs/heads/main/screenshots/datos-bahia-gob-ar-2026-06-20T175714.png
 security:

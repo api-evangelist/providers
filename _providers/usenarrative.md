@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: The Tasks API from Narrative Sports — 8 operation(s) for tasks.
   name: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: llms/usenarrative-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/usenarrative-mcp.yml
 - group: design
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-17'
 description: Narrative Sports (Narrative AI Inc., YC Fall 2025, listed by Y Combinator as "usenarrative") is an AI-powered sports content platform that automates the creation and distribution of broadcast-ready highlight videos for broadcasters, teams, and leagues. Its API ingests live SRT streams for soccer and MMA, detects key moments in real time, and returns rendered clips in multiple aspect ratios, single-game recaps, multi-game highlight packages, and OTIO edit timelines.
 image: https://narrative-sports.com/largelogofrontend_white2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Narrative Sports MCP Server
-  slug: narrative-sports-mcp-server
 modified: '2026-07-21'
 name: Narrative Sports
 nav: Providers
@@ -243,8 +239,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/screenshots/usenarrative-2026-08-17T082657.png
 security:

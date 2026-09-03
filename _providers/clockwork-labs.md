@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The SpacetimeDB HTTP API lets clients and tools interact with SpacetimeDB databases: publish and delete database modules, manage database names, retrieve schema and logs, invoke reducers, run SQL quer'
   name: SpacetimeDB HTTP API
   slug: spacetimedb-http-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -143,7 +143,7 @@ common:
   url: changelog/clockwork-labs-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/clockwork-labs-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: 'Clockwork Labs is a San Francisco software company (founded 2019) that builds SpacetimeDB, a relational database that is also an application server: developers upload their schema and server-side business logic as a WebAssembly "module" (written in Rust, C#, TypeScript, or C++) directly into the database, and clients connect over WebSocket to invoke reducers and subscribe to real-time state updates with no separate application server in between. SpacetimeDB exposes a versioned HTTP API (/v1/database and /v1/identity) for publishing modules, invoking reducers, running SQL, streaming subscriptions, and managing identities and JWT tokens, plus a first-party `spacetime` CLI and client SDKs for TypeScript, C#/Unity, Rust, Python, and C++. It is the production backend of BitCraft, the company''s MMO. Clockwork Labs is backed by a16z, Supercell, Firstminute Capital, Skycatcher, 1Up Ventures, and Supernode.'
 image: https://spacetimedb.com/og-home.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Clockwork Labs MCP Server
-  slug: clockwork-labs-mcp-server
 modified: '2026-07-18'
 name: Clockwork Labs
 nav: Providers
@@ -193,8 +189,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/screenshots/clockwork-labs-2026-07-25T205640.png
 security:

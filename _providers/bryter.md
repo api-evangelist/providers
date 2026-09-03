@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API for triggering and executing BRYTER modules from external systems, returning module results. Authenticated with a bearer API key scoped to a tenant environment.
@@ -169,8 +169,8 @@ score:
   previous_composite: 36.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bryter/refs/heads/main/screenshots/bryter-2026-07-25T204007.png
 security:

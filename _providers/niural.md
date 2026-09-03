@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: The Transactions API from Niural — 4 operation(s) for transactions.
   name: Niural Transactions API
   slug: niural-transactions-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Niural Webhooks
@@ -211,7 +211,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/niural-mcp.yml
 - group: build
   title: ''
@@ -233,10 +233,6 @@ created: '2026-08-04'
 description: 'Niural is a US-headquartered global workforce platform that unifies US payroll, PEO, employer of record (EOR), agent of record (AOR), contractor management and cross-border contractor payments in 150+ countries inside a single system, with an AI layer (EMMA) that orchestrates payroll, compliance and expense approvals. Its public developer surface — the Niural Public API, documented on ReadMe at docs.niural.com — is narrower than the product: an OpenAPI 3.0.3 contract of 15 operations across four resources (authentication, pay-on-demand contractor contracts, invoices and transactions), served from separate sandbox and live hosts, authenticated with a client-credential exchange that returns a bearer JWT, with cursor pagination, a 25 requests/second rate limit, and three HMAC-SHA256-signed webhook events. Payroll, PEO, EOR and benefits are not exposed on the public API.'
 image: https://www.niural.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: Niural operates no hosted or remote MCP server. Searched docs.niural.com (full llms.txt page index), niural.com, the Niural GitHub org, npm and the public MCP registries — no result; mcp.niural.com do
-  name: Niural MCP Server
-  slug: niural-mcp-server
 modified: '2026-08-04'
 name: Niural
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/screenshots/niural-2026-08-07T185346.png
 security:

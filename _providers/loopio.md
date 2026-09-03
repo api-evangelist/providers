@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - scopes
   - rate-limits
@@ -38,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.loopio.com/data/v2
@@ -271,7 +272,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -281,7 +282,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 33.7
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     contracts:
@@ -297,8 +298,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/screenshots/loopio-2026-09-02T150315.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Read-only GraphQL API exposing activity schedules (classes, courses, workshops, trainings, events, camps, retreats, educations), activity groups, venues, companies, teachers, and per-activity checkout
@@ -42,7 +42,7 @@ apis:
 - description: Legacy JSON:API REST integration API used by aggregator and partner systems to manage users, venues, courts, and orders on the Eversports platform. Requests and responses follow the jsonapi.org format
   name: Eversports Integration API (v2)
   slug: eversports-integration-api-v2
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -106,7 +106,7 @@ common:
   url: well-known/eversport-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eversport-mcp.yml
 - group: agent
   title: ''
@@ -124,10 +124,6 @@ created: '2026-07-17'
 description: Eversports is a European sports and fitness activity platform founded in 2013 and headquartered in Vienna, Austria. Its consumer marketplace lets people discover, book, and pay for classes, courts, and memberships across yoga, pilates, tennis, badminton, climbing and more, while Eversports Manager is the studio-management SaaS that venues use to run schedules, bookings, memberships, and payments. The platform facilitates roughly 1.5 million bookings per month for more than 4,000 active sport providers and 500,000 monthly active users. For developers, Eversports exposes a read-only GraphQL Provider API surfacing activity schedules, venues, teachers, and per-activity checkout links for integrated Eversports Manager venues, plus a legacy JSON:API REST integration API for users, venues, courts, and orders, and aggregator integrations with Urban Sports Club, Wellhub, ClassPass, EGYM Wellpass, and others.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eversport.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eversports MCP Server
-  slug: eversports-mcp-server
 modified: '2026-07-19'
 name: Eversports
 nav: Providers
@@ -160,8 +156,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversport/refs/heads/main/screenshots/eversport-2026-07-25T213737.png
 security:

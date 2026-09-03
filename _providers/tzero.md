@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -244,7 +244,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -254,7 +254,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 50.2
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +266,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/screenshots/tzero-2026-09-02T164703.png
 security:

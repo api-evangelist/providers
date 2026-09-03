@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -108,7 +108,7 @@ apis:
   description: Manage backup vaults that store snapshots.
   name: Eon vaults API
   slug: eon-vaults-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -263,7 +263,7 @@ common:
   url: overlays/eon-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eon-mcp.yml
 - group: agent
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: Eon is a next-generation cloud backup and data-protection platform that turns cloud backups into live, searchable, strategic assets across AWS, Google Cloud, and Azure. It provides agentless backup, cloud backup posture management, ransomware protection, global search over backups, live and granular file/resource restore, and a zero-ETL data-lake storage tier that makes old snapshots useful for analytics and AI. Eon exposes a REST API (OpenAPI 3.0, 99 operations) covering source/restore accounts, resources, vaults, snapshots, backup policies, restores, jobs, IAM, billing, and multi-party action approvals, with an official Go SDK and Terraform provider. Backed by BOND Capital and Lightspeed Venture Partners.
 image: https://cdn.prod.website-files.com/6728a53e42fda9e629eb3ed6/672a2f7a6d97e6ab9f07f37e_og.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eon MCP Server
-  slug: eon-mcp-server
 modified: '2026-07-19'
 name: Eon
 nav: Providers
@@ -315,8 +311,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-08-17T123419.png
 security:

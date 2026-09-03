@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful API for crypto and stablecoin platforms to onboard end users (KYC/AML), open named and virtual fiat accounts, receive pay-ins and send payouts across GBP, EUR and USD schemes, run FX conversio
   name: Fiat Republic API
   slug: fiat-republic-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Fiat Republic Webhooks
@@ -171,7 +171,7 @@ common:
   url: conformance/fiat-republic-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fiat-republic-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ created: '2026-07-17'
 description: Fiat Republic is a UK- and EU-regulated Banking-as-a-Service provider that gives crypto platforms, exchanges and stablecoin issuers a single API and single liability contract for local fiat rails. Its RESTful API automates end-user onboarding with embedded KYC/AML, named and virtual fiat accounts, pay-ins and payouts across GBP (Faster Payments / CHAPS), EUR (SEPA / SEPA Instant) and USD schemes, FX conversion, Verification of Payee (VoP), returns and recalls, and its Oxygen transaction-monitoring product. Access is via OAuth 2.0 client-credentials with PAYMENTS and OXYGEN scopes, HMAC-SHA256-signed webhooks using the HTTP Message Signatures standard, idempotency keys, and separate sandbox and production environments. Fiat Republic operates as an Electronic Money Institution regulated by the FCA (UK) and De Nederlandsche Bank (NL), with MSB registrations in the US and Canada.
 image: https://fiatrepublic.com/images/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fiat Republic MCP Server
-  slug: fiat-republic-mcp-server
 modified: '2026-07-19'
 name: Fiat Republic
 nav: Providers
@@ -242,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/screenshots/fiat-republic-2026-07-25T214357.png
 security:

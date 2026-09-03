@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Public Antelope/EOSIO Chain API for the WAX blockchain — query chain state (get_info, get_account, get_table_rows, get_currency_balance) and submit signed transactions (push_transaction/send_transacti
@@ -160,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wax/refs/heads/main/screenshots/wax-2026-09-02T170503.png
 security:

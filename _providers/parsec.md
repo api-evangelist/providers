@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Relay API from Parsec — 2 operation(s) for relay.
   name: Parsec Relay API
   slug: parsec-relay-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -227,7 +227,7 @@ common:
   url: data-model/parsec-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parsec-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: Parsec is a high-performance, low-latency remote desktop and interactive video streaming product, now a Unity company, used to access graphics-intensive and latency-sensitive applications from anywhere across any device. Its peer-to-peer architecture streams in silky-smooth high definition and is used by game studios (EA, Ubisoft, Blizzard, Square Enix), film/TV, animation, broadcast and architecture teams. Parsec for Teams adds organization-wide administration, and the Parsec for Teams API exposes that admin surface — managing members, groups, team machines (computers), time-limited guest access, application rules, relays, and the team audit log — authenticated with an API key presented as an HTTP Bearer token and governed by a granular team permission model.
 image: https://parsec.app/_next/static/media/opengraph.60ec26bf.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parsec MCP Server
-  slug: parsec-mcp-server
 modified: '2026-07-20'
 name: Parsec
 nav: Providers
@@ -299,8 +295,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
 security:

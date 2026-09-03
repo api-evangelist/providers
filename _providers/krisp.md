@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Session minting and language discovery for the real-time voice translation service.
   name: Krisp Voice Translation API
   slug: krisp-voice-translation-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: NOT PUBLISHED BY KRISP. Krisp publishes no AsyncAPI document. This is a faithful transcription by the API Evangelist enrichment pipeline of the WebSocket protocol Krisp documents in prose at https://s
   name: Krisp Voice Translation WebSocket API
@@ -71,7 +71,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/krisp-mcp.yml
 - group: other
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: 'Krisp is a Voice AI platform whose real-time speech-enhancement models run on over 200 million devices, licensed by Discord, Twilio, and VMware among others. Beyond its consumer AI Note Taker, Krisp ships a developer surface: the AI Voice SDK family (VIVA for voice AI agents — voice isolation, turn prediction, interruption prediction, VAD; and RTC for human-to-human calls — accent conversion, bidirectional noise cancellation, background voice cancellation) across Windows, macOS, Linux, Web (JS/WASM), iOS, and Android with C++, Python, Node.js, Go, Rust, and JavaScript bindings, plus framework integrations for LiveKit, WebRTC, and Pipecat. Krisp also runs a self-serve Voice Translation API — a streaming WebSocket speech-to-speech translation service covering 61 languages behind a REST session-token mint — and a programmatic SDK and model download REST API for CI/CD pipelines.'
 image: https://krisp.ai/wp-content/uploads/2025/08/thumb1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Krisp MCP Server
-  slug: krisp-mcp-server
 modified: '2026-07-19'
 name: Krisp
 nav: Providers
@@ -262,8 +258,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/screenshots/krisp-2026-07-25T224259.png
 security:

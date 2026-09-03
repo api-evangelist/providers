@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ apis:
   description: The v2 (deprecated) API from TMT ID — 2 operation(s) for v2 (deprecated).
   name: TMT ID v2 (deprecated) API
   slug: tmt-id-v2-deprecated-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: TMT Authenticate API specs
@@ -191,7 +191,7 @@ common:
   url: data-model/tmt-id-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tmt-id-mcp.yml
 - group: agent
   title: ''
@@ -294,10 +294,6 @@ description: 'TMT ID (trading name of TMT Analysis Limited, London) is a United 
   production APIs are still issued through a commercial onboarding conversation rather than instant key generation. TMT ID states on its own site that it is a GSMA Open Gateway member, but it publishes no CAMARA-conformant API — its SIM-swap and network-authentication products ship under TMT ID''s own proprietary schemas, which is the honest position of most of the identity-and-antifraud layer of this market.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: TMT ID MCP Server
-  slug: tmt-id-mcp-server
 modified: '2026-07-25'
 name: TMT ID
 nav: Providers
@@ -342,8 +338,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/screenshots/tmt-id-2026-08-17T082402.png
 security:

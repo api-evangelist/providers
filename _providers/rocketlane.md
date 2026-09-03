@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: Endpoints for users resource
   name: Rocketlane Users API
   slug: rocketlane-users-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Rocketlane Webhooks
@@ -239,7 +239,7 @@ common:
   url: cli/rocketlane-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rocketlane-mcp.yml
 - group: auth
   title: ''
@@ -305,10 +305,6 @@ created: '2026-07-17'
 description: Rocketlane is an AI-powered Professional Services Automation (PSA) platform that unifies customer onboarding, project delivery, resource management, time tracking, and professional-services financials in one system. Its public REST API (base https://api.rocketlane.com/api/1.0/) exposes projects, tasks, phases, spaces, space documents, custom fields, time entries, time-offs, resource allocations, users, and invoices, authenticated with a workspace api-key header and paginated with cursors. Outbound webhooks broadcast task, project, and phase lifecycle events, and a first-party CLI (@rocketlane/rli) supports building apps for the Rocketlane Marketplace. Originally added to the API Evangelist network as a portfolio-company lead (8vc, Insight Partners); enriched from its live developer surface.
 image: https://cdn.prod.website-files.com/6360d3edc696260ba2aecbc7/64e613d0f901abbf2430f1f8_banner.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rocketlane MCP Server
-  slug: rocketlane-mcp-server
 modified: '2026-07-21'
 name: Rocketlane
 nav: Providers
@@ -354,8 +350,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/screenshots/rocketlane-2026-08-17T081626.png
 security:

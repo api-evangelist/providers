@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.definedcrowd.com/'', ''status'': 302, ''note'': ''declared website redirects to https://defined.ai/ — a different registrable domain (definedcrowd.com -> defined.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -83,7 +84,7 @@ apis:
   description: 'Several of the Workflow Templates offer the ability to set a language / country code. These configurations instruct Defined.ai to use our human intelligence Contributors that speak and / or reside in '
   name: Defined.ai (DefinedCrowd) Supported Languages API
   slug: definedcrowd-supported-languages-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +176,7 @@ common:
   url: data-model/definedcrowd-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/definedcrowd-mcp.yml
 - group: other
   title: ''
@@ -201,10 +202,6 @@ created: '2026-07-17'
 description: Defined.ai (formerly DefinedCrowd) is an AI training data platform and marketplace founded in 2015 by Daniela Braga, headquartered in Seattle with offices in Lisbon, Porto, and Tokyo. It provides ready-to-use datasets across speech, text, image, video, and multimodal, plus custom data collection, annotation, machine translation, conversational AI, LLM fine-tuning, and data and model evaluation services sourced from a global community of 1.6M+ vetted contributors across 150+ markets and 500+ languages, dialects, and locales. The Defined.ai Public API (v2.0) lets enterprise customers manage projects programmatically — create Mean Opinion Score and Pronunciation Validation projects, upload input units, configure supported languages, track project status and errors, manage jobs, retrieve deliverables, and subscribe to notifications. Data provenance and compliance are backed by ISO 27001, ISO 27701, ISO 42001, GDPR, and HIPAA.
 image: https://defined.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Defined.ai (DefinedCrowd) MCP Server
-  slug: definedai-definedcrowd-mcp-server
 modified: '2026-07-18'
 name: Defined.ai (DefinedCrowd)
 nav: Providers
@@ -243,8 +240,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/screenshots/definedcrowd-2026-07-25T211622.png
 security:

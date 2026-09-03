@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -129,6 +129,10 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/user/blsgov
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bls.gov/bls/news.htm
 created: '2026-05-25'
 description: The U.S. Bureau of Labor Statistics (BLS) is the principal federal statistical agency responsible for measuring labor market activity, working conditions, price changes, and productivity in the U.S. economy. BLS operates the Public Data API at api.bls.gov, providing programmatic JSON access to published historical time series across more than 75 surveys — including the Consumer Price Index (CPI), Producer Price Index (PPI), Employment Situation (CES), Local Area Unemployment Statistics (LAUS), Quarterly Census of Employment and Wages (QCEW), Occupational Employment and Wage Statistics (OEWS), Employment Cost Index (ECI), Productivity, Import/Export Price Indexes, and Census of Fatal Occupational Injuries (CFOI). Version 1 is open without registration; Version 2 requires a free registration key and provides higher daily limits, more series per request, longer year ranges, catalog metadata, statistical calculations, and annual averages.
 examples:
@@ -167,7 +171,7 @@ overview: 'Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https://
   The Bureau of Labor Statistics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bureau of Labor Statistics'' developer surface includes authentication, documentation, YouTube channel, and 10 more developer resources.'
+  Bureau of Labor Statistics'' developer surface includes authentication, documentation, YouTube channel, engineering blog, and 10 more developer resources.'
 plans:
 - name: Bls Gov Plans Pricing
   plan_count: 3
@@ -200,19 +204,19 @@ rules:
   slug: bls-public-data-api-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 45.6
   coverage:
     artifact_dirs: 16
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
     contract_quality: 68.5
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 7.9
@@ -230,8 +234,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/screenshots/bls-gov-2026-06-20T173524.png
 security:

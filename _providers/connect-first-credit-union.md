@@ -9,6 +9,7 @@ access_model:
   - authentication
   - scopes
   - security
+  - '{''url'': ''https://www.connectfirstcu.com/'', ''status'': 301, ''note'': ''declared website redirects to https://servus.ca/?utm_source=cfcu&utm_medium=redirect — a different registrable domain (connectfirstcu.com -> servus.ca), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,8 +126,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connect-first-credit-union/refs/heads/main/screenshots/connect-first-credit-union-2026-07-25T210259.png
 security:

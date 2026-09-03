@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The Valuations API from Luminary — 1 operation(s) for valuations.
   name: Luminary Valuations API
   slug: luminary-valuations-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +167,7 @@ common:
   url: packages/luminary-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/luminary-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: Luminary is AI-powered estate planning software for wealth advisors, family offices, attorneys, and professional services firms. It turns static estate planning documents into organized, digital records — with AI document digitization and summarization, dynamic estate flowcharts and waterfalls, scenario modeling, and role-based collaboration. Its public REST API (v1) exposes households, individuals, entities, documents, AI document summaries, and entity valuations so estate data can sync with CRMs, client portals, and planning tools. First-party TypeScript and Go SDKs are published on GitHub. OAuth2-secured (authorizationCode + clientCredentials) and SOC 2 Type II audited. Backed by 8vc.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminary.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Luminary MCP Server
-  slug: luminary-mcp-server
 modified: '2026-07-20'
 name: Luminary
 nav: Providers
@@ -252,8 +248,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/screenshots/luminary-2026-07-25T225714.png
 security:

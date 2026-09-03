@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Borrower application result API from Scratchpay — 1 operation(s) for borrower application result.
   name: Scratchpay Borrower application result API
   slug: scratchpay-borrower-application-result-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Scratchpay Partner Webhooks
@@ -139,7 +139,7 @@ common:
   url: sandbox/scratchpay-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/scratchpay-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Scratchpay (Scratch Financial, Inc., NMLS ID 1582666) is a digital payment and financing platform for veterinary and human healthcare. Practices offer borrowers Scratch Pay installment plans ($200-$10,000 over 12-24 months, 0-36% APR) with no hidden fees and a soft credit check, plus Scratch Checkout payment processing and Scratch Comms patient communications. Over 12,000 veterinary hospitals across the U.S. and Canada integrate Scratch, which pays practices up front and collects from borrowers. Scratchpay exposes a partner/borrower API (published as archived OpenAPI on GitHub) for submitting loan applications and receiving an asynchronous approve/decline decision via a partner callback. Backed by Norwest Venture Partners.
 image: https://6598889.fs1.hubspotusercontent-na1.net/hubfs/6598889/New%20Site%202025/newsite.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Scratchpay MCP Server
-  slug: scratchpay-mcp-server
 modified: '2026-07-21'
 name: Scratchpay
 nav: Providers
@@ -207,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/screenshots/scratchpay-2026-09-02T154604.png
 security:

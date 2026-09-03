@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The Product API from Rentle — 0 operation(s) for product.
   name: Rentle Product API
   slug: rentle-product-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Rentle Webhooks
@@ -157,7 +157,7 @@ common:
   url: skills/rentle-create-order.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rentle-mcp.yml
 - group: other
   title: ''
@@ -243,10 +243,6 @@ created: '2026-07-17'
 description: Rentle, now operating as Twice Commerce, is a Helsinki-founded (2018) circular-commerce platform that lets merchants run rentals, resale, and subscriptions from one system. Its Twice Admin API (OpenAPI 3.0.0, date-based version 2023-02-01) exposes categories, customers, inventory articles, SKUs, products, orders, stores, merchant details, discount codes, API keys, and webhooks over a REST interface authenticated with HTTP Basic API keys. Outbound webhooks cover nine order and product lifecycle events. This profile was enriched by the API Evangelist pipeline from Rentle/Twice Commerce public developer surfaces.
 image: https://www.twicecommerce.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rentle MCP Server
-  slug: rentle-mcp-server
 modified: '2026-07-20'
 name: Rentle
 nav: Providers
@@ -288,8 +284,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/screenshots/rentle-2026-08-17T081515.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://www.lifebiosciences.com/wp-json
@@ -76,7 +76,7 @@ apis:
   description: The Taxonomies API from Life Biosciences — 4 operation(s) for taxonomies.
   name: Life Biosciences Taxonomies API
   slug: life-biosciences-taxonomies-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +212,7 @@ common:
   url: llms/life-biosciences-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/life-biosciences-mcp.yml
 - group: agent
   title: ''
@@ -227,10 +227,6 @@ description: Life Biosciences is a Boston-based, clinical-stage biotechnology co
   press releases, pages, media and taxonomies as JSON.
 image: https://www.lifebiosciences.com/wp-content/uploads/2022/01/Life-Biosciences-Logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Life Biosciences MCP Server
-  slug: life-biosciences-mcp-server
 modified: '2026-08-04'
 name: Life Biosciences
 nav: Providers
@@ -274,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 40.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:

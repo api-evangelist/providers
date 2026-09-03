@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -396,7 +396,7 @@ apis:
   description: Vulnerability scanning operations
   name: Armor Vulnerability Scanning API
   slug: armor-vulnerability-scanning-api
-artifact_total: 147
+artifact_total: 146
 asyncapis:
 - description: ''
   name: Armor Webhooks Events
@@ -622,7 +622,7 @@ common:
   url: capabilities/armor-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/armor-mcp.yml
 - group: other
   title: ''
@@ -741,10 +741,6 @@ description: 'Armor (legal name Armor Defense Inc.) is a cybersecurity company h
   *.api.secure-prod.services (accounts, agent management, compliance and CSPM, container security, incident management, infrastructure management, log management, notifications, webhooks, the unified MDR public API, and the ARMOR-PSK and FH-AUTH authentication contracts). Armor also publishes a detailed first-party llms.txt at armor.com/llms.txt and holds SOC 2 Type II, HITRUST CSF, PCI DSS Level 1 Service Provider, ISO 27001, TX-RAMP Level 2, HIPAA and Data Privacy Framework attestations.'
 image: https://framerusercontent.com/images/iwYUUtUgg7arqxZ6LH5PMsmFouE.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Armor MCP Server
-  slug: armor-mcp-server
 modified: '2026-08-06'
 name: Armor
 nav: Providers
@@ -791,8 +787,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/screenshots/armor-2026-08-07T161726.png
 security:

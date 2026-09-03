@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Solarize meter-to-cash platform — customers, sites, meters, contracts, measurements, readings, invoices, payments, pricing, and outgoing webhooks. JSON over HTTPS, JWT bearer auth, of
   name: Solarize API
   slug: solarize-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: Outgoing webhooks deliver entity lifecycle and bill-run events to an external endpoint configured in the Solarize app (Settings > Notifications), where the endpoint URL, optional headers, and triggeri
   name: Solarize Outgoing Webhooks
@@ -119,7 +119,7 @@ common:
   url: data-model/solarize-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/solarize-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Solarize is a German energy software company offering a meter-to-cash billing platform as a software-as-a-service for utilities, municipal utilities (Stadtwerke), and energy providers. The platform converts metering data into a revenue stream through automated billing and invoicing, metering data management, monitoring and reporting, and flexible electricity-product configuration. Solarize exposes a REST API at api.solarize.energy covering customers, sites, meters, contracts, measurements, readings, invoices, payments, pricing, and outgoing webhooks, enabling open-architecture integration with ERP, CRM, and metering-operator systems.
 image: https://api-docs.solarize.energy/_next/static/media/solarize-api-docs.b9d189f5.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Solarize MCP Server
-  slug: solarize-mcp-server
 modified: '2026-07-21'
 name: Solarize
 nav: Providers
@@ -185,8 +181,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solarize/refs/heads/main/screenshots/solarize-2026-09-02T160114.png
 security:

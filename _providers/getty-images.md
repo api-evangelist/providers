@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.gettyimages.com
@@ -296,7 +296,22 @@ apis:
   description: The Videos API from Getty Images — 11 operation(s) for videos.
   name: Getty Images Videos API
   slug: getty-images-videos-api
-artifact_total: 110
+- description: The Downloads API from Getty Images — 1 operation(s) for downloads.
+  name: Getty Images Downloads API
+  slug: getty-downloads-api
+- description: The Images API from Getty Images — 2 operation(s) for images.
+  name: Getty Images Images API
+  slug: getty-images-api
+- description: The Reference API from Getty Images — 1 operation(s) for reference.
+  name: Getty Images Reference API
+  slug: getty-reference-api
+- description: The Search API from Getty Images — 4 operation(s) for search.
+  name: Getty Images Search API
+  slug: getty-search-api
+- description: The Videos API from Getty Images — 2 operation(s) for videos.
+  name: Getty Images Videos API
+  slug: getty-videos-api
+artifact_total: 115
 collections:
 - collection_type: open
   name: API Collection
@@ -486,6 +501,10 @@ common:
   title: ''
   type: Website
   url: https://www.gettyimages.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.gettyimages.com/
 created: '2024-11-13'
 description: The Getty Images API brings the best visual content straight to you and your customers, letting you integrate outstanding images, videos, and illustrations from Getty Images and iStock directly into your platform.
 finops:
@@ -498,10 +517,10 @@ modified: '2026-04-28'
 name: Getty Images
 nav: Providers
 network: true
-overview: 'Getty Images publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Ai Generator API, and 49 more. Tagged areas include Image, Media, Photos, and Videos.
+overview: 'Getty Images publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Ai Generator API, and 54 more. Tagged areas include Image, Media, Photos, and Videos.
 
 
-  Getty Images'' developer surface includes documentation and 6 more developer resources.'
+  Getty Images'' developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Getty Images Plans Pricing
   plan_count: 3
@@ -512,20 +531,20 @@ rate_limits:
   name: Getty Images Rate Limits
   slug: getty-images-rate-limits
 score:
-  band: emerging
-  composite: 23.8
+  band: thin
+  composite: 28.1
   coverage:
     artifact_dirs: 8
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.6
-    developer_ergonomics: 9.5
+    developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
@@ -536,8 +555,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:

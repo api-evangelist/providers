@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.kaedim3d.com/api/v1
@@ -56,7 +56,7 @@ apis:
   description: Register a webhook endpoint and obtain a JWT
   name: Kaedim Webhooks API
   slug: kaedim-webhooks-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: Event surface for Kaedim 3D asset generation. After registering an HTTPS endpoint via the Web API (/registerHook), Kaedim POSTs a signed webhook to that endpoint whenever a generation stage changes st
   name: Kaedim Webhooks
@@ -116,7 +116,7 @@ common:
   url: changelog/kaedim-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kaedim-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: 'Kaedim is an AI 3D asset generation company (backed by a16z) that turns 2D images — photos, sketches and concept art — into production-ready 3D models for games, e-commerce and simulation. The Enterprise Web API lets developers integrate Kaedim''s 2D-to-3D pipeline into internal modelling workflows and user-generated-content products: submit up to six images at a chosen level of quality, track generation by requestID, receive results via signed webhooks, and download models in obj, fbx, glb, gltf, mtl and usd formats. Kaedim also ships first-party plugins for Unity, Unreal, Blender, Cinema 4D and NVIDIA Omniverse. Authentication uses an X-API-Key header plus a 12-hour JWT bearer token; generation is asynchronous and completes in roughly 10-15 minutes.'
 image: https://www.kaedim3d.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kaedim MCP Server
-  slug: kaedim-mcp-server
 modified: '2026-07-19'
 name: Kaedim
 nav: Providers
@@ -234,8 +230,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/screenshots/kaedim-2026-07-25T223407.png
 security:

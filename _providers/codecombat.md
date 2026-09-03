@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://codecombat.com/api
@@ -66,7 +66,7 @@ apis:
   description: The Users API from CodeCombat — 10 operation(s) for users.
   name: CodeCombat Users API
   slug: codecombat-users-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -156,7 +156,7 @@ common:
   url: https://github.com/codecombat/codecombat-postman
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/codecombat-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: CodeCombat is a game-based computer science platform where students learn to code by playing a real programming game, writing Python or JavaScript to control heroes through levels. Its Partner API (a Fern-generated REST API at https://codecombat.com/api, secured with HTTP Basic authentication) lets learning platforms and school districts provision and manage users, create and administer classrooms, enroll students in courses, grant and shorten licenses and Home subscriptions, link OAuth2 SSO identities, manage clans, and pull playtime, license, and per-member progress statistics. CodeCombat is backed by a16z and Y Combinator and publishes official Node, Python, Java, and Go SDKs plus a Postman collection generated from its public OpenAPI description.
 image: https://avatars.githubusercontent.com/u/5795842?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: CodeCombat MCP Server
-  slug: codecombat-mcp-server
 modified: '2026-07-18'
 name: CodeCombat
 nav: Providers
@@ -237,8 +233,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/screenshots/codecombat-2026-07-25T205918.png
 security:

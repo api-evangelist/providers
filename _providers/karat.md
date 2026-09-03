@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Karat''s GraphQL API for managing technical-interview hiring workflows: query candidacies, roles, groups and users; invite candidates into assessments; and bulk-update candidacy dispositions. Hosted pe'
   name: Karat GraphQL API
   slug: karat-graphql-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -135,7 +135,7 @@ common:
   url: security/karat-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/karat-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Karat Inc. is a Seattle-based technical interviewing platform that conducts standardized software engineering interviews for enterprise hiring teams through its community of trained Interview Engineers. Karat exposes a GraphQL API, hosted per-customer at https://{subdomain}.karat.io/api/v1/graphql, that lets talent and ATS systems programmatically manage roles and groups, look up users, invite candidates into assessments, retrieve candidacy statuses, code-challenge and interview results, and bulk-update candidacy dispositions. The API uses Bearer token authentication, Relay-style cursor pagination, and ships an example Python SDK and a Postman collection. Karat is SOC 2 Type II certified and certified under the EU-US, UK-US and Swiss-US Data Privacy Frameworks.
 image: https://karat.com/wp-content/themes/karat/assets/img/png/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Karat MCP Server
-  slug: karat-mcp-server
 modified: '2026-07-19'
 name: Karat
 nav: Providers
@@ -189,8 +185,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/screenshots/karat-2026-07-25T223504.png
 security:

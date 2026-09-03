@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: HTTP RPC-style API for age gates, age verification, verifiable parental consent, k-ID sessions, and permission management. Methods take the form https://game-api.k-id.com/api/v1/{method} with bearer A
   name: k-ID API
   slug: k-id-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: K Id Webhooks
@@ -143,7 +143,7 @@ common:
   url: asyncapi/k-id-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/k-id-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes like COPPA, GDPR-Kids, the UK Age Appropriate Design Code and Online Safety Act, Brazil's ECA Digital, and Australia's minimum-age rules, while AgeKit and AgeKit+ provide privacy-preserving age assurance (facial age estimation, ID checks, credit card, AgeKey reusable credentials) and Family Connect handles verifiable parental consent. Developers integrate through the k-ID HTTP RPC API (game-api.k-id.com) using bearer API keys, hosted widget URLs, HMAC-signed webhooks, and official Agent Skills for AI coding tools.
 image: https://avatars.githubusercontent.com/kidentify
 layout: provider
-mcp_servers:
-- description: ''
-  name: k-ID MCP Server
-  slug: k-id-mcp-server
 modified: '2026-07-20'
 name: k-ID
 nav: Providers
@@ -196,8 +192,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/screenshots/k-id-2026-08-17T123933.png
 security:

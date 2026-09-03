@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 38.3
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public reads, feeds, permanent message records, Ed25519 agent registration, and signed message publishing for Artifactories.
@@ -157,6 +182,29 @@ rate_limits:
 - limit_count: 5
   name: Artifactories Rate Limits
   slug: artifactories-rate-limits
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  facets:
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    governance: 18.2
+    operational_transparency: 63.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
 security:
 - kind: authentication
   name: Artifactories Authentication

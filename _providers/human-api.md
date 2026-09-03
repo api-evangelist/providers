@@ -1,14 +1,16 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   - rate-limits
   - security
+  - '{''url'': ''https://humanapi.co/'', ''status'': 301, ''note'': ''declared website redirects to https://risk.lexisnexis.com/products/health-intelligence-ehr — a different registrable domain (humanapi.co -> lexisnexis.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 15
 apis:
 - description: The consumer-mediated Data API (legacy v2.1) for querying a user's normalized health data - wellness data from wearable devices and apps, and medical data (records, labs, medications, encounters) from
@@ -76,7 +78,7 @@ apis:
   description: API endpoints to manage users
   name: Human API Users API
   slug: human-api-users-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: Webhook notifications the Health Intelligence Platform pushes to a configured client endpoint. Notifications are delivered as JSON arrays of event objects. Enablement is per-client and arranged with a
   name: Human API HIP Notifications
@@ -168,7 +170,7 @@ common:
   url: llms/human-api-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/human-api-mcp.yml
 - group: build
   title: ''
@@ -290,10 +292,6 @@ created: '2026-07-24'
 description: Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Human API MCP Server
-  slug: human-api-mcp-server
 modified: '2026-08-15'
 name: Human API
 nav: Providers
@@ -352,8 +350,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:

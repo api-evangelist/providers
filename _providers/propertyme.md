@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ arazzos:
 - description: The maintenance work-order flow, using the v2 job-task shape for create and read and the shared v1 sub-resources for quotations, transitions and attachments. Requires activity:read and activity:write,
   name: Raise, quote, approve and complete a PropertyMe maintenance job
   slug: propertyme-maintenance-job
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: PropertyMe
@@ -221,7 +221,7 @@ common:
   url: data-model/propertyme-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/propertyme-mcp.yml
 - group: build
   title: ''
@@ -261,10 +261,6 @@ description: PropertyMe is an Australian cloud property management and trust acc
   American NAR/MLS construct with no Australian counterpart. PropertyMe publishes no open data.
 image: https://www.propertyme.com.au/wp-content/themes/PropertyMe/assets/dist/favicons/android-icon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: PropertyMe MCP Server
-  slug: propertyme-mcp-server
 modified: '2026-07-26'
 name: PropertyMe
 nav: Providers
@@ -314,8 +310,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:

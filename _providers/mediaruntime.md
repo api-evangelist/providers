@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://mediaruntime.com
@@ -129,8 +129,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediaruntime/refs/heads/main/screenshots/mediaruntime-2026-09-02T150453.png
 slug: mediaruntime

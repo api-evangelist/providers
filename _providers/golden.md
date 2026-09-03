@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Schema API API from Golden — 4 operation(s) for schema api.
   name: Golden Schema API API
   slug: golden-schema-api-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: conformance/golden-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/golden-mcp.yml
 - group: build
   title: ''
@@ -182,10 +182,6 @@ description: 'Golden is a company-data and knowledge-graph platform that builds 
   live and reachable.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Golden MCP Server
-  slug: golden-mcp-server
 modified: '2026-08-14'
 name: Golden
 nav: Providers
@@ -232,8 +228,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/screenshots/golden-2026-07-25T220025.png
 security:

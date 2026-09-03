@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:25520/v1/events
@@ -71,7 +71,7 @@ apis:
   description: The Stock API from ThetaData — 15 operation(s) for stock.
   name: ThetaData Stock API
   slug: thetadata-stock-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: JSON WebSocket streaming of US stock trade/quote, option trade/quote/full-trade, and index price/market-value streams, served locally by Theta Terminal v3. A single connection per user is permitted; a
   name: ThetaData Streaming WebSocket API (derived)
@@ -329,10 +329,6 @@ created: '2026-07-21'
 description: ThetaData is a developer-first US market data vendor founded in 2022 by Bailey Danseglio, selling real-time and historical options, stocks, indices, and interest-rates data with unfiltered tick-level trades, quotes, and Greeks. Delivery is self-serve via the Theta Terminal, a local Java application that authenticates with an API key or account credentials and exposes a local REST API (127.0.0.1:25503/v3), a WebSocket streaming API (127.0.0.1:25520), and an MCP server, backed by a published OpenAPI 3.1 spec, Python library, flat files, and tiered monthly subscriptions.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thetadata.png
 layout: provider
-mcp_servers:
-- description: ThetaData ships an official MCP (Model Context Protocol) server built into Theta Terminal v3, exposing the full v3 market-data API to LLM CLIs (documented for Claude CLI and Gemini CLI) over SSE at ht
-  name: ThetaData MCP Server
-  slug: thetadata-mcp-server
 modified: '2026-07-22'
 name: ThetaData
 nav: Providers
@@ -387,8 +383,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

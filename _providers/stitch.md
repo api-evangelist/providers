@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,7 +72,10 @@ apis:
   description: Payment initiation and management.
   name: Stitch Payments API
   slug: stitch-payments-api
-artifact_total: 47
+- description: The GraphQL API from Stitch — 1 operation(s) for graphql.
+  name: Stitch GraphQL API
+  slug: stitch-money-graphql-api
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -137,6 +140,14 @@ common:
   title: ''
   type: Blog
   url: https://stitch.money/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Stitch-Money
+- group: company
+  title: ''
+  type: Blog
+  url: https://stitch.money/blog/rss.xml
 created: '2026-03-27'
 description: Stitch is an open banking and payments API platform providing unified access to financial data and payment rails across banks and financial institutions in Africa, primarily South Africa and Nigeria. Stitch enables businesses to accept payments via multiple channels, access bank account data, and issue disbursements through a single GraphQL API.
 examples:
@@ -212,13 +223,13 @@ modified: '2026-05-19'
 name: Stitch
 nav: Providers
 network: true
-overview: 'Stitch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Payments API. Tagged areas include Africa, Financial Data, Open Banking, Payments, and Unified-API.
+overview: 'Stitch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Payments API, and GraphQL API. Tagged areas include Africa, Financial Data, Open Banking, Payments, and Unified-API.
 
 
   The Stitch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stitch''s developer surface includes authentication, documentation, signup flow, engineering blog, and 7 more developer resources.'
+  Stitch''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
 plans:
 - name: Stitch Plans Pricing
   plan_count: 3
@@ -251,20 +262,20 @@ rules:
     warn: 2
   slug: stitch-rules
 score:
-  band: thin
-  composite: 37.6
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 17
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 63.9
-    developer_ergonomics: 23.8
+    developer_ergonomics: 35.7
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 23.7
@@ -282,8 +293,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/screenshots/stitch-2026-06-20T194553.png
 security:

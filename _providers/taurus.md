@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API for institutional custody (Taurus-PROTECT) and tokenization / digital asset issuance (Taurus-CAPITAL). Bearer + HMAC request signing, versioned under /api/rest/v1/, cursor-based pagination, g
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/screenshots/taurus-2026-09-02T162612.png
 security:

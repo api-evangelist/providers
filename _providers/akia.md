@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -214,8 +214,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/screenshots/akia-2026-08-07T161133.png
 security:

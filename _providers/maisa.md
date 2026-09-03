@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Maisa''s developer REST API. Key-authenticated (X-API-Key), base URL https://api.maisa.ai, all operations under /v1. Surfaces: capabilities (compare/extract/summarize over text and media), models (embe'
   name: Maisa API
   slug: maisa-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -75,7 +75,7 @@ common:
   url: errors/maisa-problem-types.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/maisa-mcp.yml
 - group: docs
   title: ''
@@ -118,10 +118,6 @@ description: Maisa is an enterprise agentic-AI company whose platform, Maisa Stu
   first-party Python and Node SDKs both named "maisa"; the Maisa Studio product and the docs portal (docs.maisa.ai) sit behind an AWS Cognito login. Backed by Creandum and ForgePoint, Maisa has raised a $25M seed round and been named a Gartner front-runner in agentic AI. This profile was enriched from Maisa's public marketing surface, llms.txt, and the official open-source SDK repositories.
 image: https://maisa.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: No official hosted or published Maisa MCP server was found (searched the docs, the maisaai GitHub org, and the MCP servers registry as of 2026-07-20). This is a DERIVED candidate tool list, one tool p
-  name: Maisa MCP Server
-  slug: maisa-mcp-server
 modified: '2026-07-20T12:00:00Z'
 name: Maisa
 nav: Providers
@@ -158,8 +154,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/screenshots/maisa-2026-07-25T225927.png
 security:

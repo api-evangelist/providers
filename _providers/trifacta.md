@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for Designer Cloud powered by Trifacta, exposing flows, wrangled recipes, imported/output datasets, jobs (jobGroups), connections, and deployment resources across the Google Cloud Dataprep, D
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 19.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trifacta/refs/heads/main/screenshots/trifacta-2026-09-02T164228.png
 security:

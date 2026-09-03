@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://action.parabol.co/graphql
@@ -41,7 +41,7 @@ apis:
   description: Public GraphQL API for Parabol. Authenticated with scoped Personal Access Tokens passed as a Bearer token. A single root `viewer` query returns the authenticated user and their teams, meetings, tasks,
   name: Parabol GraphQL API
   slug: parabol-graphql-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: Real-time event streams exposed by the Parabol GraphQL API via the Subscription root type, delivered over the graphql-ws WebSocket protocol. Requires a scoped Personal Access Token.
   name: Parabol GraphQL Subscriptions
@@ -157,7 +157,7 @@ common:
   url: packages/parabol-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parabol-mcp.yml
 - group: agent
   title: ''
@@ -175,10 +175,6 @@ created: '2026-07-17'
 description: Parabol is an open-source collaborative workspace that helps teams run more effective, inclusive, and engaging meetings — retrospectives, sprint poker estimation, check-ins/standups, and collaborative Pages documents — all in real time. Parabol exposes a public GraphQL API at action.parabol.co/graphql authenticated with scoped Personal Access Tokens (Bearer), letting developers and AI agents start meetings, create reflections and tasks, read team and organization data, and subscribe to live meeting events. The platform is dual-licensed AGPLv3, self-hostable for air-gapped deployments, and integrates with Jira, GitHub, GitLab, Linear, Azure DevOps, Slack, and Mattermost.
 image: https://action-files.parabol.co/production/build/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parabol MCP Server
-  slug: parabol-mcp-server
 modified: '2026-07-20'
 name: Parabol
 nav: Providers
@@ -219,8 +215,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parabol/refs/heads/main/screenshots/parabol-2026-08-07T191355.png
 security:

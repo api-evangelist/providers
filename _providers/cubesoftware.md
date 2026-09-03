@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -253,7 +253,7 @@ apis:
   description: The Workflow API from Cube — 5 operation(s) for workflow.
   name: Cube Workflow API
   slug: cubesoftware-workflow-api
-artifact_total: 91
+artifact_total: 90
 collections:
 - collection_type: open
   name: API Collection
@@ -467,7 +467,7 @@ common:
   url: well-known/cubesoftware-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cubesoftware-mcp.yml
 - group: agent
   title: ''
@@ -517,10 +517,6 @@ created: '2026-07-17'
 description: Cube is an AI-powered financial planning and analysis (FP&A) platform for finance teams. It connects a company's source systems and spreadsheets into a single financial data model, letting teams budget, forecast, run scenario and what-if analysis, and report from the comfort of Excel and Google Sheets. The Cube API (OAuth 2.0, 296 operations across data tables, dimensions, formulas, exports, and company administration) exposes the same functionality that powers Cube's universal spreadsheet add-ons and integrations, so teams can push and pull their financial data programmatically. Cube is SOC 2 Type II certified and GDPR-compliant, built on AWS.
 image: https://8159624.fs1.hubspotusercontent-na1.net/hubfs/8159624/Cube%20website%20-%202024/Logos/cube-logo-navy.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cube MCP Server
-  slug: cube-mcp-server
 modified: '2026-07-18'
 name: Cube
 nav: Providers
@@ -564,8 +560,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/screenshots/cubesoftware-2026-07-25T210859.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Token Gating API from Bitski — 3 operation(s) for token gating.
   name: Bitski Token Gating API
   slug: bitski-token-gating-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Bitski Activity Webhooks
@@ -195,7 +195,7 @@ common:
   url: asyncapi/bitski-activity-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bitski-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: Bitski is a Web3 wallet-as-a-service (WaaS) and NFT infrastructure provider that lets developers embed secure, hardware-backed crypto wallets and onboarding into web and mobile applications without users installing an extension. Its platform spans OAuth2/OIDC authentication, wallet creation (account-abstraction, hardware-backed, on-chain multi-sig, and seed-phrase import), and a suite of NFT Service APIs for minting, commerce (credit card, ACH, and crypto checkout), token gating, droplinks, auctions, and wallet experience data (balances, activity, portfolio, floor prices). Bitski publishes REST OpenAPI specs served from api.bitski.com, JavaScript/React and iOS SDKs, activity webhooks, and node infrastructure for EVM chains. Backed by a16z and Kindred Ventures.
 image: https://cdn.bitskistatic.com/images/favicons/favicon-2f714ec5ebed6f2ec47661e04dd1322b.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bitski MCP Server
-  slug: bitski-mcp-server
 modified: '2026-07-18'
 name: Bitski
 nav: Providers
@@ -277,8 +273,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/screenshots/bitski-2026-08-17T122909.png
 security:

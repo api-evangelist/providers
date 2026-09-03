@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ arazzos:
 - description: Authenticate, refund a previously captured payment, and confirm via events.
   name: Nopan — refund a captured payment
   slug: nopan-refund-payment
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Nopan Webhooks
@@ -166,7 +166,7 @@ common:
   url: data-model/nopan-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nopan-mcp.yml
 - group: other
   title: ''
@@ -224,10 +224,6 @@ created: '2026-07-17'
 description: Nopan is a specialized Payment Service Provider (PSP), built by former merchants and Netflix payments leaders, focused exclusively on European account and wallet payment methods (Wero, BLIK, Bizum, Satispay, IRIS). It exposes a single standardized API for account-to-account (A2A) and wallet payments with conversion-optimized flows, PSP-agnostic tokenization for recurring and merchant-initiated payments, a multi-currency settlement and reconciliation engine, normalized transaction data, and a real-time monitoring Portal. Authentication is OAuth2 client_credentials over mutual TLS with JWS request signing. Nopan is licensed as a Payment Institution by De Nederlandsche Bank (DNB) and is PSD2/SCA compliant. Backed by Newion, Crane, and Seedcamp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nopan.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived one-to-one from the Nopan OpenAPI operations. Nopan publishes an "AI Skills" guide (https://docs.nopan.com/guides/ai-skills) but no hosted/remote MCP server was foun
-  name: Nopan MCP Server
-  slug: nopan-mcp-server
 modified: '2026-07-20'
 name: Nopan
 nav: Providers
@@ -284,8 +280,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/screenshots/nopan-2026-08-07T185510.png
 security:

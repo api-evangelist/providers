@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 30
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol server that lets AI assistants build campaign drafts, author content, create and count segments, read and analyze flows, browse dashboards, search campaign
@@ -721,8 +721,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Public OAI-PMH 2.0 endpoint for CityUHK Scholars, the university's research information system and institutional repository. The Identify verb returns repositoryName "CityUHK Scholars" with records fr
@@ -166,8 +166,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/screenshots/cityu-2026-06-20T174434.png
 security:

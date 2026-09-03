@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -208,7 +208,7 @@ apis:
   description: Get information on the web api supported on this instance.
   name: SonarSource webservices API
   slug: sonarsource-webservices-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -419,7 +419,7 @@ common:
   url: well-known/sonarsource-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sonarsource-mcp.yml
 - group: design
   title: ''
@@ -445,10 +445,6 @@ created: '2026-07-17'
 description: SonarSource (Sonar) builds the industry-standard tooling for code quality and code security, trusted by large engineering organizations to keep code Clean. Its product line spans SonarQube Cloud (formerly SonarCloud, the hosted SaaS analysis service), SonarQube Server (self-managed), SonarQube for IDE (formerly SonarLint), and the SonarQube Community Build. SonarQube Cloud exposes a REST Web API for programmatically managing projects, issues, quality gates, quality profiles, rules, measures, hotspots, permissions, webhooks, and user tokens, plus a family of first-party scanners (npm, PyPI, Maven, Gradle, .NET, and Docker) for wiring analysis into CI/CD pipelines.
 image: https://avatars.githubusercontent.com/u/545988?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: SonarSource MCP Server
-  slug: sonarsource-mcp-server
 modified: '2026-07-21'
 name: SonarSource
 nav: Providers
@@ -487,8 +483,8 @@ score:
       total: 34
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/screenshots/sonarsource-2026-08-17T082000.png
 security:

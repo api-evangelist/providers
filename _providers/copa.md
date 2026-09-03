@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: The copa command line interface used to patch container images. The core subcommand `copa patch` accepts an image reference and an optional vulnerability report and produces a new tagged image with OS
@@ -113,14 +113,14 @@ rate_limits:
   name: Copa Rate Limits
   slug: copa-rate-limits
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 19.2
   coverage:
     artifact_dirs: 4
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -130,13 +130,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 27.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/copa/refs/heads/main/screenshots/copa-2026-06-20T175009.png
 slug: copa
 tags:

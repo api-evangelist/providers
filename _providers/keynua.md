@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for creating contracts, sending them to signers over WhatsApp/SMS/email, running biometric identity verification, generating documents from templates, sending and verifying OTPs, and register
   name: Keynua API
   slug: keynua-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Keynua Webhooks
@@ -119,7 +119,7 @@ common:
   url: asyncapi/keynua-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/keynua-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Keynua is a Latin American digital identity and electronic signature platform that lets businesses design signing flows combining video, drawn, OTP, and digital signatures with biometric identity verification — liveness detection, facial matching, 3D and selfie identification, and geopositioning. Its REST API covers contracts, document templates, identity verification, OTP, and Deceval promissory notes, delivering requests to signers over WhatsApp, SMS, or email and emitting webhooks for asynchronous processing events. It supports 20+ Latin American identity documents across 20 countries and serves financial services, real estate, human resources, commercial contracts, and sports betting.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keynua.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server derived from the documented Keynua REST operations. Keynua does not publish an official hosted MCP server; this is a proposed tool surface (one tool per documented operation) as a
-  name: Keynua MCP Server
-  slug: keynua-mcp-server
 modified: '2026-07-19'
 name: Keynua
 nav: Providers
@@ -179,8 +175,8 @@ score:
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keynua/refs/heads/main/screenshots/keynua-2026-07-25T223656.png
 security:

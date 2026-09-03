@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -63,7 +63,7 @@ apis:
   description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
   name: Knostic skills API
   slug: knostic-skills-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -83,7 +83,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/knostic-mcp.yml
 - group: other
   title: ''
@@ -219,10 +219,6 @@ examples:
   slug: knostic-list-skills-response
 image: https://www.knostic.ai/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Knostic MCP Server
-  slug: knostic-mcp-server
 modified: '2026-07-19'
 name: Knostic
 nav: Providers
@@ -265,8 +261,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:

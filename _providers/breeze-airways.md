@@ -36,17 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Breeze Airways NDC gateway is the airline's direct-connect distribution API for accredited travel partners. It speaks IATA Offers and Orders (NDC) 21.3 XML over HTTPS on a Navitaire-hosted gateway
   name: Breeze Airways NDC Gateway
   slug: breeze-airways-ndc-gateway
-artifact_total: 5
+artifact_total: 4
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/breeze-airways-mcp.yml
 - group: company
   title: ''
@@ -152,10 +152,6 @@ created: '2026-08-01'
 description: Breeze Airways (Breeze Aviation Group, Inc.) is an American low-cost point-to-point airline headquartered in Cottonwood Heights, Utah, founded by David Neeleman and flying since May 2021. Its distribution technology surface is a partner-facing IATA NDC gateway, documented at the Breeze B2B portal (ndc.flybreeze.com), which exposes IATA Offers and Orders 21.3 XML messages — AirlineProfile, AirShopping, OfferPrice, ServiceList, SeatAvailability and OrderCreate for shopping and selling, plus OrderRetrieve, OrderQuote, OrderReshop and OrderChange for servicing — over a Navitaire-hosted, IP-allowlisted gateway secured with a per-partner Azure API Management subscription key and a 30-minute session bearer token. Access is limited to accredited travel-agency partners (OTA, TMC and US federal government) with an IATA/ARC number and an executed commercial agreement; Breeze also distributes over Amadeus and Travelport GDS and via the TravelPro agent booking portal.
 image: https://ndc.flybreeze.com/img/breeze-b2b-social-card.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Breeze Airways MCP Server
-  slug: breeze-airways-mcp-server
 modified: '2026-08-01'
 name: Breeze Airways
 nav: Providers
@@ -193,8 +189,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/screenshots/breeze-airways-2026-08-07T162755.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Create, read, update, and delete recipes with nutrition analysis.
   name: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: data-model/nutrical-solution-ltd-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nutrical-solution-ltd-mcp.yml
 - group: start
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: NutriCal (Nutrical Solution Ltd) is the GCC's food nutrition and intelligence platform, offering the region's first Saudi FDA / GCC-compliant food-label and calorie-analysis software. Its SaaS lets restaurants, cafes, hotels, food manufacturers, bakeries, catering companies, nutrition centres, and meal-plan businesses register products, generate bilingual (English/Arabic) nutrition and ingredient labels, manage and cost recipes, run nutrition analysis, and build customer meal plans against an ingredient database of 40,000+ foods sourced from USDA data and NutriCal's proprietary local database. NutriCal also exposes a Food & Nutrition API so apps, programs, and websites can search ingredients, create and analyze recipes, manage recipe categories, build meal plans, and read nutrient and allergen metadata. Backed by 500 Global.
 image: https://www.nutrical.co/common/OpenGraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nutrical Solution Ltd MCP Server
-  slug: nutrical-solution-ltd-mcp-server
 modified: '2026-07-20'
 name: Nutrical Solution Ltd
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:

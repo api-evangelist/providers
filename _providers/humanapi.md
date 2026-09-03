@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The users API from HumanAPI — 4 operation(s) for users.
   name: HumanAPI users API
   slug: humanapi-users-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Humanapi Notifications Webhooks
@@ -171,7 +171,7 @@ common:
   url: well-known/humanapi-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/humanapi-mcp.yml
 - group: auth
   title: ''
@@ -217,10 +217,6 @@ created: '2026-07-17'
 description: Human API is a health-intelligence platform that provides real-time, programmatic access to structured digital health and medical data aggregated from providers, labs, pharmacies, devices and wellness apps. Its Admin API lets enterprises (notably life-insurance underwriting) create users, submit data-retrieval orders, connect a member's health-data sources, and fetch generated individual and combined reports, with webhook notifications on order completion. Authentication is a bearer JWT obtained from client-credentials token endpoints. Human API was founded in 2013, backed by a16z, and acquired by LexisNexis Risk Solutions in 2021.
 image: https://github.com/humanapi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HumanAPI MCP Server
-  slug: humanapi-mcp-server
 modified: '2026-07-19'
 name: HumanAPI
 nav: Providers
@@ -268,8 +264,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

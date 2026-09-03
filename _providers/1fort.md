@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -489,7 +489,7 @@ apis:
   description: '**Access:** requires a JWT access token.'
   name: '1Fort user: default-access-role API'
   slug: 1fort-user-default-access-role-api
-artifact_total: 187
+artifact_total: 186
 asyncapis:
 - description: ''
   name: 1Fort Webhooks
@@ -772,7 +772,7 @@ common:
   url: capabilities/1fort-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/1fort-mcp.yml
 - group: other
   title: ''
@@ -918,10 +918,6 @@ created: '2026-08-05'
 description: 1Fort is a New York City based insurtech platform that automates the commercial insurance workflow for brokers and agencies. Its AI "copilot" autofills submissions across 300+ coverages, quotes direct and wholesale markets, generates white-labeled proposals with side-by-side coverage comparisons and cross-sell recommendations, then processes binders, invoicing, premium finance, payments and payables through to ongoing policy servicing. Coverage lines span cyber, technology errors and omissions, professional liability, management liability, general liability and workers compensation. The platform runs on AWS, holds SOC 2 Type II, HIPAA and CCPA attestations, and exposes a large REST API at api.1fort.com whose Swagger 2.0 definition is published publicly at /api-docs — 574 operations across broker, application, quote, market, billing, checkout, storefront and Email AI Agent surfaces, plus inbound webhook receivers for Stripe, Ascend, Herald, Gmail and Office 365.
 image: https://1fort.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: 1Fort MCP Server
-  slug: 1fort-mcp-server
 modified: '2026-08-05'
 name: 1Fort
 nav: Providers
@@ -973,8 +969,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Programmatic TypeScript / JavaScript API for building VS Code extensions. The Extension API exposes editor UI, language features, debugging adapters, themes, webviews, source control providers, tasks,
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visual-studio-code/refs/heads/main/screenshots/visual-studio-code-2026-06-20T201102.png
 security:

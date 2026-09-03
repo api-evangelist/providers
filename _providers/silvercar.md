@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://silvercar.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.dealerware.com/ — a different registrable domain (silvercar.com -> dealerware.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Versioned (mob-api-v4) REST API for Dealerware fleet-management and courtesy/loaner mobility workflows: contracts, reservations, contactless check-in, customers, drivers, employees, dealerships, fleet'
@@ -144,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 11.8
   previous_composite: 30.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silvercar/refs/heads/main/screenshots/silvercar-2026-09-02T155508.png
 security:

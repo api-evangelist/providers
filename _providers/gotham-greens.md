@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its JSON-LD schema graph for any gothamgreens.com URL.
   name: Gotham Greens SEO Metadata API
   slug: gotham-greens-seo-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: Gotham Greens Discovery API
@@ -116,7 +116,7 @@ common:
   url: capabilities/gotham-greens-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gotham-greens-mcp.yml
 - group: agent
   title: ''
@@ -231,10 +231,6 @@ description: Gotham Greens is an American fresh food and indoor farming company 
   website at gothamgreens.com, captured here for discovery purposes.
 image: https://www.gothamgreens.com/wp-content/uploads/2019/10/android-chrome-256x256-200x200.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gotham Greens MCP Server
-  slug: gotham-greens-mcp-server
 modified: '2026-08-01'
 name: Gotham Greens
 nav: Providers
@@ -273,8 +269,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png
 security:

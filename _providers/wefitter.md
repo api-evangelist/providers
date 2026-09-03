@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
   name: WeFitter token API
   slug: wefitter-token-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Wefitter Webhooks
@@ -191,7 +191,7 @@ common:
   url: packages/wefitter-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wefitter-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: WeFitter is a health and fitness data platform ("one API to access wearable data, gamification and AI") operated by Thunderbyte.AI in Groningen, Netherlands. Its REST API aggregates health and activity data from 300+ wearables and fitness apps — Fitbit, Garmin, Google Fit, Apple Health, Withings, Polar, Oura, Whoop, Samsung Health, Huawei and more — into a single unified, deduplicated data model, and layers gamification (challenges, leaderboards, teams, points) and AI insights (biological age, recommendations) on top. Organizations use it to build corporate wellbeing, digital fitness, e-health and insurance solutions. WeFitter also ships mobile SDK bridges for Apple Health, Samsung Health and Android Health Connect.
 image: https://www.wefitter.com/static/frontend/img/website/wefitter.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: WeFitter MCP Server
-  slug: wefitter-mcp-server
 modified: '2026-07-21'
 name: WeFitter
 nav: Providers
@@ -308,8 +304,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/screenshots/wefitter-2026-08-17T082909.png
 security:

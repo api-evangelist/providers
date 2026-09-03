@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -73,7 +73,7 @@ apis:
   description: Direct server-to-server card and wallet transactions (remote.json).
   name: Telr Remote API
   slug: telr-remote-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Telr Webhooks
@@ -173,7 +173,7 @@ common:
   url: llms/telr-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/telr-mcp.yml
 - group: other
   title: ''
@@ -263,10 +263,6 @@ finops:
   slug: telr-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telr.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Telr MCP Server
-  slug: telr-mcp-server
 modified: '2026-07-18'
 name: Telr
 nav: Providers
@@ -326,8 +322,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/screenshots/telr-2026-08-17T082306.png
 security:

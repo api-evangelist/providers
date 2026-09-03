@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - rate-limits
   - security
   trial: false
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Simbe's cloud platform API, which feeds Tally-captured shelf, inventory, pricing and out-of-stock data into a retailer's existing systems. Its existence is confirmed by Simbe's own public status page,
@@ -155,8 +156,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 15.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/screenshots/simbe-robotics-2026-09-02T155523.png
 security:

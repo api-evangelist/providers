@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 11
@@ -212,7 +212,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -222,7 +222,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 53.1
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tttech/refs/heads/main/screenshots/tttech-2026-09-02T164452.png
 security:

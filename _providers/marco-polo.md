@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that connects governed enterprise data sources into a sandboxed agent workspace. OAuth 2.0 (WorkOS AuthKit) protected; requires a bearer token.
@@ -153,8 +153,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marco-polo/refs/heads/main/screenshots/marco-polo-2026-07-25T230151.png
 security:

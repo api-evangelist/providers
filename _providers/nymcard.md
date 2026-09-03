@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful card-issuing and payments platform API for users, cards, card products, accounts, funding/transfers, limits, transactions and webhooks.
   name: nCore API
   slug: ncore-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Nymcard Webhooks
@@ -131,7 +131,7 @@ common:
   url: sandbox/nymcard-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nymcard-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: NymCard is a MENA-based, full-stack payments infrastructure provider whose nCore platform gives banks, fintechs and enterprises RESTful APIs to launch and manage card programs. nCore covers card issuing (virtual, physical, prepaid, debit, credit and tokenized cards), user KYC/KYB onboarding, funding and transfers, product management (balance and velocity limits, fees, MCC authorization controls), the full transaction lifecycle, 3D Secure, PCI-compliant PAN handling, webhooks and embedded lending. The platform is PCI DSS Level 1 certified and NymCard is a principal member of both Visa and Mastercard, with offices in London and Dubai. Backed by QED Investors.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nymcard.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nymcard MCP Server
-  slug: nymcard-mcp-server
 modified: '2026-07-20'
 name: Nymcard
 nav: Providers
@@ -202,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nymcard/refs/heads/main/screenshots/nymcard-2026-08-07T185835.png
 security:

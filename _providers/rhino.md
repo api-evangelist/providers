@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: The Webhooks API from Rhino — 5 operation(s) for webhooks.
   name: Rhino Webhooks API
   slug: rhino-webhooks-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Rhino Webhooks
@@ -211,7 +211,7 @@ common:
   url: security/rhino-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rhino-mcp.yml
 - group: agent
   title: ''
@@ -229,10 +229,6 @@ created: '2026-08-02'
 description: Rhino (SayRhino) is a New York based insurtech that replaces the traditional cash security deposit with low-cost security deposit insurance, alongside cash deposit management, renters insurance and a renter guarantee product. Founded in 2017 and now operating alongside Jetty, Rhino sells through property owners and managers across the United States and integrates with the major property management systems including Yardi, RealPage, Entrata, Rent Manager, MRI and Salesforce. Its public machine-readable surface is the SayRhino Partner API (v2) — an OAuth 2.0 client-credentials REST API, documented with a live OpenAPI 3.0.3 definition and a Redoc reference, for creating and updating insurance prospects, reading eligibility offers and coverage, and managing webhook endpoints and deliveries across fifteen prospect, policy, policy-application and delinquency events.
 image: https://www.sayrhino.com/assets/rhino_favicon_website_144x144-b7265da417b6731f322eeccf89a6313a3387099dd046a807b4cabe32db0d228e.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rhino MCP Server
-  slug: rhino-mcp-server
 modified: '2026-08-02'
 name: Rhino
 nav: Providers
@@ -280,8 +276,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/screenshots/rhino-2026-08-17T081558.png
 security:

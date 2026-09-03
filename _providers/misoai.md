@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.askmiso.com
@@ -86,7 +86,7 @@ apis:
   description: APIs for recommending products and content to users based on their interests.
   name: miso.ai User Recommendations API
   slug: misoai-user-recommendations-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -208,7 +208,7 @@ common:
   url: llms/misoai-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/misoai-mcp.yml
 - group: design
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: Miso (Miso Technologies, askmiso.com) is an AI personalization, search, and answers platform for publishers, media companies, and retailers. Miso trains machine-learning "Engines" on three data sets a site already has — its log of historical and real-time user interactions, its catalog of products/content, and its users — and exposes the output as REST APIs for personalized semantic search, typo-tolerant autocomplete, product and user recommendations, and an LLM-grounded Q&A / "Answers" experience that answers questions using only the customer's own content (reducing hallucination). The platform ships JavaScript (client + server), Python, and PHP SDKs, a WordPress plugin, embeddable Ask / Explore / Hybrid Search web modules, and the Dojo console for training engines and managing API keys and environments.
 image: https://miso.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: miso.ai MCP Server
-  slug: misoai-mcp-server
 modified: '2026-07-20'
 name: miso.ai
 nav: Providers
@@ -287,8 +283,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/screenshots/misoai-2026-08-07T183747.png
 security:

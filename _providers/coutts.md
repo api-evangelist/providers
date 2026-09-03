@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ apis:
   description: The Transactions API from Coutts — 2 operation(s) for transactions.
   name: Coutts Transactions API
   slug: coutts-transactions-api
-artifact_total: 35
+artifact_total: 34
 common:
 - group: other
   title: ''
@@ -311,7 +311,7 @@ common:
   url: data-model/coutts-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coutts-mcp.yml
 - group: agent
   title: ''
@@ -330,10 +330,6 @@ description: Coutts & Co is a British private bank and wealth manager founded in
   additionally publishes OBIE Open Data reference information for its commercial/business current accounts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coutts MCP Server
-  slug: coutts-mcp-server
 modified: '2026-07-23'
 name: Coutts
 nav: Providers
@@ -383,8 +379,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/screenshots/coutts-2026-07-25T210525.png
 security:

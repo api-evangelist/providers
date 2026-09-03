@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://kotak.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.kotak.bank.in/en/home.html — a different registrable domain (kotak.com -> bank.in), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Kotak Mahindra Bank enterprise open-banking API platform. A curated corporate banking API stack of 39 published API products across six categories — Account Services, Payment Services, Collection '
@@ -174,8 +175,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/screenshots/kotak-2026-07-25T224245.png
 security:

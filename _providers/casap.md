@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Disputes API from Casap — 4 operation(s) for disputes.
   name: Casap Disputes API
   slug: casap-disputes-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -95,7 +95,7 @@ common:
   url: conformance/casap-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/casap-mcp.yml
 - group: design
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: Casap is an award-winning agentic-AI dispute automation platform for banks, credit unions, and fintechs. It automates payment dispute (chargeback) intake, investigation, and resolution end to end, reducing operational cost and manual work while improving regulatory compliance and consumer satisfaction. The Casap REST API lets financial institutions programmatically create disputes, check dispute status, upload evidence files, and reopen disputes, backed by a hosted disputes dashboard, PCI-DSS and SOC 2 (AICPA) controls, and integrations with card networks (Visa, Mastercard) and core banking systems (Symitar/Jack Henry, STAR). Casap won Best of Show at FinovateFall 2025.
 image: https://cdn.prod.website-files.com/6670a4d559962296d4e052c9/669eb1e52506764a3f5fbef6_Casap%20Website%20Group%2018.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Casap MCP Server
-  slug: casap-mcp-server
 modified: '2026-07-18'
 name: Casap
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

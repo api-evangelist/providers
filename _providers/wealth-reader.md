@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 32.8
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Reads normalised financial data from an institution on behalf of a consenting end user. Read-only: it never initiates payments.'
@@ -190,6 +215,46 @@ rate_limits:
 - limit_count: 2
   name: Wealth Reader Rate Limits
   slug: wealth-reader-rate-limits
+score:
+  band: strong
+  composite: 62.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  facets:
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 60.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 50.6
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
 security:
 - kind: authentication
   name: Wealth Reader Authentication

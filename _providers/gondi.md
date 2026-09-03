@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The off-chain Gondi GraphQL API (api.gondi.xyz/graphql) is the order/offer book and indexing layer behind the Gondi NFT lending protocol. It exposes 76 queries and 48 mutations across 325 types: Sign-'
   name: Gondi GraphQL API
   slug: gondi-graphql
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -103,7 +103,7 @@ common:
   url: llms/gondi-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gondi-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ graphqls:
   slug: gondi-graphql
 image: https://cdn.gondi.xyz/site/og/og-image-gondi-v4.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gondi MCP Server
-  slug: gondi-mcp-server
 modified: '2026-07-19'
 name: Gondi
 nav: Providers
@@ -189,8 +185,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/screenshots/gondi-2026-07-25T220037.png
 security:

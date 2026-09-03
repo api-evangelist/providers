@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -24,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-09-02'
+  score: 29.9
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -123,7 +126,7 @@ apis:
   description: The Suggested Questions API from Siro — 1 operation(s) for suggested questions.
   name: Siro Suggested Questions API
   slug: siro-suggested-questions-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +242,7 @@ common:
   url: conformance/siro-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/siro-mcp.yml
 - group: agent
   title: ''
@@ -285,10 +288,6 @@ created: '2026-07-17'
 description: 'Siro is an AI sales coaching platform for in-person and field sales teams. Reps record their live sales conversations from the Siro mobile app, and Siro transcribes each conversation, surfaces coaching insights, generates scorecards and summaries, and extracts structured fields (budget, objections, decision makers, timelines) that are pushed back into the team''s CRM. Siro publishes a documented REST API and webhook surface that enables fully bidirectional, custom CRM integrations: syncing appointments/engagements, opportunities and accounts into Siro, matching recordings to CRM entities, and pulling recording details, summaries, entity extractions and coaching scorecards back out. The platform ships prebuilt integrations for Salesforce, HubSpot, Microsoft Dynamics, Pipedrive, Zoho, SalesRabbit, Leap SalesPro, Hatch, CompanyCam and a range of dealership DMS and home-services tools. Siro is backed by CRV and Index Ventures.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siro.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Starter Kit
-  slug: starter-kit
 modified: '2026-08-13'
 name: Siro
 nav: Providers
@@ -314,7 +313,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -324,7 +323,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 50.6
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,8 +334,8 @@ score:
       total: 16
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/screenshots/siro-2026-08-17T081908.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Stockholm University operates its own Shibboleth Identity Provider and publishes its SAML 2.0 entity metadata anonymously on its registrable domain. The document declares entityID https://idp.it.su.se
@@ -217,7 +217,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -227,7 +227,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 24.9
+  previous_composite: 24.0
   provenance:
     conformance: first-party
   regulatory:
@@ -236,8 +236,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/screenshots/stockholm-2026-06-20T194559.png
 security:

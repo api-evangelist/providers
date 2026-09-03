@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -778,7 +778,7 @@ apis:
   description: The Verify a Partner's FInancial Resources API from MTN Group — 1 operation(s) for verify a partner's financial resources.
   name: MTN Group Verify a Partner's FInancial Resources API
   slug: mtn-group-verify-a-partner-s-financial-resources-api
-artifact_total: 261
+artifact_total: 260
 asyncapis:
 - description: ''
   name: Mtn Group Webhooks
@@ -1692,7 +1692,7 @@ common:
   url: packages/mtn-group-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mtn-group-mcp.yml
 - group: build
   title: ''
@@ -1775,10 +1775,6 @@ description: 'MTN Group is Africa''s largest mobile network operator, headquarte
   — it announced Number Verification and SIM Swap with Cell C and Telkom in February 2024 — but nothing in its published catalogue is CAMARA-shaped: its SIM Swap and Device Swap APIs are MTN-proprietary designs secured with OAuth2 client-credentials rather than the CAMARA OIDC/CIBA profile, and no CAMARA API is callable from either portal. MTN is not an Aduna shareholder. Sandbox access is self-serve; production access is vetted and commercially negotiated.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: MTN Group MCP Server
-  slug: mtn-group-mcp-server
 modified: '2026-07-25'
 name: MTN Group
 nav: Providers
@@ -1831,8 +1827,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png
 security:

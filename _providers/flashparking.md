@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The nine partner APIs Flash publishes for Flash PARCS and Flash Valet: eParking (inject and manage parking reservations), Locations (real-time occupancy, garage status and active pricing), Monthly (mo'
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png
 security:

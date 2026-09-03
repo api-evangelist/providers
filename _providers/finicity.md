@@ -9,6 +9,7 @@ access_model:
   - authentication
   - security
   - sandbox
+  - '{''url'': ''https://www.finicity.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.mastercard.com/us/en/business/open-finance.html — a different registrable domain (finicity.com -> mastercard.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Hosted, embeddable account-linking experience that lets a consumer authenticate to their financial institution and permission data sharing, returning the linked accounts to the partner application.
@@ -231,7 +232,7 @@ apis:
   description: APIs for Managing Partner Webhook Event Subscriptions
   name: Finicity Webhook Subscription API
   slug: finicity-webhook-subscription-api
-artifact_total: 45
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Finicity Webhooks
@@ -267,7 +268,7 @@ common:
   url: well-known/finicity-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/finicity-mcp.yml
 - group: agent
   title: ''
@@ -366,10 +367,6 @@ description: Finicity, LLC is a Utah-based financial-data aggregator and open-fi
   is openly reachable, but the full API reference and any machine-readable OpenAPI specification are partner-gated behind Mastercard Developers credentials.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Finicity MCP Server
-  slug: finicity-mcp-server
 modified: '2026-07-23'
 name: Finicity
 nav: Providers
@@ -420,8 +417,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - baseURL: https://api-lg.arms.cedarai.com
@@ -81,7 +81,7 @@ apis:
   description: The WorkOrderService API from Cedarai — 10 operation(s) for workorderservice.
   name: Cedarai WorkOrderService API
   slug: cedarai-workorderservice-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Cedarai Webhooks
@@ -196,7 +196,7 @@ common:
   url: data-model/cedarai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cedarai-mcp.yml
 - group: agent
   title: ''
@@ -214,10 +214,6 @@ created: '2026-07-17'
 description: Cedar AI builds ARMS (Automated Rail Management System), a cloud-native, AI-powered transportation management platform for railroads, industrial shippers, transload and intermodal terminals, and fleet/car owners. The ARMS External API exposes REST and gRPC services for railcar inventory and history, waybills and bills of lading, work orders and train movements, switching and class lists, charges, shipper invoices and quotes, truck load tenders, network structure, and threaded notes (Linda) with AI summaries — plus Ed25519-signed webhooks for real-time operational events, across US (cedarai.com) and EU (cedarai.se) regions. Backed by Felicis.
 image: https://arms.cedarai.com/cedar-icon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cedarai MCP Server
-  slug: cedarai-mcp-server
 modified: '2026-07-18'
 name: Cedarai
 nav: Providers
@@ -258,8 +254,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
 security:

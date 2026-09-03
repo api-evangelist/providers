@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.leminnow.com
@@ -42,7 +42,7 @@ apis:
   description: Server-side CAPTCHA answer verification.
   name: Capy Inc. Verification API
   slug: capy-inc-verification-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -141,7 +141,7 @@ common:
   url: data-model/capy-inc-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/capy-inc-mcp.yml
 - group: agent
   title: ''
@@ -163,10 +163,6 @@ created: '2026-07-17'
 description: 'Capy Inc. operates Lemin Captcha, a gamified bot-prevention and CAPTCHA service that replaces traditional image-selection challenges with playful, brandable puzzle games. Lemin protects websites and apps from automated attacks such as account takeover and credential stuffing while improving the human experience: the company reports puzzles are solved in roughly five seconds (versus eighteen for legacy CAPTCHAs) with far lower abandonment. Developers embed a client-side widget (available as first-party React, Angular, and Vue components on npm), then verify the visitor''s encrypted answer server-side against the Lemin verification API using their account private key. Capy Inc. is a 500 Global portfolio company.'
 image: https://leminnow.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool surface derived from the Lemin Captcha Verification API. Lemin/Capy Inc. does not publish an official hosted or packaged MCP server (none found on the MCP registry, npm @mode
-  name: Capy Inc. MCP Server
-  slug: capy-inc-mcp-server
 modified: '2026-07-18'
 name: Capy Inc.
 nav: Providers
@@ -208,8 +204,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-08-17T083008.png
 security:

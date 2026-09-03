@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: GraphQL Content Graph API that indexes CMS/Commerce content for fast, federated querying across the Optimizely platform.
@@ -200,8 +200,8 @@ score:
   previous_composite: 47.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/screenshots/episerver-2026-07-25T213522.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'RESTful API providing access to all Rentvine property management data including properties, units, leases, tenants, maintenance requests, work orders, financials, owner accounts, and portals. Enables '
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 27.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentvine/refs/heads/main/screenshots/rentvine-2026-06-20T192858.png
 security:

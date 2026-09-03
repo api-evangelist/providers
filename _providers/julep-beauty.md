@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -231,8 +231,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/screenshots/julep-beauty-2026-08-07T171031.png
 security:

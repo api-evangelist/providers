@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The header-bidding demand endpoint operated by Ad2iction, TNL Mediagene's ad-technology subsidiary (acquired by TNL Media Group in 2020). Publishers reach it through the `ad2iction` bidder adapter shi
@@ -147,8 +147,8 @@ score:
   previous_composite: 13.8
   provenance:
     conformance: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/screenshots/tnlmedia-2026-09-02T163832.png
 security:

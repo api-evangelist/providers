@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -52,7 +52,7 @@ apis:
   description: The Orchestrator API from Expanso — 11 operation(s) for orchestrator.
   name: Expanso Orchestrator API
   slug: expanso-orchestrator-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -154,7 +154,7 @@ common:
   url: conformance/expanso-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/expanso-mcp.yml
 - group: agent
   title: ''
@@ -164,10 +164,6 @@ created: '2026-07-17'
 description: Expanso is the company behind Bacalhau, an open-source distributed compute orchestration framework that brings compute to the data by running jobs close to where data is generated across edge, on-premise, and cloud environments. Expanso Cloud is the managed platform for deploying intelligent data pipelines at the edge - filtering, transforming, and governing data (PII/GDPR compliance, lineage) before it reaches downstream platforms like Snowflake and Databricks. The Bacalhau Orchestrator API exposes job submission, execution history, results, log streaming, and node/agent management over a versioned REST interface. Expanso is backed by General Catalyst and was named Edge AI Startup of the Year 2026.
 image: https://expanso.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP tool surface derived one-per-operation from the Bacalhau Orchestrator API OpenAPI. No official hosted Expanso/Bacalhau MCP server was located at time of enrichment; this is a governance '
-  name: Expanso MCP Server
-  slug: expanso-mcp-server
 modified: '2026-07-19'
 name: Expanso
 nav: Providers
@@ -206,8 +202,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/screenshots/expanso-2026-07-25T213913.png
 security:

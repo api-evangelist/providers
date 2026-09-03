@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Standard REST APIs exposed by the Incredibuild Coordinator for managing build groups and users, and a Build History API that returns build telemetry as JSON. Requests authenticate with a custom API ke
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 27.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incredibuild/refs/heads/main/screenshots/incredibuild-2026-07-25T222249.png
 security:

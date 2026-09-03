@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'hapi is a rich, configuration-centric framework for building web applications and APIs in Node.js. It provides a powerful plugin system, built-in input validation with Joi, authentication strategies, '
@@ -137,13 +137,13 @@ rules:
   slug: hapi-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.8
+  composite: 17.0
   coverage:
     artifact_dirs: 7
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -153,12 +153,9 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 21.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hapi/refs/heads/main/screenshots/hapi-2026-06-20T182508.png
 security:

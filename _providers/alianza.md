@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -345,7 +345,7 @@ apis:
   description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
   name: Alianza Voicemail Message API
   slug: alianza-voicemail-message-api
-artifact_total: 126
+artifact_total: 125
 collections:
 - collection_type: open
   name: API Collection
@@ -540,7 +540,7 @@ common:
   url: capabilities/alianza-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alianza-mcp.yml
 - group: other
   title: ''
@@ -663,10 +663,6 @@ description: Alianza is a cloud communications software company founded in 2009 
   telephone number, porting, SIP trunk, calling plan, voicemail, CDR and reporting orchestration.
 image: https://www.alianza.com/wp-content/uploads/2025/03/Alianza-Basic-Images-New.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alianza MCP Server
-  slug: alianza-mcp-server
 modified: '2026-08-02'
 name: Alianza
 nav: Providers
@@ -684,7 +680,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -694,7 +690,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.2
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -711,8 +707,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:

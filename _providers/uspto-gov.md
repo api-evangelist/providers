@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -113,7 +113,22 @@ apis:
   description: Trademark case status
   name: USPTO Status API
   slug: uspto-gov-status-api
-artifact_total: 43
+- description: The USPTO Patent Assignment Search API retrieves patent assignment information including ownership transfers, recorded assignments, and assignment history for individual patents and patent portfolios.
+  name: USPTO Patent Assignment Search API
+  slug: assignment-search-api
+- description: Patent assignment records
+  name: USPTO Assignments API
+  slug: uspto-assignments-api
+- description: Patent search and retrieval
+  name: USPTO Patents API
+  slug: uspto-patents-api
+- description: Patent Trial and Appeal Board proceedings
+  name: USPTO PTAB API
+  slug: uspto-ptab-api
+- description: Trademark status and documents
+  name: USPTO Trademarks API
+  slug: uspto-trademarks-api
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -275,6 +290,14 @@ common:
   title: ''
   type: Blog
   url: https://www.uspto.gov/rss.xml
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.uspto.gov/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.uspto.gov/
 created: '2026-05-25'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uspto-gov.png
 json_schemas:
@@ -294,13 +317,13 @@ modified: '2026-05-25'
 name: USPTO
 nav: Providers
 network: true
-overview: 'USPTO publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Appeals API, Application API, Assignments API, and 11 more. Tagged areas include Patents, Trademarks, Intellectual Property, Government, and Federal.
+overview: 'USPTO publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Appeals API, Application API, Assignments API, and 15 more. Tagged areas include Patents, Trademarks, Intellectual Property, Government, and Federal.
 
 
   The USPTO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  USPTO''s developer surface includes authentication, developer portal, documentation, support, GitHub presence, engineering blog, and 18 more developer resources.'
+  USPTO''s developer surface includes authentication, developer portal, documentation, support, GitHub presence, engineering blog, and 20 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 2
@@ -319,19 +342,19 @@ rules:
   slug: uspto-gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 35.4
   coverage:
     artifact_dirs: 13
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 25.0
     contract_quality: 63.3
-    developer_ergonomics: 26.2
+    developer_ergonomics: 33.3
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 26.3
@@ -349,8 +372,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png
 security:

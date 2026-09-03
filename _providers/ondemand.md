@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: The Workflow API from Ondemand — 2 operation(s) for workflow.
   name: Ondemand Workflow API
   slug: ondemand-workflow-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Ondemand Webhooks
@@ -155,7 +155,7 @@ common:
   url: packages/ondemand-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ondemand-mcp.yml
 - group: other
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: OnDemand AI (on-demand.io) is a RAG-powered AI Platform-as-a-Service that lets companies infuse AI into their products without managing model infrastructure. The platform exposes a REST API for chat sessions and queries against a library of predefined, BYOI (Bring Your Own Inference) and BYOM (Bring Your Own Model) fulfillment models, media ingestion and vector search, Knowledge / REST-API / IoT(MQTT) agents, an Agents Flow Builder for workflow automation, and cloud services for speech-to-text, text-to-speech and language translation. API access is authenticated with API keys, supports sync / stream / webhook response modes, offset- and cursor-based pagination, and per-object rate limits. Surfaced as a Canaan Partners portfolio lead and enriched from the provider's public developer documentation at docs.on-demand.io.
 image: https://files.readme.io/52eb008-favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ondemand MCP Server
-  slug: ondemand-mcp-server
 modified: '2026-07-20'
 name: Ondemand
 nav: Providers
@@ -246,8 +242,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/screenshots/ondemand-2026-08-07T190238.png
 security:

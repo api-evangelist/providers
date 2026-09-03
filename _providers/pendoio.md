@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 4
@@ -123,7 +123,7 @@ apis:
   description: The Visitor API from Pendo.io — 3 operation(s) for visitor.
   name: Pendo.io Visitor API
   slug: pendoio-visitor-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -275,7 +275,7 @@ common:
   url: well-known/pendoio-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pendoio-mcp.yml
 - group: agent
   title: ''
@@ -313,10 +313,6 @@ created: '2026-07-17'
 description: Pendo is a product-experience and product-analytics platform that helps software teams understand and guide how users engage with their applications. Its Engage API provides programmatic access to the pages, features, guides, visitors, accounts, segments, reports, and metadata collected by the Pendo agent, plus a MongoDB-like Aggregation API for running structured queries over product-usage events. The API authenticates with a per-subscription integration key sent in the x-pendo-integration-key header (OAuth 2.0 is additionally published via RFC 8414 authorization-server metadata), and includes GDPR/CCPA bulk-deletion, segment management, in-app guide targeting, and cloud Data Sync export. Pendo was surfaced as a portfolio company of Battery Ventures.
 image: https://www.pendo.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pendo.io MCP Server
-  slug: pendoio-mcp-server
 modified: '2026-07-20'
 name: Pendo.io
 nav: Providers
@@ -355,8 +351,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/screenshots/pendoio-2026-08-17T081153.png
 security:

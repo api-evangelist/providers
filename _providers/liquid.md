@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://tryliquid.xyz'', ''status'': 307, ''note'': ''declared website redirects to https://www.liquid.trade/ — a different registrable domain (tryliquid.xyz -> liquid.trade), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Co-Invest is Liquid delivered as a remote Model Context Protocol (MCP) server. Once connected, an MCP client can research markets (live prices, funding rates, open interest, whale positioning, liquida
@@ -224,8 +225,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/screenshots/liquid-2026-07-25T225311.png
 security:

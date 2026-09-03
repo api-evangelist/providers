@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
   description: The Windfall API API from Windfall — 1 operation(s) for windfall api.
   name: Windfall Windfall API API
   slug: windfall-windfall-api-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -141,7 +141,7 @@ common:
   url: sandbox/windfall-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/windfall-mcp.yml
 - group: agent
   title: ''
@@ -192,10 +192,6 @@ description: Windfall is an AI-powered people intelligence platform that helps g
   by Windfall and API credits were bundled into existing subscriptions when the API opened to all customers and partners in May 2026.
 image: https://api-docs.windfall.com/static/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Windfall MCP Server
-  slug: windfall-mcp-server
 modified: '2026-08-14'
 name: Windfall
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/screenshots/windfall-2026-08-17T082920.png
 security:

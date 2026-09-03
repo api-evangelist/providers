@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: Uni-Parser — 提取文本、表格、图表、公式。收费：0.05 元/页（触发时扣）。figure 模块无权限时可能 403。
   name: DP Technology (Bohrium) PDF 解析 (bohrium-pdf-parser) API
   slug: dp-pdf-bohrium-pdf-parser-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +211,7 @@ common:
   url: cli/dp-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dp-mcp.yml
 - group: agent
   title: ''
@@ -269,10 +269,6 @@ created: '2026-07-17'
 description: DP Technology (Deep Potential Technology, 深势科技) is a global pioneer of the "AI for Science" research paradigm, founded in 2018 with offices in Beijing, Shanghai, Shenzhen, and Yibin. Its Bohrium platform is a research cloud for microscale scientific computing and industrial design — compute jobs, development nodes, datasets, container images, projects, knowledge bases, large knowledge models, paper/patent/scholar search, PDF parsing, a scientific-tools library, and web search — all reachable through the Bohrium OpenAPI (Bearer AccessKey auth, base URL https://open.bohrium.com). DP Technology also founds and maintains the open-source DeepModeling molecular-simulation toolchain (DeePMD-kit, DP-GEN, dpdispatcher, dpdata) and ships a first-party Python SDK, agent SDK, CLI, and 17 official Agent Skills.
 image: https://dp.tech/dp-favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: DP Technology (Bohrium) MCP Server
-  slug: dp-technology-bohrium-mcp-server
 modified: '2026-07-18'
 name: DP Technology (Bohrium)
 nav: Providers
@@ -311,8 +307,8 @@ score:
       total: 15
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/screenshots/dp-2026-07-25T212347.png
 security:

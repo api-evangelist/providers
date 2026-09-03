@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RightRev's REST (and GraphQL) API for revenue recognition — transaction ingestion (orders, invoices, events, bulk uploads), policy-set and company configuration, Revenue Desk 360 contract search and d
   name: RightRev REST API
   slug: rightrev-rest-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -95,7 +95,7 @@ common:
   url: data-model/rightrev-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rightrev-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +109,6 @@ created: '2026-07-17'
 description: RightRev is an AI-powered revenue recognition platform that automates ASC 606 and IFRS 15 compliant accounting for subscription, usage-based, and hybrid revenue models. Its API-first architecture ingests orders, invoices, and usage events, applies configurable Standalone Selling Price (SSP) and revenue policies, and produces revenue contracts, revenue and cost schedules, journal entries, and period-close outputs. RightRev exposes REST and GraphQL APIs secured with OAuth 2.0 / OpenID Connect, alongside a Salesforce-native application and ERP integrations for finance teams.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rightrev.png
 layout: provider
-mcp_servers:
-- description: Candidate Model Context Protocol tool surface mapped from RightRev's documented revenue-recognition REST APIs (transaction ingestion, revenue contract search, period close, error remediation). Grounde
-  name: Rightrev MCP Server
-  slug: rightrev-mcp-server
 modified: '2026-07-21'
 name: Rightrev
 nav: Providers
@@ -149,8 +145,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/screenshots/rightrev-2026-09-02T153819.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 21
 apis:
 - description: Central campus API developer portal. Catalogs 37 campus APIs across six categories, renders each published contract with Swagger UI, and runs registration, App/consumer-key creation and the API Access
@@ -444,8 +444,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsb/refs/heads/main/screenshots/ucsb-2026-06-20T195943.png
 security:

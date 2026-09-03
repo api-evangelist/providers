@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.root.io/'', ''status'': 301, ''note'': ''declared website redirects to https://www.aikido.dev/cloud/hardened-images — a different registrable domain (root.io -> aikido.dev), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -143,7 +144,7 @@ apis:
   description: The Webhooks API from Root (fka Slim.ai) — 3 operation(s) for webhooks.
   name: Root (fka Slim.ai) Webhooks API
   slug: root-fka-slimai-webhooks-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Root Fka Slimai Webhooks
@@ -235,7 +236,7 @@ common:
   url: packages/root-fka-slimai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/root-fka-slimai-mcp.yml
 - group: agent
   title: ''
@@ -341,10 +342,6 @@ created: '2026-07-17'
 description: 'Root (formerly Slim.ai) is a container and dependency security company backed by Insight Partners. Its "secure supply" platform delivers end-to-end, autonomous vulnerability remediation for container images and application packages: a fleet of AI agents (Agentic Vulnerability Remediation, AVR) researches, patches, tests, and ships Root Patches within minutes of CVE publication, without base-image changes or forced version upgrades. Root operates the Root Image Catalog (cr.root.io), Library Catalog, and OS-package registry (pkg.root.io), and exposes a REST API (api.root.io) for querying patch status, security findings, subscriptions, and pulling SBOM, VEX, and provenance artifacts, plus Standard-Webhooks notifications and a first-party CLI (rootio_patcher).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/root-fka-slimai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Root (fka Slim.ai) MCP Server
-  slug: root-fka-slimai-mcp-server
 modified: '2026-07-21'
 name: Root (fka Slim.ai)
 nav: Providers
@@ -386,8 +383,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/screenshots/root-fka-slimai-2026-08-17T081633.png
 security:

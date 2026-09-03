@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The LatticaAI platform API for deploying and operating encrypted workloads. An RPC-style HTTPS surface rooted at https://api.lattica.ai/api/, authenticated with a Bearer token, covering account and fi
   name: Lattica Platform API
   slug: platform
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -135,7 +135,7 @@ common:
   url: conformance/lattica-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lattica-mcp.yml
 - group: design
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: LatticaAI is an Israeli privacy-technology company building Fully Homomorphic Encryption (FHE) as a service, letting AI inference and database queries run on encrypted data at cloud scale with zero plaintext exposure. Lattica builds the full stack — the cryptography, a compiler that turns models into homomorphic-ready pipelines, and a GPU-accelerated FHE runtime called the Encrypted Execution Layer. Service providers deploy models and vector databases as workloads; end users query them through a Query Client that encrypts input on-device and decrypts results locally, so the server only ever sees ciphertext. HEAL (Homomorphic Encryption Abstraction Layer) bridges the FHE software stack to acceleration hardware.
 image: https://www.lattica.ai/assets/logo/White%20logo%20-%20no%20background.svg
 layout: provider
-mcp_servers:
-- description: Lattica operates NO official MCP server. A search of the docs, the Lattica-ai GitHub organization, and the npm/PyPI namespaces found no hosted remote MCP endpoint, no stdio server package, and no mcp.
-  name: Lattica MCP Server
-  slug: lattica-mcp-server
 modified: '2026-07-19'
 name: Lattica
 nav: Providers
@@ -180,8 +176,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattica/refs/heads/main/screenshots/lattica-2026-07-25T224607.png
 security:

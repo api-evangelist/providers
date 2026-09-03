@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -906,7 +906,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -916,7 +916,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 35.7
+  previous_composite: 37.6
   provenance:
     conformance: derived
     contracts:
@@ -936,8 +936,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 51.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/screenshots/ncino-2026-08-07T184748.png
 security:

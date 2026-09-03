@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.appzen.com/dictionary-data-services
@@ -131,7 +131,7 @@ apis:
   description: The Vat API from AppZen — 4 operation(s) for vat.
   name: AppZen Vat API
   slug: appzen-vat-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -232,7 +232,7 @@ common:
   url: conformance/appzen-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/appzen-mcp.yml
 - group: agent
   title: ''
@@ -282,10 +282,6 @@ created: '2026-07-17'
 description: AppZen is an AI platform for finance teams that automates accounts payable and expense auditing. Its Autonomous AP product ingests invoices, purchase orders, goods receipts and supporting master data, then applies AI to run validation checks, assign risk scores, and audit spend before payment. The public Autonomous AP REST API (Swagger 2.0, 54 operations) lets ERP and accounting systems such as SAP, Oracle, NetSuite, Coupa, Workday and Microsoft Dynamics push documents into AppZen and retrieve audit results. Authentication is via three API-key headers issued by AppZen Support, with US sandbox and production environments (EU coming soon).
 image: https://api-docs.appzen.com/img/appzen-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: AppZen MCP Server
-  slug: appzen-mcp-server
 modified: '2026-07-18'
 name: AppZen
 nav: Providers
@@ -323,8 +319,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/screenshots/appzen-2026-07-25T200859.png
 security:

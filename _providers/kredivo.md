@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://finaccel.co'', ''status'': 301, ''note'': ''declared website redirects to https://kredivocorp.com/ — a different registrable domain (finaccel.co -> kredivocorp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://sandbox.kredivo.com
@@ -61,7 +62,7 @@ apis:
   description: Status, cancellation and reversal of transactions.
   name: Kredivo Transactions API
   slug: kredivo-transactions-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Kredivo Checkout Webhooks
@@ -216,7 +217,7 @@ common:
   url: llms/kredivo-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kredivo-mcp.yml
 - group: agent
   title: ''
@@ -230,10 +231,6 @@ created: '2026-07-17'
 description: Kredivo is a Southeast Asian consumer credit platform operated by FinAccel (Kredivo Group), best known for its "Buy Now, Pay Later" product offering instant real-time credit decisioning for online and offline purchases across Indonesia, Vietnam, Thailand and the Philippines. For developers, Kredivo publishes the Kredivo Checkout API — a merchant-facing HTTP/JSON payment API that lets an ecommerce store, marketplace, POS or EDC terminal offer installment payment (30 days through 24 months) at checkout. The API covers 2-click redirect checkout, 0-click tokenized express checkout, dynamic and static QR checkout for physical stores, EDC terminal checkout, transaction status polling, full and partial cancellation, user credit-limit lookup, and an installment/interest calculator, with asynchronous push notifications to a merchant-supplied push_uri and a signature-key confirmation callback. Kredivo Group also operates KrediFazz (instant cash loans), Krom (digital bank), Timo and GajiGesa.
 image: https://doc.kredivo.com/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kredivo MCP Server
-  slug: kredivo-mcp-server
 modified: '2026-07-19'
 name: Kredivo
 nav: Providers
@@ -280,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:

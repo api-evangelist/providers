@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Public Open Bank Project sandbox instance hosted by Infosys Finacle that exposes standard OBP REST APIs for accounts, transactions, customers, and consents. Useful for developers exploring Finacle ban
@@ -109,8 +109,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infosys/refs/heads/main/screenshots/infosys-2026-06-20T183341.png
 security:

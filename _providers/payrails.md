@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Payrails' REST API for payment orchestration — executions and payment actions (authorize, confirm, capture, cancel, refund, payout), instruments and tokens, the PCI vault, providers and workflow confi
   name: Payrails API
   slug: payrails-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Payrails Notifications Webhooks
@@ -143,7 +143,7 @@ common:
   url: components/payrails-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/payrails-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +189,6 @@ created: '2026-07-17'
 description: Payrails is a modular payment and financial infrastructure platform — "the operating system for profitable growth" — that gives merchants unified control over payments, tokenization, and financial data. Its API and SDKs orchestrate payments across many payment service providers (Adyen, Stripe, Checkout.com, Braintree, Klarna, and 100+ local methods), with a PCI-certified token vault, network tokenization, 3D Secure, a no-code Workflow Studio for routing and decisioning, automated reconciliation, chargeback/dispute management, fraud screening, and unified analytics. Authentication is OAuth 2.0 client-credentials (plus optional mTLS); events are delivered as HMAC-signed webhooks. Used by Eneba, PUMA, Vinted, Preply, inDrive, Just Eat, and Careem.
 image: https://www.payrails.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Payrails MCP Server
-  slug: payrails-mcp-server
 modified: '2026-07-20'
 name: Payrails
 nav: Providers
@@ -238,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/screenshots/payrails-2026-08-07T191653.png
 security:

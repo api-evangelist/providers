@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Operations for executing and managing protected queries
   name: Amazon Clean Rooms Protected Queries API
   slug: amazon-clean-rooms-protected-queries-api
-artifact_total: 94
+artifact_total: 93
 asyncapis:
 - description: ''
   name: Amazon Clean Rooms Events
@@ -99,7 +99,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-clean-rooms-mcp.yml
 - group: other
   title: ''
@@ -482,10 +482,6 @@ jsonld:
   property_count: 32
   slug: amazon-clean-rooms-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Clean Rooms MCP Server
-  slug: amazon-clean-rooms-mcp-server
 modified: '2026-08-13'
 name: Amazon Clean Rooms
 nav: Providers
@@ -557,8 +553,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:

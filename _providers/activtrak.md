@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Live Data API - query activity reports (Working Hours, Activity Log).
   name: ActivTrak Reports API
   slug: activtrak-reports-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -87,7 +87,7 @@ common:
   url: skills/activtrak-bulk-import-hr-data.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/activtrak-mcp.yml
 - group: other
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: 'ActivTrak is a workforce analytics and productivity-monitoring SaaS platform. Its Public APIs (v2) expose REST endpoints across three surfaces: the Live Data / Reports API (Working Hours and Activity Log), account administration (Clients, Consumers, and full SCIM 2.0 user and group management), and a Bulk Import HR Data Connector for CSV-driven user provisioning. Authentication is via an API key sent in the x-api-key header (a Bearer form is also accepted on some endpoints). Regional hosts are available for the United States, European Union, United Kingdom, Canada, and Australia. ActivTrak is backed by Sapphire Ventures and is profiled in the API Evangelist network.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/activtrak.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ActivTrak MCP Server
-  slug: activtrak-mcp-server
 modified: '2026-07-17'
 name: ActivTrak
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
 security:

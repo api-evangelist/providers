@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: ING Australia Banking Products API
   slug: ing-australia-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: data-model/ing-australia-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ing-australia-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ created: '2026-07-20'
 description: ING Australia is the retail banking division of ING Bank (Australia) Limited (ABN 24 000 893 292), a wholly owned subsidiary of the Dutch multinational ING Groep N.V. headquartered in Amsterdam. Launched in 1999 as ING Direct and rebranded to ING in 2017, it is a branchless, digital-first direct bank offering everyday transaction and savings accounts, home loans, superannuation, and insurance to Australian consumers. It is not a customer-owned mutual; it is a foreign-owned Authorised Deposit-taking Institution (ADI) regulated by APRA and ASIC. As an active ADI, ING is an accredited data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes the mandatory public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Authenticated consumer-data sharing follows the CDR ecosystem model (OAuth2 / OIDC FAPI profile via accredited data recipients); ING does not operate a broad, self-serve public developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ing-australia.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the CDS Banking operations. ING Australia does not publish an official hosted MCP server. The PRODUCT tools (list/get products) map to the public, unauthenticat
-  name: ING Australia MCP Server
-  slug: ing-australia-mcp-server
 modified: '2026-07-21'
 name: ING Australia
 nav: Providers
@@ -254,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png
 security:

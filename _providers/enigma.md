@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.1
-  scored_at: '2026-09-02'
+  score: 22.3
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: GraphQL API for querying Enigma business data — brands, operating locations, legal entities, card transactions, and industries — with text, lookup, natural-language prompt, and async segmentation sear
@@ -253,8 +253,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enigma/refs/heads/main/screenshots/enigma-2026-07-25T213358.png
 security:

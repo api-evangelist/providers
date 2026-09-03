@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://verify-api.arkoselabs.com
@@ -51,7 +51,7 @@ apis:
   description: Session verification
   name: Arkose Labs Verify API
   slug: arkose-labs-verify-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: data-model/arkose-labs-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/arkose-labs-mcp.yml
 - group: agent
   title: ''
@@ -173,10 +173,6 @@ json_schemas:
   property_count: 0
   slug: arkose-labs-verify-response
 layout: provider
-mcp_servers:
-- description: ''
-  name: Arkose Labs MCP Server
-  slug: arkose-labs-mcp-server
 modified: '2026-07-18'
 name: Arkose Labs
 nav: Providers
@@ -213,8 +209,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/screenshots/arkose-labs-2026-07-25T201203.png
 security:

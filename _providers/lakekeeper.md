@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,7 +27,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-09-02'
+  score: 40.8
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: '{scheme}://{host}/lakekeeper/v1'
@@ -273,7 +273,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -283,7 +283,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 53.9
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     contracts:
@@ -293,8 +293,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/screenshots/lakekeeper-2026-09-02T150205.png
 security:

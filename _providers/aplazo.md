@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
   name: Aplazo Merchant Payment API
   slug: aplazo-merchant-payment-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Aplazo Webhooks
@@ -99,7 +99,7 @@ common:
   url: conventions/aplazo-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aplazo-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: Aplazo is a Mexican buy now, pay later (BNPL) payment platform that lets shoppers split online and in-store purchases into installments without a credit card, paying over time directly from their bank account. For merchants, Aplazo exposes a REST payment API (api.aplazo.mx) and official e-commerce plugins (Magento 2, VTEX, Shopify, PrestaShop, Tiendanube) to originate loans at checkout, retrieve loan status, and process refunds and cancellations. Merchants authenticate with an apiToken and merchantId to obtain a short-lived JWT bearer token, then create loans that redirect the customer to Aplazo to complete financing. Aplazo is backed by QED Investors and operates in Mexico, settling in Mexican pesos (MXN).
 image: https://aplazoassets.s3.us-west-2.amazonaws.com/icons/aplazo/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aplazo MCP Server
-  slug: aplazo-mcp-server
 modified: '2026-07-17'
 name: Aplazo
 nav: Providers
@@ -184,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'POST-only JSON REST API exposed by every Kinetica deployment on port 9191. Endpoints cover SQL execution (/execute/sql), record ingest and egress (/insert/records/json, /get/records/json), schema and '
@@ -235,8 +235,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/screenshots/kinetica-2026-08-07T171232.png
 security:

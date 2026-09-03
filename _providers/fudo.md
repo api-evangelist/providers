@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.fu.do/v1alpha1
@@ -131,7 +131,7 @@ apis:
   description: The Users API from Fudo — 2 operation(s) for users.
   name: Fudo Users API
   slug: fudo-users-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -208,7 +208,7 @@ common:
   url: authentication/fudo-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fudo-mcp.yml
 - group: agent
   title: ''
@@ -286,10 +286,6 @@ created: '2026-07-17'
 description: Fudo is a cloud-based point-of-sale and restaurant management platform used by more than 25,000 restaurants, bars, and cafes across Latin America. The product covers on-premise and online sales, QR menus, kitchen display, inventory and purchasing, expenses, table and room management, staff roles, and delivery-app integrations (Uber Eats, Rappi, PedidosYa). Fudo publishes a general-purpose public REST API (OpenAPI 3.1, JSON:API style) that lets Pro-plan accounts read and write sales, payments, products, customers, expenses, ingredients, and system configuration for reporting, BI, ERP, and custom integrations. This profile was surfaced as an a16z portfolio company and enriched by the API Evangelist pipeline from Fudo's own developer surface.
 image: https://dev.fu.do/assets/images/fudo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fudo MCP Server
-  slug: fudo-mcp-server
 modified: '2026-07-19'
 name: Fudo
 nav: Providers
@@ -332,8 +328,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/screenshots/fudo-2026-07-25T215250.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Poynt Cloud API lets developers manage a merchant business''s orders, transactions, customers, products, catalogs, inventory and taxes, register webhooks for real-time events, and collect/tokenize '
@@ -176,8 +176,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/screenshots/poynt-2026-09-02T151849.png
 security:

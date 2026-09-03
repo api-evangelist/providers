@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Multi-chain indexing and on-chain data-retrieval REST API (accounts, coins/tokens, NFTs, collections, DeFi portfolios, DEX market data, and smart-contract verification) for Sui and Monad, authenticate
   name: BlockVision Data API
   slug: blockvision-data-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -95,7 +95,7 @@ common:
   url: packages/blockvision-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blockvision-mcp.yml
 - group: auth
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: BlockVision is a Web3 data infrastructure provider offering multi-chain node, indexing, and on-chain data-retrieval APIs for developers building decentralized applications. Its stack includes an Indexing API service (real-time account, coin/token, NFT, DeFi, DEX-market and smart-contract data across Sui, Monad, Ethereum, Arbitrum, BNB Chain, Optimism and Polygon), an RPC Node service (AceNode) with geo-distributed low-latency and archive access, a gRPC endpoint for Sui, and Explorer-as-a-Service (branded block explorers such as SuiVision and BBScan). Requests to the Data API (api.blockvision.org, versioned under /v2) are authenticated with an x-api-key header and metered in Compute Units. Originally added to the API Evangelist network as a portfolio company of Qiming, this profile has been enriched from BlockVision's public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blockvision.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: BlockVision MCP Server
-  slug: blockvision-mcp-server
 modified: '2026-07-18'
 name: BlockVision
 nav: Providers
@@ -164,8 +160,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/screenshots/blockvision-2026-07-25T203400.png
 security:

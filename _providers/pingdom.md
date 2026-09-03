@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for managing uptime checks, transaction checks, results, alerts, contacts, maintenance windows, teams, and reports in the Pingdom monitoring platform. Authentication uses Bearer token API key
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 18.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingdom/refs/heads/main/screenshots/pingdom-2026-06-20T191713.png
 security:

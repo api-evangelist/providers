@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://frontstage.santeacademie.com
@@ -98,7 +98,7 @@ apis:
   description: Topic
   name: Santé Académie Topic API
   slug: santeacademie-topic-api
-artifact_total: 17
+artifact_total: 16
 common:
 - group: other
   title: ''
@@ -190,7 +190,7 @@ common:
   url: llms/santeacademie-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/santeacademie-mcp.yml
 - group: agent
   title: ''
@@ -208,10 +208,6 @@ created: '2026-08-17'
 description: Santé Académie is a French continuing-professional-development (DPC) training provider for healthcare professionals — physicians, nurses, pharmacists, pharmacy technicians, nursing assistants and health-facility training managers — delivering e-learning, virtual classrooms and in-person courses funded through ANDPC, FIF-PL, FAF-PM, ANFH and OPCO schemes. The company is Qualiopi-certified, registered with France Compétences and approved by the Agence Nationale du DPC, and says more than 35,000 healthcare professionals have trained on its platform. Its public technical surface is a pair of unauthenticated read-only catalog APIs served from frontstage.santeacademie.com — the API Platform "Frontstage API" and a swagger-php "Connector API" — which expose the training catalog (topics, resources, courses, trainers, funding schemes, professions/métiers, FAQs, testimonials, pharmacy and health-facility lookup) that powers its own websites and learner app.
 image: https://www.santeacademie.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Santé Académie MCP Server
-  slug: santé-académie-mcp-server
 modified: '2026-08-17'
 name: Santé Académie
 nav: Providers
@@ -263,8 +259,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/screenshots/santeacademie-2026-09-02T154403.png
 security:

@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful JSON API to build and manage backstitch topics — content feeds assembled from social, RSS, video, deals, subreddit, and custom sources with include/exclude/NSFW filters — and to retrieve norma
   name: backstitch Content Curation API
   slug: backstitch-content-curation-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -103,7 +106,7 @@ common:
   url: components/backstitch-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/backstitch-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +144,6 @@ created: '2026-07-17'
 description: backstitch is a Techstars-backed Kansas City company that operates an employee and total-rewards communications platform (drag-and-drop newsletters, a branded mobile employee app, and personalized total-compensation statements) alongside a developer-facing content-curation API. The backstitch API lets applications build and manage "topics" that aggregate and filter content from social, RSS, video, deals, and custom sources, then retrieve normalized result objects (articles, statuses, photos, videos, products, services, hotels) or embed them with a drop-in JavaScript widget. The API is offered in a legacy v1 and a recommended v2 over REST/JSON, authenticated with an Organization Key plus per-topic tokens.
 image: https://www.backstitch.io/hs-fs/hubfs/backstitch_logo_purple_2020.png?width=170&height=36&name=backstitch_logo_purple_2020.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: backstitch MCP Server
-  slug: backstitch-mcp-server
 modified: '2026-08-13'
 name: backstitch
 nav: Providers
@@ -184,8 +183,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/screenshots/backstitch-2026-07-25T202231.png
 security:

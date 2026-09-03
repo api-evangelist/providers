@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://aggregator.walrus-mainnet.walrus.space
@@ -41,7 +41,7 @@ apis:
   description: The routes API from Walrus Protocol — 9 operation(s) for routes.
   name: Walrus Protocol routes API
   slug: walrus-protocol-routes-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -144,7 +144,7 @@ common:
   url: cli/walrus-protocol-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/walrus-protocol-mcp.yml
 - group: auth
   title: ''
@@ -186,10 +186,6 @@ created: '2026-07-17'
 description: Walrus is a decentralized blob storage protocol built on Sui by Mysten Labs, the team behind the Sui blockchain. It provides robust, cost-effective storage for large binary objects with high-availability guarantees using Red Stuff erasure coding across a permissionless set of storage nodes. Data is content-addressed, immutable, verifiable without trusting any single provider, and portable across apps, providers, and AI agents. Developers interact through the `walrus` client CLI, a TypeScript SDK, and an HTTP API served by publisher (write) and aggregator (read) daemons, with storage paid in WAL and on-chain coordination in SUI. Walrus also powers Walrus Sites (decentralized web hosting) and Walrus Memory (a portable memory layer for AI agents). Backed by Electric Capital.
 image: https://walrus.xyz/images/open-graph/og-home.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Walrus Protocol MCP Server
-  slug: walrus-protocol-mcp-server
 modified: '2026-07-21'
 name: Walrus Protocol
 nav: Providers
@@ -227,8 +223,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/screenshots/walrus-protocol-2026-08-17T082844.png
 security:

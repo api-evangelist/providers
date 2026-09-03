@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ apis:
   description: The Tag Interactions API from CRM Bonus — 1 operation(s) for tag interactions.
   name: CRM Bonus Tag Interactions API
   slug: crm-bonus-tag-interactions-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: Oto Data API
@@ -237,17 +237,13 @@ common:
   url: overlays/crm-bonus-oto-data-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/crm-bonus-mcp.yml
 created: '2026-07-17'
 description: CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, CRMAds retail media on WhatsApp, and Oto CRM — the physical-retail CRM platform CRMBonus acquired outright from WPP in June 2025 and now lists as a first-party retail solution. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, Wake, and PagSeguro. The publicly documented machine-readable contract is the Oto Data API — an OpenAPI 3.1.0 upsert-ingestion API for customers, orders, order items, products, stores, sellers, cashback, NPS, and Oto Tags events — served at data-api.otocrm.com.br with a public ReDoc/Swagger reference. The Giftback and Vale Bonus APIs on api.crmbonus.com are partner-token gated with no public reference;
   that host answers HTTP 200 with an "OK!!" envelope for every path, including every /.well-known/* probe, so none of those 200s carry a real document.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crm-bonus.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CRM Bonus MCP Server
-  slug: crm-bonus-mcp-server
 modified: '2026-08-12'
 name: CRM Bonus
 nav: Providers
@@ -294,8 +290,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png
 security:

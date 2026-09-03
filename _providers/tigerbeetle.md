@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: Client-library operations for managing 128-byte double-entry accounts - create_accounts (establish immutable accounts on a ledger with debit/credit constraint flags), lookup_accounts (fetch accounts b
@@ -122,8 +122,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 16.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigerbeetle/refs/heads/main/screenshots/tigerbeetle-2026-09-02T163740.png
 security:

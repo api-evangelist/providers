@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -32,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
   name: Ematic Solutions Core API
   slug: ematic-solutions-core-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -126,7 +130,7 @@ common:
   url: conformance/ematic-solutions-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ematic-solutions-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +149,6 @@ description: Ematic Solutions is a digital marketing and marketing-technology co
   a public developer surface at kb.ematicsolutions.com covering the Ematic.js browser tracker, e-commerce plugins for Magento, Shopify, Haravan and PrestaShop, and a RESTful Core API (beta) for product-event logging and ESP list subscription management.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ematic-solutions.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ematic Solutions MCP Server
-  slug: ematic-solutions-mcp-server
 modified: '2026-08-13'
 name: Ematic Solutions
 nav: Providers
@@ -189,8 +189,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png
 security:

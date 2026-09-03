@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.2
-  scored_at: '2026-09-02'
+  score: 34.4
+  scored_at: '2026-09-03'
 api_count: 21
 apis:
 - baseURL: https://integrations.mavenmachines.com
@@ -179,7 +179,7 @@ apis:
   description: The Vehicles API from Maven Machines — 3 operation(s) for vehicles.
   name: Maven Machines Vehicles API
   slug: maven-machines-vehicles-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Maven Machines Return Events
@@ -287,7 +287,7 @@ common:
   url: llms/maven-machines-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/maven-machines-mcp.yml
 - group: commercial
   title: ''
@@ -318,10 +318,6 @@ description: Maven Machines (branded "Maven") is a Pittsburgh, Pennsylvania soft
   commands API. Maven also operates per-customer integration middleware services on <customer>.middleware.mavenmachines.com, several of which publish their own Swagger/OpenAPI documents publicly.
 image: https://mavenmachines.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Maven Machines MCP Server
-  slug: maven-machines-mcp-server
 modified: '2026-08-25'
 name: Maven Machines
 nav: Providers
@@ -350,7 +346,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -360,7 +356,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 41.3
+  previous_composite: 41.5
   provenance:
     conformance: derived
     contracts:
@@ -370,8 +366,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/screenshots/maven-machines-2026-09-02T150440.png
 security:

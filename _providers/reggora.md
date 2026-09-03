@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Create and manage the loan records that appraisal orders are placed against - sync loan data from the LOS, retrieve loan detail, update loan fields, and receive a webhook when a loan is deleted. Endpo
@@ -142,8 +142,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/screenshots/reggora-2026-09-02T153241.png
 security:

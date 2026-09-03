@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://eus-api.au10tixservices.com
@@ -151,8 +151,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 29.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/screenshots/au10tix-2026-07-25T201647.png
 security:

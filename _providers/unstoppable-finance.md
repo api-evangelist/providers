@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.iron.xyz/api
@@ -81,7 +81,7 @@ apis:
   description: Operations on Webhooks
   name: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Unstoppable Finance Webhooks
@@ -199,7 +199,7 @@ common:
   url: well-known/unstoppable-finance-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/unstoppable-finance-mcp.yml
 - group: agent
   title: ''
@@ -281,10 +281,6 @@ created: '2026-07-17'
 description: Unstoppable Finance is the Berlin fintech behind Iron (iron.xyz), the Stablecoin Payment Network - fiat-to-stablecoin and stablecoin-to-fiat infrastructure for businesses. Founded as Unstoppable Finance GmbH and builder of the Ultimate self-custodial DeFi wallet, the company rebranded to Iron and was acquired by MoonPay in 2025. The Iron API provides onramp, offramp, and swap flows via Autoramps (standing fiat/crypto conversion rules), customer onboarding with tiered KYC/KYB, Travel Rule wallet verification, virtual accounts, fee profiles, exchange rates, stablecoin issuance, and Standard Webhooks event delivery, with a fully simulated sandbox environment.
 image: https://framerusercontent.com/images/HAx7iVFXocaeIm27aAOhEsYTyfE.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Unstoppable Finance (Iron) MCP Server
-  slug: unstoppable-finance-iron-mcp-server
 modified: '2026-07-21'
 name: Unstoppable Finance (Iron)
 nav: Providers
@@ -335,8 +331,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/screenshots/unstoppable-finance-2026-08-17T082634.png
 security:

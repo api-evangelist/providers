@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GraphQL subgraphs providing endpoints for querying Toucan infrastructure and ecosystem data (projects, TCO2s, pools, retirements) on Base, Base Sepolia, Polygon, Amoy, Celo, and Celo Alfajores, served
@@ -169,8 +169,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toucan/refs/heads/main/screenshots/toucan-2026-09-02T163945.png
 security:

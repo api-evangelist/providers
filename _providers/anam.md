@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Voices API from Anam — 2 operation(s) for voices.
   name: Anam Voices API
   slug: anam-voices-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -203,7 +203,7 @@ common:
   url: packages/anam-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anam-mcp.yml
 - group: other
   title: ''
@@ -265,10 +265,6 @@ created: '2026-07-17'
 description: Anam builds real-time, interactive AI avatars — photorealistic conversational personas that hold face-to-face video conversations for customer support, sales, tutoring, medical and training use cases. Its CARA avatar engine streams over WebRTC with sub-200ms latency and 70+ languages, fronted by a REST API (api.anam.ai) for managing personas, avatars, voices, LLM routing, knowledge (RAG) groups, function-calling tools, session tokens, share links and session analytics. Developers integrate via first-party JavaScript and Python SDKs, a Kotlin Multiplatform SDK, and a Pipecat plugin, or embed a no-code widget. Anam is a Redpoint Ventures portfolio company.
 image: https://framerusercontent.com/assets/cyASyHEg6g3WK5dCwQoOyyVbFZU.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Anam MCP Server
-  slug: anam-mcp-server
 modified: '2026-07-17'
 name: Anam
 nav: Providers
@@ -307,8 +303,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:

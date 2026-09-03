@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://palettetechnology.com/'', ''status'': 301, ''note'': ''declared website redirects to https://palettelabs.com/ — a different registrable domain (palettetechnology.com -> palettelabs.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Authenticated REST API for Palette's multimodal generation platform, accessed with API keys managed in the Studio profile. The base path /api/v1 is auth-gated (returns HTTP 401 without credentials). N
@@ -125,8 +126,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 20.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palette-2/refs/heads/main/screenshots/palette-2-2026-08-07T191320.png
 security:

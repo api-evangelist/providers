@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful JSON API to manage the TrojAI platform programmatically (users, groups, roles/permissions, datasets, models, firewall policies/configs, firewall events, red team jobs and results, and secrets)
@@ -159,8 +159,8 @@ score:
   previous_composite: 36.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trojai/refs/heads/main/screenshots/trojai-2026-09-02T164312.png
 security:

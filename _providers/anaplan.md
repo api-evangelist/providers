@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: RESTful bulk and transactional API for importing data, exporting results, running processes, and managing models within Anaplan workspaces.
@@ -168,8 +168,8 @@ score:
     governance: 0.0
     operational_transparency: 50.0
   previous_composite: 30.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anaplan/refs/heads/main/screenshots/anaplan-2026-06-20T171947.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -263,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
 security:

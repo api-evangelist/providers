@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Treasury Services API family covering payments (USD clearing, global ACH, RTP, wires, Pay by Bank), liquidity, cash management, trade finance, and FX, exposed to corporate and financial-institution cl
@@ -130,13 +130,13 @@ overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 13
 score:
   band: emerging
-  composite: 20.8
+  composite: 20.5
   coverage:
     artifact_dirs: 4
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -146,9 +146,6 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 20.8
   regulatory:
     applies: true
@@ -156,8 +153,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-mellon/refs/heads/main/screenshots/bny-mellon-2026-07-25T203518.png
 security:

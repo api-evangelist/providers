@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -248,7 +248,7 @@ apis:
   description: 'The #X Amz Target=CodePipeline 20150709.UpdatePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.updatepipeline.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.UpdatePipeline API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
-artifact_total: 885
+artifact_total: 884
 collections:
 - collection_type: open
   name: API Collection
@@ -423,7 +423,7 @@ common:
   url: well-known/amazon-codepipeline-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codepipeline-mcp.yml
 - group: agent
   title: ''
@@ -2859,10 +2859,6 @@ jsonld:
   property_count: 23
   slug: amazon-codepipeline-context
 layout: provider
-mcp_servers:
-- description: No dedicated first-party hosted MCP server for Amazon CodePipeline was found. AWS ships general-purpose MCP servers via AWS Labs (github.com/awslabs/mcp), but none is CodePipeline-specific. The tool l
-  name: Amazon CodePipeline MCP Server
-  slug: amazon-codepipeline-mcp-server
 modified: '2026-06-20'
 name: Amazon CodePipeline
 nav: Providers
@@ -2925,8 +2921,8 @@ score:
       marker_coverage: 0.0
       total: 41
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:

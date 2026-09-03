@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The XOTP (Paymentus payment) API exposes core Service Commerce operations — make payment (Sale), account inquiry, payment history, void/cancel payment, customer profile create/read/update/delete and l
@@ -44,7 +44,7 @@ apis:
 - description: The Authentication API issues short-lived JWT access tokens for the XOTP payment surface. A client signs a request with a pre-shared key (identified by a key id / kid and a three-letter application ac
   name: Paymentus Authentication API
   slug: paymentus-authentication-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -120,7 +120,7 @@ common:
   url: conventions/paymentus-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/paymentus-mcp.yml
 - group: design
   title: ''
@@ -147,10 +147,6 @@ description: 'Paymentus (NYSE: PAY) is a Addison, Texas-based cloud billing and 
   documents the real payment (XOTP) surface, JWT/pre-shared-key authentication, granular OAuth-style scopes, and production base URLs. No downloadable OpenAPI/Swagger specification is published on the public web as of this review.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paymentus MCP Server
-  slug: paymentus-mcp-server
 modified: '2026-07-24'
 name: Paymentus
 nav: Providers
@@ -197,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

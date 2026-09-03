@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Weis Markets Vendor Integration API enables supplier and vendor partners to exchange purchase orders, invoices, item management data, and vendor contact information electronically. The platform us
@@ -144,8 +144,8 @@ score:
     governance: 15.2
     operational_transparency: 13.2
   previous_composite: 21.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

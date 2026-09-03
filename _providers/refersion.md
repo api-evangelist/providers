@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: Generate download links for saved reports.
   name: Refersion Reporting API
   slug: refersion-reporting-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Refersion Webhooks
@@ -192,7 +192,7 @@ common:
   url: asyncapi/refersion-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/refersion-mcp.yml
 - group: build
   title: ''
@@ -278,10 +278,6 @@ jsonld:
   property_count: 68
   slug: refersion-context
 layout: provider
-mcp_servers:
-- description: Refersion publishes NO Model Context Protocol server — remote or local. This document is a DERIVED candidate tool surface, computed one-to-one from the 15 operations in Refersion's own published OpenA
-  name: Refersion MCP Server (candidate)
-  slug: refersion-mcp-server-candidate
 modified: '2026-08-13'
 name: Refersion
 nav: Providers
@@ -342,8 +338,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png
 security:

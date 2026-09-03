@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Gateway Bank Banking Products API
   slug: gateway-bank-banking-products-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: well-known/gateway-bank-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gateway-bank-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +194,6 @@ description: Gateway Bank Ltd is a 100% customer-owned Australian mutual bank he
   As a small customer-owned mutual, Gateway Bank does not operate a broader self-serve first-party developer portal beyond these CDR obligations.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gateway-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gateway Bank MCP Server
-  slug: gateway-bank-mcp-server
 modified: '2026-07-21'
 name: Gateway Bank
 nav: Providers
@@ -251,8 +247,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: The recommended tenant-scoped Open API for customers, tickets, organizations, agents, agent groups, departments, knowledge base, IM sessions, call center, outbound call tasks, questionnaires, work log
@@ -206,8 +206,8 @@ score:
   previous_composite: 48.3
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/screenshots/udesk-2026-08-17T082537.png
 security:

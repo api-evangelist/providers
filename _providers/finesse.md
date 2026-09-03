@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce endpoint implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 also supported) over MCP/JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, '
@@ -207,8 +207,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/screenshots/finesse-2026-09-02T145514.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-09-02'
+  score: 27.2
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: https://platform-api.nabis.pro
@@ -128,7 +128,7 @@ apis:
   description: The Warehouses API from Nabis — 1 operation(s) for warehouses.
   name: Nabis Warehouses API
   slug: nabis-warehouses-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: postman
   name: NABIS Platform API v2
@@ -244,7 +244,7 @@ common:
   url: plans/nabis-plans-pricing.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nabis-mcp.yml
 - group: agent
   title: ''
@@ -262,10 +262,6 @@ created: '2026-08-26'
 description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace connecting 400+ cannabis brands to licensed retailers, an analytics layer, and Nabis Capital, an invoice-based financing product, plus Nabis BillPay and Nabis Tracker for retailers. The company reports that 99% of retailers in the three states it serves receive product through Nabis and that it fulfills 3,500+ wholesale orders a week. For developers it publishes the Nabis Platform API — a read-only, API-key-authenticated JSON REST API for brands and retailers covering inventory, inventory history, orders, invoices, retailers, warehouses and the Nabis delivery calendar, with separate California and New York route trees, and an implementation of the Universal Cannabis API labeling standard for order manifests and QR-code regulator events.
 image: https://cdn.prod.website-files.com/5c253860fd28a73e98ee5416/639cbabbb5d9b23d53a27b01_nabis_ogimage.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nabis Platform API — MCP
-  slug: nabis-platform-api-mcp
 modified: '2026-08-26'
 name: Nabis
 nav: Providers
@@ -311,8 +307,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/screenshots/nabis-2026-09-02T150717.png
 security:

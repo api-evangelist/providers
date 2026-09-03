@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -149,7 +149,7 @@ apis:
   description: APIs for managing webhook subscriptions. Merchants can use webhook subscriptions to receive notifications about particular events, instead of having to make API calls periodically to check their statu
   name: Wish Webhook API
   slug: wish-webhook-api
-artifact_total: 50
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Wish Webhooks
@@ -232,7 +232,7 @@ common:
   url: skills/wish-fulfill-orders.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/wish-mcp.yml
 - group: other
   title: ''
@@ -298,10 +298,6 @@ created: '2026-07-17'
 description: 'Wish, operated by ContextLogic Inc., is a global mobile-first e-commerce marketplace that connects value-conscious consumers with merchants and manufacturers around the world, with a large share of inventory shipped direct from suppliers. The Wish Marketplace V3 API lets sellers and ERP partners programmatically manage their storefront and operations: create and update products and variations, synchronize inventory and pricing, retrieve and fulfill orders, modify tracking and shipping-carrier assignments, run bulk create/download jobs, manage support tickets, penalties and infractions, run ProductBoost and promotion campaigns, meet EU/EPR product compliance obligations, and subscribe to webhooks for real-time order and product events. Authentication is OAuth 2.0 (authorization code flow with 37 scopes) plus OpenID Connect, using bearer access tokens over HTTPS, with production and sandbox environments.'
 image: https://logo.clearbit.com/wish.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Wish MCP Server
-  slug: wish-mcp-server
 modified: '2026-07-21'
 name: Wish
 nav: Providers
@@ -358,8 +354,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/screenshots/wish-2026-08-17T082925.png
 security:

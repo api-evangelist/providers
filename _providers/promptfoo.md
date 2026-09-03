@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: The Promptfoo CLI is the primary entry point for running prompt and model evaluations from the command line or CI. It is installable via npm, Homebrew, pip, or npx and reads a YAML configuration to fa
@@ -242,14 +242,14 @@ rate_limits:
   name: Promptfoo Rate Limits
   slug: promptfoo-rate-limits
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 35.9
   coverage:
     artifact_dirs: 6
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -6.4
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -259,13 +259,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 42.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/screenshots/promptfoo-2026-06-20T192156.png
 security:
 - kind: domain-security

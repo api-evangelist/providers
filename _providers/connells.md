@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Published customer testimonials.
   name: Connells Group Testimonials API
   slug: connells-testimonials-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: Connells Website JSON API (undocumented)
@@ -72,7 +72,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/connells-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ examples:
   slug: connells-testimonials-response
 image: https://www.connellsgroup.co.uk/Assets/images/favicons/apple-icon-180x180.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Connells Group MCP Server
-  slug: connells-group-mcp-server
 modified: '2026-07-26'
 name: Connells Group
 nav: Providers
@@ -277,8 +273,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:

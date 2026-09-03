@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: ubank Banking Products API
   slug: ubank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: overlays/ubank-cds-banking-products-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ubank-mcp.yml
 - group: agent
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-20'
 description: ubank is an Australian digital-only bank offering savings accounts and home loans online and over the phone. Launched in 2008 as the online banking brand of National Australia Bank (NAB), ubank operates under NAB's authorised deposit-taking institution (ADI) licence and is registered in the Consumer Data Right (CDR) ecosystem as the "UBank" data holder brand under NAB (ABN 12 004 044 937). After NAB acquired neobank 86 400 in 2021, its customers and technology were migrated onto the 86 400 platform, which is why ubank's public CDR API surface is hosted at public.cdr-api.86400.com.au. As a CDR data holder, ubank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, while authenticated consumer banking data is shared only with accredited data recipients under the CDR's OAuth2/OIDC (FAPI) authorization model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ubank MCP Server
-  slug: ubank-mcp-server
 modified: '2026-07-21'
 name: ubank
 nav: Providers
@@ -234,8 +230,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png
 security:

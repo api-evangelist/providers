@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-09-02'
+  score: 29.7
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - baseURL: http://api.appsamurai.com
@@ -71,7 +71,7 @@ apis:
   description: Story group management endpoints
   name: Appsamurai Story Group API
   slug: appsamurai-story-group-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -165,7 +165,7 @@ common:
   url: well-known/appsamurai-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/appsamurai-mcp.yml
 - group: design
   title: ''
@@ -236,10 +236,6 @@ description: AppSamurai (legally Apps Medya Teknoloji A.S., engineering org Netv
   server at mcp.storyly.io serving Storyly Placement SDK knowledge to agents, and ships embeddable Placement widget SDKs for Android, iOS, Web, React Native and Flutter. AppSamurai is ISO 27001 certified for information security. This profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
 image: https://appsamurai.com/og-default.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Appsamurai MCP Server
-  slug: appsamurai-mcp-server
 modified: '2026-08-13'
 name: Appsamurai
 nav: Providers
@@ -285,8 +281,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:

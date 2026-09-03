@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Judo Bank Banking Products API
   slug: judo-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -143,7 +143,7 @@ common:
   url: data-model/judo-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/judo-bank-mcp.yml
 - group: other
   title: ''
@@ -186,10 +186,6 @@ description: Judo Bank (Judo Capital Holdings Ltd) is an Australian challenger b
   developer program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/judo-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Judo Bank MCP Server
-  slug: judo-bank-mcp-server
 modified: '2026-07-22'
 name: Judo Bank
 nav: Providers
@@ -238,8 +234,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/screenshots/judo-bank-2026-07-21T114730.png
 security:

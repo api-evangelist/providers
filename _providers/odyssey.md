@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Real-time world-model API. Embeds continuous, interactive video simulations into applications via interactive streams, viewable/broadcast streams, and asynchronous simulations, over WebRTC + WebSocket
@@ -157,8 +157,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 25.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odyssey/refs/heads/main/screenshots/odyssey-2026-08-07T185956.png
 security:

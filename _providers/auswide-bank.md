@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: Auswide Bank Banking Products API
   slug: auswide-bank-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: llms/auswide-bank-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/auswide-bank-mcp.yml
 - group: agent
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-20'
 description: Auswide Bank Ltd is an Australian authorised deposit-taking institution (ADI) headquartered in Bundaberg, Queensland, offering home loans, savings and transaction accounts, term deposits, credit cards, and personal and business banking. Formerly Wide Bay Australia and previously ASX-listed (ABA), Auswide is now a division of MyState Bank Limited, a wholly owned subsidiary of the ASX-listed MyState Limited (ASX MYS) following the 2025 merger. As an active CDR data holder under Australia's Consumer Data Right (Open Banking), Auswide exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, alongside the accredited-data-recipient consumer data sharing channels required of every Australian bank.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/auswide-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Auswide Bank MCP Server
-  slug: auswide-bank-mcp-server
 modified: '2026-07-21'
 name: Auswide Bank
 nav: Providers
@@ -238,8 +234,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
 security:

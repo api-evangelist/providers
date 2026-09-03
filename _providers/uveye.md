@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
   description: Generate and record customer-facing public inspection links.
   name: UVeye Public Links API
   slug: uveye-public-links-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Uveye Merchandise Webhooks
@@ -98,7 +98,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/uveye-mcp.yml
 - group: other
   title: ''
@@ -241,10 +241,6 @@ description: 'UVeye builds AI-powered automated vehicle inspection systems — "
   Tel Aviv and London.'
 image: https://uveye.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: UVeye MCP Server
-  slug: uveye-mcp-server
 modified: '2026-08-02'
 name: UVeye
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/screenshots/uveye-2026-08-17T082702.png
 security:

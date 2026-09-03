@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: v2 REST API for submitting candidate screening checks and retrieving report findings (person, profiles, posts, web content, summary, and signed PDF). Bearer-token auth; report completion via HTTP call
   name: Fama REST API
   slug: fama-rest-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Fama Webhooks
@@ -123,7 +123,7 @@ common:
   url: sandbox/fama-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fama-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).
 image: https://cdn.prod.website-files.com/63ea1ecaf41aeda5d5045103/6622b457a4c9d4fde1e2a424_Fama%20Open%20Graph%20Image%202%201200%20x%20630.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fama MCP Server
-  slug: fama-mcp-server
 modified: '2026-07-19'
 name: Fama
 nav: Providers
@@ -200,8 +196,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png
 security:

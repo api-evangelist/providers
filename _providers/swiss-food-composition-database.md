@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.7
-  scored_at: '2026-09-02'
+  score: 18.9
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
@@ -59,7 +59,7 @@ apis:
   description: The system configuration API from Swiss Food Composition Database — 1 operation(s) for system configuration.
   name: Swiss Food Composition Database system configuration API
   slug: swiss-food-composition-database-system-configuration-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -143,7 +143,7 @@ common:
   url: data-model/swiss-food-composition-database-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/swiss-food-composition-database-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +166,6 @@ description: The Swiss Food Composition Database is the official reference datas
   reference data and the current database version.
 image: https://naehrwertdaten.ch/wp-content/uploads/2018/04/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Swiss Food Composition Database MCP Server
-  slug: swiss-food-composition-database-mcp-server
 modified: '2026-08-27'
 name: Swiss Food Composition Database
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swiss-food-composition-database/refs/heads/main/screenshots/swiss-food-composition-database-2026-09-02T161420.png
 security:

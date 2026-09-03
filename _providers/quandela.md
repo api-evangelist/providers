@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 3
@@ -367,13 +367,13 @@ rate_limits:
   slug: quandela-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 48.8
   coverage:
     artifact_dirs: 22
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -383,9 +383,6 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 71.1
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -397,8 +394,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png
 security:

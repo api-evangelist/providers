@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.autopass.xyz
@@ -51,7 +51,7 @@ apis:
   description: In-progress parking sessions
   name: Autopass Sessions API
   slug: autopass-sessions-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Autopass Webhooks
@@ -128,7 +128,7 @@ common:
   url: asyncapi/autopass-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/autopass-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +146,6 @@ created: '2026-07-17'
 description: 'Autopass ("快速通") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its "powered by Autopass" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia''s largest provider of mobility financial services. Backed by 500 Global.'
 image: https://www.autopass.xyz/autopass_og.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Autopass MCP Server
-  slug: autopass-mcp-server
 modified: '2026-07-18'
 name: Autopass
 nav: Providers
@@ -200,8 +196,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:

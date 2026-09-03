@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Compliance tasks and deadlines
   name: SingleFile tasks API
   slug: singlefile-tasks-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: Webhook event surface for SingleFile. Endpoints are configured in Profile Settings > Webhook Settings; deliveries are HTTPS-only and retried with exponential backoff on 5xx.
   name: SingleFile Webhooks
@@ -179,7 +179,7 @@ common:
   url: llms/singlefile-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/singlefile-mcp.yml
 - group: other
   title: ''
@@ -233,10 +233,6 @@ created: '2026-07-17'
 description: SingleFile is an AI-powered entity management and corporate compliance platform for corporations, law firms, and investment organizations. It automates business entity formation, EIN filing, annual report filing, registered agent services, UCC filings, and Corporate Transparency Act (BOI/FinCEN) reporting across all 52 US jurisdictions. The SingleFile External API (v1) exposes organizations, entities, contacts, jurisdictions, documents, orders, tasks, and filing schemas over a REST/JSON interface secured with OAuth 2.0 client credentials, with webhooks for real-time order, document, entity, jurisdiction, and task events. SingleFile is SOC 2 Type II certified.
 image: https://www.singlefile.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: SingleFile MCP Server
-  slug: singlefile-mcp-server
 modified: '2026-07-21'
 name: SingleFile
 nav: Providers
@@ -287,8 +283,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/screenshots/singlefile-2026-08-17T081903.png
 security:

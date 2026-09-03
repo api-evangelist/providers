@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ apis:
   description: The Templates API from Optus — 1 operation(s) for templates.
   name: Optus Templates API
   slug: optus-templates-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: Derived event description for the callbacks The Optus SMS Suite POSTs to subscriber-hosted URLs. Optus publishes NO AsyncAPI document; this file was derived by API Evangelist from two sources that are
   name: The Optus SMS Suite Callback Surface
@@ -268,7 +268,7 @@ common:
   url: data-model/optus-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/optus-mcp.yml
 - group: build
   title: ''
@@ -303,10 +303,6 @@ description: 'Optus (Singtel Optus Pty Limited) is Australia''s second-largest t
   resolve on Akamai but return HTTP 403 Access Denied. On network APIs Optus is a stated GSMA Open Gateway participant and an endorser of the Bridge Alliance API Exchange (BAEx), but as of this review no CAMARA API is callable from Optus directly; its route to developers runs through its parent Singtel''s Paragon-powered BAEx and Aduna, not through anything Optus publishes itself.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Optus MCP Server
-  slug: optus-mcp-server
 modified: '2026-07-25'
 name: Optus
 nav: Providers
@@ -354,8 +350,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 62.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Public GraphQL API for verified Nivoda customers to search live natural and lab-grown diamond, gemstone and jewelry inventory, retrieve real-time pricing, certificates and media, and (with Pro access)
@@ -42,7 +42,7 @@ apis:
 - description: Staging / sandbox GraphQL endpoint mirroring production, with a GraphiQL explorer for browsing queries and mutations and testing code. Staging username and password are shared on request by a Nivoda a
   name: Nivoda Diamonds GraphQL API (Staging)
   slug: nivoda-diamonds-graphql-api-staging
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -130,7 +130,7 @@ common:
   url: well-known/nivoda-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nivoda-mcp.yml
 - group: agent
   title: ''
@@ -144,10 +144,6 @@ created: '2026-07-17'
 description: Nivoda is a global B2B marketplace for the diamond, gemstone and jewelry trade, connecting jewelry retailers directly with suppliers of natural and lab-grown diamonds, colored gemstones, melee and made-to-order finished jewelry without the retailer having to hold stock. The platform provides real-time pricing, high-resolution imagery and video, advanced search and quality control, consolidated shipping and invoicing, flexible credit terms and risk-free returns. Nivoda exposes a public GraphQL API that verified customers use to integrate live supplier inventory into their own websites and storefronts, mirroring the same search capabilities as the Nivoda platform and mobile apps, with Pro access adding orders, holds, diamond requests and concierge requests.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nivoda.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nivoda MCP Server
-  slug: nivoda-mcp-server
 modified: '2026-07-20'
 name: Nivoda
 nav: Providers
@@ -180,8 +176,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nivoda/refs/heads/main/screenshots/nivoda-2026-08-07T185352.png
 security:

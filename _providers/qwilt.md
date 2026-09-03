@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: CDN media-delivery site objects
   name: Qwilt Sites API
   slug: qwilt-sites-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: cli/qwilt-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qwilt-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +221,6 @@ created: '2026-07-17'
 description: Qwilt operates a global content delivery network built on the Open Edge Cloud — a true edge cloud with thousands of deeply embedded caching nodes inside service-provider networks — for OTT video streaming, low-latency live, gaming, and software delivery. Qwilt exposes programmatic control of its CDN through the Sites API (media-delivery site objects, versioned configurations, and publish/un-publish operations), the Certificate Manager API (TLS certificates and Qwilt-managed CSR workflows), the Origin Allow List API, plus Delivery Reports and Keys Manager APIs. Automation is available via the official Qwilt Terraform provider and the qctl command-line interface. Authentication uses QC Services API keys (Viewer/Editor) sent as an X-API-KEY Authorization header, or a username/password bearer token.
 image: https://qwilt.com/wp-content/themes/qwilt/resources/img/favicons/favicon-196x196.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qwilt MCP Server
-  slug: qwilt-mcp-server
 modified: '2026-07-20'
 name: Qwilt
 nav: Providers
@@ -263,8 +259,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/screenshots/qwilt-2026-09-02T152731.png
 security:

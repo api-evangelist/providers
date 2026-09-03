@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: A lightweight (3kB gzipped) JavaScript SDK that lets developers programmatically create, open, and embed StackBlitz projects in web pages, documentation sites, or blog posts. Provides six primary meth
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 28.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackblitz/refs/heads/main/screenshots/stackblitz-2026-06-20T194443.png
 security:

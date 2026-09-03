@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: Circulating and total CADC supply, overall and per chain.
   name: Loon Finance Supply API
   slug: loon-finance-supply-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -138,7 +138,7 @@ common:
   url: well-known/loon-finance-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/loon-finance-mcp.yml
 - group: design
   title: ''
@@ -164,10 +164,6 @@ created: '2026-07-17'
 description: Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prospectus pre-filed with the Alberta Securities Commission. CADC is issued on Ethereum, Base, Polygon, Arbitrum, Linea, and Solana, and Loon acquired the token from Paytrie (launched 2021, $200M+ in cumulative volume). Loon publishes a small public, unauthenticated Transparency API exposing live circulating supply per chain, on-chain issuance (mint) events, and the monthly reserve-attestation history, backed by an llms.txt, a security.txt disclosure policy, and a public transparency dashboard.
 image: https://loon.finance/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Loon Finance MCP Server
-  slug: loon-finance-mcp-server
 modified: '2026-07-20'
 name: Loon Finance
 nav: Providers
@@ -212,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:

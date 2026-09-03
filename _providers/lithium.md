@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -534,7 +534,7 @@ apis:
   description: The Workqueues API from Lithium — 1 operation(s) for workqueues.
   name: Lithium Workqueues API
   slug: lithium-workqueues-api
-artifact_total: 209
+artifact_total: 208
 asyncapis:
 - description: ''
   name: Lithium Webhooks
@@ -983,7 +983,7 @@ common:
   url: asyncapi/lithium-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lithium-mcp.yml
 - group: agent
   title: ''
@@ -1034,10 +1034,6 @@ description: 'Lithium Technologies is the enterprise online-community and social
   adding a GraphQL API behind a login.'
 image: https://avatars.githubusercontent.com/u/4430799?v=4
 layout: provider
-mcp_servers:
-- description: Khoros does not ship an MCP server. This is a candidate tool surface derived from the published operations, not a Khoros product. Anyone building it should note three things from ../conventions/lithiu
-  name: Lithium MCP Server
-  slug: lithium-mcp-server
 modified: '2026-08-13'
 name: Lithium
 nav: Providers
@@ -1091,8 +1087,8 @@ score:
       total: 99
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The LAPIS specification defines a token-minimal, LLM-native format for describing HTTP APIs. A LAPIS document is organized into up to seven indentation-based sections - [meta], [types], [ops], [webhoo
@@ -249,8 +249,8 @@ score:
     governance: 25.0
     operational_transparency: 31.6
   previous_composite: 33.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/screenshots/lapis-2026-06-20T184316.png
 slug: lapis

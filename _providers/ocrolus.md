@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -124,7 +124,7 @@ apis:
   description: The Webhooks API from Ocrolus — 4 operation(s) for webhooks.
   name: Ocrolus Webhooks API
   slug: ocrolus-webhooks-api
-artifact_total: 57
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Ocrolus Webhooks
@@ -344,7 +344,7 @@ common:
   url: agentic-access/ocrolus-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ocrolus-mcp.yml
 - group: agent
   title: ''
@@ -414,10 +414,6 @@ created: '2026-07-17'
 description: 'Ocrolus is a fintech document-automation and analytics platform that helps lenders analyze financial documents - bank statements, pay stubs, tax forms and more - with high accuracy. Its API covers Classify, Capture, Detect and Analyze: document classification and data extraction, fraud and authenticity detection, cash-flow analytics, income calculation for mortgage and SMB/consumer lending, business verification, tag management and webhooks. Authentication is OAuth 2.0 client credentials issuing JWT access tokens, over a REST API at api.ocrolus.com.'
 image: https://www.ocrolus.com/wp-content/uploads/2025/10/social-home-page.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ocrolus MCP Server
-  slug: ocrolus-mcp-server
 modified: '2026-07-20'
 name: Ocrolus
 nav: Providers
@@ -477,8 +473,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:

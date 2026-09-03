@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: REST API for presets (pre-trained classification and entity-extraction models), research reports and their analyses, feedback feeds, query consumption, and subscription usage. Authenticated with an HT
@@ -42,7 +42,7 @@ apis:
 - description: Text-classification API that runs text against custom and pre-built models and returns matching tags with probabilities (batch up to 100 per request), with multi-language results via ISO 639-1 codes.
   name: Kimola Cognitive API
   slug: kimola-cognitive-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -134,7 +134,7 @@ common:
   url: examples/kimola-cognitive-examples.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kimola-mcp.yml
 - group: agent
   title: ''
@@ -148,10 +148,6 @@ created: '2026-07-17'
 description: Kimola is a market research automation platform that turns customer feedback into research insights. It tracks feedback from social media, reviews, and direct uploads; analyzes it with AI to detect themes, sentiment, and patterns across 30+ languages; and generates executive summaries, customer personas, pain points, and journey maps. Kimola exposes a public REST API for presets (pre-trained classification and entity-extraction models), reports, feedback feeds, query consumption, and subscription usage, plus the Kimola Cognitive API for running text through custom and pre-built classification models and returning tagged predictions with probabilities. Official Python, Node.js, and C# SDKs are published. Kimola is backed by 500 Global.
 image: https://kimola.com/images/kimola-og.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kimola MCP Server
-  slug: kimola-mcp-server
 modified: '2026-07-19'
 name: Kimola
 nav: Providers
@@ -184,8 +180,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/screenshots/kimola-2026-07-25T223754.png
 security:

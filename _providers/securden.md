@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Get Password API from Securden — 1 operation(s) for get password.
   name: Securden Get Password API
   slug: securden-get-password-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ common:
   url: cli/securden-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/securden-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Securden is a unified identity security platform that consolidates Privileged Access Management (PAM), Endpoint Privilege Manager (EPM), a business Password Vault, Identity Governance & Administration (IGA), Cloud Infrastructure Entitlement Management (CIEM), Non-Human Identity Management, and AI Agent Security into a single architecture. It is available on-premises, self-hosted, or as SaaS, and is used by organizations including Harvard Medical School, NASA, Shell, and Coca-Cola. For developers and DevOps, Securden publishes a token-authenticated Password Retrieval REST API plus official SDKs (JavaScript, Go, Java, .NET), a cross-platform CLI, and a Terraform provider to eliminate hardcoded credentials in scripts and pipelines. Securden holds SOC 2 Type II and ISO/IEC 27001 certifications and is GDPR compliant.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/securden.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Securden MCP Server
-  slug: securden-mcp-server
 modified: '2026-07-21'
 name: Securden
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/screenshots/securden-2026-08-17T081746.png
 security:

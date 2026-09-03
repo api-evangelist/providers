@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for the Growatt ShineServer monitoring platform. Exposes plant lists and details, plant energy overview and history, device lists, and per-device energy, detail, history a
   name: Growatt Open API V1
   slug: growatt-open-api-v1
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -83,7 +83,7 @@ common:
   url: conformance/growatt-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/growatt-mcp.yml
 - group: agent
   title: ''
@@ -97,10 +97,6 @@ created: '2026-07-17'
 description: Growatt New Energy is a global manufacturer of solar PV inverters, energy storage systems, and smart energy management products for residential, commercial, and utility-scale installations. Growatt operates the ShineServer / ShinePhone cloud monitoring platform and publishes a token-authenticated Open API (V1) that lets third-party systems read plant and device telemetry, retrieve historical energy data, and read or write inverter parameters for MIN (TLX) string inverters and SPH (MIX) hybrid inverters across regional endpoints. Originally surfaced as a portfolio company of IDG Capital; enriched from Growatt's public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/growatt.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Growatt MCP Server
-  slug: growatt-mcp-server
 modified: '2026-07-19'
 name: Growatt
 nav: Providers
@@ -138,8 +134,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growatt/refs/heads/main/screenshots/growatt-2026-07-25T220401.png
 security:

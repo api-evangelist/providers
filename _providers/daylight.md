@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Daylight's partner/product API surface at api.daylight.ai, protected by OAuth2 / OpenID Connect (Bearer token, authorization server at auth.app.daylight.ai). Access is authenticated (returns 401 witho
@@ -158,8 +158,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/screenshots/daylight-2026-07-25T211450.png
 security:

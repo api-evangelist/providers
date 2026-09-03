@@ -1,12 +1,17 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
+  - '{''url'': ''https://www.logik.io'', ''status'': 301, ''note'': ''declared website redirects to https://www.servicenow.com/products/cpq.html/ — a different registrable domain (logik.io -> servicenow.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -98,7 +103,7 @@ apis:
   description: Get Bill of Materials (BOM) information for a given configuration UUID.
   name: Logik.io Runtime - Bill of Materials API
   slug: logikio-runtime-bill-of-materials-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Logik Configurator Runtime APIs
@@ -206,7 +211,7 @@ common:
   url: packages/logikio-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/logikio-mcp.yml
 - group: agent
   title: ''
@@ -240,10 +245,6 @@ created: '2026-07-17'
 description: Logik.io is a headless, composable, API-first CPQ (Configure, Price, Quote) and product-configuration engine. It powers guided configuration, pricing, and quoting for complex products across Salesforce CPQ/Commerce and any headless front end, and computes Sales, Manufacturing, and Custom Bills of Materials. The platform exposes versioned Runtime APIs (start/update/save configurations, access Sets, retrieve BOMs) and Admin APIs (blueprints, fields, rules, managed data tables, jobs), authenticated with HTTP Bearer Runtime and Admin tokens. Logik.io was acquired by ServiceNow and is now also marketed as ServiceNow CPQ / Logik.ai; the developer surface at api-docs.logik.io and github.com/logikioopensource remains live and independent.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logikio.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Logik.io MCP Server
-  slug: logikio-mcp-server
 modified: '2026-08-13'
 name: Logik.io
 nav: Providers
@@ -290,8 +291,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:

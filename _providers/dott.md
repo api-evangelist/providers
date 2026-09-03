@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://gbfs.api.ridedott.com/public/v2
@@ -61,7 +61,7 @@ apis:
   description: Geofencing / operating zones
   name: Dott Zones API
   slug: dott-zones-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -160,7 +160,7 @@ common:
   url: lifecycle/dott-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dott-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +194,6 @@ examples:
   slug: dott-vehicle_types-espoo
 image: https://avatars.githubusercontent.com/u/45282822?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dott MCP Server
-  slug: dott-mcp-server
 modified: '2026-07-18'
 name: Dott
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:

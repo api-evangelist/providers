@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ apis:
   description: The Transactions API from Tandem Bank — 2 operation(s) for transactions.
   name: Tandem Bank Transactions API
   slug: tandem-bank-transactions-api
-artifact_total: 33
+artifact_total: 32
 common:
 - group: other
   title: ''
@@ -245,7 +245,7 @@ common:
   url: lifecycle/tandem-bank-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tandem-bank-mcp.yml
 - group: agent
   title: ''
@@ -304,10 +304,6 @@ description: Tandem Bank (Tandem Bank Limited) is a UK app-only challenger and s
   with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Tandem also consumes Open Banking as a TPP via TrueLayer for savings onboarding and transfers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tandem Bank MCP Server
-  slug: tandem-bank-mcp-server
 modified: '2026-07-23'
 name: Tandem Bank
 nav: Providers
@@ -361,8 +357,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/screenshots/tandem-bank-2026-09-02T162515.png
 security:

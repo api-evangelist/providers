@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.postex.pk/services/integration/api/order
@@ -46,7 +46,7 @@ apis:
   description: Operational cities and merchant address reference data
   name: PostEx Reference API
   slug: postex-reference-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -72,7 +72,7 @@ common:
   url: https://postex.pk
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/postex-mcp.yml
 - group: agent
   title: ''
@@ -94,10 +94,6 @@ created: '2026-07-17'
 description: PostEx is a Pakistani e-commerce logistics, courier, and fintech platform that provides cash-on-delivery parcel fulfilment with instant upfront payments to online merchants, alongside a business suite for expense management, working- capital financing, and the XPay payment gateway. Merchants and order- management systems integrate with PostEx through its merchant Order Integration API (https://api.postex.pk) to book shipments, look up operational cities and pickup addresses, track parcels, and reconcile orders. This profile was enriched by API Evangelist by live-probing the production API host, which confirmed a real merchant integration surface authenticated with a token request header. PostEx is backed by 500 Global.
 image: https://postex.pk/favicon.ico
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the PostEx merchant Order Integration API. No official hosted or remote MCP server was found for PostEx; this tool list is derived one-tool-per-operation from the OpenAPI defi
-  name: PostEx MCP Server
-  slug: postex-mcp-server
 modified: '2026-07-20'
 name: PostEx
 nav: Providers
@@ -141,8 +137,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postex/refs/heads/main/screenshots/postex-2026-09-02T151830.png
 security:

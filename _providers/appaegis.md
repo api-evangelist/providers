@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST (v1 + v2) and GraphQL management API for the Mammoth Cyber (Appaegis) zero-trust access platform. Administers users, teams, access roles, policies, applications, networks, registered devices, blo
   name: Mammoth Cyber Management API
   slug: mammoth-cyber-management-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -99,7 +99,7 @@ common:
   url: conventions/appaegis-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/appaegis-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: 'Appaegis (now Mammoth Cyber) is an enterprise zero-trust access and secure enterprise browser company. Originally launched as Appaegis, the company rebranded to Mammoth Cyber and delivers an Enterprise AI Browser that unifies secure web access, data loss prevention, granular access policy, and zero-trust controls for remote workforces, BYOD, and third-party contractors. The platform is API-first: it exposes a REST management API (v1 and v2) and a GraphQL endpoint on api.mammothcyber.net for administering users, teams, access roles, policies, applications, networks, registered devices, blocked-site lists, and URL categories, with API keys issued from the management portal and a token-exchange authentication flow. This profile was seeded as a 500 Global portfolio lead and enriched from the company''s public developer surface.'
 image: https://avatars.githubusercontent.com/u/53629332?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Appaegis MCP Server
-  slug: appaegis-mcp-server
 modified: '2026-07-17'
 name: Appaegis
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/screenshots/appaegis-2026-07-25T200708.png
 security:

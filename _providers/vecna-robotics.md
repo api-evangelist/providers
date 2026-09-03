@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OpenID Connect / OAuth 2.0 identity endpoints served from the Vecna Robotics partner portal host (vecnarobotics.my.site.com), a Salesforce Experience Cloud community. The discovery document at /.well-
@@ -159,8 +159,8 @@ score:
   previous_composite: 17.3
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/screenshots/vecna-robotics-2026-09-02T165537.png
 security:

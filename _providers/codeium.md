@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://windsurf.com/'', ''status'': 308, ''note'': ''declared website redirects to https://devin.ai/desktop — a different registrable domain (windsurf.com -> devin.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: IDE plugins (VS Code, JetBrains, Vim, Emacs, Visual Studio, Sublime Text, etc.) surfacing autocomplete, chat, command, and Cascade-style agent edits backed by Codeium / Windsurf inference. There is no
@@ -128,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 12.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/screenshots/codeium-2026-06-20T174702.png
 security:

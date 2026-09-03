@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Weav.ai Decisioning Platform, exposing document, folder, form, agent, workflow, action, and chat services used to build agentic insurance decisioning flows. Authenticated with a Beare
   name: Weav.ai Decisioning Platform API
   slug: weavai-decisioning-platform-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -91,7 +91,7 @@ common:
   url: llms/weav-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/weav-mcp.yml
 - group: auth
   title: ''
@@ -101,10 +101,6 @@ created: '2026-07-17'
 description: Weav.ai is an AI-native decisioning platform for property & casualty (P&C) insurance, applying agentic AI and document intelligence across underwriting, premium audit, and claims. The platform pairs pre-configured, line-of-business knowledge graphs and scorecards with an agentic decision engine and human-in-the-loop review, delivered through an API-first, no-code architecture that integrates with existing insurance systems. Developers integrate via a documented REST surface (documents, folders, forms, agents, workflows, actions, and chat services) and a first-party Python developer library (weavaidev) published through the weav-ai GitHub organization, authenticated with a Bearer token against a per-tenant environment host. Weav.ai is backed by Sierra Ventures and is a member of the Guidewire Insurtech Vanguards program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weav.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Weav MCP Server
-  slug: weav-mcp-server
 modified: '2026-07-21'
 name: Weav
 nav: Providers
@@ -141,8 +137,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weav/refs/heads/main/screenshots/weav-2026-09-02T170522.png
 security:

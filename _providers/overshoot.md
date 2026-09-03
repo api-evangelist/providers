@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.overshoot.ai/v1beta
@@ -76,7 +76,7 @@ apis:
   description: The V1beta API from Overshoot — 1 operation(s) for v1beta.
   name: Overshoot V1beta API
   slug: overshoot-v1beta-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: data-model/overshoot-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/overshoot-mcp.yml
 - group: other
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: Overshoot is a real-time video understanding API. Developers create a live video stream, publish frames over WebRTC (LiveKit), then query what the camera sees with vision-language models through an OpenAI-compatible chat completions endpoint — sub-200ms inference against a large catalog of VLMs. Overshoot (YC W2026) targets physical security, safety, gaming, robotics, and consumer products, exposing stream lifecycle management, model listing, prepaid-credit billing, and per-model pricing over a single REST host at api.overshoot.ai.
 image: https://platform.overshoot.ai/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Overshoot MCP Server
-  slug: overshoot-mcp-server
 modified: '2026-07-20'
 name: Overshoot
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/screenshots/overshoot-2026-08-07T191138.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public GraphQL API maintained by the LAOS Foundation for Bridgeless Minting and Evolution of NFTs. Create collections, mint up to 700 NFTs atomically, evolve assets, broadcast to marketplaces, and run
   name: LAOS Network API
   slug: laos-network-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -127,7 +127,7 @@ common:
   url: conformance/freeverse-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/freeverse-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Freeverse is the team behind the LAOS Network, an EVM-compatible Polkadot parachain and public blockchain protocol for Bridgeless Minting and Evolution of digital assets (NFTs). Rather than bridging tokens between chains, LAOS lets applications mint and dynamically evolve NFTs whose ownership is enforced on established chains such as Ethereum and Polygon while the asset logic and gas costs live on LAOS. The LAOS Foundation maintains a public GraphQL API at api.laosnetwork.io that lets developers create collections, mint up to 700 NFTs in a single atomic operation, evolve existing assets, broadcast assets to marketplaces, and run read queries over an on-chain indexer. Read queries are open; write mutations require an API key. Freeverse originated as a Barcelona blockchain gaming and digital-ownership company (Living Assets, Crypto-soccer) and is a portfolio company of Earlybird Venture Capital.
 image: https://laosnetwork.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Freeverse MCP Server
-  slug: freeverse-mcp-server
 modified: '2026-07-19'
 name: Freeverse
 nav: Providers
@@ -181,8 +177,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/screenshots/freeverse-2026-07-25T215145.png
 security:

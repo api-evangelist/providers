@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: Query the payment status of a checkout link.
   name: CloudWalk Payments API
   slug: cloudwalk-payments-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Cloudwalk Infinitepay Webhooks
@@ -79,7 +79,7 @@ common:
   url: overlays/cloudwalk-infinitepay-checkout-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cloudwalk-mcp.yml
 - group: agent
   title: ''
@@ -218,10 +218,6 @@ description: 'CloudWalk, Inc. is a Sunnyvale- and São Paulo-based payments and 
   documents and no MCP or agent surface. The legal entity behind InfinitePay is CLOUDWALK INSTITUIÇÃO DE PAGAMENTO E SERVIÇOS LTDA (CNPJ 18.189.547/0001-42), a Brazilian payment institution supervised by the Banco Central do Brasil.'
 image: https://cdn.prod.website-files.com/6654b3697a9d140e0ca14dcc/6a0bb9e1bb37dcd08e538cc1_Cover-Profile%2044.webp
 layout: provider
-mcp_servers:
-- description: CloudWalk publishes NO MCP server. Searches of the MCP registries, npm (@modelcontextprotocol and CloudWalk/InfinitePay scopes), the CloudWalk GitHub organization and the InfinitePay developer pages a
-  name: CloudWalk MCP Server
-  slug: cloudwalk-mcp-server
 modified: '2026-08-01'
 name: CloudWalk
 nav: Providers
@@ -269,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'Discovery endpoint (GET api/service/v1/discovery) that a partner application calls on startup to resolve the current RESTful URI patterns for the Web-Intent resources it needs, rather than hardcoding '
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

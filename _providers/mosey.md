@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: The Tasks API from Mosey — 9 operation(s) for tasks.
   name: Mosey Tasks API
   slug: mosey-tasks-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -203,7 +203,7 @@ common:
   url: agentic-access/mosey-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mosey-mcp.yml
 - group: other
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: 'Mosey is a business compliance platform that helps multi-state companies open and manage state and local tax, HR, payroll, insurance, and registration accounts. The Mosey API is a composable set of OpenAPI 3.1 endpoints that let software platforms embed state compliance into their own products: sign up or authenticate a legal entity, register the states it operates in, generate and resolve compliance tasks, receive physical mail, and securely manage state-agency logins via short-lived hosted sessions. Authentication is OAuth2 (password grant). Mosey partnered with Gusto, Stripe, and Sequoia Consulting Group and was subsequently acquired by Gusto. This profile was surfaced as a Canaan Partners portfolio company and enriched by the API Evangelist pipeline from Mosey''s public OpenAPI and developer documentation.'
 image: https://mosey.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mosey MCP Server
-  slug: mosey-mcp-server
 modified: '2026-07-20'
 name: Mosey
 nav: Providers
@@ -283,8 +279,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/screenshots/mosey-2026-08-07T184318.png
 security:

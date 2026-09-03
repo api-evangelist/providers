@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
   description: The Xcluster Namespace Details API from Yugabyte — 1 operation(s) for xcluster namespace details.
   name: Yugabyte Xcluster Namespace Details API
   slug: yugabyte-xcluster-namespace-details-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -210,7 +210,7 @@ common:
   url: authentication/yugabyte-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yugabyte-mcp.yml
 - group: agent
   title: ''
@@ -264,10 +264,6 @@ created: '2026-07-17'
 description: 'Yugabyte is the company behind YugabyteDB, an open source (Apache 2.0), PostgreSQL-compatible distributed SQL database built for cloud-native and mission-critical applications. It pairs PostgreSQL wire-compatibility (the YSQL API) and a Cassandra-inspired API (YCQL) with horizontal scalability, built-in resilience, automatic sharding, and automatic failover across multi-region and multi-cloud deployments. Yugabyte ships the database in three form factors: self-managed YugabyteDB, YugabyteDB Anywhere for private and hybrid clouds, and YugabyteDB Aeon, a fully managed database-as-a-service. Developers integrate through PostgreSQL-compatible smart drivers, the YugabyteDB Aeon REST management API, the open source ybm CLI, a Terraform provider, and the yugabyted local admin API.'
 image: https://github.com/yugabyte.png
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP server tool list derived one-to-one from the yugabyted UI API OpenAPI operations. No official hosted YugabyteDB MCP server was found at search time; this is a governance/agent-readiness '
-  name: Yugabyte MCP Server
-  slug: yugabyte-mcp-server
 modified: '2026-07-21'
 name: Yugabyte
 nav: Providers
@@ -306,8 +302,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/screenshots/yugabyte-2026-08-17T083024.png
 security:

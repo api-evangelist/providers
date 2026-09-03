@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The DARPA RSS feed publishes the latest news, program announcements, and opportunities posted by the agency. Unlike a developer API, the feed is consumed via standard RSS readers and HTTP clients.
@@ -119,8 +119,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-advanced-research-projects-agency/refs/heads/main/screenshots/defense-advanced-research-projects-agency-2026-06-20T175818.png
 security:

@@ -1,11 +1,12 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - rate-limits
   - security
   trial: false
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'First Digital''s RESTful API suite for programmatic access to its trust and custody data and services. The provider''s product page describes seven capability areas: client onboarding (business and indi'
@@ -202,8 +203,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-digital-trust/refs/heads/main/screenshots/first-digital-trust-2026-09-02T145519.png
 security:

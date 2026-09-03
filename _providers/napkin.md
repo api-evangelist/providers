@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Create, poll, and download programmatic visual generations.
   name: Napkin Visuals API
   slug: napkin-visuals-api
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -163,7 +163,7 @@ common:
   url: security/napkin-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/napkin-mcp.yml
 - group: agent
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (beta AI presentation agent). Napkin also ships a developer API (currently a developer preview) for generating visuals programmatically: submit text, poll the asynchronous request, and download the results as SVG, PNG, or PPT. The API authenticates with account bearer tokens or an OAuth 2.0 authorization-code flow. Napkin is an AI company backed by CRV.'
 image: https://www.napkin.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Napkin MCP Server
-  slug: napkin-mcp-server
 modified: '2026-07-20'
 name: Napkin
 nav: Providers
@@ -228,8 +224,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/screenshots/napkin-2026-08-07T184622.png
 security:

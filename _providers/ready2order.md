@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.ready2order.com/v1
@@ -216,7 +216,7 @@ apis:
   description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Webhooks push e
   name: Ready2order Webhook API
   slug: ready2order-webhook-api
-artifact_total: 77
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Ready2Order Webhooks
@@ -428,7 +428,7 @@ common:
   url: packages/ready2order-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ready2order-mcp.yml
 - group: agent
   title: ''
@@ -446,10 +446,6 @@ created: '2026-07-17'
 description: ready2order is an Austrian cloud point-of-sale (POS) system for small businesses in gastronomy, retail, and services, running on tablets, phones, computers, and dedicated terminals. Its Public API (v1) lets integrations manage the full POS surface — products and product groups, stock, orders and tables, bills/invoices, customers and customer groups, coupons, discounts, payment methods, printing, daily reports, and accounting exports — secured with a Bearer Account Token and kept in sync through 17 push webhook events. The platform is tax-office compliant for Austria, Germany, and Switzerland. Surfaced as a portfolio company of Speedinvest and enriched into the API Evangelist network from its published OpenAPI and developer documentation.
 image: https://ready2order.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ready2order MCP Server
-  slug: ready2order-mcp-server
 modified: '2026-07-20'
 name: Ready2order
 nav: Providers
@@ -496,8 +492,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/screenshots/ready2order-2026-08-17T081455.png
 security:

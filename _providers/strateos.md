@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Strateos / Transcriptic web API is a JSON:API-based interface for managing organizations, projects, runs, datasets, inventory, protocols, and packages on the robotic cloud lab. It is consumed thro
@@ -145,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strateos/refs/heads/main/screenshots/strateos-2026-09-02T160956.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for NFT data, market analytics, aggregated trading (GoTrading), machine-learning valuations (GoPricing), and webhook notifications (Notify). Authenticates with an X-API-KEY header and is mete
@@ -181,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nftgo/refs/heads/main/screenshots/nftgo-2026-08-07T185237.png
 security:

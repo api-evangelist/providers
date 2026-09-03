@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 11
 apis:
 - description: Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at api.gem.com/v0/reference; access is provisioned for Gem cu
@@ -151,8 +151,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/screenshots/gem-com-2026-06-20T181713.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ arazzos:
 - description: Check that Red Energy's CDR implementation is available, then list its published electricity plans and pull the full tariff detail for one of them. Every step is unauthenticated — no API key, no signu
   name: Compare Red Energy tariff plans
   slug: red-energy-compare-plans-workflow
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: CDR Common API
@@ -194,7 +194,7 @@ common:
   url: packages/red-energy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/red-energy-mcp.yml
 - group: build
   title: ''
@@ -299,10 +299,6 @@ examples:
   slug: red-energy-list-energy-plans-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-energy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool set derived from the CDR specs
-  slug: candidate-mcp-tool-set-derived-from-the-cdr-specs
 modified: '2026-07-27'
 name: Red Energy
 nav: Providers
@@ -356,8 +352,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

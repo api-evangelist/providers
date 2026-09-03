@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: HTTP-based Remote API served from Webmin's remote.cgi on port 10000. Each call passes a `program` parameter naming one of ~200 command-line programs (create-domain, list-domains, create-user, create-a
   name: Virtualmin Remote API
   slug: virtualmin-remote-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: start
   title: ''
@@ -107,7 +107,7 @@ common:
   url: packages/virtualmin-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/virtualmin-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +129,6 @@ created: '2026-07-17'
 description: Virtualmin is an open-source web hosting control panel for Linux and BSD, built on top of Webmin, that lets administrators and resellers manage websites, virtual servers, DNS, email, FTP, databases, SSL certificates, WordPress and more from a single interface. Distributed as a community GPL edition and a commercial Pro edition, Virtualmin (with its sibling Cloudmin for VM/cloud management) has run for 20+ years and manages over a million domains across 200K+ active users. For automation it exposes a command-line API and an HTTP-based Remote API served from Webmin's remote.cgi on port 10000, covering ~200 documented programs for creating and modifying virtual servers, users, aliases, databases, resellers, plans, templates, SSL certs, backups and cloud storage, with plain-text, JSON, XML or Perl output.
 image: https://www.virtualmin.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Virtualmin MCP Server
-  slug: virtualmin-mcp-server
 modified: '2026-07-21'
 name: Virtualmin
 nav: Providers
@@ -163,8 +159,8 @@ score:
   previous_composite: 27.9
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtualmin/refs/heads/main/screenshots/virtualmin-2026-09-02T170019.png
 security:

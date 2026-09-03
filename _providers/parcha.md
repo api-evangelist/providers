@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.parcha.ai/api/v1
@@ -366,7 +366,7 @@ apis:
   description: The UploadB64Document API from Parcha — 1 operation(s) for uploadb64document.
   name: Parcha UploadB64Document API
   slug: parcha-uploadb64document-api
-artifact_total: 138
+artifact_total: 137
 asyncapis:
 - description: ''
   name: Parcha Webhooks
@@ -688,7 +688,7 @@ common:
   url: asyncapi/parcha-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/parcha-mcp.yml
 - group: agent
   title: ''
@@ -702,10 +702,6 @@ created: '2026-07-17'
 description: Parcha is an AI compliance platform that automates customer due diligence, KYB (Know Your Business) and KYC (Know Your Customer) reviews, document verification, and risk screening for banks and fintechs. Its AI agents run configurable checks — sanctions and PEP screening (OFAC/UN/EU/HMT), adverse media, business registration, beneficial ownership, and verification of documents like incorporation papers, EIN certificates, and proof of address — across 90+ watchlists, 140+ jurisdictions, and 200+ languages. Parcha exposes a REST API (bearer-token auth, agent-based jobs, HMAC-signed webhooks, a sandbox server) so onboarding workflows can start KYB/KYC reviews or run individual compliance checks programmatically. Customers include Pipe, Bancoli, Flutterwave, and Bridge. Backed by Initialized Capital and Kindred Ventures.
 image: https://cdn.prod.website-files.com/67d06659dce0778533c88620/686ea152ac77eb6b5dfb45f9_metadata.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Parcha MCP Server
-  slug: parcha-mcp-server
 modified: '2026-07-20'
 name: Parcha
 nav: Providers
@@ -746,8 +742,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/screenshots/parcha-2026-08-07T191435.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Location-based semantic search for the connected car - onebox search with category, brand, corridor, polygon, and bounding-box filters, reverse geocoding, EV charge-station search, auto-suggest and wo
   name: Telenav Entity Service REST API
   slug: telenav-entity-service-rest-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Telenav Webhooks
@@ -135,7 +135,7 @@ common:
   url: well-known/telenav-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/telenav-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Telenav is a connected-car and location-based services company that powers in-vehicle navigation (VIVID NAV), infotainment (VIVID IVI), and in-car commerce (VIVID COMMERCE) for automotive partners including Daimler, Ford, GM, Toyota, and Xpeng. Its developer surface centers on the Entity Service REST API for location-aware semantic search, auto-suggest predictions, entity detail lookup, and discovery including EV charge-station search, alongside partner-distributed navigation and driver-intelligence SDKs documented at docs.telenav.com and open-source Java tooling on Maven Central.
 image: https://avatars.githubusercontent.com/u/3743554?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Telenav MCP Server
-  slug: telenav-mcp-server
 modified: '2026-07-21'
 name: Telenav
 nav: Providers
@@ -189,8 +185,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telenav/refs/heads/main/screenshots/telenav-2026-09-02T162734.png
 security:

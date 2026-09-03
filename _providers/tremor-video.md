@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://services.amobee.com/campaign/v5/api
@@ -63,7 +63,7 @@ apis:
   description: Read-only geographic reference service for Nexxen DSP geo targeting — continents, countries, regions, cities, DMAs, named places and street addresses, each listable and retrievable by id, with regions
   name: Nexxen DSP Location API
   slug: nexxen-dsp-location-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -111,7 +111,7 @@ common:
   url: conformance/tremor-video-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tremor-video-mcp.yml
 - group: build
   title: ''
@@ -181,10 +181,6 @@ created: '2026-07-17'
 description: Tremor Video DSP is the demand-side platform originally built by Tremor Video and Tremor International; following the consolidation of Tremor Video DSP and Amobee it is now marketed as the Nexxen DSP, part of the unified Nexxen advertising stack (DSP, SSP, Ad Server and Data Platform). It offers a REST API for programmatic and connected-TV (CTV) advertising operations, letting partners manage advertisers, insertion orders, packages, line items, ads, creatives, audience segments, inventory and publisher deals, plus read-only device and geographic reference services and an asynchronous reporting service. The four services sit behind one gateway at services.amobee.com and share a single OAuth2 client-credentials bearer token. Nexxen publishes no OpenAPI; the machine-readable contract is a public Postman collection of 94 requests with 75 saved response examples, and API credentials are provisioned inside an existing DSP contract.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tremor-video.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tremor Video MCP Server
-  slug: tremor-video-mcp-server
 modified: '2026-08-13'
 name: Tremor Video
 nav: Providers
@@ -230,8 +226,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/screenshots/tremor-video-2026-09-02T164210.png
 security:

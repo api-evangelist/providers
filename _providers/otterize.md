@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://otterize.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.cyera.com/ — a different registrable domain (otterize.com -> cyera.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 18.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otterize/refs/heads/main/screenshots/otterize-2026-08-07T191031.png
 security:

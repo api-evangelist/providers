@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ arazzos:
 - description: 'The full Duuo tenant (renters) insurance partner flow in Duuo''s mandatory order: check eligibility with consent, add the risk detail and price it into four options, record the selection and any additi'
   name: Duuo tenant insurance — quote and bind
   slug: cooperators-tenant-insurance-quote-and-bind
-artifact_total: 9
+artifact_total: 8
 collections:
 - collection_type: open
   name: Duuo Platform API
@@ -74,7 +74,7 @@ common:
   url: overlays/cooperators-duuo-platform-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cooperators-mcp.yml
 - group: agent
   title: ''
@@ -185,10 +185,6 @@ description: The Co-operators is a Canadian insurance and financial services co-
   — while the advisor and broker channel is a set of sign-in walls (lifeportal.cooperators.ca, benefitsnowlogon.cooperators.ca, basis.cooperators.ca, illustration.cumis.com). The only public API surface in the group belongs to its embedded-insurance brand Duuo, whose Duuo Platform partner APIs cover account, quote, payment and policy issuance for tenant and event insurance behind a signed partnership agreement and issued OAuth 2.0 client credentials; the developer portal Duuo advertises at developer.duuo.ca is a Postman-hosted documentation domain that returns HTTP 404 as of 2026-07-25. No ACORD, AL3 or CSIO reference was found anywhere in the company's public materials.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: The Co-operators MCP Server
-  slug: the-co-operators-mcp-server
 modified: '2026-07-25'
 name: The Co-operators
 nav: Providers
@@ -233,8 +229,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png
 security:

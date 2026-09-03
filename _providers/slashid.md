@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -333,8 +333,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:

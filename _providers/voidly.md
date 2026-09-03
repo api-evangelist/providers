@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries
@@ -95,8 +95,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voidly/refs/heads/main/screenshots/voidly-2026-06-20T201129.png
 security:

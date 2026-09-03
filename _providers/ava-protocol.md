@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
   description: Workflow CRUD and lifecycle actions
   name: Ava Protocol Workflows API
   slug: ava-protocol-workflows-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +155,7 @@ common:
   url: packages/ava-protocol-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ava-protocol-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-17'
 description: Ava Protocol is an AI-powered onchain automation platform for Ethereum and L2s (Base, Soneium), and the evolution of the OAK Network Substrate automation parachain. Users create "workflows" that connect triggers (scheduled time, price conditions, onchain events, or manual) to actions (swaps, transfers, contract calls, notifications) and run them non-custodially from scoped smart wallets — the user always approves before execution. Verifiable execution is provided by an EigenLayer AVS (Actively Validated Service). Developers integrate through a public REST API (the AVS aggregator gateway) and a TypeScript SDK, authenticating with a JWT bearer token obtained via wallet signature (EIP-191) or an operator-minted key.
 image: https://avaprotocol.org/image/open-graph/index.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ava Protocol MCP Server
-  slug: ava-protocol-mcp-server
 modified: '2026-07-18'
 name: Ava Protocol
 nav: Providers
@@ -309,8 +305,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

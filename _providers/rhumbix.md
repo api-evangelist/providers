@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://async-api.rhumbix.com
@@ -51,7 +51,7 @@ apis:
   description: Returns appropriate headers to enable CORS for cross-domain API requests
   name: Rhumbix CORS API
   slug: rhumbix-cors-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -72,7 +72,7 @@ common:
   url: skills/rhumbix-export-workshifts.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rhumbix-mcp.yml
 - group: other
   title: ''
@@ -142,10 +142,6 @@ created: '2026-07-17'
 description: Rhumbix is a field-first workforce management platform for construction that consolidates timekeeping, production tracking, time & materials, change orders, daily field reports, and custom forms into real-time visibility on labor and job costs for trade contractors and general contractors. Rhumbix publishes a REST Public API (Swagger 2.0, x-api-key auth) for batch import of employees and projects and batch export of workshift/timecard data, enabling bidirectional flow between the field and ERP/accounting and project-management systems (Sage, Oracle, SAP, QuickBooks, Viewpoint, CMiC, Procore, Autodesk Construction Cloud). Autodesk has signed a definitive agreement to acquire Rhumbix.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rhumbix.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rhumbix MCP Server
-  slug: rhumbix-mcp-server
 modified: '2026-07-21'
 name: Rhumbix
 nav: Providers
@@ -183,8 +179,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhumbix/refs/heads/main/screenshots/rhumbix-2026-09-02T153759.png
 security:

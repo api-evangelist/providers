@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -149,6 +149,14 @@ common:
   title: ''
   type: FinOps
   url: finops/numbers-api-finops.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: http://numbersapi.com/#api
+- group: company
+  title: ''
+  type: Blog
+  url: http://david-hu.com/2012/03/05/announcing-numbers-api.html
 created: '2026-06-13'
 description: 'Free REST API providing interesting mathematical facts, trivia, dates, and year facts about numbers for educational and fun applications. Returns short, readable facts about any number or date across four categories: trivia, mathematical properties, notable years, and day-of-year historical events. No authentication or API key required.'
 examples:
@@ -192,7 +200,7 @@ overview: 'Numbers API publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Numbers API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Numbers API''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Numbers API''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Numbers Api Plans Pricing
   plan_count: 1
@@ -245,8 +253,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/screenshots/numbers-api-2026-06-20T190517.png
 security:

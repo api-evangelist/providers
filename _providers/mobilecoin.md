@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://mobilecoin.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.sentz.com/ — a different registrable domain (mobilecoin.com -> sentz.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JSON-RPC 2.0 wallet backend for the MobileCoin network - manage accounts and addresses, build and submit transactions, read balances, and query the ledger and network status. Self-hosted; runs locally
   name: MobileCoin Full-Service Wallet API
   slug: mobilecoin-full-service-wallet-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -135,7 +136,7 @@ common:
   url: changelog/mobilecoin-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mobilecoin-mcp.yml
 - group: design
   title: ''
@@ -169,10 +170,6 @@ created: '2026-07-17'
 description: MobileCoin is a privacy-focused, mobile-first cryptocurrency and payments network whose consumer wallet has since been rebranded as Sentz (send, save, receive and earn in stablecoins, including the eUSD stablecoin). For developers and exchanges, MobileCoin publishes the open-source Full-Service Wallet API - a JSON-RPC 2.0 service (default 127.0.0.1:9090) that creates and manages accounts, assigns addresses, builds/submits transactions against the UTXO ledger, reads balances, and queries blocks and network status. It ships first-party Python, Swift (iOS), Android, and Flutter SDKs plus a Python CLI, with documentation on GitBook and open code across the mobilecoinofficial and mobilecoinfoundation GitHub organizations.
 image: https://cdn.prod.website-files.com/652eb795295cf0f25eb7ab84/654e61ed4358885cde9b69ac_Opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mobilecoin MCP Server
-  slug: mobilecoin-mcp-server
 modified: '2026-07-20'
 name: Mobilecoin
 nav: Providers
@@ -211,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/screenshots/mobilecoin-2026-08-07T183847.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: IronMQ is a high-performance hosted message queue that lets you pass messages and events between processes and systems. The v3 REST API supports pull and push queues, subscribers, message reservations
@@ -42,7 +42,7 @@ apis:
 - description: IronWorker is a container-based, massively parallel, multi-language work-on-demand platform. The REST API lets you upload code packages, queue and manage tasks, schedule recurring jobs, and pull stats
   name: IronWorker
   slug: ironworker
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Ironio Webhooks
@@ -150,7 +150,7 @@ common:
   url: asyncapi/ironio-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ironio-mcp.yml
 - group: agent
   title: ''
@@ -160,10 +160,6 @@ created: '2026-07-17'
 description: Iron.io provides hosted serverless infrastructure for background processing and asynchronous messaging. Its flagship products are IronMQ, a high-performance hosted message queue for passing messages and events between processes and systems with support for push queues, subscribers, and long-polling; IronWorker, a container-based, multi-language, work-on-demand platform for running background jobs and scheduled tasks at scale; and IronCache, a hosted key/value store. All services share a single REST/HTTP API authenticated with per-project OAuth tokens obtained from the Iron.io HUD, and a broad set of official client libraries across Go, Ruby, Python, PHP, Java, Node.js, .NET, and Rust.
 image: https://www.iron.io/images/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Iron.io MCP Server
-  slug: ironio-mcp-server
 modified: '2026-07-19'
 name: Iron.io
 nav: Providers
@@ -198,8 +194,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/screenshots/ironio-2026-07-25T222916.png
 security:

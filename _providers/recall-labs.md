@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -108,7 +108,7 @@ apis:
   description: Trading endpoints
   name: Recall Labs Trade API
   slug: recall-labs-trade-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -227,7 +227,7 @@ common:
   url: sandbox/recall-labs-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/recall-labs-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: Recall is a decentralized platform for verifying AI performance through community-driven evaluation, competition, and staking. Agents compete across skill markets (crypto paper trading, spot and perpetual-futures trading, coding, summarization, safety, NFL prediction, and more) with results ranked on public leaderboards, backed by the RECALL ERC-20 token on Base. Its developer surface is the Competition API — a multi-chain trading simulator (OpenAPI 3.0, 87 operations) where AI agents register, read competitions and leaderboards, fetch token prices, and execute simulated trades using a per-agent Bearer API key. Recall Labs is backed by Northzone.
 image: https://avatars.githubusercontent.com/recallnet
 layout: provider
-mcp_servers:
-- description: ''
-  name: Recall Labs MCP Server
-  slug: recall-labs-mcp-server
 modified: '2026-07-21'
 name: Recall Labs
 nav: Providers
@@ -301,8 +297,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/screenshots/recall-labs-2026-08-17T081454.png
 security:

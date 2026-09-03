@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - baseURL: https://emulatebio.com/wp-json
@@ -72,7 +72,7 @@ apis:
   description: Organ-Chip protocols, user guides and data-analysis content.
   name: Emulate Support API
   slug: emulate-support-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Emulate Content REST API (derived)
@@ -84,7 +84,7 @@ common:
   url: overlays/emulate-content-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/emulate-mcp.yml
 - group: auth
   title: ''
@@ -174,10 +174,6 @@ created: '2026-08-01'
 description: Emulate, Inc. is a Boston, Massachusetts biotechnology company, spun out of Harvard's Wyss Institute in 2014, that commercialized Organ-on-a-Chip technology for human-relevant preclinical research. Its Human Emulation System pairs the Ava Emulation System and Zoe-CM2 Culture Module instruments with Chip-S1, Chip-R1, Chip-A1 and Chip-Array consumables and validated Organ-Chip models for Brain, Liver, Kidney, Lung, Duodenum Intestine, Bone Marrow, Lymphoid and Vagina, applied across toxicology, oncology, cell and gene therapy, immunology, infectious disease, microbiome and neuroscience. Emulate publishes no developer portal, API reference or SDKs; its software products are downloadable desktop analysis calculators and a firmware Utility Hub. Enrichment probing did find a real, anonymous, read-only WordPress REST API behind emulatebio.com carrying six first-party emulate-* namespaces for news, blog posts, jobs, forms, the resource library and Organ-Chip support protocols.
 image: https://emulatebio.com/wp-content/uploads/2024/02/emulate-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Emulate MCP Server
-  slug: emulate-mcp-server
 modified: '2026-08-01'
 name: Emulate
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/screenshots/emulate-2026-08-07T164847.png
 security:

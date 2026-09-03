@@ -7,6 +7,7 @@ access_model:
   public: true
   source:
   - plans
+  - '{''url'': ''https://roadmunk.com'', ''status'': 308, ''note'': ''declared website redirects to https://www.tempo.io/products/roadmaps — a different registrable domain (roadmunk.com -> tempo.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Roadmunk (Strategic Roadmaps) GraphQL API provides programmatic access to roadmaps, items, milestones, key dates, portfolios, feedback, ideas, customers, contacts, accounts, and user management. T
@@ -149,8 +150,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 38.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roadmunk/refs/heads/main/screenshots/roadmunk-2026-06-20T193137.png
 security:

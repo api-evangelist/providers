@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://www.oeb.ca
@@ -97,7 +97,7 @@ apis:
   description: The machine-readable query vocabulary the RDS search form itself loads.
   name: Ontario Energy Board Search Metadata API
   slug: ontario-energy-board-search-metadata-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: OEB Open Data
@@ -128,7 +128,7 @@ common:
   url: skills/ontario-energy-board-verify-green-button-mandate.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ontario-energy-board-mcp.yml
 - group: auth
   title: ''
@@ -258,10 +258,6 @@ json_schemas:
   property_count: 11
   slug: ontario-energy-board-rds-record-search-response
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ontario Energy Board MCP Server
-  slug: ontario-energy-board-mcp-server
 modified: '2026-07-27'
 name: Ontario Energy Board
 nav: Providers
@@ -305,8 +301,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:

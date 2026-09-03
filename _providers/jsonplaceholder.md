@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -73,7 +73,10 @@ apis:
   description: 10 sample users with profile, address, and company metadata
   name: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
-artifact_total: 65
+- description: Fake data for testing and prototyping
+  name: JSONPlaceholder
+  slug: jsonplaceholder
+artifact_total: 66
 collections:
 - collection_type: open
   name: API Collection
@@ -184,6 +187,10 @@ common:
   title: ''
   type: FinOps
   url: finops/jsonplaceholder-finops.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://jsonplaceholder.typicode.com/
 created: '2026-05-28'
 description: JSONPlaceholder is a free, no-auth fake REST API for prototyping, tutorials, and testing. It exposes six relational resources — posts, comments, albums, photos, todos, and users — over six standard REST routes per resource. All write operations (POST, PUT, PATCH, DELETE) are accepted and respond as if successful, but no changes are persisted. The service is built on the open-source json-server engine (also by typicode) and serves billions of requests per month with no rate limits or authentication.
 examples:
@@ -305,7 +312,7 @@ overview: 'JSONPlaceholder publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The JSONPlaceholder catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  JSONPlaceholder''s developer surface includes getting-started guide, engineering blog, documentation, pricing, and 17 more developer resources.'
+  JSONPlaceholder''s developer surface includes getting-started guide, engineering blog, documentation, pricing, and 18 more developer resources.'
 plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
@@ -363,8 +370,8 @@ score:
       derived: 6
       marker_coverage: 85.7
       total: 7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:

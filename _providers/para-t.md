@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ arazzos:
 - description: Create a contact, issue a sales invoice, officialize it as an e-Arşiv document, and poll the trackable job until done.
   name: Paraşüt — invoice a customer and officialize as e-Arşiv
   slug: para-t-invoice-and-officialize
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: open
   name: API Collection
@@ -331,7 +331,7 @@ common:
   url: data-model/para-t-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/para-t-mcp.yml
 - group: build
   title: ''
@@ -361,10 +361,6 @@ created: '2026-07-17'
 description: Paraşüt is a Turkish cloud pre-accounting (ön muhasebe) and e-invoicing SaaS for small businesses, freelancers and accountants. Its REST API V4 exposes nearly everything the Paraşüt web app can do — contacts, products, inventory and warehouses, sales invoices and offers, purchase bills, bank and cash accounts and transactions, employees, salaries and taxes — plus Turkey's official electronic document flows (e-Fatura, e-Arşiv and e-SMM). The API follows JSON:API conventions, is authenticated with OAuth2, and handles e-document creation asynchronously via trackable jobs. Backed by 500 Global.
 image: https://apidocs.parasut.com/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Paraşüt MCP Server
-  slug: paraşüt-mcp-server
 modified: '2026-07-20'
 name: Paraşüt
 nav: Providers
@@ -408,8 +404,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png
 security:

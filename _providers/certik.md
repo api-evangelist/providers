@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Real-time on-chain token contract security analysis.
   name: CertiK Token Scan API
   slug: certik-token-scan-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -87,7 +87,7 @@ common:
   url: agentic-access/certik-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/certik-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: 'CertiK is a leading Web3 security platform that combines AI, formal verification, and expert audits to secure blockchain protocols and smart contracts. Its Partner (Skynet) API exposes CertiK''s security intelligence to integrators: the Skynet Security Score API returns comprehensive, multi-metric security scores for blockchain projects (score, rank, tier, percentile, highlights and alerts), and the Token Scan API returns real-time on-chain security analysis of token contracts across major chains (token info, market and holder data, a SkyKnight score, and a severity-ranked security summary). Access is by partner API key issued by the CertiK Business Team, sent in the X-Certik-Api-Key header against https://partner.certik-skynet.com. CertiK is a portfolio company of Insight Partners, Lightspeed Venture Partners, SoftBank Vision Fund and Wing Venture Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/certik.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CertiK MCP Server
-  slug: certik-mcp-server
 modified: '2026-07-18'
 name: CertiK
 nav: Providers
@@ -211,8 +207,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/screenshots/certik-2026-07-25T205001.png
 security:

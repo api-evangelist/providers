@@ -1,9 +1,10 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -12,18 +13,18 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 26.3
-  scored_at: '2026-09-02'
+  score: 43.0
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.dialnexa.com
@@ -91,8 +92,20 @@ apis:
   description: The Workflows API from DialNexa — 3 operation(s) for workflows.
   name: DialNexa Workflows API
   slug: dialnexa-workflows-api
-artifact_total: 13
+artifact_total: 20
+asyncapis:
+- description: ''
+  name: Dialnexa Webhooks
+  slug: dialnexa-webhooks
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dialnexa-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/dialnexa-authentication.yml
 - group: other
   title: ''
   type: APICatalog
@@ -112,45 +125,185 @@ common:
 - group: commercial
   title: ''
   type: Plans
+  url: plans/dialnexa-plans-pricing.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dialnexa-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dialnexa-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/dialnexa-webhooks.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dialnexa-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dialnexa-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dialnexa-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dialnexa-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/dialnexa-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/dialnexa-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dialnexa-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dialnexa-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dialnexa-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dialnexa-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/dialnexa-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dialnexa-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dialnexa-api-overlay.yaml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dialnexa.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://dialnexa.com/docs/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://dialnexa.com/docs/api-reference/quickstart
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://dialnexa.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://dialnexa.com/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://dialnexa.com/blogs/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.dialnexa.com/auth/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dialnexa
+- group: operate
+  title: ''
+  type: Support
+  url: https://dialnexa.com/faq
+- group: commercial
+  title: ''
+  type: Pricing
   url: https://dialnexa.com/pricing
 created: '2026-08-21'
-description: DialNexa is a Voice AI agents platform for sales calls, lead qualification, follow-ups, meeting booking, collections and support workflows, with a strong focus on Indian-market multilingual calling (English, Hindi, Hinglish, Marathi, Kannada, Gujarati, Tamil, Telugu, Bengali and mixed-language calls). The public contract is an OpenAPI 3.0 document of 41 paths and 54 operations served from api.dialnexa.com with bearer authentication. DialNexa publishes an RFC 9727 api-catalog as a proper application/linkset+json document, two llms.txt files (a site index and a 90KB documentation index), and an auth.md written explicitly for AI agents and automation systems describing how API keys are provisioned.
+description: DialNexa is a Voice AI agents platform for sales calls, lead qualification, follow-ups, meeting booking, collections and support workflows, with a strong focus on Indian-market multilingual calling (English, Hindi, Hinglish, Marathi, Kannada, Gujarati, Tamil, Telugu, Bengali and mixed-language calls). The public contract is an OpenAPI 3.0 document of 43 paths and 56 operations served from api.dialnexa.com with bearer authentication. DialNexa publishes an RFC 9727 api-catalog as a proper application/linkset+json document, two llms.txt files (a site index and a 90KB documentation index), an auth.md written explicitly for AI agents and automation systems describing how API keys are provisioned, an official remote MCP server at api.dialnexa.com/v1/mcp (OAuth 2.1 with PKCE, 97 documented tools), and a provider-published Agent Skill served from /.well-known/agent-skills/.
 layout: provider
-modified: '2026-08-21'
+mcp_servers:
+- description: Official hosted remote MCP server for the DialNexa Voice AI platform. Implements stateless MCP Streamable HTTP at https://api.dialnexa.com/v1/mcp with OAuth 2.1 (authorization-code + PKCE, workspace s
+  name: DialNexa MCP Server
+  slug: dialnexa-mcp-server
+modified: '2026-09-03'
 name: DialNexa
 nav: Providers
 network: true
-overview: DialNexa publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Batch Calls API, Calls API, and 10 more. Tagged areas include Voice AI, AI Agents, Telephony, Lead Qualification, and Multilingual.
+overview: 'DialNexa publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Batch Calls API, Calls API, and 10 more. Tagged areas include Voice AI, AI Agents, Telephony, Lead Qualification, and Multilingual.
+
+
+  The DialNexa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  DialNexa''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, signup flow, and 27 more developer resources.'
+plans:
+- name: Dialnexa Plans Pricing
+  plan_count: 3
+  slug: dialnexa-plans-pricing
 random_paper: 19
+rate_limits:
+- limit_count: 1
+  name: Dialnexa Rate Limits
+  slug: dialnexa-rate-limits
+scopes:
+- name: Dialnexa Scopes
+  scope_count: 0
+  slug: dialnexa-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 29.1
+  band: strong
+  composite: 62.5
   coverage:
-    artifact_dirs: 5
-    catalog_gap: 83.0
+    artifact_dirs: 20
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 33.4
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 59.3
-    developer_ergonomics: 38.1
-    discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 28.3
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 66.6
+    developer_ergonomics: 78.6
+    discoverability: 72.2
+    governance: 18.2
+    operational_transparency: 42.1
+  previous_composite: 29.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/screenshots/dialnexa-2026-09-02T145252.png
+security:
+- kind: authentication
+  name: Dialnexa Authentication
+  slug: dialnexa-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Dialnexa Domain Security
+  slug: dialnexa-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: dialnexa
 tags:
 - Voice AI

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Create and retrieve datasets.
   name: Tenyks Datasets API
   slug: tenyks-datasets-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +127,7 @@ common:
   url: well-known/tenyks-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tenyks-mcp.yml
 - group: build
   title: ''
@@ -186,10 +186,6 @@ description: Tenyks is a University of Cambridge spin-out (Y Combinator; backed 
   the same surface.
 image: https://cdn.prod.website-files.com/63a0220866f41638081f4fce/63d07b4812f0f901e939d964_tenyks_logo-color.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tenyks MCP Server
-  slug: tenyks-mcp-server
 modified: '2026-07-21'
 name: Tenyks
 nav: Providers
@@ -228,8 +224,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/screenshots/tenyks-2026-08-17T082314.png
 security:

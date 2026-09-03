@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -168,7 +168,7 @@ apis:
   description: The Workflows API from OutRival — 5 operation(s) for workflows.
   name: OutRival Workflows API
   slug: outrival-workflows-api
-artifact_total: 58
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Outrival Webhooks
@@ -331,7 +331,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/outrival-mcp.yml
 - group: design
   title: ''
@@ -381,10 +381,6 @@ created: '2026-07-17'
 description: OutRival is a conversational AI platform that deploys AI agents ("Digital Workers" / companions) to handle high-volume customer engagement across voice calls, SMS, and chat. Its REST API and Companion Builder let developers create and configure assistants, build multi-node conversation workflows, initiate outbound phone calls, upload knowledge files, manage organization API keys, and receive real-time server events over signed webhooks. OutRival serves higher education, travel, healthcare, insurance, home services, and financial services, and is SOC 2 Type 2 attested. Surfaced as a portfolio company of Initialized Capital and enriched into the API Evangelist network from its published OpenAPI (v1 and v2), docs, and SDK.
 image: https://www.outrival.com/assets/og_card.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OutRival MCP Server
-  slug: outrival-mcp-server
 modified: '2026-07-20'
 name: OutRival
 nav: Providers
@@ -432,8 +428,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
 security:

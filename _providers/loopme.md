@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Publisher Reporting API from LoopMe — 1 operation(s) for publisher reporting.
   name: LoopMe Publisher Reporting API
   slug: loopme-publisher-reporting-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: lifecycle/loopme-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/loopme-mcp.yml
 - group: auth
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: LoopMe is a global brand-performance advertising platform that uses AI to bring brands into mobile and CTV apps. Its products span an AI-powered intelligent marketplace, PurchaseLoop outcome-based brand advertising, the Chartboost in-app monetization platform, and an Audience & Measurement Platform (AMP). For developers, LoopMe exposes a REST Reporting API for publisher (app/site) and advertiser (campaign) statistics, a server-to-server (S2S) ad request API, first-party United SDKs for Android and iOS, and a Prebid.js header-bidding adapter. LoopMe is backed by HV Capital and headquartered in the UK.
 image: https://loopme.ai/wp-content/themes/loopme/assets/images/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: LoopMe MCP Server
-  slug: loopme-mcp-server
 modified: '2026-08-13'
 name: LoopMe
 nav: Providers
@@ -247,8 +243,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/screenshots/loopme-2026-08-17T121137.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
@@ -71,7 +71,7 @@ apis:
   description: The Results API from Buoy Health — 1 operation(s) for results.
   name: Buoy Health Results API
   slug: buoy-health-results-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -185,7 +185,7 @@ common:
   url: packages/buoy-health-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/buoy-health-mcp.yml
 - group: agent
   title: ''
@@ -211,10 +211,6 @@ created: '2026-08-08'
 description: Buoy Health is a Boston-based digital health company whose clinically-trained AI symptom checker and triage engine is offered to health systems, payers and employers as an embeddable API. The Buoy Symptom Checker API v2.0 exposes a conversational triage interview as REST resources — interviews, complaints, queries, intents, questions and results — so an integrator can create a de-identified anonymous interview from basic demographics, accept a chief complaint, walk an adaptively generated question sequence, and read back a differential diagnosis with a recommended level of care and customizable care-handoff destinations. The API is OAuth 2.0 protected against an Auth0-backed authorization server with separate sandbox and production environments, is documented on ReadMe with a published OpenAPI 3.0.1 definition and an llms.txt, and Buoy is HITRUST CSF certified.
 image: https://www.buoyhealth.com/cms/images/buoy_logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Buoy Health MCP Server
-  slug: buoy-health-mcp-server
 modified: '2026-08-08'
 name: Buoy Health
 nav: Providers
@@ -263,8 +259,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/screenshots/buoy-health-2026-08-17T080742.png
 security:

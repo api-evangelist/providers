@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-02'
+  score: 37.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ apis:
   description: The Transactions API from Cynergy Bank — 2 operation(s) for transactions.
   name: Cynergy Bank Transactions API
   slug: cynergy-bank-transactions-api
-artifact_total: 33
+artifact_total: 32
 common:
 - group: other
   title: ''
@@ -240,7 +240,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cynergy-bank-mcp.yml
 - group: build
   title: ''
@@ -298,10 +298,6 @@ created: '2026-07-23'
 description: Cynergy Bank is an FCA- and PRA-authorised UK specialist bank (FCA reference 575105) serving the blended personal and business banking needs of business owners, property entrepreneurs, and family businesses. It was formed in December 2018 when Cynergy Capital acquired Bank of Cyprus UK for approximately £103m and rebranded the business as Cynergy Bank. Although it is not one of the nine CMA-mandated banks (CMA9), as a UK ASPSP it complies with PSD2 and the UK Open Banking Standard, publishing a dedicated third-party interface for the Open Banking Implementation Entity (OBIE) Read/Write APIs — Account & Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). Access is restricted to FCA- or EEA-regulated Third Party Providers and is secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication using OBIE/eIDAS certificates, onboarded through the bank's Open Banking developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cynergy Bank MCP Server
-  slug: cynergy-bank-mcp-server
 modified: '2026-07-24'
 name: Cynergy Bank
 nav: Providers
@@ -357,8 +353,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynergy-bank/refs/heads/main/screenshots/cynergy-bank-2026-07-25T211048.png
 security:

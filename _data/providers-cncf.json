@@ -28,8 +28,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -63,7 +63,7 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 17,
+   "count": 12,
    "providers": [
     {
      "name": "Kubernetes",
@@ -85,8 +85,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -113,53 +113,6 @@
      "rank": 2
     },
     {
-     "name": "Crossplane",
-     "slug": "crossplane",
-     "url": "https://providers.apis.io/providers/crossplane/",
-     "type": "API Provider",
-     "description": "Crossplane is a graduated CNCF open-source Kubernetes add-on that transforms a cluster into a universal control plane for cloud infrastructure, services, and applications. Crossplane introduces custom resources including CompositeResourceDefinitions (XRDs), Compositions, Claims, Providers, ProviderConfigs, Configurations, Functions, and EnvironmentConfigs, allowing platform teams to author self-service platform APIs that compose managed resources across AWS, GCP, Azure, and other providers using Kubernetes-style declarative configuration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-08-17T082555.png",
-     "score": 50.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 72.9,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 40.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Argo",
      "slug": "argo",
      "url": "https://providers.apis.io/providers/argo/",
@@ -179,8 +132,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -204,7 +157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "KEDA",
@@ -226,8 +179,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -251,7 +204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "gRPC",
@@ -273,8 +226,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -298,7 +251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Argo Workflows",
@@ -320,8 +273,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -345,30 +298,77 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
-     "name": "Chaos Mesh",
-     "slug": "chaos-mesh",
-     "url": "https://providers.apis.io/providers/chaos-mesh/",
+     "name": "Rook",
+     "slug": "rook",
+     "url": "https://providers.apis.io/providers/rook/",
      "type": "API Provider",
-     "description": "Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel, JVM, HTTP), along with a Chaos Dashboard web UI backed by a REST API for creating, managing, and monitoring chaos experiments and workflows. Chaos Mesh integrates with Kubernetes, Argo Workflows, Prometheus, Grafana, and CI/CD pipelines to run experiments safely in staging and production environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/screenshots/chaos-mesh-2026-06-20T174215.png",
-     "score": 45.1,
+     "description": "Rook is a CNCF graduated cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for Ceph distributed storage systems to natively integrate with cloud-native environments. It automates the deployment, configuration, provisioning, scaling, upgrading, and monitoring of storage systems through Kubernetes operators and Custom Resource Definitions (CRDs), with primary support for Ceph block storage, shared filesystems, and S3-compatible object storage.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/screenshots/rook-2026-06-20T193212.png",
+     "score": 44.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 64.0,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 38.1,
+      "contract_quality": 61.2,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 45.2,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Crossplane",
+     "slug": "crossplane",
+     "url": "https://providers.apis.io/providers/crossplane/",
+     "type": "API Provider",
+     "description": "Crossplane is a graduated CNCF open-source Kubernetes add-on that transforms a cluster into a universal control plane for cloud infrastructure, services, and applications. Crossplane introduces custom resources including CompositeResourceDefinitions (XRDs), Compositions, Claims, Providers, ProviderConfigs, Configurations, Functions, and EnvironmentConfigs, allowing platform teams to author self-service platform APIs that compose managed resources across AWS, GCP, Azure, and other providers using Kubernetes-style declarative configuration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-08-17T082555.png",
+     "score": 44.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 72.9,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 40.5,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -395,100 +395,6 @@
      "rank": 8
     },
     {
-     "name": "CoreDNS",
-     "slug": "coredns",
-     "url": "https://providers.apis.io/providers/coredns/",
-     "type": "API Provider",
-     "description": "CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. CoreDNS can serve as an authoritative DNS server or a recursive resolver, with HTTP plugins exposing health, readiness, and Prometheus metrics endpoints for Kubernetes operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png",
-     "score": 45.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 50.3,
-      "governance": 69.7,
-      "contract_governance": 69.7,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 25.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Rook",
-     "slug": "rook",
-     "url": "https://providers.apis.io/providers/rook/",
-     "type": "API Provider",
-     "description": "Rook is a CNCF graduated cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for Ceph distributed storage systems to natively integrate with cloud-native environments. It automates the deployment, configuration, provisioning, scaling, upgrading, and monitoring of storage systems through Kubernetes operators and Custom Resource Definitions (CRDs), with primary support for Ceph block storage, shared filesystems, and S3-compatible object storage.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/screenshots/rook-2026-06-20T193212.png",
-     "score": 44.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 61.2,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 45.2,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 25.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "wasmCloud",
      "slug": "wasmcloud",
      "url": "https://providers.apis.io/providers/wasmcloud/",
@@ -508,8 +414,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -533,7 +439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "Artifact Hub",
@@ -555,8 +461,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -580,7 +486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 10
     },
     {
      "name": "Scalable Inference Serving",
@@ -602,8 +508,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -627,148 +533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
-    },
-    {
-     "name": "TiKV",
-     "slug": "tikv",
-     "url": "https://providers.apis.io/providers/tikv/",
-     "type": "API Provider",
-     "description": "TiKV is a CNCF-graduated distributed transactional key-value database built in Rust with Raft consensus. Originally created to complement TiDB, it provides horizontal scalability, strong consistency, and high availability with ACID transaction support. Client APIs are available for Java, Rust, Python, Go, and C++. An HTTP management API provides status, configuration, and monitoring endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/screenshots/tikv-2026-06-20T195351.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 50.2,
-      "governance": 13.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 42.9,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Jaeger",
-     "slug": "jaeger-io",
-     "url": "https://providers.apis.io/providers/jaeger-io/",
-     "type": "API Provider",
-     "description": "Jaeger is an open-source, end-to-end distributed tracing platform for monitoring and troubleshooting transactions in complex distributed systems. Originally built and open-sourced by Uber Technologies in 2017, Jaeger was donated to the Cloud Native Computing Foundation, became an incubating project in 2017, and graduated in 2019. Jaeger v2, released in November 2024, is a customized distribution of the OpenTelemetry Collector and is the OTLP-native generation of the platform. It exposes three primary APIs — the Query API (read), the Collector API (span ingest), and the Sampling Manager API (remote sampling configuration) — across HTTP and gRPC, supports six pluggable storage backends, and ships with a Kubernetes Operator, Helm charts, a React UI, and a Grafana plugin.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/screenshots/jaeger-io-2026-06-20T183651.png",
-     "score": 41.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 52.2,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 38.1,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 14.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "CRI-O",
-     "slug": "cri-o",
-     "url": "https://providers.apis.io/providers/cri-o/",
-     "type": "API Provider",
-     "description": "CRI-O is a CNCF graduated, lightweight container runtime built specifically for Kubernetes. It implements the Kubernetes Container Runtime Interface (CRI) gRPC API and uses any Open Container Initiative (OCI) compatible runtime, including runc and crun, as the underlying container executor. CRI-O integrates with the containers/image and containers/storage libraries, the conmon container monitor, and CNI plugins to deliver a minimal kubelet-facing runtime surface, while also exposing an HTTP status API and Prometheus metrics endpoint for operations and observability.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/screenshots/cri-o-2026-06-20T175228.png",
-     "score": 41.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 45.9,
-      "governance": 45.5,
-      "contract_governance": 45.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 25.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
+     "rank": 11
     },
     {
      "name": "Argo CD",
@@ -790,8 +555,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -815,7 +580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 12
     },
     {
      "name": "Vitess",
@@ -837,8 +602,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -862,7 +627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 13
     }
    ],
    "open": true
@@ -872,30 +637,77 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 16,
+   "count": 21,
    "providers": [
     {
-     "name": "Kubescape",
-     "slug": "kubescape",
-     "url": "https://providers.apis.io/providers/kubescape/",
+     "name": "CoreDNS",
+     "slug": "coredns",
+     "url": "https://providers.apis.io/providers/coredns/",
      "type": "API Provider",
-     "description": "Kubescape is an open-source (Apache 2.0) Kubernetes security platform and CNCF incubating project, originally contributed by ARMO. It provides risk analysis, security and compliance posture scanning, misconfiguration detection, image and runtime vulnerability scanning, and eBPF-based runtime threat detection across the IDE, CI/CD pipelines, and live clusters. The core Kubescape is a CLI and an in-cluster Operator whose components expose OpenAPI/Swagger-documented HTTP APIs in-cluster (there is no single hosted public REST endpoint for the open-source tool). ARMO Platform is the commercial multi-cluster, multi-cloud SaaS built on Kubescape and exposes a documented hosted Customer API (base https://api.armosec.io) for posture, compliance, vulnerabilities, runtime incidents, attack paths, network policies, and registry/repository scanning, authenticated with an X-API-KEY access key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/screenshots/kubescape-2026-07-25T224314.png",
-     "score": 38.9,
+     "description": "CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. CoreDNS can serve as an authoritative DNS server or a recursive resolver, with HTTP plugins exposing health, readiness, and Prometheus metrics endpoints for Kubernetes operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png",
+     "score": 39.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 53.1,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 32.1,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
+      "discoverability": 66.7,
+      "contract_quality": 50.3,
+      "governance": 69.7,
+      "contract_governance": 69.7,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 25.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Chaos Mesh",
+     "slug": "chaos-mesh",
+     "url": "https://providers.apis.io/providers/chaos-mesh/",
+     "type": "API Provider",
+     "description": "Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel, JVM, HTTP), along with a Chaos Dashboard web UI backed by a REST API for creating, managing, and monitoring chaos experiments and workflows. Chaos Mesh integrates with Kubernetes, Argo Workflows, Prometheus, Grafana, and CI/CD pipelines to run experiments safely in staging and production environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/screenshots/chaos-mesh-2026-06-20T174215.png",
+     "score": 39.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 64.0,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -919,7 +731,54 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 15
+    },
+    {
+     "name": "Kubescape",
+     "slug": "kubescape",
+     "url": "https://providers.apis.io/providers/kubescape/",
+     "type": "API Provider",
+     "description": "Kubescape is an open-source (Apache 2.0) Kubernetes security platform and CNCF incubating project, originally contributed by ARMO. It provides risk analysis, security and compliance posture scanning, misconfiguration detection, image and runtime vulnerability scanning, and eBPF-based runtime threat detection across the IDE, CI/CD pipelines, and live clusters. The core Kubescape is a CLI and an in-cluster Operator whose components expose OpenAPI/Swagger-documented HTTP APIs in-cluster (there is no single hosted public REST endpoint for the open-source tool). ARMO Platform is the commercial multi-cluster, multi-cloud SaaS built on Kubescape and exposes a documented hosted Customer API (base https://api.armosec.io) for posture, compliance, vulnerabilities, runtime incidents, attack paths, network policies, and registry/repository scanning, authenticated with an X-API-KEY access key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/screenshots/kubescape-2026-07-25T224314.png",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.1,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 32.1,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
     },
     {
      "name": "Istio",
@@ -941,8 +800,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -966,7 +825,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 17
     },
     {
      "name": "Youki",
@@ -987,8 +846,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1012,7 +871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 18
     },
     {
      "name": "Prometheus",
@@ -1034,8 +893,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1059,41 +918,41 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 19
     },
     {
-     "name": "Runc",
-     "slug": "runc",
-     "url": "https://providers.apis.io/providers/runc/",
+     "name": "TiKV",
+     "slug": "tikv",
+     "url": "https://providers.apis.io/providers/tikv/",
      "type": "API Provider",
-     "description": "runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification and is used as the default low-level container runtime by Docker, containerd, Podman, and other container platforms. runc manages container lifecycle operations including creating, starting, pausing, resuming, killing, and deleting containers. It implements the OCI Runtime Specification and exposes a command-line interface that higher-level runtimes use to manage individual container instances. runc also supports checkpoint/restore via CRIU, rootless containers (no root privileges needed via user namespaces), cgroup v2, seccomp syscall filtering, AppArmor, SELinux, and Intel Memory Protection Extensions. The current stable release line is 1.3.x (runc 1.5.0 expected late April 2026).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/screenshots/runc-2026-06-20T193250.png",
-     "score": 35.2,
+     "description": "TiKV is a CNCF-graduated distributed transactional key-value database built in Rust with Raft consensus. Originally created to complement TiDB, it provides horizontal scalability, strong consistency, and high availability with ACID transaction support. Client APIs are available for Java, Rust, Python, Go, and C++. An HTTP management API provides status, configuration, and monitoring endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/screenshots/tikv-2026-06-20T195351.png",
+     "score": 35.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 25.3,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "contract_quality": 50.2,
+      "governance": 13.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 3.8,
-     "agent_band": "human-only",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1106,30 +965,77 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 20
     },
     {
-     "name": "Vineyard",
-     "slug": "vineyard",
-     "url": "https://providers.apis.io/providers/vineyard/",
+     "name": "Jaeger",
+     "slug": "jaeger-io",
+     "url": "https://providers.apis.io/providers/jaeger-io/",
      "type": "API Provider",
-     "description": "Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyard enables seamless object sharing between computation engines through a metadata-payload separation architecture, supporting Python, C++, Rust, and Go clients. The Vineyard Operator provides Kubernetes-native deployment with CRDs for managing clusters, sidecars, backups, and data operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/screenshots/vineyard-2026-06-20T201035.png",
-     "score": 32.9,
+     "description": "Jaeger is an open-source, end-to-end distributed tracing platform for monitoring and troubleshooting transactions in complex distributed systems. Originally built and open-sourced by Uber Technologies in 2017, Jaeger was donated to the Cloud Native Computing Foundation, became an incubating project in 2017, and graduated in 2019. Jaeger v2, released in November 2024, is a customized distribution of the OpenTelemetry Collector and is the OTLP-native generation of the platform. It exposes three primary APIs — the Query API (read), the Collector API (span ingest), and the Sampling Manager API (remote sampling configuration) — across HTTP and gRPC, supports six pluggable storage backends, and ships with a Kubernetes Operator, Helm charts, a React UI, and a Grafana plugin.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/screenshots/jaeger-io-2026-06-20T183651.png",
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 54.4,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "discoverability": 64.8,
+      "contract_quality": 52.2,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 14.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "CRI-O",
+     "slug": "cri-o",
+     "url": "https://providers.apis.io/providers/cri-o/",
+     "type": "API Provider",
+     "description": "CRI-O is a CNCF graduated, lightweight container runtime built specifically for Kubernetes. It implements the Kubernetes Container Runtime Interface (CRI) gRPC API and uses any Open Container Initiative (OCI) compatible runtime, including runc and crun, as the underlying container executor. CRI-O integrates with the containers/image and containers/storage libraries, the conmon container monitor, and CNI plugins to deliver a minimal kubelet-facing runtime surface, while also exposing an HTTP status API and Prometheus metrics endpoint for operations and observability.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/screenshots/cri-o-2026-06-20T175228.png",
+     "score": 35.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 45.9,
+      "governance": 45.5,
+      "contract_governance": 45.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 25.0,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1153,7 +1059,54 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 22
+    },
+    {
+     "name": "Vineyard",
+     "slug": "vineyard",
+     "url": "https://providers.apis.io/providers/vineyard/",
+     "type": "API Provider",
+     "description": "Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyard enables seamless object sharing between computation engines through a metadata-payload separation architecture, supporting Python, C++, Rust, and Go clients. The Vineyard Operator provides Kubernetes-native deployment with CRDs for managing clusters, sidecars, backups, and data operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/screenshots/vineyard-2026-06-20T201035.png",
+     "score": 32.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 54.4,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
     },
     {
      "name": "Akri",
@@ -1175,8 +1128,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1200,7 +1153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "WasmEdge",
@@ -1222,8 +1175,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1247,7 +1200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Pixie Labs",
@@ -1269,8 +1222,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1294,7 +1247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "BFE",
@@ -1316,8 +1269,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1341,7 +1294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Weave Net",
@@ -1363,8 +1316,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1388,7 +1341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Score",
@@ -1410,8 +1363,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1435,7 +1388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Meshery",
@@ -1457,8 +1410,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1482,7 +1435,101 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 30
+    },
+    {
+     "name": "Runc",
+     "slug": "runc",
+     "url": "https://providers.apis.io/providers/runc/",
+     "type": "API Provider",
+     "description": "runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification and is used as the default low-level container runtime by Docker, containerd, Podman, and other container platforms. runc manages container lifecycle operations including creating, starting, pausing, resuming, killing, and deleting containers. It implements the OCI Runtime Specification and exposes a command-line interface that higher-level runtimes use to manage individual container instances. runc also supports checkpoint/restore via CRIU, rootless containers (no root privileges needed via user namespaces), cgroup v2, seccomp syscall filtering, AppArmor, SELinux, and Intel Memory Protection Extensions. The current stable release line is 1.3.x (runc 1.5.0 expected late April 2026).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/screenshots/runc-2026-06-20T193250.png",
+     "score": 28.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 25.3,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 31
+    },
+    {
+     "name": "The Update Framework (TUF)",
+     "slug": "tuf",
+     "url": "https://providers.apis.io/providers/tuf/",
+     "type": "API Provider",
+     "description": "TUF (The Update Framework) is a CNCF graduated framework for securing software update systems. It provides a specification for how software repositories should be structured and how clients should verify updates to protect against key compromise, rollback attacks, and mix-and-match attacks. TUF is used by many package managers and update systems including PyPI, Sigstore, and various Linux distributions. The framework defines a four-role metadata structure (root, targets, snapshot, timestamp) with threshold signing and delegation capabilities for scalable trust management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/screenshots/tuf-2026-06-20T195821.png",
+     "score": 28.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 24.0,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 32
     },
     {
      "name": "Argo CD",
@@ -1504,8 +1551,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1524,53 +1571,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": true,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "The Update Framework (TUF)",
-     "slug": "tuf",
-     "url": "https://providers.apis.io/providers/tuf/",
-     "type": "API Provider",
-     "description": "TUF (The Update Framework) is a CNCF graduated framework for securing software update systems. It provides a specification for how software repositories should be structured and how clients should verify updates to protect against key compromise, rollback attacks, and mix-and-match attacks. TUF is used by many package managers and update systems including PyPI, Sigstore, and various Linux distributions. The framework defines a four-role metadata structure (root, targets, snapshot, timestamp) with threshold signing and delegation capabilities for scalable trust management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/screenshots/tuf-2026-06-20T195821.png",
-     "score": 27.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 24.0,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -1598,8 +1598,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1632,7 +1632,7 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 13,
+   "count": 12,
    "providers": [
     {
      "name": "Perses",
@@ -1654,8 +1654,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1701,8 +1701,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1748,8 +1748,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1795,8 +1795,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1823,53 +1823,6 @@
      "rank": 38
     },
     {
-     "name": "SOPS",
-     "slug": "sops",
-     "url": "https://providers.apis.io/providers/sops/",
-     "type": "API Provider",
-     "description": "SOPS (Secrets OPerationS) is a CNCF Sandbox encrypted file editor that supports YAML, JSON, ENV, INI, and binary formats. SOPS encrypts file values while leaving keys in cleartext, enabling secure storage of secrets in version control systems. Supports AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP for key management. Originally created at Mozilla and donated to the CNCF in 2023.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sops/refs/heads/main/screenshots/sops-2026-06-20T194211.png",
-     "score": 24.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 39
-    },
-    {
      "name": "Service Mesh Interface (SMI)",
      "slug": "service-mesh-interface",
      "url": "https://providers.apis.io/providers/service-mesh-interface/",
@@ -1889,8 +1842,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1921,7 +1874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Cloud Native Buildpacks",
@@ -1943,8 +1896,55 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "Envoy Gateway",
+     "slug": "envoy-gateway",
+     "url": "https://providers.apis.io/providers/envoy-gateway/",
+     "type": "API Provider",
+     "description": "Envoy Gateway is a CNCF project providing a Kubernetes-native API gateway built on Envoy Proxy, implementing the Kubernetes Gateway API for simplified traffic management and ingress control. Envoy Gateway exposes its functionality through Kubernetes Gateway API resources and Custom Resource Definitions rather than a traditional REST API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/envoy-gateway/refs/heads/main/screenshots/envoy-gateway-2026-06-20T180742.png",
+     "score": 19.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1971,74 +1971,27 @@
      "rank": 41
     },
     {
-     "name": "Bootc",
-     "slug": "bootc",
-     "url": "https://providers.apis.io/providers/bootc/",
+     "name": "SOPS",
+     "slug": "sops",
+     "url": "https://providers.apis.io/providers/sops/",
      "type": "API Provider",
-     "description": "Bootc is an open source tool that enables transactional, in-place operating system updates using OCI/Docker container images as the source for OS updates. It applies the container layering model to bootable host systems, using standard OCI containers as a transport and delivery format for base operating system updates. The container image includes a Linux kernel, and when deployed the base userspace runs normally with systemd as PID 1. Bootc is a CNCF Sandbox project with a stable CLI and API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bootc/refs/heads/main/screenshots/bootc-2026-06-20T173605.png",
-     "score": 20.5,
+     "description": "SOPS (Secrets OPerationS) is a CNCF Sandbox encrypted file editor that supports YAML, JSON, ENV, INI, and binary formats. SOPS encrypts file values while leaving keys in cleartext, enabling secure storage of secrets in version control systems. Supports AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP for key management. Originally created at Mozilla and donated to the CNCF in 2023.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sops/refs/heads/main/screenshots/sops-2026-06-20T194211.png",
+     "score": 19.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "discoverability": 68.5,
+      "contract_quality": 10.7,
+      "governance": 9.8,
+      "contract_governance": 9.8,
       "operational_transparency": 28.9,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Envoy Gateway",
-     "slug": "envoy-gateway",
-     "url": "https://providers.apis.io/providers/envoy-gateway/",
-     "type": "API Provider",
-     "description": "Envoy Gateway is a CNCF project providing a Kubernetes-native API gateway built on Envoy Proxy, implementing the Kubernetes Gateway API for simplified traffic management and ingress control. Envoy Gateway exposes its functionality through Kubernetes Gateway API resources and Custom Resource Definitions rather than a traditional REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/envoy-gateway/refs/heads/main/screenshots/envoy-gateway-2026-06-20T180742.png",
-     "score": 19.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 33.3,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2062,54 +2015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
-    },
-    {
-     "name": "Telepresence",
-     "slug": "telepresence",
-     "url": "https://providers.apis.io/providers/telepresence/",
-     "type": "API Provider",
-     "description": "Telepresence is a Cloud Native Computing Foundation (CNCF) Sandbox open source tool that enables fast local development for Kubernetes and OpenShift microservices. It creates a bidirectional network bridge between a developer's local machine and a remote Kubernetes cluster, allowing services to run locally while connecting to remote dependencies. Originally created by Ambassador Labs, Telepresence lets developers intercept traffic destined for specific cluster workloads and route it to their local environment for testing and debugging.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/screenshots/telepresence-2026-06-20T195041.png",
-     "score": 19.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 6.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "Cloud Native Buildpacks",
@@ -2131,8 +2037,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2156,7 +2062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "Merbridge",
@@ -2178,8 +2084,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2203,7 +2109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Ratify",
@@ -2225,8 +2131,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2257,7 +2163,54 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 45
+    },
+    {
+     "name": "Bootc",
+     "slug": "bootc",
+     "url": "https://providers.apis.io/providers/bootc/",
+     "type": "API Provider",
+     "description": "Bootc is an open source tool that enables transactional, in-place operating system updates using OCI/Docker container images as the source for OS updates. It applies the container layering model to bootable host systems, using standard OCI containers as a transport and delivery format for base operating system updates. The container image includes a Linux kernel, and when deployed the base userspace runs normally with systemd as PID 1. Bootc is a CNCF Sandbox project with a stable CLI and API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bootc/refs/heads/main/screenshots/bootc-2026-06-20T173605.png",
+     "score": 11.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 14.3,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
     }
    ]
   },
@@ -2266,8 +2219,55 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1,
+   "count": 2,
    "providers": [
+    {
+     "name": "Telepresence",
+     "slug": "telepresence",
+     "url": "https://providers.apis.io/providers/telepresence/",
+     "type": "API Provider",
+     "description": "Telepresence is a Cloud Native Computing Foundation (CNCF) Sandbox open source tool that enables fast local development for Kubernetes and OpenShift microservices. It creates a bidirectional network bridge between a developer's local machine and a remote Kubernetes cluster, allowing services to run locally while connecting to remote dependencies. Originally created by Ambassador Labs, Telepresence lets developers intercept traffic destined for specific cluster workloads and route it to their local environment for testing and debugging.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/screenshots/telepresence-2026-06-20T195041.png",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 6.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
     {
      "name": "HAMI",
      "slug": "hami",
@@ -2288,8 +2288,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

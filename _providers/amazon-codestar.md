@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ apis:
   description: 'The #X Amz Target=CodeStar 20170419.UpdateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UpdateUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api
-artifact_total: 297
+artifact_total: 296
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +195,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-codestar-mcp.yml
 - group: other
   title: ''
@@ -1028,10 +1028,6 @@ jsonld:
   property_count: 43
   slug: amazon-codestar-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon CodeStar MCP Server
-  slug: amazon-codestar-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeStar
 nav: Providers
@@ -1094,8 +1090,8 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://erp.vineretail.com/RestWS/api/eretail
@@ -121,7 +121,7 @@ apis:
   description: API to retrieve or manipulate Vendor related information.
   name: Vinculum Vendors API
   slug: vinculum-vendors-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -228,7 +228,7 @@ common:
   url: data-model/vinculum-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vinculum-mcp.yml
 - group: agent
   title: ''
@@ -258,10 +258,6 @@ created: '2026-07-17'
 description: Vinculum is an AI-driven SaaS company for omnichannel retail and ecommerce. Its Vin eRetail platform unifies order management (OMS), warehouse management (WMS), product information management (PIM), and endless-aisle omnichannel retail across 150+ sales channels and marketplaces for 1,000+ brands, processing 20M+ orders monthly. The Vin eRetail REST API exposes orders, returns, products/SKUs, inventory/stock, vendors, purchase orders, inbounds, advance shipping notices, transfers, and fulfillment operations, alongside a SellerPanel V3 marketplace API for listing, order, and courier-allocation flows. Originally surfaced as an Accel portfolio company, this profile has been enriched from Vinculum's published Swagger.
 image: https://erp.vineretail.com/swagger/Vinculum-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Vinculum MCP Server
-  slug: vinculum-mcp-server
 modified: '2026-07-21'
 name: Vinculum
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vinculum/refs/heads/main/screenshots/vinculum-2026-09-02T165926.png
 security:

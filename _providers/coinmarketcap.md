@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single REST API spanning Cryptocurrency endpoints (listings, quotes, OHLCV, market pairs, historical), Exchange endpoints (listings, quotes, market pairs), DEX/on-chain data (networks, dexes, spot pai
@@ -131,8 +131,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinmarketcap/refs/heads/main/screenshots/coinmarketcap-2026-06-20T174738.png
 security:

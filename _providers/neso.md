@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
@@ -42,7 +42,7 @@ apis:
 - description: The official Carbon Intensity API for Great Britain, developed by NESO, giving national and regional carbon intensity of GB electricity - actual, forecast up to 96+ hours ahead, half-hourly generation
   name: Carbon Intensity API
   slug: neso-carbon-intensity-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: operate
   title: ''
@@ -102,7 +102,7 @@ common:
   url: packages/neso-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/neso-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ description: The National Energy System Operator (NESO) is Great Britain's publi
   is one of the most openly consumed public energy APIs in the world. There is no consumer data surface at all, and none is expected, because NESO holds no retail customer relationships, Britain has no consumer energy data-portability mandate comparable to the Australian Consumer Data Right, and smart-meter consumption data travels through the licensed Smart DCC monopoly rather than through the system operator. NESO's open-data obligation comes from Ofgem's Data Best Practice Guidance embedded in its RIIO-2 licence, and unlike most of the sector that obligation is visibly implemented rather than merely claimed.
 image: https://www.neso.energy/themes/custom/neso_theme/logo.svg
 layout: provider
-mcp_servers:
-- description: 'NESO operates NO first-party MCP server. This is a CANDIDATE tool design for one, derived from the two live anonymous APIs. Both surfaces are unusually well suited to MCP: no authentication, CORS-open'
-  name: National Energy System Operator (NESO) MCP Server
-  slug: national-energy-system-operator-neso-mcp-server
 modified: '2026-07-27'
 name: National Energy System Operator (NESO)
 nav: Providers
@@ -211,8 +207,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/screenshots/neso-2026-08-07T184913.png
 security:

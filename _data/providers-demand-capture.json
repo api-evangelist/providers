@@ -12,6 +12,58 @@
    "shown": 18,
    "providers": [
     {
+     "name": "Salesforce Marketing Cloud",
+     "slug": "salesforce-marketing-cloud",
+     "description": "Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with HMAC-SHA256 signed callbacks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png",
+     "score": 83.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 74.5,
+      "governance": 31.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 56.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 1
+    },
+    {
      "name": "Kit",
      "slug": "convertkit",
      "description": "Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit-Api-Key header for personal automation or OAuth 2.0 (PKCE, dynamic client registration, rotating single-use refresh tokens) for apps published to the Kit App Store, and uses cursor-based pagination, an OAuth-only bulk namespace with async callbacks, and eventually-consistent list reads. Kit also runs two remote MCP servers - an OAuth-gated one that acts on a creator's account and an anonymous read-only documentation server - publishes an A2A agent card and an Agent Skill from its developer docs host, and ships llms.txt. Its only first-party API client is a PHP SDK.",
@@ -29,8 +81,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -62,58 +114,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 1
-    },
-    {
-     "name": "Salesforce Marketing Cloud",
-     "slug": "salesforce-marketing-cloud",
-     "description": "Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with HMAC-SHA256 signed callbacks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png",
-     "score": 77.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 74.5,
-      "governance": 31.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 73.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 56.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 2
     },
     {
@@ -134,8 +134,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -187,8 +187,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -259,8 +259,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -323,8 +323,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -368,8 +368,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 45.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -414,8 +414,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 58.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -460,8 +460,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -520,8 +520,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 62.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -565,8 +565,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -618,8 +618,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -671,8 +671,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -724,8 +724,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -770,8 +770,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -816,8 +816,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -862,8 +862,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -908,8 +908,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -965,8 +965,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1011,8 +1011,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 59.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1057,8 +1057,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1103,8 +1103,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 49.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1149,8 +1149,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1195,8 +1195,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1241,8 +1241,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1287,8 +1287,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1332,8 +1332,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 39.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1378,8 +1378,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1438,8 +1438,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1490,8 +1490,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1535,8 +1535,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1581,8 +1581,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1645,8 +1645,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1688,52 +1688,6 @@
      "rank": 33
     },
     {
-     "name": "Bazaarvoice",
-     "slug": "bazaarvoice",
-     "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of brand and retailer sites. Its developer portal publishes twelve product sections and eleven distinct OpenAPI documents: the Conversations Display and Conversations Submission APIs for retrieving and posting UGC, the V2.0 Content Search API, the Response API for brand replies, the Transactions API for scheduling review requests, the Product Sentiment API for NLP-derived feature insight, the Notifications Subscriptions and Privacy APIs, the Social Commerce Display API for visual UGC, bulk Displayable Content and Product Sentiment exports, and the Authentic Discovery API, which returns Schema.org JSON-LD so AI crawlers that do not run JavaScript can read a product's reviews. Authentication varies by product - a Portal-managed passkey (Bv-Passkey header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png",
-     "score": 60.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 52.9,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 48.7,
-      "developer_ergonomics": 67.3,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 34
-    },
-    {
      "name": "Zaius",
      "slug": "zaius",
      "description": "Zaius is the B2C marketing customer data platform (CDP) that Optimizely acquired in 2021 and now operates as the Optimizely Data Platform (ODP). It unifies customer, event, order, product, and custom data into a single behavioral profile, powers real-time audience segmentation, and drives personalization and orchestrated cross-channel campaigns. ODP exposes a versioned (v3) REST API surface across regional hosts (US/EU/AU) for events, customers, orders, products, objects, lists, consent, exports, schema management, recommendations, and real-time segments, plus a GraphQL query API and Web / React Native / Node SDKs. Authentication is via public (Tracker ID) and private x-api-key keys. Originally a portfolio company of Insight Partners.",
@@ -1751,8 +1705,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1777,7 +1731,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "AirOps",
@@ -1797,15 +1751,15 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 46.5,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 51.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -1823,7 +1777,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Kentico",
@@ -1843,8 +1797,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1868,7 +1822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Ploy",
@@ -1888,8 +1842,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1914,7 +1868,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "SE Ranking",
@@ -1934,8 +1888,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1960,7 +1914,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Intelligems",
@@ -1980,15 +1934,15 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 52.6,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 57.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2005,7 +1959,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Scrunch AI",
@@ -2025,15 +1979,15 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 35.5,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 40.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -2051,7 +2005,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Demandbase",
@@ -2071,8 +2025,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2096,7 +2050,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Clerk.io",
@@ -2116,8 +2070,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2142,7 +2096,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Sendspark",
@@ -2162,15 +2116,15 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 51.6,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 56.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -2187,6 +2141,52 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 43
+    },
+    {
+     "name": "Bazaarvoice",
+     "slug": "bazaarvoice",
+     "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of brand and retailer sites. Its developer portal publishes twelve product sections and eleven distinct OpenAPI documents: the Conversations Display and Conversations Submission APIs for retrieving and posting UGC, the V2.0 Content Search API, the Response API for brand replies, the Transactions API for scheduling review requests, the Product Sentiment API for NLP-derived feature insight, the Notifications Subscriptions and Privacy APIs, the Social Commerce Display API for visual UGC, bulk Displayable Content and Product Sentiment exports, and the Authentic Discovery API, which returns Schema.org JSON-LD so AI crawlers that do not run JavaScript can read a product's reviews. Authentication varies by product - a Portal-managed passkey (Bv-Passkey header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png",
+     "score": 58.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 52.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 48.7,
+      "developer_ergonomics": 67.3,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
      "rank": 44
     },
     {
@@ -2207,8 +2207,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2253,8 +2253,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2305,8 +2305,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 31.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2351,8 +2351,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2397,8 +2397,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2443,8 +2443,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2489,8 +2489,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2535,8 +2535,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2580,8 +2580,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2625,8 +2625,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2696,8 +2696,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2742,8 +2742,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2810,15 +2810,15 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 39.6,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2856,8 +2856,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2901,8 +2901,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2947,8 +2947,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2993,8 +2993,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3046,8 +3046,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3092,8 +3092,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3138,8 +3138,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3184,8 +3184,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3230,15 +3230,15 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 27.0,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -3276,8 +3276,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3322,8 +3322,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3368,8 +3368,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3414,8 +3414,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3459,8 +3459,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3505,15 +3505,15 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 44.3,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 40.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -3551,8 +3551,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3597,8 +3597,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3650,15 +3650,15 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 11.4,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -3695,8 +3695,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3741,8 +3741,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3786,8 +3786,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3832,8 +3832,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3877,8 +3877,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 8.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3923,8 +3923,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3969,8 +3969,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4024,8 +4024,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4070,8 +4070,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4110,14 +4110,14 @@
       "discoverability": 57.4,
       "contract_quality": 60.7,
       "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 2.6,
       "developer_ergonomics": 44.6,
       "commercial_clarity": 26.3,
-      "contract_governance": 4.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4169,8 +4169,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4197,6 +4197,51 @@
      "rank": 86
     },
     {
+     "name": "Kudobuzz",
+     "slug": "kudobuzz",
+     "description": "Kudobuzz is a reviews, user-generated content (UGC) and conversion-rate-optimization platform for ecommerce merchants. It collects, moderates and displays product and social reviews, imports reviews from Facebook, Google, Yelp, Amazon, Etsy and AliExpress, syncs shoppable UGC video from social channels, and runs After Purchase Mail campaigns that time review requests to a buyer's order. Merchants install it as an app on Shopify, Wix, BigCommerce, Shoplazza and Webflow and embed site, product, full-page and checkout widgets in their storefronts. The gated Developer API (api.kudobuzz.com/v1) exposes review creation plus customer and order sync for the APM product, is available to merchants on the Buffet plan and free to app developers building integrations, and is served by a first-party JavaScript client wrapper. Kudobuzz publishes its REST design standard, covering URLs, status codes, the error envelope, versioning, cursor pagination, rate-limit headers and idempotency, as a public repository.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png",
+     "score": 34.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 12.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 87
+    },
+    {
      "name": "Schema.org",
      "slug": "schema-org",
      "description": "Schema.org is a collaborative, community-driven project that creates and maintains a shared vocabulary for structured data on the web. Founded by Google, Microsoft, Yahoo, and Yandex in 2011, it provides types and properties that developers and webmasters use to annotate content in formats like JSON-LD, RDFa, and Microdata, enabling search engines and applications to better understand web content. The vocabulary currently consists of 800+ Types, 1500+ Properties, and covers domains including commerce, healthcare, organizations, events, creative works, and more. The Schema.org WebAPI type provides a standardized vocabulary for describing APIs in structured data.",
@@ -4214,8 +4259,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4240,7 +4285,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "SundaySky",
@@ -4260,53 +4305,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 7.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "Qeen.AI",
-     "slug": "qeenai",
-     "description": "Qeen (qeen.ai) is a Dubai-based AI company serving e-commerce brands across the GCC and wider MENA region. Founded in 2023 by former Google and DeepMind researchers and backed by a $10M seed led by Prosus Ventures ($12M total), it sells two things: a self-serve content-optimization product that generates, localizes and A/B-tests Arabic and English product titles, descriptions and meta descriptions, and a commission-based growth marketing engagement priced at 5% of generated revenue with no retainer. Qeen publishes no OpenAPI, no developer portal and no public API reference. Its machine-readable surface is three first-party client SDKs — a binary Swift package for iOS and an Android AAR, both at 1.5.0 and shipping roughly weekly, plus a browser SDK and embedded search widget served from its own CDN. Ingestion credentials (an API key and a customer-provisioned host) are issued privately by email rather than through self-service, and the customer platform API at users.qeen.ai is a session-gated Django REST Framework backend for the web application rather than a developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qeenai/refs/heads/main/screenshots/qeenai-2026-09-02T152427.png",
-     "score": 31.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 0.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 69.7,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4333,26 +4333,26 @@
      "rank": 89
     },
     {
-     "name": "Kudobuzz",
-     "slug": "kudobuzz",
-     "description": "Kudobuzz is a reviews, user-generated content (UGC) and conversion-rate-optimization platform for ecommerce merchants. It collects, moderates and displays product and social reviews, imports reviews from Facebook, Google, Yelp, Amazon, Etsy and AliExpress, syncs shoppable UGC video from social channels, and runs After Purchase Mail campaigns that time review requests to a buyer's order. Merchants install it as an app on Shopify, Wix, BigCommerce, Shoplazza and Webflow and embed site, product, full-page and checkout widgets in their storefronts. The gated Developer API (api.kudobuzz.com/v1) exposes review creation plus customer and order sync for the APM product, is available to merchants on the Buffet plan and free to app developers building integrations, and is served by a first-party JavaScript client wrapper. Kudobuzz publishes its REST design standard, covering URLs, status codes, the error envelope, versioning, cursor pagination, rate-limit headers and idempotency, as a public repository.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png",
-     "score": 30.8,
+     "name": "Qeen.AI",
+     "slug": "qeenai",
+     "description": "Qeen (qeen.ai) is a Dubai-based AI company serving e-commerce brands across the GCC and wider MENA region. Founded in 2023 by former Google and DeepMind researchers and backed by a $10M seed led by Prosus Ventures ($12M total), it sells two things: a self-serve content-optimization product that generates, localizes and A/B-tests Arabic and English product titles, descriptions and meta descriptions, and a commission-based growth marketing engagement priced at 5% of generated revenue with no retainer. Qeen publishes no OpenAPI, no developer portal and no public API reference. Its machine-readable surface is three first-party client SDKs — a binary Swift package for iOS and an Android AAR, both at 1.5.0 and shipping roughly weekly, plus a browser SDK and embedded search widget served from its own CDN. Ingestion credentials (an API key and a customer-provisioned host) are issued privately by email rather than through self-service, and the customer platform API at users.qeen.ai is a session-gated Django REST Framework backend for the web application rather than a developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qeenai/refs/heads/main/screenshots/qeenai-2026-09-02T152427.png",
+     "score": 31.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 74.1,
       "contract_quality": 0.0,
       "governance": 4.5,
       "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 69.7,
+      "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
-     "agent_score": 12.1,
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
+     "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -4360,12 +4360,12 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "documented",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -4395,8 +4395,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4404,13 +4404,13 @@
       "score": 39.1,
       "matched_via": "tags"
      },
-     "agent_score": 17.1,
+     "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -4448,8 +4448,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4493,8 +4493,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4538,8 +4538,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 10.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4582,8 +4582,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4638,8 +4638,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4684,8 +4684,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4729,8 +4729,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4775,8 +4775,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4821,8 +4821,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4867,8 +4867,8 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4912,8 +4912,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4958,8 +4958,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5003,8 +5003,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5047,8 +5047,8 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5093,8 +5093,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5139,8 +5139,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5192,8 +5192,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5237,8 +5237,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5283,8 +5283,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5329,8 +5329,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5385,8 +5385,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5430,8 +5430,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5475,8 +5475,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5521,8 +5521,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {

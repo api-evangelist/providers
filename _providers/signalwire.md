@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
@@ -659,7 +659,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -669,7 +669,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 65.8
+  previous_composite: 68.5
   provenance:
     conformance: first-party
     contracts:
@@ -685,8 +685,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/screenshots/signalwire-2026-09-02T155435.png
 security:

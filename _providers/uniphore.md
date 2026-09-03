@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'The Business AI Cloud platform API. The publicly documented surface is the customer-deployed BAIC distribution: a machine-to-machine token exchange at POST /auth/m2m-token, a retrieval-augmented quest'
@@ -234,13 +234,13 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 41.2
+  composite: 45.8
   coverage:
     artifact_dirs: 18
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -250,15 +250,12 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 41.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/screenshots/uniphore-2026-08-17T082608.png
 security:

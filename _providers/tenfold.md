@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://tenfold.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.liveperson.com/ — a different registrable domain (tenfold.com -> liveperson.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.tenfold.com
@@ -76,7 +77,7 @@ apis:
   description: Users, current-user profile, and settings
   name: Tenfold Users API
   slug: tenfold-users-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Tenfold Webhooks
@@ -140,7 +141,7 @@ common:
   url: authentication/tenfold-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tenfold-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +163,6 @@ created: '2026-07-17'
 description: Tenfold (a LivePerson company) is a computer-telephony integration (CTI) platform — marketed as the "Customer Experience Cloud" — that connects phone systems and contact-center platforms with CRM and support systems. It surfaces the caller's CRM record on inbound and outbound calls, enables click-to-call, automatic call logging, call notes, and call recording, and connects leading CRMs (Salesforce, Microsoft Dynamics, ServiceNow, Oracle NetSuite, Zendesk, SugarCRM, Bullhorn) with major phone systems (Cisco, Avaya, Genesys, RingCentral, Webex Calling, 3CX, Mitel, and more). Its REST API originates and queries calls, controls recording, manages users and organizations, reads and writes CRM records, and returns call analytics, transcripts, and keyword extraction. Tenfold was acquired by LivePerson in October 2021.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenfold.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server tool surface derived from the Tenfold documented API. No official hosted/remote MCP server was found for Tenfold. Tools map one-to-one to documented v2 operationIds.
-  name: Tenfold MCP Server
-  slug: tenfold-mcp-server
 modified: '2026-07-21'
 name: Tenfold
 nav: Providers
@@ -206,8 +203,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/screenshots/tenfold-2026-09-02T163056.png
 security:

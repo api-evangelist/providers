@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - baseURL: https://www.eddatech.com/wp-json
@@ -96,7 +96,7 @@ apis:
   description: Public post authors.
   name: EDDA Technology users API
   slug: edda-users-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -219,7 +219,7 @@ common:
   url: well-known/edda-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/edda-mcp.yml
 - group: agent
   title: ''
@@ -234,10 +234,6 @@ description: EDDA Technology, Inc. is a Princeton, New Jersey medical imaging so
   REST API serving eddatech.com content.
 image: https://www.eddatech.com/wp-content/uploads/2019/10/cropped-EDDA-Technology-Icon-192x192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: EDDA Technology MCP Server
-  slug: edda-technology-mcp-server
 modified: '2026-07-20'
 name: EDDA Technology
 nav: Providers
@@ -281,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/screenshots/edda-2026-07-25T212816.png
 security:

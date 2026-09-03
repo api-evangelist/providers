@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -391,6 +391,10 @@ collections:
   name: HR Partner REST Absences Training API
   slug: open-hr-partner-training-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hr-partner-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -644,7 +648,7 @@ overview: 'HR Partner publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
   The HR Partner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  HR Partner''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 13 more developer resources.'
+  HR Partner''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Hr Partner Plans Pricing
   plan_count: 3
@@ -679,7 +683,7 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 38.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -707,8 +711,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/screenshots/hr-partner-2026-06-20T182858.png
 security:

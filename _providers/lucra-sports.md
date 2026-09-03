@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-09-02'
+  score: 36.7
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://forge.lucrasports.com
@@ -84,7 +84,7 @@ apis:
   description: 'Manage webhook configurations to receive real-time event notifications via HTTP POST requests. --- ## Available Event Types | Event | Description | |-------|-------------| | `UserSignedUp` | New user '
   name: Lucra Sports Webhooks API
   slug: lucra-sports-webhooks-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Lucra Sports Webhooks
@@ -180,7 +180,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lucra-sports-mcp.yml
 - group: build
   title: ''
@@ -238,10 +238,6 @@ created: '2026-08-25'
 description: 'Lucra (Lucra Sports, Inc.) is a competitive-loyalty and gamification platform that embeds real-money, free-to-play and peer-to-peer contests into third-party consumer apps and websites through a white-label SDK. Partners integrate Games You Play (head-to-head recreational matchups), Sports You Watch (prediction contests), Tournaments, Mini Games and Achievements without building the regulated infrastructure themselves: Lucra acts as merchant of record and operates the KYC, geolocation, age verification, payments, fraud monitoring, prize settlement and responsible-gaming controls behind the experience. The developer surface is a tenant-scoped server-to-server REST API (the Forge gateway) plus iOS, Android, React Native and JavaScript client SDKs, a signed webhook event stream, and a sandbox environment.'
 image: https://framerusercontent.com/images/ig8OHgXmBzrkMRo5krWVBCgcrhI.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lucra Sports MCP Server
-  slug: lucra-sports-mcp-server
 modified: '2026-08-25'
 name: Lucra Sports
 nav: Providers
@@ -270,7 +266,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -280,7 +276,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 56.8
+  previous_composite: 57.3
   provenance:
     conformance: derived
     contracts:
@@ -296,8 +292,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/screenshots/lucra-sports-2026-09-02T150330.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST-first JSON API to Contently's vetted creative network and project workflow. Search creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out wo
@@ -185,8 +185,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png
 security:

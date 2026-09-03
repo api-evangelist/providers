@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Public API API from Proof of Play — 1 operation(s) for public api.
   name: Proof of Play Public API API
   slug: proof-of-play-public-api-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -123,7 +123,7 @@ common:
   url: conformance/proof-of-play-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/proof-of-play-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: 'Proof of Play is an a16z-backed gaming studio and on-chain infrastructure company, founded by Amitt Mahajan and best known for the fully on-chain RPG Pirate Nation. It builds a platform for high-performance, serverless on-chain applications and games, exposing a set of developer services: a verified random number generator (vRNG) for fast, secure on-chain randomness; a Marketplace API for peer-to-peer trading across on-chain and off-chain inventory; an on-chain NoSQL Entity-Component-System (ECS) database and indexer; token mirroring to replicate NFT ownership data across chains; a gasless relayer; and multichain scaling. Documentation and a public OpenAPI are published at docs.proofofplay.com, and much of the stack is progressively open-sourced under MIT on GitHub.'
 image: https://media.proofofplay.com/public/POP_Home_OG.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Proof of Play MCP Server
-  slug: proof-of-play-mcp-server
 modified: '2026-07-20'
 name: Proof of Play
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/screenshots/proof-of-play-2026-09-02T152147.png
 security:

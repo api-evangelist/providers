@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Bastion''s REST API for regulated stablecoin infrastructure: create and manage custodial wallets, issue and convert stablecoins, run on/off-ramps, and move digital assets, with built-in KYC/AML complia'
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bastion/refs/heads/main/screenshots/bastion-2026-07-25T202432.png
 security:

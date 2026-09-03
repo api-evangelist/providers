@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Store products API from Vori — 7 operation(s) for store products.
   name: Vori Store products API
   slug: vori-store-products-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -119,7 +119,7 @@ common:
   url: packages/vori-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vori-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Vori is a connected point-of-sale and operations platform built exclusively for independent grocery stores, unifying checkout, payments (EBT, eWIC, contactless, gift cards), loyalty and SMS marketing, ordering, receiving, invoice processing, inventory, pricing automation, and reporting in one system. The Vori REST API at api.vori.com lets grocers and their integrations read and manage store catalog data — store products, pricing rules, product history, and search — using bearer-token authentication.
 image: https://cdn.prod.website-files.com/696a48a7323254ea5a7ab884/696a48a7323254ea5a7ab8c0_logo.png
 layout: provider
-mcp_servers:
-- description: Vori publishes no official hosted MCP server for its REST API. The voriteam GitHub org does ship MCP tooling (ditto-mcp — an MCP server for the Ditto HTTP API, cube-mcp, and a fork of mcp-front auth p
-  name: Vori MCP Server
-  slug: vori-mcp-server
 modified: '2026-07-21'
 name: Vori
 nav: Providers
@@ -205,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/screenshots/vori-2026-09-02T170242.png
 security:

@@ -1,13 +1,15 @@
 ---
 access_model:
   confidence: low
-  label: Unknown
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - rate-limits
   - security
+  - '{''url'': ''https://joinmosaic.com/'', ''status'': 301, ''note'': ''declared website redirects to https://solarservicingllc.com/ — a different registrable domain (joinmosaic.com -> solarservicingllc.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Mosaic Financing API is the integration surface Solar Mosaic published for its solar installer, dealer and capital partners, documented on a ReadMe-hosted developer portal titled "Mosaic Financing
@@ -151,8 +153,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-mosaic/refs/heads/main/screenshots/solar-mosaic-2026-09-02T160117.png
 security:

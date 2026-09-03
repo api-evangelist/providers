@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Partner-facing REST API for the Trax retail intelligence platform: master data (stores, products, regions, retailers, targets, audit cycle sets), visit planning (routes, visit types, tasks, assortment'
@@ -143,8 +143,8 @@ score:
   previous_composite: 24.5
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/screenshots/trax-2026-09-02T164151.png
 security:

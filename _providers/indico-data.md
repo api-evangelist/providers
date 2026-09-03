@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.indico.io/restapi
@@ -61,7 +61,7 @@ apis:
   description: Document processing workflows
   name: Indico Data Workflows API
   slug: indico-data-workflows-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: llms/indico-data-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/indico-data-mcp.yml
 - group: agent
   title: ''
@@ -186,10 +186,6 @@ created: '2026-07-17'
 description: Indico Data is an enterprise intelligent document processing (IDP) and intelligent process automation (IPA) company that turns unstructured content — documents, emails, images, and free text — into structured, usable data. Its Agents & Workflows platform lets teams build extraction and classification models from as few as ~200 sample documents (no rules or templates) and deploy them as document-processing pipelines. Developers integrate via a REST API and a companion GraphQL API, authenticating with an API token exchanged for a short-lived JWT, and via first-party Python, C#, and Java client libraries. The platform is commonly deployed on a dedicated per-customer cluster and is used to automate high-volume unstructured-data workflows across insurance, financial services, and other document-heavy industries.
 image: https://indicodata.ai/wp-content/uploads/2023/01/indico-data-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Indico Data MCP Server
-  slug: indico-data-mcp-server
 modified: '2026-07-19'
 name: Indico Data
 nav: Providers
@@ -233,8 +229,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

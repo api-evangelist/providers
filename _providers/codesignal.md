@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
@@ -243,8 +243,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/screenshots/codesignal-2026-07-25T205933.png
 security:

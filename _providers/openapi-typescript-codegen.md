@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The openapi CLI and Node.js library. Consumes an OpenAPI 2.0 or 3.0 specification and writes a typed TypeScript client (models, services, and core runtime) for fetch, node-fetch, XHR, Axios, or Angula
@@ -158,14 +158,14 @@ rate_limits:
   name: Openapi Typescript Codegen Rate Limits
   slug: openapi-typescript-codegen-rate-limits
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 24.7
   coverage:
     artifact_dirs: 10
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -175,14 +175,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 28.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/screenshots/openapi-typescript-codegen-2026-06-20T190912.png
 slug: openapi-typescript-codegen

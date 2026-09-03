@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
@@ -71,7 +71,7 @@ apis:
   description: Banking Product endpoints
   name: Rabobank Australia Banking Products API
   slug: rabobank-australia-banking-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,7 @@ common:
   url: data-model/rabobank-australia-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rabobank-australia-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-20'
 description: Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rabobank-australia.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rabobank Australia MCP Server
-  slug: rabobank-australia-mcp-server
 modified: '2026-07-21'
 name: Rabobank Australia
 nav: Providers
@@ -242,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

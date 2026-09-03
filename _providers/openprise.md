@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: API Factory turns any Openprise Job or Bot into a REST endpoint with a single "Enable API" action. The caller sends an HTTP POST carrying a JSON array of records and receives a JSON array of processed
@@ -197,8 +197,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/screenshots/openprise-2026-06-20T191021.png
 security:

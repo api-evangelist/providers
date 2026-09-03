@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -66,7 +66,7 @@ apis:
 - description: Publicly disclosable regulatory returns filed by federally regulated cooperative retail associations — M4 Consolidated Balance Sheet, BA BASEL III Capital Adequacy Reporting (BCAR), E3 Return of Allow
   name: OSFI Retail Associations Financial Data
   slug: osfi-retail-associations-financial-data
-artifact_total: 33
+artifact_total: 32
 common:
 - group: auth
   title: ''
@@ -190,7 +190,7 @@ common:
   url: data-model/osfi-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/osfi-mcp.yml
 - group: agent
   title: ''
@@ -358,10 +358,6 @@ jsonld:
   property_count: 0
   slug: osfi-who-we-regulate
 layout: provider
-mcp_servers:
-- description: ''
-  name: OSFI MCP Server
-  slug: osfi-mcp-server
 modified: '2026-07-25'
 name: OSFI
 nav: Providers
@@ -411,8 +407,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/screenshots/osfi-2026-08-07T191000.png
 security:

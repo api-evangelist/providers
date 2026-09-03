@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Qubole Data Service (QDS) REST API for submitting and managing data commands (Hive, Presto, Spark, Hadoop, Pig, shell, DB import/export, notebook), managing compute clusters, scheduling recurring '
   name: Qubole Data Service REST API
   slug: qubole-data-service-rest-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -139,7 +139,7 @@ common:
   url: well-known/qubole-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qubole-mcp.yml
 - group: agent
   title: ''
@@ -153,10 +153,6 @@ created: '2026-07-17'
 description: Qubole is a cloud-native data lake platform (now part of Idera) that lets teams run multiple open-source data-processing engines - Apache Spark, Presto, Hive, Hadoop, and Airflow - together in a single, cost-optimized, self-managing environment across AWS, Microsoft Azure, Google Cloud Platform, and Oracle Cloud Infrastructure. The Qubole Data Service (QDS) automates cluster provisioning, autoscaling, and spot/preemptible instance management to reduce data-lake costs, and exposes a comprehensive REST API for submitting Hive/Presto/Spark/Hadoop commands, managing clusters, scheduling jobs, running notebooks and dashboards, and administering accounts, users, groups, and roles. First-party SDKs (Python qds-sdk, Java, and Ruby), the qds.py command-line tool, and the afctl Airflow CLI wrap the API. This profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist pipeline against Qubole's live public documentation and package registries.
 image: https://www.qubole.com/wp-content/themes/qubole/assets/images/logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qubole MCP Server
-  slug: qubole-mcp-server
 modified: '2026-07-20'
 name: Qubole
 nav: Providers
@@ -188,8 +184,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubole/refs/heads/main/screenshots/qubole-2026-09-02T152637.png
 security:

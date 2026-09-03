@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
   name: ikas Admin API
   slug: ikas-admin-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Ikas Ikas Teknoloji As Webhooks
@@ -99,7 +99,7 @@ common:
   url: asyncapi/ikas-ikas-teknoloji-as-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ikas-ikas-teknoloji-as-mcp.yml
 - group: build
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: ikas (IKAS Teknoloji AS) is an all-in-one e-commerce platform, headquartered in Turkey and backed by 500 Global, that lets merchants build online stores, manage products, inventory, orders, customers, and campaigns, and sell across multiple sales channels. For developers and partners, ikas exposes a public GraphQL Admin API at api.myikas.com that covers products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhooks. Apps authenticate with OAuth 2.0 (client_credentials for private/store apps and authorization_code for public admin apps) using scoped permissions such as read_products/write_products and read_orders/write_orders. ikas also ships a TypeScript SDK, an ikas CLI, an App Bridge for embedded dashboard apps, a theme development kit, and an official MCP server for its code components.
 image: https://ikas.dev/img/logo.svg
 layout: provider
-mcp_servers:
-- description: 'Official ikas MCP server for ikas code components documentation. Exposes the ikas storefront/code-components documentation to MCP-compatible agents and coding assistants so they can scaffold and work '
-  name: Ikas, IKAS Teknoloji AS MCP Server
-  slug: ikas-ikas-teknoloji-as-mcp-server
 modified: '2026-07-19'
 name: Ikas, IKAS Teknoloji AS
 nav: Providers
@@ -193,8 +189,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png
 security:

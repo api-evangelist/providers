@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.centaurlabs.com/'', ''status'': 301, ''note'': ''declared website redirects to https://centaur.ai/ — a different registrable domain (centaurlabs.com -> centaur.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Public REST API for importing data and managing labeling projects, tasks, cases, assets, gold standards, prelabels, tags and for downloading aggregated labeling results. Split across several versioned
   name: Centaur Public API
   slug: centaur-public-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -105,10 +106,6 @@ created: '2026-07-17'
 description: Centaur Labs (centaur.ai) provides expert data annotation and labeling for healthcare and scientific AI. Its platform combines large crowds of vetted human experts with AI models in a competitive "collective intelligence" model to produce high-quality, aggregated training labels across images, text, audio, video, waveform and DICOM medical imaging. Centaur exposes a public REST API (api.centaurlabs.com) for importing data, creating and managing labeling projects, tasks, cases, gold standards, tags and prelabels, and for downloading aggregated results. The company is SOC 2 Type II audited and HIPAA compliant, was founded by Erik Duhaime out of the MIT Center for Collective Intelligence, and is backed by Accel and Matrix Partners.
 image: https://files.readme.io/90ad1dc-small-Centaur_Labs_black3x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Centaur Labs MCP Server
-  slug: centaur-labs-mcp-server
 modified: '2026-07-18'
 name: Centaur Labs
 nav: Providers
@@ -147,8 +144,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/screenshots/centaur-labs-2026-07-25T204921.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://catalogguard.noahcortezj-c.workers.dev
@@ -43,7 +43,7 @@ apis:
   description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
   name: Catalog Guard API Catalog API
   slug: catalog-guard-api-catalog-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -126,7 +126,7 @@ common:
   url: examples/catalog-guard-api-examples.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/catalog-guard-api-mcp.yml
 - group: build
   title: ''
@@ -149,10 +149,6 @@ description: 'A bounded, fail-closed catalog preflight and validation service fo
   a $149 bounded human CSV Diagnostic, and a separate free Shopify store-launch referral path.'
 image: https://catalogguard.noahcortezj-c.workers.dev/og.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Catalog Guard API MCP Server
-  slug: catalog-guard-api-mcp-server
 modified: '2026-08-09'
 name: Catalog Guard API
 nav: Providers
@@ -194,8 +190,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/screenshots/catalog-guard-api-2026-09-02T145033.png
 security:

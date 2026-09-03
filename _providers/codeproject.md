@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -292,13 +292,13 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 43.9
+  composite: 46.0
   coverage:
     artifact_dirs: 12
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -308,9 +308,6 @@ score:
     discoverability: 68.5
     governance: 54.5
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -319,8 +316,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/screenshots/codeproject-2026-06-20T174804.png
 security:

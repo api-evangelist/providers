@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The standard MediaWiki Action API served at /api.php on every Fandom wiki subdomain (e.g. community.fandom.com, starwars.fandom.com). Provides read/write access via 120 action modules including query,
   name: Fandom MediaWiki Action API
   slug: fandom-mediawiki-action-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,7 +87,7 @@ common:
   url: conventions/fandom-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fandom-mcp.yml
 - group: agent
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: Fandom (formerly Wikia) is the world's largest entertainment fan-wiki platform, hosting hundreds of thousands of community-run wikis covering television, film, games, anime, and pop culture. Every Fandom wiki runs on MediaWiki (currently 1.43.9, PHP 8.3) and exposes the standard MediaWiki Action API at /api.php on each wiki subdomain, giving programmatic read and write access to page content, revisions, full-text and OpenSearch search, media files, templates, and account operations. Fandom layers its own extension modules on top of core MediaWiki (create-new-wiki, theme designer, interactive maps, portable infoboxes, embedded video, notifications). Fandom does not publish a bespoke OpenAPI; the self-documenting api.php help endpoint, the Fandom Developers Wiki (dev.fandom.com), and the upstream MediaWiki API docs are the reference surface. This profile was surfaced as a portfolio company of Bessemer Venture Partners and enriched from Fandom's live, public API.
 image: https://images.wikia.com/central/images/b/bc/Wiki.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fandom MCP Server
-  slug: fandom-mcp-server
 modified: '2026-07-19'
 name: Fandom
 nav: Providers
@@ -153,8 +149,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fandom/refs/heads/main/screenshots/fandom-2026-07-25T214221.png
 security:

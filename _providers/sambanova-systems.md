@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
   name: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -247,7 +247,7 @@ common:
   url: conformance/sambanova-systems-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sambanova-systems-mcp.yml
 - group: design
   title: ''
@@ -273,10 +273,6 @@ created: '2026-07-17'
 description: SambaNova Systems is an AI infrastructure company that builds custom Reconfigurable Dataflow Unit (RDU) chips and the SambaCloud, SambaStack, and SambaRack platforms for fast, energy-efficient AI inference. Its developer-facing product, SambaNova Cloud, exposes an OpenAI- and Anthropic-compatible inference API (chat completions, completions, the Responses API, the Messages API, embeddings, and audio transcription/translation) serving open models such as Meta Llama, DeepSeek, MiniMax, gpt-oss, Gemma, and Mistral. A companion Agents Service provides coordinated coding, data-science, deep-research, and financial-analysis agents. Official Python and TypeScript SDKs, tiered rate limits, prompt caching, and dozens of framework integrations round out the platform.
 image: https://github.com/sambanova.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SambaNova Systems MCP Server
-  slug: sambanova-systems-mcp-server
 modified: '2026-07-21'
 name: SambaNova Systems
 nav: Providers
@@ -319,8 +315,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png
 security:

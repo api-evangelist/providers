@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
   description: Energy Plan endpoints
   name: AGL Energy Energy Plans API
   slug: agl-energy-energy-plans-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: CDR Common API
@@ -156,7 +156,7 @@ common:
   url: conformance/agl-energy-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/agl-energy-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ description: 'AGL Energy Limited (ASX:AGL) is Australia''s oldest listed company
   therefore open on product data, closed to everyone but accredited recipients on consumer data, and silent everywhere else — it publishes no open grid or market data of its own. It is also migrating around four million customer services onto the Kaluza platform under a A$150m, 20 percent stake taken in 2024, so the retail data layer behind these mandated endpoints is being rebuilt on a third-party energy operating system.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: 'AGL publishes no Model Context Protocol server, and none exists for the Consumer Data Right more broadly. Searched on 2026-07-27: the AGL CDR public base URI answers 404 for every non-CDS path, the AG'
-  name: AGL Energy MCP Server
-  slug: agl-energy-mcp-server
 modified: '2026-07-27'
 name: AGL Energy
 nav: Providers
@@ -273,8 +269,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.escuelajs.co/api/v1
@@ -66,7 +66,7 @@ apis:
   description: The users API from Platzi — 3 operation(s) for users.
   name: Platzi users API
   slug: platzi-users-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +172,7 @@ common:
   url: well-known/platzi-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/platzi-mcp.yml
 - group: other
   title: ''
@@ -186,10 +186,6 @@ created: '2026-07-17'
 description: Platzi is the leading online learning platform in Latin America, offering thousands of technology, business, and marketing courses. For developers, Platzi (via PlatziLabs) publishes the free, public "Platzi Fake Store API" — a fully functional REST and GraphQL backend that provides mock e-commerce data (products, categories, users) with complete CRUD operations, JWT authentication, pagination, filtering, file upload, and AI-generated product imagery. It is a zero-signup prototyping API used worldwide to learn and practice building shopping and front-end applications, backed by an open source NestJS project.
 image: https://static.platzi.com/media/og/platzi.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Platzi MCP Server
-  slug: platzi-mcp-server
 modified: '2026-07-20'
 name: Platzi
 nav: Providers
@@ -233,8 +229,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/screenshots/platzi-2026-09-02T151437.png
 security:

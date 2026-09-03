@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Core creator scripting API — a Lua-based developer surface for programming multiplayer game logic in the Core editor. Organized into namespaces (Chat, Storage, Leaderboards, Input, UI, VoiceChat, '
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manticore-games/refs/heads/main/screenshots/manticore-games-2026-07-25T230057.png
 security:

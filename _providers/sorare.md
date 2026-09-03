@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing Sorare cards, users, auctions, offers and real-time subscriptions across football, NBA and MLB, with JWT / OAuth 2.0 / API-key auth.
   name: Sorare GraphQL API
   slug: sorare-graphql-api
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Sorare Graphql Asyncapi
@@ -131,7 +131,7 @@ common:
   url: conformance/sorare-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sorare-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +145,6 @@ created: '2026-07-17'
 description: Sorare is a global fantasy sports platform for football (soccer), NBA basketball and MLB baseball built on blockchain-based digital collectible player cards stored on Ethereum and a StarkWare rollup. Its public developer surface is a single GraphQL API at https://api.sorare.com/graphql covering cards, users, auctions, offers and real-time subscriptions. The API supports JWT authentication (via the signIn mutation, with TOTP 2FA), OAuth 2.0 (Authorization Code and Client Credentials), and optional API keys for elevated rate limits, plus StarkWare payload signing for on-chain trading actions.
 image: https://sorare.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sorare MCP Server
-  slug: sorare-mcp-server
 modified: '2026-07-21'
 name: Sorare
 nav: Providers
@@ -193,8 +189,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/screenshots/sorare-2026-08-17T082004.png
 security:

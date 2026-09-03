@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://imagedetector.online/v1
@@ -44,7 +44,7 @@ apis:
   description: Analyze an image and report whether it is AI-generated.
   name: AnyImageDetector Detection API
   slug: anyimagedetector-detection-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: AI Image Detector API
@@ -52,7 +52,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anyimagedetector-mcp.yml
 - group: auth
   title: ''
@@ -155,10 +155,6 @@ description: AnyImageDetector (imagedetector.online) is a single-purpose AI-imag
   per second per key, with Retry-After returned on 429.
 image: https://imagedetector.online/og-image.png
 layout: provider
-mcp_servers:
-- description: 'AnyImageDetector operates NO MCP server — hosted, remote or local — and publishes no agent surface of any kind beyond an llms.txt that describes marketing pages. The tool below is a CANDIDATE derived '
-  name: AnyImageDetector MCP Server
-  slug: anyimagedetector-mcp-server
 modified: '2026-08-11'
 name: AnyImageDetector
 nav: Providers
@@ -204,8 +200,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:

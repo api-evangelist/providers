@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Server-to-server REST API for managing businesses, channels, videos, livestreams, playlists, products, business stores, and insights, plus HMAC-signed webhooks. Secured with OAuth 2.0 (client credenti
@@ -191,8 +191,8 @@ score:
   previous_composite: 47.4
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/screenshots/firework-2026-07-25T214557.png
 security:

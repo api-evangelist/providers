@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api-2445582032290.production.gw.apicast.io
@@ -41,7 +41,7 @@ apis:
   description: The Food Recognition API from Azumio — 2 operation(s) for food recognition.
   name: Azumio Food Recognition API
   slug: azumio-food-recognition-api
-artifact_total: 6
+artifact_total: 5
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
   url: data-model/azumio-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/azumio-mcp.yml
 - group: agent
   title: ''
@@ -142,10 +142,6 @@ created: '2026-07-17'
 description: 'Azumio is an AI-driven digital health company whose consumer apps (Argus, Instant Heart Rate, Fitness Buddy, Glucose Buddy, Sleep Time, Calorie Mama) have been downloaded more than 100 million times. Beyond its apps, Azumio offers developer APIs and SDKs built on its deep-learning and digital-biomarker technology: the Calorie Mama Food Recognition API (identify food from a photo and return calories, macronutrients, and full nutrition), the Azumio 360 tracking API/SDK for diet, fitness and sleep, and diabetes-focused APIs including an AI Instant Diabetes Test biomarker and blood-glucose management. The flagship, publicly documented developer product is the Calorie Mama Food Recognition API, a 3scale-gateway REST API using API-key authentication.'
 image: https://azumio.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Azumio MCP Server
-  slug: azumio-mcp-server
 modified: '2026-07-18'
 name: Azumio
 nav: Providers
@@ -189,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/screenshots/azumio-2026-07-25T202122.png
 security:

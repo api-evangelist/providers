@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: GraphQL API for the TELUS Collaborative Health Record (CHR) that lets partners build integrations against clinic data. Queries retrieve and mutations create or update CHR records (patients, appointmen
@@ -44,7 +44,7 @@ apis:
 - description: TELUS Patient Chart FHIR R4 implementation guide, published by TELUS, containing 89 StructureDefinition profiles and extensions under the http://telus.com/fhir/patientChart canonical. Profiles cover p
   name: TELUS Patient Chart FHIR API
   slug: telus-patient-chart-fhir-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -115,10 +115,6 @@ description: TELUS Health is the digital-health division of TELUS, one of Canada
   healthcare is province-fragmented and FHIR interoperability is stewarded federally by Canada Health Infoway. Both API surfaces are documented but gated behind a partner or CHR-domain agreement.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: TELUS Health MCP Server
-  slug: telus-health-mcp-server
 modified: '2026-07-24'
 name: TELUS Health
 nav: Providers
@@ -157,8 +153,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telus-health/refs/heads/main/screenshots/telus-health-2026-09-02T162751.png
 security:

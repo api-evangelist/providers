@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Cloud Monitoring API (v3) collects metrics, events, and metadata from Google Cloud, AWS, and application instrumentation, and exposes them for dashboards, uptime checks, alerting policies, and time-se
@@ -166,8 +166,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/screenshots/stackdriver-google-2026-09-02T160705.png
 security:

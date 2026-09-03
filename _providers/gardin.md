@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -45,7 +45,7 @@ apis:
 - description: Real-time plant-health alert delivery over webhooks and websockets. Emits PLANT_CRITICAL_ALERT, PLANT_STRESS_ALERT, PLANT_LIGHT_ALERT and PLANT_RECOVERY_ALERT events (RAISED / CLOSED) with an HMAC-SHA
   name: Gardin Notification API
   slug: gardin-notification-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Gardin Notification Webhooks
@@ -129,7 +129,7 @@ common:
   url: packages/gardin-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gardin-mcp.yml
 - group: agent
   title: ''
@@ -155,10 +155,6 @@ created: '2026-07-17'
 description: Gardin is a UK-based agritech company (Abingdon, Oxfordshire) whose product, Gardin Pulse, is a real-time plant-level crop intelligence platform built on an optical sensor that measures chlorophyll fluorescence to assess photosynthetic efficiency. The sensors detect crop stress weeks before visible symptoms appear, letting growers optimise lighting, irrigation and climate control across glasshouses, polytunnels and indoor farms. Gardin exposes this plant-health data to growers and developers through the Gardin API — a set of OAuth2 client-credentials-secured HTTP services covering sensor/device management, an asynchronous bulk Query API for chlorophyll-fluorescence and Gardin-indices data, and a Notification API that delivers real-time plant alerts over webhooks and websockets. Gardin also integrates plant feedback into leading climate-control systems including Priva, Ridder and LetsGrow.
 image: https://gardin.ag/_astro/get-started.BY5JeD8x.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gardin MCP Server
-  slug: gardin-mcp-server
 modified: '2026-07-19'
 name: Gardin
 nav: Providers
@@ -204,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/screenshots/gardin-2026-07-25T215444.png
 security:

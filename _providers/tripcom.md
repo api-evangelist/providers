@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: The SearchHotel API from Trip.com — 1 operation(s) for searchhotel.
   name: Trip.com SearchHotel API
   slug: tripcom-searchhotel-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -102,7 +102,7 @@ common:
   url: well-known/tripcom-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tripcom-mcp.yml
 - group: design
   title: ''
@@ -144,10 +144,6 @@ created: '2026-07-17'
 description: Trip.com is a leading global online travel agency and part of Trip.com Group, offering one-stop travel booking for flights, hotels, trains, car rentals, airport transfers, attraction tickets, tours, and vacation packages across 39 countries and regions in 24 languages. Trip.com publishes a public AI travel-assistant plugin API (an OpenAI-plugin-style OpenAPI at www.trip.com/ai-resource) that lets assistants search flights, hotels, car hire, and attractions/activities and return deep booking links, alongside a published llms.txt describing its site structure for AI agents.
 image: https://ak-d.tripcdn.com/images/1o14712000bc9tm39E62A.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Trip.com MCP Server
-  slug: tripcom-mcp-server
 modified: '2026-07-21'
 name: Trip.com
 nav: Providers
@@ -186,8 +182,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/screenshots/tripcom-2026-09-02T164241.png
 security:

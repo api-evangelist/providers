@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for IBM StreamSets Control Hub — the cloud-native control plane for designing, deploying, orchestrating, and monitoring StreamSets data pipelines and jobs across engines. Programmatic access '
@@ -128,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/screenshots/streamsets-2026-09-02T161011.png
 security:

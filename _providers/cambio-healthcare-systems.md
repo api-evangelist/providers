@@ -15,7 +15,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.1
-  scored_at: '2026-09-02'
+  score: 42.3
+  scored_at: '2026-09-03'
 api_count: 19
 apis:
 - baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
@@ -125,7 +125,7 @@ apis:
 - description: HL7 FHIR R4 (4.0.1) server exposing Cambio COSMIC clinical data through 24 FHIR resource types — Patient, Practitioner, Organization, Encounter, Condition, Observation, MedicationRequest, MedicationDi
   name: Cambio Open Services FHIR R4 API
   slug: cambio-healthcare-systems-fhir-r4
-artifact_total: 26
+artifact_total: 25
 common:
 - group: auth
   title: ''
@@ -229,7 +229,7 @@ common:
   url: packages/cambio-healthcare-systems-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cambio-healthcare-systems-mcp.yml
 - group: agent
   title: ''
@@ -275,10 +275,6 @@ created: '2026-09-02'
 description: Cambio Healthcare Systems is a Swedish health-IT company founded in 1993 in Linkoping and headquartered in Stockholm, best known for Cambio COSMIC, an electronic health record and clinical decision support platform used across Swedish regions, Denmark and the United Kingdom by well over 100,000 clinical users. Cambio runs a public developer programme, Cambio Open Services (COS), which publishes 19 REST APIs and an HL7 FHIR R4 server on Azure API Management at api.openservices.cambio.se, together with a published FHIR Implementation Guide of COSMIC-specific profiles, a Keycloak OpenID Connect authorization server with SMART-on-FHIR style scopes, and a synthetic-data sandbox. COSMIC and its clinical decision support are CE-marked and MDR-certified (notified body BSI-2797), and the company holds ISO 9001, 13485, 14001, 20000 and 27001 certifications.
 image: https://www.cambiogroup.com/wp-content/uploads/2021/03/cropped-Cambio-C-560x560px-270x270.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cambio Healthcare Systems MCP Server
-  slug: cambio-healthcare-systems-mcp-server
 modified: '2026-09-02'
 name: Cambio Healthcare Systems
 nav: Providers
@@ -309,6 +305,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -318,6 +315,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 28.9
+  previous_composite: 55.0
   provenance:
     conformance: first-party
     contracts:
@@ -333,8 +331,9 @@ score:
     regime: Health
     regime_id: health
     score: 67.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Cambio Healthcare Systems Authentication

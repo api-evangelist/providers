@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Resolve a spreadsheet via a data filter, update matching ranges by filter, then read them back by filter.
   name: Google Sheets Update and Read Values by Data Filter
   slug: google-sheets-update-and-read-by-data-filter-workflow
-artifact_total: 314
+artifact_total: 313
 collections:
 - collection_type: postman
   name: Google Sheets API
@@ -158,7 +158,7 @@ common:
   url: well-known/google-sheets-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-sheets-mcp.yml
 - group: agent
   title: ''
@@ -1142,10 +1142,6 @@ jsonld:
   property_count: 0
   slug: google-sheets-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Google Sheets MCP Server
-  slug: google-sheets-mcp-server
 modified: '2026-06-20'
 name: Google Sheets
 nav: Providers
@@ -1221,8 +1217,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/screenshots/google-sheets-2026-06-20T182233.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: Recipe operations
   name: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Adaptive Ml Webhooks
@@ -211,7 +211,7 @@ common:
   url: data-model/adaptive-ml-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/adaptive-ml-mcp.yml
 - group: agent
   title: ''
@@ -245,10 +245,6 @@ created: '2026-07-17'
 description: Adaptive ML builds Adaptive Engine, an enterprise platform for developing, evaluating, and serving specialized open-source large language models via reinforcement-learning post-training. The three-phase workflow (Adapt, Evaluate, Serve) lets teams fine-tune smaller models to outperform commercial APIs, measure them with custom AI judges and graders, and feed production signals back into training. Adaptive Engine is self-hosted (Kubernetes/Helm) and exposes an OpenAI-compatible REST API for chat completions and embeddings, plus interactions, comparisons, outcomes, dataset/recipe management, and chunked uploads. Tooling includes the Python adaptive-sdk and adaptive-harmony libraries and the adpt CLI. Adaptive ML was acquired by Datadog.
 image: https://www.adaptive-ml.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Adaptive ML MCP Server
-  slug: adaptive-ml-mcp-server
 modified: '2026-07-17'
 name: Adaptive ML
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/screenshots/adaptive-ml-2026-07-25T181557.png
 security:

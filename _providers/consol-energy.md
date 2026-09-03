@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Machine-readable filing data for the post-merger company is published by the U.S. Securities and Exchange Commission, not by the company itself. CIK 0001710366 is the CONSOL Energy Inc. registrant, re
@@ -147,8 +147,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/screenshots/consol-energy-2026-06-20T174910.png
 security:

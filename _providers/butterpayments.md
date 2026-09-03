@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Source-agnostic payment-event ingestion API for payment recovery. Merchants POST standardized successful and failed payment events and payment-method updates; Recover optimizes retry timing and report
   name: Recover Enterprise API
   slug: recover-enterprise-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Butterpayments Webhooks
@@ -111,7 +111,7 @@ common:
   url: data-model/butterpayments-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/butterpayments-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: Butter Payments is a payment recovery and involuntary-churn platform that uses machine learning to recover revenue from failed subscription payments. Its Recover product ingests real-time transaction and payment-method events, optimizes retry timing, and reports outcomes back to merchants via HMAC-SHA256 signed webhooks; Dispute (powered by Verifi) intercepts chargebacks and runs Rapid Dispute Resolution; PaymentScore identifies recoverable failed payments; and a PCI DSS Level 2 Card Vault secures card data behind a secure-iframe element. Butter integrates turnkey with Stripe Billing, Braintree, and Recharge, or directly through the Recover Enterprise API.
 image: https://cdn.prod.website-files.com/6570760e6e7b5aa59f8f2452/657b7105d992d17f87a2d0e2_hero-img-m.avif
 layout: provider
-mcp_servers:
-- description: ''
-  name: Butterpayments MCP Server
-  slug: butterpayments-mcp-server
 modified: '2026-07-18'
 name: Butterpayments
 nav: Providers
@@ -189,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/screenshots/butterpayments-2026-07-25T204125.png
 security:

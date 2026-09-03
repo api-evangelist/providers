@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ arazzos:
 - description: List a team's channels and read the recent messages in a chosen channel.
   name: Microsoft Teams Review Channel Conversation
   slug: microsoft-teams-review-channel-conversation-workflow
-artifact_total: 115
+artifact_total: 114
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous event surface for Microsoft Teams. Two distinct delivery channels are modeled: 1. Microsoft Graph change notifications - HTTPS webhook deliveries that Micr'
   name: Microsoft Teams Event Surface
@@ -177,7 +177,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/microsoft-teams-mcp.yml
 - group: other
   title: ''
@@ -535,10 +535,6 @@ jsonld:
   property_count: 22
   slug: microsoft-teams-graph-api-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP server surface derived one-tool-per-operation from the Microsoft Graph Teams OpenAPI. Microsoft does not publish an official first-party hosted MCP server dedicated to Teams; this is a g
-  name: Microsoft Teams MCP Server
-  slug: microsoft-teams-mcp-server
 modified: '2026-06-20'
 name: Microsoft Teams
 nav: Providers
@@ -625,8 +621,8 @@ score:
       marker_coverage: 100.0
       total: 9
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:

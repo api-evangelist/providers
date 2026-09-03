@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -74,7 +74,7 @@ apis:
   description: Settlement and transaction reconciliation reporting.
   name: Peach Payments Reconciliation API
   slug: peachpayments-reconciliation-api
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Peachpayments Webhooks
@@ -122,7 +122,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/peachpayments-mcp.yml
 - group: build
   title: ''
@@ -296,10 +296,6 @@ finops:
   slug: peachpayments-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peachpayments.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Peach Payments MCP Server
-  slug: peach-payments-mcp-server
 modified: '2026-07-17'
 name: Peach Payments
 nav: Providers
@@ -355,8 +351,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/screenshots/peachpayments-2026-08-07T191724.png
 security:

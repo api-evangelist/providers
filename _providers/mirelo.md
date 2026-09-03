@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio asset URLs; synchronous and asynchronous (job-po
   name: Mirelo SFX API
   slug: mirelo-sfx-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: packages/mirelo-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mirelo-mcp.yml
 - group: design
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Mirelo is a Berlin-based AI research lab building state-of-the-art audio foundation models for visual media. Its flagship Mirelo SFX model generates production-ready, perfectly synced sound effects directly from video (or from text prompts) with no background-music noise, plus iterative editing, audio inpainting, sound extension, and a multi-instrument Audio-to-MIDI model. Mirelo ships a self-serve REST API (https://api.mirelo.ai/v2/), the Mirelo Studio web app, official Node.js and Python SDKs, and editor plugins for Adobe Premiere Pro, DaVinci Resolve, Reaper, and Roblox Studio. The models are also distributed on fal.ai, Replicate, and Runware. Founded by musicians-turned-AI researchers from Amazon, Google Brain, Max Planck and ETH Zurich, Mirelo raised a $41M seed round co-led by Index Ventures and Andreessen Horowitz in December 2025.
 image: https://mirelo.ai/opengraph-image.png
 layout: provider
-mcp_servers:
-- description: Community-published Model Context Protocol server wrapping the Mirelo v2 HTTP API. Not first-party, but functional against the same API key and endpoints. No official hosted/remote MCP server is publi
-  name: Mirelo MCP Server
-  slug: mirelo-mcp-server
 modified: '2026-07-20'
 name: Mirelo
 nav: Providers
@@ -167,8 +163,8 @@ score:
   previous_composite: 29.6
   provenance:
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/screenshots/mirelo-2026-08-07T183717.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Bespoke REST API for opendata.gov.al at same-origin /api, with action-style routes. Known endpoints include POST /api/Dataset/filter (dataset search/listing), GET /api/Dataset/get/{slug}, GET /api/Dca
@@ -90,8 +90,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-gov-al/refs/heads/main/screenshots/opendata-gov-al-2026-08-07T190550.png
 security:

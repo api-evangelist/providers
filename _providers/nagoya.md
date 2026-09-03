@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Institution-operated Shibboleth SAML 2.0 identity provider on the university's own host, published as machine-readable metadata in the GakuNin (学術認証フェデレーション) aggregate. EntityDescriptor ID PI0136JP, e
@@ -190,8 +190,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png
 security:

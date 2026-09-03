@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://infrahq.com'', ''status'': 301, ''note'': ''declared website redirects to https://github.com/infrahq/infra — a different registrable domain (infrahq.com -> github.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.infrahq.com
@@ -83,7 +84,7 @@ arazzos:
 - description: Create a user, put them in a group, and grant the group access to a destination.
   name: Onboard a user and grant destination access
   slug: infra-onboard-and-grant
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -115,7 +116,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/infra-mcp.yml
 - group: operate
   title: ''
@@ -225,10 +226,6 @@ created: '2026-07-17'
 description: 'Infra is open-source authentication and access management for infrastructure. It grants short-lived, identity-based access to Kubernetes clusters, servers, and databases by connecting an organization''s OIDC identity providers (Okta, Google, Azure AD, and others) to fine-grained grants on destination resources. Users and groups receive least-privilege roles, access keys are issued for CI/CD and API automation, and the `infra` CLI lets engineers list and switch into destinations. The project was originally added to the API Evangelist network as an 8vc portfolio lead; the hosted service at api.infrahq.com has since wound down (infrahq.com now redirects to the GitHub repository), but the source, OpenAPI spec, CLI, and Go client remain available under the Elastic License 2.0 (core) and MIT (SDK and connectors). Final release: v0.21.0.'
 image: https://avatars.githubusercontent.com/u/85984819
 layout: provider
-mcp_servers:
-- description: ''
-  name: Infra MCP Server
-  slug: infra-mcp-server
 modified: '2026-07-19'
 name: Infra
 nav: Providers
@@ -240,13 +237,13 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 3
 score:
   band: thin
-  composite: 35.2
+  composite: 33.5
   coverage:
     artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -256,9 +253,6 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 35.2
   provenance:
     conformance: derived
@@ -269,8 +263,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

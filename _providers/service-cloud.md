@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -350,8 +350,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Server-side Enterprise REST API for managing reviews (list/get/update/reply), review groups, customers and profiles, loyalty (rules, transactions, VIP tiers, coupons), survey and quiz responses, trans
@@ -42,7 +42,7 @@ apis:
 - description: Public, unauthenticated read API (scoped by okendo_user_id in the path) for displaying published reviews, review aggregates, review media, AI review summaries/keywords and product questions across pro
   name: Okendo Storefront REST API
   slug: okendo-storefront-rest-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Okendo Webhooks
@@ -130,7 +130,7 @@ common:
   url: components/okendo-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/okendo-mcp.yml
 - group: agent
   title: ''
@@ -164,10 +164,6 @@ created: '2026-07-17'
 description: 'Okendo is a customer-marketing platform for ecommerce brands, centered on the Shopify ecosystem, that unifies product reviews and ratings, loyalty programs, referrals, quizzes and surveys to drive conversion and repeat purchases. For developers Okendo exposes two REST surfaces: a server-side Merchant (Enterprise) REST API (https://api.okendo.io/enterprise, HTTP Basic auth plus a dated okendo-api-version header) for reviews moderation, loyalty, customers, surveys, quizzes, settings and webhook management; and a public Storefront REST API for reading published reviews, aggregates, media and Q&A. It also ships embeddable on-site widgets, a Storefront Javascript API, and first-party Vue and Shopify Hydrogen component packages, plus a webhook event stream across reviews, loyalty, surveys, quizzes and referrals.'
 image: https://www.okendo.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Okendo MCP Server
-  slug: okendo-mcp-server
 modified: '2026-07-20'
 name: Okendo
 nav: Providers
@@ -203,8 +199,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/screenshots/okendo-2026-08-07T190049.png
 security:

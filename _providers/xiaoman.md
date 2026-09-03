@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: The s7.1 release group of the Xiaoman OKKI CRM Open API — 35 operations covering customer detail/field dictionaries, follow-up trails, inventory, capital accounts and reporting.
   name: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Xiaoman Crm Webhooks
@@ -229,7 +229,7 @@ common:
   url: asyncapi/xiaoman-crm-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/xiaoman-mcp.yml
 - group: build
   title: ''
@@ -279,10 +279,6 @@ created: '2026-07-17'
 description: Xiaoman Technology (小满科技, OKKI) is an AI-powered foreign-trade sales platform under Alibaba International Station, serving Chinese B2B exporters with the OKKI CRM, OKKI AiReach multi-channel customer acquisition, OKKI Shops site building, and OKKI Go, a B2B prospecting engine built for AI agents. The OKKI CRM Open API (open.xiaoman.cn) exposes 119 OAuth2 module-scoped operations across customers, leads, opportunities, products, sales and purchase orders, quotations, payments, suppliers, inventory, users, and Pro-plan webhook message-push subscriptions. The OKKI Go API (go.okki.ai) provides company search, contact unlock, and cold-email outreach, shipped with a provider-published Agent Skill on npm (@okki-global/okki-go) that installs into Claude Code, Cursor, and other agent runtimes. Originally surfaced as a Qiming portfolio company.
 image: https://www.xiaoman.cn/favicon.ico
 layout: provider
-mcp_servers:
-- description: No official hosted MCP server was found for Xiaoman/OKKI. Notably, the provider ships agent access as a packaged Agent Skill instead (@okki-global/okki-go, see skills/) with script wrappers around the
-  name: Xiaoman (OKKI) MCP Server
-  slug: xiaoman-okki-mcp-server
 modified: '2026-08-13'
 name: Xiaoman (OKKI)
 nav: Providers
@@ -337,8 +333,8 @@ score:
       total: 8
     mcp: derived
     skills: unknown
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/screenshots/xiaoman-2026-08-17T083013.png
 security:

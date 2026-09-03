@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ apis:
   description: The Transactions API from Tyro Payments — 2 operation(s) for transactions.
   name: Tyro Payments Transactions API
   slug: tyro-transactions-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Tyro Webhooks
@@ -370,7 +370,7 @@ common:
   url: asyncapi/tyro-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tyro-mcp.yml
 - group: agent
   title: ''
@@ -384,10 +384,6 @@ created: '2026-07-24'
 description: 'Tyro Payments is an ASX-listed Australian payments company and one of the country''s largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tyro Payments MCP Server
-  slug: tyro-payments-mcp-server
 modified: '2026-07-24'
 name: Tyro Payments
 nav: Providers
@@ -435,8 +431,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/screenshots/tyro-2026-08-17T082516.png
 security:

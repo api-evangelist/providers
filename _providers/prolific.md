@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.prolific.com
@@ -126,7 +126,37 @@ apis:
   description: The workspaces API from Prolific — 3 operation(s) for workspaces.
   name: Prolific workspaces API
   slug: prolific-workspaces-api
-artifact_total: 41
+- description: Bulk bonus payments to participants.
+  name: Prolific Bonuses API
+  slug: prolific-research-bonuses-api
+- description: Demographic and screening requirements and eligibility counts.
+  name: Prolific Filters API
+  slug: prolific-research-filters-api
+- description: Event webhook subscriptions and signing secrets.
+  name: Prolific Hooks API
+  slug: prolific-research-hooks-api
+- description: Communicate with participants.
+  name: Prolific Messages API
+  slug: prolific-research-messages-api
+- description: Saved, dynamic groups of participant IDs used as allowlist/blocklist filters.
+  name: Prolific Participant Groups API
+  slug: prolific-research-participant-groups-api
+- description: Organize studies within a workspace.
+  name: Prolific Projects API
+  slug: prolific-research-projects-api
+- description: Create, publish, and manage research studies.
+  name: Prolific Studies API
+  slug: prolific-research-studies-api
+- description: Review, approve, reject, and return participant submissions.
+  name: Prolific Submissions API
+  slug: prolific-research-submissions-api
+- description: Authenticated account and user identity.
+  name: Prolific Users API
+  slug: prolific-research-users-api
+- description: Top-level containers that hold projects, fund studies, and scope teams.
+  name: Prolific Workspaces API
+  slug: prolific-research-workspaces-api
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Prolific Webhooks
@@ -322,6 +352,10 @@ common:
   title: ''
   type: Overlay
   url: overlays/prolific-openapi-overlay.yaml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.prolific.com/resources/blog
 created: '2026-07-17'
 description: 'Prolific is a platform for high-quality human data collection, connecting researchers and AI/ML teams with a vetted pool of verified participants for online studies, surveys, and human-feedback tasks (preference tuning, safety evals, benchmarks, RLHF). Its public REST API (api.prolific.com, OpenAPI 3.1) automates the full workflow: create and cost studies, target participants with demographic filters and filter sets, launch and monitor recruitment, review and approve submissions, pay rewards and bonuses, message participants, run AI Task Builder batches, and receive HMAC-signed webhooks. Prolific also ships a Go CLI and an official Model Context Protocol server for agent-driven study workflows. Trusted by Google, Hugging Face, and academic and government researchers.'
 image: https://www.prolific.com/favicon.ico
@@ -334,29 +368,29 @@ modified: '2026-07-20'
 name: Prolific
 nav: Providers
 network: true
-overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 15 more. Tagged areas include Company, Ai Ml, Human Data, Research, and Participant Recruitment.
+overview: 'Prolific publishes 28 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 25 more. Tagged areas include Company, Ai Ml, Human Data, Research, and Participant Recruitment.
 
 
   The Prolific catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 47.0
+  composite: 47.9
   coverage:
     artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 63.3
-    developer_ergonomics: 80.4
+    developer_ergonomics: 85.1
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
@@ -370,8 +404,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/screenshots/prolific-2026-08-17T081352.png
 security:

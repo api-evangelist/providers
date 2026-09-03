@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.hackmd.io/v1
@@ -76,7 +76,7 @@ apis:
   description: Operations related to a user's personal notes.
   name: HackMD User Notes API
   slug: hackmd-user-notes-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +184,7 @@ common:
   url: cli/hackmd-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hackmd-mcp.yml
 - group: agent
   title: ''
@@ -234,10 +234,6 @@ created: '2026-07-17'
 description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io that lets developers programmatically create, read, update and delete personal and team notes, manage folders and folder ordering, upload image attachments, restore notes from trash, and read the current user profile and view history. The API authenticates with a personal access token sent as an HTTP bearer credential, is described by a published OpenAPI 3.0 specification and Swagger UI, ships an official Node.js/TypeScript client (@hackmd/api) and command-line interface, and advertises its full developer surface through an RFC 9727 api-catalog. HackMD is a Techstars-backed company.
 image: https://hackmd.io/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HackMD MCP Server
-  slug: hackmd-mcp-server
 modified: '2026-07-19'
 name: HackMD
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/screenshots/hackmd-2026-07-25T220526.png
 security:

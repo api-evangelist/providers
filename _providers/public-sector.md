@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 21
 apis:
 - description: Free API management gateway operated by the U.S. General Services Administration's Technology Transformation Services. Fronts the API keys, rate limiting, and analytics for over 450 APIs across roughl
@@ -185,14 +185,14 @@ rules:
     warn: 3
   slug: public-sector-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 23.4
   coverage:
     artifact_dirs: 10
     catalog_gap: 65.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -202,9 +202,6 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 13.2
-  open_source:
-    applies: true
-    score: 75.0
   previous_composite: 28.7
   regulatory:
     applies: true
@@ -212,9 +209,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png
 security:
 - kind: domain-security

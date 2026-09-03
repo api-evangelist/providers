@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
@@ -328,8 +328,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/screenshots/hummingbot-2026-07-25T221727.png
 security:

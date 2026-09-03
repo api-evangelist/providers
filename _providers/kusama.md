@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://kusama-rpc.polkadot.io/
@@ -141,7 +141,7 @@ apis:
   description: The transaction API from Kusama — 6 operation(s) for transaction.
   name: Kusama transaction API
   slug: kusama-transaction-api
-artifact_total: 49
+artifact_total: 48
 asyncapis:
 - description: The event/streaming surface of the Kusama relay chain, served over WebSocket at wss://kusama-rpc.polkadot.io. Kusama publishes no webhooks — there is no vendor to register a callback URL with. Push de
   name: Kusama JSON-RPC Subscription API
@@ -269,7 +269,7 @@ common:
   url: cli/kusama-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kusama-mcp.yml
 - group: agent
   title: ''
@@ -343,10 +343,6 @@ examples:
   slug: kusama-rpc-methods
 image: https://kusama.network/images/kusama-logo-canary-white.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kusama MCP Server
-  slug: kusama-mcp-server
 modified: '2026-07-19'
 name: Kusama
 nav: Providers
@@ -387,8 +383,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

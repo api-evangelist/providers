@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API v3 for the Eagle Eye Networks cloud VMS: devices (bridges, cameras, speakers, switches, multi-cameras), live and recorded media streaming, archiving/exports/downloads, locations/floors/layout'
   name: Eagle Eye Video API Platform (v3)
   slug: eagle-eye-video-api-platform-v3
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Eagle Eye Networks Events Webhooks
@@ -139,7 +139,7 @@ common:
   url: components/eagle-eye-networks-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eagle-eye-networks-mcp.yml
 - group: design
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Eagle Eye Networks is a cloud video surveillance and video management system (VMS) provider whose Video API Platform (v3) exposes REST APIs for managing bridges, cameras, speakers, switches and multi-cameras; streaming live and recorded video (HLS, RTSP, MP4, WebRTC two-way audio); archiving, exporting and downloading media; locations, floors, floor plans and layouts; events, alerts, notifications and automations; video analytics deep search, license plate recognition (LPR) and vehicle surveillance; and account, user, role, application and OAuth client management. Authentication is OAuth 2.0 (authorization code, client credentials, refresh token, device code) issued from auth.eagleeyenetworks.com, and the platform ships first-party SDKs (Android/iOS/Web video, two-way audio), an een CLI, webhook event subscriptions and an llms.txt for agent consumption.
 image: https://www.een.com/wp-content/uploads/2017/08/Eagle-Eye-Devices-4.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server surfacing the Eagle Eye Video API Platform (v3) operations as tools. No official hosted Eagle Eye MCP server was found at capture time; this tool list is derived from documented A
-  name: Eagle Eye Networks MCP Server
-  slug: eagle-eye-networks-mcp-server
 modified: '2026-07-18'
 name: Eagle Eye Networks
 nav: Providers
@@ -209,8 +205,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eagle-eye-networks/refs/heads/main/screenshots/eagle-eye-networks-2026-07-25T212634.png
 security:

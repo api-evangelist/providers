@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -218,7 +218,7 @@ apis:
   description: APIs for managing ZKS (ZEDEDA Kubernetes Service) cluster instances including creation, management, node operations, and status monitoring
   name: Zededa ZKSClusterInstances API
   slug: zededa-zksclusterinstances-api
-artifact_total: 76
+artifact_total: 75
 collections:
 - collection_type: open
   name: API Collection
@@ -387,7 +387,7 @@ common:
   url: packages/zededa-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zededa-mcp.yml
 - group: agent
   title: ''
@@ -445,10 +445,6 @@ created: '2026-07-17'
 description: ZEDEDA is an edge intelligence platform that helps enterprises deploy, manage, and secure AI workloads and applications across thousands of distributed edge sites. Its ZedCloud control plane orchestrates EVE-OS edge nodes, edge applications, virtual networks, storage, and managed Kubernetes (ZKS) through a REST API served under https://zedcontrol.zededa.net/api. The API is grpc-gateway generated and published as ten Swagger 2.0 service specifications (App Profiles, Edge Applications, Diagnostics, Jobs, Kubernetes, Networks, Node Clusters, Edge Nodes, Storage, and IAM) totaling 421 operations, with an official Terraform provider for infrastructure-as-code. ZEDEDA was surfaced as a portfolio company of lux-capital and enriched by the API Evangelist pipeline.
 image: https://avatars.githubusercontent.com/u/25070488?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zededa MCP Server
-  slug: zededa-mcp-server
 modified: '2026-07-21'
 name: Zededa
 nav: Providers
@@ -487,8 +483,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/screenshots/zededa-2026-08-17T083041.png
 security:

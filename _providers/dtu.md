@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 7
 apis:
 - description: DTU operates its own security token service at sts.ait.dtu.dk (Microsoft AD FS) and publishes signed SAML 2.0 metadata and an OpenID Connect discovery document, both openly and without authentication.
@@ -193,8 +193,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/screenshots/dtu-2026-06-20T180302.png
 security:

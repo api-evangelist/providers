@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 1
@@ -432,7 +432,7 @@ apis:
   description: The White Labels API from Rubicon Project — 1 operation(s) for white labels.
   name: Rubicon Project White Labels API
   slug: rubicon-project-white-labels-api
-artifact_total: 87
+artifact_total: 86
 collections:
 - collection_type: open
   name: SpringServe UI API (V0)
@@ -559,7 +559,7 @@ common:
   url: data-model/rubicon-project-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rubicon-project-mcp.yml
 - group: agent
   title: ''
@@ -578,10 +578,6 @@ description: Rubicon Project is a Los Angeles-based advertising technology compa
   for iOS and Android, and OpenRTB protobuf extensions. Account creation and API credentials remain partner-gated; the contract itself is anonymously readable.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rubicon-project.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rubicon Project MCP Server
-  slug: rubicon-project-mcp-server
 modified: '2026-08-12'
 name: Rubicon Project
 nav: Providers
@@ -628,8 +624,8 @@ score:
       total: 81
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ arazzos:
 - description: Look up an Airflow variable and update it if it exists, otherwise create it, then read the result back.
   name: Apache Airflow Upsert a Variable
   slug: apache-airflow-upsert-variable-workflow
-artifact_total: 302
+artifact_total: 301
 collections:
 - collection_type: postman
   name: Airflow API (Stable) Config API
@@ -342,7 +342,7 @@ common:
   url: well-known/apache-airflow-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apache-airflow-mcp.yml
 - group: agent
   title: ''
@@ -1140,10 +1140,6 @@ jsonld:
   property_count: 197
   slug: apache-airflow-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Apache Airflow MCP Server
-  slug: apache-airflow-mcp-server
 modified: '2026-06-20'
 name: Apache Airflow
 nav: Providers
@@ -1217,8 +1213,8 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:

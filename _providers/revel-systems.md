@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://revelsystems.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.shift4.com/food-beverage — a different registrable domain (revelsystems.com -> shift4.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 13
   slug: revel-systems-agentic-access
   summary_line: 13 operations · 5 acting
-api_count: 6
+api_count: 7
 apis:
 - description: Event-driven webhook channel that delivers POS events (order finalized, customer created/updated, stock changes, menu updates, timesheet changes, integration changes, reward cards, and ping) to partne
   name: Revel Webhooks
@@ -72,7 +73,10 @@ apis:
   description: Labor scheduling and timesheet resources.
   name: Revel Systems Scheduling API
   slug: revel-systems-scheduling-api
-artifact_total: 92
+- description: REST API for the Revel Systems iPad POS platform, covering orders, payments, products, inventory, customers, employees, scheduling, cash management, discounts, tax, tables, purchase orders, house acco
+  name: Revel Systems API
+  slug: revel-api
+artifact_total: 93
 asyncapis:
 - description: 'Revel Systems delivers event notifications to partner-registered HTTPS endpoints via webhooks. Each event type is delivered by HTTP POST with a JSON body. Requests carry an HMAC-SHA1 signature in the '
   name: Revel Webhooks
@@ -152,6 +156,10 @@ common:
   title: ''
   type: FinOps
   url: finops/revel-systems-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://revelsystems.com/blog/
 created: '2026-05-08'
 description: Revel Systems is a cloud iPad-based POS for restaurants and retailers. The Revel Open API exposes products, orders, customers, employees, inventory, schedules, and reporting via a REST interface for partner integrations. The API follows Django Tastypie conventions (objects/meta list envelope, field-lookup filtering) and is complemented by an HMAC-signed webhook channel.
 examples:
@@ -362,7 +370,7 @@ overview: 'Revel Systems publishes 6 APIs on the [APIs.io](https://apis.io/) net
   The Revel Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Revel Systems'' developer surface includes authentication, FAQ, and 11 more developer resources.'
+  Revel Systems'' developer surface includes authentication, FAQ, engineering blog, and 11 more developer resources.'
 plans:
 - name: Revel Systems Plans Pricing
   plan_count: 1
@@ -407,19 +415,19 @@ rules:
   slug: revel-systems-rules
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.3
   coverage:
     artifact_dirs: 16
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 40.5
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 7.9
@@ -431,8 +439,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:

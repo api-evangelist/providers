@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.humanity.com'', ''status'': 302, ''note'': ''declared website redirects to https://tcpsoftware.com/products/humanity/ — a different registrable domain (humanity.com -> tcpsoftware.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Humanity HVII Public API is a REST API for workforce management — employees, positions, locations, shifts, shift swaps and trades, timeclocks, leaves, messages, training, tasks (master/shift/emplo
   name: Humanity HVII Public API
   slug: humanity-hvii-public-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -79,7 +80,7 @@ common:
   url: llms/humanity-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/humanity-mcp.yml
 - group: design
   title: ''
@@ -117,10 +118,6 @@ created: '2026-07-17'
 description: Humanity (Humanity Schedule) is an employee scheduling and workforce management platform owned by TCP Software (TimeClock Plus, LLC). It automates shift planning, closes coverage gaps, forecasts demand, and manages labor compliance across employees, positions, and locations, with time tracking, leave management, training, tasks, and payroll integration. Humanity exposes a public REST API (v1.0 and v2.0) documented on its ReadMe-hosted developer platform, using OAuth2 for authentication, so integrators can synchronize employees, shifts, timeclocks, leaves, reports, skills, and tasks with external HR, payroll, and workforce systems.
 image: https://tcpsoftware.com/products/humanity/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Humanity MCP Server
-  slug: humanity-mcp-server
 modified: '2026-07-19'
 name: Humanity
 nav: Providers
@@ -152,8 +149,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanity/refs/heads/main/screenshots/humanity-2026-07-25T221658.png
 security:

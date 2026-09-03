@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
   name: PlayerWON API
   slug: playerwon-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: operate
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Simulmedia is a technology-driven television advertising company that helps advertisers, agencies, and growth marketers plan, buy, and measure campaigns across linear TV, connected TV (CTV), and games. Its products include the Performance TV media-buying service, the AI-powered TV+ media-buying platform, and Simulmedia Self-Serve. Through PlayerWON, Simulmedia operates an in-game rewarded-video engagement and monetization platform for free-to-play console and PC games, exposed to game developers through the PlayerWON API and a first-party Unity/Unreal SDK. Simulmedia is a portfolio company of Union Square Ventures. This profile was enriched by the API Evangelist pipeline from the company's public developer surface and the open-source PlayerWON SDK.
 image: https://logo.clearbit.com/simulmedia.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Simulmedia MCP Server
-  slug: simulmedia-mcp-server
 modified: '2026-08-13'
 name: Simulmedia
 nav: Providers
@@ -128,13 +124,13 @@ rate_limits:
   slug: simulmedia-rate-limits
 score:
   band: thin
-  composite: 30.3
+  composite: 30.9
   coverage:
     artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -144,16 +140,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 30.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/screenshots/simulmedia-2026-09-02T155606.png
 security:

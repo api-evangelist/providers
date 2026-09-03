@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api-civ.djamo.com
@@ -41,7 +41,7 @@ apis:
   description: REST API for businesses to collect payments, send single and mass transfers, check balance, manage sub-companies, and receive HMAC-signed webhooks.
   name: Djamo Business API
   slug: djamo-business-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: Server-to-server webhook events emitted by the Djamo Business API for transaction lifecycle and charge status changes. Each delivery is signed with an HMAC-SHA256 signature (base64) in the `x-djamo-hm
   name: Djamo Business API Webhooks
@@ -87,10 +87,6 @@ created: '2026-07-17'
 description: Djamo is a mobile-first fintech serving Côte d'Ivoire and Sénégal, giving 1.5M+ users current and savings accounts with an IBAN, virtual and physical Visa cards, money transfers to Mobile Money and bank accounts, bill payments, short-term credit, and BRVM investment products. For businesses, Djamo exposes a REST Business API that lets companies collect payments ("Pay with Djamo"), send single and mass transfers to recipients by phone number, check their real-time balance, and manage marketplace sub-companies, secured with bearer tokens and HMAC-signed webhooks. Djamo is a Y Combinator alumnus backed by investors including Partech.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/djamo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Djamo MCP Server
-  slug: djamo-mcp-server
 modified: '2026-07-18'
 name: Djamo
 nav: Providers
@@ -132,8 +128,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/djamo/refs/heads/main/screenshots/djamo-2026-07-25T212138.png
 security:

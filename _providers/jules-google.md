@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Alpha REST API for Google's Jules autonomous coding agent. Exposes Sources (connected GitHub repositories), Sessions (units of work against a source with a prompt and optional plan-approval workflow),
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jules-google/refs/heads/main/screenshots/jules-google-2026-06-20T183823.png
 security:

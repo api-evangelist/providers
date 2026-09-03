@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -93,7 +93,7 @@ apis:
   description: All endpoints related to interacting with Robot's vehicle operations here
   name: Polymath Robotics Vehicle Operations API
   slug: polymath-vehicle-operations-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -191,7 +191,7 @@ common:
   url: packages/polymath-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/polymath-mcp.yml
 - group: agent
   title: ''
@@ -225,10 +225,6 @@ created: '2026-07-17'
 description: 'Polymath Robotics builds general autonomy and safety software for off-highway and industrial vehicles such as tractors, loaders, dozers, and mining trucks. Its Synapse REST API lets developers command a real or simulated Polymath-powered vehicle: sending GPS and relative waypoints, issuing motion and vehicle commands, reading combined autonomy, navigation, and vehicle feedback, managing exclusive teleoperation control leases, and streaming media over LiveKit. Caladan, its browser-based simulation environment, lets teams build and test autonomous behaviors in Python without ROS, Gazebo, or Linux before deploying to physical machines. Founded in 2021 (YC S22), San Francisco.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polymath.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Polymath Robotics MCP Server
-  slug: polymath-robotics-mcp-server
 modified: '2026-07-20'
 name: Polymath Robotics
 nav: Providers
@@ -267,8 +263,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/screenshots/polymath-2026-09-02T151709.png
 security:

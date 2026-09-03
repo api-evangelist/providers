@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
   description: The Tags API from Dragos — 2 operation(s) for tags.
   name: Dragos Tags API
   slug: dragos-tags-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -142,7 +142,7 @@ common:
   url: well-known/dragos-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dragos-mcp.yml
 - group: agent
   title: ''
@@ -204,10 +204,6 @@ created: '2026-07-17'
 description: Dragos is an industrial (OT/ICS) cybersecurity company whose platform delivers OT asset visibility, threat detection, vulnerability management, and investigation and response purpose-built for industrial control system environments, supporting 600+ ICS protocols. Its public developer surface is the WorldView threat-intelligence API, which exposes Dragos WorldView reports and indicators of compromise (IP, domain, hostname, filename, MD5/SHA1/SHA256) for OT/ICS threats, with STIX 2.0 and CSV exports and tag-based classification. The Dragos Platform additionally offers a customer-gated SiteStore v2 API for tenants to read assets and alerts from the OT monitoring platform. Dragos is ISO/IEC 27001:2022 certified and provides SOC 2 Type II reports under NDA.
 image: https://www.dragos.com/wp-content/uploads/2021/06/dragos-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dragos MCP Server
-  slug: dragos-mcp-server
 modified: '2026-07-18'
 name: Dragos
 nav: Providers
@@ -246,8 +242,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/screenshots/dragos-2026-07-25T212343.png
 security:

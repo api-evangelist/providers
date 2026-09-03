@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://sandbox.oumla.com
@@ -96,7 +96,7 @@ apis:
   description: The workflows API from Oumla Ltd — 1 operation(s) for workflows.
   name: Oumla Ltd workflows API
   slug: oumla-ltd-workflows-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -180,7 +180,7 @@ common:
   url: sandbox/oumla-ltd-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oumla-ltd-mcp.yml
 - group: agent
   title: ''
@@ -246,10 +246,6 @@ created: '2026-07-17'
 description: Oumla is a Saudi-based provider of enterprise-grade digital asset infrastructure for regulated institutions. Its Core API delivers MPC-based wallet and address management, portfolio and native-balance queries, on-chain transaction tracking, smart-contract templates plus deployment and read/write interactions, and tokenization (collections, issue, mint, burn) for tokenized securities, fund units, sukuk, and NFTs. Products span Digital Assets Infrastructure (custody, policy engines, lifecycle), Capital Markets Tokenization, the Oumla Financial Chain for Shariah-compliant interbank settlement, and Bahith blockchain monitoring and compliance analytics built for Saudi data sovereignty. Authentication is via the x-api-key header; long-running mutations run as async workflows. Oumla is SOC 2 Type II and ISO 27001 certified.
 image: https://oumla.com/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oumla Ltd MCP Server
-  slug: oumla-ltd-mcp-server
 modified: '2026-07-20'
 name: Oumla Ltd
 nav: Providers
@@ -293,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

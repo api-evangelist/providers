@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: List available models.
   name: Inception Models API
   slug: inception-models-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: packages/inception-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/inception-mcp.yml
 - group: operate
   title: ''
@@ -214,10 +214,6 @@ finops:
   slug: inception-finops
 image: https://www.inceptionlabs.ai/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Inception MCP Server
-  slug: inception-mcp-server
 modified: '2026-07-19'
 name: Inception
 nav: Providers
@@ -264,8 +260,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/screenshots/inception-2026-07-25T222332.png
 security:

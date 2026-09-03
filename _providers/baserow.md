@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 10
@@ -668,13 +668,13 @@ rules:
   slug: baserow-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
+  composite: 46.9
   coverage:
     artifact_dirs: 16
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -684,9 +684,6 @@ score:
     discoverability: 44.4
     governance: 25.0
     operational_transparency: 60.5
-  open_source:
-    applies: true
-    score: 85.0
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -695,8 +692,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/screenshots/baserow-2026-06-20T173022.png
 security:

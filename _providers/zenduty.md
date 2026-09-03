@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -314,6 +314,10 @@ collections:
   name: Zenduty
   slug: open-zenduty
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zenduty-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -369,13 +373,13 @@ network: true
 overview: 'Zenduty publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account Custom Role API, Account Member API, Alert Rules API, and 29 more. Tagged areas include Incident Management, On-Call, Alerting, SRE, and DevOps.
 
 
-  Zenduty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
+  Zenduty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
 random_paper: 10
 score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -397,8 +401,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/screenshots/zenduty-2026-06-20T201810.png
 security:

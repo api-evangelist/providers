@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST API for programmatically managing FlutterFlow projects: list projects, list and export partitioned project YAML files, validate YAML before applying, and update a project by YAML. Used to automat'
@@ -200,8 +200,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterflow/refs/heads/main/screenshots/flutterflow-2026-07-25T214849.png
 security:

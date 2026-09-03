@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Standards for Carrier APIs
@@ -181,13 +181,13 @@ overview: 'NMFTA publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 9
 score:
   band: emerging
-  composite: 24.4
+  composite: 22.6
   coverage:
     artifact_dirs: 11
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -197,9 +197,6 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 24.4
   provenance:
     contracts:
@@ -207,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
 slug: nmfta

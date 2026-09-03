@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.runinfra.ai/v1
@@ -71,7 +71,7 @@ apis:
   description: The Responses API from RightNow AI — 1 operation(s) for responses.
   name: RightNow AI Responses API
   slug: rightnow-responses-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -104,7 +104,7 @@ common:
   url: skills/rightnow-audio-transcription.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rightnow-mcp.yml
 - group: other
   title: ''
@@ -230,10 +230,6 @@ created: '2026-07-17'
 description: RightNow AI (RunInfra) turns plain-English descriptions of an inference workload into production, OpenAI-compatible AI endpoints. The platform selects open-source models from Hugging Face, benchmarks GPU options, applies kernel optimizations (quantization, speculative decoding, KV-cache tuning, Forge kernels), and deploys serverless, pay-per-token inference APIs on RunInfra Cloud, RunPod, Modal, or self-hosted GPUs. Its REST API is OpenAI-shaped and covers chat completions, responses, embeddings, rerank, image generation, audio speech and transcription, and model listing. A Y Combinator-backed research lab, RightNow AI also publishes open-source GPU-kernel and inference tooling.
 image: https://runinfra.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: RightNow AI MCP Server
-  slug: rightnow-ai-mcp-server
 modified: '2026-07-21'
 name: RightNow AI
 nav: Providers
@@ -271,8 +267,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/screenshots/rightnow-2026-08-17T081603.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Jelly's GraphQL API for costing and kitchen management. Single POST endpoint at api.getjelly.co.uk with bearer-token auth and public introspection; exposes kitchens, ingredients, recipes, dishes, menu
   name: Jelly GraphQL API
   slug: jelly-graphql-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -111,7 +111,7 @@ common:
   url: components/jelly-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jelly-mcp.yml
 - group: agent
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Jelly (getjelly.co.uk) is an all-in-one costing and kitchen-management platform for the hospitality industry - restaurants and professional kitchens. It handles supplier invoice processing, ingredient and recipe costing, gross-profit (GP) analysis, menu and dish management, suppliers, products, purchase orders and stock. Jelly runs a GraphQL API at api.getjelly.co.uk (bearer-authenticated, public introspection, 232 queries and 168 mutations) behind its kitchen web app, and publishes a first-party UI component library (Jelly UI, @getjelly/jelly-ui). Surfaced originally as a Seedcamp portfolio company and enriched here from its live public surface.
 image: https://kitchen.getjelly.co.uk/icons/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Jelly GraphQL API. Jelly does not publish a hosted/remote MCP server; this is a DERIVED candidate tool list mapping a curated subset of real GraphQL operations (verified i
-  name: Jelly MCP Server
-  slug: jelly-mcp-server
 modified: '2026-07-19'
 name: Jelly
 nav: Providers
@@ -169,8 +165,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jelly/refs/heads/main/screenshots/jelly-2026-07-25T223126.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://polygon.io/'', ''status'': 301, ''note'': ''declared website redirects to https://massive.com/ — a different registrable domain (polygon.io -> massive.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -922,20 +923,20 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 68.1
+  composite: 69.0
   coverage:
     artifact_dirs: 32
-    catalog_gap: 25.5
+    catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 33.3
     contract_quality: 72.5
     developer_ergonomics: 56.5
-    discoverability: 66.7
+    discoverability: 75.9
     governance: 33.3
     operational_transparency: 57.9
   previous_composite: 68.1
@@ -955,8 +956,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: Banking Product endpoints
   name: Macquarie Bank Banking Products API
   slug: macquarie-bank-banking-products-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -161,7 +161,7 @@ common:
   url: data-model/macquarie-bank-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/macquarie-bank-mcp.yml
 - group: other
   title: ''
@@ -235,10 +235,6 @@ created: '2026-07-20'
 description: Macquarie Bank Limited is an Australian authorised deposit-taking institution (ADI) and the retail and business banking arm of Macquarie Group Limited, the ASX-listed (ASX:MQG) global financial services group headquartered in Sydney. It is not a mutual or customer-owned bank; it is a wholly-owned, shareholder-owned subsidiary of a publicly listed parent. Its digital bank offers transaction and savings accounts, home loans, credit and charge cards, term deposits, overdrafts and business lending. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), Macquarie Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS), alongside accredited-data-recipient data sharing and a registered developer portal that documents its DEFT payments platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/macquarie-bank.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Macquarie Bank MCP Server
-  slug: macquarie-bank-mcp-server
 modified: '2026-07-21'
 name: Macquarie Bank
 nav: Providers
@@ -288,8 +284,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png
 security:

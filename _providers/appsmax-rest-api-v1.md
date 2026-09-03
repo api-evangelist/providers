@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-09-02'
+  score: 33.8
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
   description: Подписчики и их сегментационные теги.
   name: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: postman
   name: AppsMax REST API v1 — Quickstart
@@ -127,7 +127,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/appsmax-rest-api-v1-mcp.yml
 - group: agent
   title: ''
@@ -261,10 +261,6 @@ created: '2026-07-31'
 description: AppsMax.ru is a Russian-language SaaS platform for small business, communities and integrators, used to run customer requests, online booking, orders, mini apps, groups, channels, permitted messaging, GigaChat and integrations inside MAX and Telegram. Its developer surface is a single server-to-server REST API (v1) with a published OpenAPI 3.0.3 contract, an APIs.json index, an API Onboarding Descriptor and an llms.txt. AppsMax is not a product of, nor an official representative of, MAX, Telegram or GigaChat.
 image: https://appsmax.ru/wp-content/themes/appsmax-site/assets/img/logo-appsmax.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: AppsMax MCP Server
-  slug: appsmax-mcp-server
 modified: '2026-08-09'
 name: AppsMax
 nav: Providers
@@ -316,8 +312,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/screenshots/appsmax-rest-api-v1-2026-08-17T080613.png
 security:

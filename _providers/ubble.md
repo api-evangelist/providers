@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.ubble.ai/'', ''status'': 301, ''note'': ''declared website redirects to https://www.checkout.com/products/identity-verification — a different registrable domain (ubble.ai -> checkout.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.ubble.ai
@@ -91,7 +92,7 @@ apis:
   description: The Website verifications (Coming soon) API from Ubble — 4 operation(s) for website verifications (coming soon).
   name: Ubble Website verifications (Coming soon) API
   slug: ubble-website-verifications-coming-soon-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Ubble Webhooks
@@ -236,7 +237,7 @@ common:
   url: asyncapi/ubble-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ubble-mcp.yml
 - group: agent
   title: ''
@@ -258,10 +259,6 @@ created: '2026-07-17'
 description: Ubble is a Paris-founded identity verification company, now part of Checkout.com and operated as the Checkout.com Identity Verification (Identities) solution. Its API at api.ubble.ai powers video-based identity verification, ID document verification, AML screening with ongoing monitoring, biometric face authentication, and address/bank/company document and website verifications, with a hosted capture flow, CloudEvents webhooks signed with ECDSA/SHA-512, and a published OpenAPI 3.0.3 contract.
 image: https://raw.githubusercontent.com/ubbleai/docs/main/cko_doc_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ubble MCP Server
-  slug: ubble-mcp-server
 modified: '2026-07-21'
 name: Ubble
 nav: Providers
@@ -302,8 +299,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubble/refs/heads/main/screenshots/ubble-2026-08-17T082623.png
 security:

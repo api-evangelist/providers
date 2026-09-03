@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://vault-content-api.teahouse.finance
@@ -51,7 +51,7 @@ apis:
   description: Vault catalog and metadata
   name: Teahouse Finance Vaults API
   slug: teahouse-vaults-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: conformance/teahouse-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/teahouse-mcp.yml
 - group: agent
   title: ''
@@ -150,10 +150,6 @@ created: '2026-07-17'
 description: 'Teahouse Finance, founded in 2021, is a multi-strategy DeFi asset-management platform that sits as a simplified layer above protocols such as Uniswap V3, removing the complexity of managing liquidity and crypto assets. It runs audited smart-contract vaults across multiple chains — LP Vaults, Portfolio Vaults, the Easy-Earn delta-neutral strategy, and Tea-REX — for both individual and enterprise clients. Teahouse exposes a public read-only Vault API (HTTP/JSON) over its permissionless vaults: the vault catalog, per-vault performance time series (TVL, fee APR, share-token APR, share price), and account/vault share transaction logs. Vaults are of type V3Pair (a single Uniswap V3 LP pair) or V3Port (a portfolio of multiple positions). Surfaced as a portfolio company of Pantera Capital and enriched into the API Evangelist network from its published developer documentation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teahouse.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Teahouse Finance MCP Server
-  slug: teahouse-finance-mcp-server
 modified: '2026-07-21'
 name: Teahouse Finance
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/screenshots/teahouse-2026-09-02T162648.png
 security:

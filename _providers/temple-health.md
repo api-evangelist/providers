@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ apis:
   description: Demographics and other administrative information about an individual receiving care.
   name: Temple Health Patient API
   slug: temple-health-patient-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -278,7 +278,7 @@ common:
   url: llms/temple-health-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/temple-health-mcp.yml
 - group: agent
   title: ''
@@ -361,10 +361,6 @@ jsonld:
   property_count: 0
   slug: temple-health-context
 layout: provider
-mcp_servers:
-- description: Temple Health ships no MCP server. This is a CANDIDATE tool surface derived from the operations the FHIR endpoint actually exposes, so that an integrator can see what an MCP wrapper would look like. N
-  name: 'Candidate tool surface only — Temple Health hosts no MCP server (deployment mode: none)'
-  slug: candidate-tool-surface-only-temple-health-hosts-no-mcp-server-deployment-mode-none
 modified: '2026-08-15'
 name: Temple Health
 nav: Providers
@@ -447,8 +443,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:

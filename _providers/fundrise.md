@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ arazzos:
 - description: 'The primary Fundrise Connect flow, modelled from the sequence Fundrise publishes under the "Workflow Example" tag of its own OpenAPI: create a Client, exchange the issued refresh token for a Client ac'
   name: Fundrise Connect — onboard a Client and place an Investment
   slug: fundrise-onboard-client-and-invest
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +135,7 @@ common:
   url: capabilities/fundrise-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fundrise-mcp.yml
 - group: other
   title: ''
@@ -230,10 +230,6 @@ description: 'Fundrise is a Washington, DC based financial technology company th
   from the Fundrise Connect team — and the API is documented publicly with an OpenAPI 3.1 definition.'
 image: https://fundrise.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fundrise MCP Server
-  slug: fundrise-mcp-server
 modified: '2026-08-04'
 name: Fundrise
 nav: Providers
@@ -281,8 +277,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/screenshots/fundrise-2026-08-17T123444.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: Real-time and historical stock market price data
   name: StockData Stock Data API
   slug: stockdata-stock-data-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: postman
   name: StockData Entities API
@@ -104,7 +104,7 @@ common:
   url: authentication/stockdata-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/stockdata-mcp.yml
 - group: agent
   title: ''
@@ -257,10 +257,6 @@ jsonld:
   property_count: 0
   slug: stockdata-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: StockData MCP Server
-  slug: stockdata-mcp-server
 modified: '2026-07-22'
 name: StockData
 nav: Providers
@@ -338,8 +334,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

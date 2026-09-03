@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -476,6 +476,10 @@ collections:
   name: Chainstack zkSync Era Node API
   slug: open-chainstack-zksync-node-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chainstack-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -689,7 +693,7 @@ overview: 'Chainstack publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
   The Chainstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Chainstack''s developer surface includes authentication, GitHub presence, YouTube channel, developer portal, documentation, pricing, support, and 39 more developer resources.'
+  Chainstack''s developer surface includes authentication, GitHub presence, YouTube channel, developer portal, documentation, pricing, support, and 40 more developer resources.'
 plans:
 - name: Chainstack Plans Pricing
   plan_count: 6
@@ -736,7 +740,7 @@ score:
   band: strong
   composite: 60.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -758,8 +762,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

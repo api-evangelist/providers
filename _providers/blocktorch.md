@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Manage managed Hardhat fork instances.
   name: Blocktorch Hardhat API
   slug: blocktorch-hardhat-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -111,7 +111,7 @@ common:
   url: cli/blocktorch-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blocktorch-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: Blocktorch is an end-to-end observability platform built specifically for web3 services and decentralized applications (dApps). It gives engineering teams real-time monitoring of smart contract events, state variables and transaction data, plus log search, alerting, tracing, dashboarding, debugging and collaboration across multiple layers of the web3 stack (EVM chains, roll-ups, local Hardhat forks, oracles, account-abstraction modules and decentralized storage). Blocktorch also exposes a Hardhat Forking API for programmatically managing managed Hardhat fork instances for continuous development and testing. Backed by Speedinvest.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blocktorch.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blocktorch MCP Server
-  slug: blocktorch-mcp-server
 modified: '2026-07-18'
 name: Blocktorch
 nav: Providers
@@ -191,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/screenshots/blocktorch-2026-07-25T203347.png
 security:

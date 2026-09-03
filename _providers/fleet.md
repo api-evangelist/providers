@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Fleet API from Fleet — 2 operation(s) for fleet.
   name: Fleet Fleet API
   slug: fleet-fleet-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Fleet Webhooks
@@ -63,7 +63,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fleet-mcp.yml
 - group: company
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Fleet is an open-source device management platform built on osquery. It provides cross-platform MDM, endpoint telemetry, vulnerability and patch management, software inventory, and GitOps-driven configuration for macOS, Windows, Linux, iOS, and Android fleets. Fleet exposes a versioned REST API (/api/v1/fleet, bearer-token auth), the fleetctl CLI for live queries and config-as-code, and outbound webhook automations. It is developed in the open at github.com/fleetdm/fleet and backed by CRV.
 image: https://avatars.githubusercontent.com/u/70264713?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fleet MCP Server
-  slug: fleet-mcp-server
 modified: '2026-07-19'
 name: Fleet
 nav: Providers
@@ -242,8 +238,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/screenshots/fleet-2026-07-25T214732.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Jakarta RESTful Web Services (formerly JAX-RS) is the API specification for developing web services that follow the REST architectural pattern. It defines a set of Java APIs and annotations that enabl
@@ -139,13 +139,13 @@ rate_limits:
   slug: jakarta-ee-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 15.0
   coverage:
     artifact_dirs: 6
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -155,13 +155,10 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 20.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jakarta-ee/refs/heads/main/screenshots/jakarta-ee-2026-06-20T183653.png
 security:
 - kind: domain-security

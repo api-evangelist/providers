@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: The System Rules API from Alibaba Sentinel — 1 operation(s) for system rules.
   name: Alibaba Sentinel System Rules API
   slug: alibaba-sentinel-system-rules-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -82,7 +82,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alibaba-sentinel-mcp.yml
 - group: other
   title: ''
@@ -155,10 +155,6 @@ json_schemas:
   property_count: 0
   slug: flow-rule
 layout: provider
-mcp_servers:
-- description: ''
-  name: Alibaba Sentinel MCP Server
-  slug: alibaba-sentinel-mcp-server
 modified: '2026-06-20'
 name: Alibaba Sentinel
 nav: Providers
@@ -210,8 +206,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/screenshots/alibaba-sentinel-2026-07-25T195610.png
 security:

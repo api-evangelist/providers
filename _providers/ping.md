@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Ping++ REST payments API — create and query Charges, Refunds, Transfers (enterprise payouts), Red Envelopes, Orders, Users, Recharges, Withdrawals, Coupons and Royalties across WeChat Pay, Alipay, Uni
   name: Ping++ Payments API
   slug: ping-payments-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Ping Webhooks
@@ -139,7 +139,7 @@ common:
   url: packages/ping-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ping-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: Ping++ (品牌运营方为上海简米网络科技有限公司 / Shanghai Jianmi Network Technology Co., Ltd.) is a Chinese aggregated-payment ("聚合支付") platform that gives merchants a single REST API and multi-platform SDKs to accept payments across WeChat Pay, Alipay, UnionPay, bank cards and other channels, plus compliant profit-sharing / split-settlement (分账), enterprise payouts (企业付款 / Transfers), red envelopes, member account systems and multi-tier merchant systems. The Stripe-inspired API is REST, JSON, HTTP Basic authenticated with an API Key, and organised around Charge, Refund, Transfer, Order, User, Recharge, Withdrawal, Coupon and Royalty objects, with cursor pagination, metadata, webhooks and a dated changelog. This profile was seeded as a venture-portfolio lead (General Catalyst, Ribbit Capital) and enriched from Ping++'s public developer surface.
 image: https://www.pingxx.com/assets/img/logo-black.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ping++ MCP Server
-  slug: ping-mcp-server
 modified: '2026-07-20'
 name: Ping++
 nav: Providers
@@ -209,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/screenshots/ping-2026-08-17T081244.png
 security:

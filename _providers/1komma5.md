@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ apis:
   description: The Users API from 1KOMMA5° — 4 operation(s) for users.
   name: 1KOMMA5° Users API
   slug: 1komma5-users-api
-artifact_total: 63
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -279,7 +279,7 @@ common:
   url: capabilities/1komma5-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/1komma5-mcp.yml
 - group: other
   title: ''
@@ -393,10 +393,6 @@ created: '2026-08-02'
 description: '1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe''s largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.'
 image: https://1komma5.com/icon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: 1KOMMA5° MCP Server
-  slug: 1komma5-mcp-server
 modified: '2026-08-02'
 name: 1KOMMA5°
 nav: Providers
@@ -446,8 +442,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:

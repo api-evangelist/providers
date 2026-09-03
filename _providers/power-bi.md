@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ arazzos:
 - description: Create a workspace, add a principal with a specific access right, and verify the resulting membership.
   name: Power BI Provision a Workspace and Grant Access
   slug: power-bi-workspace-provision-access-workflow
-artifact_total: 262
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Power BI REST Dashboards API
@@ -225,7 +225,7 @@ common:
   url: well-known/power-bi-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/power-bi-mcp.yml
 - group: agent
   title: ''
@@ -1044,10 +1044,6 @@ jsonld:
   property_count: 0
   slug: power-bi-rest-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Power BI MCP Server
-  slug: power-bi-mcp-server
 modified: '2026-06-20'
 name: Power BI
 nav: Providers
@@ -1097,13 +1093,13 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 70.8
+  composite: 67.5
   coverage:
     artifact_dirs: 34
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -1113,9 +1109,6 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 100.0
   previous_composite: 70.8
   provenance:
     agentic_access: derived
@@ -1126,8 +1119,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:

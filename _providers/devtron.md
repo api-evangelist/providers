@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ apis:
   description: The Workflow Management API from Devtron — 2 operation(s) for workflow management.
   name: Devtron Workflow Management API
   slug: devtron-workflow-management-api
-artifact_total: 62
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Devtron Notifications Webhooks
@@ -279,6 +279,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/devtron-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/devtron-overlay.yaml
 - group: company
@@ -355,7 +359,7 @@ common:
   url: agentic-access/devtron-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/devtron-mcp.yml
 - group: agent
   title: ''
@@ -369,10 +373,6 @@ created: '2026-07-17'
 description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and compliance governance, observability, and FinOps in a single interface, with 100+ tool integrations and an agentic SRE assistant. Devtron exposes a programmable orchestrator REST API (OpenAPI 3.0, 110 operations) covering application, job, Helm chart, deployment, bulk-action, RBAC, SSO, cluster/environment and notification management, authenticated with RBAC-scoped API tokens. Backed by Insight Partners. Enriched by the API Evangelist pipeline from Devtron's public developer surface.
 image: https://avatars.githubusercontent.com/u/60952665?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Devtron MCP Server
-  slug: devtron-mcp-server
 modified: '2026-07-18'
 name: Devtron
 nav: Providers
@@ -383,13 +383,13 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The Devtron catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 15 more developer resources.'
+  Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 16 more developer resources.'
 random_paper: 14
 score:
   band: developing
   composite: 41.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -414,8 +414,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/screenshots/devtron-2026-07-25T211825.png
 security:

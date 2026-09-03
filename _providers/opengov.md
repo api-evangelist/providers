@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 12
 apis:
 - baseURL: https://api.plce.opengov.com/plce
@@ -549,7 +549,7 @@ apis:
   description: The vendors API from OpenGov — 5 operation(s) for vendors.
   name: OpenGov Vendors API
   slug: opengov-vendors-api
-artifact_total: 213
+artifact_total: 212
 asyncapis:
 - description: ''
   name: Opengov Permitting Licensing Webhooks
@@ -987,7 +987,7 @@ common:
   url: llms/opengov-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/opengov-mcp.yml
 - group: agent
   title: ''
@@ -1017,10 +1017,6 @@ created: '2026-08-04'
 description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asset management, tax and revenue, utility billing, grants management, 311 request management and open data. The OpenGov Public Service Platform exposes a public developer portal at developer.opengov.com with a catalog of ten OpenAPI 3.x definitions covering roughly 358 operations, an integration/app model with scoped permissions and per-integration API keys, a JSON:API-shaped Permitting & Licensing API, a webhook event catalog of 31 Permitting & Licensing events, SCIM 2.0 identity provisioning, and an in-browser API test console.
 image: https://opengov.com/wp-content/uploads/2025/02/opengov-2025.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: OpenGov MCP Server
-  slug: opengov-mcp-server
 modified: '2026-08-04'
 name: OpenGov
 nav: Providers
@@ -1076,8 +1072,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 77.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:

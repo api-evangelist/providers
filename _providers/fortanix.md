@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -298,7 +298,7 @@ apis:
   description: The Zone API from Fortanix — 5 operation(s) for zone.
   name: Fortanix Zone API
   slug: fortanix-zone-api
-artifact_total: 61
+artifact_total: 60
 collections:
 - collection_type: open
   name: Armor API
@@ -324,7 +324,7 @@ common:
   url: overlays/fortanix-armor-key-insight-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fortanix-mcp.yml
 - group: agent
   title: ''
@@ -470,10 +470,6 @@ created: '2026-08-01'
 description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as on-premises appliances; Confidential Computing Manager (CCM) for enclave conversion, attestation and workload signing on Intel SGX and AWS Nitro; Key Insight for cryptographic discovery, posture and post-quantum readiness across cloud and on-premises estates; and Fortanix Armor. All three products publish public REST APIs with machine-readable OpenAPI/Swagger contracts, and Fortanix ships first-party client SDKs (Java, Python, Go, Rust, C#, PHP, JavaScript), a Python CLI (sdkms-cli), Terraform providers, and legacy cryptographic interfaces (PKCS#11, Microsoft CNG, Java JCE).
 image: https://cdn.aglty.io/fortanix/global-header/fortanix-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fortanix MCP Server
-  slug: fortanix-mcp-server
 modified: '2026-08-01'
 name: Fortanix
 nav: Providers
@@ -517,8 +513,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/screenshots/fortanix-2026-08-07T165417.png
 security:

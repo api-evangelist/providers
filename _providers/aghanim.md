@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ apis:
   description: The Webhooks API from Aghanim — 4 operation(s) for webhooks.
   name: Aghanim Webhooks API
   slug: aghanim-webhooks-api
-artifact_total: 60
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Aghanim Webhooks
@@ -343,7 +343,7 @@ common:
   url: packages/aghanim-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/aghanim-mcp.yml
 - group: agent
   title: ''
@@ -381,10 +381,6 @@ created: '2026-07-17'
 description: Aghanim is a direct-to-consumer (DTC) enablement platform for mobile games, founded in 2023 by former Xsolla executives. It lets studios launch web-based game hubs and web shops that sell virtual goods, currency packs, battle passes, and subscriptions outside the app stores, and acts as a Merchant of Record — handling worldwide payments, tax compliance, fraud, and chargebacks across 200+ territories. Its Server-to-Server API (170 operations) and webhook surface cover catalog/stores, items, orders, players, coupons, promotions, achievements, leaderboards, daily rewards, LiveOps campaigns, segmentation, creators, news, pages, and loyalty programs, with Unity and Android checkout SDKs for the prebuilt checkout page. Added to the API Evangelist network from the a16z portfolio and enriched from Aghanim's public developer surface.
 image: https://static-corp.aghanim.com/og_193da66018.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Aghanim MCP Server
-  slug: aghanim-mcp-server
 modified: '2026-07-17'
 name: Aghanim
 nav: Providers
@@ -436,8 +432,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
 security:

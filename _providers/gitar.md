@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Installation Health API from Gitar — 1 operation(s) for installation health.
   name: Gitar Installation Health API
   slug: gitar-installation-health-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +147,7 @@ common:
   url: llms/gitar-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gitar-mcp.yml
 - group: agent
   title: ''
@@ -193,10 +193,6 @@ created: '2026-07-17'
 description: Gitar is an AI code review platform that goes beyond commenting on pull and merge requests — it automatically fixes broken builds, failing tests, linting errors, and code-review findings, and validates every change against your CI pipeline before it is pushed. It works directly in the GitHub and GitLab PR interface, analyzes CI failures, deduplicates flaky tests, and runs natural-language repository rules from a .gitar/rules directory. Built by engineers from Uber's development stack and acquired by Sonar (SonarQube), Gitar is used by teams including SoFi, DeepL, and Altruist. It exposes a Bearer-token External API (api.gitar.ai/v1) on the Enterprise plan for installation health checks and GitLab project onboarding, and integrates with Buildkite, CircleCI, Bitrise, Jira, Linear, and Slack.
 image: https://gitar.ai/assets/meta-banner.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Gitar MCP Server
-  slug: gitar-mcp-server
 modified: '2026-07-19'
 name: Gitar
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/screenshots/gitar-2026-07-25T215835.png
 security:

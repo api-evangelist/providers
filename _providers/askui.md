@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -118,7 +118,7 @@ apis:
   description: The workspaces API from AskUI — 2 operation(s) for workspaces.
   name: AskUI workspaces API
   slug: askui-workspaces-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -227,7 +227,7 @@ common:
   url: cli/askui-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/askui-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ created: '2026-07-17'
 description: AskUI is a German (Karlsruhe-based) company building agentic test automation and computer-use agents for any interface. Its vision agents observe the screen, reason, and act — clicking, typing, and extracting data without DOM queries or brittle UI selectors — across Windows, macOS, Linux, Android, iOS, and embedded/HMI systems. The platform ships a Python Vision Agent SDK, a TypeScript SDK, the AskUI Suite (AgentOS runtime + AskUI Development Environment PowerShell CLI), and the AskUI Hub management console. Developers drive it programmatically through the AskUI Workspaces API — an OpenAPI 3.1 REST service for workspaces, agents, agent executions, access tokens, schedules, runs, files, usage, and billing. AskUI GmbH is ISO/IEC 27001:2022 certified and GDPR-aligned. Surfaced as a Seedcamp portfolio company and enriched into the API Evangelist network.
 image: https://files.askui.com/assets/logo/askui-logo-primary.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AskUI MCP Server
-  slug: askui-mcp-server
 modified: '2026-07-18'
 name: AskUI
 nav: Providers
@@ -343,8 +339,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/screenshots/askui-2026-07-25T201426.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ apis:
   description: The Testa API from Holidu — 1 operation(s) for testa.
   name: Holidu Testa API
   slug: holidu-testa-api
-artifact_total: 53
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Holidu Webhooks
@@ -344,7 +344,7 @@ common:
   url: conformance/holidu-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/holidu-mcp.yml
 - group: design
   title: ''
@@ -378,10 +378,6 @@ created: '2026-07-17'
 description: 'Holidu is a Munich-based vacation-rental search engine and short-term-rental technology company that helps travellers find and book holiday homes and helps property owners and managers distribute their inventory. Holidu exposes a public Developer Hub with two production REST APIs: the Affiliate API, for searching offers, retrieving property details, checking real-time availability and syncing changes; and the Connectivity (provider) API, a v2 property-management surface of ~50 operations covering apartments, multi-unit listings, descriptions, photos, facilities, reviews, rates, length-of-stay pricing, availability, extra costs, discounts, booking terms, payment and cancellation configuration, and bookings. Authentication is via per-partner API keys (with an OAuth 2.0 security service and Bearer-JWT callbacks), sandbox and production hosts are separated, and Holidu runs a HackerOne bug-bounty program. Holidu is backed by EQT Ventures, HV Capital and Northzone.'
 image: https://www.holidu.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Holidu MCP Server
-  slug: holidu-mcp-server
 modified: '2026-07-19'
 name: Holidu
 nav: Providers
@@ -428,8 +424,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:

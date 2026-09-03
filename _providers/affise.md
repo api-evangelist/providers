@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Mobile Measurement Partner API enabling mobile app attribution tracking, install measurement, event tracking, and audience analytics for iOS, Android, and cross-platform mobile applications.
@@ -184,6 +184,10 @@ collections:
   name: API Documentation
   slug: open-affise
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/affise-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -371,7 +375,7 @@ overview: 'Affise publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
   The Affise catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Affise''s developer surface includes authentication, sandbox, API reference, getting-started guide, support, signup flow, documentation, and 33 more developer resources.'
+  Affise''s developer surface includes authentication, sandbox, API reference, getting-started guide, support, signup flow, documentation, and 34 more developer resources.'
 plans:
 - name: Affise Plans Pricing
   plan_count: 7
@@ -385,7 +389,7 @@ score:
   band: strong
   composite: 62.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -409,8 +413,8 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
 security:

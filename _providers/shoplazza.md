@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -143,7 +143,7 @@ apis:
   description: The Webhook API from Shoplazza — 3 operation(s) for webhook.
   name: Shoplazza Webhook API
   slug: shoplazza-webhook-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Shoplazza Webhooks
@@ -311,7 +311,7 @@ common:
   url: cli/shoplazza-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shoplazza-mcp.yml
 - group: agent
   title: ''
@@ -361,10 +361,6 @@ created: '2026-07-17'
 description: Shoplazza is a global e-commerce SaaS platform that lets merchants build and run online stores, and lets partners extend the platform through public apps, payment apps, storefront themes, and checkout/theme extensions. Its developer surface is the versioned REST Admin API (date-based vYYYYMM versions served under /openapi/YYYY-MM/), authorized with OAuth 2.0 access tokens and scoped permissions, plus webhooks for store events, an app billing API, App Bridge for embedded admin apps, the Shoplazza CLI, and official OAuth SDKs. Shoplazza is backed by SoftBank Vision Fund. This profile was enriched from Shoplazza's public developer documentation (shoplazza.dev) and its published OpenAPI 3.1 specification.
 image: https://www.shoplazza.dev/img/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Shoplazza MCP Server
-  slug: shoplazza-mcp-server
 modified: '2026-07-21'
 name: Shoplazza
 nav: Providers
@@ -421,8 +417,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png
 security:

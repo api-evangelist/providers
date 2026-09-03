@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.ansys.com'', ''status'': 301, ''note'': ''declared website redirects to https://ansys.synopsys.com/ — a different registrable domain (ansys.com -> synopsys.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'Open-source Python ecosystem for Ansys products. The pyansys metapackage bundles 45+ libraries including PyMAPDL (Mechanical APDL), PyFluent (Fluent CFD), PyAEDT (Electronics Desktop / HFSS / Maxwell '
@@ -191,8 +192,8 @@ score:
     applies: true
     score: 65.0
   previous_composite: 29.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansys/refs/heads/main/screenshots/ansys-2026-06-20T172024.png
 security:

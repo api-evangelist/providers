@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ apis:
   description: The Workflow API from Catchpoint Systems — 1 operation(s) for workflow.
   name: Catchpoint Systems Workflow API
   slug: catchpoint-systems-workflow-api
-artifact_total: 68
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Catchpoint Systems Webhooks
@@ -301,6 +301,10 @@ collections:
   name: Catchpoint REST API v2.0 Account Workflow API
   slug: open-catchpoint-systems-workflow-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/catchpoint-systems-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -395,7 +399,7 @@ common:
   url: conformance/catchpoint-systems-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/catchpoint-systems-mcp.yml
 - group: other
   title: ''
@@ -417,10 +421,6 @@ created: '2026-07-17'
 description: Catchpoint Systems is an Internet Performance Monitoring (IPM) platform that helps enterprises observe the performance, reachability, and reliability of applications, APIs, networks, and services across the public internet. The platform combines synthetic monitoring (web, transaction, API, DNS, BGP, SSL, streaming, and network-layer tests), real user monitoring (RUM), endpoint/employee-experience monitoring, Internet Sonar outage detection, and a global observability network of monitoring nodes. Catchpoint exposes a REST API v2 (bearer/JWT authenticated, documented via a public Swagger UI) plus Alert and Test Data webhooks so teams can automate test management, pull raw and aggregated performance data, manage nodes and SLAs, and stream results into their own tooling. The company was added to the API Evangelist network as a portfolio company of Battery Ventures.
 image: https://cdn.prod.website-files.com/61027bb0bc31fc6cafefbc0c/6387709b977c72057fb211e3_CATCHPOINT_OPENGRAPH_1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Catchpoint Systems MCP Server
-  slug: catchpoint-systems-mcp-server
 modified: '2026-07-18'
 name: Catchpoint Systems
 nav: Providers
@@ -431,13 +431,13 @@ overview: 'Catchpoint Systems publishes 31 APIs on the [APIs.io](https://apis.io
   The Catchpoint Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Catchpoint Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
+  Catchpoint Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 16
 score:
   band: developing
   composite: 46.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -462,8 +462,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint-systems/refs/heads/main/screenshots/catchpoint-systems-2026-07-25T204812.png
 security:

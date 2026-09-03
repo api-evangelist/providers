@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
   description: The WebSocket API from Matrixport — 1 operation(s) for websocket.
   name: Matrixport WebSocket API
   slug: matrixport-websocket-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: 'Public and private WebSocket streaming for the bit.com exchange. Channel names are taken verbatim from the official bitcom-python-umapi SDK (bit_ws_public.py / bit_ws_private.py). Clients connect and '
   name: bit.com (Matrixport) WebSocket streaming API
@@ -167,7 +167,7 @@ common:
   url: security/matrixport-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/matrixport-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Matrixport is a digital-asset financial services firm whose trading and derivatives venue, bit.com, exposes a public v1 REST and WebSocket API for spot, USD-margined (USD-M) and coin-margined (COIN-M) futures, perpetual swaps, and options, plus Paradigm-style block trades. The API authenticates with an access key and HMAC-SHA256 request signing, and covers market data (index, instruments, tickers, orderbooks, klines, funding), account, position, and full order-management (new/amend/cancel/close, batch orders, stop orders, MMP). First-party SDKs are published for Go, Python, and Java. Added to the API Evangelist network as a crypto-finance provider and enriched from its public developer surface and official SDK repositories.
 image: https://www.bit.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Matrixport MCP Server
-  slug: matrixport-mcp-server
 modified: '2026-07-20'
 name: Matrixport
 nav: Providers
@@ -248,8 +244,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/screenshots/matrixport-2026-07-25T230424.png
 security:

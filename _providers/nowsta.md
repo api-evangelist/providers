@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: Bulk publication of company users (workers).
   name: Nowsta Workers API
   slug: nowsta-workers-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Nowsta Integration API
@@ -159,7 +159,7 @@ common:
   url: security/nowsta-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nowsta-mcp.yml
 - group: agent
   title: ''
@@ -198,10 +198,6 @@ description: Nowsta is a Brooklyn, New York workforce management platform for ho
   and workers into Nowsta in bulk.
 image: https://www.nowsta.com/wp-content/uploads/2025/02/cropped-nowsta-favicon-v2-270x270.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the Integration API (not published by Nowsta)
-  slug: candidate-mcp-tool-surface-derived-from-the-integration-api-not-published-by-nowsta
 modified: '2026-08-01'
 name: Nowsta
 nav: Providers
@@ -240,8 +236,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:

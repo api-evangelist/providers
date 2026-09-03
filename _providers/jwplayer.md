@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://jwplayer.com'', ''status'': 301, ''note'': ''declared website redirects to https://jwx.com/ — a different registrable domain (jwplayer.com -> jwx.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Read-write REST API for programmatically managing your JWP media library, players, playlists, live streams, advertising configurations, DRM policies, transformations, and webhooks. Authenticated via B
@@ -159,8 +160,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 28.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jwplayer/refs/heads/main/screenshots/jwplayer-2026-06-20T183847.png
 security:

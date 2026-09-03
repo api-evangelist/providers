@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: Alternative-data aggregation for credit underwriting and scoring. Aggregates over 50 data sources into on-demand data requests that feed borrower enrichment and decisioning.
@@ -45,7 +45,7 @@ apis:
 - description: The loan lifecycle system — partners, clients, credit accounts, debts, disbursements, disbursement accounts, payment accounts, payment orders, and DPAs (payment agreements). Includes the webhooks surf
   name: Credit Management System API
   slug: credit-management-system-api
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Altscore Webhooks
@@ -129,7 +129,7 @@ common:
   url: well-known/altscore-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/altscore-mcp.yml
 - group: agent
   title: ''
@@ -171,10 +171,6 @@ created: '2026-07-17'
 description: 'AltScore is a B2B credit infrastructure platform for Latin America — the "Rails of Lending" that lets any company build, embed, and deploy credit products in weeks instead of years. Its API surface spans three products: AltData, an aggregation layer over 50+ alternative and traditional data sources for underwriting and scoring; Borrower Central, an onboarding, KYC/KYB, identity, document, and workflow/decisioning engine; and a Credit Management System for the full loan lifecycle — disbursements, credit accounts, debts, payment orders, and DPAs. Access is through first-party Python and TypeScript SDKs, a Go CLI, and a Frontegg-backed OAuth/OIDC identity layer, with a dedicated sandbox environment and an in-production test mode (isTest) for UAT.'
 image: https://altscore.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: 'Candidate MCP tool surface for AltScore, one tool per core CLI resource action. Not published — provided as a governance/agent-readiness starting point. The provider''s shipped agent access path today '
-  name: AltScore MCP Server
-  slug: altscore-mcp-server
 modified: '2026-07-17'
 name: AltScore
 nav: Providers
@@ -221,8 +217,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altscore/refs/heads/main/screenshots/altscore-2026-07-25T195844.png
 security:

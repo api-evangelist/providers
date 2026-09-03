@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -714,7 +714,7 @@ arazzos:
 - description: Find a user by email and update them if found, otherwise create a new user.
   name: Zendesk Upsert User by Email
   slug: zendesk-upsert-user-by-email-workflow
-artifact_total: 405
+artifact_total: 404
 asyncapis:
 - description: Zendesk Webhooks allow you to receive real-time HTTP notifications when events occur in your Zendesk account. Webhooks are the modern replacement for legacy targets and support event types for tickets
   name: Zendesk Webhooks
@@ -1230,7 +1230,7 @@ common:
   url: well-known/zendesk-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zendesk-mcp.yml
 - group: agent
   title: ''
@@ -1644,10 +1644,6 @@ jsonld:
   property_count: 0
   slug: zendesk-support-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zendesk MCP Server
-  slug: zendesk-mcp-server
 modified: '2026-06-20'
 name: Zendesk
 nav: Providers
@@ -1734,8 +1730,8 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

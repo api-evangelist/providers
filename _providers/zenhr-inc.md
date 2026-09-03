@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://app.zenhr.com/api/v3
@@ -326,7 +326,7 @@ apis:
   description: The Work Shifts API from ZenHR Inc — 2 operation(s) for work shifts.
   name: ZenHR Inc Work Shifts API
   slug: zenhr-inc-work-shifts-api
-artifact_total: 124
+artifact_total: 123
 collections:
 - collection_type: open
   name: API Collection
@@ -583,7 +583,7 @@ common:
   url: llms/zenhr-inc-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zenhr-inc-mcp.yml
 - group: design
   title: ''
@@ -637,10 +637,6 @@ created: '2026-07-17'
 description: ZenHR is an AI-powered HR and payroll management platform (HRMS) serving businesses across the MENA region, with localization for Saudi Arabia, UAE, Egypt, Iraq, Jordan, and Kuwait (GOSI, WPS, social security, and local tax/labor laws). It provides automated payroll, attendance, employee self-service, performance management, and recruitment. ZenHR exposes a REST API (v3) that lets external applications integrate with branches, employees, master/professional/financial data, salaries, financial transactions, loans, overtime, time off, attendance, competencies, HR letters, terminations, business travel, and documents. The API responds in JSON, uses OAuth 2.0 (authorization code + PKCE), and is documented as a published Postman collection.
 image: https://content.pstmn.io/b1a76fa7-5d05-4725-b15e-0c4e97606ed9/WmVuSFIgTG9nbyAoNSkucG5n
 layout: provider
-mcp_servers:
-- description: ''
-  name: ZenHR Inc MCP Server
-  slug: zenhr-inc-mcp-server
 modified: '2026-07-21'
 name: ZenHR Inc
 nav: Providers
@@ -683,8 +679,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/screenshots/zenhr-inc-2026-08-17T083041.png
 security:

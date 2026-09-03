@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ common:
   title: ''
   type: News
   url: https://blinkcharging.com/news/hubject-teams-with-blink-charging-to-further-expand-intercharge-network-across-north-america
+- group: company
+  title: ''
+  type: Blog
+  url: https://blinkcharging.com/blog
 created: '2026-07-03'
 description: Blink Charging Co. (Nasdaq BLNK) operates the Blink Network of Level 2 and DC Fast electric vehicle chargers across North America and Europe, alongside brands acquired via SemaConnect, Blue Corner, BlueLA, and Envoy. Blink's charger hardware (Series 7/8/9) is OCPP 2.0.1 certified for CSMS interoperability, and in 2025 Blink joined Hubject's Intercharge eRoaming platform as a charge point operator using the OCPI protocol so third-party e-mobility service providers can route drivers and billing to Blink stations. Blink also runs a gated BlinkMap API developer program (station locations, hours, and live network status) and a Blink Fleet platform that partners such as Presto and BetterFleet integrate with via API for fleet charging, sessions, and billing. None of these programs currently publish a full public self-serve API reference; access requires signing up directly with Blink.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blink.png
@@ -120,23 +124,23 @@ network: true
 overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Search API, and Status API. Tagged areas include EV Charging, Electric Vehicle, Charging Stations, OCPI, and OCPP.
 
 
-  Blink Charging''s developer surface includes authentication, documentation, product news, and 6 more developer resources.'
+  Blink Charging''s developer surface includes authentication, documentation, product news, engineering blog, and 6 more developer resources.'
 random_paper: 3
 score:
   band: emerging
-  composite: 12.0
+  composite: 12.4
   coverage:
     artifact_dirs: 6
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 13.4
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
@@ -154,8 +158,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/screenshots/blink-2026-07-25T203318.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://app.pixee.ai/api/v1
@@ -61,7 +61,7 @@ apis:
   description: The Webhooks API from Pixee — 2 operation(s) for webhooks.
   name: Pixee Webhooks API
   slug: pixee-ai-webhooks-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: Pixee webhooks deliver real-time HTTP POST notifications when remediation events occur. This AsyncAPI document is a faithful reconstruction of the event types and payload schemas documented at https:/
   name: Pixee Webhooks
@@ -88,7 +88,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/pixee-ai-mcp.yml
 - group: other
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-17'
 description: Pixee is an agentic security engineering (AppSec) platform — "your automated product security engineer." It ingests findings from SAST, SCA, and IaC scanners as SARIF, runs a three-tier triage engine that classifies each vulnerability with auditable, timestamped evidence, and delivers remediations as native pull requests across GitHub, GitLab, Azure DevOps, and Bitbucket using deterministic codemods plus quality-evaluated AI fixes. Pixee exposes a HAL-based REST API (organization-scoped bearer tokens), documented webhooks, a first-party CLI with bundled agent skills, and the open-source Codemodder framework (Java and Python). It is backed by Wing Venture Capital.
 image: https://cdn.prod.website-files.com/696822cb241ff5e67581075b/69b1a742e6436bad27408920_pixee%20agentic%20appsec%20image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pixee (candidate MCP server)
-  slug: pixee-candidate-mcp-server
 modified: '2026-07-20'
 name: Pixee
 nav: Providers
@@ -226,8 +222,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:

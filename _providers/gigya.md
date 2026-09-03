@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Gigya / SAP Customer Data Cloud REST API for accounts, identity, social login, consent, and profile data. Endpoints are data-center scoped under {service}.{dc}.gigya.com (e.g. accounts.us1.gigya.com) '
@@ -131,8 +131,8 @@ score:
   previous_composite: 16.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigya/refs/heads/main/screenshots/gigya-2026-07-25T215815.png
 security:

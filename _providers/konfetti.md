@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://api.gokonfetti.com/v1
@@ -61,7 +61,7 @@ apis:
   description: Lead-capture endpoints for date and private-event requests.
   name: konfetti requests API
   slug: konfetti-requests-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -88,7 +88,7 @@ common:
   url: skills/konfetti-search-experiences.md
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/konfetti-mcp.yml
 - group: other
   title: ''
@@ -215,10 +215,6 @@ description: 'konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookab
   here observationally by API Evangelist.'
 image: https://gokonfetti.com/_nuxt3-static/logos/kft-short-logo-white-bg.webp
 layout: provider
-mcp_servers:
-- description: A candidate Model Context Protocol tool surface over the konfetti Store API. Only the public, unauthenticated catalog operations are proposed as tools — the authenticated checkout and profile operatio
-  name: konfetti MCP Server
-  slug: konfetti-mcp-server
 modified: '2026-07-19'
 name: konfetti
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:

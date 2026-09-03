@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -73,7 +73,7 @@ apis:
   description: Transactions are payments incoming, outgoing, netting, and adjustments. Transactions are are generally applied towards obligations.
   name: Denim Transactions API
   slug: denim-transactions-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +175,7 @@ common:
   url: data-model/denim-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/denim-mcp.yml
 - group: other
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Denim (denim.com, formerly Axle Payments) is an all-in-one financial and back-office platform for freight brokers, trucking companies, and 3PLs. It provides freight factoring, invoicing, collections, carrier payments, and a fuel card, automating the broker back office and syncing two ways with transportation management systems. The Denim Public API (OpenAPI 3.0) exposes freight loads (jobs), debtors, payees, companies, factoring companies, and transactions, secured with an x-api-key header, so partners can create and quote jobs, onboard debtor/payee relationships, and reconcile transactions programmatically. Added to the API Evangelist network as a portfolio-company lead and enriched from the provider's public developer surface.
 image: https://app.denim.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Denim MCP Server
-  slug: denim-mcp-server
 modified: '2026-07-18'
 name: Denim
 nav: Providers
@@ -257,8 +253,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/screenshots/denim-2026-07-25T211718.png
 security:

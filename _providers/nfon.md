@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -303,7 +303,7 @@ apis:
   description: Trunk management operations
   name: Nfon trunks API
   slug: nfon-trunks-api
-artifact_total: 109
+artifact_total: 108
 collections:
 - collection_type: postman
   name: __Official Service Portal API Collection
@@ -555,7 +555,7 @@ common:
   url: data-model/nfon-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nfon-mcp.yml
 - group: agent
   title: ''
@@ -601,10 +601,6 @@ created: '2026-07-17'
 description: 'NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under "Login with NFON" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.'
 image: https://a.storyblok.com/f/290788/2624x1428/c0ccf89b71/homepage-hero-home.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nfon MCP Server
-  slug: nfon-mcp-server
 modified: '2026-07-20'
 name: Nfon
 nav: Providers
@@ -653,8 +649,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -113,7 +113,7 @@ apis:
   description: The withdraw API from Coinflow — 30 operation(s) for withdraw.
   name: Coinflow withdraw API
   slug: coinflow-withdraw-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Coinflow Webhooks
@@ -247,7 +247,7 @@ common:
   url: components/coinflow-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coinflow-mcp.yml
 - group: start
   title: ''
@@ -313,10 +313,6 @@ created: '2026-07-17'
 description: Coinflow is a stablecoin-native payments platform (backed by Pantera Capital) that lets software companies and marketplaces accept card, ACH, and crypto/USDC payments and send instant payouts across Solana, EVM, and Stellar rails. Its API covers checkout / pay-ins, PCI-compliant tokenized card-on-file, subscriptions, marketplace sub-merchant onboarding with KYC/KYB, refunds, withdrawals and merchant payouts, and HMAC-signed webhooks. Coinflow ships pre-built UI SDKs for React, React Native, Swift, Android, and Flutter, plus a sandbox environment with published test cards and 3DS triggers.
 image: https://coinflow.cash/coinflow-og-image.jpg
 layout: provider
-mcp_servers:
-- description: Coinflow publishes a hosted, remote MCP server for its documentation (a Fern "fern-docs-mcp-server"), advertised in the docs llms.txt for AI-client integration (Claude Code, Cursor, etc.). Its scope i
-  name: Coinflow MCP Server
-  slug: coinflow-mcp-server
 modified: '2026-07-18'
 name: Coinflow
 nav: Providers
@@ -364,8 +360,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.automile.com
@@ -426,7 +426,7 @@ apis:
   description: The ResourceOwnerWorkOrder API from Automile — 12 operation(s) for resourceownerworkorder.
   name: Automile ResourceOwnerWorkOrder API
   slug: automile-resourceownerworkorder-api
-artifact_total: 162
+artifact_total: 161
 asyncapis:
 - description: ''
   name: Automile Webhooks
@@ -752,7 +752,7 @@ common:
   url: asyncapi/automile-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/automile-mcp.yml
 - group: agent
   title: ''
@@ -774,10 +774,6 @@ created: '2026-07-17'
 description: Automile is a fleet-telematics platform used by more than 15,000 businesses to track and manage their vehicles. Its plug-and-play "Automile Box" streams GPS position every fifteen seconds while web and mobile apps handle automatic mileage logging, trips, drivers, geofences, expense reports, vehicle inspections, work orders and OBD vehicle-health. The developer surface is a REST/JSON API at api.automile.com (Swagger 2.0, OAuth2) with 454 operations and a publish/subscribe webhook stream for trip, vehicle, contact and device events, plus first-party SDKs for PHP, .NET, Node and Java. Automile was added to the API Evangelist network as an insight-partners / point-nine portfolio lead and enriched from its live public developer surface.
 image: https://www.automile.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Automile MCP Server
-  slug: automile-mcp-server
 modified: '2026-07-18'
 name: Automile
 nav: Providers
@@ -823,8 +819,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/screenshots/automile-2026-07-25T201834.png
 security:

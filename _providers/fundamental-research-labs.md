@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
   name: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Fundamental Research Labs Webhooks
@@ -161,7 +161,7 @@ common:
   url: cli/fundamental-research-labs-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fundamental-research-labs-mcp.yml
 - group: agent
   title: ''
@@ -223,10 +223,6 @@ created: '2026-07-17'
 description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI analyst for Excel that turns natural-language prompts into full spreadsheet models — LBOs, DCFs, three-statement models, waterfalls — and ships a web app, desktop app, Excel and Google Sheets plugins, a ShortcutXL terminal agent (CLI), and a Platform API. The Shortcut Platform API lets teams submit spreadsheet-automation jobs, poll status, download generated workbooks, upload context files, list agent skills, and export organization usage data programmatically using API-key bearer authentication.
 image: https://shortcut.ai/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fundamental Research Labs MCP Server
-  slug: fundamental-research-labs-mcp-server
 modified: '2026-07-19'
 name: Fundamental Research Labs
 nav: Providers
@@ -276,8 +272,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

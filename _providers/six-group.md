@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -76,7 +76,7 @@ apis:
   description: Security settlement information reporting from the SIX custody cockpit for the Swiss market, publicly documented on the SIX API portal with a downloadable OpenAPI 3.0 definition (CC BY-ND 4.0 licensed
   name: Settlement Info Reporting API
   slug: settlement-info-reporting-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Six Group Debix Push Webhooks
@@ -212,7 +212,7 @@ common:
   url: well-known/six-group-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/six-group-mcp.yml
 - group: agent
   title: ''
@@ -290,10 +290,6 @@ created: '2026-07-21'
 description: SIX operates the financial market infrastructure of Switzerland and Spain, including SIX Swiss Exchange, BME, and Swiss interbank clearing and securities services, alongside SIX Financial Information, one of the largest global market data vendors. It sells real-time, intraday, end-of-day, and historical pricing, reference data, corporate actions, and regulatory/ESG datasets from more than 900 price sources, delivered via the SIX Web API (REST/JSON, GraphQL, WebSocket), the SIX Bulk API, streaming Market Data Feed, SIX Flex and Valordata Feed files, and Snowflake cloud shares. A public developer portal at developer.six-group.com fronts the bLink open banking platform, the debiX debit card API, and a shared Kong-based API catalog with Swiss interbank clearing and settlement APIs. Financial data access is enterprise and sales-gated with MTLS certificate authentication, while several Swiss payment infrastructure APIs are publicly documented with downloadable OpenAPI.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/six-group.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: SIX MCP Server
-  slug: six-mcp-server
 modified: '2026-07-22'
 name: SIX
 nav: Providers
@@ -340,8 +336,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:

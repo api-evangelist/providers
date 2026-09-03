@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ arazzos:
 - description: Read an order, mark a parcel shipped with tracking, optionally refund.
   name: Order fulfillment
   slug: depop-order-fulfillment.arazzo
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: Event surface for the Depop Selling API, generated from the webhooks section of the OpenAPI 3.1 document. Depop delivers order and product engagement events to a partner-registered HTTPS endpoint. Eve
   name: Depop Selling API — Webhooks
@@ -263,7 +263,7 @@ common:
   url: asyncapi/depop-webhooks-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/depop-mcp.yml
 - group: agent
   title: ''
@@ -305,10 +305,6 @@ created: '2026-07-17'
 description: 'Depop is a peer-to-peer fashion marketplace where people buy, sell and discover secondhand and unique clothing. Its Selling API is an enterprise partner API that lets approved partners automate the seller experience on Depop: create and manage listings (by SKU, product id or slug), manage orders, mark parcels shipped, issue refunds, submit and automate offers, read seller and shipping details, and pull shop and product insights. The API is OpenAPI 3.1, secured with per-shop API keys and OAuth 2.0 (Authorization Code + PKCE) with granular scopes, documents rate limits, and emits webhooks for new orders, refunds and product likes. Access is by invitation via developers@depop.com. Depop is backed by Balderton Capital, Creandum, EQT Ventures and HV Capital and is owned by Etsy.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/depop.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: depop MCP Server
-  slug: depop-mcp-server
 modified: '2026-07-18'
 name: depop
 nav: Providers
@@ -359,8 +355,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:

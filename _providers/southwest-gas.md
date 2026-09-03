@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The Southwest Gas My Account API powers the online customer portal and mobile application for natural gas utility customers in Arizona, Nevada, and California. Customers can view usage history, pay bi
@@ -184,8 +184,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png
 security:

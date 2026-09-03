@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.bezerocarbonmarkets.com/v3
@@ -48,7 +48,7 @@ apis:
   description: The Ratings API from BeZero Carbon — 3 operation(s) for ratings.
   name: BeZero Carbon Ratings API
   slug: bezero-carbon-ratings-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -162,7 +162,7 @@ common:
   url: well-known/bezero-carbon-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bezero-carbon-mcp.yml
 - group: build
   title: ''
@@ -184,10 +184,6 @@ created: '2026-08-07'
 description: BeZero Carbon is a global carbon ratings agency for the Voluntary Carbon Market, founded in London in 2020. It publishes an independent, eight-point BeZero Carbon Rating (AAA to D) expressing the likelihood that a given carbon credit achieves a tonne of CO2e avoided or removed, alongside risk factor scores, summary analysis, methodology assessments and reference data across forestry, blue carbon, soil and agriculture, cookstoves, engineered removals and superpollutant projects. The BeZero Ratings API (v3, OAuth 2.0 client credentials) lets exchanges, marketplaces, brokers, data providers and corporate buyers pull ratings, project reference data and premium risk factor scores directly into their own platforms, and its ratings are distributed through Bloomberg, ICE, CUSIP and LSEG.
 image: https://bezerocarbon.com/images/metadata-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: BeZero Carbon MCP Server
-  slug: bezero-carbon-mcp-server
 modified: '2026-08-07'
 name: BeZero Carbon
 nav: Providers
@@ -234,8 +230,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:

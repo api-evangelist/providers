@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ apis:
   description: Published customer testimonials.
   name: Ease Testimonials API
   slug: ease-testimonials-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Ease Status Webhooks
@@ -135,7 +135,7 @@ common:
   url: overlays/ease-status-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ease-mcp.yml
 - group: agent
   title: ''
@@ -287,10 +287,6 @@ examples:
   slug: ease-status-summary
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ease MCP Server
-  slug: ease-mcp-server
 modified: '2026-07-25'
 name: Ease
 nav: Providers
@@ -338,8 +334,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:

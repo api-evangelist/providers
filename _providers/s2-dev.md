@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: Manage streams
   name: S2 Dev streams API
   slug: s2-dev-streams-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -243,7 +243,7 @@ common:
   url: overlays/s2-dev-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/s2-dev-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +253,6 @@ created: '2026-07-17'
 description: S2 ("Stream Store") is the API for unlimited, durable, real-time streams. Where object storage deals with blobs, S2 provides append-able, ordered record streams that can be tailed in real time and replayed from any retained point. Core data-plane operations are append, read, and check-tail; the control plane manages accounts, basins (stream namespaces), streams, scoped access tokens, locations, and metrics. It targets agent session logs, live views and build logs, event sourcing and sync, data feeds, resumable LLM token streaming, and observability. Access is over a REST/JSON + Protobuf HTTP API, an S2S binary protocol over HTTP/2, SSE tailing, first-party TypeScript, Python, Go, and Rust SDKs, a CLI, and a Terraform provider. S2 is a Y Combinator-backed company.
 image: https://avatars.githubusercontent.com/u/136030139?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: S2 Dev MCP Server
-  slug: s2-dev-mcp-server
 modified: '2026-07-21'
 name: S2 Dev
 nav: Providers
@@ -299,8 +295,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/screenshots/s2-dev-2026-08-17T081704.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The PLaMo API is Preferred Networks' cloud service for its domestically developed PLaMo large language models. Its interface is compatible with the OpenAI API, so existing OpenAI/LangChain client code
@@ -208,8 +208,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/screenshots/preferred-networks-2026-09-02T151924.png
 security:

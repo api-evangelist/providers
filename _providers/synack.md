@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 1
@@ -153,7 +153,7 @@ apis:
   description: Web application assets.
   name: Synack webapps API
   slug: synack-webapps-api
-artifact_total: 58
+artifact_total: 57
 collections:
 - collection_type: open
   name: API Collection
@@ -313,7 +313,7 @@ common:
   url: security/synack-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/synack-mcp.yml
 - group: agent
   title: ''
@@ -371,10 +371,6 @@ created: '2026-07-17'
 description: Synack is a crowdsourced security testing platform that pairs the Synack Red Team — a global community of vetted security researchers — with AI-enabled attack-surface discovery to deliver continuous penetration testing, vulnerability management, and compliance-grade assessments. The Synack Enterprise API exposes assessments, assets, asset discovery (seed groups and seeds), vulnerabilities and suspected vulnerabilities, missions and campaigns, tagging, tests, users, and streaming analytics across nine REST services, secured with OAuth2 scopes and JWT bearer tokens.
 image: https://www.synack.com/wp-content/uploads/2024/08/synack-meta-card-home-page-PTaaS-1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Synack MCP Server
-  slug: synack-mcp-server
 modified: '2026-07-21'
 name: Synack
 nav: Providers
@@ -418,8 +414,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/screenshots/synack-2026-08-17T082224.png
 security:

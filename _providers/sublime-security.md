@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ apis:
   description: The User Reports API from Sublime Security — 1 operation(s) for user reports.
   name: Sublime Security User Reports API
   slug: sublime-security-user-reports-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Sublime Security Webhooks
@@ -243,7 +243,7 @@ common:
   url: cli/sublime-security-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sublime-security-mcp.yml
 - group: agent
   title: ''
@@ -285,10 +285,6 @@ created: '2026-07-17'
 description: Sublime Security is an adaptive, programmable email security platform that combines best-in-class detection effectiveness with deep visibility and control. Teams write detection-as-code in Sublime's Message Query Language (MQL) to stop business email compromise (BEC), credential phishing, malware, and other email attacks, and can hunt retroactively across historical messages. Sublime runs as a managed multi-region cloud service or self-managed on Docker, AWS, or Azure, integrates with Microsoft 365, Google Workspace, and IMAP, and exposes a REST Platform API (v0), outbound webhooks, SCIM 2.0 provisioning, a Multi-Tenancy API for MSPs, and a free Analysis API with an open rules community. Backed by Index Ventures and IVP.
 image: https://platform.sublime.security/logo@192.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sublime Security MCP Server
-  slug: sublime-security-mcp-server
 modified: '2026-07-21'
 name: Sublime Security
 nav: Providers
@@ -330,8 +326,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/screenshots/sublime-security-2026-08-17T082147.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.1
-  scored_at: '2026-09-02'
+  score: 33.3
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 14
@@ -588,7 +588,7 @@ apis:
   description: The Yield API from EVEDEX — 2 operation(s) for yield.
   name: EVEDEX Yield API
   slug: evedex-yield-api
-artifact_total: 116
+artifact_total: 115
 asyncapis:
 - description: ''
   name: Evedex Centrifugo Events
@@ -720,7 +720,7 @@ common:
   url: llms/evedex-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/evedex-mcp.yml
 - group: design
   title: ''
@@ -767,10 +767,6 @@ description: EVEDEX is a hybrid decentralized perpetual-futures exchange built o
   consistency pattern. EVEDEX ships an official TypeScript SDK (@evedex/exchange-bot-sdk) with separate demo and production containers, and publishes agent-native documentation via llms.txt and per-page markdown with a GitBook ask-parameter query interface.
 image: https://static.evedex.com/images/opengraph/exchange.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: EVEDEX MCP Server
-  slug: evedex-mcp-server
 modified: '2026-08-26'
 name: EVEDEX
 nav: Providers
@@ -799,7 +795,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -809,7 +805,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 56.3
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -826,8 +822,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/screenshots/evedex-2026-09-02T145428.png
 security:

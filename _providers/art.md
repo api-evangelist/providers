@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ arazzos:
 - description: Mint an XApp token, search for an artist, then list that artist's artworks.
   name: Find an artist and list their artworks
   slug: art-find-artist-artworks
-artifact_total: 57
+artifact_total: 56
 collections:
 - collection_type: open
   name: API Collection
@@ -315,7 +315,7 @@ common:
   url: components/art-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/art-mcp.yml
 - group: agent
   title: ''
@@ -361,10 +361,6 @@ created: '2026-07-17'
 description: 'Artsy (art.sy) is the online marketplace and platform for discovering, buying, and selling fine art, connecting collectors with galleries, museums, art fairs, and auction houses worldwide. Artsy operates a public developer program: the Artsy Public API (v2) is a HAL hypermedia REST API exposing Artsy''s database of artists, artworks, genes (the Art Genome Project''s classification of artistic characteristics), gallery and museum shows, partners, art fairs, and auction sales. Authentication uses an application-level X-Xapp-Token minted by exchanging a client_id and client_secret. Artsy also runs the Metaphysics GraphQL API that powers its own web and mobile apps. Artsy has announced that the public REST API is being retired and may be taken down without notice; the Partner API remains available to approved partners. Surfaced as a slow-ventures portfolio company and enriched by the API Evangelist pipeline from Artsy''s live API and docs.'
 image: https://github.com/artsy.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Artsy MCP Server
-  slug: artsy-mcp-server
 modified: '2026-07-18'
 name: Artsy
 nav: Providers
@@ -407,8 +403,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

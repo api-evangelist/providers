@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The Subcategories API from HeadOut — 1 operation(s) for subcategories.
   name: HeadOut Subcategories API
   slug: headout-subcategories-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +175,7 @@ common:
   url: lifecycle/headout-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/headout-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +209,6 @@ created: '2026-07-17'
 description: Headout is a global experiences marketplace that curates and sells tickets to tours, attractions, events, shows and activities across major cities worldwide. For developers, Headout operates a public Partner API (github.com/headout/api-docs) that lets affiliates and resellers browse the catalog (products, categories, collections and subcategories by city and language), pull live inventory and per-person/per-group pricing for a variant, and place bookings through a two-step create-then-capture flow. The API is versioned by URI path (v1 and v2 under /api/public/), authenticates with a Headout-Auth API key (pk_ production / tk_ sandbox), paginates with offset/limit, and returns a structured error envelope. A registrable seatmap iframe component is offered for seat selection. Headout is backed by 500 Global and Version One Ventures.
 image: https://cdn-imgix.headout.com/static-pages/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HeadOut MCP Server
-  slug: headout-mcp-server
 modified: '2026-07-19'
 name: HeadOut
 nav: Providers
@@ -251,8 +247,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/screenshots/headout-2026-07-25T220821.png
 security:

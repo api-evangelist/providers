@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -160,7 +160,7 @@ arazzos:
 - description: Stop a channel, poll until it is fully stopped, then delete it.
   name: Dolby OptiView Tear Down a Channel
   slug: dolby-io-teardown-channel-workflow
-artifact_total: 86
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Dolby OptiView Real-time Streaming API
@@ -246,7 +246,7 @@ common:
   url: well-known/dolby-io-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dolby-io-mcp.yml
 - group: agent
   title: ''
@@ -514,10 +514,6 @@ jsonld:
   property_count: 8
   slug: dolby-io-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Dolby.io MCP Server
-  slug: dolbyio-mcp-server
 modified: '2026-06-20'
 name: Dolby.io
 nav: Providers
@@ -588,8 +584,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:

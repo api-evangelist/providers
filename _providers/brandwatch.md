@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -89,7 +89,7 @@ apis:
   description: The User API from Brandwatch — 1 operation(s) for user.
   name: Brandwatch User API
   slug: brandwatch-user-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: Consumer Research API
@@ -256,7 +256,7 @@ common:
   url: data-model/brandwatch-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brandwatch-mcp.yml
 - group: agent
   title: ''
@@ -278,10 +278,6 @@ finops:
   slug: brandwatch-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brandwatch.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brandwatch MCP Server
-  slug: brandwatch-mcp-server
 modified: '2026-08-13'
 name: Brandwatch
 nav: Providers
@@ -332,8 +328,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/screenshots/brandwatch-2026-06-20T173633.png
 security:

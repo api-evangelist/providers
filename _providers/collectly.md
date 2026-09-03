@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: JWT-authenticated, practice-scoped REST API for integrating patient billing and payment workflows — practices, patients, appointments, providers, locations, insurance companies and policies, statement
   name: Collectly Partners API
   slug: collectly-partners-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Collectly Webhooks
@@ -101,10 +101,6 @@ created: '2026-07-17'
 description: Collectly is a healthtech company providing AI-powered revenue cycle automation for healthcare providers, spanning the full patient financial journey from insurance eligibility and cost estimation through point-of-service and post-visit payment collection. Its platform includes pre-visit intake automation, AI eligibility and benefits checks, AI cost estimation, point-of-service payments, post-visit billing automation, a payments platform, and an AI voice agent (Billie) for patient billing support. Collectly exposes a Partners API (JWT-authenticated, practice-scoped REST) covering practices, patients, appointments, providers, locations, insurance companies and policies, statements, payments, refunds, and subscriptions, plus embeddable patient portal / iframe components and outbound webhooks. Backed by Sapphire Ventures.
 image: https://cdn.prod.website-files.com/69ba35b83a30189f9f939f89/69c40b30d5c3530eda3fe299_OpenGraph_Homepage_OG_1200x627px_2_BW20260325.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Collectly MCP Server
-  slug: collectly-mcp-server
 modified: '2026-07-18'
 name: Collectly
 nav: Providers
@@ -149,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectly/refs/heads/main/screenshots/collectly-2026-07-25T210051.png
 security:

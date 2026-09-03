@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 2
@@ -393,7 +393,7 @@ apis:
   description: The zzz-webhook API from CrunchDAO — 1 operation(s) for zzz-webhook.
   name: CrunchDAO zzz-webhook API
   slug: crunchdao-zzz-webhook-api
-artifact_total: 145
+artifact_total: 144
 collections:
 - collection_type: open
   name: API Collection
@@ -611,6 +611,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/crunchdao-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/crunchdao-tournament-overlay.yaml
 - group: auth
@@ -627,7 +631,7 @@ common:
   url: authentication/crunchdao-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/crunchdao-mcp.yml
 - group: build
   title: ''
@@ -701,10 +705,6 @@ created: '2026-07-17'
 description: CrunchDAO is a collective-intelligence platform that crowdsources machine-learning models from a global community of data scientists and PhDs to solve forecasting, classification, anomaly-detection and causal-discovery problems across finance, crypto and life sciences. Participants join real-time and structured competitions (Numinous, Falcon, Synth, DataCrunch, ADIA Lab, Broad Institute) on Crunch Hub, submit models with the official crunch-cli, and earn rewards. The Tournament API (api.hub.crunchdao.com) exposes competitions, rounds, phases, leaderboards, projects, submissions and predictions as a versioned REST API secured with API keys and bearer access tokens.
 image: https://crunchdao.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: CrunchDAO MCP Server
-  slug: crunchdao-mcp-server
 modified: '2026-07-18'
 name: CrunchDAO
 nav: Providers
@@ -712,13 +712,13 @@ network: true
 overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) network, including activity API, auth:api-key API, auth API, and 67 more. Tagged areas include Company, Crypto Web3, Machine-Learning, Data Science, and Competitions.
 
 
-  CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 15 more developer resources.'
+  CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
 random_paper: 6
 score:
   band: developing
   composite: 41.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 86.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -743,8 +743,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png
 security:

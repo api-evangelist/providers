@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 102
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -261,6 +261,10 @@ collections:
   name: Apifreaks Api Hub For Developers ZIP Code APIs API
   slug: open-apifreaks-api-hub-for-developers-zip-code-apis-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apifreaks-api-hub-for-developers-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -432,7 +436,7 @@ overview: 'APIFreaks - API Hub for Developers publishes 26 APIs on the [APIs.io]
   The APIFreaks - API Hub for Developers catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  APIFreaks - API Hub for Developers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  APIFreaks - API Hub for Developers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Apifreaks Api Hub For Developers Plans
   plan_count: 5
@@ -446,11 +450,11 @@ score:
   band: strong
   composite: 55.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -463,7 +467,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 57.6
+  previous_composite: 55.9
   provenance:
     conformance: derived
     contracts:
@@ -473,8 +477,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/screenshots/apifreaks-api-hub-for-developers-2026-08-17T080405.png
 security:

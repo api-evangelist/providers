@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -278,7 +278,7 @@ apis:
   description: The Webhooks API from Soldo Software and Services — 0 operation(s) for webhooks.
   name: Soldo Software and Services Webhooks API
   slug: soldo-software-and-services-webhooks-api
-artifact_total: 144
+artifact_total: 143
 asyncapis:
 - description: ''
   name: Soldo Software And Services Webhooks
@@ -653,7 +653,7 @@ common:
   url: data-model/soldo-software-and-services-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/soldo-software-and-services-mcp.yml
 - group: agent
   title: ''
@@ -679,10 +679,6 @@ created: '2026-07-17'
 description: Soldo is a spend management platform that pairs prepaid Mastercard company cards with software for controlling, tracking, and reporting business spending. The Soldo Business API (v2) gives developers programmatic access to that platform - creating and controlling cards, managing wallets and internal transfers, searching and enriching transactions, running expense reviews and reports, handling business trips, vehicles, subscriptions, pre-approved spend, users, groups, and roles, plus a large webhook event surface for event-driven integrations. Authentication is OAuth 2.0 client-credentials, with an additional RSA request-signing layer (advanced authentication) for money movement and sensitive changes. Soldo is FCA-authorised and certified to PCI DSS Level 1, ISO/IEC 27001, ISO/IEC 9001, and Cyber Essentials Plus.
 image: https://www.soldo.com/wp-content/uploads/2023/11/home-page-soldo-hero-small.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Soldo Software and Services MCP Server
-  slug: soldo-software-and-services-mcp-server
 modified: '2026-07-21'
 name: Soldo Software and Services
 nav: Providers
@@ -739,8 +735,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 87.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/screenshots/soldo-software-and-services-2026-08-17T081955.png
 security:

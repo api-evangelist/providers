@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 13
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
@@ -164,13 +164,13 @@ rate_limits:
   slug: matlab-rate-limits
 score:
   band: developing
-  composite: 41.5
+  composite: 39.4
   coverage:
     artifact_dirs: 6
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -180,12 +180,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 60.0
   previous_composite: 41.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/screenshots/matlab-2026-06-20T185035.png
 security:

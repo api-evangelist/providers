@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.8
-  scored_at: '2026-09-02'
+  score: 14.4
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,8 +125,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara-mellon/refs/heads/main/screenshots/tamara-mellon-2026-09-02T162509.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - baseURL: https://api.nts.web.com
@@ -62,7 +62,7 @@ apis:
   description: Generate a single-sign-on URL for a customer owned by your tenant.
   name: WebsitePros SSO API
   slug: websitepros-sso-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -142,7 +142,7 @@ common:
   url: packages/websitepros-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/websitepros-mcp.yml
 - group: agent
   title: ''
@@ -161,10 +161,6 @@ description: 'WebsitePros, now operating as Web.com, is an American company that
   is not self-service: registration is reviewed and approved by the Web.com International team, separately for the production and development environments.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/websitepros.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: WebsitePros MCP Server
-  slug: websitepros-mcp-server
 modified: '2026-08-13'
 name: WebsitePros
 nav: Providers
@@ -210,8 +206,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/screenshots/websitepros-2026-09-02T170535.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api.dyno-agents.app
@@ -122,7 +122,7 @@ apis:
   description: The workflows API from Dyno — 9 operation(s) for workflows.
   name: Dyno Workflows API
   slug: dyno-workflows-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: Phi — Protein Design API
@@ -138,7 +138,7 @@ common:
   url: overlays/dyno-phi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dyno-mcp.yml
 - group: commercial
   title: ''
@@ -269,10 +269,6 @@ description: 'Dyno Therapeutics is an AI and biotechnology company building high
   Church''s lab at Harvard, Dyno is headquartered in Watertown, Massachusetts, and is an a16z Bio+Health portfolio company.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dyno.png
 layout: provider
-mcp_servers:
-- description: 'Dyno publishes NO MCP server. This file is an API Evangelist CANDIDATE tool surface derived from the provider''s OpenAPI, offered as a design sketch — it is NOT wired as a type: MCPServer pointer in ap'
-  name: Dyno MCP Server
-  slug: dyno-mcp-server
 modified: '2026-08-10'
 name: Dyno
 nav: Providers
@@ -324,8 +320,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/screenshots/dyno-2026-08-17T080911.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith and iCOMM Connectivity mobile apps — tracking water an
@@ -146,7 +146,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -156,11 +156,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 11.8
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/screenshots/ao-smith-2026-06-20T172035.png
 security:

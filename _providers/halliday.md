@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Register HTTPS endpoints to receive signed notifications when a workflow reaches a terminal state, instead of polling for status. You subscribe to one or more event types per webhook. | Event type | F
   name: Halliday Webhooks API
   slug: halliday-webhooks-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Halliday Webhooks
@@ -159,7 +159,7 @@ common:
   url: packages/halliday-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/halliday-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: Halliday is a web3 payments and agentic-workflow company (a16z crypto Series A) building the end-to-end onchain deposit platform. Its Agentic Workflow Protocol (AWP) lets developers compose high-level, AI-executable workflows behind immutable guardrails without writing smart-contract code. The flagship product, Halliday Payments, is a unified cross-chain payments API and drop-in widget that lets users onramp from fiat, bridge, and swap to acquire any asset on any chain in a fully self-custodial way, routing intelligently across onramps (MoonPay, Transak, Stripe), swaps, and bridges. The Halliday API V2 (https://v2.prod.halliday.xyz) exposes chains, assets, quotes, payments, balances, withdrawals, and signed workflow webhooks, authenticated with publishable API keys, alongside JS/React/React Native SDKs and a published Claude Code integration skill.
 image: https://halliday.xyz/opengraph-image
 layout: provider
-mcp_servers:
-- description: ''
-  name: Halliday MCP Server
-  slug: halliday-mcp-server
 modified: '2026-07-19'
 name: Halliday
 nav: Providers
@@ -256,8 +252,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
 security:

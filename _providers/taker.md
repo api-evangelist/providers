@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Delivery-integration API connecting restaurants (Taker GO merchants) and delivery service providers (DSPs). Supports order creation, retrieval, cancellation, DSP re-routing, and asynchronous order-sta
   name: Taker GO Integration API
   slug: taker-go-integration-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Taker Webhooks
@@ -111,7 +111,7 @@ common:
   url: data-model/taker-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/taker-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Taker is a Riyadh, Saudi Arabia-based restaurant technology company (founded 2018, backed by 500 Global) providing an all-in-one online ordering and restaurant-growth platform used by 1,000+ restaurants. Its product suite spans Taker Channels (branded web/mobile ordering), Taker GO (delivery operations), Taker Flow (operations optimization), Taker Grow (marketing automation), and Taker 360 (a unified dashboard across delivery aggregators). The Taker GO delivery-integration API connects restaurants and delivery service providers (DSPs) with bearer-token auth for order creation, tracking, cancellation, and asynchronous status delivery via webhooks, across published sandbox and production environments.
 image: https://taker.io/wp-content/themes/taker-2026/assets/images/logo.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the documented Taker GO integration API operations. Taker does not publish an official hosted/remote MCP server; this is a governance starting point, not a prov
-  name: Taker MCP Server
-  slug: taker-mcp-server
 modified: '2026-07-21'
 name: Taker
 nav: Providers
@@ -162,8 +158,8 @@ score:
   previous_composite: 33.7
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/screenshots/taker-2026-09-02T162435.png
 security:

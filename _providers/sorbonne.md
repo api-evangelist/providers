@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Sorbonne University's federated login, published as a signed SAML 2.0 EntityDescriptor at https://auth.id.sorbonne-universite.fr/saml/metadata (HTTP 200, application/xml, 11,704 bytes). Declares HTTP-
@@ -196,8 +196,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorbonne/refs/heads/main/screenshots/sorbonne-2026-06-20T194214.png
 security:

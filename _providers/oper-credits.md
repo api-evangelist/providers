@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://developers.opercredits.com/
@@ -296,7 +296,7 @@ apis:
   description: Your Webhooks tag description
   name: Oper Credits Webhooks API
   slug: oper-credits-webhooks-api
-artifact_total: 111
+artifact_total: 110
 asyncapis:
 - description: ''
   name: Oper Credits Webhooks
@@ -552,7 +552,7 @@ common:
   url: asyncapi/oper-credits-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/oper-credits-mcp.yml
 - group: agent
   title: ''
@@ -570,10 +570,6 @@ created: '2026-07-17'
 description: Oper Credits is a Belgian digital mortgage origination platform (Brussels, founded 2019) that lets banks, lenders, insurers, and brokers offer and process end-to-end digital mortgages. Its white-labelled, multi-tenant Oper Connect platform exposes a JWT-authenticated REST API organized around the loan request as the central object, under which borrowers, properties, offers, documents, guarantees, and decisions are nested, plus a versioned loan-request webhook surface and an AI underwriting agent ("Herman") that automates document collection, extraction, verification, and policy analysis. The platform is ISO/IEC 27001 certified and GDPR compliant.
 image: https://cdn.prod.website-files.com/64f9bcce0d3210a55e4458ee/6530e0daf5885d89e8bf233f_Screenshot%202023-10-19%20at%2009.54.44.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Oper Credits MCP Server
-  slug: oper-credits-mcp-server
 modified: '2026-07-20'
 name: Oper Credits
 nav: Providers
@@ -624,8 +620,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/screenshots/oper-credits-2026-08-07T190702.png
 security:

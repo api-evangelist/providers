@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - baseURL: https://sg.sobot.io
@@ -61,7 +61,7 @@ apis:
   description: The OpenAPI Plant Store API from Sobot — 0 operation(s) for openapi plant store.
   name: Sobot OpenAPI Plant Store API
   slug: sobot-openapi-plant-store-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Sobot Voice Webhooks
@@ -185,7 +185,7 @@ common:
   url: components/sobot-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sobot-mcp.yml
 - group: other
   title: ''
@@ -203,10 +203,6 @@ created: '2026-07-17'
 description: Sobot is an all-in-one AI-powered contact center and customer engagement platform used by more than 100,000 companies worldwide. Its products span an omnichannel Live Chat workspace, a multilingual AI Chatbot, cloud Voice / call-center with global numbers, a collaborative Ticketing system, a WhatsApp Business API, and outbound Voicebot / telemarketing. Sobot exposes developer APIs for online chat sessions, agent and department management, and voice extension administration, plus first-party SDKs for Android, iOS, HarmonyOS NEXT, Flutter, and Web (JavaScript) so teams can embed chat, voice, and ticketing into their own applications. The developer surface is documented on a Mintlify docs site and secured with HTTP bearer tokens.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sobot.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sobot MCP Server
-  slug: sobot-mcp-server
 modified: '2026-07-21'
 name: Sobot
 nav: Providers
@@ -247,8 +243,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/screenshots/sobot-2026-08-17T082001.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: EVM-compatible Ethereum JSON-RPC endpoint for the Manta Pacific Layer-2 rollup (chain ID 169, currency ETH). Serves standard eth_* JSON-RPC methods; a WebSocket endpoint and public block explorers are
@@ -137,8 +137,8 @@ score:
   previous_composite: 21.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manta-network/refs/heads/main/screenshots/manta-network-2026-07-25T230055.png
 security:

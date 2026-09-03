@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,14 +118,14 @@ overview: 'EditorConfig is profiled on the [APIs.io](https://apis.io/) network. 
   EditorConfig''s developer surface includes engineering blog, documentation, and 15 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 13.8
+  band: minimal
+  composite: 10.8
   coverage:
     artifact_dirs: 3
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -135,12 +135,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 40.0
   previous_composite: 13.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/editorconfig/refs/heads/main/screenshots/editorconfig-2026-06-20T180455.png
 security:

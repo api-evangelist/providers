@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: Create and manage one-time and recurring PAD/ACH transaction schedules.
   name: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Rotessa API
@@ -195,7 +195,7 @@ common:
   url: packages/rotessa-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rotessa-mcp.yml
 - group: build
   title: ''
@@ -214,10 +214,6 @@ description: Rotessa is a Winnipeg, Manitoba-based fintech that helps small and 
   open-banking payment mandate.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rotessa MCP Server
-  slug: rotessa-mcp-server
 modified: '2026-07-25'
 name: Rotessa
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/screenshots/rotessa-2026-08-17T081633.png
 security:

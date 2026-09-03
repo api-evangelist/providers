@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'The Lemon Mini App SDK is the public developer contract for building a Mini App that runs inside the Lemon Cash mobile app. It is a TypeScript library, not an HTTP API: calls are passed to the native '
@@ -244,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/screenshots/lemon-cash-2026-08-07T171533.png
 security:

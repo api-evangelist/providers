@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.graphiant.com
@@ -367,7 +367,7 @@ apis:
   description: The Ztagent API from Graphiant — 2 operation(s) for ztagent.
   name: Graphiant Ztagent API
   slug: graphiant-ztagent-api
-artifact_total: 72
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Graphiant Notifications Webhooks
@@ -551,7 +551,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/graphiant-mcp.yml
 - group: build
   title: ''
@@ -598,10 +598,6 @@ description: Graphiant is a Network-as-a-Service (NaaS) provider that replaces f
   account switching. Graphiant publishes the OpenAPI bundle that generates its open-source Python and Go SDKs, ships a graphiant CLI, and maintains an Ansible collection of NaaS playbooks.
 image: https://cdn.prod.website-files.com/67d32c440becfce0b9a701db/67dd287e7799445a06559bab_favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Graphiant MCP Server
-  slug: graphiant-mcp-server
 modified: '2026-08-01'
 name: Graphiant
 nav: Providers
@@ -622,7 +618,7 @@ score:
     catalog_gap: 86.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -635,7 +631,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 54.9
+  previous_composite: 54.1
   provenance:
     conformance: derived
     contracts:
@@ -645,8 +641,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/screenshots/graphiant-2026-08-07T165827.png
 security:

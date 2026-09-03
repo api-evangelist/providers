@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Data Access is MX's open-finance API platform for sharing an institution's financial data and accessing other institutions' data using FDX and OAuth standards, with tokenized, consumer-permissioned ac
@@ -175,7 +175,7 @@ apis:
   description: Use the [Request Widget URL](docs.mx.com/api-reference/platform-api/reference/request-widget-url) endpoint to generate a URL that loads one of our widgets. Many request body parameters only work for s
   name: MX Widgets API
   slug: mx-widgets-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Mx Webhooks
@@ -200,7 +200,7 @@ common:
   url: capabilities/mx-capability-edges.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mx-mcp.yml
 - group: other
   title: ''
@@ -351,10 +351,6 @@ description: MX Technologies is a privately held financial data platform headqua
   sharing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: MX MCP Server
-  slug: mx-mcp-server
 modified: '2026-07-23'
 name: MX
 nav: Providers
@@ -405,8 +401,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/screenshots/mx-2026-08-07T184503.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: OAuth 2.0 authorization-code API giving partners full access to Altruist custody data — accounts, households, positions, transactions, and cost basis — for advisor tools, reporting, and reconciliation
@@ -42,7 +42,7 @@ apis:
 - description: OAuth 2.0 password-grant API for account onboarding, funding, transfers, contacts, households, bank-link, user management, and time-weighted return performance reporting.
   name: Altruist Realtime API
   slug: altruist-realtime-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -126,7 +126,7 @@ common:
   url: well-known/altruist-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/altruist-mcp.yml
 - group: agent
   title: ''
@@ -160,10 +160,6 @@ created: '2026-07-17'
 description: Altruist is a modern, vertically integrated RIA custodian and technology platform for independent financial advisors. It combines self-clearing custody infrastructure with software for digital account opening, fractional model-based trading, rebalancing, tax management, fee billing, and performance reporting in a single workspace. Altruist runs a developer program with an OAuth 2.0 Open API (accounts, households, positions, transactions, cost basis), a Realtime API (account onboarding, funding, transfers, contacts, bank-link, time-weighted return), and custodial flat-file (SFTP) data feeds, so advisor tools and fintech partners such as Orion, Tamarac, Black Diamond, and Advyzon can integrate directly with the custodian. Backed by ICONIQ Capital and Insight Partners.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altruist.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Altruist MCP Server
-  slug: altruist-mcp-server
 modified: '2026-07-17'
 name: Altruist
 nav: Providers
@@ -200,8 +196,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/screenshots/altruist-2026-07-25T195845.png
 security:

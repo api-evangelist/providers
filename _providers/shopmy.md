@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
 - description: Server-to-server affiliate tracking routes a brand calls to report completed orders to ShopMy for creator commission attribution, and to keep those commissions accurate through returns, edits and canc
   name: ShopMy Tracking API
   slug: shopmy-tracking-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Shopmy Tracking Events
@@ -186,7 +186,7 @@ common:
   url: conformance/shopmy-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/shopmy-mcp.yml
 - group: agent
   title: ''
@@ -232,10 +232,6 @@ created: '2026-07-17'
 description: ShopMy is a creator-commerce and influencer-marketing platform connecting top brands with content creators across beauty, fashion, and lifestyle. Creators build curated digital shops and earn performance commissions (typically 10-30%) plus paid brand partnerships, while brands run affiliate programs, product gifting (Lookbooks), and performance budgets (Opportunities). The ShopMy Partners API lets Brand Partners pull detailed affiliate order reports, and lets OAuth developer applications create and read product links, manage shelf collections, resolve and rate product URLs, search the catalog, and read public profile information on behalf of authenticated ShopMy users. Backed by Bain Capital Ventures, Bessemer Venture Partners, and Menlo Ventures.
 image: https://shopmy.us/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: ShopMy MCP Server
-  slug: shopmy-mcp-server
 modified: '2026-08-13'
 name: ShopMy
 nav: Providers
@@ -290,8 +286,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/screenshots/shopmy-2026-08-17T081840.png
 security:

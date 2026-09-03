@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served on the company's own host and advertised from its own llms.txt. Provided by the Wix Site MCP platform rather than authored by Vergent, it expos
@@ -96,6 +96,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -105,6 +106,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 18.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -114,8 +116,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
+  trend: flat
 security:
 - kind: authentication
   name: Vergent Bioscience Authentication

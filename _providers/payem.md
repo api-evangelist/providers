@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.2
-  scored_at: '2026-09-02'
+  score: 23.4
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
@@ -73,7 +73,7 @@ apis:
   description: The Testimonials API from Payem — 1 operation(s) for testimonials.
   name: Payem Testimonials API
   slug: payem-testimonials-api
-artifact_total: 14
+artifact_total: 13
 common:
 - group: other
   title: ''
@@ -81,7 +81,7 @@ common:
   url: overlays/payem-ai-discovery-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/payem-mcp.yml
 - group: auth
   title: ''
@@ -161,10 +161,6 @@ jsonld:
   property_count: 0
   slug: payem-organization
 layout: provider
-mcp_servers:
-- description: ''
-  name: Payem MCP Server
-  slug: payem-mcp-server
 modified: '2026-08-26'
 name: Payem
 nav: Providers
@@ -218,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/screenshots/payem-2026-09-02T150919.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -144,7 +144,35 @@ apis:
   description: The webhookManagement API from Ada — 5 operation(s) for webhookmanagement.
   name: Ada Webhook Management API
   slug: ada-webhookmanagement-api
-artifact_total: 51
+- description: The Ada REST API is the unified v2 interface to the Ada AI customer service platform. It covers knowledge sources and articles, end users, conversations, integrations (Actions), data export, data comp
+  name: Ada REST API
+  slug: ada-rest-api
+- baseURL: https://{handle}.ada.support/api/v2
+  baseurl_source: declared
+  description: Manage knowledge sources, articles, and tags that Ada's AI Agent uses to ground answers to customer questions.
+  name: Ada Knowledge API
+  slug: ada-knowledge-api
+- baseURL: https://{handle}.ada.support/api/v2
+  baseurl_source: declared
+  description: Read and manage conversations handled by the Ada AI Agent across all supported channels.
+  name: Ada Conversations API
+  slug: ada-conversations-api
+- description: Create, look up, and update end users (customers) along with their metadata for use by Ada's AI Agent and Actions.
+  name: Ada End Users API
+  slug: ada-end-users-api
+- description: Configure and invoke Actions, the integration layer that lets the Ada AI Agent call external systems and APIs during a conversation.
+  name: Ada Integrations (Actions) API
+  slug: ada-integrations-api
+- description: Export conversation, message, and analytics data from Ada to data warehouses and BI tooling.
+  name: Ada Data Export API
+  slug: ada-data-export-api
+- description: Run data subject access requests, data deletion, and other compliance operations across the Ada platform.
+  name: Ada Data Compliance API
+  slug: ada-data-compliance-api
+- description: Configure and consume webhooks that notify external systems of conversation lifecycle events and other platform activity.
+  name: Ada Webhooks API
+  slug: ada-webhooks-api
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Ada Webhooks
@@ -470,7 +498,7 @@ modified: 2026-08-14
 name: Ada
 nav: Providers
 network: true
-overview: 'Ada publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Audit Log API, Channels API, and 15 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
+overview: 'Ada publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Audit Log API, Channels API, and 18 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
 
 
   The Ada catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -510,7 +538,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -520,7 +548,7 @@ score:
     discoverability: 92.6
     governance: 43.2
     operational_transparency: 60.5
-  previous_composite: 73.8
+  previous_composite: 73.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -531,8 +559,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:

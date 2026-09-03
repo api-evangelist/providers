@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API for the Staffbase employee experience platform — manage users, groups, news, pages, media, notifications, spaces, campaigns, analytics, and audit logs. Authenticated with HTTP Basic auth carr
   name: Staffbase Platform API
   slug: staffbase-platform-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -127,7 +127,7 @@ common:
   url: components/staffbase-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/staffbase-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Staffbase is an AI-native employee experience and internal-communications platform that connects workforce communications across an intranet, a branded employee mobile app, email and newsletters, and an AI-powered knowledge assistant. Used by more than 1,500 enterprises, it is built to reach hard-to-reach frontline, shift, and distributed employees on every channel. Staffbase exposes a Platform API (HTTP Basic auth with an API token, base https://app.staffbase.com/api) covering users, groups, news, pages, media, notifications, spaces, campaigns, analytics, and audit logs, plus first-party Plugins and Custom-Widget SDKs (JavaScript, Node.js, PHP, Java) for embedding apps and widgets inside the Staffbase experience. Backed by Insight Partners.
 image: https://logo.clearbit.com/staffbase.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: Staffbase MCP Server
-  slug: staffbase-mcp-server
 modified: '2026-07-21'
 name: Staffbase
 nav: Providers
@@ -204,8 +200,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/staffbase/refs/heads/main/screenshots/staffbase-2026-09-02T160716.png
 security:

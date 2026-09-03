@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: OAuth 2.0 secured REST API (OpenAPI 3.1) for Brightflag's enterprise legal management platform. Includes a Reporting API to extract key datasets and a Matter Budget API, plus operations to search invo
   name: Brightflag API
   slug: brightflag-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -115,7 +115,7 @@ common:
   url: lifecycle/brightflag-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/brightflag-mcp.yml
 - group: agent
   title: ''
@@ -125,10 +125,6 @@ created: '2026-07-17'
 description: Brightflag is an AI-first enterprise legal management (ELM) platform that helps corporate legal teams control legal spend, manage matters, benchmark outside counsel, and automate invoice review. Founded in 2014 and headquartered in Dublin with a New York presence, Brightflag combines patented AI for invoice review and spend classification with e-billing, matter management, vendor management, and reporting. For developers Brightflag exposes an OAuth 2.0 secured REST API (OpenAPI 3.1) — including a Reporting API for extracting key datasets and a Matter Budget API — to integrate legal operations data with ERP, payment, and enterprise systems. This profile was enriched from Brightflag's public developer documentation and help center.
 image: https://brightflag.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Brightflag MCP Server
-  slug: brightflag-mcp-server
 modified: '2026-07-18'
 name: Brightflag
 nav: Providers
@@ -160,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightflag/refs/heads/main/screenshots/brightflag-2026-07-25T203843.png
 security:

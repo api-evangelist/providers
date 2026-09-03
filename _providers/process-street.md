@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -279,6 +279,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/process-street-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/process-street-public-api-overlay.yaml
 - group: auth
@@ -391,13 +395,13 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
   The Process Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
+  Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
 random_paper: 5
 score:
   band: developing
   composite: 44.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -422,8 +426,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/screenshots/process-street-2026-08-17T081341.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful JSON API for accepting crypto, stock, and card donations on behalf of nonprofits in The Giving Block network. Provides organization management, currency and exchange-rate lookups, crypto depos
   name: The Giving Block Public API
   slug: the-giving-block-public-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -99,7 +99,7 @@ common:
   url: webhooks/the-giving-block-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/the-giving-block-mcp.yml
 - group: agent
   title: ''
@@ -121,10 +121,6 @@ created: '2026-07-17'
 description: The Giving Block is a crypto-native fundraising platform that lets nonprofits and enterprises accept cryptocurrency, stock, and card donations. Through its Public API and embeddable donation widget, partners can build their own donation experiences or embed The Giving Block's donation form to route gifts to more than 1,000 nonprofit organizations in its network. The API securely accepts Bitcoin, Ethereum, and 100+ other cryptocurrencies, instantly converts crypto donations to cash so nonprofits never have to touch crypto, and also supports stock and donor-advised-fund (DAF) giving. It is a RESTful, JSON API with JWT-based authentication, AES-256 encrypted webhook notifications, and separate production and sandbox environments. The Giving Block was surfaced as a portfolio company of Multicoin Capital and enriched into the API Evangelist network from its published developer documentation.
 image: https://thegivingblock.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: The Giving Block MCP Server
-  slug: the-giving-block-mcp-server
 modified: '2026-07-21'
 name: The Giving Block
 nav: Providers
@@ -163,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/screenshots/the-giving-block-2026-09-02T163344.png
 security:

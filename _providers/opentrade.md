@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Read-only REST API to query platform data, vaults, accounts, and transactions (current and historical) for building UIs, reporting, and reconciliation with middle/back-office systems. Full endpoint an
@@ -146,8 +146,8 @@ score:
   previous_composite: 26.0
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrade/refs/heads/main/screenshots/opentrade-2026-08-07T190653.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.myfitnesspal.com/v2
@@ -41,7 +41,7 @@ apis:
   description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
   name: MyFitnessPal API v2
   slug: myfitnesspal-api-v2
-artifact_total: 7
+artifact_total: 6
 asyncapis:
 - description: Webhook notifications delivered by MyFitnessPal to partner applications when a subscribed user's data changes. A single POST may batch notifications about multiple items belonging to multiple users (u
   name: MyFitnessPal Subscription Notifications
@@ -119,10 +119,6 @@ created: '2026-07-17'
 description: MyFitnessPal is a nutrition and fitness tracking platform built around a food diary, calorie counting, a large branded-food and barcode database, exercise logging, weight and body measurements, and goal setting. Its partner-facing REST API (v2, hosted at api.myfitnesspal.com) lets approved applications read and write a consenting user's diary (food and exercise), body measurements, and profile, and subscribe to webhook notifications when that data changes. Access uses OAuth 2.0 authorization-code grants with the diary, measurements, private-exercises, and subscriptions scopes. The developer program is currently closed to new applicants. This profile was surfaced as a portfolio lead and enriched by the API Evangelist pipeline.
 image: https://www.myfitnesspal.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: MyFitnessPal MCP Server
-  slug: myfitnesspal-mcp-server
 modified: '2026-07-20'
 name: MyFitnessPal
 nav: Providers
@@ -169,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/screenshots/myfitnesspal-2026-08-07T184519.png
 security:

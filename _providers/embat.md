@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ apis:
   description: '`Transaction` represents a movement recorded on one of your bank accounts (`Product`). Each transaction reports the balance of its product immediately after the movement, and can carry a classificatio'
   name: Embat Transactions API
   slug: embat-transactions-api
-artifact_total: 49
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -275,7 +275,7 @@ common:
   url: sandbox/embat-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/embat-mcp.yml
 - group: agent
   title: ''
@@ -301,10 +301,6 @@ created: '2026-07-17'
 description: Embat is a real-time treasury management platform for finance teams, founded in Madrid and backed by Creandum. Its REST/JSON API (OpenAPI 3.1, 103 operations across 21 resource areas) connects third-party applications and ERPs to Embat to manage bank connections, balances, transactions, payments and payment orders, cash-flow forecasting, scenarios, accounting entries and accounts, contacts, and bank reconciliation across multiple companies. Authentication is HTTP Bearer using a JWT idToken obtained from an email/password token endpoint (60-minute expiry, no refresh); every resource is scoped by a companyId path parameter and list endpoints paginate with limit + nextPageToken.
 image: https://storage.googleapis.com/embat-production.appspot.com/assets/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Embat MCP Server
-  slug: embat-mcp-server
 modified: '2026-07-19'
 name: Embat
 nav: Providers
@@ -349,8 +345,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/screenshots/embat-2026-07-25T213227.png
 security:

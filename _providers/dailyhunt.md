@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ apis:
   description: Partner callback reporting which cards a user actually saw.
   name: Dailyhunt Tracking API
   slug: dailyhunt-tracking-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Dailyhunt Content Syndication
@@ -220,7 +220,7 @@ common:
   url: grpc/dailyhunt-unified-metrics.proto
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/dailyhunt-mcp.yml
 - group: build
   title: ''
@@ -247,10 +247,6 @@ description: 'Dailyhunt is India''s largest local-language content and news aggr
   is not publicly resolvable.'
 image: https://m.dailyhunt.in/favicon.ico
 layout: provider
-mcp_servers:
-- description: Dailyhunt publishes no hosted or remote MCP server. Searched the developer resource center, the partner integration reference, the github.com/dailyhunt organization and the public MCP registries; noth
-  name: Dailyhunt MCP Server
-  slug: dailyhunt-mcp-server
 modified: '2026-08-04'
 name: Dailyhunt
 nav: Providers
@@ -289,8 +285,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/screenshots/dailyhunt-2026-08-07T164025.png
 security:

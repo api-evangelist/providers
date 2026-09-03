@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   description: Drug-tariff prices and price-per-unit / ghost-generic savings data.
   name: OpenPrescribing Tariff API
   slug: openprescribing-tariff-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: OpenPrescribing API
@@ -176,7 +176,7 @@ common:
   url: well-known/openprescribing-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openprescribing-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +194,6 @@ created: '2026-07-24'
 description: OpenPrescribing.net is an open-data service built and operated by the Bennett Institute for Applied Data Science at the University of Oxford. It turns the English Prescribing Dataset published monthly by the NHS Business Services Authority into public dashboards, prescribing-safety measures, and a free RESTful API covering primary-care GP prescribing across England. The API exposes spending, quantity and item counts by BNF code and by NHS organisation (practice, PCN, Sub-ICB Location, ICB, Regional Team), standardised prescribing measures, drug-tariff and price-per-unit data, and organisation reference/boundary lookups, all returned as JSON, CSV or GeoJSON. Home market is the United Kingdom (England prescribing data). It is an independent academic analytics platform layered on NHS open data, not an NHS FHIR clinical system; there is no OAuth, no SMART-on-FHIR, and currently no registration or API key is required.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: OpenPrescribing MCP Server
-  slug: openprescribing-mcp-server
 modified: '2026-07-24'
 name: OpenPrescribing
 nav: Providers
@@ -245,8 +241,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png
 security:

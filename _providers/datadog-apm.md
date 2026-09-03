@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.datadoghq.com
@@ -218,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/screenshots/datadog-apm-2026-06-20T175636.png
 security:

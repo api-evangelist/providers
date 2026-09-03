@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://neuvector.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.suse.com/products/rancher/security/ — a different registrable domain (neuvector.com -> suse.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://localhost:10443
@@ -290,6 +291,10 @@ collections:
   name: NeuVector WAF Rule API
   slug: open-neuvector-waf-rule-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/neuvector-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -333,7 +338,7 @@ network: true
 overview: 'NeuVector publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Admission API, Apikey API, Authentication API, and 28 more. Tagged areas include Compliance, Containers, Kubernetes, Open-Source, and Runtime Protection.
 
 
-  NeuVector''s developer surface includes documentation and 6 more developer resources.'
+  NeuVector''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Neuvector Plans Pricing
   plan_count: 3
@@ -347,7 +352,7 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -368,8 +373,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/screenshots/neuvector-2026-06-20T190220.png
 security:

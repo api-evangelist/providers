@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
   description: Operations for managing Cloud9 development environments
   name: Amazon Cloud9 Environments API
   slug: amazon-cloud9-environments-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -162,7 +162,7 @@ common:
   url: well-known/amazon-cloud9-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-cloud9-mcp.yml
 - group: agent
   title: ''
@@ -259,10 +259,6 @@ jsonld:
   property_count: 11
   slug: amazon-cloud9-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon Cloud9 MCP Server
-  slug: amazon-cloud9-mcp-server
 modified: '2026-06-20'
 name: Amazon Cloud9
 nav: Providers
@@ -325,8 +321,8 @@ score:
       marker_coverage: 100.0
       total: 2
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/screenshots/amazon-cloud9-2026-07-25T195945.png
 security:

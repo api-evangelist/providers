@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ apis:
   description: The Webhook Requests API from Coviu — 1 operation(s) for webhook requests.
   name: Coviu Webhook Requests API
   slug: coviu-webhook-requests-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Coviu Webhooks
@@ -117,7 +117,7 @@ common:
   url: llms/coviu-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coviu-mcp.yml
 - group: build
   title: ''
@@ -223,10 +223,6 @@ created: '2026-07-24'
 description: Coviu is an Australian telehealth company, headquartered in Sydney and spun out of CSIRO's Data61, that provides a purpose-built video consultation platform for healthcare providers, allied health, and enterprise clinical networks. Its browser-based, WebRTC video calling supports virtual care workflows including waiting rooms, in-call clinical tools, screen and file sharing, medical device integrations, and payments. For developers, Coviu ships a secure OAuth2-protected REST API (base https://api.coviu.com) that lets applications create and manage video consultation Sessions and Participants, monitor Waiting Area queues in real time, retrieve Collections (submissions, files, and audio recordings), and receive event Webhooks, plus an in-call Plugin API and embedded iframe mode. Coviu is a telehealth video/interoperability layer rather than an EHR or FHIR data platform, so its documented public surface is REST + webhooks, not HL7 FHIR.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coviu MCP Server
-  slug: coviu-mcp-server
 modified: '2026-07-24'
 name: Coviu
 nav: Providers
@@ -285,8 +281,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/screenshots/coviu-2026-07-25T210604.png
 security:

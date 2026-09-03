@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ apis:
   description: The OfficeSecondary API from National Association of REALTORS — 2 operation(s) for officesecondary.
   name: National Association of REALTORS Office Secondary API
   slug: nar-officesecondary-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: M1Gateway - External
@@ -222,7 +222,7 @@ common:
   url: packages/nar-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nar-mcp.yml
 - group: agent
   title: ''
@@ -285,10 +285,6 @@ description: 'The National Association of REALTORS (NAR) is the largest trade as
   is REALTORS M1, the members-first engagement system that replaces NRDS: the M1 Gateway External API is a live, HTTP-Basic-authenticated REST API over member, office, association and data-extract records, whose Swagger 2.0 definition and Postman collection NAR publishes openly on GitHub for external association management system vendors and NAR partners, but whose credentials NAR issues only under a partner relationship.'
 image: https://avatars.githubusercontent.com/u/7168861?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: National Association of REALTORS MCP Server
-  slug: national-association-of-realtors-mcp-server
 modified: '2026-07-26'
 name: National Association of REALTORS
 nav: Providers
@@ -331,8 +327,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png
 security:

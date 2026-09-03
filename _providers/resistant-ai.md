@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
   description: The Tenants API from Resistant AI — 4 operation(s) for tenants.
   name: Resistant AI Tenants API
   slug: resistant-ai-tenants-api
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Resistant Ai Documents Webhooks
@@ -164,7 +164,7 @@ common:
   url: data-model/resistant-ai-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/resistant-ai-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: Resistant AI protects financial-services organizations from fraud and financial crime with AI. Its Documents product detects fake, tampered, forged, and AI-generated documents (PDFs and images) in seconds, and its Transactions product layers 80+ AI models over existing transaction-monitoring systems for AML and fraud detection. The Resistant Documents API provides programmatic document forensics — fraud, quality, classification, content extraction, and Adaptive Decision — through an OAuth2 create/upload/poll workflow across regional cells, with polling, Amazon SQS, and Svix webhook result delivery, plus a Tenant Management API for provisioning tenants and applications.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resistant-ai.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Resistant AI MCP Server
-  slug: resistant-ai-mcp-server
 modified: '2026-07-20'
 name: Resistant AI
 nav: Providers
@@ -244,8 +240,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/screenshots/resistant-ai-2026-08-17T081532.png
 security:

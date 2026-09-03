@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.quo.com
@@ -81,7 +81,7 @@ apis:
   description: Operations related to webhooks
   name: Quo Webhooks API
   slug: quo-webhooks-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Quo Webhooks
@@ -196,7 +196,7 @@ common:
   url: asyncapi/quo-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quo-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: Quo (formerly OpenPhone) is an AI-powered business communication platform that unifies calls, texts, and contacts in one shared workspace for startups and small businesses. Its REST Public API (https://api.quo.com/v1) lets developers send and receive SMS, manage contacts, conversations, and tasks, retrieve AI-generated call summaries and transcripts, and subscribe to Standard-Webhooks-signed events for messages and calls. Authentication is via a workspace API key sent in the Authorization header. This profile was added to the API Evangelist network from VC portfolio discovery and enriched from Quo's live developer documentation and published OpenAPI.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quo.png
 layout: provider
-mcp_servers:
-- description: Candidate Model Context Protocol tool surface derived from the Quo Public API v1 OpenAPI operations. Quo markets a "Quo MCP" capability on quo.com, but no hosted/remote MCP server endpoint or manifest
-  name: Quo API MCP (candidate)
-  slug: quo-api-mcp-candidate
 modified: '2026-07-20'
 name: Quo
 nav: Providers
@@ -262,8 +258,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/screenshots/quo-2026-08-17T081432.png
 security:

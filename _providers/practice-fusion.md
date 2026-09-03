@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -48,7 +48,7 @@ apis:
 - description: Proprietary bi-directional imaging integration API for order receipt and study transmission across imaging providers, supporting 100,000+ medical professionals.
   name: Practice Fusion Imaging API
   slug: practice-fusion-imaging-api
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -96,7 +96,7 @@ common:
   url: data-model/practice-fusion-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/practice-fusion-mcp.yml
 - group: agent
   title: ''
@@ -210,10 +210,6 @@ created: '2026-07-17'
 description: Practice Fusion is a cloud-based electronic health record (EHR) platform for independent ambulatory medical practices, serving roughly 6.4% of U.S. ambulatory practices with more than 43 million clinical records and around 5 million patient visits per month. Its developer surface centers on an ONC Certified Health IT FHIR R4 (Patient Data Sharing / PDS) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1 over SMART-on-FHIR OAuth2, alongside proprietary bi-directional Labs and Imaging APIs and a partner marketplace of 600+ integrated companies.
 image: https://www.practicefusion.com/assets/img/practice-fusion-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Practice Fusion MCP Server
-  slug: practice-fusion-mcp-server
 modified: '2026-08-14'
 name: Practice Fusion
 nav: Providers
@@ -269,8 +265,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/screenshots/practice-fusion-2026-08-17T081329.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Sifflet''s public REST API for programmatically managing data observability resources — assets and workspaces, monitors/rules and rule runs, sources (V2), credentials, domains, calendars, notification '
@@ -211,8 +211,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sifflet/refs/heads/main/screenshots/sifflet-2026-08-17T081845.png
 security:

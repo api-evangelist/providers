@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Webhook API from Simplifi/Simplifipay — 4 operation(s) for webhook.
   name: Simplifi/Simplifipay Webhook API
   slug: simplifi-simplifipay-webhook-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: 'Outbound webhook events SimpliFi delivers to a client-configured HTTPS endpoint. Async model: an API call returns 2xx/202 on receipt; the outcome arrives here. Each delivery carries X-SimpliFi-Webhook'
   name: SimpliFi Webhooks
@@ -211,7 +211,7 @@ common:
   url: components/simplifi-simplifipay-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/simplifi-simplifipay-mcp.yml
 - group: design
   title: ''
@@ -241,10 +241,6 @@ created: '2026-07-17'
 description: SimpliFi (simplifipay.com) is a Cards-as-a-Service platform powering virtual and physical card programs for fintechs, startups, and enterprises across the GCC (UAE, Saudi Arabia, Kuwait, Bahrain, Oman, Qatar). Regulated by the Dubai Financial Services Authority (DFSA), SimpliFi offers off-the-shelf and fully customizable card programs with multi-currency support (50+ currencies), digital-wallet enablement (Apple/Google/Samsung Pay), programmable authorization, velocity, and merchant controls, and real-time transaction and fraud monitoring. Its developer platform exposes a JWT-authenticated REST API (card programs, funding sources, cards, users, transactions, fees, rule groups, and webhook management) on an asynchronous, webhook-driven architecture, plus a PCI-DSS-compliant Virtual Card SDK for securely displaying card data. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplifi-simplifipay.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Simplifi/Simplifipay MCP Server
-  slug: simplifisimplifipay-mcp-server
 modified: '2026-07-21'
 name: Simplifi/Simplifipay
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/screenshots/simplifi-simplifipay-2026-08-17T081912.png
 security:

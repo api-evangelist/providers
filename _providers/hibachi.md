@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: 'Authenticated trading: orders, positions, account info, settlements, leverage'
   name: Hibachi Trade API
   slug: hibachi-trade-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: Hibachi exposes a WebSocket API alongside its REST API for lower-latency access to real-time trading and market data. Public market streams (/ws/market) require no API key; account and trading streams
   name: Hibachi WebSocket API
@@ -147,7 +147,7 @@ common:
   url: packages/hibachi-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hibachi-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Hibachi is a stablecoin-native, privacy-first decentralized exchange for perpetual futures and FX trading. Built by contributors from Citadel, Tower Research, IMC, Meta, Google and Amazon, it pairs a low-latency central-limit-orderbook trading engine with a zk-verified settlement layer, so collateral only moves on-chain when validated by a zero-knowledge proof. Hibachi exposes a public REST and WebSocket API across two hosts (api.hibachi.xyz for account, trading and capital operations; data-api.hibachi.xyz for market data), an official Python SDK, a TypeScript example integration, and a CCXT integration. Authentication uses an API key in the Authorization header, and order, withdraw and transfer operations additionally require an ECDSA or HMAC request signature. It is backed by Electric Capital.
 image: https://hibachi.xyz/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hibachi MCP Server
-  slug: hibachi-mcp-server
 modified: '2026-07-19'
 name: Hibachi
 nav: Providers
@@ -248,8 +244,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/screenshots/hibachi-2026-07-25T221135.png
 security:

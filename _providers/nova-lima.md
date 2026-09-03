@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API (v1.0) for Runrun.it work and project management: tasks, projects, boards, clients, teams, users, comments, documents, evaluations, and time-worked reporting. JSON, ISO 8601'
@@ -185,8 +185,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/screenshots/nova-lima-2026-08-07T185626.png
 security:

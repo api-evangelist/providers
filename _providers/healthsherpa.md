@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -68,7 +68,7 @@ apis:
   description: The Utility API from HealthSherpa — 1 operation(s) for utility.
   name: HealthSherpa Utility API
   slug: healthsherpa-utility-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Healthsherpa Ichra Webhooks
@@ -171,7 +171,7 @@ common:
   url: https://www.healthsherpa.com/agents_agencies
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/healthsherpa-mcp.yml
 - group: other
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: HealthSherpa is the leading ACA (Affordable Care Act) health insurance quoting and enrollment platform, and was the first company to partner with CMS to offer Enhanced Direct Enrollment (EDE) for agents. Its developer surface, HealthSherpa ONE (one.healthsherpa.com), exposes a public OpenAPI 3.1 REST API for on- and off-exchange ACA plan quoting, county/issuer/provider reference lookups, agent and self-service enrollment sessions, and an approval-gated direct enrollment API covering the full off-exchange (ICHRA) application lifecycle — create, update, submit, cancel, terminate, supporting-document upload, and payment redirect. Authentication is a single x-api-key header; enrollment writes support Idempotency-Key with 24-hour retention. Separate ICHRA and Medicare Partner APIs provide QuoteConnect/EnrollConnect, deeplinked enrollment, and webhooks. HealthSherpa publishes first-party Agent Skills, an llms.txt, and vibe-coding prompts for agents.
 image: https://healthsherpa-21715791.hs-sites.com/hubfs/raw_assets/public/HealthSherpa%20Theme/HealthSherpa/images/favicon/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: HealthSherpa MCP Server
-  slug: healthsherpa-mcp-server
 modified: '2026-07-19'
 name: HealthSherpa
 nav: Providers
@@ -248,8 +244,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -188,7 +188,7 @@ apis:
   description: The Vendor API from Smartcat — 2 operation(s) for vendor.
   name: Smartcat Vendor API
   slug: smartcat-vendor-api
-artifact_total: 65
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Smartcat Callbacks Webhooks
@@ -287,6 +287,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/smartcat-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/smartcat-openapi-overlay.yaml
 - group: agent
@@ -299,7 +303,7 @@ common:
   url: security/smartcat-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/smartcat-mcp.yml
 - group: agent
   title: ''
@@ -409,10 +413,6 @@ created: '2026-07-17'
 description: Smartcat is an AI-powered translation and localization platform that lets teams translate content instantly and at scale across 280+ languages, combining machine translation, AI agents, human linguist workflows, translation memories, and glossaries. Its integration API (/api/integration/v1) provides programmatic access to projects, documents, translation memories, glossaries, quotes, invoices, vendors, teams, and status callbacks, and is designed as a full-fledged equivalent and extension of the Smartcat web UI. The API spans 176 operations across 27 resource groups, uses HTTP Basic authentication (Account ID + API key), is rate limited to four requests per second, and is served from regional hosts for Europe (smartcat.com), the Americas (us.smartcat.com) and Asia (ea.smartcat.com). The company was surfaced as a portfolio company of Matrix Partners and has been enriched from its public developer surface.
 image: https://smartcat.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Smartcat MCP Server
-  slug: smartcat-mcp-server
 modified: '2026-07-21'
 name: Smartcat
 nav: Providers
@@ -423,13 +423,13 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
   The Smartcat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
+  Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
 random_paper: 2
 score:
   band: developing
   composite: 53.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -454,8 +454,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/screenshots/smartcat-2026-08-17T081929.png
 security:

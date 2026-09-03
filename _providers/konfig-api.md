@@ -25,16 +25,16 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-02'
-api_count: 5
+  score: 3.8
+  scored_at: '2026-09-03'
+api_count: 6
 apis:
 - description: Capability area (endpointsModeled - no documented public REST endpoint). Generates idiomatic client-library SDKs from an OpenAPI Specification or Postman Collection in TypeScript/JavaScript, Python, J
   name: Konfig SDK Generation
@@ -51,7 +51,10 @@ apis:
 - description: Capability area (endpointsModeled). A configurable linter that inspects an OpenAPI Specification for errors and quality issues before SDK and docs generation, so client libraries are produced from a c
   name: Konfig OpenAPI Linting
   slug: konfig-linting
-artifact_total: 8
+- description: Konfig's developer platform for generating, validating, and publishing SDKs, API reference documentation, and interactive tutorials from OpenAPI specifications and Postman Collections. Delivered prima
+  name: Konfig SDK Generation Platform (Sunset)
+  slug: konfig-sdk-generation
+artifact_total: 9
 common:
 - group: build
   title: ''
@@ -101,7 +104,7 @@ modified: '2026-07-11'
 name: Konfig
 nav: Providers
 network: true
-overview: 'Konfig publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDK Generation, Client Library, API Documentation, Developer Tools, and API Lifecycle.
+overview: 'Konfig publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDK Generation, Client Library, API Documentation, Developer Tools, and API Lifecycle.
 
 
   Konfig''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -116,19 +119,19 @@ rate_limits:
   slug: konfig-api-rate-limits
 score:
   band: emerging
-  composite: 17.5
+  composite: 21.6
   coverage:
     artifact_dirs: 5
     catalog_gap: 53.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.1
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 14.3
+    contract_quality: 6.7
+    developer_ergonomics: 26.2
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
@@ -139,8 +142,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfig-api/refs/heads/main/screenshots/konfig-api-2026-07-25T224153.png
 slug: konfig-api

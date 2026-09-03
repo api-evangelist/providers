@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -418,7 +418,7 @@ apis:
   description: The Zebrafishes API from Cenevo — 1 operation(s) for zebrafishes.
   name: Cenevo Zebrafishes API
   slug: cenevo-zebrafishes-api
-artifact_total: 156
+artifact_total: 155
 asyncapis:
 - description: ''
   name: Cenevo Labguru Webhooks
@@ -703,7 +703,7 @@ common:
   url: conformance/cenevo-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cenevo-mcp.yml
 - group: agent
   title: ''
@@ -761,10 +761,6 @@ created: '2026-07-17'
 description: Cenevo is an AI-enabled lab automation company (the maker of Labguru and Mosaic, formerly BioData) that helps scientists, research institutions, and biopharmas connect and automate the laboratory. Its platform combines an electronic lab notebook / LIMS (Labguru), cloud-based sample management (Mosaic), AI agents, and 150+ instrument and system integrations to centralize lab data, automate repetitive workflows, and bring governed, auditable agentic intelligence into scientific research. Cenevo exposes the Labguru API, a JSON / REST API providing create, read, update, and delete access to almost all data in Labguru across antibodies, cell lines, compounds, experiments, inventory, storage, equipment, and more, with token-based authentication and webhook subscriptions. It is used by 950+ customers including 8 of the top 10 biopharmas.
 image: https://www.cenevo.com/hubfs/favicon-cenevo-bg-white.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cenevo MCP Server
-  slug: cenevo-mcp-server
 modified: '2026-07-18'
 name: Cenevo
 nav: Providers
@@ -812,8 +808,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:

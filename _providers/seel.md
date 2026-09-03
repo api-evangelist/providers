@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 9
 apis:
 - baseURL: https://api-test.seel.com/v1
@@ -81,7 +81,7 @@ apis:
   description: The Quote API from Seel — 2 operation(s) for quote.
   name: Seel Quote API
   slug: seel-quote-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: Seel delivers webhook notifications to a merchant-configured HTTPS endpoint when protection contract and claim lifecycle events occur. Each notification is a Notification object with id, created_ts, t
   name: Seel Webhooks
@@ -120,7 +120,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/seel-mcp.yml
 - group: other
   title: ''
@@ -182,10 +182,6 @@ created: '2026-07-17'
 description: Seel is a post-purchase protection and e-commerce insurance platform that helps online merchants offer Worry-Free Purchase coverage, Extended Warranty, and return, fulfillment, and price-drop protection to their shoppers. Its API lets merchants request protection Quotes for a cart, bind coverage to Orders (creating Contracts), manage Products, Fulfillments, Claims, and Bills, and emit Events, with contract and claim lifecycle changes delivered via webhooks. Seel serves 5,000+ merchants and has protected 24M+ orders. Backed by Lightspeed Venture Partners and Techstars.
 image: https://seel.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Seel MCP Server
-  slug: seel-mcp-server
 modified: '2026-07-21'
 name: Seel
 nav: Providers
@@ -232,8 +228,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/screenshots/seel-2026-09-02T154753.png
 security:

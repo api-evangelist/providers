@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
   description: The Project API from Newforma — 4 operation(s) for project.
   name: Newforma Project API
   slug: newforma-project-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -146,7 +146,7 @@ common:
   url: well-known/newforma-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/newforma-mcp.yml
 - group: agent
   title: ''
@@ -188,10 +188,6 @@ created: '2026-07-17'
 description: Newforma builds project information management software for the architecture, engineering, and construction (AEC) industry. Its cloud platform Newforma Konekt (formerly BIM Track by BIM One) exposes a REST API and a buildingSMART BCF REST API for BIM coordination — managing hubs, projects, and issues along with their viewpoints, attachments, comments, history, sheets, models, and users. Integrations authenticate with OAuth 2.0 / OpenID Connect (PKCE) or a Hub-owner API access token. Newforma also ships the on-premises Project Center and the cloud ConstructEx products.
 image: https://www.newforma.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Newforma MCP Server
-  slug: newforma-mcp-server
 modified: '2026-07-20'
 name: Newforma
 nav: Providers
@@ -235,8 +231,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -304,7 +304,7 @@ apis:
   description: The webhooks API from Agicap — 5 operation(s) for webhooks.
   name: Agicap webhooks API
   slug: agicap-webhooks-api
-artifact_total: 165
+artifact_total: 164
 asyncapis:
 - description: ''
   name: Agicap Events Webhooks
@@ -724,7 +724,7 @@ common:
   url: well-known/agicap-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/agicap-mcp.yml
 - group: agent
   title: ''
@@ -774,10 +774,6 @@ created: '2026-07-17'
 description: 'Agicap is a European cash-flow and liquidity management platform headquartered in Lyon, France, backed by Partech and other investors. Its software helps businesses forecast cash flow, manage accounts payable and receivable, run and secure payments, connect banking data, control spend, and handle e-invoicing. Agicap exposes a substantial Public API at api.agicap.com: 19 REST APIs spanning Treasury bank journals, Business Documents (invoices, credit notes), Payments and beneficiaries, Banking documents, Accounts Receivable clients, Suppliers, Financing & Investments, Pre-accounting, E-Invoicing, and an Events/Webhooks API. Authentication is OAuth2 client-credentials via an IdentityServer authorization server (myaccount.agicap.com), errors follow RFC 9457 problem+json, and the company publishes a trust center (SOC 2, ISO 27001), a bug-bounty program, and a status page.'
 image: https://images.ctfassets.net/8dreszsahte7/2yE99dsuxDH1IVNa5HQKXJ/435b73bb5bd5e0a62bba48a6144336a8/Visuel_g%C3%A9n%C3%A9rique.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Agicap MCP Server
-  slug: agicap-mcp-server
 modified: '2026-07-17'
 name: Agicap
 nav: Providers
@@ -830,8 +826,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:

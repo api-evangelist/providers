@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -73,7 +73,7 @@ apis:
   description: Operations for configuring Audit Manager settings
   name: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
-artifact_total: 233
+artifact_total: 232
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +99,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-audit-manager-mcp.yml
 - group: other
   title: ''
@@ -721,10 +721,6 @@ jsonld:
   property_count: 0
   slug: amazon-audit-manager-context
 layout: provider
-mcp_servers:
-- description: Candidate MCP server derived from the Amazon Audit Manager OpenAPI operations (one tool per operationId). AWS does not publish a dedicated Audit Manager MCP server; the awslabs/mcp suite offers genera
-  name: Amazon Audit Manager MCP Server
-  slug: amazon-audit-manager-mcp-server
 modified: '2026-06-20'
 name: Amazon Audit Manager
 nav: Providers
@@ -787,8 +783,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:

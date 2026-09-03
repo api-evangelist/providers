@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Tenant details and tenant authentication credentials.
   name: UrbanFox Tenants API
   slug: urbanfox-tenants-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +159,7 @@ common:
   url: agentic-access/urbanfox-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/urbanfox-mcp.yml
 - group: design
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: UrbanFox is an AI-powered online payment fraud detection and prevention platform that uses generative AI and behavioral intelligence - rather than static rule-sets - to detect payment fraud, account takeover, and bot traffic across transactions, sessions, and accounts. The Techstars-backed company ships a tenant-scoped Customer API (OAuth 2.0 client credentials) for fraud case management, end-user account management, activity metrics, credential rotation, and clickstream collector integration.
 image: https://www.urbanfox.io/hubfs/Favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Candidate MCP tool surface derived from the OpenAPI (no official server)
-  slug: candidate-mcp-tool-surface-derived-from-the-openapi-no-official-server
 modified: '2026-07-21'
 name: UrbanFox
 nav: Providers
@@ -250,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/screenshots/urbanfox-2026-08-17T082646.png
 security:

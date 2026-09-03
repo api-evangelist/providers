@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,6 +76,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/compass-inc-
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.compass.com/newsroom/
 created: '2026-05-04'
 description: Compass is a leading real estate technology company headquartered in New York City that provides a tech-enabled brokerage platform connecting agents, buyers, and sellers across the United States. The company combines residential real estate services with proprietary software for agents, including marketing, client management, and listing tools. Compass does not currently publish a public developer API portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/compass.png
@@ -87,7 +91,7 @@ network: true
 overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Brokerage, PropTech, and Fortune 500.
 
 
-  Compass'' developer surface includes engineering blog and 9 more developer resources.'
+  Compass'' developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 2
 score:
   band: minimal
@@ -114,8 +118,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

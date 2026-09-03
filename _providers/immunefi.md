@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: An unauthenticated, read-only JSON endpoint published on Immunefi's own domain that returns the complete catalog of bug bounty programs listed on the platform. Each record carries the project name and
@@ -169,8 +169,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/screenshots/immunefi-2026-09-02T145845.png
 security:

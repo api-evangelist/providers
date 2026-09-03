@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-09-02'
+  score: 38.6
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ apis:
   description: The Webhooks API from Bridge — 6 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-webhooks-api
-artifact_total: 55
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Bridge Webhooks
@@ -363,7 +363,7 @@ common:
   url: packages/bridge-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bridge-mcp.yml
 - group: agent
   title: ''
@@ -381,10 +381,6 @@ created: '2026-07-17'
 description: 'Bridge is stablecoin payment and money-movement infrastructure for developers. Its composable REST APIs let businesses accept, hold, convert, and pay out stablecoins and fiat through a single integration: onboard customers with KYC/KYB, issue USD/EUR/MXN virtual accounts, orchestrate cross-chain and cross-border transfers, custody balances in Bridge Wallets, convert between stablecoins, issue stablecoin-backed cards (via Stripe Issuing), and issue your own stablecoin. The Bridge API is versioned at /v0, authenticated with a scoped Api-Key header, and supports idempotent writes plus a webhook event surface. Bridge was acquired by Stripe. Backed by Ribbit Capital.'
 image: https://www.bridge.xyz/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bridge MCP Server
-  slug: bridge-mcp-server
 modified: '2026-07-18'
 name: Bridge
 nav: Providers
@@ -437,8 +433,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
 security:

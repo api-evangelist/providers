@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Atlas is Duplo''s global payments API for African and emerging-market businesses: collect payments (checkout, payment links, virtual accounts), disburse funds (single and bulk bank payouts, internation'
   name: Atlas Payments API
   slug: atlas-payments-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Duplo Atlas Webhooks
@@ -139,7 +139,7 @@ common:
   url: asyncapi/duplo-atlas-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/duplo-mcp.yml
 - group: agent
   title: ''
@@ -162,10 +162,6 @@ description: 'Duplo is a fintech company building the financial operating system
   oversight as a licensed Payment Service Solution Provider (PSSP).'
 image: https://tryduplo.com/wp-content/uploads/2026/04/Dashboard-1-01-scaled.webp
 layout: provider
-mcp_servers:
-- description: ''
-  name: Duplo MCP Server
-  slug: duplo-mcp-server
 modified: '2026-07-18'
 name: Duplo
 nav: Providers
@@ -207,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duplo/refs/heads/main/screenshots/duplo-2026-07-25T212511.png
 security:

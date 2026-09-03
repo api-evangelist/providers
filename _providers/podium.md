@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 24
 apis:
 - baseURL: https://api.podium.com/v4/
@@ -483,8 +483,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:

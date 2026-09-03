@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: The Verticals API from SkimBit — 2 operation(s) for verticals.
   name: SkimBit Verticals API
   slug: skimbit-verticals-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: 'The Skimlinks Data Pipe is the event-level data surface behind the Skimlinks affiliate platform: impressions, clicks, commissions and products purchased, cleaned and exported daily to a customer-owned'
   name: Skimlinks Data Pipe
@@ -199,7 +199,7 @@ common:
   url: components/skimbit-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/skimbit-mcp.yml
 - group: agent
   title: ''
@@ -250,10 +250,6 @@ description: SkimBit Ltd, operating as Skimlinks, is a London-founded content-mo
   commissions and product-purchase data to cloud storage.
 image: https://www.skimlinks.com/wp-content/uploads/2025/06/Colour_icon.svg
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface mapping the read operations of the Skimlinks Merchant, Reporting and Product Key APIs. Each tool wraps one operationId; all require a Skimlinks access_token minted from clie
-  name: SkimBit MCP Server
-  slug: skimbit-mcp-server
 modified: '2026-08-13'
 name: SkimBit
 nav: Providers
@@ -303,8 +299,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/screenshots/skimbit-2026-08-17T081913.png
 security:

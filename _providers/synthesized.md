@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.0.1, "Governor External API" v1.0.0) for the self-hosted Synthesized Governor. Trigger TDK masking/generation workflows, list workers, and check health. Authenticated with an X-Acc
   name: Governor External API
   slug: governor-external-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -123,7 +123,7 @@ common:
   url: cli/synthesized-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/synthesized-mcp.yml
 - group: auth
   title: ''
@@ -133,10 +133,6 @@ created: '2026-07-17'
 description: Synthesized is an AI-native test data management (TDM) platform that automates the provisioning of production-realistic, privacy-preserving data for software testing, database migrations, CI/CD pipelines, and AI/ML validation. Its Test Data Kit (TDK) masks, subsets, and generates data across databases including PostgreSQL, MySQL, Oracle, SQL Server, SAP HANA and Db2, and enterprise applications like SAP, Oracle Fusion, Workday, Microsoft D365, ServiceNow and Salesforce. The Governor External API and first-party Python SDK (published to PyPI) let teams trigger masking and generation workflows programmatically and embed compliant synthetic data into their pipelines, with policy-driven masking aligned to GDPR, CCPA and CPRA.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthesized.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Synthesized MCP Server
-  slug: synthesized-mcp-server
 modified: '2026-07-21'
 name: Synthesized
 nav: Providers
@@ -168,8 +164,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthesized/refs/heads/main/screenshots/synthesized-2026-09-02T161633.png
 security:

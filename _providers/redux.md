@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -194,14 +194,14 @@ rules:
     warn: 4
   slug: redux-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.9
+  band: emerging
+  composite: 24.9
   coverage:
     artifact_dirs: 11
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -211,12 +211,9 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
   previous_composite: 28.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/screenshots/redux-2026-06-20T192739.png
 security:

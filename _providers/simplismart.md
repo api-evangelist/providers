@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: LLM/VLM model training endpoints
   name: Simplismart Training API
   slug: simplismart-training-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +179,7 @@ common:
   url: cli/simplismart-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/simplismart-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +237,6 @@ created: '2026-07-17'
 description: Simplismart is an AI inference and model-deployment platform that lets teams run, fine-tune, and self-host generative AI models on optimized GPU infrastructure. It offers OpenAI-compatible LLM chat inference (Llama, Qwen, Gemma, Mixtral, DeepSeek), Whisper speech-to-text transcription, and Flux image generation as shared or dedicated endpoints, plus a Training Suite for fine-tuning LLM/VLM and Flux models. A Model Suite handles model compilation, clusters (own-cloud EKS/Kubernetes / bring-your-own-compute), deployments with autoscaling, secrets, quotas, and observability (alerting and metric export to Datadog, New Relic, Prometheus). A Python SDK and `simplismart` CLI cover the full MLOps lifecycle. Simplismart is backed by Accel.
 image: https://cdn.prod.website-files.com/688cd7a9d1e409a52d962d73/689a55919a5ee5abe9a2ed5e_meta.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Simplismart MCP Server
-  slug: simplismart-mcp-server
 modified: '2026-07-21'
 name: Simplismart
 nav: Providers
@@ -279,8 +275,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/screenshots/simplismart-2026-08-17T081859.png
 security:

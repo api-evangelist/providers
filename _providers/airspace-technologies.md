@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: We support generating a Quote for a potential Order as well as confirming that Quote to place an Order.
   name: Airspace Technologies Quotes API
   slug: airspace-technologies-quotes-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Airspace Technologies Webhooks
@@ -195,7 +195,7 @@ common:
   url: asyncapi/airspace-technologies-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/airspace-technologies-mcp.yml
 - group: agent
   title: ''
@@ -213,10 +213,6 @@ created: '2026-07-17'
 description: Airspace Technologies is a time-critical logistics provider that uses AI-driven routing to move urgent, high-value freight via Next Flight Out (NFO), on-demand ground, charter, and specialty services across 80+ countries. Its public REST API (current V3, prior V2) supports order creation, quote generation, and active shipment monitoring. The API is asynchronous, authenticates with a non-expiring bearer token, paginates lists with page/page_limit, and pushes milestone, delay, and cancellation updates over webhooks correlated by request_id.
 image: https://www.airspacetechnologies.com/hubfs/Updated%20logos/Airspace%20horizontal%20logotype%20black%20and%20green%20no%20background%20011321%20(1).png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Airspace Technologies MCP Server
-  slug: airspace-technologies-mcp-server
 modified: '2026-07-17'
 name: Airspace Technologies
 nav: Providers
@@ -258,8 +254,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png
 security:

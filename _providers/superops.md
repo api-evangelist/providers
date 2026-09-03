@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: GraphQL API for MSPs covering clients, tickets, assets, users, invoices, knowledge base, and service catalog. US and EU data centers.
@@ -42,7 +42,7 @@ apis:
 - description: GraphQL API for internal IT teams covering assets, tickets, users, knowledge base, service catalog, and IT documentation. US and EU data centers.
   name: SuperOps IT GraphQL API
   slug: superops-it-graphql-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -142,7 +142,7 @@ common:
   url: changelog/superops-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/superops-mcp.yml
 - group: agent
   title: ''
@@ -156,10 +156,6 @@ created: '2026-07-17'
 description: SuperOps is a unified PSA (Professional Services Automation) and RMM (Remote Monitoring and Management) platform for managed service providers (MSPs) and internal IT teams, spanning service desk and ticketing, endpoint monitoring, patch management, asset and IT documentation, project management, billing and invoicing, and AI-assisted operations. SuperOps exposes a public GraphQL API with separate MSP and IT surfaces across US and EU data centers, giving programmatic access to clients, tickets, assets, users, invoices, knowledge base, and service catalog data. Requests authenticate with a bearer API token plus a CustomerSubDomain header and are limited to 800 requests per minute.
 image: https://us-west-2.graphassets.com/AsRMKMrtKTFW6TGbr4KgUz/cmo8lbrrc1xga07n3l58jhure
 layout: provider
-mcp_servers:
-- description: No official hosted/remote SuperOps MCP server was found (no @superops or @modelcontextprotocol package, no entry in public MCP registries, only a single unrelated repo in the github.com/superopsai org
-  name: SuperOps MCP Server
-  slug: superops-mcp-server
 modified: '2026-07-21'
 name: SuperOps
 nav: Providers
@@ -196,8 +192,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/screenshots/superops-2026-09-02T161249.png
 security:

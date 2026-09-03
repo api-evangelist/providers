@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -363,6 +363,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/oneschema-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/oneschema-aws-secrets-manager-overlay.yaml
 - group: build
@@ -531,13 +535,13 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   The Oneschema catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 31 more developer resources.'
+  Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 32 more developer resources.'
 random_paper: 2
 score:
   band: strong
   composite: 60.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -562,8 +566,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/screenshots/oneschema-2026-08-07T190340.png
 security:

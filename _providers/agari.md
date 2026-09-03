@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://agari.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.fortra.com/platform/email-security — a different registrable domain (agari.com -> fortra.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: RESTful JSON API for the Agari Platform, secured with OAuth 2.0 Client Credentials. Provides access to Agari email-security telemetry — alerts, domain tracking, DMARC policy-enforcement reporting, and
@@ -123,8 +124,8 @@ score:
   previous_composite: 16.0
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agari/refs/heads/main/screenshots/agari-2026-07-25T181754.png
 security:

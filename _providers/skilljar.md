@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -433,7 +433,7 @@ apis:
   description: The Webhooks API from Skilljar — 13 operation(s) for webhooks.
   name: Skilljar Webhooks API
   slug: skilljar-webhooks-api
-artifact_total: 163
+artifact_total: 162
 asyncapis:
 - description: ''
   name: Skilljar Webhooks
@@ -779,7 +779,7 @@ common:
   url: agentic-access/skilljar-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/skilljar-mcp.yml
 - group: agent
   title: ''
@@ -801,10 +801,6 @@ created: '2026-07-17'
 description: 'Skilljar is a customer education and external learning management (LMS) platform, now part of Gainsight, used to build, publish, and measure training academies, courses, learning paths, and certification programs for customers and partners. Its REST API provides comprehensive programmatic access to the platform: courses and lessons, published courses and catalog pages, learning paths, training domains, users and groups, enrollments and progress, quizzes and question banks, purchases and promo codes, instructor-led and virtual (VILT) training, and real-time webhooks. The published OpenAPI 3.0.3 definition covers 160 paths and 340 operations across 420 schemas, with an HTTP Basic API-key v1 surface and a newer v2 OAuth 2.0 surface (PKCE, ~89 scopes).'
 image: https://cdn.prod.website-files.com/65f2e85a59750ccb710adbf3/65f97abc87919ff34fc3f4ea_Favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Skilljar MCP Server
-  slug: skilljar-mcp-server
 modified: '2026-07-21'
 name: Skilljar
 nav: Providers
@@ -857,8 +853,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/screenshots/skilljar-2026-08-17T081918.png
 security:

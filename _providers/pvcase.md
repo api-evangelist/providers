@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://core-v1.carbon.prod.andersonopt.com
@@ -194,7 +194,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 48.2
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -220,8 +220,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/screenshots/pvcase-2026-09-02T152352.png
 security:

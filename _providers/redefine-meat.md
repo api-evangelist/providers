@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
@@ -228,8 +228,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redefine-meat/refs/heads/main/screenshots/redefine-meat-2026-09-02T153205.png
 security:

@@ -6,6 +6,7 @@ access_model:
   pricing: paid
   public: false
   source:
+  - '{''url'': ''https://www.alticeusa.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.optimum.com/about-us/ — a different registrable domain (alticeusa.com -> optimum.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   - finops
   trial: false
   try_now: false
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -128,8 +129,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 security:
 - kind: domain-security

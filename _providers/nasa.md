@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ arazzos:
 - description: Page the asteroid catalog, look up a specific near-Earth object, and pull every other object approaching on the same date.
   name: NASA Near Earth Object Close Approach Analysis
   slug: nasa-neo-close-approach-analysis-workflow
-artifact_total: 52
+artifact_total: 51
 collections:
 - collection_type: open
   name: API Collection
@@ -188,7 +188,7 @@ common:
   url: well-known/nasa-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nasa-mcp.yml
 - group: agent
   title: ''
@@ -338,10 +338,6 @@ jsonld:
   property_count: 0
   slug: nasa-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: NASA MCP Server
-  slug: nasa-mcp-server
 modified: '2026-06-20'
 name: NASA
 nav: Providers
@@ -407,8 +403,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - baseURL: https://api.reactor.inc
@@ -41,7 +41,7 @@ apis:
   description: 'Real-time generative video platform. A REST token endpoint mints session-scoped JWTs; a WebRTC data channel carries the command/event interface that controls model generation and streams video frames '
   name: Reactor Realtime Video API
   slug: reactor-realtime-video-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: 'Real-time video generation control channel for Reactor''s Helios model, exchanged over a WebRTC data channel after a session reaches "ready". Clients send commands; the model emits state and lifecycle '
   name: Reactor Helios Realtime API
@@ -121,7 +121,7 @@ common:
   url: components/reactor-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/reactor-mcp.yml
 - group: agent
   title: ''
@@ -163,10 +163,6 @@ created: '2026-07-17'
 description: Reactor is a real-time video AI platform that streams generative video from GPU-hosted models to web and mobile applications over WebRTC, with sub-second round-trip latency and no infrastructure to manage. Developers connect through a JavaScript/React SDK or an async Python SDK, mint short-lived session tokens from a long-lived account API key, and control generation with a command/event channel (set_prompt, start, pause, reset). Its model catalog includes Helios (interactive real-time generation), SANA-Streaming (video-to-video editing), LingBot and LingBot World 2 (navigable worlds), X2, LongLive-2.0 and HappyOyster. Reactor is backed by Amplify Partners and Lightspeed Venture Partners and is currently in public beta.
 image: https://www.reactor.inc/icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Reactor MCP Server
-  slug: reactor-mcp-server
 modified: '2026-07-20'
 name: Reactor
 nav: Providers
@@ -202,8 +198,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/screenshots/reactor-2026-08-17T081450.png
 security:

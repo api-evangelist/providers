@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -74,7 +74,7 @@ apis:
   description: Sets of one or more speakers that always share playback state (solo or stereo).
   name: Devialet Systems API
   slug: devialet-systems-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -188,7 +188,7 @@ common:
   url: overlays/devialet-ip-control-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/devialet-mcp.yml
 - group: build
   title: ''
@@ -206,10 +206,6 @@ created: '2026-08-04'
 description: Devialet is a French high-end audio company founded and headquartered in Paris, known for the Phantom active loudspeaker range, the Dione soundbar, the Mania portable speaker, the Gemini earbuds, and the Expert Pro amplifier line, and for patented acoustic technologies including ADH (Analog Digital Hybrid), SAM (Speaker Active Matching), and the EVO embedded platform. Its developer-facing surface is the Devialet IP Control API — an unauthenticated HTTP API served by the speakers themselves on the local network under the /ipcontrol/v1 path, introduced with DOS 2.14 firmware and documented by Devialet as a PDF reference for system integrators. It exposes device, system, and group state plus playback, volume, equalizer, night mode, Bluetooth pairing, and power and factory-reset commands, with mDNS/DNS-SD discovery. Devialet also ships certified home-automation drivers for Crestron and Control4 alongside the raw API.
 image: https://assets.devialet.com//media/dvl_media/Visual_Devialet_Phantom_Ultimate_98_dB_Stereo_LP_16_9.png?twic=v1/cover=1.91:1/resize=1200x630
 layout: provider
-mcp_servers:
-- description: ''
-  name: Devialet MCP Server
-  slug: devialet-mcp-server
 modified: '2026-08-04'
 name: Devialet
 nav: Providers
@@ -248,8 +244,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
 security:

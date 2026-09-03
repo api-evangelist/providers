@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: The enterprise REST API. Callers upload files of broker conversations for asynchronous processing and retrieve the extracted RFQs once parsing completes, or call the prediction operations synchronousl
@@ -43,7 +43,7 @@ apis:
 - description: Real-time streaming access to quotes and market activity extracted from broker conversations across multiple commodities. Customers subscribe to feeds such as oil, carbon, EMEA gas and US gas to recei
   name: Sense Street WebSocket API
   slug: sense-street-websocket-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -135,7 +135,7 @@ common:
   url: rate-limits/sense-street-rate-limits.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sense-street-mcp.yml
 - group: agent
   title: ''
@@ -146,10 +146,6 @@ description: 'Sense Street provides production-grade AI workflow automation for 
   allowlisted static IPs and a registered RSA key pair. Sense Street Limited is registered in London with an engineering office in Kraków, and is a portfolio company of Seedcamp and Speedinvest.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sense-street.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sense Street MCP Server
-  slug: sense-street-mcp-server
 modified: '2026-08-14'
 name: Sense Street
 nav: Providers
@@ -203,8 +199,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 53.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/screenshots/sense-street-2026-09-02T154849.png
 security:

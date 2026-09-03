@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The agent-callable surface of Parsley Health's direct-to-consumer supplement store. A live, anonymous Universal Commerce Protocol MCP endpoint exposes thirteen tools for catalog search, product lookup
@@ -246,8 +246,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/screenshots/parsley-health-2026-08-07T191503.png
 security:

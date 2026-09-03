@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Morpho's public GraphQL API providing real-time and historical onchain and offchain data across Morpho Blue markets, Morpho Vaults (V1 and V2), Midnight fixed-rate markets, user positions, curators, o
   name: Morpho API
   slug: morpho-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -147,7 +147,7 @@ common:
   url: data-model/morpho-labs-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/morpho-labs-mcp.yml
 - group: agent
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Morpho Labs builds Morpho, an open, non-custodial onchain credit network for the Ethereum Virtual Machine. The protocol pairs Morpho Blue (a trustless, oracle-agnostic, permissionless lending primitive with isolated markets), Morpho Vaults (permissionless, curator-managed yield vaults that allocate deposits across markets), and Midnight (fixed-rate markets). For developers, Morpho publishes a public GraphQL API at api.morpho.org that indexes onchain and offchain data for markets, vaults, positions, curators, oracles, assets, rewards, and transactions, plus a suite of TypeScript SDKs for building and simulating transactions, and detailed documentation at docs.morpho.org.
 image: https://evcop6xwrqrpqrf9.public.blob.vercel-storage.com/globals/morpho-thumbnail.1l1vc.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Morpho Labs MCP Server
-  slug: morpho-labs-mcp-server
 modified: '2026-07-20'
 name: Morpho Labs
 nav: Providers
@@ -197,8 +193,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpho-labs/refs/heads/main/screenshots/morpho-labs-2026-08-07T184313.png
 security:

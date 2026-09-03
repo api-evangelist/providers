@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'REST/JSON API surface for the JAGGAER (formerly SciQuest) Advanced Sourcing Optimizer, secured with OAuth 2.0 client-credentials. Grouped into the Customer Host Entity Service (query ASO events for a '
@@ -122,8 +122,8 @@ score:
   previous_composite: 33.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sciquest/refs/heads/main/screenshots/sciquest-2026-09-02T154539.png
 security:

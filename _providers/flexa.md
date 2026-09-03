@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Refunds are the only way by which a Flexa payment can be reversed. Refunds are always initiated by the recipient, and can be made for either a partial amount or the full value of the original payment.
   name: Flexa Refunds API
   slug: flexa-refunds-api
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Flexa Events Webhooks
@@ -187,7 +187,7 @@ common:
   url: overlays/flexa-openapi-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/flexa-mcp.yml
 - group: design
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: Flexa is a digital-currency payments network that lets businesses accept crypto and other digital assets from customers anywhere, with instant authorization, fraud-resistant settlement, and automatic conversion into a preferred payout currency so merchants avoid price volatility. The Flexa Payments API is built around the "commerce intent" resource, which represents any attempt to collect a digital-currency payment and tracks requested debits against actual credits; supporting resources include assets, refunds, events, links, brands, and flexcodes. Flexa ships prebuilt mobile UI Components for iOS, Android, and React Native, plus in-person (Point of Sale) and online acceptance options, and a production-grade test mode that uses a valueless ERC-20 "Credit" (CR) token. Flexa is backed by Pantera Capital and supports 99+ digital assets across Ethereum, Bitcoin, Lightning, Solana, and more.
 image: https://framerusercontent.com/assets/GHzfAvG7SahlNocEC2Agsubvp0.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Flexa MCP Server
-  slug: flexa-mcp-server
 modified: '2026-07-19'
 name: Flexa
 nav: Providers
@@ -256,8 +252,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/screenshots/flexa-2026-07-25T214746.png
 security:

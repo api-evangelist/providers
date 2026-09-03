@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: Real-time freight and shipment visibility. Lets a shipper, broker, or 3PL create, update, monitor, and stop tracking sessions on loads directly from a TMS or ERP and receive location, order-status, tr
@@ -142,8 +142,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/screenshots/descartes-2026-07-25T211743.png
 security:

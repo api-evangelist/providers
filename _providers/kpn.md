@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 34
 apis:
 - description: KPN Grip is a KPN identity and access management solution that acts as a central identity hub, letting developers integrate user registration, authentication and authorization (SAML 2.0, OpenID Connec
@@ -552,7 +552,7 @@ apis:
   description: The Your Active Webhook API from KPN — 1 operation(s) for your active webhook.
   name: KPN Your Active Webhook API
   slug: kpn-your-active-webhook-api
-artifact_total: 144
+artifact_total: 143
 asyncapis:
 - description: ''
   name: Kpn Webhooks
@@ -940,7 +940,7 @@ common:
   url: https://developer.kpn.com/page/responsible-disclosure
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kpn-mcp.yml
 - group: agent
   title: ''
@@ -1011,10 +1011,6 @@ description: 'Koninklijke KPN N.V. is the incumbent telecommunications and IT pr
   OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier''s own catalogue rather than the other way round.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: KPN MCP Server
-  slug: kpn-mcp-server
 modified: '2026-07-25'
 name: KPN
 nav: Providers
@@ -1044,7 +1040,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -1054,7 +1050,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 86.8
-  previous_composite: 62.2
+  previous_composite: 63.1
   provenance:
     conformance: first-party
     contracts:
@@ -1070,8 +1066,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 78.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png
 security:

@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - '{''url'': ''https://security.microsoft.com'', ''status'': 302, ''note'': ''declared website redirects to https://login.microsoftonline.com/common/oauth2/authorize?client_id=80ccca67-54bd-44ab-8625-4b79c4dc7775&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DRz3ddEkEW3sCl5UCgcVwX8a8Ir1Q6_ILuWrtConTQwwKtyKFNhW_moRzN-_q6IZS1dKFGGx7jegyPBSSIIASrDGabcBAEmiEmXBxJYDdh9NCfTTOtCeDZaIe-v_wXDk_JhcKYICC7FqM9r8ZJC9bqA&response_mode=form_post&nonce=639240508798129965.MTE2Y2IyNDgtZWNmMy00OTcyLTljNjktMWIyODdjNTQyODE4ZjIzNjY3OGMtNTBmMS00MmUwLWE3OWUtM2E5YjA5NWMxYzBi&client-request-id=a09eeb6f-0236-4bd1-b925-be28f3ebdf16&redirect_uri=https%3A%2F%2Fsecurity.microsoft.com%2F&x-client-SKU=ID_NET472&x-client-ver=8.22.0.0 — a different registrable domain (microsoft.com -> microsoftonline.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -271,11 +272,10 @@ score:
       marker_coverage: 0.0
       total: 3
   regulatory:
-    applies: false
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-08-17T124157.png
 security:

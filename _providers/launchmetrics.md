@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Search API for Launchmetrics publications. GET/POST /documents runs a Lucene-syntax query across the indexed publication corpus with filters for period, channel type, topic path, language, country and
@@ -203,8 +203,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchmetrics/refs/heads/main/screenshots/launchmetrics-2026-09-02T150220.png
 security:

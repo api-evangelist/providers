@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 3
 apis:
 - description: REST API for tables data (datatables) — row and column filtered access to hundreds of financial, economic, and alternative datasets, with JSON, XML, and CSV formats, cursor-based pagination, and an as
@@ -209,8 +209,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png
 security:

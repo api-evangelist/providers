@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: API to work on records
   name: Endeavour Energy Dataset API
   slug: endeavour-energy-dataset-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Explore API
@@ -172,7 +172,7 @@ common:
   url: components/endeavour-energy-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/endeavour-energy-mcp.yml
 - group: build
   title: ''
@@ -235,10 +235,6 @@ description: 'Endeavour Energy is the regulated electricity distribution network
   Open Database Licence. On the consumer side it is closed and, more importantly, unobligated: Australia''s Consumer Data Right was extended to energy, but the designation put the data-holder obligation on electricity retailers as primary holders and AEMO as the secondary holder and gateway, not on distributors. Endeavour Energy appears nowhere in the 84 brands of the CDR energy data holder register, publishes no CDR base URI, and makes no reference to the Consumer Data Right anywhere on its corporate site. It does operate a CSIP-AUS (Common Smart Inverter Profile - Australia) utility server for NSW flexible exports and the emergency backstop mechanism, but that machine interface is device-facing and entirely undocumented publicly. The open data portal itself is not linked from the corporate website.'
 image: https://www.endeavourenergy.com.au/images/ee-logo.svg
 layout: provider
-mcp_servers:
-- description: 'Endeavour Energy publishes no MCP server. This is a CANDIDATE manifest: one tool per real operationId, each inheriting its input contract from the backing operation in the harvested OpenAPI. It is a d'
-  name: Endeavour Energy MCP Server
-  slug: endeavour-energy-mcp-server
 modified: '2026-07-27'
 name: Endeavour Energy
 nav: Providers
@@ -292,8 +288,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 70.3
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-09-02'
+  score: 31.1
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: Token-authenticated WebSocket streaming API for real-time market data. Two endpoints — wss://quote.alltick.co/quote-stock-b-ws-api for equities and wss://quote.alltick.co/quote-b-ws-api for forex, cry
@@ -58,7 +58,7 @@ apis:
   description: The Suspension API from AllTick API — 3 operation(s) for suspension.
   name: AllTick API Suspension API
   slug: alltick-api-suspension-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Alltick Api Event Surface
@@ -174,7 +174,7 @@ common:
   url: packages/alltick-api-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/alltick-api-mcp.yml
 - group: agent
   title: ''
@@ -188,10 +188,6 @@ created: '2026-08-18'
 description: AllTick (AllTick PTE. LTD., Singapore) sells real-time and historical financial market tick data through a token-authenticated HTTPS query API and two WebSocket streams, covering forex, Hong Kong / US / A-share equities, indices, precious metals, crude oil and cryptocurrencies across roughly 100,000 symbols. The HTTP surface returns candlesticks (1-minute through monthly, with ex-rights and forward-adjusted variants), latest trade ticks, order-book depth, equity reference data and SSE/NYSE/NASDAQ trading-halt listings; the WebSocket surface pushes tick-by-tick trades and order-book updates. Sold self-serve in USDT on a per-symbol-basket or whole-market basis, with a permanent free tier limited to ten demo symbols. Built for exchanges, brokers, quantitative teams, trading platforms and fintech developers.
 image: https://alltick.co/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AllTick API MCP Server
-  slug: alltick-api-mcp-server
 modified: '2026-08-18'
 name: AllTick API
 nav: Providers
@@ -240,8 +236,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/screenshots/alltick-api-2026-09-02T144121.png
 security:

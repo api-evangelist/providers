@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: The Flipkart Marketplace Seller API (v3) lets sellers and integration partners manage listings, orders, shipments, returns, and reports on the Flipkart marketplace programmatically. It is a REST API h
@@ -151,8 +151,8 @@ score:
   previous_composite: 34.4
   provenance:
     mcp: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png
 security:

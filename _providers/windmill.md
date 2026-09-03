@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -1036,13 +1036,13 @@ rules:
   slug: windmill-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.0
+  composite: 53.3
   coverage:
     artifact_dirs: 19
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -1052,9 +1052,6 @@ score:
     discoverability: 63.0
     governance: 54.5
     operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 50.0
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -1063,8 +1060,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:

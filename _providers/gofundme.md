@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -396,7 +396,7 @@ apis:
   description: 'A record indicating one of the possible currencies that an organization is allowing for fundraising and transactions. If no such records exist for an organization, it is assumed that the organization '
   name: GoFundMe Whitelisted Currency API
   slug: gofundme-whitelisted-currency-api
-artifact_total: 151
+artifact_total: 150
 asyncapis:
 - description: ''
   name: Gofundme Webhooks
@@ -754,7 +754,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gofundme-mcp.yml
 - group: agent
   title: ''
@@ -764,10 +764,6 @@ created: '2026-08-04'
 description: 'GoFundMe is the world''s largest social fundraising platform, operating both the consumer crowdfunding site at gofundme.com and GoFundMe Pro (formerly Classy, acquired in 2022) — the enterprise fundraising suite nonprofits use for donation pages, peer-to-peer campaigns, recurring giving, ticketed events and Giving Cart checkout. The developer surface is GoFundMe Pro: a REST API (v2.0) documented with a public OpenAPI 3.0 definition covering campaigns, transactions, supporters, fundraising pages and teams, recurring donation plans, designations, promo codes, payouts and reporting; OAuth2 client-credentials and member tokens; Svix-powered webhooks for supporter, transaction and recurring-plan events; a Classy Login OpenID Connect single-sign-on service; and Classy Pay embedded checkout. The consumer gofundme.com product publishes no public API.'
 image: https://pro.gofundme.com/wp-content/uploads/2025/04/social-share-gfm-pro.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GoFundMe MCP Server
-  slug: gofundme-mcp-server
 modified: '2026-08-04'
 name: GoFundMe
 nav: Providers
@@ -797,7 +793,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -807,7 +803,7 @@ score:
     discoverability: 50.0
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 61.3
+  previous_composite: 59.4
   provenance:
     conformance: derived
     contracts:
@@ -823,8 +819,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/screenshots/gofundme-2026-08-07T165756.png
 security:

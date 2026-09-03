@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: USTC's institution-operated authorization server, run by the Network Information Center and the hub every other campus system authenticates against. It speaks CAS 3.0, OAuth 2.0 authorization code (re
@@ -301,8 +301,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/screenshots/ustc-2026-06-20T200827.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 1
 apis:
 - description: 'Undocumented private HTTP/JSON API at api.rightwayhealthcare.com that backs the Rightway member mobile apps (iOS/Android) and the member web app at member.rightwayhealthcare.com. The host is publicly '
@@ -157,8 +157,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightway/refs/heads/main/screenshots/rightway-2026-09-02T153819.png
 security:

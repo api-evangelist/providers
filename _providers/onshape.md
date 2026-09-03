@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -253,7 +253,7 @@ apis:
   description: Access and modify workflows.
   name: Onshape Workflow API
   slug: onshape-workflow-api
-artifact_total: 94
+artifact_total: 93
 asyncapis:
 - description: ''
   name: Onshape Events Webhooks
@@ -419,7 +419,7 @@ common:
   url: packages/onshape-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/onshape-mcp.yml
 - group: agent
   title: ''
@@ -533,10 +533,6 @@ created: '2026-07-17'
 description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes documents, workspaces, versions and microversions, Part Studios, parts, assemblies, drawings, metadata, translations (CAD import/export), release management, and webhooks. Authentication is via OAuth 2.0 or HMAC-signed API keys, with offset/limit pagination and per-endpoint plus annual API call limits. Onshape was surfaced as an a16z portfolio company and enriched with its real developer surface by the API Evangelist pipeline.
 image: https://github.com/onshape-public.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Onshape MCP Server
-  slug: onshape-mcp-server
 modified: '2026-07-20'
 name: Onshape
 nav: Providers
@@ -587,8 +583,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/screenshots/onshape-2026-08-07T190412.png
 security:

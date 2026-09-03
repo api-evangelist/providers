@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.actioniq.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.uniphore.com/actioniq/ — a different registrable domain (actioniq.com -> uniphore.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - description: 'The ActionIQ Profile API provides real-time access to customer identities, attributes, and audience membership within milliseconds. It powers inbound decisioning use cases such as web personalization '
@@ -192,8 +193,8 @@ score:
   previous_composite: 28.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actioniq/refs/heads/main/screenshots/actioniq-2026-06-20T164035.png
 security:

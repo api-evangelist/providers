@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -281,8 +281,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/screenshots/stackadapt-2026-06-20T194444.png
 security:

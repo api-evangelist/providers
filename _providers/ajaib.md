@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
   description: Check funds and assets held by the exchange client.
   name: Ajaib Wallet API
   slug: ajaib-wallet-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -153,7 +153,7 @@ common:
   url: llms/ajaib-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ajaib-mcp.yml
 - group: build
   title: ''
@@ -191,10 +191,6 @@ created: '2026-08-06'
 description: 'Ajaib is an Indonesian fintech and online brokerage founded in 2018 that gives retail investors access to Indonesian stocks, mutual funds, bonds, US stocks and crypto from a single mobile app. It operates PT Ajaib Sekuritas Asia for equities and Ajaib Kripto for digital assets, and became Southeast Asia''s first investment unicorn in 2021. Its one public developer surface is the Ajaib Coin Exchange API, a REST trading interface for the crypto venue, documented on GitBook and organized into Market Info, Wallet and Spot Trading. Access is not self-service: clients generate an ECDSASHA256 keypair, email the public key to Ajaib, and sign every request with X-API-KEY, X-SIGNATURE and X-TIMESTAMP headers. Ajaib publishes no OpenAPI, no SDKs and no status page.'
 image: https://avatars.githubusercontent.com/u/45261753?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ajaib MCP Server
-  slug: ajaib-mcp-server
 modified: '2026-08-06'
 name: Ajaib
 nav: Providers
@@ -239,8 +235,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/screenshots/ajaib-2026-08-07T161125.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: Combined rollup of status, components, unresolved incidents and active/upcoming maintenances.
   name: CodaMetrix Summary API
   slug: codametrix-summary-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -92,7 +92,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/codametrix-mcp.yml
 - group: agent
   title: ''
@@ -239,10 +239,6 @@ examples:
   slug: codametrix-status-summary
 image: https://cdn.prod.website-files.com/684cc6638b0f0abf60033894/6858a1d6db0f8dcba0f11337_CodaMetrix-CodeForBetter.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CodaMetrix MCP Server
-  slug: codametrix-mcp-server
 modified: '2026-08-04'
 name: CodaMetrix
 nav: Providers
@@ -287,8 +283,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -484,13 +484,13 @@ overview: 'U.S. Department of Transportation publishes 24 APIs on the [APIs.io](
 random_paper: 16
 score:
   band: developing
-  composite: 50.7
+  composite: 53.0
   coverage:
     artifact_dirs: 26
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -500,9 +500,6 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 25.0
   previous_composite: 50.7
   provenance:
     agentic_access: derived
@@ -520,8 +517,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png
 security:

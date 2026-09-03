@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 6
 apis:
 - description: 'The Nebius Compute API provisions and manages virtual machines and GPU clusters with NVIDIA GPUs and InfiniBand interconnect for ML and AI workloads. Exposed over gRPC and accessed through the nebius '
@@ -206,8 +206,8 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 25.6
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebius/refs/heads/main/screenshots/nebius-2026-06-20T190119.png
 security:

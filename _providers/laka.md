@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 2
 apis:
 - baseURL: https://api-gb.app.laka.co
@@ -81,7 +81,7 @@ apis:
   description: The tasks API from Laka — 1 operation(s) for tasks.
   name: Laka tasks API
   slug: laka-tasks-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -208,7 +208,7 @@ common:
   url: sandbox/laka-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/laka-mcp.yml
 - group: agent
   title: ''
@@ -227,10 +227,6 @@ description: 'Laka is a European InsurTech with deep micro-mobility expertise, i
   headers so the insured party is attributed to the correct regulatory region.'
 image: https://laka.co/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Laka MCP Server
-  slug: laka-mcp-server
 modified: '2026-07-19'
 name: Laka
 nav: Providers
@@ -274,8 +270,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/screenshots/laka-2026-07-25T224431.png
 security:

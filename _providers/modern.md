@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 api_count: 8
 apis:
 - baseURL: https://connect.modernis.com
@@ -76,7 +76,7 @@ apis:
   description: Service work order lifecycle
   name: Modern Work Orders API
   slug: modern-work-orders-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: postman
   name: MODERN Partner API - Documentation
@@ -111,7 +111,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/modern-mcp.yml
 - group: other
   title: ''
@@ -157,10 +157,6 @@ created: '2026-07-17'
 description: Modern (modernis.com) is a two-way customer interaction platform for heavy-equipment dealerships, unifying service communications "from intake to invoice" across construction, agriculture, mining, landscaping, and material-handling sectors. It provides two-way text and email messaging, digital repair-order approvals, inspection and warranty documentation, outbound maintenance scheduling, rental tracking, parts-order status, and DMS integration. The MODERN Partner API (docs.modernis.com, base https://connect.modernis.com) lets authorized integrators read dealership dashboards, manage service work orders, post work-order events, send customer notifications, and maintain technicians and notes on a franchise's behalf using 24-hour bearer tokens exchanged from franchise credentials.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modern.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Modern MCP Server
-  slug: modern-mcp-server
 modified: '2026-07-20'
 name: Modern
 nav: Providers
@@ -198,8 +194,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
 security:

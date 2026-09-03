@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-02'
+  scored_at: '2026-09-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -49,7 +49,10 @@ apis:
   description: The Fal Ai API from Pika — 8 operation(s) for fal ai.
   name: Pika Fal Ai API
   slug: pika-fal-ai-api
-artifact_total: 15
+- description: Pika's official developer access is not hosted by Pika. Pika partnered with fal to serve its Pika 2.2 video models on fal's inference infrastructure, so the pika.art/api page hands developers off to f
+  name: Pika Video Generation API (via fal)
+  slug: pika-art-video-generation-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -118,6 +121,10 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/pika-context.jsonld
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://pika.art/api
 created: '2026-06-12'
 description: Pika is an AI-powered video generation platform that allows users and developers to create, edit, and transform video content using natural language prompts, images, and existing video clips. The platform employs advanced diffusion models to produce short-form videos with realistic motion, smooth camera transitions, and detailed scene composition. Pika offers a suite of AI video tools including text-to-video, image-to-video, scene building (Pikascenes), keyframe interpolation (Pikaframes), and specialized transformation features such as Pikaffects, Pikaswaps, and Pikadditions. Developer API access is provided through a partnership with fal.ai, enabling programmatic integration of Pika's Pika 2.2 video models into applications and workflows.
 examples:
@@ -155,7 +162,7 @@ overview: 'Pika publishes 1 API on the [APIs.io](https://apis.io/) network: Fal 
   The Pika catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Pika''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Pika''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Pika Plans Pricing
   plan_count: 5
@@ -202,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
+  schema_version: 0.18.2
+  scored_at: '2026-09-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/screenshots/pika-2026-06-20T191705.png
 security:
